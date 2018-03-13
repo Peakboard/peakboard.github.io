@@ -1,0 +1,89 @@
+@tailwind preflight;
+
+@import "typography";
+
+@tailwind utilities;
+
+svg {
+  fill: currentColor;
+}
+
+.page-header {
+  width: 100%;
+}
+
+html.stuck {
+  overflow: hidden;
+
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 6rem;
+  }
+
+  .page-header {
+    position: fixed;
+    top: 0;
+  }
+
+  .accordian-icon {
+    z-index: -1;
+  }
+
+  .video-container,
+  iframe {
+    z-index: -1;
+  }
+}
+
+body.stuck {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #787878;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-track:active {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+  display: none;
+  height: 0px;
+  width: 0px;
+}
+
+@import "top_menu";
+@import "accordian";
+@import "article_content";
+@import "syntax_hightlighting.scss";
+@import "lightbox";
+@import "navbar";

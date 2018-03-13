@@ -1,0 +1,101 @@
+.pk-lightbox {
+  &.open {
+    display: block;
+  }
+
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+
+  img.gallery-image {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    max-width: 80vw;
+    max-height: 90vh;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+
+    &.selected {
+      display: block;
+      animation: appear 0.5s ease-in;
+    }
+  }
+
+  .close-lightbox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      color: orange;
+    }
+  }
+
+  .lightbox-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    &.prev {
+      left: 10px;
+    }
+
+    &.next {
+      right: 10px;
+    }
+  }
+
+  .lightbox-dots {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .lightbox-dot {
+      margin: 0 1rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      background: white;
+      border-radius: 50%;
+
+      &.current {
+        background: orange;
+        animation: bulge 0.5s ease-in-out;
+      }
+    }
+  }
+}
+
+@keyframes bulge {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

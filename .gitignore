@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+/node_modules
+/.idea
+/.vscode
+npm-debug.log

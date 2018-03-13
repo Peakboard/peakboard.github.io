@@ -1,0 +1,84 @@
+{% assign collections = site.collections | sort: 'position' %}
+{% for collection in collections %}
+
+{% if collection.label != "posts" %}
+
+<div class="relative px-3 h-12 top-menu-link flex items-center nav-top-link cursor-pointer">
+    <span class="font-light hover:text-orange tracking-wide">{{ collection.title[page.lang] }}
+        <svg height="16"
+             class="align-middle menu-down-caret"
+             viewBox="0 0 24 24"
+             width="24"
+             xmlns="http://www.w3.org/2000/svg"
+        >
+            <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+            <path d="M0-.75h24v24H0z" fill="none"/>
+        </svg>
+    </span>
+
+    {% assign used_categories = "" | split: "" %}
+    {% assign articles=site[collection.label] | where:"lang",page.lang %}
+
+    <div class="dropdown-list bg-grey-darker z-50 flex absolute p-4">
+    <ul class="overflow-auto static w-full list-reset">
+        <li class="flex w-full hover:text-orange inner-menu-close mb-4 text-grey-darkest mb-4 pb-4 xl:hidden items-center border-b border-grey-lighter">
+            {% include left_arrow.svg %}
+            <span>Menu</span>
+        </li>
+        {% for articles in articles %}
+            {% assign parts = articles.path | split: "/" %}
+            {% assign num_parts = articles.path | split: "/" | size %}
+            {% if num_parts == 2 %}
+
+        <li>
+            <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ articles.url | relative_url }}">
+                {{ articles.title | escape }}
+            </a>
+        </li>
+
+            {% else %}
+                {% assign sub_level = parts[1] %}
+                {% assign matched = used_categories | where_exp:"item", "item == sub_level" | size %}
+                {% if matched == 0 %}
+                    {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
+
+        <li class="has-submenu">
+            <p class="py-2 hover:text-orange cursor-pointer text-white flex items-center">
+                {{ sub_level | replace: "_", " " | capitalize }}
+                {% include right_arrow.svg %}
+            </p>
+            <ul class="sub_level_list list-reset pl-4 absolute pin-t pin-b pin-r w-full bg-grey-dark">
+                <li class="sub-level-list-close flex items-center text-white hover:text-orange cursor-pointer mb-4 mt-3">
+                    {% include left_arrow.svg %}
+                    {{ collection.label | capitalize }}
+                </li>
+                    {% for art in all_articles %}
+                        {% assign parts = art.path | split: "/" %}
+                        {% assign num_parts = art.path | split: "/" | size %}
+                        {% if num_parts == 3 and parts[1] == sub_level %}   
+
+                <li>
+                    <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ art.url | relative_url }}">
+                        {{ art.title | escape }}
+                    </a>
+                </li>
+
+                        {% endif %}
+                    {% endfor %}
+
+            </ul>
+        </li>
+
+                    {% assign used_categories = used_categories | push: sub_level %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+    </ul>
+    </div>
+    
+</div>
+
+    {% endif %}
+{% endfor %}
+

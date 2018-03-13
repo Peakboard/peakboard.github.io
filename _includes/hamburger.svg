@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.04 43.04" height="30px">
+    <defs>
+        <style>.cls-1 {
+                fill: none;
+                stroke: #ffffff;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+            }</style>
+    </defs>
+    <line class="cls-1 topline" x1="12.24" y1="13.96" x2="30.8" y2="13.96"/>
+    <line class="cls-1 bottomline" x1="12.24" y1="29.07" x2="30.8" y2="29.07"/>
+    <path class="cls-1 circlepath"
+          d="M4268.12,3388.18h16.37a9.12,9.12,0,0,0,6.9-3,8.05,8.05,0,0,0,1.44-2.35,7.49,7.49,0,0,0-1.83-8,19,19,0,1,0,5.42,13.28,19.22,19.22,0,0,0-5.42-13.28"
+          transform="translate(-4255.89 -3366.67)"/>
+</svg>

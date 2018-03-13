@@ -1,0 +1,23 @@
+.accordian-inner {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in;
+}
+
+.accordian-trigger:checked ~ .accordian-inner {
+  max-height: 46rem;
+}
+
+.accordian-trigger:checked + .accordian-label {
+  color: orange;
+}
+
+.accordian-icon {
+  transition: 0.3s;
+  transform: rotate(0deg);
+  padding-top: 4px;
+}
+
+.accordian-trigger:checked + .accordian-label .accordian-icon {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,30 @@
+<span>
+    <span class="text-sm text-teal-darker uppercase mt-3 mb-1 font-black">Tutorials</span>
+    {% assign used_categories = "" | split: "" %} {% assign tuts=site.tutorials | where:"lang",page.lang %}
+    <ul class="tutorials-list list-reset">
+        {% for tut in tuts %} {% assign parts = tut.path | split: "/" %} {% assign num_parts = tut.path | split: "/" | size %} {%
+        if num_parts == 2 %}
+        <li>
+            <a class="text-grey-dark no-underline" href="{{ tut.url | relative_url }}">
+                {{ tut.title | escape }}
+            </a>
+        </li>
+        {% else %} {% assign sub_level = parts[1] %} {% assign matched = used_categories | where_exp:"item", "item == sub_level"
+        | size %} {% if matched == 0 %} {% assign all_tuts = site.tutorials | where: "lang", page.lang %}
+        <li>
+            <label for="{{ sub_level }}" class="font-black text-grey-dark">{{ sub_level | replace: "_", " " | capitalize }} &or;</label>
+            <input class="menu-trigger" type="checkbox" id="{{ sub_level }}">
+            <ul class="sub_level_list list-reset pl-4">
+                {% for tutorial in all_tuts %} {% assign parts = tutorial.path | split: "/" %} {% assign num_parts = tutorial.path | split:
+                "/" | size %} {% if num_parts == 3 and parts[1] == sub_level %}
+                <li>
+                    <a class="text-grey-dark no-underline" href="{{ tutorial.url | relative_url }}">
+                        {{ tutorial.title | escape }}
+                    </a>
+                </li>
+                {% endif %} {% endfor %}
+            </ul>
+        </li>
+        {% assign used_categories = used_categories | push: sub_level %} {% endif %} {% endif %} {% endfor %}
+    </ul>
+</span>
