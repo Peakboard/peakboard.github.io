@@ -1,8 +1,0 @@
----
-layout: video_article
-lang: de
-ref: tut-2
-youtube_id: MFjGJKTbFhs
----
-
-Direkte Kommunikation zwischen Peakboard-Boxen
