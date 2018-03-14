@@ -16,14 +16,14 @@ Usually, the term “data source” means that data is retrieved from any previo
 
 To create a static data source, proceed as for all other data sources. Simply select “Add General Data” in the Designer. A static data source can be either a value (Single) or a table. The following screenshot shows the maintenance of a single value. The data types String, Number and Boolean are supported.
 
- 
-
+![image_1](/assets/images/Data_Sources/Static_Data/1.-Screenshot.png)
 
 
  
 
 Static data sources of type List are tables. The columns must first be defined here. The following example shows a table with two columns: Code and Message, each of type String.
 
+![image_1](/assets/images/Data_Sources/Static_Data/2.-Screenshot.png)
  
 
 
@@ -34,3 +34,5 @@ Once the columns have been defined, the table can be filled with data. The follo
 
  
 
+![image_1](/assets/images/Data_Sources/Static_Data/3.-Screenshot-300x160.png)
+ 
