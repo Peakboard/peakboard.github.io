@@ -1,16 +1,16 @@
----
+ï»¿---
 layout: article
 lang: de
-ref: Der_Peakboard-Designer_–_Die_Basics
+ref: Der_Peakboard-Designer_â€“_Die_Basics
 ---
 
-Dieses Tutorial benötigt keinerlei Vorkenntnisse. Es zeigt die allerersten Schritte mit Peakboard und erklärt einige theoretische Basics, die man verstanden haben muss, um dann später komplexere Visualisierungen zu bauen. Die grundsätzliche Vorgehensweise ist aber immer dieselbe: Die Visualisierung wird mit Hilfe des Peakboard-Designers gestaltet. Ein Design – oder auch Board genannt – wird dann auf eine oder mehrere Peakboard-Boxen übertragen, auf dem es autark läuft. Alle Artefakte wie Bilder, Videos usw. werden zur Übertragung in ein Package gepackt. Diesen Vorgang nennt man Deployment. Den kompletten Ablauf zeigt dieses Tutorial. Für den Fall, dass Sie noch keine Peakboard-Box besitzen, reicht auch erstmal die Designer-Software, die Sie auf unserer Homepage runterladen können. Das Übertragen des Designs auf die Box fällt dann natürlich weg – macht aber nichts, weil man es auch einfach als Preview auf dem eigenen Rechner betrachten kann.
+Dieses Tutorial benÃ¶tigt keinerlei Vorkenntnisse. Es zeigt die allerersten Schritte mit Peakboard und erklÃ¤rt einige theoretische Basics, die man verstanden haben muss, um dann spÃ¤ter komplexere Visualisierungen zu bauen. Die grundsÃ¤tzliche Vorgehensweise ist aber immer dieselbe: Die Visualisierung wird mit Hilfe des Peakboard-Designers gestaltet. Ein Design â€“ oder auch Board genannt â€“ wird dann auf eine oder mehrere Peakboard-Boxen Ã¼bertragen, auf dem es autark lÃ¤uft. Alle Artefakte wie Bilder, Videos usw. werden zur Ãœbertragung in ein Package gepackt. Diesen Vorgang nennt man Deployment. Den kompletten Ablauf zeigt dieses Tutorial. FÃ¼r den Fall, dass Sie noch keine Peakboard-Box besitzen, reicht auch erstmal die Designer-Software, die Sie auf unserer Homepage runterladen kÃ¶nnen. Das Ãœbertragen des Designs auf die Box fÃ¤llt dann natÃ¼rlich weg â€“ macht aber nichts, weil man es auch einfach als Preview auf dem eigenen Rechner betrachten kann.
 
-Das Installationsprogramm funktioniert wie jedes andere Installationsprogramm auch und legt das Designer-Programm im Installationsordner ab. Um den Designer zu starten, können Sie auf das Programm-Icon klicken oder auf die Windows-Taste und dann „peak“ eintippen. Windows 10 findet den Verweis dann. Achtung! Starten Sie bitte nicht Peakboard.Runtime-App. Dazu kommen wir später.
+Das Installationsprogramm funktioniert wie jedes andere Installationsprogramm auch und legt das Designer-Programm im Installationsordner ab. Um den Designer zu starten, kÃ¶nnen Sie auf das Programm-Icon klicken oder auf die Windows-Taste und dann â€peakâ€œ eintippen. Windows 10 findet den Verweis dann. Achtung! Starten Sie bitte nicht Peakboard.Runtime-App. Dazu kommen wir spÃ¤ter.
 
 ![image_1](/assets/images/TutorialBasics01.png)
 
-Im gestarteten Designer sehen Sie nun auf der linken Seite den Package-Explorer, also alle Elemente, die später auf die Peakboard-Box übertragen werden. In der Mitte ist das leere Panel, das wir nun mit Leben füllen wollen. Der rechte obere Bereich sind Controls oder visuelle Elemente, die aus der Toolbox per Drag and Drop auf das Panel gezogen werden können. Rechts unten können Sie Eigenschaften des Panel-Elements verändern, das gerade markiert ist.
+Im gestarteten Designer sehen Sie nun auf der linken Seite den Package-Explorer, also alle Elemente, die spÃ¤ter auf die Peakboard-Box Ã¼bertragen werden. In der Mitte ist das leere Panel, das wir nun mit Leben fÃ¼llen wollen. Der rechte obere Bereich sind Controls oder visuelle Elemente, die aus der Toolbox per Drag and Drop auf das Panel gezogen werden kÃ¶nnen. Rechts unten kÃ¶nnen Sie Eigenschaften des Panel-Elements verÃ¤ndern, das gerade markiert ist.
 
 ![image_1](/assets/images/TutorialBasics02.png)
 
@@ -18,31 +18,31 @@ Wir wollen mit einem einfachen Textblock starten. Ziehen Sie mit der Maus ein Te
 
 ![image_1](/assets/images/TutorialBasics03.png)
 
-Unten rechts können Sie im Eigenschaftsfeld nun den Textblock anpassen, z.B. den Font auswählen (wie man einen neuen Font hinzufügt erfahren Sie später) und noch viel wichtiger: Den Inhalt mit einer sinnvollen Nachricht füllen.
+Unten rechts kÃ¶nnen Sie im Eigenschaftsfeld nun den Textblock anpassen, z.B. den Font auswÃ¤hlen (wie man einen neuen Font hinzufÃ¼gt erfahren Sie spÃ¤ter) und noch viel wichtiger: Den Inhalt mit einer sinnvollen Nachricht fÃ¼llen.
 
 ![image_1](/assets/images/TutorialBasics04.png)
 
-Um das Panel um ein Bild zu ergänzen, müssen wir das Bild als Ressource hinzufügen. Im Package Explorer auf der linken Seite mit der rechten Maustaste auf Resources klicken und dann auf Add Resource. Sie können nun ein Bild von ihrem lokalen PC aussuchen, z.B. ein schönes Urlaubsfoto, ein Firmenlogo oder ein Hundewelpe. Das Bild erscheint dann als Eintrag unter dem Ressourcen-Zweig.
+Um das Panel um ein Bild zu ergÃ¤nzen, mÃ¼ssen wir das Bild als Ressource hinzufÃ¼gen. Im Package Explorer auf der linken Seite mit der rechten Maustaste auf Resources klicken und dann auf Add Resource. Sie kÃ¶nnen nun ein Bild von ihrem lokalen PC aussuchen, z.B. ein schÃ¶nes Urlaubsfoto, ein Firmenlogo oder ein Hundewelpe. Das Bild erscheint dann als Eintrag unter dem Ressourcen-Zweig.
 
 ![image_1](/assets/images/TutorialBasics05.png)
 
 ![image_1](/assets/images/TutorialBasics06.png)
 
-Um das Bild nun auf das Panel zu bekommen, ziehen Sie per Drag and Drop ein Image-Control von der Toolbox auf das Panel, so wie wir das mit dem Textfeld gemacht haben. Markieren Sie das neue erstellte Image-Control und klicken Sie auf die drei Punkte in den Eigenschaften unten rechts. Dann öffnet sich der Dialog zum Aussuchen einer Ressource so wie im Screenshot gezeigt. Sie haben nun das Image-Control mit der Ressource verknüpft.
+Um das Bild nun auf das Panel zu bekommen, ziehen Sie per Drag and Drop ein Image-Control von der Toolbox auf das Panel, so wie wir das mit dem Textfeld gemacht haben. Markieren Sie das neue erstellte Image-Control und klicken Sie auf die drei Punkte in den Eigenschaften unten rechts. Dann Ã¶ffnet sich der Dialog zum Aussuchen einer Ressource so wie im Screenshot gezeigt. Sie haben nun das Image-Control mit der Ressource verknÃ¼pft.
 
 ![image_1](/assets/images/TutorialBasics07.png)
 
-Alternativ dazu können sie auch direkt die Ressource auf das Panel ziehen.
+Alternativ dazu kÃ¶nnen sie auch direkt die Ressource auf das Panel ziehen.
 
-Sie können nun die beiden Elemente – das Textfeld und das Bild – noch etwas hübscher anordnen. Die Hilfslinien, die automatisch eingeblendet werden, helfen Ihnen dabei die Elemente so zu platzieren, dass es gut aussieht.
+Sie kÃ¶nnen nun die beiden Elemente â€“ das Textfeld und das Bild â€“ noch etwas hÃ¼bscher anordnen. Die Hilfslinien, die automatisch eingeblendet werden, helfen Ihnen dabei die Elemente so zu platzieren, dass es gut aussieht.
 
 ![image_1](/assets/images/TutorialBasics08.png)
 
-Um nun zu erfahren, wie ihr fertiges Design später auf dem Monitor aussieht, klicken Sie in der Toolbar auf Preview. Es öffnet sich das Preview-Fenster. In unserem Fall ist das noch nicht ganz so spannend, weil wir ja nur unveränderliche Inhalte benutzt haben. Aber in späteren Beispielen werden wir Boards bauen, die Interaktion oder dynamische Daten enthalten. Um die Dynamik zu sehen und auszuprobieren, braucht man entweder die Preview-Ansicht oder muss das Board auf eine Box übertragen.
+Um nun zu erfahren, wie ihr fertiges Design spÃ¤ter auf dem Monitor aussieht, klicken Sie in der Toolbar auf Preview. Es Ã¶ffnet sich das Preview-Fenster. In unserem Fall ist das noch nicht ganz so spannend, weil wir ja nur unverÃ¤nderliche Inhalte benutzt haben. Aber in spÃ¤teren Beispielen werden wir Boards bauen, die Interaktion oder dynamische Daten enthalten. Um die Dynamik zu sehen und auszuprobieren, braucht man entweder die Preview-Ansicht oder muss das Board auf eine Box Ã¼bertragen.
 
 ![image_1](/assets/images/TutorialBasics09.png)
 
-Unter dem folgenden Link erfahren Sie mehr darüber, wie das neu erstellte Design auf die Peakboard-Box übertragen und aktiviert wird:
+Unter dem folgenden Link erfahren Sie mehr darÃ¼ber, wie das neu erstellte Design auf die Peakboard-Box Ã¼bertragen und aktiviert wird:
 
 Erste Schritte mit der Peakboard-Box
 
