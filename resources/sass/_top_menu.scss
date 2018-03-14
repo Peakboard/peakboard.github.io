@@ -2,6 +2,15 @@
   display: none;
 }
 
+.no-js .navbar-inner {
+  opacity: 0;
+}
+
+.navbar-inner {
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+
 .dropdown-list {
   top: 100%;
   left: 50%;
@@ -52,7 +61,9 @@
     }
   }
 
-  .top-menu-link:hover {
+  .top-menu-link:hover,
+  .top-menu-link.exposed {
+    color: #f68510;
     &:after {
       transition: 0.4s ease-in-out;
       transform: rotateY(0deg);

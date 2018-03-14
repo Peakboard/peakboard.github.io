@@ -1,4 +1,8 @@
 @media screen and (max-width: 1290px) {
+  .no-js .menu-trigger {
+    display: none;
+  }
+
   .navbar {
     position: fixed;
     width: 100vw;

@@ -1,17 +1,20 @@
 @font-face {
   font-family: "hel-neue";
-  src: url("/assets/fonts/HelveticaNeueLight.ttf");
+  src: url("/assets/fonts/HelveticaNeueLight.woff2"),
+    url("/assets/fonts/HelveticaNeueLight.woff");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "hel-neue";
-  src: url("/assets/fonts/HelveticaNeueMedium.ttf");
+  src: url("/assets/fonts/HelveticaNeue.woff2"),
+    url("/assets/fonts/HelveticaNeue.woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "hel-neue";
-  src: url("/assets/fonts/HelveticaNeueBold.ttf");
+  src: url("/assets/fonts/HelveticaNeueBold.woff2")
+    url("/assets/fonts/HelveticaNeueBold.woff");
   font-weight: 700;
 }

@@ -108,5 +108,11 @@ export default {
         this.closeSubmenus();
       })
     );
+
+    document.body.addEventListener("click", ev => {
+      if (!this.els.navbar.contains(ev.target)) {
+        this.closeAllMenus();
+      }
+    });
   }
 };
