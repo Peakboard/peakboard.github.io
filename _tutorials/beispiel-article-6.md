@@ -1,5 +1,6 @@
 ﻿---
 layout: article
+title: Test Title
 lang: de
 ref: tut-3
 ---
