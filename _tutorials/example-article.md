@@ -1,8 +1,8 @@
----
+﻿---
 layout: article
 lang: en
 ref: tut-1
-title: Helpful Example Article
+title: Helpful Example Article 2
 description: A very helpfukl article about a Peakboard product or service
 ---
 
