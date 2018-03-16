@@ -12,7 +12,7 @@ The following screenshot shows a table with three columns that can consist of th
 
  
 
-DatenquelleLUA01
+ ![image_1](/assets/images/Data_Sources/datasources-lua-script/DatenquelleLUA01.png)
 
  
 
@@ -20,8 +20,8 @@ In the code block itself, only one JSON-String is then assembled, which is then 
 
  
 
-DatenquelleLUA02
 
+ ![image_1](/assets/images/Data_Sources/datasources-lua-script/DatenquelleLUA02.png)
  
 
 Here again for all those who want to copy the example, the original code. Random function generates random numbers:
@@ -29,7 +29,7 @@ Here again for all those who want to copy the example, the original code. Random
  
 
  
-``` 
+```lua 
 local json = '['
  
 for j = 1, math.random(2, 4) do

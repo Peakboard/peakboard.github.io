@@ -15,13 +15,12 @@ By default, the Time data source accesses the Windows time server on the Interne
 
 To use a local Windows computer as a time server, a registry entry must be adjusted.
 To do this, the value **[Enabled]** must first be set to 1 (true) in the following folder registry:
-```
-HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\Time\Time\TimeProviders\NtpServer\ 
-```
+
+`HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\Time\Time\TimeProviders\NtpServer\` 
 
 
 Afterwards, the Command window must be executed as an administrator and the following command entered:
-**w32tm /config /update**
+`w32tm /config /update`
 
  
 
