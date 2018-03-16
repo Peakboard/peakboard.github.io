@@ -1,11 +1,14 @@
 ---
 layout: article
+title: Static Data
+menu_title: Static Data
+description: Informatinon about static data in Peakboard
 lang: en
-ref: tut-8
+ref: dat-1
 ---
 
 
-Usually, the term “data source” means that data is retrieved from any previous system, be it a database, an ERP system or simply from the web with the help of a generic source such as JSon or XML. In Peakboard, static data is also referred to as a “data source”, which is characterized by the fact that the data does not originate from another location, but is stored locally in the Package. There are two main reasons why you need these static data sources:
+Usually, the term “data source” means that data is retrieved from any previous system, be it a database, an ERP system or simply from the web with the help of a generic source such as JSON or XML. In Peakboard, static data is also referred to as a “data source”, which is characterized by the fact that the data does not originate from another location, but is stored locally in the Package. There are two main reasons why you need these static data sources:
 
  
 
@@ -34,5 +37,5 @@ Once the columns have been defined, the table can be filled with data. The follo
 
  
 
-![image_1](/assets/images/Data_Sources/Static_Data/3.-Screenshot-300x160.png)
+![image_1](/assets/images/Data_Sources/Static_Data/3.-Screenshot.png)
  
