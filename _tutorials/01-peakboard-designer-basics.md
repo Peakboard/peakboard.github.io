@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 lang: de
 ref: peakboard-designer-basics
