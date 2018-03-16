@@ -25,14 +25,14 @@
             {% include left_arrow.svg %}
             <span>Menu</span>
         </li>
-        {% for articles in articles %}
-            {% assign parts = articles.path | split: "/" %}
-            {% assign num_parts = articles.path | split: "/" | size %}
+        {% for article in articles %}
+            {% assign parts = article.path | split: "/" %}
+            {% assign num_parts = article.path | split: "/" | size %}
             {% if num_parts == 2 %}
 
         <li>
-            <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ articles.url | relative_url }}">
-                {{ articles.title | escape }}
+            <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ article.url | relative_url }}">
+                {{ article.menu_title | default: article.title | escape }}
             </a>
         </li>
 
@@ -59,7 +59,7 @@
 
                 <li>
                     <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ art.url | relative_url }}">
-                        {{ art.title | escape }}
+                        {{ art.menu_title | default: art.title | escape }}
                     </a>
                 </li>
 

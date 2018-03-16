@@ -4,6 +4,7 @@ Articles are added by creating a new file in the respective directory. For examp
 
 There are some important conventions to note.
 
+* The filename should not contain spaces. Use either underscores or dashes in place of spaces.
 * The filename will be used in the url (and possibly title), so it should be descriptive of the article (you can just use the title), but written in kebab case.
 * Articles will appear alhpabetically in their categories.
 * The filename should ideally be in the language the article is written in.
@@ -18,6 +19,7 @@ Each file you create for an article should contain "front matter", which is just
 ---
 layout: article // for video tutorials use video_article
 title: The article title // if this is missing, the filename will be used to create a title
+menu_title: The title to appear in the menu // alows for shorter titles in menu, main title is fallback
 description: A brief description of the article (around 160 characters)
 lang: en // the language code (e.g. german = de)
 ref: [unique id for article] // translations will have the same id
@@ -29,6 +31,7 @@ This front matter must contain the following fields:
 
 * layout - Tells the site what page template to use. Use `article` for all artilces and `video_article` for video tutorials
 * title - this is used as the article's title
+* menu_title - this allows you to use a different title in the menu bar in case you need to save space. If not included, the main title will be used.
 * description - a description of the article, important for search engines.
 * lang - the language code for the articles language (either en or de for now)
 * ref - a unique id for the article. It must be unique for the whole category, even if in a nested directory. Can be a string or number/int. This ref is used to identify translations, and translated articles should share the same ids.
