@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: Test Title
 lang: de
