@@ -3,6 +3,7 @@ layout: video_article
 lang: de
 ref: Erste_Schritte_mit_dem_Peakboard_Designer
 title: Erste Schritte mit dem Peakboard Designer
+menu_title: Der Peakboard Designer: Erte Schritte
 youtube_id: 9tdEspaOJ80
 ---
 
