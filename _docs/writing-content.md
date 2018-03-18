@@ -1,3 +1,25 @@
+---
+layout: article
+title: Writing Content
+menu_title: Writing Content
+description: test
+lang: en
+ref: help-1
+---
+
+ - ### Table of Contents
+
+    + [Creating and editing content](#creating-and-editing-content)
+    + [Images](#images)
+    + [Videos](#videos)
+    + [Alerts and Callouts](#alerts-and-callouts)
+    + [Code and syntax highlighting](#code-and-syntax-highlighting)
+    + [Lists](#lists)
+    + [Footnotes](#footnotes)
+
+
+
+
 # Creating and editing content
 
 You can use either markdown or html to write and edit the article contents. Remember that you can always use raw html directly in the markdown.
@@ -18,7 +40,7 @@ For example, if the image named `pb_screenshot.jpg` has been placed directly in 
 
 Should you have the need to use video outside of a "Video Tutorial", you can paste in the embed code from YouTube directly as html.
 
-### Alerts/Callouts
+### Alerts and Callouts
 
 For any content that you would like to draw attention to, you may use blockquotes, which will for styled as a general warning/alert. To do this in mardown, it would look like this:
 
@@ -46,6 +68,11 @@ Additionally you may paste in html with a specific class to get more appropriate
 </blockquote>
 ```
 
+> ## Optional heading
+>
+> The content of the warning, or whatever info is important to note.
+> May be more than one line.
+
 ### Code and syntax highlighting
 
 Adding code sections in markdown is done with backticks. One `` `backtick` `` for inline code, and three backticks for code blocks blocks.
@@ -65,3 +92,32 @@ For code blocks you may add the name of the language after the opening backticks
        some lua code, which will be all colorful and pretty
     ```
 ````
+
+### Lists
+
+1. This is a list item
+2. this is another list item
+3. this is another list item
+
+``` markdown
+  1. This is a list item
+  2. this is another list item
+  3. this is another list item
+```
+
+### Footnotes
+
+```markdown
+
+This is a text with a
+footnote[^1].
+
+[^1]: And here is the definition.
+
+```
+
+
+This is a text with a
+footnote[^1].
+
+[^1]: And here is the definition.
