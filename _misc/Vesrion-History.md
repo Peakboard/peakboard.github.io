@@ -7,7 +7,6 @@ lang: en
 ref: misc-06
 ---
 
-
 ## 1.0.18.0 (06.03.2018)
 
 * Enhancements to the OPC UA data source
