@@ -5,7 +5,6 @@ ref: peakboard-designer-basics
 menu_title: Peakboard Designer - Die Basics
 title: Peakboard Designer - Die Basics
 ---
-
 Dieses Tutorial benötigt keinerlei Vorkenntnisse. Es zeigt die allerersten Schritte mit Peakboard und erklärt einige theoretische Basics, die man verstanden haben muss, um dann später komplexere Visualisierungen zu bauen. Die grundsätzliche Vorgehensweise ist aber immer dieselbe: Die Visualisierung wird mit Hilfe des Peakboard-Designers gestaltet. Ein Design – oder auch Board genannt – wird dann auf eine oder mehrere Peakboard-Boxen übertragen, auf dem es autark läuft. Alle Artefakte wie Bilder, Videos usw. werden zur Übertragung in ein Package gepackt. Diesen Vorgang nennt man Deployment. Den kompletten Ablauf zeigt dieses Tutorial. Für den Fall, dass Sie noch keine Peakboard-Box besitzen, reicht auch erstmal die Designer-Software, die Sie auf unserer Homepage runterladen können. Das Übertragen des Designs auf die Box fällt dann natürlich weg – macht aber nichts, weil man es auch einfach als Preview auf dem eigenen Rechner betrachten kann.
 
 Das Installationsprogramm funktioniert wie jedes andere Installationsprogramm auch und legt das Designer-Programm im Installationsordner ab. Um den Designer zu starten, können Sie auf das Programm-Icon klicken oder auf die Windows-Taste und dann „peak“ eintippen. Windows 10 findet den Verweis dann. Achtung! Starten Sie bitte nicht Peakboard.Runtime-App. Dazu kommen wir später.

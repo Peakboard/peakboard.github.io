@@ -6,7 +6,6 @@ description: Connecting the Peakboard-Box to WPA2 Enterprise WiFi
 lang: en
 ref: admin-3
 ---
-
 First, a connection to the Box must be established via PowerShell.
 
 Start Windows Remote Administration Service on the client PC.

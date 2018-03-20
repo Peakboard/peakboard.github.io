@@ -6,8 +6,6 @@ description: Peakboard Designer - The Basics
 lang: en
 ref: tut-1
 ---
-
-
 This tutorial does not require any previous knowledge. It shows the very first steps with Peakboard and explains some theoretical basics that you need to understand in order to build more complex visualizations later on. However, the basic approach is always the same: The visualization is created with the help of the Peakboard Designer. A design – also known as a board – is then transferred to one or more Peakboard boxes on which it runs independently. All artifacts such as images, videos, etc. are packed into a package for transfer. This process is called deployment. This tutorial shows the complete procedure. In case you don’t have a Peakboard-Box yet, the designer software, which you can download on our homepage, is sufficient. The transfer of the design to the box is no longer necessary, of course – but it doesn’t matter, because you can also view it as a preview on your own computer.
 
 The installer works like any other installer and stores the designer program in the installation folder. To start the Designer, you can click on the program icon or press the Windows key and type “peak”. Windows 10 will then find the link. Attention! Please do not start Peakboard. runtime app. We’ll get to that later.
@@ -35,8 +33,6 @@ To add an image to the panel, we must add the image as a resource. In the Packag
 
 To get the picture onto the panel, drag and drop an image control from the toolbox onto the panel, as we did with the text field. Select the new created image control and click on the three points in the properties at the bottom right. Then the dialog box for selecting a resource opens as shown in the screenshot. You have now linked the image control to the resource.
 
-
-
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics07.png)
 
 Alternatively, you can drag the resource directly to the panel.
@@ -44,8 +40,6 @@ Alternatively, you can drag the resource directly to the panel.
 You can now arrange the two elements – the text field and the image – a little more nicely. The guides that appear automatically help you place the items so that they look good.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics08.png)
-
-
 
 To find out what your finished design will look like on the monitor, click on Preview in the toolbar. The preview window opens. In our case, this is not yet quite so exciting, because we have only used unchangeable content. But in later examples we will build boards that contain interaction or dynamic data. To see and try out the dynamics, you either need the preview view or you have to transfer the board to a box.
 

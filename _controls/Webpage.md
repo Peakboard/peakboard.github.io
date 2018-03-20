@@ -9,16 +9,7 @@ ref: con-8
 The Webpage Control has the simple task of displaying web pages. It is practically a freely positionable browser. The most important property is Source. It contains the URL to be displayed, starting with http or https. Apart from the pure page, all other elements like CSS files, images etc. are loaded accordingly. The Refresh Time property is the time span in seconds after which the Control refreshes the page. It is worth mentioning that the rendering engine of Microsoft Edge, the browser introduced with Windows 10, is used for rendering the page. Depending on the complexity of the page, this must be taken into account when designing the HTML code.
 
 
-
-
-
-
-
 The following screenshot shows the panel from above and shows the desired website.
-
-
-
-
 
 
 

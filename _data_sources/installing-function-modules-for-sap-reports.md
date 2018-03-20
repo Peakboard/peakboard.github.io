@@ -13,9 +13,8 @@ If you cannot do this yourself, ask a colleague from your SAP Basis department t
 ![image_1](/assets/images/Data_Sources/SAP/Report-CustomFunction-01.png)
 
 ![image_1](/assets/images/Data_Sources/SAP/Report-CustomFunction-02.png)
- 
+
 ![image_1](/assets/images/Data_Sources/SAP/Report-CustomFunction-03.png)
  
-
 Please copy the source code by Ctrl+C and Ctrl+V from this text file into the code editor (Source Code tab). Save the module and activate it. Now it is ready for use.
 The individual steps (program execution, spool retrieval, job monitoring, and so on) are documented in the code accordingly. This makes it easy for the inclined reader to find out how the ABAP code works.

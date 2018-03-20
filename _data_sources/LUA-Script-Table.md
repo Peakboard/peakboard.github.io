@@ -10,28 +10,17 @@ The data source LUA Script Table differs slightly from the classic data sources.
 
 The following screenshot shows a table with three columns that can consist of the three elementary LUA data sources: Number, string or boolean. Creating the columns is trivial and self-explanatory. In the reload interval, you define how often the script is to be executed.
 
- 
-
  ![image_1](/assets/images/Data_Sources/datasources-lua-script/DatenquelleLUA01.png)
-
- 
 
 In the code block itself, only one JSON-String is then assembled, which is then returned once as a return value.
 
- 
-
-
  ![image_1](/assets/images/Data_Sources/datasources-lua-script/DatenquelleLUA02.png)
- 
 
 Here again for all those who want to copy the example, the original code. Random function generates random numbers:
-
  
-
- 
-```lua 
+```lua
 local json = '['
- 
+
 for j = 1, math.random(2, 4) do
  for i = 10, math.random(10, 15) do
  local r = math.random(10, 70)

@@ -14,18 +14,10 @@ You can edit, copy or remove a font using the corresponding button.
 To create a new font, click the Add button.
 A new window opens in which you can adjust the font and confirm with OK.
 
-
-
 ![image_1](/assets/images/misc/fonts/Schriftarten1.png)
-
-
 
 If a font has been created, you can assign it to a control. To do this, select the font in the lower right area.
 
-
-
 ![image_1](/assets/images/misc/fonts/Schriftarten2.png)
-
-
 
 Under this [link]() you can see how to add more fonts.

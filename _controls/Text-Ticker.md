@@ -1,20 +1,16 @@
 ---
-layout: article 
+layout: article
 title: Text-Ticker
 menu_title: Text-Ticker
 description: Information about Peakboard Designer Text-TickerControl.
-lang: en 
+lang: en
 ref: con-3
 ---
-
-
 The Text Ticker Control is intended to display a scrolling text. Please note the following general additional information:
-
- 
 
 [General Properties]()
 
-[Managing font formats with Font Manager]() 
+[Managing font formats with Font Manager]()
 
 [Scripts in dynamic properties]()
 

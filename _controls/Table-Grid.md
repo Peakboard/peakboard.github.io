@@ -6,10 +6,7 @@ description: Information about Peakboard Designer Table Grid Control.
 lang: en
 ref: con-4
 ---
-
 The Control Table Grid is used to display data in tabular form. Besides the simple text block, it is the most frequently used Control. Please note the following general information and recurring operating patterns for controls:
-
-
 
 [General Properties]()
 
@@ -19,24 +16,13 @@ The Control Table Grid is used to display data in tabular form. Besides the simp
 
 [Formatting Values]()
 
-
-
 After a table grid has been dragged and dropped from the Toolbox to the top right of the screen, it is connected to a table data source using the Source property. This automatically creates columns in the table control that correspond to the original data source and can then be easily modified. A double-click on the Control opens the column dialog. Here you can configure the individual columns, e. g. their position with the small arrow keys, the caption or the width. The width is defined in pixels. “Auto” automatically defines the width so that it is always as wide as the widest content. A * in the width is dynamic. The complete available space is simply divided evenly among all -columns. Therefore, * is also the default setting for all columns.
-
-
 
 ![image_1](/assets/images/Controls/Table-Grid/ControlsTableGrid01.png)
 
-
-
-
 Less frequently used column properties are hidden behind the Edit button, e. g. the value formatting function.
 
-
-
 ![image_1](/assets/images/Controls/Table-Grid/ControlsTableGrid02.png)
-
-
 
 Below is a list of all properties that have not already been discussed under the links above.
 

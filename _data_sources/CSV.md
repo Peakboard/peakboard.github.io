@@ -1,12 +1,11 @@
 ---
 layout: article
-title: CSV	
+title: CSV
 menu_title: CSV
 description: Informatinon about CSV Data  in Peakboard
 lang: en
 ref: dat-5
 ---
-
 This article explains how to handle the data source for data in CSV format. The exact specification and further information about CSV can be found [here.](https://en.wikipedia.org/wiki/Comma-separated_values)
 
 A nice example of CSV data can be found under this URL: [http://mysafeinfo.com/api/data?list=presidents&format=csv](http://mysafeinfo.com/api/data?list=presidents&format=csv) It lists all American presidents.
