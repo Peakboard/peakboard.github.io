@@ -12,6 +12,8 @@ The installer works like any other installer and stores the designer program in 
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics01.png)
 
+
+
 In the started designer you will now see the Package Explorer on the left-hand side, i. e. all elements which will be transferred to the Peakboard-Box later. In the middle is the empty panel, which we now want to fill with life. The upper right area is used for controls or visual elements that can be dragged and dropped from the toolbox onto the panel. At the bottom right you can change properties of the panel element that is currently selected.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics02.png)
