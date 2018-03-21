@@ -15,18 +15,24 @@ To access your own Power BI dashboards, you need to log in with your Microsoft a
 
 1. **Create an Azure Active Directory:**
 
-  * Log in to the Azure Management Portal ([http://manage.windowsazure.com](http://manage.windowsazure.com)) with your Microsoft account.
-  * Select “Active Directory” in the navigation bar and click on “New”.
-  * Fill in all necessary fields in the dialog box
+    * Log in to the Azure Management Portal ([http://manage.windowsazure.com](http://manage.windowsazure.com)) with your
+    Microsoft account.
+    * Select “Active Directory” in the navigation bar and click on “New”.
+    * Fill in all necessary fields in the dialog box
 
 2. **Register an app in the Active Directory:**
 
- 1. Select an Active Directory in which you want to register the app.
- 2. In the Active Directory navigation bar, select “Applications” and click on “Add”, then select “Add an application my organization is developing”.
- 3. In the dialog box, enter a name (e. g. PeakBoard or Power BI).
- 4. Select Native Client Application.
- 5. Enter `https://login.live.com/oauth20_desktop.` srf as the redirect URL and confirm.
- 6. Assign Power BI access rights to the app.
+    1. Select an Active Directory in which you want to register the app.
+
+    2. In the Active Directory navigation bar, select “Applications” and click on “Add”, then select “Add an application my organization is developing”.
+
+    3. In the dialog box, enter a name (e. g. PeakBoard or Power BI).
+
+    4. Select Native Client Application.
+
+    5. Enter `https://login.live.com/oauth20_desktop.` srf as the redirect URL and confirm.
+    
+    6. Assign Power BI access rights to the app.
 
 ![image_1](/assets/images/Controls/Controls-Power/controlspowerbi02.png)
 
