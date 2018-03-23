@@ -2,7 +2,7 @@
 layout: article
 title: Excel
 menu_title: Excel
-description: Informatinon about Excel Data in Peakboard
+description: Information about Excel Data in Peakboard
 lang: en
 ref: dat-13
 ---

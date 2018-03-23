@@ -2,7 +2,7 @@
 layout: article
 title: LUA Script Data
 menu_title: LUA Script Data
-description: Informatinon about LUA Script Data  in Peakboard
+description: Information about LUA Script Data  in Peakboard
 lang: en
 ref: dat-3
 ---
@@ -17,7 +17,7 @@ In the code block itself, only one JSON-String is then assembled, which is then 
  ![image_1](/assets/images/Data_Sources/datasources-lua-script/DatenquelleLUA02.png)
 
 Here again for all those who want to copy the example, the original code. Random function generates random numbers:
- 
+
 ```lua
 local json = '['
 

@@ -2,7 +2,7 @@
 layout: article
 title: Siemens S7
 menu_title: Siemens S7
-description: Informatinon about Siemens S7 Data in Peakboard
+description: Information about Siemens S7 Data in Peakboard
 lang: en
 ref: dat-21
 ---

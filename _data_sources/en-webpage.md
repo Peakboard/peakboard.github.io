@@ -2,7 +2,7 @@
 layout: article
 title: Webpage
 menu_title: Webpage
-description: Informatinon about Webpage Data in Peakboard
+description: Information about Webpage Data in Peakboard
 lang: en
 ref: dat-9
 ---

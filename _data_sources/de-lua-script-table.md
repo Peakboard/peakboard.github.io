@@ -2,7 +2,7 @@
 layout: article
 title: LUA Script Data
 menu_title: LUA Script Data
-description: Informatinon über LUA Script Daten  in Peakboard
+description: Information über LUA Script Daten  in Peakboard
 lang: de
 ref: dat-003
 ---

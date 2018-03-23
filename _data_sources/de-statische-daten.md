@@ -2,7 +2,7 @@
 layout: article
 title: Statische Daten
 menu_title: Statische Daten
-description: Informationen über Statische Daten in Peakboard
+description: Information über Statische Daten in Peakboard
 lang: de
 ref: dat-001
 ---

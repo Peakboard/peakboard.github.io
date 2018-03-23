@@ -2,7 +2,7 @@
 layout: article
 title: Instagram
 menu_title: Instagram
-description: Informatinon about Instagram Data in Peakboard
+description: Information about Instagram Data in Peakboard
 lang: en
 ref: dat-16
 ---

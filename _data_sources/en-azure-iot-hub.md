@@ -2,7 +2,7 @@
 layout: article
 title: Azure IoT Hub
 menu_title: Azure IoT Hub
-description: Informatinon about Azure IoT Hub Data in Peakboard
+description: Information about Azure IoT Hub Data in Peakboard
 lang: en
 ref: dat-20
 ---

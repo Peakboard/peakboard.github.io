@@ -2,7 +2,7 @@
 layout: article
 title: Twitter
 menu_title: Twitter
-description: Informatinon about Twitter Data in Peakboard
+description: Information about Twitter Data in Peakboard
 lang: en
 ref: dat-17
 ---

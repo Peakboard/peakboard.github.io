@@ -2,7 +2,7 @@
 layout: article
 title: Static Data
 menu_title: Static Data
-description: Informatinon about static data in Peakboard
+description: Information about static data in Peakboard
 lang: en
 ref: dat-1
 ---

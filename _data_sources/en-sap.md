@@ -2,7 +2,7 @@
 layout: article
 title: SAP
 menu_title: SAP
-description: Informatinon about SAP Data in Peakboard
+description: Information about SAP Data in Peakboard
 lang: en
 ref: dat-10
 ---
@@ -18,13 +18,13 @@ The connection to SAP can be implemented in various ways. Which of these is best
 
 **SAP Gateway**
 
-:	The SAP Gateway is a module within SAP that can be accessed using transaction code SEGW. There, RFC function modules are usually provided as an OData  service. You can find an introduction to SAP Gateway either via Google or here. To connect to a gateway service using Peakboard, you need at leastthe URL of the service and the name of the entity set. Please note that a big disadvantage of this access method is the development effort that might be necessary on the gateway side.
+:	The SAP Gateway is a module within SAP that can be accessed using transaction code SEGW. There, RFC function modules are usually provided as an OData  service. You can find an introduction to SAP Gateway either via Google or [here](https://blogs.sap.com/2013/01/24/a-simple-overview-on-sap-netweaver-gateway/). To connect to a gateway service using Peakboard, you need at leastthe URL of the service and the name of the entity set. Please note that a big disadvantage of this access method is the development effort that might be necessary on the gateway side.
 
 **Peakboard-Bridge**
 
 :	In the first generation of Peakboard, the bridge was needed to communicate with SAP. Since the second generation (approx. May 2017) this feature is obsolete and should no longer be used.
 
-# Access via “Direct RFC”
+## Access via “Direct RFC”
 To connect the data source to SAP, the fields Client, User Name, Password, and Language (with the usual SAP language code) must be filled in. The tab page ‘Direct RFC’ must also be activated. On this tab page, enter the SAP application server and the system number.
 
 ![image_1](/assets/images/Data_Sources/SAP/SAP01.png)
@@ -39,7 +39,7 @@ The next steps are the Load button to load the columns or metadata and the Previ
 
 ![image_1](/assets/images/Data_Sources/SAP/SAP04.png)
 
-# Access via SAP Gateway
+## Access via SAP Gateway
 
 Access is based on a gateway service that returns a list of all users currently logged in. The following screenshot shows the service in the draft view of transaction SEGW:
 

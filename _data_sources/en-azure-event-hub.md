@@ -2,7 +2,7 @@
 layout: article
 title: Azure Event Hub
 menu_title: Azure Event Hub
-description: Informatinon about Azure Event Hub Data in Peakboard
+description: Information about Azure Event Hub Data in Peakboard
 lang: en
 ref: dat-19
 ---

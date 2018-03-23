@@ -2,7 +2,7 @@
 layout: article
 title: JSON
 menu_title: JSON
-description: Informatinon about JSON Data  in Peakboard
+description: Information about JSON Data  in Peakboard
 lang: en
 ref: dat-6
 ---

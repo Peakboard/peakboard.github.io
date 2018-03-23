@@ -2,7 +2,7 @@
 layout: article
 title: MS SQL Server
 menu_title: MS SQL Server
-description: Informatinon about MS SQL Server Data in Peakboard
+description: Information about MS SQL Server Data in Peakboard
 lang: en
 ref: dat-12
 ---

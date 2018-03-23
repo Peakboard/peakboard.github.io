@@ -2,7 +2,7 @@
 layout: article
 title: MQTT-Broker
 menu_title: MQTT-Broker
-description: Informatinon about MQTT-Broker Data in Peakboard
+description: Information about MQTT-Broker Data in Peakboard
 lang: en
 ref: dat-18
 ---

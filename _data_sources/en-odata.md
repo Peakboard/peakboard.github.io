@@ -2,7 +2,7 @@
 layout: article
 title: OData
 menu_title: OData
-description: Informatinon about OData in Peakboard
+description: Information about OData in Peakboard
 lang: en
 ref: dat-7
 ---

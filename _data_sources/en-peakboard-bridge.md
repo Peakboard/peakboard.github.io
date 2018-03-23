@@ -2,7 +2,7 @@
 layout: article
 title: Peakboard Bridge
 menu_title: Peakboard Bridge
-description: Informatinon about Peakboard Bridge Data in Peakboard
+description: Information about Peakboard Bridge Data in Peakboard
 lang: en
 ref: dat-14
 ---

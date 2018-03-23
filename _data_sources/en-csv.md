@@ -2,7 +2,7 @@
 layout: article
 title: CSV
 menu_title: CSV
-description: Informatinon about CSV Data  in Peakboard
+description: Information about CSV Data  in Peakboard
 lang: en
 ref: dat-5
 ---

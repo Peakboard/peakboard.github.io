@@ -2,7 +2,7 @@
 layout: article
 title: External Data Sources Using XML Data Source Example
 menu_title: XML
-description: Informatinon about XML Data in Peakboard
+description: Information about XML Data in Peakboard
 lang: en
 ref: dat-8
 ---

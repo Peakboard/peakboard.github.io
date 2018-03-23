@@ -2,7 +2,7 @@
 layout: article
 title: Microsoft Dynamics NAV
 menu_title: Microsoft Dynamics NAV
-description: Informatinon about Microsoft Dynamics NAV Data in Peakboard
+description: Information about Microsoft Dynamics NAV Data in Peakboard
 lang: en
 ref: dat-15
 ---

@@ -2,7 +2,7 @@
 layout: article
 title: OPC UA
 menu_title: OPC UA
-description: Informatinon about OPC UA Data in Peakboard
+description: Information about OPC UA Data in Peakboard
 lang: en
 ref: dat-22
 ---

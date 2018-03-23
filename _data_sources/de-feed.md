@@ -2,7 +2,7 @@
 layout: article
 title: Feed
 menu_title: Feed
-description: Informatinon über RSS Feed Daten  in Peakboard
+description: Information über RSS Feed Daten  in Peakboard
 lang: de
 ref: dat-004
 ---

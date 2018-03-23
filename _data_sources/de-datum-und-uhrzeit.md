@@ -2,7 +2,7 @@
 layout: article
 title: Date and Time
 menu_title: Date and Time
-description: Informatinon about time and date data in Peakboard
+description: Information about time and date data in Peakboard
 lang: en
 ref: de-002
 ---
