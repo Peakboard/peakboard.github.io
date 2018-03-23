@@ -10,24 +10,19 @@ ref: io-1
 
 The following objects can currently be created and maintained in the Peakboard.io portal:
 
-
-
 * Charts
 * Files
 * Pages
 * Google Analytics Charts
 
-
 The following data source for Peakboard.io is available in the Designer:
 
  * Peakboard.io Table
-
 
 And the following controls are available in the toolbox for integrating Peakboard.io objects:
 
 * Peakboard.io Page
 * Peakboard.io Google Analytics Report
-
 
 ## Registration
 
@@ -36,16 +31,9 @@ In order to use the Peakboard. io portal, you have to register it on the portal 
 ![image_1](/assets/images/peakboard-io/intro/peakboardio_01.png)
 
 
-
-
-
 After successful registration please click on the user profile. There you can copy your API key to the cache. You will need it later to authenticate your board in the Designer against the Peakboard.io portal. If there is no API key, you can create a new one with the small Recycle button. Please note that by creating a new key, all old keys lose their validity.
 
 ![image_1](/assets/images/peakboard-io/intro/peakboardio_02.png)
-
-
-
-
 
 ## Link Board and Portal Account
 
