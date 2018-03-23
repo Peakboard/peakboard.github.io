@@ -5,3 +5,4 @@ _site
 /.idea
 /.vscode
 npm-debug.log
+.DS_Store
