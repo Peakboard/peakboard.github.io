@@ -6,3 +6,4 @@ _site
 /.vscode
 npm-debug.log
 .DS_Store
+_mdwriter.cson

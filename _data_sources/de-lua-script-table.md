@@ -18,7 +18,6 @@ Im Code-Block selbst wird dann nur noch ein JSON-String zusammengesetzt, der dan
 
 Hier nochmal für alle, die das Beispiel nachbauen wollen, der Originalcode. Mit der Random-Funktion werden Zufallszahlen erzeugt:
 
-
 ```lua
 local json = '['
 
@@ -30,5 +29,4 @@ for j = 1, math.random(2, 4) do
 end
 
 return string.sub(json, 1, -3).. ']
-
 ```
