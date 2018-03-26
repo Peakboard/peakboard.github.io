@@ -10,7 +10,7 @@ The Control Textblock is intended to display individual texts or to label someth
 
 [General Properties]()
 
-[Managing font formats with Font Manage]()
+[Managing font formats with Font Manager]()
 
 [Scripts in dynamic properties]()
 

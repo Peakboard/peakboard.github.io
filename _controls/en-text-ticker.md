@@ -2,7 +2,7 @@
 layout: article
 title: Text-Ticker
 menu_title: Text-Ticker
-description: Information about Peakboard Designer Text-TickerControl.
+description: Information about Peakboard Designer Text-Ticker Control.
 lang: en
 ref: con-3
 ---
