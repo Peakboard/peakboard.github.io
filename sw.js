@@ -22,7 +22,7 @@ function precache(){
 
 function fromCache(request){
   return caches.open(CACHE).then(function(cache) {
-    return cache.match(request).then(fuction(matching) {
+    return cache.match(request).then(fuction(matching)) {
       return matching || Promise.reject('no-match');
     });
   });
