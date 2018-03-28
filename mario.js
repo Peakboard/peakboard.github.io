@@ -1,6 +1,8 @@
 ---
 layout: null
 ---
+ var deferredPromot;
+
  const staticCacheName = "siteCache";
  console.log("install service worker");
  const filesToCache = [
@@ -42,4 +44,30 @@ self.addEventListener("fetch", function(event){
        return response || fetch(event.request);
      })
    )
+});
+
+window.addEventListener('beforeinstallprompt', function(e){
+  console.log('beforeinstallprompt Event fired');
+  e.preventDefault();
+
+  deferredPrompt = e;
+
+  return false;
+});
+
+
+btnSave.addEventListener('click', function(){
+  if (deferredPrompt !== undefined){
+    deferredPrompt();
+
+    deferredPrompt.userChoice.then(function(choiceResult){
+      if(choiceResult.outcome == 'dismissed'){
+        console.log('User cancelled home screen install')
+      }
+      else{
+        console.log('User added to home screen');
+      }
+      deferredPrompt = null;
+    });
+  }
 });
