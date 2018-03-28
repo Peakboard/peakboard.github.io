@@ -14,7 +14,3 @@ The following screenshot shows the panel from above and shows the desired websit
 
 
 Peakboard also supports a variety of websites that require login. To do this, they fill the fields User Name and Password with your login data in the WebBrowser Control. You must also enter the ID’s of the login and password field as well as the ID of the login button. These can be found in the source code of the website. In current versions of Google Chrome, Internet Explorer, Edge and Firefox, you can right-click on the items and then explore them, or click on Element information in Safari. Here you should find the ID attribute, whose values you must enter in the WebPage control.
-
-
-
-WebView2

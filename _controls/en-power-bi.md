@@ -31,7 +31,7 @@ To access your own Power BI dashboards, you need to log in with your Microsoft a
     4. Select Native Client Application.
 
     5. Enter `https://login.live.com/oauth20_desktop.` srf as the redirect URL and confirm.
-    
+
     6. Assign Power BI access rights to the app.
 
 ![image_1](/assets/images/Controls/Controls-Power/controlspowerbi02.png)
@@ -47,9 +47,9 @@ If you want to select a tile in the settings of the Power BI tile control in the
 
 You get the tenant ID from the URL in the Azure management portal:
 
-Select “Active Directory” in the navigation bar on the left.
-In the list, select the Active Directory in which an app with access to Power BI is registered.
-The Active Directory ID can be found in the URL of the current page:
+  1.  Select “Active Directory” in the navigation bar on the left.
+  2.  In the list, select the Active Directory in which an app with access to Power BI is registered.
+  1. The Active Directory ID can be found in the URL of the current page:
 
 ![image_1](/assets/images/Controls/Controls-Power/controlspowerbi06.png)
 

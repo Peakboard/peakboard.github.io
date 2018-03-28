@@ -5,7 +5,7 @@ layout: null
  console.log("install service worker");
  const filesToCache = [
    "/",
-   "/index.html"
+   "/index.html",
    "assets/images",
    "assets/app.css",
    "assets/app.js"
@@ -16,7 +16,7 @@ self.addEventListener('install',function(event){
   event.waitUntil(
     caches.open(siteCache)
     .then(function(cache){
-      return cache.addAll(filesToCache);
+      return caches.addAll(filesToCache);
     })
   );
 })

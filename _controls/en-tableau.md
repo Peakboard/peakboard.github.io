@@ -12,7 +12,7 @@ You can use the Tableau View Control element to display tableau views on the Pea
 
 In order for Peakboard to gain access to the Tableau Server, you must set the IP address of Peakboard on the server as “Trusted”:
 
-1. On the Tableau Server, start the Tableau console window as administrator. The console window can be found in C: \Program Files\Tableau\Tableau Server\9.2\bin
+1. On the Tableau Server, start the Tableau console window as administrator. The console window can be found in **C: \Program Files\Tableau\Tableau Server\9.2\bin**
 
 2. Execute the following commands:
 
@@ -26,10 +26,10 @@ tab admin start
 More information can be found at: [http://onlinehelp.tableau.com/current/server/en-us/trusted_auth.htm](http://onlinehelp.tableau.com/current/server/en-us/trusted_auth.htm)
 In the Tableau View Control, the following options must be filled in the properties window:
 
-1. **Server:** IP address of the tableau server
-2. **Username:** Name of the user on the tableau server
-3. **Workbook:** Name of the tableau workbook containing the view.
-4. **View:** The name of the view you want to display on the Peakboard
+**Server:** IP address of the tableau server
+**Username:** Name of the user on the tableau server
+**Workbook:** Name of the tableau workbook containing the view.
+**View:** The name of the view you want to display on the Peakboard
 
 The following two pictures show an original tableau dashboard on the tableau server and the representation on a Peakboard panel.
 
