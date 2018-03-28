@@ -27,6 +27,7 @@ Innerhalb des Scripts werden die Package-Properties mit
 und die Box-Properties mit
 
 `runtime.properties.<MeineBoxProperty>`
+
 abgefragt:
 
 ![image_1](/assets/images/scripting/properties/Properties_03.png)
