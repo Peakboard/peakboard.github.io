@@ -27,9 +27,10 @@ The formatting and change logic is mapped to a script. The script is run for eac
 
 Within the event, there is the variable e. It represents the current table line.
 
-e.Data gives access to the raw data (e. g. e.Data.MyColumn).
-e.TextControl allows access to the control representing the text (e. g. e.TextControl.Text = “My new content”) e. TextControl.
-e.CellControl allows access to the cell itself (e. g. e.CellControl. Background = Brushes.Green).
+* e.Data gives access to the raw data (e. g. e.Data.MyColumn).
+* e.TextControl allows access to the control representing the text (e. g. e.TextControl.Text = “My new content”) e. TextControl.
+* e.CellControl allows access to the cell itself (e. g. e.CellControl. Background = Brushes.Green).
+
 table.getcelltext(e,[Index]) returns the value of the column with the corresponding index. Here 0 corresponds to the first column, 1 to the second,….
 This results in the following simple script to implement the requirements from above (font color, cell color, cut off leading zeros):
 
