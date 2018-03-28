@@ -18,7 +18,6 @@ export default {
     if (!this.els.accordian) {
       return;
     }
-
     this.els.accordian_triggers.forEach(accordian_trigger => {
       accordian_trigger.addEventListener("change", ({ target }) =>
         this.closeCurrentlyOpenSections(target)

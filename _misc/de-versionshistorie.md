@@ -44,7 +44,7 @@ ref: misc-006
 
 * Fix für Twitter/ Instagram mit Bilder
 
-# 1.0.13.0 (30.01.2018)
+## 1.0.13.0 (30.01.2018)
 
 * OPC UA unterstützt nun Methodenaufrufe
 * Peakboard-Bridge Stabilität Optimierungen
@@ -63,7 +63,7 @@ ref: misc-006
 * S7 unterstützt nun String-Variablen
 * Textticker Fixes und Erweiterungen
 
-##1.0.11.6 (16.01.2018)
+## 1.0.11.6 (16.01.2018)
 
 * OPC UA Datenquelle wurde erweitert
 
