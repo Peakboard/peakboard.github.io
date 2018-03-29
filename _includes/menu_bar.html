@@ -9,8 +9,7 @@
              class="align-middle menu-down-caret"
              viewBox="0 0 24 24"
              width="24"
-             xmlns="http://www.w3.org/2000/svg"
-        >
+             xmlns="http://www.w3.org/2000/svg">
             <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
             <path d="M0-.75h24v24H0z" fill="none"/>
         </svg>
@@ -55,7 +54,7 @@
                     {% for art in all_articles %}
                         {% assign parts = art.path | split: "/" %}
                         {% assign num_parts = art.path | split: "/" | size %}
-                        {% if num_parts == 3 and parts[1] == sub_level %}   
+                        {% if num_parts == 3 and parts[1] == sub_level %}
 
                 <li>
                     <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ art.url | relative_url }}">
@@ -76,9 +75,8 @@
 
     </ul>
     </div>
-    
+
 </div>
 
     {% endif %}
 {% endfor %}
-
