@@ -22,5 +22,4 @@ By the way, you can also change your Peakboards via your iPhone or Android smart
   <a href= "https://play.google.com/store/apps/details?id=com.peakboard.manager&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-"
 	style= "display:inline-block;overflow:hidden;background:url(https://cdn.rawgit.com/steverichey/google-play-badge-svg/266d2b2d/img/de_get.svg) no-repeat;width:135px;height:40px;background-size:contain;">
 	</a>
-
 </div>
