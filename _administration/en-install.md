@@ -6,6 +6,7 @@ description: Installation and Configuration of the Peakboard-Designer
 lang: en
 ref: admin-1
 ---
+
 The Peakboard-Bridge is designed to provide data sources for the Peakboard-Boxes, which the Box cannot reach by its own efforts due to technical limitations. This applies, for example, to access files on the network.
 
 Technically speaking, Bridge is a very slim Windows service that is usually installed on a company server together with other software without any problems. To do this, use the regular installation program and select the appropriate option as shown in the following screenshot:

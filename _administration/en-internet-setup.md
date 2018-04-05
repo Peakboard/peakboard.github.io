@@ -6,7 +6,8 @@ description: Setting up an Internet Connection With a Proxy Server
 lang: en
 ref: admin-4
 ---
-Open the Windows Device Portal (http://<ip-address-<peakboard>: 8080) of the Box.
+
+pen the Windows Device Portal (http://<ip-address-<peakboard>: 8080) of the Box.
 There you have the possibility to send commands directly under “Processes” with “Run command”.
 
 You will need the following two commands, and you will need to adjust your own proxy server accordingly.

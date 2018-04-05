@@ -36,7 +36,7 @@ collections:
     icon: database.svg
     position: 2
     title:
-      en: "Data sources"
+      en: "Data Sources"
       de: "Dataquellen"
 
   controls:

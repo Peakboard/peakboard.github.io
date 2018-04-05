@@ -6,6 +6,7 @@ description: Updating the Peakboard-Box
 lang: en
 ref: admin-6
 ---
+
 To update the Peakboard-Box, click on the Manage button in the menu strip of the upper Peakboard-Designer area. A new window will open.
 
 If the Peakboard-Box you want to update is not in the list, please follow this link.

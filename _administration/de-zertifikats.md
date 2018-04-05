@@ -11,8 +11,6 @@ Als erstes muss das Zertifikat als Datei auf dem Dateisystem vorliegen.
 
 Am einfachsten speichern kann man es zum Beispiel aus Chrome heraus.
 
-
-
 Dort auf die https-Seite gehen; Strg+Umschalt+I und da im Reiter „Security“ das Zertifikat anzeigen lassen.
 
 Von dort aus kann man im Tab „Details“ in eine Datei speichern. DER ( * .cer ) ist für diesen Fall ausreichend.
@@ -41,7 +39,6 @@ Wenn die Verbindung steht, das Zertifikat in den Zertifikatspeicher importieren:
 * Import-Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 
 ![image_1](/assets/images/admin/certificates/cert_03.png)
-
 
 Nun sollte das Zertifikat beim Aufruf automatisch als vertrauenswürdig eingestuft werden.
 

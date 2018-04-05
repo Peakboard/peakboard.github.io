@@ -6,6 +6,7 @@ description: Allgemeine Eigenschaften
 lang: de
 ref: con-01
 ---
+
 Alle Controls, die in der Toolbox oben rechts zur Verfügung stehen, haben Eigenschaften. Dazu gehören zum einen spezielle Eigenschaften, die nur für das jeweilige Control gelten aber auch allgemeine Eigenschaften, die fast bei jedem oder zumindest bei vielen Controls vorkommen. Damit nicht auf jeder Hilfe-Seite immer alle Eigenschaften wieder und wieder erklärt werden müssen, sind die Eigenschaften, die bei mehr als einem Control auftauchen, in der folgenden Liste zusammengefasst:
 
 | **Eigenschaft**   | **Beschreibung** |

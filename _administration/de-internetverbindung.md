@@ -6,13 +6,12 @@ description: Internetverbindung mit Proxy-Server einrichten
 lang: de
 ref: admin-04
 ---
+
 Öffnen Sie das Windows Device Portal (http://<ip-adresse-<peakboard>:8080) der Box.
 
 Dort gibt es unter „Processes“ mit „Run command“ die Möglichkeit direkt Befehle abzusetzen.
 
 Sie benötigen die folgenden beiden Befehle, wobei sie ihren eigenen Proxy-Server entsprechend anpassen müssen.
-
-
 
 > `reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f`
 

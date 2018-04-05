@@ -6,6 +6,7 @@ description: Device Administration in the Peakboard-Designer
 lang: en
 ref: admin-2
 ---
+
 The Peakboard-Box uses Windows 10 IoT as operating system. This is a slimmed-down version of Windows 10 that is specially designed for use on small devices or IoT devices.
 
 Classical administration tasks can be done mainly via the web interface of Windows 10 IoT. You can reach it over the network with a normal browser under the address http://<MeinPeakboard>: 8080. User name is initial Administrator the password is included in the packaging of the Peakboard-Box. The password cannot be reset and should therefore not be lost under any circumstances.

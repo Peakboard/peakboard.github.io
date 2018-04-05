@@ -13,7 +13,7 @@ layout: null
    "assets/app.js"
 
  ];
-
+ 
 self.addEventListener('install',function(event){
   event.waitUntil(
     caches.open(siteCache)

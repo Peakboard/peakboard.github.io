@@ -6,6 +6,7 @@ description: Information über Azure SQL Daten in Peakboard
 lang: de
 ref: dat-012
 ---
+
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Azure-SQL-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
 [Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()

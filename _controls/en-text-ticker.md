@@ -6,6 +6,7 @@ description: Information about Peakboard Designer Text-Ticker Control.
 lang: en
 ref: con-3
 ---
+
 The Text Ticker Control is intended to display a scrolling text. Please note the following general additional information:
 
 [General Properties]()

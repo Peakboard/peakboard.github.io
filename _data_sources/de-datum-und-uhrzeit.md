@@ -6,6 +6,7 @@ description: Information about time and date data in Peakboard
 lang: en
 ref: de-002
 ---
+
 Die Peakboard-Box verfügt derzeit über keine Möglichkeit, sich über den nächsten Neustart hinaus die Uhrzeit zu merken. Aus diesem Grund gibt es innerhalb des Designers die Möglichkeit, Datum und Uhrzeit als ganz normale Datenquelle einzubinden. Die Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.
 
 Über die Format-Angabe wird definiert, wie die Zeit bzw. das Datum oder eine Kombination daraus dargestellt werden soll. Die einzelnen Formatkomponenten können Sie der Tabelle unten entnehmen. Für den Fall, dass eine andere Zeitzone als CET zur Zeitberechnung genutzt werden soll, steht die entsprechende Combo-Box zur Verfügung.
@@ -39,5 +40,4 @@ dd: Tag
 MM: Monat
 yy: zweistelliges Jahr z.B. 89
 yyyy: vierstelliges Jahr z.B. 1989
-
 ```

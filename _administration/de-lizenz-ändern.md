@@ -6,6 +6,7 @@ description:  Lizenz Ändern
 lang: de
 ref: admin-07
 ---
+
 Um die Lizenz einer Peakboard-Box zu ändern Klicken Sie im Peakboard Designer zunächst auf den Manage Button.
 
 Wählen Sie hier bei der gewünschten Peakboard-Box den Menü-Button, um dort den Menüpunkt – Set device properties – anzuklicken.

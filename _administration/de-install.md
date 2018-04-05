@@ -6,6 +6,7 @@ description: Installation und Konfiguration des Peakboard-Designer
 lang: de
 ref: admin-01
 ---
+
 Die Peakboard-Bridge ist dafür konzipiert, Datenquellen für die Peakboard-Boxen bereitzustellen, welche die Box aufgrund von technischen Limitierungen nicht aus eigener Kraft erreichen kann. Dies betrifft z.B. den Zugriff auf Dateien im Netzwerk.
 
 Die Bridge ist technisch gesehen ein sehr schlanker Windows Service, der in der Regel problemlos zusammen mit anderer Software auf einem Server im Unternehmen installiert wird. Benutzen Sie dazu das reguläre Installationsprogramm und wählen Sie die entsprechende Option wie im folgenden Screenshot gezeigt:
@@ -19,7 +20,5 @@ In der Windows Service Administration finden Sie den Bridge Service wie jeden an
 Sie finden alle Binärdaten des Bridge-Services im Ordner C:\Program Files\Peakboard\Server (oder einem alternativen Pfad, falls Sie einen anderen bei der Installation gewählt haben). Im Unterverzeichnis Configuration liegt die XML-Datei serverConfiguration.xml. Hier können Sie bei Bedarf den Standard-Port 2501 abändern. Im Unterverzeichnis Logs werden Protokolle abgelegt. Für den Fehlerfall finden Sie dort ausführliche Fehlermeldungen.
 
 ![image_1](/assets/images/admin/install/MiscBridge03.png)
-
-
 
 Die URL für die Anwendung der Bridge lautet dann `http://MeinServer:MeinPort`, z.B. `http://Julia:2501`
