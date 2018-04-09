@@ -4,7 +4,7 @@ title: Hinzufügen eines Zertifikats
 menu_title: Hinzufügen eines Zertifikats
 description: Hinzufügen eines Zertifikats
 lang: de
-ref: admin-08
+ref: admin-09
 ---
 
 Als erstes muss das Zertifikat als Datei auf dem Dateisystem vorliegen.

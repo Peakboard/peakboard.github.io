@@ -4,7 +4,7 @@ title: Connecting the Peakboard-Box to WPA2 Enterprise WiFi
 menu_title: Connecting the Peakboard-Box to WPA2 Enterprise WiFi
 description: Connecting the Peakboard-Box to WPA2 Enterprise WiFi
 lang: en
-ref: admin-3
+ref: admin-03
 ---
 
 First, a connection to the Box must be established via PowerShell.
