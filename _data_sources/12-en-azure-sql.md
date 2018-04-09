@@ -14,17 +14,9 @@ The Azure SQL data source is used to connect SQL server instances with Peakboard
 
 The Azure SQL source needs a unique name. To access the database, you must enter the server name, user name and password as well as the name of the database. All information is available in the Azure portal. You can then either enter an SQL command in the corresponding text field or select a table or view in the combo box (as in this example). Important note: The best thing to do is to create a view for the data that formats and aggregates the data in the way you want it to be displayed later. This saves a lot of rework when designing the visualization.
 
-
-
 ![image_1](/assets/images/Data_Sources/Azure/AzureSQL01.png)
 
-
-
 A click on the Load Columns button generates the metadata and lists it. Check your entries by calling the Preview.
-
-
-
-
 
 ![image_1](/assets/images/Data_Sources/Azure/AzureSQL02.png)
 

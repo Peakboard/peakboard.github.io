@@ -35,8 +35,6 @@ Zurück auf dem Hauptfenster des Designer können wir uns jetzt um die Visualisi
 
 Als nächstes müssen wir nun das Tabellenelement mit der Datenquelle verbinden. Dazu gibt es die Eigenschaft „Source“ im Attribute-Fenster unten rechts. Ein Klick auf die drei Punkte bringt uns in den Dialog zur Auswahl der Datenquelle. Es gibt im Moment nur eine Datenquelle, nämlich unsere XML-Datei namens Abfahrt. Die wählen wir aus und bestätigen mit OK.
 
-
-
 ![image_1](/assets/images/Tutorial/XML/tutorialexternedatenquelle05.png)
 
 Das Tabellenelement zeigt auf dem Panel jetzt schon alle Spalten an, die unsere Datenquelle hat. Allerdings noch nicht besonders hübsch, deshalb öffnen wir mit einem Doppelklick auf die Tabelle den nachfolgenden Konfigurationsdialog. Dort sind alle Spalten der Datenquelle gelistet. Bitte vergeben Sie in der Spalte Caption nun bessere, sprechende Namen für die jeweiligen Spalten, z.B. „Zugtyp“ statt „type“ oder „Zeit“ statt „time“ usw. In der Spalte Width steht standardmäßig ein Sternchen. Sternchen bedeutet, dass die zur Verfügung stehende Gesamtbreite einer Tabelle auf alle Sternchen-Spalten gleichmäßig verteilt werden. Man könnte nun eine festes Zahl dort hineinschreiben (z.B 50 für eine fixe Breite von 50 Pixeln) oder das Schlüsselwort „Auto“. Das bedeutet, dass die Spalte so breit gerendert wird, wie das breiteste Datenelement, also eine optimale Breite.

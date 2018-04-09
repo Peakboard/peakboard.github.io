@@ -4,7 +4,7 @@ title: Peakboard Script Engine
 menu_title: Peakboard Script Engine
 description: Peakboard Script Engine
 lang: en
-ref: tut-4
+ref: tut-05
 ---
 One of the basic ideas behind Peakboard is that the end user does not have to be a programmer, as is the case with many other solutions. As many functions as possible should be done without using a script. Scripts are usually used when
 

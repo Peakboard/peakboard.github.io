@@ -17,7 +17,6 @@ To do this, the value **[Enabled]** must first be set to 1 (true) in the followi
 
 `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\Time\Time\TimeProviders\NtpServer\`
 
-
 Afterwards, the Command window must be executed as an administrator and the following command entered:
 `w32tm /config /update`
 

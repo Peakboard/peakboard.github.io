@@ -4,7 +4,7 @@ title: Formatieren von Werten
 menu_title: Formatieren von Werten
 description: Formatieren von Werten
 lang: de
-ref: misc-003
+ref: misc-03
 ---
 
 Viele der Peakboard-Controls, z.B. Charts, Textblöcke, Table Grids etc., müssen Werte darstellen. In der Regel sind das entweder Zahlen oder Datumsangaben. Beide Arten von Werten zeichnen sich dadurch aus, dass sie in der Regel anders dargestellt werden sollen, als sie rein technisch vorhanden sind. Der Wert „2.96583“ soll beispielsweise als Betrag „2,96 €“ oder „20170620“ soll als schön formatiertes Datum „20.06.2017“ dem User präsentiert werden. Dazu gibt es an den verschiedensten Stellen der Controls Format-Eigenschaften, die alle nach demselben Prinzip funktionieren. Der folgende Screenshot zeigt die Format-Eigenschaft eines Textblocks:

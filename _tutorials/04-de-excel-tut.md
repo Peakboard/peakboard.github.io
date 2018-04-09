@@ -4,7 +4,7 @@ title: Excel-Datei von einem Netzlaufwerk einbinden
 menu_title: Excel-Datei von einem Netzlaufwerk einbinden
 description: Excel-Datei von einem Netzlaufwerk einbinden
 lang: de
-ref: tut-05
+ref: tut-04
 ---
 Peakboard unterstützt eine Vielzahl von wunderschönen Datenquellen; oft nutzen Neueinsteiger aber gerne einfach nur Excel. Eine normale Dokumentation zu Excel als Datenquelle finden Sie [hier](). Dieses Schritt-für-Schritt-Tutorial zeigt den kompletten Ablauf vom Einbinden der Datei bis zum Aufbereiten der Daten in einem kleinem Chart.
 

@@ -4,7 +4,7 @@ title: Excel Viewer
 menu_title: Excel Viewer
 description: Information über Peakboard Designer Excel ViewerControl.
 lang: de
-ref: con-013
+ref: con-13
 ---
 
 Für das Erstellen von Google Analytics Reports ist zwingend ein Peakboard.io-Account nötig. Der GA-Report wird im [Peakboard.io-Portal]() definiert und dann mit Hilfe des entsprechenden Steuerelements im Designer eingebettet.

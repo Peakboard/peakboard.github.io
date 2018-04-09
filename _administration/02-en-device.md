@@ -4,7 +4,7 @@ title: Device Administration
 menu_title: Device Administration
 description: Device Administration in the Peakboard-Designer
 lang: en
-ref: admin-2
+ref: admin-02
 ---
 
 The Peakboard-Box uses Windows 10 IoT as operating system. This is a slimmed-down version of Windows 10 that is specially designed for use on small devices or IoT devices.

@@ -4,7 +4,7 @@ title: Date and Time
 menu_title: Date and Time
 description: Information about time and date data in Peakboard
 lang: en
-ref: de-002
+ref: de-02
 ---
 
 Die Peakboard-Box verfügt derzeit über keine Möglichkeit, sich über den nächsten Neustart hinaus die Uhrzeit zu merken. Aus diesem Grund gibt es innerhalb des Designers die Möglichkeit, Datum und Uhrzeit als ganz normale Datenquelle einzubinden. Die Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.

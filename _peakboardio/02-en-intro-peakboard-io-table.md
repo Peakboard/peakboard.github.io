@@ -4,7 +4,7 @@ title: Peakboard.io Table
 menu_title: Peakboard.io Table
 description: Peakboard.io Table
 lang: en
-ref: io-2
+ref: io-02
 ---
 Within the [Peakboard.io](https://peakboard.io) portal, you can maintain table objects. These tables can then be included in the Designer just like other data sources. Please see this tutorial on using the portal and the API key to access Peaboard.io objects.
 

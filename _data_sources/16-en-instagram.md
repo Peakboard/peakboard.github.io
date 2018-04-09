@@ -37,5 +37,4 @@ The Instagram data source always has the same columns. They have the following m
 
 The Instagram mask gives you the possibility to select all postings for a certain geolocation. You will need the location ID. To find out, open Instagram normally in your browser, find a picture of the desired location and click on the location name. The page that then appears contains the location ID as part of the URL as shown in the following screenshot.
 
-
 ![image_1](/assets/images/Data_Sources/Instagram/datenquelleninstagram03.png)

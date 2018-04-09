@@ -4,7 +4,7 @@ title: Peakboard Designer - The Basics
 menu_title: Peakboard Designer - The Basics
 description: Peakboard Designer - The Basics
 lang: en
-ref: tut-1
+ref: tut-01
 ---
 This tutorial does not require any previous knowledge. It shows the very first steps with Peakboard and explains some theoretical basics that you need to understand in order to build more complex visualizations later on. However, the basic approach is always the same: The visualization is created with the help of the Peakboard Designer. A design – also known as a board – is then transferred to one or more Peakboard boxes on which it runs independently. All artifacts such as images, videos, etc. are packed into a package for transfer. This process is called deployment. This tutorial shows the complete procedure. In case you don’t have a Peakboard-Box yet, the designer software, which you can download on our homepage, is sufficient. The transfer of the design to the box is no longer necessary, of course – but it doesn’t matter, because you can also view it as a preview on your own computer.
 

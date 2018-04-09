@@ -4,7 +4,7 @@ title: Azure SQL
 menu_title: Azure SQL
 description: Information über Azure SQL Daten in Peakboard
 lang: de
-ref: dat-012
+ref: dat-12
 ---
 
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Azure-SQL-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:

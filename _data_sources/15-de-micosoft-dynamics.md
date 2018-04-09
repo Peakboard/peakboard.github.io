@@ -17,34 +17,21 @@ Im folgenden gehen wir davon aus, dass die Query vorhanden ist wie im Screenshot
 
 ![image_1](/assets/images/Data_Sources/Micosoft_Dynamics_NAV/datenquellennav01.png)
 
-
-
 Um die Query „herum“ wird jetzt noch ein Webservice benötigt, um sie von außen abfragen zu können. Das lässt sich entweder im normalen NAV Client oder wie in den Screenshots gezeigt im Web Client erledigen. Klicken Sie auf das Suchenfeld, suchen Sie nach Webservice, um den Dialog aufzurufen.
-
 
 ![image_1](/assets/images/Data_Sources/Micosoft_Dynamics_NAV/datenquellennav02.png)
 
-
-
-
 Legen Sie einen neuen Eintrag mit Objekttyp Query an und wählen Sie bei Objekt ID die Query aus, die Sie zuvor angelegt haben. Geben Sie zum Schluss noch dem Service einen sinnvollen Namen und speichern Sie die ganze Sache.
 
-
-
 ![image_1](/assets/images/Data_Sources/Micosoft_Dynamics_NAV/datenquellennav03.png)
-
 
 Zurück im Peakboard-Designer wird mit Add Dynamics NAV Datasource eine neue Datenquelle angelegt. Neben dem Namen ist die wichtigste Angabe die URL zum OData-Endpunkt. Die hängt davon ab, wie die NAV-Landschaft aufgebaut ist und wie viele Unternehmen darauf arbeiten. Sie müsste in der Regel so aussehen, wie im Beispielscreenshot gezeigt: `http://xxx.mynavserver:7048/NAV/ODATA/`
 
 Den Dialog zur Eingabe von User-Name und Passwort erreichen Sie über den kleinen Knopf mit den drei Punkten.
 
-
-
 ![image_1](/assets/images/Data_Sources/Micosoft_Dynamics_NAV/datenquellennav04.png)
 
-
 Ein Klick auf den Load-Button füllt die Combobox mit allen Webservices. Sobald ein Webservice ausgewählt ist, werden die Metadaten (Spalten) in der darunterliegenden Tabelle angezeigt.
-
 
 ![image_1](/assets/images/Data_Sources/Micosoft_Dynamics_NAV/datenquellennav05.png)
 

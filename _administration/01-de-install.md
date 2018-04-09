@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Installation und Konfiguration
-menu_title: Installation und Konfiguration
+title: Peakboard-Bridge – Installation und Konfiguration
+menu_title: Peakboard-Bridge – Installation und Konfiguration
 description: Installation und Konfiguration des Peakboard-Designer
 lang: de
 ref: admin-01

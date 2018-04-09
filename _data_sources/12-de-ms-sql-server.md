@@ -12,6 +12,4 @@ Das SQL-Statement kann beliebig kompliziert werden. Es sei an dieser Stelle empf
 
 Der Load-Button führt das SQL-Statement einmalig aus und füllt die Spalten-Daten. Ab dann sollte der Preview ebenfalls funktionieren und das Dataset steht in Peakboard zur Weiterverarbeitung zur Verfügung.
 
-
-
 ![image_1](/assets/images/Data_Sources/MS_SQL/SQL01.png)

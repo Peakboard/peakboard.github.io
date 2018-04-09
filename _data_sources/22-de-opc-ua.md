@@ -4,7 +4,7 @@ title: OPC UA
 menu_title: OPC UA
 description: Information über OPC UA Daten in Peakboard
 lang: de
-ref: dat-022
+ref: dat-22
 ---
 
 so wie auch der direkte Zugriff auf die Siemens S7, MQTT oder den Azure IoT Hub. Im hier beschriebenen Fall stellt Peakboard einen OPC-Client dar, der sich auf einen OPC-Server verbindet. Das Beispiel in diesem Artikel kann einfach mit dem generischen OPC-UA-Server nachvollzogen werden, den Sie auf opcfoundation.org nach der Registrierung herunterladen können:

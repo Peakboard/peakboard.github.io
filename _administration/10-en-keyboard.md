@@ -4,7 +4,7 @@ title: Change Keyboard Layouts
 menu_title: Change Keyboard Layouts
 description: Change Keyboard Layouts
 lang: en
-ref: admin-8
+ref: admin-10
 ---
 
 By default, a “QWERTY” keyboard layout is used in Windows IoT Core.

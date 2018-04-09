@@ -14,7 +14,6 @@ Um sie zu konfigurieren, muss einfach nur die Feed-URL eingetragen werden Falls 
 
  ![image_1](/assets/images/Data_Sources/Feed/DataFeed01.png)
 
-
 ## Weblinks
 
 - [RSS Informationen auf Wikipedia](https://de.wikipedia.org/wiki/RSS)
