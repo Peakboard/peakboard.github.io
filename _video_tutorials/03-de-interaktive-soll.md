@@ -1,7 +1,7 @@
 ---
 layout: video_article
 lang: de
-ref: Interaktive_Soll-_Ist-Daten_Visualisierung_mit_Peakboard
+ref: vid-03
 title: Interaktive Soll- Ist-Daten Visualisierung mit Peakboard
 youtube_id: cSsN4i-eM4A
 ---

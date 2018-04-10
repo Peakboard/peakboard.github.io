@@ -1,7 +1,8 @@
 ---
 layout: video_article
 lang: de
-ref: Visualisierung_einer_XML-Datenquelle_mit_Peakboard
+ref: vid-04
+title: Visualisierung einer XML-Datenquelle 
 youtube_id: GH3D5z5ZKxU
 ---
 

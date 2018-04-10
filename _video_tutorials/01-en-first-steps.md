@@ -1,7 +1,8 @@
 ---
 layout: video_article
 lang: en
-ref: tut-02
+ref: vid-01
+title: First Steps with the Peakboard Designer
 youtube_id: MFjGJKTbFhs
 ---
 
