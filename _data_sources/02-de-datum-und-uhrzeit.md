@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Date and Time
-menu_title: Date and Time
+title: Datum und Urzeit
+menu_title: Datum und Urzeit
 description: Information about time and date data in Peakboard
-lang: en
+lang: de
 ref: de-02
 ---
 
