@@ -2,7 +2,7 @@
 layout: article
 lang: de
 ref: peakboard-designer-basics
-menu_title: Peakboard Designer - Die Basics
+menu_title: "Peakboard Designer: Die Basics"
 title: Peakboard Designer - Die Basics
 ref: tut-01
 ---
