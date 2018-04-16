@@ -1,7 +1,4 @@
 @tailwind preflight;
-
-@import "typography";
-
 @tailwind utilities;
 
 svg {
@@ -92,6 +89,6 @@ body.stuck {
 @import "top_menu";
 @import "accordian";
 @import "article_content";
-@import "syntax_hightlighting.scss";
+@import "syntax_hightlighting";
 @import "lightbox";
 @import "navbar";
