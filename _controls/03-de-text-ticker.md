@@ -9,11 +9,11 @@ ref: con-03
 
 Das Control TextTicker ist dazu gedacht, einen Lauftext darzustellen. Bitte beachten Sie folgende, generelle Zusatzinfos:
 
-[General Properties]()
+[Allgemeine Eigenschaften](/controls/01-de-allgemeine-eigenschaften.html)
 
-[Managing font formats with Font Manager]()
+[Verwalten von Schriftformaten mit dem Font Managerr](/misc/04-de-fonts.html)
 
-[Scripts in dynamic properties]()
+[Scripte in dynamischen Eigenschaften](/scripting/02-de-dynamischen-eigenschaften.html)
 
 Der Inhalt wird über die Eigenschaft Text gesetzt. Üblicherweise wird die Texteigenschaft an eine Quelle gebunden oder dynamisch im Script gesetzt. Bitte beachten Sie, dass die gebundene Datenquelle entweder eine einzelne Zeichenfolge oder eine Tabelle sein kann. Im Fall der Tabelle wird von jeder Zeile einfach immer die erste Spalte genommen und zum Anzeigen hintereinander gehängt.
 

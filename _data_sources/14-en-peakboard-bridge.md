@@ -8,7 +8,7 @@ ref: dat-14
 ---
 One of the most important concepts of Peakboard is that the Peakboard-Box is to be regarded as self-sufficient and, in contrast to other visualization concepts without servers or other middleware, communicates directly with all connected upstream systems. In certain cases, this is not entirely sustainable. In the case of Oracle and general ODBC accesses, Peakboard needs the so-called Peakboard Bridge. This is a lean Windows service that is usually installed on a server with minimal resource requirements. The Peakboard Box then accesses the bridge and this accesses the database. As of spring 2018 we are working hard to abolish the Bridge as a necessity in further development. Until then, however, it is still needed.
 
-Details of how to install the Bridge can be found [here]().
+Details of how to install the Bridge can be found [here](/administration/01-en-install.html).
 
 The following screenshot shows the Bridge data source. For the address, the URI of the Bridge server must be entered. Usually this is in the form `tcp: //<MyBridgeServer>: 2501` The port must only be specified if it differs from the default value 2501.
 

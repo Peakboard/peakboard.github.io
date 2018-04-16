@@ -9,7 +9,7 @@ ref: dat-06
 Diese Seite erklärt die einzelnen Features beim Zugriff auf JSON-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Falls Sie keine URL zu einer JSon-Datenquelle zur Hand haben, sondern die Sache einfach nur einmal ausprobieren wollen, nehmen Sie bitte die folgende Beispiel-URL:
 

@@ -8,7 +8,7 @@ ref: dat-16
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf Instagram-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Die Instagram-Datenquelle liefert alle Rohdaten, um später in der Visualisierung einen vollständigen Instagram-Feed zu bauen. Wie jede anderen Datenquelle benötigt sie einen Namen. Es kann festgelegt werden, nach welchem Zeitrhythmus in Sekunden (Reload Interval) die Daten geladen werden. Max Items ist die maximale Anzahl der Datenzeilen, also Instagram-Bilder oder Videos, die abgerufen wird.
 

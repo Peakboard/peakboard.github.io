@@ -9,10 +9,10 @@ ref: con-02
 
 The Control Textblock is intended to display individual texts or to label something. The content is set using the Text property. All other features are either self-explanatory or can be used together with known operating patterns:
 
-[General Properties]()
+[General Properties](/controls/01-en-general-properties.html)
 
-[Managing font formats with Font Manager]()
+[Managing font formats with Font Manager](/misc/05-en-custom-fonts.html)
 
-[Scripts in dynamic properties]()
+[Scripts in dynamic properties](/scripting/02-en-dynamic-properties.html)
 
-[Formatting Values]()
+[Formatting Values](/misc/03-en-formating-values.html)

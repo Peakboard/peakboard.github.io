@@ -8,7 +8,7 @@ ref: dat-10
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine SAP-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Die Anbindung an SAP kann über verschiedene Wege erfolgen. Welche davon für Ihren Fall am besten ist, hängt von mehreren Faktoren ab, die im Folgenden erläutert sind:
 

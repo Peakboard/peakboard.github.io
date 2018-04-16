@@ -8,7 +8,7 @@ ref: dat-17
 ---
 Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard-Elements.
 
-[Getting Started with External Data Sources Using the Example of an XML Data Source]()
+[Getting Started with External Data Sources Using the Example of an XML Data Source](/tutorials/03-en-xml-daten.html)
 
 The Twitter data source provides all raw data to build a complete Twitter feed later in the visualization. Like any other data source, it needs a name. You can define the time interval in seconds (reload interval) after which the data is loaded. Max Items is the maximum number of data rows, i. e. tweets that are retrieved.
 Basically, the tweets can be selected using three methods: All tweets of a specific Twitter account (By User Name) or hash tag. The third option is a free search by search criteria (e. g.”BVB AND VFB” for all tweets containing BVB and VFB). You will find a good guide to the search criteria here.

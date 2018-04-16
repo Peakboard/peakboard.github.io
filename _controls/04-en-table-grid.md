@@ -9,13 +9,13 @@ ref: con-04
 
 The Control Table Grid is used to display data in tabular form. Besides the simple text block, it is the most frequently used Control. Please note the following general information and recurring operating patterns for controls:
 
-[General Properties]()
+[General Properties](/controls/01-en-general-properties.html)
 
-[Managing font formats with Font Manager]()
+[Managing font formats with Font Manager](/misc/05-en-custom-fonts.html)
 
-[Scripts in dynamic properties]()
+[Scripts in dynamic properties](/scripting/02-en-dynamic-properties.html)
 
-[Formatting Values]()
+[Formatting Values](/misc/03-en-formating-values.html)
 
 After a table grid has been dragged and dropped from the Toolbox to the top right of the screen, it is connected to a table data source using the Source property. This automatically creates columns in the table control that correspond to the original data source and can then be easily modified. A double-click on the Control opens the column dialog. Here you can configure the individual columns, e. g. their position with the small arrow keys, the caption or the width. The width is defined in pixels. “Auto” automatically defines the width so that it is always as wide as the widest content. A * in the width is dynamic. The complete available space is simply divided evenly among all -columns. Therefore, * is also the default setting for all columns.
 

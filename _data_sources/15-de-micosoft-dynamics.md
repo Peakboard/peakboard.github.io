@@ -9,9 +9,9 @@ ref: dat-15
 
 Diese Seite erklärt die einzelnen Features beim Zugriff auf die Dynamics NAV-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
-Technisch betrachtet ist OData das beste Protokoll, um auf Daten von Microsoft Dynamics NAV – im folgenden kurz NAV genannt – zuzugreifen. Dazu sind zunächst einige Vorbereitungen auf NAV-Seite zu erledigen. Basis für die Datenabfrage ist eine Query, die in der NAV-Entwicklungsumgebung angelegt werden muss. Wie man das genau macht, würde den Inhalt diese Seite sprengen. Sie finden Details dazu in der [NAV-Hilfe.](https://msdn.microsoft.com/en-us/library/hh165526(v=nav.90).aspx)
+Technisch betrachtet ist OData das beste Protokoll, um auf Daten von Microsoft Dynamics NAV – im folgenden kurz NAV genannt – zuzugreifen. Dazu sind zunächst einige Vorbereitungen auf NAV-Seite zu erledigen. Basis für die Datenabfrage ist eine Query, die in der NAV-Entwicklungsumgebung angelegt werden muss. Wie man das genau macht, würde den Inhalt diese Seite sprengen. Sie finden Details dazu in der [NAV-Hilfe.](https://docs.microsoft.com/en-us/previous-versions/dynamicsnav-2016/hh165526(v=nav.90))
 
 Im folgenden gehen wir davon aus, dass die Query vorhanden ist wie im Screenshot gezeigt. Es ist strategisch sinnvoll die Query so zu designen, dass die Daten schon möglichst so aussehen, wie sie später angezeigt werden sollen. Insbesondere was die Auswahl der Spalten, das Aggregationslevel und den Filter betrifft. Je besser die Query diesbezüglich gestaltet ist, desto einfacher ist das Einbinden in die Visualisierung.
 

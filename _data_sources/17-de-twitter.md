@@ -8,7 +8,7 @@ ref: dat-17
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf Twitter-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Die Twitter-Datenquelle liefert alle Rohdaten, um später in der Visualisierung einen vollständigen Twitterfeed zu bauen. Wie jede anderen Datenquelle benötigt sie einen Namen. Es kann festgelegt werden, nach welchem Zeitrhythmus in Sekunden (Reload Interval) die Daten geladen werden. Max Items ist die maximale Anzahl der Datenzeilen, also Tweets, die abgerufen wird.
 

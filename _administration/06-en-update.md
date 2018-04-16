@@ -9,7 +9,7 @@ ref: admin-06
 
 To update the Peakboard-Box, click on the Manage button in the menu strip of the upper Peakboard-Designer area. A new window will open.
 
-If the Peakboard-Box you want to update is not in the list, please follow this link.
+If the Peakboard-Box you want to update is not in the list, please follow this [link](/administration/06-en-update.html).
 
 Open the drop-down menu in the line containing the Peakboard-Box to be updated. Click here on Update device. If a new update is available, you will be asked if you want to perform the update. Confirm this.
 

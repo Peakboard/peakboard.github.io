@@ -11,7 +11,7 @@ This page explains the individual features when accessing the Dynamics NAV data 
 
 Getting Started with External Data Sources Using the Example of an XML Data Source
 
-From a technical point of view, OData is the best protocol for accessing data from Microsoft Dynamics NAV – hereinafter referred to as NAV. First of all, some preparations have to be done on the NAV side. The data query is based on a query that must be created in the NAV development environment. How to do this exactly would break the content of this page. You can find details in the [NAV help.](https://msdn.microsoft.com/en-us/library/hh165526(v=nav.90).aspx)
+From a technical point of view, OData is the best protocol for accessing data from Microsoft Dynamics NAV – hereinafter referred to as NAV. First of all, some preparations have to be done on the NAV side. The data query is based on a query that must be created in the NAV development environment. How to do this exactly would break the content of this page. You can find details in the [NAV help.](https://docs.microsoft.com/en-us/previous-versions/dynamicsnav-2016/hh165526(v=nav.90))
 
 In the following, we assume that the query is available as shown in the screenshot. It makes strategic sense to design the query in such a way that the data looks as it should look later on. Particularly with regard to the selection of columns, the aggregation level and the filter. The better the query is designed in this respect, the easier it is to integrate it into the visualization.
 

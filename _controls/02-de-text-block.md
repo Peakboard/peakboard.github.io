@@ -9,10 +9,10 @@ ref: con-02
 
 Das Control Textblock ist dazu gedacht, einzelne Texte darzustellen oder irgendetwas zu beschriften. Der Inhalt wird über die Eigenschaft Text gesetzt. Alle weiteren Eigenschaften sind entweder selbsterklärend oder können zusammen mit bekannten Bedienpatterns verwendet werden:
 
-[Allgemeine Eigenschaften]()
+[Allgemeine Eigenschaften](/controls/01-de-allgemeine-eigenschaften.html)
 
-[Verwalten von Schriftarten mit dem Font-Manager]()
+[Verwalten von Schriftarten mit dem Font-Manager](/misc/04-de-fonts.html)
 
-[Scripte in dynamischen Eigenschaften]()
+[Scripte in dynamischen Eigenschaften](/scripting/02-de-dynamischen-eigenschaften.html)
 
-[Formatieren von Werten]()
+[Formatieren von Werten](/misc/03-de-formatieren-von-Werten.html)
