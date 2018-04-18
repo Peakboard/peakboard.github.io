@@ -14,7 +14,7 @@ One of the basic ideas behind Peakboard is that the end user does not have to be
 
 The basic scripting language is LUA, and there are numerous documentation and tutorials on the Internet. A very nice documentation can be found on this [website](https://www.lua.org/docs.html). In addition to the standard functionalities of LUA, however, the Peakboard-Designer also offers some extensions of this language. These can be found on the left side of the script editor.
 
-Basically, Peakboard distinguishes between two concepts how scripts are used: Either with certain events or as [dynamic property](). This article shows exemplary both concepts.
+Basically, Peakboard distinguishes between two concepts how scripts are used: Either with certain events or as [dynamic property](/scripting/02-en-dynamic-properties.html). This article shows exemplary both concepts.
 
 ## Scripts for events
 

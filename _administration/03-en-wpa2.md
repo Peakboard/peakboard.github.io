@@ -26,7 +26,7 @@ Enter-PSSession -ComputerName <ip/hostname>
 -Credential localhost\administrator
 ```
 
-The following command creates a new wifi profile on the Box to connect to the WPA2 Enterprise access point.
+The following command creates a new WiFi profile on the Box to connect to the WPA2 Enterprise access point.
 
 ```
 netcmd /ActionType:ConnectName /Enterprise:true /Ssid:<ssid>

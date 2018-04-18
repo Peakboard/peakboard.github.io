@@ -14,16 +14,16 @@ Eine der Grundideen hinter Peakboard ist, dass der Enduser eben kein Programmier
 
 Die grundlegende Scriptsprache ist LUA, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials. Eine sehr schöne Dokumentation finden Sie auf [dieser](http://lua.coders-online.net/1) Internetseite. Neben den Standardfunktionalitäten von LUA bietet der Peakboard-Designer jedoch noch einige Erweiterungen dieser Sprache. Diese lassen sich auf der linken Seite des Scripteditors finden.
 
-Im Wesentlichen werden in Peakboard zwei Konzepte unterschieden, wie Scripte angewendet werden: Entweder bei bestimmten Ereignissen oder als [dynamische Eigenschaft](). Dieser Artikel zeigt exemplarisch beide Konzepte.
+Im Wesentlichen werden in Peakboard zwei Konzepte unterschieden, wie Scripte angewendet werden: Entweder bei bestimmten Ereignissen oder als [dynamische Eigenschaft](/scripting/02-de-dynamic-properties.html). Dieser Artikel zeigt exemplarisch beide Konzepte.
 
 
 ## Scripts for events
 
-Wir gehen von einer einfachen Datenquelle aus, wie sie zum Beispiel in [diesem]() Artikel genutzt wird. Ziel soll es sein, bei jedem Refresh der Datenquelle (z.B. alle 90 Sekunden, wenn es so eingestellt ist), nicht nur das verbundene TableGrid-Control mit neuen Daten anzuzeigen, sondern auch die Anzahl der Datensätze in einem Textfeld auszugeben. Dazu brauchen wir neben dem TableGrid-Control ein Textfeld auf dem Panel. Dieses Textfeld muss einen Namen bekommen, dafür gibt es eine Name-Eigenschaft wie im folgenden Screenshot gezeigt.
+Wir gehen von einer einfachen Datenquelle aus, wie sie zum Beispiel in [~~diesem~~]() Artikel genutzt wird. Ziel soll es sein, bei jedem Refresh der Datenquelle (z.B. alle 90 Sekunden, wenn es so eingestellt ist), nicht nur das verbundene TableGrid-Control mit neuen Daten anzuzeigen, sondern auch die Anzahl der Datensätze in einem Textfeld auszugeben. Dazu brauchen wir neben dem TableGrid-Control ein Textfeld auf dem Panel. Dieses Textfeld muss einen Namen bekommen, dafür gibt es eine Name-Eigenschaft wie im folgenden Screenshot gezeigt.
 
 ![image_1](/assets/images/scripting/engine/TutorialScripting01.png)
 
-Das TableGrid-Control wird einfach an die Datenquelle gebunden, dadurch wird es automatisch mitaktualisiert (so wie im oben bereits erwähnten [Artikel]() gezeigt). Es ist also nichts zu tun mit dem TableGrid-Control. Um die Anzahl der Datensätze zu ermitteln brauchen wir jetzt allerdings ein Script, das jedes mal dann ausgeführt wird, wenn die Datenquelle aktualisiert wird. Mit der rechten Maustaste auf die Datenquelle und dann auf Edit Events öffnet den Script-Editor.
+Das TableGrid-Control wird einfach an die Datenquelle gebunden, dadurch wird es automatisch mitaktualisiert (so wie im oben bereits erwähnten [~~Artikel~~]() gezeigt). Es ist also nichts zu tun mit dem TableGrid-Control. Um die Anzahl der Datensätze zu ermitteln brauchen wir jetzt allerdings ein Script, das jedes mal dann ausgeführt wird, wenn die Datenquelle aktualisiert wird. Mit der rechten Maustaste auf die Datenquelle und dann auf Edit Events öffnet den Script-Editor.
 
 ![image_1](/assets/images/scripting/engine/TutorialScripting02.png)
 

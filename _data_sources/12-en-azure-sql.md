@@ -8,7 +8,7 @@ ref: dat-12
 ---
 This page explains the individual features when accessing an Azure SQL data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 
-[Getting Started with External Data Sources Using the Example of an XML Data Source]()
+[Getting Started with External Data Sources Using the Example of an XML Data Source](/tutorials/03-en-xml-data.html)
 
 The Azure SQL data source is used to connect SQL server instances with Peakboard running on Azure. Please note: From Peakboard the inquiries are not placed directly on the database, but via a service which is available under Peakboard.io. Neither the user data nor the access data are stored by the Peakboard.io service. Communication is encrypted across the entire route.
 

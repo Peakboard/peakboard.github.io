@@ -13,7 +13,7 @@ Open the property editor of the WebWidget control by clicking the small button w
 
 The widget is not displayed in the Designer. To see it, the preview must be activated or the panel must be running on a Peakboard-Box. In the following screenshot you can also see very nicely that the size of the HTML output is determined by the HTML code and not by the size of the control. Of course, the Control must be large enough to display everything.
 
-controlswebwidget02
+
 
 ## Examples:
 

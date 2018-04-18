@@ -14,7 +14,7 @@ Classical administration tasks can be done mainly via the web interface of Windo
 Typical tasks in the admin interface are:
 
 * Changing the Device Name / Admin Password
-* Setting up the WLAN
+* Setting up the WiFi
 * System resource monitors such as memory or CPU usage
 
 These are standard tasks which are self-explanatory in the admin portal and therefore are not explained in detail here. If you have any further questions, please have a look at the official documentary at [https://developer.microsoft.com/en-us/windows/iot/docs/deviceportal](https://developer.microsoft.com/en-us/windows/iot/docs/deviceportal). The following screenshot shows the setup of the WiFi:

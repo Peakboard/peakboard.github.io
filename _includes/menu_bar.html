@@ -43,13 +43,13 @@
 
         <li class="has-submenu">
             <p class="py-2 hover:text-orange cursor-pointer text-white flex items-center">
-                {{ sub_level | replace: "_", " " | capitalize }}
+                {{ sub_level| replace: "_", " " | capitalize }}
                 {% include right_arrow.svg %}
             </p>
             <ul class="sub_level_list list-reset pl-4 absolute pin-t pin-b pin-r w-full bg-grey-dark">
                 <li class="sub-level-list-close flex items-center text-white hover:text-orange cursor-pointer mb-4 mt-3">
                     {% include left_arrow.svg %}
-                    {{ collection.label | capitalize }}
+                    {{ collection.label | replace: "_", " "| capitalize }}
                 </li>
                     {% for art in all_articles %}
                         {% assign parts = art.path | split: "/" %}

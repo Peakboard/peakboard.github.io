@@ -16,9 +16,9 @@ Um auf eigene Power BI Dashboards zugreifen zu können, muss man sich mit seinem
 
 1. **Ein Azure Active Directory erstellen:**
 
-    * Melden Sie sich auf dem Azure Management Portal [(http://manage.windowsazure.com)](http://manage.windowsazure.com) mit dem Microsoft-Konto an
-    * Wählen Sie in der Navigationsleiste „Active Directory“ aus und klicken Sie auf „New“.
-    * Füllen Sie in dem dem Dialog-Fenster alle notwendigen Felder aus
+    1. Melden Sie sich auf dem Azure Management Portal [(http://manage.windowsazure.com)](http://manage.windowsazure.com) mit dem Microsoft-Konto an
+    2. Wählen Sie in der Navigationsleiste „Active Directory“ aus und klicken Sie auf „New“.
+    3. Füllen Sie in dem dem Dialog-Fenster alle notwendigen Felder aus
 
 2. **Eine App in dem Active Directory registrieren:**
 

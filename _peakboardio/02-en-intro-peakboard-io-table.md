@@ -6,7 +6,7 @@ description: Peakboard.io Table
 lang: en
 ref: io-02
 ---
-Within the [Peakboard.io](https://peakboard.io) portal, you can maintain table objects. These tables can then be included in the Designer just like other data sources. Please see this tutorial on using the portal and the API key to access Peaboard.io objects.
+Within the [Peakboard.io](https://peakboard.io) portal, you can maintain table objects. These tables can then be included in the Designer just like other data sources. Please see this [tutorial](/01-en-intro-peakboard-io.html) on using the portal and the API key to access Peaboard.io objects.
 
 To use a Peakboard.io table, please create a corresponding data source (you may need to enter the user name and API key first). As usual, it must be named with a unique name. The selection box displays all tables associated with the specified API key (and its account). Max Items is the maximum number of rows that can be fetched. Reload Interval specifies the time interval in seconds how often the data is checked for actuality.
 

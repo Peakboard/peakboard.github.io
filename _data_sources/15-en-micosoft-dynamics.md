@@ -9,7 +9,7 @@ ref: dat-15
 
 This page explains the individual features when accessing the Dynamics NAV data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard-Elements:
 
-Getting Started with External Data Sources Using the Example of an XML Data Source
+[Getting Started with External Data Sources Using the Example of an XML Data Source](/tutorials/03-en-xml-data.html)
 
 From a technical point of view, OData is the best protocol for accessing data from Microsoft Dynamics NAV – hereinafter referred to as NAV. First of all, some preparations have to be done on the NAV side. The data query is based on a query that must be created in the NAV development environment. How to do this exactly would break the content of this page. You can find details in the [NAV help.](https://docs.microsoft.com/en-us/previous-versions/dynamicsnav-2016/hh165526(v=nav.90))
 

@@ -3,7 +3,7 @@ layout: article
 title: Web Widgets / HTML Code
 menu_title: Web Widgets / HTML Code
 description: Information about Peakboard Designer Web Widgets / HTML Code Control.
-lang: en
+lang: de
 ref: con-09
 ---
 
@@ -13,7 +13,7 @@ Im Gegensatz zum Webpage-Control ist die Aufgabe des WebWidget-Controls, nur ein
 
 Im Designer wird das Widget nicht angezeigt. Um es zu sehen, muss der Preview aktiviert werden oder das Panel muss auf einer Peakboard-Box laufen. Im nachfolgenden Screenshot sieht man übrigens auch sehr schön, dass die Größe der HTML-Ausgabe durch den HTML-Code und eben nicht durch die Größe des Controls bestimmt wird. Das Control muss aber natürlich groß genug sein, um alles anzuzeigen.
 
-controlswebwidget02
+
 
 ## Examples:
 

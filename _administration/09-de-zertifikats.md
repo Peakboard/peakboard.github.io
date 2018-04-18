@@ -13,7 +13,7 @@ Am einfachsten speichern kann man es zum Beispiel aus Chrome heraus.
 
 Dort auf die https-Seite gehen; Strg+Umschalt+I und da im Reiter „Security“ das Zertifikat anzeigen lassen.
 
-Von dort aus kann man im Tab „Details“ in eine Datei speichern. DER ( * .cer ) ist für diesen Fall ausreichend.
+Von dort aus kann man im Tab „Details“ in eine Datei speichern. `DER ( * .cer )` ist für diesen Fall ausreichend.
 
 ![image_1](/assets/images/admin/certificates/cert_01.png)
 

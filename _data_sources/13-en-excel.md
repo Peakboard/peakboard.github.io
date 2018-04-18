@@ -8,7 +8,7 @@ ref: dat-13
 ---
 This page explains the individual features when accessing an Excel data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 
-Getting Started with External Data Sources Using the Example of an XML Data Source
+[Getting Started with External Data Sources Using the Example of an XML Data Source](/tutorials/03-en-xml-data.html)
 
 After you click Add Excel Data, a window opens. In this dialog box, you must enter a name and select a storage location (e. g. Dropbox). The following locations are currently supported:
 

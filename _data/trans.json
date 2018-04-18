@@ -4,7 +4,17 @@
       "heading": {
         "en": "New to Peakboard",
         "de": "Neu bei Peakboard"
+        }
       }
     }
   }
+{
+    "home_page": {
+      "banner": {
+        "subheading": {
+          "en": "New ",
+          "de": "Neu "
+          }
+        }
+      }
 }

@@ -8,7 +8,7 @@ ref: con-10
 ---
 
 Das ListView-Control kann jede beliebige Form und Gestalt annehmen, so lange es wiederkehrende Elemente enthält. Es ist deshalb auch zwingend an eine tabellarische Datenquelle gekoppelt, um einwandfrei zu funktionieren. Ob es sich um eine einfache Liste handelt, oder um komplexe Elemente wird durch ein XAML-Fragment definiert. Falls Sie sich nicht mit XAML auskennen, benutzen Sie bitte [Google](https://www.google.de/?gws_rd=ssl#q=XAML), um mehr drüber zu erfahren. Es handelt sich um eine Beschreibungssprache, mit der man eine Oberfläche bestehend aus Bildern, Text und anderen Elementen definieren kann. So ähnlich wie HTML, nur viel besser.
-Im folgenden Beispiel wollen wir die Instagram-Quelle visualisieren, die wir [in einem anderen Artikel]() bereits aufgesetzt haben, und den Instagram-Feed darstellen. Solche Datenquellen eignen sich ganz besonders gut, da sie aus Bildern und Text bestehend.
+Im folgenden Beispiel wollen wir die Instagram-Quelle visualisieren, die wir [in einem anderen Artikel](/data_sources/16-de-instagram.html) bereits aufgesetzt haben, und den Instagram-Feed darstellen. Solche Datenquellen eignen sich ganz besonders gut, da sie aus Bildern und Text bestehend.
 Ziehen Sie das ListView-Control auf das Panel und klicken Sie auf den Eigenschaftseditor der Eigenschaft Source. Es öffnet sich ein Dialog, auf dem Sie sich eine Datenquelle aussuchen können, z.B. die von Instagram.
 
 ![image_1](/assets/images/Controls/ListView/controlslistview01.png)

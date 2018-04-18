@@ -9,7 +9,7 @@ ref: dat-12
 
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Azure-SQL-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Die Azure-SQL-Datenquelle ist dazu da, um SQL-Server Instanzen mit Peakboard zu verbinden, die auf Azure laufen. Bitte beachten Sie: Von Peakboard aus werden die Anfragen auf die Datenbank nicht direkt gestellt, sondern über einen Service, der unter peakboard.io erreichbar ist. Weder die Nutzdaten noch die Zugangsdaten werden von dem peakboard.io-Service gespeichert. Die Kommunikation ist über die komplette Strecke hinweg verschlüsselt.
 
