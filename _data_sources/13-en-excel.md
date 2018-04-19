@@ -5,6 +5,8 @@ menu_title: Excel
 description: Information about Excel Data in Peakboard
 lang: en
 ref: dat-13
+redirect_from:
+  - /en/datasources-excel/
 ---
 This page explains the individual features when accessing an Excel data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 
