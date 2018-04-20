@@ -6,6 +6,31 @@ description: Versionshistorie
 lang: de
 ref: misc-06
 ---
+## 1.0.19.7 (17.04.2018)
+
+* OPC UA Datenquelle ermöglicht den Zugriff auf Event Methoden
+* Peakbord IO Portal Benutzer kann nun mit Peakboard-Boxen gekoppelt werden
+* Skript Performance Updates
+* Siemens S7:
+  * Verbindungsstabilität verbessert
+  * Alle primitiven Datentypen aller PLCs werden nun unterstützt
+  * Data Validator wurde dem Designer hinzugefügt
+  * Variablen können nun in Gruppen verwaltet werden (Strukturen)
+* Timer Skripte sind nun global
+* Controls können animiert werden
+* Screen Animation hinzugefügt
+* Paketverschlüsselung wurde optimiert
+* Peakboard Bridge läuft nun auf .NET Version 4.6 anstelle von 4.5
+* Fix für das Hinzufügen neuer Controls über existierende
+* Fix für Programmabsturz bei Web Controls wenn C++ Bibliotheken nicht installiert sind
+* Fix dass ein neues Paket nicht mehr modified startet
+* Fix für Toggle Switch Control, dass dieses nicht initial ein Event triggert
+* Fix für das Validieren neu angelegter Skripte
+* Fix für Ressourcen die in den Screens angezeigt werden
+* Fix für das Aufrufen von LUA Funktionen wenn diese klein geschrieben sind
+* Fix für das hinzufügen eines Screens ohne Titel
+* Fix für SAP Datenquelle, die einen Thread Fehler anzeigte
+
 
 ## 1.0.18.0 (06.03.2018)
 

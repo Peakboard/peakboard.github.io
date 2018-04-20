@@ -6,6 +6,30 @@ description: Version History
 lang: en
 ref: misc-06
 ---
+1.0.19.7 (17.04.2018)
+
+* OPC UA datasource allows now to call event Methods
+* Peakbord IO Portal added possibility to pair Boxes with Peakboard IO Account
+* Script performance updates
+* Siemens S7:
+  * Increased connection stability
+  * Support for all prmitive datatype on all PLCs
+  * implemented variable data validator for designer
+  * can now organize variables in groups (structs)
+* Timer scripts are global now
+* Added control animations
+* Added screen animations
+* Improved package encryption
+* Changed Bridge .NET Version from 4.5 to 4.6
+* Fix for adding Controls over existing ones
+* Fix for Webviews fatal error when missing c++ libs
+* Fix for modified on start
+* Fix for toggle switch control calling event on start
+* Fix for validating new scripts
+* Fix for resources stored in the screens
+* Fix for casing of Lua functions
+* Fix for adding a screen with empty name
+* Fix for SAP datasource thread issues
 
 ## 1.0.18.0 (06.03.2018)
 
