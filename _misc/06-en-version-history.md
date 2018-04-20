@@ -6,7 +6,7 @@ description: Version History
 lang: en
 ref: misc-06
 ---
-1.0.19.7 (17.04.2018)
+## 1.0.19.7 (17.04.2018)
 
 * OPC UA datasource allows now to call event Methods
 * Peakbord IO Portal added possibility to pair Boxes with Peakboard IO Account
