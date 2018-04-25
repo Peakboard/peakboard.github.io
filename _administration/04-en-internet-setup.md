@@ -7,7 +7,7 @@ lang: en
 ref: admin-04
 ---
 
-pen the Windows Device Portal (http://<ip-address-<peakboard>: 8080) of the Box.
+Open the Windows Device Portal (http://<ip-address-<peakboard>: 8080) of the Box.
 There you have the possibility to send commands directly under “Processes” with “Run command”.
 
 You will need the following two commands, and you will need to adjust your own proxy server accordingly.
@@ -18,6 +18,6 @@ You will need the following two commands, and you will need to adjust your own p
 
 The commands can be sent one after the other using the “Run” button; it is important that the check mark in “Run as DefaultAccount” is set.
 
-![image_1](/assets/images/admin/internet-setup/Proxy.png)
+![image_1](/assets/images/admin/internet-setup/proxy.png)
 
 Then restart the Peakboard-Box once to apply the changes.

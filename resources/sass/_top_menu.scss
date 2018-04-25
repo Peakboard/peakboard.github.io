@@ -7,7 +7,7 @@
 }
 
 .navbar-inner {
-  transition: 0.3s ease-in-out;
+  transition: .25s ease-in-out;
   opacity: 1;
 }
 
@@ -18,7 +18,7 @@
   transition: 0.3s ease-in-out;
   transform-origin: left top;
   width: 300px;
-  overflow: hidden;
+  overflow: auto;
   max-height: calc(100vh - 6rem);
 }
 

@@ -17,8 +17,7 @@ html.stuck {
   }
 
   body {
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
     padding-top: 6rem;
   }
 
@@ -43,15 +42,17 @@ html.stuck {
 
 body.stuck {
   overflow-x: hidden;
-  overflow-y: hidden;
   position: relative;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
+}*/
+::-webkit-scrollbar {
+display: none;
 }
 ::-webkit-scrollbar-button {
   width: 0px;

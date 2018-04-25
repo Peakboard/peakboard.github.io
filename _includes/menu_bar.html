@@ -4,7 +4,7 @@
 {% if collection.label != "posts" %}
 
 <div class="relative px-3 h-12 top-menu-link flex items-center nav-top-link cursor-pointer">
-    <span class="font-light hover:text-orange tracking-wide">{{ collection.title[page.lang] }}
+    <span class=".font-semibold hover:text-orange tracking-wide">{{ collection.title[page.lang] }}
         <svg height="16"
              class="align-middle menu-down-caret"
              viewBox="0 0 24 24"
@@ -20,7 +20,7 @@
 
     <div class="dropdown-list bg-grey-darker z-50 flex absolute p-4 shadow">
     <ul class="overflow-auto static w-full list-reset">
-        <li class="flex w-full hover:text-orange inner-menu-close mb-4 text-grey-darkest mb-4 pb-4 xl:hidden items-center border-b border-grey-lighter">
+        <li class="flex w-full hover:text-orange inner-menu-close mb-4  text-sm text-grey-darkest mb-4 pb-4 xl:hidden items-center border-b border-grey-lighter">
             {% include left_arrow.svg %}
             <span>Menu</span>
         </li>
@@ -30,7 +30,7 @@
             {% if num_parts == 2 %}
 
         <li>
-            <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ article.url | relative_url }}">
+            <a class="w-full block  py-1 hover:text-orange text-sm text-white no-underline" href="{{ article.url | relative_url }}">
                 {{ article.menu_title | default: article.title | escape }}
             </a>
         </li>
@@ -42,12 +42,12 @@
                     {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
 
         <li class="has-submenu">
-            <p class="py-2 hover:text-orange cursor-pointer text-white flex items-center">
+            <p class="py-2 hover:text-orange cursor-pointer text-sm text-white flex items-center">
                 {{ sub_level| replace: "_", " " | capitalize }}
                 {% include right_arrow.svg %}
             </p>
             <ul class="sub_level_list list-reset pl-4 absolute pin-t pin-b pin-r w-full bg-grey-dark">
-                <li class="sub-level-list-close flex items-center text-white hover:text-orange cursor-pointer mb-4 mt-3">
+                <li class="sub-level-list-close flex items-center text-sm  text-white hover:text-orange cursor-pointer mb-4 mt-3">
                     {% include left_arrow.svg %}
                     {{ collection.label | replace: "_", " "| capitalize }}
                 </li>

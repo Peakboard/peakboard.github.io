@@ -1,11 +1,14 @@
 .accordian-inner {
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.3s ease-in;
+  transition: all .25s ease;
 }
 
 .accordian-trigger:checked ~ .accordian-inner {
-  max-height: 46rem;
+  max-height: 80rem;
+  -webkit-transition: text-indent 0.2s;
+	-moz-transition: text-indent 0.2s;
+	 transition: text-indent 0.2s;
 }
 
 .accordian-trigger:checked + .accordian-label {
@@ -13,7 +16,7 @@
 }
 
 .accordian-icon {
-  transition: 0.3s;
+  transition: .25s ease;
   transform: rotate(0deg);
   padding-top: 4px;
 }

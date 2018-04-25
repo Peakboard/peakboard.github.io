@@ -19,6 +19,6 @@ Sie benötigen die folgenden beiden Befehle, wobei sie ihren eigenen Proxy-Serve
 
 Die Befehle können Sie nacheinander über den „Run“-Knopf abschicken; wichtig ist, dass der Haken bei „Run as DefaultAccount“ gesetzt ist.
 
-![image_1](/assets/images/admin/internet-setup/Proxy.png)
+![image_1](/assets/images/admin/internet-setup/proxy.png)
 
 Danach die Peakboard-Box einmal neustarten, damit die Änderungen übernommen werden.
