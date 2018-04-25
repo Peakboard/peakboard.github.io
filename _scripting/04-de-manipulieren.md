@@ -3,8 +3,8 @@ layout: article
 title: Tabellendaten Manipulieren
 menu_title: Tabellendaten Manipulieren
 description: Tabellendaten Manipulieren
-lang: en
-ref: scr-4
+lang: de
+ref: scr-04
 ---
 Beim Peakboard-Scripting werden sehr oft tabellenartige Objekte genutzt. Das können entweder Daten aus einer Datenquelle sein oder aus einer tabellenartigen Variable. Im folgenden sind alle Standardaktivitäten aufgelistet, die man mit Tabellen machen kann, um die Daten zu manipulieren. In den Beispielen wird eine statische Tabelle mit Kundendaten verwendet:
 
