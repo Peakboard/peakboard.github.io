@@ -5,8 +5,11 @@ layout: base
 {% include page_header.html lang_selector="article" %}
 
 <section class="article-content max-w-lg px-4 mx-auto my-8">
+    <h3>{{ page.collection | replace: "_", " "| capitalize }}</h3>
     <h1>{{ page.title }}</h1>
-    {{content}}
+    <h4>{{ page.description }}</h4> 
+           {{content}}
+
 </section>
 
 <script src="{{ 'assets/prism.js' | relative_url }}"></script>

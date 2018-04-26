@@ -2,7 +2,7 @@
 layout: article
 title: Datum und Urzeit
 menu_title: Datum und Urzeit
-description: Information about time and date data in Peakboard
+description: Informationen über Zeit- und Datumsangaben in Peakboard
 lang: de
 ref: dat-02
 ---
