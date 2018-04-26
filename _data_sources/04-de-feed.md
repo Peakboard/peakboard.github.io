@@ -6,7 +6,6 @@ description: Information über RSS Feed Daten  in Peakboard
 lang: de
 ref: dat-04
 ---
-The feed data source is very simple. It is used to use RSS-Feeds in Peakboard.
 
 Die Feed-Datenquelle ist sehr simple. Sie wird dazu genutzt, um RSS-Feeds in Peakboard zu verwenden.
 
