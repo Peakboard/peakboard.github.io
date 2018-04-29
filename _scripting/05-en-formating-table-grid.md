@@ -36,7 +36,7 @@ This results in the following simple script to implement the requirements from a
 
 
 ```lua
-if table.getcelltext(e, 4) < 10 then
+if math.tonumber(table.getcelltext(e, 4)) < 10 then
  e.Columns[4].TextControl.Foreground = Brushes.Green
 else
  e.Columns[4].CellControl.Background = Brushes.Red

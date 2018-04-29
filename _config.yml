@@ -46,7 +46,7 @@ collections:
     position: 2
     title:
       en: "Data Sources"
-      de: "Dataquellen"
+      de: "Datenquellen"
 
   controls:
     output: true
