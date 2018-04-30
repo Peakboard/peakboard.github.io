@@ -7,13 +7,13 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.20.8 (06.03.2018)
+## 1.0.20.8 (30.03.2018)
 
 * Scroll- und Zoom Eigenschaft wurde dem Weiview Control zugefügt
 * Lua Runtime Eigenschaft Screen Scale wurde hinzugefügt
 * Fix für S7 benutzerdefinierte Variablen
 
-## 1.0.20.6 (06.03.2018)
+## 1.0.20.6 (24.03.2018)
 
 * Das manuelle Update wurde umgebaut und erlaubt nun auch das Updaten mehrerer Boxen
 * Timer Skripte können nun deaktiviert werden
