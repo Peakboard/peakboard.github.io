@@ -9,15 +9,18 @@ exclude_from_search: true
 
 
 <form action="{{ page.url | relative_url }}">
-  <div class=" w-4/5 flex-initial shadow appearance-none opacity-50 border rounded  py-2 px-3 m-2 text-grey-darker"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
-  <div style="clear: both;"></div>
+<input class=" w-4/5 flex-initial shadow appearance-none opacity-50 border rounded  py-2 px-3 m-2 text-grey-darker" type="text" name="q" id="tipue_search_input">
 </form>
-
 
 <div id="tipue_search_content"></div>
 
+
 <script>
 $(document).ready(function() {
-  $('#tipue_search_input').tipuesearch();
+  $('#tipue_search_input').tipuesearch({
+    'highlightTerms':true,
+    'showTime':false,
+    'showURL':false
+  });
 });
 </script>

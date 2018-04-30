@@ -854,7 +854,7 @@ button,
 }
 
 .bg-blue {
-  background-color: #3490dc;
+  background-color: #048ba8;
 }
 
 .bg-blue-light {
@@ -1150,7 +1150,7 @@ button,
 }
 
 .hover\:bg-blue:hover {
-  background-color: #3490dc;
+  background-color: #048ba8;
 }
 
 .hover\:bg-blue-light:hover {
@@ -1510,7 +1510,7 @@ button,
 }
 
 .border-blue {
-  border-color: #3490dc;
+  border-color: #048ba8;
 }
 
 .border-blue-light {
@@ -1806,7 +1806,7 @@ button,
 }
 
 .hover\:border-blue:hover {
-  border-color: #3490dc;
+  border-color: #048ba8;
 }
 
 .hover\:border-blue-light:hover {
@@ -4002,7 +4002,7 @@ button,
 }
 
 .text-blue {
-  color: #3490dc;
+  color: #048ba8;
 }
 
 .text-blue-light {
@@ -4298,7 +4298,7 @@ button,
 }
 
 .hover\:text-blue:hover {
-  color: #3490dc;
+  color: #048ba8;
 }
 
 .hover\:text-blue-light:hover {
@@ -4813,6 +4813,10 @@ body.stuck {
   width: 100%;
   position: relative;
   opacity: 30%;
+}
+
+#tipue_search_foot_boxes li.current {
+  list-style: none !important;
 }
 
 /*::-webkit-scrollbar {
@@ -5993,7 +5997,7 @@ pre[class*="language-"] {
   }
 
   .sm\:bg-blue {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .sm\:bg-blue-light {
@@ -6289,7 +6293,7 @@ pre[class*="language-"] {
   }
 
   .sm\:hover\:bg-blue:hover {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .sm\:hover\:bg-blue-light:hover {
@@ -6649,7 +6653,7 @@ pre[class*="language-"] {
   }
 
   .sm\:border-blue {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .sm\:border-blue-light {
@@ -6945,7 +6949,7 @@ pre[class*="language-"] {
   }
 
   .sm\:hover\:border-blue:hover {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .sm\:hover\:border-blue-light:hover {
@@ -9133,7 +9137,7 @@ pre[class*="language-"] {
   }
 
   .sm\:text-blue {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .sm\:text-blue-light {
@@ -9429,7 +9433,7 @@ pre[class*="language-"] {
   }
 
   .sm\:hover\:text-blue:hover {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .sm\:hover\:text-blue-light:hover {
@@ -10110,7 +10114,7 @@ pre[class*="language-"] {
   }
 
   .md\:bg-blue {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .md\:bg-blue-light {
@@ -10406,7 +10410,7 @@ pre[class*="language-"] {
   }
 
   .md\:hover\:bg-blue:hover {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .md\:hover\:bg-blue-light:hover {
@@ -10766,7 +10770,7 @@ pre[class*="language-"] {
   }
 
   .md\:border-blue {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .md\:border-blue-light {
@@ -11062,7 +11066,7 @@ pre[class*="language-"] {
   }
 
   .md\:hover\:border-blue:hover {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .md\:hover\:border-blue-light:hover {
@@ -13250,7 +13254,7 @@ pre[class*="language-"] {
   }
 
   .md\:text-blue {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .md\:text-blue-light {
@@ -13546,7 +13550,7 @@ pre[class*="language-"] {
   }
 
   .md\:hover\:text-blue:hover {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .md\:hover\:text-blue-light:hover {
@@ -14227,7 +14231,7 @@ pre[class*="language-"] {
   }
 
   .lg\:bg-blue {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .lg\:bg-blue-light {
@@ -14523,7 +14527,7 @@ pre[class*="language-"] {
   }
 
   .lg\:hover\:bg-blue:hover {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .lg\:hover\:bg-blue-light:hover {
@@ -14883,7 +14887,7 @@ pre[class*="language-"] {
   }
 
   .lg\:border-blue {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .lg\:border-blue-light {
@@ -15179,7 +15183,7 @@ pre[class*="language-"] {
   }
 
   .lg\:hover\:border-blue:hover {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .lg\:hover\:border-blue-light:hover {
@@ -17367,7 +17371,7 @@ pre[class*="language-"] {
   }
 
   .lg\:text-blue {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .lg\:text-blue-light {
@@ -17663,7 +17667,7 @@ pre[class*="language-"] {
   }
 
   .lg\:hover\:text-blue:hover {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .lg\:hover\:text-blue-light:hover {
@@ -18344,7 +18348,7 @@ pre[class*="language-"] {
   }
 
   .xl\:bg-blue {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .xl\:bg-blue-light {
@@ -18640,7 +18644,7 @@ pre[class*="language-"] {
   }
 
   .xl\:hover\:bg-blue:hover {
-    background-color: #3490dc;
+    background-color: #048ba8;
   }
 
   .xl\:hover\:bg-blue-light:hover {
@@ -19000,7 +19004,7 @@ pre[class*="language-"] {
   }
 
   .xl\:border-blue {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .xl\:border-blue-light {
@@ -19296,7 +19300,7 @@ pre[class*="language-"] {
   }
 
   .xl\:hover\:border-blue:hover {
-    border-color: #3490dc;
+    border-color: #048ba8;
   }
 
   .xl\:hover\:border-blue-light:hover {
@@ -21484,7 +21488,7 @@ pre[class*="language-"] {
   }
 
   .xl\:text-blue {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .xl\:text-blue-light {
@@ -21780,7 +21784,7 @@ pre[class*="language-"] {
   }
 
   .xl\:hover\:text-blue:hover {
-    color: #3490dc;
+    color: #048ba8;
   }
 
   .xl\:hover\:text-blue-light:hover {
