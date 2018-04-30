@@ -32,7 +32,9 @@ http://www.tipue.com/search
      font-weight: 400;
 }
 
-
+#tipue_search_foot_boxes li:before {
+    display: none;
+}
 /* search box */
 
 /*

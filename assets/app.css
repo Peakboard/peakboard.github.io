@@ -4815,10 +4815,6 @@ body.stuck {
   opacity: 30%;
 }
 
-#tipue_search_foot_boxes li.current {
-  list-style: none !important;
-}
-
 /*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
