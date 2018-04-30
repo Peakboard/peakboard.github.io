@@ -30,7 +30,7 @@ Um Peakboard mit der S7 zu verbinden, legen Sie eine entsprechende Datenquelle a
 
 ## Variablendefinition
 
-Für jede abzurufende Variable muss manuell ein Eintrag vorgenommen werden. Dafür muss ein eindeutiger Name gewählt werden, der jedoch nicht mit dem, der Variable, auf der Steuerung übereinstimmen muss. Weiterhin muss die Position der Variable definiert werden. Dazu gehört, ob die Variable in einem Datenbaustein, Merker, Aus- oder Eingang liegt (Type) und das Offset, welches die Speicheradresse der Variable angibt
+Für jede abzurufende Variable muss manuell ein Eintrag vorgenommen werden. Dafür muss ein eindeutiger Name gewählt werden, der jedoch nicht mit dem, der Variable, auf der Steuerung übereinstimmen muss. Weiterhin muss die Position der Variable definiert werden. Dazu gehört, ob die Variable in einem Datenbaustein, Merker, Aus- oder Eingang liegt (Type) und das Offset, welches die Speicheradresse der Variable angibt.
 
 ![image_1](/assets/images/Data_Sources/Siemens_S7/Datenquelle_S7_04_EditVariableDialog.png)
 
