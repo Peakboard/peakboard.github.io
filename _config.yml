@@ -18,6 +18,11 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
+tipue_search:
+  include:
+    pages: true
+    collections: [tutorials, video_tutorials,data_sources,controls,misc,administration,peakboardio]
+
 collections:
   tutorials:
     output: true
@@ -41,7 +46,7 @@ collections:
     position: 2
     title:
       en: "Data Sources"
-      de: "Dataquellen"
+      de: "Datenquellen"
 
   controls:
     output: true

@@ -1,20 +1,44 @@
 ---
 layout: base
+tipue_search_active: true
 ---
 
 {% include page_header.html lang_selector="home" %}
 
 {% assign home = site.data.trans.home_page %}
-<section class=" bg-grey-lightest py-8 px-8">
-    <h3 class="font-normal text-4xl text-black">{{ home.banner.heading[page.lang] }}</h3>
-    <p class="my-3">Here you will find tutorials and articles on using Peakboard.</p>
-    <p class="my-3">For technical problems contact technical support:</p>
-    <p class="mb-3">Tel:
-        <a href="#" class="text-orange no-underline hover:underline">+49 711 46 05 99 -61</a>
-    </p>
-    <p class="mb-3">E-Mail:
-        <a href="mailto:support@peakboard.com" class="text-orange no-underline hover:underline">support@peakboard.com</a>
-    </p>
+<section class="hero py-8 px-8">
+    <h3 class="font-bold text-4xl text-white">Peakboard Help Site</h3>
+    <p class="my-3 text-white">Here you will find tutorials and articles on using Peakboard.</p>
+
+<div class= "flex justify-center">
+  <form action="/search/">
+  <input class=" w-4/5 flex-initial shadow appearance-none opacity-50 border rounded  py-2 px-3 m-2 text-grey-darker" type="text" name="q" id="tipue_search_input">
+  </form>
+
+
+
+
+  <script>
+  $(document).ready(function() {
+    $('#tipue_search_input').tipuesearch();
+  });
+  </script>
+
+    <!--<input class=" w-4/5 flex-initial shadow appearance-none opacity-50 border rounded  py-2 px-3 m-2 text-grey-darker" id="serach" type="text" placeholder="Haben Sie eine Frage?">-->
+    <button class="bg-transparent hover:bg-orange text-orange font-semibold hover:text-white py-2 px-4 m-2 border border-orange hover:border-transparent rounded">
+      Serach
+    </button>
+
+</div>
+</section>
+
+<section>
+  <div class="flex items-stretch bg-grey-lighter h-24">
+  <div class="flex-1 text-grey-darker text-center bg-grey-light px-4 py-2 m-2">1</div>
+  <div class="flex-1 text-grey-darker text-center bg-grey-light px-4 py-2 m-2">2</div>
+  <div class="flex-1 text-grey-darker text-center bg-grey-light px-4 py-2 m-2">3</div>
+</div>
+
 </section>
 <div class="accordian-nav my-6 max-w-xl mx-auto">
     {% include accordian.html %}

@@ -44,7 +44,18 @@ body.stuck {
   overflow-x: hidden;
   position: relative;
 }
-
+.hero{
+   background-image: url("/assets/images/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+.search{
+width: 100%;
+position: relative;
+opacity: 30%;
+}
 /*::-webkit-scrollbar {
   width: 8px;
   height: 8px;

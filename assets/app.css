@@ -4801,6 +4801,20 @@ body.stuck {
   position: relative;
 }
 
+.hero {
+  background-image: url("/assets/images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  opacity: 30%;
+}
+
 /*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -5179,8 +5193,8 @@ html {
   font-size: 1rem;
   line-height: 2;
   letter-spacing: -.003em;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
+  -webkit-margin-before: 2em;
+  -webkit-margin-after: 2em;
 }
 
 .article-content ol,
