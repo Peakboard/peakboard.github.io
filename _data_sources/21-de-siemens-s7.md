@@ -62,7 +62,7 @@ Die Datenquelle kann jetzt wie üblich in Peakboard weiterverwendet werden, z.B.
 ## Variablen schreiben
 
 Das Setzen von Werten auf S7-Steuerungen ist ausschließlich mit Lua-Script möglich. Dazu gibt es vier Methoden, jeweils eine pro Art von Speicher. Diese Methoden sind im Skripteditor als Unterpunkt „Write to PLC“ der Datenquelle zu finden. 
-Es ist zu beachten, dass die Variable, welche beschrieben werden soll, nicht in der Datenquelle hinterlegt sein muss.
+Es ist zu beachten, dass die Variable, welche geschrieben werden soll, nicht in der Datenquelle hinterlegt sein muss.
 
 ![image_1](/assets/images/Data_Sources/Siemens_S7/Datenquelle_S7_08_WriteMethods.png)
 
