@@ -67,7 +67,7 @@ Es ist zu beachten, dass die Variable, welche geschrieben werden soll, nicht in 
 ![image_1](/assets/images/Data_Sources/Siemens_S7/Datenquelle_S7_08_WriteMethods.png)
 
 Die Syntax der Methoden ist weitestgehend identisch, wobei stets ausschließlich die essentiellen Informationen der zuschreibenden Variable erforderlich sind.
-Ein solcher Befehl hat folgendes Muster
+Ein solcher Befehl hat folgendes Muster:
 
 ```lua
 Data.[plc].setvar( ([Datenblocknummer], )[Offset], [Datentyp], [Wert] )
