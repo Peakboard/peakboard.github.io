@@ -3,6 +3,9 @@
   max-height: 0;
   transition: all .25s ease;
 }
+#sublevel{
+  text-transform: capitalize;
+}
 
 .accordian-trigger:checked ~ .accordian-inner {
   max-height: 80rem;
@@ -23,8 +26,4 @@
 
 .accordian-trigger:checked + .accordian-label .accordian-icon {
   transform: rotate(180deg);
-}
-
-li{
-    text-transform: capitalize;
 }
