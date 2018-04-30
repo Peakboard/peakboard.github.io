@@ -7,9 +7,13 @@ tipue_search_active: true
 exclude_from_search: true
 ---
 
-<form action="{{ page.url | relative_url }}">
-<input class=" w-4/5 flex-initial shadow appearance-none opacity-50 border rounded  py-2 px-3 m-2 text-grey-darker" type="text" name="q" id="tipue_search_input">
+<div>
+  <form action="/search/">
+  <input class=" w-auto shadow appearance-none opacity-50 border rounded  py-2 px-4 2 text-grey-darker" type="text" name="q" id="tipue_search_input">
+  <button type="submit" class="fa fa-search bg-transparent hover:bg-orange text-orange hover:text-white py-2 px-4 border border-orange hover:border-transparent rounded">
+  </button>
 </form>
+</div>
 
 <div id="tipue_search_content"></div>
 
