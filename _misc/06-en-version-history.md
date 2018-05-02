@@ -7,13 +7,13 @@ lang: en
 ref: misc-06
 ---
 
-## 1.0.20.8 (30.03.2018)
+## 1.0.20.9 (30.04.2018)
 
 * Added scroll- and zoomproperty to webview
 * Added Lua Runtime property for Sreen Scale
 * Fix for S7 custom variables
 
-## 1.0.20.6 (24.03.2018)
+## 1.0.20.6 (24.04.2018)
 
 * Reworked manually update functionality and added multiple manual update
 * Timer scripts can be disabled now
