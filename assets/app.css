@@ -4875,7 +4875,7 @@ body.stuck {
   transition: .3s ease-in-out;
   -webkit-transform-origin: left top;
           transform-origin: left top;
-  width: 300px;
+  width: 400px;
   overflow: auto;
   max-height: calc(100vh - 6rem);
 }
