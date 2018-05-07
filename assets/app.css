@@ -4875,7 +4875,7 @@ body.stuck {
   transition: .3s ease-in-out;
   -webkit-transform-origin: left top;
           transform-origin: left top;
-  width: 400px;
+  width: 300px;
   overflow: auto;
   max-height: calc(100vh - 6rem);
 }
@@ -4973,10 +4973,6 @@ body.stuck {
 .accordian-trigger:checked + .accordian-label .accordian-icon {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-}
-
-li {
-  text-transform: capitalize;
 }
 
 .white {
@@ -5179,8 +5175,8 @@ html {
   font-size: 1rem;
   line-height: 2;
   letter-spacing: -.003em;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
+  -webkit-margin-before: 2em;
+  -webkit-margin-after: 2em;
 }
 
 .article-content ol,

@@ -6,7 +6,7 @@ description: Excel-Datei von einem Netzlaufwerk einbinden
 lang: de
 ref: tut-04
 ---
-Peakboard unterstützt eine Vielzahl von wunderschönen Datenquellen; oft nutzen Neueinsteiger aber gerne einfach nur Excel. Eine normale Dokumentation zu Excel als Datenquelle finden Sie [hier](). Dieses Schritt-für-Schritt-Tutorial zeigt den kompletten Ablauf vom Einbinden der Datei bis zum Aufbereiten der Daten in einem kleinem Chart.
+Peakboard unterstützt eine Vielzahl von wunderschönen Datenquellen; oft nutzen Neueinsteiger aber gerne einfach nur Excel. Eine normale Dokumentation zu Excel als Datenquelle finden Sie [hier](/data_sources/13-de-excel.html). Dieses Schritt-für-Schritt-Tutorial zeigt den kompletten Ablauf vom Einbinden der Datei bis zum Aufbereiten der Daten in einem kleinem Chart.
 
 Der folgende Screenshot zeigt die Originaldatei. Sie enthält eine Tabelle von zwei Abteilungen (A und B) und jeweils pro Monat eine Art Performance-Kennzahl. Darüberhinaus enthält das Tabellenblatt noch weitere Daten und ein Excel-Chart. Alle diesen Daten interessieren uns nicht. Wir wollen nur die erste Tabelle ganz oben weiterverarbeiten.
 

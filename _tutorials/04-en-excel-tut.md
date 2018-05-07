@@ -6,7 +6,7 @@ description: Including Excel File From a Network Drive
 lang: en
 ref: tut-04
 ---
-Peakboard supports a variety of beautiful data sources; often newcomers just like to use Excel. A normal documentation on Excel as a data source can be found at here. This step-by-step tutorial shows the complete process from including the file to preparing the data in a small chart.
+Peakboard supports a variety of beautiful data sources; often newcomers just like to use Excel. A normal documentation on Excel as a data source can be found at [here.](/data_sources/13-en-excel.html) This step-by-step tutorial shows the complete process from including the file to preparing the data in a small chart.
 
 The following screenshot shows the original application file. It contains a table of two departments (A and B) and a kind of performance indicator per month. The spreadsheet also contains additional data and an Excel chart. We are not interested in all these data. We only want to process the first table at the top.
 
@@ -30,4 +30,4 @@ The following picture shows our visualization project in preview with the finish
 
 ![image_1](/assets/images/Tutorial/Excel/TutorialExcel_05.png)
 
->    **Important note!** If you want to start freshly with Peakboard and want to use Excel data, it is best to first try to include the Excel file as a fixed resource. This is the easiest way to get the data. Then there is no need to  configure a Bridge. The (dynamic) access via the Bridge is then traced later. Especially at the start the first, presentable successes can be realized even faster.
+>    **Important note!** If you want to start freshly with Peakboard and want to use Excel data, it is best to first try to include the Excel file as a fixed resource. This is the easiest way to get the data. Then there is no need to  configure a Bridge. The (dynamic) access via the Bridge is then traced later. This makes it possible to achieve initial, demonstrable success even faster, especially at the start.
