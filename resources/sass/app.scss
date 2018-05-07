@@ -45,14 +45,11 @@ body.stuck {
   position: relative;
 }
 
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
-}*/
-::-webkit-scrollbar {
-display: none;
 }
 ::-webkit-scrollbar-button {
   width: 0px;
