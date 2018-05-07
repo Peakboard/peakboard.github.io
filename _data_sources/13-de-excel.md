@@ -18,7 +18,7 @@ Nachdem Sie auf Add Excel Data geklickt haben, öffnet sich ein Fenster. In dies
 *    **Dropbox**
 *    **GoogleDrive**
 *    **OneDrive** – Microsoft OneDrive (sowohl das kostenfreie Angebot, als auch als Teil von Office 365)
-*    **NetworkShareFile** –  Die Datei wird über die Peakboard-Bridge von einem Netzlaufwerk gezogen. Weitere Informationen über die Peakboard-Bridge finden Sie [hier.]()
+*    **NetworkShareFile** –  Die Datei wird über die Peakboard-Bridge von einem Netzlaufwerk gezogen. Weitere Informationen über die Peakboard-Bridge finden Sie [hier.](/administration/01-de-install.html)
 *    **NetworkShareFileDirect** – Die Datei wird direkt von einem Netzlaufwerk gezogen. Achtung! Das funktioniert nur, wenn das Netzlaufwerk keinerlei Sicherheitsbeschänkungen hat und für den anonymen Zugriff konfiguriert ist.
 
 Anschließend melden Sie sich über den Authorize Button bei dem Cloudanbieter an und wählen über den …-Button eine Datei aus – sofern Sie einen Cloud-Anbieter als Quelle gewählt haben.

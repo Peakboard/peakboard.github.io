@@ -8,7 +8,7 @@ ref: tut-02
 ---
 This tutorial shows you how to put the Peakboard-Box into operation and transfer its first design to the box. If you haven’t read it yet, we recommend the basics tutorial for an introduction to the designer:
 
-[Peakboard Designer: The Basics]()
+[Peakboard Designer: The Basics](/tutorials/01-en-peakboard-designer-basics.html)
 
 To put the Peakboard-Box into operation, it must be powered by a Micro-USB cable. The monitor is controlled with a standard HDMI cable and as long as the WiFi is not configured, the box needs a LAN cable.
 

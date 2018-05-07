@@ -2,7 +2,7 @@
 layout: article
 title: Azure SQL
 menu_title: Azure SQL
-description: Information about Azure SQL Data  in Peakboard
+description: Information about Azure SQL Data in Peakboard
 lang: en
 ref: dat-12
 ---

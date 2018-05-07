@@ -18,7 +18,7 @@ After you click Add Excel Data, a window opens. In this dialog box, you must ent
 *    **Dropbox**
 *    **GoogleDrive**
 *    **OneDrive** – Microsoft OneDrive (both the free offer, and as part of Office 365)
-*    **NetworkShareFile** – The file is dragged over the Peakboard-Bridge from a network drive. More information about the Peakboard bridge can be found here.
+*    **NetworkShareFile** – The file is dragged over the Peakboard-Bridge from a network drive. More information about the Peakboard bridge can be found [here.](/administration/01-en-install.html)
 *    **NetworkShareFileDirect** – The file is pulled directly from a network drive. Attention! This only works if the network drize has no security restrictions and is configured for anonymous access.
 
 Then log in to the cloud provider using the Authorize button and select a file using the… button – if you have selected a cloud provider as the source.

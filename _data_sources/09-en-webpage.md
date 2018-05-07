@@ -8,7 +8,7 @@ ref: dat-09
 ---
 This page explains the individual features when accessing a table contained on a Web page. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 
-[Getting Started with External Data Sources Using the Example of an XML Data Source]()
+[Getting Started with External Data Sources Using the Example of an XML Data Source](/tutorials/03-en-xml-data.html)
 
 If you don’t have a URL to a suitable website at hand, but just want to try it out once, please use the following sample URL. It refers to a Wikipedia page with several tables. In this article we are only interested in the first, large table with the perpetual medal table (all medals per country accumulated over all Olympic Games). We are not interested in the other, smaller tables – further down on the page -. We want them filtered out.
 
