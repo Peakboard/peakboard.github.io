@@ -9,7 +9,7 @@ ref: misc-06
 
 ## 1.0.20.9 (30.04.2018)
 
-* Scroll- und Zoom Eigenschaft wurde dem Weiview Control zugefügt
+* Scroll- und Zoom Eigenschaft wurde dem Webview Control zugefügt
 * Lua Runtime Eigenschaft Screen Scale wurde hinzugefügt
 * Fix für S7 benutzerdefinierte Variablen
 
