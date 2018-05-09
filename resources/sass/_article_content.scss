@@ -285,19 +285,15 @@ html {
 
   a {
     color: #f29205;
-    border-bottom: 1px solid #f2f3f4;
     text-decoration: none;
     overflow-wrap: break-word;
     word-break: break-word;
     word-wrap: break-word;
-    -webkit-transition: color 0.3s, background 0.3s, border 0.3s;
-    -o-transition: color 0.3s, background 0.3s, border 0.3s;
-    transition: color 0.3s, background 0.3s, border 0.3s;
+  
   }
   a:hover,
   a:focus {
-    background: #f2f3f4;
-    color: #d31516;
+    border-bottom: 2px solid #f29205;
   }
 
   hr {
