@@ -34,33 +34,33 @@ Um auf eigene Power BI Dashboards zugreifen zu können, muss man sich mit seinem
 
     6. Weisen Sie der App die Power BI Zugriffsrechte zu.
 
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi02.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
 
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi03.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI03.png)
 
 Wenn Sie in den Einstellungen des Power BI Kachel-Steuerelements im Peakboard-Designer eine Kachel auswählen wollen, erscheint erstmal das Login-Fenster:
 
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi04.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI04.png)
 
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi05.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI05.png)
 
 Die Tenant ID bekommen Sie Sie aus der URL in dem Azure Managementportal:
 
   1. Wählen Sie links in der Navigationsleiste „Active Directory“ aus
   2. Wählen Sie in der Liste die Active Directory aus, in der eine App mit dem Zugriff auf Power BI registriert ist
   3. Die ID des Active Directorys finden Sie in der URL der aktuellen Seite:
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi06.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI06.png)
 
 Die Client ID finden Sie in den Einstellungen der Active Directory Application (siehe ganz oben).
 
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi07.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI07.png)
 
 Abschließend befüllen Sie noch Microsoft-Konto Benutzername und Passwort. Nachdem die Authentifizierung erfolgreich abgeschlossen ist, können Sie die Power BI-Kachel, die Sie auf dem PeakBoard darstellen wollen, auswählen. In dem Dialog geben Sie bitte den Namen des Dashboards und der Kachel an.
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi08.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI08.png)
 
 Die beiden nachfolgenden Screenshots zeigen das Dashboard einmal original im Power BI und dann auf einem Peakboard-Panel.
 
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi09.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI09.png)
 
-![image_1](/assets/images/Controls/Controls-Power/controlspowerbi10.png)
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI10.png)
