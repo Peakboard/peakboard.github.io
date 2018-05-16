@@ -18,11 +18,11 @@ Basically, Peakboard distinguishes between two concepts how scripts are used: Ei
 
 ## Scripts for events
 
-We assume a simple data source, as used for example in this [article.](03-en-xml-data.html) The aim is to display not only the connected TableGrid-Control with new data, but also the number of data records in a text field for each refresh of the data source (e. g. every 90 seconds, if it is set in this way). To do this, we need a text field on the panel next to the TableGrid-Control. This text field must be given a name, but there is a Name-Property as shown in the following screenshot.
+We assume a simple data source, as used for example in this [article.](/tutorials/03-en-xml-data.html) The aim is to display not only the connected TableGrid-Control with new data, but also the number of data records in a text field for each refresh of the data source (e. g. every 90 seconds, if it is set in this way). To do this, we need a text field on the panel next to the TableGrid-Control. This text field must be given a name, but there is a Name-Property as shown in the following screenshot.
 
 ![image_1](/assets/images/scripting/engine/TutorialScripting01.png)
 
-The TableGrid-Control is simply bound to the data source, which automatically updates it (as shown in the above-mentioned [Article ](03-en-xml-data.html)). So it is nothing to do with TableGrid-Control. To determine the number of records, however, we now need a script that runs every time the data source is updated. Right-click on the data source and select Edit Events to open the Script-Editor.
+The TableGrid-Control is simply bound to the data source, which automatically updates it (as shown in the above-mentioned [Article ](/tutorials/03-en-xml-data.html)). So it is nothing to do with TableGrid-Control. To determine the number of records, however, we now need a script that runs every time the data source is updated. Right-click on the data source and select Edit Events to open the Script-Editor.
 
 ![image_1](/assets/images/scripting/engine/TutorialScripting02.png)
 
