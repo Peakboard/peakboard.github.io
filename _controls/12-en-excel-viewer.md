@@ -23,6 +23,10 @@ The following screenshot shows the Excel chart in the Peakboard-Preview.
 
 ![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_03.png)
 
-> Attention! Please note that the chart does not necessarily have to look exactly the same as in the original Excel. For > technical reasons, optical deviations may occur.
+> ### Attention!
+>
+> Please note that the chart does not necessarily have to look exactly the same as in the original Excel. For > technical reasons, optical deviations may occur.
 
-> Attention! Please check very carefully whether it really makes sense to use Excel as a chart generator in your case! Only embedding the data to visualize them with Peakboard-specific charts is technically always the better alternative.
+> ### Attention!
+>
+>Please check very carefully whether it really makes sense to use Excel as a chart generator in your case! Only embedding the data to visualize them with Peakboard-specific charts is technically always the better alternative.

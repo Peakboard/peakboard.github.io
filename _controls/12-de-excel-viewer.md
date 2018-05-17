@@ -22,6 +22,10 @@ Das Excel-Viewer-Control wird am einfachsten über die Eigenschaft Chart konfigu
 Der folgende Screenshot zeigt das Excel-Chart im Peakboard-Preview.
 ![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_03.png)
 
-> Achtung! Bitte beachten Sie, dass das Chart nicht zwingend exakt so aussehen muss, wie im Original-Excel. Aus technischen Gründen kann es zu optischen Abweichungen kommen.
+> ### Achtung! 
+>
+>Bitte beachten Sie, dass das Chart nicht zwingend exakt so aussehen muss, wie im Original-Excel. Aus technischen Gründen kann es zu optischen Abweichungen kommen.
 
-> Achtung! Bitte prüfen Sie sehr genau, ob es in Ihrem Fall wirklich Sinn macht, Excel als Chart-Generator zu verwenden! Nur die Daten einzubinden, um sie dann mit Peakboard-eigenen Charts zu visualisieren, ist technisch immer die bessere Alternative.
+> ### Achtung!
+>
+> Bitte prüfen Sie sehr genau, ob es in Ihrem Fall wirklich Sinn macht, Excel als Chart-Generator zu verwenden! Nur die Daten einzubinden, um sie dann mit Peakboard-eigenen Charts zu visualisieren, ist technisch immer die bessere Alternative.
