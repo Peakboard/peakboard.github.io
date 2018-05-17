@@ -33,4 +33,8 @@ Das nachfolgende Bild zeigt unser Visualisierungsprojekt im Preview mit dem fert
 
 ![image_1](/assets/images/Tutorial/Excel/TutorialExcel_05.png)
 
->  **Wichtiger Hinweis!** Wenn Sie frisch mit Peakboard beginnen und Excel-Daten nutzen wollen, probieren Sie am besten zuerst einmal, die Excel-Datei als feste Ressource einzubinden. Das ist die einfachste Möglichkeit, an die Daten zu kommen. Dann muss auch keine Bridge konfiguriert werden. Der (dynamische) Zugriff über die Bridge wird dann später nachgezogen. Gerade zum Start lassen sich so noch schneller erste, vorzeigbare Erfolge realisieren.
+
+> ### Wichtiger Hinweis!
+>
+>Wenn Sie frisch mit Peakboard beginnen und Excel-Daten nutzen wollen, probieren Sie am besten zuerst einmal, die Excel-Datei als feste Ressource einzubinden. Das ist die
+>einfachste Möglichkeit, an die Daten zu kommen. Dann muss auch keine Bridge konfiguriert werden. Der (dynamische) Zugriff über die Bridge wird dann später nachgezogen. Gerade zum Start lassen sich so noch schneller erste, vorzeigbare Erfolge realisieren.

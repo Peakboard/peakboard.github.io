@@ -8,8 +8,9 @@ ref: dat-08
 ---
 In den beiden Einführungstutorials wurden lediglich statische Inhalte in der Visualisierung genutzt. Richtig spannend wird das alles aber erst, wenn das Design dynamische Daten anzeigt. Grundsätzlich unterscheidet man bei Peakboard zwischen zwei wesentlichen Konzepten, wie dynamische Inhalte eingebettet werden:
 
-Die Daten kommen schon fertig aufbereitet aus der externen Quelle und brauchen nur noch in ein Panel eingebunden werden. Das ist zum Beispiel der Fall, wenn Sie eine externe Webseite komplett oder in Teilen einbinden. Oder auch ein BI-Tool wie Power BI, QlikView, Tableau oder ähnliches nutzen und das Aufbereiten der Daten diesem BI-Tool überlassen. Peakboard fungiert dann als eine Art Anzeigeprogramm und das jeweilige Vorsystem sorgt für die visuelle Aufbereitung.
-Die Daten kommen als Rohdaten aus einer externen Quelle. Solche Quellen können zum Beispiel XML, JSon, eine Datenbank oder ein Social Media Feed sein. Hier werden nur die reinen Daten transportiert und die Visualisierung findet dann direkt auf Peakboard statt. Für diesen Zweck stehen visuelle Controls zur Verfügung, um die Daten hübsch anzuzeigen, z.B. Charts, Tabellen usw.
+1. Die Daten kommen schon fertig aufbereitet aus der externen Quelle und brauchen nur noch in ein Panel eingebunden werden. Das ist zum Beispiel der Fall, wenn Sie eine externe Webseite komplett oder in Teilen einbinden. Oder auch ein BI-Tool wie Power BI, QlikView, Tableau oder ähnliches nutzen und das Aufbereiten der Daten diesem BI-Tool überlassen. Peakboard fungiert dann als eine Art Anzeigeprogramm und das jeweilige Vorsystem sorgt für die visuelle Aufbereitung.
+
+2. Die Daten kommen als Rohdaten aus einer externen Quelle. Solche Quellen können zum Beispiel XML, JSon, eine Datenbank oder ein Social Media Feed sein. Hier werden nur die reinen Daten transportiert und die Visualisierung findet dann direkt auf Peakboard statt. Für diesen Zweck stehen visuelle Controls zur Verfügung, um die Daten hübsch anzuzeigen, z.B. Charts, Tabellen usw.
 
 Dieses Tutorial behandelt ausschließlich die zweite Option. Basis soll eine XML-Datenquelle sein. Schauen Sie sich dazu einmal die folgende XML-Datei an. Sie enthält alle aktuellen Abfahrten vom Stuttgarter Hauptbahnhof in Echtzeit und wird von der Deutschen Bahn zur Verfügung gestellt:
 

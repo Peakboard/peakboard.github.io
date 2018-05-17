@@ -16,4 +16,4 @@ In the Data Source Type selection box, specify whether you want to access Oracle
 
 You can formulate the SQL statement in such a way that it is understood by the target system. Execute the statement with “Load” to retrieve the metadata (columns and their data type). After that, the data source is available as usual.
 
-![Bridge Data Dialog](assets/images/Data_Sources/Pekaboard_Bridge/DataSource_Bridge_01.png)
+![Bridge Data Dialog](/assets/images/Data_Sources/Peakboard_Bridge/DataSourceBridge01.png)

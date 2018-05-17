@@ -16,4 +16,4 @@ In der Auswahlbox Data Source Type geben Sie an, ob der Zugriff direkt auf Oracl
 
 Die SQL-Anweisung können Sie beliebig so formulieren, dass sie vom Zielsystem verstanden wird. Führen Sie das Statement mit „Load“ aus, um die Metadaten (Spalten und deren Datentyp) abzurufen. Danach steht die Datenquelle wie üblich zur Verfügung.
 
-![Bridge Data Dialog](assets/images/Data_Sources/Pekaboard_Bridge/DataSource_Bridge_01.png)
+![Bridge Data Dialog](/assets/images/Data_Sources/Peakboard_Bridge/DataSourceBridge01.png)

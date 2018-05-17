@@ -12,7 +12,8 @@ To configure it, you just have to enter the feed URL (e. g. [http://www.finanzen
 
  ![image_1](/assets/images/Data_Sources/Feed/DataFeed01.png)
 
- ## Weblinks
+
+## Weblinks
 
  - [RSS Informationen on Wikipedia](https://en.wikipedia.org/wiki/RSS)
  - [Microsoft RSS Feed](http://www.finanzen.net/rss/Microsoft-RSS-Feed)
