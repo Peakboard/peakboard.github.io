@@ -12,7 +12,7 @@ Dieses Tutorial zeigt ihnen, wie Sie die Peakboard-Box in Betrieb nehmen und ihr
 
 
 
-Die Übertragung einer Visualisierung auf eine Box wird auch in [diesem Video](https://www.youtube.com/watch?v=lQeVf3EiyUI&%20feature=youtu.%20be) erklärt.
+Die Übertragung einer Visualisierung auf eine Box wird auch in [diesem Video](/video_tutorials/07-visualisierung-installieren.html) erklärt.
 
 
 
