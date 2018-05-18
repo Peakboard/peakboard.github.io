@@ -14,13 +14,19 @@ In einigen IT Infrastrukturen funktioniert diese Installation nicht automatisch,
 
 Zunächst einmal wird dafür mindestens ein Windows 10 bzw. Windows Server 2016 System benötigt.
 
-Anschließend muss der Installationsordner von Peakboard geöffnet werden. Dieser ist im Standard C:/Programme/Peakboard/Designer
+Anschließend muss der Installationsordner von Peakboard geöffnet werden. Dieser ist im Standard C:/Programme/Peakboard/Designer.
 Hier muss der Unterordner temporaryInstallFiles/RuntimeDependencies geöffnet werden.
 
-Die beiden Dateien Dateien CoreRuntime und VCLibs müssen nun durch Doppelklick installiert werden.
+Die beiden Dateien CoreRuntime und VCLibs müssen nun durch Doppelklick installiert werden.
 Als nächstes kann im Überordner temporaryInstallFiles die Peakboard Runtime mit der neusten Versionsnummer installiert werden.
 
-Sollte die Installation über Doppelklick nicht funktionieren, muss dies über PowerShell im jeweiligen Ordner erfolgen.
+Sollte die Installation über Doppelklick nicht funktionieren, muss dies über PowerShell erfolgen.
+
+Dafür sollte zunächst PowerShell als Administrator geöffnet werden:
+
+![image_1](/assets/images/admin/certificates/cert_01.png)
+
+
 Dafür muss in PowerShell folgender Befehl durchgeführt werden (wobei der Pfad und der Dateinamen entsprechend angepasst werden muss):
 
 ```
