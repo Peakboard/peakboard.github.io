@@ -7,19 +7,29 @@ lang: en
 ref: admin-11
 ---
 
-Bei der Installation des Peakboard-Designers wird normalerweise die Peakboard-Runtime mitinstalliert.
-Diese wird für die Preview Funktionalität des Designers benötigt.
+When installing the Peakboard-Designer, the Peakboard-Runtime is normally installed.
+This is required for the preview functionality of the designer.
 
-In einigen IT Infrastrukturen funktioniert diese Installation nicht automatisch, dann muss diese manuell erfolgen.
+In some IT infrastructures this installation does not work automatically, then it has to be done manually.
 
-Zunächst einmal wird dafür mindestens ein Windows 10 bzw. Windows Server 2016 System benötigt.
+First of all, at least one Windows 10 or Windows Server 2016 system is required.
 
-Anschließend muss der Installationsordner von Peakboard geöffnet werden. Dieser ist im Standard C:/Programme/Peakboard/Designer
-Hier muss der Unterordner temporaryInstallFiles/RuntimeDependencies geöffnet werden.
+Then the Peakboard installation folder must be opened. This is in the standard C:/Program Files/Peakboard/Designer.
+Here the subfolder temporaryInstallFiles/RuntimeDependencies must be opened.
 
-Die beiden Dateien Dateien CoreRuntime und VCLibs müssen nun durch Doppelklick installiert werden.
-Als nächstes kann im Überordner temporaryInstallFiles die Peakboard Runtime mit der neusten Versionsnummer installiert werden.
+The two files CoreRuntime and VCLibs must now be installed by double-clicking.
+Next, the Peakboard Runtime with the latest version number can be installed in the temporaryInstallFiles parent folder.
 
-Sollte die Installation über Doppelklick nicht funktionieren, muss dies über PowerShell im jeweiligen Ordner erfolgen.
-Dafür muss in PowerShell folgender Befehl durchgeführt werden (wobei der Pfad und der Dateinamen entsprechend angepasst werden muss):
+If the double-click installation does not work, you must use PowerShell.
+
+To do this, you must first open PowerShell as an administrator:
+
+![image_1](/assets/images/admin/install-runtime/install-runtime_01.png)
+
+Now the following command must be executed in PowerShell (where the path and file name must be adjusted accordingly):
+
+```
 Add-AppxPackage -Path "C:\Program Files\Peakboard\Designer\temporaryInstallFiles\PeakBoard.Runtime_1.0.20.7_x86_Preview.appx"
+```
+
+For manual installation, please note that the last step to install the runtime must be done every time the Peakboard Designer is updated.
