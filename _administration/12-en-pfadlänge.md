@@ -1,36 +1,26 @@
 ---
 layout: article
-title: Installation of the Peakboard-Runtime
-menu_title: Installation of the Peakboard-Runtime
-description: Installation of the Peakboard-Runtime
+title: Unrestrict path length
+menu_title: Unrestrict path length
+description: Unrestrict path length
 lang: en
 ref: admin-12
 ---
 
-When installing the Peakboard-Designer, the Peakboard-Runtime is normally installed.
-This is required for the preview functionality of the designer.
+First click on Manage in the Peakboard Designer and select the menu item “Open Device Portal” for the corresponding Peakboard box.
 
-In some IT infrastructures this installation does not work automatically, then it has to be done manually.
+![image_1](/assets/images/admin/pathlength/pathlength_01.png)
 
-First of all, at least one Windows 10 or Windows Server 2016 system is required.
+A browser window will now open. Enter “Administrator” as user name and the password of the Peakboard box.
 
-Then the Peakboard installation folder must be opened. This is in the standard C:/Program Files/Peakboard/Designer.
-Here the subfolder temporaryInstallFiles/RuntimeDependencies must be opened.
+On the left side, choose Processes and then Run command.
 
-The two files CoreRuntime and VCLibs must now be installed by double-clicking.
-Next, the Peakboard Runtime with the latest version number can be installed in the temporaryInstallFiles parent folder.
-
-If the double-click installation does not work, you must use PowerShell.
-
-To do this, you must first open PowerShell as an administrator:
-
-![image_1](/assets/images/admin/install-runtime/install-runtime_01.png)
-
-Now the following command must be executed in PowerShell (where the path and file name must be adjusted accordingly):
+Execute the following command:
 
 ```
-Add-AppxPackage -Path "C:\Program Files\Peakboard\Designer\temporaryInstallFiles\PeakBoard.Runtime_1.0.20.7_x86_Preview.appx"
+Reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPathsEnabled /t REG_DWORD /d 1 /f
 ```
 
+Finally restart the box via Power – Restart.
 
-For manual installation, please note that the last step to install the runtime must be done every time the Peakboard Designer is updated.
+![image_1](/assets/images/admin/pathlength/pathlength_02.png)
