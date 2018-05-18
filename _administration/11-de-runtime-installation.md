@@ -22,6 +22,7 @@ Als nächstes kann im Überordner temporaryInstallFiles die Peakboard Runtime mi
 
 Sollte die Installation über Doppelklick nicht funktionieren, muss dies über PowerShell im jeweiligen Ordner erfolgen.
 Dafür muss in PowerShell folgender Befehl durchgeführt werden (wobei der Pfad und der Dateinamen entsprechend angepasst werden muss):
+
 ```
 Add-AppxPackage -Path "C:\Program Files\Peakboard\Designer\temporaryInstallFiles\PeakBoard.Runtime_1.0.20.7_x86_Preview.appx"
 ```
