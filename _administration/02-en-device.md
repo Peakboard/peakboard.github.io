@@ -1,26 +1,25 @@
 ---
 layout: article
-title: Device Administration
-menu_title: Device Administration
-description: Device Administration in the Peakboard-Designer
+title: Setting up Wi-Fi
+menu_title: Setting up Wi-Fi
+description: Setting up Wi-Fi
 lang: en
 ref: admin-02
 ---
 
-The Peakboard-Box uses Windows 10 IoT as operating system. This is a slimmed-down version of Windows 10 that is specially designed for use on small devices or IoT devices.
+To set up the Wi-Fi of the Peakboard-Box, it must first be connected to a network cable and the supplied Wi-Fi USB adapter must be connected.
+If the Peakboard-Box is still in initial state, an IP address should be displayed on the screen as soon as the connection to the network has been established.
 
-Classical administration tasks can be done mainly via the web interface of Windows 10 IoT. You can reach it over the network with a normal browser under the address http://<MeinPeakboard>: 8080. User name is initial Administrator the password is included in the packaging of the Peakboard-Box. The password cannot be reset and should therefore not be lost under any circumstances.
+You should now be able to connect to the Windows IoT administration interface of the Peakboard-Box via the following URL:
+http://[BoxName]:8080 
+The box name is printed on the peakboard box and could be PB1234, for example.
+In this case the correct URL would be http://PB1234:8080
 
-Typical tasks in the admin interface are:
+You can now expand the Connectivity menu item on the left-hand side and then select Network.
+You should find a list of all available Wi-Fi networks there.
 
-* Changing the Device Name / Admin Password
-* Setting up the WiFi
-* System resource monitors such as memory or CPU usage
+Select the one you want and enter the Wi-Fi key.
 
-These are standard tasks which are self-explanatory in the admin portal and therefore are not explained in detail here. If you have any further questions, please have a look at the official documentary at [https://developer.microsoft.com/en-us/windows/iot/docs/deviceportal](https://developer.microsoft.com/en-us/windows/iot/docs/deviceportal). The following screenshot shows the setup of the WiFi:
+It is important that you then restart the box using the power button so that the changes are retained.
 
 ![image_1](/assets/images/admin/install/MiscAdministration01.png)
-
-Parts of the admin tasks (e. g. device name) can also be done directly by the Designer in the Peakboard-Manager dialog. Worth mentioning at this point is the Peakboard-Runtime app. If you click Apps Manager in the Device Portal, you will see the current version of the Peakboard Runtime app. Updating the runtime to a new version should also be done directly in the Peakboard-Manager in the Designer. A manual update is possible, but should not be done manually in the portal under any circumstances without consultation with the support.
-
-![image_1](/assets/images/admin/install/MiscAdministration02.png)

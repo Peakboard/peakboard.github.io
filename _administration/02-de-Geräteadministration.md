@@ -1,26 +1,25 @@
 ---
 layout: article
-title: Geräteadministration
-menu_title: Geräteadministration
-description: Geräteadministration des Peakboard-Designer
+title: WLAN einrichten
+menu_title: WLAN einrichten
+description: WLAN einrichten
 lang: de
 ref: admin-02
 ---
 
-Die Peakboard-Box nutzt Windows 10 IoT als Betriebssystem. Das ist eine abgespeckte Variante von Windows 10, die speziell für ein Einsatz auf kleinen Geräten oder IoT-Devices konzipiert ist.
+Um das WLAN der Peakboard-Box einzurichten, muss diese zuerst mit einem Netwerkkabel verbunden werden und der mitgelieferte WLAN USB-Adapter angeschlossen sein.
+Wenn sich die Peakboard-Box bis dahin noch im initialen Zustand befindet, sollte auf dem Bildschirm eine IP-Adresse angezeigt werden, sobald die Verbindung zum Netwerk hergestellt werden konnte.
 
-Klassische Administrationsarbeiten können zum größten Teil über das Webinterface von Windows 10 IoT erledigt werden. Sie erreichen es über das Netzwerk mit einem normalen Browser unter der Adresse http://<MeinPeakboard>:8080. User-Name lautet initial Administrator das Passwort liegt der Verpackung der Peakboard-Box bei. Das Kennwort kann nicht zurück gesetzt werden und sollte daher unter keinen Umständen verloren gehen.
+Sie sollten nun über folgende URL auf die Windows IoT Administrationsoberfläche der Peakboard-Box verbinden können:
+http://[BoxName]:8080 
+Der Boxname ist auf die Peakboard-Box aufgedruckt und könnte bspw. PB1234 sein.
+In dem Fall wäre die korrekte URL http://PB1234:8080
 
-Typische Tätigkeiten in der Adminoberfläche sind:
+Hier können Sie nun auf der linken Seite den Menüpunkt Connectivity ausklappen und anschließend Network wählen.
+Sie sollten dort eine Auflistung aller verfügbaren WLAN-Netzwerke finden.
 
-* Ändern des Device-Namens / Admin-Kennworts
-* Einrichten des WLANS
-* Monitoren der Systemressourcen wie Speicher oder CPU-Auslastung
+Wählen Sie das gewünschte aus und geben den WLAN-Schlüssel ein.
 
-Das sind Standardaufgaben, die in dem Admin-Portal eigentlich selbsterklärend sind und deshalb hier nicht nochmal im Detail erläutert werden. Werfen Sie bitte bei weiterführenden Fragen auch einen Blick in die offizielle Doku unter [https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/DevicePortal](https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/DevicePortal). Der folgende Screenshot zeigt beispielhaft das Einrichten des WLAN:
+Wichtig ist, dass Sie die Box anschließend über den Power Button neustarten, damit die Änderungen beibehalten werden.
 
 ![image_1](/assets/images/admin/install/MiscAdministration01.png)
-
-Teile der Adminaufgaben (z.B. Devicename) können auch direkt vom Designer im Peakboard-Manager-Dialog erledigt werden. Erwähnenswert an dieser Stelle ist noch die Peakboard-Runtime-App. Wenn Sie im Device-Portal auf Apps Manager klicken, sehen Sie die aktuelle Version der Peakboard-Runtime-App. Das Updaten der Runtime auf eine neue Version sollte auch direkt im Peakboard-Manager im Designer erfolgen. Ein manuelles Updaten ist zwar möglich, sollte aber unter keinen Umständen ohne Rücksprache mit dem Support von Hand im Portal gemacht werden.
-
-![image_1](/assets/images/admin/install/MiscAdministration02.png)
