@@ -15,6 +15,7 @@ require("laravel-mix-purgecss");
 mix
   .js("resources/js/app.js", "assets/")
   .sass("resources/sass/app.scss", "assets/")
+
   .options({
     postCss: [tailwindcss("tailwind.js")]
   })

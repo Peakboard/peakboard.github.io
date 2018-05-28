@@ -119,7 +119,7 @@ ref: misc-06
 * Fix für SAP Query Abfragen ohne Rückgabewerte
 * Fixes für S7 Datenquelle
 
-1.0.9.0 (22.12.2017)
+## 1.0.9.0 (22.12.2017)
 
 * Neues Control: Live Tiles
 * Erste Preview Version für die OPC UA Datenquelle

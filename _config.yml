@@ -1,4 +1,4 @@
-title: "Peakborad Help"
+title: "Peakboard Help"
 email:  support@peakboard.com
 description: "Tutorials and articles on using Peakboard."
 url: "http://help.peakboard.com/"
@@ -17,6 +17,11 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
+tipue_search:
+  include:
+    pages: true
+    collections: [tutorials, video_tutorials,data_sources,controls,misc,administration,peakboardio]
+
 collections:
   tutorials:
     output: true

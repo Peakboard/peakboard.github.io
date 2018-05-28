@@ -1,0 +1,23 @@
+<div class="flex h-24 page-header">
+    {% capture home_link %} {% if page.lang == 'en' %} /en/ {% else %} / {% endif %} {% endcapture %}
+    <div class="w-32 md:w-48 flex justify-center items-center bg-orange">
+        <a class="no-underline w-full text-center max-w-xxs hover:opacity-75 focus:opacity-75" href="{{ home_link }}">
+            <img src="/assets/logos/logo.svg" class="w-4/5" alt="Peakboard Logo">
+        </a>
+    </div>
+    <div class="flex-auto">
+        <div class="flex items-center justify-end bg-dark-black text-white h-12">
+            {% include top_nav_actions.html %} {% include {{ include.lang_selector }}_lang_selector.html %}
+        </div>
+        <div class="bg-grey-darker text-white h-12 flex justify-end xl:justify-start items-center">
+            <div class="navbar z-40 flex flex-col xl:flex-row bg-grey-darker">
+                <div class="navbar-inner xl:flex bg-grey-darker items-center text-white pt-12 xl:pt-0">
+                    {% include nav_bar.html %}
+                </div>
+            </div>
+            <div class="text-white menu-trigger mr-2 h-12 flex xl:hidden items-center">
+                {% include hamburger.svg %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -11,29 +11,29 @@ Dieser Artikel beschreibt die Einbindung von Google Docs Dokumenten in ein Peakb
 
 Wir wollen das folgende Beispieldokument einbinden. Es ist nicht nötig, es in irgendeiner Form freizugeben. Sie erlauben Peakboard einfach, lesend auf Google Drive zuzugreifen. Damit ist die Authentifizierung sichergestellt.
 
-![image_1](/assets/images/Controls/Google-Docs/controlsgoogledocs01.png)
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs01.png)
 
 Ziehen Sie das Google Docs Control von der Toolbox auf ein Peakboard-Panel, justieren Sie die Größe entsprechend und doppelklicken Sie auf das Control, um den Editor zu öffnen.
 
-![image_1](/assets/images/Controls/Google-Docs/controlsgoogledocs02.png)
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs02.png)
 
 Sie müssen nun Peakboard erlauben, auf Ihr Google Drive zuzugreifen. Klicken Sie dazu auf den Button mit den drei Punkten, um den Autorisierungsdialog zu öffnen, auf dem Sie ihre Google-Zugangsdaten eingeben müssen. Achtung! Es handelt sich hierbei um eine Google-Website. Sie geben also nicht ihren User-Namen und ihr Passwort an Peakboard, sondern Sie authentifizieren sich lediglich bei Google und erlauben den Zugriff. Google gibt dann an Peakboard nur einen Autorisierungstoken zurück (eine kryptische Zeichenfolge). Sie können diese Autorisierung jederzeit in Ihrem Google-Konto widerrufen. Es funktioniert genau nach demselben Prinzip, wie wenn Sie anderen Drittanbieter-Apps den Zugriff erlauben.
 
-![image_1](/assets/images/Controls/Google-Docs/controlsgoogledocs03.png)
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs03.png)
 
-![image_1](/assets/images/Controls/Google-Docs/controlsgoogledocs04.png)
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs04.png)
 
 Mit Hilfe des Knopfs „Select Document…“ öffnet sich ein Auswahl-Dialog, der die Ordnerstruktur des Google Drive Kontos wiedergibt. So lässt sich das gewünschte Dokument selektieren und in den Hauptdialog übernehmen.
 
-![image_1](/assets/images/Controls/Google-Docs/controlsgoogledocs05.png)
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs05.png)
 
 Mehr ist nicht zu tun. Der Preview-Button ruft das Dokument von Google ab und zeigt es im unteren Bereich des Dialogs an.
 
-![image_1](/assets/images/Controls/Google-Docs/controlsgoogledocs06.png)
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs06.png)
 
 Und genauso sollte es aussehen, wenn es zur Laufzeit im Preview oder direkt auf der Peakboard-Box läuft.
 
-![image_1](/assets/images/Controls/Google-Docs/controlsgoogledocs07.png)
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs07.png)
 
 ## Hinweise
 
