@@ -22,4 +22,4 @@ Wählen Sie das gewünschte aus und geben den WLAN-Schlüssel ein.
 
 Wichtig ist, dass Sie die Box anschließend über den Power Button neustarten, damit die Änderungen beibehalten werden.
 
-![image_1](/assets/images/admin/install/MiscAdministration01.png)
+![image_1](/assets/images/admin/device/MiscAdministration01.png)

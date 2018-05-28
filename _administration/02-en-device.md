@@ -22,4 +22,4 @@ Select the one you want and enter the Wi-Fi key.
 
 It is important that you then restart the box using the power button so that the changes are retained.
 
-![image_1](/assets/images/admin/install/MiscAdministration01.png)
+![image_1](/assets/images/admin/device/MiscAdministration01.png)
