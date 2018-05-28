@@ -33,6 +33,6 @@ Below is a small list of websites that allow you to experiment with generating H
 
 [http://maps-generator.com/](http://maps-generator.com/)
 
-**Open Street Map
+**Open Street Map**
 
 [http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden](http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden)

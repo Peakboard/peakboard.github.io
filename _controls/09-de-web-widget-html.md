@@ -33,6 +33,6 @@ Im Folgenden finden Sie zum Experimentieren eine kleine Liste von Websites, die 
 
 [http://maps-generator.com/](http://maps-generator.com/)
 
-**Open Street Map
+**Open Street Map**
 
 [http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden](http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden)

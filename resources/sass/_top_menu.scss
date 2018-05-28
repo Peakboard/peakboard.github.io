@@ -17,8 +17,10 @@
   transform: translate3d(-50%, 0, 0) rotateX(90deg);
   transition: 0.3s ease-in-out;
   transform-origin: left top;
-  width: 400px;
-  overflow: auto;
+
+  with: 300px;
+  overflow: hidden;
+
   max-height: calc(100vh - 6rem);
 }
 
@@ -33,11 +35,10 @@
   transform: rotateY(90deg);
   transform-origin: left top;
 }
-.has-submenu{
-    text-transform: capitalize;
+.sub-level-list-close{
+  text-transform: capitalize;
 }
 .navbar .sub_level_list {
-  text-transform: capitalize;
   transform: translate3d(100%, 0, 0);
   transition: 0.3s ease-in-out;
   overflow-y: auto;
@@ -47,7 +48,7 @@
   }
 }
 
-@media screen and (min-width: 1290px) {
+@media screen and (min-width: 900px) {
   .top-menu-link.exposed .dropdown-list {
     transform: translate3d(-50%, 0, 0) rotateX(0deg);
     z-index: 999;

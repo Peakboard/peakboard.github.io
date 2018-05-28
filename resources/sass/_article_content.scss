@@ -152,7 +152,6 @@ html {
     font-size: 2.375rem;
     line-height: 2.875rem;
     font-weight: 600;
-    padding-bottom: 1rem;
   }
 
   h2,
@@ -219,7 +218,6 @@ html {
       font-size: 1rem;
       line-height: 2;
       letter-spacing: -.003em;
-      -webkit-margin-before: 2em;
       -webkit-margin-after: 2em;
   }
 
@@ -245,7 +243,7 @@ html {
     font-size: 1.25rem;
     font-weight: 700;
     margin: -0.125rem 0.5625rem 0 -1.625rem;
-    position: absolute;
+    position: unset;
     top: 50%;
     left: 0;
     -webkit-transform: translateY(-50%);
@@ -285,19 +283,15 @@ html {
 
   a {
     color: #f29205;
-    border-bottom: 1px solid #f2f3f4;
     text-decoration: none;
     overflow-wrap: break-word;
     word-break: break-word;
     word-wrap: break-word;
-    -webkit-transition: color 0.3s, background 0.3s, border 0.3s;
-    -o-transition: color 0.3s, background 0.3s, border 0.3s;
-    transition: color 0.3s, background 0.3s, border 0.3s;
+
   }
   a:hover,
   a:focus {
-    background: #f2f3f4;
-    color: #d31516;
+    border-bottom: 2px solid #f29205;
   }
 
   hr {

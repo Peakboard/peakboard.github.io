@@ -15,3 +15,5 @@ The following screenshot shows the Bridge data source. For the address, the URI 
 In the Data Source Type selection box, specify whether you want to access Oracle directly or using any (non-Oracle)ODBC driver (e. g. for MySQL, Informix, etc.). The connection string must be adjusted accordingly. The screenshot shows a typical Oracle connection string. If you don’t know exactly how the connection string is formed, click on the small button with the three dots to get input help.
 
 You can formulate the SQL statement in such a way that it is understood by the target system. Execute the statement with “Load” to retrieve the metadata (columns and their data type). After that, the data source is available as usual.
+
+![Bridge Data Dialog](/assets/images/Data_Sources/Peakboard_Bridge/DataSourceBridge01.png)

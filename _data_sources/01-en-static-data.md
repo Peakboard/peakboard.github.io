@@ -10,9 +10,9 @@ Usually, the term “data source” means that data is retrieved from any previo
 
 1.Static data sources are used as a kind of “global variable” for various sophisticated scripting tasks. Different scripts can exchange information by writing to or reading from data sources.
 
-2.Static data sources are used as containers to send push messages from the outside to the Peakboard-Box. For example, you could build a static table for error messages. A machine that falls into an error state pushes the error information into this static container. All connected controls then react automatically. An example of this can be found at [here.]()
+2.Static data sources are used as containers to send push messages from the outside to the Peakboard-Box. For example, you could build a static table for error messages. A machine that falls into an error state pushes the error information into this static container. All connected controls then react automatically. An example of this can be found at [here.](/misc/02-en-push-messages.html)
 
-To create a static data source, proceed as for all other data sources. Simply select “Add General Data” in the Designer. A static data source can be either a value (Single) or a table. The following screenshot shows the maintenance of a single value. The data types String, Number and Boolean are supported.
+To create a static data source, proceed as for all [other data sources.](/tutorials/03-en-xml-data.html) Simply select “Add General Data” in the Designer. A static data source can be either a value (Single) or a table. The following screenshot shows the maintenance of a single value. The data types String, Number and Boolean are supported.
 
 ![image_1](/assets/images/Data_Sources/Static_Data/1.-Screenshot.png)
 

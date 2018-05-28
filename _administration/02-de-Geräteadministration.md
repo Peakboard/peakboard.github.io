@@ -17,7 +17,7 @@ Typische Tätigkeiten in der Adminoberfläche sind:
 * Einrichten des WLANS
 * Monitoren der Systemressourcen wie Speicher oder CPU-Auslastung
 
-Das sind Standardaufgaben, die in dem Admin-Portal eigentlich selbsterklärend sind und deshalb hier nicht nochmal im Detail erläutert werden. Werfen Sie bitte bei weiterführenden Fragen auch einen Blick in die offizielle Doku unter [https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/DevicePortal](https://docs.microsoft.com/en-us/windows/iot-core/manage-your-device/DevicePortal). Der folgende Screenshot zeigt beispielhaft das Einrichten des WLAN:
+Das sind Standardaufgaben, die in dem Admin-Portal eigentlich selbsterklärend sind und deshalb hier nicht nochmal im Detail erläutert werden. Werfen Sie bitte bei weiterführenden Fragen auch einen Blick in die offizielle Doku unter [https://docs.microsoft.com/de-de/windows/iot-core/manage-your-device/DevicePortal](https://docs.microsoft.com/de-de/windows/iot-core/manage-your-device/DevicePortal). Der folgende Screenshot zeigt beispielhaft das Einrichten des WLAN:
 
 ![image_1](/assets/images/admin/install/MiscAdministration01.png)
 

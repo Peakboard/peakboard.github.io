@@ -37,3 +37,5 @@ Below is a list of all properties that have not already been discussed under the
 | Dynamic Height |	Defines whether the table should be displayed as if it did not have a defined size. This option is often used when you want to have a table with a height adapted to the content that looks as high as the content itself. |
 | Show Header |	Defines whether the column headers are to be displayed. |
 | Show Row Grid Lines |	Defines whether a line between the lines is to be displayed. |
+
+> In practice, it is very common for cells or rows to be formatted depending on the data content. There is a separate article for this requirement, which you can find [here.](/scripting/05-en-formating-table-grid.html)

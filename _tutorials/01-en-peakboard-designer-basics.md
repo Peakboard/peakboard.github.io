@@ -51,4 +51,4 @@ Under the following link you can learn more about how the newly created design i
 
 
 
-Erste Schritte mit der Peakboard-Box
+[Getting Started with the Peakboard Box](/tutorials/02-en-peakboard-connecting.html)

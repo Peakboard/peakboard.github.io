@@ -9,7 +9,7 @@ ref: misc-02
 
 Peakboard kann in Szenarien eingesetzt werden, bei denen Daten nicht von der Peakboard-Box aus einer Datenquelle geholt, sondern von der Datenquelle pro-aktiv auf die Box „gepusht“ werden. Diese Seite zeigt, wie man ein solches Szenario gestalten kann.
 
-In unserem Beispiel erzeugen wir eine tabellarische Datenquelle namens Messages mit zwei Spalten: Code und Message. Es kann dafür jedoch auch eine einzelne Variable erzeugt werden. Wie man solche Datenquellen anlegt, ist in [diesem Artikel]() beschrieben. Füllen Sie die Tabelle am Besten mit einer einzelnen Demozeile. Danach legen Sie ein Tablegrid-Control an und verknüpfen es mit der statischen Datenquelle. Der folgende Screenshot zeigt die Entwurfsansicht im Designer.
+In unserem Beispiel erzeugen wir eine tabellarische Datenquelle namens Messages mit zwei Spalten: Code und Message. Es kann dafür jedoch auch eine einzelne Variable erzeugt werden. Wie man solche Datenquellen anlegt, ist in [diesem Artikel](/data_sources/01-de-statische-daten.html) beschrieben. Füllen Sie die Tabelle am Besten mit einer einzelnen Demozeile. Danach legen Sie ein Tablegrid-Control an und verknüpfen es mit der statischen Datenquelle. Der folgende Screenshot zeigt die Entwurfsansicht im Designer.
 
 ![image_1](/assets/images/misc/push/MiscPushMessage01.png)
 
@@ -64,7 +64,8 @@ Die beiden folgenden Screenshots zeigen das Original-Board einmal mit den statis
 ![image_1](/assets/images/misc/push/MiscPushMessage05.jpg)
 
 Download des .NET Projekt für den http-Push:
-[PeakboardAPIDemo](https://help.peakboard.com/wp-content/uploads/2016/10/PeakboardAPIDemo-2.zip)
+[PeakboardAPIDemo](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/PeakboardAPIDemo.zip)
+
 
 Download des Beispiel-Boards:
-[PeakboardPushMessages](https://help.peakboard.com/wp-content/uploads/2016/10/PeakboardPushMessages-1.zip)
+[PeakboardPushMessages](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/PeakboardPushMessages.pbmx)

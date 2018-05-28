@@ -15,5 +15,5 @@ Um sie zu konfigurieren, muss einfach nur die Feed-URL eingetragen werden Falls 
 
 ## Weblinks
 
-- [RSS Informationen auf Wikipedia](https://de.wikipedia.org/wiki/RSS)
+- [RSS Informationen auf Wikipedia](https://de.wikipedia.org/wiki/RSS_(Web-Feed))
 - [Microsoft RSS Feed](http://www.finanzen.net/rss/Microsoft-RSS-Feed)

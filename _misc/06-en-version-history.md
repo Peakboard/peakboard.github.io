@@ -6,6 +6,19 @@ description: Version History
 lang: en
 ref: misc-06
 ---
+
+## 1.0.20.9 (30.04.2018)
+
+* Added scroll- and zoomproperty to webview
+* Added Lua Runtime property for Sreen Scale
+* Fix for S7 custom variables
+
+## 1.0.20.6 (24.04.2018)
+
+* Reworked manually update functionality and added multiple manual update
+* Timer scripts can be disabled now
+* Fix for formatting Tablegrid with one line
+
 ## 1.0.19.7 (17.04.2018)
 
 * OPC UA datasource allows now to call event Methods

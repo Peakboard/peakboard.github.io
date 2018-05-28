@@ -6,6 +6,19 @@ description: Versionshistorie
 lang: de
 ref: misc-06
 ---
+
+## 1.0.20.9 (30.04.2018)
+
+* Scroll- und Zoom Eigenschaft wurde dem Webview Control zugefügt
+* Lua Runtime Eigenschaft Screen Scale wurde hinzugefügt
+* Fix für S7 benutzerdefinierte Variablen
+
+## 1.0.20.6 (24.04.2018)
+
+* Das manuelle Update wurde umgebaut und erlaubt nun auch das Updaten mehrerer Boxen
+* Timer Skripte können nun deaktiviert werden
+* Fix für die Formatierung einer einzeiligen Tabelle
+
 ## 1.0.19.7 (17.04.2018)
 
 * OPC UA Datenquelle ermöglicht den Zugriff auf Event Methoden
