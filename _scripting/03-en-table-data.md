@@ -13,7 +13,7 @@ The data basis for the following examples is a query containing delivery items f
 You do not need to type the while construct manually. Simply open the object/statement tree on the left, navigate to the data source and double-click on the desired statement.
 
 
-![image_1](/assets/images/scripting/table/scriptingtabellen01.png)
+![image_1](/assets/images/scripting/table/ScriptingTabellen01.png)
 
 Here again the script in its raw version:
 

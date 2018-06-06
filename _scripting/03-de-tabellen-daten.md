@@ -12,7 +12,7 @@ Die Datenbasis für die folgenden Beispiele ist hier eine Abfrage, die Lieferpos
 
 Sie brauchen das While-Konstrukt im übrigen nicht von Hand tippen. Klappen Sie einfach links den Objekt/Statement-Baum auf, navigieren Sie zu der Datenquelle und doppelklicken Sie auf das gewünschte Statement.
 
-![image_1](/assets/images/scripting/table/scriptingtabellen01.png)
+![image_1](/assets/images/scripting/table/ScriptingTabellen01.png)
 
 Hier nochmal das Script in seiner Rohfassung:
 
