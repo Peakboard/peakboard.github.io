@@ -20,4 +20,4 @@ Es öffnet sich ein neues Fenster in dem Sie die Schriftart anpassen und mit OK 
 Wurde eine Schriftart angelegt, können Sie diese einem Control zuordnen. Dafür wählen Sie die Schriftart im unteren rechten Bereich aus.
 ![image_1](/assets/images/misc/fonts/Schriftarten2.png)
 
-Unter diesem [link]()  sehen Sie wie Sie weitere Schriftarten hinzufügen können.
+Unter diesem [link](05-de-custom-fonts.md)  sehen Sie wie Sie weitere Schriftarten hinzufügen können.

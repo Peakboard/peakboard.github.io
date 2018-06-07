@@ -20,4 +20,4 @@ If a font has been created, you can assign it to a control. To do this, select t
 
 ![image_1](/assets/images/misc/fonts/Schriftarten2.png)
 
-Under this [link]() you can see how to add more fonts.
+Under this [link](05-en-custom-fonts.md) you can see how to add more fonts.
