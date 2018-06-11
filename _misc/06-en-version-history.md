@@ -7,6 +7,25 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.21.0 (11.06.2018)
+
+* Added Slack datasource
+* Added Microsoft Calendar datasource
+* Added advanced chart control
+* Templates from Git will be added to Setup
+* Json datasource supports hierarchies
+* Optimization of S7 performance
+* Changes for S7 datadialog
+* Table Column Dialog reworked
+* Gauge defaults settings optimizied
+* XAML Code Control Supports Extended Charts
+* Error Handling for datasource dialogs optimized
+* Updated designer databinding
+* Instagram datasource with name is not supported anymore
+* Fix for Toggle Switch control wich looked different in the Designer then in the Runtime
+* Fix for KeyInput Event
+* Fix for crashing runtime when Text of Textfield is set to null
+
 ## 1.0.20.9 (30.04.2018)
 
 * Added scroll- and zoomproperty to webview
