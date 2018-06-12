@@ -7,7 +7,7 @@ lang: en
 ref: misc-06
 ---
 
-## 1.0.21.0 (11.06.2018)
+## 1.0.21.1 (12.06.2018)
 
 * Added Slack datasource
 * Added Microsoft Calendar datasource
