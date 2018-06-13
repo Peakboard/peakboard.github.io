@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Tabellendaten Manipulieren
-menu_title: Tabellendaten Manipulieren
-description: Tabellendaten Manipulieren
+title: Tabellendaten manipulieren
+menu_title: Tabellendaten manipulieren
+description: Tabellendaten manipulieren
 lang: de
 ref: scr-04
 ---

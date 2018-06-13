@@ -1,6 +1,6 @@
 ---
 layout: article
-title: External Data Sources Using XML Data Source Example
+title: XML
 menu_title: XML
 description: Information über XML Daten in Peakboard
 lang: de
