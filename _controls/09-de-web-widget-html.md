@@ -1,4 +1,4 @@
----
+﻿---
 layout: article
 title: Web Widgets / HTML Code
 menu_title: Web Widgets / HTML Code
@@ -19,7 +19,7 @@ Im Designer wird das Widget nicht angezeigt. Um es zu sehen, muss der Preview ak
 
 Im Folgenden finden Sie zum Experimentieren eine kleine Liste von Websites, die das Generieren von HTML-Widgets erlauben
 
-**Wetterr**
+**Wetter**
 
 [http://www.wetter24.de/mehr/widget/?city=18228265](http://www.wetter24.de/mehr/widget/?city=18228265)
 

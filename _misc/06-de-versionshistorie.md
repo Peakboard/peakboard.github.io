@@ -7,6 +7,25 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.21.1 (12.06.2018)
+
+* Slack-Datenquelle hinzugefügt
+* Microsoft Kalender Datenquelle hinzugefügt
+* Advanced Chart Control hinzugefügt
+* Vorlagen von Git werden zum Setup hinzugefügt
+* Json-Datenquelle unterstützt Hierarchien
+* Optimierung der S7-Leistung
+* Änderungen für den S7-Datendialog
+* Tabellenspalten-Dialog überarbeitet
+* Gauge-Standardeinstellungen optimiert
+* XAML Code Control unterstützt erweiterte Charts
+* Fehlerbehandlung für Datenquellendialoge optimiert
+* Aktualisierte Designer Datenbindung
+* Instagram-Datenquelle mit Namen wird nicht mehr unterstützt
+* Fix für Toggle Switch-Control, das im Designer anders aussah als in der Runtime
+* Fix für KeyInput-Event
+* Fix für Absturz der Laufzeit, wenn Text des Textfeldes auf null gesetzt wird
+
 ## 1.0.20.9 (30.04.2018)
 
 * Scroll- und Zoom Eigenschaft wurde dem Webview Control zugefügt
