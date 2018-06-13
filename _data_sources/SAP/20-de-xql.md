@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: SAP mit XQL
 menu_title: XQL
