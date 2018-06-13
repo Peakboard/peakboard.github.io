@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: SAP
 menu_title: SAP
