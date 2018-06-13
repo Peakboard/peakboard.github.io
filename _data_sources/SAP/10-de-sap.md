@@ -1,7 +1,7 @@
 ﻿---
 layout: article
-title: SAP - Einführung
-menu_title: SAP - Einführung
+title: SAP
+menu_title: SAP
 description: Information über SAP Daten in Peakboard
 lang: de
 ref: dat-10
