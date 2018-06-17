@@ -14,11 +14,11 @@ The Instagram data source provides all raw data to build a complete Instagram fe
 
 Basically, the Instagram elements can be selected using three methods: All posts of a certain account (By User Name), a hash tag or all images of a certain geographic location (see below). The Access token allows the Peakboard to access Instagram under your name. Access must always be personalized in accordance with Instagram’s terms and conditions. To get an Access Token, click Get Access Token. You will then need to enter your Instagram credentials to grant authorization. Please note that Peakboard never stores your access data anywhere. You can revoke authorization in the settings of your Instagram account at any time.
 
-![image_1](/assets/images/Data_Sources/Instagram/datenquelleninstagram01.png)
+![image_1](/assets/images/Data_Sources/Instagram/datenquellenInstagram01.png)
 
 A click on Preview shows you a preview of the raw data.
 
-![image_1](/assets/images/Data_Sources/Instagram/datenquelleninstagram02.png)
+![image_1](/assets/images/Data_Sources/Instagram/datenquellenInstagram02.png)
 
 The Instagram data source always has the same columns. They have the following meaning:
 
@@ -37,4 +37,4 @@ The Instagram data source always has the same columns. They have the following m
 
 The Instagram mask gives you the possibility to select all postings for a certain geolocation. You will need the location ID. To find out, open Instagram normally in your browser, find a picture of the desired location and click on the location name. The page that then appears contains the location ID as part of the URL as shown in the following screenshot.
 
-![image_1](/assets/images/Data_Sources/Instagram/datenquelleninstagram03.png)
+![image_1](/assets/images/Data_Sources/Instagram/datenquellenInstagram03.png)

@@ -5,6 +5,8 @@ menu_title: JSON
 description: Information about JSON Data  in Peakboard
 lang: en
 ref: dat-06
+redirect_from:
+- /en/getting-started-with-external-data-sources-using-the-example-of-an-xml-data-source/
 ---
 This page explains the individual features when accessing JSON data sources from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 

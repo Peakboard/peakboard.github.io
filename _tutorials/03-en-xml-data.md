@@ -5,6 +5,8 @@ menu_title: External Data Sources Using XML Data Source Example
 description: External Data Sources Using XML Data Source Example
 lang: en
 ref: tut-03
+redirect_from:
+  - /tutorials/03-en-xml-daten.html
 ---
 In the two introductory tutorials, only static content was used in the visualization. But all this only becomes really exciting when the design displays dynamic data. Basically, Peakboard distinguishes between two main concepts for embedding dynamic content:
 
