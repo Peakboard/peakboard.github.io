@@ -7,6 +7,12 @@ lang: en
 ref: admin-12
 ---
 
+In some cases it is necessary to unlimit the path length of Windows IoT.
+
+This can occur, for example, if an OPC UA certificate with a too long file name is to be used.
+
+To remove this limit, please follow these steps:
+
 First click on Manage in the Peakboard Designer and select the menu item “Open Device Portal” for the corresponding Peakboard box.
 
 ![image_1](/assets/images/admin/pathlength/pathlength_01.png)

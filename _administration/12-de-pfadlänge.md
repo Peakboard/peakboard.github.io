@@ -7,6 +7,12 @@ lang: de
 ref: admin-12
 ---
 
+In manchen Fällen ist es notwendig die Begrenzung der Pfadlänge von Windows IoT aufzuheben.
+
+Dies kann Beispielsweise, dann auftreten wenn ein OPC UA Zertifikat mit einem zu langen Dateinamen verwendet werden soll.
+
+Um diese Begrenzung aufzuheben, führen Sie bitte die folgenden Schritte durch:
+
 Klicken Sie zunächst im Peakboard-Designer auf Manage und wählen Sie für die entsprechende Peakboard-Box den Menüpunkt „Open Device Portal“.
 
 ![image_1](/assets/images/admin/pathlength/pathlength_01.png)
