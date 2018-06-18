@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.21.2 (13.06.2018)
+
+* Fix für Datenquellennamen
+
 ## 1.0.21.1 (12.06.2018)
 
 * Slack-Datenquelle hinzugefügt
@@ -22,6 +26,7 @@ ref: misc-06
 * Fehlerbehandlung für Datenquellendialoge optimiert
 * Aktualisierte Designer Datenbindung
 * Instagram-Datenquelle mit Namen wird nicht mehr unterstützt
+* Datasource column names allowing all unicode letters now
 * Fix für Toggle Switch-Control, das im Designer anders aussah als in der Runtime
 * Fix für KeyInput-Event
 * Fix für Absturz der Laufzeit, wenn Text des Textfeldes auf null gesetzt wird

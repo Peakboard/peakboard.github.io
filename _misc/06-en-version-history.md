@@ -7,6 +7,10 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.21.2 (13.06.2018)
+
+* Fix for datasource names
+
 ## 1.0.21.1 (12.06.2018)
 
 * Added Slack datasource
@@ -22,6 +26,7 @@ ref: misc-06
 * Error Handling for datasource dialogs optimized
 * Updated designer databinding
 * Instagram datasource with name is not supported anymore
+* Datenquellen Spaltennamen erlauben nun alle Unicode Zeichen
 * Fix for Toggle Switch control wich looked different in the Designer then in the Runtime
 * Fix for KeyInput Event
 * Fix for crashing runtime when Text of Textfield is set to null
