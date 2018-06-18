@@ -15,5 +15,5 @@ To configure it, you just have to enter the feed URL (e. g. [http://www.finanzen
 
 ## Weblinks
 
- - [RSS Informationen on Wikipedia](https://en.wikipedia.org/wiki/RSS)
+ - [RSS Information on Wikipedia](https://en.wikipedia.org/wiki/RSS)
  - [Microsoft RSS Feed](http://www.finanzen.net/rss/Microsoft-RSS-Feed)
