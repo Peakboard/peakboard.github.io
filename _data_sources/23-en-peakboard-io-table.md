@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakbaord.io Table
-menu_title:  Peakbaord.io Table
+title: Peakboard.io Table
+menu_title:  Peakboard.io Table
 description: Information about Peakbaord.io Table Data in Peakboard
 lang: en
 ref: dat-23
