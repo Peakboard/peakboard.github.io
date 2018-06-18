@@ -5,6 +5,8 @@ menu_title:  Peakbaord.io Table
 description: Information about Peakbaord.io Table Data in Peakboard
 lang: en
 ref: dat-23
+redirect_from:
+  - /data_sources/peakboardio/01-en-intro-peakboard-io.html
 ---
 Within the [Peakboard.io](https://peakboard.io/myaccountlogin) portal, you can maintain table objects. These tables can then be included in the Designer just like other data sources. Please see [this tutorial](peakboardio/01-en-intro-peakboard-io.html) on using the portal and the API key to access Peaboard.io objects.
 
