@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: Pfadlängenbegrenzung aufheben
 menu_title: Pfadlängenbegrenzung aufheben
