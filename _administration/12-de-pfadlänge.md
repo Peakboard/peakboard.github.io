@@ -17,11 +17,9 @@ Klicken Sie zunächst im Peakboard-Designer auf Manage und wählen Sie für die 
 
 ![image_1](/assets/images/admin/pathlength/pathlength_01.png)
 
-Es wird nun ein Browser-Fenster geöffnet hier geben Sie Als Benutzername „Administrator“ und das Passwort der Peakboard-Box ein.
+Es wird nun ein Browser-Fenster geöffnet, hier geben Sie als Benutzername „Administrator“ und das Passwort der Peakboard-Box ein.
 
-Wählen Sie nun auf der Linken Seite Processes und anschließend Run command.
-
-Führen Sie nun folgenden Befehl aus:
+Wählen Sie nun auf der linken Seite Processes und anschließend Run command und führen Sie in dem öffnenden Command-Fenster folgenden Befehl aus:
 
 ```
 Reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPathsEnabled /t REG_DWORD /d 1 /f
