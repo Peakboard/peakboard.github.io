@@ -10,7 +10,7 @@ redirect_from:
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Excel-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.htm)
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Nachdem Sie auf Add Excel Data geklickt haben, öffnet sich ein Fenster. In diesem müssen Sie einen Namen eingeben und einen Speicherort (z.B. Dropbox) auswählen. Derzeit werden folgende Speicherorte unterstützt:
 

@@ -8,7 +8,7 @@ ref: dat-07
 ---
 This page explains the individual features when accessing OData data sources from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to peakboard elements:
 
-[https://help.peakboard.com/en/getting-started-with-external-data-sources-using-the-example-of-an-xml-data-source/](https://help.peakboard.com/en/getting-started-with-external-data-sources-using-the-example-of-an-xml-data-source/)
+[External Data Sources Using XML Data Source Example](/tutorials/03-en-xml-data.html)
 
 If you don’t have a URL to an OData data source at hand, but just want to try it out once, please use the following sample URL. It points to the AdventureWorks database. This is a sample database from Microsoft. Different entity sets are included, such as a product catalog or sales figures.
 

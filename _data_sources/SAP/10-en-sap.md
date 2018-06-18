@@ -6,12 +6,11 @@ description: Information about SAP Data in Peakboard
 lang: en
 ref: dat-10
 redirect_from:
-  - /en/datasources-sap/
-  - /data_sources/SAP/03-en-xml-data.html
+
 ---
 This page explains the individual features when accessing an SAP data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard-Elements:
 
-[Getting Started with External Data Sources Using the Example of an XML Data Source](03-en-xml-data.html)
+[Getting Started with External Data Sources Using the Example of an XML Data Source](/tutorials/03-en-xml-data.html)
 
 The connection to SAP can be implemented in various ways. Which of these is best for your case depends on several factors that are explained below:
 

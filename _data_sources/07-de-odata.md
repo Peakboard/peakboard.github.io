@@ -8,7 +8,7 @@ ref: dat-07
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf OData-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle]()
+[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Falls Sie keine URL zu einer OData-Datenquelle zur Hand haben, sondern die Sache einfach nur einmal ausprobieren wollen, nehmen Sie bitte die folgende Beispiel-URL. Sie zeigt auf die AdventureWorks-Datenbank. Das ist eine Beispieldatenbank von Microsoft. Es sind verschiedene Entity Sets enthalten, z.B. ein Produktkatalog oder Verkaufszahlen.
 
