@@ -7,6 +7,21 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.22.0 (18.06.2018)
+
+* Überarbeitete Datenquellendialoge
+* Updates für advanced Chart Control
+* XtractQL Updates für Reports
+* Geänderte Standardschriftarten
+* Fix für variable Listen Dialog 
+* Fix für das  duplizieren von Peakboard IO Tabellen
+* Fix für Xaml-Validierung in der Listview
+* Fix für Json-Datendialog
+* Fix für ungültigen Lizenz-Fehler
+* Fix für Datenquellennamen
+* Fix für Fehler beim Hinzufügen einer Spalte zu einer Lua-Skript-Tabelle
+* Fix für CSV-Datenquellenspalten
+
 ## 1.0.21.2 (13.06.2018)
 
 * Fix für Datenquellennamen

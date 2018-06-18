@@ -7,6 +7,21 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.22.0 (18.06.2018)
+
+* Reworked datasource dialogs
+* Updates for advanced chart control
+* XtractQL Updates for Reports
+* Changed default fonts
+* Fix for variable list dialog
+* Fix for Peakboard IO Table duplicate
+* Fix for Xaml validation in list view
+* Fix for Json datadialog
+* Fix for invalid license error
+* Fix for datasource names
+* Fix for Error when adding a column to a lua script table
+* Fix for CSV datasource columns
+
 ## 1.0.21.2 (13.06.2018)
 
 * Fix for datasource names
