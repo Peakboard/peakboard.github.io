@@ -2,10 +2,8 @@ _site
 .sass-cache
 .jekyll-metadata
 /node_modules
-/.idea
-/.vscode
+.idea
+.vscode
 npm-debug.log
 .DS_Store
 _mdwriter.cson
-assets/images/Controls/.DS_Store
-assets/images/Controls/.DS_Store
