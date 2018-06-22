@@ -13,6 +13,6 @@ If the Peakboard-Box you want to update is not in the list, please follow this [
 
 Open the drop-down menu in the line containing the Peakboard-Box to be updated. Click here on Update device. If a new update is available, you will be asked if you want to perform the update. Confirm this.
 
-![image_1](/assets/images/admin/update/aktualisieren1.png)
+![Manage Dialog Update Device](/assets/images/admin/update/aktualisieren1.png)
 
 After a short moment your Peakboard-Box is updated.

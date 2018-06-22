@@ -9,11 +9,11 @@ ref: admin-08
 
 To change the current visualization on a Peakboard-Box, go to Manage in the Designer. In the new window, click the drop-down menu to the right of the desired Peakboard-Box. Select the menu item Activate Peakboard.
 
-![ActivatePeakboard](/assets/images/admin/management/ActivatePeakboard.png)
+![ActivatePeakboard](/assets/images/admin/management/manage-dialog-activate-peakboard.png)
 
 In the following dialog you can select the desired visualization.
 
-![ActivatePeakboard2](/assets/images/admin/management/ActivatePeakboard2.png)
+![ActivatePeakboard2](/assets/images/admin/management/activate-peakboard-dialog.png)
 
 By the way, you can also change your Peakboards via your iPhone or Android smartphone. Simply install the app for this purpose.
 

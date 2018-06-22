@@ -11,7 +11,7 @@ Um das WLAN der Peakboard-Box einzurichten, muss diese zuerst mit einem Netwerkk
 Wenn sich die Peakboard-Box bis dahin noch im initialen Zustand befindet, sollte auf dem Bildschirm eine IP-Adresse angezeigt werden, sobald die Verbindung zum Netwerk hergestellt werden konnte.
 
 Sie sollten nun über folgende URL auf die Windows IoT Administrationsoberfläche der Peakboard-Box verbinden können:
-http://[BoxName]:8080 
+http://[BoxName]:8080
 Der Boxname ist auf die Peakboard-Box aufgedruckt und könnte bspw. PB1234 sein.
 In dem Fall wäre die korrekte URL http://PB1234:8080
 
@@ -22,4 +22,4 @@ Wählen Sie das gewünschte aus und geben den WLAN-Schlüssel ein.
 
 Wichtig ist, dass Sie die Box anschließend über den Power Button neustarten, damit die Änderungen beibehalten werden.
 
-![image_1](/assets/images/admin/device/MiscAdministration01.png)
+![Windows Device Portal](/assets/images/admin/device/windows-device-portal.png)

@@ -11,7 +11,7 @@ To add a Peakboard-Box to the Peakboard-Designer, click the Manage button in the
 
 Click here on the button Add.
 
-![image_1](/assets/images/admin/add/ErsteSchrittePBBox1.png)
+![Deploy Dialog](/assets/images/admin/add/deploy-dialog.png)
 
 A window opens again in which all Peakboard-Boxes in the network are displayed. Select the desired Peakboard by a simple mouse click and fill in the fields Username and Password.
 
