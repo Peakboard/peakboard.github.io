@@ -1,14 +1,14 @@
 ---
 layout: article
-title: SAP mit XQL
+title: SAP with XQL
 menu_title: XQL
-description: Information über die Nutzung von XQL
-lang: de
+description:  Information about the use of XQL
+lang: en
 ref: dat-sap-20
 ---
-Wenn der SAP-Zugriff nicht über Gateway, sondern über "Direct RFC" gebaut wird, erfolgt die Definition des SAP-Zugriffs über XQL. XQL ist eine einfache Beschreibungssprache. Im folgenden wird erklärt, wie Sie über XQL in SAP auf RFC-Funktionbsbausteine, Reports, Tabellen, Cubes und Queries zugreifen können. Um die Sache nicht zu kompliziert zu machen, enthält diese Seite möglichst viele Beispiele und weniger eine formale Beschreibung von XQL.
+If SAP access is not built via gateway but via "Direct RFC", SAP access is defined via XQL. XQL is a simple description language. The following explains how you can use XQL in SAP to access RFC function modules, reports, tables, cubes, and queries. In order not to make things too complicated, this page contains as many examples as possible and less a formal description of XQL.
 
-## Tabellen-Zugriff
+## Table Access
 
 ```
 SelectCommand
@@ -21,11 +21,11 @@ SelectField
    := (Identifier | String | StringPassThrough) ["AS" (Identifier | String | StringPassThrough)]
 
 SelectTable
-   := ["TABLE"] (String | Identifier) [SelectTableWhereExpression]) 
+   := ["TABLE"] (String | Identifier) [SelectTableWhereExpression])
 
 SelectTableWhereExpression
    := "WHERE" SelectTableWhereTerm {("AND" | "OR") SelectTableWhereTerm}
-   
+
 SelectTableWhereTerm
    := SelectTableWhereFactor | ("(" SelectTableWhereExpression ")")
 
@@ -34,7 +34,7 @@ SelectTableWhereFactor
 
 SelectTableWhereFactorOperator
    := ("EQ" | "NE" | "LT" | "GT" | "LE" | "GE") SelectTableWhereFactorValue
-   
+
 SelectTableWhereFactorNull  
    := "IS" ["NOT"] "NULL"
 
@@ -51,15 +51,15 @@ SelectTableWhereFactorValue
    := String | Integer | Number | Variable | Identifier
 ```
 
-### Beispiele
+### Examples
 
-Alle Spalten der Tabelle MAKT abrufen, aber maximal 10 Zeilen:
+Retrieve all columns of table MAKT, but no more than 10 rows:
 
 ```
 SELECT TOP 10 * FROM MAKT;
 ```
 
-nur bestimmte Spalten der Tabelle MAKT abrufen (maximal 10 Zeilen):
+Retrieve only certain columns of table MAKT (maximum 10 rows):
 
 ```
 SELECT TOP 10 MATNR, MAKTX FROM MAKT

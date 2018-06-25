@@ -1,9 +1,9 @@
-﻿---
+---
 layout: article
-title: SAP and XQL
+title: SAP mit XQL
 menu_title: XQL
-description: Usage of XQL
-lang: en
+description: Information über die Nutzung von XQL
+lang: de
 ref: dat-sap-20
 ---
 Wenn der SAP-Zugriff nicht über Gateway, sondern über "Direct RFC" gebaut wird, erfolgt die Definition des SAP-Zugriffs über XQL. XQL ist eine einfache Beschreibungssprache. Im folgenden wird erklärt, wie Sie über XQL in SAP auf RFC-Funktionbsbausteine, Reports, Tabellen, Cubes und Queries zugreifen können. Um die Sache nicht zu kompliziert zu machen, enthält diese Seite möglichst viele Beispiele und weniger eine formale Beschreibung von XQL.
@@ -21,11 +21,11 @@ SelectField
    := (Identifier | String | StringPassThrough) ["AS" (Identifier | String | StringPassThrough)]
 
 SelectTable
-   := ["TABLE"] (String | Identifier) [SelectTableWhereExpression]) 
+   := ["TABLE"] (String | Identifier) [SelectTableWhereExpression])
 
 SelectTableWhereExpression
    := "WHERE" SelectTableWhereTerm {("AND" | "OR") SelectTableWhereTerm}
-   
+
 SelectTableWhereTerm
    := SelectTableWhereFactor | ("(" SelectTableWhereExpression ")")
 
@@ -34,7 +34,7 @@ SelectTableWhereFactor
 
 SelectTableWhereFactorOperator
    := ("EQ" | "NE" | "LT" | "GT" | "LE" | "GE") SelectTableWhereFactorValue
-   
+
 SelectTableWhereFactorNull  
    := "IS" ["NOT"] "NULL"
 
