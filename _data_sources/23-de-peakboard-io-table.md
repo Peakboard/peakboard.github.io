@@ -12,4 +12,4 @@ Um eine Peakboard.io-Tabelle zu nutzen, legen Sie bitte eine entsprechende Daten
 
 Klicken Sie abschließend auf Load Data. Es öffnet sich das Preview-Fenster und zeigt die Daten an. Nach dem Schließen des Preview-Fensters ist die Tabelle mit den Spaltenangaben gefüllt und die Datenquelle kann ab sofort benutzt werden. Bitte beachten Sie, dass die Datentypen (also zum Beispiel String als Zeichenfolge oder Integer als Nummer) in die entsprechenden Datentypen in Peakboard umgesetzt werden. Die Typinformation bleibt also erhalten.
 
-![image_1](/assets/images/Data_Sources/Peakboard_IO/datasource_peakboardio_table_01.png)
+![Add Peakboard.io Table Data Dialog](/assets/images/data-sources/peakboard-io/datasource-peakboardio-table-01.png)

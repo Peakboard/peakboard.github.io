@@ -24,7 +24,7 @@ If the double-click installation does not work, you must use PowerShell.
 
 To do this, you must first open PowerShell as an administrator:
 
-![image_1](/assets/images/admin/install-runtime/install-runtime_01.png)
+![Install Runtime](/assets/images/admin/install-runtime/install-runtime.png)
 
 Now the following command must be executed in PowerShell (where the path and file name must be adjusted accordingly):
 

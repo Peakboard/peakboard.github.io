@@ -15,7 +15,7 @@ To remove this limit, please follow these steps:
 
 First click on Manage in the Peakboard Designer and select the menu item “Open Device Portal” for the corresponding Peakboard box.
 
-![image_1](/assets/images/admin/pathlength/pathlength_01.png)
+![Manage Dialog Open Device Portal](/assets/images/admin/pathlength/manage-dialog-open-device-portal.png)
 
 A browser window will now open. Enter “Administrator” as user name and the password of the Peakboard-Box.
 
@@ -27,4 +27,4 @@ Reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPa
 
 Finally restart the box via Power – Restart.
 
-![image_1](/assets/images/admin/pathlength/pathlength_02.png)
+![Run Command Windows Device Portal](/assets/images/admin/pathlength/run-command-windows-device-portal.png)

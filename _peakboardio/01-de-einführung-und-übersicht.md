@@ -10,8 +10,6 @@ ref: io-01
 
 Derzeit lassen sich folgende Objekte im Peakboard.io-Portal anlegen und pflegen:
 
-Derzeit lassen sich folgende Objekte im Peakboard.io-Portal anlegen und pflegen:
-
 * Tabellen
 * Dateien
 * Seiten

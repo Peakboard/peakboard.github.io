@@ -20,15 +20,15 @@ To do this, the value **[Enabled]** must first be set to 1 (true) in the followi
 Afterwards, the Command window must be executed as an administrator and the following command entered:
 `w32tm /config /update`
 
- ![image_1](/assets/images/Data_Sources/Date_and_Time/AddTimeDialog.png)
+ ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 
 The following screenshot shows how to use the time on the screen. Alternatively, the data source, like any other data source, can be linked to controls or used via script.
 
- ![image_1](/assets/images/Data_Sources/Date_and_Time/PlaceTime.png)
+ ![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
 
 The preview now shows the current date and time.
 
-![image_1](/assets/images/Data_Sources/Date_and_Time/PreviewTime.png)
+![Preview Time](/assets/images/data-sources/date-and-time/preview-time.png)
 
 Placeholder for the format string:
 

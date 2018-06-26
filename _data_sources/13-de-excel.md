@@ -25,6 +25,6 @@ Anschließend melden Sie sich über den Authorize Button bei dem Cloudanbieter a
 
 Unter Worksheet wählen Sie aus der Liste das gewünschte Tabellenblatt. „Column names in 1st row“ bedeutet, dass die Spaltenüberschriften direkt in den Tabellenzellen stehen. Ansonsten werden generische Spaltenüberschriften gebildet (Column1, Column2, etc.). Standardmäßig stehen die Daten im jeweiligen Tabellenblatt einfach ab der ersten Zelle oben links (Select All). Sollte das bei Ihnen nicht so sein, können Sie im Feld Range einen Bereich eingeben, in dem Peakboard nach den Daten suchen soll (z.B. von Zelle B2 bis H23, dann wäre hier B2:H23 einzutragen).
 
- ![image_1](/assets/images/Data_Sources/Excel/Excel01.png)
+ ![Add Excel Data Dialog](/assets/images/data-sources/excel/add-excel-data.png)
 
  Klicken Sie final auf Load Data. Die Daten werden dann gemäß den Angaben aus der Excel-Datei geladen und im Preview-Fenster angezeigt. Darüber hinaus werden die Metadaten (also die Liste an Spalten) erneuert und in der Columns-Tabelle angezeigt. Ab jetzt kann die Quelle verwendet werden.

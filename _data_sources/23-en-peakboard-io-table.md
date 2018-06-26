@@ -14,4 +14,4 @@ To use a Peakboard.io table, please create a corresponding data source (you may 
 
 Finally, click Load Data. It opens the Preview window and displays the data. After closing the Preview window, the table is filled with the column specifications and the data source can be used immediately. Please note that the data types (e. g. string as string or integer as number) are converted into the corresponding data types in Peakboard. The type information is therefore retained.
 
-![image_1](/assets/images/Data_Sources/Peakboard_IO/datasource_peakboardio_table_01.png)
+![Add Peakboard.io Table Data Dialog](/assets/images/data-sources/peakboard-io/datasource-peakboardio-table-01.png)

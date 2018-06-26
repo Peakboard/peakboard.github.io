@@ -16,12 +16,12 @@ If you don’t have a URL to an OData data source at hand, but just want to try 
 
 OData is a standardized data exchange format. The example URL refers to a small database whose entity sets you can load into the Combobox by clicking Load after entering the URL. If the OData request requires authentication, click the small button with the three dots. Then you can enter your user name and password.
 
-![image_1](/assets/images/Data_Sources/OData/OData01.png)
+![Odata Data Dialog](/assets/images/data-sources/odata/odata-data-dialog.png)
 
 If you have chosen an entity set, the columns and their data type are automatically displayed for information in the table below. As usual, you can specify the time interval after which the source is refreshed and the maximum number of rows retrieved. If you do not want to retrieve all data from the source, you can define an OData filter in the corresponding text field. If you don’t know exactly how an OData filter works, you will find a good introduction here
 
-![image_1](/assets/images/Data_Sources/OData/OData02.png)
+![Odata Entity Properties](/assets/images/data-sources/odata/entity-properties.png)
 
 With the help of the Preview button, a test request is sent to the server and the data is prepared according to the specifications.
 
-![image_1](/assets/images/Data_Sources/OData/OData03.png)
+![Odata Preview Dialog](/assets/images/data-sources/odata/odata-preview-dialog.png)

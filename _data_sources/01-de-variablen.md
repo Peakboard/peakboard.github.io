@@ -13,12 +13,12 @@ Statische Datenquellen werden als Container genutzt, um Push-Nachrichten von au�
 
 Um eine statische Datenquelle anzulegen, gehen Sie so vor, wie bei allen [anderen Datenquellen](/tutorials/03-de-xml-daten.html) auch. Wählen Sie einfach „Add General Data“ im Designer. Eine statische Datenquelle kann entweder ein einzelner Wert (Single) sein oder eine Tabelle. Der folgende Screenshot zeigt die Pflege eines Einzelwertes. Es werden die Datentypen String (Zeichenfolge), Number (Zahl) und Boolean (true/false) unterstützt.
 
- ![image_1](/assets/images/Data_Sources/Static_Data/1.-Screenshot.png)
+ ![image_1](/assets/images/data-sources/static-data/add-data-dialog.png)
 
 Statische Datenquellen vom Typ List sind Tabellen. Hier müssen zunächst die Spalten definiert werden. Das folgende Beispiel zeigt eine Tabelle mit zwei Spalten: Code und Message, jeweils vom Typ String.^
 
-![image_1](/assets/images/Data_Sources/Static_Data/2.-Screenshot.png)
+![image_1](/assets/images/data-sources/static-data/edit-list-data.png)
 
 Ist die Definition der Spalten abgeschlossen, kann die Tabelle mit Daten befüllt werden. Das folgende Beispiel zeigt, wie neue Einträge der Tabelle hinzugefügt werden können:
 
-![image_1](/assets/images/Data_Sources/Static_Data/3.-Screenshot.png)
+![image_1](/assets/images/data-sources/static-data/code-error-machine-is-broken.png)

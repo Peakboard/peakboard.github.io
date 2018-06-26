@@ -17,7 +17,7 @@ Go to the https page there; Ctrl+Shift+I and then display the certificate in the
 
 From there you can save to a file in the tab “Details”. `DER( *.cer )` is sufficient for this case.
 
-![image_1](/assets/images/admin/certificates/cert_01.png)
+![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
 
 Copy the exported file to the device.
 
@@ -25,7 +25,7 @@ To do this, access the admin share \\\<ip>\c$ in Windows Explorer and store it i
 
 Enter the user name and password of the administrator.
 
-![image_1](/assets/images/admin/certificates/cert_02.png)
+![Window Explorer](/assets/images/admin/certificates/windows-explorer.png)
 
 Then connect to the device via PowerShell.
 
@@ -38,7 +38,7 @@ When connected, import the certificate into the certificate store:
 * $cert = “c:\users\public\demo.cer”
 * Import Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 
-![image_1](/assets/images/admin/certificates/cert_03.png)
+![PowerShell](/assets/images/admin/certificates/powershell.png)
 
 Now the certificate should automatically be classified as trustworthy when invoked.
 

@@ -19,8 +19,8 @@ JSON is a hierarchical format. Since Peakboard data sources are always tabular, 
 
 To publish the metadata within Peakboard, click Load Columns. The table with the target columns is then filled according to the specifications. The Max Items field limits the number of rows to a certain value. Reload Interval specifies the number of seconds after which the data source should be refreshed. Adjust these values according to your application.
 
-![image_1](/assets/images/Data_Sources/JSON/JSon01.png)
+![JSON Add Data Dialojso](/assets/images/data-sources/json/json-add-data-dialog.png)
 
 A click on Preview shows the raw data in tabular form. Here you can check the information again.
 
-![image_1](/assets/images/Data_Sources/JSON/JSon02.png)
+![JSON Preview Data](/assets/images/data-sources/json/json-preview-data.png)

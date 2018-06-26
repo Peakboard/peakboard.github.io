@@ -15,10 +15,10 @@ Die Azure-SQL-Datenquelle ist dazu da, um SQL-Server Instanzen mit Peakboard zu 
 
 Die Azure-SQL-Quelle braucht einen eindeutigen Namen. Für den Zugang zur Datenbank müssen Sie den Server-Namen, Username und Passwort sowie den Namen der Datenbank eingeben. Alle Angaben sind im Azure-Portal abzurufen. Sie können dann entweder im entsprechenden Textfeld ein SQL-Kommando eingeben oder in der Combobox darüber eine Tabelle oder View auswählen (so wie hier im Beispiel). Wichtiger Hinweis: Am besten legen Sie für die Daten eine View an, die die Daten schon so aufbereitet und aggregiert, wie sie später angezeigt werden sollen. Das spart viel Nacharbeit bei der Gestaltung der Visualisierung.
 
-![image_1](/assets/images/Data_Sources/Azure/AzureSQL01.png)
+![Add Azure SQL Data](/assets/images/data-sources/azure/add-azure-sql-data.png)
 
 Ein Klick auf den Load Columns Button erzeugt die Metadaten und listet sie auf. Überprüfen Sie Ihre Angaben mit dem Aufruf des Previews.
 
-![image_1](/assets/images/Data_Sources/Azure/AzureSQL02.png)
+![Azure SQL Settings](/assets/images/data-sources/azure/azure-sql-settings.png)
 
-![image_1](/assets/images/Data_Sources/Azure/AzureSQL03.png)
+![Azure Preview](/assets/images/data-sources/azure/azure-preview.png)

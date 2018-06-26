@@ -11,7 +11,7 @@ In manchen Fällen ist es notwendig, die Begrenzung der Pfadlänge von Windows I
 
 Klicken Sie zunächst im Peakboard-Designer auf Manage und wählen Sie für die entsprechende Peakboard-Box den Menüpunkt „Open Device Portal“.
 
-![image_1](/assets/images/admin/pathlength/pathlength_01.png)
+![Manage Dialog Open Device Portal](/assets/images/admin/pathlength/manage-dialog-open-device-portal.png)
 
 Es wird nun ein Browser-Fenster geöffnet, hier geben Sie als Benutzername „Administrator“ und das Passwort der Peakboard-Box ein. Wählen Sie nun auf der linken Seite Processes und anschließend Run Command; führen Sie in dem öffnenden Command-Fenster folgenden Befehl aus:
 
@@ -22,4 +22,4 @@ Reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPa
 Starten Sie zuletzt die Box über Power – Restart neu.
 
 
-![image_1](/assets/images/admin/pathlength/pathlength_02.png)
+![Run Command Windows Device Portal](/assets/images/admin/pathlength/run-command-windows-device-portal.png)
