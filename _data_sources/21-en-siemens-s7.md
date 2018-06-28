@@ -20,20 +20,20 @@ The second aspect is the management of variables on the controller. Internal acc
 
 The following screenshot shows the raw view of a data block from the S7 programmer's point of view. The data types of the variables and the offset are relevant here. Both values are required for the configuration of the S7 data source. If the variable is in a data block, the number of the block is still required.
 
-![Data Block](assets/images/data-sources/siemens-s7/datenquelle-s7-02_data-block.png)
+![Data Block](/assets/images/data-sources/siemens-s7/datenquelle-s7-02-data-block.png)
 
 
 ## Connecting the Peakboard-Designer
 
 To connect Peakboard to the S7, create a corresponding data source. Enter a mandatory name, IP address, slot and rack. Models 1200, 1500, 200, 300 and 400 are currently supported when specifying the S7 CPU. The reload interval specifies how much time passes until the next data update. You can use Max Items to define the number of values that are later to be included in the table. The most current variable value always comes first in the table. It only makes sense to enter a value greater than 1 if you want to access the values before (!) the current call later in a script.
 
-![Data Dialog](assets/images/data-sources/siemens-s7/datenquelle-s7-03-edit-data-dialog.png)
+![Data Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-03-edit-data-dialog.png)
 
 ## Variable definition
 
 An entry must be made manually for each variable to be retrieved. To do this, a unique name must be entered, but it does not have to be the same as the variable on the controller. Furthermore, the position of the variable must be defined. This includes whether the variable is in a data block, flag, output or input (type) and the offset which specifies the memory address of the variable.
 
-![Edit Variable Dialog](assets/images/data-sources/siemens-s7/datenquelle-s7-04-edit-variable-dialog.png)
+![Edit Variable Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-04-edit-variable-dialog.png)
 
 When defining the offset, note the special formatting features that depend on the data type.
 If a variable of the data type Bit, i.e. a boolean value, is to be read, the offset must be specified in the form [Byte.Bit]. Valid values are, for example, "0.0" or "2.7".

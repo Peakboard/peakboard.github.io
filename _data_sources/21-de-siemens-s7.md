@@ -20,13 +20,13 @@ Der zweite Aspekt ist die Verwaltung der Variablen auf der Steuerung. Der intern
 
 Der folgende Screenshot zeigt die Rohansicht eines Datenblocks aus Sicht des S7-Programmierers. Relevant sind hier zum einen die Datentypen der Variablen und das Offset. Beide Werte werden bei der Konfiguration der S7-Datenquelle benötigt. Für den Fall, dass die Variable in einem Datenbaustein liegt, wird noch die Nummer des Bausteins benötigt.
 
-![Data Block](assets/images/data-sources/siemens-s7/datenquelle-s7-02_data-block.png)
+![Data Block](/assets/images/data-sources/siemens-s7/datenquelle-s7-02-data-block.png)
 
 ## Anbindung im Peakboard-Designer
 
 Um Peakboard mit der S7 zu verbinden, legen Sie eine entsprechende Datenquelle an. Tragen Sie einen obligatorischen Namen, die IP-Adresse, Slot und Rack ein. Bei der Angabe der S7-CPU werden im Moment die Modelle 1200, 1500, 200, 300 und 400 unterstützt. Das Reload Interval gibt an, wie viel Zeit bis zur nächsten Aktualisierung der Daten vergeht. Mit Max Items können sie die Anzahl der Werte festlegen, die später in der Tabelle enthalten sein sollen. Der aktuellste Variablenwert steht in der Tabelle immer an erster Stelle. Es ergibt nur Sinn, einen Wert größer 1 einzutragen, wenn Sie später in einem Skript auf die Werte vor (!) dem aktuellen Abruf zugreifen möchten.
 
-![Data Dialog](assets/images/data-sources/siemens-s7/datenquelle-s7-03-edit-data-dialog.png)
+![Data Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-03-edit-data-dialog.png)
 
 ## Variablendefinition
 
@@ -34,7 +34,7 @@ Um Peakboard mit der S7 zu verbinden, legen Sie eine entsprechende Datenquelle a
 Für jede abzurufende Variable muss manuell ein Eintrag vorgenommen werden. Dafür muss ein eindeutiger Name gewählt werden, der jedoch nicht mit dem der Variable auf der Steuerung übereinstimmen muss. Weiterhin muss die Position der Variable definiert werden. Dazu gehört, ob die Variable in einem Datenbaustein, Merker, Aus- oder Eingang liegt (Type) und das Offset, welches die Speicheradresse der Variable angibt.
 
 
-![Edit Variable Dialog](assets/images/data-sources/siemens-s7/datenquelle-s7-04-edit-variable-dialog.png)
+![Edit Variable Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-04-edit-variable-dialog.png)
 
 Bei der Definition des Offsets sind Besonderheiten in der Formatierung zu beachten, welche abhängig vom Datentyp sind.
 Soll eine Variable vom Datentyp Bit, also ein boolescher Wert, gelesen werden, muss das Offset in der Form [Byte.Bit] angegeben werden. Valide Werte sind also zum Beispiel „0.0“ oder „2.7“.
