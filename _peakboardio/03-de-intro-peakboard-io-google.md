@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: peakboardio
 title: Google Analytics Reports
 menu_title: Google Analytics Reports
 description: Google Analytics Reports

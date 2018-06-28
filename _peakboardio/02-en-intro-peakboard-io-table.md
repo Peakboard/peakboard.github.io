@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: peakboardio
 title: Peakboard.io Table
 menu_title: Peakboard.io Table
 description: Peakboard.io Table
