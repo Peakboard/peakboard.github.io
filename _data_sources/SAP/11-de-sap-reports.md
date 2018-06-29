@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Funktionsbaustein für SAP Reports installieren
 menu_title: Funktionsbaustein für SAP Reports installieren
 description: Funktionsbaustein für SAP Reports installieren

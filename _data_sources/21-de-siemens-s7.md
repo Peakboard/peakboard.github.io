@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Siemens S7
 menu_title: Siemens S7
 description: Information über Siemens S7 Daten in Peakboard

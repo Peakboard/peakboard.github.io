@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Webpage
 menu_title: Webpage
 description: Information über Webpage Daten in Peakboard

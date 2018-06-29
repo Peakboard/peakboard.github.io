@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: LUA Script Data
 menu_title: LUA Script Data
 description: Information über LUA Script Daten  in Peakboard

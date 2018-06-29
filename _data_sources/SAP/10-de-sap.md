@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: SAP
 menu_title: SAP
 description: Information über SAP Daten in Peakboard

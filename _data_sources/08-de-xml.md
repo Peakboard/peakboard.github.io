@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: XML
 menu_title: XML
 description: Information über XML Daten in Peakboard

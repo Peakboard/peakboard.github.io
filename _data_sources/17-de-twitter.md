@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Twitter
 menu_title: Twitter
 description: Information über Twitter Daten in Peakboard

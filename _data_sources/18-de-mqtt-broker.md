@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: MQTT-Broker
 menu_title: MQTT-Broker
 description: Information über MQTT-Broker Daten in Peakboard

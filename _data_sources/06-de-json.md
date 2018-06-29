@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: JSON
 menu_title: JSON
 description: Information über JSON Daten in Peakboard

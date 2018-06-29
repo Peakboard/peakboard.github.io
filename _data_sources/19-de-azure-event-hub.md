@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Azure Event Hub
 menu_title: Azure Event Hub
 description: Informatinon about Azure Event Hub Data in Peakboard
