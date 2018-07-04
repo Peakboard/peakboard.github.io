@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Dynamische Abfragen
+title: Button Scripting Beispiel
 menu_title: Dynamische Abfragen
 description: Dynamische Abfragen
 lang: de
