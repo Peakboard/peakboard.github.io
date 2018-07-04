@@ -1,8 +1,8 @@
 ---
 layout: article
 title: Button Scripts Example
-menu_title: Button Scripts 
-description: Button Scripts
+menu_title: Button Scripts Example
+description: Button Scripts Example
 lang: en
 ref: scr-08
 ---
