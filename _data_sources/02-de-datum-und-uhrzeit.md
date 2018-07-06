@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Datum und Urzeit
 menu_title: Datum und Urzeit
 description: Informationen über Zeit- und Datumsangaben in Peakboard
@@ -19,15 +19,15 @@ Dafür muss zunächst in der Registry im Ordner `HKEY_LOCAL_MACHINE\System\Curre
 Anschließend muss das Command Fenster als Administrator ausgeführt und folgender Befehl eingegeben werden:
 `w32tm /config /update`
 
- ![image_1](/assets/images/Data_Sources/Date_and_Time/AddTimeDialog.png)
+ ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 
 Der folgende Screenshot zeigt, wie die Zeit auf dem Screen verwendet werden kann. Alternativ lässt sich die Datenquelle, wie jede andere Datenquelle auch, an Steuerelemente binden oder per Script nutzen.
 
- ![image_1](/assets/images/Data_Sources/Date_and_Time/PlaceTime.png)
+ ![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
 
 Im Preview werden jetzt das aktuelle Datum und die Uhrzeit angezeigt.
 
-![image_1](/assets/images/Data_Sources/Date_and_Time/PreviewTime.png)
+![Preview Time](/assets/images/data-sources/date-and-time/preview-time.png)
 
 Platzhalter für den Format-String:
 

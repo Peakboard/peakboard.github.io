@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Feed
 menu_title: Feed
 description: Information über RSS Feed Daten  in Peakboard
@@ -11,7 +11,7 @@ Die Feed-Datenquelle ist sehr simple. Sie wird dazu genutzt, um RSS-Feeds in Pea
 
 Um sie zu konfigurieren, muss einfach nur die Feed-URL eingetragen werden Falls der Feed Passwort geschützt ist, kann das über das Attribut Authentication entsprechend eingetragen werden. Ebenso wie die maximale Anzahl der zu ladenden Einträge und das Intervall für den Reload. Die Spalten sind fix und entsprechend dem Standard für Feeds.
 
- ![image_1](/assets/images/Data_Sources/Feed/DataFeed01.png)
+ ![Add Data Dialog](/assets/images/data-sources/feed/feed-add-data-dialog.png)
 
 ## Weblinks
 

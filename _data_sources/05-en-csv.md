@@ -12,4 +12,4 @@ A nice example of CSV data can be found under this URL: [http://mysafeinfo.com/a
 
 The handling of the dialog is almost self-explanatory. Write the desired URL in the corresponding text field. If explicit authentication is required, this can be set with the corresponding attribute. As well as the maximum number of records and the reload interval. To load the columns of the data source, click Load. Once the metadata is loaded, the data source is available for further processing like any other source.
 
-![image_1](/assets/images/Data_Sources/CSV/DatenquelleCSV1.png)
+![CSV Add Data Dialog](/assets/images/data-sources/csv/csv-add-data-dialog.png)

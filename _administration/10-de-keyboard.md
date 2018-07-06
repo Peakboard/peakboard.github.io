@@ -21,4 +21,4 @@ Das Layout kann man aktuell am einfachsten, wie folgt umstellen:
 
 5. Nun können Sie das entsprechende Layout auswählen. Dieses gilt auch, z.B. für Tastaturen, die bei per USB angeschlossen werden und bleibt nach einem Neustart erhalten.
 
-![image_1](/assets/images/admin/keyboard/Peakboard_Keyboard_Screenshot.png)
+![Peakboard Keyboard Screenshot](/assets/images/admin/keyboard/peakboard-keyboard-screenshot.png)

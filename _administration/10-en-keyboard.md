@@ -19,4 +19,4 @@ The easiest way to change the layout is as follows:
 
 5. Now you can select the appropriate layout. This setting also applies to keyboards connected via USB and will be kept when rebooting.
 
-![image_1](/assets/images/admin/keyboard/Peakboard_Keyboard_Screenshot.png)
+![Peakboard Keyboard Screenshot](/assets/images/admin/keyboard/peakboard-keyboard-screenshot.png)

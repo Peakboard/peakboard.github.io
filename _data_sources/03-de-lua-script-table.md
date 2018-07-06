@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: LUA Script Data
 menu_title: LUA Script Data
 description: Information über LUA Script Daten  in Peakboard
@@ -10,11 +10,11 @@ Die Datenquelle LUA Script Table weicht etwas von den klassischen Datenquellen a
 
 Der folgende Screenshot zeigt eine Tabelle mit drei Spalten, die sich aus den drei elementaren LUA-Datentypen zusammensetzen können: Number, String oder Boolean. Das Anlegen der Spalten ist trivial und selbsterklärend. Im Reload-Intervall wird definiert, wie oft das Script ausgeführt werden soll.
 
- ![image_1](/assets/images/Data_Sources/datasources-lua-script/DatenquelleLUA01.png)
+![Edit lua Script Data Dialog](/assets/images/data-sources/datasources-lua-script/edit-lua-script-data-dialog.png)
 
 Im Code-Block selbst wird dann nur noch ein JSON-String zusammengesetzt, der dann einmalig als return-Wert zurückgegeben wird.
 
- ![image_1](/assets/images/Data_Sources/datasources-lua-script/DatenquelleLUA02.png)
+![Edit Script Dialog](/assets/images/data-sources/datasources-lua-script/edit-script-dialog.png)
 
 Hier nochmal für alle, die das Beispiel nachbauen wollen, der Originalcode. Mit der Random-Funktion werden Zufallszahlen erzeugt:
 

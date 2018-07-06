@@ -15,7 +15,7 @@ Dort auf die https-Seite gehen; Strg+Umschalt+I und da im Reiter „Security“ 
 
 Von dort aus kann man im Tab „Details“ in eine Datei speichern. `DER ( * .cer )` ist für diesen Fall ausreichend.
 
-![image_1](/assets/images/admin/certificates/cert_01.png)
+![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
 
 Die exportierte Datei nun auf das Gerät kopieren.
 
@@ -23,7 +23,7 @@ Dafür im Windows-Explorer auf die Admin-Freigabe \\<ip>\c$ zugreifen und z.B. i
 
 Benutzername und Passwort des Administrators eingeben.
 
-![image_1](/assets/images/admin/certificates/cert_02.png)
+![Window Explorer](/assets/images/admin/certificates/windows-explorer.png)
 
 Dann via PowerShell mit dem Gerät verbinden.
 
@@ -38,7 +38,7 @@ Wenn die Verbindung steht, das Zertifikat in den Zertifikatspeicher importieren:
 * $cert = „c:\users\public\demo.cer“
 * Import-Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 
-![image_1](/assets/images/admin/certificates/cert_03.png)
+![PowerShell](/assets/images/admin/certificates/powershell.png)
 
 Nun sollte das Zertifikat beim Aufruf automatisch als vertrauenswürdig eingestuft werden.
 

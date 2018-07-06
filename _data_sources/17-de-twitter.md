@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Twitter
 menu_title: Twitter
 description: Information über Twitter Daten in Peakboard
@@ -14,11 +14,11 @@ Die Twitter-Datenquelle liefert alle Rohdaten, um später in der Visualisierung 
 
 Grundsätzlich lassen sich die Tweets nach drei Methoden selektieren: Alle Tweets eines bestimmten Twitter Accounts (By User Name) oder eines Hash Tags. Die dritte Option ist eine freie Suche nach Suchkriterien (z.B. „BVB AND VFB“ für alle Tweets, die BVB und VFB enthalten). Ein gute Anleitung zu den Suchkriterien finden Sie hier.
 
-![image_1](/assets/images/Data_Sources/Twitter/Twitter01.png)
+![Twiter Add Data Dialog](/assets/images/data-sources/twitter/twitter-add-data-dialog.png)
 
 Ein Klick auf Preview zeigt Ihnen ein Voransicht.
 
-![image_1](/assets/images/Data_Sources/Twitter/Twitter02.png)
+![Twitter Preview Dialog](/assets/images/data-sources/twitter/twitter-preview-dialog.png)
 
 Die Twitterdatenquelle hatte immer dieselben Spalten. Sie haben folgende Bedeutung:
 

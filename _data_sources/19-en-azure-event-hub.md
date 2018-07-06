@@ -18,10 +18,10 @@ If you need a sample program that triggers an event in an event hub, please have
 
 To include a hub, create a new data source in the Peakboard-Designer. The following screenshot shows the settings as an example. A connection string and the name of a hub are required (instead of the name, the path can also be entered). In addition, the connection string and the container name of the Azure storage must be specified (as configured in the hub). The queue size defines the maximum number of messages in the data source, the script is also for processing (for more information see below).
 
-![image_1](/assets/images/Data_Sources/Azure_Event_Hub/DatenquellenEventHub01.png)
+![Edit Azure Event Hub Data Dialog](/assets/images/data-sources/azure-event-hub/edit-azure-event-hub-data-dialog.png)
 
 Messages can generally be processed using two methods. The first option is to use a queue. All incoming messages are simply inserted into a table that works just like any other Peakboard data source. So you can attach them directly to a grid or something similar to display the messages. The table has two columns: Timestamp for the timestamp and message for the raw data of the message.
 
 The second method is a script that is called exactly once for each incoming message. The following screenshot shows an example. The object message has two attributes: timestamp and text. The example shows how easy it is to write the last message into a text field.
 
-![image_1](/assets/images/Data_Sources/Azure_Event_Hub/DatenquellenEventHub02.png)
+![Azure Edit Script Dialog](/assets/images/data-sources/azure-event-hub/azure-edit-script-dialog.png)

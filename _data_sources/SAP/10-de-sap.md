@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: SAP
 menu_title: SAP
 description: Information über SAP Daten in Peakboard
@@ -29,30 +29,32 @@ Die Anbindung an SAP kann über verschiedene Wege erfolgen. Welche davon für Ih
 
 Um die Datenquelle an SAP anzubinden, müssen die Felder Client (Mandant), User Name, Password und Sprache (mit dem SAP-üblichen Sprachkürzel) ausgefüllt werden. Darüberhinaus muss der Tabreiter ‚Direct RFC‘ aktiviert werden. Auf diesem Reiter ist der SAP-Applikationsserver und die Systemnummer anzugeben.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP01.png)
+![Sap Data Dialog](/assets/images/data-sources/sap/sap-data-dialog.png)
 
 Der eigentliche Zugriff auf SAP wird über XQL-Anweisung formuliert. Damit Sie die XQL-Anweisung nicht komplett von Hand eingeben müssen, können Sie sich über den Template-Knopf ein Muster einfügen lassen. Der folgende Screenshot zeigt eine Anweisung auf eine simple SAP-Tabelle. Weitere Infos und Beispiele zu XQL finden Sie auf einer weiteren Seite.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP02.png)
+![Sap Direct RFC](/assets/images/data-sources/sap/sap-direct-rfc.png)
 
 Die nächsten Schritte sind der Load-Button, um die Spalten bzw. die Metadaten zu laden und der Preview-Button, um die Daten auf Plausibilität zu prüfen.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP03.png)
+![Sap Load Columns](/assets/images/data-sources/sap/sap-load-columns.png)
 
-![image_1](/assets/images/Data_Sources/SAP/SAP04.png)
+![Sap Load Columns Preview](/assets/images/data-sources/sap/sap-load-columns-preview.png)
 
 ## Zugriff über SAP Gateway
 
 Basis für den Zugriff ist ein Gateway Service, der eine Liste aller im Moment eingeloggter User zurückgibt. Der folgende Screenshot zeigt den Service in der Entwurfsansicht der Transaktion SEGW:
 
-![image_1](/assets/images/Data_Sources/SAP/SAP05.png)
+![SAP NetWeaver Gateway Service Builder](/assets/images/data-sources/sap/sap-netweaver-gateway-service-builder.png)
+
 
 Die neu angelegte Datenquelle benötigt einen eindeutigen Namen sowie User-Name und Passwort des SAP-Systems. Im Reiter SAP Gateway tragen Sie bitte die URL des Gateway Service ein. Danach klicken Sie auf den kleinen Knopf mit den drei Punkten, um alle Entity Sets in den Auswahl-Dialog zu laden, die unter dieser Service-URL verfügbar sind.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP06.png)
+![Sap Gateway Select Element](/assets/images/data-sources/sap/sap-gateway-select-element.png)
+
 
 Sobald Sie sich für eine Entity entschieden haben, bestätigen Sie mit OK. Jetzt werden die Spalten und ihre Datentypen geladen und angezeigt. Damit ist die Konfiguration beendet. Prüfen Sie die Daten auf Plausibilität, in dem Sie sie im Preview-Fenster betrachten.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP08.png)
+![SAP Gateway Dialog](/assets/images/data-sources/sap/sap-gateway-dialog.png)
 
-![image_1](/assets/images/Data_Sources/SAP/SAP09.png)
+![Sap Preview](/assets/images/data-sources/sap/sap-preview.png)

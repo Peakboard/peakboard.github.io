@@ -218,17 +218,19 @@ html {
       font-size: 1rem;
       line-height: 2;
       letter-spacing: -.003em;
-      -webkit-margin-after: 2em;
+      -webkit-margin-after: 1em;
   }
 
   ol,
   ul {
+
     list-style: none;
+    font-family: 'Merriweather', serif;
   }
 
   ul {
     margin: 0 0 1.875rem;
-    padding-left: 1.875rem;
+    padding-left: 4.875rem;
     /* level *2 */
   }
   ul li {
@@ -237,6 +239,7 @@ html {
     padding: 0.3125rem 0 0.3125rem;
   }
   ul li:before {
+
     -webkit-font-smoothing: antialiased;
     content: "\2022";
     color: #555f61;

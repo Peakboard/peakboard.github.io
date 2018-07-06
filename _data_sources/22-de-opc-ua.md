@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: OPC UA
 menu_title: OPC UA
 description: Information über OPC UA Daten in Peakboard
@@ -16,26 +16,26 @@ Ist das Dashboard einmal gestartet, finden Sie den generischen Server als Eintra
 
 Geben Sie zum Start die URL ein, unter der der Server erreichbar ist. Je nach genutztem Protokoll kann diese URL vom hier gezeigten Beispiel abweichen. Ein Klick auf „Get Endpoints“ füllt die darunterliegende Auswahlbox mit allen möglichen Zugangsarten, die der Server unterstützt. Dabei geht es insbesondere um die Frage, wie die spätere Übertragung authentifiziert und/oder verschlüsselt werden soll. Im Beispiel wird eine Kommunikationsart ausgewählt, die den Datenverkehr mit einem Zertifikat signiert und verschlüsselt. Außerdem wird der Dateninhalt binär übertragen, was im Gegensatz zu XML etwas performanter ist und das Netzwerk wegen des geringeren Durchsatzes schont.
 
-![image_1](/assets/images/Data_Sources/OPC_UA/DataSource_OPCUA_01.png)
+![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-01.png)
 
 Im nächsten Schritt kann noch ein Username und ein Passwort mitgegeben werden, falls der Server das erfordert. Das Textfeld Session-Name lässt das Kürzel für die Session definieren, so wie es auf dem Server geführt wird. Wenn beispielsweise mehrere, unterschiedliche Systeme oder mehrere Peakboard-Boxen auf einen OPC-Server zugreifen, können Sie anhand der Session-ID exakt nachvollziehen, aus welchem System oder von welcher Box die Session initiiert wurde. Falls Sie keine Veranlassung für einen bestimmten Session-Namen haben, belassen sie den voreingestellten Wert.
 
-![image_1](/assets/images/Data_Sources/OPC_UA/DataSource_OPCUA_02.png)
+![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
 
 Im nächsten Schritt muss das Zertifikat angegeben werden, mit dem der Datenverkehr verschlüsselt und/oder signiert wird. Das nächste Bild zeigt den Absprung in den Zertifikate-Store, der für das ganze Board gilt. Sie können die gewünschten Zertifikate dort per Import von der lokalen Festplatte übernehmen oder – falls Sie über kein Zertifikat  verfügen – können Sie sich selbst eines ausstellen (Button „Create“). Für den Fall, dass Sie selbst ein Zertifikat ausstellen, muss dieses auf dem Server bekannt gemacht werden. Wie das genau geht, hängt vom Server ab. Falls Sie die oben erwähnte Demo-Software als Test-Server nehmen, können Sie einfach auf „Try Connect“ klicken. Peakboard überträgt dann das Zertifikat einmal auf den Server und dieser lehnt es zunächst ab. Sie haben dann auf Server-Seite das Zertifikat als „bekannt“ zu kennzeichnen. Der Verbindungsaufbau funktioniert dann beim zweiten Versuch, da dann das Zertifikat auf dem Server ja bekannt und gültig ist.
 
-![image_1](/assets/images/Data_Sources/OPC_UA/DataSource_OPCUA_03.png)
+![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
 
 Kommen wir zum letzten Konfigurationsschritt. Jede OPC-UA-Datasource kann beliebig viele Items abonnieren, z.B. den Zustand aller Ventile eines Boilers. Mehrere Items können zu einer Subscription zusammengefasst werden. Das macht dann Sinn, wenn die Items später in der Visualisierung ähnlich behandelt werden. Man könnte beispielsweise alle Ein- und Auslassventile zu jeweils einer Subscription zusammenfassen, da im Board im Fehlerfall immer die gleiche rote Lampe aufleuchten soll, egal welches der Ventile gerade auf einen Fehler läuft. Der folgende Screenshot zeigt genau eine Subscription mit einem Item. Ein Item wird durch die Item-ID und die Namespace URI genau definiert. Die ID kann frei erfunden werden und dient lediglich zum Benennen eines Items. Item-ID und Namespace URI müssen Sie für das jeweils gewünschte Item und den jeweiligen Server kennen oder Sie nutzen den Browse-Button, um ein Modell vom Server abzurufen, das alle Items des Modells hierarchisch darstellt.
 
 
-![image_1](/assets/images/Data_Sources/OPC_UA/DataSource_OPCUA_04.png)
+![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
 
 Grundsätzlich gibt es zwei Möglichkeiten, wie nun mit den reinkommenden Daten umgegangen werden könnte. Die OPC-UA-Datenquelle ist wie jede andere Datenquelle auch, einfach nur eine Tabelle, in die die eingehenden Nachrichten der Items angehängt werden; zumindest bis zur Queue-Size. Danach werden die Daten nach dem FiFo-Prinzip aus der Tabelle entfernt und gegen neue ersetzt. Um eine Konfiguration zu testen, kann die Tabelle einfach per Drag and Drop auf den aktuellen Screen gezogen werden. Wenn alles korrekt konfiguriert ist, sollte sich die Tabelle mit Daten füllen.
 
 Die zweite und üblichere Möglichkeit, ist auf eingehende Daten in einem Event zu reagieren. Es gibt pro Subscription ein Event. Der folgende Screenshot zeigt ein übliches Pattern. Je nach dem, wie der Wert des Items gesetzt ist, wird die Nachricht zur Weiterverarbeitung in die eine oder die andere Tabelle abgelegt. Ein Quadrat (namens „status“) wird je nach Wert auf grün oder rot gesetzt. Das Objekt Message hat im Script drei Attribute: message.timestamp ist ein Timestamp, Message.itemvalue ist der Wert und message.item ist der Name des items.
 
-![image_1](/assets/images/Data_Sources/OPC_UA/DataSource_OPCUA_05.png)
+![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
 
 
 ```Lua

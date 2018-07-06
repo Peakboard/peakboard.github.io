@@ -24,4 +24,4 @@ After you click Add Excel Data, a window opens. In this dialog box, you must ent
 Then log in to the cloud provider using the Authorize button and select a file using the… button – if you have selected a cloud provider as the source.
 Under Worksheet, select the required worksheet from the list. “Column names in 1st row” means that the column headers are directly in the table cells. Otherwise, generic column headings are created (Column1, Column2, and so on). By default, the data in the respective worksheet is simply displayed from the first cell on the top left (Select All). If this is not the case, you can enter a range in the Range field in which Peakboard should search for the data (e. g. from cell B2 to H23, then B2: H23 would have to be entered here).
 
- ![image_1](/assets/images/Data_Sources/Excel/Excel01.png)
+ ![Add Excel Data Dialog](/assets/images/data-sources/excel/add-excel-data.png)

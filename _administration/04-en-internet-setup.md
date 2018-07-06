@@ -24,6 +24,6 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v Pr
 
 The commands can be sent one after the other using the “Run” button; it is important that the check mark in “Run as DefaultAccount” is set.
 
-![image_1](/assets/images/admin/internet-setup/proxy.png)
+![Windows Device Portal Run Command](/assets/images/admin/internet-setup/proxy.png)
 
 Then restart the Peakboard-Box once to apply the changes.

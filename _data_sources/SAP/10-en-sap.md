@@ -27,30 +27,30 @@ The connection to SAP can be implemented in various ways. Which of these is best
 ## Access via “Direct RFC”
 To connect the data source to SAP, the fields Client, User Name, Password, and Language (with the usual SAP language code) must be filled in. The tab page ‘Direct RFC’ must also be activated. On this tab page, enter the SAP application server and the system number.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP01.png)
+![Sap Data Dialog](/assets/images/data-sources/sap/sap-data-dialog.png)
 
 The actual access to SAP is formulated using an XQL statement. So that you do not have to enter the XQL statement completely manually, you can insert a pattern using the template button. The following screenshot shows an instruction for a simple SAP table. Further information and examples of XQL can be found on another page.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP02.png)
+![Sap Direct RFC](/assets/images/data-sources/sap/sap-direct-rfc.png)
 
 The next steps are the Load button to load the columns or metadata and the Preview button to check the plausibility of the data.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP03.png)
+![Sap Load Columns](/assets/images/data-sources/sap/sap-load-columns.png)
 
-![image_1](/assets/images/Data_Sources/SAP/SAP04.png)
+![Sap Load Columns Preview](/assets/images/data-sources/sap/sap-load-columns-preview.png)
 
 ## Access via SAP Gateway
 
 Access is based on a gateway service that returns a list of all users currently logged in. The following screenshot shows the service in the draft view of transaction SEGW:
 
-![image_1](/assets/images/Data_Sources/SAP/SAP05.png)
+![SAP NetWeaver Gateway Service Builder](/assets/images/data-sources/sap/sap-netweaver-gateway-service-builder.png)
 
 The newly created data source requires a unique name and user name and password of the SAP system. In the SAP Gateway tab page, enter the URL of the gateway service. Then click on the small button with the three dots to load all entity sets into the selection dialog available under this service URL.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP06.png)
+![Sap Gateway Select Element](/assets/images/data-sources/sap/sap-gateway-select-element.png)
 
 As soon as you have chosen an entity, confirm with OK. Now the columns and their data types are loaded and displayed. This concludes the configuration. Check the data for plausibility by looking at it in the Preview window.
 
-![image_1](/assets/images/Data_Sources/SAP/SAP08.png)
+![SAP Gateway Dialog](/assets/images/data-sources/sap/sap-gateway-dialog.png)
 
-![image_1](/assets/images/Data_Sources/SAP/SAP09.png)
+![Sap Preview](/assets/images/data-sources/sap/sap-preview.png)
