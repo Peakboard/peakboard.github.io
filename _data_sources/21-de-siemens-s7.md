@@ -74,7 +74,7 @@ Ein solcher Befehl hat folgendes Muster:
 
 
 ```lua
-Data.[plc].setvar( ([Datenblocknummer], )[Offset], [Datentyp], [Wert] )
+data.[plc].setvar( ([Datenblocknummer], )[Offset], [Datentyp], [Wert] )
 ```
 Die Datenblocknummer wird nur benötigt, wenn auf einen Datenbaustein geschrieben werden soll und wird als Ganzzahl angegeben.
 Die Angabe des Offsets erfolgt wie im Dialog zur Variablenkonfiguration.
