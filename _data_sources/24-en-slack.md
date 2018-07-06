@@ -11,8 +11,7 @@ Slack is the tool of choice when it comes to communicating, discussing and coord
 ## Prerequisites
 
 Depending on how you want to interact with Slack, some measures are needed on its side to enable communication.
-In any case, a token is required. This token is used to link a slack account with the requests of the Peakboard. This token can be created here. The user must be logged in for this.
-https://api.slack.com/custom-integrations/legacy-tokens
+In any case, a token is required. This token is used to link a slack account with the requests of the Peakboard. This token can be created [here](https://api.slack.com/custom-integrations/legacy-tokens). The user must be logged in for this.
 With this token, both the messages are retrieved via interval-controlled request and real-time communication is authorized.
 Writing to the channel is currently only supported by WebHooks. These can be created by the administrator of the workspace in the menu. The navigation to the corresponding entry is shown in the following screenshots.
 

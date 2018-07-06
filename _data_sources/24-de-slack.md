@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: datenquellen-article
 title: Slack
 menu_title: Slack
 description: Information über Slack Daten in Peakboard
@@ -11,8 +11,7 @@ Slack ist das Tool der Wahl, wenn es darum geht, schnell und unkompliziert Aufga
 ## Voraussetzungen
 
 Abhängig davon, wie mit Slack interagiert werden soll, bedarf es auf dessen Seite einiger Maßnahmen um die Kommunikation zu ermöglichen.
-In jedem Fall wird ein Token benötigt. Dieses Token wird genutzt, um einen Slack-Account mit den Anfragen des Peakboards zu verknüpfen. Dieses Token kann hier erstellt werden. Der Nutzer muss dafür angemeldet sein.
-https://api.slack.com/custom-integrations/legacy-tokens
+In jedem Fall wird ein Token benötigt. Dieses Token wird genutzt, um einen Slack-Account mit den Anfragen des Peakboards zu verknüpfen. Dieses Token kann [hier](https://api.slack.com/custom-integrations/legacy-tokens) erstellt werden. Der Nutzer muss dafür angemeldet sein.
 Mit diesem Token werden sowohl die Nachrichten per intervalgesteuerter Anfrage abgerufen, als auch die Echtzeit-Kommunikation autorisiert.
 Das Schreiben in den Channel wird akutell ausschließlich mithilfe von WebHooks unterstützt. Diese können vom Administrator des Workspaces im Menü angelegt werden. Die Navigation zum entsprechenden Eintrag ist in folgenden Screenshots abgebildet.
 
