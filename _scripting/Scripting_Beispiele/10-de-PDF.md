@@ -29,26 +29,7 @@ screens['Screen1'].Page.text = screens['Screen1'].PDFViewer.page .. ' /  ' .. sc
 ```
 
 Zuerst wird überprüft, ob die Endseite schon erreicht wurde. Wenn dies der Fall ist, springt die Präsentation automatisch zu der vorher bestimmten Startseite.
-Wenn dies nicht der fall ist, wird der aktuellen seite eine seite hinzugefügt.
-Abschließend 
-
-```lua 
-local result = 0 
---Check the text in the plus minus button
-	
-if screens['Screen1'].PlusMinus.text == '+' then 
-	result = tonumber(screens['Screen1'].Left.text) + tonumber(screens['Screen1'].Right.text) 
-else
-	result = tonumber(screens['Screen1'].Left.text) - tonumber(screens['Screen1'].Right.text)
-end
-
--- Show the result in a dialog 
-screens['Screen1'].showdialog('Result', result)	
-
-```
-
-Dafür wird zuerst eine locale variable für das ergebnis erstellt `local result`. danach wird anhand des Texts in dem PlusMinus Button betsimmt, ob die zahlen in den beiden Textfeldern addiert oder subtrahiert werden sollen.
-Das ergebnis dieser berechnung im Skript wird dann in die locale variable 'result' geschrieben und zuletzt über `screens['Screen1'].showdialog('Result', result)` Als Pop-Up Benachrichtigung auf dem Bildschirm angezeigt
-
+Wenn dies nicht der fall ist, wird der aktuellen Seite eine Seite hinzugefügt.
+Abschließend wird die aktuelle Seite noch in ein Textfeld geschrieben. Dafür wird die aktuelle Seitenzahl über `screens['Screen1'].PDFViewer.page` ermittelt und dann noch in verbindung eines Backslashes die Gesammtseitenzahl angezeigt `screens['Screen1'].PDFViewer.pagecount`.
 
 Dieses Beispiel findet sich im Peakboard Designer unter Templates -> Scripting, oder kann über diesen [Link](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/PDF%20Viewer/PDF%20Viewer.pbmx) heruntergeladen werden.
