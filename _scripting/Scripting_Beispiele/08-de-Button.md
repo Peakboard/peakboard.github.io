@@ -6,8 +6,8 @@ description: Button Skript Beispiel
 lang: de
 ref: scr-08
 ---
-Unter dem Untermenü Input finden sich Controls, die die Möglichkeit bieten mit der Peakboard Box zu interagieren.
-Darunter auch das Button Control, dieses kann über ein einfaches Klicken einen Skript ausführen. 
+Unter dem Untermenü Input finden sich Controls, die die Möglichkeit bieten, mit der Peakboard Box zu interagieren.
+Darunter auch das Button Control, dieses kann über ein einfaches Klicken ein Skript ausführen. 
 
 ![image_1](/assets/images/scripting/Scripting_Beispiele/Controls_Input.png)
 
@@ -18,7 +18,7 @@ screens['Screen1'].Text.text = 'Hello World'
 
 ```
 
-Zu sehen ist, dass das Textfeld "Text" auf dem "Screen1", nach klicken des Buttons angesprochen wird und durch das .text am ende definiert wird, dass der Text verändert werden soll.
+Zu sehen ist, dass das Textfeld "Text" auf dem "Screen1" nach klicken des Buttons angesprochen wird und durch das .text am Ende definiert wird, dass der Text verändert werden soll.
 Der in den Anführungszeichen stehende Text wird anschließend in das Textfeld eingetragen.
 
 ![image_1](/assets/images/scripting/Scripting_Beispiele/ButtonSkript.png)

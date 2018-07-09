@@ -6,13 +6,13 @@ description: Taschenrechner Skript Beispiel
 lang: de
 ref: scr-09
 ---
-In diesem skripting Beispiel wird der Aufbau eines sehr simplen Taschenrechners erklärt, welcher addieren und subtrahieren kann.
+In diesem Skripting Beispiel wird der Aufbau eines sehr simplen Taschenrechners erklärt, welcher addieren und subtrahieren kann.
 
 
 ![image_1](/assets/images/scripting/Scripting_Beispiele/Taschenrechner.png)
 
-Dabei werden die Zahlen zum rechnen jeweils in das rechte und linke Textfeld eingetragen.
-Über den Button welcher momentan auf "+" steht, kann die Rechenart bestimmt werden:
+Dabei werden die Zahlen zum Rechnen jeweils in das rechte und linke Textfeld eingetragen.
+Über den Button, welcher momentan auf "+" steht, kann die Rechenart bestimmt werden:
 
 ```lua
 if screens['Screen1'].PlusMinus.text == '+' then 
@@ -24,7 +24,7 @@ end
 ```
 
 Dafür wird überprüft, welcher Text momentan in dem Button (welcher PlusMinus heißt) steht. Wenn der Text '+' lautet, dann wird er auf '-' gesetzt.
-Wenn der Text nicht '+' ist muss er '-' sein, deshalb wird er dann ohne zu überprüfen auf '+' gesetzt.
+Wenn der Text nicht '+' ist muss er '-' sein, deshalb wird er ohne zu überprüfen auf '+' gesetzt.
 
 Über den Button "Click me" wird die Berechnung gestartet:
 
@@ -43,7 +43,7 @@ screens['Screen1'].showdialog('Result', result)
 
 ```
 
-Dafür wird zuerst eine lokale Variable für das Ergebnis erstellt `local result`. Danach wird anhand des Texts in dem PlusMinus Button betsimmt, ob die Zahlen in den beiden Textfeldern addiert oder subtrahiert werden sollen.
+Dafür wird zuerst eine lokale Variable für das Ergebnis erstellt `local result`. Danach wird anhand des Texts in dem PlusMinus Button bestimmt, ob die Zahlen in den beiden Textfeldern addiert oder subtrahiert werden sollen.
 Das Ergebnis dieser Berechnung im Skript wird dann in die lokale Variable 'result' geschrieben und zuletzt über `screens['Screen1'].showdialog('Result', result)` als Pop-Up Benachrichtigung auf dem Bildschirm angezeigt
 
 
