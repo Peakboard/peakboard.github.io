@@ -3,7 +3,7 @@ layout: article
 title: Button Skript Example
 menu_title: Button Skript Example
 description: Button Skript Example
-lang: de
+lang: en
 ref: scr-08
 ---
 Under the sub-menu item Input you will find controls that allow you to interact with the Peakboard Box.
