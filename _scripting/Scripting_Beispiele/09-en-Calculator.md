@@ -47,4 +47,4 @@ First a local variable is created for the result `local result`. Then the PlusMi
 The result of this calculation in the script is then written to the local variable 'result' and last displayed on the screen via `screens['Screen1'].showdialog('Result', result)` As pop-up notification
 
 
-This example can be found in the Peakboard Designer under Templates -> Scripting, or can be downloaded via this[Link](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/Calculator/Calculator.pbmx).
+This example can be found in the Peakboard Designer under Templates -> Scripting, or can be downloaded via this [Link](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/Calculator/Calculator.pbmx).
