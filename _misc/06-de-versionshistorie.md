@@ -7,10 +7,10 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.23.0 (09.07.2018)
+## 1.0.23.2 (09.07.2018)
 
 * Peakboard Designer-Dialoge optimiert
-* Designer unterstützt jetzt 64 Architekturen
+* Designer unterstützt jetzt 64bit Architekturen
 * Bildschirme können jetzt kopiert und in andere Pakete eingefügt werden
 * Ressourcen können jetzt kopiert und in andere Pakete eingefügt werden
 * Neue Series im advanced Chart Control
@@ -19,10 +19,9 @@ ref: misc-06
 * Lua Sort Funktionen
 * Lua Count Disctinct Funktion
 * XQL Reports unterstützen UseBatch
-* Fix für Slack-Datenquelle
 * Fix für einen Bug, dass einige Schriftarten nicht akzeptiert wurden
 * Fix für Excel Chart Control in der Datenauswahl 
-* Fixes in der Slack-Datenquelle
+* Fix in der Slack-Datenquelle
 * Fix dass der Titel der Vorlagen nicht angezeigt wurde
 
 ## 1.0.22.0 (18.06.2018)
