@@ -4,7 +4,7 @@ title: PDF Script Example
 menu_title: PDF Script Example
 description: PDF Script Example
 lang: en
-ref: scr-09
+ref: scr-10
 ---
 In this scripting example the script for a PDF presentation that starts automatically is explained.
 
