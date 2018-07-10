@@ -7,7 +7,7 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.23.2 (09.07.2018)
+## 1.0.23.3 (09.07.2018)
 
 * Peakboard Designer-Dialoge optimiert
 * Designer unterstützt jetzt 64bit Architekturen
