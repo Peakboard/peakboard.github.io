@@ -1,17 +1,17 @@
 ---
 layout: article
-title: Button Skript Beispiel
-menu_title: Button Skript Beispiel
-description: Button Skript Beispiel
+title: Button Script Beispiel
+menu_title: Button Script Beispiel
+description: Button Script Beispiel
 lang: de
 ref: scr-08
 ---
 Unter dem Untermenü Input finden sich Controls, die die Möglichkeit bieten, mit der Peakboard Box zu interagieren.
-Darunter auch das Button Control, dieses kann über ein einfaches Klicken ein Skript ausführen. 
+Darunter auch das Button Control, dieses kann über ein einfaches Klicken ein Script ausführen. 
 
 ![image_1](/assets/images/scripting/Scripting_Beispiele/Controls_Input.png)
 
-Im folgenden wird ein Skript erklärt, welches einen Text in ein Textfeld schreibt, nachdem ein Button geklickt wurde:
+Im folgenden wird ein Script erklärt, welches einen Text in ein Textfeld schreibt, nachdem ein Button geklickt wurde:
 
 ```lua
 screens['Screen1'].Text.text = 'Hello World'

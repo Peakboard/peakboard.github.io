@@ -1,12 +1,12 @@
 ---
 layout: article
-title: Taschenrechner Skript Beispiel
-menu_title: Taschenrechner Skript Beispiel
-description: Taschenrechner Skript Beispiel
+title: Taschenrechner Script Beispiel
+menu_title: Taschenrechner Script Beispiel
+description: Taschenrechner Script Beispiel
 lang: de
 ref: scr-09
 ---
-In diesem Skripting Beispiel wird der Aufbau eines sehr simplen Taschenrechners erklärt, welcher addieren und subtrahieren kann.
+In diesem Scripting Beispiel wird der Aufbau eines sehr simplen Taschenrechners erklärt, welcher addieren und subtrahieren kann.
 
 
 ![image_1](/assets/images/scripting/Scripting_Beispiele/Taschenrechner.png)
@@ -44,7 +44,7 @@ screens['Screen1'].showdialog('Result', result)
 ```
 
 Dafür wird zuerst eine lokale Variable für das Ergebnis erstellt `local result`. Danach wird anhand des Texts in dem PlusMinus Button bestimmt, ob die Zahlen in den beiden Textfeldern addiert oder subtrahiert werden sollen.
-Das Ergebnis dieser Berechnung im Skript wird dann in die lokale Variable 'result' geschrieben und zuletzt über `screens['Screen1'].showdialog('Result', result)` als Pop-Up Benachrichtigung auf dem Bildschirm angezeigt
+Das Ergebnis dieser Berechnung im Script wird dann in die lokale Variable 'result' geschrieben und zuletzt über `screens['Screen1'].showdialog('Result', result)` als Pop-Up Benachrichtigung auf dem Bildschirm angezeigt
 
 
 Dieses Beispiel findet sich im Peakboard Designer unter Templates -> Scripting, oder kann über diesen [Link](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/Calculator/Calculator.pbmx) heruntergeladen werden.

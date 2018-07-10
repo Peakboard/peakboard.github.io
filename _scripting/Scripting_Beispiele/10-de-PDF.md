@@ -1,12 +1,12 @@
 ---
 layout: article
-title: PDF Skript Beispiel
-menu_title: PDF Skript Beispiel
-description: PDF Skript Beispiel
+title: PDF Script Beispiel
+menu_title: PDF Script Beispiel
+description: PDF Script Beispiel
 lang: de
 ref: scr-09
 ---
-In diesem Skripting Beispiel wird das Skript für eine PDF Präsentation die automatisch startet erklärt.
+In diesem Scripting Beispiel wird das Script für eine PDF Präsentation die automatisch startet erklärt.
 
 
 ![image_1](/assets/images/scripting/Scripting_Beispiele/PDF.png)
@@ -14,7 +14,7 @@ In diesem Skripting Beispiel wird das Skript für eine PDF Präsentation die aut
 Für die PDF Präsentation kann eine Start- und Endseite bestimmt werden, zwischen welchen dann die Präsentation läuft.
 Dafür werden zwei Variablen `StartPage` und `EndPage` als Datenquellen angelegt, in welche die jeweiligen Seitenzahlen eingetragen werden können.
 
-Das Skript für die Präsentation ist danach sehr einfach:
+Das Script für die Präsentation ist danach sehr einfach:
 
 ```lua
 if screens['Screen1'].PDFViewer.page >= data.EndPage then
