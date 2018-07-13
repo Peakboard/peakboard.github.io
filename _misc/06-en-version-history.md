@@ -7,6 +7,11 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.23.10 (13.07.2018)
+
+* Fix for SAP in Preview
+* Fix for Resources with Authentifizierung
+
 ## 1.0.23.3 (09.07.2018)
 
 * Peakboard Designer dialogs optimized
