@@ -4,7 +4,7 @@ title: Key Input Script Example
 menu_title: Key Input Script Example
 description: Key Input Script Example
 lang: en
-ref: scr-10
+ref: scr-11
 ---
 This scripting example explains how to use keyboard commands to control the Peakboard Box.
 

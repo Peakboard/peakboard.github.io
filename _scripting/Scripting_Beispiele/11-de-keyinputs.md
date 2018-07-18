@@ -11,7 +11,7 @@ In diesem Scripting Beispiel wird erklärt, wie Tastaturbefehle genutzt werden k
 
 ![image_1](/assets/images/scripting/Scripting_Beispiele/KeyInputs.png)
 
-Im generellen können Tastatureingaben über KeyPressed verärbeitet werden.
+Im generellen können Tastatureingaben über KeyPressed verarbeitet werden.
 Das Script welches dahinter liegt wird jedes Mal ausgeführt, wenn eine Taste auf der Tastatur geklickt wird.
 
 ```lua
