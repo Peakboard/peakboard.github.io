@@ -7,6 +7,49 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.24.1 (01.08.2018)
+
+* Supports 64 Bit Boxes
+* Speech Recognition
+* Added Video Control
+* Changes for GUIs in dialogs
+* Reworked Rectangle Control
+* Added Lua Snippets
+* Reworked Save As Dialog
+* SAP Reports can use Batch now
+* Added Icons for Drop Down Menu and Package Explorer
+* Sperated Dialog Single and Table Variables
+* Data type is shown in Tables
+* Canvas can be dragged by middle mouse button now
+* Added Advanced Chart to Live Tiles
+* Added Screencount Property to Lua
+* Log files can be deleted now
+* Reworked Error Dialogs 
+* Colorpicker Colors are sorted now by color not alphabetic anymore
+* Reworked File menu
+* Lua shownextscreen function is called showscreen now
+* Added show previous screen to Lua
+* Time datasource can be formated directly to Lua date
+* Timer default is endless now
+* Added Lua date functions like format or addday
+* Fixed Controls can be unfixed now by clicking on the pin
+* Added Shorkeys for open, save, open and show preview
+* Added feature when doubleclicking format options
+* Added Series Dialog for Advanced Chart
+* Fix for formating of new added Rows
+* Fix for zooming centering the canvas
+* Fix for first Refresh Event of variables and lists
+* Fix for Linear Gauge Fonts
+* Fix for Timeline Grid Control
+* Fix for Table Grid Control without rows and header
+* Fix for Table Grid Control when changing the source
+* Fix for Layout icons
+* Fix for Log files
+* Fix for updating global lua scripts
+* Fix for deleting activation Script
+* Fix for renaming timer scripts
+* Fix for Power BI Tile Control
+
 ## 1.0.23.10 (13.07.2018)
 
 * Fix for SAP in Preview

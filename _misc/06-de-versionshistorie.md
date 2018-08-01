@@ -7,6 +7,49 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.24.1 (01.08.2018)
+
+* Unterstützung für 64 Bit Boxen
+* Spracherkennung
+* Video Control hinzugefügt
+* Änderungen für GUIs in Dialogen
+* Rectangle Control wurde überarbeitet
+* Neue Lua Snippets hinzugefügt
+* Überarbeiteter Save As Dialog
+* SAP Reports können Batches verwenden
+* Icons für Drop Down Menü und Package Explorer hinzugefügt
+* Getrennte Dialoge für Einzel- und Tabellenvariablen
+* Datentyp wird in Tabellen angezeigt
+* Der Canvas kann nun mit der mittleren Maustaste bewegt werden
+* Advanced Chart zu den Live Tiles hinzugefügt
+* Screencount Property zu Lua hinzugefügt
+* Logdateien können jetzt gelöscht werden
+* Überarbeitete Fehlerdialoge 
+* Colorpicker Farben sind jetzt nicht mehr alphabetisch sortiert
+* Datei Menü überarbeitet
+* Lua shownextscreen Funktion heißt jetzt showscreen
+* Show Previous Screen Funktion wurde zu Lua hinzugefügt
+* Zeitdatenquelle kann direkt auf das Lua-Datum formatiert werden
+* Timer sind nun per default auf endlos
+* Lua Datumsfunktionen wie Format oder Tag hinzugefügt
+* Fixierungen von Controls können nun durch Anklicken des Pins gelöst werden
+* Shorkeys zum Öffnen, Speichern, Öffnen und Anzeigen der Vorschau hinzugefügt
+* Funktion hinzugefügt beim Doppelklick auf Formatoptionen
+* Dialog für Series des Advanced Charts hinzugefügt
+* Fix für das Formatieren von neu hinzugefügten Zeilen
+* Fix für das Zoomen des Canvas
+* Fix für erstes Refresh Event von Variablen und Listen
+* Fix für Linear Gauge Fonts
+* Fix für Timeline Grid Control
+* Fix für Table Grid Controls ohne Zeilen und Header
+* Fix für Table Grid Controls beim Ändern der Quelle
+* Fix für Layout Icons
+* Fix für Log-Dateien
+* Fix für die Aktualisierung von globalen Lua-Scripten
+* Fix für das Löschen des Activation Scripts
+* Fix für das Umbenennen von Timer Scripts
+* Fix für Power BI Tile Control
+
 ## 1.0.23.10 (13.07.2018)
 
 * Fix für SAP im Preview
@@ -41,7 +84,7 @@ ref: misc-06
 * Fix für Json-Datendialog
 * Fix für ungültigen Lizenz-Fehler
 * Fix für Datenquellennamen
-* Fix für Fehler beim Hinzufügen einer Spalte zu einer Lua-Skript-Tabelle
+* Fix für Fehler beim Hinzufügen einer Spalte zu einer Lua-Script-Tabelle
 * Fix für CSV-Datenquellenspalten
 
 ## 1.0.21.2 (13.06.2018)
@@ -77,20 +120,20 @@ ref: misc-06
 ## 1.0.20.6 (24.04.2018)
 
 * Das manuelle Update wurde umgebaut und erlaubt nun auch das Updaten mehrerer Boxen
-* Timer Skripte können nun deaktiviert werden
+* Timer Scripte können nun deaktiviert werden
 * Fix für die Formatierung einer einzeiligen Tabelle
 
 ## 1.0.19.7 (17.04.2018)
 
 * OPC UA Datenquelle ermöglicht den Zugriff auf Event Methoden
 * Peakbord IO Portal Benutzer kann nun mit Peakboard-Boxen gekoppelt werden
-* Skript Performance Updates
+* Script Performance Updates
 * Siemens S7:
   * Verbindungsstabilität verbessert
   * Alle primitiven Datentypen aller PLCs werden nun unterstützt
   * Data Validator wurde dem Designer hinzugefügt
   * Variablen können nun in Gruppen verwaltet werden (Strukturen)
-* Timer Skripte sind nun global
+* Timer Scripte sind nun global
 * Controls können animiert werden
 * Screen Animation hinzugefügt
 * Paketverschlüsselung wurde optimiert
@@ -99,7 +142,7 @@ ref: misc-06
 * Fix für Programmabsturz bei Web Controls wenn C++ Bibliotheken nicht installiert sind
 * Fix dass ein neues Paket nicht mehr modified startet
 * Fix für Toggle Switch Control, dass dieses nicht initial ein Event triggert
-* Fix für das Validieren neu angelegter Skripte
+* Fix für das Validieren neu angelegter Scripte
 * Fix für Ressourcen die in den Screens angezeigt werden
 * Fix für das Aufrufen von LUA Funktionen wenn diese klein geschrieben sind
 * Fix für das hinzufügen eines Screens ohne Titel
@@ -190,7 +233,7 @@ ref: misc-06
 
 ## 1.0.8.17 (15.12.2017)
 
-* Fix für das Ändern von Schriftarten über einen Lua-Skript
+* Fix für das Ändern von Schriftarten über einen Lua-Script
 
 ## 1.0.8.7 (27.11.2017)
 * Fix für lokale PDF Dateien
@@ -206,7 +249,7 @@ ref: misc-06
 * Excel Chart Control
 * Web Resourcen wurden hinzugefügt
 * Bridge Ressourcen wurden hinzugefügt
-* Performance Verbesserungen für Lua Skripte
+* Performance Verbesserungen für Lua Scripte
 * SAP Message-Server werden nun unterstützt
 * Lua Snippets wurden um Waiting Screen erweitert
 * SAP über Bridge wird nicht mehr unterstützt
@@ -246,7 +289,7 @@ ref: misc-06
 * Überarbeitung der Fehleranzeige im Preview
 * Neue Templates wurden hinzugefügt
 * Lua Objekte und Funktionen lassen sich nun in Kleinschrift aufrufen
-* Skriptvorschläge sind nun alle kleingeschrieben
+* Scriptvorschläge sind nun alle kleingeschrieben
 * Änderungen von IP Adressen von Peakboard Boxen werden automatisch aktualisiert
 * Fix für Excel mit sprachenabhängigen Kommazahlen
 * Fixes für Script Validierung und Script Editor
@@ -257,13 +300,13 @@ ref: misc-06
 * Abfragen in Excel Datenquellen bieten nun die Möglichkeit Bereiche zu definieren
 * Excel Dateien können nun als Ressource angelegt werden
 * Ein Wartebalken kann nun über Lua eingeblendet werden
-* Die Schriftart im Skripteditor wurde geändert
-* Doppelklick auf einen Button öffnet nun den Skripteditor
+* Die Schriftart im Scripteditor wurde geändert
+* Doppelklick auf einen Button öffnet nun den Scripteditor
 * Datenänderungen die Änderungen in Controls nach sich ziehen kann nun deaktiviert werden
 * Weitere Templates wurden hinzugefügt
 * Dropbox API V.1 Verwendung durch V.2 ersetzt
 * Fix für Globale Lua Funktionen
-* Fix für den Validator in Globalen Lua Skripten
+* Fix für den Validator in Globalen Lua Scripten
 
 ## 1.0.3.1 (22.09.2017)
 
@@ -298,7 +341,7 @@ ref: misc-06
 * Werte von Gauges können nun ausgeblendet werden
 * Unnötige Einstellungen in den Gauges wurden entfernt
 * Nummern werden nun unabhängig der Sprache des Betriebssystems dargestellt
-* Skripte können nun direkt über die rechte Maustaste auf Resources hinzugefügt werden
+* Scripte können nun direkt über die rechte Maustaste auf Resources hinzugefügt werden
 * Variablen heißen nun „Variables“ und nicht mehr „General Data“
 * Überarbeitung einiger Dialoge
 * .NET Core Runtime V1.0 wurde auf V1.1 erhöht
