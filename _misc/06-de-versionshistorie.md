@@ -7,7 +7,7 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.24.0 (01.08.2018)
+## 1.0.24.1 (01.08.2018)
 
 * Unterstützung für 64 Bit Boxen
 * Spracherkennung
