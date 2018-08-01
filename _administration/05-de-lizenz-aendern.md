@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Lizenz Ändern
-menu_title:  Lizenz Ändern
-description:  Lizenz Ändern
+title: Lizenz ändern
+menu_title:  Lizenz ändern
+description:  Lizenz ändern
 lang: de
 ref: admin-07
 ---
