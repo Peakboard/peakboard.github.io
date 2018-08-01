@@ -22,11 +22,11 @@ Hier nochmal für alle, die das Beispiel nachbauen wollen, der Originalcode. Mit
 local json = '['
 
 for j = 1, math.random(2, 4) do
- for i = 10, math.random(10, 15) do
- local r = math.random(10, 70)
- json = json .. '{ MATNR: "1000' .. i .. '", QUANT: ' .. r .. ', QUNTS: "' .. r.. '" }, '
- end
+    for i = 10, math.random(10, 15) do
+        local r = math.random(10, 70)
+        json = json .. '{ MATNR: "1000' .. i .. '", QUANT: ' .. r .. ', QUNTS: "' .. r .. '" }, '
+    end
 end
 
-return string.sub(json, 1, -3).. ']
+return string.sub(json, 1, -3).. ']'
 ```
