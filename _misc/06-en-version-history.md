@@ -7,6 +7,9 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.24.2 (06.08.2018)
+* Hotfix for feed data source
+
 ## 1.0.24.1 (01.08.2018)
 
 * Supports 64 Bit Boxes
