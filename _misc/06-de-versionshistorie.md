@@ -7,7 +7,8 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.24.4 (06.08.2018)
+## 1.0.24.5 (06.08.2018)
+
 * Hotfix für die Feed-Datenquelle
 
 ## 1.0.24.1 (01.08.2018)
@@ -27,7 +28,7 @@ ref: misc-06
 * Advanced Chart zu den Live Tiles hinzugefügt
 * Screencount Property zu Lua hinzugefügt
 * Logdateien können jetzt gelöscht werden
-* Überarbeitete Fehlerdialoge 
+* Überarbeitete Fehlerdialoge
 * Colorpicker Farben sind jetzt nicht mehr alphabetisch sortiert
 * Datei Menü überarbeitet
 * Lua shownextscreen Funktion heißt jetzt showscreen
