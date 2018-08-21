@@ -7,6 +7,19 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.25.0 (21.08.2018)
+
+* Dataflows hinzugefügt
+* Schatten, Titel und Untertitel zu den Controls hinzugefügt
+* Neues Retro Flipper Control
+* UI Rework für einige Dialoge
+* Azure SQL wurde durch SQL Server-Datenquelle ersetzt
+* Fix für Siemens S7 Datenquelle mit Einzelbit
+* Fix für Siemens S7 Dialog
+* Fix for Error messages Dialog
+* Fix für manche 4k Displays
+* Fixes für Lua Datum Snippets
+
 ## 1.0.24.5 (06.08.2018)
 
 * Hotfix für die Feed-Datenquelle
