@@ -7,6 +7,10 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.25.1 (22.08.2018)
+
+* Hotfix for Rectangle Controls when updating from 1.0.24.5
+
 ## 1.0.25.0 (21.08.2018)
 
 * Dataflows added
