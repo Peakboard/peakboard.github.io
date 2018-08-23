@@ -20,7 +20,7 @@ plugins:
 tipue_search:
   include:
     pages: true
-    collections: [tutorials, video_tutorials,data_sources,controls,misc,administration,peakboardio]
+    collections: [tutorials, video_tutorials,data_sources,dataflows,controls,misc,administration,peakboardio]
 
 collections:
   tutorials:
@@ -46,11 +46,19 @@ collections:
     title:
       en: "Data Sources"
       de: "Datenquellen"
+      
+  dataflows:
+    output: true
+    icon: database.svg
+    position: 3
+    title:
+      en: "Dataflows"
+      de: "Dataflows"
 
   controls:
     output: true
     icon: parameters-v.svg
-    position: 3
+    position: 4
     title:
       en: "Controls"
       de: "Controls"
@@ -58,7 +66,7 @@ collections:
   misc:
     output: true
     icon: plus-c.svg
-    position: 4
+    position: 5
     title:
       en: "Misc"
       de: "Misc"
@@ -66,7 +74,7 @@ collections:
   administration:
     output: true
     icon: id-card.svg
-    position: 5
+    position: 6
     title:
       en: "Administration"
       de: "Administration"
@@ -74,7 +82,7 @@ collections:
   scripting:
     output: true
     icon: browser.svg
-    position: 6
+    position: 7
     title:
       en: "Scripting"
       de: "Scripting"
@@ -82,7 +90,7 @@ collections:
   peakboardio:
     output: true
     icon: star.svg
-    position: 7
+    position: 8
     title:
       en: "Peakboard.io"
       de: "Peakboard.io"
