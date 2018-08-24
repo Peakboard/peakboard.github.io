@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: Daten filtern
 menu_title: Daten filtern
@@ -10,5 +10,5 @@ Der Dataflow-Schritt "Filter" stellt ein mächtiges Werkzeug dar, um nicht benö
 
 Die Logik funktioniert mit einem Lua-Ausdruck wie beim Create Colum Schritt. Nur der Rückgabewert ändert sich. Liefert der Ausdruck "false" zurück, wird die Zeile gelöscht, liefert er "true" bleibt sie enthalten. Das folgende Beispiel zeigt, wie alle Zeilen gelöscht werden, die in der Spalte City den Wert "N/A" enthalten.
 
-![Replace Column](/assets/images/dataflows/dataflows-filter01.png)
+![Filer Column](/assets/images/dataflows/dataflows-filter01.png)
 
