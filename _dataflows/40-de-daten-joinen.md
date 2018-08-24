@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Daten miteinander verknüpfen
-menu_title: Daten miteinander verknüpfen
-description: Daten miteinander verknüpfen
+title: Daten miteinander verknüpfen (Joins)
+menu_title: Daten miteinander verknüpfen (Joins)
+description: Daten miteinander verknüpfen (Joins)
 lang: de
 ref: flow-40
 ---
