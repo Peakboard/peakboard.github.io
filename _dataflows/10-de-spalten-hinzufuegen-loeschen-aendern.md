@@ -10,7 +10,7 @@ Dieser Abschnitt beschreibt die Schritte zum Erzeugen neuer Spalten, Löschen un
 
 ## Add Column - Eine neue Spalte hinzufügen
 
-Mit Add Column wird eine neue Spalte hinzugefügt. Mit welchem Inhalt genau die neue Spalte gefüllt wird entscheidet ein Lua-Ausdruck, der in das Texxtfeld geschrieben wird. Jeder gültige Lua-Ausdruck muss der Wert mit return zurückgeben. Für einen festen Wert könnte zum Beispiel einfach return "Hallo" angeben. Im nachfolgenden Beispiel wird eine neue Spalte mit Name TopCustomer angelegt. Je nach dem, ob in der Daten in der Spalte Umsatz ein Wert größe 10 entahlten, ist gibt der Ausdruck "Ja" zurück, ansonsten "Nein".
+Mit Add Column wird eine neue Spalte hinzugefügt. Mit welchem Inhalt genau die neue Spalte gefüllt wird entscheidet ein Lua-Ausdruck, der in das Texxtfeld geschrieben wird. Jeder gültige Lua-Ausdruck muss der Wert mit return zurückgeben. Für einen festen Wert könnte zum Beispiel einfach return "Hallo" angeben. Im nachfolgenden Beispiel wird eine neue Spalte mit Name TopCustomer angelegt. Je nach dem, ob in der Daten in der Spalte Umsatz ein Wert größer 10 enthalten ist, gibt der Ausdruck "Ja" zurück, ansonsten "Nein".
 
 ![Add Column](/assets/images/dataflows/dataflows-add-column01.png)
 

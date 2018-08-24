@@ -1,62 +1,62 @@
 ---
 layout: article
-title: Spalten hinzufügen, löschen und ändern
-menu_title: Spalten hinzufügen, löschen und ändern
-description: Spalten hinzufügen, löschen und ändern
+title: Add, Delete and Change Columns
+menu_title: Add, Delete and Change Columns
+description: Add, Delete and Change Columns
 lang: en
 ref: flow-10
 ---
-Dieser Abschnitt beschreibt die Schritte zum Erzeugen neuer Spalten, Löschen und Ändern der Metadaten (wie zum Beispiel der Datentyp).
+This section describes the steps for creating new columns, deleting and changing metadata (such as the data type).
 
-## Add Column - Eine neue Spalte hinzufügen
+## Add Column - Adds a new column
 
-Mit Add Column wird eine neue Spalte hinzugefügt. Mit welchem Inhalt genau die neue Spalte gefüllt wird entscheidet ein Lua-Ausdruck, der in das Texxtfeld geschrieben wird. Jeder gültige Lua-Ausdruck muss der Wert mit return zurückgeben. Für einen festen Wert könnte zum Beispiel einfach return "Hallo" angeben. Im nachfolgenden Beispiel wird eine neue Spalte mit Name TopCustomer angelegt. Je nach dem, ob in der Daten in der Spalte Umsatz ein Wert größe 10 entahlten, ist gibt der Ausdruck "Ja" zurück, ansonsten "Nein".
+Add Column adds a new column. A Lua expression, which is written into the text field, decides with which content exactly the new column is filled. Any valid Lua expression must return the value with *return*. For a fixed value, for example, simply return "Hello". In the following example, a new column named *TopCustomer* is created. Depending on whether the data in the Sales column contains a value of greater than 10, the expression returns "Yes", otherwise "No".
 
 ![Add Column](/assets/images/dataflows/dataflows-add-column01.png)
 
-Mit dem Validate-Button kann die Gültigkeit des Scripts überprüft werden. In der Voransicht ist die neue Spalte sofort sichtbar. Die Logik zur Bildung wird ebenfalls direkt ausgeführt.
+Use the Validate button to check the validity of the script. The new column is immediately visible in the preview. The creation logic is also executed directly.
 
 ![Add Column](/assets/images/dataflows/dataflows-add-column02.png)
 
-Es ist zu beachten, dass die Lua-Ausdrücke praktisch beliebig kompliziert werden können. Alle anderen Daten-Artefakte stehen im Script zur Verfügung, z.B. andere Datenquelle oder Variablen.
+Note that the Lua expressions can become very complicated. All other data artifacts are available in the script, e.g. other data sources or variables.
 
-## Add Lookup Column - Ein neue Spalte mit Verweise auf eine andere Datenquelle hinzufügen
+## Add Lookup Column - Add a new column with references to another data source
 
-Mit Add Lookup Column wird eine neue Spalte hinzugefügt, die aus einer anderen Datenquelle stammt. Das folgende Beispiel zeigt das Prinzip. Basiswert ist die Spalte Kunde, die den Kundennamen enthält. Der Lookup ist so konfiguriert, dass dieser Wert mit der Spalte einer anderen Datenquelle verglichen wird (Lookup Data Source und Look Up Target Column). Wird eine passende Zeile gefunden, wird der Inhalt der Spalte Lookup Return Column zurückgegeben.
+Add Lookup Column adds a new column from another data source. The following example shows the principle. The base value is the column *Customer*, which contains the customer name. The lookup is configured to compare this value with the column of another data source (Lookup Data Source and Look Up Target Column). If a suitable row is found, the content of the Lookup Return Column is returned.
 
 ![Add Lookup Columns](/assets/images/dataflows/dataflows-add-lookup-column01.png)
 
-Das folgende Bild zeigt das Ergebnis. Für jeden Kunden in der Transaktionstabelle wird der Wohnort aus der Datenquelle "kunden" herausgesucht. Es ist zu beachten, dass die Spalte einfach leerbleibt, wenn für einen Eintrag kein Wert gefunden werden kann. So lässt sich problemlos auch einmal die Anforderung realisieren, um Daten zu finden, die gerade KEINE Entsprechung in einer anderen Datenquelle haben. Man müsste in so einer Konstelletion dann einfach nur alle Zeile rausfiltern, die in der ergänzenden Spalte leer sind.
+The following picture shows the result. For each customer in the transaction table, the city is selected from the data source "customers". Note that the column simply remains empty if no value can be found for an entry. In this way, the requirement can be easily implemented to find data that does not have any equivalent in another data source. One would then simply have to filter out all lines in such a constellation that are empty in the newly generated column.
 
 ![Add Lookup Columns](/assets/images/dataflows/dataflows-add-lookup-column02.png)
 
-## Remove Columns - Spalten löschen
+## Remove Columns - Deletes columns
 
-Dieser Schritt ist im wesentlichen selbsterklärend. Alle angekreuzten Spalten werden entfernt und ab sofort nicht mehr angezeigt. Es sei an dieser Stelle allen Benutzern empfohlen, konsequent alle nicht benötigten Spalten zu eliminieren. Das macht die Datenflüsse und das ganze Board einfacher und schlanker.
+This step is self-explanatory. All selected columns are removed and no longer displayed. It is recommended that all users consistently eliminate all columns that are not required. This makes the data flows and the whole board simpler and leaner.
 
 ![Remove Columns](/assets/images/dataflows/dataflows-remove-column01.png)
 
-## Rename Columns - Spalten umbennen
+## Rename Columns
 
-Die Bedienung ist selbsterklärend. Nutzen Sie diesen Schritt um den Inhalt der Spalten so präzise wie möglich zu beschreiben. Oft kommen die Spalten schlecht benannt aus der Datenquelle (z.B. aus SAP). Benutzen Sie keine Unterstriche, denn sie sind hässlich. Benutzen Sie statt dessen lieber eine klassische Camel-Case-Notation mit Groß-/Kleinschreibung, z.B. MaxCustomerRevenue, MinCustomerRevenue, etc...
+The operation is self-explanatory. Use this step to describe the contents of the columns as precisely as possible. The columns often come with bad names from the data source (for example, from SAP). Don't use underscores, because they're ugly. Instead, use a classic case-sensitive camel case notation, e.g. MaxCustomerRevenue, MinCustomerRevenue, etc...
 
 ![Reorder Columns](/assets/images/dataflows/dataflows-rename-column01.png)
 
-## Reorder Columns - Spalten umarrangieren
+## Reorder Columns
 
-Mit Hilfe dieses Schritts können sie die Reihenfolge der Spalten ändern, um besser die Übersicht zu behalten. Nutzen Sie dieses Feature um Wichtiges von Unwichtigem zu trennen. Die Bedienung des Dialogs ist selbsterklärend.
+You can use this step to change the order of the columns to improve clarity. Use this feature to separate the important from the unimportant. The operation of the dialog is self-explanatory.
 
 ![Reorder Columns](/assets/images/dataflows/dataflows-reorder-column01.png)
 
-## Change data Type - Datentyp ändern
+## Change data Type
 
-Mit Hilfe dieses Schritts können Sie die den Datentyp einer Spalte ändern. Typische Szenario für diesen Vorgang sind Zahlen, die als Zeichenfolge importiert werden, aber in echte numerische Typen umgewandelt werden, damit sie zum Beispiel in Aggregationen oder in Charts verwendet werden können.
+You can use this step to change the data type of a column. Typical scenarios for this process are numbers that are imported as a character string but converted into real numeric types so that they can be used in aggregations or charts, for example.
 
 ![Change Data Type](/assets/images/dataflows/dataflows-change-datatype01.png)
 
-## Sort Columns - Daten sortieren
+## Sort Columns
 
-Mit Hilfe dieses Schritts können Sie die Reihenfolge der Zeilen ändern. Es ist möglich, nach mehreren Spalten zu sortieren. Der Dialog ist selbsterklärend.
+You can use this step to change the order of the data rows. It is possible to sort by several columns. The dialogue is self-explanatory.
 
 ![Reorder Columns](/assets/images/dataflows/dataflows-sort-column01.png)
 
