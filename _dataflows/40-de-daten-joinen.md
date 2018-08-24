@@ -12,7 +12,7 @@ Das folgende Beispiel zeigt das Hinzufügen einer zusätzlichen Tabelle mit Name
 
 ![Join Data](/assets/images/dataflows/dataflows-join01.png)
 
-Der Join Type definiert, nach welcher Logik die beiden Tabellen verknüpft werden. AUch hier orientieren wir uns an den üblichen Begriffen relationaler Zusammenhänge:
+Der Join Type definiert, nach welcher Logik die beiden Tabellen verknüpft werden. Auch hier orientieren wir uns an den üblichen Begriffen relationaler Zusammenhänge:
 
 ### Inner Join
 
