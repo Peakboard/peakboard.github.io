@@ -21,6 +21,6 @@ Im unteren Bereich werden die Aggregationsfunktionen definiert. Das besteht in d
 
 Das Beispiel liefert uns also pro Material und Kunde jeweils die Summe aller verkauften Artikel, sowie den kleinsten und größten Umsatz der mit der jeweiligen Material/Kunden-Kombination in einer Einzeltransaktion gemacht wurde.
 
-![Join Data](/assets/images/dataflows/dataflows-join01.png)
+![Join Data](/assets/images/dataflows/dataflows-join02.png)
 
 Achtung!! Es ist natürlich legitim, auch keine Gruppe anzugeben. In diesem Fall bekommen sie genau eine Zeile zurück, die jeweils die Aggregation komplett über alle Daten enthält. Genauso ist es legitim, keine Aggregationsfunktion anzugeben. In diesem Fall erhalten Sie einfach nur die eindeutigen Kombinationen aus allen Elementen der gewählten Gruppe. Beide Fälle können in der Praxis Sinn ergeben.
