@@ -3,7 +3,7 @@ layout: article
 title: Spalten hinzufügen, löschen und ändern
 menu_title: Spalten hinzufügen, löschen und ändern
 description: Spalten hinzufügen, löschen und ändern
-lang: de
+lang: en
 ref: flow-10
 ---
 Dieser Abschnitt beschreibt die Schritte zum Erzeugen neuer Spalten, Löschen und Ändern der Metadaten (wie zum Beispiel der Datentyp).
