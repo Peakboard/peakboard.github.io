@@ -1,4 +1,4 @@
----
+﻿---
 layout: article
 title: Spalten hinzufügen, löschen und ändern
 menu_title: Spalten hinzufügen, löschen und ändern
@@ -47,5 +47,19 @@ Die Bedienung ist selbsterklärend. Nutzen Sie diesen Schritt um den Inhalt der 
 Mit Hilfe dieses Schritts können sie die Reihenfolge der Spalten ändern, um besser die Übersicht zu behalten. Nutzen Sie dieses Feature um Wichtiges von Unwichtigem zu trennen. Die Bedienung des Dialogs ist selbsterklärend.
 
 ![Reorder Columns](/assets/images/dataflows/dataflows-reorder-column01.png)
+
+## Change data Type - Datentyp ändern
+
+Mit Hilfe dieses Schritts können Sie die den Datentyp einer Spalte ändern. Typische Szenario für diesen Vorgang sind Zahlen, die als Zeichenfolge importiert werden, aber in echte numerische Typen umgewandelt werden, damit sie zum Beispiel in Aggregationen oder in Charts verwendet werden können.
+
+![Change Data Type](/assets/images/dataflows/dataflows-change-datatype01.png)
+
+## Sort Columns - Daten sortieren
+
+Mit Hilfe dieses Schritts können Sie die Reihenfolge der Zeilen ändern. Es ist möglich, nach mehreren Spalten zu sortieren. Der Dialog ist selbsterklärend.
+
+![Reorder Columns](/assets/images/dataflows/dataflows-sort-column01.png)
+
+
 
 
