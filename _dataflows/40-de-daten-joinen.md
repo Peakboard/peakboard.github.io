@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: Daten miteinander verknüpfen
 menu_title: Daten miteinander verknüpfen
