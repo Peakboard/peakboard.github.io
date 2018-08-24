@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: Spalten hinzufügen, löschen und ändern
 menu_title: Spalten hinzufügen, löschen und ändern
