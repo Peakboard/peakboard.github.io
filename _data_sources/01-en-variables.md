@@ -12,14 +12,21 @@ Usually, the term “data source” means that data is retrieved from any previo
 
 2.Static data sources are used as containers to send push messages from the outside to the Peakboard-Box. For example, you could build a static table for error messages. A machine that falls into an error state pushes the error information into this static container. All connected controls then react automatically. An example of this can be found at [here.](/misc/02-en-push-messages.html)
 
-To create a static data source, proceed as for all [other data sources.](/tutorials/03-en-xml-data.html) Simply select “Add General Data” in the Designer. A static data source can be either a value (Single) or a table. The following screenshot shows the maintenance of a single value. The data types String, Number and Boolean are supported.
+To create a static data source, proceed as with all other data sources (/tutorials/03-en-xml-daten.html). You can create either a single value or a table.
 
- ![image_1](/assets/images/data-sources/static-data/add-data-dialog.png)
+![Add Static Data](/assets/images/data-sources/static-data/add-data-dialog.png)
 
-Static data sources of type List are tables. The columns must first be defined here. The following example shows a table with two columns: Code and Message, each of type String.
+## Maintain variable for single value
 
-![image_1](/assets/images/data-sources/static-data/edit-list-data.png)
+Besides the name and the data type (String, Number or Boolean), a default value can be specified. The option *Save on Box* allows to save the value later on the Peakboard box after a restart of the board. If this option is not selected, the value is reset to the default value after the restart.
 
-Once the columns have been defined, the table can be filled with data. The following example shows how to add new entries to the table:
+![Add Static Data](/assets/images/data-sources/static-data/static-single-variable.png)
 
-![image_1](/assets/images/data-sources/static-data/code-error-machine-is-broken.png)
+## Maintain static tables
+
+To store table-like data statically, you must jump to maintenance in the corresponding dialog using the Edit button. In the lower area, you can create new columns for the table or delete them again. To maintain the data content, simply click in the corresponding table cell. To delete a table row, press the Delete key without placing the cursor in a cell, so that only the row is selected.
+The option *Save on Box* is also available for the tables to persist the data on the box beyond the next boot process.
+
+![Add Static Data](/assets/images/data-sources/static-data/static-table-variable.png)
+
+
