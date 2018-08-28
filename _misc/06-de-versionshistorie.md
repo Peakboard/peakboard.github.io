@@ -7,7 +7,7 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.25.1 (06.08.2018)
+## 1.0.25.1 (22.08.2018)
 
 * Hotfix für Rectangle Controls beim Update von 1.0.24.5
 
