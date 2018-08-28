@@ -7,6 +7,17 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.26.2 (28.08.2018)
+
+* Ausgelieferte Templates wurden aktuallisiert
+* Background Templates wurden entfernt
+* Dataflows von beta released
+* Union wurden Dataflows hinzugefügt
+* CSV Trennzeichen kann nun \t für Tab sein
+* Preview Panel kann jetzt durch Drücken von Strg + p deaktiviert werden
+* Fix für Absturz des Designers beim Öffnen falscher Dateien
+* Fix für das Laden von SAP Vorschaudaten im Designer
+
 ## 1.0.25.1 (22.08.2018)
 
 * Hotfix für Rectangle Controls beim Update von 1.0.24.5
