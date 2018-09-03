@@ -6,7 +6,7 @@ description: Dataflows - Getting started
 lang: en
 ref: flow-01
 ---
-In peakboard, data sources are responsible for data collection. They communicate with all types of source systems and deliver the data (with a few exceptions) in the form of a table. Either you access this table-like data from the controls and display it directly or you use a script that prepares the data. Examples can be found [here](../scripting/03-en-tabellen-daten.html) or [here](https://help.peakboard.com/scripting/04-de-manipulieren.html). The data flows discussed in this section can be used to to do a wide variety of data transformation in a way that requires little or no knowledge of scripting. Typical things you do with dataflows are
+In peakboard, data sources are responsible for data collection. They communicate with all types of source systems and deliver the data (with a few exceptions) in the form of a table. Either you access this table-like data from the controls and display it directly or you use a script that prepares the data. Examples can be found [here](../scripting/03-en-table-data.html) or [here](../scripting/04-en-manipulating-table-data.html). The data flows discussed in this section can be used to to do a wide variety of data transformation in a way that requires little or no knowledge of scripting. Typical things you do with dataflows are
 
 * Name columns cleanly and delete columns that are not required
 * Adjust data types

@@ -13,6 +13,4 @@ Das Control Textblock ist dazu gedacht, einzelne Texte darzustellen oder irgende
 
 [Verwalten von Schriftarten mit dem Font-Manager](/misc/04-de-fonts.html)
 
-[Scripte in dynamischen Eigenschaften](/scripting/02-de-dynamischen-eigenschaften.html)
-
 [Formatieren von Werten](/misc/03-de-formatieren-von-Werten.html)
