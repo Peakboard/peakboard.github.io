@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.26.9 (07.09.2018)
+
+* Hotfix für die JSON-Datenquelle
+
 ## 1.0.26.2 (28.08.2018)
 
 * Ausgelieferte Templates wurden aktuallisiert
