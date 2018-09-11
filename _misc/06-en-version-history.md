@@ -7,6 +7,19 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.27.0 (11.09.2018)
+
+* Added Proxy Authentication
+* PDF Viewer can be used interactive now on a touchscreen
+* Webbrowser supports PDF files now
+* Added Voice Global Event
+* Optimized Title Spacing
+* Optimizatizons for OPC UA datasource
+* Optimizatizons and fixes for Dataflows
+* Changed Bridge default Log Level
+* Added more languages for time datasource
+* Fix for Title/ Subtitle Binding
+
 ## 1.0.26.2 (28.08.2018)
 
 * Updated delivered Templates
