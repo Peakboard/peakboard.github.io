@@ -13,6 +13,4 @@ The Control Textblock is intended to display individual texts or to label someth
 
 [Managing font formats with Font Manager](/misc/05-en-custom-fonts.html)
 
-[Scripts in dynamic properties](/scripting/02-en-dynamic-properties.html)
-
 [Formatting Values](/misc/03-en-formating-values.html)

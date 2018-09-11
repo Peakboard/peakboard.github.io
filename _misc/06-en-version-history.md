@@ -22,6 +22,10 @@ ref: misc-06
 
 ## 1.0.26.2 (28.08.2018)
 
+* Hotfix for JSON datasource
+
+## 1.0.26.2 (28.08.2018)
+
 * Updated delivered Templates
 * Removed background Templates 
 * Released dataflows from beta
