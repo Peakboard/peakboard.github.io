@@ -1,7 +1,7 @@
 ---
 layout: video_article
 lang: de
-ref: vid-14
+ref: vid-22
 title: Peakboard Visualisierungen sauber designen
 youtube_id: wv6X7oxWr8M
 ---
