@@ -2,7 +2,7 @@
 layout: video_article
 lang: de
 ref: vid-25
-title: Peakboard Scripting: Screenwechsel
+title: Screenwechsel
 youtube_id: JSAzZgsJd7c
 ---
 
