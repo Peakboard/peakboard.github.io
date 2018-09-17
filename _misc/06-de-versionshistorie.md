@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.27.10 (14.09.2018)
+
+* Hotfix für PDF Control
+
 ## 1.0.27.0 (11.09.2018)
 
 * Proxy-Authentifizierung hinzugefügt
