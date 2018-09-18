@@ -1,7 +1,7 @@
 ---
 layout: video_article
 lang: de
-ref: vid-16
+ref: vid-23
 title: Empfangsbildschirm mit Peakboard IO Tables erstellen
 youtube_id: HVdGqdGJvKQ
 ---

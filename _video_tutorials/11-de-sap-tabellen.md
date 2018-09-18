@@ -1,8 +1,8 @@
 ---
 layout: video_article
 lang: de
-ref: vid-15
-title: SAP Live-Daten blitzschnell auf einem Display darstellen
+ref: vid-11
+title: SAP Tabellen visualisieren
 youtube_id: Tt_4J9SnAHo
 ---
 

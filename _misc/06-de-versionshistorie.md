@@ -12,6 +12,23 @@ ref: misc-06
 * Fix für ein Problem, bei dem die Spracherkennung beim Deployment erst nach einem Neustart der Box startete
 * Fix eines Fehlers, welcher bei der Installation der Runtime auf Windows Server 2016 auftrat
 
+## 1.0.27.10 (14.09.2018)
+
+* Hotfix für PDF Control
+
+## 1.0.27.0 (11.09.2018)
+
+* Proxy-Authentifizierung hinzugefügt
+* PDF Viewer kann jetzt interaktiv auf einem Touchscreen verwendet werden
+* Webbrowser unterstützt jetzt PDF-Dateien
+* Globales Voice Event hinzugefügt
+* Optimierung für Titelabstand
+* Optimierungen für die OPC UA Datenquelle
+* Optimierungen und Korrekturen für Dataflows
+* Bridge Standard Log Level wurde geändert
+* Weitere Sprachen für Zeitdatenquellen hinzugefügt
+* Fix für Titel-/ Untertitel Binding
+
 ## 1.0.26.9 (07.09.2018)
 
 * Hotfix für die JSON-Datenquelle

@@ -12,6 +12,23 @@ ref: misc-06
 * Fixed a problem, where the Peakboard box had to do a reboot to active speech recognition after deployment
 * Fixed a bug, which occured during runtime installation on Windows Server 2016
 
+## 1.0.27.10 (14.09.2018)
+
+* Hotfix for PDF Control
+
+## 1.0.27.0 (11.09.2018)
+
+* Added Proxy Authentication
+* PDF Viewer can be used interactive now on a touchscreen
+* Webbrowser supports PDF files now
+* Added Voice Global Event
+* Optimized Title Spacing
+* Optimizatizons for OPC UA datasource
+* Optimizatizons and fixes for Dataflows
+* Changed Bridge default Log Level
+* Added more languages for time datasource
+* Fix for Title/ Subtitle Binding
+
 ## 1.0.26.9 (07.09.2018)
 
 * Hotfix for JSON datasource
