@@ -7,6 +7,11 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.27.17 (18.09.2018)
+
+* Fix für ein Problem, bei dem die Spracherkennung beim Deployment erst nach einem Neustart der Box startete
+* Fix eines Fehlers, welcher bei der Installation der Runtime auf Windows Server 2016 auftrat
+
 ## 1.0.26.9 (07.09.2018)
 
 * Hotfix für die JSON-Datenquelle

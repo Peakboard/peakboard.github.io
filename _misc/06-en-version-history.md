@@ -7,6 +7,11 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.27.17 (18.09.2018)
+
+* Fixed a problem, where the Peakboard box had to do a reboot to active speech recognition after deployment
+* Fixed a bug, which occured during runtime installation on Windows Server 2016
+
 ## 1.0.26.9 (07.09.2018)
 
 * Hotfix for JSON datasource
