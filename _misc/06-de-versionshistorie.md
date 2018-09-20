@@ -7,6 +7,11 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.27.19 (20.09.2018)
+
+* Die Standardsprache für die Spracherkennung wurde angepasst.
+* Ein Fehler in der Rückwärtskompatibilität der Spracherkennung wurde behoben
+
 ## 1.0.27.17 (18.09.2018)
 
 * Fix für ein Problem, bei dem die Spracherkennung beim Deployment erst nach einem Neustart der Box startete

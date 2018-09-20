@@ -7,6 +7,11 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.27.19 (20.09.2018)
+
+* Changed default language of speech recognition
+* Fix bug in backward compatiblity of speech recognition
+
 ## 1.0.27.17 (18.09.2018)
 
 * Fixed a problem, where the Peakboard box had to do a reboot to active speech recognition after deployment
