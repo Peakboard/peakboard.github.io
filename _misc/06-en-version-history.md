@@ -10,7 +10,7 @@ ref: misc-06
 ## 1.0.27.27 (20.09.2018)
 
 * Changed default language of speech recognition
-* Fix bug in backward compatiblity of speech recognition
+* Fixed bug in backward compatiblity of speech recognition
 
 ## 1.0.27.17 (18.09.2018)
 
