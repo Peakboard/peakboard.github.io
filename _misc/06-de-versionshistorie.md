@@ -7,7 +7,7 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.27.19 (20.09.2018)
+## 1.0.27.27 (20.09.2018)
 
 * Die Standardsprache für die Spracherkennung wurde angepasst.
 * Ein Fehler in der Rückwärtskompatibilität der Spracherkennung wurde behoben
