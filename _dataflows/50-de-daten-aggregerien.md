@@ -6,9 +6,9 @@ description: Daten aggregieren und verdichten
 lang: de
 ref: flow-50
 ---
-Daten zu aggregieren (bzw. zu verdichten, was dasselbe ist) ist ein absolut gängiger Anwendungsfall bei der Datenaufbereitung. Ein typisches Beispiele wären Verkaufdaten mit einzelnen Transaktionen. Die sind aber einzeln langweilig. Was den Betrachter später interessiert sind einzelne, komprimierte Zahlen wie der gesamte Umsatz über alle Transaktionen oder die drei umsatzstärksten Kunden. Genau solche Verdichtungen kann man mit dem Aggregate-Schritt machen.
-Der folgende Dialog zeigt ein typisches Beispiel. Im oberen Bereich werden ein oder mehrere Aggregationsgruppen angeklickt. Das ist die Ebene, auf der Aggregation erfolgen soll. Im Beispiel sind das die Spalten Material und Kunde. Wir werden später also Kennzahlen auf der Ebene von allen Kunde/Material-Kombinationen erhalten. Jede Kombination aus Kunde und Material ist im Ergebnis eindeutig.
-Im unteren Bereich werden die Aggregationsfunktionen definiert. Das besteht in der Regel aus einer Mathematischen Funktion und einer numerischen Spalte. Folgende Funktionen sind möglich: 
+Daten zu aggregieren (bzw. zu verdichten, was dasselbe ist) ist ein absolut gängiger Anwendungsfall bei der Datenaufbereitung. Typische Beispiele sind Verkaufsdaten mit einzelnen Transaktionen. Die sind aber einzeln langweilig. Was den Betrachter später interessiert sind einzelne, komprimierte Zahlen wie der gesamte Umsatz über alle Transaktionen oder die drei umsatzstärksten Kunden. Genau solche Verdichtungen kann man mit dem Aggregate-Schritt machen.
+Der folgende Dialog zeigt ein typisches Beispiel. Im oberen Bereich werden ein oder mehrere Aggregationsgruppen angeklickt. Das ist die Ebene, auf der die Aggregation erfolgen soll. Im Beispiel sind das die Spalten Material und Kunde. Wir werden später also Kennzahlen auf der Ebene von allen Kunde/Material-Kombinationen erhalten. Jede Kombination aus Kunde und Material ist im Ergebnis eindeutig.
+Im unteren Bereich werden die Aggregationsfunktionen definiert. Das besteht in der Regel aus einer mathematischen Funktion und einer numerischen Spalte. Folgende Funktionen sind möglich:
 
 * Min liefert den kleinsten Wert innerhalb der Aggregationsgruppe
 * Max liefert den größten Wert innerhalb der Aggregationsgruppe

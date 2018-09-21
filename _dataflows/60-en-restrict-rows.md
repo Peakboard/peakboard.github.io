@@ -12,7 +12,7 @@ There are three different steps to limit the number of lines:
 * *Take Last* takes only the last rows in the current order of the table
 * *Take Range* cuts out part of the total lines by specifying the start and end index
 
-Attention!! For example, if you want to filter the three articles with the highest sales from a table of articles and sales data, you must apply the correct sort sequence BEFORE the row limitation step. Otherwise, it is very likely that any, but probably not the desired three lines will be drawn.
+Attention!! For example, if you want to filter the three products with the highest sales from a table of articles and sales data, you must apply the correct sort sequence BEFORE the row limitation step. Otherwise, it is very likely that any, but probably not the desired three lines will be drawn.
 
 ![Take Data](/assets/images/dataflows/dataflows-take01.png)
 

@@ -6,14 +6,14 @@ description: Dataflows - Getting started
 lang: en
 ref: flow-01
 ---
-In peakboard, data sources are responsible for data collection. They communicate with all types of source systems and deliver the data (with a few exceptions) in the form of a table. Either you access this table-like data from the controls and display it directly or you use a script that prepares the data. Examples can be found [here](../scripting/03-en-table-data.html) or [here](../scripting/04-en-manipulating-table-data.html). The data flows discussed in this section can be used to to do a wide variety of data transformation in a way that requires little or no knowledge of scripting. Typical things you do with dataflows are
+In Peakboard, data sources are responsible for data collection. They communicate with all types of source systems and deliver the data (with a few exceptions) in the form of a table. Either you access this table-like data from the controls and display it directly or you use a script that prepares the data. Examples can be found [here](../scripting/03-en-table-data.html) or [here](../scripting/04-en-manipulating-table-data.html). The data flows discussed in this section can be used to to do a wide variety of data transformation in a way that requires little or no knowledge of scripting. Typical things you do with dataflows are
 
 * Name columns cleanly and delete columns that are not required
 * Adjust data types
 * Add new columns and fill them with content according to a certain logic
-* Link several data sources with each other - also from different source systems - and merge them into a single new table.
+* Link several data sources with each other - also from different source systems - and merge them into a single new table
 
-The idea behind the dataflows is to change the dataset step by step, starting from a single table, until the result meets your requirements. The user can see, change and adjust the individual steps for each dataflow in the Peakboard designer. Each individual step can be observed directly using test data. This makes it easy to check whether the sequence has the desired effect and what you have in mind comes out at the end.
+The idea behind the dataflows is to change the dataset step by step, starting from a single table, until the result meets your requirements. The user can see, change and adjust the individual steps for each dataflow in the Peakboard Designer. Each individual step can be observed directly using test data. This makes it easy to check whether the sequence has the desired effect and what you have in mind comes out at the end.
 
 # Create a new dataflow
 

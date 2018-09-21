@@ -7,12 +7,12 @@ lang: en
 ref: admin-11
 ---
 
-When installing the Peakboard-Designer, the Peakboard-Runtime is normally installed.
-This is required for the preview functionality of the designer.
+When installing the Peakboard-Designer, the Peakboard-Runtime is normally installed as well.
+This is required for the preview functionality of the Designer.
 
-In some IT infrastructures this installation does not work automatically, then it has to be done manually.
+In some IT infrastructures this installation does not work automatically, then it must be deployed manually.
 
-First of all, at least one Windows 10 or Windows Server 2016 system is required.
+First, the preivew software requires a Windows 10 or Windows Server 2016 system with atleast build 10586 (1511 November Update).
 
 Then the Peakboard installation folder must be opened. This is in the standard C:/Program Files/Peakboard/Designer.
 Here the subfolder temporaryInstallFiles/RuntimeDependencies must be opened.
@@ -31,6 +31,5 @@ Now the following command must be executed in PowerShell (where the path and fil
 ```
 Add-AppxPackage -Path "C:\Program Files\Peakboard\Designer\temporaryInstallFiles\PeakBoard.Runtime_1.0.20.7_x86_Preview.appx"
 ```
-
 
 For manual installation, please note that the last step to install the runtime must be done every time the Peakboard Designer is updated.

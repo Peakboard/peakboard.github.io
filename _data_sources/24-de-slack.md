@@ -6,14 +6,14 @@ description: Information über Slack Daten in Peakboard
 lang: de
 ref: dat-24
 ---
-Slack ist das Tool der Wahl, wenn es darum geht, schnell und unkompliziert Aufgaben in Teams zu kommunizieren, zu diskutieren und zu koordinieren. Die Slack-Datenquelle von Peakboard ermöglicht es dem Nutzer zum Einen, wie für Peakboard üblich, die Nachrichten aus einem Channel in benutzerdefinierten Intervallen abzurufen. Zum Anderen können über Slacks WebSocket- und WebHook-Schnittstellen Nachrichten in Echtzeit gelesen und geschrieben werden. Somit kann die Slack-Anbindung nicht nur genutzt werden, um Chat-Verläufe zu visualisieren, sondern auch um in Echtzeit mit Peakboards im Netzwerk zu kommunizieren oder auch Peakboards untereinander kommunizieren zu lassen.
+Slack ist das Tool der Wahl, wenn es darum geht, schnell und unkompliziert Aufgaben in Teams zu kommunizieren, zu diskutieren und zu koordinieren. Die Slack-Datenquelle von Peakboard ermöglicht es dem Nutzer zum Einen, wie für Peakboard üblich, die Nachrichten aus einem Channel in benutzerdefinierten Intervallen abzurufen. Zum Anderen können über Slack WebSocket- und WebHook-Schnittstellen Nachrichten in Echtzeit gelesen und geschrieben werden. Somit kann die Slack-Anbindung nicht nur genutzt werden, um Chat-Verläufe zu visualisieren, sondern auch um in Echtzeit mit Peakboards im Netzwerk zu kommunizieren oder auch Peakboards untereinander kommunizieren zu lassen.
 
 ## Voraussetzungen
 
 Abhängig davon, wie mit Slack interagiert werden soll, bedarf es auf dessen Seite einiger Maßnahmen um die Kommunikation zu ermöglichen.
 In jedem Fall wird ein Token benötigt. Dieses Token wird genutzt, um einen Slack-Account mit den Anfragen des Peakboards zu verknüpfen. Dieses Token kann [hier](https://api.slack.com/custom-integrations/legacy-tokens) erstellt werden. Der Nutzer muss dafür angemeldet sein.
 Mit diesem Token werden sowohl die Nachrichten per intervalgesteuerter Anfrage abgerufen, als auch die Echtzeit-Kommunikation autorisiert.
-Das Schreiben in den Channel wird akutell ausschließlich mithilfe von WebHooks unterstützt. Diese können vom Administrator des Workspaces im Menü angelegt werden. Die Navigation zum entsprechenden Eintrag ist in folgenden Screenshots abgebildet.
+Das Schreiben in den Channel wird aktuell ausschließlich mithilfe von WebHooks unterstützt. Diese können vom Administrator des Workspaces im Menü angelegt werden. Die Navigation zum entsprechenden Eintrag ist in folgenden Screenshots abgebildet.
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_00_WebHook.png)
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_01_WebHook2.png)
@@ -32,7 +32,7 @@ Der nächste Punkt im Dialog stellt die Möglichkeit bereit, Nachrichten bestimm
 
 ## Echtzeitkommunikation
 
-Nachrichten aus Slack-Channeln in Echtzeit zu empfangen, ist, neben der standardmaäßigen intervalgesteuerten Anzeige von Nachrichten, das zweite Kern-Feature der Slack-Datenquelle. Hier kann über WebSockets ohne nennenswerte Zeitverzögerung kommuniziert werden. Somit wird der Nutzer befähigt, mit maximaler Flexibilität einzelne oder beliebig große Gruppen von Peakboard-Boxen anzusprechen.
+Nachrichten aus Slack-Channels in Echtzeit zu empfangen, ist, neben der standardmäßigen intervallgesteuerten Anzeige von Nachrichten, das zweite Kern-Feature der Slack-Datenquelle. Hier kann über WebSockets ohne nennenswerte Zeitverzögerung kommuniziert werden. Somit wird der Nutzer befähigt, mit maximaler Flexibilität einzelne oder beliebig große Gruppen von Peakboard-Boxen anzusprechen.
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_04_RTM.png)
 
@@ -44,7 +44,7 @@ Eine weitere, von Slack angebotene, Kommunikationsmöglichkeit sind WebHooks. Di
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_05_WebHookSection.png)
 
-Der Skriptbefehl um einen Text an einen Channel zu senden, ist einfach und sieht folgendermaßen aus.
+Der Skriptbefehl, um einen Text an einen Channel zu senden, ist einfach und sieht folgendermaßen aus.
 ```lua
 data.[slack].writetochannel('message')
 ```
@@ -57,4 +57,4 @@ Mit einem Klick auf den "Preview"-Button kann man nun schlussendlich noch die Na
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_06_Preview.png)
 
-Da die Echtzeitkommunikation der Datenquelle grundlegend verschieden zu dem sonst, für Peakboard üblichen, interval-gesteuerten Laden der Daten ist, gelten "Reload Interval" und "Preview" nur für Standard-Funktion der Datenquelle. Eine Möglichkeit, die Echtzeitanbindung im Designer zu testen, gibt es nicht. Allerdings laufen Standard-Kommunikation, real time messaging und WebHooks über die gleiche Schnittstelle. Somit ist davon auszugehen, dass bei erfolgreicher Preview-Ansicht, auch der Rest der Datenquelle funktioniert.
+Da die Echtzeitkommunikation der Datenquelle grundlegend verschieden zu dem sonst, für Peakboard üblichen, intervallgesteuerten Laden der Daten ist, gelten "Reload Interval" und "Preview" nur für intervallgesteuerte Funktionalität der Datenquelle. Eine Möglichkeit, die Echtzeitanbindung im Designer zu testen, gibt es nicht. Allerdings laufen Standard-Kommunikation, real time messaging und WebHooks über die gleiche Schnittstelle. Somit ist davon auszugehen, dass bei erfolgreicher Preview-Ansicht, auch der Rest der Datenquelle funktioniert.

@@ -28,18 +28,18 @@ This step converts all occurrences of a certain text into another text. This als
 
 ## Set Number Format
 
-This step is used to assign numbers stored as strings to a different format. The same format technology is used as we already use for text fields or table grids. More information can be found[here](https://help.peakboard.com/misc/03-en-formating-values.html). Please note: It makes no sense to format purely numeric fields (data type Number) here. This is best done directly during output (e.g. in the respective text field).
+This step is used to assign numbers stored as strings to a different format. The same format technology is used as we already use for text fields or table grids. More information can be found [here](https://help.peakboard.com/misc/03-en-formating-values.html). Please note: It makes no sense to format purely numeric fields (data type Number) here. This is best done directly during output (e.g. in the respective text field).
 
 ![Replace Column](/assets/images/dataflows/dataflows-set-number-format01.png)
 
 ## Set Date/Time Format
 
-This step is used to convert date values to another format. The same format technology is used as we already use for text fields or table grids. More information can be found[here](https://help.peakboard.com/misc/03-en-formating-values.html). 
+This step is used to convert date values to another format. The same format technology is used as we already use for text fields or table grids. More information can be found [here](https://help.peakboard.com/misc/03-en-formating-values.html).
 
 ![Replace Column](/assets/images/dataflows/dataflows-set-date-format01.png)
 
 ## Update Column - Change data
 
-This step is used to change data according to a certain logic. The desired logic is set with a Lua expression as for "Create Column". The following example shows the manipulation of the Material column. As soon as "4711" is contained as value, the content is set to "N/A". The logic can become arbitrarily complicated. Other columns can of course be part of the logic in the same way as other data sources or variables. 
+This step is used to change data according to a certain logic. The desired logic is set with a Lua expression as for "Create Column". The following example shows the manipulation of the Material column. As soon as "4711" is contained as value, the content is set to "N/A". The logic can become arbitrarily complicated. Other columns can of course be part of the logic in the same way as other data sources or variables.
 
 ![Replace Column](/assets/images/dataflows/dataflows-update-column01.png)

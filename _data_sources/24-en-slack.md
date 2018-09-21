@@ -28,7 +28,7 @@ The next item in the dialog provides the possibility to ignore messages of certa
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_03_UserList.png)
 
-## real-time communication
+## Real-time communication
 
 Receiving messages from slack channels in real time is the second core feature of the slack data source, alongside the standard interval-driven display of messages. Here, communication can take place via WebSockets without significant time delay. This enables the user to address single or arbitrarily large groups of Peakboard boxes with maximum flexibility.
 
@@ -42,7 +42,7 @@ Another way of communication offered by Slack is WebHooks. These provide a quick
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_05_WebHookSection.png)
 
-The script command to send text to a channel is simple and looks like this.
+The script command to send text to a channel is simple and looks like this:
 ```lua
 data.[slack].writetochannel('message')
 ```
@@ -55,4 +55,4 @@ With a click on the "Preview" button you can finally view the messages from the 
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_06_Preview.png)
 
-Since the real-time communication of the data source is fundamentally different from the interval-controlled loading of the data usually used for Peakboards, "Reload Interval" and "Preview" only apply to the standard function of the data source. There is no way to test the real-time connection in the Peakboard Designer. However, standard communication, real time messaging and WebHooks run over the same interface. Thus it can be assumed that the rest of the data source will also work if the preview runs successfully.
+Since the real-time communication of the data source is fundamentally different from the interval-controlled loading of the data usually used for Peakboards, "Reload Interval" and "Preview" only apply to the interval-controlled functionality of the data source. There is no way to test the real-time connection in the Peakboard Designer. However, standard communication, real time messaging and WebHooks run over the same interface. Thus, it can be assumed that the rest of the data source will also work if the preview runs successfully.
