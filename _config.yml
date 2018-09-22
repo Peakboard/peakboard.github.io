@@ -4,12 +4,13 @@ description: "Tutorials and articles on using Peakboard."
 url: "http://help.peakboard.com/"
 twitter_username: pkbrd
 github_username:  Peakboard
-languages: ["en", "de"]
+languages: ["en", "de", "ch"]
 exclude_from_localizations: ["assets", "CNAME"]
 defaultLang: de
 languageNames:
   de: Deutsch
   en: English
+  ch: Chinese
 # Build settings
 markdown: kramdown
 theme: minima
@@ -28,16 +29,18 @@ collections:
     icon: question.svg
     position: 1
     title:
-      en: Tutorials
-      de: Tutorials
+      en: "Tutorials"
+      de: "Tutorials"
+      ch: "placeholder-Tutorials"
 
   video_tutorials:
     output: true
     icon: video.svg
     position: 0
     title:
-      en: Video Tutorials
-      de: Video Tutorials
+      en: "Video Tutorials"
+      de: "Video Tutorials"
+      ch: "placeholder-Video Tutorials"
 
   data_sources:
     output: true
@@ -46,6 +49,7 @@ collections:
     title:
       en: "Data Sources"
       de: "Datenquellen"
+      ch: "placeholder-Data Sources"
       
   dataflows:
     output: true
@@ -54,6 +58,7 @@ collections:
     title:
       en: "Dataflows"
       de: "Dataflows"
+      ch: "placeholder-Dataflows"
 
   controls:
     output: true
@@ -62,6 +67,7 @@ collections:
     title:
       en: "Controls"
       de: "Controls"
+      ch: "placeholder-Controls"
 
   misc:
     output: true
@@ -70,6 +76,7 @@ collections:
     title:
       en: "Misc"
       de: "Misc"
+      ch: "placeholder-Misc"
 
   administration:
     output: true
@@ -78,6 +85,7 @@ collections:
     title:
       en: "Administration"
       de: "Administration"
+      ch: "placeholder-Administration"
 
   scripting:
     output: true
@@ -86,6 +94,7 @@ collections:
     title:
       en: "Scripting"
       de: "Scripting"
+      ch: "placeholder-Scripting"
 
   peakboardio:
     output: true
@@ -94,6 +103,7 @@ collections:
     title:
       en: "Peakboard.io"
       de: "Peakboard.io"
+      ch: "placeholder-Peakboard.io"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
