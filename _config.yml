@@ -4,13 +4,13 @@ description: "Tutorials and articles on using Peakboard."
 url: "http://help.peakboard.com/"
 twitter_username: pkbrd
 github_username:  Peakboard
-languages: ["en", "de", "ch"]
+languages: ["en", "de", "cn"]
 exclude_from_localizations: ["assets", "CNAME"]
 defaultLang: de
 languageNames:
   de: Deutsch
   en: English
-  ch: Chinese
+  cn: Chinese
 # Build settings
 markdown: kramdown
 theme: minima
@@ -31,7 +31,7 @@ collections:
     title:
       en: "Tutorials"
       de: "Tutorials"
-      ch: "placeholder-Tutorials"
+      cn: "placeholder-Tutorials"
 
   video_tutorials:
     output: true
@@ -40,7 +40,7 @@ collections:
     title:
       en: "Video Tutorials"
       de: "Video Tutorials"
-      ch: "placeholder-Video Tutorials"
+      cn: "placeholder-Video Tutorials"
 
   data_sources:
     output: true
@@ -49,7 +49,7 @@ collections:
     title:
       en: "Data Sources"
       de: "Datenquellen"
-      ch: "placeholder-Data Sources"
+      cn: "placeholder-Data Sources"
       
   dataflows:
     output: true
@@ -58,7 +58,7 @@ collections:
     title:
       en: "Dataflows"
       de: "Dataflows"
-      ch: "placeholder-Dataflows"
+      cn: "placeholder-Dataflows"
 
   controls:
     output: true
@@ -67,7 +67,7 @@ collections:
     title:
       en: "Controls"
       de: "Controls"
-      ch: "placeholder-Controls"
+      cn: "placeholder-Controls"
 
   misc:
     output: true
@@ -76,7 +76,7 @@ collections:
     title:
       en: "Misc"
       de: "Misc"
-      ch: "placeholder-Misc"
+      cn: "placeholder-Misc"
 
   administration:
     output: true
@@ -85,7 +85,7 @@ collections:
     title:
       en: "Administration"
       de: "Administration"
-      ch: "placeholder-Administration"
+      cn: "placeholder-Administration"
 
   scripting:
     output: true
@@ -94,7 +94,7 @@ collections:
     title:
       en: "Scripting"
       de: "Scripting"
-      ch: "placeholder-Scripting"
+      cn: "placeholder-Scripting"
 
   peakboardio:
     output: true
@@ -103,7 +103,7 @@ collections:
     title:
       en: "Peakboard.io"
       de: "Peakboard.io"
-      ch: "placeholder-Peakboard.io"
+      cn: "placeholder-Peakboard.io"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
