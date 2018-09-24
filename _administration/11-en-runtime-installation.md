@@ -12,7 +12,7 @@ This is required for the preview functionality of the Designer.
 
 In some IT infrastructures this installation does not work automatically, then it must be deployed manually.
 
-First, the preivew software requires a Windows 10 or Windows Server 2016 system with atleast build 10586 (1511 November Update).
+First, the preivew software requires a Windows 10 system with atleast build 16299 (1703 Fall Creators Update).
 
 Then the Peakboard installation folder must be opened. This is in the standard C:/Program Files/Peakboard/Designer.
 Here the subfolder temporaryInstallFiles/RuntimeDependencies must be opened.
