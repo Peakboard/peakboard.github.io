@@ -7,6 +7,19 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.28.1 (25.09.2018)
+
+* Hotfix für das editieren statischer Listen
+
+## 1.0.28.0 (24.09.2018)
+
+* Http Put Funktion für Lua zugefügt
+* Stabilität der Peakboard Bridge für Dateien wurde verbessert
+* Fixes für Time Datasource
+* Fixes für Bridge Log
+* Fixes für Dataflows
+* Fix für SAP Nummer Spalten
+
 ## 1.0.27.27 (20.09.2018)
 
 * Die Standardsprache für die Spracherkennung wurde angepasst.
