@@ -12,7 +12,7 @@ Diese wird für die Preview-Funktionalität des Designers benötigt.
 
 In einigen IT Infrastrukturen funktioniert diese Installation nicht automatisch. In diesem Fall muss die Software manuell installiert werden.
 
-Zunächst einmal setzt die Preview-Funktionalität Windows 10 oder Windows Server 2016 mit Build 10586 (1511 November Update) voraus.
+Zunächst einmal setzt die Preview-Funktionalität Windows 10 mit Build 16299 (1703 Fall Creators Update) voraus.
 
 Anschließend muss der Installationsordner von Peakboard geöffnet werden. Dieser ist im Standard C:/Programme/Peakboard/Designer.
 Hier muss der Unterordner temporaryInstallFiles/RuntimeDependencies geöffnet werden.
