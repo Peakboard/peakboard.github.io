@@ -46,4 +46,4 @@ Um nun zu erfahren, wie ihr fertiges Design später auf dem Monitor aussieht, kl
 
 Unter dem folgenden Link erfahren Sie mehr darüber, wie das neu erstellte Design auf die Peakboard-Box übertragen und aktiviert wird:
 
-[Erste Schritte mit der Peakboard-Box](/tutorials/02-de-anschließen-und-die-erste-visualisierung.html)
+[Erste Schritte mit der Peakboard-Box](/tutorials/02-de-anschliessen-und-die-erste-visualisierung.html)
