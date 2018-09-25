@@ -14,10 +14,7 @@ Eine der Grundideen hinter Peakboard ist, dass der Enduser eben kein Programmier
 
 Die grundlegende Scriptsprache ist LUA, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials. Eine sehr schöne Dokumentation finden Sie auf [dieser](http://lua.coders-online.net/1) Internetseite. Neben den Standardfunktionalitäten von LUA bietet der Peakboard-Designer jedoch noch einige Erweiterungen dieser Sprache. Diese lassen sich auf der linken Seite des Scripteditors finden.
 
-Im Wesentlichen werden in Peakboard zwei Konzepte unterschieden, wie Scripte angewendet werden: Entweder bei bestimmten Ereignissen oder als [dynamische Eigenschaft.](/scripting/02-de-dynamischen-eigenschaften.html) Dieser Artikel zeigt exemplarisch beide Konzepte.
-
-
-## Scripts for events
+## Scripte in Events
 
 Wir gehen von einer einfachen Datenquelle aus, wie sie zum Beispiel in [diesem](/tutorials/03-de-xml-daten.html) Artikel genutzt wird. Ziel soll es sein, bei jedem Refresh der Datenquelle (z.B. alle 90 Sekunden, wenn es so eingestellt ist), nicht nur das verbundene TableGrid-Control mit neuen Daten anzuzeigen, sondern auch die Anzahl der Datensätze in einem Textfeld auszugeben. Dazu brauchen wir neben dem TableGrid-Control ein Textfeld auf dem Panel. Dieses Textfeld muss einen Namen bekommen, dafür gibt es eine Name-Eigenschaft wie im folgenden Screenshot gezeigt.
 
