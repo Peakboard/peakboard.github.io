@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.28.4 (27.09.2018)
+
+* Fix für einen Absturz beim Laden bestimmter Visualisierungen
+
 ## 1.0.28.1 (25.09.2018)
 
 * Hotfix für das editieren statischer Listen

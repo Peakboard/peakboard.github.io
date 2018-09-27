@@ -7,6 +7,10 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.28.4 (27.09.2018)
+
+* Fix for crash when loading certain visualizations
+
 ## 1.0.28.1 (25.09.2018)
 
 * Hotfix for editing static lists
