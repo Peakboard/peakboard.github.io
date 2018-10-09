@@ -7,6 +7,11 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.28.5 (09.10.2018)
+
+* Fix für die Buttons beim Hinzufügen von IPs/ Domains zu OPC UA Zertifikaten
+* Fix für Validierung von OPC UA Namespaces
+
 ## 1.0.28.4 (27.09.2018)
 
 * Fix für einen Absturz beim Laden bestimmter Visualisierungen
