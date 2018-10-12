@@ -7,6 +7,14 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.28.8 (11.10.2018)
+
+* Hotfix für den ExcelViewer mit NetworkShareFiles
+
+## 1.0.28.7 (11.10.2018)
+
+* Hotfix für das Wechseln von PDF Seiten im PDFViewer
+
 ## 1.0.28.5 (09.10.2018)
 
 * Fixed buttons for adding IPs/ domains to OPC UA certificates
