@@ -7,7 +7,11 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.28.8 (11.10.2018)
+## 1.0.28.9 (11.10.2018)
+
+* Der Hintergrund für den Titel des Tabellen-Elements hat jetzt die korrekte Farbe
+
+## 1.0.28.9 (11.10.2018)
 
 * Hotfix for ExcelViewer using NetworkShareFile
 
