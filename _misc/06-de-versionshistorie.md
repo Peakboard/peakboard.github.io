@@ -7,17 +7,18 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.28.9 (11.10.2018)
+## 1.0.28.22 (19.10.2018)
+
+* Ein Bug bei dem Bridge-Resource nicht mehr geladen wurden, wenn die Datei geöffnet war, wurde behoben
+
+## 1.0.28.15 (14.10.2018)
 
 * Der Hintergrund für den Titel des Tabellen-Elements hat jetzt die korrekte Farbe
 
 ## 1.0.28.9 (11.10.2018)
 
-* Hotfix for ExcelViewer using NetworkShareFile
-
-## 1.0.28.7 (11.10.2018)
-
-* Hotfix for changing PDF sites in PDFViewer
+* Hotfix für einen Fehler, bei dem Charts aus einer Excel-Bridge-Resource nicht geladen wurden
+* Ein Bug im Seitenwechsel des neuen PDF-Reader wurde behoben.
 
 ## 1.0.28.5 (09.10.2018)
 
