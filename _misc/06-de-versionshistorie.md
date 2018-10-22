@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.28.23 (22.10.2018)
+
+* Der Dialog zum Lookup Column Step der Dataflows zeigt jetzt die korrekte aktuelle konfiguration an
+
 ## 1.0.28.22 (19.10.2018)
 
 * Ein Bug bei dem Bridge-Resource nicht mehr geladen wurden, wenn die Datei geöffnet war, wurde behoben

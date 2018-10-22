@@ -7,6 +7,10 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.28.23 (22.10.2018)
+
+* Fix for lookup column step in dataflow
+
 ## 1.0.28.22 (19.10.2018)
 
 * Fix for bridge resources not being loaded anymore when the file was blocked by another instance
