@@ -7,6 +7,16 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.29.0 (29.10.2018)
+
+* Der Dialog zur Verwaltung der Boxen im Netzwerk wurde überarbeitet, sodass sich alle Aktionen, die mit einer Peakboard-Box durchgeführt werden können, in einem Dialog befinden
+* Ein Nutzerverwaltungssystem für Peakboard-Boxen wurde hinzugefügt
+* Die JSON-Datenquelle speichert jetzt Beispieldaten des Previewdialogs für Dataflows
+* Kleinere Anpassungen des Dialogs zum Editieren von Schriftarten
+* Im Excelchart können jetzt die Schriftarten angepasst werden
+* Grafische Elemente können nun gruppiert werden
+* Bei Auswahl mehrerer graphischer Elemente können nun Eigenschaften für identische Elemente manipuliert werden
+
 ## 1.0.28.23 (22.10.2018)
 
 * Der Dialog zum Lookup Column Step der Dataflows zeigt jetzt die korrekte aktuelle konfiguration an

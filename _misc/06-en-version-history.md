@@ -7,6 +7,16 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.29.0 (29.10.2018)
+
+* The dialog for managing the boxes in the network has been revised so that all actions that can be performed with a Peakboard box are in one dialog.
+* A user management system for Peakboard boxes has been added
+* The JSON data source now stores sample data of the preview dialog for dataflows
+* Minor changes to the dialog for editing fonts
+* The fonts can now be adjusted in the Excel chart
+* Graphical elements can now be grouped
+* Properties for identical elements can now be manipulated when multiple graphical elements are selected
+
 ## 1.0.28.23 (22.10.2018)
 
 * Fix for lookup column step in dataflow
