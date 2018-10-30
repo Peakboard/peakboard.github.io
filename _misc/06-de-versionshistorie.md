@@ -7,6 +7,9 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.29.1 (30.10.2018)
+* Hotfix für das Ändern des Admin-Passworts
+
 ## 1.0.29.0 (29.10.2018)
 
 * Der Dialog zur Verwaltung der Boxen im Netzwerk wurde überarbeitet, sodass sich alle Aktionen, die mit einer Peakboard-Box durchgeführt werden können, in einem Dialog befinden
