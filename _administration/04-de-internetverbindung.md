@@ -7,7 +7,7 @@ lang: de
 ref: admin-04
 ---
 
-Öffnen Sie das Windows Device Portal (http://<ip-adresse-<peakboard>:8080) der Box.
+Öffnen Sie das Windows Device Portal (http://<ip-adresse-peakboard>:8080) der Box.
 
 Dort gibt es unter „Processes“ mit „Run command“ die Möglichkeit direkt Befehle abzusetzen.
 

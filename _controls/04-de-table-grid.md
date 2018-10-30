@@ -13,10 +13,7 @@ Das Control Table Grid ist dazu gedacht, Daten tabellarisch darzustellen. Es ist
 
 [Verwalten von Schriftarten mit dem Font-Manager](/misc/04-de-fonts.html)
 
-[Scripte in dynamischen Eigenschaften](/scripting/02-de-dynamischen-eigenschaften.html)
-
 [Formatieren von Werten](/misc/03-de-formatieren-von-Werten.html)
-
 
 Nachdem ein Table Grid per Drag and Drop aus der Toolbox rechts oben auf den Screen gezogen wurde, wird es mit Hilfe der Eigenschaft Source mit einer tabellarischen Datenquelle verbunden. Dadurch entstehen im Tabellen-Steuerelement gleich automatisch Spalten, die der Originaldatenquelle entsprechen und dann einfach abgeändert werden können. Ein Doppelklick auf das Control öffnet den Spalten-Dialog. Hier können die einzelnen Spalten konfiguriert werden, z.B. ihre Position mit den kleinen Pfeiltasten, die Spaltenüberschrift (Caption) oder die Breite. Die Breite wird in Pixel definiert. „Auto“ definiert die Breite automatisch so, dass sie immer genauso breit ist, wie der breiteste Inhalt. Ein * in der Breite ist dynamisch. Der komplette zur Verfügung stehende Platz wird unter allen * - Spalten einfach gleichmäßig aufgeteilt. Deshalb ist * auch die Standard-Einstellung für alle Spalten.
 
@@ -39,4 +36,4 @@ Im Folgenden sind alle Eigenschaften aufgelistet, die nicht bereits unter den Li
 | Show Header |	definiert, ob die Spaltenüberschriften angezeigt werden sollen.|
 | Show Row Grid Lines |	definiert, ob eine Linie zwischen den Zeilen angezeigt werden soll. |
 
-> Es kommt in der Praxis sehr häufig vor, dass Zellen oder Zeilen  in Abhängigkeit des Dateninhalts formatiert werden sollen. Für diese Anforderung gibt es einen eigenen Artikel, den Sie [hier](/scripting/05-de-formatieren.html) finden.
+Es kommt in der Praxis sehr häufig vor, dass Zellen oder Zeilen  in Abhängigkeit des Dateninhalts formatiert werden sollen. Für diese Anforderung gibt es einen eigenen Artikel, den Sie [hier](/scripting/05-de-formatieren.html) finden.

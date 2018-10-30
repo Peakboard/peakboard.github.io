@@ -7,6 +7,55 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.29.0 (29.10.2018)
+
+* Der Dialog zur Verwaltung der Boxen im Netzwerk wurde überarbeitet, sodass sich alle Aktionen, die mit einer Peakboard-Box durchgeführt werden können, in einem Dialog befinden
+* Ein Nutzerverwaltungssystem für Peakboard-Boxen wurde hinzugefügt
+* Die JSON-Datenquelle speichert jetzt Beispieldaten des Previewdialogs für Dataflows
+* Kleinere Anpassungen des Dialogs zum Editieren von Schriftarten
+* Im Excelchart können jetzt die Schriftarten angepasst werden
+* Grafische Elemente können nun gruppiert werden
+* Bei Auswahl mehrerer graphischer Elemente können nun Eigenschaften für identische Elemente manipuliert werden
+
+## 1.0.28.23 (22.10.2018)
+
+* Der Dialog zum Lookup Column Step der Dataflows zeigt jetzt die korrekte aktuelle konfiguration an
+
+## 1.0.28.22 (19.10.2018)
+
+* Ein Bug bei dem Bridge-Resource nicht mehr geladen wurden, wenn die Datei geöffnet war, wurde behoben
+
+## 1.0.28.15 (14.10.2018)
+
+* Der Hintergrund für den Titel des Tabellen-Elements hat jetzt die korrekte Farbe
+
+## 1.0.28.9 (11.10.2018)
+
+* Hotfix für einen Fehler, bei dem Charts aus einer Excel-Bridge-Resource nicht geladen wurden
+* Ein Bug im Seitenwechsel des neuen PDF-Reader wurde behoben.
+
+## 1.0.28.5 (09.10.2018)
+
+* Fix für die Buttons beim Hinzufügen von IPs/ Domains zu OPC UA Zertifikaten
+* Fix für Validierung von OPC UA Namespaces
+
+## 1.0.28.4 (27.09.2018)
+
+* Fix für einen Absturz beim Laden bestimmter Visualisierungen
+
+## 1.0.28.1 (25.09.2018)
+
+* Hotfix für das editieren statischer Listen
+
+## 1.0.28.0 (24.09.2018)
+
+* Http Put Funktion für Lua zugefügt
+* Stabilität der Peakboard Bridge für Dateien wurde verbessert
+* Fixes für Time Datasource
+* Fixes für Bridge Log
+* Fixes für Dataflows
+* Fix für SAP Nummer Spalten
+
 ## 1.0.27.27 (20.09.2018)
 
 * Die Standardsprache für die Spracherkennung wurde angepasst.

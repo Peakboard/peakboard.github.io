@@ -10,11 +10,7 @@ Dieses Tutorial zeigt ihnen, wie Sie die Peakboard-Box in Betrieb nehmen und ihr
 
 [Erste Schritte – Die Basics](/tutorials/01-de-peakboard-designer-basics.html)
 
-
-
-Die Übertragung einer Visualisierung auf eine Box wird auch in [diesem Video](/video_tutorials/07-visualisierung-installieren.html) erklärt.
-
-
+Die Übertragung einer Visualisierung auf eine Box wird auch in [diesem Video](/video_tutorials/19-visualisierung-installieren.html) erklärt.
 
 Um die Peakboard-Box in Betrieb zu nehmen, muss sie mit einem Micro-USB-Kabel mit Strom versorgt werden. Der Monitor wird mit einem handelsüblichen HDMI-Kabel angesteuert und so lange das WLAN noch nicht konfiguriert ist, braucht die Box noch ein LAN-Kabel.
 

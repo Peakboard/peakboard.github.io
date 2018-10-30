@@ -18,5 +18,3 @@ Die Peakboard-Box kommuniziert bekannterweise ja mit allen möglichen Vorsysteme
 | 80          |	Standardport für generische API-Abfragen gängiger Internetdienste |
 | 102         |	Siemens S7 |
 | 4840        |	Standardport für OPC UA |
-
-
