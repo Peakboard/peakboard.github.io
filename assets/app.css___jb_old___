@@ -5183,16 +5183,6 @@ html {
   -webkit-margin-after: 1em;
 }
 
-.article-content td {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1rem;
-  line-height: 2;
-  letter-spacing: -.003em;
-  -webkit-margin-after: 1em;
-}
-
 .article-content ol,
 .article-content ul {
   list-style: none;

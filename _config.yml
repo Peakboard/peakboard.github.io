@@ -118,3 +118,5 @@ exclude:
   - vendor/ruby/
   - resources
   - docs
+  - .idea
+  - .idea/*
