@@ -7,6 +7,9 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.29.3 (31.10.2018)
+* Hotfix für das Zoomen und Scrollen in WebViews
+
 ## 1.0.29.1 (30.10.2018)
 * Hotfix für das Ändern des Admin-Passworts
 
