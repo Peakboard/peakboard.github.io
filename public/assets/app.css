@@ -4947,8 +4947,9 @@ body.stuck {
   }
 }
 
-.overflow-y-scroll {
-  overflow-y: scroll;
+.overflow-top-menu {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .accordian-inner {
