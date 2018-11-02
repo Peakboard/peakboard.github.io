@@ -22232,3 +22232,8 @@ pre[class*="language-"] {
     z-index: auto;
   }
 }
+
+.overflow-top-menu {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
