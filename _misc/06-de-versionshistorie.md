@@ -7,6 +7,17 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.30.0 (05.11.2018)
+* Excel Dateien nutzen nun sowohl im Designer als auch in der Runtime englische Kultureinstellungen
+* Tablegrid Zellen padding and margin kann nun angepasst werden
+* Screens können nun mit Strg + Up / Down verschoben werden
+
+## 1.0.29.3 (31.10.2018)
+* Hotfix für das Zoomen und Scrollen in WebViews
+
+## 1.0.29.1 (30.10.2018)
+* Hotfix für das Ändern des Admin-Passworts
+
 ## 1.0.29.0 (29.10.2018)
 
 * Der Dialog zur Verwaltung der Boxen im Netzwerk wurde überarbeitet, sodass sich alle Aktionen, die mit einer Peakboard-Box durchgeführt werden können, in einem Dialog befinden

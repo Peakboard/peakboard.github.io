@@ -12,6 +12,8 @@ require("laravel-mix-purgecss");
  |
  */
 
+mix.setPublicPath('public');
+
 mix
   .js("resources/js/app.js", "assets/")
   .sass("resources/sass/app.scss", "assets/")

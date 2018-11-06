@@ -7,3 +7,6 @@ _site
 npm-debug.log
 .DS_Store
 _mdwriter.cson
+package-lock.json
+.idea/*
+.idea

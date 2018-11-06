@@ -211,7 +211,6 @@ html {
   }
 
   p {
-
       font-family: 'Merriweather', serif;
       font-weight: 300;
       font-style: normal;
@@ -219,6 +218,15 @@ html {
       line-height: 2;
       letter-spacing: -.003em;
       -webkit-margin-after: 1em;
+  }
+  td {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    line-height: 2;
+    letter-spacing: -.003em;
+    -webkit-margin-after: 1em;
   }
 
   ol,

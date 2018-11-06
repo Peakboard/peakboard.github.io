@@ -4947,6 +4947,11 @@ body.stuck {
   }
 }
 
+.overflow-top-menu {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .accordian-inner {
   overflow: hidden;
   max-height: 0;
@@ -5187,7 +5192,7 @@ html {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1rem;
+  font-size: .8rem;
   line-height: 2;
   letter-spacing: -.003em;
   -webkit-margin-after: 1em;
@@ -22231,9 +22236,4 @@ pre[class*="language-"] {
   .xl\:z-auto {
     z-index: auto;
   }
-}
-
-.overflow-top-menu {
-  overflow-y: auto;
-  overflow-x: hidden;
 }

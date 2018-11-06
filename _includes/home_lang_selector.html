@@ -1,10 +1,11 @@
 <div class="text-grey-light bg-grey-darkest px-4 flex items-center h-12 border-l border-grey-light">
     <span class="text-grey-dark mr-3 hidden md:flex items-center">{% include globe.svg %}</span>
     {% if page.lang == "de" %}
-    <span class="text-orange-light mr-2">DE</span> /
-    <a href="{{ '/en/' | relative_url }}" class="no-underline text-grey ml-2">EN</a>
-    {% endif %} {% if page.lang != "de" %}
-    <span class="text-orange-light mr-2">EN</span> /
-    <a href="{{ '/' relative_url }}" class="no-underline text-grey ml-2 hover:text-orange">DE</a>
+        <span class="text-orange-light mr-2">DE</span> /
+        <a href="{{ '/en/' | relative_url }}" class="no-underline text-grey ml-2 hover:text-orange">EN</a>
+    {% endif %}
+    {% if page.lang == "en" %}
+        <a href="{{ '/' relative_url }}" class="no-underline text-grey mr-2 hover:text-orange">DE</a> /
+        <span class="text-orange-light ml-2">EN</span>
     {% endif %}
 </div>
