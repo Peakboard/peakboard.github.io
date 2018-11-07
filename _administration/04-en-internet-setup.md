@@ -33,6 +33,7 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v Pr
 ```
 
 The value "\<local\>" is equal to the known option "Bypass proxy server for local addresses" from Internet Explorer's settings, which is used to bypass the proxy for all local addresses.
+
 More ip-addresses can be added to the list, it is essential that values are seperated by semicolon.
 
 Then restart the Peakboard-Box once to apply the changes.

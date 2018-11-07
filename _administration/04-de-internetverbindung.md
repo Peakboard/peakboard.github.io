@@ -32,6 +32,7 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v Pr
 ```
 
 Der Wert "\<local\>" entspricht hierbei der bekannten Option "Bypass proxy server for local addresses" aus den Einstellungen des Internet Explorers, die dafür sorgt, dass für alle lokalen Adressen immer der Proxy-Server umgangen wird.
+
 Es können noch weitere IP-Adressen hinzugefügt werden; wichtig ist, dass diese in der Auflistung jeweils mit Semikolon getrennt sind.
 
 Danach die Peakboard-Box einmal neustarten, damit die Änderungen übernommen werden.
