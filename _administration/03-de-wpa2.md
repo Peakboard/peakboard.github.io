@@ -16,19 +16,19 @@ net start WinRM
 IP-Adresse der Peakboard-Box als trusted Host hinzufügen:
 
 ```
-\localhost\Client\TrustedHosts -Value <ip>
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value <ip>
 ```
 
 PowerShell-Session zur Box starten:
 
 ```
-Enter-PSSession -ComputerName <ip/hostname>
+Enter-PSSession -ComputerName <ip/hostname> 
 -Credential localhost\administrator
 ```
 Der folgende Befehl erstellt auf der Box ein neues Wifi-Profil zum Verbinden mit dem WPA2-Enterprise Accesspoint.
 
 ```
-netcmd /ActionType:ConnectName /Enterprise:true /Ssid:<ssid>
+netcmd /ActionType:ConnectName /Enterprise:true /Ssid:<ssid> 
 /UserName:<login> /Domain:<domain> /Password:<password>
 ```
 
