@@ -7,6 +7,9 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.30.1 (07.11.2018)
+* Hotfix for automatically grouping from clipboard pasted controls
+
 ## 1.0.30.0 (05.11.2018)
 * Excel files use a English culture now in the designer and Runtime
 * Tablegrid cell padding and margin can now be customized

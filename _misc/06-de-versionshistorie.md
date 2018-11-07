@@ -7,6 +7,9 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.30.1 (07.11.2018)
+* Hotfix für das automatische gruppieren aus der Zwischenablage eingefügter Controls
+
 ## 1.0.30.0 (05.11.2018)
 * Excel Dateien nutzen nun sowohl im Designer als auch in der Runtime englische Kultureinstellungen
 * Tablegrid Zellen padding and margin kann nun angepasst werden
