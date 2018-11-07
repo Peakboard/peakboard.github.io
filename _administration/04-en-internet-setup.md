@@ -26,4 +26,13 @@ The commands can be sent one after the other using the “Run” button; it is i
 
 ![Windows Device Portal Run Command](/assets/images/admin/internet-setup/proxy.png)
 
+In addation it is possible to add a list of addresses for which **no** proxy should be used.
+
+```
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyOverride /t REG_SZ /d "<local>;192.168.0.10" /f
+```
+
+The value "\<local\>" is equal to the known option "Bypass proxy server for local addresses" from Internet Explorer's settings, which is used to bypass the proxy for all local addresses.
+More ip-addresses can be added to the list, it is essential that values are seperated by semicolon.
+
 Then restart the Peakboard-Box once to apply the changes.
