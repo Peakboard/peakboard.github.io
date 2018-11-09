@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "https://help.peakboard.cn/*"
+  to = "/en/"
+  status = 301
