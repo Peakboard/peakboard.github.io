@@ -7,6 +7,9 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.30.2 (14.11.2018)
+* Hotfix for not updating PDF files
+
 ## 1.0.30.1 (07.11.2018)
 * Hotfix for automatically grouping from clipboard pasted controls
 

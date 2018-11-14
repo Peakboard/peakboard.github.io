@@ -7,6 +7,9 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.30.2 (14.11.2018)
+* Hotfix für das Updaten von PDF Dateien
+
 ## 1.0.30.1 (07.11.2018)
 * Hotfix für das automatische gruppieren aus der Zwischenablage eingefügter Controls
 
