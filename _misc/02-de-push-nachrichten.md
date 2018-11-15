@@ -23,7 +23,7 @@ Die Anfrage muss über eine Basic-Authentifizierung verschlüsselt werden. Dafü
 
 ![image_1](/assets/images/misc/push/MiscPushMessage02.png)
 
-The actual data is then transferred in the body of the http mail message as CSV. In our example, the body should look like this:
+Die eigentlichen Daten werden dann im Body der http-Mail-Nachricht als CSV übertragen. In unserem Beispiel sollte der Body so aussehn:
 
 ```
 Code,Message
