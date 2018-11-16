@@ -31,7 +31,7 @@ collections:
     title:
       en: "Tutorials"
       de: "Tutorials"
-      cn: "placeholder-Tutorials"
+      cn: "辅导课"
 
   video_tutorials:
     output: true
@@ -40,7 +40,7 @@ collections:
     title:
       en: "Video Tutorials"
       de: "Video Tutorials"
-      cn: "placeholder-Video Tutorials"
+      cn: "视频辅导课"
 
   data_sources:
     output: true
@@ -49,7 +49,7 @@ collections:
     title:
       en: "Data Sources"
       de: "Datenquellen"
-      cn: "placeholder-Data Sources"
+      cn: "进入数据源"
       
   dataflows:
     output: true
@@ -58,7 +58,7 @@ collections:
     title:
       en: "Dataflows"
       de: "Dataflows"
-      cn: "placeholder-Dataflows"
+      cn: "数据流程"
 
   controls:
     output: true
@@ -67,7 +67,7 @@ collections:
     title:
       en: "Controls"
       de: "Controls"
-      cn: "placeholder-Controls"
+      cn: "控件"
 
   misc:
     output: true
@@ -76,7 +76,7 @@ collections:
     title:
       en: "Misc"
       de: "Misc"
-      cn: "placeholder-Misc"
+      cn: "其他"
 
   administration:
     output: true
@@ -85,7 +85,7 @@ collections:
     title:
       en: "Administration"
       de: "Administration"
-      cn: "placeholder-Administration"
+      cn: "管理中心"
 
   scripting:
     output: true
@@ -94,7 +94,7 @@ collections:
     title:
       en: "Scripting"
       de: "Scripting"
-      cn: "placeholder-Scripting"
+      cn: "聊本语言"
 
   peakboardio:
     output: true
@@ -103,7 +103,7 @@ collections:
     title:
       en: "Peakboard.io"
       de: "Peakboard.io"
-      cn: "placeholder-Peakboard.io"
+      cn: "Peakboard.io"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
