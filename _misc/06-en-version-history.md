@@ -7,6 +7,22 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.31.1 (22.11.2018)
+* Added Signal Block Control
+* Added Wifi Manager
+* Updated Package Explorer Style
+* Linear Gauge can be used with vertical Orientation
+* Added new Templates
+* JSON Datasource reworked and added Networksharefiles
+* Added Shadow Frame to Textbox
+* Dataflows can be putted to Folders
+* Removed Google Anaylitcs control
+* Fix for SAP Dialog height with low resolution
+* Fix for Lua Date Snippet
+* Fix bug for changes in select data dialog
+* Fix for Shadowframe not reacting to visible flag
+* Fix for cached screenshots that could crash the designer
+
 ## 1.0.30.2 (14.11.2018)
 * Hotfix for not updating PDF files
 

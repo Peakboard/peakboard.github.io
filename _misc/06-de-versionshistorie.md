@@ -7,6 +7,24 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.31.1 (22.11.2018)
+* Signalblock-Control hinzugefügt
+* Wlan Manager hinzugefügt
+* Updated Package Explorer Style
+* Linear Gauge kann mit vertikaler Ausrichtung verwendet werden
+* Neue Templates hinzugefügt
+* JSON Datasource überarbeitet und Networksharefiles hinzugefügt
+* Shadow Frame zur Textbox hinzugefügt
+* Datenflüsse können in Ordnern gegliedert werden
+* Google Anaylitcs Control entfernt
+* Fix für SAP Dialog Höhe bei niedriger Auflösung
+* Fix für Lua Date Snippet
+* Fix für Änergunden im Select Data Dialog
+* Fix für die visible Eigenschaft im Zusammenhang mit Shadow Frames
+* Fix für für die gecachten Screenshots, die den Designer zum Absturz bringen konnten
+
+Übersetzt mit www.DeepL.com/Translator
+
 ## 1.0.30.2 (14.11.2018)
 * Hotfix für das Updaten von PDF Dateien
 
