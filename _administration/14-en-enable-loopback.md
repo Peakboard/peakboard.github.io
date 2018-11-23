@@ -17,17 +17,13 @@ The so called "lookpback" can be allowed for individual Apps like the Peakboard 
 To accomplish this first open a PowerShell to get the __Fullpackagename__ of the Peakboard Runtime App.
 
 `(Get-AppxPackage -Name peakboardruntimeapp).packagefullname`
-
 ![01-get-packagefullname](/assets/images/admin/loopback/01-get-packagefullname.png)
-
 Copy the received name and use it in the following command:
 
 `checknetisolation loopbackexempt -a -n="PeakboardRuntimeApp_1.0.31.1_x86__dr3692g8wct58"`
 
 Please note the essential quotation marks in the command.
-
 ![02-add-loopback-exception](/assets/images/admin/loopback/02-add-loopback-exception.png)
-
 The action will be acknowledged with OK.
 
 A list with all loopback exceptions can be shown with the following command:
