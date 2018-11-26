@@ -105,6 +105,34 @@ collections:
       de: "Peakboard.io"
       cn: "Peakboard.io"
 
+# Portions of text found throughout common components (like the footer) can be configured here for each language
+language:
+  en:
+    footer-support: "Support"
+    footer-support-tel: "Tel:"
+    footer-support-email: "E-Mail:"
+    footer-contact: "Contact"
+    footer-contact-email: "E-Mail:"
+    footer-contact-website: "Website:"
+    footer-copyright: "All rights are reserved."
+  de:
+    footer-support: "Support"
+    footer-support-tel: "Tel:"
+    footer-support-email: "E-Mail:"
+    footer-contact: "Contact"
+    footer-contact-email: "E-Mail:"
+    footer-contact-website: "Website:"
+    footer-copyright: "All rights are reserved."
+  cn:
+    footer-support: "Support"
+    footer-support-tel: "Tel:"
+    footer-support-email: "E-Mail:"
+    footer-contact: "Contact"
+    footer-contact-email: "E-Mail:"
+    footer-contact-website: "Website:"
+    footer-copyright: "All rights are reserved."
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

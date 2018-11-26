@@ -1,28 +1,36 @@
-<footer class="p-12 bg-orange mt-16">
-    <div class="flex flex-col md:flex-row border-b border-orange-darker pb-12 mb-12">
-        <div class="mr-16 flex items-center">
-            <img src="/assets/logos/logo.svg" width="200" alt="Logo for Peakboard">
-        </div>
-        <div class="mr-12 mt-12 md:mt-0">
-            <h4 class="mb-4 font-light border-b border-orange-darker text-3xl">Support</h4>
-            <p class="mb-3">Tel:
-                <a href="#" class="text-white no-underline hover:underline">+49 711 46 05 99 -61</a>
-            </p>
-            <p class="mb-3">E-Mail:
-                <a href="mailto:support@peakboard.com" class="text-white no-underline hover:underline">support@peakboard.com</a>
-            </p>
-        </div>
-        <div class="mr-12 mt-12 md:mt-0">
-            <h4 class="mb-4 font-light border-b border-orange-darker text-3xl">Contact</h4>
-            <p class="mb-3">E-Mail:
-                <a href="mailto:info@peakboard.com" class="text-white no-underline hover:underline">info@peakboard.com</a>
-            </p>
-            <p class="mb-3">Website:
-                <a href="https://www.peakboard.com" class="text-white no-underline hover:underline">www.peakboard.com</a>
-            </p>
-        </div>
-    </div>
-    <div>
-        <p>&copy; {{ site.time | date: "%Y" }}. All rights are reserved.</p>
-    </div>
-</footer>
+{% for lang in site.language %}
+    {% if lang contains page.lang %}
+        {% for text in lang %}
+            {% if text != page.lang %}
+            <footer class="p-12 bg-orange mt-16">
+                <div class="flex flex-col md:flex-row border-b border-orange-darker pb-12 mb-12">
+                    <div class="mr-16 flex items-center">
+                        <img src="/assets/logos/logo.svg" width="200" alt="Logo for Peakboard">
+                    </div>
+                    <div class="mr-12 mt-12 md:mt-0">
+                        <h4 class="mb-4 font-light border-b border-orange-darker text-3xl">{{ text.footer-support }}</h4>
+                        <p class="mb-3">{{ text.footer-support-tel }}
+                            <a href="#" class="text-white no-underline hover:underline">+49 711 46 05 99 -61</a>
+                        </p>
+                        <p class="mb-3">{{ text.footer.support-email }}
+                            <a href="mailto:support@peakboard.com" class="text-white no-underline hover:underline">support@peakboard.com</a>
+                        </p>
+                    </div>
+                    <div class="mr-12 mt-12 md:mt-0">
+                        <h4 class="mb-4 font-light border-b border-orange-darker text-3xl">{{ text.footer-contact }}</h4>
+                        <p class="mb-3">{{ text.footer-contact-email }}
+                            <a href="mailto:info@peakboard.com" class="text-white no-underline hover:underline">info@peakboard.com</a>
+                        </p>
+                        <p class="mb-3">{{ text.footer-contact-website }}
+                            <a href="https://www.peakboard.com" class="text-white no-underline hover:underline">www.peakboard.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <p>&copy; {{ site.time | date: "%Y" }}. {{ text.footer-copyright }}</p>
+                </div>
+            </footer>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}

@@ -2,7 +2,7 @@
     <span class="text-grey-dark mr-3 hidden md:flex items-center">{% include globe.svg %}</span>
     {% assign posts = site[page.collection] | where: "ref", page.ref | where_exp: "item", "item.lang != page.lang" %}
     <span class="text-orange-light mr-2 uppercase">{{ page.lang }}</span>
-    {% for post in posts %} /
-    <a href="{{ post.url }}" class="no-underline text-grey ml-2 uppercase hover:text-orange">{{ post.lang }}</a>
+    {% for post in posts %}
+    /<a href="{{ post.url }}" class="no-underline text-grey ml-2 mr-2 uppercase hover:text-orange">{{ post.lang }}</a>
     {% endfor %}
 </div>
