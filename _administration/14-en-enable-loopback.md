@@ -14,13 +14,13 @@ In this scenario the preview in the Designer might not be able to show content l
 
 The so called "lookpback" can be allowed for individual Apps like the Peakboard Runtime.
 
-To accomplish this first open a PowerShell to get the __Fullpackagename__ of the Peakboard Runtime App.
+To accomplish this first open a PowerShell to get the __Packagefamilyname__ of the Peakboard Runtime App.
 
-`(Get-AppxPackage -Name peakboardruntimeapp).packagefullname`
-![01-get-packagefullname](/assets/images/admin/loopback/01-get-packagefullname.png)
+`(Get-AppxPackage -Name peakboardruntimeapp).packagefamilyname`
+![01-get-packagefamilyname](/assets/images/admin/loopback/01-get-packagefamilyname.png)
 Copy the received name and use it in the following command:
 
-`checknetisolation loopbackexempt -a -n="PeakboardRuntimeApp_1.0.31.1_x86__dr3692g8wct58"`
+`checknetisolation loopbackexempt -a -n="PeakboardRuntimeApp_dr3692g8wct58"`
 
 Please note the essential quotation marks in the command.
 ![02-add-loopback-exception](/assets/images/admin/loopback/02-add-loopback-exception.png)
