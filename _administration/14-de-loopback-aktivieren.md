@@ -13,7 +13,7 @@ Dies macht beispielsweise Probleme, wenn sich die Peakboard Bridge auf dem selbe
 
 Dieses sogenannte "Loopback" kann man für einzelne App wie die Peakboard Runtime erlauben.
 
-Hierzu öffnet man zuerst eine PowerShell, um den __Packagefamilyname__ der Peakboard Runtime zu erhalten.
+Hierzu öffnet man zuerst eine PowerShell (als Admin), um den __Packagefamilyname__ der Peakboard Runtime zu erhalten.
 
 `(Get-AppxPackage -Name peakboardruntimeapp).packagefamilyname`
 ![01-get-packagefamilyname](/assets/images/admin/loopback/01-get-packagefamilyname.png)
@@ -28,6 +28,9 @@ Die Aktion wird mit einem OK quittiert.
 Eine Liste mit allen Ausnahmen auf dem System, kann man mit dem folgenden Befehl ausgeben:
 
 `checknetisolation loopbackexempt -s`
+
+Hier kann man prüfen, ob der Befehlt erfolgreich war und der neue Eintrag mit der Peakboard Runtime auftaucht:
+![03-loopback-success.png](/assets/images/admin/loopback/03-loopback-success.png)
 
 Um einen Eintrag zu entfernen kann man folgendes verwenden:
 
