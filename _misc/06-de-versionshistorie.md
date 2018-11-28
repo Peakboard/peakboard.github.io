@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.32.0 (28.11.2018)
+* Der Bridge-Dialog wurde überarbeitet
+* Der Zeitserver wird jetzt global für die Visualisierung gesetzt
+
 ## 1.0.31.1 (22.11.2018)
 * Signalblock-Control hinzugefügt
 * Wlan Manager hinzugefügt
@@ -22,8 +26,6 @@ ref: misc-06
 * Fix für Änergunden im Select Data Dialog
 * Fix für die visible Eigenschaft im Zusammenhang mit Shadow Frames
 * Fix für für die gecachten Screenshots, die den Designer zum Absturz bringen konnten
-
-Übersetzt mit www.DeepL.com/Translator
 
 ## 1.0.30.2 (14.11.2018)
 * Hotfix für das Updaten von PDF Dateien
