@@ -4,7 +4,7 @@ title: Slack
 menu_title: Slack
 description: Information über Slack Daten in Peakboard
 lang: de
-ref: dat-24
+ref: dat-25
 ---
 Slack ist das Tool der Wahl, wenn es darum geht, schnell und unkompliziert Aufgaben in Teams zu kommunizieren, zu diskutieren und zu koordinieren. Die Slack-Datenquelle von Peakboard ermöglicht es dem Nutzer zum Einen, wie für Peakboard üblich, die Nachrichten aus einem Channel in benutzerdefinierten Intervallen abzurufen. Zum Anderen können über Slack WebSocket- und WebHook-Schnittstellen Nachrichten in Echtzeit gelesen und geschrieben werden. Somit kann die Slack-Anbindung nicht nur genutzt werden, um Chat-Verläufe zu visualisieren, sondern auch um in Echtzeit mit Peakboards im Netzwerk zu kommunizieren oder auch Peakboards untereinander kommunizieren zu lassen.
 
