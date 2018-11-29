@@ -7,6 +7,10 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.32.0 (28.11.2018)
+* Reworked Bridge data dialog
+* Time server is now set globally for the visualization
+
 ## 1.0.31.1 (22.11.2018)
 * Added Signal Block Control
 * Added Wifi Manager
