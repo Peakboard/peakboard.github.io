@@ -7,7 +7,18 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.32.1 (03.12.2018)
+
+* Fix for array handling in json data source
+* Fix for abas authentication in json data source
+
+## 1.0.32.0 (28.11.2018)
+
+* Reworked Bridge data dialog
+* Time server is now set globally for the visualization
+
 ## 1.0.31.1 (22.11.2018)
+
 * Added Signal Block Control
 * Added Wifi Manager
 * Updated Package Explorer Style
@@ -24,20 +35,25 @@ ref: misc-06
 * Fix for cached screenshots that could crash the designer
 
 ## 1.0.30.2 (14.11.2018)
+
 * Hotfix for not updating PDF files
 
 ## 1.0.30.1 (07.11.2018)
+
 * Hotfix for automatically grouping from clipboard pasted controls
 
 ## 1.0.30.0 (05.11.2018)
+
 * Excel files use a English culture now in the designer and Runtime
 * Tablegrid cell padding and margin can now be customized
 * Screens can be moved now with Ctrl + Up / Down
 
 ## 1.0.29.3 (31.10.2018)
+
 * Hotfix for zooming and scrolling WebViews
 
 ## 1.0.29.1 (30.10.2018)
+
 * Hotfix for changing the admin password
 
 ## 1.0.29.0 (29.10.2018)

@@ -7,7 +7,18 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.32.1 (03.12.2018)
+
+* Fix für den Umgang mit Listen in der JSON-Datenquelle
+* Fix für die abas-Authentifizierung in der JSON-Datenquelle
+
+## 1.0.32.0 (28.11.2018)
+
+* Der Bridge-Dialog wurde überarbeitet
+* Der Zeitserver wird jetzt global für die Visualisierung gesetzt
+
 ## 1.0.31.1 (22.11.2018)
+
 * Signalblock-Control hinzugefügt
 * Wlan Manager hinzugefügt
 * Updated Package Explorer Style
@@ -23,23 +34,26 @@ ref: misc-06
 * Fix für die visible Eigenschaft im Zusammenhang mit Shadow Frames
 * Fix für für die gecachten Screenshots, die den Designer zum Absturz bringen konnten
 
-Übersetzt mit www.DeepL.com/Translator
-
 ## 1.0.30.2 (14.11.2018)
+
 * Hotfix für das Updaten von PDF Dateien
 
 ## 1.0.30.1 (07.11.2018)
+
 * Hotfix für das automatische gruppieren aus der Zwischenablage eingefügter Controls
 
 ## 1.0.30.0 (05.11.2018)
+
 * Excel Dateien nutzen nun sowohl im Designer als auch in der Runtime englische Kultureinstellungen
 * Tablegrid Zellen padding and margin kann nun angepasst werden
 * Screens können nun mit Strg + Up / Down verschoben werden
 
 ## 1.0.29.3 (31.10.2018)
+
 * Hotfix für das Zoomen und Scrollen in WebViews
 
 ## 1.0.29.1 (30.10.2018)
+
 * Hotfix für das Ändern des Admin-Passworts
 
 ## 1.0.29.0 (29.10.2018)
