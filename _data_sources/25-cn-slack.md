@@ -2,57 +2,57 @@
 layout: article
 title: Slack
 menu_title: Slack
-description: Information about Slack data in Peakboard
-lang: en
-ref: dat-25
+description: 有关Peakboard中Slack数据的信息
+lang: cn
+ref: dat-24
 ---
-Slack is the tool of choice when it comes to communicating, discussing and coordinating tasks in teams quickly and easily. Peakboard's slack data source allows the user to retrieve messages from a channel at user-defined intervals, as is usual for Peakboard. On the other hand, messages can be read and written in real time via Slack's WebSocket and WebHook interfaces. Thus, the slack connection can not only be used to visualize chat processes, but also to communicate in real time with Peakboard boxes in the network or to let Peakboards communicate with each other.
+在团队中快速轻松地交流、讨论和协调任务时，slack是首选工具。Peakboard的slack数据源允许用户以用户定义的间隔从频道中检索消息，这在Peakboard中很常见。另一方面，消息可以通过Slack的WebSocket和WebHook接口实时读取和写入。因此，slack连接不仅可以用于可视化聊天过程，还可以与网络中的Peakboard Box实时通信，或者让Peakboard彼此通信。
 
-## Prerequisites
+##先决条件
 
-Depending on how you want to interact with Slack, some measures are needed on its side to enable communication.
-In any case, a token is required. This token is used to link a slack account with the requests of the Peakboard. This token can be created [here](https://api.slack.com/custom-integrations/legacy-tokens). The user must be logged in for this.
-With this token, both the messages are retrieved via interval-controlled request and real-time communication is authorized.
-Writing to the channel is currently only supported by WebHooks. These can be created by the administrator of the workspace in the menu. The navigation to the corresponding entry is shown in the following screenshots.
+根据您想要与Slack交互的方式，需要在它的一侧采取一些措施来启用通信。
+在任何情况下，都需要令牌。此令牌用于将slack帐户与Peakboard的请求连接起来。这个令牌可以在[此处]（https://api.slack.com/custom-integrations/legacy-tokens）创建。为进行创建，用户必须登录。
+在此基础上，通过间隔控制请求检索消息，并授权实时通信。
+目前只有WebHooks支持写入通道。可以由工作区管理员在菜单中创建。相应条目的导航显示在下面的截图中。
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_00_WebHook.png)
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_01_WebHook2.png)
 
-## Setting up the data source
+##设置数据源
 
-In addition to the mandatory name of the data source, the linchpin is the token already mentioned above. By clicking on the "Get Channel" button, the channels available for the account are requested and displayed in the drop-down menu below.
+除了数据源的强制名称之外，上面已提及的令牌是关键。通过点击“获取通道”按钮，请求获得账户可用通道并显示在下面的下拉菜单中。
 
-The tickbox "Show user names" replaces the user abbreviations in the results with their names. You may only want to read from the channel and evaluate the messages regardless of the station. In this case you can save some network load and use the user IDs for further processing.
+在复选框“显示用户名”中将结果中的用户缩写替换为他们的名字。您可能只想从通道中读取并评估消息，而不管配置如何。在这种情况下，您可以保留一些网络负载，并使用用户ID进行进一步处理。
 
-The next item in the dialog provides the possibility to ignore messages of certain users. This applies to all messages received by the data source.
+对话框中的下一项提供了可以忽略某些用户消息的可能性。这适用于数据源接收的所有消息。
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_03_UserList.png)
 
-## Real-time communication
+##实时通信
 
-Receiving messages from slack channels in real time is the second core feature of the slack data source, alongside the standard interval-driven display of messages. Here, communication can take place via WebSockets without significant time delay. This enables the user to address single or arbitrarily large groups of Peakboard boxes with maximum flexibility.
+实时接收来自slack通道的消息是slack数据源的第二个核心特性，同时还可以按照标准间隔显示消息。这里，可以通过WebSockets进行通信，没有明显的时间延迟。这使得用户能够以最大的灵活性处理单个或任意大组合的Peakboard Box。
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_04_RTM.png)
 
-Via the script, which is stored in the dialog using the "{}" button, each message can be evaluated individually according to arbitrary aspects. This allows information to be displayed or manipulated on the Peakboard with minimal delay. Writing to the channel is also possible from this script.
+通过使用“{}”按钮储存对话框中的脚本，可以根据任意方面单独评估每条消息。这允许可以在Peakboard上显示或操作信息，且延迟最小。从这一脚本也可以写入通道。
 
-## Send messages to Slack via WebHooks
+##通过WebHooks向Slack发送消息
 
-Another way of communication offered by Slack is WebHooks. These provide a quick and easy way to send messages directly to the configured channel via a bot.
+Slack提供有另一种交流方式，即WebHooks。这些交流方式非常快速和简单，可以通过聊天机器人将消息直接发送到配置通道。
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_05_WebHookSection.png)
 
-The script command to send text to a channel is simple and looks like this:
+将文本发送至通道的脚本命令非常简单，如下所示：
 ```lua
 data.[slack].writetochannel('message')
 ```
-Due to a bug in Microsoft's software, a WebHook is required if you want to write to a channel.
+由于微软软件中存在漏洞，所以如果您想写入通道，必须使用WebHook。
 
-## Preview the data
+##预览数据
 
-To complete the setup of the data source, the structure of the slack data must now be prepared. This is done by clicking on the "Load Columns" button. In this way, the data is loaded for testing purposes and its structure is determined.
-With a click on the "Preview" button you can finally view the messages from the slack channel and thus ensure that the data source is configured correctly.
+如需完成数据源设置，首先必须准备slack数据结构。这可以通过点击“加载列”按钮完成。这样，将可以加载数据进行测试并确定其结构。
+通过点击“预览”按钮，最终您将可以查看slack通道的消息，从而确保数据源配置正确。
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_06_Preview.png)
 
-Since the real-time communication of the data source is fundamentally different from the interval-controlled loading of the data usually used for Peakboards, "Reload Interval" and "Preview" only apply to the interval-controlled functionality of the data source. There is no way to test the real-time connection in the Peakboard Designer. However, standard communication, real time messaging and WebHooks run over the same interface. Thus, it can be assumed that the rest of the data source will also work if the preview runs successfully.
+从根本上说，由于数据源的实时通信不同于通常用于Peakboards的数据间隔控制加载，所以“重新加载间隔”和“预览”仅适用于数据源间隔控制功能。Peakboard Designer中无法测试实时连接。然而，标准通信、实时通信和WebHooks在同一界面上运行。因此，可以假设，如果成功运行预览，则数据源的其余部分也将工作。
