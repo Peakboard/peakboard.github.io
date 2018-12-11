@@ -3,7 +3,7 @@ layout: article
 title: Azure IoT Hub
 menu_title: Azure IoT Hub
 description: Peakboard中的Azure IoT中心数据相关信息
-lang: en
+lang: cn
 ref: dat-20
 ---
 本文展示了在Peakboard中使用Azure物联网中心数据源的方法。请首先明确数据源物联网中心和事件中心之间的区别。后者解释见此处（/data_sources/19-en-azure-event-hub.html）。事件中心源仅用于接收消息。因此，这只适用于对事件的异步反应。在物联网中心源中，Peakboard充当Azure物联网中心内的设备。必须作为设备进行创建。如要做到这一点，您需要Azure门户的连接字符串，该字符串直接与设备相关联。

@@ -3,10 +3,8 @@ layout: article
 title: Peakboard.io表
 menu_title: Peakboard.io表
 description: 关于Peakbaord中Peakbaord.io表数据的信息
-lang: en
+lang: cn
 ref: dat-23
-redirect_from:
-
 ---
 在[Peakboard.io](https://peakboard.io/myaccountlogin) 门户中，您可以维护表对象。这些表可以像其他数据源一样包含在Designer中。请参见[本教程](/peakboardio/01-en-intro-peakboard-io.html) 中关于使用门户和API键访问Peakboard.io对象的信息。
 

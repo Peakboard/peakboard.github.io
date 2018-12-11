@@ -7,7 +7,7 @@
                 <input type="checkbox" name="accordian_radio" id="{{ collection.label }}" class="accordian-trigger hidden">
                 <label for="{{ collection.label }}" class="py-3 pr-8 flex justify-between items-center w-full accordian-label text-black font-light text-3xl md:text-4xl hover:text-orange cursor-pointer">
                     <span class="flex items-center">
-                        {% include {{ collection.icon }} %}
+                        {% include svg/{{ collection.icon }} %}
                         <span class="ml-4">{{ collection.title[page.lang] }}</span>
                     </span>
                     <span class="accordian-icon flex justify-center items-center">
