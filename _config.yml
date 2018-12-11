@@ -21,7 +21,7 @@ plugins:
 tipue_search:
   include:
     pages: true
-    collections: [tutorials, video_tutorials,data_sources,dataflows,controls,misc,administration,peakboardio]
+    collections: [tutorials,video_tutorials,data_sources,dataflows,controls,misc,administration,peakboardio]
 
 collections:
   tutorials:
@@ -40,7 +40,6 @@ collections:
     title:
       en: "Video Tutorials"
       de: "Video Tutorials"
-      cn: "视频辅导课"
 
   data_sources:
     output: true
