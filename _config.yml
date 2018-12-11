@@ -19,6 +19,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
 
+collections_dir: content
 collections:
   tutorials:
     output: true
