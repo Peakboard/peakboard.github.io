@@ -3,7 +3,7 @@ layout: article
 title: Feed
 menu_title: Feed
 description: Information about RSS Feed Data  in Peakboard
-lang: en
+lang: cn
 ref: dat-04
 ---
 The feed data source is very simple. It is used to use RSS-Feeds in Peakboard.

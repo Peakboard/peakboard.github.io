@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Peakboard-Bridge für ODBC und Oracle
 menu_title: Peakboard-Bridge für ODBC und Oracle
 description: Peakboard-Bridge für ODBC und Oracle

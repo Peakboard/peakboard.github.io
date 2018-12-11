@@ -3,7 +3,7 @@ layout: article
 title: JSON
 menu_title: JSON
 description: Information about JSON Data  in Peakboard
-lang: en
+lang: cn
 ref: dat-06
 
 ---

@@ -1,5 +1,5 @@
 ---
-layout: peakboardio
+layout: article
 title:  Einführung und Übersicht
 menu_title:  Einführung und Übersicht
 description:  Einführung und Übersicht

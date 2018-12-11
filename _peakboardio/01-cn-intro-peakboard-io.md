@@ -1,5 +1,5 @@
 ---
-layout: peakboardio
+layout: article
 title: 介绍和概述
 menu_title: 介绍和概述
 description: 介绍和概述

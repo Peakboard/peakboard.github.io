@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Microsoft Dynamics NAV
 menu_title: Microsoft Dynamics NAV
 description: Information über Microsoft Dynamics NAV Daten in Peakboard

@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: SAP mit XQL
 menu_title: XQL
 description: Information über die Nutzung von XQL

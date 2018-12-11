@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Microsoft Calendar
 menu_title: Micorsoft Calendar
 description: Information über Kalender Integration in Peakboard

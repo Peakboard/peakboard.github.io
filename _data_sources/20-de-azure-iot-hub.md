@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Azure IoT Hub
 menu_title: Azure IoT Hub
 description: Information über Azure IoT Hub Daten in Peakboard

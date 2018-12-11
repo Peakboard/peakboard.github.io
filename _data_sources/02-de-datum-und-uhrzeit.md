@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Datum und Urzeit
 menu_title: Datum und Urzeit
 description: Informationen über Zeit- und Datumsangaben in Peakboard

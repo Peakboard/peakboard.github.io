@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Feed
 menu_title: Feed
 description: Information über RSS Feed Daten  in Peakboard

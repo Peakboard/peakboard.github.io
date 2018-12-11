@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: CSV
 menu_title: CSV
 description: Information über CSV Daten in Peakboard

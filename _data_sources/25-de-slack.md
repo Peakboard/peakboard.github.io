@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Slack
 menu_title: Slack
 description: Information über Slack Daten in Peakboard

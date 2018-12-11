@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Azure SQL
 menu_title: Azure SQL
 description: Information über Azure SQL Daten in Peakboard

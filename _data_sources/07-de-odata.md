@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: OData
 menu_title: OData
 description: Information über OData in Peakboard

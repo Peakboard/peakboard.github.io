@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Statische Daten
 menu_title: Statische Daten
 description: Information über Statische Daten in Peakboard

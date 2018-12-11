@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Excel
 menu_title: Excel
 description: Informationen über Excel-Daten in Peakboard

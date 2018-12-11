@@ -18,10 +18,6 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-multiple-languages-plugin
-tipue_search:
-  include:
-    pages: true
-    collections: [tutorials,video_tutorials,data_sources,dataflows,controls,misc,administration,peakboardio]
 
 collections:
   tutorials:

@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: OPC UA
 menu_title: OPC UA
 description: Information über OPC UA Daten in Peakboard

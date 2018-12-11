@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: Instagram
 menu_title: Instagram
 description: Information über Instagram Daten in Peakboard

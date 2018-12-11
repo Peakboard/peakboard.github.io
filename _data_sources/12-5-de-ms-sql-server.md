@@ -1,5 +1,5 @@
 ---
-layout: datenquellen-article
+layout: article
 title: MS SQL Server
 menu_title: MS SQL Server
 description: Information über MS SQL Server Daten in Peakboard

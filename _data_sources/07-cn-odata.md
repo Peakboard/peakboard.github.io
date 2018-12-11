@@ -3,7 +3,7 @@ layout: article
 title: OData
 menu_title: OData
 description: Information about OData in Peakboard
-lang: en
+lang: cn
 ref: dat-07
 ---
 This page explains the individual features when accessing OData data sources from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to peakboard elements:

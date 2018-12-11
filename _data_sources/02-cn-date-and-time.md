@@ -3,7 +3,7 @@ layout: article
 title: Date and Time
 menu_title: Date and Time
 description: Information about time and date data in Peakboard
-lang: en
+lang: cn
 ref: dat-02
 ---
 Currently the Peakboard-Box has no possibility to remember the time after a restart. For this reason, it is possible to integrate date and time as a normal data source within the Designer. The data source is not tabular, but only a scalar single value.

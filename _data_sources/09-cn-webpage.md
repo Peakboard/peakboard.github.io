@@ -2,7 +2,7 @@
 layout: article
 title: 网页
 menu_title: 网页
-description: Peakboar中网页数据的相关信息
+description: Peakboard中网页数据的相关信息
 lang: cn
 ref: dat-09
 ---
