@@ -135,10 +135,11 @@ language:
     footer-contact-email: "电话："
     footer-contact-website: "网站："
     footer-copyright: "版权所有，保留所有权利"
-    search-title: "Peakboard Search"
-    search-results: "Results"
-    search-no-results: "We didn't find any results for the search: "
-    search-bar-placeholder: "Search..."
+    search-title: "Peakboard搜索"
+    search-results: "搜索结果"
+    search-no-results: "我们没有找到该搜索的结果： "
+    search-bar-placeholder: "搜索..."
+
 
 algolia:
   application_id: '75B7PWB4DF'
