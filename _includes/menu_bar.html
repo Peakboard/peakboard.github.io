@@ -7,7 +7,7 @@
 <div class="relative h-12 md:hidden lg:hidden flex items-center cursor-pointer">
     <form class="search-form search-form-mobile" action="{{search_link}}">
         <div class="md:flex items-center border-b border-grey-light h-12 bg-grey-darker text-grey-light" style="width:100%">
-            <input class="search-form-input search-form-input-mobile text-grey-light bg-grey-darkest" autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="Search words..." role="textbox" spellcheck="false" type="text" value="" name="fromHomepage" >
+            <input class="search-form-input search-form-input-mobile text-grey-light bg-grey-darkest" autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="{{ site.language[page.lang].search-bar-placeholder }}" role="textbox" spellcheck="false" type="text" value="" name="fromHomepage" >
         </div>
         <button type="submit" class="no-underline hover:text-orange text-grey-light md:flex items-center bg-grey-darkest border-b border-grey-light px-3 h-12" style="padding-right: 32px;">
             {% include svg/search-24.svg %}
