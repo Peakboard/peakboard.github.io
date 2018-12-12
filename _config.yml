@@ -111,6 +111,10 @@ language:
     footer-contact-email: "E-Mail:"
     footer-contact-website: "Website:"
     footer-copyright: "All rights are reserved."
+    search-title: "Peakboard Search"
+    search-results: "Results"
+    search-no-results: "We didn't find any results for the search: "
+    search-bar-placeholder: "Search..."
   de:
     footer-support: "Support"
     footer-support-tel: "Tel:"
@@ -119,6 +123,10 @@ language:
     footer-contact-email: "E-Mail:"
     footer-contact-website: "Website:"
     footer-copyright: "All rights are reserved."
+    search-title: "Peakboard Search"
+    search-results: "Results"
+    search-no-results: "We didn't find any results for the search: "
+    search-bar-placeholder: "Search..."
   cn:
     footer-support: "Support"
     footer-support-tel: "Tel:"
@@ -127,7 +135,17 @@ language:
     footer-contact-email: "E-Mail:"
     footer-contact-website: "Website:"
     footer-copyright: "All rights are reserved."
+    search-title: "Peakboard Search"
+    search-results: "Results"
+    search-no-results: "We didn't find any results for the search: "
+    search-bar-placeholder: "Search..."
 
+algolia:
+  application_id: '75B7PWB4DF'
+  index_name: peakboard-help
+  settings:
+    attributesForFaceting: ['title','searchable(collection)', 'searchable(search-ignore)']
+    searchableAttributes: ['title','unordered(content)','collection','description','search-ignore']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -144,3 +162,4 @@ exclude:
   - docs
   - .idea
   - .idea/*
+  - vendor

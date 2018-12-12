@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Ressources
-menu_title: Ressources
-description: Additional Ressources
+title: Resources
+menu_title: Resources
+description: Additional Resources
 lang: en
 ref: misc-01
 ---

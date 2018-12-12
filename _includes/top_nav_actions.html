@@ -1,6 +1,20 @@
+{% if page.lang == 'de' %}
+    {% capture search_link %}/search.html{% endcapture %}
+{% else %}
+    {% capture search_link %}/{{page.lang}}/search.html{% endcapture %}
+{% endif %}
+
 <a href="/" class="no-underline hover:text-orange text-grey-light hidden md:flex items-center border-l border-grey-light px-3 h-12">
     {% include svg/home.svg %}
 </a>
 <a href="mailto:support@peakboard.com" class="no-underline hover:text-orange text-grey-light flex items-center border-l border-grey-light px-3 h-12">
     {% include svg/mail.svg %}
 </a>
+<form class="search-form" action="{{search_link}}">
+    <div class="md:flex hidden items-center border-l border-grey-light px-3 h-12 bg-grey-darkest text-grey-light">
+        <input class="search-form-input text-grey-light bg-grey-darkest" autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="Search words..." role="textbox" spellcheck="false" type="text" value="" name="fromHomepage" >
+    </div>
+    <button type="submit" class="no-underline hover:text-orange text-grey-light md:flex hidden items-center bg-grey-darkest border-grey-light px-3 h-12">
+        {% include svg/search-24.svg %}
+    </button>
+</form>

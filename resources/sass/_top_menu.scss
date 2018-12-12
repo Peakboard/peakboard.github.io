@@ -79,3 +79,45 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+
+.search-form {
+  display: inherit;
+}
+.search-form button {
+  cursor: pointer;
+}
+.search-form-mobile {
+  width: 100%;
+}
+
+.search-form-input {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+.search-form-input:focus {
+  outline: none;
+}
+
+.search-form-input-mobile {
+  padding: 6px 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.search-form-button {
+  float: right;
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form-button:focus {
+  outline: none;
+}
+
+.search-form-button:hover {
+  background: #ccc;
+}

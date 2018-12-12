@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}" class="h-full no-js">
+<head>
+    {% include head.html %}
+    <script src="{{ '/assets/search/instantsearch.min.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
+    <script src="{{ '/assets/search/jquery-1.11.2.min.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
+    <script src="{{ '/assets/search/search.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
+    <link href="{{ '/assets/search/instantsearch.min.css' | relative_url }}?{{ site.time | date: '%s%N' }}" rel="stylesheet">
+    <link href="{{ '/assets/search/instantsearch-theme-algolia.min.css' | relative_url }}?{{ site.time | date: '%s%N' }}" rel="stylesheet">
+</head>
+
+<body class="font-sans flex flex-col min-h-full">
+
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<div class="flex-auto">
+    {% include page_header.html lang_selector="article" %}
+
+    {% for lang in site.language %}
+        {% if lang contains page.lang %}
+            {% for text in lang %}
+                {% if text != page.lang %}
+                    {% assign text_search_title = text.search-title %}
+                    {% assign text_search_results = text.search-results %}
+                    {% assign text_search_no_results = text.search-no-results %}
+                    {% assign text_search_bar_placeholder = text.search-bar-placeholder %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+
+    <section class="hero py-8 px-8">
+        <h3 class="font-bold text-4xl text-white">{{ text_search_title }}</h3>
+    </section>
+
+    <section class="text-center py-8 px-8">
+        <div id="search-box">
+            <!-- SearchBox -->
+        </div>
+    </section>
+
+    <div class="accordian-nav my-6 max-w-xl mx-auto">
+        <div id="results" class="ais-menu-select--header ais-header">
+            {{ text_search_results }}
+        </div>
+        <div id="hits">
+            <!-- Hits -->
+        </div>
+        <div id="pagination">
+            <!-- Pagination  -->
+        </div>
+    </div>
+
+    <!-- TEMPLATES -->
+    {% raw %}
+    <script type="text/html" id="hit-template">
+        <a href="{{ url }}?fromSearch=true">
+            <div class="hit">
+                <div class="hit-content">
+                    <h3 class="hit-page-title">{{ title }}</h3>
+                    <p class="hit-category">{{ collection }}</p>
+                    <p class="hit-description">{{{ _highlightResult.content.value }}}</p>
+                </div>
+            </div>
+        </a>
+        <div class="ais-menu-select--header ais-header"></div>
+    </script>
+
+    <script type="text/html" id="no-results-template">
+        <div id="no-results-message">
+            <p>{% endraw %}{{ text_search_no_results }}{% raw %} <em>"{{ query }}"</em>.</p>
+        </div>
+    </script>
+    {% endraw %}
+    <!-- /TEMPLATES -->
+
+    <!-- LANGUAGE -->
+    <div id="search-box-text" class="invisible">{{ text_search_bar_placeholder }}</div>
+    <!-- /LANGUAGE -->
+</div>
+
+{% include footer.html %}
+
+<script src="{{ '/assets/app.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
+</body>
+
+</html>
