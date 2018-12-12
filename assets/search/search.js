@@ -12,7 +12,7 @@ var main = {
             indexName: 'peakboard-help',
             routing: true,
             searchParameters: {
-                filters: 'NOT search-ignore:true'
+                filters: 'NOT search-ignore:true AND lang:"' + document.querySelector('#language').innerHTML + '"'
             },
             highlightPreTag: '<em class="search-highlight">',
             highlightPostTag: '</em>',
