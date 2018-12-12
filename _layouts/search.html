@@ -15,7 +15,7 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 <div class="flex-auto">
-    {% include page_header.html lang_selector="article" %}
+    {% include page_header.html lang_selector="search" %}
 
     {% for lang in site.language %}
         {% if lang contains page.lang %}
@@ -32,9 +32,6 @@
 
     <section class="hero py-8 px-8">
         <h3 class="font-bold text-4xl text-white">{{ text_search_title }}</h3>
-    </section>
-
-    <section class="text-center py-8 px-8">
         <div id="search-box">
             <!-- SearchBox -->
         </div>
