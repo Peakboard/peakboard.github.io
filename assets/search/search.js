@@ -18,8 +18,8 @@ var main = {
             highlightPostTag: '</em>',
             searchFunction(helper) {
                 if(getUrlVars()["fromHomepage"]) {
-                    $('.ais-search-box--input').val(getUrlVars()["fromHomepage"]);
-                    helper.setQuery(getUrlVars()["fromHomepage"]).search();
+                    $('.ais-search-box--input').val(decodeURI(getUrlVars()["fromHomepage"]));
+                    helper.setQuery(decodeURI(getUrlVars()["fromHomepage"])).search();
                 } else {
                     helper.search();
                 }
@@ -30,7 +30,7 @@ var main = {
         search.addWidget(
             instantsearch.widgets.searchBox({
                 container: '#search-box',
-                placeholder: (getUrlVars()["fromHomepage"] ? getUrlVars()["fromHomepage"] : document.querySelector('#search-box-text').innerHTML),
+                placeholder: (getUrlVars()["fromHomepage"] ? decodeURI(getUrlVars()["fromHomepage"]) : document.querySelector('#search-box-text').innerHTML),
                 poweredBy: false
             })
         );
