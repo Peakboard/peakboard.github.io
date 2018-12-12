@@ -55,21 +55,6 @@ var main = {
         );
 
         search.start();
-
-        /*search.on('render', function() {
-            $('.hit-category').each(function() {
-
-                switch ($(this).text()) {
-                    {% for collection in site.collections %}
-                        case '{{ collection.label }}':
-                            $(this).html('{{ collection.name }}');
-                            break;
-                    {% endfor %}
-                    default:
-                        break;
-                }
-            });
-        });*/
     }
 };
 

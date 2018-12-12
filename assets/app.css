@@ -5809,6 +5809,45 @@ pre[class*="language-"] {
   }
 }
 
+.ais-hits em {
+  color: #f29205;
+}
+
+#hits a,
+#hits a:hover {
+  color: #131516;
+  text-decoration: none;
+}
+
+.hit-content h3 {
+  margin-bottom: 0;
+}
+
+#pagination {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.ais-pagination {
+  display: inline-block;
+}
+
+.ais-pagination--item__active {
+  background: #f29205 !important;
+}
+
+.result-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 990px) {
+  .result-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

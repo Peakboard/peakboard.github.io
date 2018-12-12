@@ -32,12 +32,12 @@
 
     <section class="hero py-8 px-8">
         <h3 class="font-bold text-4xl text-white">{{ text_search_title }}</h3>
-        <div id="search-box">
+        <div id="search-box" class="mt-4">
             <!-- SearchBox -->
         </div>
     </section>
 
-    <div class="accordian-nav my-6 max-w-xl mx-auto">
+    <div class="result-container my-6 max-w-xl">
         <div id="results" class="ais-menu-select--header ais-header">
             {{ text_search_results }}
         </div>
@@ -56,7 +56,6 @@
             <div class="hit">
                 <div class="hit-content">
                     <h3 class="hit-page-title">{{ title }}</h3>
-                    <p class="hit-category">{{ collection }}</p>
                     <p class="hit-description">{{{ _highlightResult.content.value }}}</p>
                 </div>
             </div>
