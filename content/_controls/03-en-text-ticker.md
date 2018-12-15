@@ -5,7 +5,6 @@ menu_title: Text-Ticker
 description: Information about Peakboard Designer Text-Ticker Control.
 lang: en
 ref: con-03
-permalink: /en/:collection/text-ticker
 ---
 
 The Text Ticker Control is intended to display a scrolling text. Please note the following general additional information:

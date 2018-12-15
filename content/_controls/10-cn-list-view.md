@@ -5,7 +5,6 @@ menu_title: ListView
 description: Peakboard Designer ListView控件相关信息。
 lang: cn
 ref: con-10
-permalink: /cn/:collection/list-view
 ---
 
 ListView控件可为任何形状，只要可包含重复元素。因此，为了正常工作，其必须链接到表格数据源。其为简单列表还是复杂元素需由XAML片段定义。如果您不熟悉XAML，您可以在这里(https://msdn.microsoft.com/en-us/library/cc295302.aspx)了解更多相关知识。这是一种可以用来定义由图像、文本和其他元素组成的界面的描述语言。类似于HTML，但效果更好。

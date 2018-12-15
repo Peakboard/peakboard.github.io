@@ -5,7 +5,6 @@ menu_title: 表格网格
 description: Peakboard Designer表格网格控件相关信息。
 lang: cn
 ref: con-04
-permalink: /cn/:collection/table-grid
 ---
 
 控件表格网格用于以表格形式显示数据。除了简单的文本块，它是最常用的控件。请注意以下一般信息和控件的重复操作模式：

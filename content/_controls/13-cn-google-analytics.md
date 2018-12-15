@@ -5,7 +5,6 @@ menu_title: 谷歌分析报告
 description: 关于Peakboard设计的谷歌分析报告控件。
 lang: cn
 ref: con-13
-permalink: /cn/:collection/google-analytics
 ---
 
 创建谷歌分析报告必须设立一个Peakboard.io帐户。在[Peakboard.io门户](/peakboardio/01-en-intro-peakboard-io.html) 中定义GA报告，然后使用相应的控件嵌入到设计器中。

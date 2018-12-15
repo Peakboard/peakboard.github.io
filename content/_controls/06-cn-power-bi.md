@@ -5,7 +5,6 @@ menu_title: Power BI
 description: Peakboard Designer Power BI控件相关信息。
 lang: cn
 ref: con-06
-permalink: /cn/:collection/power-bi
 ---
 
 Peakboard-Designer包括一个允许用户在Peakboard显示器上显示相应仪表板，而不必让其可公开访问的Power BI控件。磁贴是Power BI仪表板的一部分。Power BI中的每个仪表板由一个或多个磁贴组成。作为您需要的最低要求。

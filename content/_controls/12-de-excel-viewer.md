@@ -5,7 +5,6 @@ menu_title: Excel Viewer
 description: Information über Peakboard Designer Excel ViewerControl.
 lang: de
 ref: con-12
-permalink: /de/:collection/excel-viewer
 ---
 
 Grundsätzlich bietet Peakboard umfangreiche Möglichkeiten, Daten aus unterschiedlichsten Quellen einzubinden und dann diese Daten mit Steuerelementen zu visualisieren. Das ist der Standardweg. In manchen Fällen kann es sinnvoll sein, aber auch schon die Visualisierung von außen zu importieren und nicht nur die Daten. Dieses Kapitel beschreibt das Excel-Viewer-Control, mit dessen Hilfe ein Chart, das in einem Excel-File eingebettet ist, als Teil der Visualisierung direkt eingebunden werden kann.

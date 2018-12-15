@@ -5,7 +5,6 @@ menu_title: Tableau
 description: Information über Peakboard Designer Tableau Control.
 lang: de
 ref: con-07
-permalink: /de/:collection/tableau
 ---
 
 Mit dem Tableau View Steuerelement können Sie Tableau Views auf dem PeakBoard anzeigen lassen. Die Tabelau View befindet sich auf einem Tableau Server und wird auch dort gerendert. Peakboard dient als Anzeige.

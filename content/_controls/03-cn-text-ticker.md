@@ -5,7 +5,6 @@ menu_title: Text-Ticker
 description: 有关Peakboard Designer Text-Ticker控件的信息。
 lang: cn
 ref: con-03
-permalink: /cn/:collection/text-ticker
 ---
 
 文本Text Ticker控件旨在显示滚动文本。请注意以下一般附加信息：

@@ -5,7 +5,6 @@ menu_title: Tableau
 description: Peakboard Designer Tableau控件相关信息。
 lang: cn
 ref: con-07
-permalink: /cn/:collection/tableau
 ---
 
 您可以使用Tableau视图控件元素在Peakboard上显示Tableau视图。Tabelau视图位于Tableau服务器上，并在那呈现。Peakboard可作为显示器。
