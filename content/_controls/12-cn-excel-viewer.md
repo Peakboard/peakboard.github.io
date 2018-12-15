@@ -5,7 +5,6 @@ menu_title: Excel Viewer
 description: Peakboard Designer Excel Viewer控件相关信息。
 lang: cn
 ref: con-12
-permalink: /cn/:collection/excel-viewer
 ---
 
 Peakboard提供了各种途径来整合来自不同来源的数据，然后再用控件可视化这些数据。这是默认方式。在某些情况下，从外部而不仅仅是从数据处导入可视化是很有用的一种方式。本章介绍了Excel Viewer控件，借助该控件，嵌入Excel文件中的图表可以直接集成为可视化的一部分。
