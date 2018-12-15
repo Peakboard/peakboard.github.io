@@ -5,6 +5,7 @@ menu_title: 不受限制的路径长度
 description: 不受限制的路径长度
 lang: cn
 ref: admin-12
+permalink: /cn/:collection/path-length
 ---
 
 在某些情况下，有必要取消Windows IoT路径长度的限制。

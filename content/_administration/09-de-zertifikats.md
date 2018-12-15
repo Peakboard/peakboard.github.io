@@ -5,6 +5,7 @@ menu_title: Hinzufügen eines Zertifikats
 description: Hinzufügen eines Zertifikats
 lang: de
 ref: admin-09
+permalink: /de/:collection/zertifikats
 ---
 
 Als erstes muss das Zertifikat als Datei auf dem Dateisystem vorliegen.

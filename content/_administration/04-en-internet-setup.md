@@ -5,6 +5,7 @@ menu_title: Setting up an Internet Connection With a Proxy Server
 description: Setting up an Internet Connection With a Proxy Server
 lang: en
 ref: admin-04
+permalink: /en/:collection/internet-setup
 ---
 
 Open the Windows Device Portal (http://<ip-address-<peakboard>: 8080) of the Box.

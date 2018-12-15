@@ -5,6 +5,7 @@ menu_title: Adding a Peakboard-Box to the Peakboard-Designer
 description: Adding a Peakboard-Box to the Peakboard-Designer
 lang: en
 ref: admin-07
+permalink: /en/:collection/adding-box-to-designer
 ---
 
 To add a Peakboard-Box to the Peakboard-Designer, click the Manage button in the Peakboard-Designer area’s top menu bar. A new window will open.

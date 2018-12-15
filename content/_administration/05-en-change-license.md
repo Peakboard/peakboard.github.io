@@ -5,6 +5,7 @@ menu_title: Change License
 description: Change License
 lang: en
 ref: admin-05
+permalink: /en/:collection/change-license
 ---
 
 To change the license of a Peakboard-Box click on the Manage button in the Peakboard-Designer.

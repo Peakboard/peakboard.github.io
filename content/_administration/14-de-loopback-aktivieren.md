@@ -5,6 +5,7 @@ menu_title: Loopback aktivieren
 description: Loopback aktivieren für UWP App
 lang: de
 ref: admin-14
+permalink: /de/:collection/loopback-aktivieren
 ---
 
 Standardmäßig erlaubt ist es einer UWP-App nicht erlaubt auf lokale Netzwerkressourcen zuzugreifen.

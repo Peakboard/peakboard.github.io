@@ -5,6 +5,7 @@ menu_title: Ports und Netzwerktraffic
 description: Ports und Netzwerktraffic
 lang: de
 ref: admin-20
+permalink: /de/:collection/ports-und-netzwerk-traffic
 ---
 
 Die Peakboard-Box kommuniziert bekannterweise ja mit allen möglichen Vorsystemen. Darüber hinaus werden auch Kommunikationskanäle zur Administration der Box benötigt. In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen Kanäle genutzt werden. Es kommt natürlich immer auf den Einzelfall an, welche Ports für die jeweilige Kundenanforderung genutzt werden.

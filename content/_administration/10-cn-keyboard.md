@@ -5,6 +5,7 @@ menu_title: 更改键盘布局
 description: 更改键盘布局
 lang: cn
 ref: admin-10
+permalink: /cn/:collection/keyboard
 ---
 
 默认情况下，Windows IoT核芯中使用的为“QWERTY”键盘布局。

@@ -5,6 +5,7 @@ menu_title: Enable loopback
 description: Enable loopback for uwp app
 lang: en
 ref: admin-14
+permalink: /en/:collection/enable-loopback
 ---
 
 Per default for uwp apps it is not allowed to access local network resources through local loopback.
