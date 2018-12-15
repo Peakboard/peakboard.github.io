@@ -5,7 +5,6 @@ menu_title: 设置与代理服务器的互联网连接
 description: 设置与代理服务器的互联网连接
 lang: cn
 ref: admin-04
-permalink: /cn/:collection/internet-setup
 ---
 
 打开Box的Windows设备门户（http://<ip-address-<peakboard>:8080）。

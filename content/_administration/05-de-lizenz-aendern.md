@@ -5,7 +5,6 @@ menu_title:  Lizenz ändern
 description:  Lizenz ändern
 lang: de
 ref: admin-07
-permalink: /de/:collection/lizenz-aendern
 ---
 
 Um die Lizenz einer Peakboard-Box zu ändern Klicken Sie im Peakboard Designer zunächst auf den Manage Button.

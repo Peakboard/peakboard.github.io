@@ -5,7 +5,6 @@ menu_title: Wechseln der Visualisierung
 description: Wechseln der Visualisierung
 lang: de
 ref: admin-08
-permalink: /de/:collection/wechseln
 ---
 
 Um die aktuelle Visualisierung auf einer Peakboard-Box zu wechseln, gehen Sie im Designer auf Manage. Klicken Sie im neuen Fenster auf das Dropdown-Menü rechts von der gewünschten Peakboard-Box. Wählen Sie hier den Menüpunkt Activate Peakboard.

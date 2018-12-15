@@ -5,7 +5,6 @@ menu_title: 更新Peakboard-Box
 description: 更新Peakboard-Box
 lang: cn
 ref: admin-06
-permalink: /cn/:collection/updating
 ---
 
 如要更新Peakboard-Box，请单击上部Peakboard-Designer区域菜单栏中的“管理”按钮。将会打开一个新窗口。

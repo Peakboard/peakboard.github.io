@@ -5,7 +5,6 @@ menu_title: Unrestrict path length
 description: Unrestrict path length
 lang: en
 ref: admin-12
-permalink: /en/:collection/path-length
 ---
 
 In some cases it is necessary to unlimit the path length of Windows IoT.

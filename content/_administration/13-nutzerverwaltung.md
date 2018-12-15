@@ -5,7 +5,6 @@ menu_title: Nutzerverwaltung
 description: Nutzerverwaltung
 lang: de
 ref: admin-13
-permalink: /de/:collection/nutzerverwaltung
 ---
 
 Peakboard bietet eine Vielzahl von Anwendungsmöglichkeiten. Das hat zur Folge, dass in einem Unternehmen unterschiedlichste Personengruppen mit den Visualisierungen in Verbindung kommen. Um diesen Umstand abzubilden, hat Peakboard die Möglichkeit für jede Box Nutzer hinzuzufügen, welche einer bestimmten Nutzergruppe zugeordnet werden. Diese Gruppe kann dann mit den Berechtigungen versehen werden, die für die Arbeit der jeweiligen Personengruppe benötigt werden.

@@ -5,7 +5,6 @@ menu_title: WLAN einrichten
 description: WLAN einrichten
 lang: de
 ref: admin-02
-permalink: /de/:collection/garaete-administration
 ---
 
 Um das WLAN der Peakboard-Box einzurichten, muss diese zuerst mit einem Netwerkkabel verbunden werden und der mitgelieferte WLAN USB-Adapter angeschlossen sein.

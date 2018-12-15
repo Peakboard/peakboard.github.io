@@ -5,7 +5,6 @@ menu_title: Add a certificate
 description: Add a certificate
 lang: en
 ref: admin-09
-permalink: /en/:collection/certificates
 ---
 
 First, the certificate must exist as a file on the file system.
