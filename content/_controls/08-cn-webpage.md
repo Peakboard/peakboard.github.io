@@ -5,6 +5,7 @@ menu_title: 网页
 description: Peakboard Designer网页控件相关信息。
 lang: cn
 ref: con-08
+permalink: /cn/:collection/webpage
 ---
 
 网页控件具有显示网页的简单任务。它实际上是一个可自由定位的浏览器。最重要的属性是“源”。它包含以http或https开头的URL。除了纯页面之外，所有其他元素，如CSS文件、图像等可相应进行加载。“刷新时间”属性是控件刷新页面后的时间跨度（秒）。值得一提的是微软Edge的渲染引擎，而Edge是用于渲染页面，并搭配Windows 10的浏览器。根据页面的复杂性，在设计HTML代码时必须考虑到这一点。

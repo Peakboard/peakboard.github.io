@@ -5,6 +5,7 @@ menu_title: Power BI
 description: Information über Peakboard Designer Power BI Control.
 lang: de
 ref: con-06
+permalink: /de/:collection/power-bi
 ---
 
 Der Peakboard Designer enthält ein Power BI Control, das es dem Benutzer ermöglicht, entsprechende Dashboards auf den Peakboard Displays darzustellen, ohne diese öffentlich zugängig machen zu müssen. Eine Kachel ist ein Bestandteil eines Power BI Dashboards. Jedes Dashboard in Power BI besteht aus einer oder mehreren Kacheln. Als Mindestvoraussetzung benötigen Sie

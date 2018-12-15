@@ -5,6 +5,7 @@ menu_title: ListView
 description: Information about Peakboard Designer ListView Control.
 lang: en
 ref: con-10
+permalink: /en/:collection/list-view
 ---
 
 The ListView Control can take any shape as long as it contains recurring elements. It is therefore necessarily linked to a tabular data source in order to function properly. Whether it is a simple list or complex elements is defined by an XAML fragment. If you are not familiar with XAML you can learn more about it [here](https://msdn.microsoft.com/en-us/library/cc295302.aspx). It is a description language that can be used to define an interface consisting of images, text and other elements. Similar to HTML, but much better.

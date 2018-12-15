@@ -5,6 +5,7 @@ menu_title: Text-Ticker
 description: Information über Peakboard Designer Text-Ticker Control.
 lang: de
 ref: con-03
+permalink: /de/:collection/text-ticker
 ---
 
 Das Control TextTicker ist dazu gedacht, einen Lauftext darzustellen. Bitte beachten Sie folgende, generelle Zusatzinfos:
