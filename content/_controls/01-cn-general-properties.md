@@ -5,6 +5,7 @@ menu_title: 一般属性
 description: 关于Peakboard Designer一般属性的信息。
 lang: cn
 ref: con-01
+permalink: /cn/:collection/general-properties
 ---
 
 右上角工具箱中可用的所有控件均具有属性。这些属性一方面包括只适用于相关控件的特殊属性，另一方面也包括在几乎所有控件或至少在许多控件中都可以找到的一般属性。为避免在每个帮助页面上反复解释所有属性，下面的列表总结了为多个控件显示的属性

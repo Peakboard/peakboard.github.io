@@ -5,6 +5,7 @@ menu_title: ListView
 description: Information über Peakboard Designer ListView Control.
 lang: de
 ref: con-10
+permalink: /de/:collection/list-view
 ---
 
 Das ListView-Control kann jede beliebige Form und Gestalt annehmen, so lange es wiederkehrende Elemente enthält. Es ist deshalb auch zwingend an eine tabellarische Datenquelle gekoppelt, um einwandfrei zu funktionieren. Ob es sich um eine einfache Liste handelt, oder um komplexe Elemente wird durch ein XAML-Fragment definiert. Wenn Sie nicht mit XAML vertraut sind, können Sie [hier](https://docs.microsoft.com/de-de/dotnet/framework/wpf/advanced/xaml-overview-wpf) mehr darüber erfahren. Es handelt sich um eine Beschreibungssprache, mit der man eine Oberfläche bestehend aus Bildern, Text und anderen Elementen definieren kann. So ähnlich wie HTML, nur viel besser.

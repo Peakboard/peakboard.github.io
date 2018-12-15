@@ -5,6 +5,7 @@ menu_title: Web窗口小部件/ HTML代码
 description: Peakboard Designer Web窗口小部件/ HTML代码控件相关信息。
 lang: cn
 ref: con-09
+permalink: /cn/:collection/web-widget-html-code
 ---
 
 与网页控件不同，WebWidget控件的任务是只显示HTML片段，而不是完整的页面。典型的任务是渲染HTML代码，将外部内容（例如天气、股票价格等）集成到您自己的主页中。在下面的示例中，我们希望从[wetter24.de](http://www.wetter24.de/)集成天气窗口小部件。通过填写本页的表格，您可以为您的邮政编码生成您自己的HTML代码。

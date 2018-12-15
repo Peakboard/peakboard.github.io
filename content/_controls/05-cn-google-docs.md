@@ -5,6 +5,7 @@ menu_title: 谷歌文档
 description: Peakboard Designer谷歌文档控件相关信息。
 lang: cn
 ref: con-05
+permalink: /cn/:collection/google-docs
 ---
 
 这篇文章介绍了将谷歌文档集成到Peakboard面板中的一系列过程。支持所有三种类型的文档：文档（从MS Word中获得的普通文档）、幻灯片（从MS PowerPoint中获得）和电子表格（从MS Excel中获得）。当然，许多其他文档仍然可以存储在Google Drive中，但是谷歌文档控件只支持这三种主要类型，并且这三种类型在“谷歌文档”一项下归为一组。

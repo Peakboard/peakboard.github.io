@@ -5,6 +5,7 @@ menu_title: Google Analytics Reports
 description: Information about Peakboard Designe Google Analytics Reports Control.
 lang: en
 ref: con-13
+permalink: /en/:collection/google-analytics
 ---
 
 A Peakboard.io account is mandatory for creating Google Analytics Reports. The GA report is defined in the [Peakboard.io portal](/peakboardio/01-en-intro-peakboard-io.html) and then embedded in the designer using the corresponding control.
