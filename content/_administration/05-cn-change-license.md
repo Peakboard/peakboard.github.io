@@ -5,6 +5,7 @@ menu_title: 更改许可证
 description: 更改许可证
 lang: cn
 ref: admin-05
+permalink: /cn/:collection/change-license
 ---
 
 如要更改Peakboard-Box的许可证，请单击Peakboard-Designer中的“管理”按钮。

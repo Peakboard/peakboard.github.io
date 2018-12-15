@@ -5,6 +5,7 @@ menu_title: Ports and Network Traffic
 description: Ports and Network Traffic
 lang: en
 ref: admin-20
+permalink: /en/:collection/ports-and-network-traffic
 ---
 
 As is well known, the Peakboard Box communicates with all possible source systems. In addition, communication channels are required for the administration of the box. The following table lists the ports that are used for the individual channels. Of course, it always depends on the individual case which ports are used for the respective customer requirement.

@@ -5,6 +5,7 @@ menu_title: Aktualisieren der Peakboard-Box
 description: Aktualisieren der Peakboard-Box
 lang: de
 ref: admin-06
+permalink: /de/:collection/aktualisieren
 ---
 
 Um die Peakboard-Box zu aktualisieren, klicken Sie im Menüband des oberen Peakboard-Designer Bereiches auf den Button Manage. Daraufhin öffnet sich ein neues Fenster.
