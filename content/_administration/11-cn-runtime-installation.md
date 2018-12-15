@@ -5,7 +5,6 @@ menu_title: Peakboard-Runtime的安装
 description: Peakboard-Runtime的安装
 lang: cn
 ref: admin-11
-permalink: /cn/:collection/runtime-installation
 ---
 
 安装Peakboard-Designer时，通常也会安装Peakboard-Runtime。

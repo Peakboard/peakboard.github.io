@@ -5,7 +5,6 @@ menu_title: 设置Wi-Fi
 description: 设置Wi-Fi
 lang: cn
 ref: admin-02
-permalink: /cn/:collection/setting-up-wifi
 ---
 
 如要设置Peakboard-Box的Wi-Fi，必须首先连接网线，并连接所提供的Wi-Fi USB适配器。

@@ -5,7 +5,6 @@ menu_title: 添加证书
 description: 添加证书
 lang: cn
 ref: admin-09
-permalink: /cn/:collection/certificates
 ---
 
 首先，证书必须作为文件存在于文件系统中。
