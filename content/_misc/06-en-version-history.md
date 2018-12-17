@@ -7,6 +7,14 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.33.0 (17.12.2018)
+
+* The fixed property has been renamed to locked.
+* The Lock, Hide and Group functions can be used by right-clicking on the mouse.
+* The Designer can be used with a resolution of 1280*720 or higher.
+* A confirmation dialog has been added for deleting resources, data sources and folders.
+* Fix for the Linear Gauge
+
 ## 1.0.32.1 (03.12.2018)
 
 * Fix for array handling in json data source

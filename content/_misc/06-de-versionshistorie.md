@@ -7,6 +7,14 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.33.0 (17.12.2018)
+
+* Die Eigenschaft fixed wurde nach locked umbenannt
+* Die Funktionen Lock, Hide und Group können via Rechtsklick verwendet werden
+* Der Designer kann mit einer Auflösung ab 1280*720 verwendet werden
+* Für das Löschen von Resourcen, Datenquellen und Ordnern wurde ein Bestätigungsdialog eingefügt
+* Fix für den Linear Gauge
+
 ## 1.0.32.1 (03.12.2018)
 
 * Fix für den Umgang mit Listen in der JSON-Datenquelle
@@ -26,11 +34,11 @@ ref: misc-06
 * Neue Templates hinzugefügt
 * JSON Datasource überarbeitet und Networksharefiles hinzugefügt
 * Shadow Frame zur Textbox hinzugefügt
-* Datenflüsse können in Ordnern gegliedert werden
-* Google Anaylitcs Control entfernt
+* Dataflows können in Ordnern gegliedert werden
+* Google Analytics Control entfernt
 * Fix für SAP Dialog Höhe bei niedriger Auflösung
 * Fix für Lua Date Snippet
-* Fix für Änergunden im Select Data Dialog
+* Fix für Änderungen im Select Data Dialog
 * Fix für die visible Eigenschaft im Zusammenhang mit Shadow Frames
 * Fix für für die gecachten Screenshots, die den Designer zum Absturz bringen konnten
 
@@ -40,7 +48,7 @@ ref: misc-06
 
 ## 1.0.30.1 (07.11.2018)
 
-* Hotfix für das automatische gruppieren aus der Zwischenablage eingefügter Controls
+* Hotfix für das automatische Gruppieren aus der Zwischenablage eingefügter Controls
 
 ## 1.0.30.0 (05.11.2018)
 
@@ -64,11 +72,11 @@ ref: misc-06
 * Kleinere Anpassungen des Dialogs zum Editieren von Schriftarten
 * Im Excelchart können jetzt die Schriftarten angepasst werden
 * Grafische Elemente können nun gruppiert werden
-* Bei Auswahl mehrerer graphischer Elemente können nun Eigenschaften für identische Elemente manipuliert werden
+* Bei Auswahl mehrerer grafischer Elemente können nun Eigenschaften für identische Elemente manipuliert werden
 
 ## 1.0.28.23 (22.10.2018)
 
-* Der Dialog zum Lookup Column Step der Dataflows zeigt jetzt die korrekte aktuelle konfiguration an
+* Der Dialog zum Lookup Column Step der Dataflows zeigt jetzt die korrekte aktuelle Konfiguration an
 
 ## 1.0.28.22 (19.10.2018)
 
@@ -94,7 +102,7 @@ ref: misc-06
 
 ## 1.0.28.1 (25.09.2018)
 
-* Hotfix für das editieren statischer Listen
+* Hotfix für das Editieren statischer Listen
 
 ## 1.0.28.0 (24.09.2018)
 
