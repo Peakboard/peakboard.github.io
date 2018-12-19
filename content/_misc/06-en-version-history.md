@@ -9,7 +9,7 @@ ref: misc-06
 
 ## 1.0.33.6 (19.12.2018)
 
-* OPC UA Datasource: The certificate handling for server certificates was reworked and now behaves as the specification says
+* OPC UA datasource: The certificate handling for server certificates was reworked and now behaves as the specification says
 
 ## 1.0.33.0 (17.12.2018)
 
