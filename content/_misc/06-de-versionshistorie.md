@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.33.1 (19.12.2018)
+
+* OPC UA Datenquelle: Der Umgang mit Serverzertifikaten wurde überarbeitet und ist jetzt spezifikationskonform
+
 ## 1.0.33.0 (17.12.2018)
 
 * Die Eigenschaft fixed wurde nach locked umbenannt
