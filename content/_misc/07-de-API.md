@@ -9,6 +9,8 @@ ref: misc-07
 
 Um Daten aus einer Variablen oder List Datenquelle über die API abgreifen zu können werden nachfolgende Informationen benötigt.
 
+* Authentifizierungsverfahren: [Basic Authentication] (https://de.wikipedia.org/wiki/HTTP-Authentifizierung#Basic_Authentication)
+
 * BoxIP: IP der Peakboard Box im Netzwerk, alternativ auch DNS der Box möglich
 * PeakboardID: ID der Visualisierung, diese findet sich über den Menü Button Settings (1). Anschließend kann die ID (2) aus dem entsprechenden Feld in den Zwischenspeicher kopiert werden.
 * ListName: Name der List Datenquelle (3)

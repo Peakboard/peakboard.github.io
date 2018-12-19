@@ -9,6 +9,7 @@ ref: misc-07
 
 In order to access data from a list data source via the API, the following information is required.
 
+* Authentication: [Basic Authentication] (https://en.wikipedia.org/wiki/Basic_access_authentication)
 * BoxIP: IP of the Peakboard Box in the network, alternatively also name of the box possible.
 * PeakboardID: ID of the visualization, this can be found via the menu Button Settings (1). The ID (2) can then be copied from the corresponding field to the clipboard.
 * ListName: Name of a list (3)
