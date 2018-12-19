@@ -7,7 +7,7 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.33.1 (19.12.2018)
+## 1.0.33.7 (19.12.2018)
 
 * OPC UA Datenquelle: Der Umgang mit Serverzertifikaten wurde überarbeitet und ist jetzt spezifikationskonform
 
