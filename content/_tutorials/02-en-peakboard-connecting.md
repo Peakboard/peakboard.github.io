@@ -18,7 +18,7 @@ As soon as the box is powered, the Windows 10 IoT operating system boots on the 
 
 ![image_1](/assets/images/Tutorial/Connecting/TutorialBox02.jpg)
 
-From the designer’s point of view, we now want to transfer a board to the box. To do this, click the Deploy button in the toolbar. To add a new box, please click here. After you have added the box, select it with a simple mouse click. Then load the board onto the box by clicking Deploy.
+From the designer’s point of view, we now want to transfer a board to the box. To do this, click the Manage button in the toolbar. To add a new box, please click [here](help.peakboard.com/administration/07-de-hinzufuegen.html). After you have added the box, select it with a simple mouse click (1). Then load the board onto the box by clicking Deploy (2).
 
 ![image_1](/assets/images/Tutorial/Connecting/ErsteSchrittePBBox2.png)
 
