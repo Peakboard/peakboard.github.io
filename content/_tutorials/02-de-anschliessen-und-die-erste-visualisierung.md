@@ -20,7 +20,7 @@ Sobald die Box mit Strom versorgt wird, bootet das Windows 10 IoT Bestriebssyste
 
 ![image_1](/assets/images/Tutorial/Connecting/TutorialBox02.jpg)
 
-Vom Designer aus wollen wir jetzt ein Board auf die Box übertragen. Klicken Sie dazu auf den Manage-Button in der Toolbar. Zum hinzufügen einer neuen Box klicken Sie bitte [hier]. Nachdem Sie die Box hinzugefügt haben, markieren Sie diese durch einfachen Mausklick (1). Anschließend laden Sie das Board auf die Box, indem Sie Deploy klicken (2).
+Vom Designer aus wollen wir jetzt ein Board auf die Box übertragen. Klicken Sie dazu auf den Manage-Button in der Toolbar. Zum hinzufügen einer neuen Box klicken Sie bitte [hier](/administration/07-de-hinzufuegen.html). Nachdem Sie die Box hinzugefügt haben, markieren Sie diese durch einfachen Mausklick (1). Anschließend laden Sie das Board auf die Box, indem Sie Deploy klicken (2).
 
 ![image_1](/assets/images/Tutorial/Connecting/ErsteSchrittePBBox2.png)
 
