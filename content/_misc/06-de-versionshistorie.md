@@ -7,6 +7,16 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.34.3 (14.01.2019)
+
+* Die Auswahl mehrerer Elemente kann über ESC beendet werden
+* Zusätzliche Formatierungspunkte um Elemente horizontal und vertikal anzuordnen
+* Fix für den Deploy auf mehrere Boxen
+* Fix für die Siemens S7 Datenanbindung
+* Fix für Undo/Redo
+* Fix für das Verschieben mehrere Objekte
+* Fix für die Zugriffsrechte auf Microsoft One Drive
+
 ## 1.0.33.7 (19.12.2018)
 
 * OPC UA Datenquelle: Der Umgang mit Serverzertifikaten wurde überarbeitet und ist jetzt spezifikationskonform

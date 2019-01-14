@@ -5,7 +5,17 @@ menu_title: Version History
 description: Version History
 lang: en
 ref: misc-06
----
+---d
+
+## 1.0.34.3 (10.01.2019)
+
+* The selection of several elements can be terminated via ESC.
+* Added additional formatting points to arrange elements horizontally and vertically
+* Fix for deploy to multiple boxes
+* Fix for the Siemens S7 data connection
+* Fix for Undo/Redo
+* Fix for moving multiple objects
+* Fix for Microsoft One Drive access rights
 
 ## 1.0.33.7 (19.12.2018)
 
