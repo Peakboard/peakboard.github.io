@@ -5,9 +5,9 @@ menu_title: Version History
 description: Version History
 lang: en
 ref: misc-06
----d
+---
 
-## 1.0.34.3 (10.01.2019)
+## 1.0.34.3 (14.01.2019)
 
 * The selection of several elements can be terminated via ESC.
 * Added additional formatting points to arrange elements horizontally and vertically
