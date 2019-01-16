@@ -10,7 +10,19 @@ ref: admin-02
 Um das WLAN der Peakboard-Box einzurichten, muss diese zuerst mit einem Netwerkkabel verbunden werden und der mitgelieferte WLAN USB-Adapter angeschlossen sein.
 Wenn sich die Peakboard-Box bis dahin noch im initialen Zustand befindet, sollte auf dem Bildschirm eine IP-Adresse angezeigt werden, sobald die Verbindung zum Netwerk hergestellt werden konnte.
 
-Sie sollten nun über folgende URL auf die Windows IoT Administrationsoberfläche der Peakboard-Box verbinden können:
+Starten Sie nun den Peakboard Designer und fügen Sie die neue Peakboard-Box wie [hier](/administration/07-de-hinzufuegen.html) beschrieben dem Designer hinzu. 
+Um die WLAN Verbindung zu aktivieren öffnen Sie zunächst den Manage/Deploy Dialog (1) und wählen die entsprechende Box beziehungsweise die entsprechenden Boxen aus (2).
+Anschließend erreichen Sie über Settings (3) - WiFi Connection (4) den WiFi Dialog in welchem sie alle Verfügbaren WLAN Netzwerke (5) finden. Selektieren Sie nun das gewünschte Netzwerk und geben das dazugehörige Passwort ein. 
+Über Connect (6) aktivieren Sie die Verbindung.
+
+![WiFi Connection](/assets/images/admin/device/WiFiConnection.png)
+
+Abschließend erfolgt ein Neustart der Peakboard-Box bei dem die Netzwerkkabelverbindung getrennt werden kann. Die Peakboard-Box befindet sich nun im WLAN-Netzwerk.
+
+Alternativ kann die WLAN Aktivierung auch über die Windows IoT Administrationsoberfläche der Peakboard-Box erfolgen. 
+
+Schließen Sie dazu die Peakboard-Box wie eingangs erwähnt an.
+Anstelle des Peakboard Designers öffnen Sie über folgende URL die Windows IoT Administrationsoberfläche der Peakboard-Box:
 http://[BoxName]:8080
 Der Boxname ist auf die Peakboard-Box aufgedruckt und könnte bspw. PB1234 sein.
 In dem Fall wäre die korrekte URL http://PB1234:8080
