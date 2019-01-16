@@ -7,12 +7,16 @@ lang: en
 ref: admin-06
 ---
 
-To update the Peakboard-Box, click on the Manage button in the menu strip of the upper Peakboard-Designer area. A new window will open.
+To update the Peakboard box, click the Manage button in the ribbon of the upper Peakboard Designer area. A new window will open.
 
-If the Peakboard-Box you want to update is not in the list, please follow this [link](/administration/07-en-adding.html).
+If the Peakboard box you want to update is not in the list, please follow this [Link](/administration/07-en-hinzufügen.html).
 
-Open the drop-down menu in the line containing the Peakboard-Box to be updated. Click here on Update device. If a new update is available, you will be asked if you want to perform the update. Confirm this.
+You have the possibility to start an update for one or more Peakboard speakers at the same time. To do this, simply select all boxes for which an update is to be made. In general there are two possibilities for an update.
 
-![Manage Dialog Update Device](/assets/images/admin/update/aktualisieren1.png)
+![Manage Dialog Update Device](/assets/images/admin/update/update1.png)
 
-After a short moment your Peakboard-Box is updated.
+If the workstation with the Peakboard Designer has an active Internet connection, the update can be executed by clicking on the Update button.
+
+If this workstation is located in an isolated network, the update can be performed by means of an update file. You can download this file [here](https://peakboard.com/download/runtime/Peakboard.Runtime_Update.pbux) and then make it available to the Peakboard Designer via network drive or USB stick. And start the update process via Update from File.
+
+After a short moment your Peakboard Box is updated.
