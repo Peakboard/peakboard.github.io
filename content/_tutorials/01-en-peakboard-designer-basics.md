@@ -6,15 +6,14 @@ description: Peakboard Designer - The Basics
 lang: en
 ref: tut-01
 ---
-This tutorial does not require any previous knowledge. It shows the very first steps with Peakboard and explains some theoretical basics that you need to understand in order to build more complex visualizations later on. However, the basic approach is always the same: The visualization is created with the help of the Peakboard Designer. A design – also known as a board – is then transferred to one or more Peakboard boxes on which it runs independently. All artifacts such as images, videos, etc. are packed into a package for transfer. This process is called deployment. This tutorial shows the complete procedure. In case you don’t have a Peakboard-Box yet, the designer software, which you can download on our homepage, is sufficient. The transfer of the design to the box is no longer necessary, of course – but it doesn’t matter, because you can also view it as a preview on your own computer.
 
-The installer works like any other installer and stores the designer program in the installation folder. To start the Designer, you can click on the program icon or press the Windows key and type “peak”. Windows 10 will then find the link. Attention! Please do not start Peakboard. runtime app. We’ll get to that later.
+This tutorial does not require any previous knowledge. It shows the very first steps with Peakboard and explains some theoretical basics you have to understand to build more complex visualizations later. However, the basic procedure is always the same: The visualization is designed with the help of the Peakboard Designer. A design - also called a board - is then transferred to one or more peakboard boxes on which it runs independently. All artifacts such as images, videos, etc. are packed into a package for transfer. This process is called deployment. The complete procedure is shown in this tutorial and additionally in our video which you can find [here](/video_tutorials/01-en-erste-schritte.html). In case you don't have a peakboard box yet, the designer software, which you can download from our homepage, is sufficient for the time being. The transfer of the design to the speaker is then of course omitted - but that doesn't matter, because you can simply view it as a preview on your own computer.
+
+The installation program works like any other installation program and stores the Designer program in the installation folder. To start the Designer, you can click on the program icon or press the Windows key and then type "peak". Windows 10 will then find the link. Attention! Please do not start Peakboard.Runtime-App. We will come to this later.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics01.png)
 
-
-
-In the started designer you will now see the Package Explorer on the left-hand side, i. e. all elements which will be transferred to the Peakboard-Box later. In the middle is the empty panel, which we now want to fill with life. The upper right area is used for controls or visual elements that can be dragged and dropped from the toolbox onto the panel. At the bottom right you can change properties of the panel element that is currently selected.
+In the started Designer, you will now see the Package Explorer on the left-hand side, i.e. all elements that are later transferred to the Peakboard box. In the middle is the empty panel, which we now want to fill with life. The upper right area are controls or visual elements that can be dragged and dropped from the toolbox onto the panel. At the bottom right, you can change the properties of the panel element that is currently selected.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics02.png)
 
@@ -22,33 +21,26 @@ We want to start with a simple text block. Use the mouse to drag a text control 
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics03.png)
 
-At the bottom right you can now adjust the text block in the property field, e. g. select the font (how to add a new font you will learn later) and even more importantly: Fill the content with a meaningful message.
+At the bottom right of the property field you can now adjust the text block, e.g. select the font (you will learn how to add a new font later) and more importantly: Fill the content with a meaningful message.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics04.png)
 
-To add an image to the panel, we must add the image as a resource. In the Package Explorer, right-click Resources in the left pane and then click Add Resource. You can now choose a picture from your local PC, e. g. a nice holiday photo, a company logo or a puppy. The screen then appears as an entry under the resource branch.
+For example, to add an image to the panel, we must first add the image as a resource. This can be done in two ways.
+On the one hand, the image can be dragged and dropped from the Windows folder to the visualization interface. Thus the image is automatically integrated under Resources. 
 
+On the other hand, this can also be done manually. To do this, right-click Resources on the left side of the Package Explorer and then click Add Local Resource. You can now select an image from your local PC, e.g. a product photo or a company logo. The image will then appear as an entry under the resource branch.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics05.png)
 
+You can now drag the integrated resource to the Panel.
+You can now arrange the two elements - the text field and the image - even more nicely. The guides, which appear automatically, will help you place the elements so that they look good.
+
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics06.png)
 
-To get the picture onto the panel, drag and drop an image control from the toolbox onto the panel, as we did with the text field. Select the new created image control and click on the three points in the properties at the bottom right. Then the dialog box for selecting a resource opens as shown in the screenshot. You have now linked the image control to the resource.
+To see what your finished design will look like on the monitor, click on Preview in the toolbar. The Preview window will open. In our case it's not that exciting yet, because we only used unchangeable content. But in later examples we will build boards that contain interaction or dynamic data. To see and try out the dynamics you either need the preview view or you need to transfer the board to a box.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics07.png)
 
-Alternatively, you can drag the resource directly to the panel.
-
-You can now arrange the two elements – the text field and the image – a little more nicely. The guides that appear automatically help you place the items so that they look good.
-
-![image_1](/assets/images/Tutorial/Basics/TutorialBasics08.png)
-
-To find out what your finished design will look like on the monitor, click on Preview in the toolbar. The preview window opens. In our case, this is not yet quite so exciting, because we have only used unchangeable content. But in later examples we will build boards that contain interaction or dynamic data. To see and try out the dynamics, you either need the preview view or you have to transfer the board to a box.
-
-![image_1](/assets/images/Tutorial/Basics/TutorialBasics09.png)
-
-Under the following link you can learn more about how the newly created design is transferred to the Peakboard-Box and activated:
-
-
+Click on the following link to learn more about how to transfer the newly created design to the Peakboard box and activate it:
 
 [Getting Started with the Peakboard Box](/tutorials/02-en-peakboard-connecting.html)
