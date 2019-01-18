@@ -19,23 +19,12 @@ In addition to the obligatory name of the data source, a connection to a Google 
 The button with the three dots allows you to browse through the Google Drive folder structure containing the spreadsheets. After the selection with the double-click the path and file name are put into the appropriate text field and the desired sheet can be selected.
 The following settings are possible in order to select the correct section from the spreadsheets as the data basis:
 
-** Column names in 1st row **
-means that the column contents of the first line are used as headings for the output columns.
-
-** Switch rows and columns **
-treats the rows and columns in reverse, like a pivot table.
-
-** Select All **
-means that all the data in a sheet is selected (and not just a specific section).
-
-** Range **
-This value can be specified if only a certain section of the sheet is to be read. The notation is the same as in Excel, e.g. A5:C26.
-
-** Max Items **
-Defines the maximum number of lines that can be read (provided that NO Range is specified).
-
-** Reload Interval **
-is the usual time period for automatic reloading of data in seconds.
+*    **Column names in 1st row** means that the column contents of the first line are used as headings for the output columns.
+*    **Switch rows and columns** treats the rows and columns in reverse, like a pivot table.
+*    **Select All** means that all the data in a sheet is selected (and not just a specific section).
+*    **Range** This value can be specified if only a certain section of the sheet is to be read. The notation is the same as in Excel, e.g. A5:C26.
+*    **Max Items** Defines the maximum number of lines that can be read (provided that NO Range is specified).
+*    **Reload Interval** is the usual time period for automatic reloading of data in seconds.
 
 Clicking Load Data in the preview displays the data according to the settings and updates the metadata in the column list.
 
