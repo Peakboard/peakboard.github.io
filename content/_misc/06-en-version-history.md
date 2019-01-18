@@ -7,9 +7,13 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.34.7 (18.01.2019)
+
+* Hotfix for validating data in the opc ua data dialog
+
 ## 1.0.34.3 (14.01.2019)
 
-* The selection of several elements can be terminated via ESC.
+* The selection of several elements can be terminated via ESC
 * Added additional formatting points to arrange elements horizontally and vertically
 * Fix for deploy to multiple boxes
 * Fix for the Siemens S7 data connection
@@ -23,10 +27,10 @@ ref: misc-06
 
 ## 1.0.33.0 (17.12.2018)
 
-* The fixed property has been renamed to locked.
-* The Lock, Hide and Group functions can be used by right-clicking on the mouse.
-* The Designer can be used with a resolution of 1280*720 or higher.
-* A confirmation dialog has been added for deleting resources, data sources and folders.
+* The fixed property has been renamed to locked
+* The Lock, Hide and Group functions can be used by right-clicking on the mouse
+* The Designer can be used with a resolution of 1280*720 or higher
+* A confirmation dialog has been added for deleting resources, data sources and folders
 * Fix for the Linear Gauge
 
 ## 1.0.32.1 (03.12.2018)

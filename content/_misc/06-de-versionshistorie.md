@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.34.7 (18.01.2019)
+
+* Hotfix für die Validierung der Daten im Dialog der OPC UA Datenquelle
+
 ## 1.0.34.3 (14.01.2019)
 
 * Die Auswahl mehrerer Elemente kann über ESC beendet werden
