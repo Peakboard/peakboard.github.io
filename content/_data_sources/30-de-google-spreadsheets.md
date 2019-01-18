@@ -19,7 +19,7 @@ Neben dem obligatorischen Namen der Datenquelle ist zunächst eine Verbindung zu
 Der Knopf mit den drei Punkten erlaubt das Browsen durch die Google-Drive-Ordnerstruktur, die die Spreadsheets enthalten. Nach der Auswahl mit dem Doppelklick wird der Pfad und Dateiname ins entsprechende Textfeld übernommen und das gewünschte Sheet kann gewählt werden.
 Um nun den richtigen Abschnitt aus den Tabellenblätter als Datengrundlage zu wählen, sind folgende Einstellungen möglich:
 
-** Column names in 1st row **
+**Column names in 1st row**
 bedeutet, dass die Spalteninhalte der ersten Zeile als Überschriften für die Ausgabespalten verwendet werden.
 
 ** Switch rows and columns **
