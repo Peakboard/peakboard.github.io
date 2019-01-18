@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Microsoft Calendar
-menu_title: Micorsoft Calendar
+menu_title: Microsoft Calendar
 description: Information über Kalender Integration in Peakboard
 lang: de
 ref: cal-25
