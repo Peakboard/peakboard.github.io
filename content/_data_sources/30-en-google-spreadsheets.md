@@ -10,7 +10,7 @@ The Google Spreadsheets data source is used to extract tabular data from Google 
 
 ## Authorizing access to Google
 
-In addition to the obligatory name of the data source, a connection to a Google account must first be established. This is done via the Authorize button. A login window opens in which the Google Account must be entered. Peakboard as the application must then be given the right to read spreadsheets. This works exactly like any other third-party access. Username and password actually have no contact at all with the Peakboard Designer. Only a token is generated, stored in the package and later transferred to the box. You can also revoke this access within your Google account, if necessary.
+In addition to the obligatory name of the data source, a connection to a Google Account must first be established. This is done via the Authorize button. A login window opens in which the Google Account must be entered. Peakboard as the application must then be given the right to read spreadsheets. This works exactly like any other third-party access. Username and password actually have no contact at all with the Peakboard Designer. Only a token is generated, stored in the package and later transferred to the box. You can also revoke this access within your Google Account, if necessary.
 
 ![image_1](/assets/images/Data_Sources/GoogleSpreadsheets/SpeadsheetsSource01.png)
 
