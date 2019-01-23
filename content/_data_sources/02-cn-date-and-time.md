@@ -1,36 +1,34 @@
 ---
 layout: article
-title: Date and Time
-menu_title: Date and Time
-description: Information about time and date data in Peakboard
+title: 日期和时间
+menu_title: 日期和时间
+description: Peakboard中的日期和时间数据信息
 lang: cn
 ref: dat-02
 ---
-Currently the Peakboard-Box has no possibility to remember the time after a restart. For this reason, it is possible to integrate date and time as a normal data source within the Designer. The data source is not tabular, but only a scalar single value.
+目前，Peakboard-Box在重启后无法记住的时间。因此，可以在Designer中将日期和时间集成为一种普通数据源。数据源不是表格，而只是标量单值。
 
-The format specification defines how the time or date or a combination thereof is to be displayed. The individual format components can be found in the table below. If a time zone other than CET is to be used for time calculation, the corresponding combo box is available.
+格式规范定义如何显示时间、日期或两者组合。单独的格式组件可以在下表中找到。如果要使用CET以外的时区进行时间计算，则相应的组合框是可用的。
 
-By default, the Time data source accesses the Windows time server on the Internet (concretely, time. windows. com). If this is not desired or if Peakboard is operated in a network without Internet access, Peakboard can also fetch the time from an internal time server. This function must be activated via the checkbox and the IP address or host name of the time server must be written into the corresponding text field.
+在默认情况下，时间数据源访问互联网上的Windows时间服务器（具体地说，是time.windows.com）。如果这并非所希望的，或者Peakboard是在没有互联网访问的网络中运行，Peakboard也可以从内部时间服务器获取时间。激活此功能必须通过复选框，且时间服务器的IP地址或主机名必须被写入相应的文本字段。
 
-To use a local Windows computer as a time server, a registry entry must be adjusted.
-To do this, the value **[Enabled]** must first be set to 1 (true) in the following folder registry:
-
+要将一台本地Windows计算机作为时间服务器，必须调整注册表项目。
+要执行此操作，必须首先将以下文件夹注册表中的值**[Enabled]**]设置为1（true）：
 `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\Time\Time\TimeProviders\NtpServer\`
 
-Afterwards, the Command window must be executed as an administrator and the following command entered:
-`w32tm /config /update`
+之后，必须以管理员身份执行命令窗口，并输入以下命令：`w32tm /config /update`
 
  ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 
-The following screenshot shows how to use the time on the screen. Alternatively, the data source, like any other data source, can be linked to controls or used via script.
+以下屏幕截图显示了如何在屏幕上使用时间。另外，像任何其他数据源一样，数据源可以链接到控件或通过脚本使用。
 
  ![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
 
-The preview now shows the current date and time.
+现在预览显示当前日期和时间。
 
 ![Preview Time](/assets/images/data-sources/date-and-time/preview-time.png)
 
-Placeholder for the format string:
+格式字符串占位符：
 
  ```
 HH: Hour (00 – 24)

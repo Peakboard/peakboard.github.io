@@ -1,30 +1,30 @@
 ---
 layout: article
-title: Static Data
-menu_title: Static Data
-description: Information about static data in Peakboard
+title: 静态数据
+menu_title: 静态数据
+description: Peakboard中的静态数据信息
 lang: cn
 ref: dat-01
 ---
-Usually, the term “data source” means that data is retrieved from any previous system, be it a database, an ERP system or simply from the web with the help of a generic source such as JSON or XML. In Peakboard, static data is also referred to as a “data source”, which is characterized by the fact that the data does not originate from another location, but is stored locally in the Package. There are two main reasons why you need these static data sources:
+通常，术语“数据源”是指从任何先前的系统中检索的数据，无论是从数据库、ERP系统，或是借助一种通用源，例如JSON或XML，简单地从网络上获取。在Peakboard中，静态数据也称为“数据源”，其特征是数据并非源自另一个位置，而是本地存储在包中。需要这些静态数据源有两个主要原因：
 
-Static data sources are used as a kind of “global variable” for various sophisticated scripting tasks. Different scripts can exchange information by writing to or reading from data sources.
+静态数据源用作各种复杂脚本任务的“全局变量”。不同的脚本可以通过写入或读取数据源来交换信息。
 
-Static data sources are used as containers to send push messages from the outside to the Peakboard-Box. For example, you could build a static table for error messages. A machine that falls into an error state pushes the error information into this static container. All connected controls then react automatically. An example of this can be found at [here.](/misc/02-en-push-messages.html)
+静态数据源被用作为容器，将推送消息从外部发送到Peakboard-Box。例如，你可以建立一个静态表用于错误消息。陷入错误状态的机器将推送错误信息至此静态容器中。然后所有连接的控件将自动响应。[此处](/misc/02-en-push-messages.html)查看案例。
 
-To create a static data source, proceed as with all other data sources (/tutorials/03-en-xml-daten.html). You can create either a single value or a table.
+要创建一个静态数据源，如创建所有其他数据源一样（/tutorials/03-en-xml-daten.html）。可以创建一个单值或一个表单。
 
 ![Add Static Data](/assets/images/data-sources/static-data/add-data-dialog.png)
 
-## Maintain variable for single value
+## 为单值保持变量
 
-Besides the name and the data type (String, Number or Boolean), a inital value can be specified. The option *Save on Box* allows to save the value later on the Peakboard Box after a restart of the board. If this option is not selected, the value is reset to the initial value after the restart.
+除了名称和数据类型（String、Number或Boolean），还可以给定一个初始值。 选项*Save on Box*允许在晚些时候重启看板之后将值存储在Peakboard Box中。如果未选择此选项，则重新启动后该值将重置为初始值。
 
 ![Add Static Data](/assets/images/data-sources/static-data/static-single-variable.png)
 
-## Maintain static tables
+## 维护静态表
 
-To store table-like data statically, you must jump to maintenance in the corresponding dialog using the Edit button. In the lower area, you can create new columns for the table or delete them again. To maintain the data content, simply click in the corresponding table cell. To delete a table row, press the Delete key without placing the cursor in a cell, so that only the row is selected.
-The option *Save on Box* is also available for the tables to persist the data on the box beyond the next boot process.
+要静态地存储表格式数据，必须使用“编辑”按钮，跳转到相应对话框中维护。 在较低区域，可以为表创建新列或再删除它们。要维护数据内容，只需单击相应的表格单元格。要删除表格行，不将光标放在单元格中按下Delete键，以便只选择此行。选项*Save on Box*也可用于表，以便在下次启动过程之后保留box中的数据。
+
 
 ![Add Static Data](/assets/images/data-sources/static-data/static-table-variable.png)
