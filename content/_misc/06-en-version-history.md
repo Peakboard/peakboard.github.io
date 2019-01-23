@@ -15,7 +15,6 @@ ref: misc-06
 
 * The selection of several elements can be terminated via ESC
 * Added additional formatting points to arrange elements horizontally and vertically
-* Fix for deploy to multiple boxes
 * Fix for the Siemens S7 data connection
 * Fix for Undo/Redo
 * Fix for moving multiple objects

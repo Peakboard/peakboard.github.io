@@ -8,7 +8,7 @@ ref: dat-02
 ---
 
 
-The Peakboard Box currently has no way of remembering the time beyond the next restart. For this reason, it is possible to integrate the date and time as a normal data source within the Designer. The data source is not tabular, but only a scalar single value.
+The Peakboard Box currently has no way of remembering the time beyond the next restart. For this reason, it is possible to integrate date and time as a normal data source within the Designer. The data source is not tabular, but only a scalar single value.
 
 The format specification defines how the time or date or a combination thereof is to be displayed. The individual format components can be found in the table below. If a time zone other than CET is to be used for time calculation, the corresponding combo box is available.
 

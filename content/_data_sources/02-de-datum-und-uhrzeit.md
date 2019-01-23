@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Datum und Urzeit
-menu_title: Datum und Urzeit
+title: Datum und Uhrzeit
+menu_title: Datum und Uhrzeit
 description: Informationen über Zeit- und Datumsangaben in Peakboard
 lang: de
 ref: dat-02
@@ -26,7 +26,7 @@ Anschließend muss das Command Fenster als Administrator ausgeführt und folgend
  ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 
 Der folgende Screenshot zeigt, wie die Zeit per Drag and Drop (1) auf dem Screen verwendet werden kann. Alternativ lässt sich die Datenquelle, wie jede andere Datenquelle auch, an Steuerelemente binden oder per Script nutzen.
-Im Controll-Editor kann über Format das Anzeigeformat für ein deutsch- oder englischsprachiges Layout angepasst oder ein eigenes Format (3) angelegt werden.
+Im Control-Editor kann über Format das Anzeigeformat für ein deutsch- oder englischsprachiges Layout angepasst oder ein eigenes Format (3) angelegt werden.
 
  ![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
 
