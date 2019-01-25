@@ -22,7 +22,7 @@ Nachfolgend sind Beispiele für das Lesen und Schreiben über die API gegeben.
 Um Werte aus einem List Element zu lesen kann folgender GET verwendet werden:
 
 ```lua
-GET: http://[BoxIP]/api/dataread?id=[PeakboardID]&datakey=[ListName]
+GET: http://[BoxIP]:40404/api/dataread?id=[PeakboardID]&datakey=[ListName]
 ```
 
 Analog kann der Wert einer Variablen ausgelesen werden, es muss lediglich der Name der Variablen als datakey übergeben werden.
@@ -32,7 +32,7 @@ Analog kann der Wert einer Variablen ausgelesen werden, es muss lediglich der Na
 Um Werte in eine Variable zu schreiben kann folgender POST verwendet werden:
 
 ```lua
-POST: http://[BoxIP]/api/datapush?id=[PeakboardID]&datakey=[VarName]
+POST: http://[BoxIP]:40404/api/datapush?id=[PeakboardID]&datakey=[VarName]
 ```
 
 Analog können auch Werte in ein List Element geschrieben werden, indem der Name des List Elements als datakey übergeben wird.
