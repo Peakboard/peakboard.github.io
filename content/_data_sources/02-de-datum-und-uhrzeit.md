@@ -14,7 +14,7 @@ Die Peakboard-Box verfügt derzeit über keine Möglichkeit, sich über den näc
 Standardmäßig greift die Time-Datenquelle auf den Windows-Timeserver im Internet zu (konkret auf time.windows.com). Sollte das nicht gewünscht sein oder Peakboard in einem Netz ohne Internetzugang betrieben werden, kann sich Peakboard die Zeit auch von einem netzinternen Timeserver holen. 
 Dazu wird unter Time Server (1) die IP-Adresse oder der Host-Name des Timeservers in das entsprechende Textfeld (2) geschrieben.
 
-![TimeServer] (/assets/images/data-sources/date-and-time/TimeServer.png)
+![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
 
 
 Um einen lokalen Windows-Rechner als Timeserver zu verwenden, muss ein Registry-Eintrag angepasst werden.

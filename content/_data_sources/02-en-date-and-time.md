@@ -15,7 +15,7 @@ The format specification defines how the time or date or a combination thereof i
 By default, the time data source accesses the Windows time server on the Internet (specifically on time.windows.com). If this is not desired or if Peakboard is operated in a network without Internet access, Peakboard can also retrieve the time from an internal network time server. 
 For this purpose the IP address or the host name of the timeserver is written into the corresponding text field (2) under Time Server (1).
 
- ![TimeServer] (/assets/images/data-sources/date-and-time/TimeServer.png)
+ ![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
 
 
 In order to use a local Windows computer as a timeserver, a registry entry must be adapted.
