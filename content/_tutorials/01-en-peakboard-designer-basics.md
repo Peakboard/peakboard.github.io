@@ -7,13 +7,13 @@ lang: en
 ref: tut-01
 ---
 
-This tutorial does not require any previous knowledge. It shows the very first steps with Peakboard and explains some theoretical basics you have to understand to build more complex visualizations later. However, the basic procedure is always the same: The visualization is designed with the help of the Peakboard Designer. A design - also called a board - is then transferred to one or more peakboard boxes on which it runs independently. All artifacts such as images, videos, etc. are packed into a package for transfer. This process is called deployment. The complete procedure is shown in this tutorial and additionally in our video which you can find [here](/video_tutorials/01-en-erste-schritte.html). In case you don't have a peakboard box yet, the designer software, which you can download from our homepage, is sufficient for the time being. The transfer of the design to the speaker is then of course omitted - but that doesn't matter, because you can simply view it as a preview on your own computer.
+This tutorial does not require any previous knowledge. It shows the very first steps with Peakboard and explains some theoretical basics you have to understand to build more complex visualizations later. However, the basic procedure is always the same: The visualization is designed with the help of the Peakboard Designer. A design - also called a board - is then transferred to one or more Peakboard Boxes on which it runs independently. All artefacts such as images, videos, etc. are packed into a package for transfer. This process is called deployment. The complete procedure is shown in this tutorial and additionally in our video which you can find [here](/video_tutorials/01-en-erste-schritte.html). In case you don't have a Peakboard Box yet, the Designer software, which you can download from our homepage, is sufficient for the time being. The transfer of the design to the Box is then of course omitted - but that doesn't matter, because you can simply view it as a preview on your own computer.
 
 The installation program works like any other installation program and stores the Designer program in the installation folder. To start the Designer, you can click on the program icon or press the Windows key and then type "peak". Windows 10 will then find the link. Attention! Please do not start Peakboard.Runtime-App. We will come to this later.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics01.png)
 
-In the started Designer, you will now see the Package Explorer on the left-hand side, i.e. all elements that are later transferred to the Peakboard box. In the middle is the empty panel, which we now want to fill with life. The upper right area are controls or visual elements that can be dragged and dropped from the toolbox onto the panel. At the bottom right, you can change the properties of the panel element that is currently selected.
+In the Designer, you will now see the Package Explorer on the left-hand side, i.e. all elements that are later transferred to the Peakboard Box. In the middle is the empty panel, which we now want to fill with life. The upper right area are controls or visual elements that can be dragged and dropped from the toolbox onto the panel. At the bottom right, you can change the properties of the panel element that is currently selected.
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics02.png)
 
@@ -26,7 +26,7 @@ At the bottom right of the property field you can now adjust the text block, e.g
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics04.png)
 
 For example, to add an image to the panel, we must first add the image as a resource. This can be done in two ways.
-On the one hand, the image can be dragged and dropped from the Windows folder to the visualization interface. Thus the image is automatically integrated under Resources. 
+On the one hand, the image can be dragged and dropped from the Windows folder to the visualization interface. Thus, the image is automatically integrated under Resources. 
 
 On the other hand, this can also be done manually. To do this, right-click Resources on the left side of the Package Explorer and then click Add Local Resource. You can now select an image from your local PC, e.g. a product photo or a company logo. The image will then appear as an entry under the resource branch.
 
