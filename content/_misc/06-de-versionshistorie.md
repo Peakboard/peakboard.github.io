@@ -7,6 +7,27 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.35.0 (04.02.2019)
+
+* Sprachauswahl um deutsches Sprachpaket erweitert
+* Trennung von Variabeln/Listen und Datenquellen
+* Neue Datenquelle: Google Spreadsheet
+* Neue Ordnerstruktur für Variablen, Listen und Skripte
+* Weitere Zeitformate hinzugefügt
+* Neue date functions mit .NET-Formatierung
+* Einführung unterschiedlicher Zeichnungsebenen
+* Möglichkeit Ebenen per Drag and Drop in der Rubrik Screen zu ändern
+* Möglichkeit ein Element eine Ebene herauf oder herab zu stufen
+
+* Fix für Undo/Redo 
+* Fix für den Zeitserver bei alten Visualisierungen
+* Fix für die Anzeige eines Live Tile Box
+* Fix für die Anzeige bei Verwendung einer Auflösung mit 1280*720
+* Fix für Lesefehler in der S7 Datenquelle
+* Fix für die Eingabe von RGB-Werten
+* Fix für den Deploy auf mehrere Boxen
+* Fix für Google Docs Control
+
 ## 1.0.34.7 (18.01.2019)
 
 * Hotfix für die Validierung der Daten im Dialog der OPC UA Datenquelle

@@ -7,6 +7,27 @@ lang: en
 ref: misc-06
 ---
 
+## 1.0.35.0 (04.02.2019)
+
+* Language selection and German language is now available
+* Separation of variables, lists and data sources
+* New data source: Google Spreadsheet
+* New folder structure for variables, lists and scripts
+* Various time formats added
+* New date functions with .NET formatting
+* Introduction of different drawing levels
+* Possibility to change levels by drag and drop in the Screen section
+* Possibility to step an element up or down a level
+
+* Fix for Undo/Redo 
+* Fix for the time server with old visualizations
+* Fix for displaying a Live Tile Box
+* Fix for display when using a resolution of 1280*720
+* Fix for read errors in the S7 data source
+* Fix for the input of RGB values
+* Fix for deploy to multiple boxes
+* Fix for Google Docs Control
+
 ## 1.0.34.7 (18.01.2019)
 
 * Hotfix for validating data in the opc ua data dialog
