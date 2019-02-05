@@ -7,7 +7,7 @@ lang: de
 ref: misc-06
 ---
 
-## 1.0.35.0 (04.02.2019)
+## 1.0.35.6 (05.02.2019)
 
 * Sprachauswahl um deutsches Sprachpaket erweitert
 * Trennung von Variabeln/Listen und Datenquellen
