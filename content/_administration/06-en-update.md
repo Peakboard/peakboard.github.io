@@ -9,11 +9,11 @@ ref: admin-06
 
 To update the Peakboard Box, click the Manage button in the ribbon of the upper Peakboard Designer area. A new window will open.
 
-If the Peakboard Box you want to update is not in the list, please follow this [Link](/administration/07-en-hinzufügen.html).
+If the Peakboard Box you want to update is not in the list, please follow this [Link](/administration/07-en-adding.html).
 
 You have the possibility to start an update for one or more Peakboard Boxes at the same time. To do this, simply select all boxes for which an update is to be made. In general, there are two possibilities for an update.
 
-![Manage Dialog Update Device](/assets/images/admin/update/update1.png)
+![Manage Dialog Update Device](/assets/images/admin/update/aktualisieren1.png)
 
 If the workstation with the Peakboard Designer has an active Internet connection, the update can be executed by clicking on the Update button.
 

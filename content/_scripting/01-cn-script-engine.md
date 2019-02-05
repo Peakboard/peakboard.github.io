@@ -14,11 +14,11 @@ Peakboard的一个基本思想是，终端用户并不一定必须是程序员�
 
 基本脚本语言是LUA，互联网上有许多文档和教程。可以在该[网站](https://www.lua.org/docs.html)上找到一份非常好的文档。但是，除了LUA的标准功能之外，Peakboard-Designer还提供了这种语言的一些扩展。这些扩展可以在脚本编辑器的左侧找到。
 
-总的说来，Peakboard区分了两个如何使用脚本的概念：要么与特定事件一起使用，要么作为[动态属性](/scripting/02-en-dynamic-properties.html)使用。本文展示了这两个概念的示例。
+总的说来，Peakboard区分了两个如何使用脚本的概念：要么与特定事件一起使用，要么作为[动态属性](/tutorials/03-cn-xml-data.html)使用。本文展示了这两个概念的示例。
 
 ##事件脚本
 
-我们假设一个简单的数据源，例如在这篇[文章]中使用的数据源（/tutorials/03-en-xml-data.html），其目的是不仅用新数据显示连接的“TableGrid-Control”，还显示每次刷新数据源时（例如，如果以这种方式设置，则为每隔90秒）文本字段中的数据记录数。为此，在“TableGrid-Control”旁边的面板上我们需要一个文本字段。这个文本字段必须有一个名字，但是会有一个名称-属性，如下面的屏幕截图所示。
+我们假设一个简单的数据源，例如在这篇[文章]（/tutorials/03-cn-xml-data.html）中使用的数据源，其目的是不仅用新数据显示连接的“TableGrid-Control”，还显示每次刷新数据源时（例如，如果以这种方式设置，则为每隔90秒）文本字段中的数据记录数。为此，在“TableGrid-Control”旁边的面板上我们需要一个文本字段。这个文本字段必须有一个名字，但是会有一个名称-属性，如下面的屏幕截图所示。
 
 ![image_1](/assets/images/scripting/engine/TutorialScripting01.png)
 
