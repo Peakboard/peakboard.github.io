@@ -18,7 +18,6 @@ ref: misc-06
 * Einführung unterschiedlicher Zeichnungsebenen
 * Möglichkeit Ebenen per Drag and Drop in der Rubrik Screen zu ändern
 * Möglichkeit ein Element eine Ebene herauf oder herab zu stufen
-
 * Fix für Undo/Redo 
 * Fix für den Zeitserver bei alten Visualisierungen
 * Fix für die Anzeige eines Live Tile Box

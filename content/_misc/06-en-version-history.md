@@ -18,7 +18,6 @@ ref: misc-06
 * Introduction of different drawing levels
 * Possibility to change levels by drag and drop in the Screen section
 * Possibility to step an element up or down a level
-
 * Fix for Undo/Redo 
 * Fix for the time server with old visualizations
 * Fix for displaying a Live Tile Box
