@@ -12,7 +12,7 @@ A remedy for this is to create several screens in one visualization.
 These are run through automatically in the same way as they are arranged. Under Screen duration the time interval for a change of the respective screen is indicated.
 Here the entry 0 is equivalent to an infinite display duration. Therefore, there is no automatic screen change.
 
-![Screen duration](/assets/images/misc/presenter/screenduration.png)
+![Screen duration](/assets/images/misc/Presenter/screenduration.png)
 
 A commercially available presenter can be used to switch through the created screens in a similar way to a presentation. The USB dongle is simply plugged into the USB slot of the Peakboard Box.
 A global script with the following content is then created in the visualization. 
