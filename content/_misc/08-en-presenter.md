@@ -14,7 +14,7 @@ Here the entry 0 is equivalent to an infinite display duration. Therefore, there
 
 ![Screen duration](/assets/images/misc/presenter/autoscreen.png)
 
-A commercially available presenter can be used to switch through the created screens in a similar way to a presentation. The USB dongle is simply plugged into the USB slot of the Peakboard box.
+A commercially available presenter can be used to switch through the created screens in a similar way to a presentation. The USB dongle is simply plugged into the USB slot of the Peakboard Box.
 A global script with the following content is then created in the visualization. 
 
 ```
