@@ -7,9 +7,9 @@ lang: en
 ref: misc-08
 ---
 
-In some cases, such as the display of information on the shop floor, a single dashboard is not sufficient. 
+In some cases, such as the display of information on the shop floor, a single dashboard is not enough. 
 A remedy for this is to create several screens in one visualization.
-These are run through automatically in the same way as they are arranged. Under Screen duration the time interval for a change of the respective screen is indicated.
+These are run through automatically in the same way as they are arranged. Under Screen duration the time interval, for example 30 seconds for a change of the respective screen is indicated.
 Here the entry 0 is equivalent to an infinite display duration. Therefore, there is no automatic screen change.
 
 ![Screen duration](/assets/images/misc/Presenter/screenduration.png)

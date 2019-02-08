@@ -8,8 +8,8 @@ ref: misc-08
 ---
 
 In einigen Fällen, beispielsweise der Darstellung von Informationen am Shopfloor, reicht ein einzelnes Dashboard nicht aus. 
-Abhilfe hierfür schafft das Anlegen mehrere Screens in einer Visualisierung.
-Diese werden analog zu ihrer Anordnung automatisch durchlaufen. Unter Bildschirmdauer wird das Zeitintervall für einen Wechsel des jeweiligen Screens angegeben.
+Abhilfe hierfür schafft das Anlegen mehrerer Screens in einer Visualisierung.
+Diese werden analog zu ihrer Anordnung automatisch durchlaufen. Unter Bildschirmdauer wird das Zeitintervall, beispielsweise 30 Sekunden für einen Wechsel des jeweiligen Screens angegeben.
 Hierbei ist der Eintrag 0 gleichbedeutend einer unendlichen Anzeigedauer. Es erfolgt demnach kein automatischer Screenwechsel.
 
 ![Bildschirmdauer](/assets/images/misc/Presenter/screenduration.png)
