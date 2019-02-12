@@ -7,7 +7,7 @@ lang: en
 ref: misc-06
 ---
 
-## 1.0.35.6 (05.02.2019)
+## 1.0.35.50 (12.02.2019)
 
 * Hotfix for wrong translations
 
