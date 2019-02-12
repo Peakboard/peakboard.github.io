@@ -9,6 +9,10 @@ ref: misc-06
 
 ## 1.0.35.6 (05.02.2019)
 
+* Hotfix für falsche Übersetzungen
+
+## 1.0.35.6 (05.02.2019)
+
 * Sprachauswahl um deutsches Sprachpaket erweitert
 * Trennung von Variabeln/Listen und Datenquellen
 * Neue Datenquelle: Google Spreadsheet

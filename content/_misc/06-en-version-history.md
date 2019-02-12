@@ -9,6 +9,10 @@ ref: misc-06
 
 ## 1.0.35.6 (05.02.2019)
 
+* Hotfix for wrong translations
+
+## 1.0.35.6 (05.02.2019)
+
 * Language selection and German language is now available
 * Separation of variables, lists and data sources
 * New data source: Google Spreadsheet
