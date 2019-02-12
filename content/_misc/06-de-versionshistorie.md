@@ -7,6 +7,10 @@ lang: de
 ref: misc-06
 ---
 
+## 1.0.35.53 (12.02.2019)
+
+* Hotfix für den Umgang mit OPC UA-Serverzertifikaten
+
 ## 1.0.35.50 (12.02.2019)
 
 * Hotfix für falsche Übersetzungen
