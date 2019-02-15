@@ -22,7 +22,7 @@ Die Request URL gestaltet sich dabei wie folgt, wobei als Methode GET verwendet 
 [Name der Box]/api/iot/screenshot
 ```
 
-Wie in der Darstellung ersichtlich erfolgt die Authorisierung Base64 encoded. Einen entsprechenden Encoder finden sie beispielsweise ![hier](https://www.base64encode.org/)
+Wie in der Darstellung ersichtlich erfolgt die Authorisierung Base64 encoded. Einen entsprechenden Encoder finden sie beispielsweise [hier](https://www.base64encode.org/)
 Der Authorisierungsstring setzt sich wie folgt zusammen:
 
 ```
