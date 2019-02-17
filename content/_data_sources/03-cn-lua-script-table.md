@@ -1,22 +1,22 @@
 ---
 layout: article
-title: LUA Script Data
-menu_title: LUA Script Data
-description: Information about LUA Script Data  in Peakboard
+title: LUA脚本数据
+menu_title: LUA脚本数据
+description: Peakboard中关于LUA脚本数据的信息
 lang: cn
 ref: dat-03
 ---
-The data source LUA Script Table differs slightly from the classic data sources. It is used to cover requirements that cannot be met by other traditional data sources. The idea is to define the metadata as columns of the data source. The filling with data is then done by a LUA-Script, as the name suggests. What exactly the script does is up to the user’s imagination. Typical areas of application are complex data sources that require multiple interaction, e. g. to first fetch an authorization token somewhere, then retrieve data from a first web source and then merge it with a completely different data source. The complete set of LUA commands is available.
+数据源LUA脚本表与传统数据源稍有不同。它用于满足其他传统数据源无法满足的要求。该想法是将元数据定义为数据源的列。然后，用LUA脚本完成填充数据，正如其名所指。脚本究竟做什么取决于用户的想象力。典型的应用领域是需要多次交互的复杂数据源，例如：首先在某处获取授权令牌，然后从首个网络源中检索数据，之后将其与完全不同的数据源合并。完整的LUA命令集是可用的。
 
-The following screenshot shows a table with three columns that can consist of the three elementary LUA data sources: Number, string or boolean. Creating the columns is trivial and self-explanatory. In the reload interval, you define how often the script is to be executed.
+以下屏幕截图显示了一个包含3列的表，这些列可以包含3种基本的LUA数据源：Number（数字）、string（字符串）或boolean（布林）。创建这些列无需说明。在重载间隔中可以定义执行脚本的频率。
 
 ![Edit lua Script Data Dialog](/assets/images/data-sources/datasources-lua-script/edit-lua-script-data-dialog.png)
 
-In the code block itself, only one JSON-String is then assembled, which is then returned once as a return value.
+在代码块中，只汇编一个JSON-String（JSON字符串），然后将其返回一次作为返回值。
 
 ![Edit Script Dialog](/assets/images/data-sources/datasources-lua-script/edit-script-dialog.png)
 
-Here again for all those who want to copy the example, the original code. Random function generates random numbers:
+在此给所有想要复制示例的人提供原始代码。随机函数生成随机数字：
 
 ```lua
 local json = '['

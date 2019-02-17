@@ -2,25 +2,25 @@
 layout: article
 title: JSON
 menu_title: JSON
-description: Information about JSON Data  in Peakboard
+description:Peakboard中关于JSON数据的信息
 lang: cn
 ref: dat-06
 
 ---
-This page explains the individual features when accessing JSON data sources from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
+此页面介绍从Peakboard访问JSON数据源时的各种特点。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 
 [External Data Sources Using XML Data Source Example](/tutorials/03-en-xml-data.html)
 
-If you don’t have a URL to a JSON data source at hand, but just want to try it out once, please use the following sample URL:
+如果您手边没有JSON数据源的URL，但想尝试一次，请使用以下示例URL：
 
 [http://mysafeinfo.com/api/data?list=presidents&format=json](http://mysafeinfo.com/api/data?list=presidents&format=json)
 
-JSON is a hierarchical format. Since Peakboard data sources are always tabular, a section of the JSon file may have to be selected. It is possible to either reference an array or a complex object within the JSon source. In the case of an array, the target table in Peakboard has any number of columns, in the case of the object, exactly one row with all elements of the object as columns. To configure the JSon data source, give it a name and specify the URL to the source (for example, the URL from above). If you only want to use part of the JSon content, formulate a JPath statement in the JPath text field that points to the start element. An empty JPath starts the root element. User and password fields must be filled in if the source requires authentication.
+JSON是一种层次格式。由于Peakboard数据源都是表格式的，因此必须选择JSon文件的一部分。可以在JSon源中引用数组或复杂对象。对于数组，Peakboard中的目标表具有任意数量的列；对于对象，只有一行，且对象的所有元素都作为列。要配置JSon数据源，请为其命名，并指定源的URL（例如，上面的URL）。如果只想使用部分JSon内容，请在JPath文本字段中制定一个JPath语句指向开始元素。一个空JPath启动根元素。如果源要求认证，则必须填写用户和密码字段。
 
-To publish the metadata within Peakboard, click Load Columns. The table with the target columns is then filled according to the specifications. The Max Items field limits the number of rows to a certain value. Reload Interval specifies the number of seconds after which the data source should be refreshed. Adjust these values according to your application.
+要在Peakboard中发布元数据，单击Load Columns（加载列）。 然后根据规范填写含目标列的表。 Max Items（最大项目）字段限制行数为一个特定值。 Reload Interval（重载间隔）指定应再次刷新数据源的秒数。请根据您的应用调整这些值。
 
 ![JSON Add Data Dialojso](/assets/images/data-sources/json/json-add-data-dialog.png)
 
-A click on Preview shows the raw data in tabular form. Here you can check the information again.
+单击Preview（预览）以表格形式显示原始数据，在此可再次查看信息。
 
 ![JSON Preview Data](/assets/images/data-sources/json/json-preview-data.png)

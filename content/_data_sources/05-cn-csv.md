@@ -2,14 +2,14 @@
 layout: article
 title: CSV
 menu_title: CSV
-description: Information about CSV Data  in Peakboard
+description: Peakboard中关于CSV数据的信息
 lang: cn
 ref: dat-05
 ---
-This article explains how to handle the data source for data in CSV format. The exact specification and further information about CSV can be found [here.](https://en.wikipedia.org/wiki/Comma-separated_values)
+本文解释如何处理CSV格式数据的数据源。有关CSV的确切规范和更多信息在[此处](https://en.wikipedia.org/wiki/Comma-separated_values)。
 
-A nice example of CSV data can be found under this URL: [http://mysafeinfo.com/api/data?list=presidents&format=csv](http://mysafeinfo.com/api/data?list=presidents&format=csv) It lists all American presidents.
+可在此URL：[http://mysafeinfo.com/api/data?list=presidents&format=csv](http://mysafeinfo.com/api/data?list=presidents&format=csv)查看CSV数据示例。
 
-The handling of the dialog is almost self-explanatory. Write the desired URL in the corresponding text field. If explicit authentication is required, this can be set with the corresponding attribute. As well as the maximum number of records and the reload interval. To load the columns of the data source, click Load. Once the metadata is loaded, the data source is available for further processing like any other source.
+对话框的处理无需说明。在相应的文本字段中写入所需URL。如果需要明确认证，可以通过相应的属性进行设置，最大记录数目和重载间隔也同样。要加载数据源的列，单击Load（加载）。一旦加载元数据，数据源可像任何其他源一样用于进一步处理。
 
 ![CSV Add Data Dialog](/assets/images/data-sources/csv/csv-add-data-dialog.png)
