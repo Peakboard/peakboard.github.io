@@ -1,31 +1,33 @@
 ---
 layout: article
-title: Google Spreadsheets
-menu_title: Google Spreadsheets
-description: Google Spreadsheets
+title: Google电子表格
+menu_title: Google电子表格
+description: Google电子表格
 lang: cn
 ref: dat-30
 ---
-The Google Speadsheets data source is used to extract tabular data from Google Spreadsheets and then use it in Peakboard like any other data source.
+Google电子表格数据源用于从Google电子表格中提取表格式数据，然后像任何其他数据源一样在Peakboard中使用。
 
-## Authorizing access to Google
+## 授权访问Google
 
-In addition to the obligatory name of the data source, a connection to a Google account must first be established. This is done via the Authorize button. A login window opens in which the Google Account must be entered. Peakboard as the application must then be given the right to read spreadsheets. This works exactly like any other third-party access. Username and password actually have no contact at all with the Peakboard Designer. Only a token is generated, stored in the package and later transferred to the box. You can also revoke this access within your Google account, if necessary.
+除了数据源的强制名称之外，必须首先连接Google账户。可以通过Authorize（认证）按钮建立，在打开的登录窗口中输入Google用户，Peakboard作为应用程序，须给予其读取电子表格的权利。这与任何其他第三方访问一样。用户名及密码与Peakboard Designer没有任何关系，只会生成一个令牌，存储于包中，之后传输到Box中。在必要的情况下，您也可以在Google账户中撤销此访问。
 
 ![image_1](/assets/images/Data_Sources/GoogleSpreadsheets/SpeadsheetsSource01.png)
 
-## Setting up Spreadsheets access
+## 电子表格访问设置
 
-The button with the three dots allows you to browse through the Google Drive folder structure containing the spreadsheets. After the selection with the double-click the path and file name are put into the appropriate text field and the desired sheet can be selected.
-The following settings are possible in order to select the correct section from the spreadsheets as the data basis:
+三个点按钮可以浏览包含电子表格的Google云端硬盘文件夹结构。双击选择后，路径和文件名将放入相应的文本字段中，并可选择所需的表格。可以用下面的设置从电子表格中选择正确的部分作为数据基础：
 
-*    **Column names in 1st row** means that the column contents of the first line are used as headings for the output columns.
-*    **Switch rows and columns** treats the rows and columns in reverse, like a pivot table.
-*    **Select All** means that all the data in a sheet is selected (and not just a specific section).
-*    **Range** This value can be specified if only a certain section of the sheet is to be read. The notation is the same as in Excel, e.g. A5:C26.
-*    **Max Items** Defines the maximum number of lines that can be read (provided that NO Range is specified).
-*    **Reload Interval** is the usual time period for automatic reloading of data in seconds.
+* **第1行中的列名称**表示第一行的列内容用作输出列的标题。
+* **切换行和列**反向处理行和列，如数据透视表。
+* **全选**表示已选择工作表中的所有数据（而不只是一个特定部分）。
+* **范围**如果只选择读取表格的某一部分，则可以指定此值。符号与Excel相同，例如：A5:C26。
+* **最大项目**定义可读取的最大行数（如果未指定范围）。
+* **重载间隔**是通常自动重新加载数据的时间段（单位为秒）。
 
-Clicking Load Data in the preview displays the data according to the settings and updates the metadata in the column list.
+
+
+
+在预览中，单击Load Data（加载数据）将根据设置显示数据，并更新列列表中的元数据。
 
 ![image_1](/assets/images/Data_Sources/GoogleSpreadsheets/SpeadsheetsSource02.png)
