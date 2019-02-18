@@ -22,11 +22,11 @@ Die Request URL gestaltet sich dabei wie folgt, wobei als Methode GET verwendet 
 [Name der Box]/api/iot/screenshot
 ```
 
-Wie in der Darstellung ersichtlich erfolgt die Authorisierung Base64 encoded. Einen entsprechenden Encoder finden sie beispielsweise [hier](https://www.base64encode.org/). 
-Der Authorisierungsstring setzt sich wie folgt zusammen:
+Wie in der Darstellung ersichtlich erfolgt die Autorisierung Base64 encoded. Einen entsprechenden Encoder finden Sie beispielsweise [hier](https://www.base64encode.org/). 
+Der Autorisierungsstring setzt sich wie folgt zusammen:
 
 ```
 Administrator:Ihr_Gerätepasswort
 ```
 
-Bei erfolgreichem Request erhalten Sie einen Screenshot von der aktuellen Anzeige zur beliebigen Weiterverarbeitung von der Box geliefert
+Bei erfolgreichem Request erhalten Sie einen Screenshot von der aktuellen Anzeige zur beliebigen Weiterverarbeitung von der Box geliefert.
