@@ -7,7 +7,7 @@ lang: de
 ref: misc-09
 ---
 
-Werden beispielsweise am Shopfloor Entscheidungen auf Grundlage einer Visualisierung getroffen, so ist es Notwendig die Entscheidungsgrundlage zu dokumentieren.
+Werden beispielsweise am Shopfloor Entscheidungen auf Grundlage einer Visualisierung getroffen, so ist es notwendig die Entscheidungsgrundlage zu dokumentieren.
 Dies kann beispielsweise über einen Screenshot der Visualisierung realisiert werden.
 
 Technisch kann so ein Screenshot über einen HTTP Get Request direkt von der Box extrahiert werden.
@@ -22,7 +22,7 @@ Die Request URL gestaltet sich dabei wie folgt, wobei als Methode GET verwendet 
 [Name der Box]/api/iot/screenshot
 ```
 
-Wie in der Darstellung ersichtlich erfolgt die Autorisierung Base64 encoded. Einen entsprechenden Encoder finden Sie beispielsweise [hier](https://www.base64encode.org/). 
+Wie in der Darstellung ersichtlich, erfolgt die Autorisierung Base64 encoded. Einen entsprechenden Encoder finden Sie beispielsweise [hier](https://www.base64encode.org/). 
 Der Autorisierungsstring setzt sich wie folgt zusammen:
 
 ```
