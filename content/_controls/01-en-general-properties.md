@@ -11,13 +11,12 @@ All Controls that are available in the Toolbox at the top right have properties.
 
 | **Property**   | **Description** |
 |------------|-------------|
-| Name       |	Is a unique name for the control (without special characters) to access from scripts. Only if the control is actually used by scripts, a name must be assigned. |
+| Name       | Is a unique name for the control (without special characters) to access from scripts. Only if the control is actually used by scripts, a name must be assigned. |
 | Height     | Is the height in pixels.|
 | Margin     | Cannot be changed directly, but represents the position of the control onthe board (x, y-coordinate) |
-| Visible    |	Is a boolean value that sets the visibility. It is usually set from |
-| scripts    | to make a control visible / invisible after a certain logic.
-| Width      |	Is the width in pixels.	|
-| Events     |	This property can be used to call a dialog containing one or more scripts that are called when events of the control occur.	|
-| Font       |	Represents a font from the font manager. Some controls have multiple font properties, such as the Table Grid: One for the header, and one for the rest.	|
-| Background |	Is the color of the background.
-| Foreground |	Is the color of the foreground (what exactly is the "foreground" depends on the control). |
+| Visible    | Is a boolean value that sets the visibility. It is usually set from scripts to make a control visible / invisible after a certain logic.|
+| Width      | Is the width in pixels.	|
+| Events     | This property can be used to call a dialog containing one or more scripts that are called when events of the control occur.	|
+| Font       | Represents a font from the font manager. Some controls have multiple font properties, such as the Table Grid: One for the header, and one for the rest.	|
+| Background | Is the color of the background.
+| Foreground | Is the color of the foreground (what exactly is the "foreground" depends on the control). |
