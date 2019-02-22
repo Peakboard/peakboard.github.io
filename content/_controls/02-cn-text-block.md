@@ -2,7 +2,7 @@
 layout: article
 title: 文本块
 menu_title: 文本块
-description: 关于Peakboard Designer TextBox控件的信息。
+description: Peakboard Designer中文本块控件相关信息。
 lang: cn
 ref: con-02
 ---
