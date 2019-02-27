@@ -19,7 +19,7 @@ This command looks like this:
 The request URL is as follows, where GET is used as the method:
 
 ```
-[Box name]/api/iot/screenshot
+[Box name]:8080/api/iot/screenshot
 ```
 
 As shown in the diagram, the authorization is Base64 encoded. You can find a corresponding encoder for example [here](https://www.base64encode.org/). 
