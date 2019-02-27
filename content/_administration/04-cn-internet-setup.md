@@ -8,9 +8,9 @@ ref: admin-04
 ---
 
 打开Box的Windows设备门户（http://<ip-address-<peakboard>:8080）。
-在这里，您可以直接在“进程”下发送命令，并使用“运行命令”。
+在这里，您可以使用“运行命令”直接在“进程”下发送命令。
 
-您将需要以下两个命令，并且需要相应地调整您自己的代理服务器。
+您将需要以下两个命令，并且需要相应地调整自己的代理服务器。
 
 
 ```
@@ -22,8 +22,16 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v Pr
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyServer /t REG_SZ /d <proxy-server>:<port> /f
 ```
 
-可以使用“运行”按钮一个接一个地发送命令；必须勾选“作为默认帐户运行”中的复选标记。
+可以使用“运行”按钮一个接一个地发送命令；必须勾选“作为默认帐户运行”复选框。
 
 ![Windows Device Portal Run Command](/assets/images/admin/internet-setup/proxy.png)
 
-然后重新启动一次Peakboard-Box以应用更改。
+另外，可以添加不应使用代理的地址列表。
+
+```
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyOverride /t REG_SZ /d "<local>;192.168.0.10" /f
+```
+
+值“\<local\>”即是Internet Explorer设置中的已知选项“为本地地址绕过代理服务器”，该选项用于为所有本地地址绕过代理。
+可以将更多的IP地址添加到列表中，值必须以分号分隔。
+然后重新启动一次Peakboard-Box，以应用更改。
