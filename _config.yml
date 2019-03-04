@@ -28,7 +28,7 @@ collections:
     title:
       en: "Tutorials"
       de: "Tutorials"
-      cn: "辅导课"
+      cn: "教程"
 
   video_tutorials:
     output: true
@@ -45,7 +45,7 @@ collections:
     title:
       en: "Data Sources"
       de: "Datenquellen"
-      cn: "进入数据源"
+      cn: "数据源"
       
   dataflows:
     output: true
@@ -72,7 +72,7 @@ collections:
     title:
       en: "Misc"
       de: "Misc"
-      cn: "其他"
+      cn: "杂项"
 
   administration:
     output: true
@@ -81,7 +81,7 @@ collections:
     title:
       en: "Administration"
       de: "Administration"
-      cn: "管理中心"
+      cn: "管理"
 
   scripting:
     output: true
@@ -90,7 +90,7 @@ collections:
     title:
       en: "Scripting"
       de: "Scripting"
-      cn: "聊本语言"
+      cn: "脚本"
 
   peakboardio:
     output: true
