@@ -2,7 +2,7 @@
 layout: article
 title: 静态数据
 menu_title: 静态数据
-description: Peakboard中的静态数据信息
+description: Peakboard中的静态数据相关信息
 lang: cn
 ref: dat-01
 ---
@@ -10,21 +10,21 @@ ref: dat-01
 
 静态数据源用作各种复杂脚本任务的“全局变量”。不同的脚本可以通过写入或读取数据源来交换信息。
 
-静态数据源被用作为容器，将推送消息从外部发送到Peakboard-Box。例如，你可以建立一个静态表用于错误消息。陷入错误状态的机器将推送错误信息至此静态容器中。然后所有连接的控件将自动响应。[此处](/misc/02-en-push-messages.html)查看案例。
+静态数据源被用作为容器，将推送消息从外部发送到Peakboard Box。例如，你可以建立一个静态表用于错误消息。处入错误状态的机器将推送错误信息至此静态容器中。然后所有连接的控件将自动响应。[此处](/misc/02-cn-push-messages.html)查看案例。
 
-要创建一个静态数据源，如创建所有其他数据源一样（/tutorials/03-en-xml-daten.html）。可以创建一个单值或一个表单。
+要创建静态数据源，如创建所有其他[数据源](/tutorials/03-cn-xml-daten.html)一样。可以创建单值或表。
 
 ![Add Static Data](/assets/images/data-sources/static-data/add-data-dialog.png)
 
 ## 为单值保持变量
 
-除了名称和数据类型（String、Number或Boolean），还可以给定一个初始值。 选项*Save on Box*允许在晚些时候重启看板之后将值存储在Peakboard Box中。如果未选择此选项，则重新启动后该值将重置为初始值。
+除了名称和数据类型（String（字符串）、Number（数字）或Boolean（布林）），还可以给定一个初始值。 选项*保存在Box*允许在稍后重启看板后将值存储在Peakboard Box中。如果未选择此选项，则重新启动后该值将重置为初始值。
 
 ![Add Static Data](/assets/images/data-sources/static-data/static-single-variable.png)
 
 ## 维护静态表
 
-要静态地存储表格式数据，必须使用“编辑”按钮，跳转到相应对话框中维护。 在较低区域，可以为表创建新列或再删除它们。要维护数据内容，只需单击相应的表格单元格。要删除表格行，不将光标放在单元格中按下Delete键，以便只选择此行。选项*Save on Box*也可用于表，以便在下次启动过程之后保留box中的数据。
+要静态地存储表格式数据，必须使用“编辑”按钮，跳转到相应对话框中维护。 在较低区域，可以为表创建新列或再删除它们。要维护数据内容，只需单击相应的表格单元格。要删除表格行，不将光标放在单元格中按下Delete键，以便只选择此行。选项*保存在Box*也可用于表，以便在下次启动过程之后保留Box中的数据。
 
 
 ![Add Static Data](/assets/images/data-sources/static-data/static-table-variable.png)

@@ -2,20 +2,19 @@
 layout: article
 title: OData
 menu_title: OData
-description: Peakboard中关于OData数据的信息
+description: Peakboard中OData数据的相关信息
 lang: cn
 ref: dat-07
 ---
-此页面介绍了从Peakboard访问OData数据源时的各种特点。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
+此页面介绍了从Peakboard访问OData数据源时的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 
-
-[External Data Sources Using XML Data Source Example](/tutorials/03-en-xml-data.html)
+[使用XML数据源的外部数据源示例](/tutorials/03-cn-xml-data.html)
 
 如果您手边没有OData数据源的URL，但想尝试一次，请使用下面的示例URL。它指向AdventureWorks数据库，是微软的示例数据库。它包括不同的实体集，例如产品目录或销售数据。
 
 [http://services.odata.org/AdventureWorksV3/AdventureWorks.svc](http://services.odata.org/AdventureWorksV3/AdventureWorks.svc)
 
-OData是一种标准化的数据交换格式。示例URL是一个小型数据库，通过在输入URL后单击Load（加载），可以将其实体集加载到Combobox中。如果OData需要认证，请单击三个点小按钮，之后输入您的用户名和密码。
+OData是一种标准化的数据交换格式。示例URL是一个小型数据库，通过在输入URL后单击“加载”，可以将其实体集加载到Combobox中。如果OData需要认证，请单击三个点小按钮，之后输入您的用户名和密码。
 
 ![Odata Data Dialog](/assets/images/data-sources/odata/odata-data-dialog.png)
 
@@ -23,6 +22,6 @@ OData是一种标准化的数据交换格式。示例URL是一个小型数据库
 
 ![Odata Entity Properties](/assets/images/data-sources/odata/entity-properties.png)
 
-在Preview（预览）按钮的帮助下，将发送一个测试请求到服务器，并根据规范准备数据。
+在“预览”按钮的帮助下，将发送一个测试请求到服务器，并根据规范准备数据。
 
 ![Odata Preview Dialog](/assets/images/data-sources/odata/odata-preview-dialog.png)
