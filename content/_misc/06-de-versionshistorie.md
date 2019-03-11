@@ -6,10 +6,15 @@ description: Versionshistorie
 lang: de
 ref: misc-06
 ---
+
+## 1.1.0.1 (11.03.2019)
+* Fehlende deutsche Übersetzungen hinzugefügt
+
 ## 1.1.0.0 (11.03.2019)
 
 * Anzeige des Dateinamens in der Titel-Bar
 * Überarbeiter StartUp-Dialog
+* Überarbeite Ribbon-Bar
 * Die Anzahl der Preview-Daten für alle Datenquellen wurde von fünf auf 50 Zeilen erhöht (falls vorhanden)
 * Deutsche Übersetzung für Dataflows hinzugefügt
 * Web GUI zum Pushen von Daten in Variablen der aktiven Visualisierung hinzugefügt.
