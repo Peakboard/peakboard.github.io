@@ -27,7 +27,6 @@ ref: misc-06
 * Fix für JSON Push
 * Fix für OPC UA
 
-
 ## 1.0.35.53 (12.02.2019)
 
 * Hotfix für den Umgang mit OPC UA-Serverzertifikaten
