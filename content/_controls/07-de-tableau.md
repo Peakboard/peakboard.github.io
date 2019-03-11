@@ -29,9 +29,13 @@ Mehr Infos finden Sie unter: [http://onlinehelp.tableau.com/current/server/en-us
 Im Tableau View Control sind im Eigenschaftsfenster folgende Optionen auszufüllen:
 
 **Server:** IP-Adresse des Tableau Servers
+
 **Username:**  Name des Benutzers auf dem Tableau Server
+
 **Workbook:** Name des Tableau-Workbooks, der die View enthält
+
 **View:** Der Name der View, die man auf dem PeakBoard anzeigen will
+
 
 Die beiden folgenden Bilder zeigen ein Tableau-Dashboard im Original auf dem Tableau-Server und die Darstellung auf einem Peakboard-Panel.
 

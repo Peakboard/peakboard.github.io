@@ -2,7 +2,7 @@
 layout: article
 title: JSON
 menu_title: JSON
-description:Peakboard中JSON数据的相关信息
+description: Peakboard中JSON数据的相关信息
 lang: cn
 ref: dat-06
 

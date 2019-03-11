@@ -25,7 +25,7 @@ The following screenshot shows the Excel chart in the Peakboard-Preview.
 
 > ### Attention!
 >
-> Please note that the chart does not necessarily have to look exactly the same as in the original Excel. For > technical reasons, optical deviations may occur.
+> Please note that the chart does not necessarily have to look exactly the same as in the original Excel. For technical reasons, optical deviations may occur.
 
 > ### Attention!
 >

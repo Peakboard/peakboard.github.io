@@ -34,7 +34,9 @@ Running a PowerShell locally as an administrator
 * net start WinRM
 * Set-Item WSMan:\localhost\Client\TrustedHosts -Value <ip-address>
 * Enter-PSSession -ComputerName <ip address> -Credential localhost\administrator
+
 When connected, import the certificate into the certificate store:
+
 * $cert = “c:\users\public\demo.cer”
 * Import Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 

@@ -8,7 +8,7 @@ ref: con-10
 ---
 
 The ListView Control can take any shape as long as it contains recurring elements. It is therefore necessarily linked to a tabular data source in order to function properly. Whether it is a simple list or complex elements is defined by an XAML fragment. If you are not familiar with XAML you can learn more about it [here](https://msdn.microsoft.com/en-us/library/cc295302.aspx). It is a description language that can be used to define an interface consisting of images, text and other elements. Similar to HTML, but much better.
-In the following example, we want to visualize the [Instagram](/data_sources/16-en-instagram.html) source that we have already written in another article and present the Instagram feed. Such data sources are particularly suitable because they consist of images and text.
+In the following example, we want to visualize the Instagram source that we have already written in another article and present the Instagram feed. Such data sources are particularly suitable because they consist of images and text.
 Drag the ListView Control to the panel and click on the property editor of the Source property. A dialog opens in which you can select a data source, e. g. Instagram.
 
 ![image_1](/assets/images/Controls/ListView/ControlsListview01.png)

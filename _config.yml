@@ -54,7 +54,7 @@ collections:
     title:
       en: "Dataflows"
       de: "Dataflows"
-      cn: "数据流程"
+      cn: "数据流"
 
   controls:
     output: true

@@ -28,9 +28,13 @@ More information can be found at: [http://onlinehelp.tableau.com/current/server/
 In the Tableau View Control, the following options must be filled in the properties window:
 
 **Server:** IP address of the tableau server
+
 **Username:** Name of the user on the tableau server
+
 **Workbook:** Name of the tableau workbook containing the view.
+
 **View:** The name of the view you want to display on the Peakboard
+
 
 The following two pictures show an original tableau dashboard on the tableau server and the representation on a Peakboard panel.
 
