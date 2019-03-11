@@ -12,6 +12,7 @@ ref: misc-06
 
 ## 1.1.0.0 (11.03.2019)
 
+* Sprachauswahl um Mandarin erweitert
 * Anzeige des Dateinamens in der Titel-Bar
 * Überarbeiter StartUp-Dialog
 * Überarbeite Ribbon-Bar

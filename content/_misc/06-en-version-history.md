@@ -11,6 +11,7 @@ ref: misc-06
 * Missing German translations added
 
 ## 1.1.0.0 (11.03.2019)
+* Language selection extended by Mandarin
 * Display of the file name in the title bar
 * Reworked StartUp dialog
 * Reworked ribbon bar
