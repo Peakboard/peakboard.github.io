@@ -13,17 +13,17 @@ ref: misc-06
 ## 1.1.0.0 (11.03.2019)
 
 * Sprachauswahl um Mandarin erweitert
-* Anzeige des Dateinamens in der Titel-Bar
+* Anzeige des Dateinamens in der Title-Bar
 * Überarbeiter StartUp-Dialog
-* Überarbeite Ribbon-Bar
+* Überarbeiter Ribbon-Bar
 * Die Anzahl der Preview-Daten für alle Datenquellen wurde von fünf auf 50 Zeilen erhöht (falls vorhanden)
 * Deutsche Übersetzung für Dataflows hinzugefügt
-* Web GUI zum Pushen von Daten in Variablen der aktiven Visualisierung hinzugefügt.
-* List View überarbeitet, sowie Controls und Funktionen hinzugefügt
-* Tile View überarbeitet, sowie Controls und Funktionen hinzugefügt
+* Web GUI zum Pushen von Daten in Variablen der aktiven Visualisierung hinzugefügt
+* List View überarbeitet sowie Controls und Funktionen hinzugefügt
+* Tile View überarbeitet sowie Controls und Funktionen hinzugefügt
 * Excel Files müssen nicht mehr geschlossen sein, wenn sie von einem NetworkShare bezogen werden
 * Default für Dataflows auf "Neu laden, wenn die Quelle aktualisiert wird." gesetzt
-* OPC UA erlaubt die Löschung von Serverzertifikaten
+* OPC UA erlaubt die Löschung von Server-Zertifikaten
 * Fix für die Anzeige von Dialogen
 * Fix für den Update-Dialog (x hatte dieselbe Funktion wie YES)
 * Fix in LUA für die Verwendung von getrennten SQL Verbindungen
@@ -35,7 +35,7 @@ ref: misc-06
 
 ## 1.0.35.53 (12.02.2019)
 
-* Hotfix für den Umgang mit OPC UA-Serverzertifikaten
+* Hotfix für den Umgang mit OPC UA-Server-Zertifikaten
 
 ## 1.0.35.50 (12.02.2019)
 

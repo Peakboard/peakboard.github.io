@@ -27,7 +27,7 @@ ref: misc-06
 * Fix for the update dialog (x had the same function as YES)
 * Fix in LUA for using SQL connections before connecting
 * Fix for NULL handling for SQL
-* Fix for adding a new local resource that has already been created.
+* Fix for adding a new local resource that has already been created
 * Fixed for JSON queries with empty JSON
 * Fix for JSON Push
 * Fix for OPC UA
