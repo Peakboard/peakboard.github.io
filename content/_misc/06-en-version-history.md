@@ -10,15 +10,14 @@ ref: misc-06
 ## 1.1.0.0 (11.03.2019)
 * Display of the file name in the title bar
 * Reworked StartUp dialog
-* Data preview for all data sources increased from 5 to 50 lines
+* Amount of preview data for all data sources was increased from five to 50 rows (if available)
 * German translation for Dataflows added
 * Web GUI for pushing data to variables added
-* List View reworked and controls and functions added
-* Tile View reworked and controls and functions added
-* Excel files no longer need to be closed imported from networkShares
-* Default for dataflows set to "Reload when source is updated."
+* List View reworked, controls and functions were added
+* Tile View reworked, controls and functions were added
+* Excel files no longer need to be closed when located on a network share
+* Default for Dataflows set to "Reload when source is updated." 
 * OPC UA allows the deletion of server certificates
-
 * Fix for displaying dialogs
 * Fix for the update dialog (x had the same function as YES)
 * Fix in LUA for using SQL connections before connecting

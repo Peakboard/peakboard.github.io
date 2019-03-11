@@ -10,15 +10,14 @@ ref: misc-06
 
 * Anzeige des Dateinamens in der Titel-Bar
 * Überarbeiter StartUp-Dialog
-* Datenvoransicht für alle Datenquellen von 5 auf 50 Zeilen erhöht
+* Die Anzahl der Preview-Daten für alle Datenquellen wurde von fünf auf 50 Zeilen erhöht (falls vorhanden)
 * Deutsche Übersetzung für Dataflows hinzugefügt
-* Web GUI zum Pushen von Daten an Variablen
-* List View überarbeitet sowie Controls und Funktionen hinzugefügt
-* Tile View überarbeitet sowie Controls und Funktionen hinzugefügt
+* Web GUI zum Pushen von Daten in Variablen der aktiven Visualisierung hinzugefügt.
+* List View überarbeitet, sowie Controls und Funktionen hinzugefügt
+* Tile View überarbeitet, sowie Controls und Funktionen hinzugefügt
 * Excel Files müssen nicht mehr geschlossen sein, wenn sie von einem NetworkShare bezogen werden
 * Default für Dataflows auf "Neu laden, wenn die Quelle aktualisiert wird." gesetzt
 * OPC UA erlaubt die Löschung von Serverzertifikaten
-
 * Fix für die Anzeige von Dialogen
 * Fix für den Update-Dialog (x hatte dieselbe Funktion wie YES)
 * Fix in LUA für die Verwendung von getrennten SQL Verbindungen
