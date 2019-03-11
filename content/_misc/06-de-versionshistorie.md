@@ -18,7 +18,6 @@ ref: misc-06
 * Excel Files müssen nicht mehr geschlossen sein 
 * Default für Dataflows auf "Neu laden, wenn die Quelle aktualisiert wird." gesetzt
 * OPC UA erlaubt die Erkennung von Serverzertifikaten
-
 * Fix für die Anzeige von Dialogen
 * Fix für Update (x hatte dieselbe Funktion wie YES)
 * Fix in LUA für die Verwendung von SQL Verbindungen 

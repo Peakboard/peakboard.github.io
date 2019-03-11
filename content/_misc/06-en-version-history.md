@@ -16,9 +16,8 @@ ref: misc-06
 * List View revised and controls and functions added
 * Tile View revised and controls and functions added
 * Excel files no longer need to be closed 
-* Default for dataflows set to "Reload when source is updated." 
+* Default for Dataflows set to "Reload when source is updated." 
 * OPC UA allows the recognition of server certificates
-
 * Fix for displaying dialogs
 * Fix for update (x had the same function as YES)
 * Fix in LUA for using SQL connections 
