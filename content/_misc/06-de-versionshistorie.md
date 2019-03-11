@@ -6,6 +6,28 @@ description: Versionshistorie
 lang: de
 ref: misc-06
 ---
+## 1.1.0.0 (11.03.2019)
+
+* Anzeige des Dateinamens in der Titel-Bar
+* Überarbeiter Start Dialog
+* Datenvoransicht für alle Datenquellen von 5 auf 50 Zeilen erhöht
+* Deutsche Übersetzung für Dataflows
+* Web GUI zum Pushen von Daten an Variablen
+* List View überarbeitet sowie Controls und Funktionen hinzugefügt
+* Tile View überarbeitet sowie Controls und Funktionen hinzugefügt
+* Excel Files müssen nicht mehr geschlossen sein 
+* Default für Dataflows auf "Neu laden, wenn die Quelle aktualisiert wird." gesetzt
+* OPC UA erlaubt die Erkennung von Serverzertifikaten
+
+* Fix für die Anzeige von Dialogen
+* Fix für Update (x hatte dieselbe Funktion wie YES)
+* Fix in LUA für die Verwendung von SQL Verbindungen 
+* Fix für NULL Handling bei SQL
+* Fix für das erneute Hinzufügen einer bereits angelegten lokalen Ressource
+* Fix für JSON Abfragen mit leerem JSON
+* Fix für JSON Push
+* Fix für OPC UA
+
 
 ## 1.0.35.53 (12.02.2019)
 

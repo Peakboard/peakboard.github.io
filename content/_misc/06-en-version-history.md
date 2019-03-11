@@ -7,6 +7,27 @@ lang: en
 ref: misc-06
 ---
 
+## 1.1.0.0 (11.03.2019)
+* Display of the file name in the title bar
+* Reviewed Start Dialog
+* Data preview for all data sources increased from 5 to 50 lines
+* German translation for Dataflows
+* Web GUI for pushing data to variables
+* List View revised and controls and functions added
+* Tile View revised and controls and functions added
+* Excel files no longer need to be closed 
+* Default for dataflows set to "Reload when source is updated." 
+* OPC UA allows the recognition of server certificates
+
+* Fix for displaying dialogs
+* Fix for update (x had the same function as YES)
+* Fix in LUA for using SQL connections 
+* Fix for NULL handling for SQL
+* Fix for adding a new local resource that has already been created.
+* Fixed for JSON queries with empty JSON
+* Fix for JSON Push
+* Fix for OPC UA
+
 ## 1.0.35.53 (12.02.2019)
 
 * Hotfix for OPC UA server certificate handling
