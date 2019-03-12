@@ -7,9 +7,14 @@ lang: en
 ref: misc-06
 ---
 
+## 1.1.0.1 (11.03.2019)
+* Missing German translations added
+
 ## 1.1.0.0 (11.03.2019)
+* Language selection extended by Mandarin
 * Display of the file name in the title bar
 * Reworked StartUp dialog
+* Reworked ribbon bar
 * Amount of preview data for all data sources was increased from five to 50 rows (if available)
 * German translation for Dataflows added
 * Web GUI for pushing data to variables added
@@ -22,7 +27,7 @@ ref: misc-06
 * Fix for the update dialog (x had the same function as YES)
 * Fix in LUA for using SQL connections before connecting
 * Fix for NULL handling for SQL
-* Fix for adding a new local resource that has already been created.
+* Fix for adding a new local resource that has already been created
 * Fixed for JSON queries with empty JSON
 * Fix for JSON Push
 * Fix for OPC UA
