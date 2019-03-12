@@ -7,7 +7,7 @@ lang: en
 ref: scr-12
 ---
 
-To enable writing to Excel, the corresponding .xls file must be integrated as a bridge data source via an ODBC request. Instructions can be found [here](/data_sources/31-de-ODBC-Excel.html).
+To enable writing to Excel, the corresponding .xls file must be integrated as a bridge data source via an ODBC request. Instructions can be found [here](/data_sources/31-en-ODBC-Excel.html).
 
 The following script example allows to write values to Excel. With the help of a Reload() command, an immediate reload of the linked data source is triggered.
 
