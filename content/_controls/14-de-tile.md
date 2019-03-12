@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Tile
-menu_title: Tile
-description: Information über Peakboard Designer Tile Control.
+title: Tile-Control
+menu_title: Tile-Control
+description: Tile-Control
 lang: de
 ref: con-14
 ---
