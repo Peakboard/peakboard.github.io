@@ -18,7 +18,7 @@ OData is a standardized data exchange format. The example URL refers to a small 
 
 ![Odata Data Dialog](/assets/images/data-sources/odata/odata-data-dialog.png)
 
-If you have chosen an entity set, the columns and their data type are automatically displayed for information in the table below. As usual, you can specify the time interval after which the source is refreshed and the maximum number of rows retrieved. If you do not want to retrieve all data from the source, you can define an OData filter in the corresponding text field. If you don’t know exactly how an OData filter works, you will find a good introduction here
+If you have chosen an entity set, the columns and their data type are automatically displayed for information in the table below. As usual, you can specify the time interval after which the source is refreshed and the maximum number of rows retrieved. If you do not want to retrieve all data from the source, you can define an OData filter in the corresponding text field. If you don’t know exactly how an OData filter works, you will find a good introduction [here](https://www.odata.org/getting-started/basic-tutorial/#queryData).
 
 ![Odata Entity Properties](/assets/images/data-sources/odata/entity-properties.png)
 

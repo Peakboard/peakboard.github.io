@@ -19,7 +19,7 @@ OData ist ein standardisiertes Datenaustauschformat. Die Beispiel-URL verweist a
 
 ![Odata Data Dialog](/assets/images/data-sources/odata/odata-data-dialog.png)
 
-Wenn Sie sich für ein gewünschtes Entity Set entschieden haben, werden automatisch die Spalten und deren Datentyp zur Info in der Tabelle darunter eingeblendet. Wie üblich kann das Zeitintervall angegeben werden, nach dessen Ablauf die Quelle aufgefrischt wird, sowie die maximale Anzahl an Zeilen, die abgerufen wird. Für den Fall, dass nicht alle Daten der Quelle abgerufen werden sollen, lässt sich im entsprechenden Textfeld ein OData-Filter hinterlegen. Falls Sie nicht genau wissen, wie ein OData-Filter funktioniert, finden Sie hier eine gute Einführung.
+Wenn Sie sich für ein gewünschtes Entity Set entschieden haben, werden automatisch die Spalten und deren Datentyp zur Info in der Tabelle darunter eingeblendet. Wie üblich kann das Zeitintervall angegeben werden, nach dessen Ablauf die Quelle aufgefrischt wird, sowie die maximale Anzahl an Zeilen, die abgerufen wird. Für den Fall, dass nicht alle Daten der Quelle abgerufen werden sollen, lässt sich im entsprechenden Textfeld ein OData-Filter hinterlegen. Falls Sie nicht genau wissen, wie ein OData-Filter funktioniert, finden Sie [hier](https://www.odata.org/getting-started/basic-tutorial/#queryData). eine gute Einführung.
 
 ![Odata Entity Properties](/assets/images/data-sources/odata/entity-properties.png)
 
