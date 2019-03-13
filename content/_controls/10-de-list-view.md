@@ -7,26 +7,35 @@ lang: de
 ref: con-10
 ---
 
-Das ListView-Control kann jede beliebige Form und Gestalt annehmen, so lange es wiederkehrende Elemente enthält. Es ist deshalb auch zwingend an eine tabellarische Datenquelle gekoppelt, um einwandfrei zu funktionieren. Ob es sich um eine einfache Liste handelt, oder um komplexe Elemente wird durch ein XAML-Fragment definiert. Wenn Sie nicht mit XAML vertraut sind, können Sie [hier](https://docs.microsoft.com/de-de/dotnet/framework/wpf/advanced/xaml-overview-wpf) mehr darüber erfahren. Es handelt sich um eine Beschreibungssprache, mit der man eine Oberfläche bestehend aus Bildern, Text und anderen Elementen definieren kann. So ähnlich wie HTML, nur viel besser.
-Im folgenden Beispiel wollen wir die Instagram-Quelle visualisieren, die wir [in einem anderen Artikel](/data_sources/16-de-instagram.html) bereits aufgesetzt haben, und den Instagram-Feed darstellen. Solche Datenquellen eignen sich ganz besonders gut, da sie aus Bildern und Text bestehend.
-Ziehen Sie das ListView-Control auf das Panel und klicken Sie auf den Eigenschaftseditor der Eigenschaft Source. Es öffnet sich ein Dialog, auf dem Sie sich eine Datenquelle aussuchen können, z.B. die von Instagram.
+Das ListView-Control ist in seinem Verhalten dem [Tile Control](/controls/14-en-tilecontrol.html) und dem [Tile View](/controls/11-de-tile-view.html) sehr ähnlich.
+Während beim [Tile Control](/controls/14-en-tilecontrol.html) die Anordnung der einzelnen Tiles dem Entwickler freigestellt ist, werden beim ListView automatisch, solange Einträge in der Datenquelle vorhanden sind, Tile Elemente gemäß des verfügbaren Bereichs bereitgestellt. Nachfolgender Screenshot verdeutlicht dies.
 
-![image_1](/assets/images/Controls/ListView/ControlsListview01.png)
+![image_1](/assets/images/Controls/ListView/list1.png)
 
-Das ListView-Control hat jetzt bemerkt, dass es sich bei der Quelle um einen Insta-Feed handelt und schlägt bereits eine passende Visualisierung vor. Deshalb ist das ein gutes Beispiel, weil wir uns so den XAML-Code anschauen können, ohne gleich zum Start selbst XAML formulieren zu müssen. Sie erreichen den Code-Editor über den Dialog zur Eigenschaft ItemTemplate. Oben im Code-Editor können Sie über die Combo-Box andere Templates auswählen, die zur jeweiligen Datenquelle passen. Ein Klick auf Preview zeigt Ihnen im rechten Bereich, wie sich das XAML visuell darstellt, das Sie links formuliert haben. Außerdem können Sie so gleich überprüfen, ob sich vielleicht ein Syntax-Fehler eingeschlichen hat.
+Die Anordnung der Elemente kann dabei vertikal oder horizontal erfolgen. Die Einstellung hierfür erfolgt unter Orientierung, wo über eine Dropdown-Liste die gewünschte Ausrichtung getroffen werden kann. 
 
-![image_1](/assets/images/Controls/ListView/ControlsListview02.png)
+Ebenfalls ist es mit der ListView-Control möglich anhand einer getroffenen Regel die Anzeige zu verändern.
+Nachfolgendes Beispiel nutzt hierfür ebenfalls die im [Tile Control](/controls/14-en-tilecontrol.html) verwendete Liste, welche um die Spalte Status erweitert wurde:
 
-Um Werte aus der Datenquelle im XAML zu verwenden, nutzen Sie einfach eine Binding-Anweisung. So lassen sich einfache Textfelder genauso binden, wie Bilder bei der die URL in der Datenquelle enthalten ist. Hier
-ist Instagram auch wieder eine gutes Beispiel, um das zu demonstrieren.
+![table1](/assets/images/Controls/ListView/table1.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview03.png)
+Für die Visualisierung soll eine Regel festgelegt werden, welche einen Warnhinweis enthält, wenn es zum Stillstand einer Produktionslinie kommt.
+Dafür wird das angelegte ListView-Element selektiert und anschließend ein zusätzliches Template über die drei Punkte neben Vorlagenselektion angelegt (1). 
+In einem ersten Schritt wird über das Zahnrad-Symbol (2) der Regel-Editor geöffnet. Über das + Symbol (3) wird eine neue Regel angelegt. 
+Für das Beispiel soll immer dann ein alternatives Template angezeigt werden, wenn der Status einer Produktionslinie gleich Stop wie Stillstand ist. (4)
+Im zweiten Schritt soll die für die gerade angelegte Regel gültige Vorlage erstellt werden. Dazu wird der Regel-Editor über OK verlassen (5) und der Template-Editor geöffnet (6).
 
-Standardmäßig ordnet das ListView-Control die Elemente untereinander an. Wenn Sie die Elemente lieber von links nach rechts angeordnet haben wollen, stellen Sie einfach die Eigenschaft Orientation von Vertical auf Horizontal um. Sinnigerweise muss dann natürlich auch das XAML-Template angepasst werden, sonst macht es keinen Sinn. Die beiden Screenshots zeigen einmal das vertikale Listview mit horizontalem Template und das horizontale Listview mit vertikalem Template.
-![image_1](/assets/images/Controls/ListView/ControlsListview04.png)
+![image_2](/assets/images/Controls/ListView/list2.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview05.png)
+Dieser ist identisch zu den Tile, ListView oder TileView Editoren und verwendet die gleiche Datenbasis.
+Zunächst wird die Größe gleich der Größe des ListView-Elements gesetzt damit sich das alternative Template nahtlos in die Liste eingefügt (1).
+Anschließend können die Controls wie bekannt per Drag&Drop auf die Oberfläche gezogen werden und mit den entsprechenden Spalten der Datenquelle verknüpft werden.
 
-Zum Schluss noch der Vollständigkeit halber das ListView Control im Preview Modus.
+![image_3](/assets/images/Controls/ListView/list3.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview06.png)
+Über OK wird der Editor verlassen und das Template gespeichert.
+
+Zuletzt kann das Ergebnis in der Preview betrachtet werden. Es zeigt sich das bei der Produktionslinie 3 ein Stillstand vorliegt. Dies deckt sich mit den Inputdaten der eingangs gezeigten Tabelle.
+
+![image_4](/assets/images/Controls/ListView/list4.png)
+

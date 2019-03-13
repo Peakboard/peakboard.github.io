@@ -7,26 +7,34 @@ lang: en
 ref: con-10
 ---
 
-The ListView Control can take any shape as long as it contains recurring elements. It is therefore necessarily linked to a tabular data source in order to function properly. Whether it is a simple list or complex elements is defined by an XAML fragment. If you are not familiar with XAML you can learn more about it [here](https://msdn.microsoft.com/en-us/library/cc295302.aspx). It is a description language that can be used to define an interface consisting of images, text and other elements. Similar to HTML, but much better.
-In the following example, we want to visualize the Instagram source that we have already written in another article and present the Instagram feed. Such data sources are particularly suitable because they consist of images and text.
-Drag the ListView Control to the panel and click on the property editor of the Source property. A dialog opens in which you can select a data source, e. g. Instagram.
+he ListView control is very similar in its behavior to the [Tile Control](/controls/14-en-tilecontrol.html) and the [Tile View](/controls/11-en-tile-view.html).
+While with [Tile Control](/controls/14-en-tilecontrol.html) the arrangement of the individual tiles is left to the developer, with ListView tile elements are automatically provided according to the available range as long as entries are present in the data source. The following screenshot illustrates this.
 
-![image_1](/assets/images/Controls/ListView/ControlsListview01.png)
+![image_1](/assets/images/Controls/ListView/list1.png)
 
-The ListView control has now noticed that the source is an Insta feed and already suggests a suitable visualization. That’s why this is a good example, because we can look at the XAML code in this way, without having to formulate XAML itself right at the start. You can access the code editor from the ItemTemplate property dialog. At the top of the code editor, you can use the Combo-Box to select other templates that match the respective data source. Click on Preview in the right pane to see how the XAML that you have formulated on the left represents itself visually. You can also check whether a syntax error has crept in.
+The elements can be arranged vertically or horizontally. The setting for this is made under Orientation, where the desired orientation can be set via a dropdown list. 
 
-![image_1](/assets/images/Controls/ListView/ControlsListview02.png)
+You can also use the ListView control to change the display according to a rule.
+The following example also uses the list used in the [Tile Control](/controls/14-en-tilecontrol.html), which was extended by the column Status:
 
-To use values from the data source in XAML, simply use a binding statement. Simple text fields can be bound in the same way as images containing the URL in the data source. Instagram is another good example to demonstrate this.
+![table1](/assets/images/Controls/ListView/table1.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview03.png)
+A rule should be defined for the visualization, which contains a warning if a production line comes to a standstill.
+To do this, the ListView element created is selected and then an additional template is created using the three points next to Template selection (1). 
+In a first step, the rule editor is opened via the gear symbol (2). The + symbol (3) is used to create a new rule. 
+For the example, an alternative template should always be displayed if the status of a production line is Stop or Standstill. (4)
+The second step is to create the template that is valid for the rule you have just created. To do this, exit the rule editor via OK (5) and open the template editor (6).
 
-If you prefer to arrange the elements from left to right, simply change the Orientation property from Vertical to Horizontal. It makes sense to adjust the XAML template as well, otherwise it doesn’t make any sense. The two screenshots show the vertical list view with horizontal template and the horizontal list view with vertical template.
+![image_2](/assets/images/Controls/ListView/list2.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview04.png)
+This is identical to the Tile, ListView or TileView editors and uses the same database.
+First, the size is set to the same as the size of the ListView element so that the alternative template is inserted seamlessly into the list (1).
+The controls can then be dragged and dropped onto the interface and linked to the corresponding columns of the data source.
 
-![image_1](/assets/images/Controls/ListView/ControlsListview05.png)
+![image_3](/assets/images/Controls/ListView/list3.png)
 
-Finally, for the sake of completeness, the ListView Control in Preview mode.
+Click OK to exit the editor and save the template.
 
-![image_1](/assets/images/Controls/ListView/ControlsListview06.png)
+Finally, the result can be viewed in the preview. It shows that production line 3 is at a standstill. This corresponds to the input data of the table shown at the beginning.
+
+![image_4](/assets/images/Controls/ListView/list4.png)
