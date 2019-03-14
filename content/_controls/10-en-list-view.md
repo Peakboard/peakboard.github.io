@@ -7,7 +7,7 @@ lang: en
 ref: con-10
 ---
 
-he ListView control is very similar in its behavior to the [Tile Control](/controls/14-en-tilecontrol.html) and the [Tile View](/controls/11-en-tile-view.html).
+The ListView control is very similar in its behavior to the [Tile Control](/controls/14-en-tilecontrol.html) and the [Tile View](/controls/11-en-tile-view.html).
 While with [Tile Control](/controls/14-en-tilecontrol.html) the arrangement of the individual tiles is left to the developer, with ListView tile elements are automatically provided according to the available range as long as entries are present in the data source. The following screenshot illustrates this.
 
 ![image_1](/assets/images/Controls/ListView/list1.png)
