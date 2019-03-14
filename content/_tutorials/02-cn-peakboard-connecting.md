@@ -18,7 +18,7 @@ ref: tut-02
 
 ![image_1](/assets/images/Tutorial/Connecting/TutorialBox02.jpg)
 
-从设计者的角度来看，我们现在想把看板传输到Box里。为此，请单击工具栏中的“部署”按钮。要添加新的Box，请点击[此处](/administration/07-cn-hinzufuegen.html)。添加完Box后，只需(1)单击鼠标即可将其选中。(2)然后通过单击“部署”将看板加载到该Box中。
+从设计者的角度来看，我们现在想把看板传输到Box里。为此，请单击工具栏中的“部署”按钮。要添加新的Box，请点击[此处](/administration/07-cn-adding.html)。添加完Box后，只需(1)单击鼠标即可将其选中。(2)然后通过单击“部署”将看板加载到该Box中。
 
 ![image_1](/assets/images/Tutorial/Connecting/ErsteSchrittePBBox2.png)
 
