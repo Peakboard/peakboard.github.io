@@ -7,15 +7,16 @@ lang: de
 ref: con-10
 ---
 
-Das ListView-Control ist in seinem Verhalten dem [Tile Control](/controls/14-en-tilecontrol.html) und dem [Tile View](/controls/11-de-tile-view.html) sehr ähnlich.
-Während beim [Tile Control](/controls/14-en-tilecontrol.html) die Anordnung der einzelnen Tiles dem Entwickler freigestellt ist, werden beim ListView automatisch, solange Einträge in der Datenquelle vorhanden sind, Tile Elemente gemäß des verfügbaren Bereichs bereitgestellt. Nachfolgender Screenshot verdeutlicht dies.
+Das ListView-Control ist in seinem Verhalten dem [Tile Control](/controls/14-de-tilecontrol.html) und dem [Tile View](/controls/11-de-tile-view.html) sehr ähnlich. 
+Wie das Anlegen eines Templates für das ListView- oder TileView-Control funktioniert wird beim [Tile Control](/controls/14-de-tilecontrol.html) Schritt für Schritt erklärt.
+Während beim [Tile Control](/controls/14-de-tilecontrol.html) die Anordnung der einzelnen Tiles dem Entwickler freigestellt ist, werden beim ListView automatisch, solange Einträge in der Datenquelle vorhanden sind, Tile Elemente gemäß des verfügbaren Bereichs bereitgestellt. Nachfolgender Screenshot verdeutlicht dies.
 
 ![image_1](/assets/images/Controls/ListView/list1.png)
 
 Die Anordnung der Elemente kann dabei vertikal oder horizontal erfolgen. Die Einstellung hierfür erfolgt unter Orientierung, wo über eine Dropdown-Liste die gewünschte Ausrichtung getroffen werden kann. 
 
 Ebenfalls ist es mit der ListView-Control möglich, anhand einer getroffenen Regel die Anzeige zu verändern.
-Nachfolgendes Beispiel nutzt hierfür ebenfalls die im [Tile Control](/controls/14-en-tilecontrol.html) verwendete Liste, welche um die Spalte Status erweitert wurde:
+Nachfolgendes Beispiel nutzt hierfür ebenfalls die im [Tile Control](/controls/14-de-tilecontrol.html) verwendete Liste, welche um die Spalte Status erweitert wurde:
 
 ![table1](/assets/images/Controls/ListView/table1.png)
 
