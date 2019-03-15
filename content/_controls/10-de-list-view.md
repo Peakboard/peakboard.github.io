@@ -14,7 +14,7 @@ Während beim [Tile Control](/controls/14-en-tilecontrol.html) die Anordnung der
 
 Die Anordnung der Elemente kann dabei vertikal oder horizontal erfolgen. Die Einstellung hierfür erfolgt unter Orientierung, wo über eine Dropdown-Liste die gewünschte Ausrichtung getroffen werden kann. 
 
-Ebenfalls ist es mit der ListView-Control möglich anhand einer getroffenen Regel die Anzeige zu verändern.
+Ebenfalls ist es mit der ListView-Control möglich, anhand einer getroffenen Regel die Anzeige zu verändern.
 Nachfolgendes Beispiel nutzt hierfür ebenfalls die im [Tile Control](/controls/14-en-tilecontrol.html) verwendete Liste, welche um die Spalte Status erweitert wurde:
 
 ![table1](/assets/images/Controls/ListView/table1.png)
@@ -28,14 +28,14 @@ Im zweiten Schritt soll die für die gerade angelegte Regel gültige Vorlage ers
 ![image_2](/assets/images/Controls/ListView/list2.png)
 
 Dieser ist identisch zu den Tile, ListView oder TileView Editoren und verwendet die gleiche Datenbasis.
-Zunächst wird die Größe gleich der Größe des ListView-Elements gesetzt damit sich das alternative Template nahtlos in die Liste eingefügt (1).
+Zunächst wird die Größe gleich der Größe des ListView-Elements gesetzt, damit sich das alternative Template nahtlos in die Liste eingefügt (1).
 Anschließend können die Controls wie bekannt per Drag&Drop auf die Oberfläche gezogen werden und mit den entsprechenden Spalten der Datenquelle verknüpft werden.
 
 ![image_3](/assets/images/Controls/ListView/list3.png)
 
 Über OK wird der Editor verlassen und das Template gespeichert.
 
-Zuletzt kann das Ergebnis in der Preview betrachtet werden. Es zeigt sich das bei der Produktionslinie 3 ein Stillstand vorliegt. Dies deckt sich mit den Inputdaten der eingangs gezeigten Tabelle.
+Zuletzt kann das Ergebnis in der Preview betrachtet werden. Es zeigt sich, dass bei der Produktionslinie 3 ein Stillstand vorliegt. Dies deckt sich mit den Inputdaten der eingangs gezeigten Tabelle.
 
 ![image_4](/assets/images/Controls/ListView/list4.png)
 
