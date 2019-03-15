@@ -17,11 +17,11 @@ The aggregation functions are defined in the lower area. This usually consists o
 * *Count* counts all rows in a group (and is independent of a particular numeric column)
 * *Count Distinct* counts the distinct number of elements. For example, if you have customer numbers 4711,4711,4712,4711, the distinct count returns 2 because there are two different customer numbers.
 
-![Join Data](/assets/images/dataflows/dataflows-join01.png)
+![Join Data](/assets/images/dataflows/dataflows-aggregate01.png)
 
 For each material and customer, the example provides us with the sum of all articles sold, as well as the smallest and largest sales made with the respective material/customer combination in a single transaction.
 
-![Join Data](/assets/images/dataflows/dataflows-join02.png)
+![Join Data](/assets/images/dataflows/dataflows-aggregate02.png)
 
 Attention!! Of course, it is legitimate not to specify a group. In this case, the result is exactly one row that contains the aggregation for all data. It is also legitimate not to specify an aggregation function. In this case, you simply get the unique combinations of all elements of the selected group. Both cases can make sense in practice.
 

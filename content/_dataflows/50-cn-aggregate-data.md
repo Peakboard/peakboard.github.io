@@ -17,10 +17,10 @@ ref: flow-50
 * *计数* 计数组中所有行（与特定数值列无关）
 * *不同值计数* 计数不同数值的元素。例如，如果有客户编号4711、4711、4712、4711，则不同值计数会返回2，因为有两个不同的客户编号。
 
-![Join Data](/assets/images/dataflows/dataflows-join01.png)
+![Join Data](/assets/images/dataflows/dataflows-aggregate01.png)
 
 对于每种材料和每个客户，该示例为我们提供了所有销售商品的总和，以及单笔交易中相应材料/客户组合的最小和最大销售。
 
-![Join Data](/assets/images/dataflows/dataflows-join02.png)
+![Join Data](/assets/images/dataflows/dataflows-aggregate02.png)
 
 注意！！不指定组是合理的。在这种情况下，结果正好是一行包含所有数据的聚合。不指定聚合函数也是合理的。在这种情况下，您仅能获得选定组中所有元素的唯一组合。这两种情况在实际中都有意义。

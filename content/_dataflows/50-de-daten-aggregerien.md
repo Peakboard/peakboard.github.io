@@ -17,10 +17,10 @@ Im unteren Bereich werden die Aggregationsfunktionen definiert. Das besteht in d
 * Count zählt alle Zeilen in einer Gruppe (und ist unabhängig einer bestimmten numerischen Spalte)
 * Count Distinct zählt die distinkte Anzahl von Elementen. Wenn Sie beispielsweise die Kundennummern 4711,4711,4712,4711 haben, liefert die distinkte Zählung 2 zurück, da es zwei unterschiedliche Kundennummern gibt.
 
-![Join Data](/assets/images/dataflows/dataflows-join01.png)
+![Join Data](/assets/images/dataflows/dataflows-aggregate01.png)
 
 Das Beispiel liefert uns also pro Material und Kunde jeweils die Summe aller verkauften Artikel, sowie den kleinsten und größten Umsatz der mit der jeweiligen Material/Kunden-Kombination in einer Einzeltransaktion gemacht wurde.
 
-![Join Data](/assets/images/dataflows/dataflows-join02.png)
+![Join Data](/assets/images/dataflows/dataflows-aggregate02.png)
 
 Achtung!! Es ist natürlich legitim, auch keine Gruppe anzugeben. In diesem Fall bekommen Sie genau eine Zeile zurück, die jeweils die Aggregation komplett über alle Daten enthält. Genauso ist es legitim, keine Aggregationsfunktion anzugeben. In diesem Fall erhalten Sie einfach nur die eindeutigen Kombinationen aus allen Elementen der gewählten Gruppe. Beide Fälle können in der Praxis Sinn ergeben.
