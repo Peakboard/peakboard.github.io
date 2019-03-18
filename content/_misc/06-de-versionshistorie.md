@@ -7,6 +7,9 @@ lang: de
 ref: misc-06
 ---
 
+## 1.1.0.46 (18.03.2019)
+* Hotfix für das Threshold Diagramm des Advanced Charts
+
 ## 1.1.0.1 (11.03.2019)
 * Fehlende deutsche Übersetzungen hinzugefügt
 
