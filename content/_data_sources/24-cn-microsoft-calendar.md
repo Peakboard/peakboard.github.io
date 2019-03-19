@@ -10,7 +10,7 @@ Microsoft日历数据源允许您访问Office 365中存储的日历。目前，�
 
 ## 设置数据源
 
-除了数据源的强制性名称之外，Peakboard还必须授权访问日历。点击“授权”按钮，按照一般提示访问账户。请注意，用户名和密码永远不会存储在看板上，而是存储在一个通过Office 365门户重置其有效性的令牌中。
+除了数据源的强制性名称之外，Peakboard还必须授权访问日历。点击“授权”按钮，按照一般提示访问账户。请注意，用户名和密码永远不会存储在Peakboard上，而是存储在一个通过Office 365门户重置其有效性的令牌中。
 
 ![image_1](/assets/images/data-sources/mscal/calendar-authorize.png)
 
@@ -23,7 +23,7 @@ Microsoft日历数据源允许您访问Office 365中存储的日历。目前，�
 
 ![image_1](/assets/images/data-sources/mscal/calendar-entries.png)
 
-在以下链接下，您可以找到YouTube视频中的其他信息（只有德语，抱歉）：
+在以下链接下，您可以在YouTube视频中找到其他信息（只有德语，抱歉）：
 
 [Darstellung des Microsoft Outlook Kalenders in Peakboard.](https://www.youtube.com/watch?v=0LsEXH9-r7s)
 

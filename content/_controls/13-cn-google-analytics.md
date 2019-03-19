@@ -7,7 +7,7 @@ lang: cn
 ref: con-13
 ---
 
-创建Google Analytics（分析）报告必须设立一个Peakboard.io帐户。在[Peakboard.io门户](/peakboardio/01-en-intro-peakboard-io.html)中定义GA报告，然后使用相应的控件嵌入到Designer中。
+创建Google Analytics（分析）报告必须设立一个Peakboard.io帐户。在[Peakboard.io门户](/peakboardio/01-cn-intro-peakboard-io.html)中定义GA报告，然后使用相应的控件嵌入到Designer中。
 
 在Peakboard.io门户中，转到菜单中的“GA图表”。如果您还没有将账户关联到Google账户，请点击相应的按钮（见下一截图）。将打开Google登录屏幕，必须在其中输入凭证。这是一个典型的OAuth2认证，允许Peakboard访问您的Google Analytics（分析）数据。您可以随时在Google个人资料中撤销此权限。成功关联后，可以创建任意数量的报告。只需要关联一次，然后就可以保留。
 

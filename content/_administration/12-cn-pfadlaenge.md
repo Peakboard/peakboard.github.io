@@ -13,11 +13,11 @@ ref: admin-12
 
 如要消除此限制，请执行以下步骤：
 
-首先单击Peakboard Designer中的“管理”，并为相应的Peakboard Box选择菜单项“打开设备门户”。
+首先单击Peakboard Designer中的“管理”，并为相应的Peakboard Box选择菜单项“打开Device Portal”。
 
 ![Manage Dialog Open Device Portal](/assets/images/admin/pathlength/manage-dialog-open-device-portal.png)
 
-现在，浏览器窗口将会打开。输入“Administrator”作为Peakboard-Box的用户名和密码。
+现在，浏览器窗口将会打开。输入“Administrator”作为Peakboard Box的用户名和密码。
 
 现在选择左侧的“进程”，然后“运行”命令查看命令窗口，您可以输入以下命令：
 

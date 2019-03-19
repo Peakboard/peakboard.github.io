@@ -13,7 +13,7 @@ ref: dat-15
 
 从技术角度来看，OData是访问Microsoft Dynamics NAV（以下简称NAV）数据的最佳协议。首先，必须在NAV方面做一些准备工作。数据查询基于必须在NAV开发环境中创建的查询。具体做法将与本页内容分开。细节见[NAV帮助](https://docs.microsoft.com/en-us/previous-versions/dynamicsNAV-2016/hh165526(v=NAV.90))
 
-下面，我们假设查询可用，如截图所示。让数据看起来像以后应该看到的那样，使设计查询具有战略意义。特别是关于列的选择、聚合级别和过滤。在这方面，查询设计得越好，就越容易将其集成到可视化中。
+下面，我们假设查询可用，如截图所示。以数据看起来像应该在以后看到的那样的方式设计查询具有战略意义。特别是关于列的选择、聚合级别和过滤。在这方面，查询设计得越好，就越容易将其集成到可视化中。
 
 ![Object Designer](/assets/images/data-sources/micosoft-dynamics-nav/datenquellen-nav-01.png)
 

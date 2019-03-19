@@ -7,13 +7,13 @@ lang: cn
 ref: con-05
 ---
 
-这篇文章介绍了将Google文档集成到Peakboard面板中。支持所有三种类型的文档：文档（从MS Word中获得的普通文档）、幻灯片（从MS PowerPoint中获得）和电子表格（从MS Excel中获得）。当然，许多其他文档也可以存储在Google云端硬盘中，但是Google文档控件只支持这三种主要类型，并将这三种类型在一同归组在“Google文档”中。
+这篇文章介绍了将“Google文档”集成到Peakboard面板中。支持所有三种类型的文档：文档（从MS Word中获得的普通文档）、幻灯片（从MS PowerPoint中获得）和电子表格（从MS Excel中获得）。当然，许多其他文档也可以存储在Google云端硬盘中，但是“Google文档”控件只支持这三种主要类型，并将这三种类型在一同归组在“Google文档”中。
 
 我们希望包括以下示例文档。没有必要以任何方式发布该文档。它们允许Peakboard轻松访问Google云端硬盘。这确保了身份认证。
 
 ![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs01.png)
 
-将Google文档控件从工具箱拖到Peakboard面板中，并调整其大小，然后双击控件打开编辑器。
+将“Google文档”控件从“工具箱”拖到Peakboard面板中，并调整其大小，然后双击控件打开编辑器。
 
 ![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs02.png)
 
@@ -31,9 +31,10 @@ ref: con-05
 
 ![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs06.png)
 
-在Runtime中运行预览，与直接在Peakboard-Box上运行时应看起来完全一样。
+在Runtime中运行预览，与直接在Peakboard Box上运行时应看起来完全一样。
 
 ![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs07.png)
 
-##附注
-如果您使用Google幻灯片，那么这些幻灯片会根据Peakboard控件的大小进行调整。文档和电子表格的情况则不然。像素精确尺寸会匹配Peakboard控件。如果控件不够大，则部分内容将不可见。
+## 附注
+
+如果您使用Google幻灯片，那么这些幻灯片会适合Peakboard控件的大小。文档和电子表格的情况则不然。像素精确尺寸会匹配Peakboard控件。如果控件不够大，则部分内容将不可见。

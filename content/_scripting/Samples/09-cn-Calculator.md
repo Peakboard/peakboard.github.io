@@ -23,8 +23,7 @@ end
 
 ```
 
-因此，应检查按钮中哪个文本是monentan（调用了哪个PlusMinus）。如果文本为‘+’，则设置为‘-’。
-如果文本不是‘+’，则必须是‘-’，因此无需检查就将其设置为‘+’。
+因此，应检查哪个文本在当前“加减”按钮中。如果文本为‘+’，则设置为‘-’。如果文本不是‘+’，则必须是‘-’，因此无需检查就将其设置为‘+’。
 
 点击“单击”按钮以开始计算：
 
@@ -43,8 +42,8 @@ screens['Screen1'].showdialog('Result', result)
 
 ```
 
-首先，为结果`local result`创建局部变量。然后使用PlusMinus按钮来确定两个文本字段中的数字是应该相加还是相减。
+首先，为结果`local result`创建局部变量。然后使用“加减”按钮来确定两个文本字段中的数字是应该相加还是相减。
 然后，脚本中的计算结果会写入局部变量`result`，最后通过`screens['Screen1'].showdialog('Result', result)`显示在屏幕上，作为弹出式通知。
 
 
-该示例可以在的Peakboard Designer中的模板->脚本下找到，也可以通过此[链接](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/Calculator/Calculator.pbmx)下载。
+该示例可以在的Peakboard Designer中的“模板”->“脚本”下找到，也可以通过此[链接](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/Calculator/Calculator.pbmx)下载。

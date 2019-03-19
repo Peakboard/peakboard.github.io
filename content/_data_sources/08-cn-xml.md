@@ -8,7 +8,7 @@ ref: dat-08
 ---
 在这两个入门教程中，仅将静态内容用于可视化。但是，只有当设计显示动态数据时，这一切功能才会变得非常令人兴奋。基本上，Peakboard区分嵌入动态内容的两个主要概念：
 
-1. 数据来自外部来源，只需要集成到面板中。例如，如果您完全或部分集成一个外部网站。或者使用BI工具（例如Power BI、QlikView、Tableau或类似工具）进行数据的准备工作。然后使用Peakboard作为一种显示程序，由相应的预系统负责视觉处理。
+1. 数据来自外部源，只需要集成到面板中。例如，如果您完全或部分集成一个外部网站。或者使用BI工具（例如Power BI、QlikView、Tableau或类似工具）进行数据的准备工作。然后使用Peakboard作为一种显示程序，由相应的预系统负责视觉处理。
 
 2. 数据来自外部源的原始数据。例如，这些源可以是XML、JSON、数据库或社交媒体流。在此，只传输纯数据，并直接在Peakboard上进行可视化。为此，可视控件可以很好地显示数据，例如图表、表格等。
 
@@ -16,7 +16,7 @@ ref: dat-08
 
 [https://open-api.bahn.de/bin/rest.exe/departureBoard?authKey=DBhackFrankfurt0316&lang=de&id=008000096](https://open-api.bahn.de/bin/rest.exe/departureBoard?authKey=DBhackFrankfurt0316&lang=de&id=008000096)
 
-现在转到Peakboard Designer，创建一个新的看板，然后鼠标右键单击“包资源管理器”的数据节点左上角。从菜单中，选择XML作为数据源。
+现在转到Peakboard Designer，创建一个新的看板，然后鼠标右键单击“包资源管理器”左上角的数据节点。从菜单中，选择XML作为数据源。
 
 ![image_1](/assets/images/data-sources/xml/xml-01.png)
 
@@ -40,6 +40,6 @@ ref: dat-08
 
 ![image_1](/assets/images/data-sources/xml/xml-06.png)
 
-回到Designer中，请单击“预览”。结果应如下面截图所示。该表根据数据源中的规范动态填充，而且每90秒刷新一次
+回到Designer中，请单击“预览”。结果应如下面截图所示。该表根据数据源中的规范动态填充，而且每90秒刷新一次。
 
 ![image_1](/assets/images/data-sources/xml/xml-07.png)

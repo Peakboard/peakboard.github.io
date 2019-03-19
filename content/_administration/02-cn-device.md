@@ -7,9 +7,9 @@ lang: cn
 ref: admin-02
 ---
 
-要设置Peakboard-Box的Wi-Fi，必须首先连接网线，并连接所提供的Wi-Fi USB适配器。如果Peakboard-Box仍处于初始状态，那么一旦建立网络连接，IP地址就会显示在屏幕上。
+要设置Peakboard Box的Wi-Fi，必须首先连接网线，并连接所提供的Wi-Fi USB适配器。如果Peakboard Box仍处于初始状态，那么一旦建立网络连接，IP地址就会显示在屏幕上。
 
-现在打开Peakboard Designer，并按[此处](/administration/07-cn-adding.html)所述将新Peakboard Box添加到Designer中。 要激活Wi-Fi连接，（1）请先打开“管理/部署”对话框，（2）选择相应的框。 然后（3）点击“设置”（4）找到“Wi-Fi连接”，进入Wi-Fi对话框，在此可以找到所有可用的Wi-Fi网络。（5）选择所需的网络，（6）输入相应的密码，点击“连接”激活网络连接。
+现在打开Peakboard Designer，并按[此处](/administration/07-cn-adding.html)所述将新Peakboard Box添加到Designer中。 要激活Wi-Fi连接，（1）请先打开“管理/部署”对话框，（2）选择相应的Box, 然后（3）点击“设置”（4）找到“Wi-Fi连接”，进入Wi-Fi对话框，在此可以找到所有可用的Wi-Fi网络,（5）选择所需的网络，（6）输入相应的密码，点击“连接”激活网络连接。
 
 ![Wi-Fi Connection](/assets/images/admin/device/WiFiConnection.png)
 
@@ -23,7 +23,7 @@ ref: admin-02
 
 选择所需Wi-Fi，然后输入密钥。
 
-然后通过电源按钮重启Peakboard-Box，以便保留更改，这一点很重要。
+然后通过电源按钮重启Peakboard Box，以便保留更改，这一点很重要。
 
 ![Windows Device Portal](/assets/images/admin/device/windows-device-portal.png)
 

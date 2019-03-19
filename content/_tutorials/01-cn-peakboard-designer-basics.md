@@ -6,9 +6,9 @@ description: Peakboard Designer - 基础知识
 lang: cn
 ref: tut-01
 ---
-本教程不需要任何先前的知识。其展示了Peakboard的第一步，并解释了一些您需要理解的理论基础，以便以后建立更复杂的可视化。但基本过程始终是相同的：可视化在Peakboard Designer的帮助下设计的。然后，将设计（也叫做看板）转移到一个或多个独立运行的Peakboard Box中。将所有人工制品，例如：图像、视频等打包进一个包中以便转移。该过程叫做部署。完整的程序展示在本教程中，也可以在[此处](/video_tutorials/01-en-first-steps.html)视频中找到。如果您还没有Peakboard Box，此时在我们主页上下载的Designer软件就已足够。当然，不再需要将设计转移到Box里——但这并不重要，因为您也可以在自己的电脑上进行预览。
+本教程不需要任何先前的知识。其展示了Peakboard的第一步，并解释了一些您需要理解的理论基础，以便以后建立更复杂的可视化。但基本过程始终是相同的：可视化在Peakboard Designer的帮助下设计的。然后，将设计（也叫做看板）转移到一个或多个独立运行的Peakboard Box中。将所有人工制品，例如：图像、视频等打包进一个包中以便转移。该过程叫做部署。完整的程序展示在本教程中，也可以在[此视频](/video_tutorials/01-en-first-steps.html)中找到。如果您还没有Peakboard Box，在这个阶段，从我们主页上下载Designer就够了。当然，不再需要将设计转移到Box里——但这并不重要，因为您也可以在自己的电脑上进行预览。
 
-安装程序与任何其他安装程序一样工作，将Designer程序存储在安装文件夹中。要启动Designer，您可以点击程序图标或按Windows键并键入“peak”，Windows 10将会找到链接。注意！请勿启动Peakboard Runtime应用程序。我们稍后会谈及。
+安装程序与任何其他安装程序一样，将Designer程序存储在安装文件夹中。要启动Designer，您可以单击程序图标或按Windows键并键入“peak”，Windows 10将会找到链接。注意！请勿启动Peakboard Runtime应用程序。我们稍后会谈及。
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics01.png)
 
@@ -26,13 +26,13 @@ ref: tut-01
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics04.png)
 
-例如，要将图像添加到面板，我们必须将图像添加为资源。可以通过两种方发完成。 一种，可以将图像从Windows文件夹拖放到可视化界面。 因此，图像自动集成在“资源”下。
+例如，要将图像添加到面板，我们必须将图像添加为资源。可以通过两种方法完成。 一种，可以将图像从Windows文件夹拖放到可视化界面。 因此，图像自动集成在“资源”下。
 
 另一种，也可以手动完成。要这样做，请右键单击“包资源管理器”左侧的“资源”，然后单击“添加本地资源”。 现在可以从本地电脑中选择图像，例如，产品照片或公司标志。 然后，图像将显示为资源分支下的条目。
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics05.png)
 
-现在，您可以将集成资源拖到“面板”中。可以更好地安排两个元素——文本字段和图像。自动出现的指南将帮助您放置元素，使它们看起来更好。
+现在，您可以将集成资源拖到“面板”中。可以更好地安排两个元素——文本字段和图像。自动出现的辅助线将帮助您放置元素，使它们看起来更好。
 
 ![image_1](/assets/images/Tutorial/Basics/TutorialBasics06.png)
 

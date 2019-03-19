@@ -13,15 +13,15 @@ ref: dat-10
 可以多种方式实现与SAP的连接。哪种情况最适合您的情况，取决于以下几个因素：
 
 
-**直接RFC**
+* **直接RFC**
 
-在“直接RFC”的情况下，Box将直接与SAP应用服务器通信。这一过程中无需中间件，也无需在SAP上配置更大的东西。这几乎是所有客户的最佳访问选项。
+在“直接RFC”的情况下，Box将直接与SAP应用服务器通信。这一过程中无需中间件，也无需在SAP上配置更多东西。这几乎是所有客户的最佳访问选项。
 
-**SAP网关**
+* **SAP网关**
 
-SAP网关是SAP中的一个模块，可以使用交易代码SEGW进行访问。在SAP中，RFC功能模块通常作为OData服务提供。您可以通过谷歌搜索或在[此处](https://blogs.sap.com/2013/01/24/a-simple-overview-on-sap-netweaver-gateway/)找到关于SAP网关的介绍。如需使用Peakboard连接到网关服务，您至少需要知道服务器URL和实体集的名称。请注意，这种访问方法的一个最大缺点在于可能需要开发网关。
+SAP网关是SAP中的一个模块，可以使用交易代码SEGW进行访问。在SAP中，RFC功能模块通常作为OData服务提供。您可以通过谷歌搜索或在[此处](https://blogs.sap.com/2013/01/24/a-simple-overview-on-sap-netweaver-gateway/)找到关于SAP网关的介绍。如需使用Peakboard连接到网关服务，至少需要知道服务器URL和实体集的名称。请注意，这种访问方法的一个最大缺点在于可能需要开发网关。
 
-**Peakboard Bridge**
+* **Peakboard Bridge**
 
 在第一代Peakboard中，需要使用Bridge与SAP进行通信。但是自从开发出第二代Peakboard（大约2017年5月）后，此功能已被淘汰，不再使用。
 

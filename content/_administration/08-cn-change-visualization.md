@@ -7,7 +7,7 @@ lang: cn
 ref: admin-08
 ---
 
-如要更改Peakboard-Box当前可视化，请单击Designer中的“管理”。在新窗口中，单击所需Peakboard-Box右侧的下拉菜单。选择菜单项“激活Peakboard”。
+如要更改Peakboard Box当前可视化，请单击Designer中的“管理”。在新窗口中，单击所需Peakboard Box右侧的下拉菜单。选择菜单项“激活Peakboard”。
 
 ![ActivatePeakboard](/assets/images/admin/management/manage-dialog-activate-peakboard.png)
 
@@ -15,7 +15,7 @@ ref: admin-08
 
 ![ActivatePeakboard2](/assets/images/admin/management/activate-peakboard-dialog.png)
 
-另外，也可以通过iPhone或Android智能手机来更改Peakboard。为此，只需安装相应的app即可。
+另外，也可以通过iPhone或Android智能手机来更改Peakboard。只需安装相应的app即可。
 
 <div>
 	<a href= "https://itunes.apple.com/de/app/peakboard-manager/id1148615440?mt=8&at=10l6Xd&ct=jeyff0ftti00xkod01g9a"

@@ -55,4 +55,4 @@ data.[slack].writetochannel('message')
 
 ![image_1](/assets/images/Data_Sources/Slack/Datenquelle_Slack_06_Preview.png)
 
-由于数据源的实时通信不同于通常用于Peakboards的数据间隔控制加载，所以“重载间隔”和“预览”仅适用于数据源间隔控制功能。Peakboard Designer中无法测试实时连接。然而，标准通信、实时消息信和WebHooks在同一界面上运行。因此，可以假设，如果成功运行预览，则数据源的其余部分也将工作。
+由于数据源的实时通信不同于通常用于Peakboards的数据间隔控制加载，所以“重载间隔”和“预览”仅适用于数据源间隔控制功能。eakboard Designer中无法测试实时连接。然而，标准通信、实时消息信和WebHooks在同一界面上运行。因此，可以假设，如果成功运行预览，则数据源的其余部分也将工作。

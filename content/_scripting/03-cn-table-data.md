@@ -10,7 +10,7 @@ ref: scr-03
 
 以下示例的数据基础是对包含一个仓库的交货项目进行的查询。之后，该原始数据的后处理在数据源的刷新事件中进行。下面的截图显示了如何在原始数据上运行循环，这种循环将使局部变量计数器每行增加一个，然后在最后将计数器的值写入屏幕上的文本框。
 
-您不需要手动输入"While"循环构造。只需打开左侧的对象/语句树目录，导航到数据源，双击所需语句即可。
+您不需要手动输入“While”循环构造。只需打开左侧的对象/语句树目录，导航到数据源，双击所需语句即可。
 
 
 ![image_1](/assets/images/scripting/table/ScriptingTabellen01.png)
@@ -31,7 +31,7 @@ Screens[0].MyCounterBox.Text = counter
 
 `Screens[0].MyCounterBox.Text = Data.tapos.Count`
 
-上面的循环构造更适合于仍然与条件相关联的更复杂语句。下一条语句仅在列（队列）具有特定值时对行进行计数：
+上面的循环构造更适合于仍然与条件相关联的更复杂语句。下一条语句仅在列（队列）具有特定值时计数行：
 
 ```lua
 for index, item in pairs(Data.tapos) do

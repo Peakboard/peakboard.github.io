@@ -14,7 +14,7 @@ ref: dat-07
 
 [http://services.odata.org/AdventureWorksV3/AdventureWorks.svc](http://services.odata.org/AdventureWorksV3/AdventureWorks.svc)
 
-OData是一种标准化的数据交换格式。示例URL是一个小型数据库，通过在输入URL后单击“加载”，可以将其实体集加载到Combobox中。如果OData需要认证，请单击三个点小按钮，之后输入您的用户名和密码。
+OData是一种标准化的数据交换格式。示例URL是一个小型数据库，通过在输入URL后单击“加载”，可以将其实体集加载到组合框中。如果OData需要认证，请单击三个点小按钮，之后输入您的用户名和密码。
 
 ![Odata Data Dialog](/assets/images/data-sources/odata/odata-data-dialog.png)
 

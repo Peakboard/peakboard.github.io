@@ -1,18 +1,18 @@
 ---
 layout: article
-title: Peakboard-Runtime的安装
-menu_title: Peakboard-Runtime的安装
-description: Peakboard-Runtime的安装
+title: Peakboard Runtime的安装
+menu_title: Peakboard Runtime的安装
+description: Peakboard Runtime的安装
 lang: cn
 ref: admin-11
 ---
 
-安装Peakboard-Designer时，通常也会安装Peakboard-Runtime。
+安装Peakboard Designer时，通常也会安装Peakboard Runtime。
 这是Designer预览功能所必需的。
 
 在某些IT基础架构中，此安装不会自动运行，因此必须手动部署。
 
-首先，预览软件需要至少版本10586的Windows 10（1703创作者更新）。
+首先，预览软件需要至少版本10586的Windows 10（1703 Creators Update）。
 
 然后必须打开Peakboard安装文件夹。通常是C:/Program Files/Peakboard/Designer。
 在此必须打开子文件夹temporaryInstallFiles/RuntimeDependencies。

@@ -7,18 +7,18 @@ lang: cn
 ref: misc-02
 ---
 
-当Peakboard-Box未从数据源中检索到数据的情况时，可使用Peakboard但，主动从数据源“推送”至Box中。本页面展示了如何设计这样的场景。
+当Peakboard Box未从数据源中检索到数据的情况时，可使用Peakboard，但主动从数据源“推送”至Box中。本页面展示了如何设计这样的场景。
 
-在我们的示例中，我们创建了一个名为“消息”的表格数据源，包含两列：代码和消息。但是，也可以为此目的创建单个变量。这篇[文章](/data_sources/01-en-variables.html)描述了如何创建此类数据源。最好用单一演示行来填充表格。然后创建一个表格网格控件，并将其链接到静态数据源。以下截图显示了Designer中的设计视图。
+在我们的示例中，我们创建了一个名为“消息”的表格数据源，包含两列：“代码”和“消息”。但是，也可以为此目的创建单个变量。这篇[文章](/data_sources/01-cn-variables.html)描述了如何创建此类数据源。最好用单一演示行来填充表格。然后创建一个表格网格控件，并将其链接到静态数据源。以下截图显示了Designer中的设计视图。
 
 
 ![image_1](/assets/images/misc/push/MiscPushMessage01.png)
 
 您现在可以把设计转移到Box里，并启用看板。不出所料，包含静态数据的表如Designer中显示的一样。
 
-现在可以从外部更改静态数据，通过从外部系统向Box发送http邮件消息。该消息必须发送到URL `http://<BoxAddress>: 40404/api/datapush? id=<MyID>&datakey=<MyDataKey>`。Box地址是网络名称或IP地址。ID是Peakboard的ID。您可以通过单击“编辑清单”找到它。以下截图显示了该ID的“编辑清单”对话框。最后一个“数据密钥”是静态数据源的名称。在我们的示例中，是“消息”。
+现在可以从外部更改静态数据，通过从外部系统向Box发送http邮件消息。该消息必须发送到URL `http://<BoxAddress>: 40404/api/datapush? id=<MyID>&datakey=<MyDataKey>`。Box地址是网络名称或IP地址。ID是Peakboard的ID。您可以通过单击“编辑清单”找到它。以下截图显示了该ID的“清单”对话框。最后一个“数据密钥”是静态数据源的名称。在我们的示例中，是“消息”。
 
-必须使用基本身份验证对请求进行加密。为此，所使用的访问数据与Windows IoT Portal中设置的访问数据相同。默认情况下，这些登录数据为 “Administrator” “p@ssw0rd”。
+必须使用基本身份验证对请求进行加密。为此，所使用的访问数据与“Windows IoT门户”中设置的访问数据相同。默认情况下，这些登录数据为 “Administrator” 、“p@ssw0rd”。
 
 ![image_1](/assets/images/misc/push/MiscPushMessage02.png)
 
@@ -33,11 +33,11 @@ Error,Machine is broken
 
 `Hello World`
 
-如果没有能够快速生成这种测试消息的机器，则它也可以执行个小型.NET程序来演示这种机制。您可以在这里下载演示程序。以下是掩码及相关的.NET代码的截图，显示如何创建和发送http消息：
+如果没有能够快速生成这种测试消息的机器，则它也可以执行个小型.NET程序来演示这种机制。您可以在此下载演示程序。以下是掩码及相关的.NET代码的截图，显示如何创建和发送http消息：
 
 ![image_1](/assets/images/misc/push/MiscPushMessage03.png)
 
- ```Lua
+```Lua
 Uri uri = new Uri($”http://{this.IPTextBox.Text}:40404/api/datapush?id={this.IdTextBox.Text}&datakey=messages”);
 HttpClient httpClient = new HttpClient(new HttpClientHandler() { Credentials = new NetworkCredential(this.UserTextBox.Text, this.PasswordTextBox.Password) });
 

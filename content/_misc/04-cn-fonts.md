@@ -7,7 +7,7 @@ lang: cn
 ref: misc-04
 ---
 
-Peakboard提供了字体管理器来管理字体和格式。在Peakboard-Designer的上部，转到“格式”选项卡。单击此处的“字体”按钮。将打开一个新窗口，列出所有可用字体。
+Peakboard提供了字体管理器来管理字体和格式。在Peakboard Designer的上部，转到“格式”选项卡。单击此处的“字体”按钮。将打开一个新窗口，列出所有可用字体。
 
 您可以使用相应的按钮编辑、复制或删除字体。
 
@@ -20,4 +20,4 @@ Peakboard提供了字体管理器来管理字体和格式。在Peakboard-Designe
 
 ![image_1](/assets/images/misc/fonts/Schriftarten2.png)
 
-单击此[链接](05-en-custom-fonts.html)，您可以了解到如何添加更多字体。
+单击此[链接](05-cn-custom-fonts.html)，您可以了解到如何添加更多字体。

@@ -31,4 +31,4 @@ screens['Screen1'].Page.text = screens['Screen1'].PDFViewer.page .. ' / ' .. scr
 如果未到达，则会在当前页面中添加一个页面。
 最后，当前页面将写入文本字段。当前页码通过`screens['Screen1'].PDFViewer.page`确定，然后用反斜线符号`screens['Screen1'].PDFViewer.pagecount`显示总页数。
 
-该示例可以在Peakboard Designer中的模板->脚本下找到，也可以通过此[链接](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/PDF%20Viewer/PDF%20Viewer.pbmx)下载。
+该示例可以在Peakboard Designer中的“模板”->“脚本”下找到，也可以通过此[链接](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/PDF%20Viewer/PDF%20Viewer.pbmx)下载。
