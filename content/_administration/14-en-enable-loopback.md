@@ -12,7 +12,7 @@ Per default for uwp apps it is not allowed to access local network resources thr
 This can for example cause problems in combination with the Peakboard Bridge, if the bridge is running on the same computer as the Peakboard Designer.
 In this scenario the preview in the Designer might not be able to show content loaded through the bridge.
 
-The so called "lookpback" can be allowed for individual Apps like the Peakboard Runtime.
+The so called "loopback" can be allowed for individual apps like the Peakboard Runtime.
 
 To accomplish this first open a PowerShell with administrative privileges to get the __Packagefamilyname__ of the Peakboard Runtime App.
 

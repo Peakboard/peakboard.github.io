@@ -40,7 +40,7 @@ A click on the "Add" button creates a new user or a new user group depending on 
 ![NewUser](/assets/images/admin/usermanagement/NewUser.png)
 Once this is done, you only need to select the group to which you want the user to belong. The change of the name also runs here directly over the name field.
 ![Save](/assets/images/admin/usermanagement/Save.png)
-To apply the changes, simply press the "Save" button. If desired, the settings of the currently selected box can also be applied to all other devices in the group. To do this, check the option "Replicate users and roles to other boxes in group '[Name of current group]'.
+To apply the changes, simply press the "Save" button. If desired, the settings of the currently selected box can also be applied to all other devices in the group. To do this, check the option "Replicate users and roles to other boxes in group '[Name of current group]'".
 
 ## Use device with user context
 
