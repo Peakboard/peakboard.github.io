@@ -7,24 +7,27 @@ lang: cn
 ref: con-10
 ---
 
-只要“列表视图”控件包含重复元素，它就可为任何形状。因此，它必须链接到表格数据源才能正常运行。无论是简单列表还是复杂元素都是由XAML片段定义。如果您不熟悉XAML，您可以在[此处](https://msdn.microsoft.com/en-us/library/cc295302.aspx)了解更多相关知识。它是一种描述语言，可以用来定义由图像、文本和其他元素组成的界面。类似于HTML，但效果更好。在下面的示例中，我们想要可视化[Instagram](/data_sources/16-en-instagram.html)源，关于该源，我们已在另一篇文章中进行了说明，并提供了Instagram Feed。这种数据源特别合适，因为它们由图像和文本组成。将“列表视图”控件拖到面板上，然后单击“源”属性的属性编辑器。将会打开一个对话框，您可以在其中选择数据源，例如：Instagram。
+“列表视图”控件的特性与“[磁贴控件](/controls/14-cn-tilecontrol.html) ”和“[磁贴视图](/controls/11-cn-tile-view.html)”非常相似。“[磁贴控件](/controls/14-cn-tilecontrol.html)”中一步步说明了如何为“列表视图”或“磁贴视图”控件创建模板。在“[磁贴控件](/controls/14-cn-tilecontrol.html)”中，由开发人员排列各个磁贴，而“列表视图”，只要条目存在于数据源中，就会根据可用范围自动提供磁贴元素。下面的截图表明了这一点。
 
-![image_1](/assets/images/Controls/ListView/ControlsListview01.png)
+![image_1](/assets/images/Controls/ListView/list1.png)
 
-列表视图控件现在已发现源是Insta Feed，并且已提出了合适的可视化。这就是为什么这是一个好的示例，因为我们可以用这种方式来查看XAML代码，而不必一开始就制定XAML。您可以从“项目模版”属性对话框访问代码编辑器。在代码编辑器的顶部，您可以使用“组合框”来选择与相应数据源匹配的其他模板。单击右窗格中的“预览”，查看您在左侧制定的XAML是如何直观地表示自己的。您还可以检查是否有语法错误。
+可以垂直或水平排列元素。在“方向”中进行设置，可通过下拉列表设置所需方向。
 
-![image_1](/assets/images/Controls/ListView/ControlsListview02.png)
+您也可以使用“列表视图”控件根据规则更改显示。下面的示例同样使用了“[磁贴控件](/controls/14-cn-tilecontrol.html)”中所使用的列表，此列表由“状态”列扩展：
 
-如要在XAML中使用来自数据源的值，只需使用绑定陈述。简单的文本字段的绑定方式可以用与数据源中包含URL的图像相同的绑定方式。Instagram是另一个证明这一点的好例子。
+![table1](/assets/images/Controls/ListView/table1.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview03.png)
+应为可视化定义一种规则，如果生产线停止，则其显示警告。要这样做，选择要创建的“列表视图”元素，然后，（1）单击“模板”选项旁的三个点按钮，创建一个额外模板。（2）单击齿轮符号按钮打开规则编辑器。（3）单击“+”号按钮用于建立一个新规则。例如，如果生产线的状态为“停止”或“停滞”，则应始终显示替代模板。（4）对刚刚建立的规则创建有效的模板。要这样做，（5）单击“确定”退出规则编辑器，（6）打开模板编辑器。
 
-如果您喜欢从左到右排列元素，只需将“方向”属性从“垂直”更改为“水平”。调整XAML模板也有用，否则就没有任何意义了。这两个截图显示了水平模板的垂直列表视图和垂直模板的水平列表视图。
+![image_2](/assets/images/Controls/ListView/list2.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview04.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview05.png)
+这与“磁贴控件”、“列表视图”或“磁贴视图”编辑器相同，并使用相同的数据库。首先，（1）将大小设置成与“列表视图”元素大小相同，以便将替代模板完美无缝插入列表中。然后，（2）可以将此控件拖放到界面上，并链接到数据源的相应列。
 
-最后，为了完整起见，需在“预览”模式下查看“列表视图”控件。
+![image_3](/assets/images/Controls/ListView/list3.png)
 
-![image_1](/assets/images/Controls/ListView/ControlsListview06.png)
+单击“确定”退出编辑器，并保存模板。
+
+最后，可以在预览中查看结果。它表明生产线3处于停滞状态，这对应一开始所示表格中的输入数据。
+
+![image_4](/assets/images/Controls/ListView/list4.png)
