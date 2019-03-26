@@ -92,10 +92,18 @@ collections:
       de: "Scripting"
       cn: "脚本"
 
-  peakboardio:
+  instant_boards:
     output: true
     icon: star.svg
     position: 8
+    title:
+      en: "Instant Boards"
+      de: "Instant Boards"
+      
+  peakboardio:
+    output: true
+    icon: star.svg
+    position: 9
     title:
       en: "Peakboard.io"
       de: "Peakboard.io"
