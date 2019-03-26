@@ -8,3 +8,5 @@ ref: instant_boards-01
 ---
 
 In Work
+
+Hierfür wird folgende URL verwendet: http://pb1234:40404/datapush verwendet. Für den Login benötigen Sie die mit der Box ausgelieferten Anmeldedaten.
