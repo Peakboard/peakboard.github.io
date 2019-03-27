@@ -13,6 +13,9 @@ Datengrundlage hierfür bildet eine variable Liste, welche vom Nutzer befüllt w
 Für jeden Eintrag in der Liste wird mit Hilfe des [ListView-Controls](/controls/10-de-list-view.html) ein entsprechender Eintrag visualisiert.
 Mit Hilfe eines Uhrzeitabgleichs werden diejenigen Einträge hervorgehoben, welche die eingestellte Bedingung erfüllen.
 In diesem Beispiel zeigt ein stilisiertes Männchen an, ob jemand im gewählten Zeitraum zu besuch ist.
+Nachfolgender Screenshot illustriert die Kernelemente dieses Instant Boards.
+
+![image_live](\assets\images\instant_boards\welcome\designer1.png)
 
 Neue Einträge können hierbei auf folgende Arten erfolgen:
 
@@ -22,4 +25,4 @@ Weitere Informationen zu unserer App finden sich [hier](/instant_boards/02-de-ap
 Zugriff über den Webbrowser. Weitere Informationen zur Eingabe von Variablen oder Listen über den Browser finden sich [hier](/instant_boards/03-de-web.html).
 
 Nachfolgender Screenshot zeigt die Visualisierung mit drei Beispielsdatensätzen.
-[!image_live](\assets\images\instant_boards\welcome\live.png)
+![image_live](\assets\images\instant_boards\welcome\live.png)
