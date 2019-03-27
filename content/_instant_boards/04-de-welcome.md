@@ -7,7 +7,7 @@ lang: de
 ref: instant_boards-01
 ---
 
-In dieser Plug & Play Lösung für einen Willkommensbildschirm
+In dieser Plug & Play Lösung, welche [hier](https://github.com/Peakboard/CoolStuff/tree/master/Business/Welcome%20with%20APP) heruntergeladen werden kann, bietet eine Möglichkeit, einen Willkommensbildschirm ohne großen Aufwand zu implementieren.
 
 Datengrundlage hierfür bildet eine variable Liste, welche vom Nutzer befüllt werden kann (1).
 Für jeden Eintrag in der Liste wird mit Hilfe des [ListView-Controls](/controls/10-de-list-view.html) ein entsprechender Eintrag visualisiert(2).
@@ -18,7 +18,7 @@ Nachfolgender Screenshot illustriert die Kernelemente dieses Instant Boards.
 ![image_live](\assets\images\instant_boards\welcome\designer1.png)
 
 Mit Hilfe eines Uhrzeitabgleichs werden diejenigen Einträge hervorgehoben, welche die eingestellte Bedingung erfüllen.
-In diesem Beispiel zeigt ein stilisiertes Männchen an, ob jemand im gewählten Zeitraum zu besuch ist.
+In diesem Beispiel zeigt ein stilisiertes Männchen an, ob jemand im gewählten Zeitraum zu Besuch ist.
 
 
 Neue Einträge können hierbei auf folgende Arten erfolgen:
