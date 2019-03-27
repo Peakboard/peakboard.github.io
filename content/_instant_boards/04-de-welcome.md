@@ -9,13 +9,17 @@ ref: instant_boards-01
 
 In dieser Plug & Play Lösung für einen Willkommensbildschirm
 
-Datengrundlage hierfür bildet eine variable Liste, welche vom Nutzer befüllt werden kann.
-Für jeden Eintrag in der Liste wird mit Hilfe des [ListView-Controls](/controls/10-de-list-view.html) ein entsprechender Eintrag visualisiert.
-Mit Hilfe eines Uhrzeitabgleichs werden diejenigen Einträge hervorgehoben, welche die eingestellte Bedingung erfüllen.
-In diesem Beispiel zeigt ein stilisiertes Männchen an, ob jemand im gewählten Zeitraum zu besuch ist.
+Datengrundlage hierfür bildet eine variable Liste, welche vom Nutzer befüllt werden kann (1).
+Für jeden Eintrag in der Liste wird mit Hilfe des [ListView-Controls](/controls/10-de-list-view.html) ein entsprechender Eintrag visualisiert(2).
+Das Beispiel-Firmenlogo kann wie bekannt einfach ausgetauscht werden (3).
+Das Datum (4) sowie die beiden Web-Widgets (5) für die analoge Uhr sowie die Wetteranzeige liefern zusätzliche Informationen.
 Nachfolgender Screenshot illustriert die Kernelemente dieses Instant Boards.
 
 ![image_live](\assets\images\instant_boards\welcome\designer1.png)
+
+Mit Hilfe eines Uhrzeitabgleichs werden diejenigen Einträge hervorgehoben, welche die eingestellte Bedingung erfüllen.
+In diesem Beispiel zeigt ein stilisiertes Männchen an, ob jemand im gewählten Zeitraum zu besuch ist.
+
 
 Neue Einträge können hierbei auf folgende Arten erfolgen:
 
