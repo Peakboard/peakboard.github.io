@@ -20,7 +20,6 @@ Nachfolgender Screenshot illustriert die Kernelemente dieses Instant Boards.
 Mit Hilfe eines Uhrzeitabgleichs werden diejenigen Einträge hervorgehoben, welche die eingestellte Bedingung erfüllen.
 In diesem Beispiel zeigt ein stilisiertes Männchen an, ob jemand im gewählten Zeitraum zu Besuch ist.
 
-
 Neue Einträge können hierbei auf folgende Arten erfolgen:
 
 Nutzen der Peakboard Mobil App für iOS und Android, welche im Google oder Apple Store geladen werden kann. 
