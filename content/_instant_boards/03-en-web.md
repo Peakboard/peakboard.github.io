@@ -12,7 +12,7 @@ Here, the variables and lists released for access are addressed via the [Peakboa
 For this to be possible, the check mark for the push via API must be set for the desired elements.
 If these changes should also be available after a restart of the box or the visualization, the check mark for saving on the box must also be set.
 
-![image1](\assets\images\instant_boards\instant_web\img0.png)
+![image1](\assets\images\instant_boards\web\img0.png)
 
 Access to the Web Push is via the URL http://MyBox:40404. 
 The login data supplied with the box is required for the login.
