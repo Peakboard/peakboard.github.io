@@ -4,7 +4,7 @@ title: Willkommensbildschirm
 menu_title: Willkommensbildschirm
 description: Plug&Play Lösung für einen Willkommensbildschirm
 lang: de
-ref: instant_boards-01
+ref: instant_boards-04
 ---
 
 In dieser Plug & Play Lösung, welche [hier](https://github.com/Peakboard/CoolStuff/tree/master/Business/Welcome%20with%20APP) heruntergeladen werden kann, bietet eine Möglichkeit, einen Willkommensbildschirm ohne großen Aufwand zu implementieren.

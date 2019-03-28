@@ -4,7 +4,7 @@ title: Welcome Screen
 menu_title: Welcome Screen
 description: Plug&Play Solution for a Welcome Screen
 lang: en
-ref: instant_boards-01
+ref: instant_boards-04
 ---
 
 This Plug & Play solution, which can be downloaded [here](https://github.com/Peakboard/CoolStuff/tree/master/Business/Welcome%20with%20APP), offers a way to implement a welcome screen without much effort.

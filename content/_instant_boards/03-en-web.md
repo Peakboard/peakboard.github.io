@@ -4,7 +4,7 @@ title: Data Web-Push
 menu_title: Data Web-Push
 description: How to set variables and lists using Web-Push.
 lang: en
-ref: instant_boards-01
+ref: instant_boards-03
 ---
 
 In Work
