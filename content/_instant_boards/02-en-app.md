@@ -12,7 +12,7 @@ Here, the variables and lists released for access are addressed via the [Peakboa
 For this to be possible, the check mark for the push via API must be set for the desired elements.
 If these changes should also be available after a restart of the box or the visualization, the check mark for saving on the box must also be set.
 
-![image1](\assets\images\instant_boards\instant_web\img0.png)
+![image1](\assets\images\instant_boards\web\img0.png)
 
 To manage variables and lists comfortably from your smartphone, the app is called "Peakboard Manager" which can be downloaded from the [Apple App Store](https://itunes.apple.com/de/app/peakboard-manager/id1148615440?mt=8) or Google Play Store.
 
