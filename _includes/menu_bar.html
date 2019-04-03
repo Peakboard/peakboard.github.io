@@ -4,6 +4,7 @@
     {% capture search_link %}/{{page.lang}}/search.html{% endcapture %}
 {% endif %}
 
+
 <div class="relative h-12 md:hidden lg:hidden flex items-center cursor-pointer">
     <form class="search-form search-form-mobile" action="{{search_link}}">
         <div class="md:flex items-center border-b border-grey-light h-12 bg-grey-darker text-grey-light" style="width:100%">
@@ -19,12 +20,12 @@
 {% for collection in collections %}
     {% if collection.label != "posts" %}
         {% if collection.title[page.lang] %}
-            <div class="relative px-3 h-12 top-menu-link flex items-center nav-top-link cursor-pointer">
+            <div class="relative px-2 h-12 top-menu-link flex items-center nav-top-link cursor-pointer">
                 <span class=".font-semibold hover:text-orange tracking-wide">{{ collection.title[page.lang] }}
                     <svg height="16"
                          class="align-middle menu-down-caret"
-                         viewBox="0 0 24 24"
-                         width="24"
+                         viewBox="0 0 20 20"
+                         width="14"
                          xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
                         <path d="M0-.75h24v24H0z" fill="none"/>
@@ -38,7 +39,7 @@
                 <ul class="overflow-top-menu static w-full list-reset">
                     <li class="flex w-screen hover:text-orange inner-menu-close mb-4  text-sm text-grey-darkest mb-4 pb-4 xl:hidden items-center border-b border-grey-lighter">
                         {% include svg/left_arrow.svg %}
-                        <span>Menu</span>
+                        <span>{{ site.language[page.lang].top-menu-menu }}</span>
                     </li>
                     {% for article in articles %}
                         {% assign parts = article.path | split: "/" %}
@@ -60,15 +61,15 @@
                     <li class="has-submenu">
                         <p class="py-2 hover:text-orange cursor-pointer text-sm text-white flex items-center">
 
-                            {{ sub_level| replace: "_", " "  }}
+                            {{ collection.sublevel[sub_level][page.lang] }}
 
                             {% include svg/right_arrow.svg %}
                         </p>
                         <ul class="sub_level_list list-reset pl-4 absolute pin-t pin-b pin-r w-full bg-grey-dark">
-                            <li class="sub-level-list-close flex items-center text-sm  text-white hover:text-orange cursor-pointer mb-4 mt-3"id="sublevel">
+                            <li class="sub-level-list-close flex items-center text-sm  text-white hover:text-orange cursor-pointer mb-4 mt-3" id="sublevel">
                                 {% include svg/left_arrow.svg %}
 
-                                {{ collection.label | replace: "_", " " }}
+                                {{ collection.title[page.lang] }}
 
                             </li>
                                 {% for art in all_articles %}

@@ -91,6 +91,11 @@ collections:
       en: "Scripting"
       de: "Scripting"
       cn: "脚本"
+    sublevel:
+      Samples:
+        en: "Samples"
+        de: "Samples"
+        cn: "Samples"
 
   instant_boards:
     output: true
@@ -123,6 +128,7 @@ language:
     search-results: "Results"
     search-no-results: "We didn't find any results for the search: "
     search-bar-placeholder: "Search..."
+    top-menu-menu: "Menu"
   de:
     footer-support: "Support"
     footer-support-tel: "Tel:"
@@ -135,6 +141,7 @@ language:
     search-results: "Ergebnisse"
     search-no-results: "Wir haben leider nichts gefunden: "
     search-bar-placeholder: "Suchen..."
+    top-menu-menu: "Menu"
   cn:
     footer-support: "技术支持"
     footer-support-tel: "电话："
@@ -147,6 +154,7 @@ language:
     search-results: "搜索结果"
     search-no-results: "我们没有找到该搜索的结果： "
     search-bar-placeholder: "搜索..."
+    top-menu-menu: "Menu"
 
 
 algolia:
