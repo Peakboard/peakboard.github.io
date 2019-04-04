@@ -94,8 +94,8 @@ collections:
     sublevel:
       Samples:
         en: "Samples"
-        de: "Samples"
-        cn: "Samples"
+        de: "Beispiele"
+        cn: "示例"
 
   instant_boards:
     output: true
@@ -104,6 +104,7 @@ collections:
     title:
       en: "Instant Boards"
       de: "Instant Boards"
+      cn: "Instant Boards"
       
   peakboardio:
     output: true
