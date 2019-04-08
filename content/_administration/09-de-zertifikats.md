@@ -11,15 +11,15 @@ Als erstes muss das Zertifikat als Datei auf dem Dateisystem vorliegen.
 
 Am einfachsten speichern kann man es zum Beispiel aus Chrome heraus.
 
-Dort auf die https-Seite gehen; Strg+Umschalt+I und da im Reiter "Security" das Zertifikat anzeigen lassen.
+Dort auf die HTTPS-Webseite gehen; Strg+Umschalt+I und dort im Reiter "Security" das Zertifikat anzeigen lassen.
 
-Von dort aus kann man im Tab "Details" in eine Datei speichern. `DER (*.cer )` ist für diesen Fall ausreichend.
+Von dort aus kann man im Tab "Details" in eine Datei speichern. `DER (*.cer)` ist für diesen Fall ausreichend.
 
 ![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
 
 Die exportierte Datei nun auf die Peakboard-Box kopieren.
 
-Dafür im Windows-Explorer auf die Admin-Freigabe \\<ip-adresse-peakboard-box>\c$ zugreifen und z.B. in dem Ordner C:\users\public\ ablegen.
+Dafür im Windows-Explorer auf die Admin-Freigabe \\\\<ip-adresse-peakboard-box\>\c$ zugreifen und z.B. in dem Ordner C:\users\public\ ablegen.
 Statt der IP-Adresse kann natürlich auch der Hostname der Box verwendet werden.
 
 Benutzername und Passwort des Administrators eingeben.
