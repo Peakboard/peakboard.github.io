@@ -12,15 +12,15 @@ ref: admin-09
 保存它的最简单方法是例如从Chrome中获取。
 
 
-转到相应的https页面；按Ctrl+Shift+I键，在“安全性”选项卡中显示证书。
+转到相应的https页面；按Ctrl+Shift+I键，在"安全性"选项卡中显示证书。
 
-您可以在“详细信息”选项卡将其保存为文件。对于这种情况`DER( *.cer )` 就可以。
+您可以在"详细信息"选项卡将其保存为文件。对于这种情况`DER (*.cer)` 就可以。
 
 ![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
 
 将导出的文件复制到设备。
 
-如要执行此操作，请在Windows资源管理器中访问管理共享\\\<ip>\c$，并将其存储于c:\users\public\文件夹中。
+如要执行此操作，请在Windows资源管理器中访问管理共享 \\\\\<ip\>\c$，并将其存储于c:\users\public\文件夹中。
 
 输入管理员用户名和密码。
 
@@ -31,12 +31,12 @@ ref: admin-09
 以管理员身份在本地运行PowerShell
 
 * net start WinRM
-* Set-Item WSMan:\localhost\Client\TrustedHosts -Value <ip-address>
-* Enter-PSSession -ComputerName <ip address> -Credential localhost\administrator
+* Set-Item WSMan:\localhost\Client\TrustedHosts -Value \<ip-address\>
+* Enter-PSSession -ComputerName \<ip address\> -Credential localhost\administrator
 
 连接后，将证书导入到证书存储区：
 
-* $cert = “c:\users\public\demo.cer”
+* $cert = "c:\users\public\demo.cer"
 * Import Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 
 ![PowerShell](/assets/images/admin/certificates/powershell.png)

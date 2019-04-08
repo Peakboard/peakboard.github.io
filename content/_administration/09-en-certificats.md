@@ -13,15 +13,15 @@ The easiest way to save it is for example from Chrome.
 
 
 
-Go to the https page there; Ctrl+Shift+I and then display the certificate in the “Security” tab.
+Go to the https page there; Ctrl+Shift+I and then display the certificate in the "Security" tab.
 
-From there you can save to a file in the tab “Details”. `DER( *.cer )` is sufficient for this case.
+From there you can save to a file in the tab "Details". `DER (*.cer)` is sufficient for this case.
 
 ![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
 
 Copy the exported file to the device.
 
-To do this, access the admin share \\\<ip>\c$ in Windows Explorer and store it in the folder c:\users\public\, for example.
+To do this, access the admin share \\\\<ip\>\c$ in Windows Explorer and store it in the folder c:\users\public\, for example.
 
 Enter the user name and password of the administrator.
 
@@ -32,12 +32,12 @@ Then connect to the device via PowerShell.
 Running a PowerShell locally as an administrator
 
 * net start WinRM
-* Set-Item WSMan:\localhost\Client\TrustedHosts -Value <ip-address>
-* Enter-PSSession -ComputerName <ip address> -Credential localhost\administrator
+* Set-Item WSMan:\localhost\Client\TrustedHosts -Value \<ip-address\>
+* Enter-PSSession -ComputerName \<ip address\> -Credential localhost\administrator
 
 When connected, import the certificate into the certificate store:
 
-* $cert = “c:\users\public\demo.cer”
+* $cert = "c:\users\public\demo.cer"
 * Import Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 
 ![PowerShell](/assets/images/admin/certificates/powershell.png)

@@ -31,7 +31,7 @@ Dann via PowerShell mit der Peakboard-Box verbinden.
 Lokal eine PowerShell als Administrator ausführen
 
 * net start WinRM
-* Set-Item WSMan:\localhost\Client\TrustedHosts -Value <ip-adresse>
+* Set-Item WSMan:\localhost\Client\TrustedHosts -Value \<ip-adresse\>
 * Enter-PSSession -ComputerName \<ip-adresse\> -Credential administrator
 
 Wenn die Verbindung steht, das Zertifikat in den Zertifikatspeicher importieren:
