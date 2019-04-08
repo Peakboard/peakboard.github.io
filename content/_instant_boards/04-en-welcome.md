@@ -15,7 +15,7 @@ The example company logo can be easily exchanged as known (3).
 The date (4) as well as the two web widgets (5) for the analogue clock and the weather display provide additional information.
 The following screenshot illustrates the core elements of this instant board.
 
-![image_live](\assets\images\instant_boards\welcome\designer1.png)
+![image_live](/assets/images/instant_boards/welcome/designer1.png)
 
 With the help of a time comparison, those entries are highlighted that fulfill the set condition.
 In this example, a stylized male indicates whether someone is visiting in the selected period.
@@ -28,4 +28,4 @@ More information about our App can be found [here](/instant_boards/02-en-app.htm
 Access via web browser. Further information on entering variables or lists via the browser can be found [here](/instant_boards/03-en-web.html).
 
 The following screenshot shows the visualization with three example data sets.
-![image_live](\assets\images\instant_boards\welcome\live.png)
+![image_live](/assets/images/instant_boards/welcome/live.png)
