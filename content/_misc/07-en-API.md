@@ -9,7 +9,7 @@ ref: misc-07
 
 In order to access data from a variable or List Data Source via the API, the following information is required. It is also needed to write values to a list element or variable.
 
-* Authentication: [Basic Authentication](https://de.wikipedia.org/wiki/HTTP-Authentifizierung#Basic_Authentication)
+* Authentication: [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)
 * BoxIP: IP of the Peakboard Box in the network, alternatively also DNS of the box is possible.
 * PeakboardID: ID of the visualization, this can be found via the menu Button Settings (1). The ID (2) can then be copied from the corresponding field to the clipboard.
 * ListName: Name of the list Data Source (3)

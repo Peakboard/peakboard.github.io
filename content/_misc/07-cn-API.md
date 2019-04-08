@@ -9,7 +9,7 @@ ref: misc-07
 
 要通过API从变量或“列表数据源”访问数据，需要以下信息。因此也需要将值写入列表元素或变量。
 
-* 身份认证：[基本身份认证](https://en.wikipedia.org/wiki/HTTP-Authentication#Basic_Authentication)
+* 身份认证：[基本身份认证](https://en.wikipedia.org/wiki/Basic_access_authentication)
 * BoxIP：网络中Peakboard Box的IP，或者也可以使用该Box的DNS。
 * PeakboardID：可视化的ID，可通过（1）菜单中“设置”按钮找到。然后（2）将ID从相应的字段复制到剪贴板。
 * ListName：（3）“列表数据源”的名称
