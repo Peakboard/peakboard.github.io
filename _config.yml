@@ -29,6 +29,11 @@ collections:
       en: "Tutorials"
       de: "Tutorials"
       cn: "教程"
+    sublevel:
+      Instant Boards:
+        en: "Instant Boards"
+        de: "Instant Boards"
+        cn: "Instant Boards"
 
   video_tutorials:
     output: true
@@ -47,6 +52,10 @@ collections:
       de: "Datenquellen"
       cn: "数据源"
     sublevel:
+      PeakboardIO:
+        en: "PeakboardIO"
+        de: "PeakboardIO"
+        cn: "PeakboardIO"
       SAP:
         en: "SAP"
         de: "SAP"
@@ -102,23 +111,7 @@ collections:
         de: "Beispiele"
         cn: "示例"
 
-  instant_boards:
-    output: true
-    icon: star.svg
-    position: 8
-    title:
-      en: "Instant Boards"
-      de: "Instant Boards"
-      cn: "Instant Boards"
-      
-  peakboardio:
-    output: true
-    icon: star.svg
-    position: 9
-    title:
-      en: "Peakboard.io"
-      de: "Peakboard.io"
-      cn: "Peakboard.io"
+
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
 language:
