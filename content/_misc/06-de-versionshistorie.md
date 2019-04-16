@@ -7,13 +7,13 @@ lang: de
 ref: misc-06
 ---
 
-## 1.2.0.0 (16.04.2019)
+## 1.2.0.1 (16.04.2019)
 * Regel-Editor für die Controls Text, Linear-Gauge und Circular-Gauge
 * Für Excel-Daten kann der Datentyp von „String“ zu „Number“ in der Datenquelle direkt geändert werden 
 * Auswahl mehrerer Variablen für die OPC-UA Datenquelle
 * Nachinstallation der Peakboard Runtime wurde dem Setup hinzugefügt
 * Versionsabgleich von Runtime und Designer implementiert
-* Skripte können umbenannt werden
+* Das Text-Box-Control kann mehrzeilig beschrieben werden
 * Überarbeitung zuletzt geöffneter Dateien
 * Screenshot zuletzt geöffneter Dateien hinzugefügt
 * Farbauswahl komprimiert und zuletzt verwendete Farben hinzugefügt
@@ -32,6 +32,7 @@ ref: misc-06
 * Fix für Lua Code Beispiele
 * Fix für das Erstellen und Löschen von Skripten
 * Fix für den Lua-Befehl "runtime.shownotification"
+* Fix für das umbennenen von Skripten 
 
 
 

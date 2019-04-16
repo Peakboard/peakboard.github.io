@@ -7,13 +7,13 @@ lang: en
 ref: misc-06
 ---
 
-## 1.2.0.0 (16.04.2019)
+## 1.2.0.1 (16.04.2019)
 * Rule editor for the controls Text, Linear-Gauge and Circular-Gauge
 * For Excel data, the data type can be changed directly from "String" to "Number" in the data source
 * Selection of several variables for the OPC-UA data source
 * After installation of the Peakboard Runtime was added to the setup
 * Version comparison of runtime and designer implemented
-* Scripts can be renamed
+* The text box control can be filled with multiple lines
 * Revision of last opened files
 * Screenshot of last opened files added
 * Color selection compressed and last used colors added
@@ -32,6 +32,7 @@ ref: misc-06
 * Fix for Lua code examples
 * Fix for creating and deleting scripts
 * Fix for the Lua command runtime.shownotification
+* Fix for renaming scripts 
 
 ## 1.1.0.46 (18.03.2019)
 * Hotfix for the Threshold Diagram of the Advanced Chart
