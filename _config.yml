@@ -42,6 +42,18 @@ collections:
     title:
       en: "Video Tutorials"
       de: "Video Tutorials"
+    sublevel:
+      Scripting:
+        en: "Scripting"
+        de: "Scripting"
+    sublevel:
+      Peakboard IO:
+        en: "PeakboardIO"
+        de: "PeakboardIO"
+    sublevel:
+      Komplexe Datenaggregation:
+        en: "Complex Data Aggregation"
+        de: "Komplexe Datenaggregation"
 
   data_sources:
     output: true
