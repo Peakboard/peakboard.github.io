@@ -7,6 +7,9 @@ lang: en
 ref: misc-06
 ---
 
+## 1.2.1.1 (17.04.2019)
+* Hotfix for the reload of a S7 data source in the preview
+
 ## 1.2.0.1 (16.04.2019)
 * Rule editor for the controls Text, Linear-Gauge and Circular-Gauge
 * For Excel data, the data type can be changed directly from "String" to "Number" in the data source
