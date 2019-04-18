@@ -8,7 +8,7 @@ ref: tut-04
 ---
 
 # Willkommensbildschirm mit Internetverbindung
-Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu geben, bieten wir unterschiedliche Templates an. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren eigenen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden lesen Sie am besten folgenden [Artikel](https://help.peakboard.com/tutorials/02-de-anschliessen-und-die-erste-visualisierung.html).
+Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu geben, bieten wir vorgefertigte Templates an. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren eigenen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen lesen Sie am besten folgenden [Artikel](https://help.peakboard.com/tutorials/02-de-anschliessen-und-die-erste-visualisierung.html).
 
 ## Unterschiedliche Varianten
 Folgende Templates werden in diesem Artikel erklärt.
@@ -38,12 +38,13 @@ Neben den beschriebenen Templates gibt es noch ein alternatives Willkommensbilds
 Diese Visualisierung bietet Platz für bis zu 6 Termine. Verwaltet werden die Termine über eine einfache Microsoft Office 365 Kalender Anbindung. [Dokumentation](https://help.peakboard.com), [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Appointments%20Overview)
 
 ## Initiale Konfiguration
-Die initiale Konfiguration ist ein einmaliger Vorgang und ist nötig um das generelle Aussehen wie Logo, Hintergrund und Wetter Widget auf Ihre Bedürfnisse anzupassen. Wenn Sie Ihre gewünschten Einstellungen vorgenommen haben müssen Sie nur noch Ihre aktualisierte Visualisierung auf Ihre Peakboard Box laden und dann müssen nur noch die Termine verwaltet werden, alles andere geschiet automatisch.
+Die initiale Konfiguration ist ein einmaliger Vorgang und ist nötig um das generelle Aussehen wie Logo, Hintergrund und Wetter Widget auf Ihre Bedürfnisse anzupassen. Wenn die Visualisierung Ihren Vorstellungen entspricht laden Sie die Visualisierung ganz einfach auf Ihre Peakboard Box. 
 
-Da einige Kunden gerne Quellen aus dem Internet verwenden möchten und andere nicht, wird in den folgenden Schritte beschreiben wie sie Internetquellen nutzen können. Wenn Sie Ihrer Peakboard-Box keine Internetverbindung bereitstellen möchten können Sie entweder das Wetter Widget einfach aus dem Board entfernen oder sie verwenden das [Offline Board](https://github.com/Peakboard/CoolStuff/blob/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Offline/Welcome_Screen_Offline.pbmx) welches bereits ohne diese Option kommt.
+Die folgenden Schritte beschreiben wie Sie die dieses Template mit den vordefinierten Quellen nutzen können. 
+Wenn Sie möchten können Sie Peakboard auch ohne Internetverbindung verwenden. Auch dieses Template kann ohne Internetverbindung verwendet werden. Entfernen Sie einfach das Wetter Widget oder verwenden Sie das [Template ohne Internetverbindung](https://github.com/Peakboard/CoolStuff/blob/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Offline/Welcome_Screen_Offline.pbmx) welches bereits ohne diese Option kommt.
 
 ### Zeitserver einstellen
-Diese Einstellung definiert aus welcher Datenquelle die Peakboard Box die aktuelle Uhrzeit bezieht. Sie können die default Einstellung belassen, diese ruft den folgenden Service für die Uhrzeit auf: 'time.windows.com'. Wenn Sie Ihren lokalen Zeitserver Ihres Netzwerks verwenden möchten, können Sie diesen ändern indem Sie in der oberen Menuleiste auf den Tab 'Einstellungen/Settings' -> 'Zeitserver/Time Server' navigieren. Besonders wenn die Box keine Internetverbindung hat ist es wichtig den lokalen Zeitserver zu hinterlegen. Fragen Sie am besten einfach Ihren Admin nach der Adresse.
+Diese Einstellung definiert aus welcher Datenquelle die Peakboard Box die aktuelle Uhrzeit bezieht. Sie können die default Einstellung belassen, diese ruft den folgenden Service für die Uhrzeit auf: 'time.windows.com'. Wenn Sie Ihren lokalen Zeitserver Ihres Netzwerks verwenden möchten, können Sie diesen ändern indem Sie in der oberen Menuleiste auf den Tab 'Einstellungen/Settings' -> 'Zeitserver/Time Server' navigieren. Besonders wenn die Box keine Internetverbindung hat ist es wichtig den lokalen Zeitserver zu hinterlegen. Fragen Sie am besten einfach Ihren Admin nach der Adresse. 
 
 ### Wetter Widget aktualisieren
 Wenn Sie dieses Wetter Widget nicht verwenden möchten, können Sie einfach im Peakboard Designer das Element aus der Visualisierung löschen. Wählen Sie es dafür mit einem Rechtsklick aus und wählen Sie 'Löschen'.
@@ -91,6 +92,7 @@ Mehr über das Webinterface können Sie [hier](https://help.peakboard.com/misc/1
 
 
 ### Calendar anbindung
+Freigeben des Kalenders. Aktuell wird nur der Microsoft Office 365 Kalender unterstützt.
 [mit Office 365 Calendar](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar) 
 
 
