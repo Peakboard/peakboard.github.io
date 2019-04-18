@@ -40,7 +40,7 @@ Diese Visualisierung bietet Platz für bis zu 6 Termine. Verwaltet werden die Te
 ## Initiale Konfiguration
 Die initiale Konfiguration ist ein einmaliger Vorgang und ist nötig um das generelle Aussehen wie Logo, Hintergrund und Wetter Widget auf Ihre Bedürfnisse anzupassen. Wenn die Visualisierung Ihren Vorstellungen entspricht laden Sie die Visualisierung ganz einfach auf Ihre Peakboard Box. 
 
-Die folgenden Schritte beschreiben wie Sie die dieses Template mit den vordefinierten Quellen nutzen können. 
+Die folgenden Schritte beschreiben wie Sie diese Templates mit den vordefinierten Quellen nutzen können. 
 Wenn Sie möchten können Sie Peakboard auch ohne Internetverbindung verwenden. Auch dieses Template kann ohne Internetverbindung verwendet werden. Entfernen Sie einfach das Wetter Widget oder verwenden Sie das [Template ohne Internetverbindung](https://github.com/Peakboard/CoolStuff/blob/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Offline/Welcome_Screen_Offline.pbmx) welches bereits ohne diese Option kommt.
 
 ### Zeitserver einstellen
@@ -66,7 +66,7 @@ Gehen Sie nun zurück in den Peakboard Designer und wählen sie das Control 'Web
 ### Logo aktualisieren
 Um das Peakboard Logo durch das gewünschte Firmenlogo zu ersetzen benötigen Sie eine Bilddatei. Es werden unterschiedliche Formate unterstützt (PNG, JPG). Ziehen Sie einfach die gewünschte Bilddatei per Drag&Drop auf den Designer. Anschließend finden Sie die Bild Datei in der Sidebar unter dem Punkt 'Ressourcen'. Ziehen Sie nun diese Bilddatei auf das aktuelle Logo, so können Sie es überschreiben. Anschließend können Sie noch Anpassungen machen um Größe und Position zu verbessern.
 
-Alternativ können Sie auch das Logo als externe Bildquelle einbinden. Dafür können Sie die Variable 'logo' öffnen und in der Tabelle unter dem Eintrag 'URL' einen Link zu einer Bilddatei im Internet angeben. Dies ist direkt im Peakboard Designer möglich oder noch einfacher über das Peakboard Webinterface. 
+Alternativ können Sie auch das Logo als externe Bildquelle einbinden. Dafür können Sie die Variable 'logo' öffnen und in der Tabelle unter dem Eintrag 'URL' einen Link zu einer Bilddatei im Internet angeben. Dies ist direkt im Peakboard Designer möglich oder noch einfacher über das Peakboard Webinterface.
 
 Dieses können Sie aufrufen, indem Sie im Peakboard Designer im 'Startseite' Tab auf 'Verwalten / Hochladen' klicken. Im Dialog wählen Sie die gewünschte Box aus (Sie müssen die Visualisierung bereits auf eine Box geladen haben). Klicken Sie nun auf den Button 'Webinterface'. Alternativ können Sie auch das Webinterface auch direkt in Ihrem Browser mit der URL: http://NameIhrerBox:40404 aufrufen.
 
