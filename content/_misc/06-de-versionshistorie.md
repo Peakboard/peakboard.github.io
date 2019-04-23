@@ -7,6 +7,9 @@ lang: de
 ref: misc-06
 ---
 
+## 1.2.2.0 (23.04.2019)
+* Hotfix für die Installation der Peakboard Runtime
+
 ## 1.2.1.1 (17.04.2019)
 * Hotfix für den Reload einer S7 Datenquelle in der Preview
 
