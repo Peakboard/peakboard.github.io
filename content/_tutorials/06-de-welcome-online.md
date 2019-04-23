@@ -8,7 +8,7 @@ ref: tut-04
 ---
 
 # Willkommensbildschirm mit Internetverbindung
-Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu geben, bieten wir vorgefertigte Templates an. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren eigenen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen lesen Sie am besten folgenden [Artikel](https://help.peakboard.com/tutorials/02-de-anschliessen-und-die-erste-visualisierung.html).
+Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Wir bieten vorgefertigte Templates an um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu bieten. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren persönlichen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen lesen Sie am besten folgenden [Artikel](https://help.peakboard.com/tutorials/02-de-anschliessen-und-die-erste-visualisierung.html).
 
 ## Unterschiedliche Varianten
 Folgende Templates werden in diesem Artikel erklärt.
@@ -16,17 +16,17 @@ Folgende Templates werden in diesem Artikel erklärt.
 ### Einfaches Board mit einem Termin
 ![image_live](/assets/images/instant_boards/welcome/Welcome_Screen_Online_Single.jpg)
 
-Funktioniert mit oder ohne Internetverbindung. Ohne Internetverbindung können Sie keine externen Quellen hinzufügen. Wie zum Beispiel das Wetter Widget oder externe Logos und Hintergrundgrafiken. Mit maximal einem angezeigten Termin aus einer Tabelle. [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online%20Single)
+Funktioniert mit oder ohne Internetverbindung. Ohne Internetverbindung können Sie keine externen Quellen hinzufügen. Zum Beispiel das Wetter Widget oder externe Logos und Hintergrundgrafiken. Dieses Board bietet die MöglichkeitMit maximal einen Termin aus einer Tabelle anzuzeigen. [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online%20Single)
 
 ### Mehrere Termine aus einer Tabelle
 ![image_live](/assets/images/instant_boards/welcome/Welcome_Screen_Online.jpg)
 
-Funktioniert mit oder ohne Internetverbindung. Ohne Internetverbindung können Sie keine externen Quellen hinzufügen. Wie zum Beispiel das Wetter Widget oder externe Logos und Hintergrundgrafiken. Mit maximal drei angezeigten Terminen aus einer Tabelle. [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online)
+Funktioniert mit oder ohne Internetverbindung. Ohne Internetverbindung können Sie keine externen Quellen hinzufügen (Wetter, Logo, Hintergrund). Das Board kann bis zu drei Termine anzeigen. Die Termine werden in einer Tabelle direkt auf der Peakboard Box gespeichert und verwaltet. [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online)
 
-### Mehrer Termine mit MS Office 365 Kalender als Datenquelle
+### Mehrere Termine mit MS Office 365 Kalender als Datenquelle
 ![image_live](/assets/images/instant_boards/welcome/Welcome_Screen_Online.jpg)
 
-Optisch identisch zum vorherigen Board. Die Datenhaltung passiert allerdings nicht auf der Box sondern funktioniert mit einem Microsoft Office 365 Kalender. Zugriff auf den Kalender muss hergestellt werden, anschließend werden automatisch immer bis zu 3 aktuelle Termine angezeigt. [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar)
+Optisch identisch zum vorherigen Board. Die Datenhaltung passiert allerdings nicht auf der Box, sondern funktioniert mit einem Microsoft Office Kalender. Unterstützt werden Microsoft Office 365 Konten und moderne On Premise Exchange Server die Microsoft Graph unterstützen. Zugriff auf den Kalender muss über Microsoft hergestellt werden, anschließend werden automatisch immer bis zu 3 aktuelle Termine angezeigt. [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar)
 
 
 ## Weiteres Template
@@ -38,7 +38,7 @@ Neben den beschriebenen Templates gibt es noch ein alternatives Willkommensbilds
 Diese Visualisierung bietet Platz für bis zu 6 Termine. Verwaltet werden die Termine über eine einfache Microsoft Office 365 Kalender Anbindung. [Dokumentation](https://help.peakboard.com), [Github Link](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Appointments%20Overview)
 
 ## Initiale Konfiguration
-Die initiale Konfiguration ist ein einmaliger Vorgang und ist nötig um das generelle Aussehen wie Logo, Hintergrund und Wetter Widget auf Ihre Bedürfnisse anzupassen. Wenn die Visualisierung Ihren Vorstellungen entspricht laden Sie die Visualisierung ganz einfach auf Ihre Peakboard Box. 
+Die initiale Konfiguration ist ein einmaliger Vorgang und ist nötig um das generelle Aussehen wie Logo, Hintergrund und Wetter Widget auf Ihre Bedürfnisse anzupassen. Wenn die Visualisierung Ihren Vorstellungen entspricht laden Sie die Visualisierung einfach auf Ihre Peakboard Box.
 
 Die folgenden Schritte beschreiben wie Sie diese Templates mit den vordefinierten Quellen nutzen können. 
 Wenn Sie möchten können Sie Peakboard auch ohne Internetverbindung verwenden. Auch dieses Template kann ohne Internetverbindung verwendet werden. Entfernen Sie einfach das Wetter Widget oder verwenden Sie das [Template ohne Internetverbindung](https://github.com/Peakboard/CoolStuff/blob/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Offline/Welcome_Screen_Offline.pbmx) welches bereits ohne diese Option kommt.
@@ -49,18 +49,17 @@ Diese Einstellung definiert aus welcher Datenquelle die Peakboard Box die aktuel
 ### Wetter Widget aktualisieren
 Wenn Sie dieses Wetter Widget nicht verwenden möchten, können Sie einfach im Peakboard Designer das Element aus der Visualisierung löschen. Wählen Sie es dafür mit einem Rechtsklick aus und wählen Sie 'Löschen'.
 
-
 Wenn Sie das Wetter Widget verwenden möchten können Sie sich Ihr eigenes Widget mit Ihrer Stadt unter folgender Adresse erstellen: https://weatherwidget.io/.
 
 Wählen Sie zuerst die Stadt in der das Board später hängen soll aus. Anschließend können Sie noch weitere Parameter wie die Sprache, die anzuzeigenden Texte und die Einheit definieren.
-Auf den weiteren Tabs gibt es noch viele weitere Möglichkeiten das Wetter Widget für eien Bedürfnisse anzupassen.
+Auf den weiteren Tabs gibt es noch viele weitere Möglichkeiten das Wetter Widget für Ihre Bedürfnisse anzupassen.
 
 Für unsere Visualisierung haben wir im Tab 'Options' den Font 'Arial' verwendet, das Icon Set 'Climacons Animated', Forecast Days '3'.
 Als Theme haben wir das Theme 'Pure' unter 'Flat' verwendet.
 
 Wenn Sie mit Ihren Optionen zufrieden sind, können Sie auf den Button 'Get Code' klicken. Am geöffnet Fenster finden Sie nun den fertigen Code für Ihr persönliches Widget. Kopieren Sie diesen Code indem Sie ihn markieren oder einfach auf den Button 'Copy to Clipboard' klicken.
 
-Gehen Sie nun zurück in den Peakboard Designer und wählen sie das Control 'Web widget (Weather)' in der Sidebar aus oder klicken Sie direkt auf das Wetter Widget. In der weiteren Sidebar auf der rechten Seite finden Sie nun einige Parameter zu diesem Element. Klicken Sie auf den '...' Button unter dem Punkt 'HTML-Code'. In dem geöffnet Fenster können sie nun den bestehenden Code durch Ihren erstellten Code ersetzen. Fügen Sie dort Ihr erstelltes Widget ein.
+Gehen Sie nun zurück in den Peakboard Designer und wählen sie das Control 'Web widget (Weather)' in der Sidebar aus oder klicken Sie direkt auf das Wetter Widget. In der weiteren Sidebar auf der rechten Seite finden Sie nun einige Parameter zu diesem Element. Klicken Sie auf den '...' Button unter dem Punkt 'HTML-Code'. In dem geöffnet Fenster können sie nun den bestehenden Code durch Ihren erstellten Code ersetzen. Fügen Sie dort Ihr erstelltes Widget ein und klicken Sie auf den OK-Button.
 
 
 ### Logo aktualisieren
