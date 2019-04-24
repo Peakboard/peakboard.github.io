@@ -8,7 +8,7 @@ ref: tut-04
 ---
 
 # Willkommensbildschirm
-Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Wir bieten vorgefertigte Templates an um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu bieten. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren persönlichen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). Zum erstellen von einer Visualisierung benötigen Sie den Peakboard Designer. Dieser kann kostenfrei [heruntergeladen](https://peakboard.rocks/designer) werden.
+Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Wir bieten vorgefertigte Templates an um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu bieten. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren persönlichen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). Zum Erstellen einer Visualisierung benötigen Sie den Peakboard Designer. Dieser kann kostenfrei [heruntergeladen](https://peakboard.rocks/designer) werden.
 
 ## Unterschiedliche Varianten
 Folgende Templates werden in diesem Artikel erklärt.
