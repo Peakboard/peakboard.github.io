@@ -7,8 +7,8 @@ lang: de
 ref: tut-04
 ---
 
-# Willkommensbildschirm mit Internetverbindung
-Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Wir bieten vorgefertigte Templates an um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu bieten. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren persönlichen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen lesen Sie am besten folgenden [Artikel](https://help.peakboard.com/tutorials/02-de-anschliessen-und-die-erste-visualisierung.html).
+# Willkommensbildschirm
+Peakboard bietet die Möglichkeit sehr flexibel unterschiedliche Anwendungen abzubilden. Wir bieten vorgefertigte Templates an um einen möglichst einfachen Einstieg in die Erstellung eines Willkommensbildschirms zu bieten. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren persönlichen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). Zum erstellen von einer Visualisierung benötigen Sie den Peakboard Designer. Dieser kann kostenfrei [heruntergeladen](https://peakboard.rocks/designer) werden.
 
 ## Unterschiedliche Varianten
 Folgende Templates werden in diesem Artikel erklärt.
@@ -78,26 +78,39 @@ Als Hintergrund für diese Template wird ein Control namens PhotoFrame verwendet
 
 Alternativ können auch Webseiten als Hintergrund eingebunden werden – Internetverbindung vorausgesetzt. Das Vorgehen ist sehr ähnlich zu dem Vorgehen beim Logo. Sie können direkt im Designer die Variable 'background' öffnen und eine URL angeben, oder Sie nutzen dafür das Webinterface.
 
+### Ausgangstexte definieren
+Die Visualierung kommt mit vorgefertigten Texten für die Situation, dass kein Termin vorhanden ist.
+Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Die können Sie direkt im Peakboard Designer vornehmen oder über das Webinterface. Dieses Webinterface ist eine Webseite welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. In der Variablenliste 'text_labels' können Sie alle angezeigten Ausgangstexte verändern.
+
 ## Termine verwalten
-Je nach Datenquelle können Termine unterschiedlich verwaltet werden. Dies geht zum einen indem Sie einen Microsoft Kalender einbinden oder mit Tabellen über das Peakboard Webinterface direkt auf Ihrer Box.
-Mehr über das Webinterface können Sie [hier](https://help.peakboard.com/misc/11-de-web.html) erfahren.
+Anders als die inititale Konfiguration ist die Terminverwaltung ein kontinuierlicher Prozess. Daher sollte dieser Vorgang Ihren Anforderungen entsprechen. Je nach Datenquelle können Termine unterschiedlich verwaltet werden. Dies geht indem Sie einen Microsoft Kalender einbinden oder mit Tabellen über das Peakboard Webinterface direkt auf Ihrer Box. Überlegen Sie sich welche Art von Datenhaltung für Sie die geeignete ist.
+Mehr über das Webinterface erfahren Sie [hier](https://help.peakboard.com/misc/11-de-web.html).
 
 ### Einfacher Screen mit einem Eintrag
-[ganz einfach mit nur einem Eintrag](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online%20Single) 
+Die Visualisierung mit nur [einem Eintrag](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online%20Single) bietet Ihnen die Möglichkeit einen allgemeinen Willkommenstext anzuzeigen oder einen speziellen für eine Person oder Firma. Die Texte die angezeigt werden, werden über das Peakboard Webinterface eingerichtet. Dieses Webinterface ist eine Webseite welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. Über die Listen 'background', 'logo' und 'text_labels' können sie die Optik der Visualisierung beeinflussen, dies wird in der initialen Konfiguration bereits beschrieben.
+
+Unter der Liste 'visitor' können Sie unter 'Name' einen Namen eines Besuchers eintragen. Ist dieser Eintrag leer, wird automatische der allgemeine Begrüßungstext aus der Liste 'text_labels' verwendet.
+In der Liste 'visitor' können Sie noch weitere Angaben zum Besucher machen, Sie können einen Raum angeben, einen Ansprechpartner, eine Uhrzeit und den Firmennamen. Lassen Sie ein Textfeld frei, wird an dieser Stelle einfach nichts angezeigt.
 
 
-### Mehrfache Termine in der Tabelle
-[mit einer Tabelle wo man Tag und Start und Endzeit angegben kann](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online) 
+### Mehrfache Termine mit Tabelle
+Die Visualiserung mit [mehreren Terminen verwaltet in einer Taballe](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online)  bietet Ihnen die Möglichkeit einen allgeminen Begrüßungstext anzuzeigen oder ein bis drei Termine. Die Termine die angezeigt werden, werden über das Peakboard Webinterface verwaltet. Dieses Webinterface ist eine Webseite welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. Über die Listen 'background', 'logo' und 'text_labels' können sie die Optik der Visualisierung beeinflussen, dies wird in der initialen Konfiguration bereits beschrieben.
 
+Für das Verwalten der dargestellten Termine öffnen Sie die liste 'appointments'. In dieser Tabelle können Sie nun unterschiedliche Termine anlegen. Geben Sie dazu immer ein Datum, eine Start- und Endzeit an und jeweils einen Titel des Termins (Subject). Die Optionen Body und Location sind optional, damit können Sie noch weitere Information wie beispielsweise Ansprechpartner und Raum angeben. Es werden anschließend immer die drei nächsten Termine des heutigen Tages in der Visualisierung angezeigt.
 
-### Calendar anbindung
-Freigeben des Kalenders. Aktuell wird nur der Microsoft Office 365 Kalender unterstützt.
-[mit Office 365 Calendar](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar) 
+Ist kein weiterer Termin für den heutigen Tag vorhanden, wird der allgemeine Begrüßungstext aus der Liste 'text_labels' verwendet.
 
+### Office Kalenderanbindung
+Um die [Visualisierung mit Kalenderanbindung](https://github.com/Peakboard/CoolStuff/tree/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar) nutzen zu können müssen Sie sich mit Ihrem privaten – oder noch besser einem geteilten – Kalender Account in Ihr Microsoft Konto anmelden und eine Freigabe für die nötigen Information für Peakboard freischalten. 
 
+Öffnen Sie dazu die Visualisierungsdatei mit dem Peakboard Designer. Nun können Sie in der linken Sidebar die Kalenderdatenquelle öffnen (Visualisierung -> Daten -> Calendar). Unter dem zweiten Punkt 'Autorisierungsstatus' müssen Sie nun über den Button 'Autorisieren' eine Freigabe für Ihren Kalender einrichten. Führen Sie dazu die Schritte der Windowsanmeldung aus und erlauben Sie Peakboard Zugriff auf den Kalender. Ist die Autorisierung erteilt können Sie den Dialog mit OK schließen, die Visualisierung speichern und auf Ihre Peakboard Box laden. 
+
+Anschließend werden immer automatisch alle aktuellen Termine aus dem angegeben Microsoft Kalender geholt und bis zu drei angezeigt. Das bedeutet Sie können einfach wie gewohnt die Termine in Ihrem Kalender verwalten und Peakboard holt sich automatisch die relevanten Termine und stellt sie dar. Wenn kein weiterer Termin für den heutigen Tag vorhanden ist wird der allgemeine Begrüßungstext aus der Liste 'text_labels' verwendet.
+
+Aktuell unterstützt Peakboard Microsoft Office 365 Konten und moderne On-Premise-Exchange-Server die Microsoft Graph unterstützen. Fragen Sie am besten Ihren Admin.
 
 ## Image Credits
-These are a link to the images we used in the background for our boards. https://unsplash.com/ is a pretty good
+These are a link to the images we used in the background for our boards. https://unsplash.com/ is a pretty interesting project which provides a lot of open source, free-to-use high quality images.
 
 
 https://unsplash.com/photos/ib7jwp7m0iA
