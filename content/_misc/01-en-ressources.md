@@ -33,7 +33,6 @@ The Web resource is explained very simply: Simply enter the desired URL, if nece
 
 ![image_1](/assets/images/misc/Ressources/Resources_03.png)
 
-
 ## Cloud Resource: Dropbox, OneDrive, Google Drive
 
 To load a resource from a cloud memory, you must first allow Peakboard to access your cloud memory. A corresponding window opens. Please note: Your access data to your cloud memory is NOT stored in the Designer or on the Peakboard-Box, but only an access token. If you want to undo this permission, simply go to the settings of your cloud storage account. The access is listed there and can be deleted. This is a common procedure for allowing third parties to access a cloud storage device.
