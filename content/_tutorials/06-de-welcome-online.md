@@ -80,9 +80,11 @@ Um das Peakboard Logo durch das gewünschte Firmenlogo zu ersetzen benötigen Si
 
 Alternativ können Sie auch das Logo als externe Bildquelle einbinden. Dafür können Sie die Variable 'logo' öffnen und in der Tabelle unter dem Eintrag 'URL' einen Link zu einer Bilddatei im Internet angeben. Dies ist direkt im Peakboard Designer möglich oder, wenn Sie bereits eine Box besitzen, noch einfacher über das Peakboard Webinterface.
 
-Dieses können Sie aufrufen, indem Sie im Peakboard Designer im 'Startseite' Tab auf 'Verwalten / Hochladen' klicken. Im Dialog wählen Sie die gewünschte Box aus (Sie müssen die Visualisierung bereits auf eine Box geladen haben). Klicken Sie nun auf den Button 'Webinterface'. Alternativ können Sie auch das Webinterface auch direkt in Ihrem Browser mit der URL: http://NameIhrerBox:40404 aufrufen.
-
 (SCREENSHOT OF MANAGE DIALOG)
+
+Dieses Webinterface ist eine Webseite welche Sie aufrufen können, indem Sie im Peakboard Designer im 'Startseite' Tab auf 'Verwalten / Hochladen' klicken. Im Dialog wählen Sie die gewünschte Box aus (Sie müssen die Visualisierung bereits auf eine Box geladen haben). Klicken Sie nun auf den Button 'Webinterface'. Alternativ können Sie das Webinterface auch direkt in Ihrem Browser mit der URL: http://NameIhrerBox:40404 aufrufen. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können.
+
+(SCREENSHOT OF WEB INTERFACE)
 
 Auch hier können Sie in der Liste 'logo' eine URL zu einer Webressource hinzufügen und über die weiteren Paremeter in der Tabellenzeile die Position und Größe beeinflussen.
 
@@ -98,6 +100,8 @@ Alternativ können auch Webseiten als Hintergrund eingebunden werden – Interne
 
 Die Visualierung kommt mit vorgefertigten Texten für die Situation, dass kein Termin vorhanden ist.
 Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Die können Sie direkt im Peakboard Designer vornehmen oder über das Webinterface, wenn Sie bereits eine Box besitzen. Dieses Webinterface ist eine Webseite welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. In der Variablenliste 'text_labels' können Sie alle angezeigten Ausgangstexte verändern.
+
+(SCREENSHOT OF WEB INTERFACE)
 
 ## Termine verwalten
 
