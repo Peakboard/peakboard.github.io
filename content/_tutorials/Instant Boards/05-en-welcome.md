@@ -4,7 +4,7 @@ title: Welcome Screen
 menu_title: Welcome Screen
 description: Plug&Play Solution for a Welcome Screen
 lang: en
-ref: instant_boards-04
+ref: tut-05
 ---
 
 This Plug & Play solution, which can be downloaded [here](https://github.com/Peakboard/CoolStuff/tree/master/Business/Welcome%20with%20APP), offers a way to implement a welcome screen without much effort.
@@ -23,9 +23,9 @@ In this example, a stylized male indicates whether someone is visiting in the se
 New entries can be made in the following ways:
 
 Use the Peakboard Mobil App for iOS and Android, which can be downloaded from the Google or Apple Store. 
-More information about our App can be found [here](/instant_boards/02-en-app.html).
+More information about our App can be found [here](/misc/10-en-app.html).
 
-Access via web browser. Further information on entering variables or lists via the browser can be found [here](/instant_boards/03-en-web.html).
+Access via web browser. Further information on entering variables or lists via the browser can be found [here](/misc/11-en-web.html).
 
 The following screenshot shows the visualization with three example data sets.
 ![image_live](/assets/images/instant_boards/welcome/live.png)

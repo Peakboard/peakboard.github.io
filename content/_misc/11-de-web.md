@@ -4,7 +4,7 @@ title: Daten Web-Push
 menu_title: Daten Web-Push
 description: Wie können Variablen und Listen mittels Web-Push gesetzt werden.
 lang: de
-ref: instant_boards-03
+ref: misc-11
 ---
 
 Variablen und Listen können außerhalb des Designers und der Box über die Peakboard App oder Web Zugriff gesetzt bzw. verändert werden.

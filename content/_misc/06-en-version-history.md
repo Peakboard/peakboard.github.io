@@ -7,6 +7,39 @@ lang: en
 ref: misc-06
 ---
 
+## 1.2.2.0 (23.04.2019)
+* Hotfix for the Peakboard Runtime installation
+
+## 1.2.1.1 (17.04.2019)
+* Hotfix for the reload of a S7 data source in the preview
+
+## 1.2.0.1 (16.04.2019)
+* Rule editor for the controls Text, Linear-Gauge and Circular-Gauge
+* For Excel data, the data type can be changed directly from "String" to "Number" in the data source
+* Selection of several variables for the OPC-UA data source
+* After installation of the Peakboard Runtime was added to the setup
+* Version comparison of runtime and designer implemented
+* The text box control can be filled with multiple lines
+* Revision of last opened files
+* Screenshot of last opened files added
+* Color selection compressed and last used colors added
+* Revision of the color selection for Advanced Charts
+* Revised design of the ribbon bar
+* Revision of the Microsoft calendar data source
+* Revised web interface for entering variables and lists
+* Settings and logs moved from the Web interface to the designer's Manage dialog
+* Merging of "Activate" and "Delete" of a visualization in the Manage dialog
+* Improved highlighting for active screen
+* After duplicating a screen, the duplicated screen is set to the active screen
+* Fix for an error when reloading a visualization from a Box
+* Fix for saving lists on the box 
+* Fix for "default" type time data sources
+* Fix for switching an ODBC connection to an Oracle connection
+* Fix for Lua code examples
+* Fix for creating and deleting scripts
+* Fix for the Lua command runtime.shownotification
+* Fix for renaming scripts 
+
 ## 1.1.0.46 (18.03.2019)
 * Hotfix for the Threshold Diagram of the Advanced Chart
 

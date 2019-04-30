@@ -4,7 +4,7 @@ title: Willkommensbildschirm
 menu_title: Willkommensbildschirm
 description: Plug&Play Lösung für einen Willkommensbildschirm
 lang: de
-ref: instant_boards-04
+ref: tut-05
 ---
 
 In dieser Plug & Play Lösung, welche [hier](https://github.com/Peakboard/CoolStuff/tree/master/Business/Welcome%20with%20APP) heruntergeladen werden kann, bietet eine Möglichkeit, einen Willkommensbildschirm ohne großen Aufwand zu implementieren.
@@ -23,9 +23,9 @@ In diesem Beispiel zeigt ein stilisiertes Männchen an, ob jemand im gewählten 
 Neue Einträge können hierbei auf folgende Arten erfolgen:
 
 Nutzen der Peakboard Mobil App für iOS und Android, welche im Google oder Apple Store geladen werden kann. 
-Weitere Informationen zu unserer App finden sich [hier](/instant_boards/02-de-app.html).
+Weitere Informationen zu unserer App finden sich [hier](/misc/10-de-app.html).
 
-Zugriff über den Webbrowser. Weitere Informationen zur Eingabe von Variablen oder Listen über den Browser finden sich [hier](/instant_boards/03-de-web.html).
+Zugriff über den Webbrowser. Weitere Informationen zur Eingabe von Variablen oder Listen über den Browser finden sich [hier](/misc/11-de-web.html).
 
 Nachfolgender Screenshot zeigt die Visualisierung mit drei Beispielsdatensätzen.
 ![image_live](/assets/images/instant_boards/welcome/live.png)

@@ -7,7 +7,7 @@ lang: de
 ref: con-13
 ---
 
-Für das Erstellen von Google Analytics Reports ist zwingend ein Peakboard.io-Account nötig. Der GA-Report wird im [Peakboard.io-Portal](/peakboardio/01-de-einfuehrung-und-uebersicht.html) definiert und dann mit Hilfe des entsprechenden Steuerelements im Designer eingebettet.
+Für das Erstellen von Google Analytics Reports ist zwingend ein Peakboard.io-Account nötig. Der GA-Report wird im [Peakboard.io-Portal](/data_sources/PeakboardIO/33-de-intro-peakboard-io-table.html) definiert und dann mit Hilfe des entsprechenden Steuerelements im Designer eingebettet.
 
 Im Peakboard.io-Portal gehen Sie im Menü auf „GA Charts“. Falls Sie Ihren Account noch nicht mit dem Google-Account verknüpft haben, klicken Sie bitte auf den entsprechenden Button (siehe nächster Screenshot). Es öffnet sich dann die Goolge-Anmeldemaske, in die sie Ihre Credentials eingeben müssen. Es ist eine klassische OAuth2-Authentifizierung, mit der Sie Peakboard erlauben, auf Ihre Google-Analytics-Daten zuzugreifen. Sie können diese Erlaubnis jederzeit in Ihrem Google-Profil widerrufen. Nach erfolgreicher Verknüpfung lassen sich beliebig viele Reports erstellen. Die Verknüpfung muss nur einmal gemacht werden und bleibt dann bestehen.
 

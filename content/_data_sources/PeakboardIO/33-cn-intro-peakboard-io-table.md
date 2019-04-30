@@ -4,9 +4,9 @@ title: Peakboard.io表格
 menu_title: Peakboard.io表格
 description: Peakboard.io表格
 lang: cn
-ref: io-02
+ref: dat-33
 ---
-在 [Peakboard.io](https://peakboard.io) 门户中，您可以维护表格对象。这些表格可以像其他数据源一样包含在Designer中。请参见[本教程](/peakboardio//01-cn-intro-peakboard-io.html)中关于使用门户和API密钥访问Peboard.io对象的信息。
+在 [Peakboard.io](https://peakboard.io) 门户中，您可以维护表格对象。这些表格可以像其他数据源一样包含在Designer中。请参见[本教程](/data_sources/PeakboardIO/32-cn-intro-peakboard-io.html)中关于使用门户和API密钥访问Peboard.io对象的信息。
 
 如要使用Peakboard.io表格，请创建相应的数据源（您可能需要先输入用户名和API密钥）。像往常一样，它必须以唯一的名称命名。选择框会显示与指定API密钥（及其帐户）相关联的所有表格。“最大项目数”是可提取的最大行数。“重载间隔”指定检查数据实际情况频率的时间间隔（以秒为单位）。
 
