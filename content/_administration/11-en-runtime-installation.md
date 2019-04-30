@@ -29,7 +29,7 @@ To do this, you must first open PowerShell as an administrator:
 Now the following command must be executed in PowerShell (where the path and file name must be adjusted accordingly):
 
 ```
-Add-AppxPackage -Path "C:\Program Files\Peakboard\Designer\temporaryInstallFiles\PeakBoard.Runtime_1.0.20.7_x86_Preview.appx"
+Add-AppxPackage -Path "C:\Program Files\Peakboard\Designer\Runtime\Peakboard.Runtime.appx"
 ```
 
 For manual installation, please note that the last step to install the runtime must be done every time the Peakboard Designer is updated.
