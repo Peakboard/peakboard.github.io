@@ -1,0 +1,23 @@
+<link rel="stylesheet" type="text/css" href="/assets/cookieconsent.min.css" />
+<script src="/assets/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#4a5556"
+                },
+                "button": {
+                    "background": "#f68510",
+                    "text": "#000000"
+                }
+            },
+            "position": "bottom",
+            "content": {
+                "message": "{{ site.language[page.lang].cookie-alert-message }}",
+                "dismiss": "{{ site.language[page.lang].cookie-alert-button }}",
+                "link": "{{ site.language[page.lang].cookie-alert-link-text }}",
+                "href": "{{ site.language[page.lang].cookie-alert-link }}"
+            }
+        })});
+</script>

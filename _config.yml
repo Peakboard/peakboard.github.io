@@ -11,6 +11,8 @@ languageNames:
   de: Deutsch
   en: English
   cn: Chinese
+# Analytics
+gtm: "GTM-P8XSNDC"
 # Build settings
 markdown: kramdown
 theme: minima
@@ -135,6 +137,10 @@ language:
     search-no-results: "We didn't find any results for the search: "
     search-bar-placeholder: "Search..."
     top-menu-menu: "Menu"
+    cookie-alert-message: "This website uses cookies to ensure you get the best experience on our website."
+    cookie-alert-button: "OK"
+    cookie-alert-link-text: "Read more"
+    cookie-alert-link: "https://peakboard.com/en/privacy-policy/"
   de:
     footer-support: "Support"
     footer-support-tel: "Tel:"
@@ -148,6 +154,10 @@ language:
     search-no-results: "Wir haben leider nichts gefunden: "
     search-bar-placeholder: "Suchen..."
     top-menu-menu: "Menu"
+    cookie-alert-message: "Um sicherzustellen, dass Sie das beste Nutzungserlebnis auf unserer Webseite erfahren, werden Cookies verwendet."
+    cookie-alert-button: "OK"
+    cookie-alert-link-text: "Mehr erfahren"
+    cookie-alert-link: "https://peakboard.com/datenschutzerklaerung/"
   cn:
     footer-support: "技术支持"
     footer-support-tel: "电话："
@@ -161,6 +171,10 @@ language:
     search-no-results: "我们没有找到该搜索的结果： "
     search-bar-placeholder: "搜索..."
     top-menu-menu: "Menu"
+    cookie-alert-message: "This website uses cookies to ensure you get the best experience on our website."
+    cookie-alert-button: "OK"
+    cookie-alert-link-text: "Read more"
+    cookie-alert-link: "https://peakboard.com/en/privacy-policy/"
 
 
 algolia:
