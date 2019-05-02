@@ -108,12 +108,12 @@ Mehr über das Webinterface erfahren Sie [hier](https://help.peakboard.com/misc/
 
 ### Einfacher Screen mit einem Eintrag
 
-Die Visualisierung mit nur [einem Eintrag](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online%20Single/Welcome_Screen_Online_Single.pbmx) bietet Ihnen die Möglichkeit einen allgemeinen Willkommenstext anzuzeigen oder einen speziellen für eine Person oder Firma. Die Texte die angezeigt werden, werden über das Peakboard Webinterface eingerichtet. Dieses Webinterface ist eine Webseite welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. Über die Listen 'background', 'logo' und 'text_labels' können sie die Optik der Visualisierung beeinflussen, dies wird in der initialen Konfiguration bereits beschrieben.
+Die Visualisierung mit nur [einem Eintrag](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online%20Single/Welcome_Screen_Online_Single.pbmx) bietet Ihnen die Möglichkeit einen allgemeinen Willkommenstext anzuzeigen oder einen speziellen für eine Person oder Firma. Die Texte die angezeigt werden, werden über das Peakboard Webinterface verwaltet. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. Über die Listen 'background', 'logo' und 'text_labels' können sie die Optik der Visualisierung beeinflussen, dies wird in der initialen Konfiguration bereits beschrieben.
 
 (SCREENSHOT OF WEBINTERFACE)
 
 Unter der Liste 'visitor' können Sie unter 'Name' einen Namen eines Besuchers eintragen. Ist dieser Eintrag leer, wird automatische der allgemeine Begrüßungstext aus der Liste 'text_labels' verwendet.
-In der Liste 'visitor' können Sie noch weitere Angaben zum Besucher machen, Sie können einen Raum angeben, einen Ansprechpartner, eine Uhrzeit und den Firmennamen. Lassen Sie ein Textfeld frei, wird an dieser Stelle einfach nichts angezeigt.
+In der Liste 'visitor' können Sie noch weitere Angaben zum Besucher machen, Sie können einen Raum angeben, einen Ansprechpartner, eine Uhrzeit und den Firmennamen. Lassen Sie ein Textfeld leer, wird an dieser Stelle einfach nichts angezeigt.
 
 (SCREENSHOT OF APPOINTMENTS TABLE)
 
@@ -143,10 +143,14 @@ Aktuell unterstützt Peakboard Microsoft Office 365 Konten und moderne On-Premis
 
 ## Image Credits
 
-These are a link to the images we used in the background for our boards. https://unsplash.com/ is a pretty interesting project which provides a lot of open source, free-to-use high quality images.
+Here are the links to the images we used in the background of our visualizations. https://unsplash.com/ is a pretty interesting project which provides a lot of open source, free-to-use high quality images.
 
-https://unsplash.com/photos/ib7jwp7m0iA
-https://unsplash.com/photos/io7dX_1EFCg
-https://unsplash.com/photos/wSTCaQpiLtc
-https://unsplash.com/photos/OKjSh2rucAQ
-https://unsplash.com/photos/hsPFuudRg5I
+-   https://unsplash.com/photos/ib7jwp7m0iA
+-   https://unsplash.com/photos/io7dX_1EFCg
+-   https://unsplash.com/photos/wSTCaQpiLtc
+-   https://unsplash.com/photos/OKjSh2rucAQ
+-   https://unsplash.com/photos/hsPFuudRg5I
+
+# Kontakt
+
+Wenn Sie weitere Fragen oder Anregungen haben, zögern Sie nicht mit uns in Kontakt zu treten. Am besten an unsere E-Mail Adresse: hello@peakboard.com / info@peakboard.com
