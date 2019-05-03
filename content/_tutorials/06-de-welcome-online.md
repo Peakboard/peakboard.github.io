@@ -143,13 +143,7 @@ Aktuell unterstützt Peakboard Microsoft Office 365 Konten und moderne On-Premis
 
 ## Image Credits
 
-Here are the links to the images we used in the background of our visualizations. https://unsplash.com/ is a pretty interesting project which provides a lot of open source, free-to-use high quality images.
-
--   https://unsplash.com/photos/ib7jwp7m0iA
--   https://unsplash.com/photos/io7dX_1EFCg
--   https://unsplash.com/photos/wSTCaQpiLtc
--   https://unsplash.com/photos/OKjSh2rucAQ
--   https://unsplash.com/photos/hsPFuudRg5I
+Dies sind die Links zu den Bildern welche für den Hintergrund der Visualisierung verwendet wurden. https://unsplash.com/ ist ein sehr interessantes Projekt, welches eine vielzahl frei verwendbarer Bilder in hoher Qualität bietet. /photos/ib7jwp7m0iA, /photos/io7dX_1EFCg, /photos/wSTCaQpiLtc, /OKjSh2rucAQ, /photos/hsPFuudRg5I.
 
 # Kontakt
 
