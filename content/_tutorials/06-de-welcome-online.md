@@ -97,9 +97,9 @@ Alternativ können auch Webseiten bzw. Webressourcen als Hintergrund eingebunden
 ### Ausgangstexte definieren
 
 Die Visualierung kommt mit vorgefertigten Texten für die Situation, dass kein Termin vorhanden ist.
-Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Die können Sie direkt im Peakboard Designer vornehmen oder über das Webinterface, wenn Sie bereits eine Box besitzen. Dieses Webinterface ist eine Webseite welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. In der Variablenliste 'text_labels' können Sie alle angezeigten Ausgangstexte verändern.
+Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Die können Sie direkt im Peakboard Designer vornehmen oder über das Webinterface, wenn Sie bereits eine Box besitzen. Dieses Webinterface ist eine Webseite welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung und auf der rechten Seite verschiedene Variablenlisten welche Sie nun verändern können. In der Variablenliste 'text_labels' können Sie alle angezeigten Ausgangstexte verändern.
 
-![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview.png)
+![image_live](/assets/images/instant_boards/welcome/Webinterface_TextLabels.png)
 
 ## Termine verwalten
 
@@ -110,12 +110,12 @@ Mehr über das Webinterface erfahren Sie [hier](https://help.peakboard.com/misc/
 
 Die Visualisierung mit nur [einem Eintrag](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online%20Single/Welcome_Screen_Online_Single.pbmx) bietet Ihnen die Möglichkeit einen allgemeinen Willkommenstext anzuzeigen oder einen speziellen für eine Person oder Firma. Die Texte die angezeigt werden, werden über das Peakboard Webinterface verwaltet. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. Über die Listen 'background', 'logo' und 'text_labels' können sie die Optik der Visualisierung beeinflussen, dies wird in der initialen Konfiguration bereits beschrieben.
 
-![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview.png)
+![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview_Single.png)
 
 Unter der Liste 'visitor' können Sie unter 'Name' einen Namen eines Besuchers eintragen. Ist dieser Eintrag leer, wird automatische der allgemeine Begrüßungstext aus der Liste 'text_labels' verwendet.
 In der Liste 'visitor' können Sie noch weitere Angaben zum Besucher machen, Sie können einen Raum angeben, einen Ansprechpartner, eine Uhrzeit und den Firmennamen. Lassen Sie ein Textfeld leer, wird an dieser Stelle einfach nichts angezeigt.
 
-![image_live](/assets/images/instant_boards/welcome/Webinterface_Appointment_Table.png)
+![image_live](/assets/images/instant_boards/welcome/Webinterface_Appointment_Table_Single.png)
 
 ### Mehrfache Termine mit Tabelle
 
@@ -135,16 +135,18 @@ Um die [Visualisierung mit Kalenderanbindung](https://github.com/Peakboard/CoolS
 
 Öffnen Sie dazu die Visualisierungsdatei mit dem Peakboard Designer. Nun können Sie in der linken Sidebar die Kalenderdatenquelle öffnen (Visualisierung -> Daten -> Calendar). Unter dem zweiten Punkt 'Autorisierungsstatus' müssen Sie nun über den Button 'Autorisieren' eine Freigabe für Ihren Kalender einrichten. Führen Sie dazu die Schritte der Windowsanmeldung aus und erlauben Sie Peakboard Zugriff auf den Kalender. Ist die Autorisierung erteilt können Sie den Dialog mit OK schließen, die Visualisierung speichern und auf Ihre Peakboard Box laden.
 
-(SCREENSHOT DESIGNER CALENDER DATA SOURCE)
+![image_live](/assets/images/instant_boards/welcome/activate_office365-calendar.gif)
 
 Anschließend werden immer automatisch alle aktuellen Termine aus dem angegeben Microsoft Kalender geholt und bis zu drei angezeigt. Das bedeutet Sie können einfach wie gewohnt die Termine in Ihrem Kalender verwalten und Peakboard holt sich automatisch die relevanten Termine und stellt sie dar. Wenn kein weiterer Termin für den heutigen Tag vorhanden ist wird der allgemeine Begrüßungstext aus der Liste 'text_labels' verwendet.
 
 Aktuell unterstützt Peakboard Microsoft Office 365 Konten und moderne On-Premise-Exchange-Server die Microsoft Graph unterstützen. Fragen Sie am besten Ihren Admin.
 
+# Jetzt kostenlos starten!
+
+Legen Sie am besten direkt los und laden Sie sich den [Peakboard Designer](https://peakboard.rocks/designer) kostenlos herunter.
+
+Wenn Sie weitere Fragen oder Anregungen haben, zögern Sie nicht mit uns in Kontakt zu treten. Am besten an unsere E-Mail Adresse: hello@peakboard.com / info@peakboard.com
+
 ## Bildnachweis
 
 Dies sind die Links zu den Bildern welche für den Hintergrund der Visualisierung verwendet wurden. https://unsplash.com/ ist ein sehr interessantes Projekt, welches eine vielzahl frei verwendbarer Bilder in hoher Qualität bietet. /photos/ib7jwp7m0iA, /photos/io7dX_1EFCg, /photos/wSTCaQpiLtc, /OKjSh2rucAQ, /photos/hsPFuudRg5I.
-
-# Kontakt
-
-Wenn Sie weitere Fragen oder Anregungen haben, zögern Sie nicht mit uns in Kontakt zu treten. Am besten an unsere E-Mail Adresse: hello@peakboard.com / info@peakboard.com
