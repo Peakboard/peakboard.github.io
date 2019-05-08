@@ -80,9 +80,11 @@ Um das Peakboard Logo durch Ihr gewünschtes Firmenlogo zu ersetzen, benötigen 
 
 Alternativ können Sie auch ein Logo als externe Bildquelle einbinden. Dafür können Sie die Variable 'logo' öffnen und in der Tabelle unter dem Eintrag 'URL' einen Link zu einer Bilddatei im Internet angeben. Dies ist direkt im Peakboard Designer möglich oder, wenn Sie bereits eine Box besitzen, noch einfacher über das Peakboard Webinterface.
 
-(SCREENSHOT OF MANAGE DIALOG, ICON fehlt noch!)
+Dieses Webinterface ist eine Webseite, welche Sie aufrufen können, indem Sie im Peakboard Designer im 'Startseite' Tab auf 'Verwalten / Hochladen' klicken. Im Dialog wählen Sie die gewünschte Box aus (Sie müssen die Visualisierung bereits auf eine Box geladen haben). Klicken Sie nun auf den Button 'Webinterface'.
 
-Dieses Webinterface ist eine Webseite, welche Sie aufrufen können, indem Sie im Peakboard Designer im 'Startseite' Tab auf 'Verwalten / Hochladen' klicken. Im Dialog wählen Sie die gewünschte Box aus (Sie müssen die Visualisierung bereits auf eine Box geladen haben). Klicken Sie nun auf den Button 'Webinterface'. Alternativ können Sie das Webinterface auch direkt in Ihrem Browser mit der URL: http://NameIhrerBox:40404 aufrufen. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten, welche Sie nun verändern können. Hier können Sie nun in der Variablenliste 'logo' eine 'URL' zu einer Webressource hinzufügen und über weitere Paremeter die Position und Größe beeinflussen.
+![image_live](/assets/images/instant_boards/welcome/Manage_Dialog_Webinterface_Button.png)
+
+Alternativ können Sie das Webinterface auch direkt in Ihrem Browser mit der URL: http://NameIhrerBox:40404 aufrufen. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten, welche Sie nun verändern können. Hier können Sie nun in der Variablenliste 'logo' eine 'URL' zu einer Webressource hinzufügen und über weitere Paremeter die Position und Größe beeinflussen.
 
 ![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview.png)
 
@@ -101,10 +103,17 @@ Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Die kö
 
 ![image_live](/assets/images/instant_boards/welcome/Webinterface_TextLabels.png)
 
+Das wars, Sie haben Ihre Visualisierung auf Ihre Bedürfnisse angepasst. Nun müssen Sie die Visualisierung noch auf Ihre Peakboard Box hochladen. Dazu gehen Sie im Menüband oben unter dem Tab 'Startseite' auf den Punkt 'Verwalten / Hochladen'. Im anschließenden Dialog wählen Sie Ihre Box und klicken  auf 'Hochladen'. Nun wird die Visualisierung auf Ihre Box geladen, nach kurzer Zeit sollte die Visualisierung, auf dem an der Peakboard Box angeschlossenen Bildschirm, sichtbar werden. Wenn Sie mit dem Ergebnis zufrieden sind, können Sie sich anschließend auf die Terminverwaltung konzentrieren.  Falls Sie Ihre Peakboard Box noch nicht verbunden haben, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). 
+
 ## Termine verwalten
 
 Anders als die initiale Konfiguration ist die Terminverwaltung ein kontinuierlicher Prozess. Daher sollte dieser Vorgang Ihren Anforderungen entsprechen. Je nach Datenquelle können Termine unterschiedlich verwaltet werden. Dies geht indem Sie einen Microsoft Kalender einbinden oder mit Tabellen, über das Peakboard Webinterface, direkt auf Ihrer Box. Überlegen Sie sich, welche Art von Datenhaltung für Sie die geeignete ist.
 Mehr über das Webinterface erfahren Sie [hier](https://help.peakboard.com/misc/11-de-web.html).
+
+Lesen Sie die Anleitung zu Ihrer verwendeten Template-Variante:
+- [Einfacher Screen mit einem Eintrag](#Einfacher-Screen-mit-einem-Eintrag)
+- [Mehrfache Termine mit Tabelle](#Mehrfache-Termine-mit-Tabelle)
+- [Office Kalenderanbindung](#Office-Kalenderanbindung)
 
 ### Einfacher Screen mit einem Eintrag
 
@@ -133,7 +142,7 @@ Ist kein weiterer Termin für den heutigen Tag vorhanden, wird der allgemeine Be
 
 Um die [Visualisierung mit Kalenderanbindung](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar/Welcome_Screen_Calendar.pbmx) nutzen zu können, müssen Sie sich mit Ihrem privaten – oder noch besser einem geteilten – Kalender Account in Ihr Microsoft Konto anmelden und eine Freigabe für die nötigen Information für Peakboard freischalten.
 
-Öffnen Sie dazu die Visualisierungsdatei mit dem Peakboard Designer. Nun können Sie in der linken Sidebar die Kalenderdatenquelle öffnen (Visualisierung -> Daten -> Calendar). Unter dem zweiten Punkt 'Autorisierungsstatus' müssen Sie nun über den Button 'Autorisieren' eine Freigabe für Ihren Kalender einrichten. Führen Sie dazu die Schritte der Windowsanmeldung aus und erlauben Sie Peakboard Zugriff auf den Kalender. Ist die Autorisierung erteilt können Sie den Dialog mit OK schließen, die Visualisierung speichern und auf Ihre Peakboard Box laden.
+Öffnen Sie dazu die Visualisierungsdatei mit dem Peakboard Designer. Nun können Sie in der linken Sidebar die Kalenderdatenquelle öffnen (Visualisierung -> Daten -> Calendar). Unter dem zweiten Punkt 'Autorisierungsstatus' müssen Sie nun über den Button 'Autorisieren' eine Freigabe für Ihren Kalender einrichten. Führen Sie dazu die Schritte der Windowsanmeldung aus und erlauben Sie Peakboard Zugriff auf den Kalender. Ist die Autorisierung erteilt können Sie den Dialog mit OK schließen, die Visualisierung speichern. Nun laden Sie die aktuelle Visualisierung auf Ihre Peakboard Box hoch.
 
 ![image_live](/assets/images/instant_boards/welcome/activate_office365-calendar.gif)
 
