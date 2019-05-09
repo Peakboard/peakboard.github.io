@@ -8,9 +8,7 @@ ref: dat-22
 redirect_from: /en/datasources-mqtt-broker/
 ---
 
-OPC-UA数据源无缝配合机器通信的一系列数据源，并可直接访问西门子S7、MQTT或Azure IoT中心。在这里描述的示例中，Peakboard代表连接到OPC服务器的OPC客户端。本文中的示例可以使用通用OPC UA服务器轻松再现，您可以注册后从opcfoundation.org下载：
-
-[https://opcfoundation.org/developer-tools/developer-kits-unified-architecture/sample-applications/](https://opcfoundation.org/developer-tools/developer-kits-unified-architecture/sample-applications/)
+OPC-UA数据源无缝配合机器通信的一系列数据源，并可直接访问西门子S7、MQTT或Azure IoT中心。在这里描述的示例中，Peakboard代表连接到OPC服务器的OPC客户端。本文中的示例可以使用通用OPC UA服务器轻松再现，您可以注册后从[opcfoundation.org](https://opcfoundation.org/developer-tools/developer-kits-unified-architecture/sample-applications/)下载。
 
 一旦启动仪表板，您将在左侧“通用服务器”条目找到通用服务器。可以直接从此处开始操作。当然，这仅为干测试所必需。如果您的网络中有一台真正的OPC UA服务器，您也可以在第一步就进行使用。然而，理想情况下，您应该熟悉OPC UA，尤其是您的OPC服务器。
 
@@ -35,7 +33,6 @@ OPC-UA数据源无缝配合机器通信的一系列数据源，并可直接访�
 第二种也是更常见的方法是对事件中传入的数据做出反应。每个订阅有一个事件。下面的截图展示了一个常见的模式。根据项目值的设置方式，将消息存储在一个或另一个表中以供进一步处理。方块（名为“状态”）根据值设置为绿色或红色。对象“消息”在脚本中有三个属性：message.timestamp是时间戳，message.itemvalue是值，message.item是项的名称。
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
-
 
 ```Lua
 

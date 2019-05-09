@@ -8,9 +8,7 @@ ref: dat-22
 redirect_from: /en/datasources-mqtt-broker/
 ---
 
-The OPC-UA data source fits seamlessly into the series of data sources for machine communication, as well as direct access to the Siemens S7, MQTT or the Azure IoT Hub. In the case described here, Peakboard represents an OPC client that connects to an OPC server. The example in this article can be easily reproduced with the generic OPC UA server, which you can download from opcfoundation.org after registration:
-
-[https://opcfoundation.org/developer-tools/developer-kits-unified-architecture/sample-applications/](https://opcfoundation.org/developer-tools/developer-kits-unified-architecture/sample-applications/)
+The OPC-UA data source fits seamlessly into the series of data sources for machine communication, as well as direct access to the Siemens S7, MQTT or the Azure IoT Hub. In the case described here, Peakboard represents an OPC client that connects to an OPC server. The example in this article can be easily reproduced with the generic OPC UA server, which you can download from [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture/) after registration.
 
 Once the dashboard has been started, you will find the generic server as entry “Generic Server” on the left side. It can be started there directly. Of course, this is only necessary for a dry test. If you have a real OPC UA server in your network, you can also use it for the first steps. Ideally, however, you should be familiar with OPC UA in general and your OPC server in particular.
 
@@ -36,9 +34,7 @@ The second and more common way is to react to incoming data in an event. There i
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
 
-
 ```Lua
-
 	data.itemnumber = 1 + data.itemnumber
 
 	if message.itemvalue then
@@ -52,7 +48,6 @@ The second and more common way is to react to incoming data in an event. There i
 	if data.itemnumber == 10000 then
 		data.itemnumber = 0
 	end
-
 ```
 
-You can also find the sample board for the example server of opcfoundation. org in our Github-Respository: https://github.com/Peakboard/CoolStuff
+You can also find the sample board for the example server of opcfoundation.org in our [Github-Respository](https://github.com/Peakboard/CoolStuff).
