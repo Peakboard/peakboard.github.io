@@ -74,11 +74,11 @@ Gehen Sie nun zurück in den Peakboard Designer und wählen sie das Control 'Web
 
 In der weiteren Sidebar auf der rechten Seite finden Sie nun einige Parameter zu diesem Element. Klicken Sie auf den '...' Button im Punkt 'HTML-Code' (2). In dem geöffneten Fenster können sie nun den bestehenden Code durch Ihren erstellten Code ersetzen (3). Fügen Sie dort Ihr erstelltes Widget ein und klicken Sie auf den OK-Button.
 
-![image_live](/assets/images/instant_boards/welcome/web-widget-code.png)
+![image_live](/assets/images/instant_boards/welcome/web_widget_code.png)
 
 ### Logo aktualisieren
 
-Um das Peakboard Logo durch Ihr gewünschtes Firmenlogo zu ersetzen, benötigen Sie eine Bilddatei. Es werden unterschiedliche Formate unterstützt (PNG, JPG). Ziehen Sie einfach die gewünschte Bilddatei per Drag&Drop auf den Designer. Anschließend finden Sie die Bilddatei in der Sidebar unter dem Punkt 'Ressourcen'. Ziehen Sie nun diese Bilddatei auf das aktuelle Logo, so können Sie es überschreiben. Anschließend können Sie noch Anpassungen machen, um Größe und Position zu optimieren.
+Um das Peakboard Logo durch Ihr gewünschtes Firmenlogo zu ersetzen, benötigen Sie eine Bilddatei. Es werden unterschiedliche Formate unterstützt (PNG, JPG). Ziehen Sie einfach die gewünschte Bilddatei per Drag&Drop auf die linke Sidebar des Peakboard Designers. Anschließend finden Sie die Bilddatei in der Sidebar unter dem Punkt 'Ressourcen'. Ziehen Sie nun diese Bilddatei auf das aktuelle Logo, so können Sie es überschreiben. Anschließend können Sie noch Anpassungen machen, um Größe und Position zu optimieren.
 
 ![image_live](/assets/images/instant_boards/welcome/update_logo.gif)
 
@@ -92,7 +92,7 @@ Alternativ können Sie das Webinterface auch direkt in Ihrem Browser mit der URL
 
 ![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview.png)
 
-Mehr über das Webinterface können Sie [hier](https://help.peakboard.com/misc/11-de-web.html) erfahren.
+Mehr über das Webinterface können Sie [hier](https://peakboard.rocks/webinterface) erfahren.
 
 ### Hintergrund definieren
 
@@ -103,7 +103,7 @@ Alternativ können auch Webseiten bzw. Webressourcen als Hintergrund eingebunden
 ### Ausgangstexte definieren
 
 Die Visualierung kommt mit vorgefertigten Texten für die Situation, dass kein Termin vorhanden ist.
-Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Die können Sie direkt im Peakboard Designer vornehmen oder über das Webinterface, wenn Sie bereits eine Box besitzen. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung und auf der rechten Seite verschiedene Variablenlisten welche Sie nun verändern können. In der Variablenliste 'text_labels' können Sie alle angezeigten Ausgangstexte verändern. Ändern Sie zum Beispiel den Begrüßungstext (2). Mit dem Refresh-Button können Sie einen neuen Screenshot Ihrer Visualisierung laden (3).
+Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Diese Änderungen können Sie direkt im Peakboard Designer vornehmen indem Sie auf mit Doppelklick die Liste öffnen und im anschließenden Dialog auf 'Bearbeiten' klicken. Alternativ können Sie dafür das Webinterface verwenden, wenn Sie bereits eine Box besitzen. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung und auf der rechten Seite verschiedene Variablenlisten welche Sie nun verändern können. In der Variablenliste 'text_labels' können Sie alle angezeigten Ausgangstexte verändern. Ändern Sie zum Beispiel den Begrüßungstext (2). Mit dem Refresh-Button können Sie einen neuen Screenshot Ihrer Visualisierung laden (3).
 
 ![image_live](/assets/images/instant_boards/welcome/Webinterface_Appointment_TextLabels.png)
 
@@ -111,8 +111,8 @@ Das wars, Sie haben Ihre Visualisierung auf Ihre Bedürfnisse angepasst. Nun mü
 
 ## Termine verwalten
 
-Anders als die initiale Konfiguration ist die Terminverwaltung ein kontinuierlicher Prozess. Daher sollte dieser Vorgang Ihren Anforderungen entsprechen. Je nach Datenquelle können Termine unterschiedlich verwaltet werden. Dies geht indem Sie einen Microsoft Kalender einbinden oder mit Tabellen, über das Peakboard Webinterface, direkt auf Ihrer Box. Überlegen Sie sich, welche Art von Datenhaltung für Sie die geeignete ist.
-Mehr über das Webinterface erfahren Sie [hier](https://help.peakboard.com/misc/11-de-web.html).
+Anders als die initiale Konfiguration ist die Terminverwaltung ein kontinuierlicher Prozess. Daher sollte dieser Vorgang Ihren Anforderungen entsprechen. Je nach Datenquelle können Termine unterschiedlich verwaltet werden. Dies geht, indem Sie einen Microsoft Kalender verknüpfen oder mit Tabellen, über das Peakboard Webinterface, direkt auf Ihrer Box. 
+Mehr über das Webinterface erfahren Sie [hier](https://peakboard.rocks/webinterface). Alternativ zum Webinterface können Sie auch die [Peakboard App](https://peakboard.rocks/apps) verwenden.
 
 Lesen Sie die Anleitung zu Ihrer verwendeten Template-Variante:
 - [Einfacher Screen mit einem Eintrag](#Einfacher-Screen-mit-einem-Eintrag)
@@ -132,7 +132,7 @@ In der Liste 'visitor' können Sie noch weitere Angaben zum Besucher machen. Sie
 
 ### Mehrfache Termine mit Tabelle
 
-Die Visualiserung mit [mehreren Terminen verwaltet in einer Tabelle](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online/Welcome_Screen_Online.pbmx), bietet Ihnen die Möglichkeit einen allgemeinen Begrüßungstext anzuzeigen oder ein bis drei Termine. Die Termine die angezeigt werden, werden über das Peakboard Webinterface verwaltet. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. Über die Listen 'background', 'logo' und 'text_labels' können sie die Optik der Visualisierung beeinflussen, dies wird in der initialen Konfiguration bereits beschrieben.
+Die Visualisierung von [mehreren Terminen mit Tabellenverwaltung](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Online/Welcome_Screen_Online.pbmx), bietet Ihnen die Möglichkeit einen allgemeinen Begrüßungstext anzuzeigen oder ein bis drei Termine. Die Termine die angezeigt werden, werden über das Peakboard Webinterface verwaltet. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten welche Sie nun verändern können. Über die Listen 'background', 'logo' und 'text_labels' können sie die Optik der Visualisierung beeinflussen, dies wird in der initialen Konfiguration bereits beschrieben.
 
 ![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview.png)
 
