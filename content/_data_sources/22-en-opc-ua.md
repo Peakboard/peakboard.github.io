@@ -8,7 +8,7 @@ ref: dat-22
 redirect_from: /en/datasources-mqtt-broker/
 ---
 
-The OPC-UA data source fits seamlessly into the series of data sources for machine communication, as well as direct access to the Siemens S7, MQTT or the Azure IoT Hub. In the case described here, Peakboard represents an OPC client that connects to an OPC server. The example in this article can be easily reproduced with the generic OPC UA server, which you can download from [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture/) after registration.
+The OPC-UA data source fits seamlessly into the series of data sources for machine communication, as well as direct access to the Siemens S7, MQTT or the Azure IoT Hub. In the case described here, Peakboard represents an OPC client that connects to an OPC server. The example in this article can be easily reproduced with the generic OPC UA server, which you can download from [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture) after registration.
 
 Once the dashboard has been started, you will find the generic server as entry “Generic Server” on the left side. It can be started there directly. Of course, this is only necessary for a dry test. If you have a real OPC UA server in your network, you can also use it for the first steps. Ideally, however, you should be familiar with OPC UA in general and your OPC server in particular.
 

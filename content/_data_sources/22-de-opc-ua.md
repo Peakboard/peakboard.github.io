@@ -8,7 +8,7 @@ ref: dat-22
 redirect_from: /datenquellen-opc-ua/
 ---
 
-So wie auch der direkte Zugriff auf die Siemens S7, MQTT oder den Azure IoT Hub, fügt sich die OPC UA Datenquelle nahtlos in die Sammlung der Maschinendatenanbindungen ein. Im hier beschriebenen Fall stellt Peakboard einen OPC-Client dar, der sich auf einen OPC-Server verbindet. Das Beispiel in diesem Artikel kann einfach mit dem generischen OPC-UA-Server nachvollzogen werden, den Sie auf [opcfoundation.org](https://opcfoundation.org/developer-tools/developer-kits-unified-architecture/sample-applications/) nach der Registrierung herunterladen können.
+So wie auch der direkte Zugriff auf die Siemens S7, MQTT oder den Azure IoT Hub, fügt sich die OPC UA Datenquelle nahtlos in die Sammlung der Maschinendatenanbindungen ein. Im hier beschriebenen Fall stellt Peakboard einen OPC-Client dar, der sich auf einen OPC-Server verbindet. Das Beispiel in diesem Artikel kann einfach mit dem generischen OPC-UA-Server nachvollzogen werden, den Sie auf [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture) nach der Registrierung herunterladen können.
 
 Ist das Dashboard einmal gestartet, finden Sie den generischen Server als Eintrag „Generic Server“ auf der linken Seite. Er kann dort direkt gestartet werden. Das ist natürlich nur für einen Test „im Trockenen“ nötig. Falls Sie einen echten OPC-UA-Server in Ihrem Netzwerk haben, können Sie auch diesen für die ersten Schritte nehmen. Idealerweise sind Sie dafür aber sowohl mit OPC UA im Allgemeinen als auch mit Ihrem OPC UA-Server im Speziellen entsprechend vertraut.
 
