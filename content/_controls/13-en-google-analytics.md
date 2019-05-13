@@ -7,7 +7,7 @@ lang: en
 ref: con-13
 ---
 
-A Peakboard.io account is mandatory for creating Google Analytics Reports. The GA report is defined in the [Peakboard.io portal](/peakboardio/01-en-intro-peakboard-io.html) and then embedded in the designer using the corresponding control.
+A Peakboard.io account is mandatory for creating Google Analytics Reports. The GA report is defined in the [Peakboard.io portal](/data_sources/PeakboardIO/32-en-intro-peakboard-io.html) and then embedded in the designer using the corresponding control.
 
 In the Peakboard.io portal go to “GA Charts” in the menu. If you have not yet linked your account to the Google Account, please click on the appropriate button (see next screenshot). The Goolge login screen will open, in which you must enter your credentials. It is a classic OAuth2 authentication that allows Peakboard to access your Google Analytics data. You can revoke this permission at any time in your Google profile. After successful linking, any number of reports can be created. The link only needs to be made once and then remains.
 
