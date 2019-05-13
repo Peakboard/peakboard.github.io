@@ -15,3 +15,4 @@ Nachfolgendes Skript-Beispiel erlaubt es, Werte nach Excel zu schreiben. Mit Hil
 Data.MyOdbcExcelDatasource.ExecuteNonQuery('INSERT INTO [MyTable$] (Col1, [Col 2], [Col 3]) VALUES (15, 25, 35)')
 Data.MyOdbcExcelDatasource.Reload()
 ```
+Dieses Beispiel findet sich im Peakboard Designer unter Templates -> Scripting, oder kann über diesen [Link](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/WritetoExcel/WritetoExcel.pbmx) heruntergeladen werden.
