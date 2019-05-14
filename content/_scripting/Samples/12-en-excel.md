@@ -15,3 +15,5 @@ The following script example allows to write values to Excel. With the help of a
 Data.MyOdbcExcelDatasource.ExecuteNonQuery('INSERT INTO [MyTable$] (Col1, [Col 2], [Col 3]) VALUES (15, 25, 35)')
 Data.MyOdbcExcelDatasource.Reload()
 ```
+
+This example can be found in the Peakboard Designer under Templates -> Scripting, or can be downloaded via this [Link](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/WritetoExcel/WritetoExcel.pbmx).

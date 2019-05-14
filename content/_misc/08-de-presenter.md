@@ -15,7 +15,11 @@ Hierbei ist der Eintrag 0 gleichbedeutend einer unendlichen Anzeigedauer. Es erf
 ![Bildschirmdauer](/assets/images/misc/Presenter/screenduration.png)
 
 Um ähnlich wie in einer Präsentation durch die angelegten Screens zu schalten, kann ein handelsüblicher Presenter verwendet werden. Der USB-Dongle wird dazu einfach in den USB-Slot der Peakboard-Box gesteckt.
-Anschließend wird in der Visualisierung ein globales Skript mit nachfolgendem Inhalt angelegt. 
+Anschließend wird mit Hilfe des Designers in der Visualisierung ein globales Event erstellt. 
+
+![Skript auswahl](/assets/images/misc/Presenter/img2.png)
+
+Über Rechtsklick erscheint ein Menü mit verfügbaren Events. Hier wird das KeyPressed Event ausgewählt und anschließend ein Skript mit nachfolgendem Inhalt angelegt. 
 
 ```
 -- Change Screen with Presenter
