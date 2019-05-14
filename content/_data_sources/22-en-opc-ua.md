@@ -8,7 +8,7 @@ ref: dat-22
 redirect_from: /en/datasources-mqtt-broker/
 ---
 
-The OPC-UA data source fits seamlessly into the series of data sources for machine communication, as well as direct access to the Siemens S7, MQTT or the Azure IoT Hub. In the case described here, Peakboard represents an OPC client that connects to an OPC server. The example in this article can be easily reproduced with the generic OPC UA server, which you can download from [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture) after registration.
+The OPC UA data source fits seamlessly into the series of data sources for machine communication, as well as direct access to the Siemens S7, MQTT or the Azure IoT Hub. In the case described here, Peakboard represents an OPC UA client that connects to an OPC UA server. The example in this article can be easily reproduced with the generic OPC UA server, which you can download from [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture) after registration.
 
 Once the dashboard has been started, you will find the generic server as entry “Generic Server” on the left side. It can be started there directly. Of course, this is only necessary for a dry test. If you have a real OPC UA server in your network, you can also use it for the first steps. Ideally, however, you should be familiar with OPC UA in general and your OPC server in particular.
 
@@ -16,7 +16,7 @@ To start, enter the URL under which the server can be reached. Depending on the 
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-01.png)
 
-In the next step you can enter a username and password if the server requires it. The Session Name text box allows you to define the session ID as it appears on the server. If, for example, several different systems or Peakboard Boxes access an OPC server, you can use the session ID to trace exactly which system or box initiated the session. If you do not have a specific session name, leave the default value.
+In the next step you can enter a username and password if the server requires it. The Session Name text box allows you to define the session ID as it appears on the server. If, for example, several different systems or Peakboard Boxes access an OPC UA server, you can use the session ID to trace exactly which system or box initiated the session. If you do not have a specific session name, leave the default value.
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
 
@@ -24,11 +24,11 @@ The next step is to specify the certificate used to encrypt and/or sign the data
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
 
-Let’s get to the last configuration step. Each OPC-UA-Datasource can subscribe to any number of items, e. g. the state of all valves of a boiler. Several items can be added to a subscription. This makes sense if the items are treated similarly later in the visualization. For example, you could combine all inlet and outlet valves into one subscription, because in the event of an error, the same red light should always come on in the board, regardless of which of the valves is currently running on a fault. The following screenshot shows exactly one subscription with one item. An item is exactly defined by the item ID and the namespace URI. The ID can be invented freely and is only used to name an item. You must know the item ID and namespace URI for the desired item and server or you can use the browse button to get a model from the server that shows all items of the model hierarchically.
+Let’s get to the last configuration step. Each OPC UA-Datasource can subscribe to any number of items, e. g. the state of all valves of a boiler. Several items can be added to a subscription. This makes sense if the items are treated similarly later in the visualization. For example, you could combine all inlet and outlet valves into one subscription, because in the event of an error, the same red light should always come on in the board, regardless of which of the valves is currently running on a fault. The following screenshot shows exactly one subscription with one item. An item is exactly defined by the item ID and the namespace URI. The ID can be invented freely and is only used to name an item. You must know the item ID and namespace URI for the desired item and server or you can use the browse button to get a model from the server that shows all items of the model hierarchically.
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
 
-There are basically two ways of dealing with the incoming data. Like any other data source, the OPC-UA data source is simply a table in which the incoming messages of the items are appended; at least up to the queue size. The data is then removed from the table according to the FiFo principle and replaced with new data. To test a configuration, simply drag and drop the table onto the current screen. If everything is configured correctly, the table should be filled with data.
+There are basically two ways of dealing with the incoming data. Like any other data source, the OPC UA data source is simply a table in which the incoming messages of the items are appended; at least up to the queue size. The data is then removed from the table according to the FiFo principle and replaced with new data. To test a configuration, simply drag and drop the table onto the current screen. If everything is configured correctly, the table should be filled with data.
 
 The second and more common way is to react to incoming data in an event. There is one event per subscription. The following screenshot shows a common pattern. Depending on how the value of the item is set, the message is stored in one or the other table for further processing. A square (named “status”) is set to green or red, depending on the value. The object Message has three attributes in the script: message.timestamp is a timestamp, Message.itemvalue is the value and message.item is the name of the item.
 
