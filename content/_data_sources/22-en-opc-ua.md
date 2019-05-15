@@ -28,11 +28,13 @@ Let's move on to the final configuration step. After all, data should be receive
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
 
+Variant two for reading data from the server is a cyclic read operation in which a request is sent to the server as usual. The server then responds with the current record. What happens between the read cycles cannot be detected. The connection works analogous to the creation of subscriptions, with the difference that you get to the dialog for the variables with the button "Select". With the update interval you can determine how often the data should be requested.
+
+![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
+
 In principle, there are two ways of dealing with the incoming data. The OPC-UA data source, like any other data source, is simply a table in which the incoming messages of the items are appended; at least up to the queue size. The data is then removed from the table according to the FiFo principle and replaced with new data. To test a configuration, the table can simply be dragged and dropped onto the current screen. If everything is configured correctly, the table should fill with data.
 
 The second and more common way is to react to incoming data in a script. One script can be attached to each subscription. The same applies to the data set of variables that is created by the cyclic reading process. The following screenshot shows a common use case. Depending on how the value of the item is set, the message is stored in one or the other table for further processing. A square (called "status") is set to green or red depending on the value. In the case of subscriptions, please note that this script is always executed in the context of the variable that is currently receiving a new value. The information concerning this context can be found in the "Message" object. An overview of all data points of the object can be found in the script editor on subscription level in the tree on the left side. The new value can be retrieved with message.itemvalue and message.itemid the name with the path is available on the server.
-
-![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
 
 ```Lua
 	data.itemnumber = 1 + data.itemnumber
