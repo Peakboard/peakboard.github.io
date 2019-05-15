@@ -48,11 +48,9 @@ collections:
       Scripting:
         en: "Scripting"
         de: "Scripting"
-    sublevel:
       Peakboard IO:
         en: "PeakboardIO"
         de: "PeakboardIO"
-    sublevel:
       Komplexe Datenaggregation:
         en: "Complex Data Aggregation"
         de: "Komplexe Datenaggregation"
