@@ -4,6 +4,7 @@ title: Schreiben nach Excel
 menu_title: Schreiben nach Excel
 description: Schreiben nach Excel
 lang: de
+weight: 1200
 ref: scr-12
 ---
 

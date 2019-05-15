@@ -4,6 +4,7 @@ title: Wechseln der Visualisierung
 menu_title: Wechseln der Visualisierung
 description: Wechseln der Visualisierung
 lang: de
+weight: 800
 ref: admin-08
 ---
 

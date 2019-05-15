@@ -4,6 +4,7 @@ title: Lizenz ändern
 menu_title:  Lizenz ändern
 description:  Lizenz ändern
 lang: de
+weight: 500
 ref: admin-07
 ---
 

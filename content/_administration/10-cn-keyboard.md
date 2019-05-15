@@ -4,6 +4,7 @@ title: 更改键盘布局
 menu_title: 更改键盘布局
 description: 更改键盘布局
 lang: cn
+weight: 1000
 ref: admin-10
 ---
 

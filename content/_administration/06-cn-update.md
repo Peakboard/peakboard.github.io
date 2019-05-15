@@ -4,6 +4,7 @@ title: 更新Peakboard Box
 menu_title: 更新Peakboard Box
 description: 更新Peakboard Box
 lang: cn
+weight: 600
 ref: admin-06
 ---
 

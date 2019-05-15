@@ -4,6 +4,7 @@ title: Peakboard-Box mit WPA2-Enterprise WLAN verbinden
 menu_title: Peakboard-Box mit WPA2-Enterprise WLAN verbinden
 description: Peakboard-Box mit WPA2-Enterprise WLAN verbinden
 lang: de
+weight: 300
 ref: admin-03
 ---
 

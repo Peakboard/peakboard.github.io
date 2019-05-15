@@ -4,6 +4,7 @@ title: Setting up Wi-Fi
 menu_title: Setting up Wi-Fi
 description: Setting up Wi-Fi
 lang: en
+weight: 200
 ref: admin-02
 ---
 

@@ -4,6 +4,7 @@ title: 用户管理
 menu_title: 用户管理
 description: 用户管理
 lang: cn
+weight: 1300
 ref: admin-13
 ---
 

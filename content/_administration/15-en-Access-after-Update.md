@@ -4,6 +4,7 @@ title: Access to Peakboard via Peakboard Designer no longer possible after Windo
 menu_title: Access to Peakboard via Peakboard Designer no longer possible after Windows Update
 description: Access to Peakboard via Peakboard Designer no longer possible after Windows Update
 lang: en
+weight: 1500
 ref: admin-15
 ---
 

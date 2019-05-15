@@ -26,10 +26,13 @@
 
                 <ul class="accordian-inner border-b border-grey-light bg-white list-reset pr-4 pl-4 md:pl-16 w-full">
 
-                    {% for article in articles %}
+                    {% assign sorted_articles = (articles | sort: 'weight') %}
+                    {% for article in sorted_articles %}
                     {% assign parts = article.path | split: "/" %}
                     {% assign num_parts = article.path | split: "/" | size %}
                         {% if num_parts == 2 %}
+
+                    {{ article.weight }}
 
                     <li {% if forloop.first %} class="mt-3" {% endif %} {% if forloop.last %} class="mb-6" {% endif %}>
                         <a class="w-full block py-2 hover:text-orange text-black no-underline" href="{{ article.url | relative_url }}">
@@ -49,7 +52,8 @@
                         </p>
                         <ul class="sub_level_list list-reset pl-4">
 
-                            {% for art in all_articles %}
+                            {% assign sorted_sub_articles = (all_articles | sort: 'weight' ) %}
+                            {% for art in sorted_sub_articles %}
                             {% assign parts = art.path | split: "/" %}
                             {% assign num_parts = art.path | split: "/" | size %}
                             {% if num_parts == 3 and parts[1] == sub_level %}

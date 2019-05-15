@@ -4,6 +4,7 @@ title: Add a certificate
 menu_title: Add a certificate
 description: Add a certificate
 lang: en
+weight: 900
 ref: admin-09
 ---
 

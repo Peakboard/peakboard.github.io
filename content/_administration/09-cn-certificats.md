@@ -4,6 +4,7 @@ title: 添加证书
 menu_title: 添加证书
 description: 添加证书
 lang: cn
+weight: 900
 ref: admin-09
 ---
 

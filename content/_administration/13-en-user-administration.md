@@ -4,6 +4,7 @@ title: User administration
 menu_title: User administration
 description: User administration
 lang: en
+weight: 1300
 ref: admin-13
 ---
 

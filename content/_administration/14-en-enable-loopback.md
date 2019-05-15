@@ -4,6 +4,7 @@ title: Enable loopback for uwp app
 menu_title: Enable loopback
 description: Enable loopback for uwp app
 lang: en
+weight: 1400
 ref: admin-14
 ---
 

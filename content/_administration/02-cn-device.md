@@ -4,6 +4,7 @@ title: 设置Wi-Fi
 menu_title: 设置Wi-Fi
 description: 设置Wi-Fi
 lang: cn
+weight: 200
 ref: admin-02
 ---
 

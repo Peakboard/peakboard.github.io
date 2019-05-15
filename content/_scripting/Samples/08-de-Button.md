@@ -4,6 +4,7 @@ title: Button Script Beispiel
 menu_title: Button Script Beispiel
 description: Button Script Beispiel
 lang: de
+weight: 800
 ref: scr-08
 ---
 Unter dem Untermenü Input finden sich Controls, die die Möglichkeit bieten, mit der Peakboard Box zu interagieren.

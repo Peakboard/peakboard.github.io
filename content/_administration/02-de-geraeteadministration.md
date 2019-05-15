@@ -4,6 +4,7 @@ title: WLAN einrichten
 menu_title: WLAN einrichten
 description: WLAN einrichten
 lang: de
+weight: 200
 ref: admin-02
 ---
 

@@ -4,6 +4,7 @@ title: Installation der Peakboard-Runtime
 menu_title: Installation der Peakboard-Runtime
 description: Installation der Peakboard-Runtime
 lang: de
+weight: 1100
 ref: admin-11
 ---
 

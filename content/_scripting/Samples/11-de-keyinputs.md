@@ -4,6 +4,7 @@ title: Tastatureingabe Script Beispiel
 menu_title: Tastatureingabe Script Beispiel
 description: Tastatureingabe Script Beispiel
 lang: de
+weight: 1100
 ref: scr-11
 ---
 In diesem Scripting Beispiel wird erklärt, wie Tastaturbefehle genutzt werden können, um die Peakboard Box zu steuern.

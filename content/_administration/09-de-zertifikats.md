@@ -4,6 +4,7 @@ title: Hinzufügen eines Zertifikats
 menu_title: Hinzufügen eines Zertifikats
 description: Hinzufügen eines Zertifikats
 lang: de
+weight: 900
 ref: admin-09
 ---
 

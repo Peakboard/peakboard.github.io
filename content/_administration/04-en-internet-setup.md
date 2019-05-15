@@ -4,6 +4,7 @@ title: Setting up an Internet Connection With a Proxy Server
 menu_title: Setting up an Internet Connection With a Proxy Server
 description: Setting up an Internet Connection With a Proxy Server
 lang: en
+weight: 400
 ref: admin-04
 ---
 

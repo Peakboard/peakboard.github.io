@@ -4,6 +4,7 @@ title: Ändern des Keyboard-Layouts
 menu_title: Ändern des Keyboard-Layouts
 description: Ändern des Keyboard-Layouts
 lang: de
+weight: 1000
 ref: admin-10
 ---
 

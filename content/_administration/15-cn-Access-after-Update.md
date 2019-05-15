@@ -4,6 +4,7 @@ title: 在Windows更新后，无法再通过Peakboard Designer访问Peakboard
 menu_title: 在Windows更新后，无法再通过Peakboard Designer访问Peakboard
 description: 在Windows更新后，无法再通过Peakboard Designer访问Peakboard
 lang: cn
+weight: 1500
 ref: admin-15
 ---
 

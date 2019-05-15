@@ -4,6 +4,7 @@ title: Aktualisieren der Peakboard-Box
 menu_title: Aktualisieren der Peakboard-Box
 description: Aktualisieren der Peakboard-Box
 lang: de
+weight: 600
 ref: admin-06
 ---
 

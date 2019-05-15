@@ -4,6 +4,7 @@ title: Hinzufügen einer Peakboard-Box zum Peakboard-Designer
 menu_title: Hinzufügen einer Peakboard-Box zum Peakboard-Designer
 description: Hinzufügen einer Peakboard-Box zum Peakboard-Designer
 lang: de
+weight: 700
 ref: admin-07
 ---
 

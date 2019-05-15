@@ -4,6 +4,7 @@ title: Peakboard Runtime的安装
 menu_title: Peakboard Runtime的安装
 description: Peakboard Runtime的安装
 lang: cn
+weight: 1100
 ref: admin-11
 ---
 

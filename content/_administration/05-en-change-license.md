@@ -4,6 +4,7 @@ title: Change License
 menu_title: Change License
 description: Change License
 lang: en
+weight: 500
 ref: admin-05
 ---
 

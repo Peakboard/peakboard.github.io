@@ -4,6 +4,7 @@ title: Installation and Configuration
 menu_title: Installation and Configuration
 description: Installation and Configuration of the Peakboard-Designer
 lang: en
+weight: 100
 ref: admin-01
 ---
 

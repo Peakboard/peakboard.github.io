@@ -4,6 +4,7 @@ title: 为UWP应用启用环回
 menu_title: 启用环回
 description: 为UWP应用启用环回
 lang: cn
+weight: 1400
 ref: admin-14
 ---
 

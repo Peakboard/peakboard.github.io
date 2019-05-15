@@ -4,6 +4,7 @@ title: Change Keyboard Layouts
 menu_title: Change Keyboard Layouts
 description: Change Keyboard Layouts
 lang: en
+weight: 1000
 ref: admin-10
 ---
 

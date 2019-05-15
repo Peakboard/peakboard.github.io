@@ -4,6 +4,7 @@ title: 安装和配置
 menu_title: 安装和配置
 description: Peakboard Designer的安装和配置
 lang: cn
+weight: 100
 ref: admin-01
 ---
 

@@ -4,6 +4,7 @@ title: Calculator Script Example
 menu_title: Calculator Script Example
 description: Calculator Script Example
 lang: en
+weight: 900
 ref: scr-09
 ---
 In this scripting example the structure of a very simple calculator is explained, which can add and subtract.

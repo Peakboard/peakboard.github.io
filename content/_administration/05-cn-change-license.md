@@ -4,6 +4,7 @@ title: 更改许可证
 menu_title: 更改许可证
 description: 更改许可证
 lang: cn
+weight: 500
 ref: admin-05
 ---
 

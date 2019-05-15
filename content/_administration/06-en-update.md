@@ -4,6 +4,7 @@ title: Updating the Peakboard Box
 menu_title: Updating the Peakboard-Box
 description: Updating the Peakboard-Box
 lang: en
+weight: 600
 ref: admin-06
 ---
 
