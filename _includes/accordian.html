@@ -30,12 +30,23 @@
                     {% assign parts = article.path | split: "/" %}
                     {% assign num_parts = article.path | split: "/" | size %}
                         {% if num_parts == 2 %}
+                            {% if collection.label == 'video_tutorials' %}
+
+                    <li {% if forloop.first %} class="mt-3" {% endif %} {% if forloop.last %} class="mb-6" {% endif %}>
+                        <a class="w-full block py-2 hover:text-orange text-black no-underline afterglow" href="#{{ article.ref | escape }}">
+                            {{ article.title | escape }}
+                        </a>
+                        <video id="{{ article.ref | escape }}" width="960" height="540" data-youtube-id="{{ article.youtube_id }}" autoplay="autoplay"></video>
+                    </li>
+
+                            {% else %}
 
                     <li {% if forloop.first %} class="mt-3" {% endif %} {% if forloop.last %} class="mb-6" {% endif %}>
                         <a class="w-full block py-2 hover:text-orange text-black no-underline" href="{{ article.url | relative_url }}">
                             {{ article.title | escape }}
                         </a>
                     </li>
+                            {% endif %}
 
                         {% else %}
                             {% assign sub_level = parts[1] %}
