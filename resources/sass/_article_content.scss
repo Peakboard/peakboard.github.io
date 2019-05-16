@@ -141,9 +141,9 @@ html {
   h6,
   .h6 {
     font-weight: 700;
-    margin: 0 0 1rem;
     color: rgba(0,0,0,.84);
     letter-spacing: 0.025em;
+    margin: 3rem 0 1rem;
   }
 
   h1,
@@ -167,6 +167,7 @@ html {
     font-weight: 400;
     color: #f29205;
     text-transform: uppercase;
+    color: rgba(0, 0, 0, .84);
   }
 
   h4,
@@ -389,7 +390,7 @@ html {
   img {
     display: block;
     max-width: 100%;
-    margin: 80px auto;
+    margin: 2rem auto;
     cursor: pointer;
   }
 
