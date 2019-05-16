@@ -5166,6 +5166,7 @@ html {
   margin: 0 0 1rem;
   color: rgba(0, 0, 0, .84);
   letter-spacing: .025em;
+  margin-top: 3rem;
 }
 
 .article-content h1,
@@ -5187,7 +5188,7 @@ html {
 .article-content .h3 {
   font-size: 1.25rem;
   font-weight: 400;
-  color: #f29205;
+  color: rgba(0, 0, 0, .84);
   text-transform: uppercase;
 }
 
@@ -5408,7 +5409,7 @@ html {
 .article-content img {
   display: block;
   max-width: 100%;
-  margin: 80px auto;
+  margin: 2rem auto;
   cursor: pointer;
 }
 
