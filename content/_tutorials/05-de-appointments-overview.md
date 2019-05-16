@@ -13,11 +13,11 @@ Um einen möglichst einfachen Einstieg in die Erstellungen eines Willkommensbild
 
 ![image_live](/assets/images/instant_boards/welcome/Appointments_Overview.png)
 
-Diese Visualisierung bietet Platz für bis zu sechs Termine. Verwaltet werden die Termine über eine einfache Microsoft Office 365 Kalender Anbindung. Unterstützt werden Microsoft Office 365 Konten und moderne (On-Premise) Exchange-Server die Microsoft Graph unterstützen. [Dokumentation](https://help.peakboard.com), [Download Link](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Appointments%20Overview/Appointments_Overview.pbmx)
+Diese Visualisierung bietet Platz für bis zu sechs Termine. Verwaltet werden die Termine über eine einfache Microsoft Office 365 Kalender Anbindung. Unterstützt werden Microsoft Office 365 Konten und moderne (On-Premise) Exchange-Server die Microsoft Graph unterstützen.  [Download Link](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Appointments%20Overview/Appointments_Overview.pbmx)
 
 ## Weitere Templates für einen Willkommensbildschirm
 
-Folgende Templates bieten eine Alternative zu der hier beschriebenen Terminübersicht. Eine detailierte Beschreibung zu den Templates finden sie [hier](https://peakboard.rocks/welcome).
+Folgende Templates bieten eine Alternative zu der hier beschriebenen Terminübersicht. Eine detaillierte Beschreibung zu den Templates finden sie [hier](https://peakboard.rocks/willkommen).
 
 ### Einfaches Board mit einem Termin
 
@@ -102,4 +102,4 @@ Aktuell unterstützt Peakboard Microsoft Office 365 Konten und moderne On-Premis
 
 Legen Sie am besten direkt los und laden Sie sich den [Peakboard Designer](https://peakboard.rocks/designer) kostenlos herunter.
 
-Wenn Sie weitere Fragen oder Anregungen haben, zögern Sie nicht mit uns in Kontakt zu treten. Am besten an unsere E-Mail Adresse: info@peakboard.com
+Wenn Sie weitere Fragen oder Anregungen haben, zögern Sie nicht mit uns in Kontakt zu treten. Am besten an unsere E-Mail Adresse: [info@peakboard.com](mailto:info@peakboard.com)

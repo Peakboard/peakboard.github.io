@@ -39,7 +39,7 @@ Neben den beschriebenen Templates gibt es noch ein alternatives Willkommensbilds
 
 ![image_live](/assets/images/instant_boards/welcome/Appointments_Overview.png)
 
-Diese Visualisierung bietet Platz für bis zu sechs Termine. Verwaltet werden die Termine über eine einfache Microsoft Office 365 Kalender Anbindung. Unterstützt werden Microsoft Office 365 Konten und moderne (On-Premise) Exchange-Server die Microsoft Graph unterstützen. [Dokumentation](https://help.peakboard.com), [Download Link](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Appointments%20Overview/Appointments_Overview.pbmx)
+Diese Visualisierung bietet Platz für bis zu sechs Termine. Verwaltet werden die Termine über eine einfache Microsoft Office 365 Kalender Anbindung. Unterstützt werden Microsoft Office 365 Konten und moderne (On-Premise) Exchange-Server die Microsoft Graph unterstützen. [Dokumentation](https://help.peakboard.com/tutorials/05-de-appointments-overview.html), [Download Link](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Appointments%20Overview/Appointments_Overview.pbmx)
 
 ## Initiale Konfiguration
 
@@ -156,7 +156,7 @@ Aktuell unterstützt Peakboard Microsoft Office 365 Konten und moderne On-Premis
 
 Legen Sie am besten direkt los und laden Sie sich den [Peakboard Designer](https://peakboard.rocks/designer) kostenlos herunter.
 
-Wenn Sie weitere Fragen oder Anregungen haben, zögern Sie nicht mit uns in Kontakt zu treten. Am besten an unsere E-Mail Adresse: info@peakboard.com
+Wenn Sie weitere Fragen oder Anregungen haben, zögern Sie nicht mit uns in Kontakt zu treten. Am besten an unsere E-Mail Adresse: [info@peakboard.com](mailto:info@peakboard.com)
 
 ## Bildnachweis
 
