@@ -32,8 +32,6 @@
                     {% assign num_parts = article.path | split: "/" | size %}
                         {% if num_parts == 2 %}
 
-                    {{ article.weight }}
-
                     <li {% if forloop.first %} class="mt-3" {% endif %} {% if forloop.last %} class="mb-6" {% endif %}>
                         <a class="w-full block py-2 hover:text-orange text-black no-underline" href="{{ article.url | relative_url }}">
                             {{ article.title | escape }}
