@@ -1,8 +1,8 @@
 ---
 layout: article
 title: Peakboard Designer - Die Basics
-menu_title: Peakboard Designer: Die Basics
-description: Peakboard Designer: Die Basics
+menu_title: Peakboard Designer - Die Basics
+description: Peakboard Designer - Die Basics
 lang: de
 weight: 100
 ref: tut-100
