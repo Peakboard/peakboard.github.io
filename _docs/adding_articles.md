@@ -23,6 +23,7 @@ menu_title: The title to appear in the menu // alows for shorter titles in menu,
 description: A brief description of the article (around 160 characters)
 lang: en // the language code (e.g. german = de)
 ref: [unique id for article] // translations will have the same id
+weight: 100 // weight for page, defines the order in menu's. Lower means higher in the order.
 ---
 ```
 

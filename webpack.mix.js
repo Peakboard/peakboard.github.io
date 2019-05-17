@@ -25,11 +25,13 @@ mix
   .purgeCss({
     globs: [
       path.join(__dirname, "_layouts/*"),
-      path.join(__dirname, "_includes/*.html")
+      path.join(__dirname, "_includes/*.html"),
+      path.join(__dirname, "_site/*.html")
     ],
     extensions: ["html", "js", "md", "vue"],
     whiteList: [
       ".article-content blockquote.success h5",
+      ".article-content h2",
       "h-8",
       "html.stuck .page-header"
     ],
@@ -41,6 +43,7 @@ mix
       /warning$/,
       /primary$/,
       /h5$/,
+      /h2$/,
       /img$/,
       /pre$/,
       /code$/,
