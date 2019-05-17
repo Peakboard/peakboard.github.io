@@ -59,7 +59,7 @@ Wenn Sie dieses Wetter Widget nicht verwenden möchten, können Sie einfach im P
 
 Wenn Sie das Wetter Widget verwenden möchten, können Sie sich Ihr eigenes Widget mit Ihrer Stadt unter folgender Adresse erstellen: https://weatherwidget.io/.
 
-Wählen Sie zuerst die Stadt für die Wetteranzeige aus. Anschließend können Sie noch weitere Parameter wie Sprache, die anzuzeigenden Texte und die Einheit definieren.
+Sie noch Parameter wie Stadt, Sprache, die anzuzeigenden Texte und die Einheit definieren.
 Auf den weiteren Tabs gibt es noch viele weitere Möglichkeiten, das Wetter Widget auf Ihre Bedürfnisse anzupassen.
 
 Für unsere Visualisierung haben wir im Tab 'Options' den Font 'Arial' verwendet, das Icon Set 'Climacons Animated', Forecast Days '3'.
