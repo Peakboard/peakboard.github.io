@@ -4,7 +4,8 @@ title: 静态数据
 menu_title: 静态数据
 description: Peakboard中的静态数据相关信息
 lang: cn
-ref: dat-01
+weight: 100
+ref: dat-100
 ---
 通常，术语“数据源”是指从任何先前的系统中检索的数据，无论是从数据库、ERP系统，或是借助一种通用源，例如JSON或XML，简单地从网络上获取。在Peakboard中，静态数据也称为“数据源”，其特征是数据并非源自另一个位置，而是本地存储在包中。需要这些静态数据源有两个主要原因：
 

@@ -5,7 +5,7 @@ menu_title: 将Peakboard-Box连接到WPA2企业WiFi
 description: 将Peakboard-Box连接到WPA2企业WiFi
 lang: cn
 weight: 300
-ref: admin-03
+ref: admin-300
 ---
 
 首先，必须通过PowerShell建立与Box的连接。

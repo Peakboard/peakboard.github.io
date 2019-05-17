@@ -4,7 +4,8 @@ title: JSON
 menu_title: JSON
 description: Information über JSON Daten in Peakboard
 lang: de
-ref: dat-06
+weight: 600
+ref: dat-600
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf JSON-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 

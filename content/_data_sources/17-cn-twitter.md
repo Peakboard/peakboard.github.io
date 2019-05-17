@@ -4,7 +4,8 @@ title: Twitter
 menu_title: Twitter
 description: Peakboard中Twitter数据的相关信息
 lang: cn
-ref: dat-17
+weight: 1700
+ref: dat-1700
 ---
 在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 

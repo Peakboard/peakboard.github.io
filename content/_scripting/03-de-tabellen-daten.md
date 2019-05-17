@@ -4,7 +4,8 @@ title: Nachbearbeiten von Tabellen-Daten
 menu_title: Daten per Script weiterverarbeiten
 description: Nachbearbeiten von Tabellen-Daten
 lang: de
-ref: scr-03
+weight: 300
+ref: scr-300
 ---
 Der überwiegende Teil der Peakboard-Kunden nutzt irgendeine Art von Datenanbindung an ihre Boards und in den allermeisten Fällen sind die Daten tabellarisch. Oft kommt es allerdings vor, dass die Rohdaten nicht der Form genügen, mit denen man sie direkt an visuelle Elemente binden kann. Dieser Artikel erklärt die gängigsten Use Cases um Daten per Script in die richtige Form zu bringen. Selbst wenn Sie kein Programmierer sind, sollten Sie sich von den Scripten hier nicht abschrecken lassen. Sie sind kaum komplizierter als eine anspruchsvolle Excel-Formel. Bewegen sich also durchaus auf einem Niveau, mit dem auch ein engagierter Power User klar kommen sollte. Generell gilt aber ein Grundsatz: Machen Sie so viel möglich an Filterung, Aggregation und anderer Logik bereits in der Datenquelle – sei es nun eine Datenbank, SAP oder ein anderes Vorsystem. Je besser die Daten aus dem Vorsystem herauskommen, desto einfacher ist die Aufbereitung. Das Aufbereiten per Script ist also immer nur die zweitbeste Lösung zu sehen.
 

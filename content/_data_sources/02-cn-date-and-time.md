@@ -4,7 +4,8 @@ title: 日期和时间
 menu_title: 日期和时间
 description: Peakboard中的日期和时间数据相关信息
 lang: cn
-ref: dat-02
+weight: 200
+ref: dat-200
 ---
 目前，Peakboard Box在重启后无法记住的时间。因此，可以在Designer中将日期和时间集成为一种普通数据源。数据源不是表格，而只是标量单值。
 

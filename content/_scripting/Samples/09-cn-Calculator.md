@@ -5,7 +5,7 @@ menu_title: 计算器脚本示例
 description: 计算器脚本示例
 lang: cn
 weight: 900
-ref: scr-09
+ref: scr-900
 ---
 在该脚本示例中，解释了一个非常简单的计算器的结构，能执行加减运算。
 

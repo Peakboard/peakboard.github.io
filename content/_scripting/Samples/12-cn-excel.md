@@ -5,7 +5,7 @@ menu_title: Write to Excel
 description: Write to Excel
 lang: cn
 weight: 1200
-ref: scr-12
+ref: scr-1200
 ---
 
 To enable writing to Excel, the corresponding .xls file must be integrated as a bridge data source via an ODBC request. Instructions can be found [here](/data_sources/31-cn-ODBC-Excel.html).

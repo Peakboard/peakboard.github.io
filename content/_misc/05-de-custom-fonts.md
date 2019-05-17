@@ -4,7 +4,8 @@ title: Eigene Schriftarten verwenden
 menu_title: Eigene Schriftarten verwenden
 description: Eigene Schriftarten verwenden
 lang: de
-ref: misc-05
+weight: 500
+ref: misc-500
 ---
 Peakboard unterstützt standardmäßig eine ganze Reihe von vorgefertigten Windows-Schriftarten; für Textboxen, Tabellen und überall, wo eben Text für die Visualisierung verwendet wird.
 

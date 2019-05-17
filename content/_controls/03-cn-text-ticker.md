@@ -4,7 +4,8 @@ title: 滚动字幕
 menu_title: 滚动字幕
 description: Peakboard Designer中滚动字幕控件相关信息。
 lang: cn
-ref: con-03
+weight: 300
+ref: con-300
 ---
 
 “滚动字幕”控件旨在显示滚动文本。请注意以下一般附加信息：

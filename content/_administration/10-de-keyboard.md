@@ -5,7 +5,7 @@ menu_title: Ändern des Keyboard-Layouts
 description: Ändern des Keyboard-Layouts
 lang: de
 weight: 1000
-ref: admin-10
+ref: admin-1000
 ---
 
 Standardmäßig ist bei Windows IoT Core ein „QWERTY“ Tastatur-Layout hinterlegt.

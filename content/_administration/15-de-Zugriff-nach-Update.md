@@ -5,7 +5,7 @@ menu_title: Zugriff auf Peakboard über Peakboard Designer nach Windows Update n
 description: Zugriff auf Peakboard über Peakboard Designer nach Windows Update nicht mehr möglich
 lang: de
 weight: 1500
-ref: admin-15
+ref: admin-1500
 ---
 
 Mit dem Windows IoT Core Update von 1803 auf 1809 wird die Verbindung über den Peakboard Designer sowie der Zugriff auf das Deviceportal blockiert.

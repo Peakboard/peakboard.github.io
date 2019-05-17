@@ -5,7 +5,7 @@ menu_title: 更新Peakboard Box
 description: 更新Peakboard Box
 lang: cn
 weight: 600
-ref: admin-06
+ref: admin-600
 ---
 
 如要更新Peakboard Box，请单击Peakboard Designer上部区域菜单栏中的“管理”按钮。将会打开一个新窗口。

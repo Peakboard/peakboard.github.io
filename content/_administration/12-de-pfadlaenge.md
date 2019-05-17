@@ -5,7 +5,7 @@ menu_title: Pfadlängenbegrenzung aufheben
 description: Pfadlängenbegrenzung aufheben
 lang: de
 weight: 1200
-ref: admin-12
+ref: admin-1200
 ---
 
 In manchen Fällen ist es notwendig, die Begrenzung der Pfadlänge von Windows IoT Code aufzuheben. Dies kann beispielsweise dann auftreten, wenn ein OPC UA Zertifikat mit einem zu langen Dateinamen verwendet werden soll. Um diese Begrenzung aufzuheben, führen Sie bitte die folgenden Schritte durch:

@@ -4,7 +4,8 @@ title: 使用属性
 menu_title: 使用属性
 description: 使用属性
 lang: cn
-ref: scr-06
+weight: 600
+ref: scr-600
 ---
 本文描述了属性的使用。从最广泛的意义上来说，这些是主要用于脚本中的常量值。可以为单个可视化创建此类常量，也可以为可视化运行的完整Box创建此类常量。
 

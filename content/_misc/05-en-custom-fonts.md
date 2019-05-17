@@ -4,7 +4,8 @@ title: Using Custom Fonts
 menu_title: Using Custom Fonts
 description: Using Custom Fonts
 lang: en
-ref: misc-05
+weight: 500
+ref: misc-500
 ---
 By default, Peakboard supports a whole range of pre-defined Windows fonts; for text boxes, tables and everywhere where text is used for visualization.
 

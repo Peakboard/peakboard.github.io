@@ -4,7 +4,8 @@ title: Tile-Control
 menu_title: Tile-Control
 description: Tile-Control
 lang: de
-ref: con-14
+weight: 1400
+ref: con-1400
 ---
 
 Das Tile-Control ist eine einfache Möglichkeit, zeilenbasierte Daten einer Tabelle auf repetitive Weise darzustellen. 

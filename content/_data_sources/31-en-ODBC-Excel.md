@@ -4,7 +4,8 @@ title: Integrating Excel via ODBC
 menu_title: Integrating Excel via ODBC
 description: Integrating Excel via ODBC
 lang: en
-ref: dat-31
+weight: 3100
+ref: dat-3100
 ---
 
 Details on how to install the bridge can be found [here](/administration/01-en-install.html) and further information on the bridge data source [here](/data_sources/14-en-peakboard-bridge.html).

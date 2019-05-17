@@ -4,7 +4,8 @@ title: Eigenschaften (Properties) nutzen
 menu_title: Eigenschaften (Properties) nutzen
 description: Eigenschaften (Properties) nutzen
 lang: de
-ref: scr-06
+weight: 600
+ref: scr-600
 ---
 Dieser Artikel beschreibt den Gebrauch so genannter Properties (oder zu deutsch Eigenschaften). Im weitesten Sinne sind das konstante Werte, die hauptsächlich in Scripten verwendet werden. Solche Konstanten können entweder für eine einzelne Visualisierung angelegt werden, oder für die komplette Box, auf der die Visualisierung läuft.
 

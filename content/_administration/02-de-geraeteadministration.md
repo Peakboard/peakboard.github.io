@@ -5,7 +5,7 @@ menu_title: WLAN einrichten
 description: WLAN einrichten
 lang: de
 weight: 200
-ref: admin-02
+ref: admin-200
 ---
 
 Um das WLAN der Peakboard-Box einzurichten, muss diese zuerst mit einem Netzwerkkabel verbunden werden und der mitgelieferte WLAN USB-Adapter angeschlossen sein.

@@ -4,7 +4,8 @@ title: 连接和传输您的第一个可视化
 menu_title: 连接和传输您的第一个可视化
 description: 连接和传输您的第一个可视化
 lang: cn
-ref: tut-02
+weight: 200
+ref: tut-200
 ---
 本教程将向您展示如何运行使用Peakboard Box，以及如何将Designer中的第一个设计转移到Box中。如果您还没有读过，我们推荐Designer入门基础教程：
 

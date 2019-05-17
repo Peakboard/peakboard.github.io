@@ -4,7 +4,8 @@ title: Formatieren von Tabellen-Grids
 menu_title: Formatieren von Tabellen-Grids
 description: Formatieren von Tabellen-Grids
 lang: de
-ref: scr-05
+weight: 500
+ref: scr-500
 ---
 
 Table Grids sind wenig überraschend die häufigste Form, tabellarische Daten darzustellen. Das Table Grid bietet die Möglichkeit, Daten zu binden und die Spalten wunschgemäß anzupassen: Schriftart, Orientierung, Formatierung, Überschrift usw. – Es gibt allerdings häufig Attribute, die nicht statisch gesetzt werden sollen, sondern abhängig von den Dateninhalten. Darüberhinaus kann es sinnvoll sein, die Dateninhalte vor der Ausgabe in der Tabelle einer Anpassung zu unterziehen, die die Standard-Formatierung nicht unterstützt. Dieser Artikel nimmt sich exemplarisch beiden Forderungen an:

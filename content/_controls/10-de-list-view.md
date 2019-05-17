@@ -4,7 +4,8 @@ title: ListView
 menu_title: ListView
 description: Information über Peakboard Designer ListView Control.
 lang: de
-ref: con-10
+weight: 1000
+ref: con-1000
 ---
 
 Das ListView-Control ist in seinem Verhalten dem [Tile Control](/controls/14-de-tilecontrol.html) und dem [Tile View](/controls/11-de-tile-view.html) sehr ähnlich. 

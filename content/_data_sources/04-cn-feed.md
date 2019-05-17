@@ -4,7 +4,8 @@ title: Feed
 menu_title: Feed
 description: Peakboard中RSS Feeds数据的相关信息
 lang: cn
-ref: dat-04
+weight: 400
+ref: dat-400
 ---
 Feed数据源非常简单。它用于在Peakboard中使用RSS Feeds。
 

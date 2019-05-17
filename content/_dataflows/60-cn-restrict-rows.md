@@ -4,7 +4,8 @@ title: 限制行数
 menu_title: 限制行数
 description: 限制行数
 lang: cn
-ref: flow-60
+weight: 6000
+ref: flow-6000
 ---
 限制行数有三个不同的步骤：
 

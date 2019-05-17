@@ -5,7 +5,7 @@ menu_title: Change License
 description: Change License
 lang: en
 weight: 500
-ref: admin-05
+ref: admin-500
 ---
 
 If you decide to upgrade a purchased Peakboard Pro Box to the Enterprise version, it is necessary to exchange the license key.

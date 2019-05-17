@@ -4,7 +4,8 @@ title: Peakboard API
 menu_title: Peakboard API
 description: Peakboard API
 lang: en
-ref: misc-07
+weight: 700
+ref: misc-700
 ---
 
 In order to access data from a variable or List Data Source via the API, the following information is required. It is also needed to write values to a list element or variable.

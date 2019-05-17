@@ -5,7 +5,7 @@ menu_title: 按钮脚本示例
 description: 按钮脚本示例
 lang: cn
 weight: 800
-ref: scr-08
+ref: scr-800
 ---
 在“输入”子菜单项下，您会发现允许您与Peakboard Box交互的控件。其中有“按钮”控件，可以通过简单地点击它来执行脚本。
 

@@ -4,7 +4,8 @@ title: SAP with XQL
 menu_title: XQL
 description:  Information about the use of XQL
 lang: en
-ref: dat-sap-20
+weight: 2000
+ref: dat-sap-2000
 ---
 If SAP access is not built via gateway but via "Direct RFC", SAP access is defined via XQL. XQL is a simple description language. The following explains how you can use XQL in SAP to access RFC function modules, reports, tables, cubes, and queries. In order not to make things too complicated, this page contains as many examples as possible and less a formal description of XQL.
 

@@ -4,7 +4,8 @@ title: CSV
 menu_title: CSV
 description: Information über CSV Daten in Peakboard
 lang: de
-ref: dat-05
+weight: 500
+ref: dat-500
 ---
 Dieser Artikel erklärt die Handhabung der Datenquelle für Daten im CSV-Format. Die genaue Spezifikation und weitere Infos zu CSV finden Sie [hier.](https://de.wikipedia.org/wiki/CSV_(Dateiformat))
 

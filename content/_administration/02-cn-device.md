@@ -5,7 +5,7 @@ menu_title: 设置Wi-Fi
 description: 设置Wi-Fi
 lang: cn
 weight: 200
-ref: admin-02
+ref: admin-200
 ---
 
 要设置Peakboard Box的Wi-Fi，必须首先连接网线，并连接所提供的Wi-Fi USB适配器。如果Peakboard Box仍处于初始状态，那么一旦建立网络连接，IP地址就会显示在屏幕上。

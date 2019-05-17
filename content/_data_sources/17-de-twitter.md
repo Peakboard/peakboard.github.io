@@ -4,7 +4,8 @@ title: Twitter
 menu_title: Twitter
 description: Information über Twitter Daten in Peakboard
 lang: de
-ref: dat-17
+weight: 1700
+ref: dat-1700
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf Twitter-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 

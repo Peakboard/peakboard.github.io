@@ -4,7 +4,8 @@ title: Add, Delete and Change Columns
 menu_title: Add, Delete and Change Columns
 description: Add, Delete and Change Columns
 lang: en
-ref: flow-10
+weight: 1000
+ref: flow-1000
 ---
 This section describes the steps for creating new columns, deleting and changing metadata (such as the data type).
 

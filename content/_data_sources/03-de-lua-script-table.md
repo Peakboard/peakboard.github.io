@@ -4,7 +4,8 @@ title: LUA Script Data
 menu_title: LUA Script Data
 description: Information über LUA Script Daten  in Peakboard
 lang: de
-ref: dat-03
+weight: 300
+ref: dat-300
 ---
 Die Datenquelle LUA Script Table weicht etwas von den klassischen Datenquellen ab. Sie dient dazu, Anforderungen abzudecken, die mit den anderen, traditionellen Datenquellen gerade nicht abgedeckt werden können. Die Idee ist, einmalig die Metadaten, als Spalten, der Datenquelle zu definieren. Das Füllen mit Daten erledigt dann wie der Name schon sagt ein LUA-Script. Was genau das Script macht, bleibt der Phantasie des Users überlassen. Typische Anwendungsgebiete sind komplexe Datenquellen, die multiple Interaktion verlangen, z.B. zunächst einen Autorisierungstoken irgendwo abzuholen, um mit diesem dann zunächst in einer ersten Webquelle Daten abzurufen, um sie dann mit einer komplett anderen Datenquelle abzumischen. Es steht Ihnen der komplette Schatz aus LUA-Befehlen zur Verfügung.
 

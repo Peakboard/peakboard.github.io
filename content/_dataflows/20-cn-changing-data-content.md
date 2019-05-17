@@ -4,7 +4,8 @@ title: 更改数据内容
 menu_title: 更改数据内容
 description: 更改数据内容
 lang: cn
-ref: flow-20
+weight: 2000
+ref: flow-2000
 ---
 本节介绍处理列内容的步骤。
 

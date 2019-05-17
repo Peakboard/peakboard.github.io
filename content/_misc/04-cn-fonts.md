@@ -4,7 +4,8 @@ title: 使用字体管理器管理字体格式
 menu_title: 使用字体管理器管理字体格式
 description: 使用字体管理器管理字体格式
 lang: cn
-ref: misc-04
+weight: 400
+ref: misc-400
 ---
 
 Peakboard提供了字体管理器来管理字体和格式。在Peakboard Designer的上部，转到“格式”选项卡。单击此处的“字体”按钮。将打开一个新窗口，列出所有可用字体。

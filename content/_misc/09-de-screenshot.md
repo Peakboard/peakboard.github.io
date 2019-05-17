@@ -4,7 +4,8 @@ title: Screenshot über HTTP Request
 menu_title: Screenshot über HTTP Request
 description: Screenshot über HTTP Request
 lang: de
-ref: misc-09
+weight: 900
+ref: misc-900
 ---
 
 Werden beispielsweise am Shopfloor Entscheidungen auf Grundlage einer Visualisierung getroffen, so ist es notwendig die Entscheidungsgrundlage zu dokumentieren.

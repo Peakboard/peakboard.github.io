@@ -4,7 +4,8 @@ title: 磁贴控件
 menu_title: 磁贴控件
 description: 磁贴控件
 lang: cn
-ref: con-14
+weight: 1400
+ref: con-1400
 ---
 
 “磁贴”控件是一种以重复方式显示表格的行式数据的简单方法。查看下表，显然，一条生产线为一行。

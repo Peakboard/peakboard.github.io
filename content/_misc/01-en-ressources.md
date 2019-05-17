@@ -4,7 +4,8 @@ title: Resources
 menu_title: Resources
 description: Additional Resources
 lang: en
-ref: misc-01
+weight: 100
+ref: misc-100
 ---
 
 Besides screens and data sources, the resources are the third pillar of a Peakboard visualization. A resource can be anything that is needed for visualization purposes: Images, fonts, scripts, data files (e. g. Excel). In the simplest case, the respective resource is stored directly and statically in the Peakboard-Package. However, a resource can also be dynamic and can, for example, be retrieved via a URL, stored in a cloud memory (Dropbox, Google Drive, OneDrive) or on a shared drive within the same network (bridge resource). All these options are explained in this article, in the order they appear in the menu (see screenshot below).

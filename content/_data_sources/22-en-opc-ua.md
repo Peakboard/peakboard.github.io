@@ -4,7 +4,8 @@ title: OPC UA
 menu_title: OPC UA
 description: Information about OPC UA Data in Peakboard
 lang: en
-ref: dat-22
+weight: 2200
+ref: dat-2200
 redirect_from: /en/datasources-mqtt-broker/
 ---
 

@@ -4,7 +4,8 @@ title: Limit Number of Rows
 menu_title: Limit Number of Rows
 description: Limit Number of Rows
 lang: en
-ref: flow-60
+weight: 6000
+ref: flow-6000
 ---
 There are three different steps to limit the number of lines:
 

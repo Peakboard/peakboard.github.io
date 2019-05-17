@@ -5,7 +5,7 @@ menu_title: Installation and Configuration
 description: Installation and Configuration of the Peakboard-Designer
 lang: en
 weight: 100
-ref: admin-01
+ref: admin-100
 ---
 
 The Peakboard-Bridge is designed to provide data sources for the Peakboard-Boxes, which the Box cannot reach by its own efforts due to technical limitations. This applies, for example, to access files on the network.

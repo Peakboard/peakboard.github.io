@@ -4,7 +4,8 @@ title: Google电子表格
 menu_title: Google电子表格
 description: Google电子表格
 lang: cn
-ref: dat-30
+weight: 3000
+ref: dat-3000
 ---
 Google电子表格数据源用于从Google电子表格中提取表格式数据，然后像任何其他数据源一样在Peakboard中使用。
 

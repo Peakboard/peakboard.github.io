@@ -4,9 +4,10 @@ title: Excel
 menu_title: Excel
 description: Peakboard中Excel数据的有关信息
 lang: cn
-ref: dat-13
+weight: 1300
+ref: dat-1300
 redirect_from:
- - /en/datasources-excel/
+ - /cn/datasources-excel/
 ---
 本页解释了从Peakboard访问Excel数据源时的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 

@@ -4,7 +4,8 @@ title: 西门子S7
 menu_title: 西门子S7
 description: Peakboard中西门子S7数据的相关信息
 lang: cn
-ref: dat-21
+weight: 2100
+ref: dat-2100
 ---
 一般来说，有几种方法可以在Peakboard中处理机器数据，例如通过基于云的物联网中心（如Azure或Google）或MQTT服务器。西门子S7数据源使Peakboard Box能够直接连接到S7控制器。如果控制网络与相应环境中的“正常”商业网络分离，则Box可以通过USB接收第二个LAN连接，一端连接到商业网络（例如，用于SAP访问），另一端连接到S7控制网络。
 

@@ -5,7 +5,7 @@ menu_title: 不受限制的路径长度
 description: 不受限制的路径长度
 lang: cn
 weight: 1200
-ref: admin-12
+ref: admin-1200
 ---
 
 在某些情况下，有必要取消限制Windows IoT的路径长度。

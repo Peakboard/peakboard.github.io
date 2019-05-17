@@ -5,7 +5,7 @@ menu_title: Updating the Peakboard-Box
 description: Updating the Peakboard-Box
 lang: en
 weight: 600
-ref: admin-06
+ref: admin-600
 ---
 
 To update the Peakboard Box, click the Manage button in the ribbon of the upper Peakboard Designer area. A new window will open.

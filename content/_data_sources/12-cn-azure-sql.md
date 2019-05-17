@@ -4,7 +4,8 @@ title: Azure SQL
 menu_title: Azure SQL
 description: Peakboard中Azure SQL数据的相关信息
 lang: cn
-ref: dat-12
+weight: 1200
+ref: dat-1200
 ---
 本页解释了从Peakboard访问Azure SQL数据源时的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 

@@ -4,7 +4,8 @@ title: Google Spreadsheets
 menu_title: Google Spreadsheets
 description: Google Spreadsheets
 lang: de
-ref: dat-30
+weight: 3000
+ref: dat-3000
 ---
 Die Google Spreadsheets Datenquelle dient dazu, tabellarische Daten aus Google Spreadsheets abzugreifen, um sie dann in Peakboard weiterzuverwenden wie jede andere Datenquelle auch.
 

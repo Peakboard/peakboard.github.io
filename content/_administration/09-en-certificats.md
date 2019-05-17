@@ -5,7 +5,7 @@ menu_title: Add a certificate
 description: Add a certificate
 lang: en
 weight: 900
-ref: admin-09
+ref: admin-900
 ---
 
 First, the certificate must exist as a file on the file system.

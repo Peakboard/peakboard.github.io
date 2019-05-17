@@ -4,7 +4,8 @@ title: Twitter
 menu_title: Twitter
 description: Information about Twitter Data in Peakboard
 lang: en
-ref: dat-17
+weight: 1700
+ref: dat-1700
 ---
 Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard-Elements.
 

@@ -4,7 +4,8 @@ title: Die Peakboard-Script-Engine
 menu_title: Die Peakboard-Script-Engine
 description: Informatinon über die Peakboard Script Engine
 lang: de
-ref: scr-01
+weight: 100
+ref: scr-100
 ---
 Eine der Grundideen hinter Peakboard ist, dass der Enduser eben kein Programmierer sein muss, wie es bei vielen anderen Lösungen der Fall ist. So viele Funktionen wie möglich sollten also dadurch zu erledigen sein, ohne ein Script zu nutzen. Scripte kommen in der Regel zum Einsatz, wenn
 

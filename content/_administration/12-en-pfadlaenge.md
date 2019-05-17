@@ -5,7 +5,7 @@ menu_title: Unrestrict path length
 description: Unrestrict path length
 lang: en
 weight: 1200
-ref: admin-12
+ref: admin-1200
 ---
 
 In some cases it is necessary to unlimit the path length of Windows IoT.

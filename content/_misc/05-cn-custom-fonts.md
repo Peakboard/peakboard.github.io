@@ -4,7 +4,8 @@ title: 使用自定义字体
 menu_title: 使用自定义字体
 description: 使用自定义字体
 lang: cn
-ref: misc-05
+weight: 500
+ref: misc-500
 ---
 默认情况下，Peakboard支持一整系列预定义Windows字体；适用于文本框、表格以及用于可视化的任何地方的文本。
 

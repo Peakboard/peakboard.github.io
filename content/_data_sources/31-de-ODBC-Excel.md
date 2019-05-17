@@ -4,7 +4,8 @@ title: Excel über ODBC einbinden
 menu_title: Excel über ODBC einbinden
 description: Excel über ODBC einbinden
 lang: de
-ref: dat-31
+weight: 3100
+ref: dat-3100
 ---
 
 Details zur Installation der Bridge finden Sie [hier](/administration/01-de-install.html) sowie weitere Informationen zur Bridge-Datenquelle [hier](/data_sources/14-de-peakboard-bridge.html).

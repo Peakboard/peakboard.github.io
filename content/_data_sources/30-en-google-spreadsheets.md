@@ -4,7 +4,8 @@ title: Google Spreadsheets
 menu_title: Google Spreadsheets
 description: Google Spreadsheets
 lang: en
-ref: dat-30
+weight: 3000
+ref: dat-3000
 ---
 The Google Spreadsheets data source is used to extract tabular data from Google Spreadsheets and then use it in Peakboard like any other data source.
 

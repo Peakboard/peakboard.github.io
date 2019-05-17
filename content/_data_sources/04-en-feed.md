@@ -4,7 +4,8 @@ title: Feed
 menu_title: Feed
 description: Information about RSS Feed Data  in Peakboard
 lang: en
-ref: dat-04
+weight: 400
+ref: dat-400
 ---
 The feed data source is very simple. It is used to use RSS-Feeds in Peakboard.
 

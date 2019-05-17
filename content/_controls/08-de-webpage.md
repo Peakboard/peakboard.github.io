@@ -4,7 +4,8 @@ title: Webpage
 menu_title: Webpage
 description: Information über Peakboard Designer Webpage Control.
 lang: de
-ref: con-08
+weight: 800
+ref: con-800
 ---
 
 Das Webpage-Control hat die einfache Aufgabe, Webseiten anzuzeigen. Es ist praktisch ein frei positionierbarer Browser. Die wichtigste Eigenschaft ist Source. Sie enthält die anzuzeigende URL beginnend mit http oder https. Neben der reinen Seite werden alle anderen enthaltenen Elemente wie CSS-Dateien, Bilder usw. entsprechend nachgeladen. Die Eigenschaft Refresh Time ist die Zeitspanne in Sekunden nach der das Control die Seite auffrischt. Es sei an dieser Stelle erwähnt, dass für das Rendern der Seite die Rendering-Engine von Microsoft Edge verwendet wird, also dem Browser, der mit Windows 10 eingeführt wurde. Je nach Komplexität der Seite muss das beim Design des HTML-Codes beachtet werden.

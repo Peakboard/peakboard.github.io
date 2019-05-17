@@ -4,7 +4,8 @@ title: Postprocessing Table Data
 menu_title: Postprocessing Table Data
 description: Postprocessing Table Data
 lang: en
-ref: scr-03
+weight: 300
+ref: scr-300
 ---
 The majority of Peakboard customers use some kind of data connection to their Boards and in most cases the data is tabular. However, it often happens that the raw data is not sufficient to bind them directly to visual elements. This article explains the most common use cases for using scripts to get data into the right form. Even if you are not a programmer, don’t be discouraged by the scripts here. They are hardly more complicated than a sophisticated Excel formula. So they are at a level that a dedicated power user should be able to cope with. In general, however, there is one basic principle: Do as much filtering, aggregation and other logic as possible in the data source – be it a database, SAP or another upstream system. The better the data comes out of the previous system, the easier it is to prepare. Formatting by script is only the second best solution.
 

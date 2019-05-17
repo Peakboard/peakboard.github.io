@@ -4,7 +4,8 @@ title: Sending Push Messages to the Peakboard
 menu_title: Sending Push Messages to the Peakboard
 description: Sending Push Messages to the Peakboard
 lang: en
-ref: misc-02
+weight: 200
+ref: misc-200
 ---
 
 Peakboard can be used in scenarios where data is not retrieved from a data source by the Peakboard-Box, but “pushed” proactively from the data source to the box. This page shows how to design such a scenario.

@@ -4,7 +4,8 @@ title: 通过HTTP请求截图
 menu_title: 通过HTTP请求截图
 description: 通过HTTP请求截图
 lang: cn
-Ref: misc-09
+weight: 900
+ref: misc-900
 ---
 
 

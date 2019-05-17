@@ -4,7 +4,8 @@ title: OData
 menu_title: OData
 description: Information über OData in Peakboard
 lang: de
-ref: dat-07
+weight: 700
+ref: dat-700
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf OData-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 

@@ -5,7 +5,7 @@ menu_title: Setting up Wi-Fi
 description: Setting up Wi-Fi
 lang: en
 weight: 200
-ref: admin-02
+ref: admin-200
 ---
 
 To set up the Wi-Fi of the Peakboard Box, it must first be connected to a network cable and the Wi-Fi USB adapter supplied must be connected.

@@ -4,7 +4,8 @@ title: SAP
 menu_title: SAP
 description: Information about SAP Data in Peakboard
 lang: en
-ref: dat-10
+weight: 1000
+ref: dat-1000
 ---
 This page explains the individual features when accessing an SAP data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard-Elements:
 

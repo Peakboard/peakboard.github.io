@@ -5,7 +5,7 @@ menu_title: Internetverbindung mit Proxy-Server einrichten
 description: Internetverbindung mit Proxy-Server einrichten
 lang: de
 weight: 400
-ref: admin-04
+ref: admin-400
 ---
 
 Öffnen Sie das Windows Device Portal (http://<ip-adresse-peakboard>:8080) der Box.

@@ -4,7 +4,8 @@ title: Switch visualization with a presenter
 menu_title: Switch visualization with a presenter
 description: Switch visualization with a presenter
 lang: en
-ref: misc-08
+weight: 800
+ref: misc-800
 ---
 
 In some cases, such as the display of information on the shop floor, a single dashboard is not enough. 

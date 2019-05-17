@@ -4,7 +4,8 @@ title: Microsoft日历
 menu_title: Microsoft日历
 description: Peakboard中Microsoft日历集成
 lang: cn
-ref: cal-25
+weight: 2400
+ref: cal-2400
 ---
 Microsoft日历数据源允许您访问Office 365中存储的日历。目前，仅支持在Office 365或Office.com上存管的Microsoft日历。不支持SharePoint日历或本地Exchange日历。
 

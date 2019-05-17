@@ -5,7 +5,7 @@ menu_title: Hinzufügen einer Peakboard-Box zum Peakboard-Designer
 description: Hinzufügen einer Peakboard-Box zum Peakboard-Designer
 lang: de
 weight: 700
-ref: admin-07
+ref: admin-700
 ---
 
 Um eine Peakboard-Box zum Peakboard-Designer hinzuzufügen, klicken Sie im Menüband des oberen Peakboard-Designer Bereiches auf den Button Manage. Daraufhin öffnet sich ein neues Fenster.

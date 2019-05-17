@@ -4,7 +4,8 @@ title: Microsoft Dynamics NAV
 menu_title: Microsoft Dynamics NAV
 description: Information über Microsoft Dynamics NAV Daten in Peakboard
 lang: de
-ref: dat-15
+weight: 1500
+ref: dat-1500
 ---
 
 Diese Seite erklärt die einzelnen Features beim Zugriff auf die Dynamics NAV-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:

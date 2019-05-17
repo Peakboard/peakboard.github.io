@@ -4,7 +4,8 @@ title: Joining Tables
 menu_title: Joining Tables
 description: Joining Tables
 lang: en
-ref: flow-40
+weight: 4000
+ref: flow-4000
 ---
 When manipulating columns, we already got to know the possibility of adding a new column and filling it with a look up to another data source. This is useful if only a single column is involved. The join step goes one step further. Two table-type datasets are linked together here. This technique is known in the field of relational databases. It works the same way.
 The output table of the current data flow can always be seen as the *left* table. The newly added (i.e. joined) table is the *right* table.

@@ -4,7 +4,8 @@ title: Dynamic Queries
 menu_title: Dynamic Queries
 description: Dynamic Queries
 lang: en
-ref: scr-07
+weight: 700
+ref: scr-700
 ---
 Queries against a data source often have to be designed dynamically, depending on a certain context. Example: An end-user enters a date via a text field and the data source is to send the request to the host system so that it meets the user’s requirements. To do this, a dynamic SQL statement is created that contains the desired date of the end user. This article shows the standard procedure for designing such a dynamic query.
 

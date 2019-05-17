@@ -5,7 +5,7 @@ menu_title: 键盘输入脚本示例
 description: 键盘输入脚本示例
 lang: cn
 weight: 1100
-ref: scr-11
+ref: scr-1100
 ---
 该脚本示例解释了如何使用键盘命令来控制Peakboard Box。
 

@@ -5,7 +5,7 @@ menu_title: Installation der Peakboard-Runtime
 description: Installation der Peakboard-Runtime
 lang: de
 weight: 1100
-ref: admin-11
+ref: admin-1100
 ---
 
 Bei der Installation des Peakboard-Designers wird normalerweise die Peakboard-Runtime mitinstalliert.

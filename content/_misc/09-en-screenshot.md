@@ -4,7 +4,8 @@ title: Screenshot via HTTP Request
 menu_title: Screenshot via HTTP Request
 description: Screenshot of HTTP request
 lang: en
-ref: misc-09
+weight: 900
+ref: misc-900
 ---
 
 If, for example, decisions are made on the shop floor on the basis of a visualization, it is necessary to document the decision basis.

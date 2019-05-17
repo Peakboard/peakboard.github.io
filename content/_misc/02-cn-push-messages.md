@@ -4,7 +4,8 @@ title: 向Peakboard发送推送消息
 menu_title: 向Peakboard发送推送消息
 description: 向Peakboard发送推送消息
 lang: cn
-ref: misc-02
+weight: 200
+ref: misc-200
 ---
 
 当Peakboard Box未从数据源中检索到数据的情况时，可使用Peakboard，但主动从数据源“推送”至Box中。本页面展示了如何设计这样的场景。

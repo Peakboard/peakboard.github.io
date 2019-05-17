@@ -4,7 +4,8 @@ title: Microsoft Calendar
 menu_title: Microsoft Calendar
 description: Microsoft Calendar Integration in Peakboard
 lang: en
-ref: cal-25
+weight: 2400
+ref: cal-2400
 ---
 The Microsoft Calendar data source allows you to access a calendar stored in Office 365. Currently, only Microsoft calendars hosted on Office 365 or Office.com are supported. SharePoint calendars or local Exchange calendars are not supported.
 

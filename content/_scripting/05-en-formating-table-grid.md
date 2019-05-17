@@ -4,7 +4,8 @@ title: Formatting Table Data
 menu_title: Formatting Table Data
 description: Formatting Table Data
 lang: en
-ref: scr-05
+weight: 500
+ref: scr-500
 ---
 
 Table grids are not surprisingly the most common form of displaying tabular data. The Table Grid allows you to bind data and customize the columns as desired: font, orientation, formatting, headline, etc. However, there are often attributes that should not be set statically, but depend on the data content. It may also make sense to adjust the data content before outputting it in the table to a format that does not support standard formatting. This article deals with both demands in an exemplary manner:

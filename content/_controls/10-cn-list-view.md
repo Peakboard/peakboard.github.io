@@ -4,7 +4,8 @@ title: 列表视图
 menu_title: 列表视图
 description: Peakboard Designer中列表视图控件相关信息。
 lang: cn
-ref: con-10
+weight: 1000
+ref: con-1000
 ---
 
 “列表视图”控件的特性与“[磁贴控件](/controls/14-cn-tilecontrol.html) ”和“[磁贴视图](/controls/11-cn-tile-view.html)”非常相似。“[磁贴控件](/controls/14-cn-tilecontrol.html)”中一步步说明了如何为“列表视图”或“磁贴视图”控件创建模板。在“[磁贴控件](/controls/14-cn-tilecontrol.html)”中，由开发人员排列各个磁贴，而“列表视图”，只要条目存在于数据源中，就会根据可用范围自动提供磁贴元素。下面的截图表明了这一点。

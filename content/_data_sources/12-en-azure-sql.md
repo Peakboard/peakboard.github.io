@@ -4,7 +4,8 @@ title: Azure SQL
 menu_title: Azure SQL
 description: Information about Azure SQL Data in Peakboard
 lang: en
-ref: dat-12
+weight: 1200
+ref: dat-1200
 ---
 This page explains the individual features when accessing an Azure SQL data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 

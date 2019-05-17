@@ -4,7 +4,8 @@ title: TileView
 menu_title: TileView
 description: TileView
 lang: en
-ref: con-11
+weight: 1100
+ref: con-1100
 ---
 
 The TileView control works in principle exactly like the [ListView control](/controls/10-en-list-view.html). The only difference is the fact that the elements are first arranged from left to right, but then wrapped to the next "line" at the edge. This is suitable for multiline representations of one and the same element. As in the other article, the example in the screenshot is bound to an Excel table. The template is identical to that of the [ListView control](/controls/10-en-list-view.html).

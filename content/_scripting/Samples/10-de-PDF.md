@@ -5,7 +5,7 @@ menu_title: PDF Script Beispiel
 description: PDF Script Beispiel
 lang: de
 weight: 1000
-ref: scr-10
+ref: scr-1000
 ---
 In diesem Scripting Beispiel wird das Script für eine PDF Präsentation die automatisch startet erklärt.
 

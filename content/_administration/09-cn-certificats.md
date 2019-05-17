@@ -5,7 +5,7 @@ menu_title: 添加证书
 description: 添加证书
 lang: cn
 weight: 900
-ref: admin-09
+ref: admin-900
 ---
 
 首先，证书必须作为文件存在于文件系统中。

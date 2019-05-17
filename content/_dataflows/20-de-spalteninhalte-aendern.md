@@ -4,7 +4,8 @@ title: Spalteninhalte manipulieren
 menu_title: Spalteninhalte manipulieren
 description: Spalteninhalte manipulieren
 lang: de
-ref: flow-20
+weight: 2000
+ref: flow-2000
 ---
 Dieser Abschnitt beschreibt die Schritte, um den Inhalt von Spalten zu manipulieren.
 

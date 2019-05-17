@@ -4,7 +4,8 @@ title: Daten App-Push
 menu_title: Daten App-Push
 description: Wie können Variablen und Listen mittels App-Push gesetzt werden.
 lang: de
-ref: misc-10
+weight: 1000
+ref: misc-1000
 ---
 
 Variablen und Listen können außerhalb des Designers und der Box über die Peakboard App oder Web Zugriff gesetzt bzw. verändert werden.

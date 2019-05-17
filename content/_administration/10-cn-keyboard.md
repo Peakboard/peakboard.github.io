@@ -5,7 +5,7 @@ menu_title: 更改键盘布局
 description: 更改键盘布局
 lang: cn
 weight: 1000
-ref: admin-10
+ref: admin-1000
 ---
 
 默认情况下，Windows IoT Core使用“QWERTY”键盘布局。

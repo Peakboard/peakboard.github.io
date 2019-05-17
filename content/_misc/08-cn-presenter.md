@@ -4,7 +4,8 @@ title: 使用演示器切换可视化
 menu_title: 使用演示器切换可视化
 description: 使用演示器切换可视化
 lang: cn
-ref: misc-08
+weight: 800
+ref: misc-800
 ---
 
 

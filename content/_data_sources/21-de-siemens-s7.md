@@ -4,7 +4,8 @@ title: Siemens S7
 menu_title: Siemens S7
 description: Information über Siemens S7 Daten in Peakboard
 lang: de
-ref: dat-21
+weight: 2100
+ref: dat-2100
 ---
 Generell gibt es mehrere Möglichkeiten, Maschinendaten in Peakboard zu verarbeiten, z.B. über einen cloudbasierten IoT-Hub (wie von Azure oder Google) oder einen MQTT-Server. Die Siemens-S7-Datenquelle ermöglicht es, die Peakboard-Box direkt an eine S7-Steuerung anzubinden. Für den Fall, dass in der jeweiligen Umgebung das Steuernetz vom „normalen“ Business-Netz getrennt ist, kann die Box über USB einen zweiten LAN-Anschluss bekommen, der auf der einen Seite mit dem Business Netz (z.B. für den SAP-Zugriff) und auf der anderen Seite mit dem S7-Steuernetz verbunden ist.
 

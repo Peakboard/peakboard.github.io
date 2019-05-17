@@ -4,7 +4,8 @@ title: Visualisierung mit einem Presenter schalten
 menu_title: Visualisierung mit einem Presenter schalten
 description: Visualisierung mit einem Presenter schalten
 lang: de
-ref: misc-08
+weight: 800
+ref: misc-800
 ---
 
 In einigen Fällen, beispielsweise der Darstellung von Informationen am Shopfloor, reicht ein einzelnes Dashboard nicht aus. 

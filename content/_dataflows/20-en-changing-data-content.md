@@ -4,7 +4,8 @@ title: Changing Data Content
 menu_title: Changing Data Content
 description: Changing Data Content
 lang: en
-ref: flow-20
+weight: 2000
+ref: flow-2000
 ---
 This section describes the steps to manipulate the content of columns.
 

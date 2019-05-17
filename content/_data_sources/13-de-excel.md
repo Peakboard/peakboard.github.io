@@ -4,7 +4,8 @@ title: Excel
 menu_title: Excel
 description: Informationen über Excel-Daten in Peakboard
 lang: de
-ref: dat-13
+weight: 1300
+ref: dat-1300
 redirect_from:
   - /excel/
 ---

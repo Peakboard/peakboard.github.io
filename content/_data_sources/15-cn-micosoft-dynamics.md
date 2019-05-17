@@ -4,7 +4,8 @@ title: Microsoft Dynamics NAV
 menu_title: Microsoft Dynamics NAV
 description: Peakboard中Microsoft Dynamics NAV的相关信息
 lang: cn
-ref: dat-15
+weight: 1500
+ref: dat-1500
 ---
 
 本页解释了从Peakboard访问Microsoft Dynamics NAV数据源时的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：

@@ -4,7 +4,8 @@ title: External Data Sources Using XML Data Source Example
 menu_title: External Data Sources Using XML Data Source Example
 description: External Data Sources Using XML Data Source Example
 lang: en
-ref: tut-03
+weight: 300
+ref: tut-300
 redirect_from:
   - /en/getting-started-with-external-data-sources-using-the-example-of-an-xml-data-source/
 ---

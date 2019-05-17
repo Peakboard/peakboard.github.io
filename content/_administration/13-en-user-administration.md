@@ -5,7 +5,7 @@ menu_title: User administration
 description: User administration
 lang: en
 weight: 1300
-ref: admin-13
+ref: admin-1300
 ---
 
 Peakboard offers a multitude of application possibilities. As a result, different groups of people in a company encounter the visualizations. To cover this fact, Peakboard has the possibility to add users for each box, which are assigned to a certain user group. This group can then be provided with the authorizations required for the work of the respective group of people.

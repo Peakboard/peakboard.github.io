@@ -5,7 +5,7 @@ menu_title: 安装和配置
 description: Peakboard Designer的安装和配置
 lang: cn
 weight: 100
-ref: admin-01
+ref: admin-100
 ---
 
 Peakboard Bridge旨在为Peakboard Box提供数据源，由于技术限制，Box无法自我实现这一功能。这适用于访问网络上的文件等。

@@ -4,7 +4,8 @@ title: Excel阅读器
 menu_title: Excel阅读器
 description: Peakboard Designer中Excel阅读器控件相关信息。
 lang: cn
-ref: con-12
+weight: 1200
+ref: con-1200
 ---
 
 Peakboard提供了各种途径来整合来自不同来源的数据，然后再用控件可视化这些数据。这是默认方式。在某些情况下，从外部导入可视化而不仅仅是数据是很有用的。本章介绍了“Excel阅读器”控件，借助该控件，嵌入Excel文件中的图表可以直接集成为可视化的一部分。

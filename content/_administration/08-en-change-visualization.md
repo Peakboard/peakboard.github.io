@@ -5,7 +5,7 @@ menu_title: Change Visualizaion
 description: Change Visualizaion
 lang: en
 weight: 800
-ref: admin-08
+ref: admin-800
 ---
 
 To change the current visualization on a Peakboard-Box, go to Manage in the Designer. In the new window, click the drop-down menu to the right of the desired Peakboard-Box. Select the menu item Activate Peakboard.

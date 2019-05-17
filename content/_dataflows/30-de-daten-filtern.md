@@ -4,7 +4,8 @@ title: Daten filtern
 menu_title: Daten filtern
 description: Daten filtern
 lang: de
-ref: flow-30
+weight: 3000
+ref: flow-3000
 ---
 Der Dataflow-Schritt "Filter" stellt ein mächtiges Werkzeug dar, um nicht benötigte Daten nach einer gewissen Logik zu löschen. Wenn Sie beispielsweise Lagertransaktionsdaten aus einem Vorsystem für zwei Lagerbereiche bekommen, aber beide Bereiche separat betrachten wollen (z.B. mit einer Auslastungskennzahl für den einen und den anderen Bereich), würde man typischerweise zwei Dataflows anlegen und gleich zu Beginn die Daten des jeweils anderen Bereichs per Filter löschen. So machen Sie aus einer gemischten Datenquelle zwei Separate.
 

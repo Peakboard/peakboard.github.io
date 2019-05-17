@@ -4,7 +4,8 @@ title: SAP
 menu_title: SAP
 description: Peakboard中关于SAP数据的信息
 lang: cn
-ref: dat-10
+weight: 1000
+ref: dat-1000
 ---
 本页解释了从Peakboard访问SAP数据源时的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 

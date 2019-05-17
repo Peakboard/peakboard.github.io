@@ -5,7 +5,7 @@ menu_title: Peakboard Runtime的安装
 description: Peakboard Runtime的安装
 lang: cn
 weight: 1100
-ref: admin-11
+ref: admin-1100
 ---
 
 安装Peakboard Designer时，通常也会安装Peakboard Runtime。

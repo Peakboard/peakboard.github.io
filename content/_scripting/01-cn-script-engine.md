@@ -4,7 +4,8 @@ title: Peakboard脚本引擎
 menu_title: Peakboard脚本引擎
 description: 关于Peakboard脚本引擎的信息
 lang: cn
-ref: scr-01
+weight: 100
+ref: scr-100
 ---
 Peakboard的一个基本思想是，终端用户并不一定必须是程序员，就像许多其他解决方法一样。应该在不使用脚本的情况下完成尽可能多的功能。脚本通常用于以下情况：
 

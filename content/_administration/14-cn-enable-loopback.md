@@ -5,7 +5,7 @@ menu_title: 启用环回
 description: 为UWP应用启用环回
 lang: cn
 weight: 1400
-ref: admin-14
+ref: admin-1400
 ---
 
 对于UWP应用，默认情况是不允许通过本地环回访问本地网络资源。

@@ -4,7 +4,8 @@ title: Webpage
 menu_title: Webpage
 description: Information über Webpage Daten in Peakboard
 lang: de
-ref: dat-09
+weight: 900
+ref: dat-900
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Tabelle, die auf einer Webseite enthalten ist. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 

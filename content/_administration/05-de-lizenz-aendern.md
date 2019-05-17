@@ -5,7 +5,7 @@ menu_title:  Lizenz ändern
 description:  Lizenz ändern
 lang: de
 weight: 500
-ref: admin-07
+ref: admin-500
 ---
 
 Fällt bei einer gekauften Peakboard Pro Box die Entscheidung für ein Upgrade auf die Enterprise Version, so ist es notwendig den Lizenzschlüssel auszutauschen.

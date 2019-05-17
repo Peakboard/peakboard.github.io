@@ -4,7 +4,8 @@ title: 介绍和概述
 menu_title: 介绍和概述
 description: 介绍和概述
 lang: cn
-ref: dat-32
+weight: 3200
+ref: dat-3200
 ---
 [Peakboard.io](https://peakboard.io) 是一个基于云的门户，它允许Peakboard用户执行简单的管理任务、设计和数据维护。它将被视为对某些用户组的补充或简化，但不是必须的。Peakboard Designer和Runtime的传统组合足以满足所有需求，而无需接通互联网。Peakboard.io是为特定场景的加速器或简化器。
 

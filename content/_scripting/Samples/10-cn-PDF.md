@@ -5,7 +5,7 @@ menu_title: PDF脚本示例
 description: PDF脚本示例
 lang: cn
 weight: 1000
-ref: scr-10
+ref: scr-1000
 ---
 在该脚本示例中，解释了自动启动的PDF演示文稿的脚本。
 

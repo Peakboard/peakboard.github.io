@@ -5,7 +5,7 @@ menu_title: 在Windows更新后，无法再通过Peakboard Designer访问Peakboa
 description: 在Windows更新后，无法再通过Peakboard Designer访问Peakboard
 lang: cn
 weight: 1500
-ref: admin-15
+ref: admin-1500
 ---
 
 Windows IoT Core更新从1803到1809，这阻止了从Peakboard Designer的连接及访问Device Portal。再次启用访问是必需的：

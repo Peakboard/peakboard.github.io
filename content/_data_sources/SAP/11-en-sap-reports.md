@@ -4,7 +4,8 @@ title: Installing Function Modules for SAP Reports
 menu_title: Installing Function Modules for SAP Reports
 description: Installing Function Modules for SAP Reports Tutorial
 lang: en
-ref: dat-11
+weight: 1100
+ref: dat-1100
 ---
 
 To use SAP reports in Peakboard, it is necessary to install a customer-specific function module in the SAP system.

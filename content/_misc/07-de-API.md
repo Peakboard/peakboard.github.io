@@ -4,7 +4,8 @@ title: Peakboard API
 menu_title: Peakboard API
 description: Peakboard API
 lang: de
-ref: misc-07
+weight: 700
+ref: misc-700
 ---
 
 Um Daten aus einer Variablen oder List Datenquelle über die API abgreifen zu können werden nachfolgende Informationen benötigt. Ebenso werden diese Benötigt um Werte in ein List Element oder eine Variable zu schreiben.

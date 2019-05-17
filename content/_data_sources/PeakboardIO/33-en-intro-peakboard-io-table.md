@@ -4,7 +4,8 @@ title: Peakboard.io Table
 menu_title: Peakboard.io Table
 description: Peakboard.io Table
 lang: en
-ref: dat-33
+weight: 3300
+ref: dat-3300
 ---
 Within the [Peakboard.io](https://peakboard.io) portal, you can maintain table objects. These tables can then be included in the Designer just like other data sources. Please see this [tutorial](/data_sources/PeakboardIO/32-en-intro-peakboard-io.html) on using the portal and the API key to access Peaboard.io objects.
 

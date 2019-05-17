@@ -4,7 +4,8 @@ title: Versionshistorie
 menu_title: Versionshistorie
 description: Versionshistorie
 lang: de
-ref: misc-06
+weight: 600
+ref: misc-600
 ---
 
 ## 1.2.2.0 (23.04.2019)

@@ -4,7 +4,8 @@ title: Google Docs
 menu_title: Google Docs
 description: Information über Peakboard Designer Google Docs Control.
 lang: de
-ref: con-05
+weight: 500
+ref: con-500
 ---
 
 Dieser Artikel beschreibt die Einbindung von Google Docs Dokumenten in ein Peakboard-Panel. Es werden alle drei Arten von Dokumenten unterstützt: Docs (normale Dokumente wie man sie aus MS Word kennt), Slides (so wie aus MS PowerPoint) und Spreadsheet (so wie aus MS Excel). In Google Drive können natürlich noch viele andere Dokumente abgelegt werden, aber das Google Docs Control unterstützt nur diese drei Haupttypen, die unter dem Begriff „Google Docs“ zusammengefasst werden.

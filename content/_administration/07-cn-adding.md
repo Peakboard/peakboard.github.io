@@ -5,7 +5,7 @@ menu_title: 将Peakboard Box添加到Peakboard Designer中
 description: 将Peakboard Box添加到Peakboard Designer中
 lang: cn
 weight: 700
-ref: admin-07
+ref: admin-700
 ---
 
 如要将Peakboard Box添加到Peakboard Designer中，请单击Peakboard Designer区域顶部菜单栏中的“管理”按钮。将会打开一个新窗口。

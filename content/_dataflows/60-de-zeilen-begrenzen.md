@@ -4,7 +4,8 @@ title: Zeilenanzahl begrenzen
 menu_title: Zeilenanzahl begrenzen
 description: Zeilenanzahl begrenzen
 lang: de
-ref: flow-60
+weight: 6000
+ref: flow-6000
 ---
 Es gibt drei unterschiedliche Schritte, um die Anzahl der Zeilen zu begrenzen:
 

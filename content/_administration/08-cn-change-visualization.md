@@ -5,7 +5,7 @@ menu_title: 更改可视化
 description: 更改可视化
 lang: cn
 weight: 800
-ref: admin-08
+ref: admin-800
 ---
 
 如要更改Peakboard Box当前可视化，请单击Designer中的“管理”。在新窗口中，单击所需Peakboard Box右侧的下拉菜单。选择菜单项“激活Peakboard”。

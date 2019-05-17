@@ -4,7 +4,8 @@ title: XML
 menu_title: XML
 description: Information about XML Data in Peakboard
 lang: en
-ref: dat-08
+weight: 800
+ref: dat-800
 ---
 In the two introductory tutorials, only static content was used in the visualization. But all this only becomes really exciting when the design displays dynamic data. Basically, Peakboard distinguishes between two main concepts for embedding dynamic content:
 

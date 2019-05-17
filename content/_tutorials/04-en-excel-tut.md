@@ -4,7 +4,8 @@ title: Including Excel File From a Network Drive
 menu_title: Including Excel File From a Network Drive
 description: Including Excel File From a Network Drive
 lang: en
-ref: tut-04
+weight: 400
+ref: tut-400
 ---
 Peakboard supports a variety of beautiful data sources; often newcomers just like to use Excel. A normal documentation on Excel as a data source can be found at [here.](/data_sources/13-en-excel.html) This step-by-step tutorial shows the complete process from including the file to preparing the data in a small chart.
 
