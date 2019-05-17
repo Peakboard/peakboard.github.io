@@ -4,7 +4,8 @@ title: Welcome Screen
 menu_title: Welcome Screen
 description: Plug&Play Solution to create your Welcome Screen
 lang: en
-ref: tut-06
+weight: 600
+ref: tut-600
 ---
 
 In order to get into the creation of a welcome screen as simple as possible, we offer ready-made templates. This is a step by step guide on how to create your personal welcome screen with these templates. For a general introduction to Peakboard, see the [first steps](https://peakboard.rocks/get-started). If you would like to know how to connect a peakboard box to your designer and transfer a visualization, please read the following [article](https://peakboard.rocks/connect). To create a visualization you need the Peakboard Designer. This can be downloaded [for free](https://peakboard.rocks/designer-from-welcome-en).
