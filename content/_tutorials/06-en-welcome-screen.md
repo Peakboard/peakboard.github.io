@@ -57,7 +57,7 @@ This setting defines from which data source the Peakboard Box obtains the curren
 
 If you do not want to use this weather widget, you can simply clear the element from the visualization in the Peakboard Designer. Select it with a right-click and choose 'Delete'.
 
-If you want to use the Weather Widget, you can create your own widget with your city at the following address: https://weatherwidget.io/.
+If you want to use the Weather Widget, you can create your own widget with your city at the following address: [https://weatherwidget.io/](https://weatherwidget.io/).
 
 You can then define parameters such as city, language, the texts to be displayed and the unit.
 On the other tabs there are many more ways to customize the weather widget to your needs.
