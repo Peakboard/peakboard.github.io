@@ -17,7 +17,7 @@ If these changes should also be available after a restart of the box or the visu
 
 To manage variables and lists comfortably from your smartphone, the app is called "Peakboard Manager" which can be downloaded from the [Apple App Store](https://itunes.apple.com/de/app/peakboard-manager/id1148615440?mt=8) or [Google Play Store](https://play.google.com/store/apps/details?id=com.peakboard.manager&hl=en).
 
-The following screenshots show how to use the app using the example [Welcome screen](/tutorials/Instant%20Boards/05-en-welcome.html).
+The following screenshots show how to use the app using the example [Welcome screen](https://peakboard.rocks/welcome).
 If the app is successfully installed on the smartphone, the first Peakboard Box can be added via the + symbol (1). 
 The prerequisite for this is that the box and smartphone are in the same network or connected via VPN, analogous to adding in the Designer.
 In the following dialog, enter the name of the box and the supplied login data and confirm with the check mark (2).
