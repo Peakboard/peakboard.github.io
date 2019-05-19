@@ -6,6 +6,8 @@ description: 动态查询
 lang: cn
 weight: 700
 ref: scr-700
+redirect_from:
+  - /scripting/07-cn-dynamic-queries.html
 ---
 对数据源的查询通常必须动态设计，取决于特定的上下文。示例：一名最终用户通过文本字段输入日期，数据源将向主机系统发送请求，以满足用户的要求。为此，将创建包含最终用户所需日期的动态SQL语句。本文展示了设计这种动态查询的标准过程。
 

@@ -6,6 +6,8 @@ description: Information about Azure Event Hub Data in Peakboard
 lang: en
 weight: 1900
 ref: dat-1900
+redirect_from:
+  - /data_sources/19-en-azure-event-hub.html
 ---
 The following article shows the connection of Peakboard to an Azure Event Hub. In particular, this involves reacting to specific events in real time from the Peakboard. This procedure is mainly used to integrate Peakboard as part of a landscape that already exchanges events via event hubs. Peakboard subscribes to a specific hub and the events can be easily integrated into a visualization.
 

@@ -6,6 +6,8 @@ description: Daten aggregieren und verdichten
 lang: de
 weight: 5000
 ref: flow-5000
+redirect_from:
+  - /dataflows/50-de-daten-aggregerien.html
 ---
 Daten zu aggregieren (bzw. zu verdichten, was dasselbe ist) ist ein absolut gängiger Anwendungsfall bei der Datenaufbereitung. Typische Beispiele sind Verkaufsdaten mit einzelnen Transaktionen. Die sind aber einzeln langweilig. Was den Betrachter später interessiert sind einzelne, komprimierte Zahlen wie der gesamte Umsatz über alle Transaktionen oder die drei umsatzstärksten Kunden. Genau solche Verdichtungen kann man mit dem Aggregate-Schritt machen.
 Der folgende Dialog zeigt ein typisches Beispiel. Im oberen Bereich werden ein oder mehrere Aggregationsgruppen angeklickt. Das ist die Ebene, auf der die Aggregation erfolgen soll. Im Beispiel sind das die Spalten Material und Kunde. Wir werden später also Kennzahlen auf der Ebene von allen Kunde/Material-Kombinationen erhalten. Jede Kombination aus Kunde und Material ist im Ergebnis eindeutig.

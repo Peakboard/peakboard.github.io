@@ -6,6 +6,8 @@ description: Information about Slack data in Peakboard
 lang: en
 weight: 2500
 ref: dat-2500
+redirect_from:
+  - /data_sources/25-en-slack.html
 ---
 Slack is the tool of choice when it comes to communicating, discussing and coordinating tasks in teams quickly and easily. Peakboard's slack data source allows the user to retrieve messages from a channel at user-defined intervals, as is usual for Peakboard. On the other hand, messages can be read and written in real time via Slack's WebSocket and WebHook interfaces. Thus, the slack connection can not only be used to visualize chat processes, but also to communicate in real time with Peakboard boxes in the network or to let Peakboards communicate with each other.
 

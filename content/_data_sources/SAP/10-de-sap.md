@@ -6,7 +6,8 @@ description: Information über SAP Daten in Peakboard
 lang: de
 weight: 1000
 ref: dat-1000
-
+redirect_from:
+  - /data_sources/SAP/10-de-sap.html
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine SAP-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 

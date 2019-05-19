@@ -6,6 +6,8 @@ description: Eigenschaften (Properties) nutzen
 lang: de
 weight: 600
 ref: scr-600
+redirect_from:
+  - /scripting/06-de-eigenschaften-properties.html
 ---
 Dieser Artikel beschreibt den Gebrauch so genannter Properties (oder zu deutsch Eigenschaften). Im weitesten Sinne sind das konstante Werte, die hauptsächlich in Scripten verwendet werden. Solche Konstanten können entweder für eine einzelne Visualisierung angelegt werden, oder für die komplette Box, auf der die Visualisierung läuft.
 

@@ -6,6 +6,8 @@ description: 键盘输入脚本示例
 lang: cn
 weight: 1100
 ref: scr-1100
+redirect_from:
+  - /scripting/Samples/11-cn-keyinputs.html
 ---
 该脚本示例解释了如何使用键盘命令来控制Peakboard Box。
 

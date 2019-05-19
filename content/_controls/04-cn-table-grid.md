@@ -6,6 +6,8 @@ description: Peakboard Designer中表格网格控件相关信息。
 lang: cn
 weight: 400
 ref: con-400
+redirect_from:
+  - /controls/04-cn-table-grid.html
 ---
 
 “表格网格”控件用于以表格形式显示数据。除了简单的文本块，它是最常用的控件。请注意以下控件的一般信息和重复操作模式：

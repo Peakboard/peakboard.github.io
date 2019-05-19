@@ -6,6 +6,8 @@ description: 使用自定义字体
 lang: cn
 weight: 500
 ref: misc-500
+redirect_from:
+  - /misc/05-cn-custom-fonts.html
 ---
 默认情况下，Peakboard支持一整系列预定义Windows字体；适用于文本框、表格以及用于可视化的任何地方的文本。
 

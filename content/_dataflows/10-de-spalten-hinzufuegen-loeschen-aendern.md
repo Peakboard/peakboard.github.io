@@ -6,6 +6,8 @@ description: Spalten hinzufügen, löschen und ändern
 lang: de
 weight: 1000
 ref: flow-1000
+redirect_from:
+  - /dataflows/10-de-spalten-hinzufuegen-loeschen-aendern.html
 ---
 Dieser Abschnitt beschreibt die Schritte zum Erzeugen neuer Spalten, Löschen und Ändern der Metadaten (wie zum Beispiel der Datentyp).
 

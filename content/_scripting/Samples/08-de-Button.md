@@ -6,6 +6,8 @@ description: Button Script Beispiel
 lang: de
 weight: 800
 ref: scr-800
+redirect_from:
+  - /scripting/Samples/08-de-Button.html
 ---
 Unter dem Untermenü Input finden sich Controls, die die Möglichkeit bieten, mit der Peakboard Box zu interagieren.
 Darunter auch das Button Control, dieses kann über ein einfaches Klicken ein Script ausführen. 

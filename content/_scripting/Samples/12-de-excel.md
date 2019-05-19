@@ -6,6 +6,8 @@ description: Schreiben nach Excel
 lang: de
 weight: 1200
 ref: scr-1200
+redirect_from:
+  - /scripting/Samples/12-de-excel.html
 ---
 
 Damit ein Schreiben nach Excel möglich ist, muss das entsprechende .xls-File als Bridge-Datenquelle über einen ODBC-Request eingebunden werden. Eine Anleitung dazu findet sich [hier](/data_sources/31-de-ODBC-Excel.html).

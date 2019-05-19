@@ -6,6 +6,8 @@ description: How to set variables and lists using App-Push.
 lang: en
 weight: 1000
 ref: misc-1000
+redirect_from:
+  - /misc/10-en-app.html
 ---
 
 Variables and lists can be set or changed outside the designer and the box via the Peakboard App or Web access.

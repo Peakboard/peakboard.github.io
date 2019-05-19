@@ -6,6 +6,8 @@ description: Managing Font Formats With Font Manager
 lang: en
 weight: 400
 ref: misc-400
+redirect_from:
+  - /misc/04-en-fonts.html
 ---
 
 Peakboard offers a font manager for managing fonts and formats. In the upper part of the Peakboard-Designer, go to the Format tab. Click here on the button Fonts. A new window will open, listing all available fonts.

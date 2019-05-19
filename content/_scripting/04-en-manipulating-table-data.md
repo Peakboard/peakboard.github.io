@@ -6,6 +6,8 @@ description: Manipulating Table Data
 lang: en
 weight: 400
 ref: scr-400
+redirect_from:
+  - /scripting/04-en-manipulating-table-data.html
 ---
 Peakboard-Scripting often uses tabular objects. This can be either data from a data source or a table-like variable. The following is a list of all the standard activities that you can perform with tables to manipulate the data. In the examples, a static table with customer data is used:
 ![image_1](/assets/images/scripting/table-2/ScriptingTabellendatenManipulieren.png)

@@ -6,6 +6,8 @@ description: Filter Data
 lang: en
 weight: 3000
 ref: flow-3000
+redirect_from:
+  - /dataflows/30-en-filter-data.html
 ---
 The Dataflow step "Filter" is a powerful tool for deleting unneeded data according to a certain logic. For example, if you receive warehouse transaction data from a source system for two storage locations, but want to look at both areas separately (for example, with a key figure for one area and the other separately), you would typically create two data flows and delete the data for the other area using a filter right at the beginning. This turns a mixed data source into two separate data sources.
 

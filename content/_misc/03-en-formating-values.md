@@ -6,6 +6,8 @@ description: Formating Values
 lang: en
 weight: 300
 ref: misc-300
+redirect_from:
+  - /misc/03-en-formating-values.html
 ---
 
 Usually these are either numbers or dates. Both types of values are characterised by the fact that they are usually to be displayed differently from the purely technical ones. For example, the value “2.96583” should be presented to the user as an amount “2,97 €” or “20170620” as a nicely formatted date “20.06.2017”. There are format properties at various points in the controls that all work according to the same principle. The following screenshot shows the formatting property of a text block:

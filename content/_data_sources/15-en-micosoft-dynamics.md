@@ -6,6 +6,8 @@ description: Information about Microsoft Dynamics NAV Data in Peakboard
 lang: en
 weight: 1500
 ref: dat-1500
+redirect_from:
+  - /data_sources/15-en-microsoft-dynamics.html
 ---
 
 This page explains the individual features when accessing the Dynamics NAV data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard-Elements:

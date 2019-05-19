@@ -6,6 +6,8 @@ description: 附加资源
 lang: cn
 weight: 100
 ref: misc-100
+redirect_from:
+  - /misc/01-cn-ressources.html
 ---
 
 除了屏幕和数据源，资源是Peakboard可视化的第三大支柱。资源可以是可视化所需的任何东西：图像、字体、脚本、数据文件（例如Excel）。在最简单的情况下，相应的资源直接静态地存储在Peakboard Package中。然而，资源也可以是动态的，例如，可以通过URL检索，存储在云存储器（Dropbox、Google云端硬盘、OneDrive）中，或者存储在相同网络内的共享驱动器上（Bridge资源）。本文对所有这些选项都按照其在菜单中出现的顺序进行了解释（见下面的截图）。

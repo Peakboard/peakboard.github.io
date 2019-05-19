@@ -6,6 +6,8 @@ description: Information about Twitter Data in Peakboard
 lang: en
 weight: 1700
 ref: dat-1700
+redirect_from:
+  - /data_sources/17-en-twitter.html
 ---
 Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard-Elements.
 

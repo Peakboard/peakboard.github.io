@@ -6,6 +6,8 @@ description: 安装SAP报告功能模块的教程
 lang: cn
 weight: 1100
 ref: dat-1100
+redirect_from:
+  - /data_sources/SAP/11-cn-sap-reports.html
 ---
 
 如需在Peakboard中使用SAP报告，则需要在SAP系统中安装客户专用功能模块。如果您自己无法完成，请寻求您的SAP基础部门同事的帮助。首先创建一个功能组（例如，名称为EXPREST）来创建模块。然后创建一个新的功能模块。名称应该为Z_XTRACT_IS_REMOTE_REPORT，但在必要情况下可以进行更改。将模块的属性定义为支持远程功能，并创建导入、导出和表参数，如下面截图所示。

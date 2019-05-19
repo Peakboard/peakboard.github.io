@@ -6,6 +6,8 @@ description: Google Spreadsheets
 lang: en
 weight: 3000
 ref: dat-3000
+redirect_from:
+  - /data_sources/30-en-google-spreadsheets.html
 ---
 The Google Spreadsheets data source is used to extract tabular data from Google Spreadsheets and then use it in Peakboard like any other data source.
 

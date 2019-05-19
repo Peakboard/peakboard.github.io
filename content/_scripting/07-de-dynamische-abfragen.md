@@ -6,6 +6,8 @@ description: Dynamische Abfragen
 lang: de
 weight: 700
 ref: scr-700
+redirect_from:
+  - /scripting/07-de-dynamische-abfragen.html
 ---
 Oft kommt es vor, dass Abfragen gegen eine Datenquelle dynamisch gestaltet werden müssen; sprich in Abhängigkeit eines bestimmten Kontextes. Beispiel: Ein End-Anwender gibt über ein Textfeld ein Datum ein und die Datenquelle soll die Anfrage an das Vorsystem stellen, so dass sie den User-Eingaben gerecht wird. Dazu wird ein dynamisches SQL-Statement erzeugt, dass das gewünschte Datum des End-Anwenders enthält. Dieser Artikel zeigt die Standardvorgehensweise wie solch eine dynamische Abfrage gestaltet wird.
 

@@ -6,6 +6,8 @@ description: 限制行数
 lang: cn
 weight: 6000
 ref: flow-6000
+redirect_from:
+  - /dataflows/60-cn-restrict-rows.html
 ---
 限制行数有三个不同的步骤：
 

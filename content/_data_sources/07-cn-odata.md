@@ -6,6 +6,8 @@ description: Peakboard中OData数据的相关信息
 lang: cn
 weight: 700
 ref: dat-700
+redirect_from:
+  - /data_sources/07-cn-odata.html
 ---
 此页面介绍了从Peakboard访问OData数据源时的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 

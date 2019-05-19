@@ -6,6 +6,8 @@ description: Information über Statische Daten in Peakboard
 lang: de
 weight: 100
 ref: dat-100
+redirect_from:
+  - /data_sources/01-de-variablen.html
 ---
 Normalerweise bedeutet der Begriff „Datenquelle“, dass Daten aus irgendeinem Vorsystem geholt werden, sei es nun eine Datenbank, ein ERP-System oder einfach nur aus dem Web mit Hilfe einer generischen Quelle wie JSon oder XML. In Peakboard werden auch statische Daten als „Datenquelle“ bezeichnet, die sich dadurch auszeichnen, dass die Daten eben gerade nicht aus einem anderen Ort stammen, sondern lokal im Paket hinterlegt sind. Es gibt im Wesentlichen zwei Gründe, wofür man diese statischen Datenquellen braucht:
 

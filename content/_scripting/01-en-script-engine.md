@@ -6,6 +6,8 @@ description: Informatinon about  the Peakboard Script Engine
 lang: en
 weight: 100
 ref: scr-100
+redirect_from:
+  - /scripting/01-en-script-engine.html
 ---
 One of the basic ideas behind Peakboard is that the end user does not have to be a programmer, as is the case with many other solutions. As many functions as possible should be done without using a script. Scripts are usually used when
 

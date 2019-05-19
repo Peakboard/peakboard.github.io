@@ -6,6 +6,8 @@ description: PDF Script Beispiel
 lang: de
 weight: 1000
 ref: scr-1000
+redirect_from:
+  - /scripting/Samples/10-de-PDF.html
 ---
 In diesem Scripting Beispiel wird das Script für eine PDF Präsentation die automatisch startet erklärt.
 

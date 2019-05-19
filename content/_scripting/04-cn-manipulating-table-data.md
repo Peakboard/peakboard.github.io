@@ -6,6 +6,8 @@ description: 操纵表格数据
 lang: cn
 weight: 400
 ref: scr-400
+redirect_from:
+  - /scripting/04-cn-manipulating-table-data.html
 ---
 Peakboard脚本通常使用表格对象。这可以是来自数据源的数据，也可以是类似表格的变量。以下是所有标准活动的列表，您可以使用表格来操作数据。在示例中，使用了包含客户数据的静态表：
 ![image_1](/assets/images/scripting/table-2/ScriptingTabellendatenManipulieren.png)

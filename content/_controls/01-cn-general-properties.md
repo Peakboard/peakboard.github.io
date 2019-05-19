@@ -6,6 +6,8 @@ description: 关于Peakboard Designer一般属性的信息。
 lang: cn
 weight: 100
 ref: con-100
+redirect_from:
+  - /controls/01-cn-general-properties.html
 ---
 
 右上角“工具箱”中可用的所有“控件”均具有属性。一方面，这包括只适用于相关“控件”的特殊属性，另一方面也包括在几乎所有“控件”或至少在许多“控件”中都可以找到的一般属性。为避免在每个帮助页面上反复解释所有属性，下面的列表汇总了多种“控件”共有的属性。

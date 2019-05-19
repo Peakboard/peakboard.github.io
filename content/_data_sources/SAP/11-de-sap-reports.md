@@ -6,6 +6,8 @@ description: Funktionsbaustein für SAP Reports installieren
 lang: de
 weight: 1100
 ref: dat-1100
+redirect_from:
+  - /data_sources/SAP/11-de-sap-reports.html
 ---
 
 Für die Verwendung von SAP-Reports in Peakboard ist es notwendig einen kundeneigenen Funktionsbaustein im SAP-System zu installieren.

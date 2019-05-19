@@ -6,6 +6,8 @@ description: Peakboard中RSS Feeds数据的相关信息
 lang: cn
 weight: 400
 ref: dat-400
+redirect_from:
+  - /data_sources/04-cn-feed.html
 ---
 Feed数据源非常简单。它用于在Peakboard中使用RSS Feeds。
 

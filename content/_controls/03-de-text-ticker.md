@@ -6,6 +6,8 @@ description: Information über Peakboard Designer Text-Ticker Control.
 lang: de
 weight: 300
 ref: con-300
+redirect_from:
+  - /controls/03-de-text-ticker.html
 ---
 
 Das Control TextTicker ist dazu gedacht, einen Lauftext darzustellen. Bitte beachten Sie folgende, generelle Zusatzinfos:

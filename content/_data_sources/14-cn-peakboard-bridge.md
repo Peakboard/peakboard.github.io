@@ -6,6 +6,8 @@ description: Peakboard中Peakboard Bridge数据的有关信息
 lang: cn
 weight: 1400
 ref: dat-1400
+redirect_from:
+  - /data_sources/14-cn-peakboard-bridge.html
 ---
 Peakboard最重要的概念之一是Peakboard Box被认为是自给自足的，与没有服务器或其他中间件的其他可视化概念相比，它可以直接与所有连接的上游系统通信。某些情况下，这不是完全可持续的。对于Oracle和一般ODBC访问的情况，Peakboard需要Peakboard Bridge。这是一项精益Windows服务，通常安装在服务器上，资源需求非常小。然后，Peakboard Box访问Bridge，这将访问数据库。自2018年春起，我们一直努力废除Bridge作为进一步开发的必要条件。然而，在成功之前，仍需要它。
 

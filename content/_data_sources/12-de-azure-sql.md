@@ -6,6 +6,8 @@ description: Information über Azure SQL Daten in Peakboard
 lang: de
 weight: 1200
 ref: dat-1200
+redirect_from:
+  - /data_sources/12-de-azure-sql.html
 ---
 
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Azure-SQL-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:

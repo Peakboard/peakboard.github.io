@@ -6,6 +6,8 @@ description: Tastatureingabe Script Beispiel
 lang: de
 weight: 1100
 ref: scr-1100
+redirect_from:
+  - /scripting/Samples/11-de-keyinputs.html
 ---
 In diesem Scripting Beispiel wird erklärt, wie Tastaturbefehle genutzt werden können, um die Peakboard Box zu steuern.
 

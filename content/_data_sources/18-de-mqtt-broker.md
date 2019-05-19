@@ -6,6 +6,8 @@ description: Information über MQTT-Broker Daten in Peakboard
 lang: de
 weight: 1800
 ref: dat-1800
+redirect_from:
+  - /data_sources/18-de-mqtt-broker.html
 ---
 Die Datenquelle MQTT-Broker bietet den Zugang zum Subscription-Modell eines MQTT-Servers (siehe [https://de.wikipedia.org/wiki/MQTT](https://de.wikipedia.org/wiki/MQTT)). Wie das Protokoll selbst ist auch die Konfiguration recht einfach und wird im folgenden Screenshot dargestellt. Im Wesentlichen ist nur der Server anzugeben. Die Angabe des Ports ist optional genauso wie die Angabe von User-Name und Passwort (zu erreichen über den kleinen Button mit den drei Punkten). Falls Sie keinen MQTT-Server zur Verfügung haben, nehmen Sie einfach [test.mosquitto.org](http://test.mosquitto.org/). Er ist öffentlich zugänglich.
 

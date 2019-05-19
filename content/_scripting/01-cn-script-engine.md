@@ -6,6 +6,8 @@ description: 关于Peakboard脚本引擎的信息
 lang: cn
 weight: 100
 ref: scr-100
+redirect_from:
+  - /scripting/01-cn-script-engine.html
 ---
 Peakboard的一个基本思想是，终端用户并不一定必须是程序员，就像许多其他解决方法一样。应该在不使用脚本的情况下完成尽可能多的功能。脚本通常用于以下情况：
 

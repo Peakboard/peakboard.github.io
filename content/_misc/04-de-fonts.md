@@ -6,6 +6,8 @@ description: Verwalten von Schriftformaten mit dem Font Manager
 lang: de
 weight: 400
 ref: misc-400
+redirect_from:
+  - /misc/04-de-fonts.html
 ---
 
 Zum Verwalten von Schriftarten und Formaten bietet Peakboard einen Schriftartenmanager. Gehen Sie dafür im oberen Teil des Peakboard-Designers auf den Reiter Format. Klicken Sie hier auf den Button Fonts. Daraufhin öffnet sich ein neues Fenster, in dem alle vorhandene Schriftarten aufgelistet sind.

@@ -6,6 +6,8 @@ description: Connecting and Transferring Your First Visualization
 lang: en
 weight: 200
 ref: tut-200
+redirect_from:
+  - /tutorials/02-en-peakboard-connecting.html
 ---
 This tutorial shows you how to put the Peakboard-Box into operation and transfer its first design to the box. If you haven’t read it yet, we recommend the basics tutorial for an introduction to the designer:
 

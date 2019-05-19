@@ -8,6 +8,7 @@ weight: 1300
 ref: dat-1300
 redirect_from:
   - /en/datasources-excel/
+  - /data_sources/13-en-excel.html
 ---
 This page explains the individual features when accessing an Excel data source from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 

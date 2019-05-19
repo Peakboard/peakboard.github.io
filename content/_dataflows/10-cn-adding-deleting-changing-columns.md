@@ -6,6 +6,8 @@ description: 添加、删除和更改列
 lang: cn
 weight: 1000
 ref: flow-1000
+redirect_from:
+  - /dataflows/10-cn-adding-deleting-changing-columns.html
 ---
 本节将介绍创建新列、删除和更改元数据（例如数据类型）的步骤。
 

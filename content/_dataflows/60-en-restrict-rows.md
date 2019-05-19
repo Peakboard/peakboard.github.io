@@ -6,6 +6,8 @@ description: Limit Number of Rows
 lang: en
 weight: 6000
 ref: flow-6000
+redirect_from:
+  - /dataflows/60-en-restrict-rows.html
 ---
 There are three different steps to limit the number of lines:
 

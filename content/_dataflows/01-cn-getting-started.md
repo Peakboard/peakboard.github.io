@@ -6,6 +6,8 @@ description: 数据流 - 入门
 lang: cn
 weight: 100
 ref: flow-100
+redirect_from:
+  - /dataflows/01-cn-getting-started.html
 ---
 在Peakboard中，数据源负责数据收集。他们与所有类型的源系统通信，并以表格形式传递数据（少数例外）。您可以从控件访问此类表格数据并直接显示，或者使用编制数据的脚本。可以点击[此处](../scripting/03-cn-table-data.html)或[此处](../scripting/04-cn-manipulating-table-data.html)找到相关示例。本节中讨论的数据流可进行各种数据转换，这其中需要少量或不需要任何脚本知识。您使用数据流所执行的典型操作为
 

@@ -8,6 +8,7 @@ weight: 300
 ref: tut-300
 redirect_from:
   - /en/getting-started-with-external-data-sources-using-the-example-of-an-xml-data-source/
+  - /tutorials/03-en-xml-data.html
 ---
 In the two introductory tutorials, only static content was used in the visualization. But all this only becomes really exciting when the design displays dynamic data. Basically, Peakboard distinguishes between two main concepts for embedding dynamic content:
 

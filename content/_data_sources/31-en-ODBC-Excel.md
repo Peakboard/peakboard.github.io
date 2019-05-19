@@ -6,6 +6,8 @@ description: Integrating Excel via ODBC
 lang: en
 weight: 3100
 ref: dat-3100
+redirect_from:
+  - /data_sources/31-en-ODBC-Excel.html
 ---
 
 Details on how to install the bridge can be found [here](/administration/01-en-install.html) and further information on the bridge data source [here](/data_sources/14-en-peakboard-bridge.html).

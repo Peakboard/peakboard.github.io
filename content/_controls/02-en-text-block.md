@@ -6,6 +6,8 @@ description: Information about Peakboard Designer TextBox Control.
 lang: en
 weight: 200
 ref: con-200
+redirect_from:
+  - /controls/02-en-text-block.html
 ---
 
 The Control Textblock is intended to display individual texts or to label something. The content is set using the Text property. All other features are either self-explanatory or can be used together with known operating patterns:

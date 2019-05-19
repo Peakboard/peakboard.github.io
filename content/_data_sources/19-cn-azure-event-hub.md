@@ -6,6 +6,8 @@ description: Peakboard中Azure事件中心数据的相关信息
 lang: cn
 weight: 1900
 ref: dat-1900
+redirect_from:
+  - /data_sources/19-cn-azure-event-hub.html
 ---
 以下文章展示了Peakboard与Azure事件中心的连接。具体来说，这涉及到从Peakboard实时响应特定事件。此程序主要用于将Peakboard集成为已通过事件中心交换事件的环境的一部分。Peakboard订阅到一个特定中心，这些事件可以很容易地集成到可视化中。
 

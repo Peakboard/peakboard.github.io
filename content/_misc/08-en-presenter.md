@@ -6,6 +6,8 @@ description: Switch visualization with a presenter
 lang: en
 weight: 800
 ref: misc-800
+redirect_from:
+  - /misc/08-en-presenter.html
 ---
 
 In some cases, such as the display of information on the shop floor, a single dashboard is not enough. 

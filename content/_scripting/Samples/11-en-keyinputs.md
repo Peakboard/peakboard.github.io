@@ -6,6 +6,8 @@ description: Key Input Script Example
 lang: en
 weight: 1100
 ref: scr-1100
+redirect_from:
+  - /scripting/Samples/11-en-keyinputs.html
 ---
 This scripting example explains how to use keyboard commands to control the Peakboard Box.
 

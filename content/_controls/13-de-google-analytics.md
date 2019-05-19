@@ -6,6 +6,8 @@ description: Information über Peakboard Designer Google Analytics Reports Contr
 lang: de
 weight: 1300
 ref: con-1300
+redirect_from:
+  - /controls/13-de-google-analytics.html
 ---
 
 Für das Erstellen von Google Analytics Reports ist zwingend ein Peakboard.io-Account nötig. Der GA-Report wird im [Peakboard.io-Portal](/data_sources/PeakboardIO/33-de-intro-peakboard-io-table.html) definiert und dann mit Hilfe des entsprechenden Steuerelements im Designer eingebettet.

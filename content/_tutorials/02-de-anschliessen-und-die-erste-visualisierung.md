@@ -6,6 +6,8 @@ description: Anschließen und die erste Visualisierung übertragen
 lang: de
 weight: 200
 ref: tut-200
+redirect_from:
+  - /tutorials/02-de-anschliessen-und-die-erste-visualisierung.html
 ---
 Dieses Tutorial zeigt ihnen, wie Sie die Peakboard-Box in Betrieb nehmen und ihr erstes Design auf die Box übertragen. Falls Sie es noch nicht durchgelesen haben, empfehlen wir für die Einführung in den Designer das Basics-Tutorial:
 

@@ -6,6 +6,8 @@ description: 通过ODBC集成Excel
 lang: cn
 weight: 3100
 ref: dat-3100
+redirect_from:
+  - /data_sources/31-cn-ODBC-Excel.html
 ---
 
 请参见[此处](/administration/01-cn-install.html)了解安装Bridge的详细信息，参见[此处](/data_sources/14-en-peakboard-bridge.html)了解有关Bridge数据源的信息。

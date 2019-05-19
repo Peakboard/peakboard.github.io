@@ -6,6 +6,8 @@ description: Aggregate and Condense Data
 lang: en
 weight: 5000
 ref: flow-5000
+redirect_from:
+  - /dataflows/50-en-aggregate-data.html
 ---
 Aggregating data (or condesing data, which is the same) is an absolutely common use case for data preparation. A typical example would be sales data with individual transactions. They're boring one by one. What the viewer is later interested in are individual, aggregated figures such as the total turnover of all transactions or the three customers with the highest turnover. Exactly such calculation can be done with the aggregate step.
 The following dialog shows a typical example. One or more aggregation groups are clicked in the upper area. This is the level at which aggregation is to take place. In the example, these are the columns Material and Customer. We will therefore later receive key figures at the level of all customer/material combinations. Each combination of customer and material is unique in the result.

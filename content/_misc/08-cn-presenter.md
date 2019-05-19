@@ -6,6 +6,8 @@ description: 使用演示器切换可视化
 lang: cn
 weight: 800
 ref: misc-800
+redirect_from:
+  - /misc/08-cn-presenter.html
 ---
 
 

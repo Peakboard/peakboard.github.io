@@ -6,6 +6,8 @@ description: Peakboard中CSV数据的相关信息
 lang: cn
 weight: 500
 ref: dat-500
+redirect_from:
+  - /data_sources/05-cn-csv.html
 ---
 本文解释如何处理CSV格式数据的数据源。有关CSV的确切规范和更多信息，请查看[此处](https://en.wikipedia.org/wiki/Comma-separated_values)。
 

@@ -6,6 +6,8 @@ description: Peakboard中网页数据的相关信息
 lang: cn
 weight: 900
 ref: dat-900
+redirect_from:
+  - /data_sources/09-cn-webpage.html
 ---
 本页解释了访问网页中表格的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 

@@ -6,6 +6,8 @@ description: Peakboard中MQTT代理数据的相关信息
 lang: cn
 weight: 1800
 ref: dat-1800
+redirect_from:
+  - /data_sources/18-cn-mqtt-broker.html
 ---
 MQTT代理数据源提供对MQTT服务器订阅模型的访问（参见 [https://en.wikipedia.org/wiki/MQTT](https://en.wikipedia.org/wiki/MQTT)）。与协议本身一样，配置非常简单，如以下截图所示。本质上，只需指定服务器。端口规格以及用户名和密码的规格均可选（通过带有三个点的小按钮访问）。如果您没有MQTT服务器，只需使用 [test.mosquitto.org](http://test.mosquitto.org/) 即可向公众开放。
 

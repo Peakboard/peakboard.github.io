@@ -6,6 +6,8 @@ description: Peakboard API
 lang: en
 weight: 700
 ref: misc-700
+redirect_from:
+  - /misc/07-en-API.html
 ---
 
 In order to access data from a variable or List Data Source via the API, the following information is required. It is also needed to write values to a list element or variable.

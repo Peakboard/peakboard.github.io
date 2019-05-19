@@ -6,6 +6,8 @@ description: Information über Webpage Daten in Peakboard
 lang: de
 weight: 900
 ref: dat-900
+redirect_from:
+  - /data_sources/09-de-webpage.html
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Tabelle, die auf einer Webseite enthalten ist. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 

@@ -6,6 +6,8 @@ description: Peakboard中Slack数据的相关信息
 lang: cn
 weight: 2500
 ref: dat-2500
+redirect_from:
+  - /data_sources/25-cn-slack.html
 ---
 在团队中快速轻松地交流、讨论和协调任务时，Slack是首选工具。Peakboard的Slack数据源允许用户以用户定义的间隔从频道中检索消息，这和Peakboard一样。另一方面，消息可以通过Slack的WebSocket和WebHook接口实时读取和写入。因此，Slack连接不仅可以用于可视化聊天过程，还可以与网络中的Peakboard Box实时通信，或者让Peakboard彼此通信。
 

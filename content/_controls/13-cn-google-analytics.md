@@ -6,6 +6,8 @@ description: Peakboard Designer中Google Analytics（分析）报告控件相关
 lang: cn
 weight: 1300
 ref: con-1300
+redirect_from:
+  - /controls/13-cn-google-analytics.html
 ---
 
 创建Google Analytics（分析）报告必须设立一个Peakboard.io帐户。在[Peakboard.io门户](/data_sources/PeakboardIO/32-cn-intro-peakboard-io.html)中定义GA报告，然后使用相应的控件嵌入到Designer中。

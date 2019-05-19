@@ -6,6 +6,8 @@ description: Information about MS SQL Server Data in Peakboard
 lang: en
 weight: 1250
 ref: dat-1250
+redirect_from:
+  - /data_sources/12-5-en-ms-sql-server.html
 ---
 This article explains Peakboard’s access to an MS SQL Server. The dialogue is almost self-explanatory. In addition to the host name, the user name, password and the database (Initial Catalog) must be filled in. If a host has multiple SQL Server instances, the desired instance is simply attached to the host name with a backslash.
 

@@ -6,6 +6,8 @@ description: Zeilenanzahl begrenzen
 lang: de
 weight: 6000
 ref: flow-6000
+redirect_from:
+  - /dataflows/60-de-zeilen-begrenzen.html
 ---
 Es gibt drei unterschiedliche Schritte, um die Anzahl der Zeilen zu begrenzen:
 

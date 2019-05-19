@@ -6,6 +6,8 @@ description: Information about RSS Feed Data  in Peakboard
 lang: en
 weight: 400
 ref: dat-400
+redirect_from:
+  - /data_sources/04-en-feed.html
 ---
 The feed data source is very simple. It is used to use RSS-Feeds in Peakboard.
 

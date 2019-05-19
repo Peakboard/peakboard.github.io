@@ -6,6 +6,8 @@ description: Peakboard Designer中滚动字幕控件相关信息。
 lang: cn
 weight: 300
 ref: con-300
+redirect_from:
+  - /controls/03-cn-text-ticker.html
 ---
 
 “滚动字幕”控件旨在显示滚动文本。请注意以下一般附加信息：

@@ -6,6 +6,8 @@ description: Versionshistorie
 lang: de
 weight: 600
 ref: misc-600
+redirect_from:
+  - /misc/06-de-versionshistorie.html
 ---
 
 ## 1.2.2.0 (23.04.2019)

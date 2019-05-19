@@ -6,6 +6,8 @@ description: PDF Script Example
 lang: en
 weight: 1000
 ref: scr-1000
+redirect_from:
+  - /scripting/Samples/10-en-PDF.html
 ---
 In this scripting example the script for a PDF presentation that starts automatically is explained.
 

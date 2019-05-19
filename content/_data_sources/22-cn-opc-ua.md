@@ -6,7 +6,9 @@ description: Peakboard中OPC UA数据的相关信息
 lang: cn
 weight: 2200
 ref: dat-2200
-redirect_from: /cn/datasources-mqtt-broker/
+redirect_from: 
+  - /cn/datasources-mqtt-broker/
+  - /data_sources/22-cn-opc-ua.html
 ---
 
 OPC-UA数据源无缝配合机器通信的一系列数据源，并可直接访问西门子S7、MQTT或Azure IoT中心。在这里描述的示例中，Peakboard代表连接到OPC服务器的OPC客户端。本文中的示例可以使用通用OPC UA服务器轻松再现，您可以注册后从[opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture)下载。

@@ -6,6 +6,8 @@ description: Information über Twitter Daten in Peakboard
 lang: de
 weight: 1700
 ref: dat-1700
+redirect_from:
+  - /data_sources/17-de-twitter.html
 ---
 Diese Seite erklärt die einzelnen Features beim Zugriff auf Twitter-Datenquellen von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 

@@ -6,6 +6,8 @@ description:  Einführung und Übersicht
 lang: de
 weight: 3200
 ref: dat-3200
+redirect_from:
+  - /data_sources/PeakboardIO/32-de-einfuehrung-und-uebersicht.html
 ---
 [Peakboard.io](http://peakboard.io/) ist ein cloudbasiertes Portal, mit dem Peakboard-User einfache, administrative Tätigkeiten, Design und Datenpflege bewerkstelligen können. Es ist für bestimmte Benutzergruppen als Ergänzung oder Vereinfachung zu sehen, aber nicht als Muss. Die traditionelle Kombination aus Peakboard-Designer und Runtime reicht völlig aus, ohne jeglichen Kontakt ins Internet alle Anforderungen zu erfüllen. Peakboard.io ist lediglich ein Beschleuniger oder Vereinfacher für bestimmte Szenarien.
 

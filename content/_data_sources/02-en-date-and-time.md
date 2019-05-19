@@ -6,6 +6,8 @@ description: Information about time and date data in Peakboard
 lang: en
 weight: 200
 ref: dat-200
+redirect_from:
+  - /data_sources/02-en-date-and-time.html
 ---
 
 

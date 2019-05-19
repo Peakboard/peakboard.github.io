@@ -6,6 +6,8 @@ description: Write to Excel
 lang: en
 weight: 1200
 ref: scr-1200
+redirect_from:
+  - /scripting/Samples/12-en-excel.html
 ---
 
 To enable writing to Excel, the corresponding .xls file must be integrated as a bridge data source via an ODBC request. Instructions can be found [here](/data_sources/31-en-ODBC-Excel.html).

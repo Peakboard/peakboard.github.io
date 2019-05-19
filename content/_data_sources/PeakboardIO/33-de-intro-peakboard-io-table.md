@@ -6,6 +6,8 @@ description: Peakboard.io Table
 lang: de
 weight: 3300
 ref: dat-3300
+redirect_from:
+  - /data_sources/PeakboardIO/33-de-intro-peakboard-io-table.html
 ---
 Innerhalb des [Peakboard.io](http://peakboard.io/)-Portals haben Sie die Möglichkeit, Tabellenobjekte zu pflegen. Diese Tabellen können dann ganz normal im Designer wie andere Datenquellen eingebunden werden. Bitte beachten Sie die [Einführung zur Benutzung des Portals](/data_sources/PeakboardIO/32-de-einfuehrung-und-uebersicht.html) und den API-Key, um auf Peaboard.io-Objekte zuzugreifen.
 

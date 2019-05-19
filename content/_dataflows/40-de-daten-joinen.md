@@ -6,6 +6,8 @@ description: Daten miteinander verknüpfen (Joins)
 lang: de
 weight: 4000
 ref: flow-4000
+redirect_from:
+  - /dataflows/40-de-daten-joinen.html
 ---
 Wir haben bereits beim Manipulieren von Spalten die Möglichkeit kennen gelernt, eine neue Spalte hinzuzufügen und diese durch einen Look Up auf eine andere Datenquelle zu füllen. Das ist sinnvoll, wenn es nur um eine einzelne Spalte geht. Der Join-Schritt geht einen Schritt weiter. Hier werden zwei tabellenartige Datenbestände miteinander verknüpft. Man kennt diese Technik im Bereich der relationalen Datenbanken. Da funktioniert es genauso.
 Die Ausgangstabelle des aktuellen Datenflusses ist immer als die "linke" Tabelle zu sehen. Die neu hinzugefügte (sprich gejointe) Tabelle ist die "rechte" Tabelle.

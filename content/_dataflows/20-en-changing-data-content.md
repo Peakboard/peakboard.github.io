@@ -6,6 +6,8 @@ description: Changing Data Content
 lang: en
 weight: 2000
 ref: flow-2000
+redirect_from:
+  - /dataflows/20-en-changing-data-content.html
 ---
 This section describes the steps to manipulate the content of columns.
 

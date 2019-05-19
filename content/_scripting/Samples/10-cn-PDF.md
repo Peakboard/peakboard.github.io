@@ -6,6 +6,8 @@ description: PDF脚本示例
 lang: cn
 weight: 1000
 ref: scr-1000
+redirect_from:
+  - /scripting/Samples/10-cn-PDF.html
 ---
 在该脚本示例中，解释了自动启动的PDF演示文稿的脚本。
 

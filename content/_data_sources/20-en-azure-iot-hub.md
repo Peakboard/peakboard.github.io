@@ -6,6 +6,8 @@ description: Information about Azure IoT Hub Data in Peakboard
 lang: en
 weight: 2000
 ref: dat-2000
+redirect_from:
+  - /data_sources/20-en-azure-iot-hub.html
 ---
 This article shows how to use the Azure IoT hub data source in Peakboard. Please first make the difference between the data sources IoT Hub and Event Hub clear. The latter is explained [here](/data_sources/19-en-azure-event-hub.html). The event hub source is about receiving messages only. This is therefore only intended for asynchronous reaction to events. In the IoT hub source, the Peakboard acts as a device within the Azure IoT hub. It must be created there as a device. For this to work, you need the connection string from the Azure portal, which is directly associated with the device.
 

@@ -6,6 +6,8 @@ description: Add, Delete and Change Columns
 lang: en
 weight: 1000
 ref: flow-1000
+redirect_from:
+  - /dataflows/10-en-adding-deleting-changing-columns.html
 ---
 This section describes the steps for creating new columns, deleting and changing metadata (such as the data type).
 

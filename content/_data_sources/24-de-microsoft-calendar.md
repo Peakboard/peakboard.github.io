@@ -6,6 +6,8 @@ description: Information über Kalender Integration in Peakboard
 lang: de
 weight: 2400
 ref: cal-2400
+redirect_from:
+  - /data_sources/24-de-microsoft-calendar.html
 ---
 Die Microsoft Calendar Datenquelle ermöglicht es, auf einen Kalender zuzugreifen, der bei Office 365 hinterlegt ist. Derzeit werden nur Kalender von Microsoft unterstützt, die bei Office 365 oder bei Office.com gehostet werden. SharePoint-Kalender oder lokale Exchange-Kalender werden nicht unterstützt.
 

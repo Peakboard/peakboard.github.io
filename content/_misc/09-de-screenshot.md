@@ -6,6 +6,8 @@ description: Screenshot über HTTP Request
 lang: de
 weight: 900
 ref: misc-900
+redirect_from:
+  - /misc/09-de-screenshot.html
 ---
 
 Werden beispielsweise am Shopfloor Entscheidungen auf Grundlage einer Visualisierung getroffen, so ist es notwendig die Entscheidungsgrundlage zu dokumentieren.

@@ -6,6 +6,8 @@ description: Google电子表格
 lang: cn
 weight: 3000
 ref: dat-3000
+redirect_from:
+  - /data_sources/30-cn-google-spreadsheets.html
 ---
 Google电子表格数据源用于从Google电子表格中提取表格式数据，然后像任何其他数据源一样在Peakboard中使用。
 

@@ -6,6 +6,8 @@ description: Information about Peakboard Designer ListView Control.
 lang: en
 weight: 1000
 ref: con-1000
+redirect_from:
+  - /controls/10-en-list-view.html
 ---
 
 The ListView control is very similar in its behavior to the [Tile Control](/controls/14-en-tilecontrol.html) and the [Tile View](/controls/11-en-tile-view.html).

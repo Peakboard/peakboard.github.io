@@ -6,6 +6,8 @@ description: Information about Peakboard Designer Table Grid Control.
 lang: en
 weight: 400
 ref: con-400
+redirect_from:
+  - /controls/04-en-table-grid.html
 ---
 
 The Control Table Grid is used to display data in tabular form. Besides the simple text block, it is the most frequently used Control. Please note the following general information and recurring operating patterns for controls:

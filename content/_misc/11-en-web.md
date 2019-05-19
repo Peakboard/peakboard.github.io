@@ -6,6 +6,8 @@ description: How to set variables and lists using Web-Push.
 lang: en
 weight: 1100
 ref: misc-1100
+redirect_from:
+  - /misc/11-en-web.html
 ---
 
 Variables and lists can be set or changed outside the designer and the box via the Peakboard App or Web access.

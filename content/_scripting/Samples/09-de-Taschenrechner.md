@@ -6,6 +6,8 @@ description: Taschenrechner Script Beispiel
 lang: de
 weight: 900
 ref: scr-900
+redirect_from:
+  - /scripting/Samples/09-de-Taschenrechner.html
 ---
 In diesem Scripting Beispiel wird der Aufbau eines sehr simplen Taschenrechners erklärt, welcher addieren und subtrahieren kann.
 

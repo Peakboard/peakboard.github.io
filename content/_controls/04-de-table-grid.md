@@ -6,6 +6,8 @@ description: Information über Peakboard Designer Table Grid Control.
 lang: de
 weight: 400
 ref: con-400
+redirect_from:
+  - /controls/04-de-table-grid.html
 ---
 
 Das Control Table Grid ist dazu gedacht, Daten tabellarisch darzustellen. Es ist neben dem einfachen Textblock das am häufigsten genutzte Control. Bitte beachten Sie zunächst folgende allgemeine Infos und wiederkehrende Bedienpatterns für Steuerelemente:

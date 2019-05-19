@@ -6,6 +6,8 @@ description: 通过HTTP请求截图
 lang: cn
 weight: 900
 ref: misc-900
+redirect_from:
+  - /misc/09-cn-screenshot.html
 ---
 
 

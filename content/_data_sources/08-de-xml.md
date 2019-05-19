@@ -6,6 +6,8 @@ description: Information über XML Daten in Peakboard
 lang: de
 weight: 800
 ref: dat-800
+redirect_from:
+  - /data_sources/08-cn-xml.html
 ---
 In den beiden Einführungstutorials wurden lediglich statische Inhalte in der Visualisierung genutzt. Richtig spannend wird das alles aber erst, wenn das Design dynamische Daten anzeigt. Grundsätzlich unterscheidet man bei Peakboard zwischen zwei wesentlichen Konzepten, wie dynamische Inhalte eingebettet werden:
 

@@ -6,6 +6,8 @@ description: Peakboard API
 lang: cn
 weight: 700
 ref: misc-700
+redirect_from:
+  - /misc/07-cn-API.html
 ---
 
 要通过API从变量或“列表数据源”访问数据，需要以下信息。因此也需要将值写入列表元素或变量。

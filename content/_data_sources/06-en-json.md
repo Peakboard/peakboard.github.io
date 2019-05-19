@@ -6,7 +6,8 @@ description: Information about JSON Data  in Peakboard
 lang: en
 weight: 600
 ref: dat-600
-
+redirect_from:
+  - /data_sources/06-en-json.html
 ---
 This page explains the individual features when accessing JSON data sources from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to Peakboard elements:
 

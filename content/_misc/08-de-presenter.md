@@ -6,6 +6,8 @@ description: Visualisierung mit einem Presenter schalten
 lang: de
 weight: 800
 ref: misc-800
+redirect_from:
+  - /misc/08-de-presenter.html
 ---
 
 In einigen Fällen, beispielsweise der Darstellung von Informationen am Shopfloor, reicht ein einzelnes Dashboard nicht aus. 

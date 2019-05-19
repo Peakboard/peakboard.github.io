@@ -7,7 +7,8 @@ lang: cn
 weight: 1300
 ref: dat-1300
 redirect_from:
- - /cn/datasources-excel/
+  - /cn/datasources-excel/
+  - /data_sources/13-cn-excel.html
 ---
 本页解释了从Peakboard访问Excel数据源时的各个功能。在下面链接中可以找到关于通常如何配置外部数据源并链接到Peakboard元素的教程：
 

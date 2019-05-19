@@ -6,6 +6,8 @@ description:  Using Properties
 lang: en
 weight: 600
 ref: scr-600
+redirect_from:
+  - /scripting/06-en-using-properties.html
 ---
 This article describes the use of so-called properties. In the broadest sense, these are constant values that are mainly used in scripts. Such constants can be created either for a single visualization, or for the complete Box on which the visualization runs.
 

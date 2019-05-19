@@ -6,6 +6,8 @@ description: Calculator Script Example
 lang: en
 weight: 900
 ref: scr-900
+redirect_from:
+  - /scripting/Samples/09-en-Calculator.html
 ---
 In this scripting example the structure of a very simple calculator is explained, which can add and subtract.
 

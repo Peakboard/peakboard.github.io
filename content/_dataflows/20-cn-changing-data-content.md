@@ -6,6 +6,8 @@ description: 更改数据内容
 lang: cn
 weight: 2000
 ref: flow-2000
+redirect_from:
+  - /dataflows/20-cn-changing-data-content.html
 ---
 本节介绍处理列内容的步骤。
 

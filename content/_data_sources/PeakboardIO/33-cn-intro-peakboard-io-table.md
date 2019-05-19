@@ -6,6 +6,8 @@ description: Peakboard.io表格
 lang: cn
 weight: 3300
 ref: dat-3300
+redirect_from:
+  - /data_sources/PeakboardIO/33-cn-intro-peakboard-io-table.html
 ---
 在 [Peakboard.io](https://peakboard.io) 门户中，您可以维护表格对象。这些表格可以像其他数据源一样包含在Designer中。请参见[本教程](/data_sources/PeakboardIO/32-cn-intro-peakboard-io.html)中关于使用门户和API密钥访问Peakboard.io对象的信息。
 

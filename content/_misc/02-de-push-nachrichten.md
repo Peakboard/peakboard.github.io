@@ -6,6 +6,8 @@ description: Push-Nachrichten auf das Peakboard senden
 lang: de
 weight: 200
 ref: misc-200
+redirect_from:
+  - /misc/02-de-push-nachrichten.html
 ---
 
 Peakboard kann in Szenarien eingesetzt werden, bei denen Daten nicht von der Peakboard-Box aus einer Datenquelle geholt, sondern von der Datenquelle pro-aktiv auf die Box „gepusht“ werden. Diese Seite zeigt, wie man ein solches Szenario gestalten kann.

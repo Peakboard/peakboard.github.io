@@ -6,6 +6,8 @@ description: Information about Siemens S7 Data in Peakboard
 lang: en
 weight: 2100
 ref: dat-2100
+redirect_from:
+  - /data_sources/21-en-siemens-s7.html
 ---
 In general, there are several ways to process machine data in Peakboard, e.g. via a cloud-based IoT hub (like from Azure or Google) or a MQTT server. The Siemens S7 data source enables the Peakboard-Box to be connected directly to an S7 controller. If the control network is separated from the "normal" business network in the respective environment, the box can receive a second LAN connection via USB, which is connected to the business network (e.g. for SAP access) on one side and to the S7 control network on the other.
 

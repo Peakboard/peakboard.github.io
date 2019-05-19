@@ -6,6 +6,8 @@ description: TileView
 lang: de
 weight: 1100
 ref: con-1100
+redirect_from:
+  - /controls/11-de-tile-view.html
 ---
 
 Das TileView-Control funktioniert im Prinzip exakt genauso wie das [ListView-Control](/controls/10-de-list-view.html). Der einzige Unterschied ist die Tatsache, dass die Elemente zunächst von links nach rechts angeordnet, am Rand dann aber in die nächste „Zeile“ umgebrochen werden. Das eignet sich für mehrzeilige Darstellungen ein und desselben Elements. Das Beispiel im Screenshot ist wie im anderen Artikel an eine Excel Tabelle gebunden. Das Template ist dabei identisch zu dem des [ListView-Control](/controls/10-de-list-view.html).

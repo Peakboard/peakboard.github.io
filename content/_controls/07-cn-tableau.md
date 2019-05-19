@@ -6,6 +6,8 @@ description: Peakboard Designer中Tableau控件相关信息。
 lang: cn
 weight: 700
 ref: con-700
+redirect_from:
+  - /controls/07-cn-tableau.html
 ---
 
 您可以使用“Tableau视图”控件元素在Peakboard上显示Tableau视图。“Tabelau视图”位于Tableau Server上，并在那呈现。Peakboard作为显示器。

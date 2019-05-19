@@ -6,6 +6,8 @@ description: Wie können Variablen und Listen mittels Web-Push gesetzt werden.
 lang: de
 weight: 1100
 ref: misc-1100
+redirect_from:
+  - /misc/11-de-web.html
 ---
 
 Variablen und Listen können außerhalb des Designers und der Box über die Peakboard App oder Web Zugriff gesetzt bzw. verändert werden.

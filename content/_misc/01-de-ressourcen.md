@@ -6,6 +6,8 @@ description: Ressourcen
 lang: de
 weight: 100
 ref: misc-100
+redirect_from:
+  - /misc/01-de-ressourcen.html
 ---
 
 Die Ressourcen sind neben den Screens und Data Sources die dritte Säule einer Peakboard-Visualisierung. Eine Ressource kann alles mögliche sein, was an Zusatzmaterial für eine Visualisierung benötigt wird: Bilder, Schriftarten, Scripte, Datendateien (z.B. Excel). Im einfachsten Fall wird die jeweilige Ressource direkt, statisch im Peakboard Package hinterlegt. Eine Ressource kann aber auch dynamisch sein und zum Beispiel über eine URL abgerufen werden, in einem Cloud-Speicher liegen (Dropbox, Google Drive, OneDrive) oder auf einem freigegeben Laufwerk innerhalb des selben Netzes (Bridge Resource). Alle diese Optionen werden in diesem Artikel erklärt, in der Reihenfolge, wie sie im Menü erscheinen (siehe folgender Screenshot).

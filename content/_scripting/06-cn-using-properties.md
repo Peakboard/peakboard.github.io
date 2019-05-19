@@ -6,6 +6,8 @@ description: 使用属性
 lang: cn
 weight: 600
 ref: scr-600
+redirect_from:
+  - /scripting/06-cn-using-properties.html
 ---
 本文描述了属性的使用。从最广泛的意义上来说，这些是主要用于脚本中的常量值。可以为单个可视化创建此类常量，也可以为可视化运行的完整Box创建此类常量。
 

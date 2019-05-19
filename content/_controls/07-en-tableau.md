@@ -6,6 +6,8 @@ description: Information about Peakboard Designer Tableau Control.
 lang: en
 weight: 700
 ref: con-700
+redirect_from:
+  - /controls/07-en-tableau.html
 ---
 
 You can use the Tableau View Control element to display tableau views on the Peakboard. The Tabelau View is located on a tableau server and is also rendered there. Peakboard serves as a display.

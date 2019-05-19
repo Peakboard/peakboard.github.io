@@ -6,6 +6,8 @@ description: Screenshot of HTTP request
 lang: en
 weight: 900
 ref: misc-900
+redirect_from:
+  - /misc/09-en-screenshot.html
 ---
 
 If, for example, decisions are made on the shop floor on the basis of a visualization, it is necessary to document the decision basis.

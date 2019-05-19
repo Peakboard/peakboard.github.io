@@ -6,6 +6,8 @@ description: Information about OData in Peakboard
 lang: en
 weight: 700
 ref: dat-700
+redirect_from:
+  - /data_sources/07-en-odata.html
 ---
 This page explains the individual features when accessing OData data sources from Peakboard. Under the following link you will find a tutorial on how external data sources are generally configured and linked to peakboard elements:
 
