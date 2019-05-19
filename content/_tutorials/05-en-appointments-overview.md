@@ -52,7 +52,7 @@ This setting defines from which data source the Peakboard Box obtains the curren
 
 If you do not want to use this weather widget, you can simply clear the element from the visualization in the Peakboard Designer. Select it with a right-click and choose 'Delete'.
 
-If you want to use the Weather Widget, you can create your own widget with your city at the following address: https://weatherwidget.io/.
+If you want to use the Weather Widget, you can create your own widget with your city at the following address: [https://weatherwidget.io/](https://weatherwidget.io/).
 
 First select the city in which the board should later hang. You can then define further parameters such as language, the texts to be displayed and the unit.
 On the other tabs there are many more ways to customize the weather widget to your needs.
@@ -79,17 +79,23 @@ To replace the Peakboard logo with your desired company logo, you need an image 
 ### Define default texts
 
 The visualization comes with ready-made texts for the situation that there is no appointment to display.
-You can adapt these texts via the variable list 'text_labels'. These changes can be made directly in the Peakboard Designer by double-clicking on the list and clicking on 'Edit' in the dialog. Alternatively, you can use the web interface if you already have a box. This web interface is a website that runs on the Peakboard Box and can be accessed via the following address: http://NameOfYourBox:40404. You must enter the name of your box followed by the port :40404. Login requires the login data supplied with the delivered box. Then you will see a screenshot of your currently running visualization and on the right side various variable lists which you can now change. You can change all displayed source texts in the variable list 'text_labels'. For example, change the greeting text (2). With the Refresh button you can load a new screenshot of your visualization (3).
+You can adapt these texts via the variable list 'text_labels'. These changes can be made directly in the Peakboard Designer by double-clicking on the list and clicking on 'Edit' in the dialog. 
+
+Alternatively, you can use the web interface if you already have a box. This web interface is a web page that you can be accessed by clicking on 'Manage / Upload' in the Peakboard Designer 'Home' tab. In the dialog, select the desired box (you must have already loaded the visualization onto a box). Now click on the button 'Webinterface' (1). You can learn more about the webinterface on [this page](https://peakboard.rocks/webinterface).
+
+![image_live](/assets/images/instant_boards/welcome/Manage_Dialog_Webinterface_Button_en.png)
+
+Alternatively, you can also call the web interface directly in your browser with the URL: http://NameYourBox:40404. You must enter the name of your box followed by the port :40404. Login requires the login data supplied with the box. Then you will see a screenshot of your currently running visualization and on the right side (2) various variable lists which you can now change. You can change all displayed source texts in the variable list 'text_labels'. 
+
+![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview.png)
+
+For example, change the greeting text (2) and save it with a click on 'Update'. With the Refresh button you can load a new screenshot of your visualization (3).
 
 ![image_live](/assets/images/instant_boards/welcome/Webinterface_Appointment_TextLabels.png)
 
 That's it, you have customized your visualization to your needs. Now you have to upload the visualization to your Peakboard Box. To do this, go to the menu ribbon at the top under the tab 'Home' to the point 'Manage / Upload'. In the following dialog, select your box and click on 'Upload'. Now the visualization is loaded onto your box, after a short time the visualization should be visible on the screen that is connected to the Peakboard Box. If you are satisfied with the result, you can then concentrate on the appointment management. If you have not yet connected your Peakboard Box, it is best to read the following [article](https://peakboard.rocks/connect).
 
 ## Manage appointments
-
-Unlike the initial configuration, appointment management is a continuous process.
-
-### Office calendar connection
 
 To be able to use the [visualization with calendar attachment] (https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar/Welcome_Screen_Calendar.pbmx), you must contact us Register your private - or better yet a shared - calendar account into your Microsoft account and activate a share for the necessary information for Peakboard.
 

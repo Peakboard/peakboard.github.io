@@ -10,7 +10,7 @@ redirect_from:
   - /tutorials/05-de-appointments-overview.html
 ---
 
-Um einen möglichst einfachen Einstieg in die Erstellungen eines Willkommensbildschirms zu geben, bieten wir vorgefertigte Templates an. Dies ist eine Schritt für Schritt Anleitung wie Sie Ihren persönlichen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). Zum Erstellen einer Visualisierung benötigen Sie den Peakboard Designer. Dieser kann kostenfrei [heruntergeladen](https://peakboard.rocks/designer-from-welcome) werden.
+Um einen möglichst einfachen Einstieg in die Erstellungen eines Willkommensbildschirms zu geben, bieten wir vorgefertigte Templates an. Dies ist eine Schritt für Schritt Anleitung, wie Sie Ihren persönlichen Willkommensbildschirm mit diesen Templates erstellen können. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten, wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). Zum Erstellen einer Visualisierung benötigen Sie den Peakboard Designer. Dieser kann kostenfrei [heruntergeladen](https://peakboard.rocks/designer-from-welcome) werden.
 
 ## Terminübersicht mit Office 365 Kalender Anbindung
 
@@ -46,15 +46,15 @@ Die initiale Konfiguration ist ein einmaliger Vorgang und ist nötig, um die gen
 
 ### Zeitserver einstellen
 
-Diese Einstellung definiert aus welcher Datenquelle die Peakboard Box die aktuelle Uhrzeit bezieht. Sie können die default Einstellung belassen, diese ruft den folgenden Service für die Uhrzeit auf: 'time.windows.com'. Wenn Sie Ihren lokalen Zeitserver Ihres Netzwerks verwenden möchten, können Sie diesen ändern indem Sie in der oberen Menuleiste auf den Tab 'Einstellungen/Settings' -> 'Zeitserver/Time Server' navigieren. Besonders wenn die Box keine Internetverbindung hat, ist es wichtig den lokalen Zeitserver zu hinterlegen. Fragen Sie am besten einfach Ihren Administrator nach der Adresse.
+Diese Einstellung definiert, aus welcher Datenquelle die Peakboard Box die aktuelle Uhrzeit bezieht. Sie können die default Einstellung belassen, diese ruft den folgenden Service für die Uhrzeit auf: 'time.windows.com'. Wenn Sie Ihren lokalen Zeitserver Ihres Netzwerks verwenden möchten, können Sie diesen ändern, indem Sie in der oberen Menuleiste auf den Tab 'Einstellungen/Settings' -> 'Zeitserver/Time Server' navigieren. Besonders wenn die Box keine Internetverbindung hat, ist es wichtig den lokalen Zeitserver zu hinterlegen. Fragen Sie am besten einfach Ihren Administrator nach der Adresse.
 
 ### Wetter Widget aktualisieren
 
 Wenn Sie dieses Wetter Widget nicht verwenden möchten, können Sie einfach im Peakboard Designer das Element aus der Visualisierung löschen. Wählen Sie es dafür mit einem Rechtsklick aus und wählen Sie 'Löschen'.
 
-Wenn Sie das Wetter Widget verwenden möchten, können Sie sich Ihr eigenes Widget mit Ihrer Stadt unter folgender Adresse erstellen: https://weatherwidget.io/.
+Wenn Sie das Wetter Widget verwenden möchten, können Sie sich Ihr eigenes Widget mit Ihrer Stadt unter folgender Adresse erstellen: [https://weatherwidget.io/](https://weatherwidget.io/).
 
-Wählen Sie zuerst die Stadt, in der das Board später hängen soll, aus. Anschließend können Sie noch weitere Parameter wie Sprache, die anzuzeigenden Texte und die Einheit definieren.
+Sie können Parameter wie Stadt, Sprache, die anzuzeigenden Texte und die Einheit definieren.
 Auf den weiteren Tabs gibt es noch viele weitere Möglichkeiten, das Wetter Widget auf Ihre Bedürfnisse anzupassen.
 
 Für unsere Visualisierung haben wir im Tab 'Options' den Font 'Arial' verwendet, das Icon Set 'Climacons Animated', Forecast Days '3'.
@@ -78,18 +78,24 @@ Um das Peakboard Logo durch Ihr gewünschtes Firmenlogo zu ersetzen, benötigen 
 
 ### Ausgangstexte definieren
 
-Die Visualierung kommt mit vorgefertigten Texten für die Situation, dass kein Termin vorhanden ist.
-Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Diese Änderungen können Sie direkt im Peakboard Designer vornehmen indem Sie auf mit Doppelklick die Liste öffnen und im anschließenden Dialog auf 'Bearbeiten' klicken. Alternativ können Sie dafür das Webinterface verwenden, wenn Sie bereits eine Box besitzen. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung und auf der rechten Seite verschiedene Variablenlisten welche Sie nun verändern können. In der Variablenliste 'text_labels' können Sie alle angezeigten Ausgangstexte verändern. Ändern Sie zum Beispiel den Begrüßungstext (2). Mit dem Refresh-Button können Sie einen neuen Screenshot Ihrer Visualisierung laden (3).
+Die Visualierung kommt mit vorgefertigten Texten für den Fall, dass kein Termine vorhanden sind.
+Diese Texte können Sie über die Variablenliste 'text_labels' anpassen. Diese Änderungen können Sie direkt im Peakboard Designer vornehmen, indem Sie mit Doppelklick die Liste öffnen und im anschließenden Dialog auf 'Bearbeiten' klicken. 
+
+Alternativ können Sie dafür das Webinterface verwenden, wenn Sie bereits eine Box besitzen. Dieses Webinterface ist eine Webseite, welche Sie aufrufen können, indem Sie im Peakboard Designer im 'Startseite' Tab auf 'Verwalten / Hochladen' klicken. Im Dialog wählen Sie die gewünschte Box aus (Sie müssen die Visualisierung bereits auf eine Box geladen haben). Klicken Sie nun auf den Button 'Webinterface' (1). Mehr über das Webinterface können Sie [hier](https://peakboard.rocks/webinterface) erfahren.
+
+![image_live](/assets/images/instant_boards/welcome/Manage_Dialog_Webinterface_Button.png)
+
+Sie können das Webinterface auch direkt in Ihrem Browser mit der URL: http://NameIhrerBox:40404 aufrufen. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung (1) und auf der rechten Seite (2) verschiedene Variablenlisten. Hier können Sie nun in der Variablenliste 'text_labels' die Texte bearbeiten. Mit dem Refresh-Button können Sie einen neuen Screenshot Ihrer Visualisierung laden (3).
+
+![image_live](/assets/images/instant_boards/welcome/Webinterface_Overview.png)
+
+In der folgenden Tabelle können Sie nun Ihren gewünschten Text angeben und mit einem Klick auf 'Update' speichern. Durch einen Klick auf den 'Refresh'-Button (3) wird ein neuer Screenshot Ihrer Visualisierung geladen.
 
 ![image_live](/assets/images/instant_boards/welcome/Webinterface_Appointment_TextLabels.png)
 
-Das wars, Sie haben Ihre Visualisierung auf Ihre Bedürfnisse angepasst. Nun müssen Sie die Visualisierung noch auf Ihre Peakboard Box hochladen. Dazu gehen Sie im Menüband oben unter dem Tab 'Startseite' auf den Punkt 'Verwalten / Hochladen'. Im anschließenden Dialog wählen Sie Ihre Box und klicken  auf 'Hochladen'. Nun wird die Visualisierung auf Ihre Box geladen, nach kurzer Zeit sollte die Visualisierung, auf dem an der Peakboard Box angeschlossenen Bildschirm, sichtbar werden. Wenn Sie mit dem Ergebnis zufrieden sind, können Sie sich anschließend auf die Terminverwaltung konzentrieren.  Falls Sie Ihre Peakboard Box noch nicht verbunden haben, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). 
+Das wars, Sie haben Ihre Visualisierung auf Ihre Bedürfnisse angepasst. Nun müssen Sie die Visualisierung noch auf Ihre Peakboard Box hochladen. Dazu gehen Sie im Menü oben unter dem Tab 'Startseite' auf den Punkt 'Verwalten / Hochladen'. Im anschließenden Dialog wählen Sie Ihre Box und klicken  auf 'Hochladen'. Nun wird die Visualisierung auf Ihre Box geladen, nach kurzer Zeit sollte die Visualisierung, auf dem an der Peakboard Box angeschlossenen Bildschirm, sichtbar werden. Wenn Sie mit dem Ergebnis zufrieden sind, können Sie sich anschließend auf die Terminverwaltung konzentrieren.  Falls Sie Ihre Peakboard Box noch nicht verbunden haben, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). 
 
 ## Termine verwalten
-
-Anders als die inititale Konfiguration ist die Terminverwaltung ein kontinuierlicher Prozess. 
-
-### Office Kalenderanbindung
 
 Um die [Visualisierung mit Kalenderanbindung](https://github.com/Peakboard/CoolStuff/raw/master/Demonstrator/Designer%20Templates/Administration/Welcome%20Screen%20Calendar/Welcome_Screen_Calendar.pbmx) nutzen zu können, müssen Sie sich mit Ihrem privaten – oder noch besser einem geteilten – Kalender Account in Ihr Microsoft Konto anmelden und eine Freigabe für die nötigen Information für Peakboard freischalten.
 
