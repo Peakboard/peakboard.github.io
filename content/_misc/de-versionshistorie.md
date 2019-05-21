@@ -9,6 +9,36 @@ ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
+## 1.2.3.0 (21.05.2019)
+* OPC UA: Fix von Browsing-Problemen bei absoluten Node IDs
+* OPC UA: Fix für Fortschrittsbalken, der beim Verbindungstest unendlich lang läuft
+* OPC UA: Hinzufügen von Multi-Node-Browsing, um Variablen zum Lesen auszuwählen
+* OPC UA: Tabellenansicht für alle Variablen einer Subscription
+* Balken-, Linien- und Kreisdiagramme wurden überarbeitet und sind außerhalb des Advanced Charts verfügbar
+* Farbauswahl für alle Diagramme überarbeitet
+* Padding für alle Controls hinzugefügt
+* Lua-Skript-Editor: Dynamische Timer hinzugefügt
+* Lua-Skript-Editor: Beispiel zur Bestimmung von Kalenderwochen hinzugefügt
+* Lua-Skript-Editor: Überarbeitung der Validierungsfunktion
+* Lua-Skript-Editor: Logik für lokale Variablen und globale Funktionen hinzugefügt
+* Lua-Skript-Editor: Suchen und Ersetzen-Funktion implementiert
+* Lua-Skript-Editor: Markierte Elemente können durch Code-Vorlagen erstezt werden
+* Beim Löschen einer Variablen wird zusätzlich geprüft, ob diese neben einem Control-Element auch in einem Skript verwendet wird
+* Template Dialog überarbeitet und ins Menü eingebunden
+* Refresh-Skripte werden nach der Datenquelle benannt, auf der sie beruhen
+* Webservice-Icon zum Manage-Dialog hinzugefügt
+* Save-Button funktioniert analog zu "Speichern unter", falls die aktuelle Visualisierung noch nicht gespeichert wurde
+* Bridge-Funktion für NetworkShareFileDirect der Excel-Datenquelle entfernt
+* Meldung zum Abgleich der Designer- und Box-Version implementiert
+* Tapped-Event für Text-Controls hinzugefügt
+* Fix für die Kalender-Datenquelle
+* Fix für die Weboberfläche bei Browser-Zugriff
+* Fix für den Öffnen-Dialog bei Dateien die keine .pbmx-Dateien sind
+* Fix für das Duplizieren eines Dataflows, welcher ein Refresh-Skript enthält
+* Fix für das Skalieren von Screenshots
+* Fix für die Handhabung von mehr als in 127 Zeichen in Strings in der SQL-Datenquelle
+* Fix für das Tabelle-Control im chinesischen Sprachpaket
+
 
 ## 1.2.2.0 (23.04.2019)
 * Hotfix für die Installation der Peakboard Runtime
