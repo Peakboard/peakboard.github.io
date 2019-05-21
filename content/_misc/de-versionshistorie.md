@@ -9,7 +9,7 @@ ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
-## 1.2.3.0 (21.05.2019)
+## 1.3.0.0 (21.05.2019)
 * OPC UA: Fix von Browsing-Problemen bei absoluten Node IDs
 * OPC UA: Fix für Fortschrittsbalken, der beim Verbindungstest unendlich lang läuft
 * OPC UA: Hinzufügen von Multi-Node-Browsing, um Variablen zum Lesen auszuwählen
