@@ -7,6 +7,13 @@
   category: Beliebt
   image: /assets/images/instant_boards/web/img3.png
 
+- title: Interaktiven Stadtplan mit Peakboard visualisieren
+  description: In diesem Video erklären wir euch, wie ihr einen interaktiven Stadtplan mit Peakboard erstellt. Die Daten kommen aus einer SQL Datenbank.
+  language: de
+  youtube_id: YesZSb42Bwk
+  weight: 300
+  image: /assets/images/instant_boards/web/img3.png
+
 - title: Siemens S7 SPS Visualisierung erstellen und mit Peakboard anbinden
   description: In diesem Video zeigen wir euch, wie ihr eine Siemens S7 Steuerung an euer Peakboard anbindet und Maschinendaten in Echtzeit visualisiert.
   language: de
@@ -70,12 +77,7 @@
   homepage: true
   image: /assets/images/instant_boards/web/img3.png
 
-- title: Interaktiven Stadtplan mit Peakboard visualisieren
-  description: In diesem Video erklären wir euch, wie ihr einen interaktiven Stadtplan mit Peakboard erstellt. Die Daten kommen aus einer SQL Datenbank.
-  language: de
-  youtube_id: YesZSb42Bwk
-  weight: 300
-  image: /assets/images/instant_boards/web/img3.png
+
 
 - title: Über Slack mit einer Peakboard Box kommunizieren
   description: In diesem Video zeigen wir euch, wie ihr über Slack mit einer Peakboard Box kommunizieren könnt.
@@ -126,7 +128,7 @@
   youtube_id: 0LnSppkFeHk
   weight: 1200
   image: /assets/images/instant_boards/web/img3.png
-  
+
 - title: Direkte Kommunikation zwischen Peakboard-Boxen
   description: Senden und Empfangen von Http Anfragen von Peakboard-Boxen
   language: de
