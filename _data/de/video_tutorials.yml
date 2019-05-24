@@ -55,7 +55,7 @@
   language: de
   youtube_id: JSAzZgsJd7c
   weight: 500
-  image: /assets/images/videos/55qRDK3BWXk.jpg
+  image: /assets/images/videos/JSAzZgsJd7c.jpg
   category: Scripting
 
 - title: Einfärben von Tabellen in Peakboard
@@ -63,7 +63,7 @@
   language: de
   youtube_id: TDAJTjyK5FU
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/TDAJTjyK5FU.jpg
   category: Scripting
 
 - title: Empfangsbildschirm mit Peakboard IO Tables erstellen
@@ -71,7 +71,7 @@
   language: de
   youtube_id: HVdGqdGJvKQ
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/HVdGqdGJvKQ.jpg
   category: Peakboard IO
 
 - title: Schichtplan mit PeakboardIO Files erstellen
@@ -79,7 +79,7 @@
   language: de
   youtube_id: H_dBCQlgTmQ
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/H_dBCQlgTmQ.jpg
   category: Peakboard IO
 
 - title: Daten eines Funktionsbausteins aus SAP auslesen
@@ -87,7 +87,7 @@
   language: de
   youtube_id: G0kQXRkxS9c
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/G0kQXRkxS9c.jpg
   category: Weitere
 
 - title: Mit Peakboard über MQTT kommunizieren
@@ -95,7 +95,7 @@
   language: de
   youtube_id: QkHI2WRH1V4
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/QkHI2WRH1V4.jpg
   category: Weitere
 
   
@@ -105,7 +105,7 @@
   language: de
   youtube_id: X9EA9xdwJxw
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/X9EA9xdwJxw.jpg
   category: Weitere
 
 - title: XML und JSON REST APIs mit Peakboard visualisieren
@@ -113,7 +113,7 @@
   language: de
   youtube_id: VNc7BlYFqHo
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/VNc7BlYFqHo.jpg
   category: Weitere
 
 - title: Über Slack mit einer Peakboard Box kommunizieren
@@ -121,7 +121,7 @@
   language: de
   youtube_id: B5iTgLfpF5A
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/B5iTgLfpF5A.jpg
   category: Weitere
 
 - title: Darstellung des Microsoft Outlook Kalenders in Peakboard
@@ -129,7 +129,7 @@
   language: de
   youtube_id: 0LsEXH9-r7s
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/0LsEXH9-r7s.jpg
   category: Weitere
 
 - title: PDF Netzwerkdateien über Peakboard anzeigen
@@ -137,7 +137,7 @@
   language: de
   youtube_id: MGBl_Wp7aQU
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/MGBl_Wp7aQU.jpg
   category: Weitere
 
 - title: Peakboard-Bridge Installation und Konfiguration
@@ -145,7 +145,7 @@
   language: de
   youtube_id: WXp_Jjqq6Ck
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/WXp_Jjqq6Ck.jpg
   category: Weitere
 
 - title: E-Mails direkt an das Peakboard schicken
@@ -153,7 +153,7 @@
   language: de
   youtube_id: NIKcjcXRqHE
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/NIKcjcXRqHE.jpg
   category: Weitere
 
 - title: Interaktiven Stadtplan mit Peakboard visualisieren
@@ -161,7 +161,7 @@
   language: de
   youtube_id: YesZSb42Bwk
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/YesZSb42Bwk.jpg
   category: Weitere
 
 
