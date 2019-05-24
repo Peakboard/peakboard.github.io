@@ -7,6 +7,10 @@ if (document.querySelector(".article-content")) {
   lightbox.init();
 }
 
+if(document.querySelector(".cta")) {
+  document.querySelector("footer").classList.remove("mt-16");
+}
+
 Menu.init();
 Accordian.init();
 

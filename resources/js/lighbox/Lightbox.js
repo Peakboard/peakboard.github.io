@@ -9,7 +9,7 @@ export default class Lightbox {
     this.article = articleEl;
     this.lightbox = lightbox;
     this.article_images = [].slice.call(
-      document.querySelectorAll(".article-content img")
+      document.querySelectorAll(".article-content img:not(.lightbox-ignore)")
     );
     this.gallery_image_ids = [];
     this.current_index = 0;
