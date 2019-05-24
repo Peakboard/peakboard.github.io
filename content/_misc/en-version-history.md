@@ -9,6 +9,35 @@ ref: misc-600
 redirect_from:
   - /misc/06-en-version-history.html
 ---
+## 1.3.0.0 (21.05.2019)
+* OPC UA: Fix browsing problems with absolute node IDs
+* OPC UA: Fix for progress bar that runs infinitely long during connection test
+* OPC UA: Add multi-node browsing to select variables to read
+* OPC UA: table view for all variables of a subscription
+* Bar, line and pie charts have been revised and are available outside the Advanced Chart
+* Color selection for all diagrams revised
+* Padding for all controls added
+* Lua script editor: Dynamic timer added
+* Lua script editor: Added example for determining calendar weeks
+* Lua script editor: Revision of the validation function
+* Lua script editor: Added logic for local variables and global functions
+* Lua script editor: Search and replace function implemented
+* Lua script editor: Marked elements can be replaced by code templates
+* When a variable is deleted, the system also checks whether it is used in a script in addition to a control element.
+* Template Dialog revised and integrated into the menu
+* Refresh scripts are named after the data source they are based on
+* Added web service icon to the Manage dialog
+* Save button works analogous to "Save as", if the current visualization has not yet been saved.
+* Bridge function for NetworkShareFileDirect of Excel data source removed
+* Message for the adjustment of the designer and box version implemented
+* Added tapped event for text controls
+* Fix for calendar data source
+* Fix for the web interface for browser access
+* Fix for open dialog for files that are not .pbmx files
+* Fix for duplicating a dataflow containing a refresh script
+* Fix for scaling screenshots
+* Fix for handling more than 127 characters in strings in SQL data source
+* Fix for table control in Chinese language package
 
 ## 1.2.2.0 (23.04.2019)
 * Hotfix for the Peakboard Runtime installation
