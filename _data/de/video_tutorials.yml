@@ -4,7 +4,7 @@
   youtube_id: 55qRDK3BWXk
   weight: 500
   homepage: true
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/55qRDK3BWXk.jpg
   category: Beliebt
 
 - title: Siemens S7 SPS Visualisierung erstellen und mit Peakboard anbinden
@@ -13,7 +13,7 @@
   youtube_id: w8jRp6st180
   weight: 500
   homepage: true
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/w8jRp6st180.jpg
   category: Beliebt
 
 - title: OPC UA Daten mit Peakboard visualisieren
@@ -22,7 +22,7 @@
   youtube_id: xr309YQnikc
   weight: 500
   homepage: true
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/xr309YQnikc.jpg
   category: Beliebt
 
 - title: SQL Datenbank und Barcode Scanner mit Peakboard anbinden und visualisieren
@@ -30,7 +30,7 @@
   language: de
   youtube_id: ot1Sdu-Z380
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/ot1Sdu-Z380.jpg
   category: Beliebt
 
 - title: Datenmanipulation mit Dataflows
@@ -38,7 +38,7 @@
   language: de
   youtube_id: CX8vDJFCX_4
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/CX8vDJFCX_4.jpg
   category: Beliebt
 
 - title: Excel-Sales-Dashboard mit Peakboard visualisieren
@@ -47,7 +47,7 @@
   youtube_id: Hn-HmCAcOHE
   weight: 500
   homepage: true
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/Hn-HmCAcOHE.jpg
   category: Beliebt
 
 - title: Screenwechsel
@@ -55,7 +55,7 @@
   language: de
   youtube_id: JSAzZgsJd7c
   weight: 500
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/55qRDK3BWXk.jpg
   category: Scripting
 
 - title: Einfärben von Tabellen in Peakboard
@@ -81,6 +81,24 @@
   weight: 500
   image: /assets/images/instant_boards/web/img3.png
   category: Peakboard IO
+
+- title: Daten eines Funktionsbausteins aus SAP auslesen
+  description: In diesem Beispiel zeigen wir euch, wie ihr Lieferdaten aus SAP direkt in Peakboard visualisieren können. Als Datenquelle nutzen wir einen SAP-Funktionsbaustein.
+  language: de
+  youtube_id: G0kQXRkxS9c
+  weight: 500
+  image: /assets/images/instant_boards/web/img3.png
+  category: Weitere
+
+- title: Mit Peakboard über MQTT kommunizieren
+  description: In diesem Video zeigen wir euch, wie ihr zwei Peakboard Boxen über einen MQTT Broker miteinander kommunizieren lassen könnt. Wir zeigen euch, wie man die Kommunikation zwischen einem Workspace und dem Lager/Mechanikern basierend auf MQTT herstellen kann.
+  language: de
+  youtube_id: QkHI2WRH1V4
+  weight: 500
+  image: /assets/images/instant_boards/web/img3.png
+  category: Weitere
+
+  
 
 - title: SAP Live-Dashboard erstellen
   description: SAP Live-Dashboard erstellen
@@ -145,3 +163,6 @@
   weight: 500
   image: /assets/images/instant_boards/web/img3.png
   category: Weitere
+
+
+  
