@@ -3,10 +3,79 @@
   language: en
   youtube_id: TqYdZqW0xMk
   weight: 100
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/TqYdZqW0xMk.jpg
+  category: Recommended
+
+- title: Visualize a Excel-Sales Dashboard with Peakboard
+  description: In this video, we show you how to extract sales figures step by step from an Excel data source and display them in a clear dashboard.
+  language: en
+  youtube_id: vpnuZTsHwj8
+  weight: 200
+  image: /assets/images/videos/vpnuZTsHwj8.jpg
+  category: Recommended
+
+- title: Peakboard Dataflows explained
+  description: In this video we show you how to use the new dataflows to process data from an ERP system. These and many more use cases can be found at https://github.com/Peakboard/CoolStuff or in the Peakboard Designer under Template.
+  language: en
+  youtube_id: r2_Nsh3lZMI
+  weight: 200
+  image: /assets/images/videos/r2_Nsh3lZMI.jpg
+  category: Recommended
+
+- title: OPC UA Data Visualized with Peakboard
+  description: In this video we show you how easy it is to connect OPC UA data via Peakboard and visualize machine data in real time.
+  language: en
+  youtube_id: YpfEJrFriBU
+  weight: 200
+  image: /assets/images/videos/YpfEJrFriBU.jpg
+  category: Machine Protocols
+
+- title: How to create a Siemens S7 PLC visualization and connect it with Peakboard
+  description: In this video we show you how to connect a Siemens S7 controller to your Peakboard and visualize machine data in real time.
+  language: en
+  youtube_id: gE8tboIOvTQ
+  weight: 200
+  image: /assets/images/videos/gE8tboIOvTQ.jpg
+  category: Machine Protocols
+
+- title: Communicate with Peakboard via MQTT
+  description: In this video we show you how you can let two Peakboard Boxes communicate with each other via a MQTT Broker.
+  language: en
+  youtube_id: EY2t4GffFd4
+  weight: 200
+  image: /assets/images/videos/EY2t4GffFd4.jpg
+  category: Machine Protocols
+
+- title: Creating a SAP Live Dashboard
+  description: In this video we show how fast and easy you can create a SAP Dashboard with live data.
+  language: en
+  youtube_id: lJteh_tnZL8
+  weight: 200
+  image: /assets/images/videos/lJteh_tnZL8.jpg
+  category: SAP
+
+- title: Visualization of a SAP Function Module with Peakboard
+  description: In this example we show you how you can visualize delivery data from SAP directly in Peakboard. We use an SAP function module as data source.
+  language: en
+  youtube_id: 3hUxD8e4kzk
+  weight: 200
+  image: /assets/images/videos/3hUxD8e4kzk.jpg
+  category: SAP
+
+- title: Visualize XML and JSON REST APIs with Peakboard
+  description: In this video we show you how to visualize XML and JSON REST APis with Peakboard.
+  language: en
+  youtube_id: GowkU7h9gvs
+  weight: 200
+  image: /assets/images/videos/GowkU7h9gvs.jpg
+  category: More
+
 - title: Peakboard-Bridge Installation and Configuration
   description: Peakboard-Bridge Installation and Configuration
   language: en
   youtube_id: FiCH_gC8Ypg
   weight: 200
-  image: /assets/images/instant_boards/web/img3.png
+  image: /assets/images/videos/FiCH_gC8Ypg.jpg
+  category: More
+
+
