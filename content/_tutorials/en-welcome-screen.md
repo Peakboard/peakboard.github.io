@@ -4,8 +4,9 @@ title: Welcome Screen
 menu_title: Welcome Screen
 description: Plug&Play Solution to create your Welcome Screen
 lang: en
-weight: 600
-ref: tut-600
+weight: 400
+ref: tut-400
+image: /assets/images/instant_boards/welcome/Welcome_Screen_Online_Single.jpg
 redirect_from:
   - /tutorials/06-en-welcome-screen.html
 ---

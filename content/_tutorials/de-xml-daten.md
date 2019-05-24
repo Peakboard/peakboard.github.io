@@ -4,8 +4,8 @@ title: Externen Datenquellen am Beispiel einer XML-Datenquelle
 menu_title: Externen Datenquellen am Beispiel einer XML-Datenquelle
 description: Externen Datenquellen am Beispiel einer XML-Datenquelle
 lang: de
-weight: 300
-ref: tut-300
+weight: 700
+ref: tut-700
 image: /assets/images/Tutorial/XML/TutorialExterneDatenquelle01.png
 redirect_from:
   - /tutorials/03-de-xml-daten.html

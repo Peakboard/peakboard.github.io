@@ -6,6 +6,7 @@ description: Plug&Play Solution to have an Appointment Overview
 lang: en
 weight: 500
 ref: tut-500
+image: /assets/images/instant_boards/welcome/Appointments_Overview.png
 redirect_from:
   - /tutorials/05-en-appointments-overview.html
 ---

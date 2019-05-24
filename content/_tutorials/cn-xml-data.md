@@ -4,8 +4,9 @@ title: 使用XML数据源的外部数据源示例
 menu_title: 使用XML数据源的外部数据源示例
 description: 使用XML数据源的外部数据源示例
 lang: cn
-weight: 300
-ref: tut-300
+weight: 700
+ref: tut-700
+image: /assets/images/Tutorial/XML/TutorialExterneDatenquelle01.png
 redirect_from:
   - /tutorials/03-cn-xml-data.html
 ---

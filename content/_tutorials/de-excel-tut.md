@@ -4,8 +4,8 @@ title: Excel-Datei von einem Netzlaufwerk einbinden
 menu_title: Excel-Datei von einem Netzlaufwerk einbinden
 description: Excel-Datei von einem Netzlaufwerk einbinden
 lang: de
-weight: 400
-ref: tut-400
+weight: 600
+ref: tut-600
 image: /assets/images/Tutorial/Excel/TutorialExcel_01.png
 redirect_from:
   - /tutorials/04-de-excel-tut.html
