@@ -6,6 +6,7 @@ description: Plug&Play Lösung für einen Willkommensbildschirm
 lang: de
 weight: 600
 ref: tut-600
+image: /assets/images/instant_boards/welcome/Welcome_Screen_Online.jpg
 redirect_from:
   - /tutorials/06-de-welcome-screen.html
 ---

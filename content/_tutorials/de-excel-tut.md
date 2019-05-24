@@ -6,6 +6,7 @@ description: Excel-Datei von einem Netzlaufwerk einbinden
 lang: de
 weight: 400
 ref: tut-400
+image: /assets/images/Tutorial/Excel/TutorialExcel_01.png
 redirect_from:
   - /tutorials/04-de-excel-tut.html
 ---

@@ -6,6 +6,7 @@ description: Externen Datenquellen am Beispiel einer XML-Datenquelle
 lang: de
 weight: 300
 ref: tut-300
+image: /assets/images/Tutorial/XML/TutorialExterneDatenquelle01.png
 redirect_from:
   - /tutorials/03-de-xml-daten.html
 ---

@@ -6,6 +6,7 @@ description: Plug&Play Lösung für eine Terminübersicht der aktuellen Termine
 lang: de
 weight: 500
 ref: tut-500
+image: /assets/images/instant_boards/welcome/Appointments_Overview.png
 redirect_from:
   - /tutorials/05-de-appointments-overview.html
 ---
