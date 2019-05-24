@@ -73,7 +73,7 @@
   weight: 2300
   image: /assets/images/instant_boards/web/img3.png
   category: Komplexe Datenaggregation
-  
+
 - title: Empfangsbildschirm mit Peakboard IO Tables erstellen
   description: In diesem Videotutorial wird erklärt, wie in Peakboard IO Tabellen erstellt und diese auf einer Peakboard-Box visualisiert werden. Link zu Peakboard IO https://www.peakboard.io/
   language: de
@@ -160,62 +160,5 @@
   language: de
   youtube_id: NIKcjcXRqHE
   weight: 1000
-  image: /assets/images/instant_boards/web/img3.png
-
-- title: SAP Tabellen visualisieren
-  description: Hier wird gezeigt wie schnell und einfach Live SAP Daten mit Hilfe von Peakboard auf einem Display angezeigt werden können.
-  language: de
-  youtube_id: Tt_4J9SnAHo
-  weight: 1100
-  image: /assets/images/instant_boards/web/img3.png
-
-- title: SAP-Daten mit Peakboard visualisieren
-  description: In diesem Beispiel erläutern wir, wie Lieferdaten aus SAP direkt in Peakboard visualisiert werden. Als Datenquelle nutzen wir einen SAP-Funktionsbaustein.
-  language: de
-  youtube_id: 0LnSppkFeHk
-  weight: 1200
-  image: /assets/images/instant_boards/web/img3.png
-
-- title: Direkte Kommunikation zwischen Peakboard-Boxen
-  description: Senden und Empfangen von Http Anfragen von Peakboard-Boxen
-  language: de
-  youtube_id: skMB1QRiY-o
-  weight: 1300
-  image: /assets/images/instant_boards/web/img3.png
-- title: Daten aus Excel mit Peakboard visualisieren
-  description: Erstellung einer Peakboard Visualisierung mit Excel Daten aus OneDrive.
-  language: de
-  youtube_id: AJNO8ciLm08
-  weight: 1400
-  image: /assets/images/instant_boards/web/img3.png
-- title: Scripting Grundlagen mit Peakboard für anspruchsvolle Visualisierungen
-  description: In diesem Video zeigen wir den Einstieg in das Peakboard LUA-Scripting.
-  language: de
-  youtube_id: BQciWdoq74U
-  weight: 1500
-  image: /assets/images/instant_boards/web/img3.png
-- title: SQL Server Datenanbindung mit Peakboard
-  description: SQL Server Datenanbindung mit Peakboard
-  language: de
-  youtube_id: WLcCNaNce4c
-  weight: 1600
-  image: /assets/images/instant_boards/web/img3.png
-- title: Interaktive Soll- Ist-Daten Visualisierung mit Peakboard
-  description: Interaktive Soll- Ist-Daten Visualisierung mit Peakboard
-  language: de
-  youtube_id: cSsN4i-eM4A
-  weight: 1700
-  image: /assets/images/instant_boards/web/img3.png
-- title: Visualisierung einer XML-Datenquelle
-  description: Visualisierung einer XML-Datenquelle mit Peakboard
-  language: de
-  youtube_id: GH3D5z5ZKxU
-  weight: 1800
-  image: /assets/images/instant_boards/web/img3.png
-- title: Visualisierung Installieren
-  description: Laden einer Visualisierung vom Peakboard-Designer auf eine Peakboard-Box
-  language: de
-  youtube_id: lQeVf3EiyUI
-  weight: 1900
   image: /assets/images/instant_boards/web/img3.png
 
