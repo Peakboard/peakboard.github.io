@@ -4,25 +4,79 @@
   youtube_id: 55qRDK3BWXk
   weight: 100
   homepage: true
+  category: Beliebt
   image: /assets/images/instant_boards/web/img3.png
+
+- title: Siemens S7 SPS Visualisierung erstellen und mit Peakboard anbinden
+  description: In diesem Video zeigen wir euch, wie ihr eine Siemens S7 Steuerung an euer Peakboard anbindet und Maschinendaten in Echtzeit visualisiert.
+  language: de
+  youtube_id: w8jRp6st180
+  weight: 200
+  homepage: true
+  category: Beliebt
+  image: /assets/images/instant_boards/web/img3.png
+
+- title: OPC UA Daten mit Peakboard visualisieren
+  description: In diesem Video erklären wir euch, wie einfach es ist, OPC UA Daten über Peakboard anzubinden und Maschinendaten in Echtzeit zu visualisieren.
+  language: de
+  youtube_id: xr309YQnikc
+  weight: 300
+  homepage: true
+  category: Beliebt
+  image: /assets/images/instant_boards/web/img3.png
+
 - title: SQL Datenbank und Barcode Scanner mit Peakboard anbinden und visualisieren
   description: In diesem Video erklären wir euch, wie ihr eine SQL Datenbank beschreibt und einen Barcode Scanner als Input für eure Peakboard Box verwendet.
   language: de
   youtube_id: ot1Sdu-Z380
-  weight: 200
+  weight: 400
+  homepage: true
+  category: Beliebt
   image: /assets/images/instant_boards/web/img3.png
+
+- title: Dataflows im Designer erstellen
+  description: Dieses Video erklärt, wie die neuen Dataflows funktionieren.
+  language: de
+  youtube_id: CX8vDJFCX_4
+  weight: 500
+  homepage: true
+  category: Beliebt
+  image: /assets/images/instant_boards/web/img3.png
+
+- title: Excel-Sales-Dashboard mit Peakboard visualisieren
+  description: Excel-Sales-Dashboard mit Peakboard visualisieren
+  language: de
+  youtube_id: Hn-HmCAcOHE
+  weight: 600
+  homepage: true
+  category: Beliebt
+  image: /assets/images/instant_boards/web/img3.png
+
+
+- title: XML und JSON REST APIs mit Peakboard visualisieren
+  description: XML und JSON REST APIs mit Peakboard visualisieren
+  language: de
+  youtube_id: VNc7BlYFqHo
+  weight: 400
+  homepage: true
+  image: /assets/images/instant_boards/web/img3.png
+
+
+- title: SAP Live-Dashboard erstellen
+  description: SAP Live-Dashboard erstellen
+  language: de
+  youtube_id: X9EA9xdwJxw
+  weight: 500
+  homepage: true
+  image: /assets/images/instant_boards/web/img3.png
+
 - title: Interaktiven Stadtplan mit Peakboard visualisieren
   description: In diesem Video erklären wir euch, wie ihr einen interaktiven Stadtplan mit Peakboard erstellt. Die Daten kommen aus einer SQL Datenbank.
   language: de
   youtube_id: YesZSb42Bwk
   weight: 300
   image: /assets/images/instant_boards/web/img3.png
-- title: OPC UA Daten mit Peakboard visualisieren
-  description: In diesem Video erklären wir euch, wie einfach es ist, OPC UA Daten über Peakboard anzubinden und Maschinendaten in Echtzeit zu visualisieren.
-  language: de
-  youtube_id: xr309YQnikc
-  weight: 400
-  image: /assets/images/instant_boards/web/img3.png
+
 - title: Über Slack mit einer Peakboard Box kommunizieren
   description: In diesem Video zeigen wir euch, wie ihr über Slack mit einer Peakboard Box kommunizieren könnt.
   language: de
@@ -30,49 +84,49 @@
   weight: 500
   homepage: true
   image: /assets/images/instant_boards/web/img3.png
-- title: Siemens S7 SPS Visualisierung erstellen und mit Peakboard anbinden
-  description: In diesem Video zeigen wir euch, wie ihr eine Siemens S7 Steuerung an euer Peakboard anbindet und Maschinendaten in Echtzeit visualisiert.
-  language: de
-  youtube_id: w8jRp6st180
-  weight: 600
-  homepage: true
-  image: /assets/images/instant_boards/web/img3.png
+
 - title: Darstellung des Microsoft Outlook Kalenders in Peakboard
   description: In diesem Video zeigen wir euch, wie ihr die neue Microsoft Calendar Datenquelle anbindet und in einer Visualisierung verwendet.
   language: de
   youtube_id: 0LsEXH9-r7s
   weight: 700
   image: /assets/images/instant_boards/web/img3.png
+
 - title: PDF Netzwerkdateien über Peakboard anzeigen
   description: In diesem Video erklären wir Ihnen, wie Sie die Peakboard-Bridge nutzen können, um Dateien hinzuzufügen. Wir sprechen außerdem darüber, wie man grundlegende Touchscreen-Funktionen mit Hilfe von Lua-Scripting hinzufügen kann.
   language: de
   youtube_id: MGBl_Wp7aQU
   weight: 800
   image: /assets/images/instant_boards/web/img3.png
+
 - title: Peakboard-Bridge Installation und Konfiguration
   description: Dieses Video erklärt wie die Peakboard-Bridge installiert und konfiguriert wird.
   language: de
   youtube_id: WXp_Jjqq6Ck
   weight: 900
   image: /assets/images/instant_boards/web/img3.png
+
 - title: E-Mails direkt an das Peakboard schicken
   description: In diesem Videotutorial wird erklärt, wie ihr E-Mails direkt auf eurer Peakboard-Box empfangen und verarbeiten könnt. Dafür erstelle ich mit euch ein E-Mail Voting board.
   language: de
   youtube_id: NIKcjcXRqHE
   weight: 1000
   image: /assets/images/instant_boards/web/img3.png
+
 - title: SAP Tabellen visualisieren
   description: Hier wird gezeigt wie schnell und einfach Live SAP Daten mit Hilfe von Peakboard auf einem Display angezeigt werden können.
   language: de
   youtube_id: Tt_4J9SnAHo
   weight: 1100
   image: /assets/images/instant_boards/web/img3.png
+
 - title: SAP-Daten mit Peakboard visualisieren
   description: In diesem Beispiel erläutern wir, wie Lieferdaten aus SAP direkt in Peakboard visualisiert werden. Als Datenquelle nutzen wir einen SAP-Funktionsbaustein.
   language: de
   youtube_id: 0LnSppkFeHk
   weight: 1200
   image: /assets/images/instant_boards/web/img3.png
+  
 - title: Direkte Kommunikation zwischen Peakboard-Boxen
   description: Senden und Empfangen von Http Anfragen von Peakboard-Boxen
   language: de
@@ -115,12 +169,7 @@
   youtube_id: lQeVf3EiyUI
   weight: 1900
   image: /assets/images/instant_boards/web/img3.png
-- title: Dataflows im Designer erstellen
-  description: Dieses Video erklärt, wie die neuen Dataflows funktionieren.
-  language: de
-  youtube_id: CX8vDJFCX_4
-  weight: 2000
-  image: /assets/images/instant_boards/web/img3.png
+
 - title: Excel Netzwerk Dateien in Peakboard verwenden
   description: Hier wird gezeigt wie Dateien die sich im lokalen Netzwerk befinden in Peakboard verwendet werden.
   language: de
