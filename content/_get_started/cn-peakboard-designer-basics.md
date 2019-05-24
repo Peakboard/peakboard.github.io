@@ -8,6 +8,7 @@ weight: 100
 ref: start-100
 redirect_from:
   - /tutorials/01-cn-peakboard-designer-basics.html
+  - /tutorials/cn-peakboard-designer-basics.html
 ---
 本教程不需要任何先前的知识。其展示了Peakboard的第一步，并解释了一些您需要理解的理论基础，以便以后建立更复杂的可视化。但基本过程始终是相同的：可视化在Peakboard Designer的帮助下设计的。然后，将设计（也叫做看板）转移到一个或多个独立运行的Peakboard Box中。将所有人工制品，例如：图像、视频等打包进一个包中以便转移。该过程叫做部署。完整的程序展示在本教程中，也可以在[此视频](/video_tutorials/01-en-first-steps.html)中找到。如果您还没有Peakboard Box，在这个阶段，从我们主页上下载Designer就够了。当然，不再需要将设计转移到Box里——但这并不重要，因为您也可以在自己的电脑上进行预览。
 
