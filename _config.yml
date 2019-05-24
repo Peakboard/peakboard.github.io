@@ -23,42 +23,19 @@ plugins:
 
 collections_dir: content
 collections:
-  tutorials:
+  get_started:
     output: true
     icon: question.svg
-    position: 1
-    title:
-      en: "Tutorials"
-      de: "Tutorials"
-      cn: "教程"
-    sublevel:
-      Instant Boards:
-        en: "Instant Boards"
-        de: "Instant Boards"
-        cn: "Instant Boards"
-
-  video_tutorials:
-    output: true
-    icon: video.svg
     position: 0
     title:
-      en: "Video Tutorials"
-      de: "Video Tutorials"
-    sublevel:
-      Scripting:
-        en: "Scripting"
-        de: "Scripting"
-      Peakboard IO:
-        en: "PeakboardIO"
-        de: "PeakboardIO"
-      Komplexe Datenaggregation:
-        en: "Complex Data Aggregation"
-        de: "Komplexe Datenaggregation"
+      en: "Get Started"
+      de: "Erste Schritte"
+      cn: "入门"
 
   data_sources:
     output: true
     icon: database.svg
-    position: 2
+    position: 1
     title:
       en: "Data Sources"
       de: "Datenquellen"
@@ -76,7 +53,7 @@ collections:
   dataflows:
     output: true
     icon: database.svg
-    position: 3
+    position: 2
     title:
       en: "Dataflows"
       de: "Dataflows"
@@ -85,34 +62,16 @@ collections:
   controls:
     output: true
     icon: parameters-v.svg
-    position: 4
+    position: 3
     title:
       en: "Controls"
       de: "Controls"
       cn: "控件"
 
-  misc:
-    output: true
-    icon: plus-c.svg
-    position: 5
-    title:
-      en: "Misc"
-      de: "Misc"
-      cn: "杂项"
-
-  administration:
-    output: true
-    icon: id-card.svg
-    position: 6
-    title:
-      en: "Administration"
-      de: "Administration"
-      cn: "管理"
-
   scripting:
     output: true
     icon: browser.svg
-    position: 7
+    position: 4
     title:
       en: "Scripting"
       de: "Scripting"
@@ -123,7 +82,55 @@ collections:
         de: "Beispiele"
         cn: "示例"
 
+  administration:
+    output: true
+    icon: id-card.svg
+    position: 5
+    title:
+      en: "Administration"
+      de: "Administration"
+      cn: "管理"
 
+  misc:
+    output: true
+    icon: plus-c.svg
+    position: 6
+    title:
+      en: "Misc"
+      de: "Misc"
+      cn: "杂项"
+
+  tutorials:
+    output: true
+    icon: question.svg
+    position: 7
+    title:
+      en: "Tutorials"
+      de: "Tutorials"
+      cn: "教程"
+    sublevel:
+      Instant Boards:
+        en: "Instant Boards"
+        de: "Instant Boards"
+        cn: "Instant Boards"
+
+  video_tutorials:
+    output: true
+    icon: video.svg
+    position: 8
+    title:
+      en: "Video Tutorials"
+      de: "Video Tutorials"
+    sublevel:
+      Scripting:
+        en: "Scripting"
+        de: "Scripting"
+      Peakboard IO:
+        en: "PeakboardIO"
+        de: "PeakboardIO"
+      Komplexe Datenaggregation:
+        en: "Complex Data Aggregation"
+        de: "Komplexe Datenaggregation"
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
 language:
