@@ -25,7 +25,7 @@ collections_dir: content
 collections:
   get_started:
     output: true
-    icon: question.svg
+    icon: paper-plane.svg
     position: 0
     title:
       en: "Get Started"
@@ -52,7 +52,7 @@ collections:
       
   dataflows:
     output: true
-    icon: database.svg
+    icon: dataflows.svg
     position: 2
     title:
       en: "Dataflows"
