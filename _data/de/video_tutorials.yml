@@ -7,13 +7,6 @@
   category: Beliebt
   image: /assets/images/instant_boards/web/img3.png
 
-- title: Interaktiven Stadtplan mit Peakboard visualisieren
-  description: In diesem Video erklären wir euch, wie ihr einen interaktiven Stadtplan mit Peakboard erstellt. Die Daten kommen aus einer SQL Datenbank.
-  language: de
-  youtube_id: YesZSb42Bwk
-  weight: 300
-  image: /assets/images/instant_boards/web/img3.png
-
 - title: Siemens S7 SPS Visualisierung erstellen und mit Peakboard anbinden
   description: In diesem Video zeigen wir euch, wie ihr eine Siemens S7 Steuerung an euer Peakboard anbindet und Maschinendaten in Echtzeit visualisiert.
   language: de
@@ -41,7 +34,7 @@
   category: Beliebt
   image: /assets/images/instant_boards/web/img3.png
 
-- title: Dataflows im Designer erstellen
+- title: Datenmanipulation mit Dataflows
   description: Dieses Video erklärt, wie die neuen Dataflows funktionieren.
   language: de
   youtube_id: CX8vDJFCX_4
@@ -59,6 +52,63 @@
   category: Beliebt
   image: /assets/images/instant_boards/web/img3.png
 
+- title: Excel Netzwerk Dateien in Peakboard verwenden
+  description: Hier wird gezeigt wie Dateien die sich im lokalen Netzwerk befinden in Peakboard verwendet werden.
+  language: de
+  youtube_id: CPASGe3teqs
+  weight: 2100
+  image: /assets/images/instant_boards/web/img3.png
+  category: Komplexe Datenaggregation
+- title: Komplexe Lua Skripte in Peakboard
+  description: Hier werden unstrukturierte Excel Daten im Lua Script aggregiert zusammengeführt und aggregiert.
+  language: de
+  youtube_id: RJspmbiQwCM
+  weight: 2200
+  image: /assets/images/instant_boards/web/img3.png
+  category: Komplexe Datenaggregation
+- title: Peakboard Visualisierungen sauber designen
+  description: Hier wird gezeigt wie eine Peakboard Visualisierung ansprechend designed wird.
+  language: de
+  youtube_id: wv6X7oxWr8M
+  weight: 2300
+  image: /assets/images/instant_boards/web/img3.png
+  category: Komplexe Datenaggregation
+  
+- title: Empfangsbildschirm mit Peakboard IO Tables erstellen
+  description: In diesem Videotutorial wird erklärt, wie in Peakboard IO Tabellen erstellt und diese auf einer Peakboard-Box visualisiert werden. Link zu Peakboard IO https://www.peakboard.io/
+  language: de
+  youtube_id: HVdGqdGJvKQ
+  weight: 2400
+  image: /assets/images/instant_boards/web/img3.png
+  category: Peakboard IO
+- title: Schichtplan mit PeakboardIO Files erstellen
+  description: In diesem Videotutorial wird erklärt, wie Dateien in Peakboard IO hochgeladen werden können und wie diese daraufhin auf einer Peakboard Box visualisiert werden können. Link zu Peakboard IO https://www.peakboard.io/
+  language: de
+  youtube_id: H_dBCQlgTmQ
+  weight: 2500
+  image: /assets/images/instant_boards/web/img3.png
+  category: Peakboard IO
+- title: Screenwechsel
+  description: In diesem Video zeigen wir euch einige Grundlagen zum Scripting für das Wechseln von Screens.
+  language: de
+  youtube_id: JSAzZgsJd7c
+  weight: 2600
+  image: /assets/images/instant_boards/web/img3.png
+  category: Scripting
+- title: Einfärben von Tabellen in Peakboard
+  description: In diesem Video verwenden wir die Skripting-Sprache Lua, um interaktive Tabellen zu erstellen. Es werden hier außerdem Charts und Tabellen abhängig vom Inhalt gefärbt.
+  language: de
+  youtube_id: TDAJTjyK5FU
+  weight: 2600
+  image: /assets/images/instant_boards/web/img3.png
+  category: Scripting
+
+- title: Interaktiven Stadtplan mit Peakboard visualisieren
+  description: In diesem Video erklären wir euch, wie ihr einen interaktiven Stadtplan mit Peakboard erstellt. Die Daten kommen aus einer SQL Datenbank.
+  language: de
+  youtube_id: YesZSb42Bwk
+  weight: 300
+  image: /assets/images/instant_boards/web/img3.png
 
 - title: XML und JSON REST APIs mit Peakboard visualisieren
   description: XML und JSON REST APIs mit Peakboard visualisieren
@@ -68,7 +118,6 @@
   homepage: true
   image: /assets/images/instant_boards/web/img3.png
 
-
 - title: SAP Live-Dashboard erstellen
   description: SAP Live-Dashboard erstellen
   language: de
@@ -76,8 +125,6 @@
   weight: 500
   homepage: true
   image: /assets/images/instant_boards/web/img3.png
-
-
 
 - title: Über Slack mit einer Peakboard Box kommunizieren
   description: In diesem Video zeigen wir euch, wie ihr über Slack mit einer Peakboard Box kommunizieren könnt.
@@ -172,52 +219,3 @@
   weight: 1900
   image: /assets/images/instant_boards/web/img3.png
 
-- title: Excel Netzwerk Dateien in Peakboard verwenden
-  description: Hier wird gezeigt wie Dateien die sich im lokalen Netzwerk befinden in Peakboard verwendet werden.
-  language: de
-  youtube_id: CPASGe3teqs
-  weight: 2100
-  image: /assets/images/instant_boards/web/img3.png
-  category: Komplexe Datenaggregation
-- title: Komplexe Lua Skripte in Peakboard
-  description: Hier werden unstrukturierte Excel Daten im Lua Script aggregiert zusammengeführt und aggregiert.
-  language: de
-  youtube_id: RJspmbiQwCM
-  weight: 2200
-  image: /assets/images/instant_boards/web/img3.png
-  category: Komplexe Datenaggregation
-- title: Peakboard Visualisierungen sauber designen
-  description: Hier wird gezeigt wie eine Peakboard Visualisierung ansprechend designed wird.
-  language: de
-  youtube_id: wv6X7oxWr8M
-  weight: 2300
-  image: /assets/images/instant_boards/web/img3.png
-  category: Komplexe Datenaggregation
-- title: Empfangsbildschirm mit Peakboard IO Tables erstellen
-  description: In diesem Videotutorial wird erklärt, wie in Peakboard IO Tabellen erstellt und diese auf einer Peakboard-Box visualisiert werden. Link zu Peakboard IO https://www.peakboard.io/
-  language: de
-  youtube_id: HVdGqdGJvKQ
-  weight: 2400
-  image: /assets/images/instant_boards/web/img3.png
-  category: Peakboard IO
-- title: Schichtplan mit PeakboardIO Files erstellen
-  description: In diesem Videotutorial wird erklärt, wie Dateien in Peakboard IO hochgeladen werden können und wie diese daraufhin auf einer Peakboard Box visualisiert werden können. Link zu Peakboard IO https://www.peakboard.io/
-  language: de
-  youtube_id: H_dBCQlgTmQ
-  weight: 2500
-  image: /assets/images/instant_boards/web/img3.png
-  category: Peakboard IO
-- title: Screenwechsel
-  description: In diesem Video zeigen wir euch einige Grundlagen zum Scripting für das Wechseln von Screens.
-  language: de
-  youtube_id: JSAzZgsJd7c
-  weight: 2600
-  image: /assets/images/instant_boards/web/img3.png
-  category: Scripting
-- title: Einfärben von Tabellen in Peakboard
-  description: In diesem Video verwenden wir die Skripting-Sprache Lua, um interaktive Tabellen zu erstellen. Es werden hier außerdem Charts und Tabellen abhängig vom Inhalt gefärbt.
-  language: de
-  youtube_id: TDAJTjyK5FU
-  weight: 2600
-  image: /assets/images/instant_boards/web/img3.png
-  category: Scripting
