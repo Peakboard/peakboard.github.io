@@ -22,7 +22,8 @@
                     </span>
                 </label>
 
-                {% assign used_categories = "" | split: "" %} {% assign articles=site[collection.label] | where:"lang",page.lang %}
+                {% assign used_categories = "" | split: "" %}
+                {% assign articles=site[collection.label] | where:"lang",page.lang %}
 
                 <ul class="accordian-inner border-b border-grey-light bg-white list-reset pr-4 pl-4 md:pl-16 w-full">
 

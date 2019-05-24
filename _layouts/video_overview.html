@@ -6,10 +6,10 @@ layout: base
 {% assign collection = site.collections | where: "label", page.collection | first %}
 
 <section class="article-content max-w-lg px-4 mx-auto my-8">
-    <h3>{{ collection.title[page.lang] | capitalize }}</h3>
-    <h1>{{ page.title }}</h1>
-    <p>{{ site.language[page.lang].video-overview-content }}</p>
-    <a href="{{ site.language[page.lang].video-overview-link }}" class="action-link"><span>{{ site.language[page.lang].video-overview-link-text }} <i class="right-arrow"></i></span></a>
+    <h3 class="px-2">{{ collection.title[page.lang] | capitalize }}</h3>
+    <h1 class="px-2">{{ page.title }}</h1>
+    <p class="px-2">{{ site.language[page.lang].video-overview-content }}</p>
+    <a href="{{ site.language[page.lang].video-overview-link }}" class="action-link px-2"><span>{{ site.language[page.lang].video-overview-link-text }} <i class="right-arrow"></i></span></a>
 
     {% assign video_categories = site.data[page.lang].video_tutorials | group_by: 'category' %}
     {% if video_categories %}
@@ -57,7 +57,7 @@ layout: base
             </div>
         </div>
     {% else %}
-        <p class="my-8">{{ site.language[page.lang].video-none }}</p>
+        <p class="my-8 px-2">{{ site.language[page.lang].video-none }}</p>
     {% endif %}
 </section>
 

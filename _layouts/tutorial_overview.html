@@ -1,0 +1,82 @@
+---
+layout: base
+---
+
+{% include page_header.html lang_selector="article" %}
+{% assign collection = site.collections | where: "label", page.collection | first %}
+
+<section class="article-content max-w-lg px-4 mx-auto my-8">
+    <h3 class="px-2">{{ collection.title[page.lang] | capitalize }}</h3>
+    <h1 class="px-2">{{ page.title }}</h1>
+    <p class="px-2">{{ site.language[page.lang].tutorial-overview-content }}</p>
+    <a href="{{ site.language[page.lang].tutorial-overview-link }}" class="action-link px-2"><span>{{ site.language[page.lang].tutorial-overview-link-text }} <i class="right-arrow"></i></span></a>
+
+    {% assign articles=site[collection.label] | where:"lang",page.lang %}
+    {% if articles %}
+        <div class="mt-8">
+            <h3 class="px-2">Verfügbare Tutorials</h3>
+        {% assign sorted_articles = articles | sort: 'weight' %}
+        {% for article in sorted_articles %}
+            {% assign loopindex = forloop.index | modulo: 3 %}
+
+            {% if loopindex == 1 %}
+                <div class="flex flex-wrap my-4">
+                    {% endif %}
+
+                    <div class="w-full lg:w-1/3 xl:w-1/3 px-2 overflow-hidden mb-4 lg:mb-0 xl:mb-0">
+                        <div class="w-full h-full border-solid border-2 border-grey-lighter">
+                            <a class="no-underline" href="{{ article.url }}">
+                                {% if article.image %}
+                                    <img class="w-full p-4 lightbox-ignore" style="padding: 1rem;margin:0;" src="{{ article.image }}" alt="{{ article.description }}">
+                                {% else %}
+                                    <div class="w-full p-4 lightbox-ignore bg-grey-dark" style="padding: 1rem;margin:0;"></div>
+                                {% endif %}
+                            </a>
+                            <a class="no-underline text-black" href="{{ article.url }}">
+                                <div class="p-4">
+                                    <div class="text-black mb-2">{{ article.title | escape }}</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    {% if loopindex == 0 or forloop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <div class="flex flex-wrap mt-16 mb-8">
+            <div class="w-full px-2 overflow-hidden text-center">
+                <a href="#" id="tutorials-see-more" class="action-link"><span>{{ site.language[page.lang].tutorial-overview-see-more }} <i class="down-arrow"></i></span></a>
+            </div>
+        </div>
+    {% else %}
+        <p class="my-8">{{ site.language[page.lang].tutorial-none }}</p>
+    {% endif %}
+</section>
+
+{% capture cta-title %}{{ site.language[page.lang].cta-title }}{% endcapture %}
+{% capture cta-subtitle %}{{ site.language[page.lang].cta-subtitle }}{% endcapture %}
+{% capture cta-content %}{{ site.language[page.lang].cta-content }}{% endcapture %}
+{% capture cta-link %}{{ site.language[page.lang].cta-link }}{% endcapture %}
+{% capture cta-link-text %}{{ site.language[page.lang].cta-link-text }}{% endcapture %}
+{% include cta.html %}
+
+<script>
+    var videoSeeMoreCategories = document.getElementsByClassName("more-tutorials");
+
+    if(videoSeeMoreCategories.length === 0) {
+        document.getElementById("tutorials-see-more").classList.add("hidden");
+    } else {
+        document.getElementById("tutorials-see-more").addEventListener("click", function(e) {
+            e.preventDefault();
+
+            for(var i = 0; i < videoSeeMoreCategories.length; i++) {
+                videoSeeMoreCategories[i].classList.remove("hidden");
+            }
+
+            document.getElementById("tutorials-see-more").classList.add("hidden");
+        });
+    }
+</script>

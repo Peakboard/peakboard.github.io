@@ -6,7 +6,7 @@ There are some important conventions to note.
 
 * The filename should not contain spaces. Use either underscores or dashes in place of spaces.
 * The filename will be used in the url (and possibly title), so it should be descriptive of the article (you can just use the title), but written in kebab case.
-* Articles will appear alhpabetically in their categories.
+* Articles will appear in order of their weight (lowest being on top, ascending).
 * The filename should ideally be in the language the article is written in.
 * The extension should be .md if you are using markdown, or .html if you are writing in html. It is fine to use html in a markdown file (still use the .md extension)
 * Each file must contain "front matter"
@@ -24,6 +24,9 @@ description: A brief description of the article (around 160 characters)
 lang: en // the language code (e.g. german = de)
 ref: [unique id for article] // translations will have the same id
 weight: 100 // weight for page, defines the order in menu's. Lower means higher in the order.
+redirect_from:
+  - /some/url.html
+  - /other/url.html
 ---
 ```
 
