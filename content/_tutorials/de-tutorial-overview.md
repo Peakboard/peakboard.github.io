@@ -6,4 +6,6 @@ description: Tutorial Overview
 lang: de
 weight: 20
 ref: tut-20
+redirect_from:
+- /tutorials/
 ---
