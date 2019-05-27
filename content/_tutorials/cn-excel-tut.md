@@ -6,6 +6,7 @@ description: 包含来自网络驱动器的Excel文件
 lang: cn
 weight: 600
 ref: tut-600
+homepage: true
 image: /assets/images/Tutorial/Excel/TutorialExcel_01.png
 redirect_from:
   - /tutorials/04-cn-excel-tut.html

@@ -1,0 +1,19 @@
+{% if page.lang == 'de' %}
+    {% capture search_link %}/search.html{% endcapture %}
+{% else %}
+    {% capture search_link %}/{{page.lang}}/search.html{% endcapture %}
+{% endif %}
+
+<section class="hero py-8 px-8">
+    <div class="my-6 max-w-xl mx-auto">
+        <h3 class="font-bold text-4xl text-white">{{ site.language[page.lang].homepage-top-section-title }}</h3>
+        <p class="my-3 text-white">{{ site.language[page.lang].homepage-top-section-content }}</p>
+        <a href="{{ site.language[page.lang].homepage-top-section-link }}" class="action-link"><span>{{ site.language[page.lang].homepage-top-section-link-text }} <i class="right-arrow"></i></span></a>
+
+        <div class="search-container mt-8">
+            <form id="search-form-homepage" action="{{search_link}}">
+                <span><input type="text" class="search-bar search-bar-rounded" placeholder="{{ site.language[page.lang].homepage-top-section-search-placeholder }}" name="fromHomepage" autocapitalize="off" autocomplete="off" autocorrect="off"></span>
+            </form>
+        </div>
+    </div>
+</section>

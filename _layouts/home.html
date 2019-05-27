@@ -4,11 +4,10 @@ layout: base
 
 {% include page_header.html lang_selector="home" %}
 
-<section class="hero py-8 px-8">
-    <h3 class="font-bold text-4xl text-white">Peakboard Help</h3>
-    <p class="my-3 text-white">Here you will find tutorials and articles on using Peakboard.</p>
-</section>
+{% include home_search_section.html %}
 
-<div class="accordian-nav my-6 max-w-xl mx-auto">
-    {% include accordian.html %}
-</div>
+{% include home_video_overview.html %}
+
+{% include home_article_overview.html %}
+
+{% include home_tutorial_overview.html %}

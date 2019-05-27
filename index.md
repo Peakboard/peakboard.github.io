@@ -1,5 +1,5 @@
 ---
-layout: home_de
+layout: home
 lang: de
 search-ignore: true
 ---

@@ -1,5 +1,5 @@
 ---
-layout: home_cn
+layout: home
 lang: cn
 redirect_from: 
   - /cn/peakboard-help

@@ -44,13 +44,6 @@ body.stuck {
   overflow-x: hidden;
   position: relative;
 }
-.hero{
-   background-image: url("/assets/images/hero.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    text-align: center;
-}
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -92,7 +85,7 @@ body.stuck {
 }
 
 @import "top_menu";
-@import "accordian";
+@import "homepage";
 @import "article_content";
 @import "syntax_hightlighting";
 @import "lightbox";
