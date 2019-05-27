@@ -6,6 +6,7 @@ description: Including Excel File From a Network Drive
 lang: en
 weight: 600
 ref: tut-600
+homepage: true
 image: /assets/images/Tutorial/Overview/Tutorial_Excel_Small.png
 redirect_from:
   - /tutorials/04-en-excel-tut.html
