@@ -5,8 +5,8 @@ menu_title: Willkommensbildschirm
 description: Plug&Play Lösung für einen Willkommensbildschirm
 lang: de
 weight: 400
-homepage: true
 ref: tut-400
+homepage: true
 image: /assets/images/Tutorial/Overview/Welcome_Screen_Online_Single_Small.png
 redirect_from:
   - /tutorials/06-de-welcome-screen.html

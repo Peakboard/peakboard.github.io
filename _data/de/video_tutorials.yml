@@ -7,12 +7,20 @@
   image: /assets/images/videos/55qRDK3BWXk.jpg
   category: Beliebt
 
+- title: Excel-Sales-Dashboard mit Peakboard visualisieren
+  description: Excel-Sales-Dashboard mit Peakboard visualisieren
+  language: de
+  youtube_id: Hn-HmCAcOHE
+  weight: 500
+  homepage: true
+  image: /assets/images/videos/Hn-HmCAcOHE.jpg
+  category: Beliebt
+  
 - title: Siemens S7 SPS Visualisierung erstellen und mit Peakboard anbinden
   description: In diesem Video zeigen wir euch, wie ihr eine Siemens S7 Steuerung an euer Peakboard anbindet und Maschinendaten in Echtzeit visualisiert.
   language: de
   youtube_id: w8jRp6st180
   weight: 500
-  homepage: true
   image: /assets/images/videos/w8jRp6st180.jpg
   category: Beliebt
 
@@ -39,15 +47,6 @@
   youtube_id: CX8vDJFCX_4
   weight: 500
   image: /assets/images/videos/CX8vDJFCX_4.jpg
-  category: Beliebt
-
-- title: Excel-Sales-Dashboard mit Peakboard visualisieren
-  description: Excel-Sales-Dashboard mit Peakboard visualisieren
-  language: de
-  youtube_id: Hn-HmCAcOHE
-  weight: 500
-  homepage: true
-  image: /assets/images/videos/Hn-HmCAcOHE.jpg
   category: Beliebt
 
 - title: Screenwechsel

@@ -3,6 +3,7 @@
   language: en
   youtube_id: TqYdZqW0xMk
   weight: 100
+  homepage: true
   image: /assets/images/videos/TqYdZqW0xMk.jpg
   category: Recommended
 
@@ -11,6 +12,7 @@
   language: en
   youtube_id: vpnuZTsHwj8
   weight: 200
+  homepage: true
   image: /assets/images/videos/vpnuZTsHwj8.jpg
   category: Recommended
 
@@ -27,6 +29,7 @@
   language: en
   youtube_id: YpfEJrFriBU
   weight: 200
+  homepage: true
   image: /assets/images/videos/YpfEJrFriBU.jpg
   category: Machine Protocols
 
