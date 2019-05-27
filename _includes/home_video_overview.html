@@ -1,3 +1,4 @@
+{% if page.lang != 'cn' %}
 <div class="my-12 max-w-xl mx-auto">
     <h3 class="font-bold text-4xl text-black">{{ site.language[page.lang].homepage-video-highlights-title }}</h3>
     <p class="my-3 text-black">{{ site.language[page.lang].homepage-video-highlights-content }}</p>
@@ -27,3 +28,4 @@
 
     <a href="{{ site.language[page.lang].homepage-video-highlights-see-more-link }}" class="action-link"><span class="black">{{ site.language[page.lang].homepage-video-highlights-see-more }} <i class="right-arrow black"></i></span></a>
 </div>
+{% endif %}
