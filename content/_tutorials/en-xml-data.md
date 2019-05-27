@@ -6,7 +6,7 @@ description: External Data Sources Using XML Data Source Example
 lang: en
 weight: 700
 ref: tut-700
-image: /assets/images/Tutorial/XML/TutorialExterneDatenquelle01.png
+image: /assets/images/Tutorial/Overview/Tutorial_External_Data_Source_Small.png
 redirect_from:
   - /en/getting-started-with-external-data-sources-using-the-example-of-an-xml-data-source/
   - /tutorials/03-en-xml-data.html
