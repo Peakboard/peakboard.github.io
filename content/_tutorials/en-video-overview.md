@@ -1,9 +1,9 @@
 ---
 layout: video_overview
-title: Videotutorials
-menu_title: Videotutorials
-description: Videotutorials
+title: Video Tutorials
+menu_title: Video Tutorials
+description: Video Tutorials
 lang: en
-weight: 10
-ref: tut-10
+weight: 20
+ref: tut-20
 ---

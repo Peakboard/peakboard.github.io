@@ -1,9 +1,9 @@
 ---
 layout: video_overview
-title: Videotutorials
-menu_title: Videotutorials
+title: 视频教程
+menu_title: 视频教程
 description: Videotutorials
 lang: cn
-weight: 10
-ref: tut-10
+weight: 20
+ref: tut-20
 ---

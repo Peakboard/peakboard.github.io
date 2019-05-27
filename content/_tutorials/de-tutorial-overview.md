@@ -1,11 +1,11 @@
 ---
 layout: tutorial_overview
-title: Tutorial Overview
-menu_title: Tutorial Overview
-description: Tutorial Overview
+title: Tutorial Übersicht
+menu_title: Tutorial Übersicht
+description: Tutorial Übersicht
 lang: de
-weight: 20
-ref: tut-20
+weight: 10
+ref: tut-10
 redirect_from:
 - tutorials/
 ---
