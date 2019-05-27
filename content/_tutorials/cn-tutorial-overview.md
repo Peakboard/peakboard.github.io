@@ -1,9 +1,9 @@
 ---
 layout: tutorial_overview
-title: Tutorial Overview
-menu_title: Tutorial Overview
+title: 教程概述
+menu_title: 教程概述
 description: Tutorial Overview
 lang: cn
-weight: 20
-ref: tut-20
+weight: 10
+ref: tut-10
 ---

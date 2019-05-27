@@ -7,7 +7,7 @@ lang: cn
 weight: 600
 ref: tut-600
 homepage: true
-image: /assets/images/Tutorial/Excel/TutorialExcel_01.png
+image: /assets/images/Tutorial/Overview/Tutorial_Excel_Small.png
 redirect_from:
   - /tutorials/04-cn-excel-tut.html
 ---

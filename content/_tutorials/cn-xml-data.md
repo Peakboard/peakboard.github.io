@@ -6,7 +6,7 @@ description: 使用XML数据源的外部数据源示例
 lang: cn
 weight: 700
 ref: tut-700
-image: /assets/images/Tutorial/XML/TutorialExterneDatenquelle01.png
+image: /assets/images/Tutorial/Overview/Tutorial_External_Data_Source_Small.png
 redirect_from:
   - /tutorials/03-cn-xml-data.html
 ---

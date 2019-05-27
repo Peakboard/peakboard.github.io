@@ -14,7 +14,7 @@ layout: base
     {% assign articles=site[collection.label] | where:"lang",page.lang %}
     {% if articles %}
         <div class="mt-8">
-            <h3 class="px-2">Verfügbare Tutorials</h3>
+            <h3 class="px-2">{{ site.language[page.lang].tutorial-overview-category }}</h3>
         {% assign sorted_articles = articles | where:"layout","article" | sort: 'weight' %}
         {% for article in sorted_articles %}
             {% assign loopindex = forloop.index | modulo: 3 %}
