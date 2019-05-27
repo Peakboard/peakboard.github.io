@@ -191,30 +191,13 @@ module.exports = {
 
   fonts: {
     sans: [
-      "hel-neue",
-      "Open Sans",
-      "system-ui",
-      "BlinkMacSystemFont",
-      "-apple-system",
-      "Segoe UI",
       "Roboto",
-      "Oxygen",
-      "Ubuntu",
-      "Cantarell",
-      "Fira Sans",
-      "Droid Sans",
+      "Open Sans",
       "Helvetica Neue",
       "sans-serif"
     ],
     serif: [
-      "Constantia",
-      "Lucida Bright",
-      "Lucidabright",
-      "Lucida Serif",
-      "Lucida",
-      "DejaVu Serif",
-      "Bitstream Vera Serif",
-      "Liberation Serif",
+      "Roboto",
       "Georgia",
       "serif"
     ],
