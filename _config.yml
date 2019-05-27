@@ -114,24 +114,6 @@ collections:
         de: "Instant Boards"
         cn: "Instant Boards"
 
-  video_tutorials:
-    output: true
-    icon: video.svg
-    position: 8
-    title:
-      en: "Video Tutorials"
-      de: "Video Tutorials"
-    sublevel:
-      Scripting:
-        en: "Scripting"
-        de: "Scripting"
-      Peakboard IO:
-        en: "PeakboardIO"
-        de: "PeakboardIO"
-      Komplexe Datenaggregation:
-        en: "Complex Data Aggregation"
-        de: "Komplexe Datenaggregation"
-
 # Portions of text found throughout common components (like the footer) can be configured here for each language
 language:
   en:
