@@ -2,32 +2,32 @@
     {% if lang contains page.lang %}
         {% for text in lang %}
             {% if text != page.lang %}
-            <footer class="p-12 bg-orange mt-16">
-                <div class="flex flex-col md:flex-row border-b border-orange-darker pb-12 mb-12">
+            <footer class="p-12 page-header-bg mt-16">
+                <div class="flex flex-col md:flex-row border-b border-grey-light pb-12 mb-12">
                     <div class="mr-16 flex items-center">
                         <img src="/assets/logos/logo.svg" width="200" alt="Logo for Peakboard">
                     </div>
                     <div class="mr-12 mt-12 md:mt-0">
-                        <h4 class="mb-4 font-light border-b border-orange-darker text-3xl">{{ text.footer-support }}</h4>
-                        <p class="mb-3">{{ text.footer-support-tel }}
-                            <a href="#" class="text-white no-underline hover:underline">+49 711 46 05 99 -61</a>
+                        <h4 class="mb-4 font-light border-b border-grey-light text-3xl text-white">{{ text.footer-support }}</h4>
+                        <p class="mb-3 font-bold text-white">{{ text.footer-support-tel }}
+                            <a href="#" class="text-white no-underline hover:underline font-light">+49 711 46 05 99 -61</a>
                         </p>
-                        <p class="mb-3">{{ text.footer.support-email }}
-                            <a href="mailto:support@peakboard.com" class="text-white no-underline hover:underline">support@peakboard.com</a>
+                        <p class="mb-3 font-bold text-white">{{ text.footer-support-email }}
+                            <a href="mailto:support@peakboard.com" class="text-white no-underline hover:underline font-light">support@peakboard.com</a>
                         </p>
                     </div>
                     <div class="mr-12 mt-12 md:mt-0">
-                        <h4 class="mb-4 font-light border-b border-orange-darker text-3xl">{{ text.footer-contact }}</h4>
-                        <p class="mb-3">{{ text.footer-contact-email }}
-                            <a href="mailto:info@peakboard.com" class="text-white no-underline hover:underline">info@peakboard.com</a>
+                        <h4 class="mb-4 font-light border-b border-grey-light text-3xl text-white">{{ text.footer-contact }}</h4>
+                        <p class="mb-3 font-bold text-white">{{ text.footer-contact-email }}
+                            <a href="mailto:info@peakboard.com" class="text-white no-underline hover:underline font-light">info@peakboard.com</a>
                         </p>
-                        <p class="mb-3">{{ text.footer-contact-website }}
-                            <a href="https://www.peakboard.com" class="text-white no-underline hover:underline">www.peakboard.com</a>
+                        <p class="mb-3 font-bold text-white">{{ text.footer-contact-website }}
+                            <a href="https://www.peakboard.com" class="text-white no-underline hover:underline font-light">www.peakboard.com</a>
                         </p>
                     </div>
                 </div>
                 <div>
-                    <p>&copy; {{ site.time | date: "%Y" }}. {{ text.footer-copyright }}</p>
+                    <p class="text-white">&copy; {{ site.time | date: "%Y" }}. {{ text.footer-copyright }}</p>
                 </div>
             </footer>
             {% endif %}
