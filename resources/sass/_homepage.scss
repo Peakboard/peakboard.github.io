@@ -60,6 +60,12 @@
   }
 }
 
+.card-highlight {
+  &:hover {
+    border: #f29205 2px solid;
+  }
+}
+
 .search-form-homepage {
   width:500px;
   margin:0 auto;
