@@ -17,7 +17,7 @@ Each file you create for an article should contain "front matter", which is just
 
 ```markdown
 ---
-layout: article // for video tutorials use video_article
+layout: article
 title: The article title // if this is missing, the filename will be used to create a title
 menu_title: The title to appear in the menu // alows for shorter titles in menu, main title is fallback
 description: A brief description of the article (around 160 characters)

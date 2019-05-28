@@ -214,8 +214,7 @@ html {
       font-weight: 300;
       font-style: normal;
       font-size: 1rem;
-      line-height: 2;
-      letter-spacing: -.003em;
+      line-height: 1.5;
       -webkit-margin-after: 1em;
   }
   td {
@@ -223,7 +222,6 @@ html {
     font-style: normal;
     font-size: 0.8rem;
     line-height: 2;
-    letter-spacing: -.003em;
     -webkit-margin-after: 1em;
   }
 
@@ -493,6 +491,12 @@ html {
     }
     &:focus {
       border-bottom: 0;
+    }
+  }
+
+  .card-highlight {
+    &:hover {
+      border: #f29205 2px solid;
     }
   }
 }
