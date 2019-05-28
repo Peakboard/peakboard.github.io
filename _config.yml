@@ -168,7 +168,7 @@ language:
     cta-link-text: "Download Peakboard designer for free"
   de:
     homepage-top-section-title: "Peakboard Help"
-    homepage-top-section-content: "Diese Seite hilft dabei, schnell und effizient Peakboard zu verstehen und es für Ihre Bedürfnisse optimal einsetzen zu können. Es gibt Artikel für Einsteiger, für Fortgeschrittene und auch ganze Tutorials die anhand eines Beispiels genau erklären wie Sie Ihre Visualisierung aufbauen können. Für den Einstieg empfehlen wir die Ersten Schritte mit Peakboard."
+    homepage-top-section-content: "Diese Seite hilft dabei, schnell und effizient Peakboard zu verstehen und es für Ihre Bedürfnisse optimal einsetzen zu können. Es gibt Artikel für Einsteiger, für Fortgeschrittene und auch ganze Tutorials, die anhand eines Beispiels genau erklären, wie Sie Ihre Visualisierung aufbauen können. Für den Einstieg empfehlen wir die Ersten Schritte mit Peakboard."
     homepage-top-section-link: "https://help.peakboard.com/get_started/de-peakboard-designer-basics.html"
     homepage-top-section-link-text: "Erste Schritte mit Peakboard"
     homepage-top-section-search-placeholder: "Peakboard Help Durchsuchen..."
@@ -205,7 +205,7 @@ language:
     video-overview-no-category-title: "Other"
     video-none: "No videos yet."
     tutorial-overview-category: "VERFÜGBARE TUTORIALS"
-    tutorial-overview-content: "Hier finden Sie Schritt für Schritt Anleitungen um schnell Ihre Visualisierung zu erstellen. Viele weitere Tutorials gibt es auch als Video."
+    tutorial-overview-content: "Hier finden Sie Schritt für Schritt Anleitungen, um schnell Ihre Visualisierung zu erstellen. Viele weitere Tutorials gibt es auch als Video."
     tutorial-overview-link-text: "Videotutorials anzeigen"
     tutorial-overview-link: "https://help.peakboard.com/tutorials/de-video-overview.html"
     tutorial-overview-see-more: "Mehr anzeigen"
