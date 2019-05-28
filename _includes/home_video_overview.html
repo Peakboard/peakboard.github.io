@@ -1,20 +1,24 @@
-{% if page.lang != 'cn' %}
+{% assign videos = site.data[page.lang].video_tutorials | where:"homepage",true %}
+{% if videos %}
 <div class="my-12 max-w-xl mx-auto px-8 md:px-0">
     <h3 class="font-bold text-4xl text-black">{{ site.language[page.lang].homepage-video-highlights-title }}</h3>
     <p class="my-3 text-black">{{ site.language[page.lang].homepage-video-highlights-content }}</p>
-
-    {% assign videos = site.data[page.lang].video_tutorials | where:"homepage",true %}
-    {% if videos %}
         {% assign videos_sorted = videos | sort:"weight" %}
         <div class="flex flex-wrap my-4">
 
         {% for video in videos_sorted limit:3 %}
             <div class="w-full lg:w-1/3 xl:w-1/3 overflow-hidden mb-4 lg:mb-0 xl:mb-0 pr-2">
                 <div class="w-full h-full border-solid border-2 border-grey-lighter card-highlight">
-                    <a class="no-underline video-thumbnail" href="//www.youtube.com/embed/{{ video.youtube_id }}?autoplay=1&rel=0" data-lity>
+                    {% if page.lang == 'cn' %}
+                        {% capture link %}https://v.qq.com/txp/iframe/player.html?vid={{video.tencent_id}}{% endcapture %}
+                    {% else %}
+                        {% capture link %}//www.youtube.com/embed/{{video.youtube_id}}?autoplay=1&rel=0{% endcapture %}
+                    {% endif %}
+
+                    <a class="no-underline video-thumbnail" href="{{ link }}" data-lity>
                         <img class="w-full p-4 lightbox-ignore" style="padding: 1rem;margin:0;" src="{{ video.image }}" alt="{{ video.description }}">
                     </a>
-                    <a class="no-underline text-black" href="//www.youtube.com/embed/{{ video.youtube_id }}?autoplay=1&rel=0" data-lity>
+                    <a class="no-underline text-black" href="{{ link }}" data-lity>
                         <div class="p-4">
                             <div class="text-black mb-2">{{ video.title | escape }}</div>
                         </div>
@@ -24,7 +28,6 @@
         {% endfor %}
 
         </div>
-    {% endif %}
 
     <a href="{{ site.language[page.lang].homepage-video-highlights-see-more-link }}" class="action-link"><span class="black">{{ site.language[page.lang].homepage-video-highlights-see-more }} <i class="right-arrow black"></i></span></a>
 </div>
