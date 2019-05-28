@@ -118,7 +118,7 @@ collections:
 language:
   en:
     homepage-top-section-title: "Peakboard Help"
-    homepage-top-section-content: "This online help helps you get the most out of Peakboard for your needs quickly and efficiently. There are articles for beginners, for advanced users and also whole tutorials which explain with an example exactly how you can build your visualization."
+    homepage-top-section-content: "This page helps you get the most out of Peakboard for your needs quickly and efficiently. There are articles for beginners, for advanced users and also whole tutorials which explain with an example exactly how you can build your visualization."
     homepage-top-section-link: "https://help.peakboard.com/get_started/en-peakboard-designer-basics.html"
     homepage-top-section-link-text: "Get started with Peakboard"
     homepage-top-section-search-placeholder: "Search Peakboard Help..."
