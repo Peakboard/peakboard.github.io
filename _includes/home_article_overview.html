@@ -40,7 +40,7 @@
 
                                             <div class="flex">
                                                 <div class="w-8"></div>
-                                                <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-6{% endif %}">
+                                                <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-8{% endif %}">
                                                     <p class="w-full block py-1 ml-8 text-black">
                                                         {{ sub_level | replace: "_", " " | capitalize }}
                                                     </p>
@@ -54,7 +54,7 @@
                                                 {% if num_parts == 3 and parts[1] == sub_level %}
                                                     <div class="flex">
                                                         <div class="w-8"></div>
-                                                        <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-6{% endif %}">
+                                                        <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-8{% endif %}">
                                                             <a class="w-full block py-1 ml-8 hover:text-orange text-black no-underline" href="{{ art.url | relative_url }}">
                                                                 {{ art.title | escape }}
                                                             </a>

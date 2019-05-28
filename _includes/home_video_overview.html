@@ -7,7 +7,7 @@
         <div class="flex flex-wrap my-4">
 
         {% for video in videos_sorted limit:3 %}
-            <div class="w-full lg:w-1/3 xl:w-1/3 overflow-hidden mb-4 lg:mb-0 xl:mb-0 pr-2">
+            <div class="w-full lg:w-1/3 xl:w-1/3 overflow-hidden mb-4 lg:mb-0 xl:mb-0 {% unless forloop.last %}pr-2{% endunless %}">
                 <div class="w-full h-full border-solid border-2 border-grey-lighter card-highlight">
                     {% if page.lang == 'cn' %}
                         {% capture link %}https://v.qq.com/txp/iframe/player.html?vid={{video.tencent_id}}{% endcapture %}

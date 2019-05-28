@@ -22,6 +22,7 @@ document.getElementById("top-menu-search-button").onclick = function(e) {
   if(this.type !== 'submit') {
     this.setAttribute("type", "submit");
     document.getElementById('top-menu-search-input').classList.toggle('show');
+    document.getElementById('top-menu-search-input-field').focus();
     e.preventDefault();
   }
 };
