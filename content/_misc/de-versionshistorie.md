@@ -9,6 +9,9 @@ ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
+## 1.3.1.0
+* Hotfix für das Speichern von Farben bei Kreis und Donut-Diagrammen
+
 ## 1.3.0.0 (21.05.2019)
 * OPC UA: Fix von Browsing-Problemen bei absoluten Node IDs
 * OPC UA: Fix für Fortschrittsbalken, der beim Verbindungstest unendlich lang läuft
