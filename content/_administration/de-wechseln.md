@@ -10,11 +10,11 @@ redirect_from:
   - /administration/08-de-wechseln.html
 ---
 
-Um die aktuelle Visualisierung auf einer Peakboard-Box zu wechseln, gehen Sie im Designer auf Manage. Klicken Sie im neuen Fenster auf das Dropdown-Menü rechts von der gewünschten Peakboard-Box. Wählen Sie hier den Menüpunkt Activate Peakboard.
+Um die aktuelle Visualisierung auf einer Peakboard-Box zu wechseln, muss zunächst der Manage Dialog geöffnet werden. Dort wird die gewünschte Box ausgewählt und anschließend über den Visualisierungs-Button der Dialog für die Verwaltung der Visualisierungen geöffnet.
 
 ![ActivatePeakboard](/assets/images/admin/management/manage-dialog-activate-peakboard.png)
 
-Im folgenden Dialog können Sie die gewünschte Visualisierung wählen.
+Im folgenden Dialog können Sie die gewünschte Visualisierung wählen und über den Play-Button starten, stoppen oder löschen.
 
 ![ActivatePeakboard2](/assets/images/admin/management/activate-peakboard-dialog.png)
 
