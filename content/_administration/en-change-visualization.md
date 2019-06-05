@@ -9,8 +9,8 @@ ref: admin-800
 redirect_from:
   - /administration/08-en-change-visualization.html
 ---
-
 To change the current visualization on a Peakboard box, first open the Manage dialog. The desired box is selected there and then the dialog for managing the visualizations is opened via the visualization button.
+
 
 ![ActivatePeakboard](/assets/images/admin/management/manage-dialog-activate-peakboard.png)
 
