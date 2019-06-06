@@ -14,7 +14,7 @@ The Windows IoT Core Update from 1803 to 1809 blocks the connection via the Peak
 ## Script File
 This workaround is necessary to enable access again. The PowerShell script required for this can be downloaded [here](https://peakboard.com/download/fixes/Peakboard-WinUpdate-Repair.zip) and then executed.
 
-Alternatively, the following commands can also be executed manually.
+**Alternatively, the following commands can also be executed manually:**
 
 ## Manual Input
 First, a connection to the box must be established via PowerShell.

@@ -14,7 +14,7 @@ Mit dem Windows IoT Core Update von 1803 auf 1809 wird die Verbindung über den 
 ## Skript Datei 
 Um den Zugriff wieder freizuschalten, ist dieser Workaround nötig. Das hierfür benötigte PowerShell Skript kann [hier](https://peakboard.com/download/fixes/Peakboard-WinUpdate-Repair.zip) heruntergeladen und anschließend ausgeführt werden.
 
-Alternativ können auch folgende Commands manuell ausgeführt werden.
+**Alternativ können auch folgende Commands manuell ausgeführt werden:**
 
 ## Manuelle Eingabe
 Zuerst muss eine Verbindung zur Box über PowerShell hergestellt werden.
