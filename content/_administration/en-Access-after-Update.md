@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 The Windows IoT Core Update from 1803 to 1809 blocks the connection via the Peakboard Designer and access to the device portal.
-This workaround is necessary to enable access again. The PowerShell script required for this can be downloaded [here](https://github.com/Peakboard/CoolStuff/blob/master/Help%20Files/FixAfterWinUpdate/Peakboard-WinUpdate-Repair.zip) and then executed.
+This workaround is necessary to enable access again. The PowerShell script required for this can be downloaded [here](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/FixAfterWinUpdate/Peakboard-WinUpdate-Repair.zip) and then executed.
 
 Alternatively, the following commands can also be executed manually.
 
