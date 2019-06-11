@@ -9,7 +9,22 @@ ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
-## 1.3.1.0
+## 1.4.0.0 (11.06.2019)
+* WLan Dialog überarbeitet - Funktion wird nur auf Boxen ab Version 1.4.0.0 unterstützt
+* CSV-Datenquelle: Handling für doppelte Spaltenbezeichnungen hinzugefügt
+* CSV-Datenquelle: Es ist nun möglich Zeilen zu überspringen
+* Lua-Skript-Editor: Funktion .animate() für Controls hinzugefügt
+* Lua-Skript-Editor: Eigene globale Funktionen können über strg+Leertaste ausgewählt werden 
+* Lua-Skript-Editor: Skript-Baum analog zur Ordnerstruktur im Skript-Editor implementiert
+* Dataflows: Für mathematische Operationen wird ausschließlich das englische Zahlenformat (#,###.##) unterstützt. Über die Format-Option eines Controls kann das Ergebniss der Operation zur Anzeige auf dem Display in das deutsche Zahlenformat (#.###,##) umgewandelt werden
+* Update: Die Funktion prüft, bevor das Update ausgeführt wird, ob die aktuelle Visualisierung gespeichert wurde
+* PDF-Viewer überarbeitet
+* Fix für das Kopieren nicht zulässiger Elemente in Tile, Tile View und List View
+* Fix für Skripte welche bei der Bildschirmaktivierung ausgeführt werden
+* Fix im Skript-Editor für globale Funktionen 
+
+
+## 1.3.1.0 (29.05.2019)
 * Hotfix für das Speichern von Farben bei Kreis und Donut-Diagrammen
 
 ## 1.3.0.0 (21.05.2019)

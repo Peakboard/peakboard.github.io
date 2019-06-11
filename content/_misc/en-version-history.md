@@ -9,7 +9,21 @@ ref: misc-600
 redirect_from:
   - /misc/06-en-version-history.html
 ---
-## 1.3.1.0
+## 1.4.0.0 (11.06.2019)
+* WiFi Dialog revised - function is only supported on Boxes from version 1.4.0.0 onward
+* CSV data source: Handling for double column captions added
+* CSV data source: it is now possible to skip several rows
+* Lua script editor: function .animate() for controls added
+* Lua script editor: custom global functions can be selected via ctrl+space key 
+* Lua script editor: script tree implemented analogous to folder structure in script editor
+* Dataflows: Only the English number format (#,###.##) is supported for mathematical operations. Using the format option of a control, the result of the operation can be converted to the German number format (#.###,##) for display on the screen
+* Update: Before the update is executed, the function checks whether the current visualization has been saved
+* PDF viewer revised
+* Fix for copying invalid elements in Tile, Tile View, and List View
+* Fix for scripts which are executed during screen activation
+* Fix in script editor for global functions 
+
+## 1.3.1.0 (29.05.2019)
 * Hotfix for saving colors for circle and donut diagrams
 
 ## 1.3.0.0 (21.05.2019)
