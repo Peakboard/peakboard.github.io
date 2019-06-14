@@ -9,6 +9,9 @@ ref: misc-600
 redirect_from:
   - /misc/06-en-version-history.html
 ---
+## 1.4.1.0 (14.06.2019)
+* Hotfix for using the Tile control
+
 ## 1.4.0.0 (11.06.2019)
 * WiFi Dialog revised - function is only supported on Boxes from version 1.4.0.0 onward
 * CSV data source: Handling for double column captions added

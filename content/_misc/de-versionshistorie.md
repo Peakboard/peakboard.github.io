@@ -9,6 +9,9 @@ ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
+## 1.4.1.0 (14.06.2019)
+* Hotfix für die Verwendung des Tile-Control
+
 ## 1.4.0.0 (11.06.2019)
 * WLan Dialog überarbeitet - Funktion wird nur auf Boxen ab Version 1.4.0.0 unterstützt
 * CSV-Datenquelle: Handling für doppelte Spaltenbezeichnungen hinzugefügt
