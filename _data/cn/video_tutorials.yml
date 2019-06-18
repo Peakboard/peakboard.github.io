@@ -24,3 +24,13 @@
   homepage: true
   image: /assets/images/videos/r2_Nsh3lZMI.jpg
   category: Recommended
+  
+- title: XML与JSON REST API的可视化
+  description: XML与JSON REST API的可视化
+  language: cn
+  tencent_id: h08868ln95j
+  weight: 200
+  homepage: true
+  image: /assets/images/videos/GowkU7h9gvs.jpg
+  category: More
+
