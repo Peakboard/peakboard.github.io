@@ -248,7 +248,7 @@ language:
     cookie-alert-button: "OK"
     cookie-alert-link-text: "Read more"
     cookie-alert-link: "https://peakboard.com/en/privacy-policy/"
-    video-overview-content: "您可以在此找到所有视频教程，帮助您使用Peakboard。"
+    video-overview-content: "您可以在此找到所有视频教程，帮助您使用Peakboard(推荐从腾讯视频网站中打开，查看蓝光画质)。"
     video-overview-link-text: "Peakboard Channel"
     video-overview-link: "http://v.qq.com/vplus/7af145d55f5ad015e29fcf7d2a3821cf"
     video-overview-see-more: "显示更多"
