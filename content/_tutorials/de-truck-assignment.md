@@ -7,7 +7,7 @@ lang: de
 weight: 550
 ref: tut-550
 homepage: false
-image: /assets/images/instant_boards/truck_assignment/Truck_Assignment-EN.png
+image: /assets/images/instant_boards/truck_assignment/Truck_Assignment-DE.png
 redirect_from:
 
 ---
