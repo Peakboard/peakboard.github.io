@@ -6,3 +6,30 @@
   homepage: true
   image: /assets/images/videos/TqYdZqW0xMk.jpg
   category: Recommended
+
+- title: Excel销售数据可视化
+  description: Excel销售数据可视化
+  language: cn
+  tencent_id: g0879wswn13
+  weight: 200
+  homepage: true
+  image: /assets/images/videos/vpnuZTsHwj8.jpg
+  category: Recommended
+
+- title: 数据流简介
+  description: 数据流简介
+  language: cn
+  tencent_id: x0883vp61bt
+  weight: 200
+  homepage: true
+  image: /assets/images/videos/r2_Nsh3lZMI.jpg
+  category: Recommended
+  
+- title: XML与JSON REST API的可视化
+  description: XML与JSON REST API的可视化
+  language: cn
+  tencent_id: h08868ln95j
+  weight: 200
+  image: /assets/images/videos/GowkU7h9gvs.jpg
+  category: More
+
