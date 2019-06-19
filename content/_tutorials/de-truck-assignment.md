@@ -1,7 +1,7 @@
 ---
 layout: article
 title: LKW Zuweisung
-menu_title: WillkommensbLKW Zuweisungildschirm
+menu_title: LKW Zuweisungildschirm
 description: Plug&Play Lösung für eine LKW Zuweisung zu mehreren Toren
 lang: de
 weight: 550
