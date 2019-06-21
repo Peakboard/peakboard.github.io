@@ -10,6 +10,94 @@ redirect_from:
   - /tutorials/01-de-peakboard-designer-basics.html
 ---
 
+Es freut uns sehr, dass Sie sich für Peakboard interessieren. Wir wollen Ihnen hier die Peakboard Basics erklären und zeigen wie Sie Ihre erste Visualisierung erstellen.
+
+Fall Sie den Peakboard Designer noch nicht heruntergeladen haben, finden Sie hier den passenden [Link](https://peakboard.rocks/download).
+
+# Willkommen im Designer
+
+Nach dem ersten öffnen von Peakboard befinden Sie sich im sogenannten Get Started Dialog. Hier finden Sie nützliche Links zu den Peakboard Hilfeseiten oder den Videotutorials und Sie finden eine Reihe an Templates die den Einstieg so einfach wie möglich machen sollen. Die Template dienen als Beispiel und können als Basis für Ihre persönliche Visualisierung verwendet werden. 
+
+(Get started dialog Screenshot)
+
+Es gibt Templates für unterschiedliche Anwendungsfälle. Über den Button 'Alles anzeigen' erhalten Sie Zugriff auf weitere Templates und Beispieldateien welche das Arbeiten mit Skripten erklären. Für diesen Einstieg möchten wir allerdings ohne ein Template beginnen und eine Visualisierung von Grund auf erstellen. Wählen Sie hierzu 'Start from scratch' um mit einem leeren Template zu beginnen.
+
+# Struktur des Peakboard Designers
+
+Nun sind Sie so richtig im Peakboard Designer angekommen. Der Peakboard Designer ist in 5 Hauptbereiche aufgeteilt. Es gibt das Menüband oben mit Grundfunktionen (1), den Package Explorer auf der linken Seite (2), den Arbeitsbereich – auch Canvas genannt – in der Mitte (3), die Controlsübersicht auf der rechten Seite (4) und darunter die Attributleiste (5).
+
+(Screenshot Designer overview mit Nummern)
+
+## Ribbon Bar / Menüband oben
+
+Im oberen Menü sind Grundfunktionen des Designers hinterlegt. Hier können Sie eine Preview Ihrer Visualisierung öffnen (1) und die erstellte Visualisierung auf eine Peakboard Box laden (2). Über den weiteren Tab "Einstellungen" (3) können Sie grundlegende Einstellungen zu Ihrer Visualisierung vornehmen (Titel, Beschreibung, Zeitserver) oder ein Update der Software durchführen.
+
+(Screenshot Menüband fokus)
+
+## Peakboard Explorer
+Auf der linken Seite sind alle Elemente der Visualisierung aufgelistet. Die ist die generelle Übersicht welche Elemente in Ihrer Visualisierung vorhanden sind. Der Explorer funktioniert wie eine Ordnerstruktur. Es gibt Ordner für unterschiedliche Bereiche. Hier werden alle Datenquellen, Dataflows, Variablen, Skripte und Ressourcen in den jeweiligen Ordnern angezeigt. Unter dem letzten Punkt 'Bildschirme' finden Sie einer Auflistung aller vorhanden optischen Elemente auf Ihrem Arbeitsbereich.
+
+(Screenshot fokus Explorer)
+
+Ähnlich wie im Windows File Explorer können Sie mit einem Rechtsklick verschiedene Aktionen auf die Ordner durchführen – alternativ funktioniert dies auch mit klick auf den '...'-Button. Probieren Sie zum Beispiel mal aus auf den 'Bildschirme' Ordner mit einem Rechtsklick die Aktion 'Bildschirmgröße bearbeiten' zu öffnen. Hier können Sie die Größe der Visualisierung definieren. Für dieses Beispiel können Sie diese auf den Werten 1920x1080 (Full HD) belassen.
+
+## Controls / Elemente
+
+Auf der rechten Seite finden Sie eine Übersicht über vorhandene Oberflächenelemente – auch Controls genannt.
+Diese Elemente können Sie verwenden um Ihre Daten zu visualisieren. Es gibt für unterschiedliche Anwendungsfälle vorgefertigte Elemente die Sie verwenden und anpassen können. Dies beginnt mit einfachen Textfeldern, Tabellen, über einfach Diagramme (Kreis, Linien, Balken, etc.) bis hin zu anspruchsvollen, kombinierbaren Diagrammen (Erweitertes Diagramm) und wiederholbaren Oberflächenpatterns wie die Listen- oder Tileansicht. Alle Elemente können entweder per Drag and Drop auf den Arbeitsgebereich gezogen oder mit einem Doppelklick hinzugefügt werden.
+
+(Screenshot Controls)
+
+## Attribute
+Unterhalb der Oberflächenelemente finden Sie die Attributübersicht. Hier werden für das aktuell aktive Element die jeweiligen einstellbaren Parameter und Attribute aufgelistet. Diese Paremeter sind für jedes Element unterschiedlich. Probieren Sie zum Beispiel mal aus, mit einem Rechtsklick auf Bildschirme (im Paketexplorer links) einen weiteren Bildschirm hinzuzufügen. Anschließend klicken Sie auf einen der Bildschirme (1). Nun können Sie für die Bildschirme in den Attributen die Bildschirmdauer festlegen (2). Diese Bildschirmdauer definiert wie lange der jeweilige Bildschirm sichtbar bleibt, bevor der darauffolgende Bildschirm angezeigt wird.
+
+(Screenshot Bildschirm Duration)
+
+# Visualisierung erstellen
+
+Nun haben Sie eine übersicht über die wichtigsten Bereiche des Designers. Zeit Ihre erste Visualisierung zu erstellen. Fügen Sie dazu per Drag and Drop ein Textfeld aus den Oberflächenelementen rechts hinzu.
+
+(Textfeld reinziehen GIF)
+
+Nun können Sie in den Attributen verschiedene Einstellungen für das Element definieren. Passen Sie nun das Element Ihren optischen Vorstellungen an. Definieren Sie die gewünschte Schriftart, die Ausrichtung oder den Hintergrund. Definieren Sie einen 'Text' welcher angezeigt werden soll, dieser wird später durch einen Datensatz ersetzt.
+
+## Ressourcen/Bilder verwenden?
+Ziehen Sie eine Bilddatei auf den Peakboard Package Explorer.
+
+## Datenquelle verbinden
+
+Excel über OneDrive einbinden oder Locale Resource.
+(Download Link hier)
+
+4 Artikel, Titel, Produktnummer, Lagermenge, Mindestbestand, Lagerkapazität
+
+Auf der rechten Seite im Package Explorer kann nun eine Datenquelle hinzugefügt werden. Wählen Sie dafür den Ordner 'Daten' mit Rechtsklick aus oder klicken Sie auf den '...' Button. Anschließend können Sie über 'Datenquelle hinzufügen' Ihre gewünschte Datenquelle auswählen. In diesem Beispiel verwenden Sie bitte die Datenquelle 'JSON'.
+
+
+## Daten und Element verbinden
+
+Nun können Sie die Datenquelle mit einem Element verbinden. Wählen Sie dafür dieses Element/Control aus, in diesem Fall das Textelement. Auf der rechten Seite unter den Attributen finden Sie das Attribut 'Text'. Klicken Sie in dieser Zeile auf den '...' Button. 
+
+(Screenshot mit hinweis auf den Button)
+
+Im geöffneten Fenster können Sie nun die Datenquelle auswählen und die gewünschte Spalte und Zeile auswählen, welche Sie verwenden möchten. Bestätigen sie mit OK.
+
+Nun wird Ihnen der Inhalt der Datenquelle innerhalb der Textbox angezeigt.
+
+# Previewx
+
+# Nächster Schritt
+* Link auf -> Box verbinden & Hochladen
+
+
+* Datenmanipulation
+  * Dataflows
+  * Scripts
+  * Timers
+
+
+----
+
 Gliederung
 * Das ist Peakboard
   * Designer
@@ -25,13 +113,6 @@ Gliederung
   * Bessere Bilder
   * Anschließen
 
-
-
-
-Schön, dass du da bist! Es freut uns sehr, dass du dich für Peakboard interessierst. Wir wollen dir hier die Peakboard Basics erklären und zeigen wie du deine erste Visualisierung erstellst.
-
-Download gibts hier: peakboard.rocks/download
-
 Bezeichnungen?
 * Package Explorer? -> Paketübersicht / Paketbaum
 * Ribbon Menu? -> Navigationsleiste / Menüleiste
@@ -40,96 +121,6 @@ Bezeichnungen?
 * Attribut? Property? -> Eigenschaften
 * Canvas, Zeichenoberfläche -> Arbeitsbereich
 
-# Arbeiten mit Templates
-
-Um Ihnen den Einstieg so einfach wie möglich zu machen bietet Peakboard unterschiedliche Templates an. Sie können in diesem Dialog einfach ein Template auswählen, welches ungefähr Ihren Anforderungen entspricht.
-
-(Get started dialog Screenshot)
-
-Auf der linken Seite finden Sie nützliche Links, der Link zu unserer Dokumentation, zu unserem YouTube Channel
-
-Es gibt Templates für unterschiedliche Anwendungsfälle. Über den Button 'Alles anzeigen' erhalten Sie Zugriff auf weitere Templates und Beispieldateien welche das Arbeiten mit Skripten erklären. Wählen Sie 'Start from scratch' um mit einem leeren Template zu beginnen.
-
-# Struktur des Peakboard Designers
-
-Nun sind Sie so richtig im Peakboard Designer angekommen. Der Peakboard Designer ist in 4 Hauptbereiche aufgeteilt. Es gibt das Menüband oben mit Grundfunktionen, den Package Explorer auf der linken Seite
-
-## Ribbon Bar / Menüband oben
-
-Im oberen Menü sind Grundfunktionen des Designers hinterlegt. Hier können Sie eine Preview Ihrer Visualisierung öffnen, die erstellte Visualisierung auf eine Peakboard Box laden, grundlegende Einstellungen vornehmen oder ein Update durchführen.
-* Obere Ribbon Bar
-  * Preview 
-  * Boxen verwalten
-  * Einstellungen
-    * Einstellungen
-    * Serverzeit
-    * Update
-  * Format?
-
-
-## Peakboard Explorer
-Auf der linken Seite sind alle Elemente der Visualisierung aufgelistet. 
-
-* Link Seite Explorer
-  * Bildschirme
-  * Bildschirmgröße
-
-## Controls / Elemente
-
-* Rechte Seite mit Controls
-
-
-## Attribute
-* Rechte Seite mit Attributen
-
-
-# Visualisierung erstellen
-
-Nun haben Sie eine übersicht über die wichtigsten Bereiche des Designers. Zeit Ihre erste Visualisierung zu erstellen. Fügen Sie dazu per Drag&Drop ein Textfeld hinzu.
-
-(Textfeld reinziehen GIF)
-
-Nun können Sie in den Attributen verschiedene Einstellungen für das Element definieren. Passen Sie nun das Element Ihren optischen Vorstellungen an. Definieren Sie das gewünschte Schriftformat, die Ausrichtung oder den Hintergrund. Definieren Sie einen Text welcher angezeigt werden soll, dieser wird später durch einen Datensatz ersetzt.
-
-# Ressourcen/Bilder verwenden?
-Ziehen Sie eine Bilddatei auf den Peakboard Package Explorer.
-
-# Datenquelle verbinden
-
-Excel über OneDrive einbinden oder Locale Resource.
-(Download Link hier)
-
-4 Artikel, Titel, Produktnummer, Lagermenge, Mindestbestand, Lagerkapazität
-
-Auf der rechten Seite im Package Explorer kann nun eine Datenquelle hinzugefügt werden. Wählen Sie dafür den Ordner 'Daten' mit Rechtsklick aus oder klicken Sie auf den '...' Button. Anschließend können Sie über 'Datenquelle hinzufügen' Ihre gewünschte Datenquelle auswählen. In diesem Beispiel verwenden Sie bitte die Datenquelle 'JSON'.
-
-
-# Daten und Element verbinden
-
-Nun können Sie die Datenquelle mit einem Element verbinden. Wählen Sie dafür dieses Element/Control aus, in diesem Fall das Textelement. Auf der rechten Seite unter den Attributen finden Sie das Attribut 'Text'. Klicken Sie in dieser Zeile auf den '...' Button. 
-
-(Screenshot mit hinweis auf den Button)
-
-Im geöffneten Fenster können Sie nun die Datenquelle auswählen und die gewünschte Spalte und Zeile auswählen, welche Sie verwenden möchten. Bestätigen sie mit OK.
-
-Nun wird Ihnen der Inhalt der Datenquelle innerhalb der Textbox angezeigt.
-
-
-
-
-# Preview
-
-# Nächster Schritt
-* Link auf -> Box verbinden & Hochladen
-
-
-* Datenmanipulation
-  * Dataflows
-  * Scripts
-  * Timers
-
-
-----
 ----
 ----
 ----
