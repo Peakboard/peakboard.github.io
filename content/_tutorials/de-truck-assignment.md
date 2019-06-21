@@ -12,11 +12,15 @@ redirect_from:
 
 ---
 
-Um einen möglichst einfachen Einstieg in die Erstellungen einer LKW Zuweisung zu geben, bieten wir ein vorgefertigtes Template an. Dies ist eine Schritt für Schritt Anleitung, wie Sie LKW Zuweisung mit Peakboard erstellen und verwalten. Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten, wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). Zum Erstellen einer Visualisierung benötigen Sie den Peakboard Designer. Dieser kann kostenfrei [heruntergeladen](https://peakboard.rocks/designer-from-welcome) werden.
+Mit Hilfe einer Visualisierung für die LKW Zuweisung können Sie schnell und einfach verwalten, welches Tor zu welchem Zeitpunkt von einem bestimmten LKW angefahren werden soll. Die Verwaltung der Daten funktioniert komplett auf der Peakboard Box und ist über ein Webinterface (Webseite) oder über die Peakboard App möglich. 
 
-Nun werden Sie lernen wie Sie die Daten verwalten können und mit dem folgenden Template ihre eigene LKW Zuweisung erstellen.
+Um einen möglichst einfachen Einstieg in die Erstellung einer LKW Zuweisung zu geben, bieten wir ein vorgefertigtes Template an. Dies ist eine Schritt für Schritt Anleitung, wie Sie LKW Zuweisung mit Peakboard erstellen und verwalten. Das finale Ergebnis wird wie folgt aussehen:
 
 ![image_live](/assets/images/instant_boards/truck_assignment/Truck_Assignment-DE.png)
+
+Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](https://peakboard.rocks/erste-schritte). Wenn Sie wissen möchten, wie Sie eine Peakboard Box mit Ihrem Designer verbinden und eine Visualisierung übertragen, lesen Sie am besten folgenden [Artikel](https://peakboard.rocks/anschliessen). Zum Erstellen einer Visualisierung benötigen Sie den Peakboard Designer. Dieser kann kostenfrei [heruntergeladen](https://peakboard.rocks/designer-from-welcome) werden.
+
+
 
 
 ## Initiale Konfiguration
@@ -42,6 +46,8 @@ Wenn Sie bereits eine Box besitzen und die Visualisierung läuft können Sie die
 Über die Spalte "Prop_Available_At" können Sie eine Zeit angeben ab welcher die gewünschte LKW zum Tor fahren soll. Die Ampeln auf der linken Seite passen sich dementsprechend an. Unter 30 Minuten Restzeit wird die Ampel Orange, unter 5 Minuten Grün.
 
 Wenn Sie die Werte angepasst haben, drücken Sie auf Update. Die Tabellenwerte werden alle 15 Sekunden ausgelesen. Danach sollten Sie in der Visualisierung Ihre neuen Werte sehen und der Zeitabstand bis zu Ihrer angegebenen Uhrzeit wird angezeigt.
+
+Sie können die angezeigten Daten auch über die Peakboard App verwalten. Laden Sie hierfür die App für Android oder iOS herunter, Verbinden Sie es mit Ihrer Box und bearbeiten in der App die Werte der Variablenliste "gates". Mehr über die App können sie [hier](https://peakboard.rocks/apps) erfahren.
 
 Bitte beachten Sie, dies ist nur ein Beispiel. Sie können mit Peakboard auch Ihre Daten auch anders verwalten, oder die Visualisierung optisch Ihren Anforderungen anpassen. Probieren Sie es doch einfach mal aus.
 
