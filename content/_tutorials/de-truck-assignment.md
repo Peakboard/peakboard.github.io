@@ -33,23 +33,23 @@ Um die Visualisierung richtig verwenden zu können, müssen Sie sie auf ein Peak
 
 ## Angezeigte Daten verwalten
 
-Die Dargestellten Daten können mit der Variable 'gates' verwaltet werden. Diese finden Sie auf der linken Seite im Explorer im Ordner 'Variablen'. Öffnen Sie diese Variable mit einem Doppelklick. 
+Die dargestellten Daten können mit der Variable 'gates' verwaltet werden. Diese finden Sie auf der linken Seite im Explorer im Ordner 'Variablen'. Öffnen Sie diese Variable mit einem Doppelklick. 
 
 Wenn Sie bereits eine Box besitzen und die Visualisierung läuft können Sie die Werte direkt über ein Webinterface auf Ihrer Box verwalten. Dieses Webinterface ist eine Webseite, welche auf der Peakboard Box läuft und über folgende Adresse aufgerufen werden kann: http://NameIhrerBox:40404. Sie müssen den Namen Ihrer Box eingeben, gefolgt vom Port :40404. Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt. Anschließend sehen sie einen Screenshot Ihrer aktuell laufenden Visualisierung und auf der rechten Seite die Variablenliste "gates". 
 
 ![image_live](/assets/images/instant_boards/truck_assignment/Truck_Assignment_Webinterface_Overview.png)
 
-Öffnen Sie diese Liste mit einem Klick auf "Edit". Anschließend sehen Sie eine Tabelle in der Sie alle angezeigten Werte verwalten können. Je nach Anzahl Ihrer Tore können Sie weitere Tore hinzufügen über den "+"-Button oder auch Zeilen entfernen. Sie Visualisierung passt sich dementsprechend an und zeigt pro Seite 7 Tore an, wenn es mehr Tore sind, wechselt die Visualisierung alle 15 Sekunden die Seite.
+Öffnen Sie diese Liste mit einem Klick auf "Edit". Anschließend sehen Sie eine Tabelle, in der Sie alle angezeigten Werte verwalten können. Je nach Anzahl Ihrer Tore können Sie weitere Tore über den "+"-Button hinzufügen oder auch Zeilen entfernen. Die Visualisierung passt sich dementsprechend an und zeigt pro Seite 7 Tore an, wenn es mehr Tore sind, wechselt die Visualisierung alle 15 Sekunden die Seite.
 
 ![image_live](/assets/images/instant_boards/truck_assignment/Truck_Assignment_Webinterface_Variable.png)
 
-Über die Spalte "Prop_Available_At" können Sie eine Zeit angeben ab welcher die gewünschte LKW zum Tor fahren soll. Die Ampeln auf der linken Seite passen sich dementsprechend an. Unter 30 Minuten Restzeit wird die Ampel Orange, unter 5 Minuten Grün.
+Über die Spalte "Prop_Available_At" können Sie eine Zeit angeben, ab welcher der gewünschte LKW zum Tor fahren soll. Die Ampeln auf der linken Seite passen sich dementsprechend an. Unter 30 Minuten Restzeit wird die Ampel Orange, unter 5 Minuten Grün.
 
 Wenn Sie die Werte angepasst haben, drücken Sie auf Update. Die Tabellenwerte werden alle 15 Sekunden ausgelesen. Danach sollten Sie in der Visualisierung Ihre neuen Werte sehen und der Zeitabstand bis zu Ihrer angegebenen Uhrzeit wird angezeigt.
 
-Sie können die angezeigten Daten auch über die Peakboard App verwalten. Laden Sie hierfür die App für Android oder iOS herunter, Verbinden Sie es mit Ihrer Box und bearbeiten in der App die Werte der Variablenliste "gates". Mehr über die App können sie [hier](https://peakboard.rocks/apps) erfahren.
+Sie können die angezeigten Daten auch über die Peakboard App verwalten. Laden Sie hierfür die App für Android oder iOS herunter, verbinden Sie es mit Ihrer Box und bearbeiten in der App die Werte der Variablenliste "gates". Mehr über die App können sie [hier](https://peakboard.rocks/apps) erfahren.
 
-Bitte beachten Sie, dies ist nur ein Beispiel. Sie können mit Peakboard auch Ihre Daten auch anders verwalten, oder die Visualisierung optisch Ihren Anforderungen anpassen. Probieren Sie es doch einfach mal aus.
+Bitte beachten Sie, dies ist nur ein Beispiel. Sie können mit Peakboard Ihre Daten auch anders verwalten oder die Visualisierung optisch Ihren Anforderungen anpassen. Probieren Sie es doch einfach mal aus.
 
 # Jetzt kostenlos starten!
 
