@@ -45,7 +45,7 @@ Auf der linken Seite sind alle Elemente der Visualisierung aufgelistet. Dies ist
 ## Oberflächenelemente
 
 Auf der rechten Seite finden Sie eine Übersicht über vorhandene Oberflächenelemente – auch Controls genannt.
-Mit diesen Elementen können Sie Ihre Daten visualsieren. Es gibt für unterschiedliche Anwendungsfälle vorgefertigte Elemente die Sie verwenden und anpassen können. Dies beginnt mit einfachen Textfeldern, Tabellen, über einfache Diagramme (Kreis, Linien, Balken, etc.) bis hin zu anspruchsvollen, kombinierbaren Diagrammen (Erweitertes Diagramm) und wiederholbaren Oberflächenpatterns wie die Listen- oder Tileansicht. Alle Elemente können entweder per Drag and Drop auf den Arbeitsgebereich gezogen oder mit einem Doppelklick hinzugefügt werden.
+Mit diesen Elementen können Sie Ihre Daten visualsieren. Es gibt für unterschiedliche Anwendungsfälle vorgefertigte Elemente die Sie verwenden und anpassen können. Dies beginnt mit einfachen Textfeldern, Tabellen, über einfache Diagramme (Kreis, Linien, Balken, etc.) bis hin zu anspruchsvollen, kombinierbaren Diagrammen (Erweitertes Diagramm) und wiederholbaren Oberflächenpatterns wie die Listen- oder Tileansicht. Alle Elemente können entweder per Drag and Drop auf den Arbeitsbereich gezogen oder mit einem Doppelklick hinzugefügt werden.
 
 (Screenshot Controls)
 
@@ -67,7 +67,7 @@ Fügen Sie als zweites Element ein 'Gauge-Diagramm' in der Gruppe 'Diagramm', Li
 
 ## Ressourcen/Bilder verwenden?
 
-Sie können für Ihre Visualisierung unterschiedliche Dateitypen verwenden. Es können zum Beispiel Bilddateien (JPG oder PNG), PDFs oder eine Datenquelle als Excel-Datei eingebunden werden. Um eine Bilddatei als Logo zu verwenden, ziehen Sie einfach eine Bilddatei, z.B. Ihr Firmenlogo, auf den Peakboard Explorer oder rufen Sie das Ordnermenü des Ressourcen Ordners auf und fügen Sie eine lokale Ressource hinzu. Nun ist die Datei dem Paket hinzugefügt. Anschließend können Sie die Datei per Drag and Drop aus dem Peakboard Explorer auf den Arbeitsbereich ziehen – achten Sie darauf, auf eine freie Fläche zu ziehen. Nun können Sie Größe und Position bestimmen. Für andere Datenformate funktioniert der Vorgang sehr ähnlich.
+Sie können für Ihre Visualisierung unterschiedliche Dateitypen verwenden. Es können zum Beispiel Bilddateien (JPG oder PNG), PDFs oder eine Datenquelle als Excel-Datei eingebunden werden. Um eine Bilddatei als Logo in Ihrer Visualisierung zu verwenden, ziehen Sie einfach eine Bilddatei auf den Peakboard Explorer oder rufen Sie das Ordnermenü des Ressourcen Ordners auf und fügen Sie eine lokale Ressource hinzu. Nun ist die Datei dem Paket hinzugefügt. Anschließend können Sie die Datei per Drag and Drop aus dem Peakboard Explorer auf den Arbeitsbereich ziehen – achten Sie darauf, auf eine freie Fläche zu ziehen. Nun können Sie Größe und Position bestimmen. Für andere Datenformate funktioniert der Vorgang sehr ähnlich.
 
 (Screenshot Drag & Drop Logo)
 
@@ -77,11 +77,11 @@ Mit Peakboard können Sie ganz unterschiedliche Datenquellen verwenden. Von Date
 
 (Excel Datei: 4 Artikel, Titel, Produktnummer, Lagermenge, Mindestbestand, Lagerkapazität)
 
-In diesem Beispiel verwenden wir eine der einfacheren Datenquellen und zwar Microsoft Excel. Hier finden Sie den [Download Link](#) für die Datei in diesem Beispiel. Die Excel Datei enthält vier Produkte mit fünf Eigenschaften: Titel, Produktnummer, Lagermenge, Mindestbestand und Lagerkapazität. Laden Sie einfach die Datei herunter und fügen Sie sie, genau wie das Bild vorher, Ihrer Visualisierung per Drag and Drop hinzu. Nun liegt Ihre Datei als Ressource im Paket.
+In diesem Beispiel verwenden wir eine der einfacheren Datenquellen und zwar Microsoft Excel. Hier finden Sie den [Download Link](/assets/files/examples/Peakboard_Example_Date.xlsx) für die Datei in diesem Beispiel. Die Excel Datei enthält vier Produkte mit fünf Eigenschaften: Titel, Produktnummer, Lagermenge, Mindestbestand und Lagerkapazität. Laden Sie die Datei herunter und fügen Sie sie, genau wie das Bild vorher, Ihrer Visualisierung per Drag and Drop hinzu. Nun liegt die Datei als Ressource im Paket.
 
 (Bild Excel hinzugefügt oder Drag&Drop)
 
-Anschließend müssen sie noch die Ressource als Datenquelle hinzufügen. Klicken Sie hierzu auf der linken Seite den Ordner 'Daten' mit Rechtsklick oder klicken Sie auf den '...' Button und wählen Sie im Menü 'Datenquelle hinzufügen' aus. Wählen Sie nun die hochgeladenen Excel Datei aus. 
+Anschließend müssen sie noch die Ressource als Datenquelle hinzufügen. Klicken Sie hierzu auf der linken Seite den Ordner 'Daten' mit Rechtsklick oder klicken Sie auf den '...' Button und wählen Sie im Menü 'Datenquelle hinzufügen' aus. Wählen Sie nun die hochgeladene Excel Datei aus. 
 
 (Bild wie man die Datenquelle auswählt)
 
@@ -89,7 +89,7 @@ Voilà, Sie haben Ihre erste Datenquelle verbunden.
 
 ## Daten und Element verbinden
 
-Nun fehlt nur noch der letzten Schritt, Sie müssen die Datenquelle mit einem Element verbinden. Wählen Sie dafür das Element im Arbeitsbereich aus, in diesem Fall das Textelement. Auf der rechten Seite unter den Attributen finden Sie das Attribut 'Text'. Klicken Sie in dieser Zeile auf den '...' Button. 
+Nun fehlt noch der letzten Schritt, Sie müssen die Datenquelle mit einem Element verbinden. Wählen Sie das Element im Arbeitsbereich aus, in diesem Fall das Textelement. Auf der rechten Seite unter den Attributen finden Sie das Attribut 'Text'. Klicken Sie in dieser Zeile auf den '...' Button. 
 
 (Screenshot mit hinweis auf den Button)
 
@@ -99,7 +99,7 @@ Im geöffneten Fenster können Sie nun die Datenquelle auswählen und die gewün
 
 Nun wird Ihnen der Inhalt der einen Zelle Ihrer Datenquelle innerhalb der Textbox angezeigt.
 
-Nun können Sie noch die Datenquelle mit dem Gauge-Diagramm verbinden. Definieren Sie für das Feld 'Daten / Wert' (1) die Spalte 'Stock_Quantity', für das Feld 'Minimum' (2) die Spalte 'Min_Quantity' und für 'Maximum' (3) die Spalte 'Storage_Capacity'.
+Nun können Sie noch die Datenquelle mit dem Gauge-Diagramm verbinden. Klicken Sie in der jeweiligen Spalte in den Attributen auf den '...'-Button und wählen Sie jeweils die Excel Datenquelle aus. Definieren Sie für das Feld 'Daten / Wert' (1) die Spalte 'Stock_Quantity', für das Feld 'Minimum' (2) die Spalte 'Min_Quantity' und für 'Maximum' (3) die Spalte 'Storage_Capacity'.
 
 (Screenshot des Ergebnises mit den Attributen)
 
@@ -108,15 +108,15 @@ Sie haben es geschafft, Ihre erste Peakboard Visualisierung ist fertig und Sie k
 
 (Screenshot Button)
 
-Es öffnet sich ein neuer Dialog, welcher das Ergebnis zeigt und genau die Darstellung, welche später auf der Box laufen würde abbildet.
+Es öffnet sich ein neuer Dialog, welcher das Ergebnis zeigt. Diese Visualisierung können Sie nun auf eine Box übertragen.
 
 # Nächster Schritt
 
-Wenn Sie bereits eine Peakboard-Box besitzen können Sie auf der folgenden Seite eine Erklärung finden, wie Sie die Box anschließen, verbinden und diese Visualisierung auf die Box laden können.
+Wenn Sie bereits eine Peakboard-Box besitzen können Sie auf der folgenden Seite eine Erklärung finden, wie Sie die Box anschließen, verbinden und eine Visualisierung auf die Box laden können.
 
 Lesen Sie dazu den Artikel: [Anschließen und die erste Visualisierung übertragen](https://help.peakboard.com/get_started/de-anschliessen-und-die-erste-visualisierung.html)
 
-Wir wünschen Ihnen viel Spaß und Erfolg mit Peakboard. Sollten Sie irgendwelche Probleme bei der Erstellung haben, zögern Sie nicht mit uns in Kontakt zu treten. Alle wichtigen Information dazu finden Sie auf folgender [Seite](https://peakboard.com/support/).
+Wir wünschen Ihnen viel Spaß und Erfolg mit Peakboard. Sollten Sie Probleme bei der Erstellung haben, zögern Sie nicht mit uns in Kontakt zu treten. Alle wichtigen Information dazu finden Sie auf folgender [Seite](https://peakboard.com/support/).
 
 ----
 ----
