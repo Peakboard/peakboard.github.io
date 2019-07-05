@@ -14,11 +14,11 @@ Es freut uns sehr, dass Sie sich für Peakboard interessieren. Wir wollen Ihnen 
 
 Fall Sie den Peakboard Designer noch nicht heruntergeladen haben, finden Sie hier den passenden [Link](https://peakboard.rocks/download) zum kostenlosen Download. Der Peakboard Designer ist eine Desktopanwendung für Windows Computer, ggf. benötigen Sie Installationsberechtigungen von Ihrem System-Administrator.
 
-In unseren [Videotutorials](https://help.peakboard.com/tutorials/de-video-overview.html) finden, neben vielen weiteren Videos, ein  Video, welches die Basics des Peakboard Designers ebenfalls erklärt. 
+In unseren [Videotutorials](https://help.peakboard.com/tutorials/de-video-overview.html) finden, neben vielen weiteren Videos, ein  Video, welches die Basics des Peakboard Designers ebenfalls erklärt.
 
 # Willkommen im Designer
 
-Nach dem ersten öffnen von Peakboard befinden Sie sich im Start-Dialog. Hier finden Sie nützliche Links zu den Peakboard Hilfeseiten (1) oder den Videotutorials und Sie finden eine Reihe von Templates (2), die den Einstieg so einfach wie möglich machen sollen. Die Templates dienen als Beispiel und können als Basis für Ihre persönliche Visualisierung verwendet werden. 
+Nach dem ersten öffnen von Peakboard befinden Sie sich im Start-Dialog. Hier finden Sie nützliche Links zu den Peakboard Hilfeseiten (1) oder den Videotutorials und Sie finden eine Reihe von Templates (2), die den Einstieg so einfach wie möglich machen sollen. Die Templates dienen als Beispiel und können als Basis für Ihre persönliche Visualisierung verwendet werden.
 
 ![Peakboard Get Started Dialog](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_01.png)
 
@@ -61,9 +61,9 @@ Unterhalb der Oberflächenelemente finden Sie die Attributübersicht. Hier werde
 
 Nun haben Sie eine übersicht über die wichtigsten Bereiche des Designers. Zeit, Ihre erste Visualisierung zu erstellen. Fügen Sie dazu per Drag and Drop ein Textfeld aus den Oberflächenelementen rechts hinzu.
 
-![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_05.gif)
-
 Nun können Sie in den Attributen verschiedene Einstellungen für das Element definieren. Passen Sie das Element Ihren optischen Vorstellungen an. Definieren Sie die gewünschte Schriftart, die Ausrichtung oder den Hintergrund. Definieren Sie einen 'Text', welcher angezeigt werden soll. Dieser wird später durch einen Datensatz ersetzt.
+
+![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_05b.gif)
 
 Fügen Sie als zweites Element ein 'Gauge-Diagramm' in der Gruppe 'Diagramm', Linear oder Rund spielt keine Rolle. Auch hier können Sie verschiedene Eigenschaften wie Größen, Farben, etc. einstellen.
 
