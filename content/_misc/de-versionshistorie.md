@@ -9,6 +9,9 @@ ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
+## 1.4.2.2 (05.07.2019)
+* Hotfix zur Handhabung von Bild-Dateien
+
 ## 1.4.1.0 (14.06.2019)
 * Hotfix für die Verwendung des Tile-Control
 
