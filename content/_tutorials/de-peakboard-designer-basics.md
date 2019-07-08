@@ -14,7 +14,7 @@ Es freut uns sehr, dass Sie sich für Peakboard interessieren. Wir wollen Ihnen 
 
 Fall Sie den Peakboard Designer noch nicht heruntergeladen haben, finden Sie hier den passenden [Link](https://peakboard.rocks/download) zum kostenlosen Download. Der Peakboard Designer ist eine Desktopanwendung für Windows Computer, ggf. benötigen Sie Installationsberechtigungen von Ihrem System-Administrator.
 
-In unseren [Videotutorials](https://help.peakboard.com/tutorials/de-video-overview.html) finden, neben vielen weiteren Videos, ein  Video, welches die Basics des Peakboard Designers ebenfalls erklärt.
+In unseren [Videotutorials](https://help.peakboard.com/tutorials/de-video-overview.html) finden Sie zahlreiche hilfreiche Videos. Dort finden Sie auch ein Video, welches die ersten Schritte mit dem Peakboard Designer ebenfalls kurz erklärt.
 
 # Willkommen im Designer
 
