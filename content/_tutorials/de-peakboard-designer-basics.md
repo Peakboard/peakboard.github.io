@@ -14,7 +14,7 @@ Es freut uns sehr, dass Sie sich für Peakboard interessieren. Wir wollen Ihnen 
 
 Fall Sie den Peakboard Designer noch nicht heruntergeladen haben, finden Sie hier den passenden [Link](https://peakboard.rocks/download) zum kostenlosen Download. Der Peakboard Designer ist eine Desktopanwendung für Windows Computer, ggf. benötigen Sie Installationsberechtigungen von Ihrem System-Administrator.
 
-In unseren [Videotutorials](https://help.peakboard.com/tutorials/de-video-overview.html) finden Sie zahlreiche hilfreiche Videos. Dort finden Sie auch ein Video, welches die ersten Schritte mit dem Peakboard Designer ebenfalls kurz erklärt.
+Wenn Sie die ersten Schritte lieber als Bewegtbild ansehen möchten, finden Sie in unseren [Videotutorials](https://help.peakboard.com/tutorials/de-video-overview.html) das passende Video. Dort finden Sie auch weitere hilfreiche Erläuterungen rund um Peakboard.
 
 # Willkommen im Designer
 
@@ -22,15 +22,15 @@ Nach dem ersten öffnen von Peakboard befinden Sie sich im Start-Dialog. Hier fi
 
 ![Peakboard Get Started Dialog](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_01.png)
 
-Es gibt Templates für unterschiedliche Anwendungsfälle. Über die Button 'Mehr anzeigen...' (3) erhalten Sie Zugriff auf weitere Templates und Beispieldateien, welche das Arbeiten mit Skripten erklären. Für den Einstieg möchten wir allerdings ohne ein Template beginnen und eine Visualisierung von Null beginnen. Wählen Sie hierzu 'Start from scratch' (4) um mit einem leeren Template zu beginnen.
+Es gibt Templates für unterschiedliche Anwendungsfälle. Über die Button 'Mehr anzeigen...' (3) erhalten Sie Zugriff auf weitere Templates und Beispieldateien, welche das Arbeiten mit Skripten erklären. Für den Einstieg möchten wir allerdings ohne ein Template beginnen. Wählen Sie hierzu 'Start from scratch' (4) um mit einer leeren Visualisierung zu beginnen.
 
 # Struktur des Peakboard Designers
 
-Nun sind Sie richtig im Peakboard Designer angekommen. Der Peakboard Designer ist in 5 Hauptbereiche aufgeteilt. Es gibt das Menüband oben mit Grundfunktionen (1), den Package Explorer auf der linken Seite (2), den Arbeitsbereich – auch Canvas genannt – in der Mitte (3), die Elementübersicht auf der rechten Seite (4) und darunter die Attributleiste (5).
+Nun sind Sie richtig im Peakboard Designer angekommen. Der Peakboard Designer ist in 5 Hauptbereiche aufgeteilt. Es gibt das Menüband oben mit Grundfunktionen (1), den Peakboard Explorer auf der linken Seite (2), den Arbeitsbereich – auch Canvas genannt – in der Mitte (3), die Elementübersicht auf der rechten Seite (4) und darunter die Attributleiste (5).
 
 ![Peakboard Designer Overview](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_02.png)
 
-## Ribbon Bar / Menüband oben
+## Menüband oben (Ribbon Bar)
 
 Im oberen Menü sind Grundfunktionen des Designers hinterlegt. Hier können Sie eine Vorschau Ihrer Visualisierung öffnen (1) und die erstellte Visualisierung auf eine Peakboard Box laden (2). Über den weiteren Tab "Einstellungen" (3) können Sie grundlegende Einstellungen zu Ihrer Visualisierung vornehmen (Titel, Beschreibung, Zeitserver) oder ein Update der Software durchführen.
 
@@ -47,7 +47,7 @@ Auf der linken Seite sind alle Elemente der Visualisierung aufgelistet. Dies ist
 ## Oberflächenelemente
 
 Auf der rechten Seite finden Sie eine Übersicht über vorhandene Oberflächenelemente – auch Controls genannt.
-Mit diesen Elementen können Sie Ihre Daten visualsieren. Es gibt für unterschiedliche Anwendungsfälle vorgefertigte Elemente die Sie verwenden und anpassen können. Dies beginnt mit einfachen Textfeldern, Tabellen, über einfache Diagramme (Kreis, Linien, Balken, etc.) bis hin zu anspruchsvollen, kombinierbaren Diagrammen (Erweitertes Diagramm) und wiederholbaren Oberflächenpatterns wie die Listen- oder Tileansicht. Alle Elemente können entweder per Drag and Drop auf den Arbeitsbereich gezogen oder mit einem Doppelklick hinzugefügt werden.
+Mit diesen Elementen können Sie Ihre Daten visualisieren. Es gibt für unterschiedliche Anwendungsfälle vorgefertigte Elemente die Sie verwenden und anpassen können. Dies beginnt mit einfachen Textfeldern, Tabellen, über einfache Diagramme (Kreis, Linien, Balken, etc.) bis hin zu anspruchsvollen, kombinierbaren Diagrammen (Erweitertes Diagramm) und wiederholbaren Oberflächenpatterns wie die Listen- oder Tileansicht. Alle Elemente können entweder per Drag and Drop auf den Arbeitsbereich gezogen oder mit einem Doppelklick hinzugefügt werden.
 
 ![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_05.gif)
 
@@ -67,7 +67,7 @@ Nun können Sie in den Attributen verschiedene Einstellungen für das Element de
 
 Fügen Sie als zweites Element ein 'Gauge-Diagramm' in der Gruppe 'Diagramm', Linear oder Rund spielt keine Rolle. Auch hier können Sie verschiedene Eigenschaften wie Größen, Farben, etc. einstellen.
 
-## Ressourcen/Bilder verwenden?
+## Ressourcen und Bilder verwenden
 
 Sie können für Ihre Visualisierung unterschiedliche Dateitypen verwenden. Es können zum Beispiel Bilddateien (JPG oder PNG), PDFs oder eine Datenquelle als Excel-Datei eingebunden werden. Um eine Bilddatei als Logo in Ihrer Visualisierung zu verwenden, ziehen Sie einfach eine Bilddatei auf den Peakboard Explorer oder rufen Sie das Ordnermenü des Ressourcen Ordners auf und fügen Sie eine lokale Ressource hinzu. Nun ist die Datei dem Paket hinzugefügt. Anschließend können Sie die Datei per Drag and Drop aus dem Peakboard Explorer auf den Arbeitsbereich ziehen – achten Sie darauf, auf eine freie Fläche zu ziehen. Nun können Sie Größe und Position bestimmen. Für andere Datenformate funktioniert der Vorgang sehr ähnlich.
 
@@ -77,7 +77,9 @@ Sie können für Ihre Visualisierung unterschiedliche Dateitypen verwenden. Es k
 
 Mit Peakboard können Sie ganz unterschiedliche Datenquellen verwenden. Von Datenformaten wie CSV, JSON und XML, Datenbanken und SAP über Social Media bis hin zu Maschinen-, Förderanlagen- und Sensoreninformationen wie Siemens S7 und OPC UA. Weitere Informationen zu den Datenanbindungen finden Sie [hier](https://peakboard.com/datenanbindungen/).
 
-In diesem Beispiel verwenden wir eine der einfacheren Datenquellen und zwar Microsoft Excel. Hier finden Sie den [Download Link](/assets/files/examples/Peakboard_Example_Date.xlsx) für die Datei in diesem Beispiel. Die Excel Datei enthält vier Produkte mit fünf Eigenschaften: Titel, Produktnummer, Lagermenge, Mindestbestand und Lagerkapazität. Laden Sie die Datei herunter und fügen Sie sie, genau wie das Bild vorher, Ihrer Visualisierung per Drag and Drop hinzu. Nun liegt die Datei als Ressource im Paket.
+In diesem Beispiel verwenden wir eine der einfacheren Datenquellen und zwar eine Microsoft Excel Datei. In diesem Beispiel wird die [Excel Datei (Download)](/assets/files/examples/Peakboard_Example_Date.xlsx) direkt in das Paket geladen. Die Excel Datei enthält vier Produkte mit fünf Eigenschaften: Titel, Produktnummer, Lagermenge, Mindestbestand und Lagerkapazität. Laden Sie die Datei herunter und fügen Sie sie, genau wie das Bild vorher, Ihrer Visualisierung per Drag and Drop hinzu. Nun liegt die Datei als Ressource im Paket. 
+
+Wenn Sie später Excel Dateien von anderen Speicherorten einbinden wollen, können Sie [hier](https://help.peakboard.com/data_sources/de-excel.html) erfahren wie das geht. 
 
 ![Peakboard Designer – Excel Added](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_08.png)
 
@@ -95,7 +97,7 @@ Nun fehlt noch der letzten Schritt, Sie müssen die Datenquelle mit einem Elemen
 
 ![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_10.png)
 
-Im geöffneten Fenster können Sie nun die Datenquelle auswählen und die gewünschte Spalte (Title) und Zeile (1) auswählen, welche Sie verwenden möchten. Verwenden Sie für dieses Beispiel die Zeile 0. Beachten Sie, dass in der Informationstechnik bei 0 angefangen wird zu zählen, daher ist Zeile 0 die erste Zeile. Die Zeile mit den Überschriften wird nicht beachtet. Bestätigen sie mit OK.
+Im geöffneten Fenster können Sie nun die Datenquelle auswählen und die gewünschte Spalte (Title) und Zeile (1) auswählen, welche Sie verwenden möchten. Verwenden Sie für dieses Beispiel die Zeile 0 und die Spalte 'Title' für die Überschrift. Beachten Sie, dass in der Informationstechnik bei 0 angefangen wird zu zählen, daher ist Zeile 0 die erste Zeile. Die Zeile mit den Überschriften wird nicht beachtet. Bestätigen sie mit OK.
 
 ![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_11.png)
 
