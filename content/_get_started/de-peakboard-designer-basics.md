@@ -19,11 +19,11 @@ Wenn Sie die ersten Schritte lieber als Bewegtbild ansehen möchten, finden Sie 
 
 # Willkommen im Designer
 
-Nach dem ersten öffnen von Peakboard befinden Sie sich im Start-Dialog. Hier finden Sie nützliche Links zu den Peakboard Hilfeseiten (1) oder den Videotutorials und Sie finden eine Reihe von Templates (2), die den Einstieg so einfach wie möglich machen sollen. Die Templates dienen als Beispiel und können als Basis für Ihre persönliche Visualisierung verwendet werden.
+Nach dem ersten Öffnen von Peakboard befinden Sie sich im Start-Dialog. Hier finden Sie nützliche Links zu den Peakboard Hilfeseiten (1) oder den Videotutorials und Sie finden eine Reihe von Templates (2), die den Einstieg so einfach wie möglich machen sollen. Die Templates dienen als Beispiel und können als Basis für Ihre persönliche Visualisierung verwendet werden.
 
 ![Peakboard Get Started Dialog](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_01.png)
 
-Es gibt Templates für unterschiedliche Anwendungsfälle. Über die Button 'Mehr anzeigen...' (3) erhalten Sie Zugriff auf weitere Templates und Beispieldateien, welche das Arbeiten mit Skripten erklären. Für den Einstieg möchten wir allerdings ohne ein Template beginnen. Wählen Sie hierzu 'Start from scratch' (4) um mit einer leeren Visualisierung zu beginnen.
+Es gibt Templates für unterschiedliche Anwendungsfälle. Über die Button 'Mehr anzeigen...' (3) erhalten Sie Zugriff auf weitere Templates und Beispieldateien, welche das Arbeiten mit Skripten erklären. Für den Einstieg möchten wir allerdings ohne ein Template beginnen. Wählen Sie hierzu 'Start from scratch' (4), um mit einer leeren Visualisierung zu beginnen.
 
 # Struktur des Peakboard Designers
 
@@ -39,7 +39,7 @@ Im oberen Menü sind Grundfunktionen des Designers hinterlegt. Hier können Sie 
 
 ## Peakboard Explorer
 
-Auf der linken Seite sind alle Elemente der Visualisierung aufgelistet. Dies ist die generelle Übersicht, welche Elemente in Ihrer Visualisierung vorhanden sind. Der Explorer funktioniert wie eine Ordnerstruktur. Es gibt Ordner für unterschiedliche Bereiche. Hier werden alle Datenquellen, Dataflows, Variablen, Skripte und Ressourcen in den jeweiligen Ordnern angezeigt. Unter dem letzten Punkt 'Bildschirme' finden Sie eine Auflistung aller vorhanden optischen Elemente auf Ihrem Arbeitsbereich. Da wir noch keine Elemente hinzugefügt haben sind die Ordner im Moment noch leer.
+Auf der linken Seite sind alle Elemente der Visualisierung aufgelistet. Dies ist die generelle Übersicht, welche Elemente in Ihrer Visualisierung vorhanden sind. Der Explorer funktioniert wie eine Ordnerstruktur. Es gibt Ordner für unterschiedliche Bereiche. Hier werden alle Datenquellen, Dataflows, Variablen, Skripte und Ressourcen in den jeweiligen Ordnern angezeigt. Unter dem letzten Punkt 'Bildschirme' finden Sie eine Auflistung aller vorhandenen optischen Elemente auf Ihrem Arbeitsbereich. Da wir noch keine Elemente hinzugefügt haben sind die Ordner im Moment noch leer.
 
 ![Peakboard Designer Explorer](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_04.png)
 
@@ -54,19 +54,19 @@ Mit diesen Elementen können Sie Ihre Daten visualisieren. Es gibt für untersch
 
 ## Attribute
 
-Unterhalb der Oberflächenelemente finden Sie die Attributübersicht. Hier werden für das aktuell aktive Element die jeweiligen einstellbaren Parameter und Attribute aufgelistet. Diese Paremeter sind für jedes Element unterschiedlich. Probieren Sie zum Beispiel mal aus, mit einem Rechtsklick auf Bildschirme (im Paketexplorer links) einen weiteren Bildschirm hinzuzufügen. Anschließend klicken Sie auf einen der Bildschirme (1). Nun können Sie für die Bildschirme in den Attributen die Bildschirmdauer festlegen (2). Diese Bildschirmdauer definiert wie lange der jeweilige Bildschirm sichtbar bleibt, bevor der darauffolgende Bildschirm angezeigt wird.
+Unterhalb der Oberflächenelemente finden Sie die Attributübersicht. Hier werden für das aktuell aktive Element die jeweiligen einstellbaren Parameter und Attribute aufgelistet. Diese Parameter sind für jedes Element unterschiedlich. Probieren Sie zum Beispiel mal aus, mit einem Rechtsklick auf Bildschirme (im Paketexplorer links) einen weiteren Bildschirm hinzuzufügen. Anschließend klicken Sie auf einen der Bildschirme (1). Nun können Sie für die Bildschirme in den Attributen die Bildschirmdauer festlegen (2). Diese Bildschirmdauer definiert, wie lange der jeweilige Bildschirm sichtbar bleibt, bevor der darauffolgende Bildschirm angezeigt wird.
 
 ![Peakboard Designer – Attribute](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_06.png)
 
 # Visualisierung erstellen
 
-Nun haben Sie eine übersicht über die wichtigsten Bereiche des Designers. Zeit, Ihre erste Visualisierung zu erstellen. Fügen Sie dazu per Drag and Drop ein Textfeld aus den Oberflächenelementen rechts hinzu.
+Nun haben Sie eine Übersicht über die wichtigsten Bereiche des Designers. Nun ist es an der Zeit, Ihre erste Visualisierung zu erstellen. Fügen Sie dazu per Drag and Drop ein Textfeld aus den Oberflächenelementen rechts hinzu.
 
 Nun können Sie in den Attributen verschiedene Einstellungen für das Element definieren. Passen Sie das Element Ihren optischen Vorstellungen an. Definieren Sie die gewünschte Schriftart, die Ausrichtung oder den Hintergrund. Definieren Sie einen 'Text', welcher angezeigt werden soll. Dieser wird später durch einen Datensatz ersetzt.
 
 ![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_05b.gif)
 
-Fügen Sie als zweites Element ein 'Gauge-Diagramm' in der Gruppe 'Diagramm', Linear oder Rund spielt keine Rolle. Auch hier können Sie verschiedene Eigenschaften wie Größen, Farben, etc. einstellen.
+Fügen Sie als zweites Element ein 'Gauge-Diagramm' in der Gruppe 'Diagramm' hinzu, Linear oder Rund spielt keine Rolle. Auch hier können Sie verschiedene Eigenschaften wie Größen, Farben, etc. einstellen.
 
 ## Ressourcen und Bilder verwenden
 
@@ -84,17 +84,17 @@ Wenn Sie später Excel Dateien von anderen Speicherorten einbinden wollen, könn
 
 ![Peakboard Designer – Excel Added](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_08.png)
 
-Anschließend müssen sie noch die Ressource als Datenquelle hinzufügen. Klicken Sie hierzu auf der linken Seite den Ordner 'Daten' mit Rechtsklick oder klicken Sie auf den '...' Button und wählen Sie im Menü 'Datenquelle hinzufügen' -> Excel aus. Vergeben Sie nun einen Namen für die Datenquelle 'Excel_File' und wählen Sie unter Dokument die hochgeladene Excel Datei aus.
+Anschließend müssen sie noch die Ressource als Datenquelle hinzufügen. Klicken Sie hierzu auf der linken Seite den Ordner 'Daten' mit Rechtsklick oder klicken Sie auf den '...' Button und wählen Sie im Menü 'Datenquelle hinzufügen' und 'Excel' aus. Vergeben Sie nun einen Namen für die Datenquelle 'Excel_File' und wählen Sie unter Dokument die hochgeladene Excel Datei aus.
 
 ![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_09.gif)
 
-Nun können Sie definieren, welches Arbeitsblatt verwendet werden soll und ob es Überschriften in der ersten Zeile gibt, in diesem Fall durchaus. Mit OK können Sie die Datenquelle speichern.
+Nun können Sie definieren, welches Arbeitsblatt verwendet werden soll und ob Überschriften in der ersten Zeile vorhanden sind, wie in diesem Fall. Mit OK können Sie die Datenquelle speichern.
 
 Voilà, Sie haben Ihre erste Datenquelle verbunden.
 
 ## Daten und Element verbinden
 
-Nun fehlt noch der letzten Schritt, Sie müssen die Datenquelle mit einem Element verbinden. Wählen Sie das Element im Arbeitsbereich aus, in diesem Fall das Textelement. Auf der rechten Seite unter den Attributen finden Sie das Attribut 'Text'. Klicken Sie in dieser Zeile auf den '...'-Button (1). 
+Nun fehlt noch der letzte Schritt, Sie müssen die Datenquelle mit einem Element verbinden. Wählen Sie das Element im Arbeitsbereich aus, in diesem Fall das Textelement. Auf der rechten Seite unter den Attributen finden Sie das Attribut 'Text'. Klicken Sie in dieser Zeile auf den '...'-Button (1). 
 
 ![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_10.png)
 
