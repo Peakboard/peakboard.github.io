@@ -13,7 +13,7 @@ redirect_from:
 
 Es freut uns sehr, dass Sie sich für Peakboard interessieren. Wir wollen Ihnen hier die Peakboard Basics erklären und zeigen, wie Sie Ihre erste Visualisierung erstellen.
 
-Fall Sie den Peakboard Designer noch nicht heruntergeladen haben, finden Sie hier den passenden [Link](https://peakboard.rocks/download) zum kostenlosen Download. Der Peakboard Designer ist eine Desktopanwendung für Windows Computer, ggf. benötigen Sie Installationsberechtigungen von Ihrem System-Administrator.
+Fall Sie den Peakboard Designer noch nicht heruntergeladen haben, finden Sie hier den passenden [Link](https://peakboard.com/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article) zum kostenlosen Download. Der Peakboard Designer ist eine Desktopanwendung für Windows Computer, ggf. benötigen Sie Installationsberechtigungen von Ihrem System-Administrator.
 
 Wenn Sie die ersten Schritte lieber als Bewegtbild ansehen möchten, finden Sie in unseren [Videotutorials](https://help.peakboard.com/tutorials/de-video-overview.html) das passende Video. Dort finden Sie auch weitere hilfreiche Erläuterungen rund um Peakboard.
 
@@ -54,7 +54,7 @@ Mit diesen Elementen können Sie Ihre Daten visualisieren. Es gibt für untersch
 
 ## Attribute
 
-Unterhalb der Oberflächenelemente finden Sie die Attributübersicht. Hier werden für das aktuell aktive Element die jeweiligen einstellbaren Parameter und Attribute aufgelistet. Diese Parameter sind für jedes Element unterschiedlich. Probieren Sie zum Beispiel mal aus, mit einem Rechtsklick auf Bildschirme (im Paketexplorer links) einen weiteren Bildschirm hinzuzufügen. Anschließend klicken Sie auf einen der Bildschirme (1). Nun können Sie für die Bildschirme in den Attributen die Bildschirmdauer festlegen (2). Diese Bildschirmdauer definiert, wie lange der jeweilige Bildschirm sichtbar bleibt, bevor der darauffolgende Bildschirm angezeigt wird.
+Unterhalb der Oberflächenelemente finden Sie die Attributübersicht. Hier werden für das aktuell aktive Element die jeweiligen einstellbaren Parameter und Attribute aufgelistet. Diese Parameter sind für jedes Element unterschiedlich. Probieren Sie zum Beispiel mal aus, mit einem Rechtsklick auf Bildschirme (im Paketexplorer links) einen weiteren Bildschirm hinzuzufügen. Anschließend klicken Sie auf einen der Bildschirme. Nun können Sie für die Bildschirme in den Attributen die Bildschirmdauer festlegen. Diese Bildschirmdauer definiert, wie lange der jeweilige Bildschirm sichtbar bleibt, bevor der darauffolgende Bildschirm angezeigt wird.
 
 ![Peakboard Designer – Attribute](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_06.png)
 
@@ -76,7 +76,7 @@ Sie können für Ihre Visualisierung unterschiedliche Dateitypen verwenden. Es k
 
 ## Datenquelle verbinden
 
-Mit Peakboard können Sie ganz unterschiedliche Datenquellen verwenden. Von Datenformaten wie CSV, JSON und XML, Datenbanken und SAP über Social Media bis hin zu Maschinen-, Förderanlagen- und Sensoreninformationen wie Siemens S7 und OPC UA. Weitere Informationen zu den Datenanbindungen finden Sie [hier](https://peakboard.com/datenanbindungen/).
+Mit Peakboard können Sie ganz unterschiedliche Datenquellen verwenden. Von Datenformaten wie CSV, JSON und XML, Datenbanken und SAP über Social Media bis hin zu Maschinen-, Förderanlagen- und Sensoreninformationen wie Siemens S7 und OPC UA. Weitere Informationen zu den Datenanbindungen finden Sie [hier](https://peakboard.com/datenanbindungen/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
 
 In diesem Beispiel verwenden wir eine der einfacheren Datenquellen und zwar eine Microsoft Excel Datei. In diesem Beispiel wird die [Excel Datei (Download)](/assets/files/examples/Peakboard_Example_Date.xlsx) direkt in das Paket geladen. Die Excel Datei enthält vier Produkte mit fünf Eigenschaften: Titel, Produktnummer, Lagermenge, Mindestbestand und Lagerkapazität. Laden Sie die Datei herunter und fügen Sie sie, genau wie das Bild vorher, Ihrer Visualisierung per Drag and Drop hinzu. Nun liegt die Datei als Ressource im Paket. 
 
@@ -119,4 +119,4 @@ Es öffnet sich ein neuer Dialog, welcher das Ergebnis zeigt. Diese Visualisieru
 
 Wenn Sie bereits eine Peakboard-Box besitzen können Sie auf der folgenden Seite eine Erklärung finden, wie Sie die Box anschließen, verbinden und eine Visualisierung auf die Box laden können. Lesen Sie dazu den Artikel: [Anschließen und die erste Visualisierung übertragen](https://help.peakboard.com/get_started/de-anschliessen-und-die-erste-visualisierung.html).
 
-Wir wünschen Ihnen viel Spaß und Erfolg mit Peakboard. Sollten Sie Probleme mit dem Peakboard Designer haben, zögern Sie nicht mit uns in Kontakt zu treten. Alle wichtigen Information dazu finden Sie auf folgender [Seite](https://peakboard.com/support/).
+Wir wünschen Ihnen viel Spaß und Erfolg mit Peakboard. Sollten Sie Probleme mit dem Peakboard Designer haben, zögern Sie nicht mit uns in Kontakt zu treten. Alle wichtigen Information dazu finden Sie auf folgender [Seite](https://peakboard.com/support/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
