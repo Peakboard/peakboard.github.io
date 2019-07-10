@@ -33,3 +33,12 @@
   image: /assets/images/videos/GowkU7h9gvs.jpg
   category: More
 
+- title: OPC UA数据的可视化
+  description: 使用Peakboard-Designer对OPC UA数据进行可视化处理
+  language: cn
+  tencent_id: u08960oxc1d
+  weight: 200
+  homepage: true
+  image: /assets/images/videos/YpfEJrFriBU.jpg
+  category: Machine Protocols
+
