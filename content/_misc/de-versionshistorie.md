@@ -9,6 +9,10 @@ ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
+
+## 1.4.2.7 (08.07.2019)
+* Hotfix ein Problem mit Bildelementen, die den Speicher voll laufen ließen
+
 ## 1.4.2.2 (05.07.2019)
 * Hotfix zur Handhabung von Bild-Dateien
 

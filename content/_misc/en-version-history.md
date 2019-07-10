@@ -9,6 +9,10 @@ ref: misc-600
 redirect_from:
   - /misc/06-en-version-history.html
 ---
+
+## 1.4.2.7 (08.07.2019)
+* Hotfix for memory overflow when using images
+
 ## 1.4.2.2 (05.07.2019)
 * Hotfix for handling image files
 
