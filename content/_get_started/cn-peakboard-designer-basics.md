@@ -11,37 +11,37 @@ redirect_from:
   - /tutorials/cn-peakboard-designer-basics.html
 ---
 
-We are very pleased that you are interested in Peakboard. On this page you will find some information about the Peakboard basics and how to create your first visualization.
+很高兴了解到您对Peakboard感兴趣。在此页面中，您可以找到与Peakboard基础知识相关的资料，也可以了解到其他信息，学会如何创建自己的第一个可视化。
 
-If you have not yet downloaded the Peakboard Designer, here comes the [Link](https://peakboard.com/zh-hans/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article) for the free download. The Peakboard Designer is a desktop application for Windows computers, you may need installation permissions from your system administrator.
+如果您还没有下载Peakboard Designer，可以点击此[链接](https://peakboard.com/zh-hans/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article)，免费下载软件。Peakboard Designer是一款适用于Windows电脑的桌面应用，您可能需要系统管理员的同意才能安装。
 
-If you'd prefer to watch the first steps as moving images, see our [Video Tutorials Page](https://help.peakboard.com/tutorials/cn-video-overview.html) for the appropriate video. There you will also find more helpful explanations about Peakboard.
+如果您更喜欢观看动态的内容，请访问我们的 [视频教程页面](https://help.peakboard.com/tutorials/cn-video-overview.html)，选择相应的视频即可。该页面还会提供更多有关Peakboard的帮助信息。
 
-# Welcome to the designer
+# 欢迎使用 Designer
 
-After the first opening of Peakboard you are in the start dialog. Here you will find useful links to the Peakboard help pages (1) or the video tutorials and you will find a number of templates (2) to make getting started as easy as possible. The templates serve as an example and can be used as a basis for your personal visualization.
+打开应用之后，就会出现一个“开始”对话框。您可以在此发现Peakboard帮助界面（1）或视频教程的链接，还可以使用多个模板(2)，帮助您轻松上手。作为示例，模板可用作个人可视化的基础。
 
-![Peakboard Get Started Dialog](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_01.png)
+![Peakboard 开始对话框](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_01.png)
 
-There are templates for different use cases. The buttons 'Show more ...' (3) give you access to further templates and sample files that explain how to work with scripts. In this tutorial we would like to start without a template. Select 'Start from scratch' (4) to start with a blank visualization.
+不同的模板用于不同的使用场景。点击“显示更多”（3），就会出现更多的模板；还会显示样本文件，解释如何使用脚本。在此教程中，我们不需要使用模板。选择“重新开始”（4），采用空白的可视化界面。
 
-# Structure of the Peakboard Designer
+# Peakboard Designer的结构
 
-Now you have arrived in the 'real' Peakboard Designer. It's divided in 5 main areas: there is the ribbon on the top with basic functions (1), the Peakboard Explorer on the left side (2), the canvas in the middle (3), the controls overview on the right side (4) and below you can find the attribute area (below) (5).
+现在，您看到的就是“真正的”应用界面。它分为5个部分：顶部为基础功能栏（1），左边的可视化包（2），中间的设计面板（3），右边的控件概览（4）以及底部的属性部分（5）。
 
-![Peakboard Designer Overview](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_02.png)
+![Peakboard Designer 总览](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_02.png)
 
-## Top Ribbon Bar
+## 顶部工具栏
 
-The top menu contains the basic functions of the designer. Here you can open a preview of your visualization (1) and load the created visualization onto a Peakboard Box (2). You can use the "Settings" tab (3) to make basic settings for your visualization (title, description, time server) or to update the software.
+顶部菜单包含应用的基础功能。在此，您可以预览可视化（1），还能将创建的可视化加载至Peakboard Box（2）；您可以使用“设置”标签（3），为可视化进行基础设置（标题，描述，时间服务器）；或者更新软件。
 
-![Peakboard Designer Ribbon Bar](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_03.png)
+![Peakboard Designer 工具栏](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_03.png)
 
-## Peakboard Explorer
+## 可视化包
 
-On the left side there is a general overview of all elements within the visualization. The Explorer works like a folder structure. There are folders for different areas. All data sources, dataflows, variables, scripts and resources are displayed in the respective folders. Under the last item 'Screens' you will find a list of all existing optical elements in your workspace. Since we have not added anything yet, the folders are currently empty.
+左侧为可视化中所有元素的总览。该部分采用文件夹结构，不同类型的元素都有相应的文件夹。所有的数据源、数据流、变量、脚本和资源都展示在各自文件夹中。在最后一项“屏幕”，列出了您工作空间现有的全部显示屏。由于我们还未添加任何元素，因此目前文件夹为空。
 
-![Peakboard Designer Explorer](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_04.png)
+![Peakboard Designer 可视化包](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_04.png)
 
 Similar to the Windows File Explorer, you can right-click to perform various actions on the folders - alternatively, this works by clicking on the '...' button. For example, open the 'Edit screen size' menu item by right-clicking on the 'Screens' folder. Here you can define the size of the visualization. For this example, you can leave these at the values 1920x1080 (Full HD). The visualization is automatically scaled to the resolution of the connected screen, but the aspect ratio should fit.
 
