@@ -10,6 +10,19 @@ redirect_from:
   - /misc/06-en-version-history.html
 ---
 
+## 1.5.0.0 (15.07.2019)
+* Fixed issue, which caused heavy memory usage for files resoures
+* Fixed a bug, where the installer forced to install the Peakboard Designer with the Bridge
+* Added missing german translations for SAP data source query templates
+* Fixed error message in WLAN dialog
+* Reworked the structure of the backstage in the Peakboard Designer
+* Added search/replace functionality for scripts in script editor
+* Fixed a bug, where saving the visuialization was not possible when making changes to scripts
+* The script editor now has a tree view to quickly navigate between scripts
+* Fixed a bug, which caused the upload of visualizations to fail if an image resource was in the package
+* Fixed a bug, where opening a script in a dataflow disabled the save button in other scripts
+* Fixed a bug, which caused the Designer to crash upon drag'n droping a chart onto the canvas in chinese version
+
 ## 1.4.2.7 (08.07.2019)
 * Hotfix for memory overflow when using images
 

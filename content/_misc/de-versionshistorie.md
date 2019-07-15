@@ -10,6 +10,19 @@ redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
 
+## 1.5.0.0 (15.07.2019)
+* Es wurde ein Problem behoben, der zu einem hohen Speicherverbrauch für Dateiressourcen führte.
+* Ein Fehler wurde behoben, bei dem der Installer gezwungen wurde, den Peakboard Designer mit der Bridge zu installieren.
+* Fehlende deutsche Übersetzungen für SAP-Datenquellen-Abfragevorlagen wurden hinzugefügt.
+* Fehlermeldung im WLAN-Dialog behoben
+* Die Backstage des Designers wurde überarbeitet.
+* Such-/Ersetzen-Funktionalität für Skripte im Skript-Editor hinzugefügt.
+* Es wurde ein Fehler behoben, bei dem das Speichern der Visualisierung bei Änderungen an Skripten nicht möglich war.
+* Der Skripteditor verfügt nun über eine Baumansicht, um schnell zwischen den Skripten zu navigieren.
+* Ein Fehler wurde behoben, der dazu führte, dass das Hochladen von Visualisierungen fehlschlug, wenn sich eine Bildressource im Paket befand.
+* Ein Fehler wurde behoben, bei dem das Öffnen eines Skripts in einem Datenfluss den Speichern-Button in anderen Skripten deaktiviert hat.
+* Ein Fehler wurde behoben, der dazu führte, dass der Designer beim Drag'n-Drop eines Diagramms auf die Leinwand in der chinesischen Version abstürzte.
+
 ## 1.4.2.7 (08.07.2019)
 * Hotfix ein Problem mit Bildelementen, die den Speicher voll laufen ließen
 
