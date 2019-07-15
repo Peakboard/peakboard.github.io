@@ -15,7 +15,7 @@ redirect_from:
 
 如果您还没有下载Peakboard Designer，可以点击此[链接](https://peakboard.com/zh-hans/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article)，免费下载软件。Peakboard Designer是一款适用于Windows电脑的桌面应用，您可能需要系统管理员的同意才能安装。
 
-如果您更喜欢观看动态的内容，请访问我们的 [视频教程页面](https://help.peakboard.com/tutorials/cn-video-overview.html)，选择相应的视频即可。该页面还会提供更多有关Peakboard的帮助信息。
+如果您更喜欢观看动态的内容，请访问我们的[视频教程页面](https://help.peakboard.com/tutorials/cn-video-overview.html)，选择相应的视频即可。该页面还会提供更多有关Peakboard的帮助信息。
 
 # 欢迎使用 Designer
 
