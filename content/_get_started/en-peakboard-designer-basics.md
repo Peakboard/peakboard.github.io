@@ -109,7 +109,7 @@ Now you can connect the data source to the gauge diagram. In the respective colu
 
 # Preview
 
-You've made it, your first Peakboard visualization is ready and you can see the result with the 'Preview' button. This can be found in the upper ribbon under the item 'Home'.
+You've made it, your first Peakboard visualization is ready and you can see the result with the 'Preview' button (1). This can be found in the upper ribbon under the item 'Home'.
 
 ![Peakboard Designer – Preview Button](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_13.png)
 
