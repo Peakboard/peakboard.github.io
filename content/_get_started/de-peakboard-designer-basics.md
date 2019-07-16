@@ -109,7 +109,7 @@ Nun können Sie noch die Datenquelle mit dem Gauge-Diagramm verbinden. Klicken S
 ![Peakboard Designer – Filled Gauge](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_12.png)
 
 # Preview
-Sie haben es geschafft, Ihre erste Peakboard Visualisierung ist fertig und Sie können das Ergebnis mit dem 'Vorschau'-Button ansehen. Diesen finden Sie im oberen Menüband unter dem Punkt 'Startseite'.
+Sie haben es geschafft, Ihre erste Peakboard Visualisierung ist fertig und Sie können das Ergebnis mit dem 'Vorschau'-Button (1) ansehen. Diesen finden Sie im oberen Menüband unter dem Punkt 'Startseite'.
 
 ![Peakboard Designer – Preview Button](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_13.png)
 
