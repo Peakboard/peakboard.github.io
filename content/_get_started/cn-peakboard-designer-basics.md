@@ -43,80 +43,80 @@ redirect_from:
 
 ![Peakboard Designer 可视化包](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_04.png)
 
-Similar to the Windows File Explorer, you can right-click to perform various actions on the folders - alternatively, this works by clicking on the '...' button. For example, open the 'Edit screen size' menu item by right-clicking on the 'Screens' folder. Here you can define the size of the visualization. For this example, you can leave these at the values 1920x1080 (Full HD). The visualization is automatically scaled to the resolution of the connected screen, but the aspect ratio should fit.
+与Windows系统的文件浏览器相似，您可以右键点击文件夹，实现多种不同操作。此外，您还可以点击“...”键实现这一功能。例如，右键点击“屏幕”文件夹，即可打开“编辑屏幕尺寸”菜单选项。您可以使用该选项定义可视化的大小。在本教程中，您可以使用默认值1920x1080（高清）。可视化会自动适配连接屏幕的分辨率，但长宽比应保持一致。
 
-## Peakboard Controls
+## 控件 
 
-On the right side you will find an overview of existing interface elements - also called controls. With these controls you can visualize your data. There are ready-made controls for different applications that you can use and customize. This starts with simple text boxes, Table Grid, simple charts (circles, lines, bars, and so on), to sophisticated, combinable charts (Advanced Charts), and repeatable surface patterns, such as the List View or Tile View. All elements can either be dragged and dropped onto the workspace or added with a double-click.
+右侧为系统交互元素——也称为控件的概览，您可以使用这些控件对数据进行可视化处理。您可以将这些现有的控件用于不同场景，还可以对它们进行个性化设计。基础控件有文本框、图表网格、简单的图表（圆、线、条等），以及高级组合图表（高级图表），还有重复的表面图案，例如列表视图或窗格视图。所有元素均可通过拖放或双击的方法添加至设计面板。
 
-![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_05.gif)
+![Peakboard Designer —— 控件](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_05.gif)
 
-## Attributes
+## 属性
 
-Below the controls, you will find the attribute overview. Here the respective adjustable parameters and attributes are listed for the currently active element. These parameters are different for each element. For example, try to add another screen by right-clicking on screens (in the Peakboard Explorer on the left). Then click on one of the screens. Now you can set the screen duration for the screens in the attributes. This screen duration defines how long each screen remains visible before the next screen is displayed.
+控件下方为属性概览。此处列出了当前选中元素的多种可调整参数和属性，每一个元素的参数都有所不同。例如，我们试着右键点击“屏幕”（左侧可视化包部分），添加一个屏幕。然后点击任一屏幕，就可以在属性部分设置屏幕的显示时间。它决定了在显示下一屏幕之前，当前屏幕应持续多久。
 
-![Peakboard Designer – Attribute](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_06.png)
+![Peakboard Designer —— 属性](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_06.png)
 
-# Create visualization
+# 创建可视化
 
-Now you have an overview of the most important areas of the designer. It's time to make your first visualization. Drag and drop to add a text field from the interface elements to the right.
+对Designer最重要的部分有大概了解之后，就可以创建自己的第一个可视化。从右侧控件部分将文本框拖放至设计面板中。
 
-Now you can define different settings for the element in the attributes. Adjust the element to your visual requirements. Define the desired font, orientation, or background. Define a 'text' to be displayed. This will later be replaced by a text from a data source.
+然后就可以在属性部分为该元素定义不同的设置。调整元素，使其达到您的视觉要求。确定合适的字体、方向或背景；选择需显示的文本内容。其内容将会在后期由数据源中的文本加以代替。
 
-![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_05b.gif)
+![Peakboard Designer —— 控件](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_05b.gif)
 
-Add a 'Linear Gauge' in the 'Chart' group as the second element. Again, you can set various properties such as sizes, colors, etc.
+从“图表”中添加一个“线性仪表盘”，作为第二个元素。同样地，您可以设置不同的属性，例如大小、颜色等。
 
-## Usage of resources and images
+## 资源与图片的使用
 
-You can use different file types for your visualization. For example, image files (JPG or PNG), PDFs or a data source can be integrated as an Excel file. To use an image file as a logo in your visualization, simply drag an image file to the Peakboard Explorer or go to the folder menu of the 'Resources' folder and add a 'Local Resource'. Now the file is added to the package. Then you can drag and drop the file from the Peakboard Explorer onto the canvas - be sure to drag onto a blank space. Now you can determine size and position. For other data formats, the process works very similar.
+您可以在可视化中使用不同的文件类型。例如，图片文件（JPG或PNG），PDF文件或数据源可以整合为一个Excel文件。如果要使用图片文件作为可视化中的标志，只需将图片文件拖拽至“可视化包”，或者前往文件夹菜单中的“资源”，添加一个“本地资源”。文件就添加至可视化包中。然后您就可以从“可视化包”中将文件拖放至设计面板——务必拖放至空白区域，随后就可以确定其大小及位置。对于其他的数据格式，整个过程也非常相似。
 
-![Peakboard Designer – Drag&Drop](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_07.gif)
+![Peakboard Designer —— 拖放](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_07.gif)
 
-## Connect data source
+## 连接数据源
 
-From data formats such as JSON and XML, databases and SAP via social media to machine, conveyor and sensor information such as Siemens S7 and OPC UA. A wide variety of data can be easily connected and visualized in real time with Peakboard. Further information on the data connections can be found [here](https://peakboard.com/zh-hans/data-connections/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
+无论是各种格式的数据，例如JSON和XML、数据库、SAP及社交媒体，还是机器、运输机和传感器信息，例如Simens S7和OPC UA，使用Peakboard，您可以轻松连接各种各样的数据，对其进行实时可视化处理。有关数据连接的更多信息，请参见[此处](https://peakboard.com/zh-hans/data-connections/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
 
-In this example, we use one of the simpler data sources, a Microsoft Excel file. In this example, the [Excel file (Download)](/assets/files/examples/Peakboard_Example_Date.xlsx) is loaded directly into the package. The Excel file contains four products with five properties: title, product number, stock quantity, minimum stock and storage capacity. Download the file and add it, just like the image before, to your visualization via drag and drop. Now the file is part of this Peakboard package.
+在此教程中，我们使用一种简单的数据源——微软Excel文件。该[Excel文件 （下载）](/assets/files/examples/Peakboard_Example_Date.xlsx)直接被加载至可视化包中，它包括四种产品，涉及五类属性：标题、产品编号、库存数量、最小库存和存储容量。下载该文件，并像之前一样，通过拖放将其添加至可视化中。之后，文件就会成为该可视化的一部分。
 
-If you want to include Excel files from other locations, you can learn how to do this [here](https://help.peakboard.com/data_sources/cn-excel.html).
+如果您想从其他地方添加Excel文件，可以[在此](https://help.peakboard.com/data_sources/cn-excel.html)了解如何操作。
 
-![Peakboard Designer – Excel Added](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_08.png)
+![Peakboard Designer ——添加Excel文件](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_08.png)
 
-Then you must add the resource as a data source. To do this, right-click on the 'Data' folder on the left-hand side or click on the '...' button and select 'Add Data Source' and 'Excel' in the menu. Now enter a name for the data source 'Excel_File' and under Document select the uploaded Excel file.
+然后，必须将该资源作为数据源添加至可视化。为此，在左侧部分右键点击“数据”文件夹，或者点击“...”按钮，选择“添加数据源”，从列表中选择“Excel”。输入数据源名称“Excel_File”，在“文档”中确认已经上传的Excel文件。
 
-![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_09.gif)
+![Peakboard Designer ——添加数据源](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_09.gif)
 
-Now you can define which worksheet to use and if there are headers in the first row, as in this case. With OK you can save the data source.
+在当前的情况下，您还需要确定使用哪一工作表，并确认第一行是否为标题栏。点击“完成”，即可保存数据源。
 
-Voilà, you have connected your first data source to Peakboard.
+大功告成！您已经成功地首次将数据源连接至Peakboard。
 
-## Connect data and control
+## 绑定数据和控件
 
-Now the last step is missing, you have to connect the data source with an element. Select the element in the workspace, in this case the text element. On the right side under the attributes you will find the attribute 'Text'. Click on the '...' button (1) in this line.
+最后一步仍有待完成：您需要将数据源与控件相连。选择设计面板中的元素，在当前情况下即文本框；在右侧的“属性”部分，有一个“文本”选项，点击该行的“...”按钮（1）。
 
-![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_10.png)
+![Peakboard Designer ——添加数据源](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_10.png)
 
-In the open window, you can now select the data source and select the desired column and row that you want to use. For this example, use Row 0 and the 'Title' column for the heading. Note that in information technology, counting starts at 0, so line 0 is the first line. The line with the headings is ignored. Confirm with OK.
+在弹出的窗口中，您可以选择数据源、需要使用的行和列。在本示例中，使用0行，并将“Title”列用作标题栏。请注意，在信息技术中，计数从0开始，因此0行即第一行。此处不需考虑标题栏，点击“确定”。
 
-![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_11.png)
+![Peakboard Designer ——添加数据源](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_11.png)
 
-Now the content of one cell of your data source will be displayed within the text box.
+现在，数据源中某一格的内容会显示在文本框。
 
-Now you can connect the data source to the gauge diagram. In the respective column, click on the '...' button in the attributes and select the Excel data source in each case. For the field 'Data / Value' (1) define the column 'Stock_Quantity', for the field 'Minimum' (2) the column 'Min_Quantity' and for 'Maximum' (3) the column 'Storage_Capacity'.
+您还可以将数据源与仪表盘绑定。在各列中，点击属性中的“...”按钮，并选择Excel数据源。将“数据/值”部分（1）定义为“Stock_Quantity”列，“最小”（2）设置为“Min_Quantity”，“最大”（3）则设置为“Storage_Capacity”。
 
-![Peakboard Designer – Filled Gauge](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_12.png)
+![Peakboard Designer ——填充仪表盘](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_12.png)
 
-# Preview
+# 预览
 
-You've made it, your first Peakboard visualization is ready and you can see the result with the 'Preview' button. This can be found in the upper ribbon under the item 'Home'.
+您已经完成设计，第一个可视化已经准备就绪。您可以点击“预览”，查看最终的结果。“预览”（1）选项位于顶部工具栏的“主页”标签下。
 
-![Peakboard Designer – Preview Button](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_13.png)
+![Peakboard Designer ——预览](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_13.png)
 
-It opens a new dialog, which shows the result. You can now transfer this visualization to a Peakboard box.
+一个新对话窗口就会弹出，显示设计结果。之后，您就可以将该可视化传输至Peakboard box。
 
-# Next Step
+# 下一步
 
-If you already have a Peakboard box, on the following page you can find an explanation how to plug in the box, connect it and load a visualization onto the box. Read the article: [Connecting and Transferring the First Visualization](https://help.peakboard.com/get_started/cn-peakboard-connecting.html).
+如果您已经有一个Peakboard box，在下一页中我们将解释如何插上box，与其连接，并将可视化加载至box。请参考文章：[连接并传输第一个可视化](https://help.peakboard.com/get_started/cn-peakboard-connecting.html).
 
-We wish you lots of fun and success with Peakboard. If you have problems with the Peakboard Designer, do not hesitate to contact us. All information about getting in touch can be found on the following [page](https://peakboard.com/zh-hans/support/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
+希望您在使用Peakboard过程中能感受到乐趣，并且能够成功地使用该产品。如果您在使用Peakboard Designer时遇到疑问，请随时联系我们。所有的联系信息请参见 [下一页](https://peakboard.com/zh-hans/support/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article)。
