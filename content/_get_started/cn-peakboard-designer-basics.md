@@ -109,7 +109,7 @@ redirect_from:
 
 # 预览
 
-您已经完成设计，第一个可视化已经准备就绪。您可以点击“预览”，查看最终的结果。“预览”（1）选项位于顶部工具栏的“主页”标签下。
+您已经完成设计过程，第一个可视化已经准备就绪。现在可以点击“预览”，查看最终的结果。“预览”（1）选项位于顶部工具栏的“主页”标签下。
 
 ![Peakboard Designer ——预览](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_13.png)
 
@@ -117,6 +117,6 @@ redirect_from:
 
 # 下一步
 
-如果您已经有一个Peakboard box，在下一页中我们将解释如何插上box，与其连接，并将可视化加载至box。请参考文章：[连接并传输第一个可视化](https://help.peakboard.com/get_started/cn-peakboard-connecting.html).
+如果您已经有一个Peakboard Box，请参考文章：[连接并传输第一个可视化](https://help.peakboard.com/get_started/cn-peakboard-connecting.html)。我们将解释如何插上Box，与其连接，并将可视化加载至Box。
 
 希望您在使用Peakboard过程中能感受到乐趣，并且能够成功地使用该产品。如果您在使用Peakboard Designer时遇到疑问，请随时联系我们。所有的联系信息请参见 [下一页](https://peakboard.com/zh-hans/support/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article)。
