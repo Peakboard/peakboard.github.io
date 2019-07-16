@@ -10,6 +10,9 @@ redirect_from:
   - /misc/06-en-version-history.html
 ---
 
+## 1.5.1.0 (16.07.2019)
+* Fixed an issue, where images could not be loaded as bridge resources
+
 ## 1.5.0.0 (15.07.2019)
 * Fixed issue, which caused heavy memory usage for files resoures
 * Fixed a bug, where the installer forced to install the Peakboard Designer with the Bridge

@@ -10,6 +10,9 @@ redirect_from:
   - /misc/06-de-versionshistorie.html
 ---
 
+## 1.5.1.0 (16.07.2019)
+* Ein Fehler wurde behoben, der das Laden von Bilder über die Bridge verhinderte.
+
 ## 1.5.0.0 (15.07.2019)
 * Es wurde ein Problem behoben, der zu einem hohen Speicherverbrauch für Dateiressourcen führte.
 * Ein Fehler wurde behoben, bei dem der Installer gezwungen wurde, den Peakboard Designer mit der Bridge zu installieren.
@@ -24,7 +27,7 @@ redirect_from:
 * Ein Fehler wurde behoben, der dazu führte, dass der Designer beim Drag'n-Drop eines Diagramms auf die Leinwand in der chinesischen Version abstürzte.
 
 ## 1.4.2.7 (08.07.2019)
-* Hotfix ein Problem mit Bildelementen, die den Speicher voll laufen ließen
+* Hotfix für ein Problem mit Bildelementen, die den Speicher voll laufen ließen
 
 ## 1.4.2.2 (05.07.2019)
 * Hotfix zur Handhabung von Bild-Dateien
