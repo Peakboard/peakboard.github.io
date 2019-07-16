@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Designer - 基础知识
-menu_title: Peakboard Designer - 基础知识
-description: Peakboard Designer - 基础知识
+title: Peakboard Designer —— 基础知识
+menu_title: Peakboard Designer —— 基础知识
+description: Peakboard Designer —— 基础知识
 lang: cn
 weight: 100
 ref: start-100
@@ -11,7 +11,7 @@ redirect_from:
   - /tutorials/cn-peakboard-designer-basics.html
 ---
 
-很高兴了解到您对Peakboard感兴趣。在此页面中，您可以找到与Peakboard基础知识相关的资料，也可以了解到其他信息，学会如何创建自己的第一个可视化。
+很高兴了解到您对Peakboard感兴趣。在本页面，您可以找到与Peakboard基础知识相关的资料，也可以了解到其他信息，学会如何创建自己的第一个可视化。
 
 如果您还没有下载Peakboard Designer，可以点击此[链接](https://peakboard.com/zh-hans/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article)，免费下载软件。Peakboard Designer是一款适用于Windows电脑的桌面应用，您可能需要系统管理员的同意才能安装。
 
@@ -39,11 +39,11 @@ redirect_from:
 
 ## 可视化包
 
-左侧为可视化中所有元素的总览。该部分采用文件夹结构，不同类型的元素都有相应的文件夹。所有的数据源、数据流、变量、脚本和资源都展示在各自文件夹中。在最后一项“屏幕”，列出了您工作空间现有的全部显示屏。由于我们还未添加任何元素，因此目前文件夹为空。
+左侧为可视化中所有元素的总览。该部分采用文件夹结构，不同类型的元素都有相应的文件夹。所有的数据源、数据流、变量、脚本和资源都展示在各自文件夹中。在最后一项“屏幕”，列出了您工作空间现有的全部屏幕。由于我们还未添加任何元素，因此目前文件夹为空。
 
 ![Peakboard Designer 可视化包](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_04.png)
 
-与Windows系统的文件浏览器相似，您可以右键点击文件夹，实现多种不同操作。此外，您还可以点击“...”键实现这一功能。例如，右键点击“屏幕”文件夹，即可打开“编辑屏幕尺寸”菜单选项。您可以使用该选项定义可视化的大小。在本教程中，您可以使用默认值1920x1080（高清）。可视化会自动适配连接屏幕的分辨率，但长宽比应保持一致。
+与Windows系统的文件浏览器相似，您可以右键点击文件夹，实现多种不同操作。此外，您还可以点击“...” 键实现这一功能。例如，右键点击“屏幕”文件夹，即可打开“编辑屏幕尺寸”菜单选项。您可以使用该选项定义可视化的大小。在本教程中，您可以使用默认值1920x1080（高清）。可视化会自动适配连接屏幕的分辨率，但长宽比应保持一致。
 
 ## 控件 
 
@@ -83,7 +83,7 @@ redirect_from:
 
 ![Peakboard Designer ——添加Excel文件](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_08.png)
 
-然后，必须将该资源作为数据源添加至可视化。为此，在左侧部分右键点击“数据”文件夹，或者点击“...”按钮，选择“添加数据源”，从列表中选择“Excel”。输入数据源名称“Excel_File”，在“文档”中确认已经上传的Excel文件。
+然后，必须将该资源作为数据源添加至可视化。为此，在左侧部分右键点击“数据”文件夹，或者点击“...” 按钮，选择“添加数据源”，从列表中选择“Excel”。输入数据源名称“Excel_File”，在“文档”中确认已经上传的Excel文件。
 
 ![Peakboard Designer ——添加数据源](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_09.gif)
 
@@ -93,7 +93,7 @@ redirect_from:
 
 ## 绑定数据和控件
 
-最后一步仍有待完成：您需要将数据源与控件相连。选择设计面板中的元素，在当前情况下即文本框；在右侧的“属性”部分，有一个“文本”选项，点击该行的“...”按钮（1）。
+最后一步仍有待完成：您需要将数据源与控件相连。选择设计面板中的元素，在当前情况下即文本框；在右侧的“属性”部分，有一个“文本”选项，点击该行的“...” 按钮（1）。
 
 ![Peakboard Designer ——添加数据源](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_10.png)
 
@@ -103,7 +103,7 @@ redirect_from:
 
 现在，数据源中某一格的内容会显示在文本框。
 
-您还可以将数据源与仪表盘绑定。在各列中，点击属性中的“...”按钮，并选择Excel数据源。将“数据/值”部分（1）定义为“Stock_Quantity”列，“最小”（2）设置为“Min_Quantity”，“最大”（3）则设置为“Storage_Capacity”。
+您还可以将数据源与仪表盘绑定。在各列中，点击属性中的“...” 按钮，并选择Excel数据源。将“数据/值”部分（1）定义为“Stock_Quantity”列，“最小”（2）设置为“Min_Quantity”，“最大”（3）则设置为“Storage_Capacity”。
 
 ![Peakboard Designer ——填充仪表盘](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_12.png)
 
