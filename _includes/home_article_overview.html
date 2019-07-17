@@ -39,9 +39,9 @@
                                             {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
 
                                             <div class="flex">
-                                                <div class="w-8"></div>
-                                                <div class="md:ml-4 w-auto {% if forloop.first %}mt-1{% endif %} {% if forloop.last %}mb-8{% endif %}">
-                                                    <p class="w-full block py-1 ml-8 text-black">
+                                                <div class="w-8 p-1"></div>
+                                                <div class="md:ml-2 w-auto {% if forloop.first %}mt-1{% endif %} {% if forloop.last %}mb-8{% endif %}">
+                                                    <p class="w-full block py-1 text-black">
                                                         {{ sub_level | replace: "_", " " | capitalize }}
                                                     </p>
                                                 </div>
