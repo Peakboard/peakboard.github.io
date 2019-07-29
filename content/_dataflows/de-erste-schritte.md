@@ -9,7 +9,7 @@ ref: flow-100
 redirect_from:
   - /dataflows/01-de-erste-schritte.html
 ---
-In Peakboard sind Datenquellen (Data Sources) für die Datenbeschaffung zuständig. Sie kommunzieren mit Quellsystemen aller Art und liefern (bis auf wenige Ausnahmen) die Daten in Form einer Tabelle ab. Entweder man greift dann von den Steuerelementen (Controls) auf diese tabellenartigen Daten zu und zeigt sie direkt an oder man benutzt ein Script, das die Daten aufbereitet. Beispiele dafür gibt es [hier](../scripting/03-de-tabellen-daten.html) oder [hier](https://help.peakboard.com/scripting/04-de-manipulieren.html). Mit den Dataflows, die in diesem Abschnitt besprochen werden, lassen sich unterschiedlichste Daten nachbearbeiten und zwar auf ein Weise, dass keine oder fast Kenntnisse im Scipting nötig sind. Typische Dinge, die man mit Dataflows macht sind
+In Peakboard sind Datenquellen (Data Sources) für die Datenbeschaffung zuständig. Sie kommunzieren mit Quellsystemen aller Art und liefern (bis auf wenige Ausnahmen) die Daten in Form einer Tabelle ab. Entweder man greift dann von den Steuerelementen (Controls) auf diese tabellenartigen Daten zu und zeigt sie direkt an oder man benutzt ein Script, das die Daten aufbereitet. Beispiele dafür gibt es [hier](../scripting/03-de-tabellen-daten.html) oder [hier](https://help.peakboard.com/scripting/04-de-manipulieren.html). Mit den Dataflows, die in diesem Abschnitt besprochen werden, lassen sich unterschiedlichste Daten nachbearbeiten und zwar auf ein Weise, dass keine oder fast keine Kenntnisse im Scripting nötig sind. Typische Dinge, die man mit Dataflows macht sind
 
 * Spalten sauber benennen und nicht benötigte Spalten löschen
 * Datentypen anpassen
