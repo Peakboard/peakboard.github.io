@@ -40,4 +40,12 @@
   homepage: true
   image: /assets/images/videos/YpfEJrFriBU.jpg
   category: Machine Protocols
+  
+- title: SAP实时仪表板
+  description: 使用Peakboard实时可视化SAP中的数据
+  language: cn
+  tencent_id: w0905jr3pzs
+  weight: 200
+  image: /assets/images/videos/lJteh_tnZL8.jpg
+  category: SAP
 
