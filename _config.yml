@@ -49,7 +49,7 @@ collections:
         en: "SAP"
         de: "SAP"
         cn: "SAP"
-      
+
   dataflows:
     output: true
     icon: dataflows.svg
@@ -139,6 +139,7 @@ language:
     footer-contact-email: "E-Mail:"
     footer-contact-website: "Website:"
     footer-copyright: "All rights are reserved."
+    footer-version: "Last Update"
     search-title: "Peakboard Search"
     search-results: "Results"
     search-no-results: "We didn't find any results for the search: "
@@ -189,6 +190,7 @@ language:
     footer-contact-email: "E-Mail:"
     footer-contact-website: "Website:"
     footer-copyright: "All rights are reserved."
+    footer-version: "Last Update"
     search-title: "Peakboard Suche"
     search-results: "Ergebnisse"
     search-no-results: "Wir haben leider nichts gefunden: "
@@ -239,6 +241,7 @@ language:
     footer-contact-email: "电话："
     footer-contact-website: "网站："
     footer-copyright: "版权所有，保留所有权利"
+    footer-version: "Last Update"
     search-title: "Peakboard搜索"
     search-results: "搜索结果"
     search-no-results: "未找到相关搜索结果： "
