@@ -11,6 +11,10 @@ redirect_from:
 footer: 1.5.1.0 (16.07.2019)
 ---
 
+## 1.5.2.0 (05.08.2019)
+* Fix für Bridge-Resourcen
+* Fix für fehlende DLLs
+
 ## 1.5.1.0 (16.07.2019)
 * Ein Fehler wurde behoben, der das Laden von Bilder über die Bridge verhinderte.
 

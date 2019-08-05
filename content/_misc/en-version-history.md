@@ -10,6 +10,9 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 1.5.1.0 (16.07.2019)
 ---
+## 1.5.2.0 (05.08.2019)
+* Fix for Bridge-Resources
+* Fix for missing DLLs
 
 ## 1.5.1.0 (16.07.2019)
 * Fixed an issue, where images could not be loaded as bridge resources
