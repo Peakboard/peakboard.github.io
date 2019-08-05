@@ -8,7 +8,7 @@ weight: 600
 ref: misc-600
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.5.1.0 (16.07.2019)
+footer: 1.5.2.0 (05.08.2019)
 ---
 ## 1.5.2.0 (05.08.2019)
 * Fix for Bridge-Resources
