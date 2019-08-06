@@ -31,7 +31,7 @@ footer: 1.5.3.1 (06.08.2019)
 * Es wurde ein Fehler behoben, bei dem das Speichern der Visualisierung bei Änderungen an Skripten nicht möglich war.
 * Der Skripteditor verfügt nun über eine Baumansicht, um schnell zwischen den Skripten zu navigieren.
 * Ein Fehler wurde behoben, der dazu führte, dass das Hochladen von Visualisierungen fehlschlug, wenn sich eine Bildressource im Paket befand.
-* Ein Fehler wurde behoben, bei dem das Öffnen eines Skripts in einem Datenfluss den Speichern-Button in anderen Skripten deaktiviert hat.
+* Ein Fehler wurde behoben, bei dem das Öffnen eines Skripts in einem Dataflow den Speichern-Button in anderen Skripten deaktiviert hat.
 * Ein Fehler wurde behoben, der dazu führte, dass der Designer beim Drag'n-Drop eines Diagramms auf die Leinwand in der chinesischen Version abstürzte.
 
 ## 1.4.2.7 (08.07.2019)
