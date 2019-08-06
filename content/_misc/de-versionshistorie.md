@@ -8,10 +8,10 @@ weight: 600
 ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.5.2.0 (05.08.2019)
+footer: 1.5.2.15 (05.08.2019)
 ---
 
-## 1.5.2.0 (05.08.2019)
+## 1.5.2.15 (05.08.2019)
 * Fix für Bridge-Resourcen
 * Fix für fehlende DLLs
 
