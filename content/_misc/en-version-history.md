@@ -8,8 +8,11 @@ weight: 600
 ref: misc-600
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.5.2.15 (05.08.2019)
+footer: 1.5.3.1 (06.08.2019)
 ---
+
+## 1.5.3.1 (06.08.2019)
+* Hotfix for the version comparison between Designer and Runtime, here an error was reported although the versions were on the same state
 
 ## 1.5.2.15 (05.08.2019)
 * Fix for Bridge-Resources
