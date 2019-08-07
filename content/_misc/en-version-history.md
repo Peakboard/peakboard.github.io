@@ -11,6 +11,9 @@ redirect_from:
 footer: 1.5.3.1 (06.08.2019)
 ---
 
+## 1.5.3.9 (07.08.2019)
+* Fixed a problem in the SQL server data source, where NULL values where not handled correctly
+
 ## 1.5.3.1 (06.08.2019)
 * Hotfix for the version comparison between Designer and Runtime, here an error was reported although the versions were on the same state
 
