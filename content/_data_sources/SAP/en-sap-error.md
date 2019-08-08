@@ -4,11 +4,11 @@ title: SAP Error Messages
 menu_title: SAP Error Messages
 description: SAP Error Messages
 lang: en
-weight: 1100
-ref: dat-1100
+weight: 1300
+ref: dat-1300
 ---
 
-# ERROR service ‚?‘ unknown or service sapms unknown
+## ERROR service ‚?‘ unknown or service sapms unknown
 It could be that you get the following error while connecting to SAP:
 
 ````
