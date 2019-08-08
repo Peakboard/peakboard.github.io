@@ -13,9 +13,9 @@ Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Tabelle, die a
 
 [Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
-Falls Sie keine URL zu einer passenden Webseite zur Hand haben, sondern die Sache einfach nur einmal ausprobieren wollen, nehmen Sie bitte die folgende Beispiel-URL. Sie verweist auf eine Wikipedia-Seite mit mehreren Tabellen. Wir interessieren uns in diesem Artikel nur für die erste, große Tabelle mit dem ewigen Medaillenspiegel (Alle Medaillen pro Land kumuliert über alle olympischen Spiele hinweg). Die anderen, kleineren Tabellen – weiter unten auf der Seite – interessieren uns nicht. Sie sollen rausgefiltert werden.
+Falls Sie keine URL zu einer passenden Webseite zur Hand haben, sondern die Sache einfach nur einmal ausprobieren wollen, nehmen Sie bitte die folgende Beispiel-URL. Sie verweist auf eine Webseite mit mehreren Tabellen. Wir interessieren uns in diesem Artikel nur für die erste, große Tabelle mit den aktuellen Edelmetallkursen. Die anderen, kleineren Tabellen – weiter unten auf der Seite – interessieren uns nicht. Sie sollen rausgefiltert werden.
 
-[https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table](https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table)
+[https://www.gold.de/kurse/](https://www.gold.de/kurse/)
 
 Peakboard sucht in der jeweiligen Webseite nach HTML-Tabellen. Das funktioniert besonders gut, wenn das HTML syntaktisch korrekt ist. Sollten Sie sich an einer Webseite versuchen, bei der die Daten nicht korrekt gefunden werden oder unvollständig sind, prüfen Sie den HTML-Syntax.
 
