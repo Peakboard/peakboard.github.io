@@ -6,16 +6,16 @@ description: SAP Fehlermeldungen
 lang: de
 weight: 1100
 ref: dat-1100
-
 ---
 
-**ERROR Dienst '?' unbekannt oder Dienst sapms unbekannt
+# ERROR Dienst '?' unbekannt oder Dienst sapms unbekannt
 
 Es kann sein, dass Sie bei der Verbindung zu SAP den folgenden Fehler erhalten:
 
 ```
 FEHLER-Dienst '?' unbekannt
 ```
+
 
 Das Problem ist, dass sapdp* (z.B. sapdp00 3200/tcp) Einträge in den Dateidiensten im Ordner C:\Windows\System32\drivers\etc\services fehlen.
 
@@ -26,18 +26,21 @@ Wenn Sie die
 ```
 ERROR Service sapms<SID> unbekannt
 ```
+
  
 müssen Sie die folgende Zeile an die Datei services anhängen. nn ist die Instanznummer des SAP-Systems (z.B. 00 oder 99).
 
 ```
 sapms<SID> 36<nn>/tcp
 ```
+
   
 Wenn Ihre SID beispielsweise ECC ist, sieht die Zeile beispielsweise wie die folgende aus:
 
 ```
 sapmsECC 3600/tcpp  
 ```
+
 
 Für System ID (SID) ECC und Instanznummer 12 bitte einstellen:
 
