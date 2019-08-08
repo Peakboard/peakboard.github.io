@@ -4,8 +4,8 @@ title: SAP Error Messages
 menu_title: SAP Error Messages
 description: SAP Error Messages
 lang: en
-weight: 3000
-ref: dat-3000
+weight: 20000
+ref: dat-20000
 ---
 
 ## ERROR service ‚?‘ unknown or service sapms unknown
