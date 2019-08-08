@@ -18,16 +18,16 @@ Im Peakboard.io-Portal gehen Sie im Menü auf „GA Charts“. Falls Sie Ihren A
 
 Nach erfolgreicher Verknüpfung stehen nun auf der linken Seite etliche Eingabefelder zur Verfügung, um sowohl die Datengrundlage als auch das Design des GA-Reports zu bauen. Je nach GA-Account muss die Eigenschaft und die View ausgewählt werden. Was genau das bedeutet, hängt vom GA-Account ab. Bitte vergessen Sie auch nicht, das Objekt korrekt zu benennen und mit einem kurzen Beschreibungstext zu versehen.
 
-![image_1](/assets/images/Controls/google-analytics/Controls_GA_02.png)
+![image_2](/assets/images/Controls/google-analytics/Controls_GA_02.png)
 
 Im weiteren Verlauf müssen Start- und Enddatum und weitere Attribute ausgewählt werden. Die gewünschte Metrik und Dimension sind jeweils Pflichtfelder. Sortierung, Filter und Segment sind freiwillig. Bitte beachten Sie, dass Google Analytics unzählig viele Möglichkeiten bietet. Daher ist das korrekte Setzen dieser Attribute nicht trivial und setzt tiefergehenden Sachverstand voraus. Bitte beachten Sie auch die Doku von Google für weitere Details zu den Dimensionen, Kennzahlen und anderen Attributen.
 
-![image_1](/assets/images/Controls/google-analytics/Controls_GA_03.png)
+![image_3](/assets/images/Controls/google-analytics/Controls_GA_03.png)
 
 Im letzten Teil müssen nun nur noch Details zur Visualisierung angegeben werden. Den Titel des Charts, dessen Typ und Größe. Klicken Sie auf Run Query, um die Abfrage mit den gewählten Attributen auszuführen. Sie sehen dann eine Voransicht des Charts. Speichern Sie ihren Report dann schlussendlich noch ab, wie jedes andere Peakboard.io-Objekt auch.
 
-![image_1](/assets/images/Controls/google-analytics/Controls_GA_04.png)
+![image_4](/assets/images/Controls/google-analytics/Controls_GA_04.png)
 
 Im Peakboard-Designer steht ein eigenes Steuerelement für diese GA-Reports zur Verfügung. Nachdem Sie wie üblich API-Key und Username eingegeben haben, selektieren Sie das entsprechende Chart-Objekt aus der Auswahlliste. Mehr ist nicht zu tun.
 
-![image_1](/assets/images/Controls/google-analytics/Controls_GA_05.png)
+![image_5](/assets/images/Controls/google-analytics/Controls_GA_05.png)
