@@ -4,8 +4,8 @@ title: SAP Fehlermeldungen
 menu_title: SAP Fehlermeldungen
 description: SAP Fehlermeldungen
 lang: de
-weight: 1300
-ref: dat-1300
+weight: 1700
+ref: dat-1700
 ---
 
 ## ERROR Dienst '?' unbekannt oder Dienst sapms unbekannt
