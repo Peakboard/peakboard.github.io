@@ -8,7 +8,7 @@ weight: 600
 ref: misc-600
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.5.3.1 (06.08.2019)
+footer: 1.5.3.9 (07.08.2019)
 ---
 
 ## 1.5.3.9 (07.08.2019)
