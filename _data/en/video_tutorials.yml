@@ -24,6 +24,30 @@
   image: /assets/images/videos/r2_Nsh3lZMI.jpg
   category: Recommended
 
+- title: Creating a SAP Live Dashboard
+  description: In this video we show how fast and easy you can create a SAP Dashboard with live data.
+  language: en
+  youtube_id: lJteh_tnZL8
+  weight: 200
+  image: /assets/images/videos/lJteh_tnZL8.jpg
+  category: Recommended
+
+- title: Visualization of a SAP Function Module with Peakboard
+  description: In this example we show you how you can visualize delivery data from SAP directly in Peakboard. We use an SAP function module as data source.
+  language: en
+  youtube_id: 3hUxD8e4kzk
+  weight: 200
+  image: /assets/images/videos/3hUxD8e4kzk.jpg
+  category: Recommended
+
+- title: Create a digital Bulletin Board with Peakboard
+  description: In this video we show how quickly and easily a digital information board can be created.
+  language: en
+  youtube_id: rE_pLc2d53s
+  weight: 200
+  image: /assets/images/videos/rE_pLc2d53s.jpg
+  category: Recommended
+
 - title: OPC UA Data Visualized with Peakboard
   description: In this video we show you how easy it is to connect OPC UA data via Peakboard and visualize machine data in real time.
   language: en
@@ -49,21 +73,7 @@
   image: /assets/images/videos/EY2t4GffFd4.jpg
   category: Machine Protocols
 
-- title: Creating a SAP Live Dashboard
-  description: In this video we show how fast and easy you can create a SAP Dashboard with live data.
-  language: en
-  youtube_id: lJteh_tnZL8
-  weight: 200
-  image: /assets/images/videos/lJteh_tnZL8.jpg
-  category: SAP
 
-- title: Visualization of a SAP Function Module with Peakboard
-  description: In this example we show you how you can visualize delivery data from SAP directly in Peakboard. We use an SAP function module as data source.
-  language: en
-  youtube_id: 3hUxD8e4kzk
-  weight: 200
-  image: /assets/images/videos/3hUxD8e4kzk.jpg
-  category: SAP
 
 - title: Visualize XML and JSON REST APIs with Peakboard
   description: In this video we show you how to visualize XML and JSON REST APis with Peakboard.
