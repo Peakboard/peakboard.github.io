@@ -8,8 +8,27 @@ weight: 600
 ref: misc-600
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.5.3.9 (07.08.2019)
+footer: 1.6.0.0 (22.08.2019)
 ---
+## 1.6.0.0
+* E-Mail mit dem Peakboard versenden unterstützt jetzt keine Authentifizierung
+* XML Dialog überarbeitet
+* Animate Funktion überarbeitet
+* Übersetztungsfehler für SAP Templates behoben
+* Die Option "Scrollbar" ermöglicht es nun auch horizontal zu scrollen
+* Neue Funktionen zur Schriftartenbearbeitung hinzugefügt
+* Skript-Editor: Elemente im Skript-Baum können nur noch durch einen Doppelklick geöffnet werden
+* Skript-Editor: Skripte können nicht mehr im Editor selbst gelöscht werden
+* Skripte können per Rechtsklick auf das entsprechende Skript gelölscht oder editiert werden
+* Skript-Editor: Speichermeldung für erfolgreiches Speichern entfernt
+* Tablegrid: Mehrfachselektion zum Löschen von Spalten hinzugefügt
+* Fix für das Schreiben des Anzeigewertes von Combo-Box Elementen
+* Fix für die Verwendung eines Bridge-Resourcen Bildes als Hintergrund einer Visualisierung
+* Fix für die Drag&Drop Funktionalität von Tile-, TileView- und ListView-Elementen
+* Fix für das Speichern von angepassten Schriftarten
+* Fix für das Kopieren von Elemten mit einem Refresh-Skript
+* Fix für das Öffnen von Dateien 
+
 
 ## 1.5.3.9 (07.08.2019)
 * Ein Problem bei der Verarbeitung von NULL-Daten in der SQL-Server Datenquelle wurde behoben.
