@@ -4,8 +4,8 @@ title: Versionshistorie
 menu_title: Versionshistorie
 description: Versionshistorie
 lang: de
-weight: 600
-ref: misc-600
+weight: 1
+ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 1.6.0.0 (22.08.2019)

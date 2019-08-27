@@ -4,8 +4,8 @@ title: Dynamische Abfragen
 menu_title: Dynamische Abfragen
 description: Dynamische Abfragen
 lang: de
-weight: 700
-ref: scr-700
+weight: 600
+ref: misc-600
 redirect_from:
   - /scripting/07-de-dynamische-abfragen.html
 ---
@@ -15,7 +15,7 @@ Zentrales Element ist ein Schieberegler. Der Enduser kann am Schieberegler einst
 
 
 
-![image_1](/assets/images/scripting/queries/misc_dynamische_Abfrage_01.png)
+![image_1](/assets/images/misc/queries/misc_dynamische_Abfrage_01.png)
 
 Der Schieberegler bietet ein Ereignis „ValueChanged“, das jedes mal aufgerufen wird, wenn sich der eingestellte Wert des Reglers ändert. Wir hinterlegen ein einfaches Script, das den Wert des Reglers in die statische Variable RowCount schreibt und danach ein Neuladen der SAP-Quelle triggert. Hier das Script dazu und ein Screenshot:
 
@@ -24,10 +24,10 @@ data.RowCount = screen.Slider.value
 data.MAKT.reloadasync()
 ```
 
-![image_1](/assets/images/scripting/queries/misc_dynamische_Abfrage_02.png)
+![image_1](/assets/images/misc/queries/misc_dynamische_Abfrage_02.png)
 
 Das letzte Mosaik-Steinchen ist jetzt die tatsächliche Dynamisierung. Der folgende Screenshot zeigt die SAP-Quelle in der Entwurfsansicht. Das XQL-Statement enthält aber einen Platzhalter, der sich wiederum an der entscheidenden Stelle den Wert aus der globalen RowCount-Variable zieht. Der Platzhalter funktioniert nach dem Prinzip #[MeineVariable]#. Im folgenden das XQL-Statement und ein Screenshot dazu.
 
 `SELECT TOP #[RowCount]# * FROM MAKT;`
 
-![image_1](/assets/images/scripting/queries/misc_dynamische_Abfrage_03.png)
+![image_1](/assets/images/misc/queries/misc_dynamische_Abfrage_03.png)

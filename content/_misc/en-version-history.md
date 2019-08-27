@@ -4,8 +4,8 @@ title: Version History
 menu_title: Version History
 description: Version History
 lang: en
-weight: 600
-ref: misc-600
+weight: 1
+ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
 footer: 1.6.0.0 (22.08.2019)
