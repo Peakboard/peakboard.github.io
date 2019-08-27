@@ -15,11 +15,11 @@ Ein gutes Beispiel für eine Box-Property wäre der Name der Abteilung. So könn
 
 Um eine Property für eine bestimmte Box zu setzen, erreichen Sie die Pflegemaske über den entsprechenden Menüeintrag im Manage-Dialog. 
 
-```markdown
-> ## Warnung
+
+> ## Achtung
 >
 > Bitte beachten Sie, dass die Properties BoxID und License Systemeigenschaften sind, die nicht geändert oder gar gelöscht werden sollten.
-```
+
 
 ![image_1](/assets/images/scripting/properties/Properties_02.png)
 

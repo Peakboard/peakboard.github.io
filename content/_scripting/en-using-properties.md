@@ -15,11 +15,10 @@ A good example for a box property would be the name of the department. So you co
 
 To set a property for a specific Box, you can access the maintenance screen via the corresponding menu item in the Manage dialogue box. 
 
-```markdown
 ## Warning
 >
 > Please note that the properties BoxID and License are system properties that should not be changed or deleted.
-```
+
 
 ![image_1](/assets/images/scripting/properties/Properties_02.png)
 
