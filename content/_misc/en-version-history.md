@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.6.0.0 (22.08.2019)
+footer: 1.6.1.0 (27.08.2019)
 ---
-## 1.6.0.0
+
+## 1.6.1.0 (27.08.2019)
+* Hotfix for the Peakboard Webbrowser 
+
+## 1.6.0.0 (22.08.2019)
 * Sending email with the Peakboard now does support none authentication
 * XML dialog reworked
 * Animate function reworked

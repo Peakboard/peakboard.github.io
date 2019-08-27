@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.6.0.0 (22.08.2019)
+footer: 1.6.1.0 (27.08.2019)
 ---
-## 1.6.0.0
+
+## 1.6.1.0 (27.08.2019)
+* Hotfix für den Peakboard Webbrowser 
+
+## 1.6.0.0 (22.08.2019)
 * E-Mail mit dem Peakboard versenden unterstützt jetzt keine Authentifizierung
 * XML Dialog überarbeitet
 * Animate Funktion überarbeitet
