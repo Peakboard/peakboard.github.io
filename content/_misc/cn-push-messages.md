@@ -72,4 +72,4 @@ else
 [PeakboardAPIDemo](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/PeakboardAPIDemo.zip)
 
 下载示例看板：
-[PeakboardPushMessages] (https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/Push%20Messages.pbmx)
+[PeakboardPushMessages] (https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/Push%20Messages-EN.pbmx)
