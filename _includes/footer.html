@@ -8,7 +8,7 @@
                         <img src="/assets/logos/logo.svg" width="200" alt="Logo for Peakboard">
                     </div>
                     {% for collection in site.collections %}
-                        {% assign pages = site[collection.label] | where: "ref", 'misc-600' | where: "lang", page.lang %}
+                        {% assign pages = site[collection.label] | where: "ref", 'misc-1' | where: "lang", page.lang %}
                         {% for p in pages %}
                             <div class="mr-12 mt-12 md:mt-0">
                                 <h4 class="mb-4 font-light border-b border-grey-light text-3xl text-white">{{ text.footer-version }}</h4>
