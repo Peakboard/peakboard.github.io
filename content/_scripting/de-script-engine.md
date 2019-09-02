@@ -15,7 +15,7 @@ Eine der Grundideen hinter Peakboard ist, dass der Enduser eben kein Programmier
 * Daten aufbereitet werden sollen oder müssen (z.B. Filter oder Aggregation)
 * Texte nach bestimmten Regeln formatiert werden sollen
 
-Die grundlegende Scriptsprache ist LUA, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials. Eine sehr schöne Dokumentation finden Sie auf [dieser](http://lua.coders-online.net/1) Internetseite. Neben den Standardfunktionalitäten von LUA bietet der Peakboard-Designer jedoch noch einige Erweiterungen dieser Sprache. Diese lassen sich auf der linken Seite des Scripteditors finden.
+Die grundlegende Scriptsprache ist Lua, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials. Eine sehr schöne Dokumentation finden Sie auf [dieser](https://www.lua.org/docs.html) Internetseite. Neben den Standardfunktionalitäten von Lua bietet der Peakboard-Designer jedoch noch einige Erweiterungen dieser Sprache. Diese lassen sich auf der linken Seite des Scripteditors finden.
 
 ## Scripte in Events
 
