@@ -21,7 +21,7 @@ Im folgenden Dialog können Sie die gewünschte Visualisierung wählen und über
 Sie können ihre Peakboards übrigens auch über Ihr IPhone oder Android Smartphone wechseln. Installieren Sie hierfür einfach die entsprechende App.
 
 <div>
-	<a href= "https://itunes.apple.com/de/app/peakboard-manager/id1148615440?mt=8&at=10l6Xd&ct=jeyff0ftti00xkod01g9a"
+	<a href= "https://apps.apple.com/de/app/peakboard-manager/id1148615440"
 	style= "display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;">
 	</a>
 

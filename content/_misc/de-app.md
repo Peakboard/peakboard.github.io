@@ -17,7 +17,7 @@ Sollen diese Änderungen auch nach einem Neustart der Box oder der Visualisierun
 
 ![image1](/assets/images/instant_boards/web/img0.png)
 
-Um Variablen und Listen bequem vom Smartphone aus zu verwalten, wird die App "Peakboard Manager" welcher im [Apple App Store](https://itunes.apple.com/de/app/peakboard-manager/id1148615440?mt=8) oder [Google Play Store](https://play.google.com/store/apps/details?id=com.peakboard.manager&hl=de) heruntergeladen werden kann.
+Um Variablen und Listen bequem vom Smartphone aus zu verwalten, wird die App "Peakboard Manager" welcher im [Apple App Store](https://apps.apple.com/de/app/peakboard-manager/id1148615440) oder [Google Play Store](https://play.google.com/store/apps/details?id=com.peakboard.manager&hl=de) heruntergeladen werden kann.
 
 Anhand der nachfolgenden Screenshots wird die Handhabung der App anhand des Beispiels [Willkommensbildschirm](https://peakboard.rocks/willkommen) erläutert.
 Ist die App erfolgreich auf dem Smartphone installiert, so kann die erste Peakboard Box über das + Symbol hinzugefügt werden (1). 

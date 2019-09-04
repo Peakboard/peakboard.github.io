@@ -17,7 +17,7 @@ If these changes should also be available after a restart of the box or the visu
 
 ![image1](/assets/images/instant_boards/web/img0.png)
 
-To manage variables and lists comfortably from your smartphone, the app is called "Peakboard Manager" which can be downloaded from the [Apple App Store](https://itunes.apple.com/de/app/peakboard-manager/id1148615440?mt=8) or [Google Play Store](https://play.google.com/store/apps/details?id=com.peakboard.manager&hl=en).
+To manage variables and lists comfortably from your smartphone, the app is called "Peakboard Manager" which can be downloaded from the [Apple App Store](https://apps.apple.com/de/app/peakboard-manager/id1148615440) or [Google Play Store](https://play.google.com/store/apps/details?id=com.peakboard.manager&hl=en).
 
 The following screenshots show how to use the app using the example [Welcome screen](https://peakboard.rocks/welcome).
 If the app is successfully installed on the smartphone, the first Peakboard Box can be added via the + symbol (1). 
