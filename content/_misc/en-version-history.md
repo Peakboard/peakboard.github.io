@@ -8,8 +8,11 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.6.1.0 (27.08.2019)
+footer: 1.6.2.0 (19.09.2019)
 ---
+
+## 1.6.2.0 (19.09.2019)
+* Fixed an issue within the S7 data source, which caused an error when reading multiple variables in memory blocks.
 
 ## 1.6.1.0 (27.08.2019)
 * Hotfix for the Peakboard Webbrowser 

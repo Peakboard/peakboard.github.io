@@ -8,8 +8,11 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.6.1.0 (27.08.2019)
+footer: 1.6.2.0 (19.09.2019)
 ---
+
+## 1.6.2.0 (19.09.2019)
+* Es wurde ein Fehler der S7-Datenquelle behoben, bei dem mehrere Variablen von Merker-Bausteinen nicht gelesen werden konnten.
 
 ## 1.6.1.0 (27.08.2019)
 * Hotfix für den Peakboard Webbrowser 
