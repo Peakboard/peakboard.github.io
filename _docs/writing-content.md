@@ -42,7 +42,7 @@ Should you have the need to use video outside of a "Video Tutorial", you can pas
 
 ### Alerts and Callouts
 
-For any content that you would like to draw attention to, you may use blockquotes, which will for styled as a general warning/alert. To do this in mardown, it would look like this:
+For any content that you would like to draw attention to, you may use blockquotes, which will for styled as a general warning/alert. To do this in markdown, it would look like this:
 
 ```markdown
 > ## Optional heading
