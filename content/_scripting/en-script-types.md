@@ -11,13 +11,13 @@ redirect_from:
 
 The following overview describes the types of scripts available with Peakboard.
 
-# Timer
+## Timer
 Timer scripts are always used when an action is to be performed in a constant rhythm or once.
 
-# Golbal Functions
+## Golbal Functions
 Here you can define functions that are to be called several times by different methods.
 
-# Global Events
+## Global Events
 Like the global functions, global events can be called at any time using different methods.
 
 This includes classic inputs via external input devices such as touch screen monitors, keyboards, mice or [Presenter](/misc/en-presenter.html).
@@ -38,15 +38,15 @@ This script is executed whenever a key is pressed on an input device. Our [examp
 
 * Data source update failed
 
-# On Screen Activation
+## On Screen Activation
 As the name suggests, a script defined here will always be executed when the corresponding screen is loaded for the first time.
 
-# On Data Refresh
+## On Data Refresh
 This script is executed whenever new data has been loaded for the data source. 
 
 Such a script can be created by adding an update script either under Scripts - When updating data by clicking Add for the corresponding data source or by right-clicking on the data source.
 
-# For controls
+## For controls
 
 Here you can find all scripts that were created using the Events function of a control.
 

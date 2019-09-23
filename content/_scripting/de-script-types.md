@@ -11,13 +11,13 @@ redirect_from:
 
 Nachfolgende Übersicht beschreibt die mit Peakboard verfügbaren Arten von Skripten.
 
-# Timer
+## Timer
 Timer-Skripte kommen immer dann zum Einsatz, wenn eine Aktion in einem gleichbleibenden Rhythmus oder einmalig durchgeführt werden soll.
 
-# Golbale Funktion
+## Golbale Funktion
 Hier lassen sich Funktionen definieren, welche durch unterschiedliche Methoden mehrfach aufgerufen werden sollen.
 
-# Globale Events
+## Globale Events
 Wie auch die globalen Funktionen können globale Events jederzeit durch unterschiedliche Methoden aufgerufen werden.
 
 Hierunter fallen klassische Eingaben über externe Eingabegeräte wie beispielsweise Touchscreen-Monitor, Tastatur, Maus oder [Presenter](/misc/de-presenter.html).
@@ -38,15 +38,15 @@ Dieses Skript wird immer dann ausgeführt wenn eine Taste an einem Eingabegerät
 
 * Aktualisierung der Datenquelle fehlgeschlagen
 
-# Bei Bildschirmaktivierung
+## Bei Bildschirmaktivierung
 Wie der Name schon vermuten lässt wird ein hier definiertes Skript immer genau dann ausgeführt, wenn der entsprechende Bildschirm das erste Mal geladen wird.
 
-# Bei Datenaktualisierung
+## Bei Datenaktualisierung
 Dieses Skript wird immer dann ausgeführt, wenn für die Datenquelle neue Daten geladen wurden. 
 
 Ein solches Skript lässt sich anlegen, indem entweder unter Skripte - Bei Datenaktualisierung über Hinzufügen für die entsprechende Datenquelle oder über Rechtsklick auf die Datenquelle ein Aktualisierungsskript hinzugefügt wird.
 
-# Für Controls
+## Für Controls
 Hier finden sich alle Skripte, welche über die Events-Funktion eines Controls erstellt wurden.
 
 Diese Events sind bestimmte Aktionen die mit Hilfe eines Controls ausgelöst werden können.

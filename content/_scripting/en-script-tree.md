@@ -13,43 +13,44 @@ The script tree is intended to facilitate working with scripts. There you will f
 
 ![image01](/assets/images/scripting/tree/tree01.png)
 
-# Data
+## Data
 
 Here you can find all data sources created in the Explorer as well as the characteristic functions.
 
 For example, a time data source contains functions such as "Format" or "Lua Date". Via "Format" the date can be changed analogous to the format function of a control, as described [here](/data_sources/de-datum-und-uhrzeit.html).
 
-# Variable
+## Variable
 
 Here you can find all variables and lists created in the Explorer, as well as their characteristic functions. 
 
 For example, for a variable of type Number the corresponding "to String" function.
 
-# Dataflows
+## Dataflows
 
 Here you can find all dataflows created in the Explorer as well as the characteristic functions.
 
 For example, the previously [aggregated column of a dataflow](/dataflows/de-aggregate-data.html) can be called here.
 
-# Screens
+## Screens
 
 Here you can find all controls created on the screen that have a control name, as well as the functions characteristic of the control.
 
-# Resources
+## Resources
 
 Here you will find all resources created in the Explorer, as well as their characteristic functions
 
-# Timer (Timer script only)
+## Timer (Timer script only)
 
 Here you will find relevant functions for the timer
 
-# Types
+## Types
 
 Here you can find functions for visibility or coloring of controls.
 
-# Runtime
+## Runtime
+Functions for the Peakboard Runtime.
 
-# Functions
+## Functions
 
 Standard functions included in the script editor. With the help of the script [Global Functions](/scripting/en-function.html) you can create your own functions at any time.
 
