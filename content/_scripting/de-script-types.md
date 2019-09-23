@@ -24,10 +24,8 @@ Hierunter fallen klassische Eingaben über externe Eingabegeräte wie beispielsw
 
 * Swipen
 Die Eingabe erfolgt hierbei in der Regel über einen Touchscreen-Monitor. Alternativ kann der Wisch-Effekt auch über eine Maus erzeugt werden.
-
 * Taste gedrückt
 Dieses Skript wird immer dann ausgeführt wenn eine Taste an einem Eingabegerät gedrückt wird. Unser [Beispiel zum Wechseln von Screens mit Hilfe eines handelsüblichen Presenters](/misc/de-presenter.html) illustriert sehr deutlich, wie diese Art Skript angewendet wird.
-
 * Tasteneingabe 
 * Skriptfehler 
 * Aktualisierung der Datenquelle fehlgeschlagen
