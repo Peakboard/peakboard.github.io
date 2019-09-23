@@ -2,35 +2,30 @@
 layout: article
 title: Peakboard Script Engine
 menu_title: Peakboard Script Engine
-description: Informatinon about  the Peakboard Script Engine
+description: Informatinon about the Peakboard Script Engine
 lang: en
 weight: 100
 ref: scr-100
 redirect_from:
   - /scripting/01-en-script-engine.html
 ---
-One of the basic ideas behind Peakboard is that the end user does not have to be a programmer, as is the case with many other solutions. As many functions as possible should be done without using a script. Scripts are usually used when
+One of the basic ideas behind Peakboard is that the end-user does not need to have any programming knowledge.
 
-* Interactivity is required (e. g. for a touch screen)
-* Data should or must be prepared (e. g. filter or aggregation)
-* Texts should be formatted according to certain rules
+Based on this idea, the [Dataflows](/dataflows/en-getting-started.html) provide a variety of functions that would normally require scripts.
 
-The basic scripting language is Lua, and there are numerous documentation and tutorials on the Internet. A very nice documentation can be found on this [website](https://www.lua.org/docs.html). In addition to the standard functionalities of Lua, however, the Peakboard-Designer also offers some extensions of this language. These can be found on the left side of the script editor.
+Nevertheless, some scripts are needed, e.g. to
 
-## Scripts for events
+* to generate interactivity (e.g. with a touch screen)
 
-We assume a simple data source, as used for example in this [article.](/tutorials/03-en-xml-data.html) The aim is to display not only the connected TableGrid-Control with new data, but also the number of data records in a text field for each refresh of the data source (e. g. every 90 seconds, if it is set in this way). To do this, we need a text field on the panel next to the TableGrid-Control. This text field must be given a name, but there is a Name-Property as shown in the following screenshot.
+* [to filter Data in a dataflow](/dataflows/en-filter-data.html)
 
-![image_1](/assets/images/scripting/engine/TutorialScripting01.png)
+* create complex rules for formatting and displaying text
 
-The TableGrid-Control is simply bound to the data source, which automatically updates it (as shown in the above-mentioned [Article ](/tutorials/03-en-xml-data.html)). So it is nothing to do with TableGrid-Control. To determine the number of records, however, we now need a script that runs every time the data source is updated. Right-click on the data source and select Edit Events to open the Script-Editor.
+* write information to a database or back to SAP
 
-![image_1](/assets/images/scripting/engine/TutorialScripting02.png)
+ 
+The basic scripting language is Lua, there are numerous documentations and tutorials on the internet.
+In Lua the data types String, Number and Boolean can be used.
+You can also create your own functions.
 
-On the left-hand side you will find a list of all possible data elements that can be accessed. This includes, for example, the data sources and all controls that are placed on panels and have a name (without names the controls cannot be controlled via the script). The data source can be controlled by its name Data.Abfahrt. The property for the number of records is Count. The text field must be addressed using the screen specification. The text field has several properties, e. g. the font or the visibility or even the property Text, to set the content. This will result in the code line Screens[0].MeinTextfeld.Text = Data.Abfahrt.Count as shown in the screenshot.
-
-![image_1](/assets/images/scripting/engine/TutorialScripting03.png)
-
-This sets the text field each time the data source is updated. The next screenshot shows the preview.
-
-![image_1](/assets/images/scripting/engine/TutorialScripting04.png)
+A very nice documentation can be found on [this website](https://www.lua.org/docs.html).

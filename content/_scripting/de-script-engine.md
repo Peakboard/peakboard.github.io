@@ -1,36 +1,32 @@
 ---
 layout: article
-title: Die Peakboard-Script-Engine
-menu_title: Die Peakboard-Script-Engine
-description: Informatinon über die Peakboard Script Engine
+title: Die Peakboard-Skript-Engine
+menu_title: Die Peakboard-Skript-Engine
+description: Informatinon über die Peakboard Skript Engine
 lang: de
 weight: 100
 ref: scr-100
 redirect_from:
   - /scripting/01-de-script-engine.html
 ---
-Eine der Grundideen hinter Peakboard ist, dass der Enduser eben kein Programmierer sein muss, wie es bei vielen anderen Lösungen der Fall ist. So viele Funktionen wie möglich sollten also dadurch zu erledigen sein, ohne ein Script zu nutzen. Scripte kommen in der Regel zum Einsatz, wenn
 
-* Interaktivität gefordert ist (z.B. bei einem Touchbildschirm)
-* Daten aufbereitet werden sollen oder müssen (z.B. Filter oder Aggregation)
-* Texte nach bestimmten Regeln formatiert werden sollen
+Eine der Grundideen hinter Peakboard ist, dass der End-User keinerlei Kenntnisse im Programmieren mitbringen muss.
 
-Die grundlegende Scriptsprache ist Lua, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials. Eine sehr schöne Dokumentation finden Sie auf [dieser](https://www.lua.org/docs.html) Internetseite. Neben den Standardfunktionalitäten von Lua bietet der Peakboard-Designer jedoch noch einige Erweiterungen dieser Sprache. Diese lassen sich auf der linken Seite des Scripteditors finden.
+Basierend auf dieser Idee ermöglichen die [Dataflows](/dataflows/de-erste-schritte.html) eine Vielzahl von Funktionen für die normalerweise Skripte notwendig wären.
 
-## Scripte in Events
+Dennoch werden vereinzelt Skripte benötigt, um beispielsweise
 
-Wir gehen von einer einfachen Datenquelle aus, wie sie zum Beispiel in [diesem](/tutorials/03-de-xml-daten.html) Artikel genutzt wird. Ziel soll es sein, bei jedem Refresh der Datenquelle (z.B. alle 90 Sekunden, wenn es so eingestellt ist), nicht nur das verbundene TableGrid-Control mit neuen Daten anzuzeigen, sondern auch die Anzahl der Datensätze in einem Textfeld auszugeben. Dazu brauchen wir neben dem TableGrid-Control ein Textfeld auf dem Panel. Dieses Textfeld muss einen Namen bekommen, dafür gibt es eine Name-Eigenschaft wie im folgenden Screenshot gezeigt.
+* Interaktivität zu erzeugen (z.B. bei einem Touchscreen)
 
-![image_1](/assets/images/scripting/engine/TutorialScripting01.png)
+* [Daten in einem Dataflow zu Filtern](/dataflows/de-daten-filtern.html)
 
-Das TableGrid-Control wird einfach an die Datenquelle gebunden, dadurch wird es automatisch mitaktualisiert (so wie im oben bereits erwähnten [Artikel](/tutorials/03-de-xml-daten.html) gezeigt). Es ist also nichts zu tun mit dem TableGrid-Control. Um die Anzahl der Datensätze zu ermitteln brauchen wir jetzt allerdings ein Script, das jedes mal dann ausgeführt wird, wenn die Datenquelle aktualisiert wird. Mit der rechten Maustaste auf die Datenquelle und dann auf Edit Events öffnet den Script-Editor.
+* komplexe Regeln zur Formatierung und Anzeige von Texten zu erstellen
 
-![image_1](/assets/images/scripting/engine/TutorialScripting02.png)
+* Informationen in eine Datenbank oder nach SAP zurückzuschreiben
 
-Auf der linken Seite findet sich eine Auflistung aller möglichen Datenelemente, die angesteuert werden können. Dazu gehören z.B. die Datenquellen und alle Steuerelemente, die auf Panels platziert sind und einen Namen haben (ohne Namen können die Controls nicht über das Script angesteuert werden). Die Datenquelle lässt sich über ihren Namen Data.Abfahrt ansteuern. Die Eigenschaft für die Anzahl der Datensätze ist Count. Das Textfeld muss über die Angabe des Screens adressiert werden. Das Textfeld hat etliche Eigenschaften, z.B.  die Schriftart oder die Sichtbarkeit oder eben die Eigenschaft Text, um den Inhalt zu setzen. Daraus ergibt sich die `Codezeile Screens[0].MeinTextfeld.Text = Data.Abfahrt.Count` wie im Screenshot gezeigt.
+ 
+Die grundlegende Skriptsprache ist Lua, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials.
+In Lua können die Datentypen, String, Number und Boolean verwendet werden.
+Ebenso können eigenen Funktionen damit angelegt werden.
 
-![image_1](/assets/images/scripting/engine/TutorialScripting03.png)
-
-Und damit wird das Textfeld jedes Mal gesetzt, wenn die Datenquelle aktualisiert wird. Der nächste Screenshot zeigt den Preview.
-
-![image_1](/assets/images/scripting/engine/TutorialScripting04.png)
+Eine sehr schöne Dokumentation finden Sie auf [dieser Internetseite](https://www.lua.org/docs.html).
