@@ -24,8 +24,10 @@ This includes classic inputs via external input devices such as touch screen mon
 
 * Swiping
 The input is usually made via a touch screen monitor. Alternatively, the wipe effect can also be generated using a mouse.
+
 * Key Pressed
 This script is executed whenever a key is pressed on an input device. Our [example for changing screens using a standard presenter](/misc/en-presenter.html) clearly illustrates how this type of script is used.
+
 * Key Input
 * Script Error
 * Data source update failed

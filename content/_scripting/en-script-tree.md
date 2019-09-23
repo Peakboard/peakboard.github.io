@@ -56,19 +56,27 @@ Standard functions included in the script editor. With the help of the script [G
 
 * Peakboard
 Enables output to the log of the Peakboard Runtime using peakboard.log(), for example.
+
 * Control
-Includes a simplified function to make a control visible or invisible
+Includes a simplified function to make a control visible or invisible.
+
 * Date
 Here you can find common functions to work with a date or time. However, these functions do NOT replace the time data source. Rather, they extend the range of preconfigured functions for time manipulation. 
+
 * String
 These functions are mostly used when it comes to filtering certain text values within a [Dataflow](/dataflows/en-filter-data.html).
+
 * Math
 Contains some functions for handling numbers. For example, the "To number" function can be used to convert a number from the String datatype to the Number datatype.
+
 * SQL
 The functions listed here are mainly used for writing to SQL. 
+
 * SAP
 The functions listed here are mainly used for writing to SAP. 
+
 * Mail
 Here you will find preconfigured functions for sending e-mails via the Peakboard.
+
 * Brush
 Function to color something using a hex code. 
