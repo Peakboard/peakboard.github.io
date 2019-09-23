@@ -16,11 +16,8 @@ Based on this idea, the [Dataflows](/dataflows/en-getting-started.html) provide 
 Nevertheless, some scripts are needed, e.g. to
 
 * to generate interactivity (e.g. with a touch screen)
-
 * [to filter Data in a dataflow](/dataflows/en-filter-data.html)
-
 * create complex rules for formatting and displaying text
-
 * write information to a database or back to SAP
 
  

@@ -28,14 +28,8 @@ Die Eingabe erfolgt hierbei in der Regel über einen Touchscreen-Monitor. Altern
 * Taste gedrückt
 Dieses Skript wird immer dann ausgeführt wenn eine Taste an einem Eingabegerät gedrückt wird. Unser [Beispiel zum Wechseln von Screens mit Hilfe eines handelsüblichen Presenters](/misc/de-presenter.html) illustriert sehr deutlich, wie diese Art Skript angewendet wird.
 
-* Tasteneingabe
-
- 
-
-* Skriptfehler
-
- 
-
+* Tasteneingabe 
+* Skriptfehler 
 * Aktualisierung der Datenquelle fehlgeschlagen
 
 ## Bei Bildschirmaktivierung
@@ -54,31 +48,20 @@ Diese Events sind bestimmte Aktionen die mit Hilfe eines Controls ausgelöst wer
 Nachfolgende Liste enthält alle mit Peakboard möglichen Events sowie die dazugehörigen Controls.
 
 * Tapped (Text, Bild, Rechteck, Excel-Diagramm, Textfeld, Button, Repeat-Button)
-
 Dieses Event wird ausgeführt, wenn das entsprechende Control über Touch, Maus oder ähnliche Eingabe aktiviert wird.
 
 * DataRowLoaded (Tabellenraster)
-
 Dieses Event wird immer dann ausgeführt, wenn eine neue Zeile einer Tabelle geladen wird.
 
 * CellTapped (Tabellenraster)
-
 Dieses Event wird dann ausgeführt, wenn innerhalb der Tabelle eine Zelle über Touch, Maus oder ähnliche Eingabe aktiviert wird.
 
 * TileChanged (Live Tile Box)
-
 * RightTapped (Bild)
-
 * DoubleTapped (Bild)
-
 * TextChanged (Textfeld)
-
 * Checked (Toggle Button, Check Box, Radio Button)
-
 * Unchecked (Toggle Button, Check Box, Radio Button)
-
 * Toggled (Kippschalter)
-
 * SelectionChanged (Dropdown-Liste)
-
 * ValueChanged (Slider)
