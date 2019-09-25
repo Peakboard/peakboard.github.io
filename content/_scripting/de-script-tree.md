@@ -52,7 +52,7 @@ Funktionen für die Peakboard Runtime.
 
 ## Funktionen
 
-Im Skript-Editor enthaltene Standardfunktionen. Mit Hilfe des Skripts [Globale Funktionen](/scripting/de-function.html) können jederzeit eigene Funktionen angelegt werden.
+Im Skript-Editor enthaltene Standardfunktionen. Mit Hilfe des Skripts Globale Funktionen können jederzeit eigene Funktionen angelegt werden.
 
 * Peakboard
 Ermöglicht beispielsweise mittels peakboard.log() die Ausgabe in den Log der Peakboard Runtime

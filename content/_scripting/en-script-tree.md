@@ -29,7 +29,7 @@ For example, for a variable of type Number the corresponding "to String" functio
 
 Here you can find all dataflows created in the Explorer as well as the characteristic functions.
 
-For example, the previously [aggregated column of a dataflow](/dataflows/de-aggregate-data.html) can be called here.
+For example, the previously [aggregated column of a dataflow](/dataflows/en-aggregate-data.html) can be called here.
 
 ## Screens
 
@@ -52,7 +52,7 @@ Functions for the Peakboard Runtime.
 
 ## Functions
 
-Standard functions included in the script editor. With the help of the script [Global Functions](/scripting/en-function.html) you can create your own functions at any time.
+Standard functions included in the script editor. With the help of the script Global Functions you can create your own functions at any time.
 
 * Peakboard
 Enables output to the log of the Peakboard Runtime using peakboard.log(), for example.
