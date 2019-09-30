@@ -17,13 +17,13 @@ Basierend auf dieser Idee ermöglichen die [Dataflows](/dataflows/de-erste-schri
 Dennoch werden vereinzelt Skripte benötigt, um beispielsweise
 
 * Interaktivität zu erzeugen (z.B. bei einem Touchscreen)
-* [Daten in einem Dataflow zu Filtern](/dataflows/de-daten-filtern.html)
+* [Daten in einem Dataflow zu filtern](/dataflows/de-daten-filtern.html)
 * komplexe Regeln zur Formatierung und Anzeige von Texten zu erstellen
 * Informationen in eine Datenbank oder nach SAP zurückzuschreiben
 
  
 Die grundlegende Skriptsprache ist Lua, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials.
 In Lua können die Datentypen, String, Number und Boolean verwendet werden.
-Ebenso können eigenen Funktionen damit angelegt werden.
+Ebenso können eigene Funktionen damit angelegt werden.
 
 Eine sehr schöne Dokumentation finden Sie auf [dieser Internetseite](https://www.lua.org/docs.html).

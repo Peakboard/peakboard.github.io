@@ -15,37 +15,37 @@ Der Skript-Baum soll das Arbeiten mit Skripten erleichtern. Hierzu finden sich d
 
 ## Data
 
-Hier finden sich alle im Explorer angelegten Datenquellen, sowie die dafür charakteristischen Funktionen.
+Hier finden sich alle im Explorer angelegten Datenquellen sowie die dafür charakteristischen Funktionen.
 
 Beispielsweise enthält eine Zeitdatenquelle Funktionen wie “Format” oder “Lua Date”. Über “Format” kann so das Datum analog zur Format-Funktion eines Controls, wie [hier](/data_sources/de-datum-und-uhrzeit.html) beschrieben, geändert werden.
 
 ## Variable
 
-Hier finden sich alle im Explorer angelegten Variablen und Listen, sowie die dafür charakteristischen Funktionen. 
+Hier finden sich alle im Explorer angelegten Variablen und Listen sowie die dafür charakteristischen Funktionen. 
 
 Beispielsweise für eine Variable vom Typ Number die entsprechende “to String”-Funktion.
 
 ## Dataflows
 
-Hier finden sich alle im Explorer angelegten Dataflows, sowie die dafür charakteristischen Funktionen.
+Hier finden sich alle im Explorer angelegten Dataflows sowie die dafür charakteristischen Funktionen.
 
 Beispielsweise kann hier die zuvor [aggregierte Spalte eines Dataflows](/dataflows/de-daten-aggregerien.html) aufgerufen werden.
 
 ## Screens
 
-Hier finden sich alle auf dem Screen angelegten Controls, die einen Control-Namen erhalten haben, sowie die für das Control charakteristischen Funktionen
+Hier finden sich alle auf dem Screen angelegten Controls, die einen Control-Namen erhalten haben, sowie die für das Control charakteristischen Funktionen.
 
 ## Resources
 
-Hier finden sich alle im Explorer angelegten Ressourcen, sowie die dafür charakteristischen Funktionen
+Hier finden sich alle im Explorer angelegten Ressourcen sowie die dafür charakteristischen Funktionen.
 
 ## Timer (nur Timer-Skript)
 
-Hier finden sich für den Timer relevante Funktionen
+Hier finden sich für den Timer relevante Funktionen.
 
 ## Types
 
-Hier finden sich Funktionen zur Sichtbarkeit oder zum Färben von Controls
+Hier finden sich Funktionen zur Sichtbarkeit oder zum Färben von Controls.
 
 ## Runtime
 Funktionen für die Peakboard Runtime.
@@ -61,7 +61,7 @@ Ermöglicht beispielsweise mittels peakboard.log() die Ausgabe in den Log der Pe
 Enthält eine vereinfachte Funktion um ein Control sichtbar oder unsichtbar zu schalten
 
 * Date
-Hier finden sich gängige Funktionen um mit einem Datum oder einer Uhrzeit zu arbeiten. Die Funktionen ersetzen jedoch NICHT die Zeit-Datenquelle. Vielmehr erweitern Sie das Spektrum der vorkonfigurierten Funktionen zur Zeit-Manipulation. 
+Hier finden sich gängige Funktionen, um mit einem Datum oder einer Uhrzeit zu arbeiten. Die Funktionen ersetzen jedoch NICHT die Zeit-Datenquelle. Vielmehr erweitern sie das Spektrum der vorkonfigurierten Funktionen zur Zeit-Manipulation. 
 
 * String
 Diese Funktionen finden meist dann Anwendung, wenn es darum geht innerhalb eines [Dataflows bestimmte Textwerte zu filtern](/dataflows/de-daten-filtern.html).

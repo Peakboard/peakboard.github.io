@@ -19,9 +19,9 @@ Der Aufbau ist hierbei für die Skripte [Timer](/scripting/de-script-types.html)
 
 Oberhalb des Skript-Baums auf der rechten Seite (1) findet sich jeweils ein Button zum Aus- sowie einer zum Kommentieren.
 
-Die Lupe symbolisiert als dritter Button die Suche, bzw. Suchen und Ersetzen-Funktion, welche auch über die Tastenkombination strg+f aufgerufen werden kann.
+Die Lupe symbolisiert als dritter Button die Suche bzw. die Suchen und Ersetzen-Funktion, welche auch über die Tastenkombination Strg+f aufgerufen werden kann.
 
-Der Skript-Baum (2) enthält, neben den Elementen des Explorers die Elemente Timer, Types, Runtime sowie einige der am häufigsten Verwendeten Funktionen. Eine detaillierte Übersicht findet sich [hier](/scripting/de-script-tree.html).
+Der Skript-Baum (2) enthält neben den Elementen des Explorers die Elemente Timer, Types, Runtime sowie einige der am häufigsten verwendeten Funktionen. Eine detaillierte Übersicht findet sich [hier](/scripting/de-script-tree.html).
 
 Der Baum auf der linken Seite (3) ermöglicht es durch die verschiedenen Skripte zu navigieren, ohne den Editor dabei verlassen zu müssen. Eine detaillierte Übersicht der jeweiligen Skripte findet sich [hier](/scripting/de-script-types.html).
 

@@ -14,7 +14,7 @@ Nachfolgende Übersicht beschreibt die mit Peakboard verfügbaren Arten von Skri
 ## Timer
 Timer-Skripte kommen immer dann zum Einsatz, wenn eine Aktion in einem gleichbleibenden Rhythmus oder einmalig durchgeführt werden soll.
 
-## Golbale Funktion
+## Globale Funktion
 Hier lassen sich Funktionen definieren, welche durch unterschiedliche Methoden mehrfach aufgerufen werden sollen.
 
 ## Globale Events
@@ -26,7 +26,7 @@ Hierunter fallen klassische Eingaben über externe Eingabegeräte wie beispielsw
 Die Eingabe erfolgt hierbei in der Regel über einen Touchscreen-Monitor. Alternativ kann der Wisch-Effekt auch über eine Maus erzeugt werden.
 
 * Taste gedrückt
-Dieses Skript wird immer dann ausgeführt wenn eine Taste an einem Eingabegerät gedrückt wird. Unser [Beispiel zum Wechseln von Screens mit Hilfe eines handelsüblichen Presenters](/misc/de-presenter.html) illustriert sehr deutlich, wie diese Art Skript angewendet wird.
+Dieses Skript wird immer dann ausgeführt, wenn eine Taste an einem Eingabegerät gedrückt wird. Unser [Beispiel zum Wechseln von Screens mit Hilfe eines handelsüblichen Presenters](/misc/de-presenter.html) illustriert sehr deutlich, wie diese Art Skript angewendet wird.
 
 * Tasteneingabe 
 * Skriptfehler 
@@ -43,7 +43,7 @@ Ein solches Skript lässt sich anlegen, indem entweder unter Skripte - Bei Daten
 ## Für Controls
 Hier finden sich alle Skripte, welche über die Events-Funktion eines Controls erstellt wurden.
 
-Diese Events sind bestimmte Aktionen die mit Hilfe eines Controls ausgelöst werden können.
+Diese Events sind bestimmte Aktionen, die mit Hilfe eines Controls ausgelöst werden können.
 
 Nachfolgende Liste enthält alle mit Peakboard möglichen Events sowie die dazugehörigen Controls.
 
