@@ -11,18 +11,18 @@ redirect_from:
 
 Mit Hilfe des Icon-Controls lassen sich unterschiedliche Icons in die Visualisierung integrieren.
 Wie jedes andere Control wird das Icon-Control dazu mittels Drag&Drop auf die Oberfläche gezogen (1). 
-Anschließend können die [allgemeinen Eigenschaften](/controls/01-de-allgemeine-eigenschaften.html) des Controls wie gewohnt genutzt werden.
+Anschließend können die [allgemeinen Eigenschaften](/controls/de-allgemeine-eigenschaften.html) des Controls wie gewohnt genutzt werden.
 Über das Verkettungssymbol kann das Haupt-Icon bestimmt werden (2).
 Der sich öffnende Icon-Dialog ermöglicht die Suche nach einem passenden Icon (3).
 Hierbei kann aus folgenden Styles ausgewählt werden:
 
-> * blue_dark_grey
-> * dark_gray
-> * green_dark_grey
-> * office
-> * orange_dark_grey
-> * white
-> * yellow_dark_grey
+* blue_dark_grey
+* dark_gray
+* green_dark_grey
+* office
+* orange_dark_grey
+* white
+* yellow_dark_grey
 
 So lässt sich mit Hilfe des entsprechenden Suchbegriffs sowie des gewünschten Styles ein passendes Icon finden (4).
 Mit OK wird die Auswahl bestätigt (5).

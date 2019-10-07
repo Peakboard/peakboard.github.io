@@ -16,10 +16,10 @@ The main icon can be determined via the concatenation symbol (2).
 The icon dialog that opens allows you to search for a suitable icon (3).
 Here you can choose from the following styles:
 
-> * blue_dark_grey
+* blue_dark_grey
 * dark_gray
 * green_dark_grey
-> office
+* office
 * orange_dark_grey
 * white
 * yellow_dark_grey
