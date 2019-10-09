@@ -48,4 +48,13 @@
   weight: 200
   image: /assets/images/videos/lJteh_tnZL8.jpg
   category: SAP
+  
+- title: Peakboard简介
+  description: Peakboard解决方案以及应用场景简介
+  language: cn
+  tencent_id: r3005g2qdx5
+  weight: 200
+  image: /assets/images/videos/ot1Sdu-Z380.jpg
+  category: Recommended
+
 
