@@ -58,6 +58,13 @@
   image: /assets/images/videos/lJteh_tnZL8.jpg
   category: SAP
   
+- title: 什么是安东板
+  description: 安东板简介及与Peakboard的应用
+  language: cn
+  tencent_id: c3008wqc8by
+  weight: 200
+  image: /assets/images/videos/andon_CN.png
+  category: More
 
 
 
