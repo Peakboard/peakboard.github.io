@@ -11,6 +11,9 @@ redirect_from:
 footer: 1.6.2.0 (19.09.2019)
 ---
 
+## 1.6.3.0 (17.10.2019)
+* An issue was fixed, where time zones occasionally where not applied to time data sources.
+
 ## 1.6.2.0 (19.09.2019)
 * Fixed an issue within the S7 data source, which caused an error when reading multiple variables in memory blocks.
 
