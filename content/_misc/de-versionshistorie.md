@@ -11,6 +11,9 @@ redirect_from:
 footer: 1.6.2.0 (19.09.2019)
 ---
 
+## 1.6.4.0 (18.10.2019)
+* Die Grundeinstellung für das Designer-Theme wurde auf "Light" zurückgesetzt.
+
 ## 1.6.3.0 (17.10.2019)
 * Es wurde ein Fehler in der Zeit-Datenquelle behoben, bei dem Zeitzonen manchmal nicht korrekt angewandt worden.
 
