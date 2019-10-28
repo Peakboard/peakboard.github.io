@@ -11,6 +11,32 @@ redirect_from:
 footer: 1.6.2.0 (19.09.2019)
 ---
 
+## 1.7.0.0 (28.10.2019)
+* Neue Datenquelle: SharePoint Lists
+* Optimierung für Ressourcen, die über die Bridge geladen werden
+* In der Zeitdatenqulle kann nun direkt eine relative Zeit zur aktuellen definiert werden
+* Optimierung bei der Fehlerbehandlung kaputter Pakete
+* Bei Web APIs wird nun "Peakboard" als User-Agent übergeben
+* Der Reset im Manage Dialog wird nun ordentlich durchgeführt
+* Im Explorer werden markierte Controls gekennzeichnet
+* OneDrive Excel, PeakboardIO und AzureSQL wurden entfernt
+* MQTT Tester ist wieder verfügbar
+* Eigenschaften für die Simple Charts wurden umsortiert
+* Bildvorschau verzerrt das Bild nicht mehr
+* Icons im Eigenschaften-Editor wurden überarbeitet
+* Silent Installation wurde optimiert
+* Globale Funktion zur Peakboard Kommunikation wurde hinzugefügt
+* Gesperrte Controls können nun über den Explorer ausgewählt werden
+* Der Installer ist nun mehrsprachig
+* Fix beim Installer wenn nur die Bridge installiert wurde
+* Das Timeline Grid wurde überarbeitet
+* Fix beim Benennen eines Controls zu "Background"
+* Fix für Eigene Fonts
+* Fix für eine Fehlermeldung beim Start des Designers
+* Fix in der JSON Datenquelle beim Laden mancher Datenquellen
+* Fix für die Zeitdatenquelle
+* Fix für den Colorpicker beim Ändern der Werte im Textfeld
+
 ## 1.6.4.0 (18.10.2019)
 * Die Grundeinstellung für das Designer-Theme wurde auf "Light" zurückgesetzt.
 

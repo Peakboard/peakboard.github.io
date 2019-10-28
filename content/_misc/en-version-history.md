@@ -11,6 +11,32 @@ redirect_from:
 footer: 1.6.2.0 (19.09.2019)
 ---
 
+## 1.7.0.0 (28.10.2019)
+* New data source: SharePoint Lists
+* Optimization for resources loaded via the bridge
+* A relative time to the current time can now be defined directly in the time data source
+* Optimization of error handling of broken packets
+* Web APIs now pass "Peakboard" as User-Agent
+* The reset in the Manage dialog will now be performed properly.
+* Selected controls are marked in the Explorer.
+* OneDrive Excel, PeakboardIO and AzureSQL removed
+* MQTT Tester is available again
+* Properties for Simple Charts have been re-sorted
+* Image preview no longer distorts the image
+* Icons in the property editor have been revised
+* Silent Installation has been optimized
+* Added global function for peakboard communication
+* Locked controls can now be selected via the Explorer
+* The installer is now multilingual
+* Fix at installer if only bridge was installed
+* The Timeline Grid has been revised
+* Fix when naming a control to "Background"
+* Fix for custom fonts
+* Fix for an error message when starting the Designer
+* Fix in the JSON data source when loading some data sources
+* Fix for the time data source
+* Fix for the color picker when changing the values in the text field
+
 ## 1.6.4.0 (18.10.2019)
 * The default setting for the Designer theme was reverted to "Light" mode.
 
