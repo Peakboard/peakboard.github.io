@@ -11,6 +11,9 @@ redirect_from:
 footer: 1.6.2.0 (19.09.2019)
 ---
 
+## 1.7.1.0 (29.10.2019)
+* Hotfix for Template Designer
+
 ## 1.7.0.0 (28.10.2019)
 * New data source: SharePoint Lists
 * Optimization for resources loaded via the bridge
