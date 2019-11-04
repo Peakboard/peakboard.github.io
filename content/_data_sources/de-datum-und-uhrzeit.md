@@ -19,12 +19,15 @@ Dazu wird unter Time Server (1) die IP-Adresse oder der Host-Name des Timeserver
 
 ![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
 
-
 Um einen lokalen Windows-Rechner als Timeserver zu verwenden, muss ein Registry-Eintrag angepasst werden.
 Dafür muss zunächst in der Registry im Ordner `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer\`  der Wert **[Enabled]** auf 1 (true) gesetzt werden
 
 Anschließend muss das Command Fenster als Administrator ausgeführt und folgender Befehl eingegeben werden:
 `w32tm /config /update`
+
+
+Die Zeitdatenquelle lässt sich wie jede andere Datenquelle unter "add Data Source" (1) und anschließend "Time" (2) anlegen.
+Ab der Designer Version 1.7.0.0 können Zeitsprünge (Addition oder Suptraktion) direkt in der Zeitdatenquelle ausgeführt werden und müssen nicht mehr zwingend über ein Skript erzeugt werden (3).
 
  ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 
