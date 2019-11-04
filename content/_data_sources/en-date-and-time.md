@@ -28,7 +28,7 @@ Then the Command window must be executed as Administrator and the following comm
 
 
 The time data source can be created like any other data source under "add Data Source" (1) and then "Time" (2).
-As of Designer Version 1.7.0.0, time jumps (addition or suptraction) can be executed directly in the time data source and no longer have to be generated using a script (3).
+As of Designer Version 1.7.0.0, time jumps (addition or subtraction) can be executed directly in the time data source and no longer have to be generated using a script (3).
 
  ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 

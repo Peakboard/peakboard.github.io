@@ -27,7 +27,7 @@ Anschließend muss das Command Fenster als Administrator ausgeführt und folgend
 
 
 Die Zeitdatenquelle lässt sich wie jede andere Datenquelle unter "add Data Source" (1) und anschließend "Time" (2) anlegen.
-Ab der Designer Version 1.7.0.0 können Zeitsprünge (Addition oder Suptraktion) direkt in der Zeitdatenquelle ausgeführt werden und müssen nicht mehr zwingend über ein Skript erzeugt werden (3).
+Ab der Designer Version 1.7.0.0 können Zeitsprünge (Addition oder Subtraktion) direkt in der Zeitdatenquelle ausgeführt werden und müssen nicht mehr zwingend über ein Skript erzeugt werden (3).
 
  ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 
