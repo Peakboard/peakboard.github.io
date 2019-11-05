@@ -22,9 +22,6 @@ The following is a list of the areas that are affected by the user administratio
 ### Manage Visualizations
 This item specifies whether a user with this user group may activate, deactivate, deploy or delete visualizations.
 
-### Pair With PBIO
-A user with this user group can link the box to a Peakboard.io account. Such a link is mandatory if a visualization uses a Peakboard.io feature.
-
 ### Push Data
 If you want to manipulate variables of an active visualization by http-push, the user under whose context the push is sent needs this privilege.
 

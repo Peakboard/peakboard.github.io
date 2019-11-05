@@ -22,9 +22,6 @@ Es folgt eine Auflistung der Bereiche, die von der Nutzerverwaltung betroffen si
 ### Manage Visualizations
 Dieser Punkt gibt an, ob ein Nutzer mit dieser Nutzergruppe Visualisierungen aktivieren bzw deaktivieren, deployen oder löschen darf.
 
-### Pair With PBIO
-Einem Nutzer mit dieser Nutzergruppe ist es erlaubt, die Box mit einem Peakboard.io-Account zu verknüpfen. Eine solche Verknüpfung ist zwingend notwendig, wenn eine Visualisierung ein Peakboard.io-Feature nutzt.
-
 ### Push Data
 Möchte man Variablen einer aktiven Visualisierung per Http-Push manipulieren, benötigt der Nutzer, unter dessen Kontext der Push gesendet wird, dieses Privileg.
 
