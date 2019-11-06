@@ -144,7 +144,7 @@ html {
     color: rgba(0,0,0,.84);
     letter-spacing: 0.025em;
     margin: 3rem 0 1rem;
-    word-break: break-all;
+    word-break: break-word;
   }
 
   h1,
@@ -502,6 +502,6 @@ html {
   }
 
   code {
-    word-break: break-all;
+    word-break: break-word;
   }
 }
