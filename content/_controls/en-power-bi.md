@@ -10,56 +10,55 @@ redirect_from:
   - /controls/06-en-power-bi.html
 ---
 
-The Peakboard-Designer includes a Power BI Control that allows the user to display appropriate dashboards on the Peakboard displays without having to make them publicly accessible. A tile is part of a Power BI dashboard. Each dashboard in Power BI consists of one or more tiles. As a minimum requirement you need
+The Peakboard Designer includes a Power BI Control that allows the user to display appropriate dashboards on the Peakboard displays without having to make them publicly available. A tile is part of a Power BI dashboard. Each Power BI dashboard consists of one or more tiles. 
 
-Microsoft account and valid Office 365 license incl. Power BI
-Microsoft Azure Account
+In order to display the Power BI Dashboard, the following minimum requirements are necessary:
 
-To access your own Power BI dashboards, you need to log in with your Microsoft account. Authentication for Power BI runs through Azure Active Directory, where Power BI is registered as an app.
+* Microsoft account and valid Office 365 license incl. Power BI
+* Administrator rights for the Azure Active Directory
+* Microsoft Azure account
 
- 1. **Create an Azure Active Directory:**
-    1. Log in to the Azure Management Portal ([http://manage.windowsazure.com](http://manage.windowsazure.com)) with your
-    Microsoft account.
-    2. Select “Active Directory” in the navigation bar and click on “New”.
-    3. Fill in all necessary fields in the dialog box
+To access your own Power BI dashboards, you must first log in with your Microsoft account. Authentication for Power BI runs through Azure Active Directory, in which Power BI is registered as an app.
+To make it as easy as possible to register the Power BI app, Microsoft offers a web application for this purpose.
 
-2. **Register an app in the Active Directory:**
-    1. Select an Active Directory in which you want to register the app.
-    2. In the Active Directory navigation bar, select “Applications” and click on “Add”, then select “Add an application my organization is developing”.
-    3. In the dialog box, enter a name (e. g. PeakBoard or Power BI).
-    4. Select Native Client Application.
-    5. Enter `https://login.live.com/oauth20_desktop.` srf as the redirect URL and confirm.
-    6. Assign Power BI access rights to the app.
+1. **Create an app for communication between Peakboard and PowerBI**.
+
+    1. Open the following web application: [https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
+
+    2. Enter a name here.
+
+    3. Select "Native" at the point Application Type.
+
+    4. The checkbox "Read all Dashboards" must be set under the permissions.
+
+    5. Now click on the Register button.
+
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
+
+
+2. **Adjust the app in Azure ***
+
+    1. Open the Azure Portal at [https://portal.azure.com/](https://portal.azure.com/).
+
+    2. You will find the newly created app in the main menu of Azure under the menu item "App registrations".
+
+    3. Open the new app.
+
+    4. Check if the permissions for the app have been assigned successfully by clicking on the button "Show API permissions".
+
+    5. There should be a green tick behind the permissions under Status, otherwise the permissions have to be approved by the Azure Administrator.
+
+    6. Now go back to the main page of the app and copy the IDs under Application ID (Client) and Directory ID (Client) into the Peakboard Designer.
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
+3. insert **Power BI in Peakboard Designer**
+
+   1. Create a "Power BI Tile" control under Advanced in the Peakboard Designer.
+
+   2. Open the button under Data / Tiles where you enter the IDs of Azure.
+
+   3. You can now select any tile of a dashboard.
+
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI03.png)
-
-If you want to select a tile in the settings of the Power BI tile control in the Peakboard Designer, the login window will appear first:
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI04.png)
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI05.png)
-
-You get the tenant ID from the URL in the Azure management portal:
-
-  1.  Select “Active Directory” in the navigation bar on the left.
-  2.  In the list, select the Active Directory in which an app with access to Power BI is registered.
-  1. The Active Directory ID can be found in the URL of the current page:
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI06.png)
-
-The client ID can be found in the settings of the Active Directory Application (see above).
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI07.png)
-
-Finally, fill in your Microsoft account username and password. After the authentication has been successfully completed, you can select the Power BI tile that you want to display on the Peakboard. In the dialog please enter the name of the dashboard and the tile.
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI08.png)
-
-The following two screenshots show the dashboard in Power BI and then on a Peakboard-Panel.
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI09.png)
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI10.png)
