@@ -10,54 +10,55 @@ redirect_from:
   - /controls/06-cn-power-bi.html
 ---
 
-Peakboard Designer包括“Power BI”控件，允许用户在Peakboard显示器上显示相应仪表板，而无需公开访问它们。磁贴是Power BI仪表板的一部分，Power BI中的每个仪表板由一个或多个磁贴组成。作为您需要的最低要求。
+The Peakboard Designer includes a Power BI Control that allows the user to display appropriate dashboards on the Peakboard displays without having to make them publicly available. A tile is part of a Power BI dashboard. Each Power BI dashboard consists of one or more tiles. 
 
-Microsoft帐户和有效的Office 365许可证包括Power BI Microsoft Azure账户。
+In order to display the Power BI Dashboard, the following minimum requirements are necessary:
 
-要访问自己的Power BI仪表板，需要登录Microsoft帐户。对Power BI的身份验证通过Azure Active Directory运行，其中Power BI注册为应用。
+* Microsoft account and valid Office 365 license incl. Power BI
+* Administrator rights for the Azure Active Directory
+* Microsoft Azure account
 
- 1. **创建Azure Active Directory:**
-    1. 使用您的Microsoft帐户登录Azure管理门户 ([http://manage.windowsazure.com](http://manage.windowsazure.com)) 。
-    2. 在导航栏中选择“Active Directory”，然后单击“新建”。
-    3. 填写对话框中所有必填字段
+To access your own Power BI dashboards, you must first log in with your Microsoft account. Authentication for Power BI runs through Azure Active Directory, in which Power BI is registered as an app.
+To make it as easy as possible to register the Power BI app, Microsoft offers a web application for this purpose.
 
- 2. **在Active Directory中注册应用：**
-    1. 选择要在其中注册应用的Active Directory。
-    2. 在Active Directory导航栏中，选择“应用”，点击“添加”，然后选择“添加我的组织正在开发的应用”。
-    3. 在对话框中，输入一个名称（例如PeakBoard或Power BI）
-    4. 选择“Native Client应用”。
-    5. 输入“https://login.live.com/oauth20_desktop.srf”作为重指向URL并确认。
-    6. 为应用分配Power BI访问权限。
+1. **Create an app for communication between Peakboard and PowerBI**.
+
+    1. Open the following web application: [https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
+
+    2. Enter a name here.
+
+    3. Select "Native" at the point Application Type.
+
+    4. The checkbox "Read all Dashboards" must be set under the permissions.
+
+    5. Now click on the Register button.
+
+![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
+
+
+2. **Adjust the app in Azure ***
+
+    1. Open the Azure Portal at [https://portal.azure.com/](https://portal.azure.com/).
+
+    2. You will find the newly created app in the main menu of Azure under the menu item "App registrations".
+
+    3. Open the new app.
+
+    4. Check if the permissions for the app have been assigned successfully by clicking on the button "Show API permissions".
+
+    5. There should be a green tick behind the permissions under Status, otherwise the permissions have to be approved by the Azure Administrator.
+
+    6. Now go back to the main page of the app and copy the IDs under Application ID (Client) and Directory ID (Client) into the Peakboard Designer.
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
+3. insert **Power BI in Peakboard Designer**
+
+   1. Create a "Power BI Tile" control under Advanced in the Peakboard Designer.
+
+   2. Open the button under Data / Tiles where you enter the IDs of Azure.
+
+   3. You can now select any tile of a dashboard.
+
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI03.png)
-
-如果您想在Peakboard Designer中Power BI磁贴控件的设置中选择磁贴，那么首先会显示登录窗口：
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI04.png)
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI05.png)
-
-您可以从Azure管理门户网站中的URL获得租户ID ：
-
- 1. 在左侧导航栏中选择“Active Directory”。
- 2. 在列表中，选择注册可访问Power BI的应用的Active Directory。
- 3. Active Directory ID可以在当前页面的URL中找到：
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI06.png)
-
-客户端ID可以在Active Directory应用的设置中找到（见上文）。
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI07.png)
-
-最后，请填写您的Microsoft帐户用户名和密码。身份验证成功后，您可以选择要在Peakboard上显示的Power BI磁贴。在对话框中，请输入仪表板和磁贴的名称。
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI08.png)
-
-以下两个截图显示了Power BI中的仪表板，及在Peakboard面板上的仪表板。
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI09.png)
-
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI10.png)
