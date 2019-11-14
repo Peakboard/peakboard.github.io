@@ -20,7 +20,7 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 
 如需访问本人的Power BI仪表板，您必须首先登录自己的微软账户。Power BI是注册在Azure Active Directory上的一个应用，其使用需经Azure授权。为尽可能方便用户注册Power BI应用，微软特意为此提供了一个网页应用。
 
-1. **实现Peakboard与Power BI相互访问的第一步：创建应用**
+**实现Peakboard与Power BI相互访问的第一步：创建应用**
 
     1.1 打开微软网页应用：[https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
 
@@ -35,7 +35,7 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
-2. **在Azure中调整应用 ***
+**在Azure中调整应用 ***
 
     2.1 打开Azure主页 [https://portal.azure.com/](https://portal.azure.com/)
 
@@ -51,7 +51,7 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
-3. **在Peakboard Designer中插入Power BI**
+**在Peakboard Designer中插入Power BI**
 
    3.1 在控件栏中的“扩展”目录选择“Power BI磁贴”
 
