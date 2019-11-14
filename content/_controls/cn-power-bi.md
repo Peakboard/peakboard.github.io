@@ -35,7 +35,7 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
-**在Azure中调整应用 ***
+**在Azure中调整应用**
 
     2.1 打开Azure主页 [https://portal.azure.com/](https://portal.azure.com/)
 
