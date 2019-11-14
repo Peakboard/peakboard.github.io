@@ -51,7 +51,7 @@ Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Micr
 
     6. Nun gehen Sie zurück auf die Hauptseite der App und kopieren die IDs unter Anwendungs-ID (Client) und Verzeichnis-ID (Mandant) in den Peakboard Designer.
 
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
+    ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
 3. **Power BI im Peakboard Designer einfügen**
 
@@ -62,4 +62,4 @@ Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Micr
     3. Sie können nun ein beliebiges Tile eines Dashboards auswählen.
 
 
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI03.png)
+    ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI03.png)
