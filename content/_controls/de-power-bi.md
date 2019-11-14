@@ -34,7 +34,7 @@ Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Micr
 
     5. Klicken Sie nun auf den Button Register. 
 
-![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
+    ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
 2. **Anpassen der App in Azure**
