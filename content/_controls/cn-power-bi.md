@@ -35,7 +35,7 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
-**在Azure中调整应用**
+**第二步：在Azure中调整应用**
 
     2.1 打开Azure主页 [https://portal.azure.com/](https://portal.azure.com/)
 
@@ -51,13 +51,13 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
-**在Peakboard Designer中插入Power BI**
+**第三步：在Peakboard Designer中插入Power BI**
 
-   3.1 在控件栏中的“扩展”目录选择“Power BI磁贴”
+    3.1 在控件栏中的“扩展”目录选择“Power BI磁贴”
 
-   3.2 点击“数据/窗格”中的选项，输入之前复制的Azure ID
+    3.2 点击“数据/窗格”中的选项，输入之前复制的Azure ID
 
-   3.3 选择Azure仪表板中的任意磁贴
+    3.3 选择Azure仪表板中的任意磁贴
 
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI03.png)
