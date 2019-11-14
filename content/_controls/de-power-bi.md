@@ -22,7 +22,7 @@ Um auf eigene Power BI Dashboards zugreifen zu können, muss zunächst mit seine
 Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Microsoft hierfür eine Webanwendung an.
 
 
-1. **Eine App zur Kommunikation zwischen Peakboard und PowerBI erstellen**
+**1. Eine App zur Kommunikation zwischen Peakboard und PowerBI erstellen**
 
     > 1. Öffnen Sie folgende Webanwendung: [https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
     >
@@ -37,8 +37,8 @@ Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Micr
     ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
-2. **Anpassen der App in Azure**
-    {% highlight javascript %}
+**2. Anpassen der App in Azure**
+
     1. Öffnen Sie nun das Azure Portal unter [https://portal.azure.com/](https://portal.azure.com/).
 
     2. Sie finden die neu erstellte App im Hauptmenü von Azure unter Dem Menüpunkt "App-Registrierungen".
@@ -50,10 +50,10 @@ Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Micr
     5. Hinter den Berechtigungen sollte unter Status ein grüner Haken zu sehen sein, ansonsten müssen die Berechtigungen vom Azure Administrator noch genehmigt werden.
 
     6. Nun gehen Sie zurück auf die Hauptseite der App und kopieren die IDs unter Anwendungs-ID (Client) und Verzeichnis-ID (Mandant) in den Peakboard Designer.
-    {% endhighlight %}
+    
     ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
-**Power BI im Peakboard Designer einfügen**
+**3. Power BI im Peakboard Designer einfügen**
 
     1. Legen Sie im Peakboard Designer unter Erweitert ein "Power BI Tile" Control an.
 
