@@ -22,8 +22,7 @@ Um auf eigene Power BI Dashboards zugreifen zu können, muss zunächst mit seine
 Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Microsoft hierfür eine Webanwendung an.
 
 
-```markdown
-    **Eine App zur Kommunikation zwischen Peakboard und PowerBI erstellen**
+1. **Eine App zur Kommunikation zwischen Peakboard und PowerBI erstellen**
 
     1. Öffnen Sie folgende Webanwendung: [https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
 
@@ -34,7 +33,7 @@ Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Micr
     4. Unter den Berechtigungen muss der Haken bei "Read all Dashboards" gesetzt sein.
 
     5. Klicken Sie nun auf den Button Register. 
-```
+
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
