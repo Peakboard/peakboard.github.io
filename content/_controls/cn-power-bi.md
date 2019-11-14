@@ -10,55 +10,54 @@ redirect_from:
   - /controls/06-cn-power-bi.html
 ---
 
-The Peakboard Designer includes a Power BI Control that allows the user to display appropriate dashboards on the Peakboard displays without having to make them publicly available. A tile is part of a Power BI dashboard. Each Power BI dashboard consists of one or more tiles. 
+Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标仪表板的情况下，将其显示在与Peakboard相连的屏幕。磁贴是Power BI仪表板的一部分，每个Power BI仪表板均由一个或多个磁贴组成。
 
-In order to display the Power BI Dashboard, the following minimum requirements are necessary:
+为显示Power BI仪表板，需满足以下最低要求：
 
-* Microsoft account and valid Office 365 license incl. Power BI
-* Administrator rights for the Azure Active Directory
-* Microsoft Azure account
+* 微软账户和有效的Office 365许可证，包括Power BI
+* Azure Active Directory管理员权限
+* 微软Azure账户
 
-To access your own Power BI dashboards, you must first log in with your Microsoft account. Authentication for Power BI runs through Azure Active Directory, in which Power BI is registered as an app.
-To make it as easy as possible to register the Power BI app, Microsoft offers a web application for this purpose.
+如需访问本人的Power BI仪表板，您必须首先登录自己的微软账户。Power BI是注册在Azure Active Directory上的一个应用，其使用需经Azure授权。为尽可能方便用户注册Power BI应用，微软特意为此提供了一个网页应用。
 
-1. **Create an app for communication between Peakboard and PowerBI**.
+1. **实现Peakboard与Power BI相互访问的第一步：创建应用**
 
-    1. Open the following web application: [https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
+    1.1 打开微软网页应用：[https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
 
-    2. Enter a name here.
+    1.2 输入名称
 
-    3. Select "Native" at the point Application Type.
+    1.3 在应用类别中选择“Native”
 
-    4. The checkbox "Read all Dashboards" must be set under the permissions.
+    1.4 在API访问下勾选“Read all dashboards”
 
-    5. Now click on the Register button.
+    1.5 点击“注册”。
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
-2. **Adjust the app in Azure ***
+2. **在Azure中调整应用 ***
 
-    1. Open the Azure Portal at [https://portal.azure.com/](https://portal.azure.com/).
+    2.1 打开Azure主页 [https://portal.azure.com/](https://portal.azure.com/)
 
-    2. You will find the newly created app in the main menu of Azure under the menu item "App registrations".
+    2.2 选择“应用程序服务”，“管理Azure Active Directory”，在概述页面点击左侧的“应用注册”，就可以找到刚刚注册的应用
 
-    3. Open the new app.
+    2.3 点击该应用
 
-    4. Check if the permissions for the app have been assigned successfully by clicking on the button "Show API permissions".
+    2.4 选择管理菜单中的“API权限”，查看该应用是否已经成功获得权限
 
-    5. There should be a green tick behind the permissions under Status, otherwise the permissions have to be approved by the Azure Administrator.
+    2.5 权限下方的“状态”栏应显示绿色对勾，否则应联系Azure管理员获得许可
 
-    6. Now go back to the main page of the app and copy the IDs under Application ID (Client) and Directory ID (Client) into the Peakboard Designer.
+    2.6 返回管理菜单上方的“概述”，复制“应用程序（客户端）ID”和“目录（租户）ID”
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI02.png)
 
-3. insert **Power BI in Peakboard Designer**
+3. **在Peakboard Designer中插入Power BI**
 
-   1. Create a "Power BI Tile" control under Advanced in the Peakboard Designer.
+   3.1 在控件栏中的“扩展”目录选择“Power BI磁贴”
 
-   2. Open the button under Data / Tiles where you enter the IDs of Azure.
+   3.2 点击“数据/窗格”中的选项，输入之前复制的Azure ID
 
-   3. You can now select any tile of a dashboard.
+   3.3 选择Azure仪表板中的任意磁贴
 
 
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI03.png)
