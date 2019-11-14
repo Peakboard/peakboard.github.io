@@ -21,8 +21,10 @@ Um das Power BI Dashboard darstellen zu können sind folgende Mindestvorrausetzu
 Um auf eigene Power BI Dashboards zugreifen zu können, muss zunächst mit seinem Microsoft-Konto eingeloggt werden. Die Authentifizierung für Power BI läuft über Azure Active Directory, in dem Power BI als eine App registriert ist.
 Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Microsoft hierfür eine Webanwendung an.
 
-1. **Eine App zur Kommunikation zwischen Peakboard und PowerBI erstellen**
 
+<blockquote class="primary">
+    <h5>**Eine App zur Kommunikation zwischen Peakboard und PowerBI erstellen**</h5>
+    <p>
     1. Öffnen Sie folgende Webanwendung: [https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
 
     2. Geben Sie hier einen Namen ein.
@@ -31,8 +33,8 @@ Um das Registrieren der Power BI App möglichst einfach zu gestalten bietet Micr
 
     4. Unter den Berechtigungen muss der Haken bei "Read all Dashboards" gesetzt sein.
 
-    5. Klicken Sie nun auf den Button Register.
-
+    5. Klicken Sie nun auf den Button Register. </p>
+</blockquote>
 ![image_1](/assets/images/Controls/Controls-Power/ControlsPowerBI01.png)
 
 
