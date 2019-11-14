@@ -22,7 +22,7 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 
 **实现Peakboard与Power BI相互访问的第一步：创建应用**
 
-    1.1 打开微软网页应用：[https://dev.powerbi.com/apps](https://dev.powerbi.com/apps)
+    1.1 打开微软网页应用：https://dev.powerbi.com/apps(https://dev.powerbi.com/apps)
 
     1.2 输入名称
 
@@ -37,7 +37,7 @@ Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标
 
 **第二步：在Azure中调整应用**
 
-    2.1 打开Azure主页 [https://portal.azure.com/](https://portal.azure.com/)
+    2.1 打开Azure主页 https://portal.azure.com/(https://portal.azure.com/)
 
     2.2 选择“应用程序服务”，“管理Azure Active Directory”，在概述页面点击左侧的“应用注册”，就可以找到刚刚注册的应用
 
