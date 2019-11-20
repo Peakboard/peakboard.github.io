@@ -6,16 +6,7 @@
   homepage: true
   image: /assets/images/videos/YjQARqgT7fM.jpg
   category: Beliebt
- 
-# - title: Upload von Visualisierungen und Administration von Peakboard Boxen
-#   description: In diesem Video erklären wir euch, wie ihr eure Peakboard Boxen verwalten könnt und eure Visualisierungen auf eine Box ladet.
-#   language: de
-#   youtube_id: -6YyjhlpdjU
-#   weight: 500
-#   homepage: true
-#   image: /assets/images/videos/-6YyjhlpdjU.jpg
-#   category: Beliebt 
-  
+
 - title: Excel-Sales-Dashboard mit Peakboard visualisieren
   description: Excel-Sales-Dashboard mit Peakboard visualisieren
   language: de
@@ -170,5 +161,3 @@
   weight: 500
   image: /assets/images/videos/YesZSb42Bwk.jpg
   category: Weitere
-  
- 
