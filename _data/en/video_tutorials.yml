@@ -6,6 +6,15 @@
   homepage: true
   image: /assets/images/videos/TqYdZqW0xMk.jpg
   category: Recommended
+  
+- title: Upload of visualizations and administration of Peakboard Boxes
+  description: In this video we explain how to manage your Peakboard boxes and how to load your visualizations onto a box.
+  language: en
+  youtube_id: Vx5paqL41Qo
+  weight: 100
+  homepage: true
+  image: /assets/images/videos/Vx5paqL41Qo.jpg
+  category: Recommended
 
 - title: Visualize a Excel-Sales Dashboard with Peakboard
   description: In this video, we show you how to extract sales figures step by step from an Excel data source and display them in a clear dashboard.
@@ -46,7 +55,7 @@
   youtube_id: rE_pLc2d53s
   weight: 200
   image: /assets/images/videos/rE_pLc2d53s.jpg
-  category: Recommended
+  category: More
 
 - title: OPC UA Data Visualized with Peakboard
   description: In this video we show you how easy it is to connect OPC UA data via Peakboard and visualize machine data in real time.
@@ -73,8 +82,6 @@
   image: /assets/images/videos/EY2t4GffFd4.jpg
   category: Machine Protocols
 
-
-
 - title: Visualize XML and JSON REST APIs with Peakboard
   description: In this video we show you how to visualize XML and JSON REST APis with Peakboard.
   language: en
@@ -90,5 +97,3 @@
   weight: 200
   image: /assets/images/videos/FiCH_gC8Ypg.jpg
   category: More
-
-
