@@ -6,7 +6,16 @@
   homepage: true
   image: /assets/images/videos/YjQARqgT7fM.jpg
   category: Beliebt
-
+ 
+- title: Upload von Visualisierungen und Administration von Peakboard Boxen
+  description: In diesem Video erklären wir euch, wie ihr eure Peakboard Boxen verwalten könnt und eure Visualisierungen auf eine Box ladet.
+  language: de
+  youtube_id: -6YyjhlpdjU
+  weight: 500
+  homepage: true
+  image: /assets/images/videos/-6YyjhlpdjU.jpg
+  category: Beliebt 
+  
 - title: Excel-Sales-Dashboard mit Peakboard visualisieren
   description: Excel-Sales-Dashboard mit Peakboard visualisieren
   language: de
@@ -64,22 +73,14 @@
   weight: 500
   image: /assets/images/videos/TDAJTjyK5FU.jpg
   category: Scripting
-
-- title: Empfangsbildschirm mit Peakboard IO Tables erstellen
-  description: In diesem Videotutorial wird erklärt, wie in Peakboard IO Tabellen erstellt und diese auf einer Peakboard-Box visualisiert werden. Link zu Peakboard IO https://www.peakboard.io/
+  
+ - title: Peakboard Scripting
+  description: In diesem Video erklären wir euch, wie ihr mit Peakboard eigene Skripte erstellen könnt.
   language: de
-  youtube_id: HVdGqdGJvKQ
+  youtube_id: t7QiMhfOivs
   weight: 500
-  image: /assets/images/videos/HVdGqdGJvKQ.jpg
-  category: Peakboard IO
-
-- title: Schichtplan mit PeakboardIO Files erstellen
-  description: In diesem Videotutorial wird erklärt, wie Dateien in Peakboard IO hochgeladen werden können und wie diese daraufhin auf einer Peakboard Box visualisiert werden können. Link zu Peakboard IO https://www.peakboard.io/
-  language: de
-  youtube_id: H_dBCQlgTmQ
-  weight: 500
-  image: /assets/images/videos/H_dBCQlgTmQ.jpg
-  category: Peakboard IO
+  image: /assets/images/videos/t7QiMhfOivs.jpg
+  category: Scripting
 
 - title: OPC UA Daten mit Peakboard visualisieren
   description: In diesem Video erklären wir euch, wie einfach es ist, OPC UA Daten über Peakboard anzubinden und Maschinendaten in Echtzeit zu visualisieren.
@@ -169,3 +170,5 @@
   weight: 500
   image: /assets/images/videos/YesZSb42Bwk.jpg
   category: Weitere
+  
+ 
