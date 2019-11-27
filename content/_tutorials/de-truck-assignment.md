@@ -25,7 +25,7 @@ Eine generelle Einführung in Peakboard finden Sie in den [ersten Schritten](htt
 
 ## Initiale Konfiguration
 
-Die initiale Konfiguration ist ein einmaliger Vorgang und ist für die LKW Zuweisung ganz einfach. Laden Sie einfach das [LKW Zuweisungstemplate](https://github.com/Peakboard/CoolStuff/blob/master/Demonstrator/Designer%20Templates/Administration/Truck%20assignment/Truck_Assignment-DE.pbmx?raw=true) herunter und öffnen Sie die Datei mit dem Peakboard Designer. Nun können Sie das finale Ergebnis bereits ansehen, indem Sie direkt auf "Vorschau" (1) in der oberen Menüleiste klicken. 
+Die initiale Konfiguration ist ein einmaliger Vorgang und ist für die LKW Zuweisung ganz einfach. Laden Sie einfach das [LKW Zuweisungstemplate](https://templates.peakboard.com/Overview-Truck-Loading) herunter und öffnen Sie die Datei mit dem Peakboard Designer. Nun können Sie das finale Ergebnis bereits ansehen, indem Sie direkt auf "Vorschau" (1) in der oberen Menüleiste klicken. 
 
 ![image_live](/assets/images/instant_boards/truck_assignment/Truck_Assignment_Overview.png)
 
