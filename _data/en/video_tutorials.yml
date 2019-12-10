@@ -16,6 +16,15 @@
   image: /assets/images/videos/Vx5paqL41Qo.jpg
   category: Recommended
 
+- title: Introduction to the Script Editor of Peakboard
+  description: Introduction to the Script Editor of Peakboardsource and display them in a clear dashboard.
+  language: en
+  youtube_id: t7QiMhfOivs
+  weight: 100
+  homepage: true
+  image: /assets/images/videos/t7QiMhfOivs.jpg
+  category: Recommended
+  
 - title: Visualize a Excel-Sales Dashboard with Peakboard
   description: In this video, we show you how to extract sales figures step by step from an Excel data source and display them in a clear dashboard.
   language: en

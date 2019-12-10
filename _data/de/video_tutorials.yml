@@ -15,6 +15,15 @@
   homepage: true
   image: /assets/images/videos/-6YyjhlpdjU.jpg
   category: Beliebt
+  
+ - title: Einführung in den Script-Editor von Peakboard
+  description: Einführung in den Script-Editor von Peakboard
+  language: de
+  youtube_id: p0WsQSFLCWE
+  weight: 500
+  homepage: true
+  image: /assets/images/videos/p0WsQSFLCWE.jpg
+  category: Beliebt
 
 - title: Excel-Sales-Dashboard mit Peakboard visualisieren
   description: Excel-Sales-Dashboard mit Peakboard visualisieren
