@@ -2,7 +2,7 @@
   description: Erste Schritte mit dem Peakboard Designer
   language: de
   youtube_id: YjQARqgT7fM
-  weight: 500
+  weight: 100
   homepage: true
   image: /assets/images/videos/YjQARqgT7fM.jpg
   category: Beliebt
@@ -11,7 +11,7 @@
   description: In diesem Video erklären wir euch, wie ihr eure Peakboard Boxen verwalten könnt und eure Visualisierungen auf eine Box ladet.
   language: de
   youtube_id: -6YyjhlpdjU
-  weight: 500
+  weight: 100
   homepage: true
   image: /assets/images/videos/-6YyjhlpdjU.jpg
   category: Beliebt
@@ -20,7 +20,7 @@
   description: Einführung in den Script-Editor von Peakboard
   language: de
   youtube_id: p0WsQSFLCWE
-  weight: 500
+  weight: 200
   homepage: true
   image: /assets/images/videos/p0WsQSFLCWE.jpg
   category: Beliebt
@@ -49,7 +49,7 @@
   youtube_id: ot1Sdu-Z380
   weight: 500
   image: /assets/images/videos/ot1Sdu-Z380.jpg
-  category: Beliebt
+  category: Weitere
 
 - title: Datenmanipulation mit Dataflows
   description: Dieses Video erklärt, wie die neuen Dataflows funktionieren.
