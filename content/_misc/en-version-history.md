@@ -8,8 +8,24 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.6.2.0 (19.09.2019)
+footer: 1.8.0.2 (16.12.2019)
 ---
+## 1.8.0.2 (16.12.2019)
+* Significant improvement in performance when processing scripts (multithreating)
+* Debugger for Lua scripts implemented
+* The dialog of the Excel data source has been fundamentally revised.
+* Files added as a resource can be downloaded
+* Added Save&Close button to scripts
+* Error handling improved
+* Error message for screenshots adjusted
+* Fix for deleting scripts, deleted scripts are no longer displayed
+* Fix for the use of newly created fonts
+* Fix for adding an updated Excel list again
+* Fix for dataflows where the data source was changed
+* Fix for Linear and Circular Gauge if incorrect Min or Max values were entered
+* Fix for the Photoframe Control
+* Fix for incorrect assignment of IPv6 addresses
+* Fix for handling resources via the Peakboard Bridge
 
 ## 1.7.1.0 (29.10.2019)
 * Hotfix for Template Designer

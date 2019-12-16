@@ -8,8 +8,26 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.6.2.0 (19.09.2019)
+footer: 1.8.0.2 (16.12.2019)
 ---
+
+## 1.8.0.2 (16.12.2019)
+* Signifikante Verbesserung der Performance bei der Verarbeitung von Skripten (Multithreating)
+* Debugger für Lua-Skripte implementiert
+* Der Dialog der Excel-Datenquelle wurde grundlegend überarbeitet
+* Als Ressource hinzugefügte Dateien können heruntergeladen werden
+* Save&Close-Button zu Skripten hinzugefügt
+* Fehlerhandling verbessert
+* Fehlermeldung bei Screenshots angepasst
+* Fix für das Löschen von Skripten, gelöschte Skripte werden nicht weiterhin angezeigt
+* Fix für die Verwendung neu erstellter Schriftarten
+* Fix für das erneute Hinzufügen einer aktualisierten Excel-Liste
+* Fix für Dataflows bei denen die Datenquelle geändert wurde
+* Fix für den Linear und Circular Gauge wenn fehlerhafte Min oder Max Werte eingegeben wurden
+* Fix für das Photoframe-Control
+* Fix für fehlerhafte Zuweisung von IPv6-Adressen
+* Fix für die Handhabung von Resourcen über die Peakboard Bridge
+
 
 ## 1.7.1.0 (29.10.2019)
 * Hotfix für den Template Designer
