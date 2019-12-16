@@ -12,7 +12,7 @@ footer: 1.8.0.2 (16.12.2019)
 ---
 
 ## 1.8.0.2 (16.12.2019)
-* Signifikante Verbesserung der Performance bei der Verarbeitung von Skripten (Multithreating)
+* Signifikante Verbesserung der Performance bei der Verarbeitung von Skripten (Multithreading)
 * Debugger für Lua-Skripte implementiert
 * Der Dialog der Excel-Datenquelle wurde grundlegend überarbeitet
 * Als Ressource hinzugefügte Dateien können heruntergeladen werden

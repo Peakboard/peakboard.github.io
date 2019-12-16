@@ -11,7 +11,7 @@ redirect_from:
 footer: 1.8.0.2 (16.12.2019)
 ---
 ## 1.8.0.2 (16.12.2019)
-* Significant improvement in performance when processing scripts (multithreating)
+* Significant improvement in performance when processing scripts (Multithreading)
 * Debugger for Lua scripts implemented
 * The dialog of the Excel data source has been fundamentally revised.
 * Files added as a resource can be downloaded
