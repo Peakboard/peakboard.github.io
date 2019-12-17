@@ -8,8 +8,16 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.8.0.2 (16.12.2019)
+footer: 1.8.2.0 (18.12.2019)
 ---
+
+## 1.8.2.0 (18.12.2019)
+* Hotfix for JSON data source
+* Hotfix for Excel data source
+
+## 1.8.1.0 (17.12.2019)
+* Hotfix for a bug where the Peakboard Runtime for the preview was not updated
+
 ## 1.8.0.2 (16.12.2019)
 * Significant improvement in performance when processing scripts (Multithreading)
 * Debugger for Lua scripts implemented

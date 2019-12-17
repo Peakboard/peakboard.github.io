@@ -8,8 +8,15 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.8.0.2 (16.12.2019)
+footer: 1.8.2.0 (18.12.2019)
 ---
+
+## 1.8.2.0 (18.12.2019)
+* Hotfix für JSON-Datenquelle
+* Hotfix für Excel-Datenquelle
+
+## 1.8.1.0 (17.12.2019)
+* Hotfix für einen Fehler bei dem die Peakboard Runtime für die Preview nicht aktualisiert wurde
 
 ## 1.8.0.2 (16.12.2019)
 * Signifikante Verbesserung der Performance bei der Verarbeitung von Skripten (Multithreading)
