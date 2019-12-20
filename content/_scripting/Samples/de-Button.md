@@ -10,20 +10,25 @@ redirect_from:
   - /scripting/Samples/08-de-Button.html
 ---
 Unter dem Untermenü Input finden sich Controls, die die Möglichkeit bieten, mit der Peakboard Box zu interagieren.
-Darunter auch das Button Control, dieses kann über ein einfaches Klicken ein Script ausführen. 
+Darunter auch das [Button Control](/controls/de-button.html). 
 
-![image_1](/assets/images/scripting/Scripting_Beispiele/Controls_Input.png)
+In diesem Skriptbeispiel wird erklärt, wie Sie ein Ereignis für das Button Control erstellen und die Eigenschaften anderer Controls über Ereignisse ändern können.
 
-Im folgenden wird ein Script erklärt, welches einen Text in ein Textfeld schreibt, nachdem ein Button geklickt wurde:
+![image_1](/assets/images/scripting/Scripting_Beispiele/buttonscript/buttonscript2.png)
 
-```lua
-screens['Screen1'].Text.text = 'Hello World'
+Die Hauptteile der Visualisierung sind das Button Control und das Text Control. Klicken Sie auf das Button Control, soll der Text im Text Control geändert werden. 
+Daher ist es wichtig, dass das Text-Control einen Namen hat, hier Text. 
 
-```
+![image_1](/assets/images/scripting/Scripting_Beispiele/buttonscript/buttonscript3.png)
 
-Zu sehen ist, dass das Textfeld "Text" auf dem "Screen1" nach klicken des Buttons angesprochen wird und durch das .text am Ende definiert wird, dass der Text verändert werden soll.
-Der in den Anführungszeichen stehende Text wird anschließend in das Textfeld eingetragen.
+Durch einen Doppelklick auf das Button-Control sehen Sie das Skript, das ausgeführt wird, wenn das Ereignis des Button-Controls ausgelöst wird. 
+Dies ist der Fall, wenn Sie beim Ausführen der Visualisierung auf das Button Control klicken.
 
-![image_1](/assets/images/scripting/Scripting_Beispiele/ButtonSkript.png)
+![image_1](/assets/images/scripting/Scripting_Beispiele/buttonscript/buttonscript1.png)
 
-Dieses Beispiel findet sich im Peakboard Designer unter Templates -> Scripting, oder kann über diesen [Link](https://github.com/Peakboard/CoolStuff/raw/master/Scripts/ButtonScriptExample/ButtonScriptExample.pbmx) heruntergeladen werden.
+In diesem Fall wird der Text des Text Controls über "screens['Screen1'].Text.text" geändert. 
+Das 'Screen1' in den eckigen Klammern steht dabei für den Screen auf dem sich das Control befindet, dessen Eigenschaften geändert werden sollen. 
+Text ist der Name des Controls und .text steht für die Eigenschaft, die geändert werden soll, hier der Text. 
+Als nächstes müssen wir den neuen Text definieren. 
+Dafür steht zuerst ein = Zeichen und dann den neuen Text in Anführungszeichen. 
+Dies signalisiert dem Editor, dass es sich um eine Zeichenkette und nicht um einen Befehl handelt.
