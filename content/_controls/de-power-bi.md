@@ -4,8 +4,8 @@ title: Power BI
 menu_title: Power BI
 description: Information über Peakboard Designer Power BI Control.
 lang: de
-weight: 600
-ref: con-600
+weight: 840
+ref: con-840
 redirect_from:
   - /controls/06-de-power-bi.html
 ---
