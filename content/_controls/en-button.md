@@ -13,5 +13,5 @@ The button is located at the top of the Input Controls.
 If it is integrated in a visualization and clicked on using a touchscreen or mouse, it executes one script per click. 
 This can be created in the properties under Events and then Tapped or by double-clicking the button in the Designer.
 
-Further information on how to create scripts or how the [Script-Editor](/scripting/de-script-editor.html) works can be found in the Scripting section.
+Further information on how to create scripts or how the [Script-Editor](/scripting/en-script-editor.html) works can be found in the Scripting section.
 So also the example for a [Button Script](/scripting/Samples/en-Button.html).
