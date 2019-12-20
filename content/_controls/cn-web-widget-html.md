@@ -4,8 +4,8 @@ title: Web小工具/HTML代码
 menu_title: Web小工具/HTML代码
 description: Peakboard Designer中Web小工具/HTML代码控件相关信息。
 lang: cn
-weight: 900
-ref: con-900
+weight: 820
+ref: con-820
 redirect_from:
   - /controls/09-cn-web-widget-html.html
 ---

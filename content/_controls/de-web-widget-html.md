@@ -4,8 +4,8 @@ title: Web Widgets / HTML Code
 menu_title: Web Widgets / HTML Code
 description: Information about Peakboard Designer Web Widgets / HTML Code Control.
 lang: de
-weight: 900
-ref: con-900
+weight: 820
+ref: con-820
 redirect_from:
   - /controls/09-de-web-widget-html.html
 ---

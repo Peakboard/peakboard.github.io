@@ -4,8 +4,8 @@ title: Power BI
 menu_title: Power BI
 description: Peakboard Designer中Power BI控件相关信息。
 lang: cn
-weight: 600
-ref: con-600
+weight: 840
+ref: con-840
 redirect_from:
   - /controls/06-cn-power-bi.html
 ---

@@ -4,8 +4,8 @@ title: Webpage
 menu_title: Webpage
 description: Information über Peakboard Designer Webpage Control.
 lang: de
-weight: 800
-ref: con-800
+weight: 810
+ref: con-810
 redirect_from:
   - /controls/08-de-webpage.html
 ---

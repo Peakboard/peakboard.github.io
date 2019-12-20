@@ -1,16 +1,16 @@
 ---
 layout: article
-title: Excel Viewer
-menu_title: Excel Viewer
-description: Information über Peakboard Designer Excel ViewerControl.
+title: Excel Chart
+menu_title: Excel Chart
+description: Information über Peakboard Designer Excel Chart Control.
 lang: de
-weight: 1200
-ref: con-1200
+weight: 680
+ref: con-680
 redirect_from:
   - /controls/12-de-excel-viewer.html
 ---
 
-Grundsätzlich bietet Peakboard umfangreiche Möglichkeiten, Daten aus unterschiedlichsten Quellen einzubinden und dann diese Daten mit Steuerelementen zu visualisieren. Das ist der Standardweg. In manchen Fällen kann es sinnvoll sein, aber auch schon die Visualisierung von außen zu importieren und nicht nur die Daten. Dieses Kapitel beschreibt das Excel-Viewer-Control, mit dessen Hilfe ein Chart, das in einem Excel-File eingebettet ist, als Teil der Visualisierung direkt eingebunden werden kann.
+Grundsätzlich bietet Peakboard umfangreiche Möglichkeiten, Daten aus unterschiedlichsten Quellen einzubinden und dann diese Daten mit Steuerelementen zu visualisieren. Das ist der Standardweg. In manchen Fällen kann es sinnvoll sein, aber auch schon die Visualisierung von außen zu importieren und nicht nur die Daten. Dieses Kapitel beschreibt das Excel-Chart-Control, mit dessen Hilfe ein Chart, das in einem Excel-File eingebettet ist, als Teil der Visualisierung direkt eingebunden werden kann.
 
 Im folgenden Beispiel wird exemplarisch eine Excel-Datei genutzt, die eine Tabelle und ein Chart enthält. In Excel hat übrigens jedes Chart einen Namen. Der wird uns später noch einmal begegnen.
 
@@ -18,7 +18,7 @@ Im folgenden Beispiel wird exemplarisch eine Excel-Datei genutzt, die eine Tabel
 
 Der Einfachheit halber fügen wir die Excel-Datei im Peakboard-Designer als statische Ressource hinzu. Es ist aber natürlich genauso möglich, die Datei aus einem Cloud-Speicher, von einem Netzlaufwerk oder aus einer Web-Adresse abzurufen. An der Vorgehensweise ändert das nichts.
 
-Das Excel-Viewer-Control wird am einfachsten über die Eigenschaft Chart konfiguriert (auf die drei Punkte klicken). Es muss zunächst eine Ressource gewählt werden, dann das gewünschte Tabellenblatt und zu guter Letzt das gewünschte Diagramm (deshalb war der Diagramm-Name wichtig). Die Eigenschaft Refresh-Time definiert, wie oft das Chart aus der Ressource nachgeladen wird.
+Das Excel-Chart-Control wird am einfachsten über die Eigenschaft Chart konfiguriert (auf die drei Punkte klicken). Es muss zunächst eine Ressource gewählt werden, dann das gewünschte Tabellenblatt und zu guter Letzt das gewünschte Diagramm (deshalb war der Diagramm-Name wichtig). Die Eigenschaft Refresh-Time definiert, wie oft das Chart aus der Ressource nachgeladen wird.
 
 ![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_02.png)
 

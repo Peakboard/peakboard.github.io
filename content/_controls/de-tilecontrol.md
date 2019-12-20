@@ -4,8 +4,8 @@ title: Tile-Control
 menu_title: Tile-Control
 description: Tile-Control
 lang: de
-weight: 1400
-ref: con-1400
+weight: 250
+ref: con-250
 redirect_from:
   - /controls/14-de-tilecontrol.html
 ---

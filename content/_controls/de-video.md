@@ -4,8 +4,8 @@ title: Video
 menu_title: Video
 description: Information über Peakboard Designer Video Control.
 lang: de
-weight: 302
-ref: con-302
+weight: 320
+ref: con-320
 redirect_from:
 ---
 

@@ -4,8 +4,8 @@ title: Bild
 menu_title: Bild
 description: Information über Peakboard Designer Bild Control.
 lang: de
-weight: 301
-ref: con-301
+weight: 310
+ref: con-310
 redirect_from:
 ---
 

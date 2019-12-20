@@ -4,8 +4,8 @@ title: Google文档
 menu_title: Google文档
 description: Peakboard Designer中Google文档控件相关信息。
 lang: cn
-weight: 500
-ref: con-500
+weight: 520
+ref: con-520
 redirect_from:
   - /controls/05-cn-google-docs.html
 ---

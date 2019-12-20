@@ -4,8 +4,8 @@ title: 磁贴视图
 menu_title: 磁贴视图
 description: Peakboard Designer中磁贴视图控件相关信息。
 lang: cn
-weight: 1100
-ref: con-1100
+weight: 260
+ref: con-260
 redirect_from:
   - /controls/11-cn-tile-view.html
 ---

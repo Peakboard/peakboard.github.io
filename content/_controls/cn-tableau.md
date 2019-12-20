@@ -4,8 +4,8 @@ title: Tableau
 menu_title: Tableau
 description: Peakboard Designer中Tableau控件相关信息。
 lang: cn
-weight: 700
-ref: con-700
+weight: 830
+ref: con-830
 redirect_from:
   - /controls/07-cn-tableau.html
 ---

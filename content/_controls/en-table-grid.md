@@ -4,8 +4,8 @@ title: Table Grid
 menu_title: Table Grid
 description: Information about Peakboard Designer Table Grid Control.
 lang: en
-weight: 400
-ref: con-400
+weight: 210
+ref: con-210
 redirect_from:
   - /controls/04-en-table-grid.html
 ---

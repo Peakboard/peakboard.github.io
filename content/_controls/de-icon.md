@@ -4,8 +4,8 @@ title: Icon
 menu_title: Icon
 description: Information über Peakboard Designer Icon Control.
 lang: de
-weight: 203
-ref: con-203
+weight: 230
+ref: con-230
 redirect_from:
 ---
 

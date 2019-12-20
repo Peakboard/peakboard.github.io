@@ -4,8 +4,8 @@ title: 滚动字幕
 menu_title: 滚动字幕
 description: Peakboard Designer中滚动字幕控件相关信息。
 lang: cn
-weight: 807
-ref: con-807
+weight: 860
+ref: con-860
 redirect_from:
   - /controls/03-cn-text-ticker.html
 ---

@@ -4,8 +4,8 @@ title: 磁贴控件
 menu_title: 磁贴控件
 description: 磁贴控件
 lang: cn
-weight: 1400
-ref: con-1400
+weight: 250
+ref: con-250
 redirect_from:
   - /controls/14-cn-tilecontrol.html
 ---

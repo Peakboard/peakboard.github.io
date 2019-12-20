@@ -4,8 +4,8 @@ title: ListView
 menu_title: ListView
 description: Information about Peakboard Designer ListView Control.
 lang: en
-weight: 1000
-ref: con-1000
+weight: 240
+ref: con-240
 redirect_from:
   - /controls/10-en-list-view.html
 ---

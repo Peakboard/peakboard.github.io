@@ -4,8 +4,8 @@ title: Excel阅读器
 menu_title: Excel阅读器
 description: Peakboard Designer中Excel阅读器控件相关信息。
 lang: cn
-weight: 1200
-ref: con-1200
+weight: 680
+ref: con-680
 redirect_from:
   - /controls/12-cn-excel-viewer.html
 ---

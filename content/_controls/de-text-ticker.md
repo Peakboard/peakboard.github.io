@@ -4,8 +4,8 @@ title: Text-Ticker
 menu_title: Text-Ticker
 description: Information über Peakboard Designer Text-Ticker Control.
 lang: de
-weight: 807
-ref: con-807
+weight: 860
+ref: con-860
 redirect_from:
   - /controls/03-de-text-ticker.html
 ---

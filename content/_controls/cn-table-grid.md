@@ -4,8 +4,8 @@ title: 表格网格
 menu_title: 表格网格
 description: Peakboard Designer中表格网格控件相关信息。
 lang: cn
-weight: 400
-ref: con-400
+weight: 210
+ref: con-210
 redirect_from:
   - /controls/04-cn-table-grid.html
 ---

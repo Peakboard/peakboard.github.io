@@ -4,8 +4,8 @@ title: 列表视图
 menu_title: 列表视图
 description: Peakboard Designer中列表视图控件相关信息。
 lang: cn
-weight: 1000
-ref: con-1000
+weight: 240
+ref: con-240
 redirect_from:
   - /controls/10-cn-list-view.html
 ---

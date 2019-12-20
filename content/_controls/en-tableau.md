@@ -4,8 +4,8 @@ title: Tableau
 menu_title: Tableau
 description: Information about Peakboard Designer Tableau Control.
 lang: en
-weight: 700
-ref: con-700
+weight: 830
+ref: con-830
 redirect_from:
   - /controls/07-en-tableau.html
 ---

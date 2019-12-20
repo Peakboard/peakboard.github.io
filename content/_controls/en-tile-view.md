@@ -4,8 +4,8 @@ title: TileView
 menu_title: TileView
 description: TileView
 lang: en
-weight: 1100
-ref: con-1100
+weight: 260
+ref: con-260
 redirect_from:
   - /controls/11-en-tile-view.html
 ---

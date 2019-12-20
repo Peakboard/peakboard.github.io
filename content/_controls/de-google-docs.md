@@ -4,8 +4,8 @@ title: Google Docs
 menu_title: Google Docs
 description: Information über Peakboard Designer Google Docs Control.
 lang: de
-weight: 500
-ref: con-500
+weight: 520
+ref: con-520
 redirect_from:
   - /controls/05-de-google-docs.html
 ---
