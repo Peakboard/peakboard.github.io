@@ -8,8 +8,10 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.8.2.0 (18.12.2019)
+footer: 1.8.3.0 (19.12.2019)
 ---
+## 1.8.3.0 (19.12.2019)
+* Hotfix for WLAN configuration via script
 
 ## 1.8.2.0 (18.12.2019)
 * Hotfix for JSON data source
