@@ -1,8 +1,8 @@
 ---
 layout: article
-title: PDF Viewer
-menu_title: PDF Viewer
-description: Information über Peakboard Designer PDF Viewer Control.
+title: Button
+menu_title: Button
+description: Information über Peakboard Designer Button Control.
 lang: de
 weight: 710
 ref: con-710
