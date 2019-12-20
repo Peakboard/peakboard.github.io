@@ -4,8 +4,8 @@ title: QR Code
 menu_title: QR Code
 description: Information about Peakboard Designer QR Code Control.
 lang: en
-weight: 203
-ref: con-203
+weight: 777
+ref: con-777
 redirect_from:
 ---
 
