@@ -5,15 +5,23 @@ menu_title: TextBlock
 description: Information about Peakboard Designer TextBox Control.
 lang: en
 weight: 200
+---
+layout: article
+title: Text
+menu_title: Text
+description: Information about Peakboard Designer Text Control.
+lang: en
+weight: 200
 ref: con-200
 redirect_from:
   - /controls/02-en-text-block.html
 ---
 
-The Control Textblock is intended to display individual texts or to label something. The content is set using the Text property. All other features are either self-explanatory or can be used together with known operating patterns:
+The Control Text is intended to display individual texts or KPIs.
+It can also be used to label something. 
+The content is set using the Text property. 
+All other properties can be found under [General Properties](/controls/01-en-allgemeine-eigenschaften.html).
 
-[General Properties](/controls/01-en-general-properties.html)
+For fonts and colors the [Font Manager](/misc/04-en-fonts.html) can be used.
 
-[Managing font formats with Font Manager](/misc/05-en-custom-fonts.html)
-
-[Formatting Values](/misc/03-en-formating-values.html)
+To format KPIs accordingly, the [Format](/misc/03-en-format-fonts.html) item is located in the control properties.
