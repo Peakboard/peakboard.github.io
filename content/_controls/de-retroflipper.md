@@ -3,7 +3,7 @@ layout: article
 title: Retro Flipper
 menu_title: Retro Flipper
 description: Information about Peakboard Designer Retro Flipper Control.
-lang: en
+lang: de
 weight: 850
 ref: con-850
 redirect_from:
