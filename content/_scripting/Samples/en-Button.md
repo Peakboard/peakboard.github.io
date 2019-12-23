@@ -14,17 +14,17 @@ Among them is the [Button Control](/controls/en-button.html).
 
 This script example explains how you can create an event for the Button Control and change the properties of other controls via events.
 
-![image_1](/assets/images/scripting/Scripting_examples/buttonscript/buttonscript2.png)
+![image_1](/assets/images/scripting/Scripting_Beispiele/buttonscript/buttonscript2.png)
 
 The main parts of the visualization are the Button Control and the Text Control. If you click on the Control button, the text in the Text Control is to be changed. 
 Therefore it is important that the Text Control has a name, here Text. 
 
-![image_1](/assets/images/scripting/Scripting_examples/buttonscript/buttonscript3.png)
+![image_2](/assets/images/scripting/Scripting_Beispiele/buttonscript/buttonscript3.png)
 
 By double-clicking the button control, you can see the script that is executed when the button control event is triggered. 
 This is the case if you click on the button control when the visualization is executed.
 
-![image_1](/assets/images/scripting/Scripting_Examples/buttonscript/buttonscript1.png)
+![image_3](/assets/images/scripting/Scripting_Beispiele/buttonscript/buttonscript1.png)
 
 In this case the text of the Text Control is changed via "screens['Screen1'].Text.text". 
 The 'Screen1' in the square brackets stands for the screen on which the control whose properties are to be changed is located. 

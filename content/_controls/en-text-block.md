@@ -20,8 +20,8 @@ redirect_from:
 The Control Text is intended to display individual texts or KPIs.
 It can also be used to label something. 
 The content is set using the Text property. 
-All other properties can be found under [General Properties](/controls/01-en-allgemeine-eigenschaften.html).
+All other properties can be found under [General Properties](/controls/en-general-properties.html).
 
 For fonts and colors the [Font Manager](/misc/04-en-fonts.html) can be used.
 
-To format KPIs accordingly, the [Format](/misc/03-en-format-fonts.html) item is located in the control properties.
+To format KPIs accordingly, the [Format](/misc/en-formating-values.html) item is located in the control properties.

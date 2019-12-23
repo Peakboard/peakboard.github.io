@@ -3,7 +3,7 @@ layout: article
 title: Text Box
 menu_title: Text Box
 description: Information about Peakboard Designer Text Box Control.
-long: en
+lang: en
 weight: 700
 ref: con-700
 redirect_from:

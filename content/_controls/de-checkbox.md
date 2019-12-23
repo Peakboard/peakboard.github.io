@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 Das Checkbox Control findet sich unter den Input Controls in der Controls Liste. 
-Die Checkbox funktioniert analog wie der [Toggle Button](/de-togglebutton.html).
+Die Checkbox funktioniert analog wie der [Toggle Button](/controls/de-togglebutton.html).
 Es können zwei Skripte angelegt werden die jeweils beim Aktivieren der Checkbox 'Checked', oder beim Deaktivieren 'Unchecked' ausgeführt werden.
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
