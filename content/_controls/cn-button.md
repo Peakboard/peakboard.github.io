@@ -13,5 +13,5 @@ redirect_from:
 如果您将该控件整合至可视化，并通过触摸屏或鼠标点击，那么每点击一次，脚本就会执行一次。
 您可在属性——事件创建脚本，然后在Designer中双击按键进行查看。
 
-如需了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
+如需进一步了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
 [按键](/scripting/Samples/en-Button.html)脚本示例。
