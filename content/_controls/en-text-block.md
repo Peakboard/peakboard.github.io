@@ -5,13 +5,6 @@ menu_title: TextBlock
 description: Information about Peakboard Designer TextBox Control.
 lang: en
 weight: 200
----
-layout: article
-title: Text
-menu_title: Text
-description: Information about Peakboard Designer Text Control.
-lang: en
-weight: 200
 ref: con-200
 redirect_from:
   - /controls/02-en-text-block.html
