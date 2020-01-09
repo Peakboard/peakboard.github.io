@@ -8,9 +8,9 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.8.4.0 (07.01.2019)
+footer: 1.8.4.0 (07.01.2020)
 ---
-## 1.8.4.0 (07.01.2019)
+## 1.8.4.0 (07.01.2020)
 * Hotfix for ShowDialog Lua functions
 
 ## 1.8.3.0 (19.12.2019)
