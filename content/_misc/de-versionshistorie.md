@@ -8,10 +8,10 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.8.4.0 (07.01.2020)
+footer: 1.8.5.1 (13.01.2020)
 ---
 
-## 1.8.5.0 (13.01.2020)
+## 1.8.5.1 (13.01.2020)
 * Ein Fehler wurde im Designer behoben, wodurch die OPC UA Datenquelle einen Fehler ausgab, sobald mit dem Server interagiert werden sollte.
 
 ## 1.8.4.0 (07.01.2020)
