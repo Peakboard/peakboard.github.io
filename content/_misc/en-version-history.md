@@ -10,6 +10,10 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 1.8.4.0 (07.01.2020)
 ---
+
+## 1.8.5.0 (13.01.2020)
+* An error was fixed in the Designer, which caused the OPC UA data source to crash when connecting to the server.
+
 ## 1.8.4.0 (07.01.2020)
 * Hotfix for ShowDialog Lua functions
 
