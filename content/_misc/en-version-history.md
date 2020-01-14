@@ -11,6 +11,9 @@ redirect_from:
 footer: 1.8.5.1 (13.01.2020)
 ---
 
+## 1.8.6.0 (14.01.2019)
+* Hotfix for Excel column names
+
 ## 1.8.5.1 (13.01.2020)
 * An error was fixed in the Designer, which caused the OPC UA data source to crash when connecting to the server.
 

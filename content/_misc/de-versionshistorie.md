@@ -11,6 +11,9 @@ redirect_from:
 footer: 1.8.5.1 (13.01.2020)
 ---
 
+## 1.8.6.0 (14.01.2019)
+* Hotfix für Excel Spaltennamen
+
 ## 1.8.5.1 (13.01.2020)
 * Ein Fehler wurde im Designer behoben, wodurch die OPC UA Datenquelle einen Fehler ausgab, sobald mit dem Server interagiert werden sollte.
 
