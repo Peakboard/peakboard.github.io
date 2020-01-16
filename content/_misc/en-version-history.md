@@ -8,7 +8,7 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.8.5.1 (13.01.2020)
+footer: 1.8.6.0 (14.01.2020)
 ---
 
 ## 1.8.6.0 (14.01.2019)
