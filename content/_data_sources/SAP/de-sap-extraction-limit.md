@@ -1,8 +1,8 @@
 ---
 layout: article
-title: SAP Baustein - Einschränkungen bei der Tabellenextraktion umgehen
-menu_title: SAP Baustein - Einschränkungen bei der Tabellenextraktion umgehen
-description: SAP Baustein - Einschränkungen bei der Tabellenextraktion umgehen
+title: SAP Tabellen mit vielen Spalten auslesen
+menu_title: SAP Tabellen mit vielen Spalten auslesen
+description: SAP Tabellen mit vielen Spalten auslesen
 lang: de
 weight: 20001
 ref: dat-20001
