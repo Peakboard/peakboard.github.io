@@ -6,7 +6,6 @@ description: Writing from S7 to OPC/UA
 lang: en
 weight: 1001
 ref: misc-1001
-redirect_from:
 ---
 
 With the following statement you may write in a script from a Siemens S7, for example a S7 1500 to an OPC/UA server.

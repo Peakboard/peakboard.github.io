@@ -19,25 +19,25 @@ Starten Sie die Transaktion SE37 und legen Sie einen neuen Baustein namens Z_XTR
 
 Im Reiter Attribute stellen sie die Ausführungsart auf remote aufrufbar
 
-[!Z-Custom-Function-01](\assets\images\data-sources\sap\Z-Custom-Function-01.png)
+![Z-Custom-Function-01](\assets\images\data-sources\sap\Z-Custom-Function-01.png)
 
 ### Schritt 2 – Import-Parameter
 
 Definieren Sie die Import-Parameter wie im folgenden Screenshot gezeigt.
 
-[!Z-Custom-Function-02](\assets\images\data-sources\sap\Z-Custom-Function-02.png)
+![Z-Custom-Function-02](\assets\images\data-sources\sap\Z-Custom-Function-02.png)
 
 ### Schritt 3 – Tabellen-Parameter
 
 Definieren Sie die Tabellenparameter wie im folgenden Screenshot gezeigt.
 
-[!Z-Custom-Function-03](\assets\images\data-sources\sap\Z-Custom-Function-03.png)
+![Z-Custom-Function-03](\assets\images\data-sources\sap\Z-Custom-Function-03.png)
 
 ### Schritt 4 – Exceptions
 
 Definieren Sie die Ausnahmen (Exceptions) wie im folgenden Screenshot gezeigt.
 
-[!Z-Custom-Function-04](\assets\images\data-sources\sap\Z-Custom-Function-04.png)
+![Z-Custom-Function-04](\assets\images\data-sources\sap\Z-Custom-Function-04.png)
 
 ### Schritt 5 - Code
 
