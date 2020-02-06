@@ -8,8 +8,6 @@ weight: 20001
 ref: dat-20001
 ---
 
-# Umgehung der Einschränkungen bei der Tabellenextraktion
-
 Hier finden Sie die Anleitung zur Manuellen Installation des Funktionsbausteins Z_XTRACT_IS_TABLE.
 
 ### Schritt 1 – Baustein anlegen
