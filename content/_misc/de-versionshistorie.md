@@ -8,8 +8,11 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.8.6.0 (14.01.2020)
+footer: 1.8.7.0 (31.01.2020)
 ---
+
+## 1.8.7.0 (31.01.2020)
+* Hotfix für einen Excel-Datenquellenfehler, der dazu führte, dass die Excel-Datenquelle die Daten nicht geladen hat, wenn keine Spaltennamen ausgewählt wurden
 
 ## 1.8.6.0 (14.01.2019)
 * Hotfix für Excel Spaltennamen

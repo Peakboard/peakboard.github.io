@@ -8,10 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.8.6.0 (14.01.2020)
+footer: 1.8.7.0 (31.01.2020)
 ---
 
-## 1.8.6.0 (14.01.2019)
+## 1.8.7.0 (31.01.2020)
+* Hotfix for an Excel data source error that caused the Excel data source not to load the data when no column names were selected
+
+## 1.8.6.0 (14.01.2020)
 * Hotfix for Excel column names
 
 ## 1.8.5.1 (13.01.2020)
