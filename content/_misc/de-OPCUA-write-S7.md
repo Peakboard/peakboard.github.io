@@ -13,7 +13,7 @@ Mit folgendem Statement kann in einem Skript von einer Siemens S7,  beispielswei
 Der OPC/UA Server kann sich dabei auch auf der Siemens S7 selbst befinden.
 
 ```lua
--- (NodeID, Datatype)
+-- Datenquellenname.writevaule(NodeID, Datatype)
 data.opcua.writevalue('ns=3;s="Data_block_2"."IntegersWords"."int1"', toint16(12))
 ```
 
@@ -27,7 +27,6 @@ Daher werden alle Zahlen als "double" verarbeitet.
 Dies führt dazu, dass diese Zahlen nicht ohne weiteres auf einem OPC/UA Server gespeichert werden können.
 
 > ## Hinweis
->
 >Die [Peakboard Skript Engine](/scripting/de-script-engine.html) kennt lediglich drei Datentypen: bool, number und string!
 >Daher ist eine Konvertierung anhand nachfolgender Tabelle notwendig!
 
