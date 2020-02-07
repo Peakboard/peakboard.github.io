@@ -12,10 +12,10 @@ Here you will find instructions for the manual installation of the function modu
 
 ### Step 1 - Create module
 
-Start transaction SE37 and create a new module called Z_XTRACT_IS_TABLE. You can store it in an existing function group, or create a new function group for it. The same applies to the development class.
+Start transaction SE37 and create a new module called Z_XTRACT_IS_TABLE. You can store it in an existing function group or create a new function group for it. The same applies to the development class.
 
 
-On the Attributes tab, set the execution type to remote callable
+On the Attributes tab, set the execution type to remote callable.
 
 ![Z-Custom-Function-01](\assets\images\data-sources\sap\Z-Custom-Function-01.png)
 

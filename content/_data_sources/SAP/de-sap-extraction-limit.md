@@ -8,14 +8,14 @@ weight: 20001
 ref: dat-20001
 ---
 
-Hier finden Sie die Anleitung zur Manuellen Installation des Funktionsbausteins Z_XTRACT_IS_TABLE.
+Hier finden Sie die Anleitung zur manuellen Installation des Funktionsbausteins Z_XTRACT_IS_TABLE.
 
 ### Schritt 1 – Baustein anlegen
 
-Starten Sie die Transaktion SE37 und legen Sie einen neuen Baustein namens Z_XTRACT_IS_TABLE an. Sie können ihn in eine bestehende Funktionsgruppe ablegen, oder eine neue Funktionsgruppe dafür anlegen. Dasselbe gilt für die Entwicklungsklasse.
+Starten Sie die Transaktion SE37 und legen Sie einen neuen Baustein namens Z_XTRACT_IS_TABLE an. Sie können ihn in eine bestehende Funktionsgruppe ablegen oder eine neue Funktionsgruppe dafür anlegen. Dasselbe gilt für die Entwicklungsklasse.
 
 
-Im Reiter Attribute stellen sie die Ausführungsart auf remote aufrufbar
+Im Reiter Attribute stellen sie die Ausführungsart auf remote aufrufbar.
 
 ![Z-Custom-Function-01](\assets\images\data-sources\sap\Z-Custom-Function-01.png)
 
