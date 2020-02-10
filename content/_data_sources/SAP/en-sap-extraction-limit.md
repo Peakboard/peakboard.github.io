@@ -17,25 +17,25 @@ Start transaction SE37 and create a new module called Z_XTRACT_IS_TABLE. You can
 
 On the Attributes tab, set the execution type to remote callable.
 
-![Z-Custom-Function-01](\assets\images\data-sources\sap\Z-Custom-Function-01.png)
+![Z-Custom-Function-01](/assets/images/data-sources/sap/Z-Custom-Function-01.png)
 
 ### Step 2 - Import parameters
 
 Define the import parameters as shown in the following screenshot.
 
-Z-Custom-Function-02](\assets\images\data-sources\sap\Z-Custom-Function-02.png)
+![Z-Custom-Function-02](/assets/images/data-sources/sap/Z-Custom-Function-02.png)
 
 ### Step 3 - Table parameters
 
 Define the table parameters as shown in the following screenshot.
 
-Z-Custom-Function-03](\assets\images\data-sources\sap\Z-Custom-Function-03.png)
+![Z-Custom-Function-03](/assets/images/data-sources/sap/Z-Custom-Function-03.png)
 
 ### Step 4 - Exceptions
 
 Define the exceptions as shown in the following screenshot.
 
-Z-Custom-Function-04](\assets\images\data-sources\sap\Z-Custom-Function-04.png)
+![Z-Custom-Function-04](/assets/images/data-sources/sap/Z-Custom-Function-04.png)
 
 ### Step 5 - Code
 
