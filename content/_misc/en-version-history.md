@@ -8,8 +8,34 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 1.8.7.0 (31.01.2020)
+footer: 2.0.0.0 (10.02.2020)
 ---
+ 
+ ## 2.0.0.0 (10.02.2020)
+* Change of Peakboard Runtime (Preview) architecture from UWP to WPF
+* Abolition of the Peakboard Bridge for Peakboard 2 Boxes
+* Support of the designer of Peakboard and Peakboard 2 Boxes
+* Version separation of Peakboard Boxes and Peakboard 2 Boxes
+* Dataflows can now be created by right-clicking on a data source.
+* In a dataflow, simple filters and sorting functions can be performed by right-clicking on the table displayed in the dataflow.
+* Support for OAuth2 authentication implemented.
+* Windows Explorer button added.
+* Created data sources can also be used by script to write back.
+* It is now possible to activate and deactivate individual data sources via script.
+* Resources stored in the Designer can be downloaded by right clicking.
+* Renamed from NetworkFileShare to Peakboard Bridge 
+* Renaming from NetworkFileShareDirecet to Local Area Network (only available for Peakboard 2 boxes)
+* The width of the frame can be adjusted by script for elements with frames.
+* Script debugger for preview implemented (only available for Peakboard 2 boxes)
+* Template dialog added to the initial loading screen of the Peakboard Designer.
+* Added tooltip icons in dialogs.
+* Fixed an error where switching screens with a PDF caused the designer to crash.
+* Fix for an error where an error was generated when a preview was active and a preview was reopened.
+* Fix for an error where the logs of the Peakboard Box could not be deleted.
+* Fix for the Undo function for grouped elements.
+* Fix for an error where no further screenshot could be created after some screenshots.
+* Fix for an error when copying an OPC/UA data source
+* Fix for script error messages in Peakboard Runtime Log
 
 ## 1.8.7.0 (31.01.2020)
 * Hotfix for an Excel data source error that caused the Excel data source not to load the data when no column names were selected

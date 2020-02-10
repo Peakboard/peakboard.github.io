@@ -8,8 +8,34 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 1.8.7.0 (31.01.2020)
+footer: 2.0.0.0 (10.02.2020)
 ---
+ 
+ ## 2.0.0.0 (10.02.2020)
+* Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
+* Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
+* Unterstützung des Designers von Peakboard und Peakboard 2 Boxen
+* Versionstrennung von Peakboard Boxen und Peakboard 2 Boxen
+* Dataflows können nun per Rechtsklick auf eine Datenquelle erzeugt werden.
+* In einem Dataflow können einfache Filter und Sortierungsfunktionen über einen Rechtsklick auf die im Dataflow dargestellte Tabelle vorgenommen werden.
+* Unterstützung für OAuth2 Authentifizierung implementiert.
+* Windows Explorer Button hinzugefügt.
+* Angelegte Datenquellen können per Skript auch zum zurückschreiben verwendet werden.
+* Es ist nun möglich, einzelne Datenquellen per Skript zu aktivieren und deaktivieren.
+* Im Designer hinterlegte Ressourcen können per Rechtsklick herunter geladen werden.
+* Umbenennung von NetworkFileShare zu Peakboard Bridge 
+* Umbenennung von NetworkFileShareDirecet zu Lokales Netzwerk (nur für Peakboard 2 Boxen verfügbar)
+* Die Breite des Rahmens kann für Elemente mit Rahmen per Skript angepasst werden.
+* Skript-Debugger für Preview implementiert (nur für Peakboard 2 Boxen verfügbar)
+* Template Dialog zum initialen Ladebildschirm des Peakboard Designers hinzugefügt.
+* Tooltipp Icons in Dialogen hinzugefügt.
+* Fix für einen Fehler, bei dem der Screenwechsel mit einem PDF zum Absturz des Designers führte.
+* Fix für einen Fehler, bei dem bei einer aktiven Preview und dem erneuten öffnen einer Preview ein Fehler erzeugt wurde.
+* Fix für einen Fehler, bei dem die Logs der Peakboard Box nicht mehr gelöscht werden konnten.
+* Fix für die Undo-Funktion bei gruppierten Elementen.
+* Fix für einen Fehler, bei dem nach einigen Screenshots kein weitere Screenshot erstellt werden konnte.
+* Fix für einen Fehler beim Kopieren einer OPC/UA Datenquelle
+* Fix für Skript-Fehlermeldungen im Peakboard Runtime Log
 
 ## 1.8.7.0 (31.01.2020)
 * Hotfix für einen Excel-Datenquellenfehler, der dazu führte, dass die Excel-Datenquelle die Daten nicht geladen hat, wenn keine Spaltennamen ausgewählt wurden
