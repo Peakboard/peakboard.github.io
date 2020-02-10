@@ -8,10 +8,10 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.0.0.0 (10.02.2020)
+footer: 2.0.0.7 (10.02.2020)
 ---
  
- ## 2.0.0.0 (10.02.2020)
+## 2.0.0.7 (10.02.2020)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
 * Unterstützung des Designers von Peakboard und Peakboard 2 Boxen
