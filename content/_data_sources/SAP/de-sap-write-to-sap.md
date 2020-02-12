@@ -8,23 +8,23 @@ weight: 20101
 ref: dat-20101
 ---
 
-Um Daten zurück ins SAP System schreiben zu können, ist es notwendig einen entsprechenden Funktionsbaustein (Your_Function_Module) im SAP System anzulegen.
+Im SAP kann über Peakboard ein beliebiger Funktionsbaustein des SAP Systems aufgerufen werden. Dabei ist es wichtig, dass dieser Funktionsbaustein Remote-fähig ist. Über Peakboard kann der Funktionsbaustein (Z_Function_Module) aufgerufen werden und Exportparameter übergeben werden. Diese können dann innerhalb des Funktionsbausteins auf der Seite von SAP beliebig weiterverarbeitet werden.
 
 Zunächst wird im Peakboard Designer eine SAP Datenquelle angelegt (YourSAPDatasource). Diese kann einerseits dafür verwendet werden Daten aus dem SAP System anzuzueigen und zum anderen um Daten zurück zu schreiben.
 
-Dabei kann der zu schreibende Wert aus einer Datenbank oder einer Variablen (PeakboardVariable) stammen.
+Dabei kann der zu schreibende Wert aus unterschiedlichen Datenquellen, beispielsweise einer im Peakbaord angelegten Variablen (PeakboardVariable) stammen.
 
 ```lua
 local con = data.YourSAPDatasource.getconnection()
 -- Connect to SAP system
 con.open()
 -- Execute XtractQL statements 
-local res = sap.execute(con, "EXECUTE FUNCTION 'Your_Function_Module' EXPORTS YourColumn = '" .. data.PeakboardVariable .. "'")
+local res = sap.execute(con, "EXECUTE FUNCTION 'Z_Function_Module' EXPORTS YourColumn = '" .. data.PeakboardVariable .. "'")
 -- Disconnect from SAP system
 con.close()
 ```
 
 |YourSAPDatasource |= Name der angeleten SAP Verbindung|
-|Your_Function_Module |= Funktionsbaustein, welcher für das Schreiben nach SAP konfiguriert ist|
+|Z_Function_Module |= Funktionsbaustein, welcher für das Schreiben nach SAP konfiguriert ist|
 |YourColumn |= Spalte des Funktionsbaustein in die die Daten geschrieben werden sollen|
 |PeakboardVariable |= Im Peakboard angelegte Variable, welche den zu schreibenden Wert enthält|
