@@ -12,7 +12,7 @@ Im SAP kann über Peakboard ein beliebiger Funktionsbaustein des SAP Systems auf
 
 Zunächst wird im Peakboard Designer eine SAP Datenquelle angelegt (YourSAPDatasource). Diese kann einerseits dafür verwendet werden Daten aus dem SAP System anzuzueigen und zum anderen um Daten zurück zu schreiben.
 
-Dabei kann der zu schreibende Wert aus unterschiedlichen Datenquellen, beispielsweise einer im Peakbaord angelegten Variablen (PeakboardVariable) stammen.
+Dabei kann der Exportparameter aus unterschiedlichen Datenquellen, beispielsweise einer im Peakbaord angelegten Variablen (PeakboardVariable) stammen.
 
 ```lua
 local con = data.YourSAPDatasource.getconnection()
