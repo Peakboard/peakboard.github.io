@@ -37,7 +37,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix for an error when copying an OPC/UA data source
 * Fix for script error messages in Peakboard Runtime Log
 
-## 1.8.7.0 (31.01.2020)
+## 1.8.7.0 (31.01.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
 * Hotfix for an Excel data source error that caused the Excel data source not to load the data when no column names were selected
 
 ## 1.8.6.0 (14.01.2020)
@@ -76,7 +76,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix for incorrect assignment of IPv6 addresses
 * Fix for handling resources via the Peakboard Bridge
 
-## 1.7.1.0 (29.10.2019)
+## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EVc9Kqf3pWlLsxFJ8D8ZWhMB4u6rmd5MgSYRigChfvJ4jA?e=I9T6Bu)
 * Hotfix for Template Designer
 
 ## 1.7.0.0 (28.10.2019)
@@ -105,7 +105,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix for the time data source
 * Fix for the color picker when changing the values in the text field
 
-## 1.6.4.0 (18.10.2019)
+## 1.6.4.0 (18.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
 * The default setting for the Designer theme was reverted to "Light" mode.
 
 ## 1.6.3.0 (17.10.2019)
@@ -136,7 +136,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix for copying elements with a refresh script
 * Fix for opening files 
 
-## 1.5.3.9 (07.08.2019)
+## 1.5.3.9 (07.08.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
 * Fixed a problem in the SQL server data source, where NULL values where not handled correctly
 
 ## 1.5.3.1 (06.08.2019)
@@ -185,7 +185,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix for scripts which are executed during screen activation
 * Fix in script editor for global functions 
 
-## 1.3.1.0 (29.05.2019)
+## 1.3.1.0 (29.05.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
 * Hotfix for saving colors for circle and donut diagrams
 
 ## 1.3.0.0 (21.05.2019)
