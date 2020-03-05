@@ -37,7 +37,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix für einen Fehler beim Kopieren einer OPC/UA Datenquelle
 * Fix für Skript-Fehlermeldungen im Peakboard Runtime Log
 
-## 1.8.7.0 (31.01.2020)
+## 1.8.7.0 (31.01.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
 * Hotfix für einen Excel-Datenquellenfehler, der dazu führte, dass die Excel-Datenquelle die Daten nicht geladen hat, wenn keine Spaltennamen ausgewählt wurden
 
 ## 1.8.6.0 (14.01.2019)
