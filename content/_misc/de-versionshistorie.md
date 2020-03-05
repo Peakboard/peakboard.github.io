@@ -77,7 +77,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix für die Handhabung von Resourcen über die Peakboard Bridge
 
 
-## 1.7.1.0 (29.10.2019)
+## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EVc9Kqf3pWlLsxFJ8D8ZWhMB4u6rmd5MgSYRigChfvJ4jA?e=I9T6Bu)
 * Hotfix für den Template Designer
 
 ## 1.7.0.0 (28.10.2019)
@@ -106,7 +106,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix für die Zeitdatenquelle
 * Fix für den Colorpicker beim Ändern der Werte im Textfeld
 
-## 1.6.4.0 (18.10.2019)
+## 1.6.4.0 (18.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
 * Die Grundeinstellung für das Designer-Theme wurde auf "Light" zurückgesetzt.
 
 ## 1.6.3.0 (17.10.2019)
@@ -138,7 +138,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix für das Öffnen von Dateien 
 
 
-## 1.5.3.9 (07.08.2019)
+## 1.5.3.9 (07.08.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
 * Ein Problem bei der Verarbeitung von NULL-Daten in der SQL-Server Datenquelle wurde behoben.
 
 ## 1.5.3.1 (06.08.2019)
@@ -188,7 +188,7 @@ footer: 2.0.0.7 (10.02.2020)
 * Fix im Skript-Editor für globale Funktionen 
 
 
-## 1.3.1.0 (29.05.2019)
+## 1.3.1.0 (29.05.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
 * Hotfix für das Speichern von Farben bei Kreis und Donut-Diagrammen
 
 ## 1.3.0.0 (21.05.2019)
