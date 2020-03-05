@@ -1,19 +1,18 @@
 ---
 layout: article
-title: Schreiben von S7 auf OPC UA
-menu_title: Schreiben von S7 auf OPC UA
-description: Schreiben von S7 auf OPC UA
+title: Schreiben nach OPC UA
+menu_title: Schreiben nach OPC UA
+description: Schreiben nach OPC UA
 lang: de
 weight: 1001
 ref: misc-1001
 redirect_from:
 ---
 
-Mit folgendem Statement kann in einem Skript von einer Siemens S7,  beispielsweise einer S7 1500. auf einen OPC UA Server geschrieben werden.
-Der OPC UA Server kann sich dabei auch auf der Siemens S7 selbst befinden.
+Mit folgendem Statement kann mit einem Skript der Wert einer Variablen auf einem OPC UA Server geändert werden.
 
 ```lua
--- Datenquellenname.writevaule(NodeID, Datatype)
+-- Datenquellenname.writevaule(NodeID, Value)
 data.opcua.writevalue('ns=3;s="Data_block_2"."IntegersWords"."int1"', toint16(12))
 ```
 

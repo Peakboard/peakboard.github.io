@@ -1,18 +1,17 @@
 ---
 layout: article
-title: Writing from S7 to OPC UA
-menu_title: Write from S7 to OPC UA
-description: Writing from S7 to OPC UA
+title: Writing to OPC UA
+menu_title: Write to OPC UA
+description: Writing to OPC UA
 lang: en
 weight: 1001
 ref: misc-1001
 ---
 
-With the following statement you may write in a script from a Siemens S7, for example a S7 1500 to an OPC UA server.
-The OPC UA server can also be located on the Siemens S7 itself.
+With the following statement the value of a variable on an OPC UA server may be changed with a script.
 
 ```lua
--- datasourcename.writevaule(NodeID, Datatype)
+-- datasourcename.writevaule(NodeID, Value)
 data.opcua.writevalue('ns=3;s="Data_block_2". "IntegersWords". "int1"', toint16(12))
 ```
 
