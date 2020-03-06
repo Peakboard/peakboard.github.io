@@ -2,6 +2,7 @@ export default {
   els: {
     trigger: document.querySelector(".menu-trigger"),
     navbar: document.querySelector(".navbar"),
+    dropdown_lists: [].slice.call(document.querySelector(".dropdown-list")),
     categories: [].slice.call(document.querySelectorAll(".nav-top-link")),
     sub_categories: [].slice.call(document.querySelectorAll(".has-submenu")),
     last_menu_item: document.querySelector(".top-menu-link:last-child"),
@@ -57,15 +58,23 @@ export default {
     this.els.categories.forEach(cat => cat.classList.remove("exposed"));
   },
 
-  exposeSubmenu(submenu) {
+  exposeSubmenu(submenu, grandparent) {
     submenu.classList.add("exposed");
+
+    // add height fix on main dropdown list
+    if(grandparent.classList.contains("height-fix")) {
+      grandparent.classList.add("submenu-height-fix");
+    }
   },
 
   closeSubmenus() {
     const open_subs = [].slice.call(
       document.querySelectorAll(".sub_level_list.exposed")
     );
-    open_subs.forEach(sub => sub.classList.remove("exposed"));
+    open_subs.forEach(sub => {
+      sub.classList.remove("exposed");
+      sub.parentElement.parentElement.parentElement.classList.remove("submenu-height-fix");
+    });
   },
 
   init() {
@@ -95,7 +104,7 @@ export default {
     this.els.sub_categories.forEach(sub_cat => {
       sub_cat.addEventListener("click", ev => {
         ev.stopPropagation();
-        this.exposeSubmenu(sub_cat.querySelector(".sub_level_list"));
+        this.exposeSubmenu(sub_cat.querySelector(".sub_level_list"),sub_cat.parentElement.parentElement);
       });
     });
 

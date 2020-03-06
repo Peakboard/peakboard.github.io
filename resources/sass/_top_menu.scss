@@ -24,6 +24,10 @@
   max-height: calc(100vh - 6rem);
 }
 
+.submenu-height-fix {
+  height: calc(100vh - 6rem);
+}
+
 .top-menu-link:after {
   content: "";
   width: 100%;
