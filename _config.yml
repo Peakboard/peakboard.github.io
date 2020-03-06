@@ -90,6 +90,15 @@ collections:
       en: "Administration"
       de: "Administration"
       cn: "管理"
+    sublevel:
+      Peakboard 1.x:
+        en: "Peakboard 1.x"
+        de: "Peakboard 1.x"
+        cn: "Peakboard 1.x"
+      Peakboard 2.x:
+        en: "Peakboard 2.x"
+        de: "Peakboard 2.x"
+        cn: "Peakboard 2.x"
 
   misc:
     output: true
