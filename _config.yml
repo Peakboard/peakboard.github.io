@@ -91,14 +91,14 @@ collections:
       de: "Administration"
       cn: "管理"
     sublevel:
-      Peakboard 1.x:
-        en: "Peakboard 1.x"
-        de: "Peakboard 1.x"
-        cn: "Peakboard 1.x"
-      Peakboard 2.x:
-        en: "Peakboard 2.x"
-        de: "Peakboard 2.x"
-        cn: "Peakboard 2.x"
+      PB 1.x Box:
+        en: "PB 1.x Box"
+        de: "PB 1.x Box"
+        cn: "PB 1.x Box"
+      PB 2.x Box:
+        en: "PB 2.x Box"
+        de: "PB 2.x Box"
+        cn: "PB 2.x Box"
 
   misc:
     output: true
