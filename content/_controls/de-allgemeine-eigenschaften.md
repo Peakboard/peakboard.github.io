@@ -17,7 +17,7 @@ Alle Controls, die in der Toolbox oben rechts zur Verfügung stehen, haben Eigen
 | Name       | ist ein eindeutiger Name für das Control (ohne Sonderzeichen), um es von Skripten aus anzusteuern. Nur wenn das Control tatsächlich von Skripten aus genutzt wird, muss ein Name vergeben werden. |
 | Height     | ist die Höhe in Pixel.
 | Margin     | kann nicht direkt verändert werden, sondern repräsentiert die Position des Controls auf dem Board (x,y-Koordinate)|
-| Visible    | wird üblicherweise von Skripten aus gesetzt. Weist in einem Skript einem Control den Zustand visabilty.visible für sichtbar oder visabilty.collapsed für unsichtbar zu. |
+| Visible    | wird üblicherweise von Skripten aus gesetzt. Weist in einem Skript einem Control den Zustand visibility.visible für sichtbar oder visibility.collapsed für unsichtbar zu. |
 | Scripts    | um ein Control nach einer bestimmten Logik sichtbar / unsichtbar zu machen. |
 | Width      | ist die Breite in Pixel.|
 | Events     | Über diese Eigenschaft kann ein Dialog aufgerufen werden, der ein oder mehrere Skripte enthält, die beim Eintreten von Ereignissen des Controls aufgerufen werden.|
