@@ -8,10 +8,57 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.0.0.7 (10.02.2020)
+footer: 2.1.0.0 (24.03.2020)
 ---
+## 2.1.0.0  (23.03.2020)
+### 1.10.0.0 (23.03.2020)
+* SharePoint OneDrive als neue Datenquelle hinzugefügt
+* Bedingte Formatierung ersetzt weitestgehend den Regel-Editor
+* Bedingte Formatierung für Elemente innerhalb einer ListView oder TileView
+* Skript-Editor - Erweiterung der Skript-Editor Funktionen für Controls welche in einer TileView oder ListView angelegt wurden
+* Der Datenquellen Index eines Tile-Controls kann mit Hilfe eines Skripts verändert werden
+* Das ListView und TileView-Control sind nun scrollbar
+* Dem ListView und TileView-Control wurden weitere interaktive Controls hinzugefügt
+* Das Tile Control verfügt nun ebenfalls über einen Template-Selektor
+* Skript-Editor - Funktion runtime.currentscreenname zur Steuerung von Screens anhand des Namens implementiert
+* Oracle-Datenquelle für Peakboard 2 Boxen überarbeitet
+* ODBC-Datenquelle für Peakboard 2 Boxen überarbeitet
+* Video-Control - Zusätzliche Funktionen, wie Start, Stopp, Neustart und Stumm zur Steuerung per Skript hinzugefügt
+* Format-Eigenschaft für Controls von Aussehen nach Allgemein verschoben
+* Direkter Zugriff auf Domain-Dateien
+* Das Passwortfeld wurde aus der S7-Datenquelle entfernt
+* Die JSON-Datenquelle unterstützt nun skalare Werte
+* Fehlermeldung für falsch selektierte JSON-Objekte angepasst
+* Fußzeilennotifikation für Elemente hinzugefügt, welche eine Peakboard 2 Box benötigen
+* Anpassung des Icons für den Schriftarten-Editor
+
+* Fix für einen Fehler bei dem die Version der Peakboard-Box als nicht aktuell angezeigt wurde, obwohl es sich um die aktuelle Version handelt
+* Fix für die Datentypenerkennung bei der OData-Datenquelle
+* Fix für die Datentypenerkennung bei der S7-Datenquelle
+* Fix für die "use full path" Option der JSON-Datenquelle 
+* Fix für die Gauge-Diagramme, wenn diese in einer ListView eingebunden sind
+* Fix für das Wechseln von PDFs über das Netzwerk (PB2) 
+* Fix für das Wechseln von PDFs über die Bridge (PB1)
+* Fix für einen Fehler bei dem das falsche Skript markiert wurde und nicht das zu bearbeitende
+* Fix für einen Anzeigefehler der runtime.shownotification Funktion
+* Fix für die Benachrichtigung aktueller Boxen
+* Fix für einen Fehler in der XML-Datenquelle, wenn das XML-File lediglich aus einer Zeile besteht
+* Fix für das Photoframe-Control
+* Fix für einen Fehler, bei dem es zu einem Absturz des Designers beim Löschen eines Farbcodes kommen konnte
+* Fix für einen Fehler, bei dem es zu einem Absturz des Designers beim Editieren einer nicht vorhandenen Schriftart kommen konnte
+* Fix für das anpassen eines Controls bei 200% zoom
+* Fehlermeldung für falsch selektierte JSON-Objekte angepasst
+* Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
+
+
+
+
+
+
  
 ## 2.0.0.7 (10.02.2020)
+### 1.9.0.0 (10.02.2020)
+* Unterscheidung in der Versionierung für PB 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
 * Unterstützung des Designers von Peakboard und Peakboard 2 Boxen

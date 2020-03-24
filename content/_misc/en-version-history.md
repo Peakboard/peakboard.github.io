@@ -8,16 +8,57 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.0.0.7 (10.02.2020)
+footer: 2.1.0.0 (23.03.2020)
 ---
+## 2.1.0.0 (23.03.2020)
+### 1.10.0.0 (23.03.2020)
+* Added SharePoint OneDrive as a new data source
+* Conditional formatting largely replaces the rule editor
+* Conditional formatting for elements within a ListView or TileView
+* Script Editor - Extension of the script editor functions for controls created in a TileView or ListView
+* The data source index of a tile control can be changed by means of a script
+* The ListView and TileView control are now scrollable
+* Additional interactive controls have been added to the ListView and TileView controls
+* The tile control now also has a template selector
+* Script editor - function runtime.currentscreenname implemented to control screens by name
+* Oracle data source for Peakboard 2 boxes revised
+* ODBC data source for Peakboard 2 boxes revised
+* Video Control - Added additional functions such as start, stop, restart and mute to control by script
+* Format property for controls moved from Appearance to General
+* Direct access to domain files
+* The password field was removed from the S7 data source
+* The JSON data source now supports scalar values
+* Error message for incorrectly selected JSON objects adapted
+* Added footer notification for elements that require a Peakboard 2 box
+* Customization of the icon for the font editor
+
+* Fix for a bug where the version of the Peakboard Box was displayed as not up to date although it is the current version
+* Fix for data type detection for OData data source
+* Fix for the data type recognition for the S7 data source
+* Fix for the "use full path" option of the JSON data source 
+* Fix for the Gauge diagrams if they are included in a ListView
+* Fix for switching PDFs over the network (PB2) 
+* Fix for switching PDFs via the bridge (PB1)
+* Fix for an error where the wrong script was selected and not the one to be edited
+* Fix for a display error of the runtime.shownotification function
+* Fix for notification of current boxes
+* Fix for an error in the XML data source if the XML file consists of only one line
+* Fix for the Photoframe control
+* Fix for an error that could cause the Designer to crash when deleting a color code
+* Fix for a bug that could cause the Designer to crash when editing a non-existent font
+* Fix for adjusting a control at 200% zoom
+* Error message for incorrectly selected JSON objects adapted
+* Fix for an error where the preview scaling was not displayed correctly
+
  
 ## 2.0.0.7 (10.02.2020)
+### 1.9.0.7 (10.02.2020)
 * Change of Peakboard Runtime (Preview) architecture from UWP to WPF
 * Abolition of the Peakboard Bridge for Peakboard 2 Boxes
 * Support of the designer of Peakboard and Peakboard 2 Boxes
 * Version separation of Peakboard Boxes and Peakboard 2 Boxes
 * Dataflows can now be created by right-clicking on a data source.
-* In a dataflow, simple filters and sorting functions can be performed by right-clicking on the table displayed in the dataflow.
+* In a Dataflow, simple filters and sorting functions can be performed by right-clicking on the table displayed in the Dataflow.
 * Support for OAuth2 authentication implemented.
 * Windows Explorer button added.
 * Created data sources can also be used by script to write back.
