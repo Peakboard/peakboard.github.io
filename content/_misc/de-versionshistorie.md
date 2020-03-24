@@ -10,8 +10,7 @@ redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.1.0.0 (24.03.2020)
 ---
-## 2.1.0.0  (23.03.2020)
-### 1.10.0.0 (23.03.2020)
+## 2.1.0.0 // 1.10.0.0 (23.03.2020)
 * SharePoint OneDrive als neue Datenquelle hinzugefügt
 * Bedingte Formatierung ersetzt weitestgehend den Regel-Editor
 * Bedingte Formatierung für Elemente innerhalb einer ListView oder TileView
@@ -31,7 +30,6 @@ footer: 2.1.0.0 (24.03.2020)
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fußzeilennotifikation für Elemente hinzugefügt, welche eine Peakboard 2 Box benötigen
 * Anpassung des Icons für den Schriftarten-Editor
-
 * Fix für einen Fehler bei dem die Version der Peakboard-Box als nicht aktuell angezeigt wurde, obwohl es sich um die aktuelle Version handelt
 * Fix für die Datentypenerkennung bei der OData-Datenquelle
 * Fix für die Datentypenerkennung bei der S7-Datenquelle
@@ -50,15 +48,8 @@ footer: 2.1.0.0 (24.03.2020)
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
 
-
-
-
-
-
- 
-## 2.0.0.7 (10.02.2020)
-### 1.9.0.0 (10.02.2020)
-* Unterscheidung in der Versionierung für PB 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020)  
+* Unterscheidung in der Versionierung für Peakboard 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
 * Unterstützung des Designers von Peakboard und Peakboard 2 Boxen

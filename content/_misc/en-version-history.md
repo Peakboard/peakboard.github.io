@@ -10,8 +10,7 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 2.1.0.0 (23.03.2020)
 ---
-## 2.1.0.0 (23.03.2020)
-### 1.10.0.0 (23.03.2020)
+## 2.1.0.0 // 1.10.0.0 (23.03.2020)
 * Added SharePoint OneDrive as a new data source
 * Conditional formatting largely replaces the rule editor
 * Conditional formatting for elements within a ListView or TileView
@@ -21,17 +20,16 @@ footer: 2.1.0.0 (23.03.2020)
 * Additional interactive controls have been added to the ListView and TileView controls
 * The tile control now also has a template selector
 * Script editor - function runtime.currentscreenname implemented to control screens by name
-* Oracle data source for Peakboard 2 boxes revised
-* ODBC data source for Peakboard 2 boxes revised
+* Oracle data source for Peakboard 2 Boxes revised
+* ODBC data source for Peakboard 2 Boxes revised
 * Video Control - Added additional functions such as start, stop, restart and mute to control by script
 * Format property for controls moved from Appearance to General
 * Direct access to domain files
 * The password field was removed from the S7 data source
 * The JSON data source now supports scalar values
 * Error message for incorrectly selected JSON objects adapted
-* Added footer notification for elements that require a Peakboard 2 box
+* Added footer notification for elements that require a Peakboard 2 Box
 * Customization of the icon for the font editor
-
 * Fix for a bug where the version of the Peakboard Box was displayed as not up to date although it is the current version
 * Fix for data type detection for OData data source
 * Fix for the data type recognition for the S7 data source
@@ -41,7 +39,7 @@ footer: 2.1.0.0 (23.03.2020)
 * Fix for switching PDFs via the bridge (PB1)
 * Fix for an error where the wrong script was selected and not the one to be edited
 * Fix for a display error of the runtime.shownotification function
-* Fix for notification of current boxes
+* Fix for notification of current Boxes
 * Fix for an error in the XML data source if the XML file consists of only one line
 * Fix for the Photoframe control
 * Fix for an error that could cause the Designer to crash when deleting a color code
@@ -51,8 +49,8 @@ footer: 2.1.0.0 (23.03.2020)
 * Fix for an error where the preview scaling was not displayed correctly
 
  
-## 2.0.0.7 (10.02.2020)
-### 1.9.0.7 (10.02.2020)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020)
+* Differentiation in versioning for Peakboard 2 Boxes (2.x.x.x) and Peakboard Boxes (1.x.x.x)  
 * Change of Peakboard Runtime (Preview) architecture from UWP to WPF
 * Abolition of the Peakboard Bridge for Peakboard 2 Boxes
 * Support of the designer of Peakboard and Peakboard 2 Boxes
@@ -65,9 +63,9 @@ footer: 2.1.0.0 (23.03.2020)
 * It is now possible to activate and deactivate individual data sources via script.
 * Resources stored in the Designer can be downloaded by right clicking.
 * Renamed from NetworkFileShare to Peakboard Bridge 
-* Renaming from NetworkFileShareDirecet to Local Area Network (only available for Peakboard 2 boxes)
+* Renaming from NetworkFileShareDirecet to Local Area Network (only available for Peakboard 2 Boxes)
 * The width of the frame can be adjusted by script for elements with frames.
-* Script debugger for preview implemented (only available for Peakboard 2 boxes)
+* Script debugger for preview implemented (only available for Peakboard 2 Boxes)
 * Template dialog added to the initial loading screen of the Peakboard Designer.
 * Added tooltip icons in dialogs.
 * Fixed an error where switching screens with a PDF caused the designer to crash.
