@@ -31,7 +31,7 @@ Windows Presentation Foundation (WPF) ist ein Framework zur Entwicklung von Desk
 Die Runtime ist die Software, welche auf der Peakboard Box ausgeführt wird und dafür sorgt, dass Daten in Echtzeit geladen werden und die Visualisierung sowie mit dem Designer erstellt dargestellt wird.
 
 ### Welche Vorteile bringt die Peakboard 2 Box?
-Das Windows 10 Iot Enterprise ermöglicht in Kombination mit der WPF Runtime eine direkte Kommunikation zwischen fast allen gängigen Datenbanken.
+Das Windows 10 IoT Enterprise ermöglicht in Kombination mit der WPF Runtime eine direkte Kommunikation zwischen fast allen gängigen Datenbanken.
 Ebenfalls ist es mit Peakboard 2 Boxen möglich Dateien wie beispielsweise Excel-, PDF-, oder Bilddateien direkt vom Netzlaufwerk auszulesen und weiterzuverarbeiten.
 
 ### Was ändert sich?
@@ -44,11 +44,11 @@ Bei der Peakboard 2 Box erfolgt hier die Kommunikation direkt.
 Der Umstieg ist für alle Kunden mit einer gültigen Service Level Agreement (SLA) Identifikationsnummer kostenlos.
 Wer eine Peakboard Pro Box oder Peakboard Enterprise Box nach dem 01.04.2020 erwirbt, erhält automatisch die erworbene Version als Peakboard 2 Box.
 
-Der Umstieg einer vorhanden Peakboard Box auf eine Peakboard 2 Box kann auf folgende Wege erfolgen:
-* Upgrade der bestehenden Hardware mithilfe eines Peakbord 2 Upgrade USB Sticks
+Der Umstieg einer vorhandenen Peakboard Box auf eine Peakboard 2 Box kann auf folgende Wege erfolgen:
+* Upgrade der bestehenden Hardware mithilfe eines Peakboard 2 Upgrade USB Sticks
 * Austausch der bestehenden Hardware durch Peakboard 2 Boxen
 
 ### Was muss beim Umstieg beachtet werden?
 * Die Visualisierung muss vor dem Update unbedingt auf dem PC gesichert sein, damit sie nach dem Update wieder aufgespielt werden kann
-* IP Adressen müssen nach dem Update ggf. neu gesetzte werden
+* IP Adressen müssen nach dem Update ggf. neu gesetzt werden
 * Proxy Settings müssen erneut durchgeführt werden
