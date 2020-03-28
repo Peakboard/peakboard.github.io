@@ -19,10 +19,10 @@ Externally, the two boxes do not differ.
 However, Peakboard 2 Boxes are based on a different operating system and a different architecture of the Peakboard Runtime, as shown in the following table.
 
 {% include styled_table.html %}
-|                                |   |           Peakboard 2 Box |       Peakboard Box |
-|--------------------------------|---|--------------------------:|--------------------:|
-| Operating System               |   | Windows 10 IoT Enterprise | Windows 10 IoT Core |
-| Peakboard Runtime Architecture |   |                       WPF |                 UWP |
+|                                |           Peakboard 2 Box |       Peakboard Box |
+|--------------------------------|--------------------------:|--------------------:|
+| Operating System               | Windows 10 IoT Enterprise | Windows 10 IoT Core |
+| Peakboard Runtime Architecture |                       WPF |                 UWP |
 
 ### What does Windows 10 IoT Enterprise mean?
 This is a full Windows 10, which is licensed for use on IoT devices such as the Peakboard 2 Box.
