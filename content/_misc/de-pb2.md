@@ -42,7 +42,7 @@ Die [Peakboard Bridge](/administration/PB%201.x%20Box/de-1x-install.html), welch
 Bei der Peakboard 2 Box erfolgt hier die Kommunikation direkt.
 
 ### Wie erfolgt die Umstellung einer Peakboard Box auf eine Peakboard 2 Box?
-Der Umstieg ist für alle Kunden mit einer gültigen Service Level Agreement (SLA) Identifikationsnummer kostenlos.
+Der Umstieg ist für alle Kunden mit einer gültigen [Service Level Agreement (SLA) Identifikationsnummer](https://peakboard.com/wp-content/uploads/2020/03/peakboard-service-level-agreement-de-v3.pdf) kostenlos.
 Wer eine Peakboard Pro Box oder Peakboard Enterprise Box nach dem 01.04.2020 erwirbt, erhält automatisch die erworbene Version als Peakboard 2 Box.
 
 Der Umstieg einer vorhandenen Peakboard Box auf eine Peakboard 2 Box kann auf folgende Wege erfolgen:

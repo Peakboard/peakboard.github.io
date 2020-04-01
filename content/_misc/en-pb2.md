@@ -42,7 +42,7 @@ The [Peakboard Bridge](/administration/PB%201.x%20Box/en-1x-install.html), which
 With the Peakboard 2 Box the communication is done directly.
 
 ### How is a Peakboard Box converted to a Peakboard 2 Box?
-The changeover is free of charge for all customers with a valid Service Level Agreement (SLA) identification number.
+The changeover is free of charge for all customers with a valid [Service Level Agreement (SLA) identification number](https://peakboard.com/wp-content/uploads/2020/03/peakboard-service-level-agreement-en-v3.pdf).
 Anyone who purchases a Peakboard Pro Box or Peakboard Enterprise Box after April 1, 2020 will automatically receive the purchased version as a Peakboard 2 Box.
 
 An existing Peakboard Box can be converted to a Peakboard 2 Box in the following ways:
