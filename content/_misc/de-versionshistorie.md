@@ -8,8 +8,15 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.1.0.0 (24.03.2020)
+footer: 2.1.1.0 (03.04.2020)
 ---
+## 2.1.1.0 // 1.10.1.0 (03.04.2020)
+* Fix für die Datenverknüpfung von Spalten, welche mit einer Zahl beginnen
+* Fix für einen Fehler bei dem die Navigation per Tabulator-Taste beim Umbenennen von Spalten nicht funktioniert hat
+* Datenverknüpfungsdialog für Tile, ListView, TileView und Live Tiles übernommen
+* Kleinere Fehlerkorrekturen für den Datenverknüpfungsdialog
+
+
 ## 2.1.0.0 // 1.10.0.0 (23.03.2020)
 * SharePoint OneDrive als neue Datenquelle hinzugefügt
 * Bedingte Formatierung ersetzt weitestgehend den Regel-Editor

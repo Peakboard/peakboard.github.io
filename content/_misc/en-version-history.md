@@ -8,8 +8,14 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.1.0.0 (23.03.2020)
+footer: 2.1.1.0 (03.04.2020)
 ---
+## 2.1.1.0 // 1.10.1.0 (03.04.2020)
+* Fix for data binding of columns starting with a number
+* Fix for a bug where tab key navigation did not work when renaming columns
+* Data binding dialog for Tile, ListView, TileView and Live Tiles adopted
+* Minor error corrections for the data binding dialog
+
 ## 2.1.0.0 // 1.10.0.0 (23.03.2020)
 * Added SharePoint OneDrive as a new data source
 * Conditional formatting largely replaces the rule editor
