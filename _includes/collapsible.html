@@ -52,4 +52,8 @@
             }
         });
     }
+
+    coll[0].classList.toggle("active");
+    var initialItem = coll[0].nextElementSibling;
+    initialItem.style.maxHeight = initialItem.scrollHeight + "px";
 </script>
