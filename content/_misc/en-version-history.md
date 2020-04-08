@@ -10,6 +10,8 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 2.1.1.0 (03.04.2020)
 ---
+
+
 ## 2.1.1.0 // 1.10.1.0 (03.04.2020)
 * Fix for data binding of columns starting with a number
 * Fix for a bug where tab key navigation did not work when renaming columns
@@ -928,3 +930,5 @@ footer: 2.1.1.0 (03.04.2020)
 * It is now possible to generate a Basic Authentication directly in the Lua Script
 * Fixed for time data source with internal NTP servers
 * Fix for CSV and JSon data source authentication
+
+{% include collapsible.html %}

@@ -10,6 +10,7 @@ redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.1.1.0 (03.04.2020)
 ---
+
 ## 2.1.1.0 // 1.10.1.0 (03.04.2020)
 * Fix für die Datenverknüpfung von Spalten, welche mit einer Zahl beginnen
 * Fix für einen Fehler bei dem die Navigation per Tabulator-Taste beim Umbenennen von Spalten nicht funktioniert hat
@@ -936,3 +937,5 @@ footer: 2.1.1.0 (03.04.2020)
 * Es lässt sich nun eine Basic Authentifizierung direkt im Lua Script generieren
 * Fix für Zeit-Datenquelle mit internen NTP Servern
 * Fix für die Authentifizierung bei der CSV und JSon Datenquelle
+
+{% include collapsible.html %}
