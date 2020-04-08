@@ -1,24 +1,23 @@
 <style>
-    h2 {
+    .article-content > h2 {
         background-color: #f1f0f0;
-        color: black !important;
+        color: black;
         cursor: pointer;
         padding: 18px;
         width: 100%;
         border: none;
         text-align: left;
         outline: none;
-        font-size: 15px;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
     }
 
-    .active, h2:hover {
+    .article-content > .active, .article-content > h2:hover {
         background-color: #888;
         color: #FFFFFF;
     }
 
-    h2:after {
+    .article-content > h2:after {
         content: '\002B';
         color: #f29205;
         font-weight: bold;
@@ -26,11 +25,11 @@
         margin-left: 5px;
     }
 
-    .active:after {
+    .article-content > .active:after {
         content: "\2212";
     }
 
-    ul {
+    .article-content > ul {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
