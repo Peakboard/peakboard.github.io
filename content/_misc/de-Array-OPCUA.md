@@ -14,7 +14,7 @@ Um einzelne Elemente eines Arrays von einem OPC UA Server nutzen zu können, mus
 Über Edit kann ein Skript angelegt werden, welches immer zusammen mt der Subscription ausgeführt wird (2).
 
 Im Skript wird mit Hilfe einer for-Schleife über die einzelnen Elemente des Arrays iteriert.
-Im Screenshot werden die einzelnen Elemente anschließend im Log des Peakboards ausgegeben.
+Im Screenshot werden die einzelnen Elemente anschließend im Log der Peakboard Box ausgegeben (3).
 Um diese Elemente für Berechnungen, KPIs oder Grafiken nutzen zu können, empfiehlt es sich diese beispielsweise in einer Variablen-Liste zu speichern.
 
 ![img01](/assets/images/misc/ArrayOPCUA/img01.png)
