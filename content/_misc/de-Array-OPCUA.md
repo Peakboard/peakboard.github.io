@@ -18,3 +18,9 @@ Im Screenshot werden die einzelnen Elemente anschließend im Log des Peakboards 
 Um diese Elemente für Berechnungen, KPIs oder Grafiken nutzen zu können, empfiehlt es sich diese beispielsweise in einer Variablen-Liste zu speichern.
 
 ![img01](/assets/images/misc/ArrayOPCUA/img01.png)
+
+```lua
+for index = 0, message.itemValue.length - 1 do
+	peakboard.log(message.itemValue[index])
+end
+```
