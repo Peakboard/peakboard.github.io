@@ -14,7 +14,7 @@ Conditional formatting allows you to change different properties of a control ba
 To define a conditional formatting for a control, first drag the desired control, in this case a rectangle, onto the surface (1).
 Under the category Appearance you will now find the property "Conditional Formatting" (2)
 
-img01](/assets/images/Controls/ConditionalFormatting/img01.png)
+![img01](/assets/images/Controls/ConditionalFormatting/img01.png)
 
 This consists essentially of four elements.
 The text field shows whether and how many rules have been created for this element.
