@@ -16,7 +16,7 @@ Unter der Rubrik Aussehen findet sich nun die Eigenschaft "Bedingte Formatierung
 
 ![img01](/assets/images/Controls/ConditionalFormatting/img01.png)
 
-Diese besteht im wesentlichen aus vier Elementen.
+Diese besteht im Wesentlichen aus vier Elementen.
 Das Textfeld zeigt an, ob und wie viele Regeln für dieses Element angelegt wurden.
 Der Mülleimer erlaubt es alle Regeln zu löschen.
 Mit Hilfe des Kopiersymbols können Regeln einfach kopiert und auf andere Controls angewendet werden, ohne neu definiert zu werden müssen.
@@ -28,7 +28,7 @@ Das vierte und letzte Symbol in der Zeile öffnet den Regeleditor für die bedin
 Hier kann zunächst ein Name für die Regel zur einfacheren Identifikation vergeben werden (1).
 Der Regeleditor selbst beruht auf einem simplen Wenn-Dann Konzept.
 Im IF-Statement wird definiert, wann die Regel ausgeführt werden soll (2), während im THEN-Statement die entsprechende Aktion festgelegt wird (3).
-Je nach Control-Typ können controlspezifische Eigenschaften verändert werden.
+Je nach Control-Typ können control-spezifische Eigenschaften verändert werden.
  
  {% include styled_table.html %}
 | Text Control 	| Formen        |
@@ -48,7 +48,7 @@ Je nach Control-Typ können controlspezifische Eigenschaften verändert werden.
 
 ![img03](/assets/images/Controls/ConditionalFormatting/img03.png)
 
-Damit im im IF-Statement eine Bedingung definiert werden kann, benötigt es eine Datenquelle oder Variable, welche später das THEN-Ereignis auslöst.
+Damit im IF-Statement eine Bedingung definiert werden kann, benötigt es eine Datenquelle oder Variable, welche später das THEN-Ereignis auslöst.
 Hier wurde eine Variable ProdKPI1 (1) vom Typ Number angelegt, welche beispielsweise die Tagesproduktion wiederspiegelt.
 Im Beispiel, soll wenn eine Tagesproduktion von 100 erreicht ist, das Rechteck grün eingefärbt werden.
 Zunächst wird über die Schaltfläche AND-Condition die gewünschte Bedingung festgelegt.
