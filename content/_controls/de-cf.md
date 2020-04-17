@@ -44,6 +44,7 @@ Je nach Control-Typ können control-spezifische Eigenschaften verändert werden.
 | Links  		| Sichtbar 		|
 | Sichtbar  	|  			 	|
 
+
 Über die Schaltfläche "Add new rule" lassen sich für das Control weitere Regeln festlegen (4).
 
 ![img03](/assets/images/Controls/ConditionalFormatting/img03.png)

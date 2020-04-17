@@ -44,6 +44,7 @@ Depending on the control type, control-specific properties can be changed.
 | Left | Visible |
 | Visible ||
 
+
 With the button "Add new rule" further rules can be defined for the control (4).
 
 ![img03](/assets/images/Controls/ConditionalFormatting/img03.png)
