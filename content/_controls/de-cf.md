@@ -12,7 +12,7 @@ redirect_from:
 Die bedingte Formatierung erlaubt es, unterschiedliche Eigenschaften eines Controls aufgrund eines definierten Ereignisses zu verändern, ohne dabei auf komplexe Skripte zurückzugreifen müssen.
 
 Um für ein Control eine bedingte Formatierung festzulegen wird zunächst das gewünschte Control, hier ein Rechteck, auf die Oberfläche gezogen (1).
-Unter der Rubrik Aussehen findet sich nun die Eigenschaft "Bedingte Formatierung" (2)
+Unter der Rubrik Aussehen findet sich nun die Eigenschaft "Bedingte Formatierung" (2).
 
 ![img01](/assets/images/Controls/ConditionalFormatting/img01.png)
 
@@ -53,13 +53,13 @@ Damit im IF-Statement eine Bedingung definiert werden kann, benötigt es eine Da
 Hier wurde eine Variable ProdKPI1 (1) vom Typ Number angelegt, welche beispielsweise die Tagesproduktion wiederspiegelt.
 Im Beispiel, soll wenn eine Tagesproduktion von 100 erreicht ist, das Rechteck grün eingefärbt werden.
 Zunächst wird über die Schaltfläche AND-Condition die gewünschte Bedingung festgelegt.
-Dazu wird einmal die Variable über das Verkettungssymbol ausgewählt und anschließend der für die Erfüllung der Bedingung notwendige Operator (gleich =, größer >, kleiner <, ungleich <>) festgelegt.
+Dazu wird einmal die Variable über das Verknüpfungssymbol ausgewählt und anschließend der für die Erfüllung der Bedingung notwendige Operator (gleich =, größer >, kleiner <, ungleich <>) festgelegt.
 Im dritten Feld des IF-Statements steht die Vergleichsgröße.
 Dies kann wie hier ein fest definierter Wert oder ebenfalls eine Variable oder Wert aus einer Datenquelle sein (2).
 
 Bei Bedarf können weitere AND beziehungsweise OR Bedingungen definiert werden (3).
 
-Im THEN-Statement wird festgelegt nun die Aktion festgelegt, welche bei Erfüllung von (2) ausgeführt werden soll.
+Im THEN-Statement wird nun die Aktion festgelegt, welche bei Erfüllung von (2) ausgeführt werden soll.
 In diesem Fall soll der Hintergrund grün eingefärbt werden (4).
 
 Über die Schaltfläche "Add formatting" können zusätzliche Aktionen festgelegt werden, welche bei Erfüllung der Bedingung ausgeführt werden sollen.

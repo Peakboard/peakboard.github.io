@@ -12,7 +12,7 @@ redirect_from:
 Conditional formatting allows you to change different properties of a control based on a defined event without having to resort to complex scripts.
 
 To define a conditional formatting for a control, first drag the desired control, in this case a rectangle, onto the surface (1).
-Under the category Appearance you will now find the property "Conditional Formatting" (2)
+Under the category Appearance you will now find the property "Conditional Formatting" (2).
 
 ![img01](/assets/images/Controls/ConditionalFormatting/img01.png)
 
@@ -52,7 +52,7 @@ With the button "Add new rule" further rules can be defined for the control (4).
 In order to define a condition in the IF statement, it needs a data source or variable that later triggers the THEN event.
 Here, a variable ProdKPI1 (1) of the type Number was created, which, for example, reflects the daily production.
 In the example, if a daily production of 100 is reached, the rectangle should be colored green.
-First of all, the AND-Condition button is used to define the desired condition.
+First, the AND-Condition button is used to define the desired condition.
 To do this, select the variable using the concatenation symbol and then define the operator required to fulfill the condition (equal =, greater >, smaller <, not equal <>).
 The third field of the IF statement contains the comparison value.
 As here, this can be a permanently defined value or also a variable or value from a data source (2).
