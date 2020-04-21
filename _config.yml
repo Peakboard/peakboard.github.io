@@ -49,6 +49,10 @@ collections:
         en: "SAP"
         de: "SAP"
         cn: "SAP"
+      Extension:
+        en: "Extension"
+        de: "Extension"
+        cn: "Extension"       
 
   dataflows:
     output: true
