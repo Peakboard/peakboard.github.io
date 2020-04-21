@@ -4,8 +4,8 @@ title: Extension
 menu_title: Extension
 description: Information über das Extension Kit
 lang: de
-weight: 3000
-ref: dat-3000
+weight: 3500
+ref: dat-3500
 redirect_from:
 ---
 
