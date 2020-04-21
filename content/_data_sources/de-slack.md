@@ -4,8 +4,8 @@ title: Slack
 menu_title: Slack
 description: Information über Slack Daten in Peakboard
 lang: de
-weight: 2500
-ref: dat-2500
+weight: 1900
+ref: dat-1900
 redirect_from:
   - /data_sources/25-de-slack.html
 ---
