@@ -4,8 +4,8 @@ title: Schreiben in einen SAP Funktionsbaustein
 menu_title: Schreiben in einen SAP Funktionsbaustein
 description: Schreiben in einen SAP Funktionsbaustein
 lang: de
-weight: 20101
-ref: dat-20101
+weight: 1150
+ref: dat-1150
 ---
 
 Im SAP kann über Peakboard ein beliebiger Funktionsbaustein des SAP Systems aufgerufen werden. Dabei ist es wichtig, dass dieser Funktionsbaustein Remote-fähig ist. Über Peakboard kann der Funktionsbaustein (Z_Function_Module) aufgerufen werden und Exportparameter übergeben werden. Diese können dann innerhalb des Funktionsbausteins auf der Seite von SAP beliebig weiterverarbeitet werden.

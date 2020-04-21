@@ -4,8 +4,8 @@ title: Excel
 menu_title: Excel
 description: Peakboard中Excel数据的有关信息
 lang: cn
-weight: 1300
-ref: dat-1300
+weight: 1500
+ref: dat-1500
 redirect_from:
   - /cn/datasources-excel/
   - /data_sources/13-cn-excel.html

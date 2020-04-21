@@ -4,8 +4,8 @@ title: MQTT代理
 menu_title: MQTT代理
 description: Peakboard中MQTT代理数据的相关信息
 lang: cn
-weight: 1800
-ref: dat-1800
+weight: 2300
+ref: dat-2300
 redirect_from:
   - /data_sources/18-cn-mqtt-broker.html
 ---

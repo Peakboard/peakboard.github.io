@@ -4,8 +4,8 @@ title: Microsoft日历
 menu_title: Microsoft日历
 description: Peakboard中Microsoft日历集成
 lang: cn
-weight: 2400
-ref: cal-2400
+weight: 1000
+ref: cal-1000
 redirect_from:
   - /data_sources/24-cn-microsoft-calendar.html
 ---

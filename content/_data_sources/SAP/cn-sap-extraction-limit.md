@@ -4,8 +4,8 @@ title: 读取包含多列数据的SAP表
 menu_title: Reading SAP Tables with Many Columns
 description: 读取包含多列数据的SAP表
 lang: cn
-weight: 20001
-ref: dat-20001
+weight: 1140
+ref: dat-1140
 ---
 
 您可以在此参阅Z_XTRACT_IS_TABLE功能模块的手动安装指南。

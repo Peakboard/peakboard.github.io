@@ -4,8 +4,8 @@ title: Peakboard-Bridge für ODBC und Oracle
 menu_title: Peakboard-Bridge für ODBC und Oracle
 description: Peakboard-Bridge für ODBC und Oracle
 lang: de
-weight: 1400
-ref: dat-1400
+weight: 1700
+ref: dat-1700
 redirect_from:
   - /data_sources/14-de-peakboard-bridge.html
 ---

@@ -4,8 +4,8 @@ title: Twitter
 menu_title: Twitter
 description: Peakboard中Twitter数据的相关信息
 lang: cn
-weight: 1700
-ref: dat-1700
+weight: 2000
+ref: dat-2000
 redirect_from:
   - /data_sources/17-cn-twitter.html
 ---

@@ -4,8 +4,8 @@ title: 日期和时间
 menu_title: 日期和时间
 description: Peakboard中的日期和时间数据相关信息
 lang: cn
-weight: 200
-ref: dat-200
+weight: 300
+ref: dat-300
 redirect_from:
   - /data_sources/02-cn-date-and-time.html
 ---

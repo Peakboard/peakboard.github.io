@@ -4,8 +4,8 @@ title: 通过ODBC集成Excel
 menu_title: 通过ODBC集成Excel
 description: 通过ODBC集成Excel
 lang: cn
-weight: 3100
-ref: dat-3100
+weight: 1510
+ref: dat-1510
 redirect_from:
   - /data_sources/31-cn-ODBC-Excel.html
 ---

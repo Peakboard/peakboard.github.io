@@ -4,8 +4,8 @@ title: 西门子S7
 menu_title: 西门子S7
 description: Peakboard中西门子S7数据的相关信息
 lang: cn
-weight: 2100
-ref: dat-2100
+weight: 2500
+ref: dat-2500
 redirect_from:
   - /data_sources/21-cn-siemens-s7.html
 ---

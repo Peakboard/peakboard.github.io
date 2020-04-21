@@ -4,8 +4,8 @@ title: Microsoft Dynamics NAV
 menu_title: Microsoft Dynamics NAV
 description: Peakboard中Microsoft Dynamics NAV的相关信息
 lang: cn
-weight: 1500
-ref: dat-1500
+weight: 1800
+ref: dat-1800
 redirect_from:
   - /data_sources/15-cn-microsoft-dynamics.html
 ---

@@ -4,8 +4,8 @@ title: SAP功能模块数据写入
 menu_title: Writing to an SAP function module
 description: 向SAP功能模块写入数据
 lang: cn
-weight: 20101
-ref: dat-20101
+weight: 1150
+ref: dat-1150
 ---
 
 SAP系统中的任何功能模块都可通过Peakboard调用，但需要启用功能模块的远程访问选项，这一点非常重要。 您可以使用Peakboard调用功能模块(Z_Function_Module)，并将其导出参数传输给Peakboard。随后，您就可以在SAP端的功能模块中进一步处理这些导出参数。

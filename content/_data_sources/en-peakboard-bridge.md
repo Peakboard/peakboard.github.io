@@ -4,8 +4,8 @@ title: Peakboard Bridge
 menu_title: Peakboard Bridge
 description: Information about Peakboard Bridge Data in Peakboard
 lang: en
-weight: 1400
-ref: dat-1400
+weight: 1700
+ref: dat-1700
 redirect_from:
   - /data_sources/14-en-peakboard-bridge.html
 ---

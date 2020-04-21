@@ -4,8 +4,8 @@ title: Integrating Excel via ODBC
 menu_title: Integrating Excel via ODBC
 description: Integrating Excel via ODBC
 lang: en
-weight: 3100
-ref: dat-3100
+weight: 1510
+ref: dat-1510
 redirect_from:
   - /data_sources/31-en-ODBC-Excel.html
 ---

@@ -4,8 +4,8 @@ title: OPC UA
 menu_title: OPC UA
 description: Information über OPC UA Daten in Peakboard
 lang: de
-weight: 2200
-ref: dat-2200
+weight: 2400
+ref: dat-2400
 redirect_from: 
   - /datenquellen-opc-ua/
   - /data_sources/22-de-opc-ua.html

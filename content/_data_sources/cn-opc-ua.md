@@ -4,8 +4,8 @@ title: OPC UA
 menu_title: OPC UA
 description: Peakboard中OPC UA数据的相关信息
 lang: cn
-weight: 2200
-ref: dat-2200
+weight: 2400
+ref: dat-2400
 redirect_from: 
   - /cn/datasources-mqtt-broker/
   - /data_sources/22-cn-opc-ua.html

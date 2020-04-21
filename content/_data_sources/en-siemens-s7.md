@@ -4,8 +4,8 @@ title: Siemens S7
 menu_title: Siemens S7
 description: Information about Siemens S7 Data in Peakboard
 lang: en
-weight: 2100
-ref: dat-2100
+weight: 2500
+ref: dat-2500
 redirect_from:
   - /data_sources/21-en-siemens-s7.html
 ---

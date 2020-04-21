@@ -4,8 +4,8 @@ title: Extension
 menu_title: Extension
 description: Information about the Peakboard Extension Kit
 lang: en
-weight: 3500
-ref: dat-3500
+weight: 2600
+ref: dat-2600
 redirect_from:
 ---
 

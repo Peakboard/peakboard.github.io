@@ -4,8 +4,8 @@ title: LUA Script Data
 menu_title: LUA Script Data
 description: Information about LUA Script Data  in Peakboard
 lang: en
-weight: 300
-ref: dat-300
+weight: 200
+ref: dat-200
 redirect_from:
   - /data_sources/03-en-lua-script-table.html
 ---

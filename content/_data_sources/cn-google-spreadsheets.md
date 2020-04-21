@@ -4,8 +4,8 @@ title: Google电子表格
 menu_title: Google电子表格
 description: Google电子表格
 lang: cn
-weight: 3000
-ref: dat-3000
+weight: 1600
+ref: dat-1600
 redirect_from:
   - /data_sources/30-cn-google-spreadsheets.html
 ---

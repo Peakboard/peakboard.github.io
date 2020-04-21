@@ -4,8 +4,8 @@ title: Google Spreadsheets
 menu_title: Google Spreadsheets
 description: Google Spreadsheets
 lang: en
-weight: 3000
-ref: dat-3000
+weight: 1600
+ref: dat-1600
 redirect_from:
   - /data_sources/30-en-google-spreadsheets.html
 ---

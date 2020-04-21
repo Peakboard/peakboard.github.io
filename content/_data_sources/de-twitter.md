@@ -4,8 +4,8 @@ title: Twitter
 menu_title: Twitter
 description: Information über Twitter Daten in Peakboard
 lang: de
-weight: 1700
-ref: dat-1700
+weight: 2000
+ref: dat-2000
 redirect_from:
   - /data_sources/17-de-twitter.html
 ---

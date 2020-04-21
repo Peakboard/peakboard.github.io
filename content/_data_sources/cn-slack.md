@@ -4,8 +4,8 @@ title: Slack
 menu_title: Slack
 description: Peakboard中Slack数据的相关信息
 lang: cn
-weight: 2500
-ref: dat-2500
+weight: 1900
+ref: dat-1900
 redirect_from:
   - /data_sources/25-cn-slack.html
 ---

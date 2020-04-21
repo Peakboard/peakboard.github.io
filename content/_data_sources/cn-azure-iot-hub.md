@@ -4,8 +4,8 @@ title: Azure IoT中心
 menu_title: Azure IoT中心
 description: Peakboard中Azure IoT中心数据相关信息
 lang: cn
-weight: 2000
-ref: dat-2000
+weight: 2100
+ref: dat-2100
 redirect_from:
   - /data_sources/20-cn-azure-iot-hub.html
 ---

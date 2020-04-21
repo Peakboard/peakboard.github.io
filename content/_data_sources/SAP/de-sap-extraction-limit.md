@@ -4,8 +4,8 @@ title: SAP Tabellen mit vielen Spalten auslesen
 menu_title: SAP Tabellen mit vielen Spalten auslesen
 description: SAP Tabellen mit vielen Spalten auslesen
 lang: de
-weight: 20001
-ref: dat-20001
+weight: 1140
+ref: dat-1140
 ---
 
 Hier finden Sie die Anleitung zur manuellen Installation des Funktionsbausteins Z_XTRACT_IS_TABLE.

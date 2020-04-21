@@ -4,8 +4,8 @@ title: MS SQL Server
 menu_title: MS SQL Server
 description: Peakboard中的MS SQL Server数据的相关信息
 lang: cn
-weight: 1250
-ref: dat-1250
+weight: 1200
+ref: dat-1200
 redirect_from:
   - /data_sources/12-5-cn-ms-sql-server.html
 ---

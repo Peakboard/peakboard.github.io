@@ -4,8 +4,8 @@ title: Funktionsbaustein für SAP Reports installieren
 menu_title: Funktionsbaustein für SAP Reports installieren
 description: Funktionsbaustein für SAP Reports installieren
 lang: de
-weight: 1100
-ref: dat-1100
+weight: 1110
+ref: dat-1110
 redirect_from:
   - /data_sources/SAP/11-de-sap-reports.html
 ---

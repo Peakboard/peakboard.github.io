@@ -4,8 +4,8 @@ title: Installing Function Modules for SAP Reports
 menu_title: Installing Function Modules for SAP Reports
 description: Installing Function Modules for SAP Reports Tutorial
 lang: en
-weight: 1100
-ref: dat-1100
+weight: 1110
+ref: dat-1110
 redirect_from:
   - /data_sources/SAP/11-en-sap-reports.html
 ---

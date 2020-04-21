@@ -4,8 +4,8 @@ title: 安装SAP报告功能模块
 menu_title: 安装SAP报告功能模块
 description: 安装SAP报告功能模块的教程
 lang: cn
-weight: 1100
-ref: dat-1100
+weight: 1110
+ref: dat-1110
 redirect_from:
   - /data_sources/SAP/11-cn-sap-reports.html
 ---

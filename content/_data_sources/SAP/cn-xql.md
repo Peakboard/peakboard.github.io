@@ -4,8 +4,8 @@ title: SAP与XQL
 menu_title: XQL
 description: 关于XQL使用的信息
 lang: cn
-weight: 2000
-ref: dat-sap-2000
+weight: 1120
+ref: dat-sap-1120
 redirect_from:
   - /data_sources/SAP/20-cn-xql.html
 ---

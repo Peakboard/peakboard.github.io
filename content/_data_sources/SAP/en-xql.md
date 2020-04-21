@@ -4,8 +4,8 @@ title: SAP with XQL
 menu_title: XQL
 description:  Information about the use of XQL
 lang: en
-weight: 2000
-ref: dat-sap-2000
+weight: 1120
+ref: dat-sap-1120
 redirect_from:
   - /data_sources/SAP/20-en-xql.html
 ---

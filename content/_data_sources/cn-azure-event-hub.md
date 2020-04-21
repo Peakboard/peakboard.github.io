@@ -4,8 +4,8 @@ title: Azure事件中心
 menu_title: Azure事件中心
 description: Peakboard中Azure事件中心数据的相关信息
 lang: cn
-weight: 1900
-ref: dat-1900
+weight: 2200
+ref: dat-2200
 redirect_from:
   - /data_sources/19-cn-azure-event-hub.html
 ---

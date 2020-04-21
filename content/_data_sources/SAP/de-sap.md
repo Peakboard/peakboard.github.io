@@ -4,8 +4,8 @@ title: SAP
 menu_title: SAP
 description: Information über SAP Daten in Peakboard
 lang: de
-weight: 1000
-ref: dat-1000
+weight: 1100
+ref: dat-1100
 redirect_from:
   - /data_sources/SAP/10-de-sap.html
 ---

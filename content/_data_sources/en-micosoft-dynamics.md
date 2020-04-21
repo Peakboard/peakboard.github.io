@@ -4,8 +4,8 @@ title: Microsoft Dynamics NAV
 menu_title: Microsoft Dynamics NAV
 description: Information about Microsoft Dynamics NAV Data in Peakboard
 lang: en
-weight: 1500
-ref: dat-1500
+weight: 1800
+ref: dat-1800
 redirect_from:
   - /data_sources/15-en-microsoft-dynamics.html
 ---

@@ -4,8 +4,8 @@ title: SAP
 menu_title: SAP
 description: Peakboard中关于SAP数据的信息
 lang: cn
-weight: 1000
-ref: dat-1000
+weight: 1100
+ref: dat-1100
 redirect_from:
   - /data_sources/SAP/10-cn-sap.html
 ---

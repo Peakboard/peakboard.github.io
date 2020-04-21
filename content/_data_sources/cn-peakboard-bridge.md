@@ -4,8 +4,8 @@ title: Peakboard Bridge
 menu_title: Peakboard Bridge
 description: Peakboard中Peakboard Bridge数据的有关信息
 lang: cn
-weight: 1400
-ref: dat-1400
+weight: 1700
+ref: dat-1700
 redirect_from:
   - /data_sources/14-cn-peakboard-bridge.html
 ---

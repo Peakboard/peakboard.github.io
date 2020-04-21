@@ -4,8 +4,8 @@ title: Reading SAP Tables with Many Columns
 menu_title: Reading SAP Tables with Many Columns
 description: Reading SAP Tables with Many Columns
 lang: en
-weight: 20001
-ref: dat-20001
+weight: 1140
+ref: dat-1140
 ---
 
 Here you will find instructions for the manual installation of the function module Z_XTRACT_IS_TABLE.

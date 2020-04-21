@@ -4,8 +4,8 @@ title: LUA脚本数据
 menu_title: LUA脚本数据
 description: Peakboard中LUA脚本数据的相关信息
 lang: cn
-weight: 300
-ref: dat-300
+weight: 200
+ref: dat-200
 redirect_from:
   - /data_sources/03-cn-lua-script-table.html
 ---
