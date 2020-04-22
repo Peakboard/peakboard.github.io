@@ -8,6 +8,7 @@ weight: 101
 ref: con-101
 redirect_from:
 ---
+![img00](/assets/images/Controls/ConditionalFormatting/img00.png)
 
 Die bedingte Formatierung erlaubt es, unterschiedliche Eigenschaften eines Controls aufgrund eines definierten Ereignisses zu verändern, ohne dabei auf komplexe Skripte zurückzugreifen müssen.
 

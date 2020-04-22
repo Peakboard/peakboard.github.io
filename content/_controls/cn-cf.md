@@ -8,6 +8,7 @@ weight: 101
 ref: con-101
 redirect_from:
 ---
+![img00](/assets/images/Controls/ConditionalFormatting/img00.png)
 
 “条件式属性调整”能让您无需使用复杂的脚本，凭借定义事件即可修改控件的不同属性。
 

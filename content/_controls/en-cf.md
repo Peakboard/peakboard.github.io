@@ -8,6 +8,7 @@ weight: 101
 ref: con-101
 redirect_from:
 ---
+![img00](/assets/images/Controls/ConditionalFormatting/img00.png)
 
 Conditional formatting allows you to change different properties of a control based on a defined event without having to resort to complex scripts.
 
