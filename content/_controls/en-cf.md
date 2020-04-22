@@ -21,7 +21,7 @@ This consists essentially of four elements.
 The text field shows whether and how many rules have been created for this element.
 The trash can allows you to delete all rules.
 With the help of the copy icon rules can easily be copied and applied to other controls without having to be redefined.
-The fourth and last icon in the line opens the rule editor for conditional formatting.
+The fourth and last icon opens the rule editor for conditional formatting.
 
 ![img02](/assets/images/Controls/ConditionalFormatting/img02.png)
 

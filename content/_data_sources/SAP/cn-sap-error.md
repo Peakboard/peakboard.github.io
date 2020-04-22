@@ -4,8 +4,8 @@ title: SAP报错信息
 menu_title: SAP报错信息
 description: SAP报错信息
 lang: cn
-weight: 20000
-ref: dat-20000
+weight: 1130
+ref: dat-1130
 ---
 
 ## ERROR service ‚?‘ unknown or service sapms unknown

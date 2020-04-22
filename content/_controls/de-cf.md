@@ -21,7 +21,7 @@ Diese besteht im Wesentlichen aus vier Elementen.
 Das Textfeld zeigt an, ob und wie viele Regeln für dieses Element angelegt wurden.
 Der Mülleimer erlaubt es alle Regeln zu löschen.
 Mit Hilfe des Kopiersymbols können Regeln einfach kopiert und auf andere Controls angewendet werden, ohne neu definiert zu werden müssen.
-Das vierte und letzte Symbol in der Zeile öffnet den Regeleditor für die bedingte Formatierung.
+Das vierte und letzte Symbol öffnet den Regeleditor für die bedingte Formatierung.
 
 ![img02](/assets/images/Controls/ConditionalFormatting/img02.png)
 
