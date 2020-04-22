@@ -28,3 +28,6 @@ The installation takes about 30 minutes.
 After the initial dashboard is displayed, the Box can be connected to the Peakboard Designer via the displayed IP address.
 You will be asked to enter the previously saved license and name.
 Afterwards the update of the Peakboard 2 Box is finished.
+
+> ## Hint
+> If you have questions or problems, please contact our support team at support@peakboard.com.
