@@ -43,13 +43,14 @@ With the Peakboard 2 Box the communication is done directly.
 
 ### How is a Peakboard Box converted to a Peakboard 2 Box?
 The changeover is free of charge for all customers with a valid [Service Level Agreement (SLA) identification number](https://peakboard.com/wp-content/uploads/2020/03/peakboard-service-level-agreement-en-v3.pdf).
-Anyone who purchases a Peakboard Pro Box or Peakboard Enterprise Box after April 1, 2020 will automatically receive the purchased version as a Peakboard 2 Box.
+Anyone who purchases a Peakboard Pro Box or Peakboard Enterprise Box after Mai 1, 2020 will automatically receive the purchased version as a Peakboard 2 Box.
 
 An existing Peakboard Box can be converted to a Peakboard 2 Box in the following ways:
-* Upgrade of the existing hardware using a Peakboard 2 Upgrade USB stick
-* Replacement of the existing hardware with Peakboard 2 boxes
+* [Upgrade of the existing hardware using a Peakboard 2 Upgrade USB stick](/misc/en-pb2USB.html)
+* Replacement of the existing hardware with Peakboard 2 Boxes
 
 ### What needs to be considered when changing over?
 * The visualization must be saved on the PC before the update, so that it can be reloaded after the update
 * IP addresses may have to be reset after the update
 * Proxy settings must be performed again
+* For an [Update via USB-Stick](/misc/en-pb2USB.html) [name and license](/administration/PB%201.x%20Box/en-1x-change-license.html) must be saved in a separate text document
