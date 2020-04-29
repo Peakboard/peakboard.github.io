@@ -36,7 +36,7 @@ Ebenfalls ist es mit Peakboard 2 Boxen möglich Dateien wie beispielsweise Excel
 
 ### Was ändert sich?
 Da sich das Betriebssystem von Windows 10 IoT Core auf Windows 10 IoT Enterprise geändert hat, fällt das Geräteportal weg.
-Dieses wird durch den Managementportal abgelöst.
+Dieses wird durch das Managementportal abgelöst.
 Die [Peakboard Bridge](/administration/PB%201.x%20Box/de-1x-install.html), welche ein essentieller Bestandteil der Peakboard Box ist, wird nicht weiter zur Unterstützung der Kommunikation benötigt.
 Bei der Peakboard 2 Box erfolgt hier die Kommunikation direkt.
 
