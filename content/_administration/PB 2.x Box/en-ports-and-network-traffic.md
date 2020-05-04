@@ -16,6 +16,7 @@ As is well known, the Peakboard Box communicates with all possible source system
 |-------------|-------------|
 | 8080 | Device Portal of Windows 10 IoT Core (usually not required, or only in rare cases) |
 | 40404 | Communication channel between Peakboard Designer and the box (for administration purposes, is usually often used) |
+| 40405 | Communication channel between Peakboard Designer and the box (for administration purposes, is usually often used) |
 32XX / 33XX | Port for SAP communication, XX is the system number of the SAP system (if used).
 | 1433 | Port for SQL Server (if used) |
 | 80 | Standard port for generic API queries of common Internet services |
