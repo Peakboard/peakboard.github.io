@@ -8,7 +8,8 @@ weight: 10
 ref: misc-10
 ---
 
-## Peakboard 2
+![gif0](/assets/images/misc/pb2/social-media-posting-peakboard2-facebook.gif)
+
 将Peakboard Designer升级至[2.0.0.7](/misc/en-version-history.html)版本之后，客户会在常规的[(UWP)](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide)预览功能之外，获得第二版的[(WPF)](https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019)预览功能。 
 您可以在Designer“设定”中的“关于”对话框，选择相应的勾选框，激活这一最新预览功能。
 这一变化以及Peakboard Box操作系统的相应变化宣告了第二代Peakboard Box的到来。

@@ -10,7 +10,6 @@ ref: misc-10
 
 ![gif0](/assets/images/misc/pb2/social-media-posting-peakboard2-facebook.gif)
 
-## Peakboard 2
 With the update of the Peakboard Designer to version [2.0.0.7](/misc/en-version-history.html) customers receive the [(WPF)](https://docs.microsoft.com/de-de/visualstudio/designers/getting-started-with-wpf?view=vs-2019) preview of version 2 in addition to the well-known [(UWP)](https://docs.microsoft.com/de-de/windows/uwp/get-started/universal-application-platform-guide) preview. 
 This can be activated in the Designer under "Settings" and then in the "About" dialog by checking the checkbox.
 This change and the associated changes to the operating system of the Peakboard Box mark Peakboard 2 Boxes.
