@@ -52,7 +52,11 @@ collections:
       Extension:
         en: "Extension"
         de: "Extension"
-        cn: "Extension"       
+        cn: "Extension"
+      Peakboard Edge:
+        en: "Peakboard Edge"
+        de: "Peakboard Edge"
+        cn: "Peakboard Edge"
 
   dataflows:
     output: true
