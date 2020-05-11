@@ -4,8 +4,8 @@ title: Peakboard Edge Verwalten
 menu_title: Peakboard Edge Verwalten
 description: Information über die Verwaltung eines Peakboard Edge
 lang: de
-weight: 2700
-ref: dat-2700
+weight: 2710
+ref: dat-2710
 redirect_from:
 ---
 

@@ -4,8 +4,8 @@ title: Probleme mit Peakboard Edge
 menu_title: Probleme mit Peakboard Edge
 description: Information über Probleme mit Peakboard Edge
 lang: de
-weight: 2730
-ref: dat-2730
+weight: 2740
+ref: dat-2740
 redirect_from:
 ---
 

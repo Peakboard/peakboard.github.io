@@ -4,8 +4,8 @@ title: Verwenden der Peakboard Edge Datenquelle
 menu_title: Verwenden der Peakboard Edge Datenquelle
 description: Information über die Verwendung der Peakboard Edge Datenquelle
 lang: de
-weight: 2720
-ref: dat-2720
+weight: 2730
+ref: dat-2730
 redirect_from:
 ---
 
