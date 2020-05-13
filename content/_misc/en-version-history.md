@@ -8,9 +8,10 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.2.0.0 (12.05.2020)
+footer: 2.2.0.1 (12.05.2020)
 ---
-## 2.2.0.0 // 1.11.0.0 (12.05.2020)
+## 2.2.0.1 // 1.11.0.1 (12.05.2020)
+* Peakboard Extension Kit for the development of own data sources implemented
 * The Peakboard 2 Preview is now used as the default preview
 * Start page dialog in Designer revised
 * Note in the start page dialog as well as in the canvas of the Peakboard Designer for the availability of a new Peakboard Designer version

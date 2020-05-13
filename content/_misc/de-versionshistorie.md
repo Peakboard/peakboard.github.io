@@ -8,9 +8,10 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.2.0.0 (12.05.2020)
+footer: 2.2.0.1 (12.05.2020)
 ---
-## 2.2.0.0 // 1.11.0.0 (12.05.2020)
+## 2.2.0.1 // 1.11.0.1 (12.05.2020)
+* Peakboard Extension Kit zur Entwicklung eigener Datenquellen implementiert
 * Die Peakboard 2 Preview wird nun standardmäßig als Preview verwendet
 * Startseiten-Dialog im Designer überarbeitet
 * Hinweis im Startseiten-Dialog sowie im Canvas des Peakboard Designer für die Verfügbarkeit einer neuen Peakboard Designer Version
