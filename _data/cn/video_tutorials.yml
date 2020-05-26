@@ -66,5 +66,12 @@
   image: /assets/images/videos/andon_CN.png
   category: More
 
+- title: 轻松制作S7控制器看板
+  description: 使用Peakboard创建西门子S7控制器看板
+  language: cn
+  tencent_id: u0971kew4yx
+  weight: 200
+  image: /assets/images/videos/easy_s7_dashboard_cn.jpg
+  category: Machine Protocols
 
 
