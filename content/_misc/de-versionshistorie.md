@@ -8,8 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.2.0.1 (12.05.2020)
+footer: 2.2.2.1 (26.05.2020)
 ---
+## 2.2.2.1// 1.11.2.1 (26.05.2020)
+* Hotfix für einen Fehler bei dem die Lizenz nicht erkannt wurde
+* Hotfix für einen Fehler bei dem das Ändern des Passworts einer Peakboard 2 Box zu einem Fehler führte
+
 ## 2.2.0.1 // 1.11.0.1 (12.05.2020)
 * Peakboard Extension Kit zur Entwicklung eigener Datenquellen implementiert
 * Die Peakboard 2 Preview wird nun standardmäßig als Preview verwendet
