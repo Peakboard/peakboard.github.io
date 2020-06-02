@@ -8,8 +8,11 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.2.2.1 (26.05.2020)
+footer: 2.2.3.0 (29.05.2020)
 ---
+## 2.2.3.0 (29.05.2020)
+* Hotfix for the Json data source
+
 ## 2.2.2.1// 1.11.2.1 (26.05.2020)
 * Hotfix for an error where the license was not detected
 * Hotfix for an error where changing the password of a Peakboard 2 Box caused an error
