@@ -8,8 +8,48 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.1.1.0 (03.04.2020)
+footer: 2.2.3.0 (29.05.2020)
 ---
+## 2.2.3.0 (29.05.2020)
+* Hotfix für die Json-Datenquelle
+
+## 2.2.2.1// 1.11.2.1 (26.05.2020)
+* Hotfix für einen Fehler bei dem die Lizenz nicht erkannt wurde
+* Hotfix für einen Fehler bei dem das Ändern des Passworts einer Peakboard 2 Box zu einem Fehler führte
+
+## 2.2.0.1 // 1.11.0.1 (12.05.2020)
+* Peakboard Extension Kit zur Entwicklung eigener Datenquellen implementiert
+* Die Peakboard 2 Preview wird nun standardmäßig als Preview verwendet
+* Startseiten-Dialog im Designer überarbeitet
+* Hinweis im Startseiten-Dialog sowie im Canvas des Peakboard Designer für die Verfügbarkeit einer neuen Peakboard Designer Version
+* News-Sektion zum Startseiten-Dialog hinzugefügt
+* Video-Sektion zum Startseiten-Dialog hinzugefügt
+* Die Getting-Started-Visualisierung wird nun standardmäßig angezeigt, wenn keine andere Visualisierung aktiv ist
+* Tile Controls: Über einen Rechtsklick auf das Control kann der Template Selector sowie die bedingte Formatierung aufgerufen werden
+* Json-Datenquelle überarbeitet
+* CSV-Datenquelle überarbeitet
+* XML-Datenquelle überarbeitet
+* Excel-Datenquelle Markierung für die Auswahl des Datentyps hinzugefügt
+* Geräteportal für Peakboard 2 Boxen entfernt
+* Lizenzmodel um Peakboard Basic erweitert sowie für Professional und Enterprise überarbeitet
+* SharePoint-Datenquelle Dokumente der Hauptseite sind nun verfügar
+* Icons im Manage&Upload-Dialog aktualisiert
+* Icons für die Bearbeitung der Schritte eines Dataflows aktualisiert
+* Anzeigetext mehrerer Fehlermeldungen überarbeitet 
+* Dataflows ermöglichen es tabelarische Datenquellen zu transponieren
+* Dialog zur Datenanbindung für mehrere Controls überarbeitet
+* Lua-Snippets für den Editor der List- oder TileViews hinzugefügt
+* In der bedingten Formatierung kann nun auch der Rahmen, bei Controls mit Rahmen,  in Regeln verändert werden
+* Fix für einen Fehler beim Kopieren der bedingten Formatieren innerhalb des Editors für List- oder TileViews
+* Fix für einen Fehler beim Hinzufügen eines Textes an einen Button innerhalb des Editors für List-oder TileViews
+* Fix für einen Fehler bei dem für eine einzelne Variable ein Dataflow angelegt werden konnte
+* Fix für einen kritischen Fehler beim Ändern der Auflösung im Set Resolution Dialog
+* Fix für einen Fehler im Dataflow bei dem die Manipulation der Daten im Designer nicht angezeigt wurde
+* Fix für einen Fehler in der SQL-Datenquelle bei dem Null-Werte nicht korrekt verarbeitet wurden
+* Fix für einen Fehler bei dem eine SQL-Datenbank temporär gesperrt war nachdem die Peakboard Box die Verbindung aufgrund eines Stromverlusts verloren hatte
+* Fix für einen Fehler bei dem die IP von Peakboard 2 Boxen nicht im Designer gespeichert wurde
+* Fix für einen Fehler bei dem ein gesperrtes Element auf der Zeichenfläche die Bearbeitung eines darunterliegenden Elements verhinderte
+* Fix für einen Fehler bei dem die Peakboard 2 Preview nicht auf einem Windows 7 Gerät ausgeführt werden konnte
 
 ## 2.1.1.0 // 1.10.1.0 (03.04.2020)
 * Fix für die Datenverknüpfung von Spalten, welche mit einer Zahl beginnen

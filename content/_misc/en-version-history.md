@@ -8,9 +8,48 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.1.1.0 (03.04.2020)
+footer: 2.2.3.0 (29.05.2020)
 ---
+## 2.2.3.0 (29.05.2020)
+* Hotfix for the Json data source
 
+## 2.2.2.1// 1.11.2.1 (26.05.2020)
+* Hotfix for an error where the license was not detected
+* Hotfix for an error where changing the password of a Peakboard 2 Box caused an error
+
+## 2.2.0.1 // 1.11.0.1 (12.05.2020)
+* Peakboard Extension Kit for the development of own data sources implemented
+* The Peakboard 2 Preview is now used as the default preview
+* Start page dialog in Designer revised
+* Note in the start page dialog as well as in the canvas of the Peakboard Designer for the availability of a new Peakboard Designer version
+* News section added to the home page dialog
+* Video section added to the home page dialog
+* The Getting-Started visualization is now displayed by default if no other visualization is active
+* Tile Controls: Right-click on the control to call the Template Selector and the conditional formatting
+* Json data source revised
+* CSV data source revised
+* XML data source revised
+* Excel data source marker added for selecting the data type
+* Device portal for Peakboard 2 boxes removed
+* License model extended by Peakboard Basic and revised for Professional and Enterprise
+* SharePoint data source documents of the main page are now available
+* Icons in Manage&Upload dialog updated
+* Icons for editing the steps of a dataflow updated
+* Display text of several error messages revised 
+* Dataflows allow to transpose tabular data sources
+* Dialog for data binding for several controls revised
+* Lua snippets for the editor of the List- or TileViews added
+* In conditional formatting, the frame can now also be changed to rules for controls with frames
+* Fix for an error when copying the conditional formatting within the editor for List- or TileViews
+* Fix for an error when adding text to a button within the editor for List or TileViews
+* Fix for an error where a dataflow could be created for a single variable
+* Fix for a critical error when changing the resolution in the Set Resolution dialog
+* Fix for an error in the dataflow where the manipulation of the data was not displayed in the designer
+* Fix for an error in the SQL data source where null values were not processed correctly
+* Fix for an error where an SQL database was temporarily locked after the Peakboard Box lost the connection due to a power loss
+* Fix for an error where the IP of Peakboard 2 boxes was not saved in the designer
+* Fix for an error where a locked element on the drawing area prevented the processing of an underlying element
+* Fix for an error where Peakboard 2 Preview could not run on a Windows 7 device
 
 ## 2.1.1.0 // 1.10.1.0 (03.04.2020)
 * Fix for data binding of columns starting with a number
