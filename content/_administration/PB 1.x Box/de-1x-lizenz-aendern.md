@@ -5,7 +5,7 @@ menu_title:  Lizenz ändern
 description:  Lizenz ändern
 lang: de
 weight: 500
-ref: admin-500
+ref: pb1-admin-500
 redirect_from:
   - /administration/05-de-lizenz-aendern.html
 ---

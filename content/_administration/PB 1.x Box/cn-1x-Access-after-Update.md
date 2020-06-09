@@ -5,7 +5,7 @@ menu_title: 在Windows更新后，无法再通过Peakboard Designer访问Peakboa
 description: 在Windows更新后，无法再通过Peakboard Designer访问Peakboard
 lang: cn
 weight: 1500
-ref: admin-1500
+ref: pb1-admin-1500
 redirect_from:
   - /administration/15-cn-Access-after-Update.html
 ---

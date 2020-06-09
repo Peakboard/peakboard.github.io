@@ -5,7 +5,7 @@ menu_title: Ports und Netzwerktraffic
 description: Ports und Netzwerktraffic
 lang: de
 weight: 2000
-ref: admin-2000
+ref: pb1-admin-2000
 redirect_from:
   - /administration/20-de-ports-und-netzwerk-traffic.html
 ---

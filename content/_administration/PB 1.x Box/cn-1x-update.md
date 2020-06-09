@@ -5,7 +5,7 @@ menu_title: 更新Peakboard Box
 description: 更新Peakboard Box
 lang: cn
 weight: 600
-ref: admin-600
+ref: pb1-admin-600
 redirect_from:
   - /administration/06-cn-update.html
 ---

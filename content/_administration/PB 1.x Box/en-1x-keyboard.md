@@ -5,7 +5,7 @@ menu_title: Change Keyboard Layouts
 description: Change Keyboard Layouts
 lang: en
 weight: 1000
-ref: admin-1000
+ref: pb1-admin-1000
 redirect_from:
   - /administration/10-en-keyboard.html
 ---

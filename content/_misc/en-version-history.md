@@ -10,7 +10,7 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 2.2.3.0 (29.05.2020)
 ---
-## 2.2.3.0 (29.05.2020)
+## 2.2.3.0 (29.05.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EQP4CCKCi59EpNVwfi5N8I4BX24wEvDohztDfXrJhnTlIw?e=wwqEGn)
 * Hotfix for the Json data source
 
 ## 2.2.2.1// 1.11.2.1 (26.05.2020)

@@ -5,7 +5,7 @@ menu_title: 更改键盘布局
 description: 更改键盘布局
 lang: cn
 weight: 1000
-ref: admin-1000
+ref: pb1-admin-1000
 redirect_from:
   - /administration/10-cn-keyboard.html
 ---

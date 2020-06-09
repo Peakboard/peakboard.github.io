@@ -5,7 +5,7 @@ menu_title: Add a certificate
 description: Add a certificate
 lang: en
 weight: 900
-ref: admin-900
+ref: pb1-admin-900
 redirect_from:
   - /administration/09-en-certificats.html
 ---

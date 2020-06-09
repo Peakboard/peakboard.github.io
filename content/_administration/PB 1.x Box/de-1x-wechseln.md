@@ -5,7 +5,7 @@ menu_title: Wechseln der Visualisierung
 description: Wechseln der Visualisierung
 lang: de
 weight: 800
-ref: admin-800
+ref: pb1-admin-800
 redirect_from:
   - /administration/08-de-wechseln.html
 ---

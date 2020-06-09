@@ -5,7 +5,7 @@ menu_title: Installation and Configuration
 description: Installation and Configuration of the Peakboard-Designer
 lang: en
 weight: 100
-ref: admin-100
+ref: pb1-admin-100
 redirect_from:
   - /administration/01-en-install.html
 ---

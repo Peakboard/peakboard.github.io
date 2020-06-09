@@ -5,7 +5,7 @@ menu_title: Change Visualizaion
 description: Change Visualizaion
 lang: en
 weight: 800
-ref: admin-800
+ref: pb1-admin-800
 redirect_from:
   - /administration/08-en-change-visualization.html
 ---

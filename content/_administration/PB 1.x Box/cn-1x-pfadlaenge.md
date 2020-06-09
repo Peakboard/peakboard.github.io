@@ -5,7 +5,7 @@ menu_title: 不受限制的路径长度
 description: 不受限制的路径长度
 lang: cn
 weight: 1200
-ref: admin-1200
+ref: pb1-admin-1200
 redirect_from:
   - /administration/12-cn-pfadlaenge.html
 ---

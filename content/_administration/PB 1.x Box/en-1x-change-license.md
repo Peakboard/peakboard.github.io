@@ -5,7 +5,7 @@ menu_title: Change License
 description: Change License
 lang: en
 weight: 500
-ref: admin-500
+ref: pb1-admin-500
 redirect_from:
   - /administration/05-en-change-license.html
 ---

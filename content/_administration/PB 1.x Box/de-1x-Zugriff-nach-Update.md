@@ -5,7 +5,7 @@ menu_title: Zugriff auf Peakboard über Peakboard Designer nach Windows Update n
 description: Zugriff auf Peakboard über Peakboard Designer nach Windows Update nicht mehr möglich
 lang: de
 weight: 1500
-ref: admin-1500
+ref: pb1-admin-1500
 redirect_from:
   - /administration/15-de-Zugriff-nach-Update.html
 ---

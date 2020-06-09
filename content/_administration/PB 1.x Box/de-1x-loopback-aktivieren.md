@@ -5,7 +5,7 @@ menu_title: Loopback aktivieren
 description: Loopback aktivieren für UWP App
 lang: de
 weight: 1400
-ref: admin-1400
+ref: pb1-admin-1400
 redirect_from:
   - /administration/14-de-loopback-aktivieren.html
 ---

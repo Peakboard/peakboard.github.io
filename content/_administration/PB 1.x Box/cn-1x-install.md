@@ -5,7 +5,7 @@ menu_title: 安装和配置
 description: Peakboard Designer的安装和配置
 lang: cn
 weight: 100
-ref: admin-100
+ref: pb1-admin-100
 redirect_from:
   - /administration/01-cn-install.html
 ---

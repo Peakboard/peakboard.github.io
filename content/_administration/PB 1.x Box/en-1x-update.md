@@ -5,7 +5,7 @@ menu_title: Updating the Peakboard-Box
 description: Updating the Peakboard-Box
 lang: en
 weight: 600
-ref: admin-600
+ref: pb1-admin-600
 redirect_from:
   - /administration/06-en-update.html
 ---

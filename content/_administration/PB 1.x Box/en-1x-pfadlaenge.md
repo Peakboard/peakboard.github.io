@@ -5,7 +5,7 @@ menu_title: Unrestrict path length
 description: Unrestrict path length
 lang: en
 weight: 1200
-ref: admin-1200
+ref: pb1-admin-1200
 redirect_from:
   - /administration/12-en-pfadlaenge.html
 ---

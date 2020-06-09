@@ -5,7 +5,7 @@ menu_title: 用户管理
 description: 用户管理
 lang: cn
 weight: 1300
-ref: admin-1300
+ref: pb1-admin-1300
 redirect_from:
   - /administration/13-cn-user-administration.html
 ---

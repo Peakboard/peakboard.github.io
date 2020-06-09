@@ -5,7 +5,7 @@ menu_title: Internetverbindung mit Proxy-Server einrichten
 description: Internetverbindung mit Proxy-Server einrichten
 lang: de
 weight: 400
-ref: admin-400
+ref: pb1-admin-400
 redirect_from:
   - /administration/04-de-internetverbindung.html
 ---

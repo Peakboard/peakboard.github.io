@@ -5,7 +5,7 @@ menu_title: Installation der Peakboard-Runtime
 description: Installation der Peakboard-Runtime
 lang: de
 weight: 1100
-ref: admin-1100
+ref: pb1-admin-1100
 redirect_from:
   - /administration/11-de-runtime-installation.html
 ---

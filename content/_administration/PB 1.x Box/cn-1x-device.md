@@ -5,7 +5,7 @@ menu_title: 设置Wi-Fi
 description: 设置Wi-Fi
 lang: cn
 weight: 200
-ref: admin-200
+ref: pb1-admin-200
 redirect_from:
   - /administration/02-cn-device.html
 ---

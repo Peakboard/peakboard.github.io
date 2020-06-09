@@ -5,7 +5,7 @@ menu_title: Setting up Wi-Fi
 description: Setting up Wi-Fi
 lang: en
 weight: 200
-ref: admin-200
+ref: pb1-admin-200
 redirect_from:
   - /administration/02-en-device.html
 ---

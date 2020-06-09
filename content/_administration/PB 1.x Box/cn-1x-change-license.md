@@ -5,7 +5,7 @@ menu_title: 更改许可证
 description: 更改许可证
 lang: cn
 weight: 500
-ref: admin-500
+ref: pb1-admin-500
 redirect_from:
   - /administration/05-cn-change-license.html
 ---

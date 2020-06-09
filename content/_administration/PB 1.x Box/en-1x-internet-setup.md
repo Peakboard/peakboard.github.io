@@ -5,7 +5,7 @@ menu_title: Setting up an Internet Connection With a Proxy Server
 description: Setting up an Internet Connection With a Proxy Server
 lang: en
 weight: 400
-ref: admin-400
+ref: pb1-admin-400
 redirect_from:
   - /administration/04-en-internet-setup.html
 ---

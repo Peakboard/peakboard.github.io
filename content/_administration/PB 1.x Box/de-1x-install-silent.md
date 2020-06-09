@@ -5,7 +5,7 @@ menu_title: Silent Installation
 description: Silent Installation
 lang: de
 weight: 150
-ref: admin-150
+ref: pb1-admin-150
 redirect_from:
 
 ---

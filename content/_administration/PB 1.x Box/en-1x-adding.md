@@ -5,7 +5,7 @@ menu_title: Adding a Peakboard-Box to the Peakboard-Designer
 description: Adding a Peakboard-Box to the Peakboard-Designer
 lang: en
 weight: 700
-ref: admin-700
+ref: pb1-admin-700
 redirect_from:
   - /administration/07-en-adding.html
 ---

@@ -5,7 +5,7 @@ menu_title: WLAN einrichten
 description: WLAN einrichten
 lang: de
 weight: 200
-ref: admin-200
+ref: pb1-admin-200
 redirect_from:
   - /administration/02-de-geraeteadministration.html
 ---

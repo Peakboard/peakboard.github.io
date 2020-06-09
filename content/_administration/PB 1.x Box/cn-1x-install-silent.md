@@ -5,7 +5,7 @@ menu_title: Silent Installation
 description: 使用命令行安装软件
 lang: cn
 weight: 150
-ref: admin-150
+ref: pb1-admin-150
 redirect_from:
 
 ---

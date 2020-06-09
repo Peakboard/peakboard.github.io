@@ -5,7 +5,7 @@ menu_title: Peakboard-Bridge – Installation und Konfiguration
 description: Installation und Konfiguration des Peakboard-Designer
 lang: de
 weight: 100
-ref: admin-100
+ref: pb1-admin-100
 redirect_from:
   - /administration/01-de-install.html
 ---

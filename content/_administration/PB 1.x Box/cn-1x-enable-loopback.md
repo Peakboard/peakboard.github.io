@@ -5,7 +5,7 @@ menu_title: 启用环回
 description: 为UWP应用启用环回
 lang: cn
 weight: 1400
-ref: admin-1400
+ref: pb1-admin-1400
 redirect_from:
   - /administration/14-cn-enable-loopback.html
 ---

@@ -5,7 +5,7 @@ menu_title: 将Peakboard Box添加到Peakboard Designer中
 description: 将Peakboard Box添加到Peakboard Designer中
 lang: cn
 weight: 700
-ref: admin-700
+ref: pb1-admin-700
 redirect_from:
   - /administration/07-cn-adding.html
 ---

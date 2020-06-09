@@ -5,7 +5,7 @@ menu_title: Peakboard Runtime的安装
 description: Peakboard Runtime的安装
 lang: cn
 weight: 1100
-ref: admin-1100
+ref: pb1-admin-1100
 redirect_from:
   - /administration/11-cn-runtime-installation.html
 ---

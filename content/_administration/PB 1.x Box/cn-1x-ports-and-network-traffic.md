@@ -5,7 +5,7 @@ menu_title: 端口和网络流量
 description: 端口和网络流量
 lang: cn
 weight: 2000
-ref: admin-2000
+ref: pb1-admin-2000
 redirect_from:
   - /administration/20-cn-ports-and-network-traffic.html
 ---

@@ -5,7 +5,7 @@ menu_title: User administration
 description: User administration
 lang: en
 weight: 1300
-ref: admin-1300
+ref: pb1-admin-1300
 redirect_from:
   - /administration/13-en-user-administration.html
 ---

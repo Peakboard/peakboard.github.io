@@ -5,7 +5,7 @@ menu_title: Pfadlängenbegrenzung aufheben
 description: Pfadlängenbegrenzung aufheben
 lang: de
 weight: 1200
-ref: admin-1200
+ref: pb1-admin-1200
 redirect_from:
   - /administration/12-de-pfadlaenge.html
 ---

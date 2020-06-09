@@ -5,7 +5,7 @@ menu_title: Hinzufügen eines Zertifikats
 description: Hinzufügen eines Zertifikats
 lang: de
 weight: 900
-ref: admin-900
+ref: pb1-admin-900
 redirect_from:
   - /administration/09-de-zertifikats.html
 ---

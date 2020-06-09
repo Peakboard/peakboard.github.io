@@ -5,7 +5,7 @@ menu_title: Aktualisieren der Peakboard-Box
 description: Aktualisieren der Peakboard-Box
 lang: de
 weight: 600
-ref: admin-600
+ref: pb1-admin-600
 redirect_from:
   - /administration/06-de-Aktualisieren.html
 ---

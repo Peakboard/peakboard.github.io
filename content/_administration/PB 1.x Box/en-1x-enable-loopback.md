@@ -5,7 +5,7 @@ menu_title: Enable loopback
 description: Enable loopback for uwp app
 lang: en
 weight: 1400
-ref: admin-1400
+ref: pb1-admin-1400
 redirect_from:
   - /administration/14-en-enable-loopback.html
 ---

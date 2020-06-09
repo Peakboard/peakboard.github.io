@@ -5,7 +5,7 @@ menu_title: 更改可视化
 description: 更改可视化
 lang: cn
 weight: 800
-ref: admin-800
+ref: pb1-admin-800
 redirect_from:
   - /administration/08-cn-change-visualization.html
 ---
