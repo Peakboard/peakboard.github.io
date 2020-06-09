@@ -19,7 +19,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
 
 collections_dir: content
 collections:
