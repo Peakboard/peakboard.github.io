@@ -95,7 +95,7 @@ footer: 2.2.3.0 (29.05.2020)
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
 
-## 2.0.0.7 // 1.9.0.7 (10.02.2020)  
+## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaC8Bc2W-15HrXrYbCu9BL4BRIZaEQrhMuwUWzQMJMMBjQ?e=pFFAgz)
 * Unterscheidung in der Versionierung für Peakboard 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen

@@ -96,7 +96,7 @@ footer: 2.2.3.0 (29.05.2020)
 * Fix for an error where the preview scaling was not displayed correctly
 
  
-## 2.0.0.7 // 1.9.0.7 (10.02.2020)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaC8Bc2W-15HrXrYbCu9BL4BRIZaEQrhMuwUWzQMJMMBjQ?e=pFFAgz)
 * Differentiation in versioning for Peakboard 2 Boxes (2.x.x.x) and Peakboard Boxes (1.x.x.x)  
 * Change of Peakboard Runtime (Preview) architecture from UWP to WPF
 * Abolition of the Peakboard Bridge for Peakboard 2 Boxes
