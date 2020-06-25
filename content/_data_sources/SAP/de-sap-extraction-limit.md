@@ -39,7 +39,7 @@ Definieren Sie die Ausnahmen (Exceptions) wie im folgenden Screenshot gezeigt.
 
 ### Schritt 5 - Code
 
-Den ABAP-Code finden Sie in der Datei Z_XTRACT_IS_TABLE.txt im Installationsverzeichnis. Sie können den Code einfach per Strg+C und Strg+V in den Quellcode-Editor übernehmen.
+Den ABAP-Code finden Sie in der Datei Z_XTRACT_IS_TABLE.txt welche [hier](https://peakboard.com/download/dokumente/Z_XTRACT_IS_TABLE.txt) heruntergeladen werden kann. Sie können den Code einfach per Strg+C und Strg+V in den Quellcode-Editor übernehmen.
 
 Speichern und Aktivieren Sie den Baustein.
 
