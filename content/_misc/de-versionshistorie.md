@@ -8,8 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.2.3.0 (29.05.2020)
+footer: 2.2.4.2 (25.06.2020)
 ---
+## 2.2.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
+* Hotfix für die Verwendung lokaler Netzwerkressourcen
+* Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
+
 ## 2.2.3.0 (29.05.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EQP4CCKCi59EpNVwfi5N8I4BX24wEvDohztDfXrJhnTlIw?e=wwqEGn)
 * Hotfix für die Json-Datenquelle
 
