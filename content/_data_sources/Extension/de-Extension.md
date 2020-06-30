@@ -26,15 +26,17 @@ Um die Extension dann tatsächlich zu nutzen muss ein zip-File erstellt werden. 
 - Alle zusätzlichen Ressourcen wie Bilder u.Ä.
 - Die Extension.xml-Datei, die die Extension beschreibt
 
-## Beispiele
-Wir haben in unseren [Github-Repository](https://github.com/Peakboard/PeakboardExtensions) einige Extensions veröffentlicht. Es sind sowohl Beispiele darunter, als auch produktiv nutzbare Extensions. Speziell die Beispiele sind einfach gehalten und zeigen schön die anzuwendende Architektur. Jede Extension in diesem Repo liegt im Quellcode vor (Verzeichnis SourceCode) und als fertig vorbereitetes zip zum Einspielen (Binaries).
-Das Github-Repository findet sich [hier](https://github.com/Peakboard/PeakboardExtensions)
+## Klassenarchitektur
+Um eine eine Extension zu bauen, sind mindestens zwei Klassen zu implementieren. Eine die von ExtensionBase erbt und eine, die von CustomListBase erbt. Die ExtensionBase-Klasse muss dann auch in der Extension.xml als Einstiegspunkt wiederauftauchen. 
 
 ## Die Extension.xml-Datei
 Sie beschreibt die Metadaten der Extension. Dabei ist die eindeutige ID der Extension wichtig (einfach aussagekräftiger Name ohne Sonderzeichen), der Pfad (Path) ist der Name der Extension-Dll, und die Extension-Class im Projekt mit vorangestelltem Namespace. Kopieren Sie sich bitte einfach ein Extension.xml-Datei aus den Beispielen und modifizieren SIe sie entsprechend. Es macht keinen Sinn, das Xml von Hand zu schreiben. 
 
-## Klassenarchitektur
-Um eine eine Extension zu bauen, sind mindestens zwei Klassen zu implementieren. Eine die von ExtensionBase erbt und eine, die von CustomListBase erbt. Die ExtensionBase-Klasse muss dann auch in der Extension.xml als Einstiegspunkt wiederauftauchen. 
-
 ## Extensions im Peakboard-Designer verwalten
 Um eine Extension in den Designer einzuspielen, gehen Sie in die Verwaltung für die Extensions und fügen Sie das zip-File hinzu. Danach muss der Designer neu gestartet werden, dann ist die Extension verfügbar und sollte unter den Datenquellen auftauchen. Achtung! Es ist nicht nötig, die Peakboard-Box in irgendeiner Form zu modifizieren. Die Extension wird durch den Deploy-Vorgang eines Boards automatisch mit auf die Box verteilt.
+
+## Beispiele
+Wir haben in unseren [Github-Repository](https://github.com/Peakboard/PeakboardExtensions) einige Extensions veröffentlicht. Es sind sowohl Beispiele darunter, als auch produktiv nutzbare Extensions. Speziell die Beispiele sind einfach gehalten und zeigen schön die anzuwendende Architektur. Jede Extension in diesem Repo liegt im Quellcode vor (Verzeichnis SourceCode) und als fertig vorbereitetes zip zum Einspielen (Binaries).
+Das Github-Repository findet sich [hier](https://github.com/Peakboard/PeakboardExtensions)
+
+
