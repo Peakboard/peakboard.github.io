@@ -13,7 +13,7 @@ Die folgenden Erklärungen beziehen sich auf ein Beispiel, dass [hier](https://g
 
 Innerhalb der Extension erbt die Hauptklasse von der Vaterklasse ExtensionBase und repräsentiert die Extension selbst, inbesondere die Metadaten.
 Die zu überschreibende Methode GetDefinitionOverride liefert die Metadaten zurück:
-```C#
+```csharp
         protected override ExtensionDefinition GetDefinitionOverride()
         {
             // Create the extension definition
@@ -31,7 +31,7 @@ Die zu überschreibende Methode GetDefinitionOverride liefert die Metadaten zur�
 ```
 
 Die Methode GetCustomListsOverride liefert Referenzen auf alle einzelnen Datenquellen der Extension. In den meisten Fällen ist das genau Eine, es könnte aber auch mehrere Datenquellen pro Extension geben:
-```
+```csharp
         protected override CustomListCollection GetCustomListsOverride()
         {
             return new CustomListCollection
@@ -42,7 +42,7 @@ Die Methode GetCustomListsOverride liefert Referenzen auf alle einzelnen Datenqu
 ```
 
 Falls gewünscht kann über ein Attribut der Verweis auf eine Bild-Datei angeben werden, die im Designer-Menü als Icon genutzt wird:
-```
+```csharp
     [ExtensionIcon("PeakboardExtensionAirportConditions.airplane.png")]
     public class AirportConditionExtension : ExtensionBase
 ```
