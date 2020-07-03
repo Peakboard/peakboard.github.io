@@ -13,6 +13,7 @@ Die folgenden Erklärungen beziehen sich auf ein Beispiel, dass [hier](https://g
 
 Innerhalb der Extension erbt die Hauptklasse von der Vaterklasse ExtensionBase und repräsentiert die Extension selbst, inbesondere die Metadaten.
 Die zu überschreibende Methode GetDefinitionOverride liefert die Metadaten zurück:
+
 ```cs
         protected override ExtensionDefinition GetDefinitionOverride()
         {
