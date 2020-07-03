@@ -32,7 +32,8 @@ GetDefinitionOverride liefert die Metadaten für die Datenquelle.
 ```
 
 Dabei sind insbesondere die Properties wichtig. Die Collection an Properties repräsentiert die Einstellungen, die der Enduser später in der UI des Designers vornehmen kann. Der Code von oben sieht später in der UI wie folgt aus:
-[PeakboardExtension_user_property.png]
+![img01](/assets/images/data-sources/extension/PeakboardExtension_user_property.png)
+
 Folgende Attribute kann eine Property haben:
 - Name 
 - Value - der Defaultwert
