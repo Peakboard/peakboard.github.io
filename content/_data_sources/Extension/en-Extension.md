@@ -15,6 +15,7 @@ Peakboard offers extensive possibilities to connect to all possible data sources
 ## Architecture
 The basis for an extension is always a C# .NET project that generates a classic .NET Dll. All interfaces to be implemented are located in the Dll Peakboard.ExtensionKit.Dll. The easiest way for referencing is by downloading the corresponding NuGet package in Visual Studio, or [here](https://www.nuget.org/packages/Peakboard.ExtensionKit/)
 The project type in Visual Studio should be "Classic Library" with .NET Framework 4.6.2 or higher. 
+
 > ## Note!
 >
 > It is recommended at this point to rather use one of the examples as a template and modify it according to your own wishes than to build a Project from Scratch.
@@ -37,4 +38,4 @@ To import an extension into the Designer, go to the administration for the exten
 
 ## Examples
 We have published some extensions in our [Github-Repository](https://github.com/Peakboard/PeakboardExtensions) There are examples as well as extensions for productive use. Especially the examples are kept simple and show the architecture to be used. Every extension in this repo is available in source code (directory SourceCode) and as a prepared zip for installation (binaries).
-The github repository can be found [here](https://github.com/Peakboard/PeakboardExtensions)
+The github repository can be found [here](https://github.com/Peakboard/PeakboardExtensions).

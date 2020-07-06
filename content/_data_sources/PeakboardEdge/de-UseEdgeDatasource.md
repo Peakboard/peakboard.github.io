@@ -26,7 +26,7 @@ In Scripten können einzelne PB Edge über ihren Namen angesprochen werden. Konk
 data.Edge.<Name> greift auf das PB Edge mit dem Namen <Name> zu. 
 Die einzelnen Spalten des Edge können über data.Edge.<Name>.<Spalte> gelesen werden.
 
-Zudem gibt es zwei Funktionen
+Zudem gibt es zwei Funktionen:
 
 Play Sound (data.Edge.<Name>.PlaySound(<NR>))
 
