@@ -8,8 +8,37 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.2.4.2 (25.06.2020)
+footer: 2.3.0.0 (15.07.2020)
 ---
+## 2.3.0.0 (15.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaGcoNOx9AhBsdpcW6YVSzIBIicSRwAP8G4YdSTWha0A0A?e=N3fG7n)
+* Peakboard Edge added
+* Peakboard Edge added as data source
+* Peakboard data source added
+* Data connection via the local network for CSV, XML and JSON data sources implemented
+* XML data source revised
+* Unicode character support extended for Excel data source
+* Icon Control revised and more icons added
+* Obsolete slack data source removed
+* Plug-in platform implemented to support specially developed data sources
+* WLAN dialog for Peakboard 2 boxes revised
+* Error message for obsolete visualizations adapted
+* Added upgrade notification when updating Peakboard 1 boxes
+* Fix for an error where the password of the Peakbaord 2 box could not be changed correctly
+* Fix for Tile and TileView control
+* Fix for multiple access to local resources
+* Fix for an error when selecting a data source for a control
+* Fix for an error when sharing a web widget and web view control
+* Fix for an error where the created rules disappeared in the conditional formatting
+* Fix for an error when the update process is aborted
+* Fix for an error in the CSV data source where the option "Column Names in First Row" was ignored
+* Fix for an error in the CSV data source where the source type "File" was not supported
+* Fix for an error in the JSON data source where the option "Max Rows" was ignored
+* Fix for an error where time data sources could be processed with a dataflow
+* Fix for a bug where image files added as local resource could not be displayed correctly
+* Fix for a display error in the gauge diagram
+* Fix for an error where the broadcast of the Peakboard 2 Box was not executed correctly
+* Fix for an error where the Textticker-Control and the DropDown-Control were not executed correctly
+
 ## 2.2.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
 * Hotfix for the use of local network resources
 * Hotfix for an error in the Excel data source where the use of local network files did not work correctly

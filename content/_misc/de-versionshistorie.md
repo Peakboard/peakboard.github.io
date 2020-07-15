@@ -8,8 +8,37 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.2.4.2 (25.06.2020)
+footer: 2.3.0.0 (15.07.2020)
 ---
+## 2.3.0.0 (15.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaGcoNOx9AhBsdpcW6YVSzIBIicSRwAP8G4YdSTWha0A0A?e=N3fG7n)
+* Peakboard Edge hinzugefügt
+* Peakboard Edge als Datenquelle hinzugefügt
+* Peakboard Datenquelle hinzugefügt
+* Datenanbindung über das lokale Netzwerk für CSV, XML und JSON Datenquellen implementiert
+* XML Datenquelle überarbeitet
+* Unterstützung von Unicode-Zeichen für Excel-Datenquelle erweitert
+* Icon Control überarbeitet und weitere Icons hinzugefügt
+* Veraltete Slack-Datenquelle entfernt
+* PlugIn-Plattform für die Unterstützung eigens entwickelter Datenquellen implementiert
+* WLAN-Dialog für Peakboard 2 Boxen überarbeitet
+* Fehlermeldung für veraltete Visualisierungen angepasst
+* Upgrade Benachrichtigung beim Update von Peakboard 1 Boxen hinzugefügt
+* Fix für einen Fehler bei dem das Passwort der Peakbaord 2 Box nicht korrekt geändert werden konnte
+* Fix für Tile und TileView-Control
+* Fix für den mehrfachen Zugriff auf lokale Ressourcen
+* Fix für einen Fehler beim Auswählen einer Datenquelle für ein Control
+* Fix für einen Fehler bei der gemeinsamen Verwendung eines Web-Widgets und Web-View Controls
+* Fix für einen Fehler bei dem in der bedingten Formatierung die angelegeten Regeln verschwunden sind
+* Fix für einen Fehler beim Abbruch des Updatevorgangs
+* Fix für einen Fehler in der CSV-Datenquelle bei der die Option "Column Names in First Row" ignoriert wurde
+* Fix für einen Fehler in der CSV-Datenquelle bei dem der Quelltyp "File" nicht unterstützt wurde
+* Fix für einen Fehler in der JSON-Datenquelle bei dem die Option "Max Rows" ignoriert wurde
+* Fix für einen Fehler bei dem Zeit-Datenquellen mit einem Dataflow bearbeitet werden konnten
+* Fix für einen Fehler bei dem Bild-Dateien welche als lokale Ressource hinzugefügt wurden nicht korrekt angezeigt werden konnten
+* Fix für einen Anzeigefehler im Gauge-Diagramme
+* Fix für einen Fehler bei dem der Broadcast der Peakboard 2 Box nicht korrekt ausgeführt wurde
+* Fix für einen Fehler bei dem das Textticker-Control und das DropDown-Control nicht korrekt ausgeführt wurden
+
 ## 2.2.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
