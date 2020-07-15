@@ -8,9 +8,9 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.3.0.0 (15.07.2020)
+footer: 2.3.0.1 (15.07.2020)
 ---
-## 2.3.0.0 (15.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaGcoNOx9AhBsdpcW6YVSzIBIicSRwAP8G4YdSTWha0A0A?e=N3fG7n)
+## 2.3.0.1 (15.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EauxEHxjfhFCmCtCfbyIdbwBqLeiTapHl3kQseIvt0NlUw?e=gIFRK2)
 * Peakboard Edge hinzugefügt
 * Peakboard Edge als Datenquelle hinzugefügt
 * Peakboard Datenquelle hinzugefügt
