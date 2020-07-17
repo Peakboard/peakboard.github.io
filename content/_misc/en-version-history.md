@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.3.0.2 (15.07.2020)
+footer: 2.3.1.0 (17.07.2020)
 ---
-## 2.3.0.2 (15.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ETXcOZbplxlHlnsFqz5TJEYBUcLgxhxQR2Y9C9TARsIzmQ?e=Q4qVgT)
+##2.3.1.0 (17.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ETXcOZbplxlHlnsFqz5TJEYBUcLgxhxQR2Y9C9TARsIzmQ?e=3YI7Om)
+* Hotfix for an error where the data from the SQL data source was not loaded
+* Hotfix for an error in the PowerBI control
+
+## 2.3.0.2 (15.07.2020)
 * Peakboard Edge added
 * Peakboard Edge added as data source
 * Peakboard data source added
