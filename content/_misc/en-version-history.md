@@ -10,7 +10,7 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 2.3.1.0 (17.07.2020)
 ---
-##2.3.1.0 (17.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ETXcOZbplxlHlnsFqz5TJEYBUcLgxhxQR2Y9C9TARsIzmQ?e=3YI7Om)
+## 2.3.1.0 (17.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ETXcOZbplxlHlnsFqz5TJEYBUcLgxhxQR2Y9C9TARsIzmQ?e=3YI7Om)
 * Hotfix for an error where the data from the SQL data source was not loaded
 * Hotfix for an error in the PowerBI control
 
