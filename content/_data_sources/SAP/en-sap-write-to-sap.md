@@ -4,8 +4,8 @@ title: Writing to an SAP function module
 menu_title: Writing to an SAP function module
 description: Writing to an SAP function module
 lang: en
-weight: 1140
-ref: dat-1140
+weight: 1150
+ref: dat-1150
 ---
 
 In SAP, any function module of the SAP system can be called via Peakboard. It is important that this function module is remote-enabled. With Peakboard, the function module (Z_Function_Module) can be called and export parameters can be transferred. These can then be processed further within the function module on the SAP side.
