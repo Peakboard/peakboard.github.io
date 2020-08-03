@@ -9,11 +9,26 @@ ref: dat-500
 redirect_from:
   - /data_sources/05-en-csv.html
 ---
-This article explains how to handle the data source for data in CSV format. The exact specification and further information about CSV can be found [here.](https://en.wikipedia.org/wiki/Comma-separated_values)
 
-A nice example of CSV data can be found under this URL: [http://mysafeinfo.com/api/data?list=presidents&format=csv](http://mysafeinfo.com/api/data?list=presidents&format=csv) It lists all American presidents.
-In addition to the connection via URL, CSV files can also be integrated, like Excel files, as a File or NetworkShareFile. 
+This article explains how to use the data source for data in CSV format. 
+The exact specification and further information about CSV can be found [here.](https://de.wikipedia.org/wiki/CSV_(file format))
 
-The handling of the dialog is almost self-explanatory. Write the desired URL in the corresponding text field. If explicit authentication is required, this can be set with the corresponding attribute. As well as the maximum number of records and the reload interval. To load the columns of the data source, click Load. Once the metadata is loaded, the data source is available for further processing like any other source.
+A nice example of CSV data can be found at this URL: [http://mysafeinfo.com/api/data?list=presidents&format=csv](http://mysafeinfo.com/api/data?list=presidents&format=csv). 
+It lists all American presidents.
+In addition to the connection via URL, CSV files can also be included as a file via a network drive. A network share can be accessed either directly (specifying the desired domain user and password) or via the Peakboard Bridge. 
+In addition, CSV files can also be stored as a resource directly in the packet. 
+This can be useful, for example, if you simply want to "play" with the data offline at the beginning of a project, or if you don't want to decide on the concrete access method yet. 
+Set the property **Source Type** to the correspondingly desired access type.
 
-![CSV Add Data Dialog](/assets/images/data-sources/csv/csv-add-data-dialog.png)
+In the case of access via a URL, the classic web authentication methods can be used to gain access to protected files. 
+Use property **Authentication** to select the desired method.
+
+Normally, columns are separated by a comma in CSV. 
+If a different separator is desired, set the **Delimter** accordingly.
+ **Skip Rows** allows to skip a certain number of rows at the beginning of the file (e.g. because the file has a header to be ignored). 
+ **Max Rows** limits the number of rows.
+
+Finally, click on **Load Data** to call up a preview and display the metadata. 
+If desired, the datatype of each column can be changed (e.g. from String to Number for numeric numbers).
+
+![CSV Data Dialog](/assets/images/data-sources/csv/csv-add-data-dialog.png)
