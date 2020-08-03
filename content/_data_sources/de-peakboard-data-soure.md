@@ -18,9 +18,9 @@ In diesem Szenario greift die Visualisierung, die auf dem Feld "Verbraucher" lä
 
 Da die Architektur der Peakboard-Datenquelle für die direkte Kommunikation zwischen zwei Peakboard-Boxen gedacht ist, kann die Peakboard-Datenquelle nur auf native Peakboard-Variablen und -Listen zugreifen. Die Daten werden durch Aktivieren des Kontrollkästchens "Can push data via API" in den jeweiligen Bearbeitungsdialogen angezeigt.
 
-![Variable aktivieren](/assets/images/data-sources/pb-datasource/pb-datasource-provider1.png)
+![Variable aktivieren](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider1.png)
 
-![Liste aktivieren](/assets/images/data-sources/pb-datasource/pb-datasource-provider2.png)(/assets/images/data-sources/pb-datasource-provider2.png)
+![Liste aktivieren](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider2.png)
 
 ##### Verbraucherseite
 
@@ -46,7 +46,7 @@ Klicken Sie auf "Daten laden", um eine Anforderung für die aktuelle Konfigurati
 
 Nach dem Speichern durch Drücken der Schaltfläche "Ok" können die Datenquelle und ihre Daten normal verwendet werden.
 
-![Liste aktivieren](/assets/images/data-sources/pb-datasource/pb-datasource-consumer.png)
+![Liste aktivieren](/assets/images/data-sources/peakbaord-datasource/pb-datasource-consumer.png)
 
 
 ### Schreiben in andere Boxen

@@ -18,9 +18,9 @@ In this scenario the visualization running on the "Consumer" box is accessing th
 
 Since the Peakboard data source architecture is meant to provide direct communication between two Peakboard boxes, only native Peakboard variables and lists can be accessed by the Peakboard data source. The data is exposed by checking the "Can push data via API" checkbox in the respective edit dialogs.
 
-![Activate Variable](/assets/images/data-sources/pb-datasource/pb-datasource-provider1.png)
+![Activate Variable](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider1.png)
 
-![Activate List](/assets/images/data-sources/pb-datasource/pb-datasource-provider2.png)
+![Activate List](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider2.png)
 
 #### Consumer side
 
@@ -46,7 +46,7 @@ Click on "Load Data" to send a request for the current configuration to see the 
 
 After saving by pressing the "Ok" button, the data source and its data can be used normally.
 
-![Activate List](/assets/images/data-sources/pb-datasource/pb-datasource-consumer.png)
+![Activate List](/assets/images/data-sources/peakbaord-datasource/pb-datasource-consumer.png)
 
 
 ### Writing to other boxes
