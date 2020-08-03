@@ -33,6 +33,7 @@ Ab der Designer Version 1.7.0.0 können Zeitsprünge (Addition oder Subtraktion)
 
 Der folgende Screenshot zeigt, wie die Zeit per Drag and Drop (1) auf dem Screen verwendet werden kann. Alternativ lässt sich die Datenquelle, wie jede andere Datenquelle auch, an Steuerelemente binden oder per Script nutzen.
 Im Control-Editor kann über Format das Anzeigeformat für ein deutsch- oder englischsprachiges Layout angepasst oder ein eigenes Format (3) angelegt werden.
+Die letzte Schaltfläche erlaubt es Zeitsprünge durchzuführen (4). Dies ist beispielsweise dann sinnvoll, wenn Daten mit einem zukünftigen oder vergangenem Datum verknüpft werden sollen.
 
  ![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
 

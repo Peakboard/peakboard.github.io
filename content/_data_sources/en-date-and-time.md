@@ -34,6 +34,7 @@ As of Designer Version 1.7.0.0, time jumps (addition or subtraction) can be exec
 
 The following screenshot shows how the time can be used by drag and drop (1) on the screen. Alternatively, the data source can be bound to controls or used via script, just like any other data source.
 In the control editor the display format for a German or English layout can be adapted or a separate format (3) can be created via Format.
+The last button allows time jumps to be performed (4). This is useful, for example, when data is to be linked to a future or past date.
 
  ![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
 
