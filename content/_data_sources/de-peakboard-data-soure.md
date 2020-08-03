@@ -4,8 +4,8 @@ title: Peakboard Data Source
 menu_title: Peakboard Data Source
 description: Verwenden eines Peakboards als Datenquelle
 lang: de
-weight: 2720
-ref: dat-2720
+weight: 2800
+ref: dat-2800
 ---
 
 Die Peakboard-Datenquelle bietet eine einfache Möglichkeit, Daten zwischen mehreren Peakboard-Boxen auszutauschen. Sie ermöglicht es dem Benutzer, die nativen Variablen und Listen einer Box von anderen Peakboards innerhalb des Netzwerks zu lesen und zu schreiben. Die Möglichkeit, Variablen und Listen von Peakboard-Visualisierungen mit den Einstellungen des Hakens in den Bearbeitungsdialogen anzuzeigen. Mit der Peakboard-Datenquelle gibt es jetzt eine einfache und unkomplizierte Möglichkeit, diese Daten zu konsumieren und zu manipulieren.
