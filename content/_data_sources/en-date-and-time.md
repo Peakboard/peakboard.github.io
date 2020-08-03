@@ -18,7 +18,7 @@ The format specification defines how the time or date or a combination thereof i
 By default, the time data source accesses the Windows time server on the Internet (specifically on time.windows.com). If this is not desired or if Peakboard is operated in a network without Internet access, Peakboard can also retrieve the time from an internal network time server. 
 For this purpose the IP address or the host name of the timeserver is written into the corresponding text field (2) under Time Server (1).
 
- ![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
+![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
 
 In order to use a local Windows computer as a timeserver, a registry entry must be adapted.
 To do this, the value **[Enabled]** must first be set to 1 (true) in the registry in the folder `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer\`.
@@ -30,17 +30,17 @@ Then the Command window must be executed as Administrator and the following comm
 The time data source can be created like any other data source under "add Data Source" (1) and then "Time" (2).
 As of Designer Version 1.7.0.0, time jumps (addition or subtraction) can be executed directly in the time data source and no longer have to be generated using a script (3).
 
- ![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
+![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
 
 The following screenshot shows how the time can be used by drag and drop (1) on the screen. Alternatively, the data source can be bound to controls or used via script, just like any other data source.
 In the control editor the display format for a German or English layout can be adapted or a separate format (3) can be created via Format.
-The last button allows time jumps to be performed (4). This is useful, for example, when data is to be linked to a future or past date.
 
- ![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
+
+![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
 
 The current date and time are now displayed in the preview.
 
- ![Preview Time](/assets/images/data-sources/date-and-time/preview-time.png)
+![Preview Time](/assets/images/data-sources/date-and-time/preview-time.png)
 
 Placeholder for the format string:
 
