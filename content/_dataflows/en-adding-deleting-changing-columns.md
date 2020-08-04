@@ -43,7 +43,7 @@ This step is self-explanatory. All selected columns are removed and no longer di
 
 The operation is self-explanatory. Use this step to describe the contents of the columns as precisely as possible. The columns often come with bad names from the data source (for example, from SAP). Don't use underscores, because they're ugly. Instead, use a classic case-sensitive camel case notation, e.g. MaxCustomerRevenue, MinCustomerRevenue, etc...
 
-![Reorder Columns](/assets/images/dataflows/dataflows-rename-column01.png)
+![Rename Columns](/assets/images/dataflows/dataflows-rename-column01.png)
 
 ## Reorder Columns
 
@@ -61,13 +61,14 @@ You can use this step to change the data type of a column. Typical scenarios for
 
 This step allows you to change the order of the lines. It is possible to sort by several columns.
 
-![Reorder Columns](/assets/images/dataflows/dataflows-sort-column01.png)
+![Sort Columns](/assets/images/dataflows/dataflows-sort-column01.png)
 
 ## Switch Rows/Columns
 You can use this step, to converte a table to the transposed representation.
 The first column is used to name the new columns.
 
-![Reorder Columns](/assets/images/dataflows/dataflows-switch-row-column01.png)
+![Switch Rows/Columns](/assets/images/dataflows/dataflows-switch-row-column01.gif)
+
 
 
 

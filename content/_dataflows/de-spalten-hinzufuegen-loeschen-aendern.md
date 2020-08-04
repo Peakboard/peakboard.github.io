@@ -43,7 +43,7 @@ Dieser Schritt ist im Wesentlichen selbsterklärend. Alle angekreuzten Spalten w
 
 Die Bedienung ist selbsterklärend. Nutzen Sie diesen Schritt, um den Inhalt der Spalten so präzise wie möglich zu beschreiben. Oft kommen die Spalten schlecht benannt aus der Datenquelle (z.B. aus SAP). Benutzen Sie keine Unterstriche. Benutzen Sie stattdessen lieber eine klassische Camel-Case-Notation mit Groß-/Kleinschreibung, z.B. MaxCustomerRevenue, MinCustomerRevenue, etc.
 
-![Reorder Columns](/assets/images/dataflows/dataflows-rename-column01.png)
+![Rename Columns](/assets/images/dataflows/dataflows-rename-column01.png)
 
 ## Reorder Columns - Spalten umarrangieren
 
@@ -61,10 +61,10 @@ Mit Hilfe dieses Schritts können Sie die den Datentyp einer Spalte ändern. Typ
 
 Dieser Schritt ermöglicht es die Reihenfolge der Zeilen zu ändern. Es ist möglich, nach mehreren Spalten zu sortieren.
 
-![Reorder Columns](/assets/images/dataflows/dataflows-sort-column01.png)
+![Sort Columns](/assets/images/dataflows/dataflows-sort-column01.png)
 
 ## Switch Rows/Columns - Zeilen und Spalten tauschen
 Mit Hilfe dieses Schrittes kann eine Tabelle in die transponierte Darstellung überführt werden.
 Die erste Spalte wird dabei zur Benennung der neuen Spalten herangezogen.
 
-![Reorder Columns](/assets/images/dataflows/dataflows-switch-row-column01.png)
+![Switch Rows/Columns](/assets/images/dataflows/dataflows-switch-row-column01.gif)
