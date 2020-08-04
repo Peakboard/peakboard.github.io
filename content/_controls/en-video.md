@@ -11,3 +11,5 @@ redirect_from:
 
 The Video Control is located on the Media tab in the Controls list or is created automatically when a video is dragged from the Resources to the screen. 
 In the Control Properties, you can specify, in addition to the [general properties](/controls/en-general-properties.html), whether the Control should be played in an infinite loop or only once.
+
+![image_1](/assets/images/Controls/Video/controls-video01.gif)
