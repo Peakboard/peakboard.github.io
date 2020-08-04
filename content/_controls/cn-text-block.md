@@ -15,3 +15,5 @@ redirect_from:
 对于字体和颜色，可使用[字体管理器](/misc/05-cn-custom-fonts.html)。
 
 如果需要相应地修改KPI格式，可在控件属性区域的[格式](/misc/03-cn-formating-values.html)中调整。
+
+![image_1](/assets/images/Controls/Text/text.gif)

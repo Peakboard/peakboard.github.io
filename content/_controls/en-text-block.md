@@ -18,3 +18,5 @@ All other properties can be found under [General Properties](/controls/en-genera
 For fonts and colors the [Font Manager](/misc/04-en-fonts.html) can be used.
 
 To format KPIs accordingly, the [Format](/misc/en-formating-values.html) item is located in the control properties.
+
+![image_1](/assets/images/Controls/Text/text.gif)
