@@ -24,7 +24,10 @@ In case a more sophisticated UI is needed, the properties can be replaced by a c
         }
 ```
 
-The code page of this CustomControl is represented by a class that inherits from CustomListUserControlBase. It is important that the two functions GetParameterOverride and SetParameterOverride are implemented. They are used for serialization and deserialization of the metadata. The metadata is only represented by a single string. To store more than one value in this string, possibly even very complex metadata, a typical programming pattern is to manage the metadata using a JSon serialization, as shown in the following example
+The code page of this CustomControl is represented by a class that inherits from CustomListUserControlBase. 
+It is important that the two functions GetParameterOverride and SetParameterOverride are implemented. 
+They are used for serialization and deserialization of the metadata. 
+The metadata is only represented by a single string. To store more than one value in this string, possibly even very complex metadata, a typical programming pattern is to manage the metadata using a JSon serialization, as shown in the following example
 
 ```cs
        protected override string GetParameterOverride()
