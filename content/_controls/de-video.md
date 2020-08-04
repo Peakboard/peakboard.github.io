@@ -11,3 +11,5 @@ redirect_from:
 
 Das Video Control befindet sich auf der Registerkarte Media in der Liste Controls oder wird automatisch erstellt, wenn ein Video von den Ressourcen auf den Bildschirm gezogen wird. 
 In den Eigenschaften des Controls kann, neben den [allgemeinen Eigenschaften](/controls/de-allgemeine-eigenschaften.html) festgelegt werden, ob das Control in einer Endlosschleife oder nur einmal abgespielt werden soll.
+
+![image_1](/assets/images/Controls/Video/controls-video01.gif)
