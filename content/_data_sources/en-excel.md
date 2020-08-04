@@ -21,7 +21,7 @@ The dialog is divided into three areas - General, Specify and Preview.
 Under General you have to give the data source a name and select the location (e.g. dropbox) where your Excel file can be found. 
 The following storage locations are currently supported:
 
-* **File** - The Excel file was previously added to the Peakboard Package as a resource and is part of the
+* **File** - The Excel file was previously added to the Peakboard Package as a resource and is part of the .pbmx-File
 * **Dropbox**
 * **GoogleDrive**
 * **OneDrive** - Microsoft OneDrive (both the free offer and as part of Office 365)
