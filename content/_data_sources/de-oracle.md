@@ -8,7 +8,7 @@ weight: 1300
 ref: dat-1300
 
 ---
-Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Oracle-Datenquelle. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
+Das folgende Tutorial beschreibt, wie Sie externe Datenquellen konfigurieren und an Peakboard-Elemente koppeln können:
 
 [Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
@@ -20,7 +20,9 @@ Für den Zugang zur Oracle-Datenbank sind die klassischen Zugangsparameter nöti
 *    **User Name** und **Passwort** sind die Credentials für den Zugriff
 
 
-In bestimmten Fällen kann es nötig sein, außer den klassischen, oben beschriebenen Parametern andere Angaben an den Oracle-Treiber zu übermitteln. Für diesen Fall klicken Sie bitte auf den **Custom**-Tab-Reiter. In dem Textfeld lässt sich direkt ein individueller Connection-String erfassen. Den Aufbau des Connection-Strings entnehmen Sie bitte der Oracle-Hilfe oder diesen [Link](https://www.connectionstrings.com/oracle/).
+In manchen Fällen sind außer den oben beschriebenen Zugangsparametern weitere Angaben erforderlich. 
+In diesem Fall klicken Sie bitte auf den **Custom**-Tab. 
+In dem Textfeld lässt sich direkt ein individueller Connection-String erfassen. Den Aufbau des Connection-Strings entnehmen Sie bitte der Oracle-Hilfe oder diesen [Link](https://www.connectionstrings.com/oracle/).
 
 In das Textfeld **Statement** tragen Sie das gewünschte Oracle-SQL-Statement ein. Damit die Datenquelle korrekt funktioniert, muss das SQL-Statement immer eine tabellarische Ergebnismenge zurückliefern.
 
