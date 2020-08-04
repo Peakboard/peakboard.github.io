@@ -16,3 +16,5 @@ redirect_from:
 您还可以在相关控件的属性区域，设置切换开关上显示的文本，以及“激活”和“未激活”时的文本。
 
 如需进一步了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
+
+![image_1](/assets/images/Controls/Toggle-Switch/toggleswitch01.gif)

@@ -18,3 +18,5 @@ The Text Ticker Control is intended to display a scrolling text. Please note the
 
 The content is set using the Text property. The text property is usually bound to a source or set dynamically in the script. Please note that the bound data source can be either a single string or a table. In the case of the table, the first column is always taken from each row and added to the table for display.
 The Rate property defines the running speed; Direction defines the direction.
+
+![image_1](/assets/images/Controls/Text-Ticker/textticker02.gif)

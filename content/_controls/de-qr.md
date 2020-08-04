@@ -19,3 +19,4 @@ Die neue URL muss dann als neuer Wert zugewiesen werden.
 screens['Screen1'].QR.value = 'www.peakboard.com'
 ```
 
+![image_1](/assets/images/Controls/QR-Code/qrcode01.gif)

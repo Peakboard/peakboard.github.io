@@ -14,3 +14,5 @@ The Checkbox works analogous to the [Toggle Button](/controls/en-togglebutton.ht
 Two scripts can be created which are executed when the Checkbox status 'Checked' is activated or when the Checkbox status 'Unchecked' is deactivated.
 
 Further information on how to create scripts or how the [Script-Editor](/scripting/en-script-editor.html) works can be found in the Scripting section.
+
+![image_1](/assets/images/Controls/Check-Box/checkbox01.gif)

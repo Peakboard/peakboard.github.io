@@ -14,3 +14,5 @@ redirect_from:
 您可为该控件创建一个名为'SelectionChanged'的事件，它会在修改下拉菜单选项时执行。
 
 如需进一步了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
+
+![image_1](/assets/images/Controls/Dropdown/dropdown01.gif)

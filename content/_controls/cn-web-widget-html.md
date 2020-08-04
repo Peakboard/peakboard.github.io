@@ -38,3 +38,5 @@ redirect_from:
 **Open Street Map**
 
 [http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden](http://wiki.openstreetmap.org/wiki/DE:Karte_in_Webseite_einbinden)
+
+![image_1](/assets/images/Controls/Web-Widget/webwidget01.gif)

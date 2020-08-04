@@ -14,3 +14,5 @@ redirect_from:
 您可为该其创建两类脚本：一种会在控件“勾选”状态激活时执行，而另一种会在“未勾选”状态待激活时执行。
 
 如需进一步了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
+
+![image_1](/assets/images/Controls/Check-Box/checkbox01.gif)

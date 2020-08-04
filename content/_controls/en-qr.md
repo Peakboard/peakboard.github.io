@@ -18,3 +18,5 @@ The new URL must then be assigned as a new value.
 ```lua
 screens['Screen1'].QR.value = 'www.peakboard.com'
 ```
+
+![image_1](/assets/images/Controls/QR-Code/qrcode01.gif)

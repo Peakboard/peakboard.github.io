@@ -17,3 +17,5 @@ Des weiteren kann für den Kippschalter der Text bestimmt werden der über dem S
 Dies lässt sich in den Eigenschaften des jeweiligen Controls einrichten.
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
+
+![image_1](/assets/images/Controls/Toggle-Switch/toggleswitch01.gif)

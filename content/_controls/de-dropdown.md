@@ -14,3 +14,5 @@ Der Inhalt der Dropdown-Liste muss dabei aus einer Tabelle stammen welche unter 
 Für das Dropdown-Listen Control kann ein Event angelegt werden welches 'SelectionChanged' heißt und immer dann ausgeführt wird wenn die auswahl im Dropdown-Menü geändert wird.
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
+
+![image_1](/assets/images/Controls/Dropdown/dropdown01.gif)

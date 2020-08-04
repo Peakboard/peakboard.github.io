@@ -17,3 +17,5 @@ You can also specify the text above the toggle switch and the text for the posit
 This can be set in the properties of the respective control.
 
 Further information on how to create scripts or how the [Script-Editor](/scripting/en-script-editor.html) works can be found in the Scripting section.
+
+![image_1](/assets/images/Controls/Toggle-Switch/toggleswitch01.gif)

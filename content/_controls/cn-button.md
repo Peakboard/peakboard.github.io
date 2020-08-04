@@ -15,3 +15,5 @@ redirect_from:
 
 如需进一步了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
 [按键](/scripting/Samples/en-Button.html)脚本示例。
+
+![image_1](/assets/images/Controls/Button/button01.gif)

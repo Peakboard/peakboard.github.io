@@ -14,3 +14,5 @@ Die Checkbox funktioniert analog wie der [Toggle Button](/controls/de-togglebutt
 Es können zwei Skripte angelegt werden die jeweils beim Aktivieren der Checkbox 'Checked', oder beim Deaktivieren 'Unchecked' ausgeführt werden.
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
+
+![image_1](/assets/images/Controls/Check-Box/checkbox01.gif)

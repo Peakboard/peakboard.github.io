@@ -14,3 +14,5 @@ Er funktioniert anlog wie der [Button](/controls/de-button.html). Allerdings fü
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
 So auch das Beispiel für ein [Button Skript](/scripting/Samples/de-Button.html).
+
+![image_1](/assets/images/Controls/Repeat-Button/repeatbutton01.gif)

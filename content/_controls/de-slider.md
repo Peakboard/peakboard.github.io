@@ -15,3 +15,5 @@ Dieser Wert kann über die Variable 'value' des jeweiligen Schiebereglers ausgel
 Außerdem kann für den Slider ein Event erstellt werden, welches 'ValueChanged' heißt und immer dann ausgeführt wird wenn der Schieberegler bewegt wird.
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
+
+![image_1](/assets/images/Controls/Slider/slider01.gif)

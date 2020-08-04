@@ -18,3 +18,5 @@ redirect_from:
 ```lua
 screens['Screen1'].QR.value = 'www.peakboard.com'
 ```
+
+![image_1](/assets/images/Controls/QR-Code/qrcode01.gif)
