@@ -10,17 +10,24 @@ redirect_from:
   - /data_sources/02-de-datum-und-uhrzeit.html
 ---
 
-Die Peakboard-Box verfügt derzeit über keine Möglichkeit, sich über den nächsten Neustart hinaus die Uhrzeit zu merken. Aus diesem Grund gibt es innerhalb des Designers die Möglichkeit, Datum und Uhrzeit als ganz normale Datenquelle einzubinden. Die Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.
+Die Peakboard-Box verfügt derzeit über keine Möglichkeit, sich über den nächsten Neustart hinaus die Uhrzeit zu merken. 
+Aus diesem Grund gibt es innerhalb des Designers die Möglichkeit, Datum und Uhrzeit als ganz normale Datenquelle einzubinden. 
+Die Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.
 
-Über die Format-Angabe wird definiert, wie die Zeit bzw. das Datum oder eine Kombination daraus dargestellt werden soll. Die einzelnen Formatkomponenten können Sie der Tabelle unten entnehmen. Für den Fall, dass eine andere Zeitzone als CET zur Zeitberechnung genutzt werden soll, steht die entsprechende Combo-Box zur Verfügung.
+Über die Format-Angabe wird definiert, wie die Zeit bzw. das Datum oder eine Kombination daraus dargestellt werden soll. 
+Die einzelnen Formatkomponenten können Sie der Tabelle unten entnehmen. 
+Für den Fall, dass eine andere Zeitzone als CET zur Zeitberechnung genutzt werden soll, steht die entsprechende Combo-Box zur Verfügung.
 
-Standardmäßig greift die Time-Datenquelle auf den Windows-Timeserver im Internet zu (konkret auf time.windows.com). Sollte das nicht gewünscht sein oder Peakboard in einem Netz ohne Internetzugang betrieben werden, kann sich Peakboard die Zeit auch von einem netzinternen Timeserver holen. 
-Dazu wird unter Time Server (1) die IP-Adresse oder der Host-Name des Timeservers in das entsprechende Textfeld (2) geschrieben.
+Standardmäßig greift die Time-Datenquelle auf den Windows-Zeitserver im Internet zu (konkret auf time.windows.com). 
+Sollte das nicht gewünscht sein oder Peakboard in einem Netz ohne Internetzugang betrieben werden, kann sich Peakboard die Zeit auch von einem netzinternen Zeitserver holen. 
+Dazu wird unter "Settings" (1) über die Schaltfläche "Time Server" (2) die IP-Adresse oder der Host-Name des Zeitservers in das entsprechende Textfeld (2) geschrieben.
 
 ![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
 
 Um einen lokalen Windows-Rechner als Timeserver zu verwenden, muss ein Registry-Eintrag angepasst werden.
-Dafür muss zunächst in der Registry im Ordner `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer\`  der Wert **[Enabled]** auf 1 (true) gesetzt werden
+Dafür muss zunächst in der Registry im Ordner 
+`HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer\`  
+der Wert **[Enabled]** auf 1 (true) gesetzt werden
 
 Anschließend muss das Command Fenster als Administrator ausgeführt und folgender Befehl eingegeben werden:
 `w32tm /config /update`

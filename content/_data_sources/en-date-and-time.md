@@ -11,17 +11,23 @@ redirect_from:
 ---
 
 
-The Peakboard Box currently has no way of remembering the time beyond the next restart. For this reason, it is possible to integrate date and time as a normal data source within the Designer. The data source is not tabular, but only a scalar single value.
+The Peakboard Box currently has no way of remembering the time beyond the next restart. 
+For this reason, it is possible to integrate date and time as a normal data source within the Designer. 
+The data source is not tabular, but only a scalar single value.
 
-The format specification defines how the time or date or a combination thereof is to be displayed. The individual format components can be found in the table below. If a time zone other than CET is to be used for time calculation, the corresponding combo box is available.
+The format specification defines how the time or date or a combination thereof is to be displayed. 
+The individual format components can be found in the table below. 
+If a time zone other than CET is to be used for time calculation, the corresponding combo box is available.
 
-By default, the time data source accesses the Windows time server on the Internet (specifically on time.windows.com). If this is not desired or if Peakboard is operated in a network without Internet access, Peakboard can also retrieve the time from an internal network time server. 
-For this purpose the IP address or the host name of the timeserver is written into the corresponding text field (2) under Time Server (1).
+By default, the time data source accesses the Windows time server on the Internet (specifically on time.windows.com). 
+If this is not desired or if Peakboard is operated in a network without internet access, Peakboard can also get the time from a network internal time server. 
+For this purpose, the IP address or the host name of the time server is written into the corresponding text field (2) under "Settings" (1) via the button "Time Server" (2).
 
 ![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
 
 In order to use a local Windows computer as a timeserver, a registry entry must be adapted.
-To do this, the value **[Enabled]** must first be set to 1 (true) in the registry in the folder `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer\`.
+To do this, the value **[Enabled]** must first be set to 1 (true) in the registry in the folder
+ `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer\`.
 
 Then the Command window must be executed as Administrator and the following command must be entered:
 `w32tm /config /update`
