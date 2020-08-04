@@ -16,3 +16,5 @@ In addition to the [general properties](/controls/en-general-properties.html), t
 * a Double Tapped Event that is triggered by double-clicking on the image on a touchscreen or mouse.
 
 How to create [scripts](/scripting/en-script-engine.html) can be found in the section "Scripting".
+
+![image_1](/assets/images/Controls/Picture/controls-picture01.gif)

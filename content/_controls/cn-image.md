@@ -16,3 +16,5 @@ redirect_from:
 * 双击事件，通过在触摸屏或使用鼠标双击图片触发。
 
 您可以在“脚本”部分了解如何创建[脚本](/scripting/en-script-engine.html)。
+
+![image_1](/assets/images/Controls/Picture/controls-picture01.gif)

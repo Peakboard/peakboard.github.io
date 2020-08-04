@@ -16,3 +16,5 @@ Neben den [allgemeinen Eigenschaften](/controls/de-allgemeine-eigenschaften.html
 * ein Double Tapped Event, das durch Doppelklick auf das Bild über einen Touchscreen oder eine Maus ausgelöst wird.
 
 Wie sich [Skripte](/scripting/de-script-engine.html) anlegen lassen, findet sich in der Rubrik "Scripting".
+
+![image_1](/assets/images/Controls/Picture/controls-picture01.gif)

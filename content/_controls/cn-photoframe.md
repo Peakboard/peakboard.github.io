@@ -13,4 +13,4 @@ redirect_from:
 您还可以设定图片顺序。
 属性中的“加载间隔”用于控制单个屏幕的播放时长。
 
-![image_1](/assets/images/Controls/Picture/controls-picture01.gif)
+![image_1](/assets/images/Controls/photoframe/photoframe01.gif)

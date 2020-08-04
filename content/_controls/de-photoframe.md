@@ -15,4 +15,4 @@ Die Bilder können entweder per Drag & Drop in den Bilderrahmen gezogen werden, 
 Hier kann auch die Reihenfolge der Bilder festgelegt werden. 
 Der Punkt Ladeintervall, welcher sich ebenfalls in den Eigenschaften befindet, legt die Anzeigedauer der einzelnen Bilder fest.
 
-![image_1](/assets/images/Controls/Picture/controls-picture01.gif)
+![image_1](/assets/images/Controls/photoframe/photoframe01.gif)
