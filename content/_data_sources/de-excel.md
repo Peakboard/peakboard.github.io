@@ -21,7 +21,7 @@ Der Dialog ist in drei Bereiche - General, Specify und Preview - aufgeteilt.
 Unter General müssen Sie der Datenquelle einen Namen geben sowie den Speicherort (z.B. Dropbox) auswählen, wo Ihre Excel-Datei zu finden ist. 
 Derzeit werden folgende Speicherorte unterstützt:
 
-*    **File** – Die Excel-Datei wurde zuvor dem Peakboard-Package als Ressource hinzugefügt und ist Teil des Packages
+*    **File** – Die Excel-Datei wurde zuvor dem Peakboard-Package als Ressource hinzugefügt und ist Teil der .pbmx-Datei
 *    **Dropbox**
 *    **GoogleDrive**
 *    **OneDrive** – Microsoft OneDrive (sowohl das kostenfreie Angebot, als auch als Teil von Office 365)
