@@ -16,4 +16,4 @@ redirect_from:
 
 如果需要相应地修改KPI格式，可在控件属性区域的[格式](/misc/03-cn-formating-values.html)中调整。
 
-![image_1](/assets/images/Controls/Text/text.gif)
+![image_1](/assets/images/Controls/Text/text01.gif)

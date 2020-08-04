@@ -19,4 +19,4 @@ Für Schriftarten und Farben kann der [Font-Manager](/misc/04-de-fonts.html) ver
 
 Um KPIs entsprechend zu formatieren findet sich in den Eigenschaften des Controls die Position [Format](/misc/03-de-formatieren-von-Werten.html).
 
-![image_1](/assets/images/Controls/Text/text.gif)
+![image_1](/assets/images/Controls/Text/text01.gif)
