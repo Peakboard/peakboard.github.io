@@ -1,15 +1,15 @@
 ---
 layout: article
-title: Spalteninhalte manipulieren
-menu_title: Spalteninhalte manipulieren
-description: Spalteninhalte manipulieren
+title: Spalteninhalte verändern
+menu_title: Spalteninhalte verändern
+description: Spalteninhalte verändern
 lang: de
 weight: 2000
 ref: flow-2000
 redirect_from:
   - /dataflows/20-de-spalteninhakte-aendern.html
 ---
-Dieser Abschnitt beschreibt die Schritte, um den Inhalt von Spalten zu manipulieren.
+Dieser Abschnitt beschreibt die möglichen Schritte, um den Inhalt von Spalten zu manipulieren.
 
 ## Lowercase Column - Inhalt in Kleinbuchstaben umwandeln
 

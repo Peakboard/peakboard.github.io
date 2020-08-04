@@ -59,6 +59,12 @@ Mit Hilfe dieses Schritts können Sie die den Datentyp einer Spalte ändern. Typ
 
 ## Sort Columns - Daten sortieren
 
-Mithilfe dieses Schritts können Sie die Reihenfolge der Zeilen ändern. Es ist möglich, nach mehreren Spalten zu sortieren.
+Dieser Schritt ermöglicht es die Reihenfolge der Zeilen zu ändern. Es ist möglich, nach mehreren Spalten zu sortieren.
 
 ![Reorder Columns](/assets/images/dataflows/dataflows-sort-column01.png)
+
+## Switch Rows/Columns - Zeilen und Spalten tauschen
+Mit Hilfe dieses Schrittes kann eine Tabelle in die transponierte Darstellung überführt werden.
+Die erste Spalte wird dabei zur Benennung der neuen Spalten herangezogen.
+
+![Reorder Columns](/assets/images/dataflows/dataflows-switch-row-column01.png)
