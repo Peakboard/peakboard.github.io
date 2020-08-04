@@ -9,12 +9,19 @@ ref: admin-800
 redirect_from:
   - /administration/08-en-change-visualization.html
 ---
-To change the current visualization on a Peakboard box, first open the Manage dialog. The desired box is selected there and then the dialog for managing the visualizations is opened via the visualization button.
+To change the current visualization of a Peakboard Box, first click on the "Manage/Upload" button (1) in the Peakboard Designer.
 
+In the "Manage/Upload" dialog, select the desired Peakboard Box and double-click to open the "Settings" dialog (2).
 
 ![ActivatePeakboard](/assets/images/admin/management/manage-dialog-activate-peakboard.png)
 
-In the following dialog you can select the desired visualization and start, stop or delete it via the Play button.
+In the section "Available Visualizations" you can manage the desired visualization.
+The following functions are available here:
+
+* **Play** - Starts the desired visualization
+* **Stop** - Stops the active visualization
+* **Delete** - Deletes the selected visualization
+* **Download** - Downloads the selected visualization 
 
 ![ActivatePeakboard2](/assets/images/admin/management/activate-peakboard-dialog.png)
 
