@@ -1,7 +1,7 @@
 ---
 layout: article
-title: TextBlock
-menu_title: TextBlock
+title: Text
+menu_title: Text
 description: Information about Peakboard Designer TextBox Control.
 lang: en
 weight: 200

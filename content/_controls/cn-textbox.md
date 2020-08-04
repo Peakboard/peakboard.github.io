@@ -18,3 +18,5 @@ redirect_from:
 此外，您还可以设置“点击事件”。通过触摸屏或鼠标点击文本框时，该事件就会触发。 
 
 如需进一步了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
+
+![image_1](/assets/images/Controls/Text-Box/textbox01.gif)

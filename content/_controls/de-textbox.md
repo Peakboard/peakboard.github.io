@@ -18,3 +18,5 @@ Diese Eingaben können über den Skripttyp 'ValueChanged' weiterverarbeitet werd
 Zusätzlich kann ein 'TappedEvent' ausgelöst werden wenn auf das Textfeld mittels Touch oder Maus geklickt wird.
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
+
+![image_1](/assets/images/Controls/Text-Box/textbox01.gif)

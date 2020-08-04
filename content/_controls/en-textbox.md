@@ -18,3 +18,5 @@ These inputs can be further processed with the script type 'ValueChanged'.
 In addition, a 'TappedEvent' can be triggered when the text Box is clicked on by touch or mouse.
 
 Further information on how to create scripts or how the [Script-Editor](/scripting/en-script-editor.html) works can be found in the Scripting section.
+
+![image_1](/assets/images/Controls/Text-Box/textbox01.gif)
