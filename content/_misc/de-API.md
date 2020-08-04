@@ -22,7 +22,7 @@ Der Aufrufer muss sich also mit seinen klassischen Base64-kodierten Credentials 
 
 Der Call zum Lesen von Daten lautet wie folgt:
 
-http://NameOfBox:40404/api/runtime/data?name=NameOfDataArtefact
+[http://NameOfBox:40404/api/runtime/data?name=NameOfDataArtefact](http://NameOfBox:40404/api/runtime/data?name=NameOfDataArtefact)
 
 Der Call muss als http-Get-Befehl erfolgen. Hier ein Beispiel für eine skalare Variable:
 ```
@@ -108,7 +108,7 @@ Für das Schreiben von Daten wird unter diesselbe URL ein http-Post-Befehl gesen
 }
 ```
 
-![api-01.png](/assets/images/misc/api/)
+![api-01.png](/assets/images/misc/API/api-01.png)
 
 Neben dem Setzen von Variablen gibt es noch folgende Operation-Codes:
 
