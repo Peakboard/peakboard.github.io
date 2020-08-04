@@ -20,3 +20,5 @@ The logic works with a Lua expression like in the *Create Colum* step. Only the 
 ### Filter By Date/Time Columns 
 Data in a dataflow can also be filtered using a previously created [time data source] (https://help.peakboard.com/data_sources/en-date-and-time.html).
 For this, the time format of the data source must be identical to the comparison time from the dataflow.
+
+![Filter Column](/assets/images/dataflows/dataflows-filter02.png)

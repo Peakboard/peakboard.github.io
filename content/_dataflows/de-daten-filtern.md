@@ -15,8 +15,10 @@ Der Dataflow-Schritt "Filter" stellt ein mächtiges Werkzeug dar, um nicht benö
 
 Die Logik funktioniert mit einem Lua-Ausdruck wie beim Create Column Schritt. Nur der Rückgabewert ändert sich. Liefert der Ausdruck "false" zurück, wird die Zeile gelöscht, liefert er "true" bleibt sie erthalten. Das folgende Beispiel zeigt, wie alle Zeilen gelöscht werden, die in der Spalte City den Wert "N/A" enthalten.
 
-![Filer Column](/assets/images/dataflows/dataflows-filter01.png)
+![Filter Column](/assets/images/dataflows/dataflows-filter01.png)
 
 ### Filter By Date/Time Columns 
 Ebenso können Daten in einem Dataflow anhand einer zuvor angelegten [Zeitdatenquelle](https://help.peakboard.com/data_sources/de-datum-und-uhrzeit.html) gefiltert werden.
 Hierzu muss das Zeitformat der Datenquelle identisch zur Vergleichszeit aus dem Dataflow sein.
+
+![Filter Column](/assets/images/dataflows/dataflows-filter02.png)
