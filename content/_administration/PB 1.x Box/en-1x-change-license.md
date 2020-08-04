@@ -10,18 +10,15 @@ redirect_from:
   - /administration/05-en-change-license.html
 ---
 
-If you decide to upgrade a purchased Peakboard Pro Box to the Enterprise version, it is necessary to exchange the license key.
-An upgrade license key can be requested by sending an email to sales@peakboard.com .
+If the decision is made to upgrade a purchased Peakboard-Box, for example from the Pro to the Enterprise version, it is necessary to exchange the license key.
+An upgrade license key can be requested by mail to sales@peakboard.com.
 There is the possibility to purchase a test license for a fixed period of time. Please make sure to save your original purchased license key of the Peakboard Pro Box in a separate text file!
-After expiration of the test period the test license loses its validity, whereby the Peakboard Box can no longer be used with this license. Now change the license key to the license key saved in the separate text file to continue using your purchased Peakboard Box.
+After expiration of the trial period, the trial license loses its validity and the Peakboard Box can no longer be used with this license. Please change the license key to the license key saved in the separate text file in order to continue using your purchased Peakboard Box.
 
-To change the license of a Peakboard Box, first click on the Manage button (1) in the Peakboard Designer.
+To change the licence of a Peakboard Box, first click on the "Manage/Upload" button (1) in the Peakboard Designer.
 
-In the Manage dialog select the desired Peakboard Box (2) and open the menu item Set Properties (4) via the menu button Settings (3).
+In the "Manage/Upload" dialog, select the desired Peakboard Box and double-click on it to open the "Settings" dialog (2). 
+Under "Properties" you can see the properties like name and license (3). 
+The edit symbol now allows to change the license (4).
 
 ![Manage Dialog](/assets/images/admin/license/manage-dialog.png)
-
-In the following dialog you can adjust the License value via the Edit button (5). Under Value (6) enter the new license key.
-When using test licenses, be sure to save your original purchased license key of the Peakboard Pro Box in a separate text file!
-
-![Edit Properties Dialog](/assets/images/admin/license/edit-license.png)
