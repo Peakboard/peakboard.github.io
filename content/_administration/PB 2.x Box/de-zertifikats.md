@@ -22,7 +22,7 @@ Von dort aus kann man im Tab "Details" in eine Datei speichern. `DER (*.cer)` is
 
 Die exportierte Datei nun auf die Peakboard-Box kopieren.
 
-Dafür im Windows-Explorer auf die Freigabe \\<ip-adresse-peakboard-box>\Share zugreifen und dort ablegen.  
+Dafür im Windows-Explorer auf die Freigabe \\\<ip-adresse-peakboard-box>\Share zugreifen und dort ablegen.  
 Statt der IP-Adresse kann natürlich auch der Hostname der Box verwendet werden.
 
 Benutzername und Passwort des PBAdmin eingeben.
