@@ -4,8 +4,8 @@ title: 后处理表格数据
 menu_title: 后处理表格数据
 description: 后处理表格数据
 lang: cn
-weight: 600
-ref: scr-600
+weight: 700
+ref: scr-700
 redirect_from:
   - /scripting/03-cn-table-data.html
 ---
