@@ -54,29 +54,29 @@ Functions for the Peakboard Runtime.
 
 Standard functions included in the script editor. With the help of the script Global Functions you can create your own functions at any time.
 
-* Peakboard
+#### Peakboard
 Enables output to the log of the Peakboard Runtime using peakboard.log(), for example.
 
-* Control
+#### Control
 Includes a simplified function to make a control visible or invisible.
 
-* Date
+#### Date
 Here you can find common functions to work with a date or time. However, these functions do NOT replace the time data source. Rather, they extend the range of preconfigured functions for time manipulation. 
 
-* String
+#### String
 These functions are mostly used when it comes to filtering certain text values within a [Dataflow](/dataflows/en-filter-data.html).
 
-* Math
+#### Math
 Contains some functions for handling numbers. For example, the "To number" function can be used to convert a number from the String datatype to the Number datatype.
 
-* SQL
+#### SQL
 The functions listed here are mainly used for writing to SQL. 
 
-* SAP
+#### SAP
 The functions listed here are mainly used for writing to SAP. 
 
-* Mail
+#### Mail
 Here you will find preconfigured functions for sending e-mails via the Peakboard.
 
-* Brush
+#### Brush
 Function to color something using a hex code. 
