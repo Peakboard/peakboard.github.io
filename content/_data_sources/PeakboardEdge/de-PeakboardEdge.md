@@ -22,14 +22,31 @@ Ein (oder mehrere) Peakboard Edge befinden sich im Netzwerk und kommuniziert mit
 |Klemmleiste (IN)		| 4 Stromausgänge a 3,3 V, 4 Eingänge| Sind in Paare aufgeteilt. Edge erkennt den Zustand der Eingänge |
 | Klemmleiste (OUT)		| 4 schaltbare Strom Pins (bis 24V), 1 Stromeingang | 4 schaltbare Pins können über das Edge gesteuert werden, sodass der Strom vom Stromeingang an diesen anliegt |
 
+
 An diese Anschlussmöglichkeiten können Beispielsweise folgende Geräte angeschlossen werden:
 
 
 ### Eingänge
-![img02](/assets/images/data-sources/peakboard-edge/edge02.png)
+
+{% include styled_table.html %}
+| Eingabegerät 		| Anschluss 		|
+|-------------------|-------------------|
+| Druckknopf		| Klemmleiste		|
+|(Binärer) Sensor	| Klemmleiste		|
+| Tastatur			| USB				|
+| Barcodescanner	| USB				|
+| RFID-Reader		| USB				|
+
 
 ### Ausgänge
-![img03](/assets/images/data-sources/peakboard-edge/edge03.png)
+
+{% include styled_table.html %}
+| Ausgabegerät		| Anschluss			|
+|-------------------|-------------------|
+| Ampel				| Klemmleiste		|
+| Signalleuchte		| Klemmleiste		|
+| Lautsprecher		| USB				|
+
 
 Über eine Visualisierung auf einer Peakboard Enterprise Box können die Informationen der Eingabegeräte an einem Peakboard Edge auf einem Bildischirm dargestellt oder in einer Datenbank gespeichert werden. Gleichzeitig ist dabei ein Verarbeiten der Informationen möglich. Ebenso können die Ausgabegeräte an einem Peakboard Edge über die Visualisierung gesteuert werden. 
 
