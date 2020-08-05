@@ -12,6 +12,7 @@ redirect_from:
 
 All Controls that are available in the Toolbox at the top right have properties. These include, on the one hand, special properties that only apply to the Control in question, but also general properties that can be found in almost every Control, or at least in many Controls. To avoid having to explain all properties again and again on every help page, the properties that appear for more than one Control are summarized in the following list
 
+{% include styled_table.html %}
 | **Property**   | **Description** |
 |------------|-------------|
 | Name       | Is a unique name for the control (without special characters) to access from scripts. Only if the control is actually used by scripts, a name must be assigned. |

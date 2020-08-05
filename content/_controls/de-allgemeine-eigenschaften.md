@@ -12,6 +12,7 @@ redirect_from:
 
 Alle Controls, die in der Toolbox oben rechts zur Verfügung stehen, haben Eigenschaften. Dazu gehören zum einen spezielle Eigenschaften, die nur für das jeweilige Control gelten aber auch allgemeine Eigenschaften, die fast bei jedem oder zumindest bei vielen Controls vorkommen. Damit nicht auf jeder Hilfe-Seite immer alle Eigenschaften wieder und wieder erklärt werden müssen, sind die Eigenschaften, die bei mehr als einem Control auftauchen, in der folgenden Liste zusammengefasst:
 
+{% include styled_table.html %}
 | **Eigenschaft**   | **Beschreibung** |
 |------------|-------------|
 | Name       | ist ein eindeutiger Name für das Control (ohne Sonderzeichen), um es von Skripten aus anzusteuern. Nur wenn das Control tatsächlich von Skripten aus genutzt wird, muss ein Name vergeben werden. |
