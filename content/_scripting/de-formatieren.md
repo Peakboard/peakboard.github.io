@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Formatieren von Tabellen-Grids
-menu_title: Formatieren von Tabellen-Grids
-description: Formatieren von Tabellen-Grids
+title: Färben von Tabellen-Grids
+menu_title: Färben von Tabellen-Grids
+description: Färben von Tabellen-Grids
 lang: de
 weight: 500
 ref: scr-500
@@ -10,17 +10,22 @@ redirect_from:
   - /scripting/05-de-formatieren.html
 ---
 
-Table Grids sind wenig überraschend die häufigste Form, tabellarische Daten darzustellen. Das Table Grid bietet die Möglichkeit, Daten zu binden und die Spalten wunschgemäß anzupassen: Schriftart, Orientierung, Formatierung, Überschrift usw. – Es gibt allerdings häufig Attribute, die nicht statisch gesetzt werden sollen, sondern abhängig von den Dateninhalten. Darüberhinaus kann es sinnvoll sein, die Dateninhalte vor der Ausgabe in der Tabelle einer Anpassung zu unterziehen, die die Standard-Formatierung nicht unterstützt. Dieser Artikel nimmt sich exemplarisch beiden Forderungen an:
+[Table Grids](https://help.peakboard.com/controls/de-table-grid.html) sind wenig überraschend die häufigste Form, tabellarische Daten darzustellen. 
+Das Table Grid bietet die Möglichkeit, Daten zu binden und die Spalten wunschgemäß anzupassen: Schriftart, Orientierung, Formatierung, Überschrift usw. – Es gibt allerdings häufig Attribute, die nicht statisch gesetzt werden sollen, sondern abhängig von den Dateninhalten. 
+Darüberhinaus kann es sinnvoll sein, die Dateninhalte vor der Ausgabe in der Tabelle einer Anpassung zu unterziehen, die die Standard-Formatierung nicht unterstützt. 
+Dieser Artikel nimmt sich exemplarisch beiden Forderungen an:
 
-Die Datengrundlage soll aus SAP kommen. Es werden offene Lieferungen angezeigt. Neben der Liefernummer und dem Kundennamen wird auch das Gewicht der Lieferung ausgegeben. Die folgende Tabelle zeigt die Rohdaten. Nur die Gewichtsangabe ist mit Bordmitteln formatiert und rechtsbündig ausgerichtet. Es soll das Gewicht in grün ausgegeben werden, wenn es kleiner als 10kg ist und mit einem roten Hintergrund, falls es schwerer ist. Darüber hinaus sollen die führenden Nullen bei der LieferNr abgeschnitten werden.
-
+In der SAP-Tabelle sollen diejenigen Einträge welche in der Spalte "LBKUM" einen Eintrag größer 1.000 haben in Grün angezeigt werden.
+Diejenigen welche kleiner als 1.000 sind sollen in Rot dargestellt werden.
 
 
 ![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_01.png)
 
 
 
-Die Formatierungs- und Änderungslogik wird in ein Script abgebildet. Das Script wird für jede Tabellenzeile genau einmal durchlaufen unmittelbar bevor sie in der Visualisierung ausgegeben wird. Sie erreichen den Script-Editor vom Events-Attribut des Table Grid Elements aus:
+Die Formatierungs- und Änderungslogik wird in ein Skript abgebildet. 
+Das Skript wird für jede Tabellenzeile genau einmal durchlaufen unmittelbar bevor sie in der Visualisierung ausgegeben wird. 
+Sie erreichen den Skript-Editor vom Events-Attribut des Table Grid Elements aus:
 
 
 
@@ -35,22 +40,18 @@ Innerhalb des Events gibt es die Variable e. Sie repräsentiert die aktuelle Tab
 * e.CellControl erlaubt Zugriff auf die Zelle selbst (z.B. e.CellControl.Backgground = Brushes.Green).
 table.getcelltext(e, [Index]) gibt den Wert der Spalte mit dem entsprechenden Index zurück. Hierbei entspricht 0 der ersten Spalte, 1 der zweiten, …
 
-Daraus ergibt sich folgendes einfaches Script, um die Anforderungen von oben umzusetzen (Schriftfarbe, Zellfarbe, führende Nullen abschneiden):
+Daraus ergibt sich folgendes einfaches Script, um die Anforderungen von oben umzusetzen:
 
 
 
 ```lua
-if math.tonumber(table.getcelltext(e, 4)) < 10 then
+if math.tonumber(table.getcelltext(e, 2)) > 1000 then
  e.Columns[4].TextControl.Foreground = Brushes.Green
 else
- e.Columns[4].CellControl.Background = Brushes.Red
+ e.Columns[4].CellControl.Foreground = Brushes.Red
 end
-
-e.Columns[0].TextControl.Text = string.sub(table.getcelltext(e, 0), -8)
 ```
 
 Hier die Voransicht mit entsprechendem Formatierungsscript:
-
-
 
 ![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_03.png)

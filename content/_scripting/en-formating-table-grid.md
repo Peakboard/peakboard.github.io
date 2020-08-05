@@ -1,56 +1,57 @@
 ---
 layout: article
-title: Formatting Table Data
-menu_title: Formatting Table Data
-description: Formatting Table Data
+title: Colorize Table Grids
+menu_title: Colorize Table Grids
+description: Colorize Table Grids
 lang: en
 weight: 500
 ref: scr-500
 redirect_from:
-  - /scripting/05-en-formating-table-grid.html
+  - /scripting/05-en-formatting.html
 ---
 
-Table grids are not surprisingly the most common form of displaying tabular data. The Table Grid allows you to bind data and customize the columns as desired: font, orientation, formatting, headline, etc. However, there are often attributes that should not be set statically, but depend on the data content. It may also make sense to adjust the data content before outputting it in the table to a format that does not support standard formatting. This article deals with both demands in an exemplary manner:
+[Table Grids](https://help.peakboard.com/controls/en-table-grid.html) are, unsurprisingly, the most common way of displaying tabular data. 
+The Table Grid offers the possibility to bind data and adjust the columns as desired: font, orientation, formatting, heading, etc. - However, there are often attributes that should not be set statically, but rather depending on the data content. 
+In addition, it may be useful to adjust the data contents before outputting them to the table if the standard formatting does not support this. 
+This article deals with both requirements as examples:
 
-The data basis should come from SAP. Open deliveries are displayed. In addition to the delivery number and customer name, the system also displays the weight of the delivery. The following table shows the raw data. Only the weight specification is formatted with on-board equipment and aligned right-justified. The weight should be displayed in green if it is less than 10kg and with a red background if it is heavier. In addition, the leading zeros in the delivery number are to be truncated.
-
-
-
-![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_01.png)
-
-
-
-The formatting and change logic is mapped to a script. The script is run for each table row exactly once immediately before it is output in the visualization. You can access the script editor from the event attribute of the table grid element:
+In the SAP table, those entries that have an entry greater than 1,000 in the column "LBKUM" should be displayed in green.
+Those that are smaller than 1,000 should be displayed in red.
 
 
-
-![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_02.png)
+![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatting_01.png)
 
 
 
-Within the event, there is the variable e. It represents the current table line.
+The formatting and change logic is mapped into a script. 
+The script is run exactly once for each table row immediately before it is output in the visualization. 
+You can access the script editor from the events attribute of the table grid element:
 
-* e.Data gives access to the raw data (e. g. e.Data.MyColumn).
-* e.TextControl allows access to the control representing the text (e. g. e.TextControl.Text = “My new content”) e. TextControl.
-* e.CellControl allows access to the cell itself (e. g. e.CellControl. Background = Brushes.Green).
 
-table.getcelltext(e,[Index]) returns the value of the column with the corresponding index. Here 0 corresponds to the first column, 1 to the second,….
-This results in the following simple script to implement the requirements from above (font color, cell color, cut off leading zeros):
+
+![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Format_02.png)
+
+
+
+Within the event there is the variable e. It represents the current tabular line.
+
+* e.Data gives access to the raw data (e.g. e.Data.MyData column).
+* e.TextControl gives access to the control that represents the text (e.g. e.TextControl.Text = "My new content") e.
+* e.CellControl allows access to the cell itself (e.g. e.CellControl.Backgground = Brushes.Green)
+table.getcelltext(e, [Index]) returns the value of the column with the corresponding index. Here 0 corresponds to the first column, 1 to the second, ...
+
+This results in the following simple script to implement the requirements from above:
+
 
 
 ```lua
-if math.tonumber(table.getcelltext(e, 4)) < 10 then
+if math.tonumber(table.getcelltext(e, 2)) > 1000 then
  e.Columns[4].TextControl.Foreground = Brushes.Green
 else
- e.Columns[4].CellControl.Background = Brushes.Red
+ e.Columns[4].CellControl.Foreground = Brushes.Red
 end
-
-e.Columns[0].TextControl.Text = string.sub(table.getcelltext(e, 0), -8)
 ```
 
+Here the preview with the corresponding formatting script:
 
-Here is the preview with the corresponding formatting script:
-
-
-
-![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_03.png)
+![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_formatting_03.png)
