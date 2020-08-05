@@ -15,7 +15,7 @@ Dies kann beispielsweise über einen Screenshot der Visualisierung realisiert we
 
 Technisch kann so ein Screenshot über einen HTTP Get Request direkt von der Box extrahiert werden.
 
-## Dieser Befehl sieht für Peakboard 2 Boxen folgendermaßen aus:
+### Dieser Befehl sieht für Peakboard 2 Boxen folgendermaßen aus:
 
 
 
@@ -38,7 +38,7 @@ Bei erfolgreichem Request erhalten Sie einen Screenshot von der aktuellen Anzeig
 
 
 
-## Für Peakboard 1 Boxen sieht der Befehl etwas anders aus:
+### Für Peakboard 1 Boxen sieht der Befehl etwas anders aus:
 
 
 
