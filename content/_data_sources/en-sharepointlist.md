@@ -23,4 +23,4 @@ Please note that in addition to the pure user data, several metadata columns are
 Depending on the application, these additional columns can be useful.
 Once the metadata has been determined, the data source is available for use.
 
-[Sharepoint list](/assets/images/data-sources/sharepointlist/sharepoint.png)
+![Sharepoint list](/assets/images/data-sources/sharepointlist/sharepoint.png)

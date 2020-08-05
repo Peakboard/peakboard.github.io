@@ -23,5 +23,5 @@ Bitte beachten Sie, dass neben den reinen Nutzdaten auch etliche Metadaspalten m
 Je nach Anwendungsfall können diese zusatzspalten nützlich sein.
 Wenn die Metadaten ermittelt sind, steht die Datenquelle zur Nutzung zur Verfügung.
 
-[Sharepoint-Liste](/assets/images/data-sources/sharepointlist/sharepoint.png)
+![Sharepoint-Liste](/assets/images/data-sources/sharepointlist/sharepoint.png)
 
