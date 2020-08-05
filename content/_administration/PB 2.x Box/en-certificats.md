@@ -24,7 +24,7 @@ From there you can save to a file in the tab "Details". `DER (*.cer)` is suffici
 
 Copy the exported file to the device.
 
-To do this, access the admin share \\<ip-adresse-peakboard-box>\Share in Windows Explorer and store it in the folder c:\users\public\, for example.
+To do this, access the share \\<ip-adress-peakboard-box>\Share in Windows Explorer and store it there.
 
 Enter the user name and password of the PBAdmin.
 
