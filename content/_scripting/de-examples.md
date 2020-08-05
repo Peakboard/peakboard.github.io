@@ -11,9 +11,9 @@ redirect_from:
 
 In dieser Auflistung finden sich weitere Beispiele zum Skripting:
 
-*[Button Script Beispiel](https://templates.peakboard.com/Script-Example-With-Button/index)
-*[Taschenrechner Script Beispiel](https://templates.peakboard.com/Script-Example-Using-Calculator/index)
-*[PDF Script Beispiel](https://templates.peakboard.com/Script-Example-PDF-Page-Change/index)
+* [Button Script Beispiel](https://templates.peakboard.com/Script-Example-With-Button/index)
+* [Taschenrechner Script Beispiel](https://templates.peakboard.com/Script-Example-Using-Calculator/index)
+* [PDF Script Beispiel](https://templates.peakboard.com/Script-Example-PDF-Page-Change/index)
 * [Tastatureingabe Script Beispiel](https://templates.peakboard.com/Script-Example-Processing-Keyboard-Entries/index)
 * [Schreiben nach Excel](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index)
 * [Push-Nachrichten an eine Peakboard Box senden](https://templates.peakboard.com/Script-Send-Push-Messages-To-Peakboard/index)
