@@ -22,10 +22,10 @@ Von dort aus kann man im Tab "Details" in eine Datei speichern. `DER (*.cer)` is
 
 Die exportierte Datei nun auf die Peakboard-Box kopieren.
 
-Dafür im Windows-Explorer auf die Admin-Freigabe \\\\<ip-adresse-peakboard-box\>\c$ zugreifen und z.B. in dem Ordner C:\users\public\ ablegen.
+Dafür im Windows-Explorer auf die Freigabe \\<ip-adresse-peakboard-box>\Share zugreifen und dort ablegen.  
 Statt der IP-Adresse kann natürlich auch der Hostname der Box verwendet werden.
 
-Benutzername und Passwort des Administrators eingeben.
+Benutzername und Passwort des PBAdmin eingeben.
 
 ![Window Explorer](/assets/images/admin/certificates/windows-explorer.png)
 
@@ -35,7 +35,7 @@ Lokal eine PowerShell als Administrator ausführen
 
 * net start WinRM
 * Set-Item WSMan:\localhost\Client\TrustedHosts -Value \<ip-adresse\>
-* Enter-PSSession -ComputerName \<ip-adresse\> -Credential administrator
+* Enter-PSSession -ComputerName \<ip-adresse\> -Credential pbadmin
 
 Wenn die Verbindung steht, das Zertifikat in den Zertifikatspeicher importieren:
 

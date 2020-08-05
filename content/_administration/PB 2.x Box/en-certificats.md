@@ -24,9 +24,9 @@ From there you can save to a file in the tab "Details". `DER (*.cer)` is suffici
 
 Copy the exported file to the device.
 
-To do this, access the admin share \\\\<ip\>\c$ in Windows Explorer and store it in the folder c:\users\public\, for example.
+To do this, access the admin share \\<ip-adresse-peakboard-box>\Share in Windows Explorer and store it in the folder c:\users\public\, for example.
 
-Enter the user name and password of the administrator.
+Enter the user name and password of the PBAdmin.
 
 ![Window Explorer](/assets/images/admin/certificates/windows-explorer.png)
 
@@ -36,7 +36,7 @@ Running a PowerShell locally as an administrator
 
 * net start WinRM
 * Set-Item WSMan:\localhost\Client\TrustedHosts -Value \<ip-address\>
-* Enter-PSSession -ComputerName \<ip address\> -Credential localhost\administrator
+* Enter-PSSession -ComputerName \<ip address\> -Credential pbadmin
 
 When connected, import the certificate into the certificate store:
 
