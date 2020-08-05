@@ -20,7 +20,7 @@ Go to the https page there; Ctrl+Shift+I and then display the certificate in the
 
 From there you can save to a file in the tab "Details". `DER (*.cer)` is sufficient for this case.
 
-![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details2.png)
+![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
 
 Copy the exported file to the device.
 
@@ -28,7 +28,7 @@ To do this, access the share \\\<ip-adress-peakboard-box>\Share in Windows Explo
 
 Enter the user name and password of the PBAdmin.
 
-![Window Explorer](/assets/images/admin/certificates/windows-explorer.png)
+![Window Explorer](/assets/images/admin/certificates/windows-explorer2.png)
 
 Then connect to the device via PowerShell.
 
