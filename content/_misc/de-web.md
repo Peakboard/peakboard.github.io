@@ -23,7 +23,7 @@ Für den Login werden die mit der Box ausgelieferten Anmeldedaten benötigt.
 Nachfolgender Screenshot illustriert den Startbildschirm nach einer erfolgreichen Anmeldung.
 (1) zeigt dabei einen Screenshot der aktiven Visualisierung. Über die beiden Controlls kann der Screenshot manuell aktualisiert bzw. in einem neuen Fenster geöffnet werden.
 (2) ermöglicht es die auf der Box gespeicherten Visualisierungen zu starten oder zu stoppen. Auch kann die entsprechende .pbmx-File heruntergeladen oder von der Box gelöscht werden.
-(3) enthält die in der aktiven Visualisierung verfügbaren Variablen und Listen, welche für den Zugriff berechtigt sind. In diesem Fall die aus vorangegangen Screenshot bekannte Liste "Visitors".
+(3) enthält die in der aktiven Visualisierung verfügbaren Variablen und Listen, welche für den Zugriff berechtigt sind. In diesem Fall die aus vorangegangen Screenshot bekannte Liste "Patients".
 
 ![image1](/assets/images/instant_boards/web/img1.png)
 

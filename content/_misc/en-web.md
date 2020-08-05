@@ -23,7 +23,7 @@ The login data supplied with the box is required for the login.
 The following screenshot illustrates the start screen after a successful login.
 (1) shows a screenshot of the active visualization. The screenshot can be updated manually or opened in a new window via the two controls.
 (2) allows you to start or stop the visualizations stored in the box. The corresponding .pbmx file can also be downloaded or deleted from the box.
-(3) contains the variables and lists available in the active visualization that are authorized for access. In this case the list "Visitors" known from the previous screenshot.
+(3) contains the variables and lists available in the active visualization that are authorized for access. In this case the list "Patients" known from the previous screenshot.
 
 ![image1](/assets/images/instant_boards/web/img1.png)
 
