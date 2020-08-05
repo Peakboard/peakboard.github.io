@@ -10,29 +10,38 @@ redirect_from:
   - /misc/01-de-ressourcen.html
 ---
 
-Die Ressourcen sind neben den Screens und Data Sources die dritte Säule einer Peakboard-Visualisierung. Eine Ressource kann alles mögliche sein, was an Zusatzmaterial für eine Visualisierung benötigt wird: Bilder, Schriftarten, Scripte, Datendateien (z.B. Excel). Im einfachsten Fall wird die jeweilige Ressource direkt, statisch im Peakboard Package hinterlegt. Eine Ressource kann aber auch dynamisch sein und zum Beispiel über eine URL abgerufen werden, in einem Cloud-Speicher liegen (Dropbox, Google Drive, OneDrive) oder auf einem freigegeben Laufwerk innerhalb des selben Netzes (Bridge Resource). Alle diese Optionen werden in diesem Artikel erklärt, in der Reihenfolge, wie sie im Menü erscheinen (siehe folgender Screenshot).
+Die Ressourcen sind neben den Screens und Data Sources die dritte Säule einer Peakboard-Visualisierung.
+Eine Ressource kann alles Mögliche sein, was an Zusatzmaterial für eine Visualisierung benötigt wird: *Bilder, Schriftarten, Datendateien (z.B. Excel)*. 
+Im einfachsten Fall wird die jeweilige Ressource direkt, statisch im Peakboard Package hinterlegt. 
+Eine Ressource kann aber auch dynamisch sein und zum Beispiel über eine **URL** abgerufen werden, in einem **Cloud-Speicher** liegen (Dropbox, Google Drive, OneDrive) oder auf einem **freigegeben Laufwerk** innerhalb desselben Netzes (Bridge Resource/ Network Share Resource). 
+Alle diese Optionen werden in diesem Artikel erklärt, in der Reihenfolge, wie sie im Menü erscheinen (siehe folgender Screenshot).
 
 ![image_1](/assets/images/misc/Ressources/Resources_01.png)
 
-## Script
-
-Der Menupunkt Add Script fügt eine neue, leere Scriptdatei hinzu. Sie kann dann manuell im Lua-Editor beschrieben werden. Üblicherweise nutzt man diese Technik, um dort allgemeine Funktionen abzulegen, die von vielen anderen LUA-Scripten erreichbar sind.
-
 ## Local Resource
 
-Local Resource ist einfach nur eine statische Datei: Ein Script, eine Excel-Datei, ein Bild etc., das direkt von der Dateisystem in das Package eingefügt wird und dann dort statisch vorliegt und nicht mehr verändert wird.
+**Local Resource** ist einfach nur eine statische Datei: Eine Excel-Datei, ein Bild etc., das direkt vom Dateisystem in den *Explorer* eingefügt wird, dort dann statisch vorliegt und nicht mehr verändert wird.
 
 ## Bridge Resource
 
-Die Peakboard Bridge ist ein kleiner, ressourcen-schonender Windows-Service, der üblicherweise auf einem Windows-Server installiert ist. Wenn man eine Ressource erstellen möchte, die nicht statisch ist, sondern sich laufend von einem freigegebenen Netzlaufwerk erneuert, ist die Bridge-Resource die richtige Wahl. Die Peakboard-Box greift auf die Bridge, und die wiederum auf die im Netzwerk freigegebene Datei. Warum greift die Box nicht einfach direkt auf die Datei zu? Die Antwort ist einfach: Aus Sicherheitsgründen. Üblicherweise ist die Box nicht Teil der Domäne und hat somit keinen Zugriff auf ein Netzlaufwerk. Der Bridge-Service aber schon, weil er im AD-User-Kontext auf das Netzlaufwerk greift, unter dem der Bridge-Windows-Service läuft.
+Die [Peakboard Bridge](https://help.peakboard.com/administration/PB%201.x%20Box/de-1x-install.html) ist ein kleiner, ressourcen-schonender Windows-Service, der üblicherweise auf einem Windows-Server installiert ist. 
+Wenn man eine Ressource erstellen möchte, die nicht statisch ist, sondern sich laufend von einem freigegebenen Netzlaufwerk erneuert, ist die *Bridge-Resource* die einzige Option für Peakboard 1 Boxen. 
+Die Peakboard-Box greift auf die Bridge, und die wiederum auf die im Netzwerk freigegebene Datei. 
+*Warum greift die Box nicht einfach direkt auf die Datei zu?* Die Antwort ist einfach: Aus Sicherheitsgründen. 
+Üblicherweise ist die Box nicht Teil der Domäne und hat somit keinen Zugriff auf ein Netzlaufwerk. Der Bridge-Service aber schon, weil er im AD-User-Kontext auf das Netzlaufwerk greift, unter dem der Bridge-Windows-Service läuft.
 
-Der folgende Screenshot zeigt die Konfigurationsmaske für eine Bridge-Resource. Man muss lediglich den Pfad zur gewünschten Datei (in diesem Fall eine Excel-Datei auf einem freigegeben Laufwerk) und die URL des Bridge-Servers angeben. Wenn der Bridge-Server unter dem Standardport 2501 läuft, kann die Port-Angabe auch weggelassen werden.
+Der folgende Screenshot zeigt die Konfigurationsmaske für eine *Bridge-Resource*. 
+Man muss lediglich den Pfad zur gewünschten Datei (in diesem Fall eine Excel-Datei auf einem freigegebenen Laufwerk) und die URL des Bridge-Servers angeben. 
+Wenn der Bridge-Server unter dem Standardport 2501 läuft, kann die Port-Angabe auch weggelassen werden.
 
 ![image_1](/assets/images/misc/Ressources/Resources_02.png)
 
+## Network Share Resource
+Mit [Peakboard 2 Boxen](https://help.peakboard.com/misc/de-pb2.html) kann direkt über einen Domän-User auf freigegebene Netzwerk-Dateien zugegriffen werden.
+
 ## Web Resource
 
-Die Web Resource ist denkbar einfach erklärt: Hinterlegen Sie einfach die gewünschte URL, bei Bedarf mit einer Authentifizierung, falls sich die Resource eine explizite Authentifizierung erfordert.
+Die **Web Resource** ist denkbar einfach erklärt: Hinterlegen Sie einfach die gewünschte URL, bei Bedarf mit einer Authentifizierung, falls sich die Ressource eine explizite Authentifizierung erfordert.
 
 ![image_1](/assets/images/misc/Ressources/Resources_03.png)
 
