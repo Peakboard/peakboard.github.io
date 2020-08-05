@@ -9,65 +9,56 @@ ref: con-400
 redirect_from:
 ---
 
-#### Rectangle
-
+### Rectangle
 	The rectangle is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust various properties like color and shadow. 
 	The rectangle can also execute a tapped event, which means that a script can be created which is executed when the rectangle is clicked.
 	
 	![image_1](/assets/images/Controls/Shapes/rectangle.png)
 	
-#### Line
-
+### Line
 	The line is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust various properties like color and shadow.
 	
 	![image_1](/assets/images/Controls/Shapes/line.png)
 	
-#### Ellipse
-
+### Ellipse
 	The ellipse is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust various properties like color and shadow.
 	
 	![image_1](/assets/images/Controls/Shapes/ellipse.png)
 	
-#### Hexagon
-
+### Hexagon
 	The hexagon is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust various properties like color and shadow.
 	
 	![image_1](/assets/images/Controls/Shapes/hexagon.png)
 	
-#### Pentagon
-
+### Pentagon
 	The Pentagon is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust different properties like color and shadow.
 	
 	![image_1](/assets/images/Controls/Shapes/pentagon.png)
 	
-#### Octagon
-
+### Octagon
 	The octagon is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust various properties like color and shadow.
 	
 	![image_1](/assets/images/Controls/Shapes/octagon.png)
 	
-#### Triangle
-
+### Triangle
 	The triangle is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust various properties such as color and shadow.
 	
 	![image_1](/assets/images/Controls/Shapes/triangle.png)
 	
-#### Balloon
-
+### Balloon
 	The balloon is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust different properties like color and shadow.
 	
 	![image_1](/assets/images/Controls/Shapes/balloon.png)
 	
-#### Cloud
-
+### Cloud
 	The cloud is a shape that can be dragged and dropped from the controls onto the drawing area. 
 	There you can adjust various properties like color and shadow.
 	
