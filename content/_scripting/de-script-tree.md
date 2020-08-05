@@ -54,29 +54,29 @@ Funktionen für die Peakboard Runtime.
 
 Im Skript-Editor enthaltene Standardfunktionen. Mit Hilfe des Skripts Globale Funktionen können jederzeit eigene Funktionen angelegt werden.
 
-* Peakboard
+#### Peakboard
 Ermöglicht beispielsweise mittels peakboard.log() die Ausgabe in den Log der Peakboard Runtime
 
-* Control
+#### Control
 Enthält eine vereinfachte Funktion um ein Control sichtbar oder unsichtbar zu schalten
 
-* Date
+#### Date
 Hier finden sich gängige Funktionen, um mit einem Datum oder einer Uhrzeit zu arbeiten. Die Funktionen ersetzen jedoch NICHT die Zeit-Datenquelle. Vielmehr erweitern sie das Spektrum der vorkonfigurierten Funktionen zur Zeit-Manipulation. 
 
-* String
+#### String
 Diese Funktionen finden meist dann Anwendung, wenn es darum geht innerhalb eines [Dataflows bestimmte Textwerte zu filtern](/dataflows/de-daten-filtern.html).
 
-* Math
+#### Math
 Enthält einige Funktionen zum Umgang mit Zahlen. Beispielsweise kann über die “To number”-Funktion eine Zahl vom Datentyp String in den Datentyp Number überführt werden.
 
-* SQL
+#### SQL
 Die hier aufgeführten Funktionen finden hauptsächlich beim Schreiben nach SQL Verwendung. 
 
-* SAP
+#### SAP
 Die hier aufgeführten Funktionen finden hauptsächlich beim Schreiben nach SAP Verwendung.
  
-* Mail
+#### Mail
 Hier finden sich vorkonfigurierte Funktionen zum Versand von E-Mails über das Peakboard.
 
-* Brush
+#### Brush
 Funktion um etwas anhand eines Hex-Codes zu färben. 
