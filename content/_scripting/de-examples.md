@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 In dieser Auflistung finden sich weitere Beispiele zum Skripting:  
-
+  
 
 [Button Script Beispiel](https://templates.peakboard.com/Script-Example-With-Button/index)
 
