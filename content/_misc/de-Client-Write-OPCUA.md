@@ -31,6 +31,7 @@ Dies führt dazu, dass diese Zahlen nicht ohne weiteres auf einem OPC UA Server 
 
 Mit Hilfe nachfolgender Tabelle liefert eine Übersicht über die OPC UA Datentypen und deren entsprechende Konvertierunsfunktionen:
 
+{% include styled_table.html %}
 | OPC UA Datatype | Konvertierungsfunktion |
 |-----------------|----------------------:|
 | byte            |              tobyte() |

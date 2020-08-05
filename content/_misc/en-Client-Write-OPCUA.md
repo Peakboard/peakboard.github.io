@@ -30,6 +30,7 @@ This means that these numbers cannot be stored on an OPC UA server without furth
 
 The following table provides an overview of the OPC UA data types and their corresponding conversion functions:
 
+{% include styled_table.html %}
 | OPC UA Datatype | Conversion Function |
 |-----------------|----------------------:|
 | byte | tobyte() |
