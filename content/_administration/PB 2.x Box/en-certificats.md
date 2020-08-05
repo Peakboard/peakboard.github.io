@@ -20,7 +20,7 @@ Go to the https page there; Ctrl+Shift+I and then display the certificate in the
 
 From there you can save to a file in the tab "Details". `DER (*.cer)` is sufficient for this case.
 
-![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
+![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details2.png)
 
 Copy the exported file to the device.
 

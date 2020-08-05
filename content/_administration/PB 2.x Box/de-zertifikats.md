@@ -18,7 +18,7 @@ Dort auf die HTTPS-Webseite gehen; Strg+Umschalt+I und dort im Reiter "Security"
 
 Von dort aus kann man im Tab "Details" in eine Datei speichern. `DER (*.cer)` ist für diesen Fall ausreichend.
 
-![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
+![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details2.png)
 
 Die exportierte Datei nun auf die Peakboard-Box kopieren.
 
