@@ -8,3 +8,7 @@ weight: 500
 ref: con-500
 redirect_from:
 ---
+
+Das Richt Text Control kann verwendet werden, um Dateien im Rich Text Format anzuzeigen. Die Dateien müssen dafür in den Ressourcen angelegt sein. Dies geht entweder indem sie per drag und drop über dem Explorer abgelegt werden oder indem im Rich Text Control unter Data/Resource Add Resource ausgewählt wird.
+
+![image_1](/assets/images/Controls/Rich-Text/richtext.png)
