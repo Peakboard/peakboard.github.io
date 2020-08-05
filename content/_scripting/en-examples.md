@@ -10,12 +10,12 @@ redirect_from:
 ---
 
 In this list are further examples for scripting:  
-  
+\
 [Script Example with Button](https://templates.peakboard.com/Script-Example-With-Button/en)
 
 [Script Example Using a Simple Calculator](https://templates.peakboard.com/Script-Example-Using-Calculator/en)
 
-Script example for automatic PDF page change](https://templates.peakboard.com/Script-Example-PDF-Page-Change/en)
+[Script example for automatic PDF page change](https://templates.peakboard.com/Script-Example-PDF-Page-Change/en)
 
 [Script Example for Processing Keyboard Entries](https://templates.peakboard.com/Script-Example-Processing-Keyboard-Entries/en)
 
