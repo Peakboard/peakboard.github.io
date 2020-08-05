@@ -22,15 +22,17 @@ Wie auch die globalen Funktionen können globale Events jederzeit durch untersch
 
 Hierunter fallen klassische Eingaben über externe Eingabegeräte wie beispielsweise Touchscreen-Monitor, Tastatur, Maus oder [Presenter](/misc/de-presenter.html).
 
-* Swipen
+#### Swipen
 Die Eingabe erfolgt hierbei in der Regel über einen Touchscreen-Monitor. Alternativ kann der Wisch-Effekt auch über eine Maus erzeugt werden.
 
-* Taste gedrückt
+#### Taste gedrückt
 Dieses Skript wird immer dann ausgeführt, wenn eine Taste an einem Eingabegerät gedrückt wird. Unser [Beispiel zum Wechseln von Screens mit Hilfe eines handelsüblichen Presenters](/misc/de-presenter.html) illustriert sehr deutlich, wie diese Art Skript angewendet wird.
 
-* Tasteneingabe 
-* Skriptfehler 
-* Aktualisierung der Datenquelle fehlgeschlagen
+#### Tasteneingabe 
+
+#### Skriptfehler 
+
+#### Aktualisierung der Datenquelle fehlgeschlagen
 
 ## Bei Bildschirmaktivierung
 Wie der Name schon vermuten lässt wird ein hier definiertes Skript immer genau dann ausgeführt, wenn der entsprechende Bildschirm das erste Mal geladen wird.
@@ -47,21 +49,38 @@ Diese Events sind bestimmte Aktionen, die mit Hilfe eines Controls ausgelöst we
 
 Nachfolgende Liste enthält alle mit Peakboard möglichen Events sowie die dazugehörigen Controls.
 
-* Tapped (Text, Bild, Rechteck, Excel-Diagramm, Textfeld, Button, Repeat-Button)
+#### Tapped (Text, Bild, Rechteck, Excel-Diagramm, Textfeld, Button, Repeat-Button)
 Dieses Event wird ausgeführt, wenn das entsprechende Control über Touch, Maus oder ähnliche Eingabe aktiviert wird.
 
-* DataRowLoaded (Tabellenraster)
+#### DataRowLoaded (Tabellenraster)
 Dieses Event wird immer dann ausgeführt, wenn eine neue Zeile einer Tabelle geladen wird.
 
-* CellTapped (Tabellenraster)
+#### CellTapped (Tabellenraster)
 Dieses Event wird dann ausgeführt, wenn innerhalb der Tabelle eine Zelle über Touch, Maus oder ähnliche Eingabe aktiviert wird.
 
-* TileChanged (Live Tile Box)
-* RightTapped (Bild)
-* DoubleTapped (Bild)
-* TextChanged (Textfeld)
-* Checked (Toggle Button, Check Box, Radio Button)
-* Unchecked (Toggle Button, Check Box, Radio Button)
-* Toggled (Kippschalter)
-* SelectionChanged (Dropdown-Liste)
-* ValueChanged (Slider)
+#### TileChanged (Live Tile Box)
+Dieses Event wird dann ausgeführt, wenn das Tile einer Live Tile Box geändert wird.
+
+#### RightTapped (Bild)
+Dieses Event wird dann ausgeführt, wenn ein Rechtsklick über Touch, Maus oder ähnliche Eingabe auf ein Bild-Control ausgeführt wird.
+
+#### DoubleTapped (Bild)
+Dieses Event wird dann ausgeführt, wenn ein Doppelklick über Touch, Maus oder ähnliche Eingabe auf ein Bild-Control ausgeführt wird.
+
+#### TextChanged (Textfeld)
+Dieses Event wird ausgelöst, wenn sich die Texteingabe in einem Textfeld ändert.
+
+#### Checked (Toggle Button, Check Box, Radio Button)
+Dieses Event wird ausgelöst, wenn sich der Zustand des Controls von False nach True ändert.
+
+#### Unchecked (Toggle Button, Check Box, Radio Button)
+Dieses Event wird ausgelöst, wenn sich der Zustand des Controls von True nach False ändert.
+
+#### Toggled (Kippschalter)
+Dieses Event wird ausgelöst, wenn sich der Zustand des Controls von False nach True bzw. von True nach False ändert.
+
+#### SelectionChanged (Dropdown-Liste)
+Dieses Event wird ausgelöst, wenn ein neues Element in der Dropdown-Liste ausgewählt wird.
+
+#### ValueChanged (Slider)
+Dieses Event wird ausgeführt, wenn sich der Wert des Slider-Controls ändert.
