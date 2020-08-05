@@ -16,4 +16,4 @@ In dieser können neue Tiles erstellt bzw. bestehende Tiles editiert werden.
 In dieser Maske steht eine zweite Zeichenfläche zur Verfügung, in welche eine Auswahl an Controls eingefügt werden kann. 
 Nachdem die Tiles für die Tileview erstellt wurden muss nur noch in den Properties bestimmt werden, in welchen Abständen die Tiles angezeigt werden sollen.
 
-
+![image_1](/assets/images/Controls/Live-Tile/livetile.png)
