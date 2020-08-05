@@ -39,10 +39,10 @@ Lokal eine PowerShell als Administrator ausführen
 
 Wenn die Verbindung steht, das Zertifikat in den Zertifikatspeicher importieren:
 
-* $cert = "c:\users\public\demo.cer"
+* $cert = "C:\Share\DemoCert.cer"
 * Import-Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 
-![PowerShell](/assets/images/admin/certificates/powershell.png)
+![PowerShell](/assets/images/admin/certificates/powershell2.png)
 
 Nun sollte das Zertifikat beim Aufruf automatisch als vertrauenswürdig eingestuft werden.
 

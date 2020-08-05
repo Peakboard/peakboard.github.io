@@ -40,10 +40,10 @@ Running a PowerShell locally as an administrator
 
 When connected, import the certificate into the certificate store:
 
-* $cert = "c:\users\public\demo.cer"
+* $cert = "C:\Share\DemoCert.cer"  
 * Import Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
 
-![PowerShell](/assets/images/admin/certificates/powershell.png)
+![PowerShell](/assets/images/admin/certificates/powershell2.png)
 
 Now the certificate should automatically be classified as trustworthy when invoked.
 
