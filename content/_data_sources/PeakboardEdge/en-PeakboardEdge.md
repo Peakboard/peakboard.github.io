@@ -19,8 +19,8 @@ One (or more) Peakboard Edge are located in the network and communicate with one
 | RJ45 (Ethernet) | 1 | To integrate the PB Edge into a network |
 | USB | 2 | To connect an input/output device or a WLAN dongle|
 |Micro USB | 1 | Power supply |
-|terminal strip (IN) | 4 current outputs a 3.3 V, 4 inputs| Are divided into pairs. Edge detects the state of the inputs |
-| terminal strip (OUT) | 4 switchable current pins (up to 24V), 1 current input | 4 switchable pins can be controlled via the Edge so that the current from the current input is applied to them |
+|Terminal Strip (IN) | 4 current outputs a 3.3 V, 4 inputs| Are divided into pairs. Edge detects the state of the inputs |
+| Terminal Strip (OUT) | 4 switchable current pins (up to 24V), 1 current input | 4 switchable pins can be controlled via the Edge so that the current from the current input is applied to them |
 
 
 The following devices, for example, can be connected to these connection options:
@@ -31,8 +31,8 @@ The following devices, for example, can be connected to these connection options
 {% include styled_table.html %}
 | Input Device | Connection |
 |-------------------|-------------------|
-| push button | terminal block |
-|(Binary) Sensor | Terminal block |
+| Push Button | Terminal Block |
+|(Binary) Sensor | Terminal Block |
 | Keyboard | USB |
 | Barcode Scanner | USB |
 | RFID Reader | USB |
@@ -43,8 +43,8 @@ The following devices, for example, can be connected to these connection options
 {% include styled_table.html %}
 | Output device | Connection |
 |-------------------|-------------------|
-| traffic light | terminal block |
-| Signal light | Terminal block |
+| Traffic Light | Terminal Block |
+| Signal Light | Terminal Block |
 | Speakers | USB |
 
 
