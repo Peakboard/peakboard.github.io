@@ -7,7 +7,6 @@ lang: cn
 weight: 700
 ref: scr-700
 redirect_from:
-  - /scripting/03-cn-table-data.html
 ---
 
 此列表中有脚本的其他示例：
