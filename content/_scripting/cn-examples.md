@@ -9,7 +9,7 @@ ref: scr-700
 redirect_from:
 ---
 
-此列表中有脚本的其他示例：
+此列表中有脚本的其他示例：  
 
 
 [按钮脚本示例](https://templates.peakboard.com/Script-Example-With-Button/cn)

@@ -9,7 +9,7 @@ ref: scr-700
 redirect_from:
 ---
 
-In this list are further examples for scripting:
+In this list are further examples for scripting:  
 
 [Script Example with Button](https://templates.peakboard.com/Script-Example-With-Button/en)
 
