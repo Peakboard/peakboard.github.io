@@ -20,7 +20,7 @@ Der Einfachheit halber fügen wir die Excel-Datei im Peakboard-Designer als stat
 
 Das Excel-Chart-Control wird am einfachsten über die Eigenschaft Chart konfiguriert (auf die drei Punkte klicken). Es muss zunächst eine Ressource gewählt werden, dann das gewünschte Tabellenblatt und zu guter Letzt das gewünschte Diagramm (deshalb war der Diagramm-Name wichtig). Die Eigenschaft Refresh-Time definiert, wie oft das Chart aus der Ressource nachgeladen wird.
 
-![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_02.png)
+![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_02.gif)
 
 Der folgende Screenshot zeigt das Excel-Chart im Peakboard-Preview.
 ![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_03.png)
