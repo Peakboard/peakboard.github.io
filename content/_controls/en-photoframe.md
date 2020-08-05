@@ -1,3 +1,4 @@
+---
 title: Photo Frame
 menu_title: Photo Frame
 description: Information about Peakboard Designer Photo Frame Control.
