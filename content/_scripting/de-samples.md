@@ -4,10 +4,9 @@ title: Beispiele
 menu_title: Beispiele
 description: Beispiele
 lang: de
-weight: 500
-ref: scr-500
+weight: 700
+ref: scr-700
 redirect_from:
-
 ---
 
 In dieser Auflistung finden sie weitere Beispiele zum Skripting
