@@ -11,38 +11,39 @@ redirect_from:
 
 此列表中有脚本的其他示例：
 
-#### [按钮脚本示例](https://templates.peakboard.com/Script-Example-With-Button/cn)
 
-#### [简易计算器使用脚本示例](https://templates.peakboard.com/Script-Example-Using-Calculator/cn)
+[按钮脚本示例](https://templates.peakboard.com/Script-Example-With-Button/cn)
 
-#### [PDF自动翻页脚本示例](https://templates.peakboard.com/Script-Example-PDF-Page-Change/cn)
+[简易计算器使用脚本示例](https://templates.peakboard.com/Script-Example-Using-Calculator/cn)
 
-#### [处理键盘输入的脚本示例](https://templates.peakboard.com/Script-Example-Processing-Keyboard-Entries/cn)
+[PDF自动翻页脚本示例](https://templates.peakboard.com/Script-Example-PDF-Page-Change/cn)
 
-#### [向Excel文件写入数据的脚本示例](https://templates.peakboard.com/Script-Example-Writing-To-Excel/cn)
+[处理键盘输入的脚本示例](https://templates.peakboard.com/Script-Example-Processing-Keyboard-Entries/cn)
 
-#### [向Peakboard Box推送消息](https://templates.peakboard.com/Script-Send-Push-Messages-To-Peakboard/cn)
+[向Excel文件写入数据的脚本示例](https://templates.peakboard.com/Script-Example-Writing-To-Excel/cn)
 
-#### [把数据写回SQL数据库](https://templates.peakboard.com/Script-Writing-To-SQL-Database/cn)
+[向Peakboard Box推送消息](https://templates.peakboard.com/Script-Send-Push-Messages-To-Peakboard/cn)
 
-#### [使用数据流自动下拉列表的脚本示例](https://templates.peakboard.com/Script-Auto-Scroll-List/cn)
+[把数据写回SQL数据库](https://templates.peakboard.com/Script-Writing-To-SQL-Database/cn)
 
-#### [动画脚本示例](https://templates.peakboard.com/Script-Example-With-Animations/cn)
+[使用数据流自动下拉列表的脚本示例](https://templates.peakboard.com/Script-Auto-Scroll-List/cn)
 
-#### [交互式单元格脚本示例](https://templates.peakboard.com/Script-Example-Interactive-Table-Cells/cn)
+[动画脚本示例](https://templates.peakboard.com/Script-Example-With-Animations/cn)
 
-#### [图片更改脚本示例](https://templates.peakboard.com/Script-Example-Image-Change/cn)
+[交互式单元格脚本示例](https://templates.peakboard.com/Script-Example-Interactive-Table-Cells/cn)
 
-#### [对话和消息脚本示例](https://templates.peakboard.com/Script-Example-Dialogs-And-Messages/cn)
+[图片更改脚本示例](https://templates.peakboard.com/Script-Example-Image-Change/cn)
 
-#### [发送邮件的脚本示例](https://templates.peakboard.com/Script-Example-Sending-Emails/cn)
+[对话和消息脚本示例](https://templates.peakboard.com/Script-Example-Dialogs-And-Messages/cn)
 
-#### [切换菜单脚本示例](https://templates.peakboard.com/Script-Example-Navigation-Menu/cn)
+[发送邮件的脚本示例](https://templates.peakboard.com/Script-Example-Sending-Emails/cn)
 
-#### [“四舍五入”脚本示例](https://templates.peakboard.com/Script-Example-Rounding-Numbers/cn)
+[切换菜单脚本示例](https://templates.peakboard.com/Script-Example-Navigation-Menu/cn)
 
-#### [交互式屏幕切换脚本示例](https://templates.peakboard.com/Script-Example-Interactive-Screen-Change/cn)
+[“四舍五入”脚本示例](https://templates.peakboard.com/Script-Example-Rounding-Numbers/cn)
 
-#### [使用时间控制的脚本示例](https://templates.peakboard.com/Script-Example-Working-With-Time-Controlled-Script/cn)
+[交互式屏幕切换脚本示例](https://templates.peakboard.com/Script-Example-Interactive-Screen-Change/cn)
 
-#### [时间和日期脚本示例](https://templates.peakboard.com/Script-Example-Working-With-Time-And-Date/cn)
+[使用时间控制的脚本示例](https://templates.peakboard.com/Script-Example-Working-With-Time-Controlled-Script/cn)
+
+[时间和日期脚本示例](https://templates.peakboard.com/Script-Example-Working-With-Time-And-Date/cn)
