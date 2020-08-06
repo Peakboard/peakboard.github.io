@@ -20,9 +20,9 @@ Diese Standard-Formatierungen funktionieren natürlich nur dann, wenn die Eingan
 
 Falls die Standard-Formatierungen nicht ausreichen, oder die Eingangsdaten so ungewöhnlich gestaltet sind, dass sie nicht erkannt werden, muss mit einem Custom-Format gearbeitet werden. Das kommt allerdings sehr selten vor. Es ist davon auszugehen, dass 90% aller User mit den Standard-Formaten hinkommen.
 
-Für ein Custom-Format muss im Drop-Down die entsprechende Funktion gewählt werden. Sie können dann den folgenden Dialog mit dem Knopf mit den drei Punkten öffnen.Output Format ist das Format für die Ausgabe, Output Locale ist der Kulturkreis, für den formatiert werden soll. Input Formate sind mit Komma getrennt nach absteigender Prio die Formate,mit denen die Interpretation der eingehenden Werte versucht werden soll.
+Für ein Custom-Format kann *Customize* in einem beliebeigen bereits bestehenden Format ausgewählt werden und dieses danach dementsprechend angepasst werden. Output Format ist das Format für die Ausgabe, Output Locale ist der Kulturkreis, für den formatiert werden soll. Input Formate sind mit Komma getrennt nach absteigender Prio die Formate,mit denen die Interpretation der eingehenden Werte versucht werden soll.
 
-Sie können auch bei den bestehenden Formaten einfach abschauen, was dort eingetragen ist. Unter dem folgenden Link finden Sie eine vollständige Liste aller Format-Werte, die verwendet werden können:
+Unter dem folgenden Link finden Sie eine vollständige Liste aller Format-Werte, die verwendet werden können:
 
 [https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings)
 

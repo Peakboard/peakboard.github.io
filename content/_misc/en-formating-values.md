@@ -20,9 +20,9 @@ Of course, these standard formats only work if the input data of Peakboard is co
 
 If the standard formatting is not sufficient, or the input data is so unusual that it is not recognized, a custom format must be used. However, this happens very rarely. It can be assumed that 90% of all users will come with the standard formats.
 
-For a custom format, the appropriate function must be selected in the drop-down menu. Output Format is the output format, Output Locale is the culture group for which you want to format. Input formats are, separated by a comma after descending prio, the formats with which the interpretation of the incoming values is to be attempted.
+For a custom format, *Customize* can be selected in any existing format and then adjusted accordingly. Output Format is the output format, Output Locale is the culture group for which you want to format. Input formats are, separated by a comma after descending prio, the formats with which the interpretation of the incoming values is to be attempted.
 
-You can also simply copy what is entered there from the existing formats. Under the following link you will find a complete list of all format values that can be used:
+Under the following link you will find a complete list of all format values that can be used:
 
 [https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings)
 
