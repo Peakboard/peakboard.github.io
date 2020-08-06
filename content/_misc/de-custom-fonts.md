@@ -15,6 +15,10 @@ Für den Fall, dass die Standard-Schriftarten nicht ausreichen, lassen sich neue
 
 ![image_1](/assets/images/misc/custom-fonts/MiscFonts01.png)
 
+Um die Font im Designer zu verwenden muss sie zuerst den Ressourcen hinzugefügt werden:
+
+![image_1](/assets/images/misc/custom-fonts/MiscFonts03.gif)
+
 Wenn die ttf-Datei dem Paket als Ressource hinzugefügt wurde, steht sie in der Font-Auswahl zur Verfügung und kann verwendet werden. Während des Deployment-Vorgangs wird die ttf-Datei mit dem Paket auf die Peakboard-Box transportiert. Es sind also keine weiteren Aktionen nötig.
 
 ![image_1](/assets/images/misc/custom-fonts/MiscFonts02.png)

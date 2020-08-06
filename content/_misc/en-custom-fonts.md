@@ -15,6 +15,10 @@ If the default fonts are not enough, you can add new fonts to a package. To do t
 
 ![image_1](/assets/images/misc/custom-fonts/MiscFonts01.png)
 
+To use the font in the designer, it must first be added to the resources:
+
+![image_1](/assets/images/misc/custom-fonts/MiscFonts03.gif)
+
 If the ttf file has been added to the package as a resource, it is available in the font selection and can be used. During the deployment process, the ttf file is transported with the package to the Peakboard-Box. No further actions are therefore necessary.
 
 ![image_1](/assets/images/misc/custom-fonts/MiscFonts02.png)
