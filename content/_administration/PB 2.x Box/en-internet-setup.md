@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Setting up an Internet Connection With a Proxy Server
-menu_title: Setting up an Internet Connection With a Proxy Server
-description: Setting up an Internet Connection With a Proxy Server
+title: Setting up a proxy server
+menu_title: Setting up a proxy server
+description: Setting up a proxy server
 lang: en
 weight: 400
 ref: admin-400
