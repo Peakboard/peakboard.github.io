@@ -33,6 +33,7 @@ The following properties are available for this:
 	* Fill automatically defines the width so that it always takes the maximum width. 
 	* Cut tries the opposite and minimizes the width as much as possible.
 	* Pixel defines a fixed width for each column.
+	
 * Position of the content: The content of the columns can be determined via *Alignment*.
 * Format: If the content is to be displayed in a certain format (e.g. as a percentage), this can be set for the entire column. In [this article](https://help.peakboard.com/misc/de-formatieren-von-Werten.html) it is explained how a format can be adjusted.
 * Font: Each column can be assigned a font. This must be selected under *Specific Font*.
