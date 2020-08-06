@@ -20,11 +20,13 @@ Hierbei kann aus folgenden Collections ausgewählt werden (3):
 * Logistics: Enthält Icons aus der Logistikbranche
 * SCADA: Enthält Icons zur *Supervisory Control and Data Acquisition* welche verwendet werden können um Produktionslinien nachzustellen und zu überwachen.
 
-Über *Colors* lassen sich dann noch bei bestimmten Icons eine Primär- und Sekundärfarbe bestimmen (4).
-
 
 So lässt sich mit Hilfe des entsprechenden Suchbegriffs sowie der gewünschten Collection ein passendes Icon finden.
 Mit OK wird die Auswahl bestätigt.
+
+
+Über *Colors* lassen sich dann noch bei bestimmten Icons eine Primär- und Sekundärfarbe bestimmen (4).
+
 
 Soll unter gewissen Bedingungen ein anderes Icon angezeigt werden (z.B. bei einem Maschinenausfall ein Warnsymbol), dann kann dieses unter Conditional Formatting ausgewählt werden (5).
 Wie das Conditional Formatting funktioniert wird in [diesem Artikel](https://help.peakboard.com/controls/de-cf.html) erklärt.
