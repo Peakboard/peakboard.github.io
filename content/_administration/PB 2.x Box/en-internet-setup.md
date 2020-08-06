@@ -10,33 +10,16 @@ redirect_from:
   - /administration/04-en-internet-setup.html
 ---
 
-Open the Windows Device Portal (http://<ip-address-<peakboard>: 8080) of the Box.
-There you have the possibility to send commands directly under “Processes” with “Run command”.
 
-You will need the following two commands, and you will need to adjust your own proxy server accordingly.
-
-
-```
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f
-```
+To define proxy settings for the Designer, the Manage dialog (2) for the Peakboard Box must first be opened under the Home menu tab (1). 
+Here under Proxy Settings (3) you can define if a proxy connection should be used and if necessary the access data for this can be entered.
 
 
-```
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyServer /t REG_SZ /d <proxy-server>:<port> /f
-```
+![image_1](/assets/images/admin/internet-setup/proxy1.png)
 
-The commands can be sent one after the other using the “Run” button; it is important that the check mark in “Run as DefaultAccount” is set.
 
-![Windows Device Portal Run Command](/assets/images/admin/internet-setup/proxy.png)
+If the Peakboard Box is to communicate via a proxy connection, this must be specified in the box settings (4). 
+For this purpose there is the item Proxy Server in the Connection Setting (5), which provides a mask for entering the address and bypass list. 
+Furthermore you can define if the proxy server should be activated and if the entries should not be used for local addresses (6).
 
-In addation it is possible to add a list of addresses for which **no** proxy should be used.
-
-```
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyOverride /t REG_SZ /d "<local>;192.168.0.10" /f
-```
-
-The value "\<local\>" is equal to the known option "Bypass proxy server for local addresses" from Internet Explorer's settings, which is used to bypass the proxy for all local addresses.
-
-More ip-addresses can be added to the list, it is essential that values are seperated by semicolon.
-
-Then restart the Peakboard-Box once to apply the changes.
+![image_1](/assets/images/admin/internet-setup/proxy2.png) 
