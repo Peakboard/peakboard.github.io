@@ -12,7 +12,7 @@ redirect_from:
 The Doughnut Chart is suitable for displaying distributions and shares.
 It is recommended that you limit the number of parts to a maximum of 7, otherwise the chart will quickly become unclear and the subareas too small.
 
-In addition to the [General Properties](https://help.peakboard.com/controls/de-allgemeine-eigenschaften.html) the Doughnut Chart Control has further properties.
+In addition to the [General Properties](https://help.peakboard.com/controls/en-general-properties.html),  the Doughnut Chart Control has further properties.
 
 A data source is assigned to the chart under **Source**.
 You can now assign the column of the data source responsible for the category to the **X axis**.
