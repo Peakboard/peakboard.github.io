@@ -3,7 +3,7 @@ layout: article
 title: Column Chart
 menu_title: Column Chart
 description: Information about Peakboard Designer Column Chart Control.
-lang: de
+lang: en
 weight: 640
 ref: con-640
 redirect_from:
@@ -18,11 +18,11 @@ The data for this must be of data type *String*, while the data for the **Y axis
 >
 > Only data of the type **Number** can be used for the Y-axis!
 
-![Column Chart](/assets/images/Controls/barchart/barchart01.png)
+![Column Chart](/assets/images/Controls/columnchart/columnchart01.png)
 
 After the data has been assigned, the color scheme can be adjusted under **Colors** using the **Select** button.
 
-![Column Chart Color](/assets/images/Controls/barchart/barchart02.png)
+![Column Chart Color](/assets/images/Controls/columnchart/columnchart02.png)
 
 You can either choose from a predefined color palette or assign your own colors.
 

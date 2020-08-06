@@ -3,12 +3,12 @@ layout: article
 title: Bar Chart
 menu_title: Bar Chart
 description: Information about Peakboard Designer Bar Chart Control.
-lang: de
+lang: en
 weight: 640
 ref: con-640
 redirect_from:
 ---
-In addition to the [General Properties](https://help.peakboard.com/controls/en-general-properties.html),  the Bar Chart Control has further properties.
+In addition to the [General Properties](https://help.peakboard.com/controls/en-general-properties.html), the Bar Chart Control has further properties.
 
 A data source is assigned to the chart under **Source**.
 You can now assign the column of the data source responsible for the category to the **X axis**.
