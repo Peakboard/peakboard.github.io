@@ -18,7 +18,7 @@ Die Daten hierfür müssen vom Datentyp *String* sein, während die Daten für d
 >
 > Für die Y-Achse können nur Daten vom Typ **Number** verwendet werden!
 
-![Column Chart](/assets/images/Controls/columnchart/columnchart.png)
+![Column Chart](/assets/images/Controls/columnchart/columnchart01.png)
 
 Nachdem die Daten zugewiesen wurden, kann unter **Colors** über die Schaltfläche **Select** das Farbschema angepasst werden.
 

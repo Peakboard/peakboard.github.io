@@ -4,8 +4,8 @@ title: Column Chart
 menu_title: Column Chart
 description: Information about Peakboard Designer Column Chart Control.
 lang: en
-weight: 640
-ref: con-640
+weight: 650
+ref: con-650
 redirect_from:
 ---
 In addition to the [General Properties](https://help.peakboard.com/controls/en-general-properties.html),  the Column Chart Control has further properties.
