@@ -3,7 +3,7 @@ layout: article
 title: Live Tile Box
 menu_title: Live Tile Box
 description: Information about Peakboard Designer Live Tile Control.
-long: en
+lang: en
 weight: 220
 ref: con-220
 redirect_from:

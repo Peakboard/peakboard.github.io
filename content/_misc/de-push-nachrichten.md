@@ -12,7 +12,7 @@ redirect_from:
 
 Peakboard kann in Szenarien eingesetzt werden, bei denen Daten nicht von der Peakboard-Box aus einer Datenquelle geholt, sondern von der Datenquelle pro-aktiv auf die Box „gepusht“ werden. Diese Seite zeigt, wie man ein solches Szenario gestalten kann.
 
-In unserem Beispiel erzeugen wir eine tabellarische Datenquelle namens Messages mit zwei Spalten: Code und Message. Es kann dafür jedoch auch eine einzelne Variable erzeugt werden. Wie man solche Datenquellen anlegt, ist in [diesem Artikel](/data_sources/01-de-variablen.html) beschrieben. Füllen Sie die Tabelle am Besten mit einer einzelnen Demozeile. Danach legen Sie ein Tablegrid-Control an und verknüpfen es mit der statischen Datenquelle. Der folgende Screenshot zeigt die Entwurfsansicht im Designer.
+In unserem Beispiel erzeugen wir eine tabellarische Datenquelle namens Messages mit zwei Spalten: Code und Message. Es kann dafür jedoch auch eine einzelne Variable erzeugt werden. Wie man solche Datenquellen anlegt, ist in [diesem Artikel](/scripting/de-variables.html) beschrieben. Füllen Sie die Tabelle am Besten mit einer einzelnen Demozeile. Danach legen Sie ein Tablegrid-Control an und verknüpfen es mit der statischen Datenquelle. Der folgende Screenshot zeigt die Entwurfsansicht im Designer.
 
 ![image_1](/assets/images/misc/push/MiscPushMessage01.png)
 

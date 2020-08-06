@@ -40,4 +40,4 @@ SELECT * FROM [MyTable$]
 
 然后，指定充电间隔，并且可以通过“加载数据”来加载数据。最后，单击“确定”进行确认。
 
-Excel文件现在通过ODBC接口连接，且可以如任何其他数据源一样使用。可以在[此处](/scripting/Samples/12-cn-excel.html)了解如何使用ODBC连接将数据写入Excel。
+Excel文件现在通过ODBC接口连接，且可以如任何其他数据源一样使用。可以在[此处](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index)了解如何使用ODBC连接将数据写入Excel。

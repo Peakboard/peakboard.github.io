@@ -43,4 +43,4 @@ Afterwards a charging interval can be assigned and the data can be loaded via Lo
 
 The Excel file is now connected via the ODBC interface and can be used like any other data source.
 
-How data can be written to Excel with this connection can be found [here](/scripting/Samples/12-de-excel.html).
+How data can be written to Excel with this connection can be found [here](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index).

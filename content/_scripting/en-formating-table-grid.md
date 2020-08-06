@@ -19,7 +19,7 @@ In the SAP table, those entries that have an entry greater than 1,000 in the col
 Those that are smaller than 1,000 should be displayed in red.
 
 
-![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatting_01.png)
+![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_01.png)
 
 
 
@@ -29,7 +29,7 @@ You can access the script editor from the events attribute of the table grid ele
 
 
 
-![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Format_02.png)
+![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_02.png)
 
 
 
@@ -37,7 +37,7 @@ Within the event there is the variable e. It represents the current tabular line
 
 * e.Data gives access to the raw data (e.g. e.Data.MyData column).
 * e.TextControl gives access to the control that represents the text (e.g. e.TextControl.Text = "My new content") e.
-* e.CellControl allows access to the cell itself (e.g. e.CellControl.Backgground = Brushes.Green)
+* e.CellControl allows access to the cell itself (e.g. e.CellControl.Background = Brushes.Green)
 table.getcelltext(e, [Index]) returns the value of the column with the corresponding index. Here 0 corresponds to the first column, 1 to the second, ...
 
 This results in the following simple script to implement the requirements from above:
@@ -54,4 +54,4 @@ end
 
 Here the preview with the corresponding formatting script:
 
-![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_formatting_03.png)
+![image_1](/assets/images/scripting/format-table/Scripting_TableGrid_Formatieren_03.png)

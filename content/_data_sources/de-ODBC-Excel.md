@@ -43,4 +43,4 @@ Anschließend kann noch ein Ladeintervall vergeben werden und die Daten über Da
 
 Das Excel-File ist nun über die ODBC-Schnittstelle verbunden und kann wie jede andere Datenquelle weiterverwendet werden.
 
-Wie mit dieser Verbindung Daten nach Excel geschrieben werden können, findet sich [hier](/scripting/Samples/12-de-excel.html).
+Wie mit dieser Verbindung Daten nach Excel geschrieben werden können, findet sich [hier](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index).

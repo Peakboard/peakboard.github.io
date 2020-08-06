@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 This article explains how to use the data source for data in CSV format. 
-The exact specification and further information about CSV can be found [here.](https://de.wikipedia.org/wiki/CSV_(file format))
+The exact specification and further information about CSV can be found [here.](https://en.wikipedia.org/wiki/Comma-separated_values)
 
 A nice example of CSV data can be found at this URL: [http://mysafeinfo.com/api/data?list=presidents&format=csv](http://mysafeinfo.com/api/data?list=presidents&format=csv). 
 It lists all American presidents.

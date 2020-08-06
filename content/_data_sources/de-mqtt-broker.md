@@ -18,7 +18,7 @@ Es gibt zwei Modelle, MQTT-Messages mit dieser Datenquelle zu verarbeiten. Die e
 ![image_1](/assets/images/data-sources/mqtt-broker/mqtt-02.png)
 
 Die zweite Möglichkeit auf eingehende Nachrichten zu reagieren ist über ein Script. Dazu kann für jede Subscription jeweils ein Script hinterlegt werden. Die Nutzdaten der MQTT-Nachricht stehen innerhalb des Scripts mit message.timestamp, message.topic und message.text zur Verfügung (siehe auch Objekt-Baum auf der linken Seite). Falls Sie den reinen Nachrichtentext zunächst parsen müssen, nutzen Sie einfach json.parse(…).
-![image_1](/assets/images/data-sources/mqtt-broker/03.png)
+![image_1](/assets/images/data-sources/mqtt-broker/mqtt-03.png)
 
 ## Sending Messages
 
@@ -29,4 +29,4 @@ Jede MQTT-Quelle kann auch dazu genutzt werden, um Nachrichten von Peakboard an 
 Data.MeinMQTTObjekt.Publish(MeinTopic, MeineNachricht)
 ```
 
-![image_1](/assets/images/data-sources/mqtt-broker/04.png)
+![image_1](/assets/images/data-sources/mqtt-broker/mqtt-04.png)

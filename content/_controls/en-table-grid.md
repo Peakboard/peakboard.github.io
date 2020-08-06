@@ -39,4 +39,4 @@ Below is a list of all properties that have not already been discussed under the
 | Show Header |	Defines whether the column headers are to be displayed. |
 | Show Row Grid Lines |	Defines whether a line between the lines is to be displayed. |
 
-> In practice, it is very common for cells or rows to be formatted depending on the data content. There is a separate article for this requirement, which you can find [here.](/scripting/05-en-formating-table-grid.html)
+> In practice, it is very common for cells or rows to be formatted depending on the data content. There is a separate article for this requirement, which you can find [here.](/scripting/en-formating-table-grid.html)

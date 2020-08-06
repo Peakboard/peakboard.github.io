@@ -16,13 +16,13 @@ In the following example, an Excel file containing a table and a chart is used a
 
 ![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_01.png)
 
-For simplicity, we add the Excel file in the Peakboard-Designer as a static resource. Of course, it is also possible to retrieve the file from a cloud memory, network drive or web address. This doesn’t change the procedure.
+For simplicity, we add the Excel file in the Peakboard Designer as a static resource. Of course, it is also possible to retrieve the file from a cloud memory, network drive or web address. This doesn’t change the procedure.
 
 The Excel Chart control is easiest to configure using the Chart property (click on the three points). You first have to select a resource, then the desired spreadsheet and finally the desired diagram (therefore the diagram name was important). The property Refresh-Time defines how often the chart is reloaded from the resource.
 
-![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_02.png)
+![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_02.gif)
 
-The following screenshot shows the Excel chart in the Peakboard-Preview.
+The following screenshot shows the Excel chart in the Peakboard Preview.
 
 ![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_03.png)
 
