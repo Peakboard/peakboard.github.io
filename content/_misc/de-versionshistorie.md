@@ -8,9 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.3.1.0 (17.07.2020)
+footer: 2.3.2.0 (06.08.2020)
 ---
-## 2.3.1.0 (17.07.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ETXcOZbplxlHlnsFqz5TJEYBUcLgxhxQR2Y9C9TARsIzmQ?e=3YI7Om)
+## 2.3.2.0 (06.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESgUhDNNhKJGn8HLTg8O5UkBcRQfGewTsVY0Z4zAfpdqaQ?e=ElXFlj)
+* Hotfix für einen Fehler in der CSV-Datenquelle bei dem die Spaltenbezeichnungen nicht korrekt erfasst wurden
+
+## 2.3.1.0 (17.07.2020) 
 * Hotfix für einen Fehler bei dem die Daten aus der SQL Datenquelle nicht geladen wurden
 * Hotfix für einen Fehler im PowerBI-Control
 
@@ -47,7 +50,7 @@ footer: 2.3.1.0 (17.07.2020)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
-## 2.2.3.0 (29.05.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EQP4CCKCi59EpNVwfi5N8I4BX24wEvDohztDfXrJhnTlIw?e=wwqEGn)
+## 2.2.3.0 (29.05.2020) 
 * Hotfix für die Json-Datenquelle
 
 ## 2.2.2.1// 1.11.2.1 (26.05.2020)
