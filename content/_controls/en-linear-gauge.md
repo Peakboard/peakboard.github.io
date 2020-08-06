@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 The Linear Gauge Control is very well suited for displaying progress graphically.
-In addition to the [General Properties], the Linear Gauge Control has other properties.
+In addition to the [General Properties](https://help.peakboard.com/controls/en-general-properties.html), the Linear Gauge Control has other properties.
 
 **Data/Value**, **Minimum** and **Maximum** can be linked to a data source.
 For example, the target value of a production plant can be created as **Maximum** and the actual value as **Data/Value**.
@@ -22,4 +22,4 @@ With **Show Value** the numerical value can be shown or hidden.
 
 With [Conditional Formatting](/controls/en-cf.html) the control can be adjusted based on rules.
 
-![linear gauge](/assets/images/Controls/linergauge/lineargauge01.png)
+![linear gauge](/assets/images/Controls/lineargauge/lineargauge01.png)

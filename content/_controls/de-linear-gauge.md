@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 Das Linear Gauge Control eignet sich sehr gut dafür, um einen Fortschritt grafisch darzustellen.
-Neben den [Allgemeinen Eigenschaften] verfügt das Linear Gauge Control über weitere Eigenschaften.
+Neben den [Allgemeinen Eigenschaften](https://help.peakboard.com/controls/de-allgemeine-eigenschaften.html) verfügt das Linear Gauge Control über weitere Eigenschaften.
 
 **Data/Value**, **Minimum** und **Maximum** können dazu mit einer Datenquelle verknpüft werden.
 Beispielsweise kann der Soll-Wert einer Produktionsanlage als **Maximum** und der Ist-Wert als **Data/Value** angelegt werden.
@@ -22,4 +22,4 @@ Die Eigenschaft **Tick Color** ermöglicht es, das Linear Gauge zu unterteilen.
 
 Über [Conditional Formatting](/controls/de-cf.html) kann das Control regelbasiert angepasst werden.
 
-![linear gauge](/assets/images/Controls/linergauge/lineargauge01.png)
+![linear gauge](/assets/images/Controls/lineargauge/lineargauge01.png)
