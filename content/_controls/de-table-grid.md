@@ -10,7 +10,8 @@ redirect_from:
   - /controls/04-de-table-grid.html
 ---
 
-Das Control Table Grid ist dazu gedacht, Daten tabellarisch darzustellen. Es ist neben dem einfachen Textblock das am häufigsten genutzte Control. Bitte beachten Sie zunächst folgende allgemeine Infos und wiederkehrende Bedienpatterns für Steuerelemente:
+Das Control Table Grid ist dazu gedacht, Daten tabellarisch darzustellen. Es ist neben dem einfachen Textblock das am häufigsten genutzte Control. 
+Bitte beachten Sie zunächst folgende allgemeine Infos und wiederkehrende Bedienpatterns für Steuerelemente:
 
 [Allgemeine Eigenschaften](/controls/01-de-allgemeine-eigenschaften.html)
 
@@ -18,16 +19,32 @@ Das Control Table Grid ist dazu gedacht, Daten tabellarisch darzustellen. Es ist
 
 [Formatieren von Werten](/misc/03-de-formatieren-von-Werten.html)
 
-Nachdem ein Table Grid per Drag and Drop aus der Toolbox rechts oben auf den Screen gezogen wurde, wird es mit Hilfe der Eigenschaft Source mit einer tabellarischen Datenquelle verbunden. Dadurch entstehen im Tabellen-Steuerelement gleich automatisch Spalten, die der Originaldatenquelle entsprechen und dann einfach abgeändert werden können. Ein Doppelklick auf das Control öffnet den Spalten-Dialog. Hier können die einzelnen Spalten konfiguriert werden, z.B. ihre Position mit den kleinen Pfeiltasten, die Spaltenüberschrift (Caption) oder die Breite. Die Breite wird in Pixel definiert. „Auto“ definiert die Breite automatisch so, dass sie immer genauso breit ist, wie der breiteste Inhalt. Ein * in der Breite ist dynamisch. Der komplette zur Verfügung stehende Platz wird unter allen * - Spalten einfach gleichmäßig aufgeteilt. Deshalb ist * auch die Standard-Einstellung für alle Spalten.
+Nachdem ein Table Grid per Drag and Drop aus der Toolbox rechts oben auf den Screen gezogen wurde, wird es mit Hilfe der Eigenschaft Data Source mit einer tabellarischen Datenquelle verbunden. 
+Dadurch entstehen im Tabellen-Steuerelement gleich automatisch Spalten, die der Originaldatenquelle entsprechen und dann einfach abgeändert werden können. 
+
+
+Ein Doppelklick auf das Control öffnet den Spalten-Dialog. Hier können die einzelnen Spalten konfiguriert werden.  
+Dafür stehen folgende Eigenschaften zur Verfügung:
+
+* Position: Die Position der Spalten kann per Drag-and-Drop angepasst werden. Eine Verschiebung von Oben nach Unten entspricht dabei einer Verschiebung von Links nach Rechts.
+* Spaltenüberschrift: Die Spaltenüberschrift kann über *Caption* angepasst werden.
+* Breite: Die Breite kann in drei verschiedenen optionen eingestellt werden:
+	* Fill definiert die Breite automatisch so, dass sie immer die maximale Breite annimmt. 
+	* Cut versucht das Gegenteil und minimiert die Breite so weit wie möglich.
+	* Pixel legt eine feste Breite für die jeweilige Spalte fest.
+* Position des Inhalts: Der Inhalt der Spalten kann über *Alignment* bestimmt werden.
+* Format: Soll der Inhalt in einem bestimmten Format (z.B. als Prozentzahl) dargestellt werden, lässt sich dies für die gesamte Spalte einstellen. In [diesem Artikel](https://help.peakboard.com/misc/de-formatieren-von-Werten.html) wird erklärt, wie ein Format angepasst werden kann.
+* Schriftart: Jede einzelne Spalte kann eine Schriftart zugeordnet werden. Diese muss dafür unter *Specific Font* ausgewählt werden.
 
 ![image_1](/assets/images/Controls/Table-Grid/ControlsTableGrid01.png)
 
-Weniger oft genutzte Spalten-Eigenschaften verbergen sich hinter dem Edit-Button, z.B. die Funktion für die Wert-Formatierung.
 
-![image_1](/assets/images/Controls/Table-Grid/ControlsTableGrid02.png)
+Wenn die Daten in der Tabelle manipuliert werden sollen lohnt es sich vor dem anlegen des Table Grid Controls einen [Dataflow](https://help.peakboard.com/dataflows/de-erste-schritte.html) anzulegen.
 
-Im Folgenden sind alle Eigenschaften aufgelistet, die nicht bereits unter den Links von oben besprochen wurden.
 
+Abschließend sind im Folgenden sind alle Eigenschaften aufgelistet, die spezifisch für das Table Grid Controll sind und daher nicht unter dem Link von oben aufgelistet wurden.
+
+{% include styled_table.html %}
 | Properties  |	Description |
 |-------------|---------------|
 | Active Cell |	 definiert die Farbe, mit der eine markierte Zelle dargestellt wird, falls die Tabelle auf einem Touchscreen benutzt wird.|
