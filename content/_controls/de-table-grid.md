@@ -56,4 +56,5 @@ Abschließend sind im Folgenden sind alle Eigenschaften aufgelistet, die spezifi
 | Show Header |	definiert, ob die Spaltenüberschriften angezeigt werden sollen.|
 | Show Row Grid Lines |	definiert, ob eine Linie zwischen den Zeilen angezeigt werden soll. |
 
+
 Es kommt in der Praxis sehr häufig vor, dass Zellen oder Zeilen  in Abhängigkeit des Dateninhalts formatiert werden sollen. Für diese Anforderung gibt es einen eigenen Artikel, den Sie [hier](/scripting/05-de-formatieren.html) finden.

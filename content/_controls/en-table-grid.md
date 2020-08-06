@@ -58,4 +58,5 @@ Finally, all properties that are specific to the table grid control and therefor
 | Show Header | defines if the column headers should be displayed.
 | Show Row Grid Lines | defines whether a line should be displayed between the rows. |
 
+
 In practice, it happens very often that cells or rows are to be formatted depending on the data content. There is a separate article for this requirement, which you can find [here](/scripting/05-en-formatieren.html)

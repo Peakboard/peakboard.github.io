@@ -24,7 +24,6 @@ Hierbei kann aus folgenden Collections ausgewählt werden (3):
 So lässt sich mit Hilfe des entsprechenden Suchbegriffs sowie der gewünschten Collection ein passendes Icon finden.
 Mit OK wird die Auswahl bestätigt.
 
-
 Über *Colors* lassen sich dann noch bei bestimmten Icons eine Primär- und Sekundärfarbe bestimmen (4).
 
 
