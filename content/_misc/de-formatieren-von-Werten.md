@@ -27,3 +27,5 @@ Unter dem folgenden Link finden Sie eine vollständige Liste aller Format-Werte,
 [https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings)
 
 ![image_1](/assets/images/misc/Values/Format02.png)
+
+In [diesem Artikel](https://help.peakboard.com/data_sources/de-datum-und-uhrzeit.html) wird erklärt wie Datum und Uhrzeit formatiert werden können.

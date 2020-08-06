@@ -27,3 +27,6 @@ Under the following link you will find a complete list of all format values that
 [https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings)
 
 ![image_1](/assets/images/misc/Values/Format02.png)
+
+
+In [this article](https://help.peakboard.com/data_sources/en-date-and-time.html) is explained how to format date and time.
