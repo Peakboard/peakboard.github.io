@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Internetverbindung mit Proxy-Server einrichten
-menu_title: Internetverbindung mit Proxy-Server einrichten
-description: Internetverbindung mit Proxy-Server einrichten
+title: Proxy-Server einrichten
+menu_title: Proxy-Server einrichten
+description: Proxy-Server einrichten
 lang: de
 weight: 400
 ref: admin-400
@@ -10,32 +10,15 @@ redirect_from:
   - /administration/04-de-internetverbindung.html
 ---
 
-Öffnen Sie das Windows Device Portal (http://<ip-adresse-peakboard>:8080) der Box.
+Um Proxyeinstellungen für den Designer festzulegen muss zuerst der Manage Dialog (2) für die Peakboard Box unter dem Menüreiter Home (1) geöffnet werden. 
+Hier kann unter Proxy Settings (3) festgelegt werden, ob eine Proxyverbindung verwendet werden soll und ggf. können die Zugangsdaten für diese eingegeben werden.
 
-Dort gibt es unter „Processes“ mit „Run command“ die Möglichkeit direkt Befehle abzusetzen.
 
-Sie benötigen die folgenden beiden Befehle, wobei sie ihren eigenen Proxy-Server entsprechend anpassen müssen.
+![image_1](/assets/images/admin/internet-setup/proxy1.png)
 
-```
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f
-```
 
-```
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyServer /t REG_SZ /d <proxy-server>:<port> /f
-```
+Soll die Peakboard Box über eine Proxyverbindung kommunizieren muss diese in den Einstellungen der Box festgelegt werden (4). 
+Hierfür gibt es in den Connection Setting den Punkt Proxy Server (5), welcher eine Maske für die Eingabe von Adresse und Bypass Liste zur Verfügung stellt. 
+Außerdem kann bestimmt werden ob der Proxy Server aktiviert sein soll und ob die Eingaben nicht für Lokale Adressen genutzt werden sollen (6).
 
-Die Befehle können Sie nacheinander über den „Run“-Knopf abschicken; wichtig ist, dass der Haken bei „Run as DefaultAccount“ gesetzt ist.
-
-![Windows Device Portal Run Command](/assets/images/admin/internet-setup/proxy.png)
-
-Falls darüber hinaus der Proxy für bestimmte Adressen **nicht** genutzt werden soll, kann wie folgt eine Liste von Ausnahmen definiert werden.
-
-```
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyOverride /t REG_SZ /d "<local>;<weitere-ip-adressen>" /f
-```
-
-Der Wert "\<local\>" entspricht hierbei der bekannten Option "Bypass proxy server for local addresses" aus den Einstellungen des Internet Explorers, die dafür sorgt, dass für alle lokalen Adressen immer der Proxy-Server umgangen wird.
-
-Es können noch weitere IP-Adressen hinzugefügt werden; wichtig ist, dass diese in der Auflistung jeweils mit Semikolon getrennt sind.
-
-Danach die Peakboard-Box einmal neustarten, damit die Änderungen übernommen werden.
+![image_1](/assets/images/admin/internet-setup/proxy2.png)
