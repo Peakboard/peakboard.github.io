@@ -11,9 +11,12 @@ redirect_from:
   - /controls/en-tile-view.html
 ---
 
-The TileView control works in principle exactly like the [ListView control](/controls/10-en-list-view.html). The only difference is the fact that the elements are first arranged from left to right, but then wrapped to the next "line" at the edge. This is suitable for multiline representations of one and the same element. As in the other article, the example in the screenshot is bound to an Excel table. The template is identical to that of the [ListView control](/controls/10-en-list-view.html).
-Similar to the [ListView control](/controls/10-en-list-view.html), an alternative template with identical rules has also been defined.
+In the TileView, a design for each row of a data source is displayed using a defined template. 
+This is particularly suitable if repetitive contents are to be displayed identically.
+The behavior of the TileView control is very similar to the [Tile Control](/controls/common/en-tilecontrol.html) and the [ListView-Control](/controls/10-en-list-view.html).
+A template must be defined for the display of the individual elements. The [Tile Control](/controls/common/en-tilecontrol.html) explains step by step how to create a template for the TileView control.
 
-The screenshot shows how the data is first arranged from left to right and then into the next line.
+
+The TileView is displayed in the form of tiles. To display the elements as a list, the [List View](/controls/common/en-list-view.html) can be used.
 
 ![image_1](/assets/images/Controls/TileView/tileview1.png)

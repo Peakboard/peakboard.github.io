@@ -10,11 +10,13 @@ redirect_from:
   - /controls/11-de-tile-view.html
   - /controls/de-tile-view.html
 ---
+In der TileView wird anhand eines definierten Templates, ein Design für jede Zeile einer Datenquelle dargestellt. 
+Dies eignet sich vor allem dann, wenn wiederholende Inhalte identisch dargestellt werden sollen.
+Das TileView-Control ist in seinem Verhalten dem [Tile Control](/controls/common/de-tilecontrol.html) und dem [ListView-Control](/controls/10-de-list-view.html) sehr ähnlich.
+Für das Darstellen der einzelnen Elemente muss ein Template definiert werden. Wie das Anlegen eines Templates für das TileView-Control funktioniert wird beim [Tile Control](/controls/common/de-tilecontrol.html) Schritt für Schritt erklärt.
 
-Das TileView-Control funktioniert im Prinzip exakt genauso wie das [ListView-Control](/controls/10-de-list-view.html). Der einzige Unterschied ist die Tatsache, dass die Elemente zunächst von links nach rechts angeordnet, am Rand dann aber in die nächste „Zeile“ umgebrochen werden. Das eignet sich für mehrzeilige Darstellungen ein und desselben Elements. Das Beispiel im Screenshot ist wie im anderen Artikel an eine Excel Tabelle gebunden. Das Template ist dabei identisch zu dem des [ListView-Control](/controls/10-de-list-view.html).
-Ebenso wurde analog zum [ListView-Control](/controls/10-de-list-view.html) ein alternatives Template mit identischer Regel hinterlegt.
 
-Der Screenshot zeigt, wie die Daten zunächst von links nach rechts und anschließend in die nächste Zeile angeordnet werden.
+Die Darstellung findet beim TileView in Form von Kacheln statt. Um die Elemente als Liste darzustellen, kann das [List View](/controls/common/de-list-view.html) verwendet werden.
 
 ![image_1](/assets/images/Controls/TileView/tileview1.png)
 
