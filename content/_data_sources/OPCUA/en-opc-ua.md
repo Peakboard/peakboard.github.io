@@ -7,7 +7,7 @@ lang: en
 weight: 2400
 ref: dat-2400
 redirect_from: 
-	- /data_sources/en-opc-ua.html
+ - /data_sources/en-opc-ua.html
 ---
 
 Just like the direct access to the Siemens S7, MQTT or the Azure IoT Hub, the OPC UA data source fits seamlessly into the collection of machine data connections. In the case described here, Peakboard is an OPC UA client that connects to an OPC UA server. The example in this article can be easily followed with the generic OPC UA "Reference Server", which you can download from [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture) after registration.

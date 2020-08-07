@@ -7,7 +7,7 @@ lang: cn
 weight: 2410
 ref: dat-2410
 redirect_from: 
-	- /misc/cn-Client-Write-OPCUA.html
+ - /misc/cn-Client-Write-OPCUA.html
 ---
 
 使用以下脚本代码，您可将数据从Simens S7，例如S7 1500写入OPC UA服务器。

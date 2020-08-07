@@ -7,7 +7,7 @@ lang: cn
 weight: 2420
 ref: dat-2420
 redirect_from: 
-	- /misc/cn-Array-OPCUA.html
+ - /misc/cn-Array-OPCUA.html
 ---
 
 为使用OPC UA服务器数组中的单个元素，必须首先将数组创建为一个订阅(1)。
