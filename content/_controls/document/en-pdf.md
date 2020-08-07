@@ -7,6 +7,7 @@ lang: en
 weight: 510
 ref: con-510
 redirect_from:
+  - /controls/en-pdf.html
 ---
 
 PDFs can be integrated into the visualization via the Control PDF Viewer. 

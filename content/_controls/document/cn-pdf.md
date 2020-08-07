@@ -7,6 +7,7 @@ lang: cn
 weight: 510
 ref: con-510
 redirect_from:
+  - /controls/cn-pdf.html
 ---
 
 PDF文件可通过PDF阅读器添加至可视化屏幕。

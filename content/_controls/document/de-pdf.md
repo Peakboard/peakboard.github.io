@@ -7,6 +7,7 @@ lang: de
 weight: 510
 ref: con-510
 redirect_from:
+  - /controls/de-pdf.html
 ---
 
 Über das Control PDF Viewer können PDFs in die Visualisierung eingebunden werden. 

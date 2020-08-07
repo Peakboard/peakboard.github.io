@@ -7,7 +7,7 @@ lang: en
 weight: 400
 ref: con-400
 redirect_from:
-  - /controls/de-shapes.html
+  - /controls/en-shapes.html
 ---
 
 ### Rectangle

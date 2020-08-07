@@ -7,6 +7,7 @@ lang: en
 weight: 500
 ref: con-500
 redirect_from:
+  - /controls/en-rich-text.html
 ---
 
 The Text Control direction can be used to display files in Rich Text Format. The files must be created in the resources. You can do this either by dragging and dropping them over the Explorer or by selecting Data/Resource Add Resource in the Rich Text Control.

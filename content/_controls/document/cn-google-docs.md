@@ -8,6 +8,7 @@ weight: 520
 ref: con-520
 redirect_from:
   - /controls/05-cn-google-docs.html
+  - /controls/cn-google-docs.html
 ---
 
 这篇文章介绍了将“Google文档”集成到Peakboard面板中。支持所有三种类型的文档：文档（从MS Word中获得的普通文档）、幻灯片（从MS PowerPoint中获得）和电子表格（从MS Excel中获得）。当然，许多其他文档也可以存储在Google云端硬盘中，但是“Google文档”控件只支持这三种主要类型，并将这三种类型在一同归组在“Google文档”中。
