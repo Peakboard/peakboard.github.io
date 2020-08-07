@@ -2,7 +2,7 @@
 layout: article
 title: Signal Block
 menu_title: Signal Block
-description: Information über Peakboard Designer Signal Block Control.
+description: Information about Peakboard Designer Signal Block Control.
 lang: en
 weight: 690
 ref: con-690

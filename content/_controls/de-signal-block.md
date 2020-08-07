@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Signal Block
-menu_title: Signal Block
-description: Information über Peakboard Designer Signal Block Control.
+title: Signalblock
+menu_title: Signalblock
+description: Information über Peakboard Designer Signalblock Control.
 lang: de
 weight: 690
 ref: con-690
@@ -10,14 +10,14 @@ redirect_from:
 ---
 
 
-Der Signal Block kann wie alle anderen Controls per Drag-and-Drop auf der Zeichenfläche platziert werden.
-Neben den [Allgemeinen Eigenschaften]( https://help.peakboard.com/controls/de-allgemeine-eigenschaften.html) können in den Eigenschaften des Signal Blocks noch weitere Designmerkmale angepasst werden.
+Der Signalblock kann wie alle anderen Controls per Drag-and-Drop auf der Zeichenfläche platziert werden.
+Neben den [Allgemeinen Eigenschaften]( https://help.peakboard.com/controls/de-allgemeine-eigenschaften.html) können in den Eigenschaften des Signalblocks noch weitere Designmerkmale angepasst werden.
 
 
 ![image_1](/assets/images/Controls/Signal-Block/signalblock1.png)
 
 
-Der eigentliche Nutzen des Signal Blocks liegt in den einfach zu erstellenden *Signal Rules*. Dafür muss der Signal Block zuerst durch einen Klick auf das Verkettungssymbol mit einer Datenquelle verbunden werden.
+Der eigentliche Nutzen des Signalblocks liegt in den einfach zu erstellenden *Signal Rules*. Dafür muss der Signalblock zuerst durch einen Klick auf das Verkettungssymbol mit einer Datenquelle verbunden werden.
 
 ![image_1](/assets/images/Controls/Signal-Block/signalblock2.gif)
 
@@ -52,7 +52,7 @@ Nach bestätigung der Regeln gelangt man wieder in die *Edit Signals* Maske. Hie
 ![image_1](/assets/images/Controls/Signal-Block/signalblock7.png)
 
 
-Die Folgende Abbildung soll die verschiedenen Arten zeigen wie der Signal Block gestaltet werden kann:
+Die Folgende Abbildung soll die verschiedenen Arten zeigen wie der Signalblock gestaltet werden kann:
 
 
 ![image_1](/assets/images/Controls/Signal-Block/signalblock5.png)
