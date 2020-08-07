@@ -75,7 +75,7 @@ collections:
       en: "Controls"
       de: "Controls"
       cn: "控件"
-        sublevel:
+    sublevel:
     common:
         en: "Common"
         de: "Standard"
