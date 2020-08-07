@@ -17,7 +17,6 @@ With *Select Icon* the main icon can be determined (2).
 The icon dialog that opens allows you to search for a suitable icon.
 You can choose from the following collections (3):
 
-{:style="margin-bottom: 0px; margin-top: 0px;"}
 * General: Contains general icons
 * Logistics: Contains icons from the logistics industry
 * SCADA: Contains icons for *Supervisory Control and Data Acquisition* which can be used to adjust and monitor production lines.
