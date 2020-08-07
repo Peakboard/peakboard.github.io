@@ -8,6 +8,7 @@ weight: 840
 ref: con-840
 redirect_from:
   - /controls/06-cn-power-bi.html
+  - /controls/cn-power-bi.html
 ---
 
 Peakboard Designer提供“Power BI”控件，它允许用户在未公开目标仪表板的情况下，将其显示在与Peakboard相连的屏幕。磁贴是Power BI仪表板的一部分，每个Power BI仪表板均由一个或多个磁贴组成。

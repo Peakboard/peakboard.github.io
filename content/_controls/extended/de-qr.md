@@ -7,6 +7,7 @@ lang: de
 weight: 800
 ref: con-800
 redirect_from:
+  - /controls/de-qr.html
 ---
 
 Mit dem QR Code Control welches unter den Erweiterten Controls in der Control Liste zu finden ist können sehr einfach QR Codes in eine Visualisierung integriert werden. 

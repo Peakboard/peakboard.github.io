@@ -7,6 +7,7 @@ lang: cn
 weight: 850
 ref: con-850
 redirect_from:
+  - /controls/cn-retroflipper.html
 ---
 
 复古翻转信息块主要用于再现经典的记分牌。

@@ -8,6 +8,7 @@ weight: 840
 ref: con-840
 redirect_from:
   - /controls/06-de-power-bi.html
+  - /controls/de-power-bi.html
 ---
 
 Der Peakboard Designer enthält ein Power BI Control, das es dem Benutzer ermöglicht, entsprechende Dashboards auf den Peakboard Displays darzustellen, ohne diese öffentlich zugängig machen zu müssen. Ein Tile oder auch Kachel ist Bestandteil eines Power BI Dashboards. Jedes Dashboard in Power BI besteht aus einer oder mehreren Kacheln. 

@@ -8,6 +8,7 @@ weight: 830
 ref: con-830
 redirect_from:
   - /controls/07-de-tableau.html
+  - /controls/de-tableau.html
 ---
 
 Mit dem Tableau View Steuerelement können Sie Tableau Views auf dem PeakBoard anzeigen lassen. Die Tabelau View befindet sich auf einem Tableau Server und wird auch dort gerendert. Peakboard dient als Anzeige.

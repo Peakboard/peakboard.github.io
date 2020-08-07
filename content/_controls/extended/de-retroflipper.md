@@ -7,6 +7,7 @@ lang: de
 weight: 850
 ref: con-850
 redirect_from:
+  - /controls/de-retroflipper.html
 ---
 
 Das Retro Flipper Control soll eine alte Anzeigetafel nachstellen. 

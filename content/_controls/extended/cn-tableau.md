@@ -8,6 +8,7 @@ weight: 830
 ref: con-830
 redirect_from:
   - /controls/07-cn-tableau.html
+  - /controls/cn-tableau.html
 ---
 
 您可以使用“Tableau视图”控件元素在Peakboard上显示Tableau视图。“Tabelau视图”位于Tableau Server上，并在那呈现。Peakboard作为显示器。

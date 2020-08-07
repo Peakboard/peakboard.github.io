@@ -8,6 +8,7 @@ weight: 840
 ref: con-840
 redirect_from:
   - /controls/06-en-power-bi.html
+  - /controls/en-power-bi.html
 ---
 
 The Peakboard Designer includes a Power BI Control that allows the user to display appropriate dashboards on the Peakboard displays without having to make them publicly available. A tile is part of a Power BI dashboard. Each Power BI dashboard consists of one or more tiles. 

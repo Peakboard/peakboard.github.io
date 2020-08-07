@@ -8,6 +8,7 @@ weight: 860
 ref: con-860
 redirect_from:
   - /controls/03-de-text-ticker.html
+  - /controls/de-text-ticker.html
 ---
 
 Das Control TextTicker ist dazu gedacht, einen Lauftext darzustellen. Bitte beachten Sie folgende, generelle Zusatzinfos:

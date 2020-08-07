@@ -7,6 +7,7 @@ lang: en
 weight: 850
 ref: con-850
 redirect_from:
+  - /controls/en-retroflipper.html
 ---
 
 The Retro Flipper Control is supposed to recreate an old scoreboard. 

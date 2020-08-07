@@ -8,6 +8,7 @@ weight: 860
 ref: con-860
 redirect_from:
   - /controls/03-cn-text-ticker.html
+  - /controls/cn-text-ticker.html
 ---
 
 “滚动字幕”控件旨在显示滚动文本。请注意以下一般附加信息：

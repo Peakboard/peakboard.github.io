@@ -8,6 +8,7 @@ weight: 860
 ref: con-860
 redirect_from:
   - /controls/03-en-text-ticker.html
+  - /controls/en-text-ticker.html
 ---
 
 The Text Ticker Control is intended to display a scrolling text. Please note the following general additional information:

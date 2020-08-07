@@ -7,6 +7,7 @@ lang: cn
 weight: 800
 ref: con-800
 redirect_from:
+  - /controls/cn-qr.html
 ---
 
 二维码控件位于控件列表的“拓展选项”栏，您可以通过该控件轻松地将各种二维码整合至可视化。
