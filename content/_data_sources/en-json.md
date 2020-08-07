@@ -12,7 +12,7 @@ redirect_from:
 This page explains the individual features when accessing JSon data sources from Peakboard. Under the following link you will find a tutorial on how to configure external data sources in general and how to connect them to Peakboard elements:
 
 
-[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-daten.html)
+[First steps with external data sources using the example of an XML data source](/tutorials/en-xml-data.html)
 
 If you don't have a URL to a JSon data source at hand, but just want to give it a try, please use the following example URL:
 

@@ -14,11 +14,11 @@ redirect_from:
 The Control Table Grid is intended to display data in tabular form. It is the most frequently used control after the simple text block. 
 Please first note the following general information and recurring operating patterns for controls:
 
-[General Properties](/controls/01-en-general-properties.html)
+[General Properties](/controls/en-general-properties.html)
 
-[Managing font formats with Font Manager](/misc/05-en-custom-fonts.html)
+[Managing font formats with Font Manager](/misc/en-fonts.html)
 
-[Formatting Values](/misc/03-en-formating-values.html)
+[Formatting Values](/misc/en-formating-values.html)
 
 After a table grid has been dragged and dropped from the toolbox onto the top right-hand side of the screen, it is connected to a tabular data source using the Data Source property. 
 This automatically creates columns in the table control that correspond to the original data source and can then be easily modified. 
@@ -35,13 +35,13 @@ The following properties are available for this:
 	* Pixel defines a fixed width for each column.
 	
 * Position of the content: The content of the columns can be determined via *Alignment*.
-* Format: If the content is to be displayed in a certain format (e.g. as a percentage), this can be set for the entire column. In [this article](https://help.peakboard.com/misc/de-formatieren-von-Werten.html) it is explained how a format can be adjusted.
+* Format: If the content is to be displayed in a certain format (e.g. as a percentage), this can be set for the entire column. In [this article](/misc/en-formating-values.html) it is explained how a format can be adjusted.
 * Font: Each column can be assigned a font. This must be selected under *Specific Font*.
 
 ![image_1](/assets/images/Controls/Table-Grid/ControlsTableGrid01.png)
 
 
-If the data in the table is to be manipulated, it is worth creating a [dataflow](https://help.peakboard.com/dataflows/en-erste-schritte.html) before creating the table grid control.
+If the data in the table is to be manipulated, it is worth creating a [dataflow](/dataflows/en-getting-started.html) before creating the table grid control.
 
 
 Finally, all properties that are specific to the table grid control and therefore were not listed under the link from above are listed below.

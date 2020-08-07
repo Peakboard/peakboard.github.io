@@ -20,7 +20,7 @@ Peakboard提供了各种途径来整合来自不同来源的数据，然后再�
 
 “Excel阅读器”控件最易使用“图表”属性进行配置（单击三个点按钮）。首先必须选择一个资源，然后选择所需的电子表格，最后选择所需的图表（因此图表名称很重要）。“实时刷新”属性限定了从资源重新加载图表的频率。
 
-![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_02.png)
+![image_1](/assets/images/Controls/Excel-Viewer/Controls_ExcelViewer_02.gif)
 
 下方截图显示了Peakboard预览中的Excel图表。
 

@@ -119,4 +119,4 @@ It opens a new dialog, which shows the result. You can now transfer this visuali
 
 If you already have a Peakboard box, on the following page you can find an explanation how to plug in the box, connect it and load a visualization onto the box. Read the article: [Connecting and Transferring the First Visualization](https://help.peakboard.com/get_started/en-peakboard-connecting.html).
 
-We wish you lots of fun and success with Peakboard. If you have problems with the Peakboard Designer, do not hesitate to contact us. All information about getting in touch can be found on the following [page](https://peakboard.com/en/support/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
+We wish you lots of fun and success with Peakboard. If you have problems with the Peakboard Designer, do not hesitate to contact us. All information about getting in touch can be found on the following [page](https://peakboard.com/en/academy/).

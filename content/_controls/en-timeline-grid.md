@@ -14,7 +14,7 @@ For example, this could be used for a machine that has the states *set up*, *pro
 A representation over time is to be made, which clearly shows the individual states.
  Please first note the following general information and recurring operating patterns for control elements:
 
-[General Properties](/controls/01-en-allgemeine-eigenschaften.html)
+[General Properties](https://help.peakboard.com/controls/en-general-properties.html)
 
 In the following example, a simple, stationary list is used as the data basis. 
 It contains a timestamp, which activity has started at this point in time and how long the condition has lasted. 

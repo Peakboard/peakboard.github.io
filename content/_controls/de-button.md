@@ -14,6 +14,6 @@ Er führt, wenn er in einer Visualisierung eingebaut ist und über einen Touchsc
 Dieses kann in den Properties unter Events und dann Tapped angelegt werden oder durch Doppelklick auf den Button im Designer.
 
 Weitere Information wie Skripte angelegt werden können oder wie der [Skript-Editor](/scripting/de-script-editor.html) funktioniert finden sich in der Rubrik Scripting.
-So auch das Beispiel für ein [Button Skript](/scripting/Samples/de-Button.html).
+So auch das Beispiel für ein [Button Skript](https://templates.peakboard.com/Script-Example-With-Button/index).
 
 ![image_1](/assets/images/Controls/Button/button01.gif)

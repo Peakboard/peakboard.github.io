@@ -21,7 +21,7 @@ The data for this must be of data type *String*, while the data for the **Y axis
 >
 > For the Y-axis only data of the type **Number** can be used!
 
-![Pie Chart](/assets/images/Controls/piechart01.png)
+![Pie Chart](/assets/images/Controls/piechart/piechart01.png)
 
 After the data has been assigned, the color scheme can be adjusted under **Colors** using the **Select** button.
 

@@ -14,6 +14,6 @@ If it is integrated in a visualization and clicked on using a touchscreen or mou
 This can be created in the properties under Events and then Tapped or by double-clicking the button in the Designer.
 
 Further information on how to create scripts or how the [Script-Editor](/scripting/en-script-editor.html) works can be found in the Scripting section.
-So also the example for a [Button Script](/scripting/Samples/en-Button.html).
+So also the example for a [Button Script](https://templates.peakboard.com/Script-Example-With-Button/en).
 
 ![image_1](/assets/images/Controls/Button/button01.gif)

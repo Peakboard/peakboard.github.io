@@ -119,4 +119,4 @@ Es öffnet sich ein neuer Dialog, welcher das Ergebnis zeigt. Diese Visualisieru
 
 Wenn Sie bereits eine Peakboard-Box besitzen können Sie auf der folgenden Seite eine Erklärung finden, wie Sie die Box anschließen, verbinden und eine Visualisierung auf die Box laden können. Lesen Sie dazu den Artikel: [Anschließen und die erste Visualisierung übertragen](https://help.peakboard.com/get_started/de-anschliessen-und-die-erste-visualisierung.html).
 
-Wir wünschen Ihnen viel Spaß und Erfolg mit Peakboard. Sollten Sie Probleme mit dem Peakboard Designer haben, zögern Sie nicht mit uns in Kontakt zu treten. Alle wichtigen Information dazu finden Sie auf folgender [Seite](https://peakboard.com/support/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
+Wir wünschen Ihnen viel Spaß und Erfolg mit Peakboard. Sollten Sie Probleme mit dem Peakboard Designer haben, zögern Sie nicht mit uns in Kontakt zu treten. Alle wichtigen Information dazu finden Sie auf folgender [Seite](https://peakboard.com/academy/).

@@ -12,6 +12,6 @@ redirect_from:
 Über das Control PDF Viewer können PDFs in die Visualisierung eingebunden werden. 
 Dieses Control befindet sich unter dem Menüpunkt Dokument in der Controls Liste, oder wird automatisch erstellt, wenn eine PDF Datei aus den Ressourcen per Drag & Drop auf den Screen gezogen wird.
 
-Wie ein PDF mithilfe eines Skriptes gesteuert werden kann findet sich [hier](/scripting/Samples/de-PDF.html).
+Wie ein PDF mithilfe eines Skriptes gesteuert werden kann findet sich [hier](https://templates.peakboard.com/Script-Example-PDF-Page-Change/index).
 
 ![image_1](/assets/images/Controls/PDF/pdf01.gif)
