@@ -8,9 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.3.2.0 (06.08.2020)
+footer: 2.3.3.1 (07.08.2020)
 ---
-## 2.3.2.0 (06.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESgUhDNNhKJGn8HLTg8O5UkBcRQfGewTsVY0Z4zAfpdqaQ?e=ElXFlj)
+## 2.3.3.1 (07.08.2020) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix für Fehler beim Öffnen und Schließen der S7 Datenquelle
+
+## 2.3.2.0 (06.08.2020)
 * Hotfix für einen Fehler in der CSV-Datenquelle bei dem die Spaltenbezeichnungen nicht korrekt erfasst wurden
 
 ## 2.3.1.0 (17.07.2020) 

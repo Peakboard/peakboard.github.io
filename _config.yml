@@ -75,6 +75,35 @@ collections:
       en: "Controls"
       de: "Controls"
       cn: "控件"
+        sublevel:
+    common:
+        en: "Common"
+        de: "Standard"
+        cn: "Common"
+    media:
+        en: "Media"
+        de: "Medien"
+        cn: "Media"
+    shape:
+        en: "Shape"
+        de: "Formen"
+        cn: "Shape"
+    document:
+        en: "Document"
+        de: "Dokument"
+        cn: "Document"
+    chart:
+        en: "Chart"
+        de: "Diagramm"
+        cn: "Chart"
+    input:
+        en: "Input"
+        de: "Input"
+        cn: "Input"
+    extended:
+        en: "Extended"
+        de: "Erweitert"
+        cn: "Extended"
 
   scripting:
     output: true
