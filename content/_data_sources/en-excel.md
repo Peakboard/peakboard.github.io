@@ -13,7 +13,7 @@ redirect_from:
 This page explains the individual features when accessing an Excel data source from Peakboard. 
 Under the following link you will find a tutorial on how to configure external data sources in general and how to link them to Peakboard elements:
 
-![First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-daten.html)
+[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-daten.html)
 
 After you click Add Excel Data, a window opens. 
 The dialog is divided into three areas - General, Specify and Preview.
