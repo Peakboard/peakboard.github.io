@@ -7,6 +7,7 @@ lang: en
 weight: 750
 ref: con-750
 redirect_from:
+  - /controls/en-checkbox.html
 ---
 
 The Control Checkbox is located under the Input Controls in the Controls list. 

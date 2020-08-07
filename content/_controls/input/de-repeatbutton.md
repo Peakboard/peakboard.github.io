@@ -7,6 +7,7 @@ lang: de
 weight: 720
 ref: con-720
 redirect_from:
+  - /controls/de-repeatbutton.html
 ---
 
 Der Repeat Button findet sich unter den Input Controls. 

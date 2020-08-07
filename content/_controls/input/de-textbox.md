@@ -7,6 +7,7 @@ lang: de
 weight: 700
 ref: con-700
 redirect_from:
+  - /controls/de-textbox.html
 ---
 
 > ## Hinweis!

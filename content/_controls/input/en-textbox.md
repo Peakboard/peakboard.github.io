@@ -7,6 +7,7 @@ lang: en
 weight: 700
 ref: con-700
 redirect_from:
+  - /controls/en-textbox.html
 ---
 
 > ## Note!

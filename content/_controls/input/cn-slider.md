@@ -7,6 +7,7 @@ lang: cn
 weight: 780
 ref: con-780
 redirect_from:
+  - /controls/cn-slider.html
 ---
 
 滑块控件位于控件列表的“输入”栏。

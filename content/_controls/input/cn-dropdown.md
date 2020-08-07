@@ -7,6 +7,7 @@ lang: cn
 weight: 770
 ref: con-770
 redirect_from:
+  - /controls/cn-dropdown.html
 ---
 
 下拉菜单位于控件列表的“输入”栏。

@@ -7,6 +7,7 @@ lang: cn
 weight: 730
 ref: con-730
 redirect_from:
+  - /controls/cn-togglebutton.html
 ---
 
 切换按钮位于控件中的“输入”栏。

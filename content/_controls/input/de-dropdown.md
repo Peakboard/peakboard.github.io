@@ -7,6 +7,7 @@ lang: de
 weight: 770
 ref: con-770
 redirect_from:
+  - /controls/de-dropdown.html
 ---
 
 Das Dropdown-Listen Control findet sich unter den Input Controls in der Controls Liste. 

@@ -7,6 +7,7 @@ lang: cn
 weight: 720
 ref: con-720
 redirect_from:
+  - /controls/cn-repeatbutton.html
 ---
 
 重复按键位于控件中的“输入”栏。

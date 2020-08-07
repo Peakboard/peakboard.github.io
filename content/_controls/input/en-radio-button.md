@@ -7,6 +7,7 @@ lang: en
 weight: 760
 ref: con-760
 redirect_from:
+  - /controls/en-radio-button.html
 ---
 
 The Radio Button Control can be found under the Input Controls in the Controls list. 

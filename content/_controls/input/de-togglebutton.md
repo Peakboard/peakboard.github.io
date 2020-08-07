@@ -7,6 +7,7 @@ lang: de
 weight: 730
 ref: con-730
 redirect_from:
+  - /controls/de-togglebutton.html
 ---
 
 Der Toggle Button findet sich unter den Input Controlls. 

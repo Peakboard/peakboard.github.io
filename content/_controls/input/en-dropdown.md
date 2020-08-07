@@ -7,6 +7,7 @@ lang: en
 weight: 770
 ref: con-770
 redirect_from:
+  - /controls/en-dropdown.html
 ---
 
 The Drop Down Control can be found under the Input Controls in the Controls list. 

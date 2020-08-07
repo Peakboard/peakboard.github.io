@@ -7,6 +7,7 @@ lang: en
 weight: 740
 ref: con-740
 redirect_from:
+  - /controls/en-toggleswitch.html
 ---
 
 The Toggle Switch is located under the Input Controls in the Controls list. 

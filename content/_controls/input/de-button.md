@@ -7,6 +7,7 @@ lang: de
 weight: 710
 ref: con-710
 redirect_from:
+  - /controls/de-button.html
 ---
 
 Der Button findet sich an erster Stelle der Input Controls. 

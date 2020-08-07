@@ -7,6 +7,7 @@ lang: cn
 weight: 750
 ref: con-750
 redirect_from:
+  - /controls/cn-checkbox.html
 ---
 
 勾选框位于控件列表的“输入”栏。

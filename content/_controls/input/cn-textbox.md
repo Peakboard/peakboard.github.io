@@ -7,6 +7,7 @@ lang: cn
 weight: 700
 ref: con-700
 redirect_from:
+  - /controls/cn-textbox.html
 ---
 
 > ## 请注意!

@@ -7,6 +7,7 @@ lang: en
 weight: 780
 ref: con-780
 redirect_from:
+  - /controls/en-slider.html
 ---
 
 The Slider Control can be found under the Input Controls in the Controls list. 

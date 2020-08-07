@@ -7,6 +7,7 @@ lang: cn
 weight: 710
 ref: con-710
 redirect_from:
+  - /controls/cn-button.html
 ---
 
 “按键”位于“输入”类控件顶端。 

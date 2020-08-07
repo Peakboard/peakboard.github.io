@@ -7,6 +7,7 @@ lang: de
 weight: 740
 ref: con-740
 redirect_from:
+  - /controls/de-toggleswitch.html
 ---
 
 Der Kippschalter findet sich unter den Input Controls in der Controls Liste. 

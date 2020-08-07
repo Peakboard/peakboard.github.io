@@ -7,6 +7,7 @@ lang: cn
 weight: 740
 ref: con-740
 redirect_from:
+  - /controls/cn-toggleswitch.html
 ---
 
 切换开关位于控件列表的“输入”栏。
