@@ -361,6 +361,7 @@ html {
   blockquote h5 {
     font-weight: 400;
     margin-bottom: 0;
+    margin-top: 0;
     border-bottom: none;
     padding-left: 1.25rem;
     padding-top: 1.25rem;
@@ -375,6 +376,9 @@ html {
   }
   blockquote p:last-child {
     margin-bottom: 0;
+  }
+  blockquote p strong {
+    font-weight: bolder;
   }
 
   .image-wrapper {
