@@ -8,6 +8,7 @@ weight: 250
 ref: con-250
 redirect_from:
   - /controls/14-de-tilecontrol.html
+  - /controls/de-tilecontrol.html
 ---
 
 Das Tile-Control ist eine einfache Möglichkeit, zeilenbasierte Daten einer Tabelle auf repetitive Weise darzustellen. 

@@ -7,6 +7,7 @@ lang: en
 weight: 230
 ref: con-230
 redirect_from:
+  - /controls/en-icon.html
 ---
 
 With the help of the icon control, different icons can be integrated into the visualization.

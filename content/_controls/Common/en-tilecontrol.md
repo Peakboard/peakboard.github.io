@@ -8,6 +8,7 @@ weight: 250
 ref: con-250
 redirect_from:
   - /controls/14-en-tilecontrol.html
+  - /controls/en-tilecontrol.html
 ---
 
 Tile control is a simple way to display row-based data of a table in a repetitive manner. 

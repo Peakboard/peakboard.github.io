@@ -8,6 +8,7 @@ weight: 210
 ref: con-210
 redirect_from:
   - /controls/04-de-table-grid.html
+  - /controls/de-table-grid.html
 ---
 
 Das Control Table Grid ist dazu gedacht, Daten tabellarisch darzustellen. Es ist neben dem einfachen Textblock das am häufigsten genutzte Control. 

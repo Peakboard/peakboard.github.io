@@ -7,6 +7,7 @@ lang: cn
 weight: 230
 ref: con-230
 redirect_from:
+  - /controls/cn-icon.html
 ---
 
 您可以使用图标控件，将各种图标整合至可视化中。

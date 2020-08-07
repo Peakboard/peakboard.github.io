@@ -8,6 +8,7 @@ weight: 250
 ref: con-250
 redirect_from:
   - /controls/14-cn-tilecontrol.html
+  - /controls/cn-tilecontrol.html
 ---
 
 “磁贴”控件是一种以重复方式显示表格的行式数据的简单方法。查看下表，显然，一条生产线为一行。

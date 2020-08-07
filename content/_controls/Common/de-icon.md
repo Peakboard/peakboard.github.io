@@ -7,6 +7,7 @@ lang: de
 weight: 230
 ref: con-230
 redirect_from:
+  - /controls/de-icon.html
 ---
 
 Mit Hilfe des Icon-Controls lassen sich unterschiedliche Icons in die Visualisierung integrieren.

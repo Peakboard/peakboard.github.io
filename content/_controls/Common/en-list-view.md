@@ -8,6 +8,7 @@ weight: 240
 ref: con-240
 redirect_from:
   - /controls/10-en-list-view.html
+  - /controls/en-list-view.html
 ---
 
 The ListView control is very similar in its behavior to the [Tile Control](/controls/14-en-tilecontrol.html) and the [Tile View](/controls/11-en-tile-view.html).

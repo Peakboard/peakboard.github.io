@@ -7,6 +7,7 @@ lang: en
 weight: 220
 ref: con-220
 redirect_from:
+  - /controls/en-livetile.html
 ---
 The Live Tile Box can be used to create separate tiles, similar to the [Tile Control](https://help.peakboard.com/controls/de-tilecontrol.html).
 These can then be displayed in a specific order or under specific conditions. 

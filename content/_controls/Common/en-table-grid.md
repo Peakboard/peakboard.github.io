@@ -8,6 +8,7 @@ weight: 210
 ref: con-210
 redirect_from:
   - /controls/04-en-table-grid.html
+  - /controls/en-table-grid.html
 ---
 
 
