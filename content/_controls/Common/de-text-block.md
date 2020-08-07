@@ -8,6 +8,7 @@ weight: 200
 ref: con-200
 redirect_from:
   - /controls/02-de-text-block.html
+  - /controls/de-text-block.html
 ---
 
 Das Control Text ist dazu gedacht, einzelne Texte oder KPIs darzustellen.

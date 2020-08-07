@@ -8,6 +8,7 @@ weight: 200
 ref: con-200
 redirect_from:
   - /controls/02-cn-text-block.html
+  - /controls/cn-text-block.html
 ---
 
 “文本块”控件主要用于显示单个文本、KPI（关键绩效指标）或标记某些内容。其内容可通过“文本”属性设置。其他属性请参见[一般属性](/controls/01-cn-general-properties.html)。
