@@ -4,9 +4,10 @@ title: Schreiben nach OPC UA
 menu_title: Schreiben nach OPC UA
 description: Schreiben nach OPC UA
 lang: de
-weight: 1001
-ref: misc-1001
-redirect_from:
+weight: 2410
+ref: dat-2410
+redirect_from: 
+	- /misc/de-Client-Write-OPCUA.html
 ---
 
 Mit folgendem Statement kann mit einem Skript der Wert einer Variablen auf einem OPC UA Server geändert werden.

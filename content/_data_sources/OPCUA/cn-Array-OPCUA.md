@@ -4,9 +4,10 @@ title: 读取数组（OPC UA）
 menu_title: 读取数组（OPC UA）
 description: 读取数组（OPC UA）
 lang: cn
-weight: 1002
-ref: misc-1002
-redirect_from:
+weight: 2420
+ref: dat-2420
+redirect_from: 
+	- /misc/cn-Array-OPCUA.html
 ---
 
 为使用OPC UA服务器数组中的单个元素，必须首先将数组创建为一个订阅(1)。

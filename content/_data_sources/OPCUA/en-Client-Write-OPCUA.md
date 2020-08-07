@@ -4,8 +4,10 @@ title: Writing to OPC UA
 menu_title: Write to OPC UA
 description: Writing to OPC UA
 lang: en
-weight: 1001
-ref: misc-1001
+weight: 2410
+ref: dat-2410
+redirect_from: 
+	- /misc/en-Client-Write-OPCUA.html
 ---
 
 With the following statement the value of a variable on an OPC UA server may be changed with a script.

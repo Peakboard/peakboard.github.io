@@ -41,14 +41,14 @@ collections:
       de: "Datenquellen"
       cn: "数据源"
     sublevel:
-      PeakboardIO:
-        en: "PeakboardIO"
-        de: "PeakboardIO"
-        cn: "PeakboardIO"
       SAP:
         en: "SAP"
         de: "SAP"
         cn: "SAP"
+      OPCUA:
+        en: "OPC UA"
+        de: "OPC UA"
+        cn: "OPC UA"
       Extension:
         en: "Extension"
         de: "Extension"

@@ -4,9 +4,10 @@ title: Reading an array (OPC UA)
 menu_title: Read an array (OPC UA)
 description: Reading an array (OPC UA)
 lang: en
-weight: 1002
-ref: misc-1002
-redirect_from:
+weight: 2420
+ref: dat-2420
+redirect_from: 
+	- /misc/en-Array-OPCUA.html
 ---
 
 In order to be able to use individual elements of an array by an OPC UA server, the array must first be created as a subscription (1).

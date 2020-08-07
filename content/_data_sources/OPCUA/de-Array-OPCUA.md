@@ -4,9 +4,10 @@ title: Auslesen eines Arrays (OPC UA)
 menu_title: Auslesen eines Arrays (OPC UA)
 description: Auslesen eines Arrays (OPC UA)
 lang: de
-weight: 1002
-ref: misc-1002
-redirect_from:
+weight: 2420
+ref: dat-2420
+redirect_from: 
+	- /misc/de-Array-OPCUA.html
 ---
 
 Um einzelne Elemente eines Arrays von einem OPC UA Server nutzen zu können, muss zunächst das Array als Subscription angelegt werden (1).
