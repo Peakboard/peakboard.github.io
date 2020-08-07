@@ -7,6 +7,7 @@ lang: en
 weight: 620
 ref: con-620
 redirect_from:
+  - /controls/en-doughnout-chart.html
 ---
 
 The Doughnut Chart is suitable for displaying distributions and shares.

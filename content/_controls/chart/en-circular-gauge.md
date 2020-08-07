@@ -7,6 +7,7 @@ lang: en
 weight: 670
 ref: con-670
 redirect_from:
+  - /controls/en-circular-gauge.html
 ---
 
 The Circular Gauge Control is very well suited to graphically display a workload.

@@ -7,6 +7,7 @@ lang: de
 weight: 610
 ref: con-610
 redirect_from:
+  - /controls/de-pie-chart.html
 ---
 Das Kreisdiagramm eignet sich für die Darstellung von Verteilungen und Anteilen.
 Hierbei empfiehlt es sich, die Anzahl der Teile auf maximal 7 zu begrenzen, da das Diagramm sonst schnell unübersichtlich und die Teilbereiche zu klein werden.

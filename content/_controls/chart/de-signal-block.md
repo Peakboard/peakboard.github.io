@@ -7,6 +7,7 @@ lang: de
 weight: 690
 ref: con-690
 redirect_from:
+  - /controls/de-signal-block.html
 ---
 
 

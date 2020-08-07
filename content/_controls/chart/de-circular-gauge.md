@@ -7,6 +7,7 @@ lang: de
 weight: 670
 ref: con-670
 redirect_from:
+  - /controls/de-circular-gauge.html
 ---
 
 Das Circular Gauge Control eignet sich sehr gut dafür, um eine Auslastung grafisch darzustellen.

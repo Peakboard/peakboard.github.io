@@ -7,6 +7,7 @@ lang: en
 weight: 695
 ref: con-695
 redirect_from:
+  - /controls/en-timeline-grid.html
 ---
 
 The idea of the Timeline Grid is to display a kind of timeline and to show different states in a time course. 

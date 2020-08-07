@@ -8,6 +8,7 @@ weight: 680
 ref: con-680
 redirect_from:
   - /controls/12-en-excel-viewer.html
+  - /controls/en-excel-viewer.html
 ---
 
 Peakboard offers extensive possibilities to integrate data from different sources and then visualize this data with controls. This is the default way. In some cases it can be useful to import the visualization from outside and not just the data. This chapter describes the Excel Chart control, with the help of which a chart embedded in an Excel file can be directly integrated as part of the visualization.

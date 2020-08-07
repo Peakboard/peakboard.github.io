@@ -7,6 +7,7 @@ lang: de
 weight: 695
 ref: con-695
 redirect_from:
+  - /controls/de-timeline-grid.html
 ---
 
 Die Idee des Timeline Grids ist es, eine Art Zeitstrahl darzustellen und verschiedene Zustände in einem Zeitverlauf darzustellen. 

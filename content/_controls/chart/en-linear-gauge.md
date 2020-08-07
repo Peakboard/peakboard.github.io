@@ -7,6 +7,7 @@ lang: en
 weight: 660
 ref: con-660
 redirect_from:
+  - /controls/en-linear-gauge.html
 ---
 
 The Linear Gauge Control is very well suited for displaying progress graphically.

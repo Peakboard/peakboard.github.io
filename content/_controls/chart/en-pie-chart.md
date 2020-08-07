@@ -7,6 +7,7 @@ lang: en
 weight: 610
 ref: con-610
 redirect_from:
+  - /controls/en-pie-chart.html
 ---
 The pie chart is suitable for displaying distributions and shares.
 It is advisable to limit the number of parts to a maximum of 7, otherwise the diagram will quickly become unclear and the subareas too small.
