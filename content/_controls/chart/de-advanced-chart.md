@@ -10,7 +10,6 @@ redirect_from:
 ---
 
 
-Data / Series Eigenschaft - Charttypen und Daten verknüpfen:
 Die wichtigste Eigenschaft für die Steuerung der Charts ist die Data-Series-Eigenschaft.
 Sie erlaubt es, mehrere unterschiedliche Charts übereinander zu legen und jeweils mit einer Datenquelle zu verknüpfen.
 Klicken Sie auf *Add* um eine neue Serie hinzuzufügen. Generell lassen sich nicht alle Chart-Typen miteinander kombinieren. 
