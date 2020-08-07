@@ -7,6 +7,7 @@ lang: de
 weight: 330
 ref: con-330
 redirect_from:
+  - /controls/de-photoframe.html
 ---
 
 Über den Punkt Bilderrahmen können mehrere Bilder in einer Diashow in der Visualisierung angezeigt werden. 

@@ -7,6 +7,7 @@ lang: en
 weight: 320
 ref: con-320
 redirect_from:
+  - /controls/en-video.html
 ---
 
 The Video Control is located on the Media tab in the Controls list or is created automatically when a video is dragged from the Resources to the screen. 

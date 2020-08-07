@@ -5,6 +5,7 @@ lang: cn
 weight: 330
 ref: con-330
 redirect_from:
+  - /controls/cn-photoframe.html
 ---
 
 您可以使用相框控件，在可视化中一次性展示多张照片。

@@ -7,6 +7,7 @@ lang: cn
 weight: 320
 ref: con-320
 redirect_from:
+  - /controls/cn-video.html
 ---
 
 视频控件位于控件列表的媒体标签。当您将视频从“资源”栏拖至画板，该控件就会自动创建。除了[一般属性](/controls/en-general-properties.html)，您还可以在控件属性部分设定该控件是否应无限循环播放还是仅播放一次。

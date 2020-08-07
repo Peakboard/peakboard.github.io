@@ -7,6 +7,7 @@ lang: en
 weight: 310
 ref: con-310
 redirect_from:
+  - /controls/en-image.html
 ---
 
 The Image control is located on the Media tab in the Controls list or is created automatically when an image is dragged from the resources to the drawing area. 

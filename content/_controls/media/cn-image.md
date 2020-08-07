@@ -7,6 +7,7 @@ lang: cn
 weight: 310
 ref: con-310
 redirect_from:
+  - /controls/cn-image.html
 ---
 
 图片控件位于控件列表中的媒体标签。当您将图片从“资源”栏拖至画板，该控件就会自动创建。

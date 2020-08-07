@@ -7,6 +7,7 @@ lang: de
 weight: 310
 ref: con-310
 redirect_from:
+  - /controls/de-image.html
 ---
 
 Das Bild-Control befindet sich unter der Registerkarte Media in der Controls Liste oder wird automatisch erstellt, wenn ein Bild von den Ressourcen auf die Zeichenfläche gezogen wird. 

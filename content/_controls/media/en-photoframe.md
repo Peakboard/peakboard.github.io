@@ -6,6 +6,7 @@ lang: en
 weight: 330
 ref: con-330
 redirect_from:
+  - /controls/en-photoframe.html
 ---
 
 Using the item Photo Frame several pictures can be displayed in a slide show in the visualization. 

@@ -7,6 +7,7 @@ lang: de
 weight: 320
 ref: con-320
 redirect_from:
+  - /controls/de-video.html
 ---
 
 Das Video Control befindet sich auf der Registerkarte Media in der Liste Controls oder wird automatisch erstellt, wenn ein Video von den Ressourcen auf den Bildschirm gezogen wird. 
