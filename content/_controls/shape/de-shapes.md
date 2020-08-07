@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Shapes
-menu_title: Shapes
+title: Formen
+menu_title: Formen
 description: Information über Peakboard Designer Shapes Controls.
 lang: de
 weight: 400
