@@ -23,7 +23,8 @@ Im Beispiel kann man einen Pie-Chart sehen. Hier steuert die Y-Achse die Breite 
 Im Bereich *Appearance* und *General* lassen sich weitere sehr detaillierte Attribute für jeden Chart-Typ einstellen. Die jeweilige Funktion sollte weitesgehend selbsterklärend sein.
 
 
-![image1](/assets/images/Controls/advanced-chart/advancedchart01.png)
+![image_1](/assets/images/Controls/advanced-chart/advancedchart-01.png)
+
 
 In den Eigenschaften des Advanced Chart lassen sich neben den [Allgemeinen Eigenschaften](https://help.peakboard.com/controls/de-allgemeine-eigenschaften.html) noch weitere wichtige Einstellungen vornehmen:
 
@@ -39,4 +40,4 @@ In den Eigenschaften des Advanced Chart lassen sich neben den [Allgemeinen Eigen
 * Label: Ist diese Eigenschaft aktiviert wird die Legende angezeigt
 
 
-![image1](/assets/images/Controls/advanced-chart/advancedchart02.png)
+![image_1](/assets/images/Controls/advanced-chart/advancedchart-02.png)
