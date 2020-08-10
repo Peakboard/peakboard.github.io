@@ -12,7 +12,7 @@ redirect_from:
 
 With the help of the icon control, different icons can be integrated into the visualization.
 Like any other control, the icon control is dragged and dropped onto the surface (1). 
-Afterwards, the [general properties](/controls/en-allgemeine-eigenschaften.html) of the control can be used as usual.
+Afterwards, the [general properties](/controls/en-general-properties.html) of the control can be used as usual.
 With *Select Icon* the main icon can be determined (2).
 The icon dialog that opens allows you to search for a suitable icon.
 You can choose from the following collections (3):

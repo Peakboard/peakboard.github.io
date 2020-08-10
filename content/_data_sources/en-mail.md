@@ -11,7 +11,7 @@ redirect_from:
 This page explains the individual features when accessing the mail data source. 
 Under the following link you will find a tutorial on how to configure external data sources in general and how to connect them to peakboard elements:
 
-[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-daten.html)
+[First steps with external data sources using the example of an XML data source](/tutorials/en-xml-data.html)
 
 The mail data source allows access to an e-mail mailbox via Imap. 
 It is usually used to send messages to a peakboard box via a very simple way. 

@@ -14,6 +14,6 @@ The Repeat Button is located under the Input Controls.
 It works analogous to the [Button](/controls/en-button.html). But the repeat button does not execute a script once but as long as it is pressed.
 
 Further information on how to create scripts or how the [Script-Editor](/scripting/en-script-editor.html) works can be found in the Scripting section.
-So also the example for a [Button Script](/scripting/Samples/en-Button.html).
+So also the example for a [Button Script](https://templates.peakboard.com/Script-Example-With-Button/en).
 
 ![image_1](/assets/images/Controls/Repeat-Button/repeatbutton01.gif)
