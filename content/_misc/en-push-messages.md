@@ -68,8 +68,4 @@ The following two screenshots show the original board once with the static, stor
 
 ![image_1](/assets/images/misc/push/MiscPushMessage05.jpg)
 
-Download the .NET project for the http-push:
-[PeakboardAPIDemo](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/PeakboardAPIDemo.zip)
 
-Download the sample board:
-[PeakboardPushMessages](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/Push%20Messages-EN.pbmx)

@@ -66,9 +66,3 @@ Die beiden folgenden Screenshots zeigen das Original-Board einmal mit den statis
 
 ![image_1](/assets/images/misc/push/MiscPushMessage05.jpg)
 
-Download des .NET Projekt für den http-Push:
-[PeakboardAPIDemo](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/PeakboardAPIDemo.zip)
-
-
-Download des Beispiel-Boards:
-[PeakboardPushMessages](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/Push%20Messages-EN.pbmx)

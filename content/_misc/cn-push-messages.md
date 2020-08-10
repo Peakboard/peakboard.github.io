@@ -67,9 +67,3 @@ else
 ![image_1](/assets/images/misc/push/MiscPushMessage04.jpg)
 
 ![image_1](/assets/images/misc/push/MiscPushMessage05.jpg)
-
-下载http推送的.NET项目：
-[PeakboardAPIDemo](https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/PeakboardAPIDemo.zip)
-
-下载示例看板：
-[PeakboardPushMessages] (https://github.com/Peakboard/CoolStuff/raw/master/Help%20Files/Push%20Messages/Push%20Messages-EN.pbmx)
