@@ -53,5 +53,3 @@ OPC-UA数据源无缝配合机器通信的一系列数据源，并可直接访�
 	end
 
 ```
-
-您还可以在我们的[Github-Respository](https://github.com/Peakboard/CoolStuff)中找到opcfoundation.org示例服务器的样板看板。

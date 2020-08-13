@@ -15,6 +15,6 @@ redirect_from:
 您可在属性——事件创建脚本，然后在Designer中双击按键进行查看。
 
 如需进一步了解如何创建脚本或使用[脚本编辑器](/scripting/en-script-editor.html)，请参见“脚本”部分。
-[按键](/scripting/Samples/en-Button.html)脚本示例。
+[按键](https://templates.peakboard.com/Script-Example-With-Button/cn)脚本示例。
 
 ![image_1](/assets/images/Controls/Button/button01.gif)

@@ -75,7 +75,7 @@ You can use different file types for your visualization. For example, image file
 
 ## Connect data source
 
-From data formats such as JSON and XML, databases and SAP via social media to machine, conveyor and sensor information such as Siemens S7 and OPC UA. A wide variety of data can be easily connected and visualized in real time with Peakboard. Further information on the data connections can be found [here](https://peakboard.com/en/data-connections-overview/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
+From data formats such as JSON and XML, databases and SAP via social media to machine, conveyor and sensor information such as Siemens S7 and OPC UA. A wide variety of data can be easily connected and visualized in real time with Peakboard. Further information on the data connections can be found [here](https://peakboard.com/en/data-connections/).
 
 In this example, we use one of the simpler data sources, a Microsoft Excel file. In this example, the [Excel file (Download)](/assets/files/examples/Peakboard_Example_Date.xlsx) is loaded directly into the package. The Excel file contains four products with five properties: title, product number, stock quantity, minimum stock and storage capacity. Download the file and add it, just like the image before, to your visualization via drag and drop. Now the file is part of this Peakboard package.
 

@@ -22,7 +22,7 @@ So the caller has to authenticate himself with his classic Base64-encoded creden
 
 The call to read data is as follows:
 
-[http://NameOfBox:40404/api/runtime/data?name=NameOfDataArtefact](http://NameOfBox:40404/api/runtime/data?name=NameOfDataArtefact)
+[http://NameOfBox:40404/api/runtime/data?name=NameOfDataArtefact]
 
 The call must be made as http-Get command. Here is an example of a scalar variable:
 ```

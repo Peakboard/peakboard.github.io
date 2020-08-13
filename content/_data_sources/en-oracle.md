@@ -9,7 +9,7 @@ ref: dat-1300
 ---
 The following tutorial describes how you can configure external data sources and link them to peakboard elements:
 
-[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-daten.html)
+[First steps with external data sources using the example of an XML data source](/tutorials/en-xml-data.html)
 
 For access to the Oracle database, the classic access parameters are required: 
 
