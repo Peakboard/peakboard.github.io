@@ -12,7 +12,7 @@ redirect_from:
 This page explains the individual features when accessing any ODBC data source. 
 Under the following link you will find a tutorial on how to configure external data sources in general and how to connect them to peakboard elements:
 
-[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-daten.html)
+[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-data.html)
 
 Before you use the ODBC data source, you must install the ODBC driver of the desired database on both your local computer and on the Peakboard box. 
 To install on the box, you can either use a USB mouse and a USB keyboard to sit directly on the box, as if you were installing the driver software on a normal computer, or remotely via powershell.
