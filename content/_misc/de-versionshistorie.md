@@ -8,9 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.3.3.1 (07.08.2020)
+footer: 2.3.4.0 (19.08.2020)
 ---
-## 2.3.3.1 (07.08.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.3.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix für einen Speicherfehler
+
+## 2.3.3.1 (07.08.2020) 
 * Hotfix für Fehler beim Öffnen und Schließen der S7 Datenquelle
 
 ## 2.3.2.0 (06.08.2020)

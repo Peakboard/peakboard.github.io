@@ -8,9 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.3.3.1 (07.08.2020)
+footer: 2.3.4.0 (19.08.2020)
 ---
-## 2.3.3.1 (07.08.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.3.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix for memory errors
+
+## 2.3.3.1 (07.08.2020)
 * Hotfix for errors when opening and closing the S7 data source
 
 ## 2.3.2.0 (06.08.2020)
