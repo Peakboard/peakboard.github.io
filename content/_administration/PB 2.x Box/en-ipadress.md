@@ -14,14 +14,17 @@ The manual setting of the IP address of a peakboard box is only possible if ther
 It is best to use an Ethernet cable for this.
 
 
+
 To change the IP address of the box, it is important that it has been added in the Designer. 
 You can see how this works in [this Article](https://help.peakboard.com/administration/PB%202.x%20Box/en-adding.html) article.
+
 
  
 After the box has been added, double click on it in the Administration / Upload dialog (1) to open the Peakboard Box Settings (2).
 
 
 ![image_1](/assets/images/admin/ipadress/ipadress.png)
+
 
 
 In this dialog, the button next to the Box IP entry can be used to open an additional mask (3).
