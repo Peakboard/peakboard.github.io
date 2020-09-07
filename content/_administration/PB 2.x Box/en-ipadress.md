@@ -15,7 +15,7 @@ It is best to use an Ethernet cable for this.
 
 
 To change the IP address of the box, it is important that it has been added in the Designer. 
-You can see how this works in [this Article] (/administration/PB%202.x%20Box/en-adding.html) article.
+You can see how this works in [this Article] (https://help.peakboard.com/administration/PB%202.x%20Box/en-adding.html) article.
 
  
 After the box has been added, double click on it in the Administration / Upload dialog (1) to open the Peakboard Box Settings (2).
