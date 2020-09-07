@@ -16,7 +16,7 @@ Dazu sollte am besten ein Ethernet Kabel verwendet werden.
 
 
 Um die IP-Adresse der Box zu ändern ist es wichtig, dass diese im Designer hinzugefügt wurde. 
-Wie das funktioniert sehen sie in [diesem Artikel](https://help.peakboard.com/administration/PB%202.x%20Box/de-hinzufuegen.html) .
+Wie das funktioniert steht in [diesem Artikel](https://help.peakboard.com/administration/PB%202.x%20Box/de-hinzufuegen.html) .
 
  
  
