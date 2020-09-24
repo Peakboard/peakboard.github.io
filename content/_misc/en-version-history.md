@@ -8,22 +8,87 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.3.4.0 (19.08.2020)
+footer: 2.4.0.0 (24.09.2020)
 ---
-## 2.3.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.4.0.0 // 1.13.0.0 (24.09.2020) [Download]
+* Mitsubishi data source added
+* Added connection management for data sources with user credentials
+* Added deactivation of data sources in Peakboard Designer
+* Lua script for "ExecutNonQuerey" function added for ODBC and Oracle data sources
+* Added example template for calling SAP tables with many columns
+* Added option to select a column for the DropDown control
+* Added additional properties for conditional formatting
+* MQTT Publish function added to the script tree
+* Oracle data source dialog revised
+* SQL-Server data source dialog revised
+* ODBC data source dialog revised
+* Feed data sources dialog revised
+* SAP data sources dialog revised
+* Google Sheet data sources dialog revised
+* SharePoint data sources dialog revised
+* Mail data sources dialog revised
+* Textticker-Control revised
+* Icons in box properties dialog revised
+* Sorting of the log files of the Peakboard Boxes revised
+* The reload interval of the JSON data source can now be set to >1 second
+* The gateway option has been removed from the SAP data source
+* Proxy authentication removed from the Add Box dialog
+
+* Fix for an error where the Excel data source required write permissions for the connection type "Sharepoint
+* Fix for an error where no custom font could be assigned to the axes of a bar chart
+* Fix for an error where the datarowloaded event was not executed correctly
+* Fix for an error where proxy authentication was not used when uploading a visualization
+* Fix for an error where the connection between box and Manage dialog was not disconnected properly
+* Fix for an error where a wrong threat was assigned to a script
+* Fix for an error where too much memory was used
+* Fix for an error where the folder property was ignored in the mail data source
+* Fix for an error that occurred when copying an element with its own font
+* Fix for an error in the peakboard data source
+* Fix for an error where no variables or dataflows could be used with the Peakboard Basic Box
+* Fix for an error where the order of the last opened visualizations was not correct
+* Fix for an error where diagrams were copied with incorrect colors and fonts
+* Fix for handling a fatal error
+* Fix for an error where the Manage dialog used the DNS name instead of the IP address
+* Fix for an error where the script function peakboard.restart() had no function
+* Fix for an error where Peakboard Designer crashed when accessing an unconnected Peakboard Edge Box
+* Fix for an error where renaming a data source was not applied to the corresponding refresh script
+* Fix for an error where the X and Y axis designation of an advanced chart was lost
+* Fix for an error where the toggle button control could not be used properly
+* Fix for an error where variables could not be moved to a folder
+* Fix for an error where global functions could be copied but not pasted
+* Fix for a bug where auto-complete did not work correctly in the script editor
+* Fix for a translation error in the script editor
+* Fix for an error caused by a button in a tile control
+* Fix for an error where empty columns in an Excel data source were not processed correctly
+* Fix for an error, when managing Peakboard Edge Boxes
+* Fix for an error where no sound could be played with a Peakboard Edge Box
+* Fix for an error where an event for a text control was not triggered if no background was assigned to the control
+* Fix for an error where copying controls did not result in them being copied to the correct layers
+* Fix for an error where created variables could be found in the script editor under data and not under variables
+* Fix for an error where no data source could be linked to the slider control
+* Fix for a script error when using an index for Peakboard Edge Boxes
+* Fix for an error when using an image control within a ListView control
+* Fix for an error where a video could not be displayed with the video control
+* Fix for an error where an already opened template could not be reopened
+* Fix for an error where the TileView control used too much memory
+* Fix for an error where the refresh script for the mail data source was not executed
+* Fix for a bug where the Visibilty property
+
+
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
 * Hotfix for memory errors
 
-## 2.3.3.1 (07.08.2020)
+## 2.3.3.1 // 1.12.3.1 (07.08.2020)
 * Hotfix for errors when opening and closing the S7 data source
 
-## 2.3.2.0 (06.08.2020)
+## 2.3.2.0 // 1.12.2.0 (06.08.2020)
 * Hotfix for an error in the CSV data source where the column captions were not entered correctly
 
-## 2.3.1.0 (17.07.2020)
+## 2.3.1.0 // 1.12.1.0 (17.07.2020)
 * Hotfix for an error where the data from the SQL data source was not loaded
 * Hotfix for an error in the PowerBI control
 
-## 2.3.0.2 (15.07.2020)
+## 2.3.0.2 // 1.12.0.2 (15.07.2020)
 * Peakboard Edge added
 * Peakboard Edge added as data source
 * Peakboard data source added
@@ -52,11 +117,11 @@ footer: 2.3.4.0 (19.08.2020)
 * Fix for an error where the broadcast of the Peakboard 2 Box was not executed correctly
 * Fix for an error where the Textticker-Control and the DropDown-Control were not executed correctly
 
-## 2.2.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
+## 2.2.4.2 / 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
 * Hotfix for the use of local network resources
 * Hotfix for an error in the Excel data source where the use of local network files did not work correctly
 
-## 2.2.3.0 (29.05.2020)
+## 2.2.3.0 // 1.11.3.0 (29.05.2020)
 * Hotfix for the Json data source
 
 ## 2.2.2.1// 1.11.2.1 (26.05.2020)

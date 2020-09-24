@@ -8,22 +8,103 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.3.4.0 (19.08.2020)
+footer: 2.4.0.0 (24.09.2020)
 ---
-## 2.3.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.4.0.0 // 1.13.0.0 (24.09.2020) [Download]
+* Mitsubishi Datenquelle hinzugefügt
+* Verbindungsverwaltung für Datenquellen mit Nutzeranmeldedaten hinzugefügt
+* Deaktivierung von Datenquellen im Peakboard Designer hinzugefügt
+* Lua-Skript für "ExecutNonQuerey"-Funktion bei ODBC und Oracle-Datenquellen hinzugefügt
+* Beispiel Template für den Aufruf von SAP-Tabellen mit vielen Spalten hinzugefügt
+* Option zur Auswahl einer Spalte für das DropDown-Control hinzugefügt
+* Zusätzliche Eigenschaften zur Bedingten Formatierung hinzugefügt
+* MQTT Publish-Funktion im Skript-Baum hinzugefügt
+* Oracle Datenquellen Dialog überarbeitet
+* SQL-Server Datenquellen Dialog überarbeitet
+* ODBC Datenquellen Dialog überarbeitet
+* Feed Datenquellen Dialog überarbeitet
+* SAP Datenquellen Dialog überarbeitet
+* Google Sheet Datenquellen Dialog überarbeitet
+* SharePoint-Datenquellen Dialog überarbeitet
+* Mail-Datenquellen Dialog überarbeitet
+* Textticker-Control überarbeitet
+* Icons im Box-Eigenschaften-Dialog überarbeitet
+* Sortierung der Log-Dateien der Peakboard Boxen überarbeitet
+* Das Reload-Intervall der JSON-Datenquelle kann nun auf >1 Sekunde gesetzt werden
+* Die Gateway-Option wurde aus der SAP-Datenquelle entfernt
+* Proxy-Authentifizierung aus dem Add Box Dialog entfernt
+
+* Fix für einen Fehler, bei dem die Excel-Datenquelle bei der Verbindungsart "Sharepoint" Schreibrechte verlangt hat
+* Fix für einen Fehler, bei dem keine eigene Schriftart für die Achsen eines Balkendiagramms vergeben werden konnte
+* Fix für einen Fehler, bei dem das Datarowloaded-Event nicht korrekt ausgeführt wurde
+* Fix für einen Fehler, bei dem die Proxy-Authentifizierung beim Hochladen einer Visualisierung nicht verwendet wurde
+* Fix für einen Fehler, bei dem die Verbindung zwischen Box und Manage-Dialog nicht ordentlich getrennt wurde
+* Fix für einen Fehler, bei dem einem Skript ein falscher Threat zugewiesen wurde
+* Fix für einen Fehler, bei dem zu viel Speicher verbraucht wurde
+* Fix für einen Fehler, bei dem in der Mail-Datenquelle die Ordner Eigenschaft ignoriert wurde
+* Fix für einen Fehler, der beim Kopieren eines Elements mit eigner Schrift auftrat
+* Fix für einen Fehler in der Peakboard-Datenquelle
+* Fix für einen Fehler, bei dem mit der Peakboard Basic Box keine Variablen oder Dataflows genutzt werden konnten
+* Fix für einen Fehler, bei dem die Reihenfolge der zuletzt geöffneten Visualisierungen nicht korrekt war
+* Fix für einen Fehler, bei dem Diagramme mit fehlerhaften Farben und Schriftarten kopiert wurden
+* Fix für die Handhabung eines Fatal-Errors
+* Fix für einen Fehler, bei dem der Manage Dialog den DNS-Namen statt der IP-Adresse verwendet hat
+* Fix für einen Fehler, bei dem die Skript-Funktion peakboard.restart() keine Funktion hatte
+* Fix für einen Fehler, bei dem der Peakboard Designer abstürzte, wenn auf eine nicht verbundene Peakboard Edge Box zugegriffen wurde
+* Fix für einen Fehler, bei dem das Umbenennen einer Datenquelle nicht für das zugehörige Refresh-Skript übernommen wurde
+* Fix für einen Fehler, bei dem die X und Y-Achsen Bezeichnung eines Advanced Charts verloren ging
+* Fix für einen Fehler, bei dem das Toggle-Button-Control nicht richtig verwendet werden konnte
+* Fix für einen Fehler, bei dem Variablen nicht in einen Ordner verschoben werden konnten
+* Fix für einen Fehler, bei dem globale Funktionen zwar kopiert aber nicht eingefügt werden konnten
+* Fix für eine Fehler, bei dem die Autovervollständigung im Skript-Editor nicht korrekt funktionierte
+* Fix für einen Übersetzungsfehler im Skript-Editor
+* Fix für einen Fehler, der durch einen Button in einer Tile-Control verursacht wurde
+* Fix für einen Fehler, bei dem leere Spalten in einer Excel-Datenquelle nicht korrekt verarbeitet wurden
+* Fix für einen Fehler, beim Verwalten von Peakboard Edge Boxen
+* Fix für einen Fehler, bei dem kein Sound mit einer Peakboard Edge Box abgespielt werden konnte
+* Fix für einen Fehler, bei dem ein Event für einen Text-Control nicht ausgelöst wurde, wenn kein Hintergrund für das Control vergeben war
+* Fix für einen Fehler, bei dem das Kopieren von Controls nicht dazu führte, dass diese in die korrekten Ebenen kopiert wurden
+* Fix für einen Fehler, bei dem angelegte Variablen im Skript-Editor unter Daten zu finden waren und nicht unter Variablen
+* Fix für einen Fehler, bei dem keine Datenquelle mit der Slider-Control verknüpft werden konnte
+* Fix für eine Skript-Fehler bei der Verwendung eines Index für Peakboard Edge Boxen
+* Fix für einen Fehler, bei der Verwendung eines Bild-Controls innerhalb eines ListView-Controls
+* Fix für einen Fehler, bei dem ein Video nicht mit dem Video-Control angezeigt werden konnte
+* Fix für einen Fehler, bei dem ein bereits geöffnetes Template nicht erneut geöffnet werden konnte
+* Fix für einen Fehler, bei dem das TileView-Control zu viel Speicher benötigte
+* Fix für einen Fehler, bei dem das Refresh-Skript für die Mail-Datenquelle nicht ausgeführt wurde
+* Fix für einen Fehler, bei dem die Visibilty-Eigenschaft nicht im Skript für ein Linien-Control verwendet werden konnte
+* Fix für einen Fehler, bei dem ein RSS-Feed nicht verwendet werden konnte, wenn er über keine Authentifizierung verfügt
+* Fix für einen Fehler, bei dem der Skript-Validator Schlüsselwörter fehlinterpretierte, wenn sie Teil eines Wortes waren
+* Fix für einen Fehler, bei dem die Mail-Datenquelle nicht geladen werden konnte, wenn keine E-Mail vorhanden war
+* Fix für einen Fehler, bei dem die Load-Data-Funktion bei der Peakboard Extension-Datenquelle nicht richtig funktioniert hatte
+* Fix für einen Fehler, der durch einen leerer OR-Block in einer bedingten Formatierung verursacht wurde
+* Fix für einen Fehler, der durch den Dataflow-Schritt "switch Columns/Rows" verursacht wurde
+* Fix für einen Fehler, bei dem Listenelemente mit der Peakboard API nicht mehr bearbeitet werden konnten
+* Fix für einen Fehler, bei dem die Peakboard Boxen kurzeitig nicht erreichbar waren
+* Fix für einen Fehler, bei dem der Name einer Peakbaord Box auch ohne speichern gespeichert wurde
+* Fix für einen Fehler, bei dem Peakboard Boxen mehrfach hinzugefügt werden konnten
+* Fix für einen Fehler, bei dem in der JSON-Datenquelle keine URL per Code definiert werden konnte
+* Fix für einen Fehler, bei dem der Skript-Editor falsch skaliert dargestellt wurde
+* Fix für einen Fehler, bei dem das Drücken der Enter-Taste zum Absturz der Preview geführt hatte
+* Fix für einen Fehler, bei dem das Linien-Diagramm gegen Bearbeitung gesperrt wurde
+* Fix für einen Fehler, bei dem die Transition eines Screens mit der Eigenschaft "none" nicht funktioniert hatte
+* Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
+
+
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
 * Hotfix für einen Speicherfehler
 
-## 2.3.3.1 (07.08.2020) 
+## 2.3.3.1 // 1.12.3.1 (07.08.2020) 
 * Hotfix für Fehler beim Öffnen und Schließen der S7 Datenquelle
 
-## 2.3.2.0 (06.08.2020)
+## 2.3.2.0 // 1.12.2.0 (06.08.2020)
 * Hotfix für einen Fehler in der CSV-Datenquelle bei dem die Spaltenbezeichnungen nicht korrekt erfasst wurden
 
-## 2.3.1.0 (17.07.2020) 
+## 2.3.1.0 // 1.12.1.0 (17.07.2020) 
 * Hotfix für einen Fehler bei dem die Daten aus der SQL Datenquelle nicht geladen wurden
 * Hotfix für einen Fehler im PowerBI-Control
 
-## 2.3.0.2 (15.07.2020) 
+## 2.3.0.2 // 1.12.0.2 (15.07.2020) 
 * Peakboard Edge hinzugefügt
 * Peakboard Edge als Datenquelle hinzugefügt
 * Peakboard Datenquelle hinzugefügt
@@ -52,11 +133,11 @@ footer: 2.3.4.0 (19.08.2020)
 * Fix für einen Fehler bei dem der Broadcast der Peakboard 2 Box nicht korrekt ausgeführt wurde
 * Fix für einen Fehler bei dem das Textticker-Control und das DropDown-Control nicht korrekt ausgeführt wurden
 
-## 2.2.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
+## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
-## 2.2.3.0 (29.05.2020) 
+## 2.2.3.0 // 1.11.3.0 (29.05.2020) 
 * Hotfix für die Json-Datenquelle
 
 ## 2.2.2.1// 1.11.2.1 (26.05.2020)
