@@ -8,9 +8,9 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.4.0.0 (24.09.2020)
+footer: 2.4.0.2 (24.09.2020)
 ---
-## 2.4.0.0 // 1.13.0.0 (24.09.2020) [Download]
+## 2.4.0.2 // 1.13.0.2 (24.09.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ES9RJC5R6ClJmJouIVvej2MBsHgbqNmsmBa14yIUQApI0A?e=NoW2EC)
 * Mitsubishi data source added
 * Added connection management for data sources with user credentials
 * Added deactivation of data sources in Peakboard Designer

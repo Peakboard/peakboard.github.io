@@ -8,9 +8,9 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.4.0.0 (24.09.2020)
+footer: 2.4.0.2 (24.09.2020)
 ---
-## 2.4.0.0 // 1.13.0.0 (24.09.2020) [Download]
+## 2.4.0.2 // 1.13.0.2 (24.09.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ES9RJC5R6ClJmJouIVvej2MBsHgbqNmsmBa14yIUQApI0A?e=NoW2EC)
 * Mitsubishi Datenquelle hinzugefügt
 * Verbindungsverwaltung für Datenquellen mit Nutzeranmeldedaten hinzugefügt
 * Deaktivierung von Datenquellen im Peakboard Designer hinzugefügt
