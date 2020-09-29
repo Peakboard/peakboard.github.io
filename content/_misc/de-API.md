@@ -129,7 +129,6 @@ Es ist zu beachten, dass eine Linenumber nur in bestimmten Fällen nötig ist, j
 		{
 			"DataSourceName": "MyList",
 			"OpCode": "Append",
-			"LineNumber": 65535,
 			"Data": {
 				
 				"Name": "Katrin",

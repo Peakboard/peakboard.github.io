@@ -129,7 +129,6 @@ Note that a line number is only necessary in certain cases, depending on the ope
 		{
 			"DataSourceName": "MyList",
 			"OpCode": "Append."
-			"LineNumber": 65535,
 			"Data": {
 				
 				"Name": "Katrin",
