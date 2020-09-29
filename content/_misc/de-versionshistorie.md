@@ -8,8 +8,17 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.4.0.2 (24.09.2020)
+footer: 2.4.3.0 (29.09.2020)
 ---
+## 2.4.3.0 // 1.13.3.0 (29.09.2020)
+* Hotfix für IPv6-Adressen handling
+
+## 2.4.2.0 // 1.13.2.0 (28.09.2020)
+* Hotfix für einen Fehler beim Öffnen der Siemens und Mitsubishi-Datenquelle
+
+## 2.4.1.0 // 1.13.1.0 (25.09.2020)
+* Hotfix für Peakboard Edge Management Dialog
+
 ## 2.4.0.2 // 1.13.0.2 (24.09.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ES9RJC5R6ClJmJouIVvej2MBsHgbqNmsmBa14yIUQApI0A?e=NoW2EC)
 * Mitsubishi Datenquelle hinzugefügt
 * Verbindungsverwaltung für Datenquellen mit Nutzeranmeldedaten hinzugefügt
