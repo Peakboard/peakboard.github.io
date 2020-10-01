@@ -8,8 +8,14 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.4.3.0 (29.09.2020)
+footer: 2.4.5.0 (01.10.2020)
 ---
+## 2.4.5.0 // 1.13.5.0 (01.10.2020)[Download](https://peakboard.rocks/download-version-history)
+* Hotfix für einen Fehler im SQL-Datenquellendialoge
+* Hotfix für einen Fehler bei http-put-Requests
+
+## 2.4.4.1 // 1.13.4.1 (30.09.2020)
+* Hotfix für einen Fehler bei dem Dataflows für eine Excel-Datenquelle nicht mehr ausgeführt werden konnten
 ## 2.4.3.0 // 1.13.3.0 (29.09.2020)
 * Hotfix für IPv6-Adressen handling
 
@@ -19,7 +25,7 @@ footer: 2.4.3.0 (29.09.2020)
 ## 2.4.1.0 // 1.13.1.0 (25.09.2020)
 * Hotfix für Peakboard Edge Management Dialog
 
-## 2.4.0.2 // 1.13.0.2 (24.09.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ES9RJC5R6ClJmJouIVvej2MBsHgbqNmsmBa14yIUQApI0A?e=NoW2EC)
+## 2.4.0.2 // 1.13.0.2 (24.09.2020)
 * Mitsubishi Datenquelle hinzugefügt
 * Verbindungsverwaltung für Datenquellen mit Nutzeranmeldedaten hinzugefügt
 * Deaktivierung von Datenquellen im Peakboard Designer hinzugefügt
