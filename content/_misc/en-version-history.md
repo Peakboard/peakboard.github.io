@@ -17,7 +17,7 @@ footer: 2.4.5.0 (01.10.2020)
 ## 2.4.4.1 // 1.13.4.1 (30.09.2020)
 * Hotfix for an error where Dataflows for an Excel data source could not be executed anymore
  
-## 2.4.3.0 // 1.13.3.0 (29.09.2020)[Download](https://peakboard.rocks/download-version-history)
+## 2.4.3.0 // 1.13.3.0 (29.09.2020)
 * Hotfix for IPv6 address handling
 
 ## 2.4.2.0 // 1.13.2.0 (28.09.2020)
@@ -91,7 +91,7 @@ footer: 2.4.5.0 (01.10.2020)
 * Fix for a bug where the Visibilty property
 
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
 * Hotfix for memory errors
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020)

@@ -106,7 +106,7 @@ footer: 2.4.5.0 (01.10.2020)
 * Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
 
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
 * Hotfix für einen Speicherfehler
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020) 
