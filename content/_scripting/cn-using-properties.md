@@ -23,7 +23,7 @@ Box属性一个最典型的示例就是部门名称。通过这种方式，您�
 
 在脚本中，Box属性可如此定义
 
-`runtime.packageproperties.<MeinePackageProperty>``
+`runtime.properties.<MyBoxProperty>``
 
 Box属性的查询方式为：
 
