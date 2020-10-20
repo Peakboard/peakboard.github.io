@@ -8,9 +8,39 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.4.5.0 (01.10.2020)
+footer: 2.5.0.0 (20.10.2020)
 ---
-## 2.4.5.0 // 1.13.5.0 (01.10.2020)[Download](https://peakboard.rocks/download-version-history)
+## 2.5.0.0 (20.10.2020)[Download](https://peakboard.rocks/download-version-history)
+* Peakboard 1 Preview, sowie Update für Peakboard 1 Boxen entfernt
+* Peakboard Bridge aus dem Updateprozess entfernt
+* Automatsichen Neustart bei Absturz der Peakboard 2 Box Anwendung hinzugefügt
+* SharePoint-Datenquelle Berechtigungen reduziert
+* Webseitentabellen Datenquelle überarbeitet
+* CSV-Datenquelle überarbeitet
+* Feed-Datenquelle überarbeitet
+* Peakboard Edge, weitere Sounds hinzugefügt
+* Peakboard Edge, Lautstärkeregelung für die Soundausgabe der Peakboard Edge Box im Peakboard Designer hinzugefügt
+* Skript-Beispiele für JSON-Objekte im Peakboard Designer hinzugefügt
+* Alphabetische Sortierung für die Auswahl von Datenquellen hinzugefügt
+* Fix für einen Fehler, bei dem Controls zuviel Speicherplatz beansprucht haben
+* Fix für einen Fehler, bei dem die initiale Standardvisualisierung nicht angezeigt wurde
+* Fix für einen Fehler, bei der Verwendung von inaktiven Peakboard Extensions Datenquellen
+* Fix für einen Fehler im Advanced Chart, bei dem keine neuen Daten angezeigt wurden
+* Fix für einen Fehler im Refresh-Skript einer Variablen, bei dem ein Refresh-Skript nicht ausgeführt wurde, wenn die Variable per API-Call geschrieben wurde
+* Fix für einen Fehler in der Json-Datenquelle
+* Fix für einen Fehler, bei dem die Peakboard 2 Box nach dem Wechsel der Screenausrichtung nicht neugestartet wurde
+* Fix für einen Fehler, bei dem in einer Peakboard Edge Verbindung der Name über der IP Adresse priorisiert wurde
+* Fix für einen Fehler, bei dem in einfachen Charts die Farbe nicht mehr geändert werden konnte
+* Fix für einen Fehler, bei dem das Excel-Chart Control bestimmte Schriftarten nicht korrekt dargestellt hatte
+* Fix für einen Fehler, bei dem in der bedingten Formatierung die Eigenschaften für ein Icon-Control nicht geändert werden konnten
+* Fix für einen Fehler, bei dem die Schaltfläche "Save" die Anwendung geschlossen hatte
+* Fix für einen Fehler, bei dem eine mit einem Passwort versehene Visualisierung nicht in der Preview geöffnet werden konnte
+* Fix für einen Fehler, bei dem Event-Skripte in einem veralteten Editor geladen wurden
+* Fix für einen Fehler, bei dem der Designer bei falscher Passworteingabe neu gestartet werden musste
+* Fix für einen Fehler, bei dem das Webpage-Control nicht mit der Authentifizierung "none" genutzt werden konnte
+* Fix für einen Fehler, bei dem die Deinstallation des Peakboard Designers nicht korrekt vollständig ausgeführt wurde
+
+## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=BRL3y0)
 * Hotfix für einen Fehler im SQL-Datenquellendialoge
 * Hotfix für einen Fehler bei http-put-Requests
 

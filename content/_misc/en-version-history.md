@@ -8,9 +8,39 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.4.5.0 (01.10.2020)
+footer: 2.5.0.0 (20.10.2020)
 ---
-## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.5.0.0 (20.10.2020) [Download](https://peakboard.rocks/download-version-history)
+* Peakboard 1 preview, as well as update for Peakboard 1 boxes removed
+* Peakboard Bridge removed from the update process
+* Added automatic restart if the Peakboard 2 Box application crashes
+* SharePoint data source permissions reduced
+* Web page tables data source revised
+* CSV data source revised
+* Feed data source revised
+* Peakboard Edge, more sounds added
+* Peakboard Edge, volume control for the sound output of the Peakboard Edge Box added in Peakboard Designer
+* Script examples for JSON objects added in Peakboard Designer
+* Added alphabetical sorting for data source selection
+* Fix for an error where controls used too much memory
+* Fix for an error where the initial default visualization was not displayed
+* Fix for an error when using inactive Peakboard Extensions data sources
+* Fix for an error in Advanced Chart where no new data was displayed
+* Fix for an error in the refresh script of a variable where a refresh script was not executed when the variable was written via API call
+* Fix for an error in the Json data source
+* Fix for an error where the Peakboard 2 Box was not restarted after changing the screen orientation
+* Fix for an error where in a Peakboard Edge connection the name was prioritized over the IP address
+* Fix for an error where in simple charts the color could not be changed
+* Fix for an error where the Excel Chart Control did not display certain fonts correctly
+* Fix for an error where the properties for an icon control could not be changed in the conditional format
+* Fix for an error where the "Save" button had closed the application
+* Fix for an error where a password protected visualization could not be opened in the preview
+* Fix for a bug where event scripts were loaded in an outdated editor
+* Fix for an error where the Designer had to be restarted after wrong password entry
+* Fix for an error where the webpage control could not be used with authentication "none
+* Fix for an error where uninstalling Peakboard Designer was not correctly completed
+
+## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=BRL3y0)
 * Hotfix for an error in the SQL data source dialog
 * Hotfix for an error with http-put requests
 
