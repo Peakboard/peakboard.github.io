@@ -8,9 +8,14 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.5.0.0 (20.10.2020)
+footer: 2.5.2.0 (26.10.2020)
 ---
-## 2.5.0.0 (20.10.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.5.2.0 (26.10.2020) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix for an error where writing to list variables was no longer possible
+
+## 2.5.1.0 (23.10.2020)
+* Hotfix for an error where the SAP data source was opened empty after an error
+## 2.5.0.0 (20.10.2020)
 * Peakboard 1 preview, as well as update for Peakboard 1 boxes removed
 * Peakboard Bridge removed from the update process
 * Added automatic restart if the Peakboard 2 Box application crashes
