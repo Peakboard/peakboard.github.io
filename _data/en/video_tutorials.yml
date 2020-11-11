@@ -32,7 +32,7 @@
   weight: 200
   homepage: true
   image: /assets/images/videos/vpnuZTsHwj8.jpg
-  category: Recommended
+  category: More
 
 - title: Peakboard Dataflows explained
   description: In this video we show you how to use the new dataflows to process data from an ERP system. These and many more use cases can be found at https://github.com/Peakboard/CoolStuff or in the Peakboard Designer under Template.
@@ -40,7 +40,7 @@
   youtube_id: r2_Nsh3lZMI
   weight: 200
   image: /assets/images/videos/r2_Nsh3lZMI.jpg
-  category: Recommended
+  category: More
 
 - title: Creating a SAP Live Dashboard
   description: In this video we show how fast and easy you can create a SAP Dashboard with live data.
@@ -106,3 +106,35 @@
   weight: 200
   image: /assets/images/videos/FiCH_gC8Ypg.jpg
   category: More
+- title: Digitalized production? Easily done, by connecting your Peakboard Boxes with each other!
+  description: Digitalization doesn’t have to be complicated! In today's video, you’ll learn how to quickly and easily digitalize production processes by connecting your Peakboard Boxes with each other to easily take your first steps towards smart factory and industry 4.0. We’ll explain exactly how to do this using the example of a production line with four workstations, which each production part must pass through until it is finished.
+  language: en
+  youtube_id: eMFYzMt5OlE
+  weight: 500
+  image: /assets/images/videos/eMFYzMt5OlE.jpg
+  category: Recommended 
+  
+- title: Scripting basics with Peakboard for complex visualizations
+  description: In today's video, we will introduce you to some scripting basics using the LUA scripting language by means of a visualization for a warehouse overview.
+  language: en
+  youtube_id: jhjlGl_GAZA
+  weight: 500
+  image: /assets/images/videos/jhjlGl_GAZA.jpg
+  category: Recommended 
+  
+- title: How to easily create an SQL-Dashboard for an overview of individual production steps
+  description: In today's video, you will learn how to create a cockpit dashboard based on an SQL database, which gives the responsible shift supervisor an overview of all production lines and individual production steps of the respective production line. We will also show you how Peakboard can be used to automatically send event-dependent e-mails.
+  language: en
+  youtube_id: VJjAE-ZG6uQ
+  weight: 500
+  image: /assets/images/videos/VJjAE-ZG6uQ.jpg
+  category: More 
+  
+- title: Dashboard als visuelles Meldesystem: ganz einfach Informationen und Ereignisse hervorheben
+  description: In diesem Video zeigen wir euch, wie ihr wichtige Informationen oder Ereignisse in euren Visualisierungen hervorheben könnt. Dazu stellen wir euch drei Varianten vor: das Verändern der Schriftart von Textfeldern, die Animation von Controls und die Einfärbung von Controls. Mit unserem neuen Feature "Bedingte Formatierung" habt ihr jetzt auch die Möglichkeit ganz ohne Scripting diese Funktion zu nutzen!
+  language: en
+  youtube_id: I19fa1zwp6w
+  weight: 500
+  image: /assets/images/videos/I19fa1zwp6w.jpg
+  category: More 
+  
