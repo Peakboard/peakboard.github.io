@@ -41,7 +41,7 @@
   weight: 500
   homepage: true
   image: /assets/images/videos/w8jRp6st180.jpg
-  category: Beliebt
+  category: Weitere
 
 - title: SQL Datenbank und Barcode Scanner mit Peakboard anbinden und visualisieren
   description: In diesem Video erklären wir euch, wie ihr eine SQL Datenbank beschreibt und einen Barcode Scanner als Input für eure Peakboard Box verwendet.
@@ -57,7 +57,7 @@
   youtube_id: CX8vDJFCX_4
   weight: 500
   image: /assets/images/videos/CX8vDJFCX_4.jpg
-  category: Beliebt
+  category: Weitere
 
 - title: Digitales schwarzes Brett mit Peakboard erstellen
   description: In diesem Video zeigen wir, wie schnell und einfach ein digitales Informations Board erstellt werden kann.
@@ -179,3 +179,20 @@
   weight: 500
   image: /assets/images/videos/YesZSb42Bwk.jpg
   category: Weitere 
+  
+- title: Digitalisierte Produktion? Vernetze einfach deine Peakboard Boxen!
+  description: Digitalisierung muss nicht kompliziert sein! Im heutigen Video zeigen wir dir, wie du Produktionsprozesse mit vernetzten Peakboard Boxen mühelos und schnell digitalisieren kannst, um so ganz einfach deine ersten Schritte in Richtung Smart Factory und Industrie 4.0 zu gehen. Wie das genau geht, erklären wir dir am Beispiel einer Produktionslinie mit vier Arbeitsplätzen, die ein Produktionsteil bis zur Fertigstellung durchlaufen muss.
+  language: de
+  youtube_id: _1WAYMD4DVY
+  weight: 500
+  image: /assets/images/videos/_1WAYMD4DVY.jpg
+  category: Beliebt 
+  
+title: Scripting Grundlagen mit Peakboard für anspruchsvolle Visualisierungen
+  description: In unserem heutigen Video bringen wir euch verschiedene Scripting-Grundlagen unter Verwendung der Scriptsprache LUA anhand einer Visualisierung zur Lagerübersicht näher.
+  language: de
+  youtube_id: x5d_HGThzg4
+  weight: 500
+  image: /assets/images/videos/x5d_HGThzg4.jpg
+  category: Beliebt 
+  
