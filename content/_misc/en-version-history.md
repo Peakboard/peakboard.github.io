@@ -8,9 +8,31 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.5.2.0 (26.10.2020)
+footer: 2.6.0.0 (23.11.2020)
 ---
-## 2.5.2.0 (26.10.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.6.0.0 (23.11.2020) [Download](https://peakboard.rocks/download-version-history)
+* Information graphics added
+* Rework for web data sources (CSV, XML, JSON)
+* Added load bar for the Web Control
+* Dataflow step aggregation revised
+* Added function to overwrite lists
+* Added information message for dataflows if no data could be loaded
+* Limit for preview data of SAP data source increased
+* Preview of the data types in the data-load dialog added
+* Fix for an error where Excel data could not be loaded from all areas of an Excel file
+* Fix for an error where editing custom variables in the S7 data source was no longer possible
+* Fix for an error where disabling data sources caused a critical error
+* Fix for an error in the path definition of a JSON data source
+* Fix for a bug where automatic IP assignment did not work
+* Fix for incorrect naming in the Peakboard log files
+* Fix for an error where saving an SAP data source was not possible
+* Fix for an error in the timeline grid
+* Fix for an error where executing conditional formatting caused a crash
+* Fix for an error where no user was needed for an Excel data source
+* Fix for an error where the web widget was not displayed on the drawing area
+* Fix for an error where the XQL statements for the SAP data source returned incorrect values
+
+## 2.5.2.0 (26.10.2020)
 * Hotfix for an error where writing to list variables was no longer possible
 
 ## 2.5.1.0 (23.10.2020)

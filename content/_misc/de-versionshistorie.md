@@ -8,9 +8,31 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.5.2.0 (26.10.2020)
+footer: 2.6.0.0 (23.11.2020)
 ---
-## 2.5.2.0 (26.10.2020)[Download](https://peakboard.rocks/download-version-history)
+## 2.6.0.0 (23.11.2020)[Download](https://peakboard.rocks/download-version-history)
+* Informationsgrafiken hinzugefügt
+* Rework für Web-Datenquellen (CSV, XML, JSON)
+* Ladebalken für das Web-Control hinzugefügt
+* Dataflow-Schritt Aggregation überarbeitet
+* Funktion zum Überschreiben von Listen hinzugefügt
+* Informationsmeldung für Dataflows hinzugefügt, wenn keine Daten geladen werden konnten
+* Limit für Preview-Daten der SAP-Datenquelle erhöht
+* Vorschau der Datentypen im Daten-laden-Dialog hinzugefügt
+* Fix für einen Fehler, bei dem Excel-Daten nicht aus allen Bereichen einer Excel Datei geladen werden konnten
+* Fix für einen Fehler, bei dem das Bearbeiten von Custom Variablen in der S7 Datenquelle nicht mehr möglich war
+* Fix für einen Fehler, bei dem das Deaktivieren von Datenquellen zu einem kritischen Fehler geführt hat
+* Fix für einen Fehler, bei der Pfaddefinition einer JSON-Datenquelle
+* Fix für einen Fehler, bei dem die automatische IP-Zuweisung nicht funktioniert hat
+* Fix für eine fehlerhafte Benennung in den Peakboard Log-Dateien
+* Fix für einen Fehler, bei dem das Speichern einer SAP-Datenquelle nicht möglich war
+* Fix für einen Fehler im Timeline-Grid
+* Fix für einen Fehler, bei dem das Ausführen bedingter Formatierungen zum Absturz geführt hat
+* Fix für einen Fehler, bei dem kein User für eine Excel Datenquelle benötigt wurde
+* Fix für einen Fehler, bei dem das Web-Widget auf der Zeichenfläche nicht angezeigt wurde
+* Fix für einen Fehler, bei dem die XQL Statements für die SAP-Datenquelle fehlerhafte Werte zurückgegeben haben
+
+## 2.5.2.0 (26.10.2020)[Download]
 * Hotfix für einen Fehler, bei dem das Beschreiben von Listenvariablen nicht mehr möglich war
 
 ## 2.5.1.0 (23.10.2020)
@@ -33,7 +55,7 @@ footer: 2.5.2.0 (26.10.2020)
 * Fix für einen Fehler, bei der Verwendung von inaktiven Peakboard Extensions Datenquellen
 * Fix für einen Fehler im Advanced Chart, bei dem keine neuen Daten angezeigt wurden
 * Fix für einen Fehler im Refresh-Skript einer Variablen, bei dem ein Refresh-Skript nicht ausgeführt wurde, wenn die Variable per API-Call geschrieben wurde
-* Fix für einen Fehler in der Json-Datenquelle
+* Fix für einen Fehler in der JSON-Datenquelle
 * Fix für einen Fehler, bei dem die Peakboard 2 Box nach dem Wechsel der Screenausrichtung nicht neugestartet wurde
 * Fix für einen Fehler, bei dem in einer Peakboard Edge Verbindung der Name über der IP Adresse priorisiert wurde
 * Fix für einen Fehler, bei dem in einfachen Charts die Farbe nicht mehr geändert werden konnte
@@ -189,7 +211,7 @@ footer: 2.5.2.0 (26.10.2020)
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
 ## 2.2.3.0 // 1.11.3.0 (29.05.2020) 
-* Hotfix für die Json-Datenquelle
+* Hotfix für die JSON-Datenquelle
 
 ## 2.2.2.1// 1.11.2.1 (26.05.2020)
 * Hotfix für einen Fehler bei dem die Lizenz nicht erkannt wurde
@@ -204,7 +226,7 @@ footer: 2.5.2.0 (26.10.2020)
 * Video-Sektion zum Startseiten-Dialog hinzugefügt
 * Die Getting-Started-Visualisierung wird nun standardmäßig angezeigt, wenn keine andere Visualisierung aktiv ist
 * Tile Controls: Über einen Rechtsklick auf das Control kann der Template Selector sowie die bedingte Formatierung aufgerufen werden
-* Json-Datenquelle überarbeitet
+* JSON-Datenquelle überarbeitet
 * CSV-Datenquelle überarbeitet
 * XML-Datenquelle überarbeitet
 * Excel-Datenquelle Markierung für die Auswahl des Datentyps hinzugefügt
@@ -837,7 +859,7 @@ footer: 2.5.2.0 (26.10.2020)
 * Fix für variable Listen Dialog 
 * Fix für das  duplizieren von Peakboard IO Tabellen
 * Fix für Xaml-Validierung in der Listview
-* Fix für Json-Datendialog
+* Fix für JSON-Datendialog
 * Fix für ungültigen Lizenz-Fehler
 * Fix für Datenquellennamen
 * Fix für Fehler beim Hinzufügen einer Spalte zu einer Lua-Script-Tabelle
@@ -853,7 +875,7 @@ footer: 2.5.2.0 (26.10.2020)
 * Microsoft Kalender Datenquelle hinzugefügt
 * Advanced Chart Control hinzugefügt
 * Vorlagen von Git werden zum Setup hinzugefügt
-* Json-Datenquelle unterstützt Hierarchien
+* JSON-Datenquelle unterstützt Hierarchien
 * Optimierung der S7-Leistung
 * Änderungen für den S7-Datendialog
 * Tabellenspalten-Dialog überarbeitet
@@ -974,7 +996,7 @@ footer: 2.5.2.0 (26.10.2020)
 * CSV Datenquelle kann nun definierbare Trennzeichen verwenden
 * Neue Textformatierung für Prozentangaben
 * Bridge Stabilität verbessert
-* Fixes für Lua Json Parsing
+* Fixes für Lua JSON Parsing
 * Fix für Table Grid Spalten mit Sonderzeichen
 * Fix für SAP Query Abfragen ohne Rückgabewerte
 * Fixes für S7 Datenquelle
@@ -1153,6 +1175,6 @@ footer: 2.5.2.0 (26.10.2020)
 * Neue Interaktive Steuerelemente (Flat Button, Repeat Button, Toggle Button, Toggle Switch, Check Box, Radio Button, Combo Box, Slider)
 * Es lässt sich nun eine Basic Authentifizierung direkt im Lua Script generieren
 * Fix für Zeit-Datenquelle mit internen NTP Servern
-* Fix für die Authentifizierung bei der CSV und JSon Datenquelle
+* Fix für die Authentifizierung bei der CSV und JSON Datenquelle
 
 {% include collapsible.html %}
