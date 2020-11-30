@@ -8,15 +8,18 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.6.0.0 (23.11.2020)
+footer: 2.6.1.0 (30.11.2020)
 ---
-## 2.6.0.0 (23.11.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.6.1.0 (30.11.2020) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix for runtime observer
+
+## 2.6.0.0 (23.11.2020)
 * Information graphics added
 * Rework for web data sources (CSV, XML, JSON)
 * Added load bar for the Web Control
 * Dataflow step aggregation revised
 * Added function to overwrite lists
-* Added information message for dataflows if no data could be loaded
+* Added information message for Dataflows if no data could be loaded
 * Limit for preview data of SAP data source increased
 * Preview of the data types in the data-load dialog added
 * Fix for an error where Excel data could not be loaded from all areas of an Excel file

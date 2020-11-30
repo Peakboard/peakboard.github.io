@@ -8,9 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.6.0.0 (23.11.2020)
+footer: 2.6.1.0 (30.11.2020)
 ---
-## 2.6.0.0 (23.11.2020)[Download](https://peakboard.rocks/download-version-history)
+## 2.6.1.0 (30.11.2020)[Download](https://peakboard.rocks/download-version-history)
+* Hotfix für die Runtime-Überwachung
+
+## 2.6.0.0 (23.11.2020)
 * Informationsgrafiken hinzugefügt
 * Rework für Web-Datenquellen (CSV, XML, JSON)
 * Ladebalken für das Web-Control hinzugefügt
@@ -32,7 +35,7 @@ footer: 2.6.0.0 (23.11.2020)
 * Fix für einen Fehler, bei dem das Web-Widget auf der Zeichenfläche nicht angezeigt wurde
 * Fix für einen Fehler, bei dem die XQL Statements für die SAP-Datenquelle fehlerhafte Werte zurückgegeben haben
 
-## 2.5.2.0 (26.10.2020)[Download]
+## 2.5.2.0 (26.10.2020)
 * Hotfix für einen Fehler, bei dem das Beschreiben von Listenvariablen nicht mehr möglich war
 
 ## 2.5.1.0 (23.10.2020)
