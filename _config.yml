@@ -45,6 +45,10 @@ collections:
         en: "SAP"
         de: "SAP"
         cn: "SAP"
+      Excel:
+        en: "Excel"
+        de: "Excel"
+        cn: "Excel"
       OPCUA:
         en: "OPC UA"
         de: "OPC UA"
