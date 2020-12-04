@@ -32,7 +32,7 @@
   weight: 500
   homepage: true
   image: /assets/images/videos/Hn-HmCAcOHE.jpg
-  category: Beliebt
+  category: Weitere
 
 - title: Siemens S7 SPS Visualisierung erstellen und mit Peakboard anbinden
   description: In diesem Video zeigen wir euch, wie ihr eine Siemens S7 Steuerung an euer Peakboard anbindet und Maschinendaten in Echtzeit visualisiert.
@@ -132,14 +132,6 @@
   image: /assets/images/videos/VNc7BlYFqHo.jpg
   category: Weitere
 
-- title: Über Slack mit einer Peakboard Box kommunizieren
-  description: In diesem Video zeigen wir euch, wie ihr über Slack mit einer Peakboard Box kommunizieren könnt.
-  language: de
-  youtube_id: B5iTgLfpF5A
-  weight: 500
-  image: /assets/images/videos/B5iTgLfpF5A.jpg
-  category: Weitere
-
 - title: Darstellung des Microsoft Outlook Kalenders in Peakboard
   description: In diesem Video zeigen wir euch, wie ihr die neue Microsoft Calendar Datenquelle anbindet und in einer Visualisierung verwendet.
   language: de
@@ -211,4 +203,12 @@
   weight: 500
   image: /assets/images/videos/I19fa1zwp6w.jpg
   category: Weitere 
+
+- title: Maschinen-Retrofit leicht gemacht!
+  description: In unserem heutigen Video zeigen wir euch, wie euch Peakboard Edge das Retrofitting einer alten Maschine vereinfacht. Ihr benötigt dafür lediglich Peakboard Edge in Kombination mit Peakboard Enterprise und eine handelsübliche Lichtschranke mit einem Relais-Ausgang. Wie das Ganze verbunden wird und wie anschließend Daten aus den Eingängen von Peakboard Edge ausgelesen und visualisiert werden, seht ihr hier ebenfalls.
+  language: de
+  youtube_id: cXD9-TJuITA
+  weight: 500
+  image: /assets/images/videos/cXD9-TJuITA.jpg
+  category: Beliebt 
   
