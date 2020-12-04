@@ -8,7 +8,7 @@ weight: 820
 ref: con-820
 redirect_from:
   - /controls/09-en-web-widget-html.html
-  - /controls/en-web-widget.html
+  - /controls/en-web-widget-html.html
 ---
 
 In contrast to the webpage Control, the task of the WebWidget Control is to display only an HTML fragment and not a complete page. Typical task is rendering HTML code to integrate external content into your own homepage, e. g. weather, stock prices etc. In the following example we want to integrate the weather widget from [wetter24.de](http://www.wetter24.de/) . You can generate your own HTML code for your postcode by filling in the form on this page.

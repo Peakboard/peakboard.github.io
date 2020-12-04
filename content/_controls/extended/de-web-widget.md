@@ -7,7 +7,7 @@ lang: de
 weight: 820
 ref: con-820
 redirect_from:
-  - /controls/de-web-widget.html
+  - /controls/de-web-widget-html.html
 ---
 
 Im Gegensatz zum Webpage-Control ist die Aufgabe des WebWidget-Controls, nur ein HTML-Fragment und keine komplette Seite anzuzeigen. Typisches Aufgabengebiet ist das Rendern von HTML-Code um externe Inhalte in die eigene Homepage einzubinden, z.B. Wetter, Aktienkurse etc. Im folgenden Beispiel wollen wir das Wetter-Widget von [wetter24.de](http://www.wetter24.de) einbinden. Sie können sich eigenen HTML-Code für Ihre Postleitzahl generieren lassen, wenn Sie das Formular auf [dieser](http://www.wetter24.de/mehr/widget/) Seite ausfüllen.
