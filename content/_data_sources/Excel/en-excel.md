@@ -9,6 +9,7 @@ ref: dat-1500
 redirect_from:
   - /en/datasources-excel/
   - /data_sources/13-en-excel.html
+  - /data_sources/en-excel.html
 ---
 This page explains the individual features when accessing an Excel data source from Peakboard. 
 Under the following link you will find a tutorial on how to configure external data sources in general and how to link them to Peakboard elements:

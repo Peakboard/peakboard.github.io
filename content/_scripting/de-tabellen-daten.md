@@ -7,7 +7,7 @@ lang: de
 weight: 300
 ref: scr-300
 redirect_from:
-  - /Skripting/03-de-tabellen-daten.html
+  - /scripting/03-de-tabellen-daten.html
 ---
 Der überwiegende Teil der Peakboard-Kunden nutzt irgendeine Art von Datenanbindung an ihre Boards und in den allermeisten Fällen sind die Daten tabellarisch. Oft kommt es allerdings vor, dass die Rohdaten nicht der Form genügen, mit denen man sie direkt an visuelle Elemente binden kann. Dieser Artikel erklärt die gängigsten Use Cases um Daten per Skript in die richtige Form zu bringen. Selbst wenn Sie kein Programmierer sind, sollten Sie sich von den Skripten hier nicht abschrecken lassen. Sie sind kaum komplizierter als eine anspruchsvolle Excel-Formel. Bewegen sich also durchaus auf einem Niveau, mit dem auch ein engagierter Power User klar kommen sollte. Generell gilt aber ein Grundsatz: Machen Sie so viel möglich an Filterung, Aggregation und anderer Logik bereits in der Datenquelle – sei es nun eine Datenbank, SAP oder ein anderes Vorsystem. Je besser die Daten aus dem Vorsystem herauskommen, desto einfacher ist die Aufbereitung. Das Aufbereiten per Skript ist also immer nur als zweitbeste Lösung zu sehen.
 
@@ -15,7 +15,7 @@ Die Datenbasis für die folgenden Beispiele ist hier eine Abfrage, die Lieferpos
 
 Sie brauchen das While-Konstrukt im übrigen nicht von Hand tippen. Klappen Sie einfach links den Objekt/Statement-Baum auf, navigieren Sie zu der Datenquelle und doppelklicken Sie auf das gewünschte Statement.
 
-![image_1](/assets/images/Skripting/table/SkriptingTabellen01.png)
+![image_1](/assets/images/scripting/table/ScriptingTabellen01.png)
 
 Hier nochmal das Skript in seiner Rohfassung:
 

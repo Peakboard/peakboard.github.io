@@ -79,7 +79,7 @@ From data formats such as JSON and XML, databases and SAP via social media to ma
 
 In this example, we use one of the simpler data sources, a Microsoft Excel file. In this example, the [Excel file (Download)](/assets/files/examples/Peakboard_Example_Date.xlsx) is loaded directly into the package. The Excel file contains four products with five properties: title, product number, stock quantity, minimum stock and storage capacity. Download the file and add it, just like the image before, to your visualization via drag and drop. Now the file is part of this Peakboard package.
 
-If you want to include Excel files from other locations, you can learn how to do this [here](https://help.peakboard.com/data_sources/en-excel.html).
+If you want to include Excel files from other locations, you can learn how to do this [here](/data_sources/Excel/en-excel.html).
 
 ![Peakboard Designer – Excel Added](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_08.png)
 

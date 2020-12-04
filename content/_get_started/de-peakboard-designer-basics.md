@@ -80,7 +80,7 @@ Mit Peakboard können Sie ganz unterschiedliche Datenquellen verwenden. Von Date
 
 In diesem Beispiel verwenden wir eine der einfacheren Datenquellen und zwar eine Microsoft Excel Datei. In diesem Beispiel wird die [Excel Datei (Download)](/assets/files/examples/Peakboard_Example_Date.xlsx) direkt in das Paket geladen. Die Excel Datei enthält vier Produkte mit fünf Eigenschaften: Titel, Produktnummer, Lagermenge, Mindestbestand und Lagerkapazität. Laden Sie die Datei herunter und fügen Sie sie, genau wie das Bild vorher, Ihrer Visualisierung per Drag and Drop hinzu. Nun liegt die Datei als Ressource im Paket. 
 
-Wenn Sie später Excel Dateien von anderen Speicherorten einbinden wollen, können Sie [hier](https://help.peakboard.com/data_sources/de-excel.html) erfahren wie das geht. 
+Wenn Sie später Excel Dateien von anderen Speicherorten einbinden wollen, können Sie [hier](/data_sources/Excel/de-excel.html) erfahren wie das geht. 
 
 ![Peakboard Designer – Excel Added](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_08.png)
 

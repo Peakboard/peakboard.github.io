@@ -79,7 +79,7 @@ redirect_from:
 
 在此教程中，我们使用一种简单的数据源——微软Excel文件。该[Excel文件 （下载）](/assets/files/examples/Peakboard_Example_Date.xlsx)直接被加载至可视化包中，它包括四种产品，涉及五类属性：标题、产品编号、库存数量、最小库存和存储容量。下载该文件，并像之前一样，通过拖放将其添加至可视化中。之后，文件就会成为该可视化的一部分。
 
-如果您想从其他地方添加Excel文件，可以[在此](https://help.peakboard.com/data_sources/cn-excel.html)了解如何操作。
+如果您想从其他地方添加Excel文件，可以[在此](/data_sources/Excel/cn-excel.html)了解如何操作。
 
 ![Peakboard Designer ——添加Excel文件](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_CN_08.png)
 
