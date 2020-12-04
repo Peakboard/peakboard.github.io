@@ -46,9 +46,9 @@
   description: In this video we show how fast and easy you can create a SAP Dashboard with live data.
   language: en
   youtube_id: lJteh_tnZL8
-  weight: 200
+  weight: 500
   image: /assets/images/videos/lJteh_tnZL8.jpg
-  category: Recommended
+  category: More
 
 - title: Visualization of a SAP Function Module with Peakboard
   description: In this example we show you how you can visualize delivery data from SAP directly in Peakboard. We use an SAP function module as data source.
@@ -136,5 +136,13 @@
   youtube_id: 3tYdA146jpY
   weight: 500
   image: /assets/images/videos/3tYdA146jpY.jpg
-  category: More 
+  category: More
+
+- title: Retrofitting machines made easy!
+  description: In today's video, we will show you how to retrofit an old machine with Peakboard Edge. All you need is Peakboard Edge in combination with Peakboard Enterprise and a standard light barrier with a relay output. You’ll also learn how to connect everything with each other, as well as how to read and visualize data from the inputs of Peakboard Edge.
+  language: en
+  youtube_id: j7iv-Opymmo
+  weight: 500
+  image: /assets/images/videos/j7iv-Opymmo.jpg
+  category: Recommended 
   
