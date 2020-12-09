@@ -1,23 +1,176 @@
-<link rel="stylesheet" type="text/css" href="/assets/cookieconsent.min.css" />
-<script src="/assets/cookieconsent.min.js"></script>
+<div id="cookie-box" class="fixed z-50 inset-0 overflow-y-auto hidden">
+    <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+        <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+            <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+        </div>
+
+        <!-- This element is to trick the browser into centering the modal contents. -->
+        <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+        <div id="modal-accept" class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+            <div>
+                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-orange-lighter">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"><g><path d="m507.633 245.42c-2.814-2.829-6.642-4.42-10.633-4.42-12.42 0-23.712-6.861-29.468-17.905-2.101-4.031-5.917-6.892-10.375-7.779-4.459-.886-9.078.296-12.563 3.216-9.546 8-22.606 10.017-34.083 5.266-11.479-4.756-19.284-15.415-20.371-27.815-.396-4.529-2.826-8.634-6.606-11.161s-8.5-3.205-12.839-1.838c-11.881 3.738-24.717.605-33.5-8.178s-11.917-21.62-8.18-33.501c1.364-4.336.688-9.057-1.837-12.836-2.526-3.779-6.629-6.209-11.157-6.608-12.405-1.091-23.063-8.898-27.816-20.378-4.756-11.473-2.739-24.53 5.263-34.076 2.92-3.484 4.103-8.104 3.216-12.563-.888-4.458-3.749-8.274-7.781-10.375-10.808-5.631-17.661-16.666-17.896-28.809l-.008-.795c-.073-8.231-6.768-14.865-14.999-14.865-33.373 0-67.221 10.956-93.539 30.168-32.195 5.025-63.878 21.213-87.479 44.813s-39.79 55.279-44.817 87.478c-19.212 26.324-30.165 60.171-30.165 93.541s10.953 67.217 30.165 93.542c5.027 32.198 21.217 63.878 44.817 87.478 23.6 23.599 55.282 39.787 87.479 44.813 26.318 19.212 60.166 30.167 93.539 30.167s67.221-10.956 93.539-30.168c32.196-5.025 63.879-21.214 87.479-44.813 23.601-23.6 39.79-55.279 44.817-87.477 14.94-20.474 29.961-52.936 30.165-93.467.02-3.991-1.552-7.825-4.367-10.655zm-51.964 89.007c-1.643 2.12-2.687 4.641-3.024 7.301-3.438 27.104-16.865 54.104-36.84 74.078s-46.976 33.4-74.079 36.836c-2.661.337-5.184 1.382-7.304 3.025-21.592 16.735-50.176 26.333-78.422 26.333s-56.83-9.598-78.422-26.333c-2.12-1.643-4.643-2.688-7.304-3.025-27.104-3.436-54.104-16.862-74.079-36.836-19.975-19.973-33.402-46.974-36.84-74.078-.338-2.659-1.381-5.18-3.023-7.299-16.734-21.6-26.332-50.186-26.332-78.429s9.598-56.829 26.332-78.429c1.643-2.119 2.686-4.64 3.023-7.299 3.438-27.104 16.865-54.104 36.84-74.078 19.976-19.975 46.977-33.401 74.079-36.836 2.661-.337 5.184-1.382 7.304-3.025 18.271-14.161 41.547-23.212 65.39-25.661 3.064 11.986 9.594 22.81 18.747 31.119-7.535 15.908-8.168 34.425-1.227 51.173 6.937 16.751 20.473 29.395 37.043 35.317-.868 17.575 5.632 34.918 18.45 47.737 12.821 12.82 30.167 19.323 47.736 18.45 5.918 16.566 18.56 30.103 35.313 37.045 16.75 6.936 35.263 6.304 51.169-1.225 8.314 9.181 19.13 15.698 31.129 18.753-2.454 23.832-11.528 47.153-25.659 65.386z"/><path d="m132.927 148.994-16.067 16.066c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.857 15.355 5.859 21.213 0l16.066-16.066c5.858-5.858 5.858-15.355 0-21.213-5.857-5.859-15.355-5.859-21.212 0z"/><path d="m389.993 309.66-16.066 16.067c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.856 15.355 5.859 21.213 0l16.066-16.067c5.858-5.858 5.858-15.355 0-21.213-5.857-5.858-15.355-5.858-21.213 0z"/><path d="m293.594 381.96-16.066 16.067c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.856 15.355 5.859 21.213 0l16.066-16.067c5.858-5.858 5.858-15.355 0-21.213s-15.356-5.858-21.213 0z"/><path d="m197.193 261.461-16.066 16.066c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.857 15.355 5.859 21.213 0l16.066-16.066c5.858-5.858 5.858-15.355 0-21.213-5.857-5.859-15.355-5.859-21.213 0z"/><path d="m202.34 373.927c-5.857-5.857-15.355-5.858-21.213 0s-5.858 15.355 0 21.213l16.066 16.067c5.856 5.857 15.353 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/><path d="m105.939 277.526c-5.857-5.857-15.355-5.858-21.213 0s-5.858 15.355 0 21.213l16.067 16.067c5.856 5.856 15.355 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/><path d="m298.74 277.527c-5.857-5.858-15.355-5.857-21.213 0-5.858 5.858-5.858 15.355 0 21.213l16.066 16.067c5.856 5.857 15.353 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/><path d="m234.473 165.06c-5.857-5.857-15.355-5.858-21.213 0s-5.858 15.355 0 21.213l16.067 16.067c5.856 5.856 15.355 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/></g></svg>
+                </div>
+                <div class="mt-3 text-center sm:mt-5">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-accept-headline">
+                        Delicious, cookies!
+                    </h3>
+                    <div class="mt-2">
+                        <p class="text-sm text-gray-700 mx-16">
+                            We use cookies to constantly improve our website and to show you relevant content. By using our website, you agree to this.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 sm:mt-6 sm:grid sm:grid-cols-2 sm:gap-3 sm:grid-flow-row-dense">
+                <button id="cookie-accept" type="button" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-orange text-lg font-semibold text-black hover:bg-orange-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:col-start-2 sm:text-sm">
+                    Accept All
+                </button>
+                <button id="cookie-change" type="button" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:col-start-1 sm:text-sm">
+                    Change Privacy Preferences
+                </button>
+            </div>
+        </div>
+
+        <div id="modal-change" class="hidden inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+            <div>
+                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-orange-lighter">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"><g><path d="m507.633 245.42c-2.814-2.829-6.642-4.42-10.633-4.42-12.42 0-23.712-6.861-29.468-17.905-2.101-4.031-5.917-6.892-10.375-7.779-4.459-.886-9.078.296-12.563 3.216-9.546 8-22.606 10.017-34.083 5.266-11.479-4.756-19.284-15.415-20.371-27.815-.396-4.529-2.826-8.634-6.606-11.161s-8.5-3.205-12.839-1.838c-11.881 3.738-24.717.605-33.5-8.178s-11.917-21.62-8.18-33.501c1.364-4.336.688-9.057-1.837-12.836-2.526-3.779-6.629-6.209-11.157-6.608-12.405-1.091-23.063-8.898-27.816-20.378-4.756-11.473-2.739-24.53 5.263-34.076 2.92-3.484 4.103-8.104 3.216-12.563-.888-4.458-3.749-8.274-7.781-10.375-10.808-5.631-17.661-16.666-17.896-28.809l-.008-.795c-.073-8.231-6.768-14.865-14.999-14.865-33.373 0-67.221 10.956-93.539 30.168-32.195 5.025-63.878 21.213-87.479 44.813s-39.79 55.279-44.817 87.478c-19.212 26.324-30.165 60.171-30.165 93.541s10.953 67.217 30.165 93.542c5.027 32.198 21.217 63.878 44.817 87.478 23.6 23.599 55.282 39.787 87.479 44.813 26.318 19.212 60.166 30.167 93.539 30.167s67.221-10.956 93.539-30.168c32.196-5.025 63.879-21.214 87.479-44.813 23.601-23.6 39.79-55.279 44.817-87.477 14.94-20.474 29.961-52.936 30.165-93.467.02-3.991-1.552-7.825-4.367-10.655zm-51.964 89.007c-1.643 2.12-2.687 4.641-3.024 7.301-3.438 27.104-16.865 54.104-36.84 74.078s-46.976 33.4-74.079 36.836c-2.661.337-5.184 1.382-7.304 3.025-21.592 16.735-50.176 26.333-78.422 26.333s-56.83-9.598-78.422-26.333c-2.12-1.643-4.643-2.688-7.304-3.025-27.104-3.436-54.104-16.862-74.079-36.836-19.975-19.973-33.402-46.974-36.84-74.078-.338-2.659-1.381-5.18-3.023-7.299-16.734-21.6-26.332-50.186-26.332-78.429s9.598-56.829 26.332-78.429c1.643-2.119 2.686-4.64 3.023-7.299 3.438-27.104 16.865-54.104 36.84-74.078 19.976-19.975 46.977-33.401 74.079-36.836 2.661-.337 5.184-1.382 7.304-3.025 18.271-14.161 41.547-23.212 65.39-25.661 3.064 11.986 9.594 22.81 18.747 31.119-7.535 15.908-8.168 34.425-1.227 51.173 6.937 16.751 20.473 29.395 37.043 35.317-.868 17.575 5.632 34.918 18.45 47.737 12.821 12.82 30.167 19.323 47.736 18.45 5.918 16.566 18.56 30.103 35.313 37.045 16.75 6.936 35.263 6.304 51.169-1.225 8.314 9.181 19.13 15.698 31.129 18.753-2.454 23.832-11.528 47.153-25.659 65.386z"/><path d="m132.927 148.994-16.067 16.066c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.857 15.355 5.859 21.213 0l16.066-16.066c5.858-5.858 5.858-15.355 0-21.213-5.857-5.859-15.355-5.859-21.212 0z"/><path d="m389.993 309.66-16.066 16.067c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.856 15.355 5.859 21.213 0l16.066-16.067c5.858-5.858 5.858-15.355 0-21.213-5.857-5.858-15.355-5.858-21.213 0z"/><path d="m293.594 381.96-16.066 16.067c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.856 15.355 5.859 21.213 0l16.066-16.067c5.858-5.858 5.858-15.355 0-21.213s-15.356-5.858-21.213 0z"/><path d="m197.193 261.461-16.066 16.066c-5.858 5.858-5.858 15.355 0 21.213 5.856 5.857 15.355 5.859 21.213 0l16.066-16.066c5.858-5.858 5.858-15.355 0-21.213-5.857-5.859-15.355-5.859-21.213 0z"/><path d="m202.34 373.927c-5.857-5.857-15.355-5.858-21.213 0s-5.858 15.355 0 21.213l16.066 16.067c5.856 5.857 15.353 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/><path d="m105.939 277.526c-5.857-5.857-15.355-5.858-21.213 0s-5.858 15.355 0 21.213l16.067 16.067c5.856 5.856 15.355 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/><path d="m298.74 277.527c-5.857-5.858-15.355-5.857-21.213 0-5.858 5.858-5.858 15.355 0 21.213l16.066 16.067c5.856 5.857 15.353 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/><path d="m234.473 165.06c-5.857-5.857-15.355-5.858-21.213 0s-5.858 15.355 0 21.213l16.067 16.067c5.856 5.856 15.355 5.859 21.213 0 5.858-5.858 5.858-15.355 0-21.213z"/></g></svg>
+                </div>
+                <div class="mt-3 text-center sm:mt-5">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-change-headline">
+                        Privacy Preferences
+                    </h3>
+                    <div class="mt-2">
+                        <p class="text-sm text-gray-700 mx-16">
+                            Here you will find an overview of all cookies used. You can give your consent to whole categories or display further information and select certain cookies.
+                        </p>
+                    </div>
+                    <div class="my-4">
+                        <div class="flex items-center justify-between">
+                            <span class="flex-grow flex flex-col mx-16" id="toggleLabel">
+                                <span class="text-sm font-medium text-gray-900 text-left font-semibold">Statistics (1)</span>
+                                <span class="text-sm leading-normal text-gray-700 text-left">Statistics Cookies collect information anonymously. This information helps us to understand how our visitors use our website.</span>
+                            </span>
+                            <button id="cookie-type-statistics" type="button" aria-pressed="false" aria-labelledby="toggleLabel" class="mx-16 bg-orange relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-light">
+                                <span class="sr-only">Statistics</span>
+                                <span id="cookie-type-statistics-span" aria-hidden="true" class="translate-x-5 inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 sm:mt-6 sm:grid sm:grid-cols-2 sm:gap-3 sm:grid-flow-row-dense">
+                <button id="cookie-accept-all" type="button" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-orange text-lg font-semibold text-black hover:bg-orange-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:col-start-2 sm:text-sm">
+                    Accept All
+                </button>
+                <button id="cookie-save" type="button" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:col-start-1 sm:text-sm">
+                    Save preferences
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
-    window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#4a5556"
-                },
-                "button": {
-                    "background": "#f68510",
-                    "text": "#000000"
-                }
-            },
-            "position": "bottom",
-            "content": {
-                "message": "{{ site.language[page.lang].cookie-alert-message }}",
-                "dismiss": "{{ site.language[page.lang].cookie-alert-button }}",
-                "link": "{{ site.language[page.lang].cookie-alert-link-text }}",
-                "href": "{{ site.language[page.lang].cookie-alert-link }}"
+    window.addEventListener("load", function() {
+        let cookieBox = document.getElementById("cookie-box");
+        consentForCookie = getCookie("consentCookie");
+
+        if(!consentForCookie) {
+            cookieBox.classList.remove("hidden");
+        } else {
+            insertAllowedScripts(consentForCookie.replace('level=',''));
+        }
+
+        document.getElementById("cookie-accept").onclick = function(e) {
+            setCookie("consentCookie","level=3",3650);
+            cookieBox.classList.add("hidden");
+            insertAllowedScripts(3);
+        }
+
+        document.getElementById("cookie-accept-all").onclick = function(e) {
+            setCookie("consentCookie","level=3",3650);
+            cookieBox.classList.add("hidden");
+            insertAllowedScripts(2);
+        }
+
+        document.getElementById("cookie-change").onclick = function(e) {
+            document.getElementById("modal-accept").classList.add("hidden");
+            document.getElementById("modal-change").classList.remove("hidden");
+        }
+
+        let useStatistics = true;
+        let cookieTypeStatistics = document.getElementById("cookie-type-statistics");
+        let cookieTypeStatisticsSpan = document.getElementById("cookie-type-statistics-span");
+
+        cookieTypeStatistics.onclick = function(e) {
+            if(useStatistics) {
+                useStatistics = false;
+                <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+                cookieTypeStatistics.classList.remove("bg-orange");
+                cookieTypeStatistics.classList.add("bg-gray-200");
+                <!-- On: "translate-x-5", Off: "translate-x-0" -->
+                cookieTypeStatisticsSpan.classList.remove("translate-x-5");
+                cookieTypeStatisticsSpan.classList.add("translate-x-0");
+            } else {
+                useStatistics = true;
+                <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+                cookieTypeStatistics.classList.remove("bg-gray-200");
+                cookieTypeStatistics.classList.add("bg-orange");
+                <!-- On: "translate-x-5", Off: "translate-x-0" -->
+                cookieTypeStatisticsSpan.classList.remove("translate-x-0");
+                cookieTypeStatisticsSpan.classList.add("translate-x-5");
             }
-        })});
+        }
+
+        document.getElementById("cookie-save").onclick = function(e) {
+            // depending on checkbox
+            if(useStatistics) {
+                // checkbox not unchecked, so still save as level 3
+                setCookie("consentCookie","level=3",3650);
+                cookieBox.classList.add("hidden");
+                insertAllowedScripts(3);
+            } else {
+                // checkbox unchecked, so save as level 2
+                setCookie("consentCookie","level=2",3650);
+                cookieBox.classList.add("hidden");
+                insertAllowedScripts(2);
+            }
+        }
+    });
+
+    function getCookie(name) {
+        var re = new RegExp(name + "=([^;]+)");
+        var value = re.exec(document.cookie);
+        return (value != null) ? unescape(value[1]) : null;
+    }
+
+    function setCookie(name, value, days) {
+        var d = new Date;
+        d.setTime(d.getTime() + 24*60*60*1000*days);
+        document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+    }
+
+    function insertAllowedScripts(level) {
+        console.log(level)
+        if(level === 3 || level == "3") {
+            // insert statistics
+
+            var head = document.getElementsByTagName('head')[0];
+            var js = document.createElement("script");
+            js.type = "text/javascript";
+            js.textContent = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':" +
+                "    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0]," +
+                "    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=" +
+                "    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);" +
+                "    })(window,document,'script','dataLayer','" + "{{ site.gtm }}" + "');";
+            head.appendChild(js);
+
+            var theHTMLToInsert = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm }}"' +
+                '                              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
+            document.body.insertAdjacentHTML("beforeend", theHTMLToInsert);
+        }
+    }
 </script>

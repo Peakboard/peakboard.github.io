@@ -1,6 +1,6 @@
 <div class="flex h-24 page-header">
     {% capture home_link %}{% if page.lang == 'en' %}/en/{% elsif page.lang == 'cn' %}/cn/{% else %}/{% endif %}{% endcapture %}
-    <div class="w-32 md:w-48 flex justify-center items-center page-header-bg z-50">
+    <div class="w-32 md:w-48 flex justify-center items-center page-header-bg z-40">
         <a class="no-underline w-full text-center max-w-xxs hover:opacity-75 focus:opacity-75" href="{{ home_link }}">
             <img src="/assets/logos/logo.svg" class="w-4/5 mx-auto" alt="Peakboard Logo">
         </a>
@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="page-header-bg text-white h-12 flex justify-end xl:justify-start items-center absolute mt-12 w-full">
-        <div class="navbar z-40 flex flex-col xl:flex-row page-header-bg md:justify-center w-full">
+        <div class="navbar z-30 flex flex-col xl:flex-row page-header-bg md:justify-center w-full">
             <div class="navbar-inner xl:flex page-header-bg items-center text-white xl:pt-0">
                 {% include menu_bar.html %}
             </div>
