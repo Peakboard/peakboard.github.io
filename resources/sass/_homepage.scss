@@ -76,6 +76,7 @@
   padding: 10px 15px 10px 40px;
   margin: 3px;
   background: url('/assets/search/search-24.svg') no-repeat 8px 8px;
+  line-height: 1.15em;
 
   &:focus {
     outline: none;
@@ -85,6 +86,7 @@
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
+  border-color: transparent;
 }
 .search-container {
   width: 100%;

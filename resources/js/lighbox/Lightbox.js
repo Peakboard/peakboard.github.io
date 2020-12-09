@@ -33,7 +33,7 @@ export default class Lightbox {
   wrapImage(img) {
     const parent = img.parentNode;
     const wrapper = document.createElement("div");
-    wrapper.innerHTML = `<div class="absolute flex items-center opacity-75 p-1 pin-b pin-r bg-grey-darkest text-white"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 30 30">
+    wrapper.innerHTML = `<div class="absolute flex items-center opacity-75 p-1 bottom-0 right-0 bg-grey-darkest text-white"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 30 30">
     <path d="M16,12h-2v-2c0-0.552-0.448-1-1-1s-1,0.448-1,1v2h-2c-0.552,0-1,0.448-1,1s0.448,1,1,1h2v2c0,0.552,0.448,1,1,1
       s1-0.448,1-1v-2h2c0.552,0,1-0.448,1-1S16.552,12,16,12z"/>
     <path d="M25.139,20.978l-4.052-4.053C21.666,15.737,22,14.408,22,13c0-4.962-4.038-9-9-9s-9,4.038-9,9s4.038,9,9,9

@@ -1,5 +1,4 @@
-@tailwind preflight;
-@tailwind utilities;
+@tailwind base;
 
 svg {
   fill: currentColor;
@@ -87,6 +86,9 @@ body.stuck {
   height: 0px;
   width: 0px;
 }
+
+@tailwind components;
+@tailwind utilities;
 
 @import "top_menu";
 @import "homepage";
