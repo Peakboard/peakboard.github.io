@@ -6,7 +6,7 @@
 
 <form class="search-form" action="{{search_link}}">
     <div id="top-menu-search-input" class="md:flex hidden items-center  px-3 h-12 bg-grey-darkest text-grey-light">
-        <input id="top-menu-search-input-field" class="search-form-input text-grey-light bg-grey-darkest focus:ring-none" autocapitalize="off" autocomplete="off" placeholder="{{ site.language[page.lang].search-bar-placeholder }}" role="textbox" spellcheck="false" type="text" value="" name="fromHomepage" >
+        <input id="top-menu-search-input-field" class="search-form-input text-grey-light bg-grey-darkest focus:ring-0" autocapitalize="off" autocomplete="off" placeholder="{{ site.language[page.lang].search-bar-placeholder }}" role="textbox" spellcheck="false" type="text" value="" name="fromHomepage" >
     </div>
     <button type="button" id="top-menu-search-button" class="no-underline hover:text-orange text-grey-light md:flex hidden items-center page-header-bg px-2 h-12">
         {% include svg/search-24.svg %}
