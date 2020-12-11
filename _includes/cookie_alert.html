@@ -49,7 +49,15 @@
                     </div>
                     <div class="my-4">
                         <div class="flex items-center justify-between">
-                            <span class="flex-grow flex flex-col mx-16" id="toggleLabel">
+                            <span class="flex-grow flex flex-col mx-32" id="toggleLabelEssential">
+                                <span class="text-sm font-medium text-gray-900 text-left font-semibold">Essential (1)</span>
+                                <span class="text-sm leading-normal text-gray-700 text-left">Essential cookies enable basic functions and are necessary for the proper functioning of the website.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <div class="flex items-center justify-between">
+                            <span class="flex-grow flex flex-col mx-16" id="toggleLabelStatistics">
                                 <span class="text-sm font-medium text-gray-900 text-left font-semibold">Statistics (1)</span>
                                 <span class="text-sm leading-normal text-gray-700 text-left">Statistics Cookies collect information anonymously. This information helps us to understand how our visitors use our website.</span>
                             </span>
@@ -81,7 +89,7 @@
         if(!consentForCookie) {
             cookieBox.classList.remove("hidden");
         } else {
-            insertAllowedScripts(consentForCookie.replace('level=',''));
+            insertAllowedScripts(parseInt(consentForCookie.replace('level=','')));
         }
 
         document.getElementById("cookie-accept").onclick = function(e) {
@@ -154,8 +162,7 @@
     }
 
     function insertAllowedScripts(level) {
-        console.log(level)
-        if(level === 3 || level == "3") {
+        if(level === 3) {
             // insert statistics
 
             var head = document.getElementsByTagName('head')[0];
