@@ -8,16 +8,92 @@ layout: base
     max-width: 600px;
     text-align: center;
   }
-  h1 {
+  .article-content h1 {
     margin: 30px 0;
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
+    color: #FFFFFF !important;
+    display:none;
+  }
+  .article-content p {
+    color: #FFFFFF !important;
+  }
+
+  body {
+    background: #28292c !important;
+  }
+
+  .text {
+    font: 14.5em/1 Open Sans, Impact;
+    text-transform: uppercase;
+    fill: none;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 10s infinite linear;
+    animation: stroke 10s infinite linear;
+  }
+
+  .text:nth-child(5n + 1) {
+    stroke: #FA1702;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  .text:nth-child(5n + 2) {
+    stroke: #FA9202;
+    -webkit-animation-delay: -4s;
+    animation-delay: -4s;
+  }
+
+  .text:nth-child(5n + 3) {
+    stroke: #FA1702;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+  }
+
+  .text:nth-child(5n + 4) {
+    stroke: #FA9202;
+    -webkit-animation-delay: -8s;
+    animation-delay: -8s;
+  }
+
+  .text:nth-child(5n + 5) {
+    stroke: #FA1702;
+    -webkit-animation-delay: -10s;
+    animation-delay: -10s;
+  }
+
+  @-webkit-keyframes stroke {
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
+
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: -400;
+    }
   }
 </style>
 
 <div class="container">
-  <h1>404</h1>
+  <svg viewBox="0 0 600 300" class="my-8">
+    <!-- Symbol -->
+    <symbol id="symbol-text">
+      <text text-anchor="middle"
+            x="50%" y="50%" dy=".35em">
+        404
+      </text>
+    </symbol>
+
+    <use xlink:href="#symbol-text" class="text"></use>
+    <use xlink:href="#symbol-text" class="text"></use>
+    <use xlink:href="#symbol-text" class="text"></use>
+    <use xlink:href="#symbol-text" class="text"></use>
+    <use xlink:href="#symbol-text" class="text"></use>
+  </svg>
 
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
