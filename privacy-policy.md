@@ -4,6 +4,7 @@ layout: privacy
 lang: de
 ref: privacy-01
 search-ignore: true
+noindex: true
 redirect_from:
 - /de/privacy
 - /de/privacy/

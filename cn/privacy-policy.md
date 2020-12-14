@@ -1,8 +1,9 @@
 ---
 title: Privacy Policy
 layout: privacy
-lang: en
+lang: cn
 ref: privacy-01
+noindex: true
 search-ignore: true
 ---
 
