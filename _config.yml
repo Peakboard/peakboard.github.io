@@ -347,15 +347,15 @@ language:
     cookie-box-title: "Delicious, cookies!"
     cookie-box-explanation: "We use cookies to constantly improve our website and to show you relevant content. By using our website, you agree to this."
     cookie-box-link-privacy-policy: "View our Privacy Policy"
-    cookie-box-button-accept: "Accept All"
+    cookie-box-button-accept: "同意所有"
     cookie-box-button-change: "Change Privacy Preferences"
-    cookie-box-change-preferences-title: "Privacy Preferences"
-    cookie-box-change-preferences-explanation: "Here you will find an overview of all cookies used. You can give your consent to whole categories or display further information and select certain cookies."
-    cookie-box-change-preferences-section-essential: "Essential (1)"
-    cookie-box-change-preferences-section-essential-explanation: "Essential cookies enable basic functions and are necessary for the proper functioning of the website."
-    cookie-box-change-preferences-section-statistics: "Statistics (1)"
-    cookie-box-change-preferences-section-statistics-explanation: "Statistics Cookies collect information anonymously. This information helps us to understand how our visitors use our website."
-    cookie-box-change-preferences-button-save: "Save Preferences"
+    cookie-box-change-preferences-title: "隐私偏好"
+    cookie-box-change-preferences-explanation: "您可在此查看网站使用的所有Cookies概览。您可同意所有相关设置，或者点击显示更多信息，然后勾选某些Cookies。"
+    cookie-box-change-preferences-section-essential: "必要类 (1)"
+    cookie-box-change-preferences-section-essential-explanation: "此类Cookies用于确保基本功能，为网站正常运行所必需。"
+    cookie-box-change-preferences-section-statistics: "统计类 (1)"
+    cookie-box-change-preferences-section-statistics-explanation: "此类Cookies会收集匿名信息，能帮助我们了解访客如何使用本网站。"
+    cookie-box-change-preferences-button-save: "保存偏好"
 
 algolia:
   application_id: '75B7PWB4DF'

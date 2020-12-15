@@ -5,6 +5,9 @@ lang: cn
 ref: privacy-01
 noindex: true
 search-ignore: true
+redirect_from:
+- /cn/privacy
+- /cn/privacy/
 ---
 
 ## 1. Data protection overview
