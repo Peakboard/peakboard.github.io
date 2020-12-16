@@ -77,6 +77,7 @@ footer: 2.6.1.0 (30.11.2020)
 
 ## 2.4.4.1 // 1.13.4.1 (30.09.2020)
 * Hotfix für einen Fehler bei dem Dataflows für eine Excel-Datenquelle nicht mehr ausgeführt werden konnten
+
 ## 2.4.3.0 // 1.13.3.0 (29.09.2020)
 * Hotfix für IPv6-Adressen handling
 
@@ -109,7 +110,6 @@ footer: 2.6.1.0 (30.11.2020)
 * Das Reload-Intervall der JSON-Datenquelle kann nun auf >1 Sekunde gesetzt werden
 * Die Gateway-Option wurde aus der SAP-Datenquelle entfernt
 * Proxy-Authentifizierung aus dem Add Box Dialog entfernt
-
 * Fix für einen Fehler, bei dem die Excel-Datenquelle bei der Verbindungsart "Sharepoint" Schreibrechte verlangt hat
 * Fix für einen Fehler, bei dem keine eigene Schriftart für die Achsen eines Balkendiagramms vergeben werden konnte
 * Fix für einen Fehler, bei dem das Datarowloaded-Event nicht korrekt ausgeführt wurde
@@ -165,7 +165,6 @@ footer: 2.6.1.0 (30.11.2020)
 * Fix für einen Fehler, bei dem das Linien-Diagramm gegen Bearbeitung gesperrt wurde
 * Fix für einen Fehler, bei dem die Transition eines Screens mit der Eigenschaft "none" nicht funktioniert hatte
 * Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
-
 
 ## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
 * Hotfix für einen Speicherfehler

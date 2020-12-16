@@ -40,6 +40,7 @@ footer: 2.6.1.0 (30.11.2020)
 
 ## 2.5.1.0 (23.10.2020)
 * Hotfix for an error where the SAP data source was opened empty after an error
+
 ## 2.5.0.0 (20.10.2020)
 * Peakboard 1 preview, as well as update for Peakboard 1 boxes removed
 * Peakboard Bridge removed from the update process
@@ -85,7 +86,7 @@ footer: 2.6.1.0 (30.11.2020)
 
 ## 2.4.1.0 // 1.13.1.0 (25.09.2020)
 * Hotfix for Peakboard Edge Mangement Dialog
----
+
 ## 2.4.0.2 // 1.13.0.2 (24.09.2020)
 * Mitsubishi data source added
 * Added connection management for data sources with user credentials
@@ -109,7 +110,6 @@ footer: 2.6.1.0 (30.11.2020)
 * The reload interval of the JSON data source can now be set to >1 second
 * The gateway option has been removed from the SAP data source
 * Proxy authentication removed from the Add Box dialog
-
 * Fix for an error where the Excel data source required write permissions for the connection type "Sharepoint
 * Fix for an error where no custom font could be assigned to the axes of a bar chart
 * Fix for an error where the datarowloaded event was not executed correctly
@@ -149,7 +149,6 @@ footer: 2.6.1.0 (30.11.2020)
 * Fix for an error where the TileView control used too much memory
 * Fix for an error where the refresh script for the mail data source was not executed
 * Fix for a bug where the Visibilty property
-
 
 ## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
 * Hotfix for memory errors
