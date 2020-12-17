@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.6.1.0 (30.11.2020)
+footer: 2.6.2.0 (17.12.2020)
 ---
-## 2.6.1.0 (30.11.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.6.2.0 (17.12.2020) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix for a bug in the XML data source where the data was not loaded.
+* Hotfix for a bug where changing the JSON, XML, CSV headers was not applied.
+
+## 2.6.1.0 (30.11.2020) 
 * Hotfix for runtime observer
 
 ## 2.6.0.0 (23.11.2020)
