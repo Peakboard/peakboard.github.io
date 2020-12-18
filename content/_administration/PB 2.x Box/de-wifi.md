@@ -8,6 +8,7 @@ weight: 200
 ref: admin-200
 redirect_from:
   - /administration/02-de-geraeteadministration.html
+  - /administration/de-geraeteadministration.html
 ---
 
 Um das WLAN der Peakboard-Box einzurichten, muss diese zuerst mit einem Netzwerkkabel verbunden werden und der mitgelieferte WLAN USB-Adapter angeschlossen sein.
