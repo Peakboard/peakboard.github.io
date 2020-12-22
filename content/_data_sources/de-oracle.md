@@ -28,5 +28,5 @@ In das Textfeld **Statement** tragen Sie das gewünschte Oracle-SQL-Statement ei
 
 ![Oracle Data Surce Dialog](/assets/images/data-sources/oracle/add-oracle-data.png)
 
-Klicken Sie final auf Load Data. Die Daten werden dann gemäß den Angaben aus der Oracle-Datenbank geladen und im Preview-Fenster angezeigt. Darüber hinaus werden die Metadaten (also die Liste an Spalten) erneuert und in der Columns-Tabelle angezeigt. Ab jetzt kann die Quelle verwendet werden. Bitte beachten Sie, dass die Oracle-Datentypen allesamt in die drei allgemeinen Peakboard-Datentypen String, Number und Boolean umgesetzt werden.
+Klicken Sie final auf Load Data. Die Daten werden dann gemäß den Angaben aus der Oracle-Datenbank geladen und im Preview-Fenster angezeigt. Ab jetzt kann die Quelle verwendet werden. Bitte beachten Sie, dass die Oracle-Datentypen allesamt in die drei allgemeinen Peakboard-Datentypen String, Number und Boolean umgesetzt werden.
 

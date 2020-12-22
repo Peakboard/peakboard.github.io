@@ -27,4 +27,4 @@ Enter the desired Oracle SQL statement in the **Statement** text field. For the 
 
 ![Oracle Data Source Dialog](/assets/images/data-sources/oracle/add-oracle-data.png)
 
-Finally click on Load Data. The data is then loaded from the Oracle database as specified and displayed in the preview window. The metadata (that is, the list of columns) is also refreshed and displayed in the Columns table. From now on, the source can be used. Please note that the Oracle data types are all converted into the three general peakboard data types String, Number and Boolean.
+Finally click on Load Data. The data is then loaded from the Oracle database as specified and displayed in the preview window. From now on, the source can be used. Please note that the Oracle data types are all converted into the three general Peakboard data types String, Number and Boolean.
