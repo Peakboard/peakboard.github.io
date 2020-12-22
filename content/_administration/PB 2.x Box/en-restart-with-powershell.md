@@ -31,7 +31,7 @@ Are you sure you want to change this list?
 ```
 * Just acknowledge it with:
 ```
->J
+>Y
 ```
 * Then you can already link directly to the box:
 ```
