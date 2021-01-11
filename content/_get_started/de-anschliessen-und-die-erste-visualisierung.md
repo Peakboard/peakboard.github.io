@@ -31,6 +31,6 @@ Nachdem die Peakboard Box hinzugefügt wurde, markierst du sie per Mausklick (1)
 ![Manage Dialog](/assets/images/Tutorial/Connecting/ErsteSchrittePBBox2.png)
 
 War die Übertragung erfolgreich und es ist kein anderes Dashboard bereits aktiv, wird die Datenvisualisierung auch direkt auf dem Monitor angezeigt. 
-*Merke*: Jede Peakboard Box speichert beliebig viele Dashboards, aber nur eins davon kann aktiv sein. 
+*Merke:* Jede Peakboard Box speichert beliebig viele Dashboards, aber nur eins davon kann aktiv sein. 
 
 ![Laufende Visualisierung](/assets/images/Tutorial/Connecting/TutorialBox05.jpg)
