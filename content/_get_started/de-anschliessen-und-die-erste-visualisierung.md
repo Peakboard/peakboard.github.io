@@ -24,13 +24,13 @@ Nach einigen weiteren Sekunden ist die Peakboard Box betriebsbereit.
 
 ![Initialer Bildschirm](/assets/images/Tutorial/Connecting/TutorialBox02.jpg)
 
-Um ein Dashboard auf die Peakboard Box zu übertragen, klicke im Peakboard Designer zunächst auf den „Manage“-Button in der Menüleiste.
+Um ein Dashboard auf die Peakboard Box zu übertragen, klicke im Peakboard Designer zunächst auf den [Manage]-Button in der Menüleiste.
 Wie man eine neue Peakboard Box hinzufügt, erfährst du [hier](/administration/07-de-hinzufuegen.html).
-Nachdem die Peakboard Box hinzugefügt wurde, markierst du sie per Mausklick (1) und lädst die Visualisierung per Klick auf „Deploy“ (2) klickst.
+Nachdem die Peakboard Box hinzugefügt wurde, markierst du sie per Mausklick (1) und lädst die Visualisierung per Klick auf [Upload] (2) klickst.
 
 ![Manage Dialog](/assets/images/Tutorial/Connecting/ErsteSchrittePBBox2.png)
 
-War die Übertragung erfolgreich und es ist kein anderes Dashboard bereits aktiv, wird die Datenvisualisierung auch direkt auf dem Monitor angezeigt.
-Merke: Jede Peakboard Box speichert beliebig viele Dashboard, aber nur eins davon kann aktiv sein.
+War die Übertragung erfolgreich und es ist kein anderes Dashboard bereits aktiv, wird die Datenvisualisierung auch direkt auf dem Monitor angezeigt. 
+*Merke*: Jede Peakboard Box speichert beliebig viele Dashboards, aber nur eins davon kann aktiv sein. 
 
 ![Laufende Visualisierung](/assets/images/Tutorial/Connecting/TutorialBox05.jpg)
