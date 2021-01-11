@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Anschließen und die erste Visualisierung übertragen
-menu_title: Anschließen und die erste Visualisierung übertragen
-description: Anschließen und die erste Visualisierung übertragen
+title: Peakboard Box anschließen und die erste Visualisierung übertragen
+menu_title: Peakboard Box anschließen und die erste Visualisierung übertragen
+description: Peakboard Box anschließen und die erste Visualisierung übertragen
 lang: de
 weight: 200
 ref: start-200
@@ -10,24 +10,22 @@ redirect_from:
   - /tutorials/02-de-anschliessen-und-die-erste-visualisierung.html
   - /tutorials/de-anschliessen-und-die-erste-visualisierung.html
 ---
-Dieses Tutorial zeigt ihnen, wie Sie die Peakboard-Box in Betrieb nehmen und ihr erstes Design auf die Box übertragen. Falls Sie es noch nicht durchgelesen haben, empfehlen wir für die Einführung in den Designer das Basics-Tutorial:
+Dieses Tutorial zeigt dir, wie du deine Peakboard-Box in Betrieb nimmst und deine Datenvisualisierung überträgst.
+Sieh dir außerdem [dieses Video](https://youtu.be/-6YyjhlpdjU) für weitere Tipps zur Übertragung einer Visualisierung auf die Peakboard Box an.
+Falls noch nicht geschehen, empfehlen wir dir für die Einführung in den Peakboard Designer vorab das Tutorial [Erste Schritte – Die Basics](/tutorials/01-de-peakboard-designer-basics.html) durchzulesen. 
 
-[Erste Schritte – Die Basics](/tutorials/01-de-peakboard-designer-basics.html)
+Versorge deine Peakboard Box über ein Micro-USB-Kabel mit Strom um sie in Betrieb zu nehmen. Der Monitor wird mit einem handelsüblichen HDMI-Kabel angesteuert und so lange das WLAN noch nicht konfiguriert ist, benötigst du für die Peakboard Box ein LAN-Kabel.
 
-Die Übertragung einer Visualisierung auf eine Box wird auch in [diesem Video](https://youtu.be/-6YyjhlpdjU) erklärt.
+![Anschlussbild](/assets/images/Tutorial/Connecting/TutorialBox01.jpg)
 
-Um die Peakboard-Box in Betrieb zu nehmen, muss sie mit einem Micro-USB-Kabel mit Strom versorgt werden. Der Monitor wird mit einem handelsüblichen HDMI-Kabel angesteuert und so lange das WLAN noch nicht konfiguriert ist, braucht die Box noch ein LAN-Kabel.
+Sobald sie mit Strom versorgt wird, bootet das [Windows 10 IoT Enterprise](https://docs.microsoft.com/de-de/windows/iot-core/windows-iot-enterprise) Betriebssystem auf der Peakboard Box und das Peakboard Logo wird nun einige Sekunden auf dem Monitor angezeigt. Nach einigen weiteren Sekunden ist die Peakboard Box betriebsbereit. 
 
-![image_1](/assets/images/Tutorial/Connecting/TutorialBox01.jpg)
+![Initialer Bildschirm](/assets/images/Tutorial/Connecting/TutorialBox02.jpg)
 
-Sobald die Box mit Strom versorgt wird, bootet das Windows 10 IoT Bestriebssystem auf der Box (zu erkennen an dem Peakboard-Logo, das einige Sekunden während des Bootvorgangs auf dem Monitor angezeigt wird). Nach einigen weiteren Sekunden ist die Box betriebsbereit und wartet darauf, ein Design entgegenzunehmen und anzuzeigen.
+Um ein Dashboard auf die Peakboard Box zu übertragen, klicke im Peakboard Designer zunächst auf den „Manage“-Button in der Menüleiste.  Wie man eine neue Peakboard Box hinzufügt, erfährst du [hier](/administration/07-de-hinzufuegen.html). Nachdem die Peakboard Box hinzugefügt wurde, markierst du sie per Mausklick (1) und lädst die Visualisierung per Klick auf „Deploy“ (2) klickst.
 
-![image_1](/assets/images/Tutorial/Connecting/TutorialBox02.jpg)
+![Manage Dialog](/assets/images/Tutorial/Connecting/ErsteSchrittePBBox2.png)
 
-Vom Designer aus wollen wir jetzt ein Board auf die Box übertragen. Klicken Sie dazu auf den Manage-Button in der Toolbar. Zum hinzufügen einer neuen Box klicken Sie bitte [hier](/administration/07-de-hinzufuegen.html). Nachdem Sie die Box hinzugefügt haben, markieren Sie diese durch einfachen Mausklick (1). Anschließend laden Sie das Board auf die Box, indem Sie Deploy klicken (2).
+War die Übertragung erfolgreich und es ist kein anderes Dashboard bereits aktiv, wird die Datenvisualisierung auch direkt auf dem Monitor angezeigt. Merke: Jede Peakboard Box speichert beliebig viele Dashboard, aber nur eins davon kann aktiv sein.
 
-![image_1](/assets/images/Tutorial/Connecting/ErsteSchrittePBBox2.png)
-
-Nach erfolgreicher Übertragung sollte das Board auf dem Monitor auch gleich angezeigt werden, es sei denn, ein anderes Board lief bereits. Dieses wird dann natürlich nicht abgeschaltet. Jede Box kann beliebig viele Boards speichern, aber nur eines kann aktiv sein.
-
-![image_1](/assets/images/Tutorial/Connecting/TutorialBox05.jpg)
+![Laufende Visualisierung](/assets/images/Tutorial/Connecting/TutorialBox05.jpg)
