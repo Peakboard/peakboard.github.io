@@ -11,8 +11,7 @@ redirect_from:
   - /tutorials/de-peakboard-designer-basics.html
 ---
 
-Der Peakboard Designer ist eine Desktop-Anwendung für Windows Computer. 
-Falls du ihn noch nicht heruntergeladen hast, kannst du das [hier](https://peakboard.com/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article) tun.
+Der Peakboard Designer ist eine Desktop-Anwendung für Windows Computer, die du hier [herunterladen](https://peakboard.com/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article) kannst.
 Eventuell brauchst du Installationsberechtigungen vom System-Administrator, um ihn zu installieren.
 
 Hier erklären wir dir deine ersten Schritte mit dem Peakboard Designer und zeigen dir, wie du deine erste Visualisierung erstellst.
