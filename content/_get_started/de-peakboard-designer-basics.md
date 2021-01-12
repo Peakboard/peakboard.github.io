@@ -12,9 +12,9 @@ redirect_from:
 ---
 
 Der Peakboard Designer ist eine Desktop-Anwendung für Windows Computer, die du hier [herunterladen](https://peakboard.com/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article) kannst.
-Eventuell brauchst du Installationsberechtigungen vom System-Administrator, um ihn zu installieren.
+Eventuell brauchst du Installationsberechtigungen von deinem System-Administrator, um ihn zu installieren.
 
-Hier erklären wir dir deine ersten Schritte mit dem Peakboard Designer und zeigen dir, wie du deine erste Visualisierung erstellst.
+In diesem Artikel erklären wir dir deine ersten Schritte mit dem Peakboard Designer und zeigen dir, wie du deine erste Visualisierung erstellst.
 Weitere Hilfestellung bieten dir auch unsere [Video-Tutorials](https://help.peakboard.com/tutorials/de-video-overview.html), klick dich einfach mal durch.
 
 # 1. Willkommen im Peakboard Designer
@@ -27,23 +27,23 @@ Um deine Visualisierung ohne ein Template zu beginnen, wähle [Start from scratc
 
 ![Peakboard Get Started Dialog](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_01.png)
 
-# 2. Struktur des Peakboard Designers
+# 2. Die Struktur des Peakboard Designers
 
 Nun bist du richtig im Peakboard Designer angekommen. 
 Der Peakboard Designer ist in fünf Hauptbereiche aufgeteilt. 
-Ganz oben ist die Menüleiste (1), links der Peakboard Explorer (2), der Arbeitsbereich – auch Canvas genannt – ist in der Mitte (3), die verschiedenen Controls auf der rechten Seite (4) und darunter die Attributleiste (5). 
+Ganz oben ist die Menüleiste (1), links der Peakboard Explorer (2), der Arbeitsbereich – auch Canvas genannt – ist in der Mitte (3), die verschiedenen Controls auf der rechten Seite (4) und darunter die Attribute (5). 
 
 ![Peakboard Designer Overview](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_02.png)
 
-## 2.1 Menüleiste 
+## 2.1 Die Menüleiste 
 
 In der Menüleiste findest du Grundfunktionen des Peakboard Designers.
-Öffne hier eine Vorschau deiner Visualisierung (1) und lade die erstellte Visualisierung auf eine Peakboard Box (2). 
+Öffne hier eine Vorschau deiner Visualisierung (1) und lade sie auf eine Peakboard Box (2). 
 Über [Einstellungen] (3) nimmst du grundlegende Einstellungen zu deiner Visualisierung vor oder führst ein Software Update aus. 
 
 ![Peakboard Designer Ribbon Bar](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_03.png)
 
-## 2.2 Der Peakboard Explorer
+## 2.2 Der Explorer
 
 Im Explorer links sind alle Controls, die in der Visualisierung verwendet werden aufgelistet. 
 In der Ordnerstruktur des Explorers werden alle Datenquellen, Dataflows, Variablen, Skripte und Ressourcen angezeigt. 
@@ -57,17 +57,17 @@ Die Visualisierung wird automatisch auf die Auflösung des angeschlossenen Bilds
 
 ![Peakboard Designer Explorer](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_04.png)
 
-## 2.3 Controls 
+## 2.3 Die Controls 
 
-Für die verschiedenen Anwendungsfälle findest du vorgefertigte Oberflächenelemente, auch Controls genannt, die du verwenden und anpassen kannst, um deine Daten zu visualisieren. 
+Für die verschiedenen Anwendungsfälle findest du vorgefertigte Oberflächenelemente, die wir Controls nennen. Sie lassen sich verwenden und anpassen, um deine Daten zu visualisieren. 
 Von einfachen Textfeldern, Tabellen, über simple Diagramme wie Balken- oder Tortendiagramme, bis hin zu anspruchsvollen, kombinierbaren Diagrammen (Erweiterte Diagramme) und wiederholbaren Oberflächenpatterns wie die Listen- oder Tileansicht ist alles für dich dabei.
 Ziehe die Elemente entweder per Drag and Drop auf den Arbeitsbereich oder füge sie mit einem Doppelklick hinzu. 
 
 ![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_05.gif)
 
-## 2.4 Attribute
+## 2.4 Die Attribute
 
-UUnterhalb der Controls ist die Attributübersicht.
+Unterhalb der Controls ist die Attributübersicht.
 Hier werden für das aktuell aktive Control die jeweiligen einstellbaren Parameter und Attribute aufgelistet. 
 Diese Parameter sind für jedes Control unterschiedlich. 
 Probiere zum Beispiel aus, mit einem Rechtsklick auf [Bildschirme] im Explorer einen weiteren Bildschirm hinzuzufügen. 
@@ -76,7 +76,7 @@ Diese Bildschirmdauer definiert, wie lange der jeweilige Bildschirm sichtbar ble
 
 ![Peakboard Designer – Attribute](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_06.png)
 
-# 3. Visualisierung erstellen
+# 3. Deine Visualisierung erstellen
 
 Da du den Peakboard Designer nun kennst, ist es Zeit deine erste Visualisierung zu erstellen. 
 Füge zunächst per Drag and Drop eine Textbox aus den Controls rechts hinzu und definiere in den Attributen verschiedene Einstellungen sowie das Aussehen dieses Controls. 
@@ -88,9 +88,9 @@ Füge als dein zweites Control ein Gauge-Diagramm in der Gruppe [Diagramm] hinzu
 
 ## 3.1 Ressourcen und Bilder verwenden
 
-Verwende in deiner Visualisierung unterschiedliche Dateitypen wie zum Beispiel Bilddateien (JPG oder PNG), PDFs oder binde Excel-Dateien an. 
-Ziehe zum Beispiel dein Logo als Bilddatei auf den Peakboard Explorer oder rufe das Ordnermenü des Ressourcen Ordners auf und fügen eine lokale Ressource hinzu. 
-Anschließend kannst du die Datei per Drag and Drop aus dem Peakboard Explorer auf eine freie Fläche des Arbeitsbereichs ziehen und Größe und Position bestimmen. 
+Verwende in deiner Visualisierung unterschiedliche Dateitypen wie zum Beispiel Bilddateien (JPG oder PNG), PDFs oder binde Excel Dateien an. 
+Ziehe zum Beispiel dein Logo als Bilddatei auf den Explorer oder rufe das Ordnermenü des Ressourcen Ordners auf und fügen eine lokale Ressource hinzu. 
+Anschließend kannst du die Datei per Drag and Drop aus dem Explorer auf eine freie Fläche des Arbeitsbereichs ziehen und Größe und Position bestimmen. 
 Für andere Datenformate funktioniert der Vorgang sehr ähnlich. 
 
 ![Peakboard Designer – Drag&Drop](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_07.gif)
@@ -108,7 +108,7 @@ Nun liegt die Datei als Ressource im Paket. Wenn du später Excel Dateien von an
 
 ![Peakboard Designer – Excel Added](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_08.png)
 Füge die Ressource nun als Datenquelle hinzu. 
-Klicke dazu links den Ordner [Daten] mit Rechtsklick oder klicke auf […] und wähle im Menü [Datenquelle hinzufügen] und [Excel] aus. 
+Klicke dazu links den Ordner [Daten] mit Rechtsklick an oder klicke auf […] und wähle im Menü [Datenquelle hinzufügen] und [Excel] aus. 
 Vergib nun einen Namen für die Datenquelle Excel_File und wähle unter [Dokument] die hochgeladene Excel Datei aus. 
 Definiere nun welches Arbeitsblatt verwendet werden soll und ob wie hier Überschriften in der ersten Zeile vorhanden sind. 
 Mit [Ok] speicherst du. 
@@ -125,10 +125,10 @@ Klicke in dieser Zeile auf […] (1).
 
 ![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_10.png)
 
-Wähle nun die Datenquelle sowie die gewünschte Spalte (Title) und Zeile (1) aus, in diesem Fall die Zeile 0 und die Spalte „Title“ für die Überschrift. 
+Wähle nun die Datenquelle sowie die gewünschte Spalte (Title) und Zeile (1) aus, in diesem Fall die Zeile 0 und die Spalte [Title] für die Überschrift. 
 Beachte, dass in der Informationstechnik bei 0 angefangen wird zu zählen, daher ist Zeile 0 die erste Zeile. 
 Die Zeile mit den Überschriften wird nicht beachtet. 
-Bestätige mit [OK] und dir sollte der Inhalt dieser Zelle deiner Datenquelle innerhalb der Textbox angezeigt werden. 
+Bestätige mit [OK] und wird der Inhalt dieser Zelle deiner Datenquelle innerhalb der Textbox angezeigt. 
 
 ![Peakboard Designer – Add Data Source](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_11.png)
 
@@ -144,7 +144,7 @@ Klicke in der Menüleiste unter dem Punkt [Startseite] auf [Vorschau] (1) um sie
 
 ![Peakboard Designer – Preview Button](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_13.png)
 
-Es öffnet sich ein neuer Dialog, welcher das Ergebnis zeigt. Diese Visualisierung können Sie nun auf eine Box übertragen.
+Es öffnet sich ein neuer Dialog, der dir das Ergebnis zeigt. Diese Visualisierung kann nun auf deine Peakboard Box übertragen werden.
 
 # 5. Nächster Schritt
 
