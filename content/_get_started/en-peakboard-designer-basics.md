@@ -29,13 +29,13 @@ To start your visualization without a template, select [Start from scratch] (4).
 # 2. The structure of the Peakboard Designer
 
 Now you have fully arrived inside the Peakboard Designer, which is divided into five main areas. 
-First comes the Top Ribbon Bar (1), on the left is the Peakboard Explorer (2), the canvas is in the middle (3), an overview of the various controls is on the right (4) and below that is the attribute area (5).
+First comes the top ribbon bar (1), on the left is the explorer (2), the canvas is in the middle (3), an overview of the various controls is on the right (4) and below that are the attributes (5).
 
 ![Peakboard Designer Overview](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_02.png)
 
 ## 2.1 The top ribbon bar
 
-In the Top Ribbon Bar, you will find the basic functions of the Peakboard Designer. 
+In the top ribbon bar, you will find the basic functions of the Peakboard Designer. 
 Open a preview of your visualization (1) and transfer the finished visualization onto your Peakboard Box (2). 
 Click [Settings] (3) to choose basic settings for your visualization or to perform a software update. 
 
@@ -44,7 +44,7 @@ Click [Settings] (3) to choose basic settings for your visualization or to perfo
 ## 2.2 The explorer
 
 In the explorer to the left, all controls used in your visualization are listed. 
-In the Explorer's folder structure, all data sources, dataflows, variables, scripts, and resources are displayed. 
+In the explorer's folder structure, all data sources, dataflows, variables, scripts, and resources are displayed. 
 Under the last item [Screens] you will find a listing of all existing visual elements on your workspace.
 Since you have not added any controls yet, you should start out with empty folders. 
 
