@@ -134,7 +134,7 @@ Bestätige mit [OK] und wird der Inhalt dieser Zelle deiner Datenquelle innerhal
 
 Nun verbindest du noch die Datenquelle mit dem Gauge-Diagramm. 
 Klicke dazu in der jeweiligen Spalte in den Attributen auf […] und wähle jeweils die Excel Datenquelle aus.
-Definiere dann für das Feld [Daten / Wert] (1) die Spalte [Stock_Quantity], für das Feld [Minimum] (2) die Spalte [Min_Quantity] und für [Maximum](3) die Spalte [Storage_Capacity]. 
+Definiere dann für das Feld [Daten / Wert] (1) die Spalte [Stock_Quantity], für das Feld [Minimum] (2) die Spalte [Min_Quantity] und für [Maximum] (3) die Spalte [Storage_Capacity]. 
 
 ![Peakboard Designer – Filled Gauge](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_DE_12.png)
 # 4. Preview
