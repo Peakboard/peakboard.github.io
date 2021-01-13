@@ -11,11 +11,11 @@ redirect_from:
   - /tutorials/en-peakboard-designer-basics.html
 ---
 
-The Peakboard Designer is a desktop application for Windows computers, which you can download [here](https://peakboard.com/en/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article). 
+The Peakboard Designer is a desktop application for Windows computers, which you can [download here](https://peakboard.com/en/peakboard-designer/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article). 
 You may need installation permissions from the system administrator to install it. 
 
 In this article we will explain your first steps with the Peakboard Designer and show you how to create your first visualization. 
-Watch our [video tutorials](https://help.peakboard.com/tutorials/en-video-overview.html) for additional help. 
+If needed, please watch our [video tutorials](https://help.peakboard.com/tutorials/en-video-overview.html) for additional help. 
 
 # 1. Welcome to the Peakboard Designer
 
@@ -33,7 +33,7 @@ First comes the Top Ribbon Bar (1), on the left is the Peakboard Explorer (2), t
 
 ![Peakboard Designer Overview](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_02.png)
 
-## 2.1 The Top Ribbon Bar
+## 2.1 The top ribbon bar
 
 In the Top Ribbon Bar, you will find the basic functions of the Peakboard Designer. 
 Open a preview of your visualization (1) and transfer the finished visualization onto your Peakboard Box (2). 
@@ -41,9 +41,9 @@ Click [Settings] (3) to choose basic settings for your visualization or to perfo
 
 ![Peakboard Designer Ribbon Bar](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_03.png)
 
-## 2.2 The Peakboard Explorer
+## 2.2 The explorer
 
-In the Peakboard explorer to the left, all controls used in your visualization are listed. 
+In the explorer to the left, all controls used in your visualization are listed. 
 In the Explorer's folder structure, all data sources, dataflows, variables, scripts, and resources are displayed. 
 Under the last item [Screens] you will find a listing of all existing visual elements on your workspace.
 Since you have not added any controls yet, you should start out with empty folders. 
@@ -56,7 +56,7 @@ The visualization will automatically scale to the resolution of the connected sc
 
 ![Peakboard Designer Explorer](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_04.png)
 
-## 2.3 Controls
+## 2.3 The controls
 
 Use the predefined elements - also called controls - and customize them to visualize your data. 
 You will find everything from simple textboxes, tables, simple charts like bar charts or pie charts, to advanced charts as well as repeatable surface patterns like the list or tile view. 
@@ -64,12 +64,12 @@ Either drag and drop the elements onto the canvas or double-click them to add th
 
 ![Peakboard Designer – Controls](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_05.gif)
 
-## 2.4 Attributes
+## 2.4 The attributes
 
 Below the controls are the attributes. 
 Here, for the currently active control, the respective adjustable parameters and attributes are listed.
 These parameters are different for each control.
-For example, try adding another screen by right-clicking on [Screens] in the Peakboard Explorer on the left. 
+For example, try adding another screen by right-clicking on [Screens] in the explorer on the left. 
 Now click on one of the screens and set the screen duration in the attributes. 
 This screen duration defines how long the respective screen remains visible before the following screen is displayed. 
 
@@ -89,8 +89,8 @@ Again, you can set various properties such as sizes or color.
 ## 3.1 Using resources and images
 
 Use different file types in your visualization such as image files (JPG or PNG), PDFs or connect Excel files.
-For example, drag your logo as an image file to the Peakboard Explorer or call up the folder menu of the Resources folder and add a local resource. 
-Then you can drag and drop the file from the Peakboard Explorer onto a free space of the canvas and determine size and position. 
+For example, drag your logo as an image file to the explorer or call up the folder menu of the Resources folder and add a local resource. 
+Then you can drag and drop the file from the explorer onto a free space of the canvas and determine size and position. 
 For other data formats, the process works very similarly. 
 
 ![Peakboard Designer – Drag&Drop](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_07.gif)
@@ -134,11 +134,11 @@ Then define for the field "Data / Value" (1) the column "Stock_Quantity", for th
 # 4. Check out the Preview
 
 You did it! Your first visualization with Peakboard is finished. 
-Click on the "Preview" button (1) in the Top Ribbon Bar under the item "Home" to view it.  
+Click on the [Preview]-button (1) in the top ribbon bar under the item [Home] to view it.  
 
 ![Peakboard Designer – Preview Button](/assets/images/Tutorial/Get_Started/Peakboard_Get_Started_EN_13.png)
 
-It opens a new dialog, which shows the result. You can now transfer this visualization to a Peakboard box.
+It opens a new dialog, which shows the result. You can now transfer this visualization to a Peakboard Box.
 
 # 5. Your next steps
 
