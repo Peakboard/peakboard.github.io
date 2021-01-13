@@ -140,30 +140,6 @@
   image: /assets/images/videos/0LsEXH9-r7s.jpg
   category: Weitere
 
-- title: PDF Netzwerkdateien über Peakboard anzeigen
-  description: In diesem Video erklären wir Ihnen, wie Sie die Peakboard-Bridge nutzen können, um Dateien hinzuzufügen. Wir sprechen außerdem darüber, wie man grundlegende Touchscreen-Funktionen mit Hilfe von Lua-Scripting hinzufügen kann.
-  language: de
-  youtube_id: MGBl_Wp7aQU
-  weight: 500
-  image: /assets/images/videos/MGBl_Wp7aQU.jpg
-  category: Weitere
-
-- title: Peakboard-Bridge Installation und Konfiguration
-  description: Dieses Video erklärt wie die Peakboard-Bridge installiert und konfiguriert wird.
-  language: de
-  youtube_id: WXp_Jjqq6Ck
-  weight: 500
-  image: /assets/images/videos/WXp_Jjqq6Ck.jpg
-  category: Weitere
-
-- title: E-Mails direkt an das Peakboard schicken
-  description: In diesem Videotutorial wird erklärt, wie ihr E-Mails direkt auf eurer Peakboard-Box empfangen und verarbeiten könnt. Dafür erstelle ich mit euch ein E-Mail Voting board.
-  language: de
-  youtube_id: NIKcjcXRqHE
-  weight: 500
-  image: /assets/images/videos/NIKcjcXRqHE.jpg
-  category: Weitere
-
 - title: Interaktiven Stadtplan mit Peakboard visualisieren
   description: In diesem Video erklären wir euch, wie ihr einen interaktiven Stadtplan mit Peakboard erstellt. Die Daten kommen aus einer SQL Datenbank.
   language: de
