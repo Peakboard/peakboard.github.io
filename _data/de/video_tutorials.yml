@@ -1,5 +1,5 @@
-- title: Erste Schritte mit dem Peakboard Designer
-  description: Erste Schritte mit dem Peakboard Designer
+- title: Peakboard Designer: Deine ersten Schritte!
+  description: In diesem Video stellen wir dir die grundlegende Funktionsweise des Peakboard Designers vor. Es hilft dabei, schnell und effizient Peakboard zu verstehen und für deine Bedürfnisse optimal einsetzen zu können. Außerdem bieten wir Videos und Helpartikel für Einsteiger, für Fortgeschrittene und auch ganze Tutorials, die anhand eines Beispiels genau erklären, wie du deine Visualisierung aufbaust. Für den Einstieg in dein erstes Visualisierungsprojekt empfehlen wir die Ersten Schritte mit Peakboard auf unserer Helpseite. 
   language: de
   youtube_id: YjQARqgT7fM
   weight: 100
@@ -7,17 +7,17 @@
   image: /assets/images/videos/YjQARqgT7fM.jpg
   category: Beliebt
 
-- title: Upload von Visualisierungen und Administration von Peakboard Boxen
-  description: In diesem Video erklären wir euch, wie ihr eure Peakboard Boxen verwalten könnt und eure Visualisierungen auf eine Box ladet.
+- title: Upload und Administration deiner Visualisierungen
+  description: In diesem Video siehst du, wie du deine fertige Visualisierung auf deine Peakboard Box lädst, um sie auf einem Bildschirm deiner Wahl anzeigen zu lassen. Optimiere deine Prozesse durch die intelligente Visualisierung und Vernetzung aller unternehmensrelevanten Daten. Aus unterschiedlichen Quellen. In Echtzeit!
   language: de
   youtube_id: -6YyjhlpdjU
-  weight: 100
+  weight: 500
   homepage: true
   image: /assets/images/videos/-6YyjhlpdjU.jpg
-  category: Beliebt
+  category: Weitere
   
-- title: Einführung in den Script-Editor von Peakboard
-  description: Einführung in den Script-Editor von Peakboard
+- title: Scripting Grundlagen: Der Script-Editor von Peakboard
+  description: In diesem Video geben wir dir eine Einführung in den Script-Editor von Peakboard. Mithilfe des Script-Editors bindest du ganz leicht Daten aus den verschiedensten Datenquellen an, um sie auf einem Bildschirm deiner Wahl zu visualisieren und auch ohne tiefgehende Programmierkenntnisse dein individuelles Dashboard zu erstellen.
   language: de
   youtube_id: p0WsQSFLCWE
   weight: 200
@@ -194,5 +194,44 @@
   youtube_id: Sodzz14XMwE
   weight: 500
   image: /assets/images/videos/Sodzz14XMwE.jpg
+  category: Weitere 
+
+- title: Industrie 4.0 durch Echtzeitkommunikation am Arbeitsplatz
+  description: So wird deine Produktionshalle zur Smart Factory! Im heutigen Video siehst du, wie du mit Peakboard Edge und einem handelsüblichen Industrieschalter in kürzester Zeit einen Arbeitsplatz digitalisierst, um den Arbeitsstatus in Echtzeit anzuzeigen. Ampelfarben schaffen dabei Transparenz und kommunizieren den Arbeitsstatus effizient: grün bedeutet hier, dass alles in Ordnung ist, blau zeigt eine geplante Pause an und rot deutet auf ein Problem hin. 
+  language: de
+  youtube_id: 96yuyelL8QU
+  weight: 500
+  image: /assets/images/videos/96yuyelL8QU.jpg
+  category: Weitere 
+  
+- title: 5 Design Tipps für dein perfektes Dashboard
+  description: Mit Dashboards kommunizierst du Informationen einfach und effizient. Gerade kritische Informationen vermittelst du am besten, wenn du sie übersichtlich, schnell erkennbar und leicht verständlich darstellst. Im heutigen Video stellen wir dir 5 Tipps vor, die dich bei der Gestaltung strukturierter und zielgruppengerechter Dashboards unterstützen. 
+  language: de
+  youtube_id: pOoY_MuXPnA
+  weight: 100
+  image: /assets/images/videos/pOoY_MuXPnA.jpg
   category: Beliebt 
   
+- title: Blitzschnell eine Siemens S7 Steuerung visualisieren
+  description: In diesem Video werden die Grundlagen für das Auslesen und Schreiben aus bzw. auf einer Siemens S7 Steuerung mit Peakboard am Beispiel einer S7 1500er Steuerung erklärt. Natürlich gibt es verschiedene Möglichkeiten um Maschinendaten mit Peakboard anzuzeigen, zum Beispiel über einen cloudbasierten IoT-Hub von Azure oder Google, oder einen MQTT-Server. Die Siemens-S7-Datenquelle ermöglicht es dir allerdings, die Peakboard Box ganz leicht direkt an eine S7-Steuerung anzubinden. 
+  language: de
+  youtube_id: LUemLDEktsA
+  weight: 500
+  image: /assets/images/videos/LUemLDEktsA.jpg
+  category: Weitere 
+  
+- title: Screenwechsel durch Swipe-Events oder Presenter
+  description: In diesem Video zeigen wir euch, wie Nutzer mit Hilfe eines handelsüblichen Presenters zwischen den einzelnen Screens navigieren können.  
+  language: de
+  youtube_id: J20N8F2cU48
+  weight: 500
+  image: /assets/images/videos/J20N8F2cU48.jpg
+  category: Weitere 
+  
+- title: Digitale Anzeigetafel für Flughäfen erstellen
+  description: In diesem Video lernst du, wie du mit dem Ampel-Control den Status der Terminals am Flughafen in Stuttgart mithilfe der API des Flughafens anzeigen kannst. Dieses Template dient der Visualisierung von Abflug-APIs des Stuttgarter Flughafens. Die praktische Anzeigetafel kommuniziert dabei automatisiert alles was Passagiere zu ihrem Flug wissen müssen. 
+  language: de
+  youtube_id: d-zSPuIlS1A
+  weight: 500
+  image: /assets/images/videos/d-zSPuIlS1A.jpg
+  category: Weitere 
