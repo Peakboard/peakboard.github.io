@@ -44,8 +44,7 @@
   category: Weitere
 
 - title: SQL Datenbank und Barcode Scanner mit Peakboard anbinden und visualisieren
-  description: n diesem Video siehst du, wie du Daten aus einer SQL Datenbank liest, auf diese zurück schreibst indem du einen Scanner anbindest und damit Input auf die Peakboard Box gibst.
-Kommuniziere SQL Daten ganz leicht mit Peakboard, um zum Beispiel Materialbestände oder Materialentnahmen im Blick zu behalten.
+  description: n diesem Video siehst du, wie du Daten aus einer SQL Datenbank liest, auf diese zurück schreibst indem du einen Scanner anbindest und damit Input auf die Peakboard Box gibst. Kommuniziere SQL Daten ganz leicht mit Peakboard, um zum Beispiel Materialbestände oder Materialentnahmen im Blick zu behalten.
   language: de
   youtube_id: ot1Sdu-Z380
   weight: 500
