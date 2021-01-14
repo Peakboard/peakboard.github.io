@@ -44,30 +44,31 @@
   category: Weitere
 
 - title: SQL Datenbank und Barcode Scanner mit Peakboard anbinden und visualisieren
-  description: In diesem Video erklären wir euch, wie ihr eine SQL Datenbank beschreibt und einen Barcode Scanner als Input für eure Peakboard Box verwendet.
+  description: n diesem Video siehst du, wie du Daten aus einer SQL Datenbank liest, auf diese zurück schreibst indem du einen Scanner anbindest und damit Input auf die Peakboard Box gibst.
+Kommuniziere SQL Daten ganz leicht mit Peakboard, um zum Beispiel Materialbestände oder Materialentnahmen im Blick zu behalten.
   language: de
   youtube_id: ot1Sdu-Z380
   weight: 500
   image: /assets/images/videos/ot1Sdu-Z380.jpg
   category: Weitere
 
-- title: Datenmanipulation mit Dataflows
-  description: Dieses Video erklärt, wie die neuen Dataflows funktionieren.
+- title: Peakboard Dataflows erklärt!
+  description: In diesem Video zeigen wir dir, wie du die Peakboard Dataflows verwendest, um Daten aus einem ERP System zu verarbeiten und auf deinem individuellen Dashboard zu visualisieren. Optimiere deine Prozesse durch die intelligente Visualisierung und Vernetzung aller unternehmensrelevanten Daten. Aus unterschiedlichen Quellen. In Echtzeit!
   language: de
   youtube_id: CX8vDJFCX_4
   weight: 500
   image: /assets/images/videos/CX8vDJFCX_4.jpg
   category: Weitere
 
-- title: Digitales schwarzes Brett mit Peakboard erstellen
-  description: In diesem Video zeigen wir, wie schnell und einfach ein digitales Informations Board erstellt werden kann.
+- title: Digitales schwarzes Brett schnell und einfach erstellen
+  description: In diesem Video zeigen wir dir, wie du schnell und einfach ein digitales schwarzes Brett oder eine digitale Infotafel mit Peakboard erstellst. Egal ob es dabei um allgemeine Mitarbeiterinformationen, einen Newsticker, den Speiseplan in der Mensa, Schichtpläne oder aber Raumbelegungspläne am Empfang geht, du bleibst hinsichtlich der Medienformate, Darstellung und Inhalte völlig flexibel.
   language: de
   youtube_id: q8RfFdjrTRA
   weight: 500
   image: /assets/images/videos/q8RfFdjrTRA.jpg
   category: Weitere
 
-- title: Screenwechsel
+- title: "Scripting Grundlagen: Timer- und Screenwechsel"
   description: In diesem Video zeigen wir euch einige Grundlagen zum Scripting für das Wechseln von Screens.
   language: de
   youtube_id: JSAzZgsJd7c
@@ -75,24 +76,16 @@
   image: /assets/images/videos/JSAzZgsJd7c.jpg
   category: Scripting
 
-- title: Einfärben von Tabellen in Peakboard
-  description: In diesem Video verwenden wir die Skripting-Sprache Lua, um interaktive Tabellen zu erstellen. Es werden hier außerdem Charts und Tabellen abhängig vom Inhalt gefärbt.
+- title: "Scripting Grundlagen: Interaktive Tabellen"
+  description: In diesem Video zeigen wir dir ein paar Scripting Grundlagen zum Thema interaktive Tabellen. Wir verwenden die Scripting-Sprache LUA, um diese Tabellen zu erstellen und in Abhängigkeit von Events einzufärben. Dafür erstellen wir ein interaktives Dashboard, welches zum einen den Soll-Ist-Vergleich in der Produktion von drei Schraubentypen und zum anderen detaillierte Informationen dazu beim Klick darauf anzeigt.
   language: de
   youtube_id: TDAJTjyK5FU
   weight: 500
   image: /assets/images/videos/TDAJTjyK5FU.jpg
   category: Scripting
 
-- title: Peakboard Scripting
-  description: In diesem Video erklären wir euch, wie ihr mit Peakboard eigene Skripte erstellen könnt.
-  language: de
-  youtube_id: t7QiMhfOivs
-  weight: 500
-  image: /assets/images/videos/t7QiMhfOivs.jpg
-  category: Scripting
-
-- title: OPC UA Daten mit Peakboard visualisieren
-  description: In diesem Video erklären wir euch, wie einfach es ist, OPC UA Daten über Peakboard anzubinden und Maschinendaten in Echtzeit zu visualisieren.
+- title: OPC UA Maschinendaten visualisieren
+  description: In diesem Video erklären wir dir, wie einfach es ist, OPC UA Daten mit Peakboard anzubinden und Maschinendaten in Echtzeit auf individuellen Dashboards zu visualisieren. Finde heraus, wie du die Kommunikation zwischen Peakboard und einer Stanze, mithilfe von OPC UA, ganz einfach einrichten kannst. Lasse dir und deinen Mitarbeitern in Echtzeit wichtige Informationen zum laufenden Fertigungsauftrag anzeigen, um so Auftragsdaten wie zum Beispiel Stückzahlen im Blick zu behalten.
   language: de
   youtube_id: xr309YQnikc
   weight: 500
@@ -101,70 +94,70 @@
   category: Weitere
 
 - title: Daten eines Funktionsbausteins aus SAP auslesen
-  description: In diesem Beispiel zeigen wir euch, wie ihr Lieferdaten aus SAP direkt in Peakboard visualisieren können. Als Datenquelle nutzen wir einen SAP-Funktionsbaustein.
+  description: In diesem Video lernst du, wie du Daten aus SAP in deiner Visualisierung mit Peakboard verwendest. In diesem Beispiel ist die Datenquelle ein SAP-Funktionsbaustein. Optimiere deine Prozesse ganz einfach mit der intelligenten Visualisierung und Vernetzung aller unternehmensrelevanten Daten. Aus verschiedenen Quellen. In Echtzeit!
   language: de
   youtube_id: G0kQXRkxS9c
   weight: 500
   image: /assets/images/videos/G0kQXRkxS9c.jpg
   category: Weitere
 
-- title: Mit Peakboard über MQTT kommunizieren
-  description: In diesem Video zeigen wir euch, wie ihr zwei Peakboard Boxen über einen MQTT Broker miteinander kommunizieren lassen könnt. Wir zeigen euch, wie man die Kommunikation zwischen einem Workspace und dem Lager/Mechanikern basierend auf MQTT herstellen kann.
+- title: MQTT Kommunikation zwischen Dashboards
+  description: IIn diesem Video zeigen wir dir, wie du zwei Peakboard Boxen über einen MQTT Broker miteinander kommunizieren lässt. Außerdem siehst du, wie man mithilfe eines interaktiven Dashboards und einem Touchscreen ganz einfach die Kommunikation zwischen einem einzelnen Arbeitsplatz und dem Schichtleiter basierend auf MQTT ermöglichst. MQTT steht für Message Queue Telemetry Transport und ist das wichtigste Protokoll für die Machine-to-Machine-Kommunikation im Internet der Dinge, IoT. Es ist ein schlankes, open-source-basiertes Protokoll, das sich optimal für den Versand und Empfang von Sensordaten eignet.
   language: de
   youtube_id: QkHI2WRH1V4
   weight: 500
   image: /assets/images/videos/QkHI2WRH1V4.jpg
   category: Weitere
 
-- title: SAP Live-Dashboard erstellen
-  description: SAP Live-Dashboard erstellen
+- title: Erstelle dein SAP Echtzeit Dashboard
+  description: n diesem Video erfährst du, wie du mehrere Tabellen aus einem SAP-System ausliest und diese über einen Joint zusammenführst, um sie effektiv zu kommunizieren. Die Visualisierung zeigt dir Daten aus der SAP-Tabelle auf einem Display deiner Wahl in Echtzeit an. Binde außerdem ganz einfach weitere Datenquellen deiner Wahl mit Peakboard an. Mehr dazu erfährst du in unseren vielen Videos.
   language: de
   youtube_id: X9EA9xdwJxw
   weight: 500
   image: /assets/images/videos/X9EA9xdwJxw.jpg
   category: Weitere
 
-- title: XML und JSON REST APIs mit Peakboard visualisieren
-  description: XML und JSON REST APIs mit Peakboard visualisieren
+- title: XML und JSON REST APIs visualisieren
+  description: Kommuniziere Daten aus den verschiedensten Datenquellen ganz einfach auf Monitoren mit Peakboard. In diesem Video zeigen wir dir, wie du sehr schnell XML und JSON REST APIs in deine Visualisierung einbindest. 
   language: de
   youtube_id: VNc7BlYFqHo
   weight: 500
   image: /assets/images/videos/VNc7BlYFqHo.jpg
   category: Weitere
 
-- title: Darstellung des Microsoft Outlook Kalenders in Peakboard
-  description: In diesem Video zeigen wir euch, wie ihr die neue Microsoft Calendar Datenquelle anbindet und in einer Visualisierung verwendet.
+- title: MS Outlook Kalender-Einträge visualisieren
+  description: Du willst alle Termine und anstehende Events direkt im Blick haben? Kein Problem!  In diesem Video zeigen wir dir, wie du deinen Microsoft Outlook Kalender mit Peakboard anbindest, um  Veranstaltungen  auf deinem individuellen Dashboard anzuzeigen. 
   language: de
   youtube_id: 0LsEXH9-r7s
   weight: 500
   image: /assets/images/videos/0LsEXH9-r7s.jpg
   category: Weitere
 
-- title: Interaktiven Stadtplan mit Peakboard visualisieren
-  description: In diesem Video erklären wir euch, wie ihr einen interaktiven Stadtplan mit Peakboard erstellt. Die Daten kommen aus einer SQL Datenbank.
+- title: Erstelle deinen digitalen und interaktiven Stadtplan
+  description: In diesem Video siehst du, wie man mit Peakboard ganz leicht einen digitalen und interaktiven Stadtplan erstellt. Als Datenquelle wird hier eine SQL Datenbank verwendet. Der Stadtplan zeigt dir die Standorte örtlicher Attraktionen wie z. B. Hotels, Restaurants oder Einkaufsmöglichkeiten an. Außerdem beinhaltet die Visualisierung einen QR Code, mit dem du die Navigation auf deinem Mobiltelefon startest. 
   language: de
   youtube_id: YesZSb42Bwk
   weight: 500
   image: /assets/images/videos/YesZSb42Bwk.jpg
   category: Weitere 
   
-- title: Digitalisierte Produktion? Vernetze einfach deine Peakboard Boxen!
+- title: Schnelle Digitalisierung deiner Produktion
   description: Digitalisierung muss nicht kompliziert sein! Im heutigen Video zeigen wir dir, wie du Produktionsprozesse mit vernetzten Peakboard Boxen mühelos und schnell digitalisieren kannst, um so ganz einfach deine ersten Schritte in Richtung Smart Factory und Industrie 4.0 zu gehen. Wie das genau geht, erklären wir dir am Beispiel einer Produktionslinie mit vier Arbeitsplätzen, die ein Produktionsteil bis zur Fertigstellung durchlaufen muss.
   language: de
   youtube_id: _1WAYMD4DVY
   weight: 500
-  image: /assets/images/videos/1WAYMD4DVY.jpg
+  image: /assets/images/videos/_1WAYMD4DVY.jpg
   category: Beliebt 
   
-- title: Scripting Grundlagen mit Peakboard für anspruchsvolle Visualisierungen
-  description: In unserem heutigen Video bringen wir euch verschiedene Scripting-Grundlagen unter Verwendung der Scriptsprache LUA anhand einer Visualisierung zur Lagerübersicht näher.
+- title: "Scripting Grundlagen: Anspruchsvolle Visualisierungen"
+  description: In unserem heutigen Video bringen wir dir verschiedene Scripting Grundlagen unter Verwendung der Scriptsprache LUA anhand einer Visualisierung zur Lagerübersicht näher. Erstelle so ganz leicht dein eigenes Dashboard mit Peakboard.
   language: de
   youtube_id: x5d_HGThzg4
   weight: 500
   image: /assets/images/videos/x5d_HGThzg4.jpg
   category: Beliebt 
   
-- title: Erstelle SQL-Dashboards zur Übersicht deiner Produktionsschritte – in Echtzeit!
+- title: Ganz einfach dein SQL-Dashboard erstellen
   description: Im heutigen Video erfährst du, wie du auf Basis einer SQL-Datenbank ein Cockpit-Dashboard erstellen kannst, das dem verantwortlichen Schichtleiter einen Überblick über alle Produktionslinien und einzelne Produktionsschritte der jeweiligen Produktionslinie bietet. Wir zeigen dir auch, wie mit Peakboard ganz automatisch ereignisabhängige E-Mails versendet werden können.
   language: de
   youtube_id: HzBcrJe-R-c
@@ -172,8 +165,8 @@
   image: /assets/images/videos/HzBcrJe-R-c.jpg
   category: Weitere 
   
-- title: Dashboard als visuelles Meldesystem - ganz einfach Informationen und Ereignisse hervorheben
-  description: In diesem Video zeigen wir euch, wie ihr wichtige Informationen oder Ereignisse in euren Visualisierungen hervorheben könnt. Dazu stellen wir euch drei Varianten vor - das Verändern der Schriftart von Textfeldern, die Animation von Controls und die Einfärbung von Controls. Mit unserem neuen Feature "Bedingte Formatierung" habt ihr jetzt auch die Möglichkeit ganz ohne Scripting diese Funktion zu nutzen!
+- title: Dein Dashboard als visuelles Meldesystem
+  description: In diesem Video zeigen wir dir, wie du wichtige Informationen oder Ereignisse in deinen Visualisierungen hervorheben kannst. Dazu stellen wir dir drei Varianten vor: das Verändern der Schriftart von Textfeldern, die Animation von Controls und die Einfärbung von Controls. Mit unserem neuen Feature "Bedingte Formatierung" hast du jetzt auch die Möglichkeit ganz ohne Scripting diese Funktion zu nutzen! 
   language: de
   youtube_id: I19fa1zwp6w
   weight: 500
