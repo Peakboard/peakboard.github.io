@@ -165,7 +165,7 @@
   category: Weitere 
   
 - title: Dein Dashboard als visuelles Meldesystem
-  description: In diesem Video zeigen wir dir, wie du wichtige Informationen oder Ereignisse in deinen Visualisierungen hervorheben kannst. Dazu stellen wir dir drei Varianten vor: das Verändern der Schriftart von Textfeldern, die Animation von Controls und die Einfärbung von Controls. Mit unserem neuen Feature "Bedingte Formatierung" hast du jetzt auch die Möglichkeit ganz ohne Scripting diese Funktion zu nutzen! 
+  description: "In diesem Video zeigen wir dir, wie du wichtige Informationen oder Ereignisse in deinen Visualisierungen hervorheben kannst. Dazu stellen wir dir drei Varianten vor: das Verändern der Schriftart von Textfeldern, die Animation von Controls und die Einfärbung von Controls. Mit unserem neuen Feature "Bedingte Formatierung" hast du jetzt auch die Möglichkeit ganz ohne Scripting diese Funktion zu nutzen!" 
   language: de
   youtube_id: I19fa1zwp6w
   weight: 500
