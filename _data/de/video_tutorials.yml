@@ -1,4 +1,4 @@
-- title: Peakboard Designer: Deine ersten Schritte!
+- title: "Peakboard Designer: Deine ersten Schritte!"
   description: In diesem Video stellen wir dir die grundlegende Funktionsweise des Peakboard Designers vor. Es hilft dabei, schnell und effizient Peakboard zu verstehen und für deine Bedürfnisse optimal einsetzen zu können. Außerdem bieten wir Videos und Helpartikel für Einsteiger, für Fortgeschrittene und auch ganze Tutorials, die anhand eines Beispiels genau erklären, wie du deine Visualisierung aufbaust. Für den Einstieg in dein erstes Visualisierungsprojekt empfehlen wir die Ersten Schritte mit Peakboard auf unserer Helpseite. 
   language: de
   youtube_id: YjQARqgT7fM
@@ -16,7 +16,7 @@
   image: /assets/images/videos/-6YyjhlpdjU.jpg
   category: Weitere
   
-- title: Scripting Grundlagen: Der Script-Editor von Peakboard
+- title: "Scripting Grundlagen: Der Script-Editor von Peakboard"
   description: In diesem Video geben wir dir eine Einführung in den Script-Editor von Peakboard. Mithilfe des Script-Editors bindest du ganz leicht Daten aus den verschiedensten Datenquellen an, um sie auf einem Bildschirm deiner Wahl zu visualisieren und auch ohne tiefgehende Programmierkenntnisse dein individuelles Dashboard zu erstellen.
   language: de
   youtube_id: p0WsQSFLCWE
@@ -197,7 +197,7 @@
   category: Weitere 
 
 - title: Industrie 4.0 durch Echtzeitkommunikation am Arbeitsplatz
-  description: So wird deine Produktionshalle zur Smart Factory! Im heutigen Video siehst du, wie du mit Peakboard Edge und einem handelsüblichen Industrieschalter in kürzester Zeit einen Arbeitsplatz digitalisierst, um den Arbeitsstatus in Echtzeit anzuzeigen. Ampelfarben schaffen dabei Transparenz und kommunizieren den Arbeitsstatus effizient: grün bedeutet hier, dass alles in Ordnung ist, blau zeigt eine geplante Pause an und rot deutet auf ein Problem hin. 
+  description: "So wird deine Produktionshalle zur Smart Factory! Im heutigen Video siehst du, wie du mit Peakboard Edge und einem handelsüblichen Industrieschalter in kürzester Zeit einen Arbeitsplatz digitalisierst, um den Arbeitsstatus in Echtzeit anzuzeigen. Ampelfarben schaffen dabei Transparenz und kommunizieren den Arbeitsstatus effizient: grün bedeutet hier, dass alles in Ordnung ist, blau zeigt eine geplante Pause an und rot deutet auf ein Problem hin." 
   language: de
   youtube_id: 96yuyelL8QU
   weight: 500
