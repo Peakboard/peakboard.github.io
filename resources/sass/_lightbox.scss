@@ -38,7 +38,7 @@
     cursor: pointer;
 
     &:hover {
-      color: orange;
+      color: #ffa500;
     }
   }
 
@@ -73,7 +73,7 @@
       border-radius: 50%;
 
       &.current {
-        background: orange;
+        background: #ffa500;
         animation: bulge 0.5s ease-in-out;
       }
     }

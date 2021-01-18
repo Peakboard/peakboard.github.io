@@ -356,7 +356,6 @@ language:
     cookie-box-change-preferences-section-statistics: "统计类 (1)"
     cookie-box-change-preferences-section-statistics-explanation: "此类Cookies会收集匿名信息，能帮助我们了解访客如何使用本网站。"
     cookie-box-change-preferences-button-save: "保存偏好"
-
 algolia:
   application_id: '75B7PWB4DF'
   index_name: peakboard-help

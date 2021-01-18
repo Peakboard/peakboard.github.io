@@ -1,40 +1,67 @@
 <style>
     .article-content > h2 {
-        background-color: #f1f0f0;
-        color: black;
+        background-color: #ffffff;
+        color: #ffa500;
         cursor: pointer;
-        padding: 18px;
         width: 100%;
-        border: none;
         text-align: left;
         outline: none;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
     }
 
+    .article-content > h2 > a {
+        color: black;
+    }
+
     .article-content > .active, .article-content > h2:hover {
-        background-color: #888;
-        color: #FFFFFF;
+        background-color: #ffffff;
+        color: #ffa500;
     }
 
     .article-content > h2:after {
-        content: '\002B';
+        content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" class="ml-4"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>');
         color: #ffa500;
         font-weight: bold;
         float: right;
         margin-left: 5px;
+        transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        transform: rotate(0deg);
     }
 
     .article-content > .active:after {
-        content: "\2212";
+        transform: rotate(90deg);
     }
 
     .article-content > ul {
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.2s ease-out;
-        background-color: #f1f1f1;
+        transition: max-height 0.3s ease-out;
+        background-color: #fafafa;
         padding-left: 3rem !important;
+        margin-bottom: 10px;
+        border-bottom-width: 1px;
+        border-bottom-color: lightgray;
+    }
+
+    .article-content > ul > li:first-child {
+        margin-top: 20px;
+    }
+
+    .article-content > ul > li:last-child {
+        margin-bottom: 20px;
+    }
+
+    @keyframes turn {
+        to {
+            transform: rotate(90deg);
+        }
+    }
+    @-webkit-keyframes turn {
+        to {
+            -webkit-transform: rotate(90deg);
+        }
     }
 </style>
 <script>
