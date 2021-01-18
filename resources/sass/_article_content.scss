@@ -1,6 +1,6 @@
 $white: #fff;
 $black: #131516;
-$orange: #f29205;
+$orange: #ffa500;
 $red: #d31516;
 $green: #5eb109;
 $blue: #0999b1;
@@ -14,7 +14,7 @@ $blue: #0999b1;
 }
 
 .orange {
-  color: #f29205;
+  color: #ffa500;
 }
 
 .red {
@@ -70,7 +70,7 @@ $blue: #0999b1;
 }
 
 .orange-bkg {
-  background: #f29205;
+  background: #ffa500;
 }
 
 .red-bkg {
@@ -270,7 +270,7 @@ html {
   ol li:before {
     content: counter(ordered-list);
     counter-increment: ordered-list;
-    color: #f29205;
+    color: #ffa500;
     font-weight: 700;
     font-size: 1.5rem;
     margin: 0;
@@ -288,7 +288,7 @@ html {
   }
 
   a {
-    color: #f29205;
+    color: #ffa500;
     text-decoration: none;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -297,7 +297,7 @@ html {
   }
   a:hover,
   a:focus {
-    border-bottom: 2px solid #f29205;
+    border-bottom: 2px solid #ffa500;
   }
 
   hr {
@@ -328,7 +328,7 @@ html {
   blockquote {
     margin-left: 0;
     border: 1px solid #f2f3f4;
-    border-left: 3px solid #f29205;
+    border-left: 3px solid #ffa500;
     &.primary {
       border-left: 3px solid $blue;
       h5 {
@@ -414,22 +414,22 @@ html {
       padding-bottom: 2px;
       color: #000;
       font-weight: 700;
-      border-bottom: 2px solid #f29205;
+      border-bottom: 2px solid #ffa500;
 
       &:hover,
       &:focus {
-        color: #f29205;
+        color: #ffa500;
         transition: all .3s;
 
         i {
-          border-color: #f29205;
+          border-color: #ffa500;
         }
       }
     }
 
     &:hover,
     &:focus {
-      color: #f29205;
+      color: #ffa500;
       border-bottom: 0;
     }
 
@@ -500,7 +500,7 @@ html {
 
   .card-highlight {
     &:hover {
-      border: #f29205 2px solid;
+      border: #ffa500 2px solid;
     }
   }
 

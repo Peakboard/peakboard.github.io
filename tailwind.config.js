@@ -49,13 +49,8 @@ module.exports = {
                 "grey-light": "#dae1e7",
                 "grey-lighter": "#f1f5f8",
                 "grey-lightest": "#f0f1f2",
-                "orange-darkest": "#462a16",
-                "orange-darker": "#613b1f",
-                "orange-dark": "#de751f",
-                orange: "#f68510",
+                orange: "#ffa500",
                 "orange-light": "#faad63",
-                "orange-lighter": "#fcd9b6",
-                "orange-lightest": "#fff5eb",
             }
         },
         fontFamily: {

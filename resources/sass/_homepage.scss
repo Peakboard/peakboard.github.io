@@ -13,7 +13,7 @@
     padding-bottom: 2px;
     color: white;
     font-weight: 700;
-    border-bottom: 2px solid #f29205;
+    border-bottom: 2px solid #ffa500;
 
     &.black {
       color: black;
@@ -21,18 +21,18 @@
 
     &:hover,
     &:focus {
-      color: #f29205;
+      color: #ffa500;
       transition: all .3s;
 
       i {
-        border-color: #f29205;
+        border-color: #ffa500;
       }
     }
   }
 
   &:hover,
   &:focus {
-    color: #f29205;
+    color: #ffa500;
     border-bottom: 0;
   }
 
@@ -62,7 +62,7 @@
 
 .card-highlight {
   &:hover {
-    border: #f29205 2px solid;
+    border: #ffa500 2px solid;
   }
 }
 
@@ -185,7 +185,7 @@
 }
 
 .accordian-trigger:checked + .accordian-label {
-  color: orange;
+  color: #ffa500;
 }
 
 .accordian-icon {
