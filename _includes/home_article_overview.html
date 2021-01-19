@@ -4,14 +4,14 @@
         <p class="my-3 text-black">{{ site.language[page.lang].homepage-article-overview-content }}</p>
 
         <div class="mt-8">
-            <div id="bricks" class="bricks">
-                {% assign collections = site.collections | sort: 'position' %}
+            <div id="bricks">
+                {% assign collections = site.collections | sort: 'home_position' %}
                 {% for collection in collections %}
                     {% if collection.label != "posts" %}{% if collection.label != "tutorials" %}
                         {% if collection.title[page.lang] %}
                             <div class="brick w-full lg:w-1/2 xl:w-1/2 overflow-hidden mb-4 pr-2">
                                 <div class="flex">
-                                    <div class="w-8">{% include svg/{{ collection.icon }} %}</div>
+                                    <div class="pl-8">{% include svg/{{ collection.icon }} %}</div>
                                     <div class="w-auto"><h3 class="md:ml-2 inline content-center text-lg font-bold">{{ collection.title[page.lang] }}</h3></div>
                                 </div>
 
@@ -24,7 +24,7 @@
                                     {% assign num_parts = article.path | split: "/" | size %}
                                     {% if num_parts == 2 %}
                                         <div class="flex">
-                                            <div class="w-8 p-1"></div>
+                                            <div class="pl-8"></div>
                                             <div class="md:ml-2 w-auto {% if forloop.first %}mt-1{% endif %} {% if forloop.last %}mb-6{% endif %}">
                                                 <a class="w-full block py-1 hover:text-orange text-black no-underline" href="{{ article.url | relative_url }}">
                                                     {{ article.title | escape }}
@@ -37,11 +37,10 @@
                                         {% assign matched = used_categories | where_exp:"item", "item == sub_level" | size %}
                                         {% if matched == 0 %}
                                             {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
-
-                                            <div class="flex">
-                                                <div class="w-8 p-1"></div>
-                                                <div class="md:ml-2 w-auto {% if forloop.first %}mt-1{% endif %} {% if forloop.last %}mb-8{% endif %}">
-                                                    <p class="w-full block py-1 text-black">
+                                            <div class="flex level-1">
+                                                <div class="pl-8"></div>
+                                                <div class="md:ml-2 w-auto {% if forloop.first %}mt-1{% endif %} {% if forloop.last %}mb-6{% endif %}">
+                                                    <p class="w-full block py-1 text-black" data-self="{{ sub_level }}" data-opened="false">
                                                         {{ sub_level | replace: "_", " " | capitalize }}
                                                     </p>
                                                 </div>
@@ -52,9 +51,9 @@
                                                 {% assign parts = art.path | split: "/" %}
                                                 {% assign num_parts = art.path | split: "/" | size %}
                                                 {% if num_parts == 3 and parts[1] == sub_level %}
-                                                    <div class="flex">
-                                                        <div class="w-8"></div>
-                                                        <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-8{% endif %}">
+                                                    <div class="flex level-2" data-parent="{{ sub_level }}">
+                                                        <div class="pl-8"></div>
+                                                        <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-6{% endif %}">
                                                             <a class="w-full block py-1 ml-8 hover:text-orange text-black no-underline" href="{{ art.url | relative_url }}">
                                                                 {{ art.title | escape }}
                                                             </a>
@@ -78,97 +77,106 @@
     </div>
 </div>
 
+<style>
+    .level-1 {
+        cursor: pointer;
+    }
+
+    .level-2 {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+    #bricks {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, minmax(250px,1fr));
+    }
+    [data-self]:after {
+        content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" height="15px" class="ml-4"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>');
+        color: #ffa500;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        transition: 0.3s ease;
+        -webkit-transition: 0.3s ease;
+        transform: rotate(0deg);
+    }
+
+    [data-self][data-opened="true"]:after {
+        transform: rotate(90deg);
+    }
+
+    @keyframes turn {
+        to {
+            transform: rotate(90deg);
+        }
+    }
+    @-webkit-keyframes turn {
+        to {
+            -webkit-transform: rotate(90deg);
+        }
+    }
+</style>
+
 <script>
-    (function(w, d) {
+    function resizeGridItem(item){
+        var grid = document.getElementById("bricks");
 
-        // find minimum value from array
-        Array.prototype.min = function() {
-            return Math.min.apply({}, this);
-        };
+        var rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
 
-        // find maximum value from array
-        Array.prototype.max = function() {
-            return Math.max.apply({}, this);
-        };
+        var rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
 
-        // wall, brick(s) margin, wall padding
-        w.bricks = function(wall, gap, pad) {
-            gap = gap || 0;
-            pad = pad || 0;
-            if (typeof wall === "string") {
-                wall = d.getElementById(wall);
+        var rowSpan = Math.ceil((item.getBoundingClientRect().height + rowGap)/(20 + rowGap));
+
+        item.style.gridRowEnd = "span "+rowSpan;
+    }
+
+    function resizeAllGridItems(){
+        var allItems = document.getElementsByClassName("brick")[0];
+        for(var x=0;x<allItems.length;x++) {
+            resizeGridItem(allItems[x]);
+        }
+    }
+
+    function resizeInstance(item){
+        resizeGridItem(item);
+    }
+
+    window.onload = resizeAllGridItems();
+    window.addEventListener("resize", resizeAllGridItems);
+
+    allItems = document.getElementsByClassName("brick");
+    for(var x = 0 ; x < allItems.length ; x++){
+        resizeInstance(allItems[x]);
+    }
+
+    // COLLAPSIBLE CODE
+    var level1elements = document.getElementsByClassName("level-1");
+
+    for (var i=0; i < level1elements.length; i++) {
+        level1elements[i].onclick = function(ev){
+            var currentElement = ev.target;
+            var opened;
+
+            if(currentElement.getAttribute('data-opened') === 'false') {
+                currentElement.setAttribute('data-opened', 'true');
+                opened = true;
+            } else {
+                currentElement.setAttribute('data-opened', 'false');
+                opened = false;
             }
-            function class_a(el, c) {
-                return el.classList.add(c);
-            }
-            function class_r(el, c) {
-                return el.classList.remove(c);
-            }
-            function class_h(el, c) {
-                return el.classList.contains(c);
-            }
-            var bricks = wall.children,
-                c = bricks.length,
-                wait = false,
-                brick, c_h, c_c, c_t, i, j;
-            if (!c) return;
-            var width = bricks[0].offsetWidth + gap,
-                o = wall.getAttribute('style') || "",
-                x = d.createElement('div');
-            class_a(wall, 'bricks');
-            class_a(x, wall.className);
-            wall.style.padding = 0;
-            wall.style.position = 'relative';
-            wall.setAttribute('data-style', o);
-            x.style.margin = 0;
-            x.style.padding = 0;
-            x.style.border = 0;
-            x.style.outline = 0;
-            x.style.width = 'auto';
-            x.style.height = 0;
-            x.style.float = 'none';
-            x.style.display = 'block';
-            x.style.clear = 'both';
-            x.style.visibility = 'hidden';
-            function apply(first) {
-                if (!first && !class_h(wall, 'bricks-ready')) return;
-                wall.parentNode.insertBefore(x, wall.nextElementSibling || wall.nextSibling || null);
-                c_h = [];
-                c_c = Math.floor(x.offsetWidth / width);
-                if (x.parentNode) x.parentNode.removeChild(x);
-                for (i = 0; i < c_c; ++i) {
-                    c_h[i] = 0;
+
+            var level2elementParentValue = currentElement.getAttribute('data-self');
+            var level2elements = document.querySelectorAll("[data-parent='" + level2elementParentValue + "']");
+
+            for(var j=0; j < level2elements.length; j++) {
+                if(opened) {
+                    level2elements[j].style.minHeight = level2elements[j].scrollHeight + "px";
+                } else {
+                    level2elements[j].style.minHeight = null;
                 }
-                for (i = 0; i < c; ++i) {
-                    brick = bricks[i];
-                    if (first) {
-                        o = brick.getAttribute('style') || "";
-                        brick.setAttribute('data-style', o);
-                        brick.style.float = 'none';
-                        brick.style.display = 'block';
-                        brick.style.position = 'absolute';
-                    }
-                    for (j = c_c - 1; j > -1; --j) {
-                        if (c_h[j] === c_h.min()) {
-                            c_t = j;
-                        }
-                    }
-                    brick.style.top = (c_h[c_t] + pad) + 'px';
-                    brick.style.left = ((width * c_t) + pad) + 'px';
-                    c_h[c_t] += brick.offsetHeight + gap;
-                    class_a(brick, 'brick-ready');
-                }
-                wall.style.width = ((width * c_h.length) - gap + (pad * 2)) + 'px';
-                wall.style.height = (c_h.max() - gap + (pad * 2)) + 'px';
-                class_a(wall, 'bricks-ready');
-            } apply(1);
-            w.addEventListener("resize", function() {
-                if (wait) w.clearTimeout(wait);
-                wait = w.setTimeout(apply, 50);
-            }, false);
-        };
-
-    })(window, document);
-
-    bricks('bricks', 0, 0);
+            }
+        }
+    }
 </script>
