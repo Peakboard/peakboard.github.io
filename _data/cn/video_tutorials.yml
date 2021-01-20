@@ -4,7 +4,7 @@
   tencent_id: r3005g2qdx5
   weight: 200
   homepage: true
-  image: /assets/images/videos/ot1Sdu-Z380.jpg
+  image: /assets/images/videos/peakboard-explanation-video_CN.png
   category: Recommended
 
 - title: Peakboard-Designer 使用入门
@@ -13,7 +13,7 @@
   tencent_id: n08769ds75s
   weight: 100
   homepage: true
-  image: /assets/images/videos/TqYdZqW0xMk.jpg
+  image: /assets/images/videos/designer-first-steps_CN.png
   category: Recommended
 
 - title: Excel销售数据可视化
@@ -22,7 +22,7 @@
   tencent_id: g0879wswn13
   weight: 200
   homepage: true
-  image: /assets/images/videos/vpnuZTsHwj8.jpg
+  image: /assets/images/videos/visualize-excel-data_CN.png
   category: Recommended
 
 - title: 数据流简介
@@ -30,7 +30,7 @@
   language: cn
   tencent_id: x0883vp61bt
   weight: 200
-  image: /assets/images/videos/r2_Nsh3lZMI.jpg
+  image: /assets/images/videos/dataflows-explained_CN.png
   category: Recommended
   
 - title: XML与JSON REST API的可视化
@@ -38,7 +38,7 @@
   language: cn
   tencent_id: h08868ln95j
   weight: 200
-  image: /assets/images/videos/GowkU7h9gvs.jpg
+  image: /assets/images/videos/visualize-xml-and-json-rest-api_CN.png
   category: More
 
 - title: OPC UA数据的可视化
@@ -47,7 +47,7 @@
   tencent_id: u08960oxc1d
   weight: 200
   homepage: true
-  image: /assets/images/videos/YpfEJrFriBU.jpg
+  image: /assets/images/videos/visualize-opc-ua-machine-data_CN.png
   category: Machine Protocols
   
 - title: SAP实时仪表板
@@ -55,7 +55,7 @@
   language: cn
   tencent_id: w0905jr3pzs
   weight: 200
-  image: /assets/images/videos/lJteh_tnZL8.jpg
+  image: /assets/images/videos/sap-realtime-dashboard_CN.png
   category: SAP
   
 - title: 什么是安东板
@@ -63,7 +63,7 @@
   language: cn
   tencent_id: c3008wqc8by
   weight: 200
-  image: /assets/images/videos/andon_CN.png
+  image: /assets/images/videos/andon-board_CN.png
   category: More
 
 - title: 轻松制作西门子S7控制器看板
@@ -71,7 +71,7 @@
   language: cn
   tencent_id: b0972ifc0z6
   weight: 200
-  image: /assets/images/videos/easy_s7_dashboard_cn.jpg
+  image: /assets/images/videos/siemens-s7-visualization_CN.png
   category: Machine Protocols
 
 
