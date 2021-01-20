@@ -1,4 +1,4 @@
-- title: Peakboard简介
+- title: 1分钟快速了解Peakboard
   description: Peakboard解决方案以及应用场景简介
   language: cn
   tencent_id: r3005g2qdx5
@@ -16,8 +16,8 @@
   image: /assets/images/videos/designer-first-steps_CN.png
   category: Recommended
 
-- title: Excel销售数据可视化
-  description: Excel销售数据可视化
+- title: Excel数据的可视化
+  description: Excel数据的可视化
   language: cn
   tencent_id: g0879wswn13
   weight: 200
@@ -25,7 +25,7 @@
   image: /assets/images/videos/visualize-excel-data_CN.png
   category: Recommended
 
-- title: 数据流简介
+- title: Peakboard数据流简介
   description: 数据流简介
   language: cn
   tencent_id: x0883vp61bt
@@ -41,7 +41,7 @@
   image: /assets/images/videos/visualize-xml-and-json-rest-api_CN.png
   category: More
 
-- title: OPC UA数据的可视化
+- title: OPC UA机器数据的可视化
   description: 使用Peakboard-Designer对OPC UA数据进行可视化处理
   language: cn
   tencent_id: u08960oxc1d
@@ -50,7 +50,7 @@
   image: /assets/images/videos/visualize-opc-ua-machine-data_CN.png
   category: Machine Protocols
   
-- title: SAP实时仪表板
+- title: 创建SAP实时仪表板
   description: 使用Peakboard实时可视化SAP中的数据
   language: cn
   tencent_id: w0905jr3pzs
@@ -66,7 +66,7 @@
   image: /assets/images/videos/andon-board_CN.png
   category: More
 
-- title: 轻松制作西门子S7控制器看板
+- title: 西门子S7控制系统的可视化展示
   description: 使用Peakboard创建西门子S7控制器看板
   language: cn
   tencent_id: b0972ifc0z6
