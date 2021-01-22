@@ -10,34 +10,30 @@ ref: admin-250
 
 > ## IMPORTANT!
 >
-> To restart the Peakboard Box via PowerShell you have to run PowerShell as administrator. 
+> Run PowerShell as administrator to reboot your Peakboard Box. Please enter the
+following commands and confirm each of them with [Enter]. 
 
-Open PowerShell as administrator and then enter these commands one after another. Each command must be confirmed with Enter: 
 
-
-* This command opens the remote Connection setting:
+* Use this command to open the remote connection setting:
 ```
 > net start WinRM
 ```
-* Here the IP address of the box must be entered without <> e.g. -Value 192.168.0.1: 
+* Enter the IP address of the Peakboard Box without [&lt;&gt;]. For example -Value 192.168.0.1: 
 ```
 > Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the box>
 ```
-* After typing this text may appear:
+* If the following text appears, press [y] to acknowledge it.
 ```
 Use this command to change the TrustedHosts list for the WinRM client. The computers in the TrustedHosts list may not be authenticated. The client may send credentials to these computers.
 Are you sure you want to change this list?
 [Y] Yes [N] No [H] Stop [?] Help (default is "Y"): 
 ```
-* Just acknowledge it with:
-```
->Y
-```
-* Then you can already link directly to the box:
+
+* Now connect the Peakboard Box.
 ```
 > Enter-PSSession -ComputerName <IP address of the box> -Credential pbadmin
 ```
-* And in the last step restart the box:
+* Restart the Peakboard Box.
 ```
 > restart-Computer <IP address of the box> -force
 ```
