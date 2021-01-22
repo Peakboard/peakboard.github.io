@@ -20,7 +20,7 @@ following commands and confirm each of them with [Enter].
 ```
 * Enter the IP address of the Peakboard Box without [&lt;&gt;]. For example -Value 192.168.0.1: 
 ```
-> Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the box>
+> Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the Peakboard Box>
 ```
 * If the following text appears, press [y] to acknowledge it.
 ```
@@ -31,10 +31,10 @@ Are you sure you want to change this list?
 
 * Now connect the Peakboard Box.
 ```
-> Enter-PSSession -ComputerName <IP address of the box> -Credential pbadmin
+> Enter-PSSession -ComputerName <IP address of the Peakboard Box> -Credential pbadmin
 ```
 * Restart the Peakboard Box.
 ```
-> restart-Computer <IP address of the box> -force
+> restart-Computer <IP address of the Peakboard Box> -force
 ```
 
