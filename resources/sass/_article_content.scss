@@ -495,3 +495,60 @@ html {
     word-break: break-word;
   }
 }
+
+.box-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #faebcc;
+  border-radius: 4px;
+}
+
+.box-warning:before {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  content: "\f071";
+  font-weight: 900;
+  padding-bottom: 2px;
+}
+
+.box-note {
+  color: #31708f;
+  background-color: #d9edf7;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #bce8f1;
+  border-radius: 4px;
+}
+
+.box-note:before {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  content: "\f05a";
+  font-weight: 900;
+  padding-bottom: 2px;
+}
+
+.box-tip {
+  color: #3c763d;
+  background-color: #dff0d8;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+}
+
+.box-tip:before {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  content: "\f0eb";
+  font-weight: 900;
+  padding-bottom: 2px;
+}
