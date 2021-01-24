@@ -240,20 +240,7 @@ html {
   ul li {
     margin: 0.3125rem 0 0;
     position: relative;
-  }
-  ul li:before {
-    -webkit-font-smoothing: antialiased;
-    content: "■";
-    color: #ffa500;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin: -0.125rem 0.5625rem 0 -1.625rem;
-    position: unset;
-    top: 50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKklEQVQoU2NkIBIwEqmOgTyF/5cy/Ee2gTEaYRCKiQOoEF8IkOdrfCYCANmwDAvHJjXdAAAAAElFTkSuQmCC");
   }
 
   ol {
