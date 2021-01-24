@@ -369,12 +369,13 @@ html {
 
   .image-wrapper {
     position: relative;
+    border: 1px solid #e6e6e6;
   }
 
   img {
     display: block;
     max-width: 100%;
-    margin: 2rem auto;
+    margin: 2rem auto 2rem 0;
     cursor: pointer;
   }
 
