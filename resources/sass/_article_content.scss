@@ -242,10 +242,9 @@ html {
     position: relative;
   }
   ul li:before {
-
     -webkit-font-smoothing: antialiased;
-    content: "\2022";
-    color: #555f61;
+    content: "■";
+    color: #ffa500;
     font-size: 1.25rem;
     font-weight: 700;
     margin: -0.125rem 0.5625rem 0 -1.625rem;
