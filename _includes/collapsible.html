@@ -71,7 +71,7 @@
 
 
     for (i = 0; i < coll.length; i++) {
-        var entryTitle = coll[0].innerText;
+        var entryTitle = coll[i].innerText;
         // if h2 content starts with number
         if (entryTitle.match(/^\d/)) {
             // obtain just the date
@@ -80,6 +80,12 @@
                 entryTitle.lastIndexOf(")")
             );
 
+            coll[i].innerText = entryTitle.replace('(' + date + ')','');
+
+            var span = document.createElement("span");
+            span.innerText = date;
+
+            coll[i].append(span);
         }
 
         coll[i].addEventListener("click", function() {
