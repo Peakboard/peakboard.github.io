@@ -1,7 +1,7 @@
 <style>
     .article-content > h2 {
         background-color: #ffffff;
-        color: #ffa500;
+        color: black;
         cursor: pointer;
         width: 100%;
         text-align: left;
@@ -68,7 +68,20 @@
     var coll = document.getElementsByTagName("h2");
     var i;
 
+
+
     for (i = 0; i < coll.length; i++) {
+        var entryTitle = coll[0].innerText;
+        // if h2 content starts with number
+        if (entryTitle.match(/^\d/)) {
+            // obtain just the date
+            var date = entryTitle.substring(
+                entryTitle.lastIndexOf("(") + 1,
+                entryTitle.lastIndexOf(")")
+            );
+
+        }
+
         coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
             var content = this.nextElementSibling;
