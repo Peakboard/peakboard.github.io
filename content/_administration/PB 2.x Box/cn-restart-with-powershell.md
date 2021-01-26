@@ -16,7 +16,7 @@ ref: admin-250
 ```
 > net start WinRM
 ```
-* 输入Peakboard Box的IP地址（无需“&lt;&gt”;）。例如，-Value 192.168.0.1：
+* 输入Peakboard Box的IP地址（无需&lt;&gt;）。例如，-Value 192.168.0.1：
 ```
 > Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the Peakboard Box>
 ```
