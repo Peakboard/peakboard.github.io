@@ -10,13 +10,13 @@ ref: admin-250
 
 > ## 注意！
 >
-> 以管理员身份运行PowerShell重启Peakboard Box。请输入以下命令，并使用“回车”键确认。
+> 以管理员身份运行PowerShell重启Peakboard Box。请输入以下命令，并按“回车”键确认。
 
 * 使用该命令打开远程连接设置：
 ```
 > net start WinRM
 ```
-* 输入Peakboard Box的IP地址（无需&lt;&gt;）。例如，-Value 192.168.0.1：
+* 输入Peakboard Box的IP地址（无需“&lt;&gt”;）。例如，-Value 192.168.0.1：
 ```
 > Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the Peakboard Box>
 ```
