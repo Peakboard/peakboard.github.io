@@ -1,4 +1,10 @@
 <style>
+    @media only screen and (max-width: 600px) {
+        .article-content > h2 {
+            font-size: 1.3rem;
+        }
+    }
+
     .article-content > h2 {
         background-color: #ffffff;
         color: black;
@@ -19,7 +25,7 @@
         color: #ffa500;
     }
 
-    .article-content > h2:after {
+    .article-content > h2 > span:after {
         content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" class="ml-4"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>');
         color: #ffa500;
         font-weight: bold;
@@ -28,9 +34,14 @@
         transition: 0.3s ease;
         -webkit-transition: 0.3s ease;
         transform: rotate(0deg);
+        margin-top: 3px;
+    }
+    .article-content > h2 > span {
+        font-size: 20px;
+        color: #000000;
     }
 
-    .article-content > .active:after {
+    .article-content > .active > span:after {
         transform: rotate(90deg);
     }
 
@@ -53,6 +64,16 @@
         margin-bottom: 20px;
     }
 
+    .article-content .download-link:focus {
+        border-bottom: 0;
+        color: #FFA500;
+    }
+
+    .article-content .download-link:hover {
+        border-bottom: 0;
+        color: #FFA500;
+    }
+
     @keyframes turn {
         to {
             transform: rotate(90deg);
@@ -66,12 +87,11 @@
 </style>
 <script>
     var coll = document.getElementsByTagName("h2");
-    var i;
 
+    for (var i = 0; i < coll.length; i++) {
+        var entryTitle = coll[i].childNodes[0].nodeValue;
+        var link = coll[i].getElementsByTagName('a');
 
-
-    for (i = 0; i < coll.length; i++) {
-        var entryTitle = coll[i].innerText;
         // if h2 content starts with number
         if (entryTitle.match(/^\d/)) {
             // obtain just the date
@@ -80,13 +100,27 @@
                 entryTitle.lastIndexOf(")")
             );
 
-            coll[i].innerText = entryTitle.replace('(' + date + ')','');
+            coll[i].childNodes[0].nodeValue = entryTitle.replace('(' + date + ')','');
 
             var span = document.createElement("span");
             span.innerText = date;
+            span.classList.add("text-right");
 
             coll[i].append(span);
         }
+
+        for (var a = 0; a < link.length; a++) {
+            link[a].classList.add("max-w-max", "download-link");
+
+            var linkIcon = document.createElement("img");
+            linkIcon.src = "/assets/images/misc/version-history/peakboard-icon-download.svg";
+            linkIcon.alt = "Icon";
+            linkIcon.style.display = "inline";
+            linkIcon.setAttribute("style", "display: inline !important; width: 2rem; margin: 0 !important; max-width: initial !important;");
+            linkIcon.classList.add("lightbox-ignore");
+            link[a].prepend(linkIcon);
+        }
+
 
         coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
@@ -97,6 +131,15 @@
                 content.style.maxHeight = content.scrollHeight + "px";
             }
         });
+
+        coll[i].nextElementSibling.style.minWidth = "100%";
+        if(link.length === 0) {
+            coll[i].classList.add("grid", "grid-cols-2");
+        } else if (link.length === 1) {
+            coll[i].classList.add("grid", "grid-cols-3");
+        } else if (link.length === 2) {
+            coll[i].classList.add("grid", "grid-cols-4");
+        }
     }
 
     coll[0].classList.toggle("active");
