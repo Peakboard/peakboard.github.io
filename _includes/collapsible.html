@@ -131,7 +131,12 @@
         }
 
         for (var a = 0; a < link.length; a++) {
-            link[a].classList.add("max-w-max", "download-link", "col-span-2", "text-right");
+            var wrapper = document.createElement('div');
+            wrapper.classList.add("col-span-2");
+            link[a].parentNode.insertBefore(wrapper, link[a]);
+            wrapper.appendChild(link[a]);
+
+            link[a].classList.add("download-link", "float-right");
 
             var linkIcon = document.createElement("img");
             linkIcon.src = "/assets/images/misc/version-history/peakboard-icon-download.svg";
