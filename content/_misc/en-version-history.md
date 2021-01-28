@@ -10,6 +10,10 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 2.6.2.0 (17.12.2020)
 ---
+  
+  
+  
+  
 ## 2.6.2.0 (17.12.2020) [Download](https://peakboard.rocks/download-version-history)
 * Hotfix for a bug in the XML data source where the data was not loaded.
 * Hotfix for a bug where changing the JSON, XML, CSV headers was not applied.

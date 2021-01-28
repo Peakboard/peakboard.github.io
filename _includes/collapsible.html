@@ -1,3 +1,9 @@
+<div class="block text-center mt-8">
+    <span id="seeMoreLink" class="text-center cursor-pointer my-4 border-b-2 border-orange font-semibold text-dark-black hover:text-orange focus:text-orange">
+        <span>See more <i class="right-arrow rotate"></i></span>
+    </span>
+</div>
+
 <style>
     @media only screen and (max-width: 600px) {
         .article-content > h2 {
@@ -14,15 +20,15 @@
         outline: none;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
+        padding: 6px;
     }
 
     .article-content > h2 > a {
         color: black;
     }
 
-    .article-content > .active, .article-content > h2:hover {
-        background-color: #ffffff;
-        color: #ffa500;
+    .article-content > h2:hover {
+        background-color: #fafafa;
     }
 
     .article-content > h2 > span:after {
@@ -51,9 +57,9 @@
         transition: max-height 0.3s ease-out;
         background-color: #fafafa;
         padding-left: 3rem !important;
-        margin-bottom: 10px;
         border-bottom-width: 1px;
         border-bottom-color: lightgray;
+        margin-bottom:0;
     }
 
     .article-content > ul > li:first-child {
@@ -64,14 +70,21 @@
         margin-bottom: 20px;
     }
 
+    .article-content .download-link {
+        font-size: 20px;
+    }
+    @media only screen and (max-width: 600px) {
+        .article-content .download-link {
+            display: none;
+        }
+    }
+
     .article-content .download-link:focus {
         border-bottom: 0;
-        color: #FFA500;
     }
 
     .article-content .download-link:hover {
         border-bottom: 0;
-        color: #FFA500;
     }
 
     @keyframes turn {
@@ -91,6 +104,7 @@
     for (var i = 0; i < coll.length; i++) {
         var entryTitle = coll[i].childNodes[0].nodeValue;
         var link = coll[i].getElementsByTagName('a');
+        var renderShowMoreLink = false;
 
         // if h2 content starts with number
         if (entryTitle.match(/^\d/)) {
@@ -107,16 +121,23 @@
             span.classList.add("text-right");
 
             coll[i].append(span);
+
+            // hide individual version rows after 10 rows
+            if(i > 10) {
+                coll[i].style.display = 'none';
+                coll[i].nextElementSibling.style.display = 'none';
+                renderShowMoreLink = true;
+            }
         }
 
         for (var a = 0; a < link.length; a++) {
-            link[a].classList.add("max-w-max", "download-link");
+            link[a].classList.add("max-w-max", "download-link", "col-span-2", "text-right");
 
             var linkIcon = document.createElement("img");
             linkIcon.src = "/assets/images/misc/version-history/peakboard-icon-download.svg";
             linkIcon.alt = "Icon";
             linkIcon.style.display = "inline";
-            linkIcon.setAttribute("style", "display: inline !important; width: 2rem; margin: 0 !important; max-width: initial !important;");
+            linkIcon.setAttribute("style", "display: inline !important; width: 1.5rem; margin: 0 !important; max-width: initial !important;");
             linkIcon.classList.add("lightbox-ignore");
             link[a].prepend(linkIcon);
         }
@@ -135,11 +156,35 @@
         coll[i].nextElementSibling.style.minWidth = "100%";
         if(link.length === 0) {
             coll[i].classList.add("grid", "grid-cols-2");
-        } else if (link.length === 1) {
-            coll[i].classList.add("grid", "grid-cols-3");
-        } else if (link.length === 2) {
+        } else if (link.length === 1 && window.getComputedStyle(link[0]).getPropertyValue("display") !== 'none') {
             coll[i].classList.add("grid", "grid-cols-4");
+        } else if (link.length === 2 && window.getComputedStyle(link[0]).getPropertyValue("display") !== 'none') {
+            coll[i].classList.add("grid", "grid-cols-5");
+        } else {
+            coll[i].classList.add("grid", "grid-cols-2");
         }
+    }
+
+    // render the show-more link
+    if(renderShowMoreLink) {
+
+        // make onclick that shows all other versions
+        document.getElementById("seeMoreLink").addEventListener("click", function() {
+            var coll = document.getElementsByTagName("h2");
+
+            for (var i = 0; i < coll.length; i++) {
+                if (entryTitle.match(/^\d/)) {
+                    // hide individual version rows after 10 rows
+                    if(i > 10) {
+                        coll[i].style.display = null;
+                        coll[i].nextElementSibling.style.display = null;
+                        renderShowMoreLink = true;
+                    }
+                }
+            }
+
+            document.getElementById("seeMoreLink").style.display = 'none';
+        });
     }
 
     coll[0].classList.toggle("active");
