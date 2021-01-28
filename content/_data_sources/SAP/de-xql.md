@@ -13,7 +13,7 @@ Wenn der SAP-Zugriff nicht über Gateway, sondern über "Direct RFC" gebaut wird
 
 ## Tabellen-Zugriff
 
-```
+```SQL
 XtractQL
    := (SelectCommand | ExecuteCommand | DescribeCommand) 
   
