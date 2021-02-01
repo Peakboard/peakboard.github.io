@@ -10,15 +10,25 @@ redirect_from:
   - /administration/20-de-ports-und-netzwerk-traffic.html
 ---
 
-Die Peakboard-Box kommuniziert bekannterweise ja mit allen möglichen Vorsystemen. Darüber hinaus werden auch Kommunikationskanäle zur Administration der Box benötigt. In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen Kanäle genutzt werden. Es kommt natürlich immer auf den Einzelfall an, welche Ports für die jeweilige Kundenanforderung genutzt werden.
+Die Peakboard Box kommuniziert bekannterweise ja mit allen möglichen Vorsystemen. Darüber hinaus werden auch Kommunikationskanäle zur Administration der Box benötigt. In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen Kanäle genutzt werden. Es kommt natürlich immer auf den Einzelfall an, welche Ports für die jeweilige Kundenanforderung genutzt werden.
 
+### Zwingend erforderliche Ports:
+{% include styled_table.html %}
 | **Port**   | **Beschreibung** |
 |-------------|-------------|
-| 8080        | Device Portal von Windows 10 IoT Core (wird in der Regel nicht, oder nur in seltenen Fällen benötigt) |
-| 40404       | Kommunikationskanal zwischen Peakboard- Designer und der Box (für Administrationszwecke, wird in Regel oft verwendet) |
-| 40405       | Kommunikationskanal zwischen Peakboard- Designer und der Box (für Administrationszwecke, wird in Regel oft verwendet) |
-| 32XX / 33XX | Port für SAP-Kommunikation, XX ist die Systemnummer des SAP-Systems (wenn verwendet)|
-| 1433        |	Port für den SQL Server (wenn verwendet) |
+| 40404       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
+| 40405       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
+
+### Ports für bestimmte Datenquellen:
+{% include styled_table.html %}
+| 32XX / 33XX | Port für SAP-Kommunikation, XX ist die Systemnummer des SAP-Systems |
+| 1433        |	Port für den SQL Server |
 | 80          |	Standardport für generische API-Abfragen gängiger Internetdienste |
 | 102         |	Siemens S7 |
 | 4840        |	Standardport für OPC UA |
+
+### Ports für Peakboard Edge und Peakboard Hub:
+{% include styled_table.html %}
+| 40406       |	Peakboard Edge |
+| 40408       |	Kommunikationskanal für Peakboard Hub |
+| 40409       |	Kommunikationskanal für Peakboard Hub |
