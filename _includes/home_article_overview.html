@@ -54,7 +54,7 @@
                                                     <div class="flex level-2" data-parent="{{ sub_level }}">
                                                         <div class="pl-8"></div>
                                                         <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-6{% endif %}">
-                                                            <a class="w-full block py-1 ml-8 hover:text-orange text-black no-underline" href="{{ art.url | relative_url }}">
+                                                            <a class="w-full block py-1 hover:text-orange text-black no-underline" href="{{ art.url | relative_url }}">
                                                                 {{ art.title | escape }}
                                                             </a>
                                                         </div>
@@ -169,6 +169,14 @@
 
             var level2elementParentValue = currentElement.getAttribute('data-self');
             var level2elements = document.querySelectorAll("[data-parent='" + level2elementParentValue + "']");
+
+            if(level2elementParentValue !== null) {
+                // we really opened a submenu in the article overview, so recalculate
+                //console.log(currentElement.parentElement.parentElement.parentElement);
+
+                resizeAllGridItems();
+            }
+
 
             for(var j=0; j < level2elements.length; j++) {
                 if(opened) {
