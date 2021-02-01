@@ -13,11 +13,13 @@ redirect_from:
 Die Peakboard Box kommuniziert bekannterweise ja mit allen möglichen Vorsystemen. Darüber hinaus werden auch Kommunikationskanäle zur Administration der Box benötigt. In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen Kanäle genutzt werden. Es kommt natürlich immer auf den Einzelfall an, welche Ports für die jeweilige Kundenanforderung genutzt werden.
 
 ### Zwingend erforderliche Ports:
+{: .w-full }
 {% include styled_table.html %}
 | 40404       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 | 40405       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 
 ### Ports für bestimmte Datenquellen:
+{: .w-full }
 {% include styled_table.html %}
 | 32XX / 33XX | Port für SAP-Kommunikation, XX ist die Systemnummer des SAP-Systems |
 | 1433        |	Port für den SQL Server |
@@ -26,6 +28,7 @@ Die Peakboard Box kommuniziert bekannterweise ja mit allen möglichen Vorsysteme
 | 4840        |	Standardport für OPC UA |
 
 ### Ports für Peakboard Edge und Peakboard Hub:
+{: .w-full }
 {% include styled_table.html %}
 | 40406       |	Peakboard Edge |
 | 40408       |	Kommunikationskanal für Peakboard Hub |
