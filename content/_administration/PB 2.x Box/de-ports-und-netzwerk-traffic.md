@@ -14,8 +14,6 @@ Die Peakboard Box kommuniziert bekannterweise ja mit allen möglichen Vorsysteme
 
 ### Zwingend erforderliche Ports:
 {% include styled_table.html %}
-| **Port**   | **Beschreibung** |
-|-------------|-------------|
 | 40404       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 | 40405       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 
