@@ -138,14 +138,10 @@ collections:
       de: "Administration"
       cn: "管理"
     sublevel:
-      PB 1.x Box:
-        en: "PB 1.x Box"
-        de: "PB 1.x Box"
-        cn: "PB 1.x Box"
-      PB 2.x Box:
-        en: "PB 2.x Box"
-        de: "PB 2.x Box"
-        cn: "PB 2.x Box"
+      Peakboard Box:
+        en: "Peakboard Box"
+        de: "Peakboard Box"
+        cn: "Peakboard Box"
 
   misc:
     output: true
