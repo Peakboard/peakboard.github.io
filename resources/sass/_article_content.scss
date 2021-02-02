@@ -370,13 +370,15 @@ html {
   .image-wrapper {
     position: relative;
     display: inline-block;
-
   }
 
   img {
     display: block;
     max-width: 100%;
     cursor: pointer;
+  }
+
+  .image-wrapper > img {
     border: 1px solid #e6e6e6;
   }
 
