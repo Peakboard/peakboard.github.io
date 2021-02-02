@@ -8,10 +8,13 @@ weight: 500
 ref: admin-500
 redirect_from:
   - /administration/05-de-lizenz-aendern.html
+  - /administration/PB%202.x%20Box/de-lizenz-aendern.html
+
+
 ---
 
 Fällt bei einer gekauften Peakboard-Box die Entscheidung für ein Upgrade, beispielsweise von der Pro auf die Enterprise Version, so ist es notwendig den Lizenzschlüssel auszutauschen.
-Ein Upgrade Lizenzschlüssel kann per Mail an sales@peakboard.com beantragt werden.
+Ein Upgrade Lizenzschlüssel kann [per Mail](mailto: sales@peakboard.com) beantragt werden.
 Hierbei besteht die Möglichkeit eine Testlizenz für einen festgeschrieben Zeitraum zu erwerben. Achten Sie hierbei bei unbedingt darauf, ihren ursprünglichen käuflich erworben Lizenzschlüssel der Peakboard Pro Box in einer seperaten Textdatei zu sichern!
 Nach Ablauf des Testzeitraums verliert die Testlizenz ihre Gültigkeit, wodurch die Peakboard Box mit dieser Lizenz nicht mehr genutzt werden kann. Ändern Sie nun den Lizenzschlüssel, auf den in der seperaten Textdatei gesicherten Lizenzschlüssel um ihre gekaufte Peakboard-Box weiter zu verwenden.
 

@@ -10,33 +10,24 @@ redirect_from:
   - /data_sources/31-de-ODBC-Excel.html
 ---
 
-Details zur Installation der Bridge finden Sie [hier](/administration/01-de-install.html) sowie weitere Informationen zur Bridge-Datenquelle [hier](/data_sources/14-de-peakboard-bridge.html).
+Der folgende Screenshot zeigt den ODBC-Datenquellen Dialog.
 
-Der folgende Screenshot zeigt die Bridge-Datenquelle. Bei der Adresse muss die URI des Bridge-Server eingegeben werden. Üblicherweise ist das in der Form `tcp://<MeinBridgeServer>:2501`. Der Port muss nur angegeben werden, wenn er vom Default Wert 2501 abweicht.
+> ## Hinweis
+> Die ODBC Verbindung zu Excel ist nur mit installierten 64-Bit ODBC Treiber bzw. 64-Bit Microsoft Office Paket möglich!
 
 ![ODBC Anmeldemaske](/assets/images/data-sources/odbc-excel/odbc_form.png)
 
-In der Auswahlbox Data Source Type wird die Verbindung über einen ODBC Request ausgewählt.
-Damit der ODBC Request durchgeführt werden kann muss zunächst das Excel-File als ODBC-Datenquelle angelegt werden. Dazu wird der ODBC-Datenquellen-Administrator in der 32-Bit Version geöffnet und unter System-DSN eine neue Systemdatenquelle, wie im nachfolgenden Screenshot dargestellt, angelegt. Als Arbeitsmappe wird das gewünschte .xls-Excel-File ausgewählt und falls anschließend in das File zurückgeschrieben werden soll, der Haken bei Schreibgeschützt entfernt.
-
-![ODBC-Datenquelle](/assets/images/data-sources/odbc-excel/odbc.png)
-
-Zurück im Designer wird als Connection-String der System-DSN Name wie folgt verwendet:
+Soll es möglich sein Daten innerhalb der Excel zu verändern, so ist der Zusatz [ReadOnly = 0] im Connection-String notwendigt.
 
 ```
-DSN=myDsn;Uid=myUsername;Pwd=;
+Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};DBQ=C:\MyExcel.xlsx;ReadOnly = 0;
 ```
 
-Im Beispiel lautet der Connection-String, da kein Passwort oder User vergeben wurden, folgendermaßen:
+
+Bevor die Daten geladen werden können muss noch ein passender Ladebefehl formuliert werden. Bei Excel erfolgt die Referenz auf das entsprechende Tabellenblatt über [MyTable$] und hat folgende an SQL angelehnte Form:
 
 ```
-DSN=Peakboard Excel Test 32;
-```
-
-Bevor die Daten geladen werden können muss noch ein passender Ladebefehl formuliert werden. Bei Excel erfolgt die Referenz auf das entsprechende Tabellenblatt über [MyTable$] und hat folgende Form:
-
-```
-SELECT * FROM [MyTable$]
+SELECT [Table Column 1], [Table Column 2] FROM [MyTable$]
 ```
 
 Anschließend kann noch ein Ladeintervall vergeben werden und die Daten über Daten laden geladen werden. Zum Abschluss wird alles mit OK bestätigt.
