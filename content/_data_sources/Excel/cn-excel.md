@@ -21,7 +21,7 @@ redirect_from:
 * **Dropbox**
 * **Google云端硬盘**
 * **OneDrive** - Microsoft OneDrive（免费提供，并作为Office 365的一部分）
-* **网络共享文件（NetworkShareFile）** - 文件通过Peakboard Bridge从网络驱动器拖入。有关Peakboard Bridge的更多信息可以在[这里](/administration/01-cn-install.html)找到。
+* **网络共享文件（NetworkShareFile）** - 文件通过Peakboard Bridge从网络驱动器拖入。
 * **网络直接共享文件（NetworkShareFileDirect）** - 文件直接从网络驱动器中提取。注意！这仅在网络驱动器没有安全限制，且配置为匿名访问时有效。
 
 然后使用“授权”按钮登录云服务提供商，并使用“…”按钮选择文件——如果您选择了云服务提供商作为源。
