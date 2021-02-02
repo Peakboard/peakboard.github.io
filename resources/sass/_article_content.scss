@@ -369,14 +369,15 @@ html {
 
   .image-wrapper {
     position: relative;
-    border: 1px solid #e6e6e6;
+    display: inline-block;
+
   }
 
   img {
     display: block;
     max-width: 100%;
-    margin: 2rem auto 2rem 0;
     cursor: pointer;
+    border: 1px solid #e6e6e6;
   }
 
   .video-container {
