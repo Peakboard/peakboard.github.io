@@ -24,17 +24,7 @@ All these options are explained in this article, in the order they appear in the
 
 ## Bridge Resource
 
-The [Peakboard Bridge](https://help.peakboard.com/administration/PB%201.x%20Box/de-1x-install.html) is a small, resource-saving Windows service that is usually installed on a Windows server. 
-If you want to create a resource that is not static, but constantly renews itself from a shared network drive, the *Bridge resource* is the only option for Peakboard 1 boxes. 
-The Peakboard box accesses the bridge, which in turn accesses the file shared on the network. 
-*Why doesn't the box simply access the file directly?* The answer is simple: for security reasons. 
-Usually the box is not part of the domain and therefore has no access to a network drive. But the bridge service does, because in the AD user context it accesses the network drive under which the bridge windows service runs.
-
-The following screenshot shows the configuration mask for a *bridge resource*. 
-All you have to do is specify the path to the desired file (in this case an Excel file on a shared drive) and the URL of the bridge server. 
-If the bridge server runs on the default port 2501, the port specification can be omitted.
-
-![image_1](/assets/images/misc/Ressources/Resources_02.png)
+Outdated, better use Network Share Resource.
 
 ## Network Share Resource
 With [Peakboard 2 Boxes](https://help.peakboard.com/misc/de-pb2.html) shared network files can be accessed directly by a domain user.
