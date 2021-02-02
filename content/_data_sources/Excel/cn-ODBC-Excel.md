@@ -10,8 +10,6 @@ redirect_from:
   - /data_sources/31-cn-ODBC-Excel.html
 ---
 
-请参见[此处](/administration/01-cn-install.html)了解安装Bridge的详细信息，参见[此处](/data_sources/14-en-peakboard-bridge.html)了解有关Bridge数据源的信息。
-
 下面的屏幕截图显示了Bridge数据源。必须在地址处输入Bridge服务器的URI。通常形式为`tcp://<MyBridgeServer>:2501`。如果端口与默认值2501不同，则只需要指定端口。
 
 ![ODBC login mask](/assets/images/data-sources/odbc-excel/odbc_form.png)
