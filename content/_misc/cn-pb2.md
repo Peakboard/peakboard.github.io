@@ -38,7 +38,7 @@ Windows 10 IoT Enterprise操作系统与WPF Runtime的组合使得Peakboard Box�
 
 ### 有哪些变化？
 由于操作系统已经从Windows 10 IoT Core升级为Windows 10 IoT Enterprise，因而不再需要“设备门户”，取而代之的是“管理门户”。
-[Peakboard Bridge](/administration/PB%201.x%20Box/en-1x-install.html)是Peakboard Box的一个重要组件，现在也不再需要借助该组件实现数据之间的通信。
+[Peakboard Bridge] 是Peakboard Box的一个重要组件，现在也不再需要借助该组件实现数据之间的通信。
 第二代Box可直接与数据通信。
 
 ### 如何将Peakboard Box转换为第二代Peakboard Box？

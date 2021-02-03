@@ -20,4 +20,4 @@ How to create a template for the ListView or TileView control is explained step 
 
 The elements can be arranged vertically or horizontally. The setting for this is made under Orientation, where the desired orientation can be set using a dropdown list. It is also possible to change the template using the ListView control on the basis of a rule that has been made. The data in the following list is used for this.
 
-With the ListView, the data is displayed in the form of rows. To display the elements as tiles, the [Tile View](/controls/common/en-tile-view.html) can be used.
+With the ListView, the data is displayed in the form of rows. To display the elements as tiles, the [Tile View](/controls/Common/en-tile-view.html) can be used.

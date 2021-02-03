@@ -23,4 +23,4 @@ Wie das Anlegen eines Templates für das ListView- oder TileView-Control funktio
 
 Die Anordnung der Elemente kann dabei vertikal oder horizontal erfolgen. Die Einstellung hierfür erfolgt unter Orientierung, wo über eine Dropdown-Liste die gewünschte Ausrichtung eingestellt werden kann.Ebenfalls ist es mit dem ListView-Control möglich, anhand einer getroffenen Regel das Template zu verändern. Dafür werden die Daten in der folgende Liste verwendet.
 
-Die Darstellung findet beim ListView in Form von Zeilen statt. Um die Elemente als Kacheln darzustellen, kann das [Tile View](/controls/common/de-tile-view.html) verwendet werden.
+Die Darstellung findet beim ListView in Form von Zeilen statt. Um die Elemente als Kacheln darzustellen, kann das [Tile View](/controls/Common/de-tile-view.html) verwendet werden.
