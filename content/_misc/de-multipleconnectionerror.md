@@ -3,7 +3,7 @@ layout: article
 title: Fehler bei Netzwerkressourcen 
 menu_title: Fehler bei Netzwerkressourcen
 description: Fehler bei Netzwerkressourcen
-lang: en
+lang: de
 weight: 1015
 ref: misc-1015
 ---
