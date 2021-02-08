@@ -25,7 +25,7 @@
                                     {% if num_parts == 2 %}
                                         <div class="flex">
                                             <div class="pl-8"></div>
-                                            <div class="w-auto {% if forloop.first %}mt-1{% endif %} {% if forloop.last %}mb-6{% endif %}">
+                                            <div class="w-auto {% if forloop.first %}mt-1{% endif %}">
                                                 <a class="w-full block py-1 hover:text-orange text-black no-underline" href="{{ article.url | relative_url }}">
                                                     {{ article.title | escape }}
                                                 </a>
@@ -39,7 +39,7 @@
                                             {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
                                             <div class="flex level-1">
                                                 <div class="pl-8"></div>
-                                                <div class="w-auto {% if forloop.first %}mt-1{% endif %} {% if forloop.last %}mb-6{% endif %}">
+                                                <div class="w-auto {% if forloop.first %}mt-1{% endif %}">
                                                     <p class="w-full block py-1 text-black hover:text-orange" data-self="{{ sub_level }}" data-opened="false">
                                                         {{ sub_level | replace: "_", " " }}
                                                     </p>
@@ -53,7 +53,7 @@
                                                 {% if num_parts == 3 and parts[1] == sub_level %}
                                                     <div class="flex level-2" data-parent="{{ sub_level }}">
                                                         <div class="pl-8"></div>
-                                                        <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %} {% if forloop.last %}mb-6{% endif %}">
+                                                        <div class="md:ml-4 w-auto {% if forloop.first %}mt-3{% endif %}">
                                                             <a class="w-full block py-1 hover:text-orange text-black no-underline" href="{{ art.url | relative_url }}">
                                                                 {{ art.title | escape }}
                                                             </a>
@@ -90,7 +90,6 @@
     #bricks {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(2, minmax(250px,1fr));
     }
     [data-self]:after {
         content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" height="15px" class="ml-4"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>');
@@ -123,33 +122,28 @@
     function resizeGridItem(item){
         var grid = document.getElementById("bricks");
 
-        var rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+        var rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-height'));
 
         var rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+        console.log("span"+rowGap);
 
-        var rowSpan = Math.ceil((item.getBoundingClientRect().height + rowGap)/(20 + rowGap));
+        var rowSpan = Math.ceil((item.getBoundingClientRect().height + rowGap)/(20 + rowGap) - 2);
+        console.log("span"+rowSpan);
 
         item.style.gridRowEnd = "span "+rowSpan;
     }
 
     function resizeAllGridItems(){
-        var allItems = document.getElementsByClassName("brick")[0];
+        var allItems = document.getElementsByClassName("brick");
+
         for(var x=0;x<allItems.length;x++) {
             resizeGridItem(allItems[x]);
         }
+        document.getElementById("bricks").style["grid-template-columns"] = "repeat(2, minmax(250px,1fr))";
     }
 
-    function resizeInstance(item){
-        resizeGridItem(item);
-    }
-
-    window.onload = resizeAllGridItems();
     window.addEventListener("resize", resizeAllGridItems);
-
-    allItems = document.getElementsByClassName("brick");
-    for(var x = 0 ; x < allItems.length ; x++){
-        resizeInstance(allItems[x]);
-    }
+    resizeAllGridItems();
 
     // COLLAPSIBLE CODE
     var level1elements = document.getElementsByClassName("level-1");
@@ -174,7 +168,7 @@
                 // we really opened a submenu in the article overview, so recalculate
                 //console.log(currentElement.parentElement.parentElement.parentElement);
 
-                resizeAllGridItems();
+                //resizeAllGridItems();
             }
 
 
