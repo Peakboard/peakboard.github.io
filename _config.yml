@@ -233,6 +233,7 @@ language:
     cookie-box-change-preferences-section-statistics-explanation: "Statistics Cookies collect information anonymously. This information helps us to understand how our visitors use our website."
     cookie-box-change-preferences-button-save: "Save Preferences"
     version-history-see-more: "See more"
+    version-history-download-tooltip: "Download this software version"
   de:
     homepage-top-section-title: "Peakboard Help"
     homepage-top-section-content: "Diese Seite hilft dabei, schnell und effizient Peakboard zu verstehen und es für Ihre Bedürfnisse optimal einsetzen zu können. Es gibt Artikel für Einsteiger, für Fortgeschrittene und auch ganze Tutorials, die anhand eines Beispiels genau erklären, wie Sie Ihre Visualisierung aufbauen können. Für den Einstieg empfehlen wir die Ersten Schritte mit Peakboard."
@@ -302,6 +303,7 @@ language:
     cookie-box-change-preferences-section-statistics-explanation: "Statistik Cookies erfassen Informationen anonym. Diese Informationen helfen uns zu verstehen, wie unsere Besucher unsere Website nutzen."
     cookie-box-change-preferences-button-save: "Speichern"
     version-history-see-more: "Mehr anzeigen"
+    version-history-download-tooltip: "Download this software version"
   cn:
     homepage-top-section-title: "获取帮助"
     homepage-top-section-content: "针对您的需求，帮助您快速、高效地充分利用Peakboard，详情请参考相关文章。"
@@ -375,6 +377,7 @@ language:
     cookie-box-change-preferences-section-statistics-explanation: "此类Cookies会收集匿名信息，能帮助我们了解访客如何使用本网站。"
     cookie-box-change-preferences-button-save: "保存偏好"
     version-history-see-more: "显示更多"
+    version-history-download-tooltip: "Download this software version"
 algolia:
   application_id: '75B7PWB4DF'
   index_name: peakboard-help

@@ -3,6 +3,7 @@
         <span>{{ site.language[page.lang].version-history-see-more }} <i class="right-arrow rotate"></i></span>
     </span>
 </div>
+<div id="text-download-tooltip" class="hidden">{{ site.language[page.lang].version-history-download-tooltip }}</div>
 
 <style>
     @media only screen and (max-width: 600px) {
@@ -160,21 +161,19 @@
                 linkToolTip.classList.add(
                     "block","px-4","py-2","text-sm","text-center",
                     "text-gray-700","hover:bg-gray-100","hover:text-gray-900");
-                linkToolTip.innerText = "Download this software version";
+                linkToolTip.innerText = document.getElementById("text-download-tooltip").innerText;
                 linkToolTipParent.append(linkToolTip);
 
                 link[a].append(linkToolTipParent);
 
                 link[a].addEventListener("mouseover", function(event) {
                     var targetElement = event.target;
-                    targetElement.getElementsByClassName("link-tool-tip")[0].classList.remove("hidden");
-                    targetElement.getElementsByClassName("link-tool-tip")[0].classList.add("block");
+                    targetElement.parentNode.getElementsByClassName("link-tool-tip")[0].classList.remove("hidden");
                 }, false);
 
                 link[a].addEventListener("mouseout", function(event) {
                     var targetElement = event.target;
-                    targetElement.getElementsByClassName("link-tool-tip")[0].classList.remove("block");
-                    targetElement.getElementsByClassName("link-tool-tip")[0].classList.add("hidden");
+                    targetElement.parentNode.getElementsByClassName("link-tool-tip")[0].classList.add("hidden");
                 }, false);
             }
         }
