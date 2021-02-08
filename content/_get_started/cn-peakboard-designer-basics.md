@@ -75,7 +75,7 @@ redirect_from:
 
 ## 连接数据源
 
-无论是各种格式的数据，例如JSON和XML、数据库、SAP及社交媒体，还是机器、运输机和传感器信息，例如Simens S7和OPC UA，使用Peakboard，您可以轻松连接各种各样的数据，对其进行实时可视化处理。有关数据连接的更多信息，请参见[此处](https://peakboard.com/zh-hans/data-connections/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
+无论是各种格式的数据，例如JSON和XML、数据库、SAP及社交媒体，还是机器、运输机和传感器信息，例如Simens S7和OPC UA，使用Peakboard，您可以轻松连接各种各样的数据，对其进行实时可视化处理。有关数据连接的更多信息，请参见[此处](https://peakboard.cn/interfaces/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article).
 
 在此教程中，我们使用一种简单的数据源——微软Excel文件。该[Excel文件 （下载）](/assets/files/examples/Peakboard_Example_Date.xlsx)直接被加载至可视化包中，它包括四种产品，涉及五类属性：标题、产品编号、库存数量、最小库存和存储容量。下载该文件，并像之前一样，通过拖放将其添加至可视化中。之后，文件就会成为该可视化的一部分。
 
@@ -119,4 +119,4 @@ redirect_from:
 
 如果您已经有一个Peakboard Box，请参考文章：[连接并传输第一个可视化](https://help.peakboard.com/get_started/cn-peakboard-connecting.html)。我们将解释如何插上Box，与其连接，并将可视化加载至Box。
 
-希望您在使用Peakboard过程中能感受到乐趣，并且能够成功地使用该产品。如果您在使用Peakboard Designer时遇到疑问，请随时联系我们。所有的联系信息请参见 [下一页](https://peakboard.com/zh-hans/support/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article)。
+希望您在使用Peakboard过程中能感受到乐趣，并且能够成功地使用该产品。如果您在使用Peakboard Designer时遇到疑问，请随时联系我们。所有的联系信息请参见 [下一页](https://peakboard.cn/contact/?utm_source=HelpCenter&utm_medium=Link&utm_campaign=GetStarted_Article)。

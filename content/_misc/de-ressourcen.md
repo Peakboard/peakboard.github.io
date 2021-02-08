@@ -23,18 +23,7 @@ Alle diese Optionen werden in diesem Artikel erklärt, in der Reihenfolge, wie s
 **Local Resource** ist einfach nur eine statische Datei: Eine Excel-Datei, ein Bild etc., das direkt vom Dateisystem in den *Explorer* eingefügt wird, dort dann statisch vorliegt und nicht mehr verändert wird.
 
 ## Bridge Resource
-
-Die [Peakboard Bridge](https://help.peakboard.com/administration/PB%201.x%20Box/de-1x-install.html) ist ein kleiner, ressourcen-schonender Windows-Service, der üblicherweise auf einem Windows-Server installiert ist. 
-Wenn man eine Ressource erstellen möchte, die nicht statisch ist, sondern sich laufend von einem freigegebenen Netzlaufwerk erneuert, ist die *Bridge-Resource* die einzige Option für Peakboard 1 Boxen. 
-Die Peakboard-Box greift auf die Bridge, und die wiederum auf die im Netzwerk freigegebene Datei. 
-*Warum greift die Box nicht einfach direkt auf die Datei zu?* Die Antwort ist einfach: Aus Sicherheitsgründen. 
-Üblicherweise ist die Box nicht Teil der Domäne und hat somit keinen Zugriff auf ein Netzlaufwerk. Der Bridge-Service aber schon, weil er im AD-User-Kontext auf das Netzlaufwerk greift, unter dem der Bridge-Windows-Service läuft.
-
-Der folgende Screenshot zeigt die Konfigurationsmaske für eine *Bridge-Resource*. 
-Man muss lediglich den Pfad zur gewünschten Datei (in diesem Fall eine Excel-Datei auf einem freigegebenen Laufwerk) und die URL des Bridge-Servers angeben. 
-Wenn der Bridge-Server unter dem Standardport 2501 läuft, kann die Port-Angabe auch weggelassen werden.
-
-![image_1](/assets/images/misc/Ressources/Resources_02.png)
+Veraltete Alternative zu Network Share Resource.
 
 ## Network Share Resource
 Mit [Peakboard 2 Boxen](https://help.peakboard.com/misc/de-pb2.html) kann direkt über einen Domän-User auf freigegebene Netzwerk-Dateien zugegriffen werden.

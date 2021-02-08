@@ -27,7 +27,7 @@ The following storage locations are currently supported:
 * **GoogleDrive**
 * **OneDrive** - Microsoft OneDrive (both the free offer and as part of Office 365)
 * **SharePoint** 
-* **PeakboardBridge** - The file is dragged from a network drive via the Peakboard Bridge. Further information about the Peakboard-Bridge can be found [here.](/administration/01-en-install.html)
+* **PeakboardBridge** - Outdated, better use LocalNetwork
 * **LocalNetwork** - Peakboard 2 boxes only - The file can be mounted directly from a network drive by entering a domain user and password. Please note that the UNC drive paths must be used.
 
 > ## IMPORTANT!

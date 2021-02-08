@@ -8,6 +8,9 @@ weight: 700
 ref: admin-700
 redirect_from:
   - /administration/07-de-hinzufuegen.html
+  - /administration/PB%202.x%20Box/de-hinzufuegen.html
+
+
 ---
 
 Um eine Peakboard-Box zum Peakboard-Designer hinzuzufügen, klicken Sie im Menüband des oberen Peakboard-Designer Bereiches auf den Button Manage. Daraufhin öffnet sich ein neues Fenster.

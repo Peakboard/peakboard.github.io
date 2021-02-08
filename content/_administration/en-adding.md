@@ -8,6 +8,7 @@ weight: 700
 ref: admin-700
 redirect_from:
   - /administration/07-en-adding.html
+  - /administration/PB%202.x%20Box/en-adding.html
 ---
 
 To add a Peakboard-Box to the Peakboard-Designer, click the Manage button in the Peakboard-Designer area’s top menu bar. A new window will open.

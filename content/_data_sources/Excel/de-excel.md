@@ -27,7 +27,7 @@ Derzeit werden folgende Speicherorte unterstützt:
 *    **GoogleDrive**
 *    **OneDrive** – Microsoft OneDrive (sowohl das kostenfreie Angebot, als auch als Teil von Office 365)
 *	 **SharePoint** 
-*    **PeakboardBridge** –  Die Datei wird über die Peakboard-Bridge von einem Netzlaufwerk gezogen. Weitere Informationen über die Peakboard-Bridge finden Sie [hier.](/administration/01-de-install.html)
+*    **PeakboardBridge** –  Veraltete Alternative für "LocalNetwork"
 *    **LocalNetwork** – Nur Peakboard 2 Boxen - Die Datei kann direkt von einem Netzlaufwerk unter Eingabe eines Domänen-User und Passwort eingebunden werden. Achten Sie hierbei darauf, dass die UNC-Laufwerkspfade verwendet werden müssen.
 
 > ## WICHTIG!

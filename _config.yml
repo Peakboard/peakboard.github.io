@@ -137,11 +137,6 @@ collections:
       en: "Administration"
       de: "Administration"
       cn: "管理"
-    sublevel:
-      Peakboard Box:
-        en: "Peakboard Box"
-        de: "Peakboard Box"
-        cn: "Peakboard Box"
 
   misc:
     output: true

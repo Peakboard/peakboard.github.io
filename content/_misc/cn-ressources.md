@@ -22,13 +22,6 @@ redirect_from:
 
 本地资源只是一个静态文件：脚本、Excel文件、图像等，它直接从文件系统插入到程序包中，然后保持静态可用且不再改变。
 
-## Bridge资源
-
-Peakboard Bridge是一种小型、节省资源的Windows服务，通常安装在Windows服务器上。如果您想创建的资源是非静态的，而是不断从共享网络驱动器中自我刷新，则Bridge资源是正确的选择。Peakboard Box访问Bridge和此网络中共享的文件。为什么Box不直接访问文件？答案很简单：出于安全原因。通常，Box不属于域的一部分，因此无法访问网络驱动器。然而，Bridge服务却可以访问，因为它访问网络驱动器，Bridge Windows服务在AD用户情境中运行。
-
-下面的截图显示了Bridge资源的配置掩码。您只需指定所需文件（在本案例中为共享驱动器上的Excel文件）的路径和Bridge服务器的URL。如果网桥服务器在默认端口2501下运行，也可以省略端口规范。
-
-![image_1](/assets/images/misc/Ressources/Resources_02.png)
 
 ## Web资源
 

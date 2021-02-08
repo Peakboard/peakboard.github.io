@@ -39,7 +39,7 @@ It is also possible with Peakboard 2 Boxes to read and process files such as Exc
 ### What changes?
 Since the operating system has changed from Windows 10 IoT Core to Windows 10 IoT Enterprise, the device portal is no longer necessary.
 This will be replaced by the management portal.
-The [Peakboard Bridge](/administration/PB%201.x%20Box/en-1x-install.html), which is an essential part of the Peakboard Box, is no longer needed to support communication.
+The [Peakboard Bridge], which is an essential part of the Peakboard Box, is no longer needed to support communication.
 With the Peakboard 2 Box the communication is done directly.
 
 ### How is a Peakboard Box converted to a Peakboard 2 Box?
