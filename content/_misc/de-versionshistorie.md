@@ -14,7 +14,9 @@ footer: 2.6.2.0 (17.12.2020)
   
   
   
-## 2.6.2.0 (17.12.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.7.0.0 (09.02.2021) [Peakboard Designer](https://peakboard.rocks/download-version-history) [Peakboard Box](https://peakboard.rocks/download-version-history)
+  
+## 2.6.2.0 (17.12.2020) [Peakboard Designer](https://peakboard.rocks/download-version-history)
 * Hotfix für einen Fehler in der XML-Datenquelle, bei dem die Daten nicht geladen wurden
 * Hotfix für einen Fehler, bei dem das Ändern der JSON, XML, CSV Header nicht übernommen wurde
 
@@ -79,7 +81,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix für einen Fehler, bei dem das Webpage-Control nicht mit der Authentifizierung "none" genutzt werden konnte
 * Fix für einen Fehler, bei dem die Deinstallation des Peakboard Designers nicht korrekt vollständig ausgeführt wurde
 
-## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=BRL3y0)
+## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=BRL3y0)
 * Hotfix für einen Fehler im SQL-Datenquellendialoge
 * Hotfix für einen Fehler bei http-put-Requests
 
@@ -174,7 +176,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix für einen Fehler, bei dem die Transition eines Screens mit der Eigenschaft "none" nicht funktioniert hatte
 * Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
 * Hotfix für einen Speicherfehler
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020) 
@@ -216,7 +218,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix für einen Fehler bei dem der Broadcast der Peakboard 2 Box nicht korrekt ausgeführt wurde
 * Fix für einen Fehler bei dem das Textticker-Control und das DropDown-Control nicht korrekt ausgeführt wurden
 
-## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
+## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
@@ -305,7 +307,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
 
-## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaC8Bc2W-15HrXrYbCu9BL4BRIZaEQrhMuwUWzQMJMMBjQ?e=pFFAgz)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaC8Bc2W-15HrXrYbCu9BL4BRIZaEQrhMuwUWzQMJMMBjQ?e=pFFAgz)
 * Unterscheidung in der Versionierung für Peakboard 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
@@ -332,7 +334,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix für einen Fehler beim Kopieren einer OPC/UA Datenquelle
 * Fix für Skript-Fehlermeldungen im Peakboard Runtime Log
 
-## 1.8.7.0 (31.01.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
+## 1.8.7.0 (31.01.2020) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
 * Hotfix für einen Excel-Datenquellenfehler, der dazu führte, dass die Excel-Datenquelle die Daten nicht geladen hat, wenn keine Spaltennamen ausgewählt wurden
 
 ## 1.8.6.0 (14.01.2019)
@@ -372,7 +374,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix für die Handhabung von Resourcen über die Peakboard Bridge
 
 
-## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EVc9Kqf3pWlLsxFJ8D8ZWhMB4u6rmd5MgSYRigChfvJ4jA?e=I9T6Bu)
+## 1.7.1.0 (29.10.2019) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EVc9Kqf3pWlLsxFJ8D8ZWhMB4u6rmd5MgSYRigChfvJ4jA?e=I9T6Bu)
 * Hotfix für den Template Designer
 
 ## 1.7.0.0 (28.10.2019)
@@ -401,7 +403,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix für die Zeitdatenquelle
 * Fix für den Colorpicker beim Ändern der Werte im Textfeld
 
-## 1.6.4.0 (18.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
+## 1.6.4.0 (18.10.2019) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
 * Die Grundeinstellung für das Designer-Theme wurde auf "Light" zurückgesetzt.
 
 ## 1.6.3.0 (17.10.2019)
@@ -433,7 +435,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix für das Öffnen von Dateien 
 
 
-## 1.5.3.9 (07.08.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
+## 1.5.3.9 (07.08.2019) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
 * Ein Problem bei der Verarbeitung von NULL-Daten in der SQL-Server Datenquelle wurde behoben.
 
 ## 1.5.3.1 (06.08.2019)
@@ -483,7 +485,7 @@ footer: 2.6.2.0 (17.12.2020)
 * Fix im Skript-Editor für globale Funktionen 
 
 
-## 1.3.1.0 (29.05.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
+## 1.3.1.0 (29.05.2019) [Peakboard Designer](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
 * Hotfix für das Speichern von Farben bei Kreis und Donut-Diagrammen
 
 ## 1.3.0.0 (21.05.2019)
