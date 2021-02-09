@@ -15,24 +15,25 @@ footer: 2.7.0.0 (09.02.2021)
   
   
 ## 2.7.0.0 (09.02.2021) [Download](https://peakboard.rocks/download-version-history) 
-* [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) Datenquelle hinzugefügt
+* Peakboard Hub List als Datenquelle für [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) hinzugefügt
 * Rework für die MQTT Datenquelle
+* Rework für interaktive [Controls]
 * Datenquellen UI Rework 
 * Rework für die Kommunikation zwischen Peakboard Designer und Peakboard Box
 * Rework für das [User Management] auf der Peakboard Box
-* Rework für interaktive [Controls]
+
 * Rework für die SharePointList-Datenquelle
 * Publish-Funktion für MQTT-Datenquellen zum Scripteditor hinzugefügt
 * Variablen als Vergleichsoperator für bedingte Formatierung hinzugefügt
 * Empty States für alle Elemente überarbeitet
 * Rechtsklick Optionen wie Kopieren, Einfügen, Löschen,... für bedingte Formatierung hinzugefügt
 * QR Code Controls können direkt mit einer Datenquelle verknüpft werden
-* [Remove Columns] Dialg für Dataflows überarbeitet und Funktionionen für [Select All] und [Deselect All] hinzugefügt
+* [Remove Columns] Dialog für Dataflows überarbeitet und Funktionionen für [Select All] und [Deselect All] hinzugefügt
 * Fix für einen Fehler, bei dem die [selectvalue]-Funktion eines DropDown-Controls nicht korrekt funktionierte
 * Fix für einen Fehler, bei dem die Eigenschaft [Max Rows] für die Peakboard Datenquelle ohne Funktion war
-* Fix für einen Fehler, bei dem es nicht möglich war Datein unter [Ressources] in einen Ordner zu verschieben
+* Fix für einen Fehler, bei dem es nicht möglich war, Datein unter [Ressources] in einen Ordner zu verschieben
 * Fix für einen Fehler, bei dem die Limitierung auf 50 Preview Datensätze bei der SQL-Datenquelle ohne Funktion war
-* Fix für einen Fehler, bei dem eine einzellne Variable aus einer Peakboard Datenquelle nicht in einem Skript verwendet werden konnte
+* Fix für einen Fehler, bei dem eine einzelne Variable aus einer Peakboard Datenquelle nicht in einem Skript verwendet werden konnte
 * Fix für einen Fehler, bei dem die Funktionen [Gruppieren] und [Sichtbar] in einem Tile-Control nicht genutzt werden konnten
 * Fix für einen Fehler, bei dem das Textticker-Control nach einer bestimmten Länge nicht mehr ausgeführt wurde
 * Fix für einen Fehler, bei dem das Aufräumen der Ressourcen auf der Peakboard Box nicht korrekt ausgeführt wurde
@@ -44,9 +45,10 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix für einen Fehler, bei dem das Duplizieren einer Datenquelle mit einem Refresh-Skript dazu führte, dass das Skript nicht ordentlich kopiert wurde
 * Fix für einen Fehler, bei dem das GoogleDocs-Control einen Fehler in der Lua Intellisense verursacht hat
 * Fix für einen Fehler, bei dem die Log-Dateien auf der Peakboard Box nicht korrekt sortiert wurden
-* Fix für einen Fehler, bei dem die Preview auf einem anderen Monitor ausgeführt wurde, als der Peakboard Designer
+* Fix für einen Fehler, bei dem die Preview auf einem anderen Monitor ausgeführt wurde als der Peakboard Designer
+
   
-## 2.6.2.0 (17.12.2020) [Download]
+## 2.6.2.0 (17.12.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ejzogw8wAfFIkKfyq_iKMMEB1CM2pSuQXSpg9MKHOHfNjQ?e=oW3wim)
 * Hotfix für einen Fehler in der XML-Datenquelle, bei dem die Daten nicht geladen wurden
 * Hotfix für einen Fehler, bei dem das Ändern der JSON, XML, CSV Header nicht übernommen wurde
 
@@ -75,14 +77,14 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix für einen Fehler, bei dem das Web-Widget auf der Zeichenfläche nicht angezeigt wurde
 * Fix für einen Fehler, bei dem die XQL Statements für die SAP-Datenquelle fehlerhafte Werte zurückgegeben haben
 
-## 2.5.2.0 (26.10.2020)
+## 2.5.2.0 (26.10.2020)[Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Eq7oFzyBV1BBvKCc5yvk0rQBnpL3-11nML-P2XrKp63W7g?e=Klr4Wn)
 * Hotfix für einen Fehler, bei dem das Beschreiben von Listenvariablen nicht mehr möglich war
 
 ## 2.5.1.0 (23.10.2020)
 * Hotfix für einen Fehler, bei dem die SAP-Datenquelle nach einem Fehler, leer geöffnet wurde
 
 ## 2.5.0.0 (20.10.2020) 
-* Peakboard 1 Preview, sowie Update für Peakboard 1 Boxen entfernt
+* Peakboard UWP Preview, sowie Updates für Peakboard 1 Boxen entfernt
 * Peakboard Bridge aus dem Updateprozess entfernt
 * Automatsichen Neustart bei Absturz der Peakboard 2 Box Anwendung hinzugefügt
 * SharePoint-Datenquelle Berechtigungen reduziert
@@ -111,7 +113,7 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix für einen Fehler, bei dem das Webpage-Control nicht mit der Authentifizierung "none" genutzt werden konnte
 * Fix für einen Fehler, bei dem die Deinstallation des Peakboard Designers nicht korrekt vollständig ausgeführt wurde
 
-## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=BRL3y0)
+## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=ZurMnR)
 * Hotfix für einen Fehler im SQL-Datenquellendialoge
 * Hotfix für einen Fehler bei http-put-Requests
 
@@ -206,7 +208,7 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix für einen Fehler, bei dem die Transition eines Screens mit der Eigenschaft "none" nicht funktioniert hatte
 * Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EraALhDXk0lCifINoOfWVzUBpy6oBuxTOIWbFGoGyHpSXA?e=a1FFgj)
 * Hotfix für einen Speicherfehler
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020) 
@@ -248,7 +250,7 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix für einen Fehler bei dem der Broadcast der Peakboard 2 Box nicht korrekt ausgeführt wurde
 * Fix für einen Fehler bei dem das Textticker-Control und das DropDown-Control nicht korrekt ausgeführt wurden
 
-## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
+## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ehr7t9IhmVdJiio__qmtMUIBP-W5NGPKml40HbMNCx9EDA?e=qFy3H7)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
@@ -293,7 +295,7 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix für einen Fehler bei dem ein gesperrtes Element auf der Zeichenfläche die Bearbeitung eines darunterliegenden Elements verhinderte
 * Fix für einen Fehler bei dem die Peakboard 2 Preview nicht auf einem Windows 7 Gerät ausgeführt werden konnte
 
-## 2.1.1.0 // 1.10.1.0 (03.04.2020)
+## 2.1.1.0 // 1.10.1.0 (03.04.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Evp-kobC6_NCsm9EOQjZxcgBnqmFDJ2-doAIGrfKQIAaiQ?e=1nheWl)
 * Fix für die Datenverknüpfung von Spalten, welche mit einer Zahl beginnen
 * Fix für einen Fehler bei dem die Navigation per Tabulator-Taste beim Umbenennen von Spalten nicht funktioniert hat
 * Datenverknüpfungsdialog für Tile, ListView, TileView und Live Tiles übernommen
@@ -337,7 +339,7 @@ footer: 2.7.0.0 (09.02.2021)
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
 
-## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaC8Bc2W-15HrXrYbCu9BL4BRIZaEQrhMuwUWzQMJMMBjQ?e=pFFAgz)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/ElRTM3tT5SRGi3BBUtFM2ogBg1QT4ZGiOLCHdz8ihwA6JQ?e=Q4rjH7)
 * Unterscheidung in der Versionierung für Peakboard 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
@@ -404,7 +406,7 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix für die Handhabung von Resourcen über die Peakboard Bridge
 
 
-## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EVc9Kqf3pWlLsxFJ8D8ZWhMB4u6rmd5MgSYRigChfvJ4jA?e=I9T6Bu)
+## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Eoikktz-6r5ItM51juqX6fgBA5na2F5KWMY9yzi7b8WHkA?e=ByOAeQ)
 * Hotfix für den Template Designer
 
 ## 1.7.0.0 (28.10.2019)
