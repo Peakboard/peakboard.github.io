@@ -1,8 +1,9 @@
 <div class="block text-center mt-8">
     <span id="seeMoreLink" class="text-center cursor-pointer my-4 border-b-2 border-orange font-semibold text-dark-black hover:text-orange focus:text-orange">
-        <span>See more <i class="right-arrow rotate"></i></span>
+        <span>{{ site.language[page.lang].version-history-see-more }} <i class="right-arrow rotate"></i></span>
     </span>
 </div>
+<div id="text-download-tooltip" class="hidden">{{ site.language[page.lang].version-history-download-tooltip }}</div>
 
 <style>
     @media only screen and (max-width: 600px) {
@@ -140,7 +141,7 @@
                 link[a].parentNode.insertBefore(wrapper, link[a]);
                 wrapper.appendChild(link[a]);
 
-                link[a].classList.add("download-link", "float-right");
+                link[a].classList.add("download-link", "float-right", "relative");
 
                 var linkIcon = document.createElement("img");
                 linkIcon.src = "/assets/images/misc/version-history/peakboard-icon-download.svg";
@@ -149,6 +150,31 @@
                 linkIcon.setAttribute("style", "display: inline !important; width: 1.5rem; margin: 0 !important; max-width: initial !important;");
                 linkIcon.classList.add("lightbox-ignore");
                 link[a].prepend(linkIcon);
+
+                var linkToolTipParent = document.createElement("div");
+                linkToolTipParent.classList.add(
+                    "z-50","origin-top-right","absolute","right-0",
+                    "mt-2","w-80","h-10","rounded-md","bg-white",
+                    "ring-2","ring-orange","ring-opacity-80","link-tool-tip","hidden");
+
+                var linkToolTip = document.createElement("p");
+                linkToolTip.classList.add(
+                    "block","px-4","py-2","text-sm","text-center",
+                    "text-gray-700","hover:bg-gray-100","hover:text-gray-900");
+                linkToolTip.innerText = document.getElementById("text-download-tooltip").innerText;
+                linkToolTipParent.append(linkToolTip);
+
+                link[a].append(linkToolTipParent);
+
+                link[a].addEventListener("mouseover", function(event) {
+                    var targetElement = event.target;
+                    targetElement.parentNode.getElementsByClassName("link-tool-tip")[0].classList.remove("hidden");
+                }, false);
+
+                link[a].addEventListener("mouseout", function(event) {
+                    var targetElement = event.target;
+                    targetElement.parentNode.getElementsByClassName("link-tool-tip")[0].classList.add("hidden");
+                }, false);
             }
         }
 
