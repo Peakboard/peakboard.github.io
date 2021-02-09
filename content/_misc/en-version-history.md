@@ -8,13 +8,46 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.6.2.0 (17.12.2020)
+footer: 2.7.0.0 (09.02.2021)
 ---
   
   
   
   
-## 2.6.2.0 (17.12.2020) [Download](https://peakboard.rocks/download-version-history)
+## 2.7.0.0 (02/09/2021) [Download](https://peakboard.rocks/download-version-history) 
+* Added Peakboard Hub List as data source for [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/)
+* Rework for MQTT data source
+* Rework for interactive [Controls]
+* Data Sources UI Rework 
+* Rework for communication between Peakboard Designer and Peakboard Box.
+* Rework for [User Management] on Peakboard Box
+
+* Rework for the SharePointList data source
+* Publish function for MQTT data sources added to the Script Editor
+* Added variables as comparison operator for conditional formatting
+* Reworked Empty States for all elements
+* Right-click options like copy, paste, delete,... added for conditional formatting
+* QR Code Controls can be linked directly to a data source
+* [Remove Columns] dialog for dataflows reworked and functions for [Select All] and [Deselect All] added
+* Fix for a bug where the [selectvalue] function of a DropDown control did not work correctly
+* Fix for a bug where the [Max Rows] property for the Peakboard data source was without function
+* Fix for a bug where it was not possible to move files under [Resources] to a folder
+* Fix for a bug where the limitation to 50 preview records for the SQL data source was without function
+* Fix for a bug where a single variable from a Peakboard data source could not be used in a script
+* Fix for a bug where the functions [Group] and [Visible] could not be used in a tile control
+* Fix for a bug where the text ticker control was not executed after a certain length
+* Fix for a bug where cleaning up the resources on the peakboard box was not executed correctly
+* Fix for a bug where changing the frame size via conditional formatting caused the frame to disappear
+* Fix for a bug where the [Shared Connection] for a OneDrive data source could not be used
+* Fix for a bug where creating a [Resource] with a [Shared Connection] caused the [Resource] to be added twice
+* Fix for a bug where changing the alignment of a ListView control resulted in a fatal error
+* Fix for a bug where the [Save button] for scripts was without function 
+* Fix for a bug where duplicating a data source with a refresh script resulted in the script not being copied properly
+* Fix for a bug where the GoogleDocs control caused an error in the Lua Intellisense
+* Fix for a bug where the log files on the Peakboard box were not sorted correctly
+* Fix for a bug where the preview was run on a different monitor than the Peakboard Designer
+
+## 2.6.2.0 (17.12.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ejzogw8wAfFIkKfyq_iKMMEB1CM2pSuQXSpg9MKHOHfNjQ?e=oW3wim)
 * Hotfix for a bug in the XML data source where the data was not loaded.
 * Hotfix for a bug where changing the JSON, XML, CSV headers was not applied.
 
