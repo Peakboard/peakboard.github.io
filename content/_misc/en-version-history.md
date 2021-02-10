@@ -14,7 +14,7 @@ footer: 2.7.0.0 (09.02.2021)
   
   
   
-## 2.7.0.0 (02/09/2021) [Download](https://peakboard.rocks/download-version-history) 
+## 2.7.0.0 (02/09/2021) [Download](https://peakboard.com/peakboard-designer/) 
 * Added Peakboard Hub List as data source for [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/)
 * Rework for MQTT data source
 * Rework for interactive [Controls]
@@ -36,7 +36,7 @@ footer: 2.7.0.0 (09.02.2021)
 * Fix for a bug where a single variable from a Peakboard data source could not be used in a script
 * Fix for a bug where the functions [Group] and [Visible] could not be used in a tile control
 * Fix for a bug where the text ticker control was not executed after a certain length
-* Fix for a bug where cleaning up the resources on the peakboard box was not executed correctly
+* Fix for a bug where cleaning up the resources on the Peakboard Box was not executed correctly
 * Fix for a bug where changing the frame size via conditional formatting caused the frame to disappear
 * Fix for a bug where the [Shared Connection] for a OneDrive data source could not be used
 * Fix for a bug where creating a [Resource] with a [Shared Connection] caused the [Resource] to be added twice

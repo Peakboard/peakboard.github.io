@@ -14,7 +14,7 @@ footer: 2.7.0.0 (09.02.2021)
   
   
   
-## 2.7.0.0 (09.02.2021) [Download](https://peakboard.rocks/download-version-history) 
+## 2.7.0.0 (09.02.2021) [Download](https://peakboard.com/peakboard-designer/) 
 * Peakboard Hub List als Datenquelle für [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) hinzugefügt
 * Rework für die MQTT Datenquelle
 * Rework für interaktive [Controls]
