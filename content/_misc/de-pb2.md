@@ -10,7 +10,7 @@ ref: misc-10
 
 ![gif0](/assets/images/misc/pb2/social-media-posting-peakboard2-facebook.gif)
 
-## Was bedeutet Peakboard 2?
+### Was bedeutet Peakboard 2?
 Bei Peakboard 2 setzen wir auf ein anderes Betriebssystem sowie eine andere Architektur der Peakboard Runtime, wie du in der Tabelle siehst.
 
 {% include styled_table.html %}
@@ -40,9 +40,9 @@ Wer eine Peakboard Pro Box oder Peakboard Enterprise Box nach dem 01.05.2020 erw
 Wenn du keine neue Peakboard Box kaufst, kannst du folgendermaßen auf Peakboard 2 umsteigen:
 
 * [Upgrade der bestehenden Hardware mithilfe eines Peakboard 2 Upgrade USB-Sticks](/misc/de-pb2USB.html)
-* •	Austausch der bestehenden Hardware durch Peakboard Boxen auf denen Peakboard 2 läuft
+* Austausch der bestehenden Hardware durch Peakboard Boxen auf denen Peakboard 2 läuft
 
-{: .box-warning }
+{: .box-note }
 > ### Beachte:
 > * Die Visualisierung muss vor dem Update unbedingt auf dem PC gesichert sein, damit sie nach dem Update wieder aufgespielt werden kann
 > * IP Adressen müssen nach dem Update ggf. neu gesetzt werden

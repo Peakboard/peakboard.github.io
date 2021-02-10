@@ -23,25 +23,25 @@ footer: 2.7.0.0 (09.02.2021)
 * Rework für das [User Management] auf der Peakboard Box
 
 * Rework für die SharePointList-Datenquelle
-* Publish-Funktion für MQTT-Datenquellen zum Scripteditor hinzugefügt
+* Publish-Funktion für MQTT Datenquellen zum Scripteditor hinzugefügt
 * Variablen als Vergleichsoperator für bedingte Formatierung hinzugefügt
 * Empty States für alle Elemente überarbeitet
 * Rechtsklick Optionen wie Kopieren, Einfügen, Löschen,... für bedingte Formatierung hinzugefügt
 * QR Code Controls können direkt mit einer Datenquelle verknüpft werden
-* [Remove Columns] Dialog für Dataflows überarbeitet und Funktionionen für [Select All] und [Deselect All] hinzugefügt
+* [Remove Columns] Dialog für Dataflows überarbeitet und Funktionen für [Select All] und [Deselect All] hinzugefügt
 * Fix für einen Fehler, bei dem die [selectvalue]-Funktion eines DropDown-Controls nicht korrekt funktionierte
 * Fix für einen Fehler, bei dem die Eigenschaft [Max Rows] für die Peakboard Datenquelle ohne Funktion war
 * Fix für einen Fehler, bei dem es nicht möglich war, Datein unter [Ressources] in einen Ordner zu verschieben
 * Fix für einen Fehler, bei dem die Limitierung auf 50 Preview Datensätze bei der SQL-Datenquelle ohne Funktion war
 * Fix für einen Fehler, bei dem eine einzelne Variable aus einer Peakboard Datenquelle nicht in einem Skript verwendet werden konnte
-* Fix für einen Fehler, bei dem die Funktionen [Gruppieren] und [Sichtbar] in einem Tile-Control nicht genutzt werden konnten
+* Fix für einen Fehler, bei dem die Funktionen [Group] und [Hide] in einem Tile-Control nicht genutzt werden konnten
 * Fix für einen Fehler, bei dem das Textticker-Control nach einer bestimmten Länge nicht mehr ausgeführt wurde
 * Fix für einen Fehler, bei dem das Aufräumen der Ressourcen auf der Peakboard Box nicht korrekt ausgeführt wurde
 * Fix für einen Fehler, bei dem das Ändern der Rahmengröße per bedingter Formatierung dazu führte, dass der Rahmen verschwand
 * Fix für einen Fehler, bei dem die [Shared Connection] für eine OneDrive-Datenquelle nicht genutzt werden konnte
 * Fix für einen Fehler, bei dem das Anlegen einer [Ressource] mit einer [Shared Connection] dazu führte, dass die [Ressource] zweimal hinzugefügt wurde
 * Fix für einen Fehler, bei dem das Ändern der Ausrichtung eines ListView-Controls zu einem schweren Fehler führte
-* Fix für einen Fehler, bei dem der [Save-Button] für Skripte ohne Funktion war 
+* Fix für einen Fehler, bei dem der [Save]-Button für Skripte ohne Funktion war 
 * Fix für einen Fehler, bei dem das Duplizieren einer Datenquelle mit einem Refresh-Skript dazu führte, dass das Skript nicht ordentlich kopiert wurde
 * Fix für einen Fehler, bei dem das GoogleDocs-Control einen Fehler in der Lua Intellisense verursacht hat
 * Fix für einen Fehler, bei dem die Log-Dateien auf der Peakboard Box nicht korrekt sortiert wurden
