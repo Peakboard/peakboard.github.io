@@ -44,7 +44,9 @@ Wenn du keine neue Peakboard Box kaufst, kannst du folgendermaßen auf Peakboard
 
 {: .box-warning }
 **Beachte:**
->* Die Visualisierung muss vor dem Update unbedingt auf dem PC gesichert sein, damit sie nach dem Update wieder aufgespielt werden kann
->* IP Adressen müssen nach dem Update ggf. neu gesetzt werden
->* Proxy Settings müssen erneut durchgeführt werden
->* Bei einem [Update per USB-Stick](/misc/de-pb2USB.html) müssen vorab [Name und Lizenz](/administration/PB%202.x%20Box/de-lizenz-aendern.html) in einem seperaten Text-Dokument gespeichert werden
+* Die Visualisierung muss vor dem Update unbedingt auf dem PC gesichert sein, damit sie nach dem Update wieder aufgespielt werden kann
+* IP Adressen müssen nach dem Update ggf. neu gesetzt werden
+* Proxy Settings müssen erneut durchgeführt werden
+* Bei einem [Update per USB-Stick](/misc/de-pb2USB.html) müssen vorab [Name und Lizenz](/administration/PB%202.x%20Box/de-lizenz-aendern.html) in einem seperaten Text-Dokument gespeichert werden
+
+
