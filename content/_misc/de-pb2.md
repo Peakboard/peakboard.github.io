@@ -43,7 +43,7 @@ Wenn du keine neue Peakboard Box kaufst, kannst du folgendermaßen auf Peakboard
 * Austausch der bestehenden Hardware durch Peakboard Boxen auf denen Peakboard 2 läuft
 
 {: .box-warning }
->**Beachte:**
+**Beachte:**
 >* Die Visualisierung muss vor dem Update unbedingt auf dem PC gesichert sein, damit sie nach dem Update wieder aufgespielt werden kann
 >* IP Adressen müssen nach dem Update ggf. neu gesetzt werden
 >* Proxy Settings müssen erneut durchgeführt werden
