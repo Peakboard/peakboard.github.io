@@ -19,11 +19,12 @@ Die Installation läuft daraufhin völlig automatisch ab.
 Während des Setups erfolgt lediglich die Bitte den USB-Stick abzuziehen, um die Installation fortführen zu können. 
 Die Dauer der Installation beträgt circa 30 Minuten. 
 
-> ## Folgende Punkte gilt es vorab zu beachten:
-> * Die Box wird dabei auf Werkseinstellungen zurückgesetzt, alle Visualisierungen, die sich auf der Box befinden müssen, daher vorab gesichert werden! 
-> * Nach der Installation wird die [Box ID und die Lizenz](/administration/PB%202.x%20Box/de-lizenz-aendern.html) verlangt, diese Informationen müssen daher ebenfalls vorab gesichert werden! 
-> * Da die Installation automatisch durchgeführt wird, sollte der USB-Stick nur an Boxen angeschlossen werden, welche für das Update vorgesehen sind!
-> * Der USB-Stick sollte sicher verwahrt werden, um Missbrauch vorzubeugen!
+{: .box-warning }
+**Folgende Punkte gilt es vorab zu beachten:**  
+Die Box wird dabei auf Werkseinstellungen zurückgesetzt, alle Visualisierungen, die sich auf der Box befinden müssen, daher vorab gesichert werden! 
+Nach der Installation wird die [Box ID und die Lizenz](/administration/PB%202.x%20Box/de-lizenz-aendern.html) verlangt, diese Informationen müssen daher ebenfalls vorab gesichert werden! 
+Da die Installation automatisch durchgeführt wird, sollte der USB-Stick nur an Boxen angeschlossen werden, welche für das Update vorgesehen sind!
+Der USB-Stick sollte sicher verwahrt werden, um Missbrauch vorzubeugen!
 
 Nachdem das initiale Dashboard angezeigt wird, kann die Box über die dargestellte IP-Adresse mit dem Peakboard Designer verbunden werden.
 Dabei erfolgt die Aufforderung die zuvor gesicherte Lizenz sowie den Namen einzutragen.
