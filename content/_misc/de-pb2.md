@@ -42,11 +42,11 @@ Wenn du keine neue Peakboard Box kaufst, kannst du folgendermaßen auf Peakboard
 * [Upgrade der bestehenden Hardware mithilfe eines Peakboard 2 Upgrade USB-Sticks](/misc/de-pb2USB.html)
 * Austausch der bestehenden Hardware durch Peakboard Boxen auf denen Peakboard 2 läuft
 
-{: .box-warning }
-**Beachte:**
-* Die Visualisierung muss vor dem Update unbedingt auf dem PC gesichert sein, damit sie nach dem Update wieder aufgespielt werden kann
-* IP Adressen müssen nach dem Update ggf. neu gesetzt werden
-* Proxy Settings müssen erneut durchgeführt werden
-* Bei einem [Update per USB-Stick](/misc/de-pb2USB.html) müssen vorab [Name und Lizenz](/administration/PB%202.x%20Box/de-lizenz-aendern.html) in einem seperaten Text-Dokument gespeichert werden
+>{: .box-warning }
+>**Beachte:**
+>* Die Visualisierung muss vor dem Update unbedingt auf dem PC gesichert sein, damit sie nach dem Update wieder aufgespielt werden kann
+>* IP Adressen müssen nach dem Update ggf. neu gesetzt werden
+>* Proxy Settings müssen erneut durchgeführt werden
+>* Bei einem [Update per USB-Stick](/misc/de-pb2USB.html) müssen vorab [Name und Lizenz](/administration/PB%202.x%20Box/de-lizenz-aendern.html) in einem seperaten Text-Dokument gespeichert werden
 
 
