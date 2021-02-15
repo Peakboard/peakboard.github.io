@@ -507,16 +507,24 @@ html {
   border-radius: 4px;
 }
 
-.box-warning > strong {
+.box-warning strong {
   display: inline-block;
   margin-top: 0;
   font-weight: 900;
 }
 
-.box-warning > b {
+.box-warning b {
   display: inline-block;
   margin-top: 0;
   font-weight: 900;
+}
+
+.box-warning ul {
+  padding-left: 1rem !important;
+}
+
+.box-warning p {
+  display: inline-block;
 }
 
 .box-warning:before {
@@ -542,16 +550,24 @@ html {
   border-radius: 4px;
 }
 
-.box-tip > b {
+.box-tip b {
   display: inline-block;
   margin-top: 0;
   font-weight: 900;
 }
 
-.box-tip > strong {
+.box-tip strong {
   display: inline-block;
   margin-top: 0;
   font-weight: 900;
+}
+
+.box-tip ul {
+  padding-left: 1rem !important;
+}
+
+.box-tip p {
+  display: inline-block;
 }
 
 .box-tip:before {
