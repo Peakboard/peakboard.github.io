@@ -50,6 +50,7 @@ Trage bei [Pfad / Path] den Namen der Extension-Dll und im Projekt die [Extensio
 **Tipp**
 
 Am besten kopierst du dir einfach eine Extension.xml-Datei aus unseren Beispielen und modifizierst sie.
+</div>
 
 ## Extensions im Peakboard-Designer verwalten
 Um eine Extension in den Peakboard Designer einzuspielen, fügst du sie als zip-File in der Verwaltung der [Extensions] hinzu. 
