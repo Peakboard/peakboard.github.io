@@ -31,12 +31,6 @@ Erstelle nun ein zip-File, das an den Benutzer der Extension weitergegeben wird 
 * Alle zusätzlichen Ressourcen wie Bilder u.Ä.
 * Die Extension.xml-Datei, die die Extension beschreibt
 
-<div class="box-warning" markdown="1">
-**Beachte:**
-
-
-</div>
-
 ### Klassenarchitektur
 Um eine Extension zu bauen, sind mindestens zwei Klassen zu implementieren. 
 Eine, die von ExtensionBase erbt und eine, die von CustomListBase erbt. 
