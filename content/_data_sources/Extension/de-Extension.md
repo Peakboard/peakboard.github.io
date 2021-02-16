@@ -18,7 +18,7 @@ Sowohl für den Endkunden als auch für Hersteller von proprietären Software-L�
 Basis für eine Extension ist immer ein C#-.NET-Projekt, das eine klassische .NET-Dll erzeugt. Alle zu implementierenden Schnittstellen befinden sich in der Dll Peakboard.ExtensionKit.Dll. Die einfachste Möglichkeit für das Referenzieren, ist durch das Herunterladen des entsprechenden NuGet-Packages in Visual Studio, oder [unter diesem Link](https://www.nuget.org/packages/Peakboard.ExtensionKit/).
 Der Projekttyp in Visual Studio sollte “Classic Library” sein mit .NET Framework 4.6.2 oder höher. 
 
-<div class="box-note" markdown="1">
+<div class="box-tip" markdown="1">
 **Hinweis!**
 Wir empfehlen eines der Beispiele als Vorlage zu verwenden und nach deinen Wünschen zu modifizieren.
 </div>
@@ -32,6 +32,7 @@ Erstelle nun ein zip-File, das an den Benutzer der Extension weitergegeben wird 
 
 <div class="box-warning" markdown="1">
 **Beachte**
+
 Die Peakboard.ExtensionKit.dll darf NICHT in der zip-File enthalten sein
 </div>
 
@@ -45,8 +46,9 @@ Sie beschreibt die Metadaten der Extension.
 Wähle dazu am besten einen aussagekräftigen Namen ohne Sonderzeichen. 
 Trage bei [Pfad / Path] den Namen der Extension-Dll und im Projekt die [Extension Class] mit vorangestelltem Namespace ein.
 
-<div class="box-note" markdown="1">
+<div class="box-tip" markdown="1">
 **Tipp**
+
 Am besten kopierst du dir einfach eine Extension.xml-Datei aus unseren Beispielen und modifizierst sie.
 
 ## Extensions im Peakboard-Designer verwalten
@@ -55,6 +57,7 @@ Nach einem Neustart des Peakboard Designers, erscheint sie unter [Datenquellen /
 
 <div class="box-warning" markdown="1">
 **Achtung!**
+
 Es ist nicht nötig, die Peakboard Box in irgendeiner Form zu modifizieren. 
 Die Extension wird durch den Deploy-Vorgang eines Dashboards automatisch auf die Peakboard
 </div>
