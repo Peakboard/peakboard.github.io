@@ -9,7 +9,7 @@ ref: dat-2600
 redirect_from:
 ---
 
-## Die Idee hinter dem Extensions Kit
+## Die Idee hinter dem Extension Kit
 Peakboard bietet umfangreiche Möglichkeiten die verschiedensten Datenquellen anzubinden. 
 Sollte deine Datenquelle nicht dabei sein oder wäre der Skritping Aufwand zu groß, dann bietet dir das Extension-Kit eine einfache Möglichkeit, eigene Datenquellen zu entwickeln. 
 Sowohl für den Endkunden als auch für Hersteller von proprietären Software-Lösungen, die wiederum ihren Kunden eine einfache Möglichkeit bieten wollen, auf ihre Systeme zuzugreifen.
@@ -19,12 +19,12 @@ Basis für eine Extension ist immer ein C#-.NET-Projekt, das eine klassische .NE
 Der Projekttyp in Visual Studio sollte “Classic Library” sein mit .NET Framework 4.6.2 oder höher. 
 
 <div class="box-tip" markdown="1">
-**Hinweis!**
+**Tipp!**
 
 Wir empfehlen eines der Beispiele als Vorlage zu verwenden und nach deinen Wünschen zu modifizieren.
 </div>
 
-Erstelle nun ein zip-File, das an den Benutzer der Extension weitergegeben wird und folgende Dateien enthält:
+Erstelle nun ein zip-File, das an den Benutzer der Extension weitergegeben wird und folgende Dateien enthält, dabei darf die Peakboard.ExtensionKit.dll **NICHT** in der zip-File enthalten sein.:
 * Kompilierte Dll, die den Extension-Code enthält
 * Alle referenzierten Abhängigkeiten. Das gilt auch für Win32-Dlls, falls sie im Projekt verwendet werden
 * Die Peakboard.ExtensionKit.dll darf NICHT in der zip-File sein
@@ -34,7 +34,7 @@ Erstelle nun ein zip-File, das an den Benutzer der Extension weitergegeben wird 
 <div class="box-warning" markdown="1">
 **Beachte:**
 
-Die Peakboard.ExtensionKit.dll darf NICHT in der zip-File enthalten sein.
+
 </div>
 
 ## Klassenarchitektur
