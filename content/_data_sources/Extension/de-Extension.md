@@ -20,6 +20,7 @@ Der Projekttyp in Visual Studio sollte “Classic Library” sein mit .NET Frame
 
 <div class="box-tip" markdown="1">
 **Hinweis!**
+
 Wir empfehlen eines der Beispiele als Vorlage zu verwenden und nach deinen Wünschen zu modifizieren.
 </div>
 
@@ -31,9 +32,9 @@ Erstelle nun ein zip-File, das an den Benutzer der Extension weitergegeben wird 
 * Die Extension.xml-Datei, die die Extension beschreibt
 
 <div class="box-warning" markdown="1">
-**Beachte**
+**Beachte:**
 
-Die Peakboard.ExtensionKit.dll darf NICHT in der zip-File enthalten sein
+Die Peakboard.ExtensionKit.dll darf NICHT in der zip-File enthalten sein.
 </div>
 
 ## Klassenarchitektur
@@ -47,7 +48,7 @@ Wähle dazu am besten einen aussagekräftigen Namen ohne Sonderzeichen.
 Trage bei [Pfad / Path] den Namen der Extension-Dll und im Projekt die [Extension Class] mit vorangestelltem Namespace ein.
 
 <div class="box-tip" markdown="1">
-**Tipp**
+**Tipp:**
 
 Am besten kopierst du dir einfach eine Extension.xml-Datei aus unseren Beispielen und modifizierst sie.
 </div>
@@ -60,9 +61,11 @@ Nach einem Neustart des Peakboard Designers, erscheint sie unter [Datenquellen /
 **Achtung!**
 
 Es ist nicht nötig, die Peakboard Box in irgendeiner Form zu modifizieren. 
-Die Extension wird durch den Deploy-Vorgang eines Dashboards automatisch auf die Peakboard
+Die Extension wird durch den Deploy-Vorgang eines Dashboards automatisch auf die Peakboard Box geladen.
 </div>
 
 ## Beispiele
-In unseren [Github-Repository](https://github.com/Peakboard/PeakboardExtensions) findest du einige Extensions. Vorallem die Beispiele sind einfach gehalten und zeigen die anzuwendende Architektur anschaulich. Jede Extension liegt im Quellcode vor (Verzeichnis SourceCode) und als zip-File zum Einspielen (Binaries).
+In unseren [Github-Repository](https://github.com/Peakboard/PeakboardExtensions) findest du einige Extensions. 
+Vorallem die Beispiele sind einfach gehalten und zeigen die anzuwendende Architektur anschaulich. 
+Jede Extension liegt im Quellcode vor (Verzeichnis SourceCode) und als zip-File zum Einspielen (Binaries).
 
