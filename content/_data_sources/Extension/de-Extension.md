@@ -19,7 +19,7 @@ Basis für eine Extension ist immer ein C#-.NET-Projekt, das eine klassische .NE
 Der Projekttyp in Visual Studio sollte “Classic Library” sein mit .NET Framework 4.6.2 oder höher. 
 
 <div class="box-tip" markdown="1">
-**Tipp!**
+**Tipp:**
 
 Wir empfehlen eines der Beispiele als Vorlage zu verwenden und nach deinen Wünschen zu modifizieren.
 </div>

@@ -9,6 +9,8 @@ ref: dat-2700
 redirect_from:
 ---
 
+![Peakboard Edge](/assets/images/data-sources/peakboard-edge/peakboard-edge_technical-details_de.png)
+
 Peakboard Edge dient als Schnittstelle zwischen Ein- und Ausgaben und einer Peakboard Box. 
 
 Ein (oder mehrere) Peakboard Edge befinden sich im Netzwerk und kommuniziert mit einer (oder mehreren) Peakboard Enterprise Boxen. Die Box kann Informationen vom Peakboard Edge empfangen oder an dieses senden. Das Peakboard Edge stellt wiederum verschiedene Anschlussmöglichkeiten bereit.

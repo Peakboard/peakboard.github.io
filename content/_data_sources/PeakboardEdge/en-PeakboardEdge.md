@@ -9,6 +9,8 @@ ref: dat-2700
 redirect_from:
 ---
 
+![Peakboard Edge](/assets/images/data-sources/peakboard-edge/peakboard-edge_technical-details_en.png)
+
 Peakboard Edge serves as an interface between inputs and outputs and a Peakboard Box. 
 
 One (or more) Peakboard Edge are located in the network and communicate with one (or more) Peakboard Enterprise Boxes. The box can receive information from or send information to the Peakboard Edge. The Peakboard Edge in turn provides various connection options.
