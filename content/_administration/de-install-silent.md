@@ -10,17 +10,16 @@ redirect_from:
 
 ---
 
-Die Installation des Peakboard Designers und der Peakboard Bridge kann über die Kommandozeile erfolgen.
-Je nachdem wie das System konfiguriert ist, kann es sein, dass das User Account Control Fenster erscheint, bei dem bestätigt werden muss, dass dem Anbieter der Software vertraut wird.
+Die Installation des Peakboard Designers kann über die Kommandozeile erfolgen. 
+Falls das folgende Fenster erscheint, bestätige darin mit einem Klick auf [Yes / Ja], dass dem Anbieter der Software vertraut wird.
 
 ![Windows User Account Control Fenster](/assets/images/admin/install-silent/usercontrol.png)
 
-Nachfolgende Möglichkeiten ergeben sich für eine Silent Installation:
+### Silent Installation des Peakboard Designers
+Hierbei wird nur der Peakboard Designer und die für die Previewfunktion notwendige Peakboard Runtime installiert. 
+Die *PeakBoardDesignerSetup.exe* kann dabei von jedem beliebigen Verzeichnis aus aufgerufen werden. 
+Nachfolgende Kommandozeileneingabe illustriert wie die Installation im Silent Mode aus dem Verzeichnis [C:\Temp] heraus funktioniert:
 
-# Silent Installation des Peakboard Designers
-Hierbei wird lediglich der Peakboard Designer sowie die für die Previewfunktionalität notwendige Peakboard Runtime installiert. 
-Die PeakBoardDesignerSetup.exe kann dabei von jedem beliebigen Verzeichnis aus aufgerufen werden. 
-Nachfolgende Kommandozeileneingabe illustriert wie die Installation im Silent Mode aus dem Verzeichnis C:\Temp heraus funktioniert:
 
 ````markdown
     ```
@@ -28,31 +27,10 @@ Nachfolgende Kommandozeileneingabe illustriert wie die Installation im Silent Mo
     ```
 ````
 
-# Silent Installation des Peakboard Designers zusammen mit der Peakboard Bridge
-Hierbei handelt es sich um eine komplett Installation bei der der Peakboard Designer, die Peakboard Runtime sowie die Peakboard Bridge im Silent Mode installiert werden.
-Die Installation erfolgt analog zur Vorrangegangenen und wird lediglich um den Zusatz /b erweitert.
-
-````markdown
-    ```
-       "C:\Temp\PeakBoardDesignerSetup.exe" /b /S
-    ```
-````
-
-# Silent Installation der Peakboard Bridge
-Falls lediglich die Peakboard Bridge installiert werden soll, so kann diese über nachfolgendes Kommando ohne den Peakboard Designer und ohne Peakboard Runtime installiert werden.
-Die Installation erfolgt analog zu den Vorrangegangenen und wird lediglich um den Zusatz /bb erweitert.
-
-````markdown
-    ```
-       "C:\Temp\PeakBoardDesignerSetup.exe" /bb /S
-    ```
-````
-	
-# Silent Deinstallation
-Analog zur Installation kann auch die Deinstallation der Software im Silent Mode durchgeführt werden.
-Hierfür muss lediglich das Kommando auf den Pfad der uninst.exe angepasst werden.
-Standardmäßig erfolgt die Installation des Peakboard Designers unter "C:\Program Files\Peakboard". 
-Hier findet sich auch die uninst.exe.
+### Silent Deinstallation
+Analog zur Installation kann auch die Deinstallation der Software im Silent Mode durchgeführt werden. 
+Passe dafür das Kommando auf den Pfad der *uninst.exe* an. 
+Standardmäßig erfolgt die Installation des Peakboard Designers unter [C:\Program Files\Peakboard], wo du auch die *uninst.exe* findest
 
 ````markdown
     ```
@@ -60,7 +38,3 @@ Hier findet sich auch die uninst.exe.
     ```
 ````
 
-
-> ## Wichtig
->
-> Bei der Deinstallation des Designers wird immer auch die Bridge mit entfernt!
