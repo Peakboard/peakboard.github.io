@@ -141,8 +141,8 @@ collections:
   misc:
     output: true
     icon: plus-c.svg
-    position: 6
-    home_position: 6
+    position: 7
+    home_position: 7
     title:
       en: "Misc"
       de: "Misc"
@@ -159,11 +159,13 @@ collections:
       
   hub:
     output: true
-    position: 7
+    icon: question.svg
+    position: 6
+    home_position: 6
     title:
-      en:"Hub"
-      de:"Hub"
-      cn:"Hub"
+      en: "Hub"
+      de: "Hub"
+      cn: "Hub"
 
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
