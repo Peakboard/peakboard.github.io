@@ -151,7 +151,7 @@ collections:
   tutorials:
     output: true
     icon: question.svg
-    position: 7
+    position: 8
     title:
       en: "Tutorials"
       de: "Tutorials"
@@ -159,7 +159,7 @@ collections:
       
   hub:
     output: true
-    position: 8
+    position: 7
     title:
       en:"Hub"
       de:"Hub"
