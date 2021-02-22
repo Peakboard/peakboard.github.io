@@ -13,7 +13,7 @@ Im Bereich [Shared Variable Lists] erstellst du Tabellen, die sowohl zum Lesen v
 Gib dazu unter [Add Variable List] einen Namen für die Liste ein und definiere einen [Token](/hub/de-hub_tokens.html), der den Zugriff auf diese Liste gewährt. 
 Als nächstes legst du die gewünschten Spalten für die Tabelle an.
 
-![Shared Connections Bild 1](/assets/images/hub/hub_variableslist1.png) 
+![Shared Connections Bild 1](/assets/images/hub/hub_variableslist.png) 
 
 Wenn du den Dialog bestätigst, wird diese Liste angezeigt. 
 Du kannst sie durch einen Klick öffnen und Zeilen hinzufügen oder bearbeiten. 
