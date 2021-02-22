@@ -156,11 +156,15 @@ collections:
       en: "Tutorials"
       de: "Tutorials"
       cn: "教程"
-    sublevel:
-      Instant Boards:
-        en: "Instant Boards"
-        de: "Instant Boards"
-        cn: "Instant Boards"
+      
+  hub:
+    output: true
+    position: 8
+    title:
+      en:"Hub"
+      de:"Hub"
+      cn:"Hub"
+
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
 language:
