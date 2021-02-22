@@ -159,7 +159,7 @@ collections:
       
   hub:
     output: true
-    icon: question.svg
+    icon: hub.svg
     position: 6
     home_position: 6
     title:
