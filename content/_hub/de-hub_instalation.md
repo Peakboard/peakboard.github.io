@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Hub Installation  
-menu_title: Peakboard Hub Installation  
-description: Peakboard Hub Installation  
+title: Peakboard Hub - Installation  
+menu_title: Peakboard Hub - Installation  
+description: Peakboard Hub - Installation  
 lang: de
 weight: 100
 ref: hub-100
