@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Hub - Übersicht über die Verfügbarkeit von Peakboard Boxen 
-menu_title: Peakboard Hub - Übersicht über die Verfügbarkeit von Peakboard Boxen 
-description: Peakboard Hub - Übersicht über die Verfügbarkeit von Peakboard Boxen 
+title: Peakboard Hub - Verfügbarkeit von Peakboard Boxen einsehen
+menu_title: Peakboard Hub - Verfügbarkeit von Peakboard Boxen einsehen 
+description: Peakboard Hub - Verfügbarkeit von Peakboard Boxen einsehen 
 lang: de
 weight: 300
 ref: hub-300
