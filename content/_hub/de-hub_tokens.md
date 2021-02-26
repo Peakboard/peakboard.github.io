@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Hub - Erstellung von Tokens 
-menu_title: Peakboard Hub - Erstellung von Tokens 
-description: Peakboard Hub - Erstellung von Tokens 
+title: Peakboard Hub - Tokens erstellen
+menu_title: Peakboard Hub - Tokens erstellen 
+description: Peakboard Hub - Tokens erstellen 
 lang: de
 weight: 400
 ref: hub-400
