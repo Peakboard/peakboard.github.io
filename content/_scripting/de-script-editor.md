@@ -9,22 +9,20 @@ ref: scr-101
 redirect_from:
 ---
 
-Um komplexe [Lua-Skripte](/scripting/de-script-engine.html) zu erstellen, ist ein Editor notwendig. Der Designer liefert hierzu einen eigenen Skript-Editor. 
-
-Nachfolgende Abbildung illustriert diesen Editor am Beispiel eines Timer-Skripts.
-
-Der Aufbau ist hierbei für die Skripte [Timer](/scripting/de-script-types.html), [Globale Funktion](/scripting/de-script-types.html), [Globale Events](/scripting/de-script-types.html),[Bei Bildschirmaktivierung](/scripting/de-script-types.html), [Bei Datenaktualisierung](/scripting/de-script-types.html) oder [Für Controls](/scripting/de-script-types.html) nahezu identisch.
+Für komplexe [Lua-Skripte](/scripting/de-script-engine.html) liefert der Peakboard Designer einen eigenen Skript-Editor. 
+In der nachfolgenden Abbildung siehst du am Beispiel eines Timer-Skripts, wie der Skript-Editor aussieht, allerdings ist der Aufbau für alle [Peakboard Skript-Typen](/scripting/de-script-types.html) nahezu identisch. 
 
 ![Image01](/assets/images/scripting/editor/Scripting01.png)
 
-Oberhalb des Skript-Baums auf der rechten Seite (1) findet sich jeweils ein Button zum Aus- sowie einer zum Kommentieren.
+Oberhalb des Skript-Baums (1) findest du jeweils einen Button zum [comment out / auskommentieren] sowie einen zum [uncomment / entkommentieren]. 
 
-Die Lupe symbolisiert als dritter Button die Suche bzw. die Suchen und Ersetzen-Funktion, welche auch über die Tastenkombination Strg+f aufgerufen werden kann.
+Über die Lupe oder über die Tastenkombination [Strg+F] gelangst du zu [find / suche] und [replace / ersetzen] 
 
-Der Skript-Baum (2) enthält neben den Elementen des Explorers die Elemente Timer, Types, Runtime sowie einige der am häufigsten verwendeten Funktionen. Eine detaillierte Übersicht findet sich [hier](/scripting/de-script-tree.html).
+Der [Skript-Baum](/scripting/de-script-tree.html) (2) enthält neben den zuvor im Peakboard Designer angelegten Elementen des Explorers ([Data], [Variable], [Dataflows], [Screens] und [Ressources]) auch [Timer], [Types], [Runtime] sowie einige der am häufigsten verwendeten Funktionen. 
+Zuletzt findest du hier auch deine zuvor angelegten und [geteilten Verbindungen (Shared Connections)](/misc/de-shared-connection.html).
 
-Der Baum auf der linken Seite (3) ermöglicht es durch die verschiedenen Skripte zu navigieren, ohne den Editor dabei verlassen zu müssen. Eine detaillierte Übersicht der jeweiligen Skripte findet sich [hier](/scripting/de-script-types.html).
+Mithilfe der Ordner links (3) navigierst du durch die [verschiedenen Skripte](/scripting/de-script-types.html), ohne den Editor dabei verlassen zu müssen.
 
-Im mittleren Bereich (4) erfolgt die Eingabe des Skriptes.
+Nachdem du das Skript in der Mitte des Skript-Editors eingegeben hast (4), kannst du über [Validate / Validieren] prüfen, ob es korrekt ist (5). 
 
-Mit Hilfe der Validierungsfunktion (5) kann das angelegte Skript auf seine Korrektheit geprüft werden.
+Sollte dein Skript nicht korrekt funktionieren, so kannst du es mit dem Debugger (6) debuggen.

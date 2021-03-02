@@ -8,23 +8,21 @@ weight: 101
 ref: scr-101
 redirect_from:
 ---
-
-To create complex [Lua-Scripts](/scripting/en-script-engine.html) an editor is necessary. The Designer provides its own script editor for this purpose. 
-
-The following illustration illustrates this editor using the example of a timer script.
-
-The structure is for the scripts [Timer](/scripting/en-script-types.html), [Global Function](/scripting/en-script-types.html), [Global Events](/scripting/en-script-types.html),[On Screen Activation](/scripting/en-script-types.html), [On Data Update](/scripting/en-script-types.html) or [For Controls](/scripting/en-script-types.html).
+For complex [Lua scripts](/scripting/en-script-engine.html), the Peakboard Designer provides its own script editor. 
+In the following picture, you can see how the Peakboard Script Editor looks like, using a timer script as an example. 
+However, the structure is almost identical for [all Peakboard script types](/scripting/en-script-types.html). 
 
 ![Image01](/assets/images/scripting/editor/Scripting01.png)
 
-Above the script tree on the right side (1) there is a button for out and a button for commenting.
+Above the script tree on the right side (1) there is a button to [comment out] and a button for [uncommenting]. 
 
-The magnifying glass is the third button that symbolizes the Search, Search and Replace function, which can also be called using the key combination Ctrl+F.
+The magnifying glass leads you to the search, where you can [find] and [replace] elements. [Ctrl+F] also works. 
 
-The script tree (2) contains the elements Timer, Types, Runtime as well as some of the most frequently used functions. A detailed overview can be found [here](/scripting/en-script-tree.html).
+The [script tree](/scripting/en-script-tree.html) (2) contains the predefiened elements of the Peakboard Designer explorer (like, [Data], [Variable], [Dataflows], [Screens] and [Ressources]) as well as [timers], [types], [runtime] and some of the most frequently used functions.
+Last but not least you will find here your previously created and [shared connections](/misc/en-shared-connection.html).
 
-The tree on the left side (3) allows you to navigate through the different scripts without leaving the editor. A detailed overview of the scripts can be found [here](/scripting/en-script-types.html).
+Using the folders on the left (3) you can navigate through the [different scripts](/scripting/en-script-types.html) without leaving the editor.  
 
-In the middle area (4) you can enter the script.
+After you have entered the script in the middle of the script editor (4), you can check if it is correct via [Validate] (5). 
 
-With the help of the validation function (5) the created script can be checked for its correctness.
+If your script does not work correctly, you can debug it with the debugger (6).
