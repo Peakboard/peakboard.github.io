@@ -14,6 +14,4 @@ Unter der [Peakboard Hub URL] gibst du die URL an, unter der Peakboard Hub errei
 Nachdem du den Dialog bestätigt hast, sind die Verbindungsdaten im Peakboard Designer verfügbar und kannst sie in den jeweiligen Datendialogen nutzen. 
 Weitere Infos zu den geteilten Verbindungen findest du [hier](/misc/de-shared-connection.html). 
 
-![Shared Connections Bild 1](/assets/images/hub/hub_sharedconnection1.png) 
-
 ![Shared Connections Bild 2](/assets/images/hub/hub_sharedconnection2.png) 

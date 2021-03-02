@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Hub - Management der Peakboard Boxen  
-menu_title: Peakboard Hub - Management der Peakboard Boxen  
-description: Peakboard Hub - Management der Peakboard Boxen  
+title: Peakboard Hub - Peakboard Boxen managen
+menu_title: Peakboard Hub - Peakboard Boxen managen
+description: Peakboard Hub - Peakboard Boxen managen 
 lang: de
 weight: 200
 ref: hub-200
