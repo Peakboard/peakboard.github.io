@@ -44,6 +44,7 @@ Sie kann in den jeweiligen Datenquellendialogen über [Reuse existing connection
 
 <div class="box-warning" markdown="1">
 **Achtung!**
+
 In dem Moment, in dem private Verbindungen auf dem lokalen Rechner abgelegt werden, müssen diese durch ein Passwort verschlüsselt werden. 
 Um Missbrauch zu vermeiden, ist dieses Passwort bei jedem Designerstart einzugeben.
 </div> 

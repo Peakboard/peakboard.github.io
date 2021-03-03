@@ -45,7 +45,8 @@ The connection is then available for all new projects.
 It can be retrieved in the respective data source dialogs via [Reuse existing connection].  
 
 <div class="box-warning" markdown="1">
-**Attention**
+**Attention!**
+
 Protect your private shared connections with a password when storing them on the local computer. 
 To prevent misuse, this password must be entered every time you start the Peakboard Designer.  
 </div>
