@@ -8,13 +8,32 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.7.0.0 (09.02.2021)
+footer: 2.8.0.0 (08.03.2021)
 ---
   
-  
-  
-  
-## 2.7.0.0 (09.02.2021) [Download](https://peakboard.com/peakboard-designer/) 
+## 2.8.0.0 (08.03.2021) [Download](https://peakboard.com/peakboard-designer/) 
+* Stabilitätsanpassung für die Peakbaord Runtime-Überwachung
+* Stabilitätsanpassung für den Peakbaord Management Service
+* Schritt im Dataflow hinzugefügt, der es erlaubt mehrere Datentypen auf einmal zu ändern
+* User-Agent für Web Widget-Control und Webseiten-Control hinzugefügt
+* Die OAuth2 Authentifizierung erlaubt nun einen Implicit Grant Type
+* Möglichkeit hinzugefügt über eine geteilte MQTT-Datenquelle zu puplizieren
+* Variabeln/Listen erlauben nun die Verwendung von Unicode-Zeichen
+* Das PowerBi-Control kann nun im SharePoint freigegebene Dashboards verwenden
+* Fix für einen Fehler, bei dem es möglich war eine aktualle Peakboard Box endlos zu aktualisieren
+* Fix für einen Fehler, bei dem bei 4:3 Auflösungen die Skalierung nicht richtig durchgeführt wurde
+* Fix für einen Fehler, bei dem mehrfache Verbindungen zu einem MQTT-Broker aufgebaut wurden
+* Fix für einen Fehler, bei dem die Skript Funktion **.addmonth()** nicht korrekt ausgeführt wurde
+* Fix für einen Fehler, bei dem die OAuth2 Authentifizierung für den Type Grant die Email-Authentifizierung nicht akzeptierte
+* Fix für einen Fehler, bei dem die Authentifizierung in der OData-Datenquelle nicht funktionierte
+* Fix für einen Fehler, bei dem CSV-Daten nicht mehr von URL oder lokalen Netzwerk geladen werden konnten
+* Fix für einen Fehler, bei dem ein Circular Gauge-Diagram in einem TileView zu einem Absturz der Preview oder Peakboard Box geführt hat
+* Fix für einen Fehler, bei dem die Peakboard Hub und Peakboard Datenquelle nicht in einem Dataflow genutzt werden konnte
+* Fix für einen Fehler, bei dem Unicode-Zeichen innerhalb der Excel-Datenquelle nicht akzeptiert wurden
+* Fix für einen Fehler, bei dem ein Bild-Control innerhalb eines Tile-Controls zum Absturz des Peakboard Designers geführt hat
+* Fix für einen Fehler, bei dem das Neuladen einer Excel-Datenquelle die Datentypeinstellungen zurückgesetzt hat
+
+## 2.7.0.0 (09.02.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EoZnpEzOy4FInIVk-lDFuVgBrcMTaidBnaHa-UJhcQ2J_w?e=vwbWpU) 
 * Peakboard Hub List als Datenquelle für [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) hinzugefügt
 * Rework für die MQTT Datenquelle
 * Rework für interaktive [Controls]
