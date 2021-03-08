@@ -15,24 +15,25 @@ footer: 2.8.0.0 (08.03.2021)
 * Stability adjustment for Peakboard runtime monitoring
 * Stability adjustment for Peakboard Management Service
 * Added step in Dataflow that allows to change multiple data types at once
-* Added user agent for web widget control and web page control
-* OAuth2 authentication now allows implicit grant type
-* Added ability to publish via a shared MQTT data source
-* Variables/Lists now allow the use of Unicode characters
-* PowerBi control can now use dashboards shared in SharePoint
-* Fix for a bug where it was possible to update an updated Peakboard Box endlessly
+* Added user agent for [web widget control](/controls/Extended/en-web-widget.html) and [web page control](/controls/Extended/en-webpage.html)
+* OAuth2 authentication now allows an implicit grant type
+* Added ability to publish via a shared [MQTT data source](/data_sources/de-mqtt-broker.html)
+* [Variables/Lists](/scripting/en-variables.html) now allow the use of Unicode characters
+* The [PowerBi control](/controls/Extended/en-power-bi.html) can now use dashboards shared in SharePoint
+* Fix for a bug where it was possible to update an updated Peakboard box endlessly
 * Fix for a bug where scaling was not done correctly at 4:3 resolutions
 * Fix for a bug where multiple connections to a MQTT broker were established
-* Fix for a bug where the script function **.addmonth()** was not executed correctly
+* Fix for a bug where the script function [addmonth()] was not executed correctly
 * Fix for a bug where OAuth2 authentication for the type grant did not accept email authentication
 * Fix for a bug where authentication did not work in the OData data source
 * Fix for a bug where CSV data could no longer be loaded from URL or local network
-* Fix for a bug where a Circular Gauge diagram in a TileView caused the Preview or Peakboard Box to crash
+* Fix for a bug where a Circular Gauge diagram in a TileView caused the Preview or Peakboard box to crash
 * Fix for a bug where the Peakboard Hub and Peakboard data source could not be used in a dataflow
 * Fix for a bug where Unicode characters were not accepted within the Excel data source
 * Fix for a bug where an image control within a Tile control caused Peakboard Designer to crash
 * Fix for a bug where reloading an Excel data source reset the data type settings
 
+Translated with www.DeepL.com/Translator (free version)
   
   
 ## 2.7.0.0 (02/09/2021) [Download](https://peakboard.com/peakboard-designer/) 

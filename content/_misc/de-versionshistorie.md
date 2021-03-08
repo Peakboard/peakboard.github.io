@@ -15,15 +15,15 @@ footer: 2.8.0.0 (08.03.2021)
 * Stabilitätsanpassung für die Peakbaord Runtime-Überwachung
 * Stabilitätsanpassung für den Peakbaord Management Service
 * Schritt im Dataflow hinzugefügt, der es erlaubt mehrere Datentypen auf einmal zu ändern
-* User-Agent für Web Widget-Control und Webseiten-Control hinzugefügt
+* User-Agent für [Web Widget-Control](/controls/Extended/de-web-widget.html) und [Webseiten-Control](/controls/Extended/de-webpage.html) hinzugefügt
 * Die OAuth2 Authentifizierung erlaubt nun einen Implicit Grant Type
-* Möglichkeit hinzugefügt über eine geteilte MQTT-Datenquelle zu puplizieren
-* Variabeln/Listen erlauben nun die Verwendung von Unicode-Zeichen
-* Das PowerBi-Control kann nun im SharePoint freigegebene Dashboards verwenden
+* Möglichkeit hinzugefügt über eine geteilte [MQTT-Datenquelle](/data_sources/de-mqtt-broker.html) zu puplizieren
+* [Variabeln/Listen](/scripting/de-variables.html) erlauben nun die Verwendung von Unicode-Zeichen
+* Das [PowerBi-Control](/controls/Extended/de-power-bi.html) kann nun im SharePoint freigegebene Dashboards verwenden
 * Fix für einen Fehler, bei dem es möglich war eine aktualle Peakboard Box endlos zu aktualisieren
 * Fix für einen Fehler, bei dem bei 4:3 Auflösungen die Skalierung nicht richtig durchgeführt wurde
 * Fix für einen Fehler, bei dem mehrfache Verbindungen zu einem MQTT-Broker aufgebaut wurden
-* Fix für einen Fehler, bei dem die Skript Funktion **.addmonth()** nicht korrekt ausgeführt wurde
+* Fix für einen Fehler, bei dem die Skript Funktion [addmonth()] nicht korrekt ausgeführt wurde
 * Fix für einen Fehler, bei dem die OAuth2 Authentifizierung für den Type Grant die Email-Authentifizierung nicht akzeptierte
 * Fix für einen Fehler, bei dem die Authentifizierung in der OData-Datenquelle nicht funktionierte
 * Fix für einen Fehler, bei dem CSV-Daten nicht mehr von URL oder lokalen Netzwerk geladen werden konnten
