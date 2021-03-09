@@ -18,22 +18,23 @@ footer: 2.8.0.0 (08.03.2021)
 * Schritt im Dataflow hinzugefügt, der es erlaubt mehrere Datentypen auf einmal zu ändern
 * User-Agent für [Web Widget-Control](/controls/Extended/de-web-widget.html) und [Webseiten-Control](/controls/Extended/de-webpage.html) lässt sich definieren
 * Die OAuth2 Authentifizierung erlaubt nun einen Implicit Grant Type
-* Möglichkeit hinzugefügt über geteilte [MQTT-Datenquelle](/data_sources/de-mqtt-broker.html) zu puplizieren
+* Möglichkeit hinzugefügt über geteilte [MQTT-Datenquellen](/data_sources/de-mqtt-broker.html) zu publizieren
 * Geteilte MQTT-Verbindungen nutzen nun eine einzige gemeinsame Verbindung
 * [Variabeln/Listen](/scripting/de-variables.html) erlauben nun die Verwendung von Unicode-Zeichen
 * Das [PowerBi-Control](/controls/Extended/de-power-bi.html) kann nun im SharePoint freigegebene Dashboards verwenden
-* Fix für einen Fehler, bei dem es möglich war eine aktualle Peakboard Box endlos zu aktualisieren
+* Fix für einen Fehler, bei dem es möglich war, eine aktuelle Peakboard Box endlos zu aktualisieren
 * Fix für einen Fehler, bei dem bei abweichenden Bildschirmauflösungen die Skalierung auf der Peakboard Box nicht richtig durchgeführt wurde
 * Fix für einen Fehler, bei dem mehrfache Verbindungen zu einem MQTT-Broker aufgebaut wurden
 * Fix für einen Fehler, bei dem die Skript Funktion [addmonth()] nicht korrekt ausgeführt wurde
-* Fix für einen Fehler, bei dem die OAuth2 Authentifizierung für den Type Grant die Email-Authentifizierung nicht akzeptierte
+* Fix für einen Fehler, bei dem die OAuth2 Authentifizierung für den Type Grant die E-Mail-Authentifizierung nicht akzeptierte
 * Fix für einen Fehler, bei dem die Authentifizierung in der OData-Datenquelle nicht funktionierte
 * Fix für einen Fehler, bei dem CSV-Daten nicht mehr von URL oder lokalen Netzwerk geladen werden konnten
 * Fix für einen Fehler, bei dem ein Circular Gauge-Diagram zu einem Absturz der Preview oder Peakboard Box geführt hat
 * Fix für einen Fehler, bei dem die Peakboard Hub und Peakboard Datenquelle nicht in einem Dataflow genutzt werden konnte
 * Fix für einen Fehler, bei dem Unicode-Zeichen innerhalb der Excel-Datenquelle nicht akzeptiert wurden
 * Fix für einen Fehler, bei dem ein Bild-Control innerhalb eines Tile-Controls zum Absturz des Peakboard Designers geführt hat
-* Fix für einen Fehler, bei dem das Neuladen einer Excel-Datenquelle die Datentypeinstellungen zurückgesetzt hat
+* Fix für einen Fehler, bei dem das Neu laden einer Excel-Datenquelle die Datentypeinstellungen zurückgesetzt hat
+
 
 ## 2.7.0.0 (09.02.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EoZnpEzOy4FInIVk-lDFuVgBrcMTaidBnaHa-UJhcQ2J_w?e=vwbWpU) 
 * Peakboard Hub List als Datenquelle für [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) hinzugefügt
