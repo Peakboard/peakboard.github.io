@@ -11,33 +11,33 @@ redirect_from:
 footer: 2.8.0.0 (08.03.2021)
 ---
   
-## 2.8.0.0 (08/03/2021) [Download](https://peakboard.com/peakboard-designer/) 
-* Stability adjustment for Peakboard runtime monitoring
+## 2.8.0.0 (08.03.2021) [Download](https://peakboard.com/peakboard-designer/) 
+* Rework for the [Advanced-Chart-Control](/controls/Chart/en-advanced-chart.html)
+* Stability adjustment for Peakboard Runtime monitoring
 * Stability adjustment for Peakboard Management Service
-* Added step in Dataflow that allows to change multiple data types at once
-* Added user agent for [web widget control](/controls/Extended/en-web-widget-html.html) and [web page control](/controls/Extended/en-webpage.html)
+* Added step in dataflow that allows to change multiple data types at once
+* User-Agent for [Web Widget-Control](/controls/Extended/en-web-widget.html) and [Web Page-Control](/controls/Extended/en-webpage.html) can be defined
 * OAuth2 authentication now allows an implicit grant type
-* Added ability to publish via a shared [MQTT data source](/data_sources/de-mqtt-broker.html)
+* Added ability to publish via shared [MQTT data source](/data_sources/en-mqtt-broker.html)
+* Shared MQTT connections now use a single shared connection
 * [Variables/Lists](/scripting/en-variables.html) now allow the use of Unicode characters
 * The [PowerBi control](/controls/Extended/en-power-bi.html) can now use dashboards shared in SharePoint
-* Fix for a bug where it was possible to update an updated Peakboard box endlessly
-* Fix for a bug where scaling was not done correctly at 4:3 resolutions
+* Fix for a bug where it was possible to update an updated Peakboard Box endlessly
+* Fix for a bug where the scaling on the Peakboard Box was not done correctly with different screen resolutions
 * Fix for a bug where multiple connections to a MQTT broker were established
 * Fix for a bug where the script function [addmonth()] was not executed correctly
 * Fix for a bug where OAuth2 authentication for the type grant did not accept email authentication
 * Fix for a bug where authentication did not work in the OData data source
 * Fix for a bug where CSV data could no longer be loaded from URL or local network
-* Fix for a bug where a Circular Gauge diagram in a TileView caused the Preview or Peakboard box to crash
+* Fix for a bug where a circular gauge diagram caused the preview or Peakboard Box to crash
 * Fix for a bug where the Peakboard Hub and Peakboard data source could not be used in a dataflow
 * Fix for a bug where Unicode characters were not accepted within the Excel data source
 * Fix for a bug where an image control within a Tile control caused Peakboard Designer to crash
 * Fix for a bug where reloading an Excel data source reset the data type settings
-
-Translated with www.DeepL.com/Translator (free version)
   
   
-## 2.7.0.0 (02/09/2021) [Download](https://peakboard.com/peakboard-designer/) 
-* Added Peakboard Hub List as data source for [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/)
+## 2.7.0.0 (02/09/2021) [Download](https://Peakboard.com/Peakboard-designer/) 
+* Added Peakboard Hub List as data source for [Peakboard Hub](https://Peakboard.com/produkt/Peakboard-hub/)
 * Rework for MQTT data source
 * Rework for interactive [Controls]
 * Data Sources UI Rework 
@@ -66,10 +66,10 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for a bug where the [Save button] for scripts was without function 
 * Fix for a bug where duplicating a data source with a refresh script resulted in the script not being copied properly
 * Fix for a bug where the GoogleDocs control caused an error in the Lua Intellisense
-* Fix for a bug where the log files on the Peakboard box were not sorted correctly
+* Fix for a bug where the log files on the Peakboard Box were not sorted correctly
 * Fix for a bug where the preview was run on a different monitor than the Peakboard Designer
 
-## 2.6.2.0 (17.12.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ejzogw8wAfFIkKfyq_iKMMEB1CM2pSuQXSpg9MKHOHfNjQ?e=oW3wim)
+## 2.6.2.0 (17.12.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/Peakboardpublic/Ejzogw8wAfFIkKfyq_iKMMEB1CM2pSuQXSpg9MKHOHfNjQ?e=oW3wim)
 * Hotfix for a bug in the XML data source where the data was not loaded.
 * Hotfix for a bug where changing the JSON, XML, CSV headers was not applied.
 
@@ -105,7 +105,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Hotfix for an error where the SAP data source was opened empty after an error
 
 ## 2.5.0.0 (20.10.2020)
-* Peakboard 1 preview, as well as update for Peakboard 1 boxes removed
+* Peakboard 1 preview, as well as update for Peakboard 1 Boxes removed
 * Peakboard Bridge removed from the update process
 * Added automatic restart if the Peakboard 2 Box application crashes
 * SharePoint data source permissions reduced
@@ -134,7 +134,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for an error where the webpage control could not be used with authentication "none
 * Fix for an error where uninstalling Peakboard Designer was not correctly completed
 
-## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=BRL3y0)
+## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/Peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=BRL3y0)
 * Hotfix for an error in the SQL data source dialog
 * Hotfix for an error with http-put requests
 
@@ -168,7 +168,7 @@ Translated with www.DeepL.com/Translator (free version)
 * SharePoint data sources dialog revised
 * Mail data sources dialog revised
 * Textticker-Control revised
-* Icons in box properties dialog revised
+* Icons in Box properties dialog revised
 * Sorting of the log files of the Peakboard Boxes revised
 * The reload interval of the JSON data source can now be set to >1 second
 * The gateway option has been removed from the SAP data source
@@ -177,18 +177,18 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for an error where no custom font could be assigned to the axes of a bar chart
 * Fix for an error where the datarowloaded event was not executed correctly
 * Fix for an error where proxy authentication was not used when uploading a visualization
-* Fix for an error where the connection between box and Manage dialog was not disconnected properly
+* Fix for an error where the connection between Box and Manage dialog was not disconnected properly
 * Fix for an error where a wrong threat was assigned to a script
 * Fix for an error where too much memory was used
 * Fix for an error where the folder property was ignored in the mail data source
 * Fix for an error that occurred when copying an element with its own font
-* Fix for an error in the peakboard data source
+* Fix for an error in the Peakboard data source
 * Fix for an error where no variables or dataflows could be used with the Peakboard Basic Box
 * Fix for an error where the order of the last opened visualizations was not correct
 * Fix for an error where diagrams were copied with incorrect colors and fonts
 * Fix for handling a fatal error
 * Fix for an error where the Manage dialog used the DNS name instead of the IP address
-* Fix for an error where the script function peakboard.restart() had no function
+* Fix for an error where the script function Peakboard.restart() had no function
 * Fix for an error where Peakboard Designer crashed when accessing an unconnected Peakboard Edge Box
 * Fix for an error where renaming a data source was not applied to the corresponding refresh script
 * Fix for an error where the X and Y axis designation of an advanced chart was lost
@@ -213,7 +213,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for an error where the refresh script for the mail data source was not executed
 * Fix for a bug where the Visibilty property
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/EUGQRR7M8W5Ej5ukKhI45fQBDAGRBJToERgRKib2BfINhw?e=PBN4Zy)
 * Hotfix for memory errors
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020)
@@ -236,10 +236,10 @@ Translated with www.DeepL.com/Translator (free version)
 * Icon Control revised and more icons added
 * Obsolete slack data source removed
 * Plug-in platform implemented to support specially developed data sources
-* WLAN dialog for Peakboard 2 boxes revised
+* WLAN dialog for Peakboard 2 Boxes revised
 * Error message for obsolete visualizations adapted
-* Added upgrade notification when updating Peakboard 1 boxes
-* Fix for an error where the password of the Peakboard 2 box could not be changed correctly
+* Added upgrade notification when updating Peakboard 1 Boxes
+* Fix for an error where the password of the Peakboard 2 Box could not be changed correctly
 * Fix for Tile and TileView control
 * Fix for multiple access to local resources
 * Fix for an error when selecting a data source for a control
@@ -255,7 +255,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for an error where the broadcast of the Peakboard 2 Box was not executed correctly
 * Fix for an error where the Textticker-Control and the DropDown-Control were not executed correctly
 
-## 2.2.4.2 / 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
+## 2.2.4.2 / 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/EfQyi0GFHAtGus9DFknb0ssBXsLk98ATOn_IMfkt7qq1tA?e=v0KQIj)
 * Hotfix for the use of local network resources
 * Hotfix for an error in the Excel data source where the use of local network files did not work correctly
 
@@ -279,7 +279,7 @@ Translated with www.DeepL.com/Translator (free version)
 * CSV data source revised
 * XML data source revised
 * Excel data source marker added for selecting the data type
-* Device portal for Peakboard 2 boxes removed
+* Device portal for Peakboard 2 Boxes removed
 * License model extended by Peakboard Basic and revised for Professional and Enterprise
 * SharePoint data source documents of the main page are now available
 * Icons in Manage&Upload dialog updated
@@ -296,7 +296,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for an error in the dataflow where the manipulation of the data was not displayed in the designer
 * Fix for an error in the SQL data source where null values were not processed correctly
 * Fix for an error where an SQL database was temporarily locked after the Peakboard Box lost the connection due to a power loss
-* Fix for an error where the IP of Peakboard 2 boxes was not saved in the designer
+* Fix for an error where the IP of Peakboard 2 Boxes was not saved in the designer
 * Fix for an error where a locked element on the drawing area prevented the processing of an underlying element
 * Fix for an error where Peakboard 2 Preview could not run on a Windows 7 device
 
@@ -345,7 +345,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for an error where the preview scaling was not displayed correctly
 
  
-## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EaC8Bc2W-15HrXrYbCu9BL4BRIZaEQrhMuwUWzQMJMMBjQ?e=pFFAgz)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/EaC8Bc2W-15HrXrYbCu9BL4BRIZaEQrhMuwUWzQMJMMBjQ?e=pFFAgz)
 * Differentiation in versioning for Peakboard 2 Boxes (2.x.x.x) and Peakboard Boxes (1.x.x.x)  
 * Change of Peakboard Runtime (Preview) architecture from UWP to WPF
 * Abolition of the Peakboard Bridge for Peakboard 2 Boxes
@@ -372,7 +372,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for an error when copying an OPC/UA data source
 * Fix for script error messages in Peakboard Runtime Log
 
-## 1.8.7.0 (31.01.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
+## 1.8.7.0 (31.01.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
 * Hotfix for an Excel data source error that caused the Excel data source not to load the data when no column names were selected
 
 ## 1.8.6.0 (14.01.2020)
@@ -411,7 +411,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for incorrect assignment of IPv6 addresses
 * Fix for handling resources via the Peakboard Bridge
 
-## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EVc9Kqf3pWlLsxFJ8D8ZWhMB4u6rmd5MgSYRigChfvJ4jA?e=I9T6Bu)
+## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/EVc9Kqf3pWlLsxFJ8D8ZWhMB4u6rmd5MgSYRigChfvJ4jA?e=I9T6Bu)
 * Hotfix for Template Designer
 
 ## 1.7.0.0 (28.10.2019)
@@ -428,7 +428,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Image preview no longer distorts the image
 * Icons in the property editor have been revised
 * Silent Installation has been optimized
-* Added global function for peakboard communication
+* Added global function for Peakboard communication
 * Locked controls can now be selected via the Explorer
 * The installer is now multilingual
 * Fix at installer if only bridge was installed
@@ -440,7 +440,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for the time data source
 * Fix for the color picker when changing the values in the text field
 
-## 1.6.4.0 (18.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
+## 1.6.4.0 (18.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
 * The default setting for the Designer theme was reverted to "Light" mode.
 
 ## 1.6.3.0 (17.10.2019)
@@ -464,14 +464,14 @@ Translated with www.DeepL.com/Translator (free version)
 * scripts can be deleted or edited by right-clicking on the corresponding script
 * script editor: memory message for successful saving removed
 * Tablegrid: multiple selection for deleting columns added
-* Fix for writing the display value of combo box elements
+* Fix for writing the display value of combo Box elements
 * Fix for using a bridge resource image as background for a visualization
 * Fix for Drag&Drop functionality of Tile, TileView and ListView elements
 * Fix for saving custom fonts
 * Fix for copying elements with a refresh script
 * Fix for opening files 
 
-## 1.5.3.9 (07.08.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
+## 1.5.3.9 (07.08.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
 * Fixed a problem in the SQL server data source, where NULL values where not handled correctly
 
 ## 1.5.3.1 (06.08.2019)
@@ -520,7 +520,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for scripts which are executed during screen activation
 * Fix in script editor for global functions 
 
-## 1.3.1.0 (29.05.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
+## 1.3.1.0 (29.05.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/Peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
 * Hotfix for saving colors for circle and donut diagrams
 
 ## 1.3.0.0 (21.05.2019)
@@ -543,7 +543,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Added web service icon to the Manage dialog
 * Save button works analogous to "Save as", if the current visualization has not yet been saved.
 * Bridge function for NetworkShareFileDirect of Excel data source removed
-* Message for the adjustment of the designer and box version implemented
+* Message for the adjustment of the designer and Box version implemented
 * Added tapped event for text controls
 * Fix for calendar data source
 * Fix for the web interface for browser access
@@ -565,7 +565,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Selection of several variables for the OPC-UA data source
 * After installation of the Peakboard Runtime was added to the setup
 * Version comparison of runtime and designer implemented
-* The text box control can be filled with multiple lines
+* The text Box control can be filled with multiple lines
 * Revision of last opened files
 * Screenshot of last opened files added
 * Color selection compressed and last used colors added
@@ -578,7 +578,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Improved highlighting for active screen
 * After duplicating a screen, the duplicated screen is set to the active screen
 * Fix for an error when reloading a visualization from a Box
-* Fix for saving lists on the box 
+* Fix for saving lists on the Box 
 * Fix for "default" type time data sources
 * Fix for switching an ODBC connection to an Oracle connection
 * Fix for Lua code examples
@@ -639,7 +639,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Fix for display when using a resolution of 1280*720
 * Fix for read errors in the S7 data source
 * Fix for the input of RGB values
-* Fix for deploy to multiple boxes
+* Fix for deploy to multiple Boxes
 * Fix for Google Docs Control
 
 ## 1.0.34.7 (18.01.2019)
@@ -685,7 +685,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Linear Gauge can be used with vertical Orientation
 * Added new Templates
 * JSON Datasource reworked and added Networksharefiles
-* Added Shadow Frame to Textbox
+* Added Shadow Frame to TextBox
 * Dataflows can be putted to Folders
 * Removed Google Anaylitcs control
 * Fix for SAP Dialog height with low resolution
@@ -718,8 +718,8 @@ Translated with www.DeepL.com/Translator (free version)
 
 ## 1.0.29.0 (29.10.2018)
 
-* The dialog for managing the boxes in the network has been revised so that all actions that can be performed with a Peakboard box are in one dialog.
-* A user management system for Peakboard boxes has been added
+* The dialog for managing the Boxes in the network has been revised so that all actions that can be performed with a Peakboard Box are in one dialog.
+* A user management system for Peakboard Boxes has been added
 * The JSON data source now stores sample data of the preview dialog for dataflows
 * Minor changes to the dialog for editing fonts
 * The fonts can now be adjusted in the Excel chart
@@ -772,7 +772,7 @@ Translated with www.DeepL.com/Translator (free version)
 
 ## 1.0.27.17 (18.09.2018)
 
-* Fixed a problem, where the Peakboard box had to do a reboot to active speech recognition after deployment
+* Fixed a problem, where the Peakboard Box had to do a reboot to active speech recognition after deployment
 * Fixed a bug, which occured during runtime installation on Windows Server 2016
 
 ## 1.0.27.10 (14.09.2018)
@@ -1124,7 +1124,7 @@ Translated with www.DeepL.com/Translator (free version)
 * Double-clicking a button now opens the script editor
 * Data changes that cause changes in controls can now be disabled
 * Additional templates have been added
-* Dropbox API V. 1 Usage replaced by V. 2
+* DropBox API V. 1 Usage replaced by V. 2
 * Fix for Global Lua functions
 * Fix for the validator in Global Lua scripts
 
@@ -1154,8 +1154,8 @@ Translated with www.DeepL.com/Translator (free version)
 * Peakboard can now record voice commands via microphone
 * Peakboard can now send data to an S7 controller
 * New templates were added and the existing templates were revised
-* Values of variables can now be stored on the box for the long term
-* Global properties for boxes have been added
+* Values of variables can now be stored on the Box for the long term
+* Global properties for Boxes have been added
 * Global properties for boards have been added
 * Some GUI icons have been reworked
 * Values of gauges can now be hidden

@@ -12,22 +12,24 @@ footer: 2.8.0.0 (08.03.2021)
 ---
   
 ## 2.8.0.0 (08.03.2021) [Download](https://peakboard.com/peakboard-designer/) 
-* Stabilitätsanpassung für die Peakbaord Runtime-Überwachung
-* Stabilitätsanpassung für den Peakbaord Management Service
+* Rework für das [Advanced-Chart-Control](/controls/Chart/de-advanced-chart.html)
+* Stabilitätsanpassung für die Peakboard Runtime-Überwachung
+* Stabilitätsanpassung für den Peakboard Management Service
 * Schritt im Dataflow hinzugefügt, der es erlaubt mehrere Datentypen auf einmal zu ändern
-* User-Agent für [Web Widget-Control](/controls/Extended/de-web-widget.html) und [Webseiten-Control](/controls/Extended/de-webpage.html) hinzugefügt
+* User-Agent für [Web Widget-Control](/controls/Extended/de-web-widget.html) und [Webseiten-Control](/controls/Extended/de-webpage.html) lässt sich definieren
 * Die OAuth2 Authentifizierung erlaubt nun einen Implicit Grant Type
-* Möglichkeit hinzugefügt über eine geteilte [MQTT-Datenquelle](/data_sources/de-mqtt-broker.html) zu puplizieren
+* Möglichkeit hinzugefügt über geteilte [MQTT-Datenquelle](/data_sources/de-mqtt-broker.html) zu puplizieren
+* Geteilte MQTT-Verbindungen nutzen nun eine einzige gemeinsame Verbindung
 * [Variabeln/Listen](/scripting/de-variables.html) erlauben nun die Verwendung von Unicode-Zeichen
 * Das [PowerBi-Control](/controls/Extended/de-power-bi.html) kann nun im SharePoint freigegebene Dashboards verwenden
 * Fix für einen Fehler, bei dem es möglich war eine aktualle Peakboard Box endlos zu aktualisieren
-* Fix für einen Fehler, bei dem bei 4:3 Auflösungen die Skalierung nicht richtig durchgeführt wurde
+* Fix für einen Fehler, bei dem bei abweichenden Bildschirmauflösungen die Skalierung auf der Peakboard Box nicht richtig durchgeführt wurde
 * Fix für einen Fehler, bei dem mehrfache Verbindungen zu einem MQTT-Broker aufgebaut wurden
 * Fix für einen Fehler, bei dem die Skript Funktion [addmonth()] nicht korrekt ausgeführt wurde
 * Fix für einen Fehler, bei dem die OAuth2 Authentifizierung für den Type Grant die Email-Authentifizierung nicht akzeptierte
 * Fix für einen Fehler, bei dem die Authentifizierung in der OData-Datenquelle nicht funktionierte
 * Fix für einen Fehler, bei dem CSV-Daten nicht mehr von URL oder lokalen Netzwerk geladen werden konnten
-* Fix für einen Fehler, bei dem ein Circular Gauge-Diagram in einem TileView zu einem Absturz der Preview oder Peakboard Box geführt hat
+* Fix für einen Fehler, bei dem ein Circular Gauge-Diagram zu einem Absturz der Preview oder Peakboard Box geführt hat
 * Fix für einen Fehler, bei dem die Peakboard Hub und Peakboard Datenquelle nicht in einem Dataflow genutzt werden konnte
 * Fix für einen Fehler, bei dem Unicode-Zeichen innerhalb der Excel-Datenquelle nicht akzeptiert wurden
 * Fix für einen Fehler, bei dem ein Bild-Control innerhalb eines Tile-Controls zum Absturz des Peakboard Designers geführt hat
@@ -218,7 +220,7 @@ footer: 2.8.0.0 (08.03.2021)
 * Fix für einen Fehler, der durch den Dataflow-Schritt "switch Columns/Rows" verursacht wurde
 * Fix für einen Fehler, bei dem Listenelemente mit der Peakboard API nicht mehr bearbeitet werden konnten
 * Fix für einen Fehler, bei dem die Peakboard Boxen kurzeitig nicht erreichbar waren
-* Fix für einen Fehler, bei dem der Name einer Peakbaord Box auch ohne speichern gespeichert wurde
+* Fix für einen Fehler, bei dem der Name einer Peakboard Box auch ohne speichern gespeichert wurde
 * Fix für einen Fehler, bei dem Peakboard Boxen mehrfach hinzugefügt werden konnten
 * Fix für einen Fehler, bei dem in der JSON-Datenquelle keine URL per Code definiert werden konnte
 * Fix für einen Fehler, bei dem der Skript-Editor falsch skaliert dargestellt wurde
@@ -253,7 +255,7 @@ footer: 2.8.0.0 (08.03.2021)
 * WLAN-Dialog für Peakboard 2 Boxen überarbeitet
 * Fehlermeldung für veraltete Visualisierungen angepasst
 * Upgrade Benachrichtigung beim Update von Peakboard 1 Boxen hinzugefügt
-* Fix für einen Fehler bei dem das Passwort der Peakbaord 2 Box nicht korrekt geändert werden konnte
+* Fix für einen Fehler bei dem das Passwort der Peakboard 2 Box nicht korrekt geändert werden konnte
 * Fix für Tile und TileView-Control
 * Fix für den mehrfachen Zugriff auf lokale Ressourcen
 * Fix für einen Fehler beim Auswählen einer Datenquelle für ein Control
