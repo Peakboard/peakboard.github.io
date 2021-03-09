@@ -15,7 +15,7 @@ footer: 2.8.0.0 (08.03.2021)
 * Stability adjustment for Peakboard runtime monitoring
 * Stability adjustment for Peakboard Management Service
 * Added step in Dataflow that allows to change multiple data types at once
-* Added user agent for [web widget control](/controls/Extended/en-web-widget.html) and [web page control](/controls/Extended/en-webpage.html)
+* Added user agent for [web widget control](/controls/Extended/en-web-widget-html.html) and [web page control](/controls/Extended/en-webpage.html)
 * OAuth2 authentication now allows an implicit grant type
 * Added ability to publish via a shared [MQTT data source](/data_sources/de-mqtt-broker.html)
 * [Variables/Lists](/scripting/en-variables.html) now allow the use of Unicode characters

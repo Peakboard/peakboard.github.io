@@ -9,6 +9,7 @@ ref: con-820
 redirect_from:
   - /controls/09-cn-web-widget-html.html
   - /controls/cn-web-widget.html
+  - /controls/Extended/cn-web-widget-html.html
 ---
 
 与“网页”控件不同，“Web小工具”控件的任务是只显示HTML片段，而不是完整的页面。典型的任务是呈现HTML代码，将外部内容（例如天气、股票价格等）集成到您自己的主页中。在下面的示例中，我们希望从[wetter24.de](http://www.wetter24.de/)整合天气小工具。通过填写本页的表格，可以为您的邮政编码生成自己的HTML代码。
