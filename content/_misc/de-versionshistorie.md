@@ -28,9 +28,9 @@ footer: 2.8.0.0 (08.03.2021)
 * Fix für einen Fehler, bei dem die Skript Funktion [addmonth()] nicht korrekt ausgeführt wurde
 * Fix für einen Fehler, bei dem die OAuth2 Authentifizierung für den Type Grant die E-Mail-Authentifizierung nicht akzeptierte
 * Fix für einen Fehler, bei dem die Authentifizierung in der OData-Datenquelle nicht funktionierte
-* Fix für einen Fehler, bei dem CSV-Daten nicht mehr von URL oder lokalen Netzwerk geladen werden konnten
-* Fix für einen Fehler, bei dem ein Circular Gauge-Diagram zu einem Absturz der Preview oder Peakboard Box geführt hat
-* Fix für einen Fehler, bei dem die Peakboard Hub und Peakboard Datenquelle nicht in einem Dataflow genutzt werden konnte
+* Fix für einen Fehler, bei dem CSV-Daten nicht mehr via URL oder lokalem Netzwerk geladen werden konnten
+* Fix für einen Fehler, bei dem ein Circular Gauge-Diagramm zu einem Absturz der Preview oder Peakboard Box geführt hat
+* Fix für einen Fehler, bei dem die Peakboard Hub- und Peakboard-Datenquelle nicht in einem Dataflow genutzt werden konnte
 * Fix für einen Fehler, bei dem Unicode-Zeichen innerhalb der Excel-Datenquelle nicht akzeptiert wurden
 * Fix für einen Fehler, bei dem ein Bild-Control innerhalb eines Tile-Controls zum Absturz des Peakboard Designers geführt hat
 * Fix für einen Fehler, bei dem das Neu laden einer Excel-Datenquelle die Datentypeinstellungen zurückgesetzt hat
