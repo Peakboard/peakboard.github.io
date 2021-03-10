@@ -23,9 +23,8 @@ Nachdem du dein erstes Chart angelegt hast, kannst du über [Add Series / Serie 
 
 Hier bearbeitest du sowohl die allgemeinen Eigenschaften [2] deines zuvor gewählten Diagramms als auch sein Aussehen [3].  
 
-Da sich die verschiedenen Diagramme in Ihrer Optik unterscheiden, unterscheiden sich auch ihre Eigenschaften.
-Da jeder Charttyp ein kleines bisschen anders ist, sind auch die Eigenschaften nicht alle gleich und unterscheiden sich von Diagramm zu Diagramm. 
-Es sollte aber kein Problem sein, die Spezifika einzelner Charttypen anhand der Eigenschaftennamen selbst herauszufinden.  
+Da sich die verschiedenen Diagramme in Ihrer Optik unterscheiden, unterscheiden sich auch ihre Eigenschaften. 
+Es sollte aber kein Problem sein, die Spezifika einzelner Diagramme anhand der Eigenschaftennamen selbst herauszufinden.
 
 [4] Verknüpfe das Diagramm unter [Source / Datenquelle] zunächst mit einer Datenquelle deiner Wahl und bestimme einen Wert für die [X axis / X-Achse] und die [Y axis/ Y-Achse]. 
 Die X-Achse beschreibt in der Regel die Beschriftung eines Datenpunkts, die Y-Achse seinen Wert. 
@@ -39,21 +38,19 @@ Im rechten Teil des Dialogs wird eine Vorschau deines Diagramms angezeigt [7].
 
 Unter [Appearance] (3) finden sich weitere Einstellungsmöglichkeiten.
 
-![image_2](/assets/images/Controls/advanced-chart/advancedchart-02.png)
-
 ### Eigenschaften
 In den Eigenschaften des Advanced Chart lassen sich neben den [Allgemeinen Eigenschaften](https://help.peakboard.com/controls/de-allgemeine-eigenschaften.html) noch weitere wichtige Einstellungen vornehmen:
 
-* [Show Gridline / Gitterlinien anzeigen]: Aktiviert bzw. deaktiviert die Gitterlinien für eine Achse
-* [Label Intersect Action/ Label Schnittpunkt-Aktion]: Regelt wie vorgegangen werden soll wenn sich Beschriftungen überschneiden, hier stehen drei Modi zur Verfügung:
-	* [Auto]: Bestimmt automatisch eine optimale Vorgehensweise
-	* [Hide]: Lässt in regelmäßigen Abständen Beschriftungen aus
-	* [Multiple Rows]: Erstellt mehrere Ebenen um alle Beschriftungen anzuzeigen
-* [Label Rotation / Label-Drehung]: Dreht die Beschriftungen um den gewünschten Winkel
-* [Striplines / Linie]: Gibt die Möglichkeit statische Linien zu bestimmten Werten zu erstellen die sich auch in regelmäßigen Abständen wiederholen können
-* [Plot Offset]: Rückt die Tabelle um den gewünschten Wert ein
-* [Opposed Position / Gegenläufige Position]: Tauscht die Position der Beschriftung von Links nach Rechts bzw. von Oben nach Unten
-* [Show Label / Label anzeigen]: Ist diese Eigenschaft aktiviert wird die Legende angezeigt
+* Klicke auf [Show Gridline / Gitterlinie anzeigen] um die Gitterlinien für eine Achse zu aktivieren bzw. deaktivieren 
+* Über [Label Intersect Action/ Label Schnittpunkt-Aktion] regelst du, wie vorgegangen werden soll, wenn sich Beschriftungen überschneiden. Dabei stehen drei Modi zur Verfügung: 
+	* Der Modus [Auto] bestimmt automatisch eine optimale Vorgehensweise 
+	* Wählst du [Hide, werden regelmäßigen Abständen Beschriftungen ausgelassen
+	* Mit einem Klick auf [Multiple Rows] erstellst du mehrere Ebenen um alle Beschriftungen anzuzeigen 
+* Ein Klick auf [Label Rotation / Label-Drehung] dreht die Beschriftungen um den gewünschten Winkel 
+* Die Eigenschaft [Striplines / Linie] bietet dir die Möglichkeit statische Linien zu bestimmten Werten zu erstellen, die sich auch in regelmäßigen Abständen wiederholen können 
+* Rücke die Tabelle um den gewünschten Wert ein über [Plot Offset]. 
+* Tausche die Position der Beschriftung von Links nach Rechts bzw. von Oben nach Unten über [Opposed Position / Gegenläufige Position].
+* Ist die Eigenschaft [Show Label / Label anzeigen] aktiviert, wird die Legende angezeigt
 
 
 ![image_3](/assets/images/Controls/advanced-chart/advancedchart-03.png)
