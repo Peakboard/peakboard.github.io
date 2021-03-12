@@ -12,7 +12,7 @@ footer: 2.8.0.0 (08.03.2021)
 ---
   
 ## 2.8.0.0 (08.03.2021) [Download](https://peakboard.com/peakboard-designer/) 
-* Rework für das [Advanced-Chart-Control](/controls/Chart/de-advanced-chart.html)
+* Rework für das [erweiterte Diagramm-Control](/controls/Chart/de-advanced-chart.html)
 * Stabilitätsanpassung für die Peakboard Runtime-Überwachung
 * Stabilitätsanpassung für den Peakboard Management Service
 * Schritt im Dataflow hinzugefügt, der es erlaubt mehrere Datentypen auf einmal zu ändern
