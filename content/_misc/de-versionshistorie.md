@@ -8,10 +8,16 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.8.0.0 (08.03.2021)
+footer: 2.8.1.0 (16.03.2021)
 ---
-  
-## 2.8.0.0 (08.03.2021) [Download](https://peakboard.com/peakboard-designer/) 
+
+## 2.8.1.0 (16.03.2021) [Download](https://peakboard.com/peakboard-designer/)
+* Fix für einen Fehler, bei dem ein fehlerhaft erstelltes Zertifikat nicht wieder gelöscht werden konnte
+* Fix für einen Fehler, bei dem bei einem Neustart der Peakboard Box die eigentlich aktive Visualisierung nicht wieder geladen wurde
+* Fix für einen Fehler, bei dem ein Unterbrechen der Stromzufuhr beim Upload einer Visualisierung zu einem Defekt der Peakboard Box geführt hat
+
+
+## 2.8.0.0 (08.03.2021)
 * Rework für das [erweiterte Diagramm-Control](/controls/Chart/de-advanced-chart.html)
 * Stabilitätsanpassung für die Peakboard Runtime-Überwachung
 * Stabilitätsanpassung für den Peakboard Management Service
