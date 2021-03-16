@@ -38,7 +38,7 @@ redirect_from:
 
 如果已经连接了Edge设备，点击对应行的“放大镜”图标可以打开连接测试对话框。
 
-点击“垃圾桶”图表，可以删除对应行（对应的Edge设备）。另外，您也可以通过点击DEL键进行删除。
+点击“垃圾桶”图标，可以删除对应行（对应的Edge设备）。另外，您也可以通过点击DEL键进行删除。
 =======
 A maximum of one Peakboard Edge data source can be used in a visualization. All Peakboard Edge devices that are to be used in the visualization are stored within this data source.
 
