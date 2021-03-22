@@ -8,10 +8,12 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.8.1.0 (16.03.2021)
+footer: 2.8.2.0(22.03.2021)
 ---
+## 2.8.2.0(03/22/2021) [Download](https://peakboard.com/peakboard-designer/)
+* Hotfix for a critical bug where the certificate for encrypted communication (:40405) was not created correctly
 
-## 2.8.1.0 (16.03.2021) [Download](https://peakboard.com/peakboard-designer/)
+## 2.8.1.0 (16.03.2021)
 * Fix for a bug, where an incorrectly created certificate could not be deleted again
 * Fix for a bug, where the actually active visualization was not reloaded when restarting the Peakboard Box
 * Fix for a bug where an interruption of the power supply during the upload of a visualization led to a defect of the Peakboard Box
