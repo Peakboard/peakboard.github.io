@@ -111,7 +111,7 @@ Das wars, Sie haben Ihre Visualisierung auf Ihre Bedürfnisse angepasst. Nun mü
 ## Termine verwalten
 
 Anders als die initiale Konfiguration ist die Terminverwaltung ein kontinuierlicher Prozess. Daher sollte dieser Vorgang Ihren Anforderungen entsprechen. Je nach Datenquelle können Termine unterschiedlich verwaltet werden. Dies geht, indem Sie einen Microsoft Kalender verknüpfen oder mit Tabellen, über das Peakboard Webinterface, direkt auf Ihrer Box. 
-Mehr über das Webinterface erfahren Sie [hier](https://peakboard.rocks/webinterface). Alternativ zum Webinterface können Sie auch die [Peakboard App](https://peakboard.rocks/apps) verwenden.
+Mehr über das Webinterface erfahren Sie [hier](https://peakboard.rocks/webinterface).
 
 Lesen Sie die Anleitung zu Ihrer verwendeten Template-Variante:
 - [Einfacher Screen mit einem Eintrag](#Einfacher-Screen-mit-einem-Eintrag)

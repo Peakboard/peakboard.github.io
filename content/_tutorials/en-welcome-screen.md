@@ -111,7 +111,7 @@ That's it, you have customized your visualization to your needs. Now you have to
 ## Manage appointments
 
 Unlike the initial configuration, appointment management is a continuous process. Therefore, this process should meet your requirements. Depending on the data source, appointments can be managed differently. This is done by linking a Microsoft calendar or with tables, via the Peakboard web interface, directly on your box.
-Learn more about the web interface [here](https://peakboard.rocks/webinterface). As an alternative to the web interface, you can also use the [Peakboard App](https://peakboard.rocks/apps-en).
+Learn more about the web interface [here](https://peakboard.rocks/webinterface).
 
 Read the description for your selected template:
 - [Manage one appointment with a table](#Manage-one-appointment-with-a-table)
