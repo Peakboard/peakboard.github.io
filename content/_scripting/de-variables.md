@@ -6,7 +6,8 @@ description: Variablen und Listen
 lang: de
 weight: 200
 ref: scr-200
-
+redirect_from:
+  - /data_sources/01-de-variablen.html
 ---
 In anspruchsvollen Visualisierungen (mit oder ohne Scripting), wird es immer wieder nötig sein, Daten in einer Art globalen Variable abzulegen. 
 Aus diesem Grund gibt es in jeder Visualisierung im Projektbaum links die Möglichkeit, solche Variablen anzulegen.

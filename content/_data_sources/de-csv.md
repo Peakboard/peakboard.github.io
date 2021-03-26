@@ -6,6 +6,8 @@ description: Information über CSV Daten in Peakboard
 lang: de
 weight: 500
 ref: dat-500
+redirect_from:
+  - /data_sources/05-de-csv.html
 
 ---
 Dieser Artikel erklärt die Handhabung der Datenquelle für Daten im CSV-Format. 

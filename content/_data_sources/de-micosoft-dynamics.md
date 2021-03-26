@@ -7,7 +7,8 @@ lang: de
 weight: 1800
 ref: dat-1800
 redirect_from:
-  - /data_sources/15-de-microsoft-dynamics.html
+ - /data_sources/15-de-microsoft-dynamics.html
+
 ---
 
 Diese Seite erklärt die einzelnen Features beim Zugriff auf die Dynamics NAV-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:

@@ -8,6 +8,7 @@ weight: 2400
 ref: dat-2400
 redirect_from: 
  - /data_sources/de-opc-ua.html
+ - /data_sources/22-de-opc-ua.html
   
 ---
 

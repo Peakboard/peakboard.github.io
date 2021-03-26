@@ -7,7 +7,7 @@ lang: de
 weight: 2000
 ref: flow-2000
 redirect_from:
-  - /dataflows/20-de-spalteninhakte-aendern.html
+  - /dataflows/20-de-spalteninhalte-aendern.html
 ---
 Dieser Abschnitt beschreibt die möglichen Schritte, um den Inhalt von Spalten zu manipulieren.
 

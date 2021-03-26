@@ -6,7 +6,8 @@ description: Variables and Lists
 lang: en
 weight: 200
 ref: scr-200
-
+redirect_from:
+  - /data_sources/01-en-variablen.html
 ---
 In sophisticated visualizations (with or without scripting), it will always be necessary to store data in a kind of global variable. 
 For this reason, every visualization offers the possibility to create such variables in the project tree on the left.

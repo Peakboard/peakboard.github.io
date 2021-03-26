@@ -7,7 +7,7 @@ lang: de
 weight: 800
 ref: dat-800
 redirect_from:
-  - /data_sources/08-cn-xml.html
+  - /data_sources/08-de-xml.html
 ---
 Dieser Artikel erklärt die Handhabung der Datenquelle für Daten im XML-Format. Die genaue Spezifikation und weitere Infos zu XML finden Sie [hier](https://de.wikipedia.org/wiki/Extensible_Markup_Language)
 
