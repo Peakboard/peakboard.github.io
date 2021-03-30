@@ -10,7 +10,7 @@ redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.8.2.0(22.03.2021)
 ---
-## 2.8.2.0(22.03.2021) [Download](https://peakboard.com/peakboard-designer/)
+## 2.8.2.0(22.03.2021) [Download](https://peakboard.rocks/download-version-history)
 * Hotfix für einen kritischen Fehler, bei dem das Zertifikat für die verschlüsselte Kommunikation (:40405) nicht korrekt erstellt wurde 
 
 ## 2.8.1.0 (16.03.2021)
