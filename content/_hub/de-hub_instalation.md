@@ -25,11 +25,6 @@ Falls ein bereits vorhandener SQL Server genutzt werden soll, ist es möglich au
 Bei zukünftigen Updates setzt du lediglich den Haken bei [PB Hub Main]. 
 Ein Update kann einfach über das bereits existierende Setup installiert werden.
 
-<div class="box-warning" markdown="1">
-**Beachte:**
-
-Deaktiviere Peakboard Hub während des Updates im ISS und aktiviere ihn im Anschluss wieder.
-</div>
 
 Während des Setups wirst du dazu aufgefordert eine Datenbank anzulegen, die als Datenbasis für Peakboard Hub dient und einen Datenbank Nutzer anzugeben. 
 Anschließend ist Peakboard Hub in deinen SSIS Seiten zu finden. 
