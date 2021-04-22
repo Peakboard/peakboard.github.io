@@ -28,7 +28,7 @@ footer: 2.9.0.1(22.04.2021)
 * Fix für einen Fehler, bei dem der Zugriff eigens angelegter Nutzer auf das Webinterface zu einem Fehler geführt hat
 
 
-## 2.8.2.0(22.03.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.8.2.0(22.03.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Et7Z8JdjpM9Jh8gyaTDtO4kBf7djpCRziclmq4rqvdEOFg?e=D85Hdg)
 * Hotfix für einen kritischen Fehler, bei dem das Zertifikat für die verschlüsselte Kommunikation (:40405) nicht korrekt erstellt wurde 
 
 ## 2.8.1.0 (16.03.2021)
