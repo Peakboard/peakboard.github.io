@@ -8,8 +8,26 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.8.2.0(22.03.2021)
+footer: 2.9.0.1(22.04.2021)
 ---
+## 2.9.0.1(22.04.2021) [Download](https://peakboard.rocks/download-version-history)
+* Rework for the web interface of the Peakboard Box.
+* Further rework for the [advanced chart control](/controls/Chart/en-advanced-chart.html)
+* Initial Standard Template of the Peakboard Box reworked
+* Scroll function for the chart control adapted for handling on touchscreens
+* The bearer token for web authentication can now be customized via script
+* Fix for a bug where adding the Peakboard Box was only possible with previously stored DNS names
+* Fix for a bug where split connections had lost their credentials, as well as all other information 
+* Fix for a bug where Google data sources, resources and controls could no longer be used
+* Fix for a bug where changing and saving the reload interval of an ODBC data source was not possible
+* Fix for a bug where it was not possible to set the reload interval of a JSON data source to 0
+* Fix for a bug where a dynamic variable in a SAP data source could not be used for initial load
+* Fix for several errors in MQTT data source
+* Fix for a bug where an OAuth token time limit of less than 5 minutes resulted in an error
+* Fix for a bug where the trendline was not displayed in the preview in the revised advanced chart control
+* Fix for a bug where the access of specially created users to the web interface led to an error
+
+
 ## 2.8.2.0(03/22/2021) [Download](https://peakboard.rocks/download-version-history)
 * Hotfix for a critical bug where the certificate for encrypted communication (:40405) was not created correctly
 

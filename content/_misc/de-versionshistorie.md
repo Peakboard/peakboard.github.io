@@ -8,8 +8,26 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.8.2.0(22.03.2021)
+footer: 2.9.0.1(22.04.2021)
 ---
+## 2.9.0.1(22.04.2021) [Download](https://peakboard.rocks/download-version-history)
+* Rework für das Webinterface der Peakboard Box
+* Weitere Rework-Maßnahmen für das [erweiterte Diagramm-Control](/controls/Chart/de-advanced-chart.html)
+* Initialen Standard Template der Peakboard Box überarbeitet
+* Scroll Funktion für das Tabellen-Control zur Handhabung an Touchscreens angepasst
+* Das Bearer-Token zur Web-Authentifizierung kann nun per Skript angepasst werden
+* Fix für einen Fehler, bei dem das Hinzufügen der Peakboard Box nur bei zuvor hinterlegten DNS-Namen möglich war
+* Fix für einen Fehler, bei dem geteilte Verbindungen ihre Anmeldedaten, sowie alle weiteren Informationen verloren hatten 
+* Fix für einen Fehler, bei dem die Google-Datenquellen, -Ressourcen und -Controls nicht mehr genutzt werden konnten
+* Fix für einen Fehler, bei dem das Ändern und Speichern des Reload-Intervalls einer ODBC-Datenquelle nicht möglich war
+* Fix für einen Fehler, bei dem es nicht möglich war, das Reload-Intervall einer JSON-Datenquelle auf 0 zu setzen
+* Fix für einen Fehler, bei dem eine dynamische Variable in einer SAP-Datenquelle nicht zum initialen Laden genutzt werden konnte
+* Fix für mehrere Fehler in der MQTT-Datenquelle
+* Fix für einen Fehler, bei dem eine Zeitbegrenzung des OAuth-Tokens von weniger als 5 Minuten zu einem Fehler geführt hat
+* Fix für einen Fehler, bei dem im überarbeiteten erweiterten Diagramm-Control die Trendline in der Vorschau nicht angezeigt wurde
+* Fix für einen Fehler, bei dem der Zugriff eigens angelegter Nutzer auf das Webinterface zu einem Fehler geführt hat
+
+
 ## 2.8.2.0(22.03.2021) [Download](https://peakboard.rocks/download-version-history)
 * Hotfix für einen kritischen Fehler, bei dem das Zertifikat für die verschlüsselte Kommunikation (:40405) nicht korrekt erstellt wurde 
 
