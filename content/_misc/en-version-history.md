@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.9.0.1(22.04.2021)
+footer: 2.9.1.0(26.04.2021)
 ---
-## 2.9.0.1(22.04.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.9.1.0(26.04.2021) [Download](https://peakboard.rocks/download-version-history) 
+* Hotfix for a bug where the OData data source could no longer be created and edited.
+* Hotfix for a bug where cloud resources could no longer be created or edited
+
+## 2.9.0.1(22.04.2021)
 * Rework for the web interface of the Peakboard Box.
 * Further rework for the [advanced chart control](/controls/Chart/en-advanced-chart.html)
 * Initial Standard Template of the Peakboard Box reworked
