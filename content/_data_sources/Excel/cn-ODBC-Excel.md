@@ -3,39 +3,34 @@ layout: article
 title: 通过ODBC集成Excel
 menu_title: 通过ODBC集成Excel
 description: 通过ODBC集成Excel
-lang: cn
+lang: en
 weight: 1510
 ref: dat-1510
 redirect_from:
   - /data_sources/31-cn-ODBC-Excel.html
 ---
+The following screenshot shows the ODBC data sources dialog.
 
-下面的屏幕截图显示了Bridge数据源。必须在地址处输入Bridge服务器的URI。通常形式为`tcp://<MyBridgeServer>:2501`。如果端口与默认值2501不同，则只需要指定端口。
+> ## Note
+> The ODBC connection to Excel is only possible with installed 64-bit ODBC driver or 64-bit Microsoft Office package!
 
-![ODBC login mask](/assets/images/data-sources/odbc-excel/odbc_form.png)
+![ODBC login screen](/assets/images/data-sources/odbc-excel/odbc_form.png)
 
-在“数据源类型”选择框中，通过ODBC请求选择连接。要执行ODBC请求，首先必须将Excel文件创建为ODBC数据源。要这样做，在32位版本中打开ODBC数据源管理员，并在系统DSN下创建新的系统数据源，如下面的屏幕截图所示。选择所需的Excel文件作为工作簿，如果之后要写回文件，去掉“只读”复选标记。
-
-![ODBC Data Source](/assets/images/data-sources/odbc-excel/odbc.png)
-
-回到Designer，系统DSN名称用作连接字符串，如下所示：
+If it should be possible to change data within Excel, the addition [ReadOnly = 0] in the connection string is necessary.
 
 ```
-DSN=myDsn;Uid=myUsername;Pwd=;
+Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};DBQ=C:\MyExcel.xlsx;ReadOnly = 0;
 ```
 
-在示例中，因为没有指定密码或用户，连接字符串如下所示：
+
+Before the data can be loaded, a suitable load command must be formulated. In Excel, the reference to the corresponding table sheet is made via [MyTable$] and has the following form based on SQL:
 
 ```
-DSN=Peakboard Excel Test 32;
+SELECT [Table Column 1], [Table Column 2] FROM [MyTable$]
 ```
 
-在加载数据之前，必须制定适当的加载命令。在Excel中，引用相应电子表格是通过[MyTable$]进行的，格式如下：
+Afterwards a load interval can be assigned and the data can be loaded via Load data. Finally, everything is confirmed with OK.
 
-```
-SELECT * FROM [MyTable$]
-```
+The Excel file is now connected via the ODBC interface and can be used like any other data source.
 
-然后，指定充电间隔，并且可以通过“加载数据”来加载数据。最后，单击“确定”进行确认。
-
-Excel文件现在通过ODBC接口连接，且可以如任何其他数据源一样使用。可以在[此处](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index)了解如何使用ODBC连接将数据写入Excel。
+How data can be written to Excel with this connection can be found [here](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index).

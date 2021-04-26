@@ -9,35 +9,27 @@ ref: dat-1510
 redirect_from:
   - /data_sources/31-en-ODBC-Excel.html
 ---
+The following screenshot shows the ODBC data sources dialog.
 
-The following screenshot shows the bridge data source. The URI of the bridge server must be entered at the address. Usually this is in the form `tcp://<MyBridgeServer>:2501`. The port only needs to be specified if it differs from the default value 2501.
+> ## Note
+> The ODBC connection to Excel is only possible with installed 64-bit ODBC driver or 64-bit Microsoft Office package!
 
-![ODBC login mask](/assets/images/data-sources/odbc-excel/odbc_form.png)
+![ODBC login screen](/assets/images/data-sources/odbc-excel/odbc_form.png)
 
-In the Data Source Type selection box, the connection is selected via an ODBC request.
-In order for the ODBC request to be executed, the Excel file must first be created as the ODBC data source. To do this, the ODBC data source administrator is opened in the 32-bit version and a new system data source is created under System DSN, as shown in the screenshot below. The desired .xls Excel file is selected as the workbook and, if the file is to be written back afterwards, the check mark in Read only is removed.
-
-![ODBC Data Source](/assets/images/data-sources/odbc-excel/odbc.png)
-
-Back in Designer, the system DSN name is used as the connection string as follows:
+If it should be possible to change data within Excel, the addition [ReadOnly = 0] in the connection string is necessary.
 
 ```
-DSN=myDsn;Uid=myUsername;Pwd=;
+Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};DBQ=C:\MyExcel.xlsx;ReadOnly = 0;
 ```
 
-In the example, the connection string is, because no password or user was assigned, as follows:
+
+Before the data can be loaded, a suitable load command must be formulated. In Excel, the reference to the corresponding table sheet is made via [MyTable$] and has the following form based on SQL:
 
 ```
-DSN=Peakboard Excel Test 32;
+SELECT [Table Column 1], [Table Column 2] FROM [MyTable$]
 ```
 
-Before the data can be loaded, a suitable load command must be formulated. In Excel, the reference to the corresponding spreadsheet is made via [MyTable$] and has the following form:
-
-```
-SELECT * FROM [MyTable$]
-```
-
-Afterwards a charging interval can be assigned and the data can be loaded via Load data. Finally, everything is confirmed with OK.
+Afterwards a load interval can be assigned and the data can be loaded via Load data. Finally, everything is confirmed with OK.
 
 The Excel file is now connected via the ODBC interface and can be used like any other data source.
 
