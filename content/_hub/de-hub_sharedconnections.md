@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Peakboard Hub - Shared Connections 
-menu_title: Peakboard Hub - Shared Connections 
+menu_title: Shared Connections 
 description: Peakboard Hub - Shared Connections 
 lang: de
 weight: 500

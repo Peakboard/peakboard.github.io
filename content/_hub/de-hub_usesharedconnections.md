@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Peakboard Hub - Geteilte Verbindungen im Peakboard Designer verwenden 
-menu_title: Peakboard Hub - Geteilte Verbindungen im Peakboard Designer verwenden 
+menu_title: Geteilte Verbindungen im Peakboard Designer verwenden 
 description: Peakboard Hub - Geteilte Verbindungen im Peakboard Designer verwenden 
 lang: de
 weight: 500

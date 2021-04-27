@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Peakboard Hub - Geteilte Variablenlisten 
-menu_title: Peakboard Hub - Geteilte Variablenlisten 
+menu_title: Geteilte Variablenlisten 
 description: Peakboard Hub - Geteilte Variablenlisten 
 lang: de
 weight: 500
