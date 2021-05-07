@@ -8,7 +8,7 @@ weight: 100
 ref: hub-100
 redirect_from:
 ---
-### Voraussetzungen
+
 
 Peakboard Hub wird lokal auf deinem Server gehostet, dieser benötigt IIS und Windows Server ab mindestens Version 2016. 
 Es wird zu keinem Zeitpunkt eine Kommunikation nach außen hergestellt, sondern ausschließlich zwischen dem Nutzer, den Peakboard Boxen und Peakboard Hub. 

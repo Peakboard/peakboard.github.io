@@ -8,7 +8,7 @@ weight: 200
 ref: hub-200
 redirect_from:
 ---
-### Peakboard Boxes
+
 
 Unter [Peakboard Boxes] und [Add new Peakboard Box] fügst du die gewünschten Peakboard Boxen mit den Nutzerdaten zu Peakboard Hub. 
 Definiere nun rechts, in welcher Darstellung deine Peakboard Boxen angezeigt werden sollen.

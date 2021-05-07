@@ -8,7 +8,7 @@ weight: 500
 ref: hub-500
 redirect_from:
 ---
-### Shared Variable Lists im Peakboard Designer verwenden
+
 Im Bereich [Shared Variable Lists] erstellst du Tabellen, die sowohl zum Lesen von Peakboard Boxen als auch zum Schreiben genutzt werden. 
 Gib dazu unter [Add Variable List] einen Namen für die Liste ein und definiere einen [Token](/hub/de-hub_tokens.html), der den Zugriff auf diese Liste gewährt. 
 Als nächstes legst du die gewünschten Spalten für die Tabelle an.
