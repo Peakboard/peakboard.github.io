@@ -19,10 +19,6 @@ In dieser Auflistung finden sich weitere Beispiele zum Skripting:
 
 [Tastatureingabe Script Beispiel](https://templates.peakboard.com/Script-Example-Processing-Keyboard-Entries/index)
 
-[Schreiben nach Excel](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index)
-
-[Push-Nachrichten an eine Peakboard Box senden](https://templates.peakboard.com/Script-Send-Push-Messages-To-Peakboard/index)
-
 [Daten in eine SQL Datenbank schreiben](https://templates.peakboard.com/Script-Writing-To-SQL-Database/index)
 
 [Script-Beispiel für automatisches Scrollen einer Liste mit Hilfe eines Dataflows](https://templates.peakboard.com/Script-Auto-Scroll-List/index)

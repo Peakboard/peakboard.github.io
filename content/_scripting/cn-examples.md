@@ -19,10 +19,6 @@ redirect_from:
 
 [处理键盘输入的脚本示例](https://templates.peakboard.com/Script-Example-Processing-Keyboard-Entries/cn)
 
-[向Excel文件写入数据的脚本示例](https://templates.peakboard.com/Script-Example-Writing-To-Excel/cn)
-
-[向Peakboard Box推送消息](https://templates.peakboard.com/Script-Send-Push-Messages-To-Peakboard/cn)
-
 [把数据写回SQL数据库](https://templates.peakboard.com/Script-Writing-To-SQL-Database/cn)
 
 [使用数据流自动下拉列表的脚本示例](https://templates.peakboard.com/Script-Auto-Scroll-List/cn)

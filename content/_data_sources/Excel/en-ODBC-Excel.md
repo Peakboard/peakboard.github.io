@@ -32,5 +32,3 @@ SELECT [Table Column 1], [Table Column 2] FROM [MyTable$]
 Afterwards a load interval can be assigned and the data can be loaded via Load data. Finally, everything is confirmed with OK.
 
 The Excel file is now connected via the ODBC interface and can be used like any other data source.
-
-How data can be written to Excel with this connection can be found [here](https://templates.peakboard.com/Script-Example-Writing-To-Excel/index).

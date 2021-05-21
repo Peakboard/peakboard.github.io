@@ -22,10 +22,6 @@ In this list are further examples for scripting:
 
 [Script Example for Processing Keyboard Entries](https://templates.peakboard.com/Script-Example-Processing-Keyboard-Entries/en)
 
-[Script Example for Writing to Excel](https://templates.peakboard.com/Script-Example-Writing-To-Excel/en)
-
-[Send Push Messages to a Peakboard Box](https://templates.peakboard.com/Script-Send-Push-Messages-To-Peakboard/en)
-
 [Writing Data to a SQL Database](https://templates.peakboard.com/Script-Writing-To-SQL-Database/en)
 
 [Script example for automatic scrolling of a list using a dataflow](https://templates.peakboard.com/Script-Auto-Scroll-List/en)
