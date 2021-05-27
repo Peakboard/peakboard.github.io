@@ -13,7 +13,7 @@ redirect_from:
 
 Der Peakboard Designer enthält ein Power BI Control, das es dem Benutzer ermöglicht, entsprechende Dashboards auf den Peakboard Displays darzustellen, ohne diese öffentlich zugängig machen zu müssen. Ein Tile oder auch Kachel ist Bestandteil eines Power BI Dashboards. Jedes Dashboard in Power BI besteht aus einer oder mehreren Kacheln. 
 
-Um das Power BI Dashboard darstellen zu können sind folgende Mindestvorrausetzungen nötwendig:
+Um das Power BI Dashboard darstellen zu können sind folgende Mindestvorrausetzungen notwendig:
 
 * Microsoft Konto und gültige Office 365 Lizenz inkl. Power BI
 * Administratorrechte für das Azure Active Directory
