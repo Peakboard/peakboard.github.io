@@ -4,8 +4,8 @@ title: Peakboard Hub - Shared Variable Lists
 menu_title: Shared Variable Lists
 description: Peakboard Hub - Shared Variable Lists
 lang: en
-weight: 500
-ref: hub-500
+weight: 520
+ref: hub-520
 redirect_from:
 ---
 In the section [Shared Variable Lists] you create tables that are used for reading Peakboard Boxes as well as for writing. 

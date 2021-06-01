@@ -4,8 +4,8 @@ title: Peakboard Hub - Geteilte Variablenlisten
 menu_title: Geteilte Variablenlisten 
 description: Peakboard Hub - Geteilte Variablenlisten 
 lang: de
-weight: 500
-ref: hub-500
+weight: 520
+ref: hub-520
 redirect_from:
 ---
 

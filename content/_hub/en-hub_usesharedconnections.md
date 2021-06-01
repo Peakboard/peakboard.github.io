@@ -4,8 +4,8 @@ title: Peakboard Hub - Using Shared Connections in the Peakboard Designer
 menu_title: Using Shared Connections in the Peakboard Designer
 description: Peakboard Hub - Using Shared Connections in the Peakboard Designer
 lang: en
-weight: 500
-ref: hub-500
+weight: 510
+ref: hub-510
 redirect_from:
 ---
 Under [Settings] and [Connection Manager], the dialogue for the connection data opens. 

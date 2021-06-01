@@ -4,8 +4,8 @@ title: Peakboard Hub - Geteilte Verbindungen im Peakboard Designer verwenden
 menu_title: Geteilte Verbindungen im Peakboard Designer verwenden 
 description: Peakboard Hub - Geteilte Verbindungen im Peakboard Designer verwenden 
 lang: de
-weight: 500
-ref: hub-500
+weight: 510
+ref: hub-510
 redirect_from:
 ---
 Unter [Einstellungen] und [Verbindungen verwalten] wird der Dialog für die Verbindungsdaten geöffnet.
