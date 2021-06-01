@@ -3,7 +3,7 @@ layout: article
 title: Peakboard Hub - Shared Connections 
 menu_title: Shared Connections 
 description: Peakboard Hub - Shared Connections 
-lang: de
+lang: en
 weight: 500
 ref: hub-500
 redirect_from:
