@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Hub - Shared Connections 
-menu_title: Shared Connections 
-description: Peakboard Hub - Shared Connections 
+title: Peakboard Hub - Geteilte Verbindungen
+menu_title: Geteilte Verbindungen
+description: Peakboard Hub - Geteilte Verbindungen
 lang: de
 weight: 500
 ref: hub-500
