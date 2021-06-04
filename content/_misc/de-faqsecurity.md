@@ -57,3 +57,7 @@ Standardmäßig sind auf der Peakboard Box alle Ports, außer den folgenden bloc
 * Port 5985 und Port 5986 (WinRM / PowerShell)  
 
 * Port 40404, 40405 und 40407 (Peakboard Kommunikation) 
+
+## Virenscanner:
+Mit dem Peakboard Administratoren Account ist es zwar möglich, aber nicht nötig, einen Virenscanner auf der Peakboard Box zu installieren. 
+Wir gewährleisten den vollumfänglichen Schutz.  
