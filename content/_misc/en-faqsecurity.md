@@ -23,7 +23,12 @@ The Peakboard Box does not require Internet access by default.
 The Peakboard Box is started under a Windows user who has no rights except those necessary for viewing. 
 This user cannot install anything or run any other software except the one we provide.
 In addition, Peakboard Box is run in a kind of "kiosk mode", which does not allow switching to desktop mode.
-You will receive the administrator as well as the corresponding password on a separate card together with the Peakboard Box. Please change the password and keep a digital record of it. It *cannot* be reset if lost!
+You will receive the administrator as well as the corresponding password on a separate card together with the Peakboard Box. 
+<div class="box-warning" markdown="1">
+**Note:** 
+Please change the password and keep a digital record of it. 
+It *cannot* be reset if lost!
+</div>
 
 ## Domain:
 

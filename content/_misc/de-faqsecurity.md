@@ -34,9 +34,13 @@ Die Peakboard Box wird unter einem Windows Nutzer gestartet, der keine Rechte, a
 
 Außerdem wird die Peakboard Box in einer Art “Kiosk-Mode” ausgeführt, der es nicht ermöglicht in den Desktop-Betrieb zu wechseln. 
 
-Den Peakboard Administratoren Account sowie das dazugehörige Kennwort erhältst du auf einer separaten Karte zusammen mit der Peakboard Box. Ändere bitte das Passwort und halte es digital fest. Bei Verlust kann es *nicht* zurückgesetzt werden! 
+Den Peakboard Administratoren Account sowie das dazugehörige Kennwort erhältst du auf einer separaten Karte zusammen mit der Peakboard Box. 
 
- 
+<div class="box-warning" markdown="1">
+**Hinweis:** 
+Ändere bitte das Passwort und halte es digital fest. 
+Bei Verlust kann es *nicht* zurückgesetzt werden! 
+</div>
 
 ## Domäne: 
 
