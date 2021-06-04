@@ -38,8 +38,7 @@ Den Peakboard Administratoren Account sowie das dazugehörige Kennwort erhältst
 
 <div class="box-warning" markdown="1">
 **Hinweis:** 
-Ändere bitte das Passwort und halte es digital fest. 
-Bei Verlust kann es *nicht* zurückgesetzt werden! 
+*Ändere bitte das Passwort und halte es digital fest. Bei Verlust kann es *nicht* zurückgesetzt werden! 
 </div>
 
 ## Domäne: 
