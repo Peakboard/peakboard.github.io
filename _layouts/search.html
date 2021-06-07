@@ -50,12 +50,19 @@
         </div>
 
         <!-- TEMPLATES -->
+        {% for collection in site.collections %}
+            <script type="text/html" id="{{ collection.label }}-template">
+                {{ collection.title[page.lang] }}
+            </script>
+        {% endfor %}
+
         {% raw %}
         <script type="text/html" id="hit-template">
             <a href="{{ url }}?fromSearch=true">
                 <div class="hit">
                     <div class="hit-content">
                         <h3 class="hit-page-title text-lg font-bold">{{ title }}</h3>
+                        <h4>In <span class="text-orange">{{ label }}</span></h4>
                         <p class="hit-description">{{{ _highlightResult.content.value }}}</p>
                     </div>
                 </div>

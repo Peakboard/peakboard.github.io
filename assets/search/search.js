@@ -42,6 +42,12 @@ var main = {
                 templates: {
                     item: document.querySelector('#hit-template').innerHTML,
                     empty: document.querySelector('#no-results-template').innerHTML
+                },
+                transformData: {
+                    item: function(data) {
+                        data.label = document.querySelector('#' + data.collection + '-template').innerHTML;
+                        return data;
+                    }
                 }
             })
         );
