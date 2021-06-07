@@ -8,9 +8,34 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.9.1.0(26.04.2021)
+footer: 2.10.0.0(07.06.2021)
 ---
-## 2.9.1.0(26.04.2021) [Download](https://peakboard.rocks/download-version-history) 
+## 2.10.0.0 [Download](https://peakboard.rocks/download-version-history)
+* Auf die Peakboard Box geladene Visualisierungen erhalten nun einen Zeitstempel und werden chronologisch sortiert
+* Benutzerrollen Konzept auf der Peakboard Box erweitert
+* Aktualisierung der Videos im Startbildschirm des Peakboard Designers hinzugefügt
+* Bridge-Resourcen entfernt
+* Veraltete Chart-Controls entfernt
+* Funktion zum Kopieren von Templates für das List- und TileView-Control hinzugefügt
+* API-Funktion in lesen und schreiben aufgeteilt
+* Swagger API implementiert
+* Interne Kommunikationsstrukturen überarbeitet
+* Alphabetische Sortierung im Explorer des Peakboard Designers implementiert
+* Peakboard Datenquellen umbenannt
+* Fix für einen Fehler, bei dem Excel-Datenquellen außergewöhnlich viel Speicher beansprucht hatten
+* Fix für einen Fehler, bei dem die automatische Aktualisierung eines WebWidget-Controls nicht funktioniert hatte
+* Fix für einen Fehler, bei dem die Passwortverschlüsselung einer .pbmx Datei dazuführte, dass der Json-String verschlüsselt wurde
+* Fix für einen UI Fehler im Dialog Passwort ändern für geteilte Verbindungen
+* Fix für einen Fehler, bei dem der Skript-Validator nicht mehr funktionierte, wenn ein List- oder TileView-Control einen Namen hatte
+* Fix für einen Fehler, bei dem der Skript-Validator ein gültiges Reload()-Skript als fehlerhaft meldete
+* Fix für einen Fehler, bei dem in einem List- oder TileView-Control der Hintergrund für Text- oder Shape-Controls mehr gesetzt werden konnte
+* Fix für einen Fehler, bei dem ein in einem List- oder TileViw-Control ausgewähltes Control nicht in der Baumstruktur hervorgehoben wurde
+* Fix für einen Fehler, bei dem die Skalierung eines Controls via Skript nicht funktionierte
+* Fix für einen Fehler, bei dem mehrfach geöffnete Templates die gleiche ID erhielten
+* Fix für einen Fehler, bei dem die Twitter-Datenquelle nicht mehr funktionierte
+* Fix für einen Fehler, bei dem die unaktivierte Schaltfläche [Sichtbar] eines Controls zu einem Fehler beim Laden einer Visualisierung führte
+
+## 2.9.1.0(26.04.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Es4Ev5qm_DFMsGgGKNwIbD8B4VBkbi2j0Z2Edm36JzPwAg?e=OSrLcx) 
 * Hotfix für einen Fehler, bei dem die OData-Datenquelle nicht mehr erstellt und bearbeitet werden konnte
 * Hotfix für einen Fehler, bei dem Cloud-Ressourcen nicht mehr angelegt oder bearbeitet werden konnten
 

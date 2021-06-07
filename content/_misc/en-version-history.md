@@ -8,9 +8,34 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.9.1.0(26.04.2021)
+footer: 2.10.0.0(07.06.2021)
 ---
-## 2.9.1.0(26.04.2021) [Download](https://peakboard.rocks/download-version-history) 
+## 2.10.0.0 [Download](https://peakboard.rocks/download-version-history)
+* Visualizations loaded on the Peakboard Box now get a timestamp and are sorted chronologically
+* User roles concept on the Peakboard Box extended
+* Added update of videos in the Peakboard Designer start screen
+* Bridge resources removed
+* Removed obsolete chart controls
+* Added function to copy templates for List and TileView controls
+* API function split into read and write
+* Swagger API implemented
+* Internal communication structures revised
+* Implemented alphabetical sorting in Peakboard Designer explorer
+* Peakboard data sources renamed
+* Fix for a bug where Excel data sources had used an unusually large amount of memory
+* Fix for a bug where the automatic update of a WebWidget control had not worked
+* Fix for a bug where password encryption of a .pbmx file caused the json string to be encrypted
+* Fix for a UI error in the Change Password dialog for split connections
+* Fix for a bug where the script validator stopped working if a List or TileView control had a name
+* Fix for a bug where the script validator reported a valid Reload() script as incorrect
+* Fix for a bug where the background for text or shape controls could no longer be set in a List or TileView control
+* Fix for a bug where a control selected in a List or TileViw control was not highlighted in the tree structure
+* Fix for a bug where scaling a control via script did not work
+* Fix for a bug where multiple opened templates got the same ID
+* Fix for a bug where the Twitter data source did not work anymore
+* Fix for a bug where the unchecked [Visible] button of a control caused an error when loading a visualization
+
+## 2.9.1.0(26.04.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Es4Ev5qm_DFMsGgGKNwIbD8B4VBkbi2j0Z2Edm36JzPwAg?e=OSrLcx) 
 * Hotfix for a bug where the OData data source could no longer be created and edited.
 * Hotfix for a bug where cloud resources could no longer be created or edited
 
