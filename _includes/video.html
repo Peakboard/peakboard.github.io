@@ -1,0 +1,10 @@
+{% if include.tencent_id %}
+    {% capture link %}https://v.qq.com/txp/iframe/player.html?vid={{include.tencent_id}}{% endcapture %}
+{% else %}
+    {% capture link %}//www.youtube.com/embed/{{include.youtube_id}}?autoplay=1&rel=0{% endcapture %}
+{% endif %}
+<div class="overflow-hidden">
+    <a class="no-underline video-thumbnail" href="{{ link }}" data-lity>
+        <img class="w-full lightbox-ignore m-0" src="{{ include.image_path }}" alt="Inline video">
+    </a>
+</div>
