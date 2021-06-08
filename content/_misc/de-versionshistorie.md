@@ -10,7 +10,7 @@ redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.10.0.0(07.06.2021)
 ---
-## 2.10.0.0 [Download](https://peakboard.rocks/download-version-history)
+## 2.10.0.0 (07.06.2021) [Download](https://peakboard.rocks/download-version-history)
 * Auf die Peakboard Box geladene Visualisierungen erhalten nun einen Zeitstempel und werden chronologisch sortiert
 * Benutzerrollen Konzept auf der Peakboard Box erweitert
 * Aktualisierung der Videos im Startbildschirm des Peakboard Designers hinzugefügt

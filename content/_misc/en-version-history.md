@@ -10,7 +10,7 @@ redirect_from:
   - /misc/06-en-version-history.html
 footer: 2.10.0.0(07.06.2021)
 ---
-## 2.10.0.0 [Download](https://peakboard.rocks/download-version-history)
+## 2.10.0.0 (07.06.2021) [Download](https://peakboard.rocks/download-version-history)
 * Visualizations loaded on the Peakboard Box now get a timestamp and are sorted chronologically
 * User roles concept on the Peakboard Box extended
 * Added update of videos in the Peakboard Designer start screen
