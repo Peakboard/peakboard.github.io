@@ -21,7 +21,7 @@ Hier erfährst du, wie du die OAuth Authentifizierung deiner Anwendungen mit Pea
 2. als Autorisierung "OAuth" wählen
 3. Über den Button "Request New Token" das Autorisierungsfenster öffnen
 
-<div class="box-note" markdown="1">
+<div class="box-tip" markdown="1">
 Falls ein Preset verwendet wird, kann der Schritt 2.1 übersprungen und direkt mit dem Schritt 2.2 fortgefahren werden.
 </div>
 
