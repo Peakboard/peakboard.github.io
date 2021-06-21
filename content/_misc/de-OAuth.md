@@ -12,15 +12,15 @@ redirect_from:
 Hier erfährst du, wie du die OAuth Authentifizierung deiner Anwendungen mit Peakboard nutzen kannst.
 
 #### 1. Auf Seite der zuzufügenden Anwendung:
-a. API-Verwaltung des anzubindenden Dienstes öffnen.
-b. eventuell neues Projekt/Anwendung/ClientID anlegen
-c. dem angelegten Projekt die Callback URL (Redirect URL) "https://www.peakboard.com/oauth2-callback/" zufügen
+a.	 API-Verwaltung des anzubindenden Dienstes öffnen.
+b.	 eventuell neues Projekt/Anwendung/ClientID anlegen
+c.	 dem angelegten Projekt die Callback URL (Redirect URL) "https://www.peakboard.com/oauth2-callback/" zufügen
 (Die hinterlegte Callback URL musst in jedem Zeichen mit der aus dem Peakboard Designer übereinstimmen)
 
 #### 2. Im Peakboard Designer die Anwendung hinzufügen:
-a. neue Resource mit entsprechendem Datenformat anlegen (Das Format in welchem die anzusprechende Anwendung Daten zurückgibt, meistens json)
-b. als Autorisierung "OAuth" wählen
-c. Über den Button "Request New Token" das Autorisierungsfenster öffnen
+a.	 neue Resource mit entsprechendem Datenformat anlegen (Das Format in welchem die anzusprechende Anwendung Daten zurückgibt, meistens json)
+b.	 als Autorisierung "OAuth" wählen
+c.	 Über den Button "Request New Token" das Autorisierungsfenster öffnen
 
 <div class="box-notification" markdown="1">
 Falls ein Preset verwendet wird, kann der Schritt 2.1 übersprungen und direkt mit dem Schritt 2.2 fortgefahren werden.
