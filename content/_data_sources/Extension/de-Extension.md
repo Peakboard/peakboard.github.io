@@ -47,19 +47,3 @@ Trage bei [Pfad / Path] den Namen der Extension-Dll und im Projekt die [Extensio
 Am besten kopierst du dir einfach eine Extension.xml-Datei aus unseren Beispielen und modifizierst sie.
 </div>
 
-### Extensions im Peakboard Designer verwalten
-Um eine Extension in den Peakboard Designer einzuspielen, fügst du sie als zip-File in der Verwaltung der [Extensions] hinzu. 
-Nach einem Neustart des Peakboard Designers, erscheint sie unter [Datenquellen / Datasources].
-
-<div class="box-warning" markdown="1">
-**Achtung!**
-
-Es ist nicht nötig, die Peakboard Box in irgendeiner Form zu modifizieren. 
-Die Extension wird durch den Deploy-Vorgang eines Dashboards automatisch auf die Peakboard Box geladen.
-</div>
-
-### Beispiele
-In unseren [Github-Repository](https://github.com/Peakboard/PeakboardExtensions) findest du einige Extensions. 
-Vorallem die Beispiele sind einfach gehalten und zeigen die anzuwendende Architektur anschaulich. 
-Jede Extension liegt im Quellcode vor (Verzeichnis SourceCode) und als zip-File zum Einspielen (Binaries).
-
