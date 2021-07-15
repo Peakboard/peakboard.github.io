@@ -33,9 +33,3 @@ To build an extension, at least two classes must be implemented. One that inheri
 ## The Extension.xml file
 It describes the metadata of the extension. The unique ID of the extension is important (simply meaningful name without special characters), the path is the name of the extension dll, and the extension class in the project with preceding namespace. Please copy an Extension.xml file from the examples and modify them accordingly. It makes no sense to write the xml by hand. 
 
-## Manage extensions in the Peakboard Designer
-To import an extension into the Designer, go to the administration for the extensions and add the zip-file. Afterwards the Designer must be restarted, then the extension is available and should appear under the data sources. Attention! It is not necessary to modify the Peakboard-Box in any way. The extension is automatically distributed to the box by the deploy process of a board.
-
-## Examples
-We have published some extensions in our [Github-Repository](https://github.com/Peakboard/PeakboardExtensions) There are examples as well as extensions for productive use. Especially the examples are kept simple and show the architecture to be used. Every extension in this repo is available in source code (directory SourceCode) and as a prepared zip for installation (binaries).
-The github repository can be found [here](https://github.com/Peakboard/PeakboardExtensions).
