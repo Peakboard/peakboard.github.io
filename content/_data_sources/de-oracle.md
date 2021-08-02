@@ -22,7 +22,7 @@ Für den Zugang zur Oracle-Datenbank sind die klassischen Zugangsparameter nöti
 
 In manchen Fällen sind außer den oben beschriebenen Zugangsparametern weitere Angaben erforderlich. 
 In diesem Fall klicken Sie bitte auf den **Custom**-Tab. 
-In dem Textfeld lässt sich direkt ein individueller Connection-String erfassen. Den Aufbau des Connection-Strings entnehmen Sie bitte der Oracle-Hilfe oder diesen [Link](https://www.connectionstrings.com/oracle/).
+In dem Textfeld lässt sich direkt ein individueller Connection-String erfassen. Den Aufbau des Connection-Strings entnehmen Sie bitte der Oracle-Hilfe.
 
 In das Textfeld **Statement** tragen Sie das gewünschte Oracle-SQL-Statement ein. Damit die Datenquelle korrekt funktioniert, muss das SQL-Statement immer eine tabellarische Ergebnismenge zurückliefern.
 
