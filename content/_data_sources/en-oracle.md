@@ -21,7 +21,7 @@ For access to the Oracle database, the classic access parameters are required:
 
 In some cases, further information is required in addition to the access parameters described above. 
 In this case, please click on the **Custom** tab. 
-In the text field an individual connection string can be entered directly. The structure of the connection string can be found in the Oracle help or this [link](https://www.connectionstrings.com/oracle/).
+In the text field an individual connection string can be entered directly. The structure of the connection string can be found in the Oracle help.
 
 Enter the desired Oracle SQL statement in the **Statement** text field. For the data source to function correctly, the SQL statement must always return a tabular result set.
 
