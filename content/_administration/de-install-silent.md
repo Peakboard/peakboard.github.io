@@ -23,7 +23,7 @@ Nachfolgende Kommandozeileneingabe illustriert wie die Installation im Silent Mo
 
 ````markdown
     ```
-       "C:\Temp\PeakBoardDesignerSetup.exe" /S
+       "C:\Temp\PeakBoardDesignerSetup.exe" /S /D <installation path>
     ```
 ````
 
