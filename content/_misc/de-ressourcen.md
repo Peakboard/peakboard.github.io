@@ -37,9 +37,9 @@ Die **Web Resource** ist denkbar einfach erklärt: Hinterlegen Sie einfach die g
 
 ## Cloud Resource: Dropbox, OneDrive, Google Drive
 
-Um eine Ressource aus einem Cloudspeicher zu laden, müssen Sie erst Peakboard erlauben, auf Ihren Cloudspeicher zuzugreifen. Ein entsprechendes Fenster öffnet sich. Bitte beachten: Ihre Zugangsdaten zu Ihrem Cloudspeicher werden NICHT im Designer oder auf der Peakboard-Box gespeichert, sondern lediglich ein Zugriffstoken. Wenn Sie diese Erlaubnis rückgängig machen wollen, gehen Sie einfach in die Settings Ihres Cloudspeicher-Accounts. Dort ist der Zugriff gelistet und kann gelöscht werden. Das ist ein übliches Verfahren, um Drittanbietern Zugriff auf einen Cloudspeicher zu ermöglichen.
+Um eine Ressource aus einem Cloudspeicher zu laden, müssen Sie erst Peakboard erlauben, auf Ihren Cloudspeicher zuzugreifen. Ein entsprechendes Fenster öffnet sich. Bitte beachten: Ihre Zugangsdaten zu Ihrem Cloudspeicher werden NICHT im Designer oder auf der Peakboard Box gespeichert, sondern lediglich ein Zugriffstoken. Wenn Sie diese Erlaubnis rückgängig machen wollen, gehen Sie einfach in die Settings Ihres Cloudspeicher-Accounts. Dort ist der Zugriff gelistet und kann gelöscht werden. Das ist ein übliches Verfahren, um Drittanbietern Zugriff auf einen Cloudspeicher zu ermöglichen.
 
-Die folgenden Screenshots zeigen exemplarisch die Anmeldung bei Dropbox und danach die Dateiauswahl. Im Designer wird eine Kopie der Datei abgelegt für den Preview. Im Echtlauf (auf der Peakboard-Box) wird die Datei aber aus dem Cloudspeicher erneuert. Der Content ist also nicht statisch, sondern dynamisch mit der Originaldatei verbunden.
+Die folgenden Screenshots zeigen exemplarisch die Anmeldung bei Dropbox und danach die Dateiauswahl. Im Designer wird eine Kopie der Datei abgelegt für den Preview. Im Echtlauf (auf der Peakboard Box) wird die Datei aber aus dem Cloudspeicher erneuert. Der Content ist also nicht statisch, sondern dynamisch mit der Originaldatei verbunden.
 ![image_1](/assets/images/misc/Ressources/Resources_04.png)
 ![image_1](/assets/images/misc/Ressources/Resources_05.png)
 
