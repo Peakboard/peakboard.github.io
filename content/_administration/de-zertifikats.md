@@ -20,16 +20,16 @@ Von dort aus kann man im Tab "Details" in eine Datei speichern. `DER (*.cer)` is
 
 ![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
 
-Die exportierte Datei nun auf die Peakboard-Box kopieren.
+Die exportierte Datei nun auf die Peakboard Box kopieren.
 
-Dafür im Windows-Explorer auf die Freigabe \\\<ip-adresse-peakboard-box>\Share zugreifen und dort ablegen.  
-Statt der IP-Adresse kann natürlich auch der Hostname der Box verwendet werden.
+Dafür im Windows-Explorer auf die Freigabe \\\<ip-adresse-Peakboard Box>\Share zugreifen und dort ablegen.  
+Statt der IP-Adresse kann natürlich auch der Hostname der Peakboard Box verwendet werden.
 
 Benutzername und Passwort des PBAdmin eingeben.
 
 ![Window Explorer](/assets/images/admin/certificates/windows-explorer2.png)
 
-Dann via PowerShell mit der Peakboard-Box verbinden.
+Dann via PowerShell mit der Peakboard Box verbinden.
 
 Lokal eine PowerShell als Administrator ausführen
 

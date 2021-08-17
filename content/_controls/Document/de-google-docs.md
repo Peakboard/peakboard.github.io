@@ -35,7 +35,7 @@ Mehr ist nicht zu tun. Der Preview-Button ruft das Dokument von Google ab und ze
 
 ![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs06.png)
 
-Und genauso sollte es aussehen, wenn es zur Laufzeit im Preview oder direkt auf der Peakboard-Box läuft.
+Und genauso sollte es aussehen, wenn es zur Laufzeit im Preview oder direkt auf der Peakboard Box läuft.
 
 ![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs07.png)
 

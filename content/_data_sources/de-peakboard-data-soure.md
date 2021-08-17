@@ -8,7 +8,7 @@ weight: 2800
 ref: dat-2800
 ---
 
-Die Peakboard-Datenquelle bietet eine einfache Möglichkeit, Daten zwischen mehreren Peakboard-Boxen auszutauschen. Sie ermöglicht es dem Benutzer, die nativen Variablen und Listen einer Box von anderen Peakboards innerhalb des Netzwerks zu lesen und zu schreiben. Die Möglichkeit, Variablen und Listen von Peakboard-Visualisierungen mit den Einstellungen des Hakens in den Bearbeitungsdialogen anzuzeigen. Mit der Peakboard-Datenquelle gibt es jetzt eine einfache und unkomplizierte Möglichkeit, diese Daten zu konsumieren und zu manipulieren.
+Die Peakboard-Datenquelle bietet eine einfache Möglichkeit, Daten zwischen mehreren Peakboard Boxen auszutauschen. Sie ermöglicht es dem Benutzer, die nativen Variablen und Listen einer Box von anderen Peakboards innerhalb des Netzwerks zu lesen und zu schreiben. Die Möglichkeit, Variablen und Listen von Peakboard-Visualisierungen mit den Einstellungen des Hakens in den Bearbeitungsdialogen anzuzeigen. Mit der Peakboard-Datenquelle gibt es jetzt eine einfache und unkomplizierte Möglichkeit, diese Daten zu konsumieren und zu manipulieren.
 
 ### Lesen aus anderen Boxen
 
@@ -16,7 +16,7 @@ In diesem Szenario greift die Visualisierung, die auf dem Feld "Verbraucher" lä
 
 ##### Anbieter-Seite
 
-Da die Architektur der Peakboard-Datenquelle für die direkte Kommunikation zwischen zwei Peakboard-Boxen gedacht ist, kann die Peakboard-Datenquelle nur auf native Peakboard-Variablen und -Listen zugreifen. Die Daten werden durch Aktivieren des Kontrollkästchens "Can push data via API" in den jeweiligen Bearbeitungsdialogen angezeigt.
+Da die Architektur der Peakboard-Datenquelle für die direkte Kommunikation zwischen zwei Peakboard Boxen gedacht ist, kann die Peakboard-Datenquelle nur auf native Peakboard-Variablen und -Listen zugreifen. Die Daten werden durch Aktivieren des Kontrollkästchens "Can push data via API" in den jeweiligen Bearbeitungsdialogen angezeigt.
 
 ![Variable aktivieren](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider1.png)
 

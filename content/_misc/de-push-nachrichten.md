@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Push-Nachrichten auf das Peakboard senden
-menu_title: Push-Nachrichten auf das Peakboard senden
-description: Push-Nachrichten auf das Peakboard senden
+title: Push-Nachrichten an eine Peakboard Box senden
+menu_title: Push-Nachrichten an eine Peakboard Box senden
+description: Push-Nachrichten an eine Peakboard Box senden
 lang: de
 weight: 200
 ref: misc-200
@@ -10,7 +10,7 @@ redirect_from:
   - /misc/02-de-push-nachrichten.html
 ---
 
-Peakboard kann in Szenarien eingesetzt werden, bei denen Daten nicht von der Peakboard-Box aus einer Datenquelle geholt, sondern von der Datenquelle pro-aktiv auf die Box „gepusht“ werden. Diese Seite zeigt, wie man ein solches Szenario gestalten kann.
+Peakboard kann in Szenarien eingesetzt werden, bei denen Daten nicht von der Peakboard Box aus einer Datenquelle geholt, sondern von der Datenquelle pro-aktiv auf die Box „gepusht“ werden. Diese Seite zeigt, wie man ein solches Szenario gestalten kann.
 
 In unserem Beispiel erzeugen wir eine tabellarische Datenquelle namens Messages mit zwei Spalten: Code und Message. Es kann dafür jedoch auch eine einzelne Variable erzeugt werden. Wie man solche Datenquellen anlegt, ist in [diesem Artikel](/scripting/de-variables.html) beschrieben. Füllen Sie die Tabelle am Besten mit einer einzelnen Demozeile. Danach legen Sie ein Tablegrid-Control an und verknüpfen es mit der statischen Datenquelle. Der folgende Screenshot zeigt die Entwurfsansicht im Designer.
 

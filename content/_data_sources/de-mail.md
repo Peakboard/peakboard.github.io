@@ -14,7 +14,7 @@ Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquel
 [Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
 Die Maildatenquelle erlaubt den Zugriff auf ein E-Mail-Postfach per Imap. 
-Sie wird üblicherweise dazu genutzt, um über einen sehr einfachen Weg Nachrichten an eine Peakboard-Box zu senden. 
+Sie wird üblicherweise dazu genutzt, um über einen sehr einfachen Weg Nachrichten an eine Peakboard Box zu senden. 
 Generell gibt es zwei Muster, die Datenquelle einzusetzen:
 
 - Der Inhalt des Postfaches wird einfach als tabellarische Datenquelle dargestellt. Jede Zeile entspricht einer E-Mail.

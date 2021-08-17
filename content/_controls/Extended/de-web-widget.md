@@ -14,7 +14,7 @@ Im Gegensatz zum Webpage-Control ist die Aufgabe des WebWidget-Controls, nur ein
 
 Öffnen Sie den Eigenschaftseditor des WebWidget-Controls, in dem Sie auf den kleinen Knopf mit den drei Punkten der HTMLCode-Eigenschaft klicken. Sie können dann den HTML Code per Copy und Paste in das Textfeld einfügen und mit OK bestätigen.
 
-Im Designer wird das Widget nicht angezeigt. Um es zu sehen, muss der Preview aktiviert werden oder das Panel muss auf einer Peakboard-Box laufen. Im nachfolgenden Screenshot sieht man übrigens auch sehr schön, dass die Größe der HTML-Ausgabe durch den HTML-Code und eben nicht durch die Größe des Controls bestimmt wird. Das Control muss aber natürlich groß genug sein, um alles anzuzeigen.
+Im Designer wird das Widget nicht angezeigt. Um es zu sehen, muss der Preview aktiviert werden oder das Panel muss auf einer Peakboard Box laufen. Im nachfolgenden Screenshot sieht man übrigens auch sehr schön, dass die Größe der HTML-Ausgabe durch den HTML-Code und eben nicht durch die Größe des Controls bestimmt wird. Das Control muss aber natürlich groß genug sein, um alles anzuzeigen.
 
 
 
