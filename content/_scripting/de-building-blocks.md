@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Building Blocks
-menu_title: Building Blocks
+title: Peakboard Building Blocks
+menu_title: Peakboard Building Blocks
 description: Informatinon über die Peakboard Building Blocks
 lang: de
 weight: 104
@@ -9,4 +9,4 @@ ref: scr-104
 redirect_from:
 ---
 
-DE - Text about Building Blocks 
+DE - Text about Peakboard Building Blocks 
