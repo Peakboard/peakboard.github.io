@@ -2,7 +2,7 @@
 layout: article
 title: Bedingte Formatierung
 menu_title: Bedingte Formatierung
-description: Bedingte Formatierung
+description: Bedingte Formatierung, Conditional Formatting
 lang: de
 weight: 101
 ref: con-101
