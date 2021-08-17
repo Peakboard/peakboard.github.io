@@ -34,5 +34,5 @@ Anschließend ist das Update zur Peakboard 2 Box abgeschlossen.
 
 <div class="box-tip" markdown="1">
 **Hinweis:** 
-Wenn Sie Fragen oder Probleme haben, wenden Sie sich bitte an unser Support-Team unter mailto:support@peakboard.com.
+Wenn Sie Fragen oder Probleme haben, wenden Sie sich bitte an unser Support-Team unter <support@peakboard.com>.
 </div>
