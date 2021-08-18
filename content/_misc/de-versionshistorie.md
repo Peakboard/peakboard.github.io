@@ -11,7 +11,7 @@ redirect_from:
 footer: 2.11.0.0 (18.08.2021)
 ---
 ## 2.11.0.0 (18.08.2021) [Download](https://peakboard.rocks/download-version-history)
-*Datenquellen*
+* *Datenquellen*
 * [Extension](/data_sources/Extension/de-Extension.html) - Datentypenhandling angepasst
 * [Extension](/data_sources/Extension/de-Extension.html) - Fehlerhandling angepasst
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Überarbeiteter Dialog
@@ -19,7 +19,7 @@ footer: 2.11.0.0 (18.08.2021)
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Erlaubt das Erstellen von Ordnern für OPC UA Subscription und bietet die Möglichkeit, diese für die vollständige Pfadbenennung der Subscripting-Werte zu verwenden
 * [MQTT](/data_sources/de-mqtt-broker.html) - Zertifikatshandling überarbeitet
 * [XML](/data_sources/de-xml.html) - Fehlerhandling überarbeitet
-*Controls*
+* *Controls*
 * [Webseiten-Control](/controls/Extended/de-webpage.html) - Option für JavaScript Inject hinzugefügt
 * [Webseiten-Control](/controls/Extended/de-webpage.html) - Das Daten-Feld lässt sich nun über eine bedingte Formatierung verändern
 * [Excel-Diagramm](/controls/Chart/de-excel-viewer.html) - Fehlerhandling angepasst
@@ -42,11 +42,11 @@ footer: 2.11.0.0 (18.08.2021)
 * TileView - Fix für einen Fehler, bei dem das Sperren eines Controls innerhalb einer TileView dazu führte, dass die ListView statt des Controls gesperrt wurde
 * Circular-Gauge - Fix für einen Fehler, bei dem das Control verschwand
 * Linear-Gauge - Fix für einen Fehler, bei dem das Control verschwand
-*Scripting*
+* *Scripting*
 * [Peakboard Building Blocks](/scripting/de-building-blocks.html) implementiert
 * [Skript-Editor](/scripting/de-script-editor.html) - Globale Skripte werden nun in ihre einzelnen Funktionen aufgeteilt
 * [Skript-Editor](/scripting/de-script-editor.html) - Der Skript-Editor behält die zuletzt verwendete Skalierung bei
-*Allgemein*
+* *Allgemein*
 * Farbschema für die Farbauswahl überarbeitet
 * [Zertifikatsmanager](/administration/de-zertifikats.html) überarbeitet
 * Dialog für die Verbindung zu Peakboard Hub implementiert
@@ -61,15 +61,15 @@ footer: 2.11.0.0 (18.08.2021)
 * Fix für einen Fehler, bei dem die Netzwerkfunktionen im Skript-Editor fehlerhaft vorgeschlagen wurden
 * Fix für einen Fehler, bei dem die Verwendung einer nichtangelegten Variablen in einem Dataflow zu einem kritischen Fehler führte
 * Fix für einen Fehler, bei dem eine ungültige Benennung einer Schriftart zu einer falschen Fehlermeldung führte
-*Peakboard Box*
+* *Peakboard Box*
 * Peakboard Log Prozess überarbeitet
 * Peakboard Log UI überarbeitet
 * [Zertifikatsverwaltung](/administration/de-zertifikats.html) über den Peakboard Designer implementiert
 * Neue Benutzerrollen hinzugefügt
-*Peakboard Edge*
+* *Peakboard Edge*
 * Fehlerhandling angepasst 
 * Fix für einen Fehler, bei dem der Peakboard Edge Tester im Peakboard Designer nicht korrekt funktionierte
-*Peakboard Hub*
+* *Peakboard Hub*
 * Peakboard Hub - Verbindungen überarbeitet
 * Peakboard Hub - Token Authentifizierung entfernt
 * Peakboard Hub - Single Point Authentifizierung hinzugefügt
