@@ -8,9 +8,74 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.10.0.0(07.06.2021)
+footer: 2.11.0.0 (18.08.2021)
 ---
-## 2.10.0.0 (07.06.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.11.0.0 (18.08.2021) [Download](https://peakboard.rocks/download-version-history)
+*Datenquellen*
+* [Extension](/data_sources/Extension/de-Extension.html) - Datentypenhandling angepasst
+* [Extension](/data_sources/Extension/de-Extension.html) - Fehlerhandling angepasst
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Überarbeiteter Dialog
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Listener integriert
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Erlaubt das Erstellen von Ordnern für OPC UA Subscription und bietet die Möglichkeit, diese für die vollständige Pfadbenennung der Subscripting-Werte zu verwenden
+* [MQTT](/data_sources/de-mqtt-broker.html) - Zertifikatshandling überarbeitet
+* [XML](/data_sources/de-xml.html) - Fehlerhandling überarbeitet
+*Controls*
+* [Webseiten-Control](/controls/Extended/de-webpage.html) - Option für JavaScript Inject hinzugefügt
+* [Webseiten-Control](/controls/Extended/de-webpage.html) - Das Daten-Feld lässt sich nun über eine bedingte Formatierung verändern
+* [Excel-Diagramm](/controls/Chart/de-excel-viewer.html) - Fehlerhandling angepasst
+* [ListView](/controls/Common/de-list-view.html) - Default Template hinzugefügt
+* [ListView](/controls/Common/de-list-view.html) - Rechtsklick Optionen implementiert
+* [TileView](/controls/Common/de-tile-view.html) - Default Template hinzugefügt
+* [TileView](/controls/Common/de-tile-view.html) - Rechtsklick Optionen implementiert
+* [Text](/controls/Common/de-text-block.html) - Update-Button bei Datenquellenbindung hinzugefügt
+* Tableau View - Entfernt
+* [Bedingte Formatierung](/controls/de-cf.html) - Es ist jetzt möglich, eine Variable als Text in der bedingten Formatierung für eine Schaltfläche zu binden
+* [Bedingte Formatierung](/controls/de-cf.html) - Verwendung eines Drop Downs für boolesche Variablen
+* [Timeline-Grid](/controls/Chart/de-timeline-grid.html) - Reload-Button für Mapping entfernt
+* Limitierung der Control-Größe von mindestens 20 Pixel entfernt
+* Text - Fix für einen Fehler, bei dem das Tapped-Event nicht funktionierte, wenn kein Hintergrund ausgewählt war
+* Tabelle - Fix für einen Fehler, bei dem die Daten in einer Tabelle auf der Zeichenfläche unregelmäßig aktualisiert wurden
+* Erweitertes-Diagramm - Fix für einen Fehler, bei dem keine Daten für die X- und Y-Achse ausgewählt werden konnten
+* Webseiten-Control - Fix für einen Fehler, bei dem die Webseite flackerte, wenn die angezeigte Seite zu oft Daten lud
+* ListView - Fix für einen Fehler, bei dem das Sperren eines Controls innerhalb einer ListView dazu führte, dass die ListView statt des Controls gesperrt wurde
+* TileView - Fix für einen Fehler, bei dem die Sichtbar/Unsichtbar Funktion nicht funktionierte und zu einer Fehlermeldung führte
+* TileView - Fix für einen Fehler, bei dem das Sperren eines Controls innerhalb einer TileView dazu führte, dass die ListView statt des Controls gesperrt wurde
+* Circular-Gauge - Fix für einen Fehler, bei dem das Control verschwand
+* Linear-Gauge - Fix für einen Fehler, bei dem das Control verschwand
+*Scripting*
+* [Peakboard Building Blocks](/scripting/de-building-blocks.html) implementiert
+* [Skript-Editor](/scripting/de-script-editor.html) - Globale Skripte werden nun in ihre einzelnen Funktionen aufgeteilt
+* [Skript-Editor](/scripting/de-script-editor.html) - Der Skript-Editor behält die zuletzt verwendete Skalierung bei
+*Allgemein*
+* Farbschema für die Farbauswahl überarbeitet
+* [Zertifikatsmanager](/administration/de-zertifikats.html) überarbeitet
+* Dialog für die Verbindung zu Peakboard Hub implementiert
+* [Peakboard Variablen](/scripting/de-variables.html) - Dialog überarbeitet
+* [Peakboard Variablen](/scripting/de-variables.html) - Der initiale Wert einer Variablen des Typen Number ist 0
+* [Peakboard Variablen/Listen](/scripting/de-variables.html) - Ermöglicht die Verbindung einer Variablen mit Peakboard Hub, um sie mit anderen Peakboard Boxen zu teilen.
+* [Peakboard API](/misc/de-API.html) - Erlaubt das Lesen und Schreiben eines einzelnen Wertes einer Liste durch Übergabe des Index
+* Fehlerhandling beim Upload einer Visualisierung auf eine Peakboard Box überarbeitet
+* Option für ein manuelles Update des Peakboard Designers implementiert
+* Fix für einen Fehler, bei dem englische und deutsche Texte im Peakboard Designer vertauscht waren
+* Fix für einen Fehler, bei dem das gecachete Bild einer Ressource nicht gelöscht wurde
+* Fix für einen Fehler, bei dem die Netzwerkfunktionen im Skript-Editor fehlerhaft vorgeschlagen wurden
+* Fix für einen Fehler, bei dem die Verwendung einer nichtangelegten Variablen in einem Dataflow zu einem kritischen Fehler führte
+* Fix für einen Fehler, bei dem eine ungültige Benennung einer Schriftart zu einer falschen Fehlermeldung führte
+*Peakboard Box*
+* Peakboard Log Prozess überarbeitet
+* Peakboard Log UI überarbeitet
+* [Zertifikatsverwaltung](/administration/de-zertifikats.html) über den Peakboard Designer implementiert
+* Neue Benutzerrollen hinzugefügt
+*Peakboard Edge*
+* Fehlerhandling angepasst 
+* Fix für einen Fehler, bei dem der Peakboard Edge Tester im Peakboard Designer nicht korrekt funktionierte
+*Peakboard Hub*
+* Peakboard Hub - Verbindungen überarbeitet
+* Peakboard Hub - Token Authentifizierung entfernt
+* Peakboard Hub - Single Point Authentifizierung hinzugefügt
+
+
+## 2.10.0.0 (07.06.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/En6NjAbJgwRGmo3-7UwERfYBnhZXfhdNt6Du_7RHSt1uwQ?e=yhQVBk)
 * Auf die Peakboard Box geladene Visualisierungen erhalten nun einen Zeitstempel und werden chronologisch sortiert
 * Benutzerrollen Konzept auf der Peakboard Box erweitert
 * Aktualisierung der Videos im Startbildschirm des Peakboard Designers hinzugefügt
