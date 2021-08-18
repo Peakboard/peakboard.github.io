@@ -15,7 +15,7 @@ footer: 2.11.0.0 (18.08.2021)
 * [Peakboard Building Blocks](/scripting/en-building-blocks.html) implemented
 * [Script Editor](/scripting/en-script-editor.html) - Global scripts are now split into their individual functions
 * [Script-Editor](/scripting/en-script-editor.html) - The script editor keeps the last used scaling
-* **Data sources
+* **Data sources**
 * [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Revised dialog
 * [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Listener integrated
 * [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Allows to create folders for OPC UA Subscription and provides the possibility to use them for full path naming of subscripting values
@@ -66,7 +66,7 @@ footer: 2.11.0.0 (18.08.2021)
 * Peakboard Log UI revised
 * [Certificate Management](/administration/en-certificates.html) implemented via Peakboard Designer
 * Added new user roles
-* **Peakboard Edge
+* **Peakboard Edge**
 * Error handling adjusted 
 * Fix for a bug where the Peakboard Edge Tester did not work correctly in the Peakboard Designer
 * **Peakboard Hub**
