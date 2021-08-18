@@ -8,9 +8,74 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.10.0.0(07.06.2021)
+footer: 2.11.0.0 (18.08.2021)
 ---
-## 2.10.0.0 (07.06.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.11.0.0 (18.08.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Scripting**
+* [Peakboard Building Blocks](/scripting/en-building-blocks.html) implemented
+* [Script Editor](/scripting/en-script-editor.html) - Global scripts are now split into their individual functions
+* [Script-Editor](/scripting/en-script-editor.html) - The script editor keeps the last used scaling
+* **Data sources
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Revised dialog
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Listener integrated
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Allows to create folders for OPC UA Subscription and provides the possibility to use them for full path naming of subscripting values
+* [Extension](/data_sources/Extension/en-Extension.html) - Data type handling adjusted
+* [Extension](/data_sources/Extension/en-Extension.html) - error handling adapted
+* [MQTT](/data_sources/en-mqtt-broker.html) - certificate handling reworked
+* [XML](/data_sources/en-xml.html) - error handling revised
+* **Controls**
+* [Web page control](/controls/Extended/en-webpage.html) - added option for JavaScript Inject
+* [Web page control](/controls/Extended/en-webpage.html) - The data field can now be changed via conditional formatting
+* [Excel chart](/controls/Chart/en-excel-viewer.html) - Error handling adjusted
+* [ListView](/controls/Common/en-list-view.html) - Default template added
+* [ListView](/controls/Common/en-list-view.html) - right click options implemented
+* [TileView](/controls/Common/en-tile-view.html) - default template added
+* [TileView](/controls/Common/en-tile-view.html) - right click options implemented
+* [Text](/controls/Common/en-text-block.html) - added update button on data source binding
+* Tableau View - removed
+* [Conditional Formatting](/controls/en-cf.html) - It is now possible to bind a variable as text in the conditional formatting for a button
+* [Conditional formatting](/controls/en-cf.html) - Use a drop down for boolean variables
+* [Timeline-Grid](/controls/Chart/en-timeline-grid.html) - removed reload button for mapping
+* Control size limit of at least 20 pixels removed
+* Text - fix for a bug where tapped event didn't work if no background was selected
+* Table - fix for a bug where the data in a table on the artboard was updated irregularly
+* Advanced Chart - fix for a bug where data could not be selected for the X and Y axes
+* Web Page Control - fix for a bug where the web page flickered when the displayed page loaded data too often
+* ListView - fix for a bug where locking a control inside a ListView caused the ListView to be locked instead of the control
+* TileView - Fix for a bug where the visible/invisible function didn't work and led to an error message
+* TileView - Fix for a bug where locking a control inside a TileView caused the ListView to be locked instead of the control
+* Circular-Gauge - fix for a bug where the control disappeared
+* Linear-Gauge - fix for a bug where the control disappeared
+* **General**
+* Color scheme for color selection revised
+* [Certificate Manager](/administration/en-certificates.html) revised
+* Dialog for connection to Peakboard Hub implemented
+* [Peakboard Variables](/scripting/en-variables.html) - dialog revised
+* [Peakboard Variables](/scripting/en-variables.html) - The initial value of a variable of the type Number is 0
+* [Peakboard Variables/Lists](/scripting/en-variables.html) - Allows a variable to be connected to Peakboard Hub to share with other Peakboard boxes.
+* [Peakboard API](/misc/en-API.html) - Allows reading and writing a single value of a list by passing the index.
+* Error handling when uploading a visualization to a Peakboard Box revised.
+* Option for a manual update of the Peakboard Designer implemented
+* Fix for an error where English and German texts were mixed up in the Peakboard Designer
+* Fix for a bug where the cached image of a resource was not deleted
+* Fix for a bug where the network functions in the script editor were suggested incorrectly
+* Fix for a bug where using an unapplied variable in a dataflow resulted in a critical error
+* Fix for a bug where an invalid naming of a font led to an incorrect error message
+* **Peakboard Box**
+* Peakboard Log process revised
+* Peakboard Log UI revised
+* [Certificate Management](/administration/en-certificates.html) implemented via Peakboard Designer
+* Added new user roles
+* **Peakboard Edge
+* Error handling adjusted 
+* Fix for a bug where the Peakboard Edge Tester did not work correctly in the Peakboard Designer
+* **Peakboard Hub**
+* Peakboard Hub - Connections revised
+* Peakboard Hub - Token Authentication removed
+* Peakboard Hub - Single Point Authentication added
+
+
+## 2.10.0.0 (07.06.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/En6NjAbJgwRGmo3-7UwERfYBnhZXfhdNt6Du_7RHSt1uwQ?e=yhQVBk)
 * Visualizations loaded on the Peakboard Box now get a timestamp and are sorted chronologically
 * User roles concept on the Peakboard Box extended
 * Added update of videos in the Peakboard Designer start screen
