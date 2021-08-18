@@ -11,12 +11,16 @@ redirect_from:
 footer: 2.11.0.0 (18.08.2021)
 ---
 ## 2.11.0.0 (18.08.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Scripting**
+* [Peakboard Building Blocks](/scripting/de-building-blocks.html) implementiert
+* [Skript-Editor](/scripting/de-script-editor.html) - Globale Skripte werden nun in ihre einzelnen Funktionen aufgeteilt
+* [Skript-Editor](/scripting/de-script-editor.html) - Der Skript-Editor behält die zuletzt verwendete Skalierung bei
 * **Datenquellen**
-* [Extension](/data_sources/Extension/de-Extension.html) - Datentypenhandling angepasst
-* [Extension](/data_sources/Extension/de-Extension.html) - Fehlerhandling angepasst
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Überarbeiteter Dialog
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Listener integriert
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Erlaubt das Erstellen von Ordnern für OPC UA Subscription und bietet die Möglichkeit, diese für die vollständige Pfadbenennung der Subscripting-Werte zu verwenden
+* [Extension](/data_sources/Extension/de-Extension.html) - Datentypenhandling angepasst
+* [Extension](/data_sources/Extension/de-Extension.html) - Fehlerhandling angepasst
 * [MQTT](/data_sources/de-mqtt-broker.html) - Zertifikatshandling überarbeitet
 * [XML](/data_sources/de-xml.html) - Fehlerhandling überarbeitet
 * **Controls**
@@ -42,10 +46,6 @@ footer: 2.11.0.0 (18.08.2021)
 * TileView - Fix für einen Fehler, bei dem das Sperren eines Controls innerhalb einer TileView dazu führte, dass die ListView statt des Controls gesperrt wurde
 * Circular-Gauge - Fix für einen Fehler, bei dem das Control verschwand
 * Linear-Gauge - Fix für einen Fehler, bei dem das Control verschwand
-* **Scripting**
-* [Peakboard Building Blocks](/scripting/de-building-blocks.html) implementiert
-* [Skript-Editor](/scripting/de-script-editor.html) - Globale Skripte werden nun in ihre einzelnen Funktionen aufgeteilt
-* [Skript-Editor](/scripting/de-script-editor.html) - Der Skript-Editor behält die zuletzt verwendete Skalierung bei
 * **Allgemein**
 * Farbschema für die Farbauswahl überarbeitet
 * [Zertifikatsmanager](/administration/de-zertifikats.html) überarbeitet
