@@ -9,4 +9,4 @@ ref: scr-104
 redirect_from:
 ---
 
-DE - Text about Peakboard Building Blocks 
+Eine ausführliche Erklärung unserer brandneuen Peakboard Building Blocks folgt in Kürze. Schau also bald wieder vorbei!
