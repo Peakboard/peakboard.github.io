@@ -52,19 +52,19 @@ footer: 2.11.0.0 (18.08.2021)
 * Dialog for connection to Peakboard Hub implemented
 * [Peakboard Variables](/scripting/en-variables.html) - dialog revised
 * [Peakboard Variables](/scripting/en-variables.html) - The initial value of a variable of the type Number is 0
-* [Peakboard Variables/Lists](/scripting/en-variables.html) - Allows a variable to be connected to Peakboard Hub to share with other Peakboard boxes.
+* [Peakboard Variables/Lists](/scripting/en-variables.html) - Allows a variable to be connected to Peakboard Hub to share with other Peakboard Boxes.
 * [Peakboard API](/misc/en-API.html) - Allows reading and writing a single value of a list by passing the index.
 * Error handling when uploading a visualization to a Peakboard Box revised.
 * Option for a manual update of the Peakboard Designer implemented
 * Fix for an error where English and German texts were mixed up in the Peakboard Designer
 * Fix for a bug where the cached image of a resource was not deleted
 * Fix for a bug where the network functions in the script editor were suggested incorrectly
-* Fix for a bug where using an unapplied variable in a dataflow resulted in a critical error
+* Fix for a bug where using an unapplied variable in a Dataflow resulted in a critical error
 * Fix for a bug where an invalid naming of a font led to an incorrect error message
 * **Peakboard Box**
 * Peakboard Log process revised
 * Peakboard Log UI revised
-* [Certificate Management](/administration/en-certificates.html) implemented via Peakboard Designer
+* [Certificate Management](/administration/en-certificats.html) implemented via Peakboard Designer
 * Added new user roles
 * **Peakboard Edge**
 * Error handling adjusted 
