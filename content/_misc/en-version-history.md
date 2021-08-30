@@ -8,13 +8,17 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.11.0.0 (18.08.2021)
+footer: 2.11.2.0 (30.08.2021)
 ---
+## 2.11.2.0 (30.08.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Scripting**
+* Hotfix of an error when switching the active script in the [Script Editor](/scripting/de-script-editor.html)
+
 ## 2.11.0.0 (18.08.2021) [Download](https://peakboard.rocks/download-version-history)
 * **Scripting**
 * [Peakboard Building Blocks](/scripting/en-building-blocks.html) implemented
 * [Script Editor](/scripting/en-script-editor.html) - Global scripts are now split into their individual functions
-* [Script-Editor](/scripting/en-script-editor.html) - The script editor keeps the last used scaling
+* [Script Editor](/scripting/en-script-editor.html) - The script editor keeps the last used scaling
 * **Data sources**
 * [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Revised dialog
 * [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Listener integrated
@@ -35,7 +39,7 @@ footer: 2.11.0.0 (18.08.2021)
 * Tableau View - removed
 * [Conditional Formatting](/controls/en-cf.html) - It is now possible to bind a variable as text in the conditional formatting for a button
 * [Conditional formatting](/controls/en-cf.html) - Use a drop down for boolean variables
-* [Timeline-Grid](/controls/Chart/en-timeline-grid.html) - removed reload button for mapping
+* [Timeline Grid](/controls/Chart/en-timeline-grid.html) - removed reload button for mapping
 * Control size limit of at least 20 pixels removed
 * Text - fix for a bug where tapped event didn't work if no background was selected
 * Table - fix for a bug where the data in a table on the artboard was updated irregularly
@@ -44,8 +48,8 @@ footer: 2.11.0.0 (18.08.2021)
 * ListView - fix for a bug where locking a control inside a ListView caused the ListView to be locked instead of the control
 * TileView - Fix for a bug where the visible/invisible function didn't work and led to an error message
 * TileView - Fix for a bug where locking a control inside a TileView caused the ListView to be locked instead of the control
-* Circular-Gauge - fix for a bug where the control disappeared
-* Linear-Gauge - fix for a bug where the control disappeared
+* Circular Gauge - fix for a bug where the control disappeared
+* Linear Gauge - fix for a bug where the control disappeared
 * **General**
 * Color scheme for color selection revised
 * [Certificate Manager](/administration/en-certificates.html) revised

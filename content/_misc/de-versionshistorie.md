@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.11.0.0 (18.08.2021)
+footer: 2.11.2.0 (30.08.2021)
 ---
-## 2.11.0.0 (18.08.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.11.2.0 (30.08.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Scripting**
+* Hotfix von einem Fehler beim Wechseln des aktiven Skripts im [Skript-Editor](/scripting/de-script-editor.html)
+
+## 2.11.0.0 (18.08.2021)
 * **Scripting**
 * [Peakboard Building Blocks](/scripting/de-building-blocks.html) implementiert
 * [Skript-Editor](/scripting/de-script-editor.html) - Globale Skripte werden nun in ihre einzelnen Funktionen aufgeteilt
