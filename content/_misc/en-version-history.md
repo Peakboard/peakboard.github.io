@@ -52,7 +52,7 @@ footer: 2.11.2.0 (30.08.2021)
 * Linear Gauge - fix for a bug where the control disappeared
 * **General**
 * Color scheme for color selection revised
-* [Certificate Manager](/administration/en-certificates.html) revised
+* [Certificate Manager](/administration/en-certificats.html) revised
 * Dialog for connection to Peakboard Hub implemented
 * [Peakboard Variables](/scripting/en-variables.html) - dialog revised
 * [Peakboard Variables](/scripting/en-variables.html) - The initial value of a variable of the type Number is 0
