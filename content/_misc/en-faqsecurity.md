@@ -10,16 +10,16 @@ redirect_from:
 
 ---
 
-## Operating system:
+## Operating System
 Windows 10 IoT Enterprise is installed on the Peakboard Box.
 
-## Windows Updates:
+## Windows Updates
 Windows Updates are disabled by default.  
 
-## Internet Access:
+## Internet Access
 The Peakboard Box does not require Internet access by default.
 
-## Unauthorized Access:
+## Unauthorized Access
 The Peakboard Box is started under a Windows user who has no rights except those necessary for viewing. 
 This user cannot install anything or run any other software except the one we provide.
 In addition, Peakboard Box is run in a kind of "kiosk mode", which does not allow switching to desktop mode.
@@ -29,11 +29,11 @@ You will receive the administrator as well as the corresponding password on a se
 * Please change the password and keep a digital record of it. It *cannot* be reset if lost!
 </div>
 
-## Domain:
+## Domain
 
 The Peakboard Box can, but does not have to be integrated into the domain.  
 
-## Ports:
+## Ports
 By default, all ports are blocked on the Peakboard Box except the following:  
 
 * ICMPv4 and v6  
@@ -46,6 +46,6 @@ By default, all ports are blocked on the Peakboard Box except the following:
 
 * Port 40404, 40405 and 40407 (Peakboard communication)  
 
-## Virus scanner:
+## Virus scanner
 With administrator access, it is possible, but not necessary, to install a virus scanner on the Peakboard Box. 
 We guarantee full protection.
