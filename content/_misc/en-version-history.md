@@ -8,11 +8,15 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.11.2.0 (30.08.2021)
+footer: 2.11.3.0 (02.09.2021)
 ---
-## 2.11.2.0 (30.08.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.11.3.0 (02.09.2021) [Download](https://peakboard.rocks/download-version-history)
+* **General**.
+* Hotfix for a bug where access to created [Peakboard variables/lists](/scripting/en-variables.html) via the API was no longer possible
+
+## 2.11.2.0 (30.08.2021)
 * **Scripting**
-* Hotfix of an error when switching the active script in the [Script Editor](/scripting/de-script-editor.html)
+* Hotfix of an error when switching the active script in the [Script Editor](/scripting/en-script-editor.html)
 
 ## 2.11.0.0 (18.08.2021) [Download](https://peakboard.rocks/download-version-history)
 * **Scripting**

@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.11.2.0 (30.08.2021)
+footer: 2.11.3.0 (02.09.2021)
 ---
-## 2.11.2.0 (30.08.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.11.3.0 (02.09.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Allgemein**
+* Hotfix für einen Fehler, bei dem der Zugriff auf angelegte [Peakboard Variablen/Listen](/scripting/de-variables.html) über die API nicht mehr möglich war
+
+## 2.11.2.0 (30.08.2021)
 * **Scripting**
 * Hotfix von einem Fehler beim Wechseln des aktiven Skripts im [Skript-Editor](/scripting/de-script-editor.html)
 
