@@ -11,52 +11,91 @@ redirect_from:
  - /data_sources/22-de-opc-ua.html
 ---
 
-Just like the direct access to the Siemens S7, MQTT or the Azure IoT Hub, the OPC UA data source fits seamlessly into the collection of machine data connections. In the case described here, Peakboard is an OPC UA client that connects to an OPC UA server. The example in this article can be easily followed with the generic OPC UA "Reference Server", which you can download from [opcfoundation.org](https://opcfoundation.org/developer-tools/samples-and-tools-unified-architecture) after registration.
-
-The zip file contains various applications. These include the so-called "Reference Server", which you can start by double-clicking on the executable in the directory. Of course, this is only necessary for a test "in the dry". If you have a real OPC UA server in your network, you can also use it for the first steps. Ideally you are familiar with OPC UA in general as well as with your OPC UA server in particular.
-
-To start, enter the URL at which the server can be reached. Depending on the security settings used, this URL may differ from the example shown here. A click on "Get Endpoints" fills the box below with all possible access types supported by the server. In particular, the question is how to authenticate and/or encrypt the later transmission. In the example, a communication type is selected that does not apply any security measures. In addition, the data content is transmitted in binary form, which in contrast to XML is somewhat more powerful and protects the network due to the lower throughput.
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-01.png)
 
+Like every datasource, the OPC UA datasource needs a name.
+
+A [client certificate](2) is necessary. This certificate is stored as a whole (public + private key) on client side. Afterwards the public key part has to be transferred to the server and stored as a trusted certificate (only exception: the “none:none:?” endpoint is used)
+
 In the next step the authentication can be set. In most cases, such as MicroEmbedded OPC UA servers, Anonymous is used. It is also possible to log in with a user name and password or to specify a password protected certificate which is used for identification.
 
-![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
+![image_2](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
 
-The next step is to specify the certificate with which the Peakboard application, i.e. your visualization, uniquely identifies itself to the server and, if necessary, establishes the encrypted connection. The next picture shows the jump to the certificate store, which is available for the whole OPC UA connectivity. You can import the desired certificates from the local hard drive or - if you do not have a certificate - you can create one yourself ("Create" button). If you issue a certificate yourself, it must be made known on the server. How this is done depends on the server. In this test scenario, you can simply select None:None:Binary as the endpoint (number 3 in the first screenshot) and leave "Anonymous" set as the authentication method. This ensures that the server allows any connection.
+(1 blue): Choose a certificate store. For a client certificate, the “My” store has to be used. This should be the default one, when opening the client certificate dialog.
+(2 blue): Import a certificate (should be a .pfx, .p12, .p7b file) or create a new certificate (see 2. b.)
+(3 blue): Export the certificate using the “export” action as .crt file (open the menu with the little triangle). To view the certificate or for special actions open the certificate in the windows certificate viewer using the “open” action.
+(4 blue): [Select] the certificate or [cancel] if you want to discard your selection (added certificates will not be deleted by clicking [cancel])
 
-![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
+![image_3](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
 
-Let's move on to the final configuration step. After all, data should be received from the server. There are two ways to do this: First, you can use one or more subscription(s) to ensure that the visualization always receives a notification as soon as a value changes. This variant is as close to real-time communication as the computing power and the network allow. Each OPC UA Datasource can subscribe to any number of items in any number of subscriptions. The server of the OPC Foundation provides a node "Simulation" in its configuration. It contains countless variables of various data types. In addition, the values change randomly in about once per second, which is a good idea for subscriptions. On a logical level, the use of subscription makes sense if the data of the variables is to be handled in the same way. One could, for example, combine all error codes provided by the server into one subscription, since the same red light should always light up in the board in the event of an error, regardless of which error is currently occurring. To add variables to a subscription, you can simply use the browse dialogs to select all the data points you need. The following screenshot shows the way from creating a subscription to selecting the desired variables.
 
-![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
+*Create a new certificate*
+Insert all necessary information in the upper input-block.
+Change necessary information in the lower input-block. Mostly no changes have to be made here.
 
-Variant two for reading data from the server is a cyclic read operation in which a request is sent to the server as usual. The server then responds with the current record. What happens between the read cycles cannot be detected. The connection works analogous to the creation of subscriptions, with the difference that you get to the dialog for the variables with the button "Select". With the update interval you can determine how often the data should be requested.
+Insert the URL to the OPC UA Server (3). Should look like (*opc.tcp://<host>.<domain>:<port>[/<path>]*)
+The server URL can be scripted using the [{ } button]. 
 
-![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
+<div class="box-note" markdown="1">
+This script will only be executed once, when connecting to the server on startup!
+</div>
 
-In principle, there are two ways of dealing with the incoming data. The OPC-UA data source, like any other data source, is simply a table in which the incoming messages of the items are appended; at least up to the queue size. The data is then removed from the table according to the FiFo principle and replaced with new data. To test a configuration, the table can simply be dragged and dropped onto the current screen. If everything is configured correctly, the table should fill with data.
+Load the endpoints of the server using the [refresh button] on the right of the endpoint selection (4). 
+When a certificate popup is shown, accept the server certificate. 
+Afterwards select the endpoint of your choice. 
+Endpoints differ by their encryption and signing levels and algorithms.
 
-The second and more common way is to react to incoming data in a script. One script can be attached to each subscription. The same applies to the data set of variables that is created by the cyclic reading process. The following screenshot shows a common use case. Depending on how the value of the item is set, the message is stored in one or the other table for further processing. A square (called "status") is set to green or red depending on the value. In the case of subscriptions, please note that this script is always executed in the context of the variable that is currently receiving a new value. The information concerning this context can be found in the "Message" object. An overview of all data points of the object can be found in the script editor on subscription level in the tree on the left side. The new value can be retrieved with message.itemvalue and message.itemid the name with the path is available on the server.
+If desired, use an authentication method (username, certificate) (5). 
+The OPC UA authentication is used to authenticate the OPC UA user against the server. 
 
-```Lua
-	data.itemnumber = 1 + data.itemnumber
+<div class="box-note" markdown="1">
+Note: client and server certificate are used to authenticate the client and the server against each other and thus differ from the user authentication.
+</div>
 
-	if message.itemvalue then
-		screens['screen0'].status.Fill = brushes.green
-		data.valid.add({['itemnumber'] = data.itemnumber, ['commentary'] = 'passed'})
-	else
-		screens['screen0'].status.Fill = brushes.red
-		data.invalid.add({['itemnumber'] = data.itemnumber, ['commentary'] = 'failed'})
-	end
+[Connect] to the server (6). If the connection works, all inserted information is valid.
 
-	if data.itemnumber == 10000 then
-		data.itemnumber = 0
-	end
-```
+If an OPC UA connection is already stored (personal/hub/visualization), it can be used with this button.
 
-Among many other possibilities OPC UA also offers the use of methods. Peakboard also covers this aspect of the protocol. In the lower part of the data source dialog you can search for methods offered by the OPC UA server using the browse dialog. Once the desired method has been selected, i.e. connected to the data source, all relevant information can be viewed by clicking on "Show". This also includes the data types of the values that the method may need or return for execution.
+<div class="box-note" markdown="1">
+Certificates will still have to be created and accepted (to accept the server certificate reload and switch the endpoint).
+</div>
 
-![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-06.png)
+### OPC UA Data Handling
 
-The above screenshot shows the execution of such a method in the script. All connected methods can be selected in the script editor as subitems of the data source node. A double-click on the desired method creates the code that executes the method. Of course, this code lacks the correct context. You must then define or modify variable names and/or values.
+![image_4](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
+
+Select the communication type of your datasource:
+Subscriptions: The OPC UA defined subscriptions. Should be the way to go, if available on the server.
+Variables: Pull node values after a predefined amount of time (Reload Interval). Only variable nodes can be used, objects and their events are not available.
+
+Edit Subscription specific settings. Should only be done, if you know what you are doing.
+
+Choose a Message Type:
+Simple: Store the latest message for each subscription.
+Advanced: Store the last (amount = Queue Size) value updates.
+
+Manage your subscriptions.
+- Clicking directly or opening the menu and choosing “Browse” will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
+- Using “Add manually”, nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
+
+<div class="box-note" markdown="1">
+The “Title” of a subscribed node will be used, to access this node from within the peakboard visualization.
+</div>
+
+![image_5](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
+
+The browse dialog will show the tree of nodes stored on the connected OPC UA server. Selecting a node will add a new subscription deselecting will remove the matching subscription.
+
+![image_6](/assets/images/data-sources/opc-ua/data-source-opc-ua-06.png)
+
+The Title, Namespace and Identifier of a node can be edited.
+Namespace and Identifier can be scripted. This script will be executed only once, when subscribing to the OPC UA server on startup.
+
+If a connection to the server is possible, the “Fetch Node Info” button can be used, to read additional node information (node class, data type, …) from the server. 
+
+Node classes:
+Variable: Has a value which will be read from the server.
+Object: Has events, which can be subscribed to, from the “Edit OPC UA Subscription Item” dialog. Subscribing to events can be done using the “Add” button under the “Event Filter” table (a server connection is necessary).
+
+Enable the listener to check if all subscriptions are defined properly. The listener works the same as the data source in the visualization later on.
