@@ -14,18 +14,17 @@ redirect_from:
 
 ![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-01.png)
 
-Like every datasource, the OPC UA datasource needs a name.
+Like every other Peakboard datasource, the OPC UA datasource needs a name (1).
 
-A [client certificate](2) is necessary. This certificate is stored as a whole (public + private key) on client side. Afterwards the public key part has to be transferred to the server and stored as a trusted certificate (only exception: the “none:none:?” endpoint is used)
-
-In the next step the authentication can be set. In most cases, such as MicroEmbedded OPC UA servers, Anonymous is used. It is also possible to log in with a user name and password or to specify a password protected certificate which is used for identification.
+A [client certificate] (2) is necessary. This certificate is stored as a whole (public + private key) on client side. 
+Afterwards the public key part has to be transferred to the server and stored as a trusted certificate (only exception: the “none:none:?” endpoint is used)
 
 ![image_2](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
 
-(1 blue): Choose a certificate store. For a client certificate, the “My” store has to be used. This should be the default one, when opening the client certificate dialog.
-(2 blue): Import a certificate (should be a .pfx, .p12, .p7b file) or create a new certificate (see 2. b.)
-(3 blue): Export the certificate using the “export” action as .crt file (open the menu with the little triangle). To view the certificate or for special actions open the certificate in the windows certificate viewer using the “open” action.
-(4 blue): [Select] the certificate or [cancel] if you want to discard your selection (added certificates will not be deleted by clicking [cancel])
+* (1 blue): Choose a certificate store. For a client certificate, the “My” store has to be used. This should be the default one, when opening the client certificate dialog.
+* (2 blue): Import a certificate (should be a .pfx, .p12, .p7b file) or create a new certificate (see 2. b.)
+* (3 blue): Export the certificate using the “export” action as .crt file (open the menu with the little triangle). To view the certificate or for special actions open the certificate in the windows certificate viewer using the “open” action.
+* (4 blue): [Select] the certificate or [cancel] if you want to discard your selection (added certificates will not be deleted by clicking [cancel])
 
 ![image_3](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
 
@@ -65,7 +64,7 @@ Certificates will still have to be created and accepted (to accept the server ce
 
 ![image_4](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
 
-Select the communication type of your datasource:
+*Select the communication type of your datasource*
 Subscriptions: The OPC UA defined subscriptions. Should be the way to go, if available on the server.
 Variables: Pull node values after a predefined amount of time (Reload Interval). Only variable nodes can be used, objects and their events are not available.
 
@@ -75,7 +74,7 @@ Choose a Message Type:
 Simple: Store the latest message for each subscription.
 Advanced: Store the last (amount = Queue Size) value updates.
 
-Manage your subscriptions.
+Manage your subscriptions (4).
 - Clicking directly or opening the menu and choosing “Browse” will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
 - Using “Add manually”, nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
 
