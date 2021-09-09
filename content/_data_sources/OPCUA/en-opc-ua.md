@@ -37,6 +37,8 @@ Insert the URL to the OPC UA Server (3). Should look like ( *opc.tcp://<host>.<d
 The server URL can be scripted using the [{ } button]. 
 
 <div class="box-tip" markdown="1">
+Note:
+
 This script will only be executed once, when connecting to the server on startup!
 </div>
 
@@ -50,6 +52,7 @@ The OPC UA authentication is used to authenticate the OPC UA user against the se
 
 <div class="box-tip" markdown="1">
 Note: 
+
 Client and server certificate are used to authenticate the client and the server against each other and thus differ from the user authentication.
 </div>
 
@@ -59,6 +62,7 @@ If an OPC UA connection is already stored (personal/hub/visualization), it can b
 
 <div class="box-tip" markdown="1">
 Note:
+
 Certificates will still have to be created and accepted (to accept the server certificate reload and switch the endpoint).
 </div>
 
@@ -78,11 +82,12 @@ Choose a Message Type (3):
 * Advanced: Store the last (amount = Queue Size) value updates.
 
 Manage your subscriptions (4).
-- Clicking directly or opening the menu and choosing [Browse] will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
-- Using [Add manually], nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
+* Clicking directly or opening the menu and choosing [Browse] will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
+* Using [Add manually], nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
 
 <div class="box-tip" markdown="1">
 Note:
+
 The “Title” of a subscribed node will be used, to access this node from within the Peakboard visualization.
 </div>
 
