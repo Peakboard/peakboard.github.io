@@ -17,26 +17,26 @@ redirect_from:
 Like every other Peakboard datasource, the OPC UA datasource needs a name (1).
 
 A [client certificate] (2) is necessary. This certificate is stored as a whole (public + private key) on client side. 
-Afterwards the public key part has to be transferred to the server and stored as a trusted certificate (only exception: the “none:none:?” endpoint is used)
+Afterwards the public key part has to be transferred to the server and stored as a trusted certificate ( *only exception: the “none:none:?” endpoint is used* )
 
 ![image_2](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
 
-* (1 blue): Choose a certificate store. For a client certificate, the “My” store has to be used. This should be the default one, when opening the client certificate dialog.
-* (2 blue): Import a certificate (should be a .pfx, .p12, .p7b file) or create a new certificate (see 2. b.)
-* (3 blue): Export the certificate using the “export” action as .crt file (open the menu with the little triangle). To view the certificate or for special actions open the certificate in the windows certificate viewer using the “open” action.
+* (1 blue): Choose a certificate store. For a client certificate, the [My] store has to be used. This should be the default one, when opening the client certificate dialog.
+* (2 blue): [Import] a certificate (should be a .pfx, .p12, .p7b file) or create a new certificate (see 2. b.)
+* (3 blue): Export the certificate using the [export] action as .crt file (open the menu with the little triangle). To view the certificate or for special actions open the certificate in the windows certificate viewer using the [open] action.
 * (4 blue): [Select] the certificate or [cancel] if you want to discard your selection (added certificates will not be deleted by clicking [cancel])
 
 ![image_3](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
 
 
 *Create a new certificate*
-Insert all necessary information in the upper input-block.
-Change necessary information in the lower input-block. Mostly no changes have to be made here.
 
-Insert the URL to the OPC UA Server (3). Should look like (*opc.tcp://<host>.<domain>:<port>[/<path>]*)
+* Insert all necessary information in the upper input-block. Change necessary information in the lower input-block. Mostly no changes have to be made here.
+
+Insert the URL to the OPC UA Server (3). Should look like ( *opc.tcp://<host>.<domain>:<port>[/<path>]* )
 The server URL can be scripted using the [{ } button]. 
 
-<div class="box-note" markdown="1">
+<div class="box-tip" markdown="1">
 This script will only be executed once, when connecting to the server on startup!
 </div>
 
@@ -48,7 +48,7 @@ Endpoints differ by their encryption and signing levels and algorithms.
 If desired, use an authentication method (username, certificate) (5). 
 The OPC UA authentication is used to authenticate the OPC UA user against the server. 
 
-<div class="box-note" markdown="1">
+<div class="box-tip" markdown="1">
 Note: client and server certificate are used to authenticate the client and the server against each other and thus differ from the user authentication.
 </div>
 
@@ -56,7 +56,7 @@ Note: client and server certificate are used to authenticate the client and the 
 
 If an OPC UA connection is already stored (personal/hub/visualization), it can be used with this button.
 
-<div class="box-note" markdown="1">
+<div class="box-tip" markdown="1">
 Certificates will still have to be created and accepted (to accept the server certificate reload and switch the endpoint).
 </div>
 
@@ -78,7 +78,7 @@ Manage your subscriptions (4).
 - Clicking directly or opening the menu and choosing “Browse” will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
 - Using “Add manually”, nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
 
-<div class="box-note" markdown="1">
+<div class="box-tip" markdown="1">
 The “Title” of a subscribed node will be used, to access this node from within the peakboard visualization.
 </div>
 
