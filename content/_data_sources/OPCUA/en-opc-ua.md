@@ -49,7 +49,8 @@ If desired, use an authentication method (username, certificate) (5).
 The OPC UA authentication is used to authenticate the OPC UA user against the server. 
 
 <div class="box-tip" markdown="1">
-Note: client and server certificate are used to authenticate the client and the server against each other and thus differ from the user authentication.
+Note: 
+Client and server certificate are used to authenticate the client and the server against each other and thus differ from the user authentication.
 </div>
 
 [Connect] to the server (6). If the connection works, all inserted information is valid.
@@ -57,6 +58,7 @@ Note: client and server certificate are used to authenticate the client and the 
 If an OPC UA connection is already stored (personal/hub/visualization), it can be used with this button.
 
 <div class="box-tip" markdown="1">
+Note:
 Certificates will still have to be created and accepted (to accept the server certificate reload and switch the endpoint).
 </div>
 
@@ -65,21 +67,23 @@ Certificates will still have to be created and accepted (to accept the server ce
 ![image_4](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
 
 *Select the communication type of your datasource*
-Subscriptions: The OPC UA defined subscriptions. Should be the way to go, if available on the server.
-Variables: Pull node values after a predefined amount of time (Reload Interval). Only variable nodes can be used, objects and their events are not available.
 
-Edit Subscription specific settings. Should only be done, if you know what you are doing.
+* **Subscriptions**: The OPC UA defined subscriptions. Should be the way to go, if available on the server.
+* **Variables**: Pull node values after a predefined amount of time (Reload Interval). Only variable nodes can be used, objects and their events are not available.
 
-Choose a Message Type:
-Simple: Store the latest message for each subscription.
-Advanced: Store the last (amount = Queue Size) value updates.
+[Edit Subscription specific settings] (2). Should only be done, if you know what you are doing.
+
+Choose a Message Type (3):
+* Simple: Store the latest message for each subscription.
+* Advanced: Store the last (amount = Queue Size) value updates.
 
 Manage your subscriptions (4).
-- Clicking directly or opening the menu and choosing “Browse” will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
-- Using “Add manually”, nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
+- Clicking directly or opening the menu and choosing [Browse] will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
+- Using [Add manually], nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
 
 <div class="box-tip" markdown="1">
-The “Title” of a subscribed node will be used, to access this node from within the peakboard visualization.
+Note:
+The “Title” of a subscribed node will be used, to access this node from within the Peakboard visualization.
 </div>
 
 ![image_5](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
@@ -91,10 +95,10 @@ The browse dialog will show the tree of nodes stored on the connected OPC UA ser
 The Title, Namespace and Identifier of a node can be edited.
 Namespace and Identifier can be scripted. This script will be executed only once, when subscribing to the OPC UA server on startup.
 
-If a connection to the server is possible, the “Fetch Node Info” button can be used, to read additional node information (node class, data type, …) from the server. 
+If a connection to the server is possible, the [Fetch Node Info] button can be used, to read additional node information (node class, data type, …) from the server. 
 
 Node classes:
-Variable: Has a value which will be read from the server.
-Object: Has events, which can be subscribed to, from the “Edit OPC UA Subscription Item” dialog. Subscribing to events can be done using the “Add” button under the “Event Filter” table (a server connection is necessary).
+* **Variable**: Has a value which will be read from the server.
+* **Object**: Has events, which can be subscribed to, from the [Edit OPC UA Subscription Item] dialog. Subscribing to events can be done using the [Add] button under the [Event Filter] table (a server connection is necessary).
 
 Enable the listener to check if all subscriptions are defined properly. The listener works the same as the data source in the visualization later on.
