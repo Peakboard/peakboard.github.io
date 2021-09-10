@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.11.3.0 (02.09.2021)
+footer: 2.11.4.0 (10.09.2021)
 ---
-## 2.11.3.0 (02.09.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.11.4.0 (10.09.2021) [Download](https://peakboard.rocks/download-version-history)
+* **General**.
+* Hotfix for a bug where incorrect translations caused the Chinese version of the Peakboard Desinger to crash
+
+## 2.11.3.0 (02.09.2021)
 * **General**.
 * Hotfix for a bug where access to created [Peakboard variables/lists](/scripting/en-variables.html) via the API was no longer possible
 
