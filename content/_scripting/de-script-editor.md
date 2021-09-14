@@ -21,7 +21,7 @@ Oberhalb des Skript-Baums (2) findest du jeweils einen Button zum [comment out /
 Über die Lupe oder über die Tastenkombination [Strg+F] gelangst du zu [find / suche] und [replace / ersetzen]. 
 
 <div class="box-tip" markdown="1">
-**Tipp:*
+**Tipp:**
 
 Weitere hilfreiche Tastenkombination findest du am Ende dieses Artikels.
 </div>
