@@ -49,7 +49,7 @@ In dem Moment, in dem private Verbindungen auf dem lokalen Rechner abgelegt werd
 Um Missbrauch zu vermeiden, ist dieses Passwort bei jedem Designerstart einzugeben.
 </div> 
 
-###GETEILTE VERBINDUNGEN EXPORTIEREN UND IMPORTIEREN 
+### GETEILTE VERBINDUNGEN EXPORTIEREN UND IMPORTIEREN 
 
 Beide Arten der geteilten Verbindungen können in einer Datei exportiert werden, um sie in einer Zielumgebung, wie dem Rechner eines Arbeitskollegen, wieder zu importieren. 
 Um Verbindungen zu exportieren, klicke unter [Connection manager / Verbindungen verwalten] auf […] und dann auf [Export connections / Verbindungen exportieren]. 

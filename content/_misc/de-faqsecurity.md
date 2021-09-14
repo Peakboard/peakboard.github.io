@@ -37,8 +37,9 @@ Außerdem wird die Peakboard Box in einer Art “Kiosk-Mode” ausgeführt, der 
 Den Peakboard Administratoren Account sowie das dazugehörige Kennwort erhältst du auf einer separaten Karte zusammen mit der Peakboard Box. 
 
 <div class="box-warning" markdown="1">
-**Hinweis:** 
-*Ändere bitte das Passwort und halte es digital fest. Bei Verlust kann es *nicht* zurückgesetzt werden! 
+**Hinweis:**
+ 
+Ändere bitte das Passwort und halte es digital fest. Bei Verlust kann es **nicht** zurückgesetzt werden! 
 </div>
 
 ## Domäne 

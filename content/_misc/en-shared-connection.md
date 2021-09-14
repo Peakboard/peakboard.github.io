@@ -34,7 +34,7 @@ We recommend giving each connection a descriptive name.
 
 ![shared-connection-02](/assets/images/misc/shared-connection/shared-connection-02.png)
 
-###PRIVATE SHARED CONNECTIONS  
+### PRIVATE SHARED CONNECTIONS  
 
 With the private shared connections you store access data beyond the current visualization on the local computer, so that you do not have to enter them again for new projects. 
 To turn a regular shared connection into a private shared connection, click [Save to personal connections]. 

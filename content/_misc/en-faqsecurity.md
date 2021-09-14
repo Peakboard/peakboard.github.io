@@ -26,7 +26,8 @@ In addition, Peakboard Box is run in a kind of "kiosk mode", which does not allo
 You will receive the administrator as well as the corresponding password on a separate card together with the Peakboard Box. 
 <div class="box-warning" markdown="1">
 **Note:** 
-* Please change the password and keep a digital record of it. It *cannot* be reset if lost!
+
+Please change the password and keep a digital record of it. It **cannot** be reset if lost!
 </div>
 
 ## Domain
