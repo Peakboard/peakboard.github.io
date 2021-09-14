@@ -19,16 +19,22 @@ data.opcua.writevalue('ns=3;s="Data_block_2"."IntegersWords"."int1"', toint16(12
 
 Die NodeID findet sich im Durchsuchen-Dialog der OPC UA-Datenquelle im Feld "NodeID" der Variablen. 
 
-> ## Hinweis
->Die NodeID kann auch mit Hilfe von [UaExpert](https://opcfoundation.org/products/view/uaexpert) oder einem ähnlichen Tool erstellt werden.
+<div class="box-tip" markdown="1">
+**Hinweis**
+
+Die NodeID kann auch mit Hilfe von [UaExpert](https://opcfoundation.org/products/view/uaexpert) oder einem ähnlichen Tool erstellt werden.
+</div>
 
 Für die [Peakboard Skript Engine](/scripting/de-script-engine.html) sind alle Zahlen gleichwertig. 
 Daher werden alle Zahlen als "double" verarbeitet.
 Dies führt dazu, dass diese Zahlen nicht ohne weiteres auf einem OPC UA Server gespeichert werden können.
 
-> ## Hinweis
->Die [Peakboard Skript Engine](/scripting/de-script-engine.html) kennt lediglich drei Datentypen: bool, number und string!
->Daher ist eine Konvertierung anhand nachfolgender Tabelle notwendig!
+<div class="box-tip" markdown="1">
+**Hinweis**
+
+Die [Peakboard Skript Engine](/scripting/de-script-engine.html) kennt lediglich drei Datentypen: bool, number und string!
+Daher ist eine Konvertierung anhand nachfolgender Tabelle notwendig!
+</div>
 
 Mit Hilfe nachfolgender Tabelle liefert eine Übersicht über die OPC UA Datentypen und deren entsprechende Konvertierunsfunktionen:
 
