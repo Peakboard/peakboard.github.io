@@ -19,17 +19,25 @@ Der Join Type definiert, nach welcher Logik die beiden Tabellen verknüpft werde
 
 ### Inner Join
 
+![Inner Join](\assets\images\dataflows\peakboard-helpsite_inner-join.png)
+
 Das Ergebnis enthält nur die Zeilen, bei denen es eine Entsprechung in beiden Tabellen gibt. Das ist die gängigste Methode. Es gehen allerdings Zeilen verloren, wenn es in der linken oder rechten Tabelle Zeilen gibt, die keine Entsprechung in der jeweils anderen Tabelle haben.
 
 ### Full Join
+
+![Full Join](\assets\images\dataflows\peakboard-helpsite_full-join.png)
 
 Es gehen keine Zeilen verloren. Wenn es in der linken oder rechten Tabelle Zeilen ohne Entsprechung gibt, bleiben in diesem Fall die Spalten der jeweils anderen Tabelle leer.
 
 ### Left Join
 
+![Left Join](\assets\images\dataflows\peakboard-helpsite_left-join.png)
+
 Die Zeilen der linken Tabelle bleiben vollständig erhalten. Die Zeilen der rechten Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der linken Seite haben.
 
 ### Right Join
+
+![Right Join](\assets\images\dataflows\peakboard-helpsite_right-join.png)
 
 Die Zeilen der rechten Tabelle bleiben vollständig erhalten. Die Zeilen der linken Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der rechten Seite haben.
 

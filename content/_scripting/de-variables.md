@@ -22,9 +22,14 @@ Generell unterscheidet man zwischen einzelnen-skalaren Variablen und tabellarisc
 ### (skalare) Variablen
 
 Jeder Variable benötigt einen eindeutigen Namen und einen Datentyp. Die in Peakboard verfügbaren Datentypen sind String, Number oder Boolean. Eine weitere Differenzierung des Datentyps (z.B. integer, decimal, float, etc...) ist nicht vorgesehen. Das gilt auch im Scripting.
-Die Option **Save Changes to Box** sorgt dafür, dass der aktuelle Wert einer Variablen über den Neustart hinaus erhalten bleibt (z.B für einen Zähler, der über einen sehr langen Zeitraum hinweg zählt). **Can push data via API** bedeutet, dass die Daten durch einen API Rest Call von außen gelesen und geschrieben werden.
+Die Option **Save Changes to Box** sorgt dafür, dass der aktuelle Wert einer Variablen über den Neustart hinaus erhalten bleibt (z.B für einen Zähler, der über einen sehr langen Zeitraum hinweg zählt). 
 
 ![Variable](/assets/images/scripting/variables/lists-variables-02.png)
+
+Unter [Erweitert/Advanced] können Einstellungen für einen Abruf der Variablen über die [Peakboard API](/misc/de-API.html) vorgenommen werden.
+Außerdem kann die Variable mit dem [Peakboard Hub](/hub/de-hub_variableslist.html) verknüpft werden.
+
+![Variable API](/assets/images/scripting/variables/lists-variables-03.png)
 
 ### Listen
 
@@ -32,4 +37,4 @@ Listen bestehen aus Spalten, die jeweils einen eindeutigen Namen und einen Daten
 
 Die beiden Zusatzoption unten entsprechen der Funktion wie bei der skalaren Variablen.
 
-![Liste](/assets/images/scripting/variables/lists-variables-03.png)
+![Liste](/assets/images/scripting/variables/lists-variables-04.png)

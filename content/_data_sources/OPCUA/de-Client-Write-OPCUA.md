@@ -14,10 +14,16 @@ Mit folgendem Statement kann mit einem Skript der Wert einer Variablen auf einem
 
 ```lua
 -- Datenquellenname.writevaule(NodeID, Value)
-data.opcua.writevalue('ns=3;s="Data_block_2"."IntegersWords"."int1"', toint16(12))
+connections.getfromid('EncodedConnectionKey').writevalue('ns=3;s="Data_block_2"."IntegersWords"."int1"', toint16(12))
 ```
 
-Die NodeID findet sich im Durchsuchen-Dialog der OPC UA-Datenquelle im Feld "NodeID" der Variablen. 
+<div class="box-warning" markdown="1">
+**Achtung**
+
+Hierzu muss mindestens eine zuvor angelegte [OPC UA Datenquelle](/data_sources/OPCUA/de-opc-ua.html) vorhanden sein!
+</div>
+
+Die NodeID findet sich im Durchsuchen-Dialog der [OPC UA Datenquelle](/data_sources/OPCUA/de-opc-ua.html) im Feld "NodeID" der Variablen. 
 
 <div class="box-tip" markdown="1">
 **Hinweis**
