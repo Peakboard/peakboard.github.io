@@ -9,9 +9,11 @@ ref: flow-4000
 redirect_from:
   - /dataflows/40-de-daten-joinen.html
 ---
-Wir haben bereits beim Manipulieren von Spalten die Möglichkeit kennen gelernt, eine neue Spalte hinzuzufügen und diese durch einen Look Up auf eine andere Datenquelle zu füllen. Das ist sinnvoll, wenn es nur um eine einzelne Spalte geht. Der Join-Schritt geht einen Schritt weiter. Hier werden zwei tabellenartige Datenbestände miteinander verknüpft. Man kennt diese Technik im Bereich der relationalen Datenbanken. Da funktioniert es genauso.
+Wir haben bereits beim [Manipulieren von Spalten](/dataflows/de-spalteninhalte-aendern.html) die Möglichkeit kennen gelernt, eine [neue Spalte hinzuzufügen](/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html) und diese durch einen Look Up auf eine andere Datenquelle zu füllen. Das ist sinnvoll, wenn es nur um eine einzelne Spalte geht.
+Der Join-Schritt geht einen Schritt weiter. Hier werden zwei tabellenartige Datenbestände miteinander verknüpft. Man kennt diese Technik im Bereich der relationalen Datenbanken. Da funktioniert es genauso.
 Die Ausgangstabelle des aktuellen Datenflusses ist immer als die "linke" Tabelle zu sehen. Die neu hinzugefügte (sprich gejointe) Tabelle ist die "rechte" Tabelle.
-Das folgende Beispiel zeigt das Hinzufügen einer zusätzlichen Tabelle mit Namen "kunden". Im unteren Bereich sind die Spalten zu definieren, an welchen die Verknüpfung stattfindet. In dem Beispiel ist es nur eine Verbindung, und zwar die Spalte "Kunde" in der Originaltabelle und die Spalte "KundenName" in der verknüpften Tabelle.
+Das folgende Beispiel zeigt das Hinzufügen einer zusätzlichen Tabelle mit Vizepräsidenten zu dem bekannten [Beispiel der amerikanischen Präsidenten](https://mysafeinfo.com/api/data?list=presidents). 
+Im unteren Bereich sind die Spalten zu definieren, an welchen die Verknüpfung stattfindet. In dem Beispiel ist es nur eine Verbindung, und zwar die Spalte "FullName" in der Originaltabelle und die Spalte "Name" in der verknüpften Tabelle.
 
 ![Join Data](/assets/images/dataflows/dataflows-join01.png)
 
@@ -47,4 +49,4 @@ Das folgende Beispiel zeigt schön einen echten Full Join. Die erste Zeile ist n
 
 > ## Hinweis!
 >
-> Joinen können Sie nicht nur Datenquellen, sondern natürlich auch andere Dataflows
+> Joinen können Sie nicht nur Datenquellen, sondern natürlich auch andere Dataflows.
