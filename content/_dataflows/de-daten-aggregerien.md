@@ -37,9 +37,11 @@ Das Beispiel liefert uns also pro Material und Kunde jeweils die Summe aller ver
 
 ![Join Data](/assets/images/dataflows/dataflows-aggregate02.png)
 
-> ## Achtung!! 
->
->Es ist natürlich legitim, auch keine Gruppe anzugeben. In diesem Fall bekommen Sie genau eine Zeile zurück, die jeweils die Aggregation komplett über alle Daten enthält. 
+<div class="box-tip" markdown="1">
+** Hinweis **
+
+Es ist natürlich legitim, auch keine Gruppe anzugeben. In diesem Fall bekommen Sie genau eine Zeile zurück, die jeweils die Aggregation komplett über alle Daten enthält.
+</div>
 
 Genauso ist es legitim, keine Aggregationsfunktion anzugeben. 
 In diesem Fall erhalten Sie einfach nur die eindeutigen Kombinationen aus allen Elementen der gewählten Gruppe. 

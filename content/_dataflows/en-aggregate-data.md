@@ -37,9 +37,12 @@ For each material and customer, the example provides us with the sum of all arti
 
 ![Join Data](/assets/images/dataflows/dataflows-aggregate02.png)
 
-> ## Attention!! 
->
->Of course, it is legitimate not to specify a group. In this case, the result is exactly one row that contains the aggregation for all data. 
+<div class="box-tip" markdown="1">
+** Note ** 
+
+Of course, it is legitimate not to specify a group. In this case, the result is exactly one row that contains the aggregation for all data.
+</div>
+ 
 It is also legitimate not to specify an aggregation function. 
 In this case, you simply get the unique combinations of all elements of the selected group. 
 Both cases can make sense in practice.
