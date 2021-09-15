@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Daten miteinander verknüpfen (Joins)
+title: Daten via INNER JOIN, LEFT JOIN, RIGHT JOIN und FULL JOIN miteinander verknüpfen
 menu_title: Daten miteinander verknüpfen (Joins)
-description: Daten miteinander verknüpfen (Joins)
+description: Dieser Artikel und seine Grafiken erklären die Methode des INNER JOIN, LEFT JOIN, RIGHT JOIN und FULL JOIN zwischen zwei Tabellen angelegt an die SQL Funktionalität.
 lang: de
 weight: 4000
 ref: flow-4000
