@@ -12,13 +12,13 @@ redirect_from:
 
 As is well known, the Peakboard Box communicates with all possible upstream systems. In addition, communication channels are also required for the administration of the box. The following table shows the ports that are used for the individual channels. Of course, it always depends on the individual case which ports are used for the respective customer requirement.
 
-### Zwingend erforderliche Ports:
+### Mandatory ports
 {% include styled_table.html %}
 {: .w-full }
 | 40404       | Communication channel between Peakboard Designer and Peakboard Box |
 | 40405       | Communication channel between Peakboard Designer and Peakboard Box |
 
-### Ports für bestimmte Datenquellen:
+### Ports for specific data sources
 {% include styled_table.html %}
 {: .w-full }
 | 32XX / 33XX | Port for SAP communication, XX is the system number of the SAP system. |
@@ -27,7 +27,7 @@ As is well known, the Peakboard Box communicates with all possible upstream syst
 | 102         |	Siemens S7 |
 | 4840        |	Standard port for OPC UA |
 
-### Ports für Peakboard Edge und Peakboard Hub:
+### Ports for Peakboard Edge and Peakboard Hub
 {% include styled_table.html %}
 {: .w-full }
 | 40406       |	Peakboard Edge |

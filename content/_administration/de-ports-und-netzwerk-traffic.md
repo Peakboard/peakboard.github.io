@@ -12,14 +12,14 @@ redirect_from:
 
 Die Peakboard Box kommuniziert bekannterweise ja mit allen möglichen Vorsystemen. Darüber hinaus werden auch Kommunikationskanäle zur Administration der Box benötigt. In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen Kanäle genutzt werden. Es kommt natürlich immer auf den Einzelfall an, welche Ports für die jeweilige Kundenanforderung genutzt werden.
 
-### Zwingend erforderliche Ports:
+### Zwingend erforderliche Ports
 
 {% include styled_table.html %}
 {: .w-full }
 | 40404       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 | 40405       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 
-### Ports für bestimmte Datenquellen:
+### Ports für bestimmte Datenquellen
 
 {% include styled_table.html %}
 {: .w-full }
@@ -29,7 +29,7 @@ Die Peakboard Box kommuniziert bekannterweise ja mit allen möglichen Vorsysteme
 | 102         |	Siemens S7 |
 | 4840        |	Standardport für OPC UA |
 
-### Ports für Peakboard Edge und Peakboard Hub:
+### Ports für Peakboard Edge und Peakboard Hub
 
 {% include styled_table.html %}
 {: .w-full }
