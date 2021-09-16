@@ -12,7 +12,7 @@ footer: 2.11.4.0 (10.09.2021)
 ---
 ## 2.11.4.0 (10.09.2021) [Download](https://peakboard.rocks/download-version-history)
 * **Allgemein**
-* Hotfix für einen Fehler, bei dem fehlerhafte Übersetzungen zu einem Absturz der chinesischen Version des Peakboard Desingers führte
+* Hotfix für einen Fehler, bei dem fehlerhafte Übersetzungen zu einem Absturz der chinesischen Version des Peakboard Designers führte
 
 ## 2.11.3.0 (02.09.2021)
 * **Allgemein**
