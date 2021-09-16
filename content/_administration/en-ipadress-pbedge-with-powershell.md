@@ -40,7 +40,7 @@ Now you can set the static IP address.
 
 This is how it should look like:
 
-![](/assets/images/admin/ipaddress_edge/edge_PowerShell.png)
+![PowerShell](/assets/images/admin/ipaddress_edge/edge_PowerShell.png)
 
 To use DHCP again enter the following command and restart Peakboard Edge.
 ```
