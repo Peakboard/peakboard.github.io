@@ -48,6 +48,8 @@ Das folgende Beispiel zeigt schön einen echten Full Join. Die erste Zeile ist n
 
 ![Join Data](/assets/images/dataflows/dataflows-join02.png)
 
-> ## Hinweis!
->
-> Joinen können Sie nicht nur Datenquellen, sondern natürlich auch andere Dataflows.
+<div class="box-tip" markdown="1">
+**Hinweis**
+
+Joinen können Sie nicht nur Datenquellen, sondern natürlich auch andere Dataflows.
+</div>
