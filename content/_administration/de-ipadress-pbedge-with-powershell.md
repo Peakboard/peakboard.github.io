@@ -40,7 +40,7 @@ Nun kannst du eine feste IP-Adresse eintragen.
 
 Deine eingegebenen Commands sollten nun in etwa so aussehn:
 
-![PowerShell](/assets/images/admin/ipaddress_edge/edge_PowerShell.png)
+![PowerShell](/assets/images/admin/ipaddress_edge/edge_powershell.png)
 
 Um DHCP wieder zu verwenden, gebst du den folgenden Befehl ein und startest Peakboard Edge neu.
 ```
