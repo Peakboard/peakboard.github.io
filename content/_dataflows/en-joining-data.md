@@ -12,7 +12,7 @@ redirect_from:
 We already learned about the possibility of [adding a new column](/dataflows/en-changing-data-content.html) when [manipulating-columns](/dataflows/en-adding-deleting-changing-columns.html) and to change it by a [Look Up](https://help.peakboard.com/dataflows/en-adding-deleting-changing-columns.html#:~:text=Add%20Lookup%20Column%20-%20Add%20a%20new%20column%20with%20references%20to%20another%20data%20source) to another data source. This is useful when only a single column is involved.
 The join step goes one step further. Here, two table-like datasets are linked together. You know this technique in the field of relational databases, such as a [SQL](/data_sources/en-ms-sql-server.html) or [Oracle](/data_sources/en-oracle.html) database. There it works the same way.
 
-The source table of the current data flow is always seen as the "left" table. The newly added (i.e. jointed) table is the "right" table.
+The source table of the current data flow is always seen as the "left" table. The newly added (i.e. joined) table is the "right" table.
 The following example shows the addition of an additional table with vice presidents to the well-known [example of American presidents](https://mysafeinfo.com/api/data?list=presidents). 
 In the lower area you have to define the columns where the join takes place. In the example there is only one link, namely the column "FullName" in the original table and the column "Name" in the linked table. Both contain the full name of the respective president and serve as key attribute for the join step.
 
