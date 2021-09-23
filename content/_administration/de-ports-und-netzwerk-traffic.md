@@ -10,7 +10,10 @@ redirect_from:
   - /administration/20-de-ports-und-netzwerk-traffic.html
 ---
 
-Die Peakboard Box kommuniziert bekannterweise ja mit allen möglichen Vorsystemen. Darüber hinaus werden auch Kommunikationskanäle zur Administration der Peakboard Box benötigt. In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen Kanäle genutzt werden. Es kommt natürlich immer auf den Einzelfall an, welche Ports für die jeweilige Kundenanforderung genutzt werden.
+Die Peakboard Box kommuniziert mit den verschiedensten Vorsystemen. 
+Darüber hinaus werden auch Kommunikationskanäle zur Administration der Peakboard Box benötigt. 
+In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen Kanäle genutzt werden. 
+Welche Ports genau genutzt werden, hängt dabei natürlich vom Einzelfall ab. 
 
 ### Zwingend erforderliche Ports
 

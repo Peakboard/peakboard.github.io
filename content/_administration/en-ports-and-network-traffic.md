@@ -10,7 +10,10 @@ redirect_from:
   - /administration/20-en-ports-and-network-traffic.html
 ---
 
-As is well known, the Peakboard Box communicates with all possible upstream systems. In addition, communication channels are also required for the administration of the Peakboard Box. The following table shows the ports that are used for the individual channels. Of course, it always depends on the individual case which ports are used for the respective customer requirement.
+The Peakboard Box communicates with various source systems. 
+In addition, communication channels are also required for the administration of the Peakboard Box. 
+The following table lists the ports that are used for the individual channels. 
+Which ports are used exactly, depends of course on the individual case.
 
 ### Mandatory ports
 {% include styled_table.html %}
