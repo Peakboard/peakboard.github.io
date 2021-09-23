@@ -12,7 +12,7 @@ redirect_from:
 Datenquellen oder Data Sources kommunizieren mit Quellsystemen aller Art und liefern die Daten meist in Form einer Tabelle.
 Um diese Daten anzuzeigen, greift man entweder mit den [Controls](/controls/de-allgemeine-eigenschaften.html) darauf zu oder benutzt zunächst ein [Script](/scripting/de-script-engine.html), um sie aufzubereiten.
 Wie du [Daten per Skript weiterverarbeitest](/scripting/de-manipulieren.html) oder wie man [Tabellendaten manipuliert](/scripting/de-tabellen-daten.html), erfährst du in den beiden Artikeln.
-In diesem Artikel zeigen wir dir, wie du verschiedene Daten mithilfe von Dataflows nachbearbeitest, auch ohne tiefgehende Scripting Kenntnisse. 
+In diesem Artikel zeigen wir dir, wie du verschiedene Daten mithilfe von Dataflows nachbearbeitest, auch ohne tiefgehende Skripting Kenntnisse. 
 Mit Dataflows lassen sich zum Beispiel:  
 
 * [Spalten umbenennen und unnötige Spalten löschen.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Remove%20Columns%20-%20Spalten%20l%C3%B6schen)
