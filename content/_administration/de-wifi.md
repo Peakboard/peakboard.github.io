@@ -11,17 +11,14 @@ redirect_from:
   - /administration/de-geraeteadministration.html
 ---
 
-Um das WLAN der Peakboard Box einzurichten, muss diese zuerst mit einem Netzwerkkabel verbunden werden und der mitgelieferte WLAN USB-Adapter angeschlossen sein.
-Wenn sich die Peakboard Box bis dahin noch im initialen Zustand befindet, sollte auf dem Bildschirm eine IP-Adresse angezeigt werden, sobald die Verbindung zum Netwerk hergestellt werden konnte.
+Verbinde zunächst deine Peakboard Box mit einem Netzwerkkabel und dem mitgelieferten WLAN USB-Adapter. 
+Sobald die Verbindung zum Netzwerk initial hergestellt ist, sollte auf dem angeschlossenen Bildschirm eine IP-Adresse angezeigt werden. 
 
-Starten Sie nun den Peakboard Designer und fügen Sie die neue Peakboard Box wie [hier](/administration/PB%202.x%20Box/de-hinzufuegen.html) beschrieben dem Designer hinzu. 
-Um die WLAN Verbindung zu aktivieren, öffnen Sie zunächst den "Manage/Upload"-Dialog (1) und wählen die entsprechende Box beziehungsweise die entsprechenden Boxen aus (2).
-Per Doppelklick erreichen Sie den "Settings"-Dialog. 
-Hier finden Sie in der Sektion "Connection Settings" die WiFi Connection (3).
-Über die [...]-Schaltfläche öffnen Sie den WiFi-Dialog in welchem Sie alle verfügbaren WLAN Verbindungen  finden (4). 
-Selektieren Sie nun das gewünschte Netzwerk und geben das dazugehörige Passwort ein. 
-Über "Connect" aktivieren Sie die Verbindung.
+Starte nun den Peakboard Designer und [füge die Peakboard Box hinzu](/administration/PB%202.x%20Box/de-hinzufuegen.html).
+Um die WLAN-Verbindung zu aktivieren, klicke zunächst auf [Manage / Upload] (1) und wähle die entsprechende Peakboard Box (2). 
+Per Doppelklick erreichst du die [Settings], wo du unter [Connection Settings] die WiFi Connection findest (3). 
+Über […] öffnest du den WiFi-Dialog, in dem alle verfügbaren WLAN-Verbindungen aufgelistet sind (4). 
+Wähle nun das gewünschte Netzwerk, gib das Passwort ein und klicke auf [Connect]. 
+Nach einem Neustart der Peakboard Box per Klick auf [Actions], kann das Netzwerkkabel entfernt werden. 
 
 ![WiFi Connection](/assets/images/admin/device/WiFiConnection.png)
-
-Führen Sie anschließend einen Neustart über die entsprechende Schaltfläche unter "Actions" durch und trennen Sie das Netzwerkkabel.
