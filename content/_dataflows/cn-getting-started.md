@@ -22,12 +22,12 @@ redirect_from:
 
 在“包资源管理器”中，您会发现数据流是每个包的主要工件之一。单击相应的按钮来创建新数据流。
 
-![Create a new flow](/assets/images/dataflows/dataflows-create.png)
+![Create a new flow](/assets/images/dataflows/getting-started/dataflows-create.png)
 
 然后必须在主对话框中选择初始基表。即使最后的数据转换涉及到多个表格，但是数据流总是从一个表格开始。
 
-![select main table](/assets/images/dataflows/dataflows-maindialog-01.png)
+![select main table](/assets/images/dataflows/getting-started/dataflows-maindialog-01.png)
 
 现在已经完成了所有准备工作。此时即可以使用“添加步骤”按钮，对表执行其他转换步骤。已使用的所有步骤均列在对话框的右侧区域。当然，以后可在必要时修改或删除这些步骤。根据您单击的步骤，左侧对话框区域将显示此步骤**之后**的数据状态。在下面的屏幕中，这些数据并不是特别壮观，因为数据集仍然是初始数据集。数据仍未发生改变。
 
-![select main table](/assets/images/dataflows/dataflows-maindialog-02.png)
+![select main table](/assets/images/dataflows/getting-started/dataflows-maindialog-02.png)

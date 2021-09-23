@@ -22,13 +22,13 @@ The idea behind the dataflows is to change the dataset step by step, starting fr
 
 In the Package Explorer you can find dataflows as one of the main artifacts of each package. Click on the corresponding button to create a new dataflow.
 
-![Create a new flow](/assets/images/dataflows/dataflows-create.png)
+![Create a new flow](/assets/images/dataflows/getting-started/dataflows-create.png)
 
 The initial base table must then be selected in the main dialog. Even if several tables are involved in the data transformation at the end, the dataflow always starts with exactly one table.
 
-![select main table](/assets/images/dataflows/dataflows-maindialog-01.png)
+![select main table](/assets/images/dataflows/getting-started/dataflows-maindialog-01.png)
 
 Now all preparations are done. Further transformation steps can now be applied to the table using the *Add Step* button. All the steps already used are listed in the right-hand area of the dialog. They can of course be changed or deleted afterwards, if necessary. Depending on the step you click on, the left dialog area shows the state of the data AFTER this step. This is not very spectacular in the following screen, because the dataset is still initial. The data is still unchanged.
 
-![select main table](/assets/images/dataflows/dataflows-maindialog-02.png)
+![select main table](/assets/images/dataflows/getting-started/dataflows-maindialog-02.png)
 
