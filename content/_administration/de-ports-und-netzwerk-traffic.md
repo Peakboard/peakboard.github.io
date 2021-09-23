@@ -2,7 +2,7 @@
 layout: article
 title: Ports und Netzwerktraffic
 menu_title: Ports und Netzwerktraffic
-description: Ports und Netzwerktraffic
+description: Übersicht über die verwendeten Ports und den Netzwerktraffic
 lang: de
 weight: 2000
 ref: admin-2000
