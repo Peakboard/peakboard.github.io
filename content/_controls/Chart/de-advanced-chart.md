@@ -11,32 +11,30 @@ redirect_from:
 
 Unter [Advanced Chart / Erweitertes Diagramm] findest du eine große Auswahl an Diagrammen, die du auch als Serie anlegen kannst. 
 Stelle so zum Beispiel Daten aus unterschiedlichen Datenquellen ganz einfach in Form von Diagrammen dar und richte sie an einer gemeinsamen Achse aus.
+  
+Um mehrere unterschiedliche Diagramme übereinander zu legen und jeweils mit einer Datenquelle zu verknüpfen, klickst du zunächst auf [Add / Hinzufügen]. 
 
 ![image_0](/assets/images/Controls/advanced-chart/advancedchart-00.png)
-
-Um mehrere unterschiedliche Diagramme übereinander zu legen und jeweils mit einer Datenquelle zu verknüpfen, klickst du zunächst auf [Add / Hinzufügen].
 
 
 ### ERWEITERTES DIAGRAMM BEARBEITEN 
 
-Nachdem du dein erstes Chart angelegt hast, kannst du über [Add Series / Serie hinzufügen] ein weiteres Chart hinzufügen [1].  
+Nachdem du dein erstes Chart angelegt hast, kannst du über [Add Series / Serie hinzufügen] ein weiteres Chart hinzufügen (1). 
 
-Hier bearbeitest du sowohl die allgemeinen Eigenschaften [2] deines zuvor gewählten Diagramms als auch sein Aussehen [3].  
+Außerdem bearbeitest du in diesem Fenster sowohl die allgemeinen Eigenschaften (2) deines zuvor gewählten Diagramms als auch sein Aussehen (3). 
 
 Da sich die verschiedenen Diagramme in Ihrer Optik unterscheiden, unterscheiden sich auch ihre Eigenschaften. 
-Es sollte aber kein Problem sein, die Spezifika einzelner Diagramme anhand der Eigenschaftennamen selbst herauszufinden.
-
-[4] Verknüpfe das Diagramm unter [Source / Datenquelle] zunächst mit einer Datenquelle deiner Wahl und bestimme einen Wert für die [X axis / X-Achse] und die [Y axis/ Y-Achse]. 
+Es sollte aber kein Problem sein, die Spezifika einzelner Diagramme anhand der Bezeichnungen der Eigenschaften selbst herauszufinden. 
+ 
+Verknüpfe das Diagramm unter [Source / Datenquelle] zunächst mit einer Datenquelle deiner Wahl (4) und bestimme einen Wert für die [X axis / X-Achse] und die [Y axis/ Y-Achse]. 
 Die X-Achse beschreibt in der Regel die Beschriftung eines Datenpunkts, die Y-Achse seinen Wert. 
 Im Beispiel des Tortendiagramms steuert die Y-Achse die Breite eines Tortenstücks, die X-Achse seine Beschriftung. 
-Die konkrete Funktion von X- und Y-Achse ist für jedes Diagramm anders definiert.
-[5] Unter [Sorting / Sortierung] legst du die Anordnung fest und unter [6] findest du die Möglichkeit Diagramm-spezifische allgemeine Eigenschaften anzupassen. 
-
-Im rechten Teil des Dialogs wird eine Vorschau deines Diagramms angezeigt [7]. 
+Die konkrete Funktion von X- und Y-Achse ist für jedes Diagramm anders definiert. 
+Unter [Sorting / Sortierung] legst du die Anordnung fest (5) und unter (6]) findest du die Möglichkeit Diagramm-spezifische allgemeine Eigenschaften anzupassen. 
+Im rechten Teil des Dialogs wird eine Vorschau deines Diagramms angezeigt (7). 
+Unter [Appearance] (3) finden sich weitere Einstellungsmöglichkeiten. 
 
 ![image_1](/assets/images/Controls/advanced-chart/advancedchart-01.png)
-
-Unter [Appearance] (3) finden sich weitere Einstellungsmöglichkeiten.
 
 ### Eigenschaften
 In den Eigenschaften des Advanced Chart lassen sich neben den [Allgemeinen Eigenschaften](https://help.peakboard.com/controls/de-allgemeine-eigenschaften.html) noch weitere wichtige Einstellungen vornehmen:
