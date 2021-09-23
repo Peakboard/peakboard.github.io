@@ -10,16 +10,18 @@ redirect_from:
   - /administration/06-en-update.html
 ---
 
-To update the Peakboard Box, click the Manage button in the ribbon of the upper Peakboard Designer area. A new window will open.
+Click on [Manage / Upload] in the top ribbon bar. 
+A new window will open. 
+If the Peakboard Box you want to update is not in the list, you can see here [how to add a Peakboard Box to the Peakboard Designer](/administration/07-en-adding.html).
 
-If the Peakboard Box you want to update is not in the list, please follow this [Link](/administration/07-en-adding.html).
-
-You have the possibility to start an update for one or more Peakboard Boxes at the same time. To do this, simply select all boxes for which an update is to be made. In general, there are two possibilities for an update.
+You can update one or more Peakboard Boxes at the same time, simply select the Peakboard Boxes you want to update. 
 
 ![Manage Dialog Update Device](/assets/images/admin/update/aktualisieren1.png)
 
-If the workstation with the Peakboard Designer has an active Internet connection, the update can be executed by clicking on the Update button.
+### This is how you update your Peakboard Boxes
 
-If this workstation is in an isolated network, the update can be performed by means of an update file. You can download this file [here](https://peakboard.com/download/runtime/Peakboard.Runtime_Update.pbux) and then make it available to the Peakboard Designer via network drive or USB stick. And start the update process via Update from File.
-
-After a short moment your Peakboard Box is updated.
+If the workspace with the Peakboard Designer has an active internet connection, the update can be executed by clicking on [Update].
+ 
+If, on the other hand, this workstation is in an isolated network, the update is done by using the update file. 
+[Download the update file here](https://peakboard.com/download/runtime/Peakboard.Runtime_Update.pbux) and make it available to the Peakboard Designer via network drive or USB stick. 
+Lastly, start the update via [Update from File]. 
