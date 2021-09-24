@@ -18,7 +18,7 @@ Mit Dataflows lassen sich zum Beispiel:
 * [Spalten umbenennen und unnötige Spalten löschen.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Remove%20Columns%20-%20Spalten%20l%C3%B6schen)
 * [Datentypen anpassen.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Change%20data%20Type%20-%20Datentyp%20%C3%A4ndern)
 * [Neue Spalten hinzufügen und sie mit Inhalten nach einer bestimmten Logik befüllen.](/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html)
-* [Mehrere Datenquellen, auch aus unterschiedlichen Vorsystemen, miteinander verknüpfen und zu einer einzelnen neuen Tabelle verbinden.](/dataflows/de-daten-joinen.html) 
+* [Mehrere Datenquellen, auch aus unterschiedlichen Vorsystemen, mithilfe von Joins verknüpfen und zu einer einzelnen Tabelle verbinden.](/dataflows/de-daten-joinen.html) 
 
 Dataflows ermöglichen es ausgehend von einer einzelnen Tabelle schrittweise den Datenbestand anzupassen, bis das Ergebnis deinen Wünschen entspricht. 
 Die einzelnen Schritte kannst du im Peakboard Designer für jeden Dataflow einsehen, ändern und ergänzen. 

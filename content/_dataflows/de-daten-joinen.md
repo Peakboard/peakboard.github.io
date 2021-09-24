@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Daten via INNER JOIN, LEFT JOIN, RIGHT JOIN und FULL JOIN miteinander verknüpfen
-menu_title: Daten miteinander verknüpfen (Joins)
+title: Daten via Inner Join, Left Join, Right Join und Full Join miteinander verknüpfen
+menu_title: Daten mithilfe von Joins verknüpfen
 description: Dieser Artikel und seine Grafiken erklären die Methode des INNER JOIN, LEFT JOIN, RIGHT JOIN und FULL JOIN zwischen zwei Tabellen angelegt an die SQL Funktionalität.
 lang: de
 weight: 4000
@@ -9,47 +9,49 @@ ref: flow-4000
 redirect_from:
   - /dataflows/40-de-daten-joinen.html
 ---
-Wir haben bereits beim [Manipulieren von Spalten](/dataflows/de-spalteninhalte-aendern.html) die Möglichkeit kennen gelernt, eine [neue Spalte hinzuzufügen](/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html) und diese durch einen [Look Up](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Add%20Lookup%20Column%20-%20Ein%20neue%20Spalte%20mit%20Verweise%20auf%20eine%20andere%20Datenquelle%20hinzuf%C3%BCgen) auf eine andere Datenquelle zu füllen. Das ist sinnvoll, wenn es nur um eine einzelne Spalte geht.
-Der Join-Schritt geht einen Schritt weiter. Hier werden zwei tabellenartige Datenbestände miteinander verknüpft. Man kennt diese Technik im Bereich der relationalen Datenbanken, wie beispielsweise einer [SQL](/data_sources/de-ms-sql-server.html) oder [Oracle](/data_sources/de-oracle.html) Datenbank. Da funktioniert es genauso.
+Beim [Manipulieren von Spalten](/dataflows/de-spalteninhalte-aendern.html) haben wir dir bereits gezeigt, wie du eine [neue Spalte hinzuzufügst](/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html) und sie durch einen [Look Up](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Add%20Lookup%20Column%20-%20Ein%20neue%20Spalte%20mit%20Verweise%20auf%20eine%20andere%20Datenquelle%20hinzuf%C3%BCgen), auf eine andere Datenquelle füllst. 
+Um allerdings zwei oder mehrere tabellenartige Datenbestände miteinander zu verknüpfen, empfehlen wir Joins, eine Technik die oft im Bereich der relationalen Datenbanken, wie [SQL](/data_sources/de-ms-sql-server.html) oder [Oracle](/data_sources/de-oracle.html) Datenbank. Da funktioniert es genauso.
 
-Die Ausgangstabelle des aktuellen Datenflusses ist immer als die "linke" Tabelle zu sehen. Die neu hinzugefügte (sprich gejointe) Tabelle ist die "rechte" Tabelle.
-Das folgende Beispiel zeigt das Hinzufügen einer zusätzlichen Tabelle mit Vizepräsidenten zu dem bekannten [Beispiel der amerikanischen Präsidenten](https://mysafeinfo.com/api/data?list=presidents). 
-Im unteren Bereich sind die Spalten zu definieren, an welchen die Verknüpfung stattfindet. In dem Beispiel ist es nur eine Verbindung, und zwar die Spalte "FullName" in der Originaltabelle und die Spalte "Name" in der verknüpften Tabelle. Beide enthalten jeweils den vollständigen Namen des jeweiligen Präsidenten und dienen als Schlüsselattribut für den Join-Schritt.
+Um zwei Tabellen miteinander zu verknüpfen, [legst du dir zunächst einen Dataflow an](https://help.peakboard.com/dataflows/de-erste-schritte.html#:~:text=Einen%20neuen%20Dataflow%20anlegen).
+
+Im folgenden Beispiel fügen Ergänzen wir eine [Tabelle der amerikanischen Präsidenten](https://mysafeinfo.com/api/data?list=presidents) um eine Spalte, die die jeweiligen Vizepräsidenten beinhaltet.
+Die Ausgangstabelle ist dabei immer links zu sehen, die zu ergänzende siehst du rechts. 
+Im Dropdown-Menü wählst du die Spalten, die verknüpft werden sollen. 
+Hier wird die Spalte “FullName” in der Originaltabelle mit der Spalte “Name” verknüpft. 
 
 ![Join Data](/assets/images/dataflows/dataflows-join01.png)
 
-Der Join Type definiert, nach welcher Logik die beiden Tabellen verknüpft werden. Auch hier orientieren wir uns an den üblichen Begriffen relationaler Zusammenhänge:
+Unter [Join type] wählst du, nach welcher Logik die Spalten miteinander verknüpft werden.
 
 ### Inner Join
 
 ![Dataflow SQL Inner Join](/assets/images/dataflows/peakboard-helpsite_inner-join.png)
 
-Das Ergebnis enthält nur die Zeilen, bei denen es eine Entsprechung in beiden Tabellen gibt. Das ist die gängigste Methode. Es gehen allerdings Zeilen verloren, wenn es in der linken oder rechten Tabelle Zeilen gibt, die keine Entsprechung in der jeweils anderen Tabelle haben.
+Das Ergebnis eines inner Joins enthält genau die Zeilen, bei denen es eine Entsprechung in beiden Tabellen gibt. 
+Wenn es in der linken oder rechten Tabelle Zeilen gibt, die keine Entsprechung in der jeweils anderen Tabelle haben, gehen diese Zeilen dabei verloren.
 
 ### Full Join
 
 ![Dataflow SQL Full Join](/assets/images/dataflows/peakboard-helpsite_full-join.png)
 
-Es gehen keine Zeilen verloren. Wenn es in der linken oder rechten Tabelle Zeilen ohne Entsprechung gibt, bleiben in diesem Fall die Spalten der jeweils anderen Tabelle leer.
+Beim full Join gehen keine Zeilen verloren. 
+Wenn es in der linken oder rechten Tabelle Zeilen ohne Entsprechung gibt, werden diese zeilen im Ergebnis leer angeführt.
 
 ### Left Join
 
 ![Dataflow SQL Left Join](/assets/images/dataflows/peakboard-helpsite_left-join.png)
 
-Die Zeilen der linken Tabelle bleiben vollständig erhalten. Die Zeilen der rechten Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der linken Seite haben.
+Beim left Join bleiben die Zeilen der linken Tabelle vollständig erhalten. 
+Die Zeilen der rechten Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der linken Seite haben.
 
 ### Right Join
 
 ![Dataflow SQL Right Join](/assets/images/dataflows/peakboard-helpsite_right-join.png)
 
-Die Zeilen der rechten Tabelle bleiben vollständig erhalten. Die Zeilen der linken Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der rechten Seite haben.
-
-Das folgende Beispiel zeigt schön einen echten Full Join. Die erste Zeile ist nur in der Originaltabelle vorhanden, daher bleibt der Ort leer. Die letzte Zeile fehlt in der Originaltabelle, deshalb werden Kunden und Ort aus der rechten Tabelle angezeigt. Alle anderen Spalten sind entweder leer oder 0 (je nachdem, ob es sich um eine Zeichenfolge oder eine Nummer handelt).
-
-![Join Data](/assets/images/dataflows/dataflows-join02.png)
+Beim right Join bleiben die Zeilen der rechten Tabelle vollständig erhalten. Die Zeilen der linken Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der rechten Seite haben.
 
 <div class="box-tip" markdown="1">
 **Hinweis**
 
-Joinen können Sie nicht nur Datenquellen, sondern natürlich auch andere Dataflows.
+Du kannst übrigens nicht nur Datenquellen, sondern natürlich auch andere [Dataflows](/dataflows/de-erste-schritte.html) joinen.
 </div>
