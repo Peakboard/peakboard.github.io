@@ -25,7 +25,7 @@ Die einzelnen Blöcke bilden einen logischen Programmablauf, der später zur Lau
 Jeder Block entspricht einem Befehl und lässt sich an den vorherigen Block anfügen und leicht durch Drag & Drop so gestalten und ändern, wie es die Ablauflogik erfordert. 
 Nicht mehr benötigte Blöcke können per Drag & Drop in den Mülleimer unten rechts entsorgt werden.
 
-<BuildingBlocks01.png>
+![BuildingBlocks01.png](/assets/images/scripting/buildingblocks/BuildingBlocks01.png)
 
 Der Kommando-Block auf der rechten Seite ist so gestaltet, dass er weitestgehend selbsterklärend ist und zum selbst-Ausprobieren einlädt. 
 Im oberen Bereich sind zunächst die Elemente aufgeführt, die in der aktuellen Visualisierung vorhanden sind. 
@@ -36,13 +36,13 @@ Dieser Text-Knoten repräsentiert den eigentlich Text.
 Um den Text zu setzen (also schreibend auf die Eigenschaft zuzugreifen) muss noch ein Hierarchieleven weiter nach unten gedrillt werden. 
 Dort finden wir das Element "Set Value".
 
-<BuildingBlocks02.png>
+![BuildingBlocks02.png](/assets/images/scripting/buildingblocks/BuildingBlocks02.png) 
 
 Weiter unten im Kommando-Baum finden wir das Handling von so genannten Variablen. 
 Variablen sind einfach nur Container, in die der Benutzer Werte (z.B. Texte, Zahlen, Listen) ablegen kann. 
 Um eine neue Variable anzulegen, klicken Sie auf das Plus-Symbol.
 
-<BuildingBlocks03.png>
+![BuildingBlocks03.png](/assets/images/scripting/buildingblocks/BuildingBlocks03.png)
 
 Der folgende Screenshot zeigt jetzt einen kleinen Programmablauf. 
 In der ersten "Zeile" wird der Variablen "Outputtext" ein Text zugewiesen. 
@@ -50,7 +50,7 @@ Dieser Text setzt sich zusammen aus einem statischen Text-Block und dem dem Inha
 In der zweiten Zeile wird dem Text durch den Block "Append Text" ein weiterer Text hinzugefügt. 
 Die dritte Zeile zeigt die Ausgabe der Variable in einer Push-Notification.
 
-<BuildingBlocks04.png>
+![BuildingBlocks04.png](/assets/images/scripting/buildingblocks/BuildingBlocks04.png)
 
 Das vorangegangene Beispiel zeigt alle wesentlichen Aspekte, die zum Bauen einfacher Programmlogik mit den Building Blocks nötig ist. 
 Durch eine entsprechende Gruppierung sollte das Auffinden der gewünschten Logik im Kommando-Baum nahezu selbsterklärend sein. 
@@ -67,4 +67,4 @@ Dafür nutzen wir die Variable n.
 Ist das der Fall, wird das Gewicht "Weight" des Datensatze zur Variablen "WeightAggregation" hinzuaddiert. 
 Am Ende der Schleife wird der Wert in der Protokollkonsole ausgegeben.
 
-<BuildingBlocks05.png>
+![BuildingBlocks05.png](/assets/images/scripting/buildingblocks/BuildingBlocks05.png)
