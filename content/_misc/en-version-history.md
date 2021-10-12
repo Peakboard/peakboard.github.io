@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.11.4.0 (10.09.2021)
+footer: 2.11.5.0 (12.10.2021)
 ---
-## 2.11.4.0 (10.09.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.11.5.0 (12.10.2021) [Download](https://peakboard.rocks/download-version-history)
+* ** Data Sources**.
+* Hotfix for a bug where an [extension](/data_sources/Extension/en-Extension.html) could no longer be edited or copied
+
+## 2.11.4.0 (10.09.2021)
 * **General**.
 * Hotfix for a bug where incorrect translations caused the Chinese version of the Peakboard Desinger to crash
 
