@@ -11,13 +11,9 @@ redirect_from:
   - /controls/de-text-block.html
 ---
 
-Das Control Text ist dazu gedacht, einzelne Texte oder KPIs darzustellen.
-Ebenfalls eignet es sich dazu etwas zu beschriften. 
-Der Inhalt wird über die Eigenschaft Text gesetzt. 
-Alle weiteren Eigenschaften finden sich unter den [Allgemeine Eigenschaften](/controls/01-de-allgemeine-eigenschaften.html) wieder.
-
-Für Schriftarten und Farben kann der [Font-Manager](/misc/04-de-fonts.html) verwendet werden.
-
-Um KPIs entsprechend zu formatieren findet sich in den Eigenschaften des Controls die Position [Format](/misc/03-de-formatieren-von-Werten.html).
+Mit dem Control [Text] kannst du einzelne Texte, Überschriften oder KPIs darstellen, sowie deine Dashboard Elemente beschriften.
+Den Inhalt dieses Controls bestimmst du rechts unten über das Attribut [Text]. 
+Alle weiteren Eigenschaften findest du unter [Allgemeine Eigenschaften](/controls/01-de-allgemeine-eigenschaften.html).
+Verschiedene Schriftarten oder Farben kannst du im [Font-Manager](/misc/04-de-fonts.html) auswählen und um KPIs zu formatieren, klicke unter den Attributen auf [Format](/misc/03-de-formatieren-von-Werten.html).
 
 ![image_1](/assets/images/Controls/Text/text01.gif)
