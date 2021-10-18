@@ -8,10 +8,57 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.11.5.0 (12.10.2021)
+footer: 2.12.0.0 (18.10.2021)
 ---
-## 2.11.5.0 (12.10.2021) [Download](https://peakboard.rocks/download-version-history)
-* ** Datenquellen**
+## 2.12.0.0 (18.10.2021) [Download](https://peakboard.rocks/download-version-history)
+
+* **Allgemein**
+* [Web Access] - Zugriff auf angelegte globale Skript Funktionen implementiert
+* [Dataflows] - Dataflow-Schritt [Duplikate entfernen] hinzugefügt
+* [Dataflows] - Fehlende Übersetzungen ergänzt
+* Visuelle Überarbeitung aller Controls Icons
+* Visuelle Überarbeitung aller Icons
+* Fix für verschiedene Fehler im [Zertifikatsmanager](/administration/de-zertifikats.html) für [MQTT](/data_sources/de-mqtt-broker.html) und [OPC UA](/data_sources/OPCUA/de-opc-ua.html)
+* Fix für einen Fehler, bei dem ein Fehler eine falsche Fehlermeldung verursachte
+* Fix für einen Fehler, bei dem der wiederholte Upload einer Visualisierung zu einem Fehler in der Konfigurationsdatei führte 
+* Fix für einen Fehler, bei dem das Refreshskript von Variablen, Listen und Dataflows beim Löschen dieser, nicht aus dem Skript-Bereich entfernt wurde
+* Fix für einen Fehler, bei dem im Web-Access eine Fehlermeldung trotz erfolgreicher Änderung der aktiven Visualisierung angezeigt wurde
+* Fix für einen Fehler, bei dem für nicht editierbare [Dataflows]
+* Fix für einen Fehler, bei dem Google Drive nicht mehr genutzt werden konnte
+* Fix für einen Fehler, bei dem die Range-Funktion in einem [Dataflow] nicht korrekt funktionierte
+* **Controls**
+* [Table Grid](/controls/Common/de-table-grid.html) - Fix für einen Fehler, bei dem die Umsortierung der Spalten nicht mit [OK] gespeichert wurde
+* [Drop Down](/controls/Input/de-dropdown.html) - Fix für einen Fehler, bei dem die Eigenschaft Sichtbar/Unsichtbar zu einem kritischen Fehler führte
+* [Text](/controls/Common/de-text-block.html) - Fix für einen Fehler, bei dem die Formatierung für den Hintergrund verloren ging
+* **Datenquellen**
+* [Extension](/data_sources/Extension/de-Extension.html) - Fix für einen Fehler, bei dem eine angelegte Extensionverbindung nicht mehr bearbeitet oder kopiert werden konnte
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Fix für ein Problem, bei dem nur korrekte URIs für den Namespace verwendet werden durften
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Fix für verschiedene Fehler
+* [Peakboard Hub List] - Fehlermeldungen überarbeitet
+* [Datum und Uhrzeit](/data_sources/de-datum-und-uhrzeit.html) - Zeigt nun ein reales Datum an, wenn sie mit einem [Text-Control](/controls/Common/de-text-block.html) verknüpft wird
+* [Peakboard Datenquelle](data_sources/de-peakboard-data-soure.html) - Fehlermeldungen überarbeitet
+* [CSV](/data_sources/de-csv.html) - Fix für einen Fehler, bei dem die Datenquelle ohne Laden der Daten angelegt werden konnte
+* **Peakboard API**
+* API-Call für das Lesen und Schreiben eines einzelnen Wertes einer Liste, durch Übergabe des Index, hinzugefügt
+* Endpunkte für Peakboard Skripte hinzugefügt
+* Fix für einen Fehler, bei dem keine Werte mehr über den Web Access gesetzt werden konnten
+* **Peakboard Box**
+* Fix für einen Fehler, bei dem die Logs beim Löschen nur aus der Ansicht, nicht aber von der Peakboard Box entfernt wurden
+* Fix für einen Fehler im Log, der durch die initiale Standardvisualisierung verursacht wurde
+* Fix für einen Fehler im Log, der durch den Reset einer Peakboard Box verursacht wurde
+* **Peakboard Edge**
+* Kleinere Fehlerkorrekturen 
+* **Skripting**
+* [Skript-Baum](/scripting/de-script-tree.html) überarbeitet
+* Fix für einen Fehler, bei dem die Bezeichnung "data" für eine Variable zu Fehlern im Skript führte
+* Fix für einen Fehler, bei dem es nicht möglich war unter der Sprachauswahl CN eine Funktion anzulegen
+* Fehlermeldungen überarbeitet
+* Fix für einen Fehler, bei dem neu angelegte Funktionen nicht in den Block-Mode überführt werden konnten
+* Fix für einen Fehler, bei dem globale Funktionen verloren gingen
+* Fix für einen Fehler, bei dem der Validator nicht mehr korrekt funktionierte
+
+## 2.11.5.0 (12.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EnMeVya4r8lJmTsqlLtJZo8BMjBlPIG65o_de2Bcm2A5gg?e=rA9CFG)
+* **Datenquellen**
 * Hotfix für einen Fehler, bei dem eine [Extension](/data_sources/Extension/de-Extension.html) nicht mehr editiert oder kopiert werden konnte
 
 ## 2.11.4.0 (10.09.2021)
@@ -23,11 +70,11 @@ footer: 2.11.5.0 (12.10.2021)
 * Hotfix für einen Fehler, bei dem der Zugriff auf angelegte [Peakboard Variablen/Listen](/scripting/de-variables.html) über die API nicht mehr möglich war
 
 ## 2.11.2.0 (30.08.2021)
-* **Scripting**
+* **Skripting**
 * Hotfix von einem Fehler beim Wechseln des aktiven Skripts im [Skript-Editor](/scripting/de-script-editor.html)
 
 ## 2.11.0.0 (18.08.2021)
-* **Scripting**
+* **Skripting**
 * [Peakboard Building Blocks](/scripting/de-building-blocks.html) implementiert
 * [Skript-Editor](/scripting/de-script-editor.html) - Globale Skripte werden nun in ihre einzelnen Funktionen aufgeteilt
 * [Skript-Editor](/scripting/de-script-editor.html) - Der Skript-Editor behält die zuletzt verwendete Skalierung bei
