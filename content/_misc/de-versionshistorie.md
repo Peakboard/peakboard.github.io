@@ -50,6 +50,7 @@ footer: 2.12.0.0 (18.10.2021)
 * Kleinere Fehlerkorrekturen 
 * **Skripting**
 * [Skript-Baum](/scripting/de-script-tree.html) überarbeitet
+* [Building Blocks](/scripting/de-building-blocks.html) - Bugfixes und kleinere Verbesserungen wie Drag&Drop und weitere neue Blöcke
 * Fix für einen Fehler, bei dem die Bezeichnung "data" für eine Variable zu Fehlern im Skript führte
 * Fix für einen Fehler, bei dem es nicht möglich war unter der Sprachauswahl CN eine Funktion anzulegen
 * Fehlermeldungen überarbeitet
