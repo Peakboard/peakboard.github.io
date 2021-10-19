@@ -14,7 +14,7 @@ footer: 2.12.0.0 (18.10.2021)
 
 * **Allgemein**
 * [Web Access] - Zugriff auf angelegte globale Skript Funktionen implementiert
-* [Dataflows] - Dataflow-Schritt [Duplikate entfernen] hinzugefügt
+* [Dataflows] - Schritt [Duplikate entfernen] hinzugefügt
 * [Dataflows] - Fehlende Übersetzungen ergänzt
 * Visuelle Überarbeitung aller Control Icons
 * Visuelle Überarbeitung aller Icons
@@ -23,7 +23,7 @@ footer: 2.12.0.0 (18.10.2021)
 * Fix für einen Fehler, bei dem der wiederholte Upload einer Visualisierung zu einem Fehler in der Konfigurationsdatei führte 
 * Fix für einen Fehler, bei dem das Refreshskript von Variablen, Listen und Dataflows beim Löschen dieser, nicht aus dem Skript-Bereich entfernt wurde
 * Fix für einen Fehler, bei dem im Web Access eine Fehlermeldung trotz erfolgreicher Änderung der aktiven Visualisierung angezeigt wurde
-* Fix für einen Fehler, bei dem für nicht editierbare [Dataflows]
+* Fix für einen Fehler, bei dem für nicht editierbare [Dataflows] als editierbar angezeigt wurden
 * Fix für einen Fehler, bei dem Google Drive nicht mehr genutzt werden konnte
 * Fix für einen Fehler, bei dem die Range-Funktion in einem [Dataflow] nicht korrekt funktionierte
 * **Controls**
