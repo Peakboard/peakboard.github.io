@@ -17,7 +17,7 @@ Mit den Peakboard Building Blocks können nun auch Skripting-unerfahrene Anwende
 ### Peakboard Building Blocks im Skript-Editor
 Im [Skript-Editor](/scripting/de-script-editor.html) hast du die Möglichkeit über den Regler oben Rechts auszuwählen, ob du den benötigten Code selbst schreiben oder mithilfe der Peakboard Building Blocks zusammenklicken möchtest.
 
-<div class="box-tip" markdown="1">
+<div class="box-warning" markdown="1">
 Es ist möglich, durch Betätigen des Reglers von der grafischen Ansicht der Buidling Blocks zum geschriebenen Code zu wechseln, andersherum funktioniert dies jedoch nicht.
 </div>
 
