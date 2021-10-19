@@ -29,6 +29,7 @@ Nicht mehr benötigte Building Blocks können per Drag & Drop in den Mülleimer 
 
 ![BuildingBlocks01.png](/assets/images/scripting/buildingblocks/BuildingBlocks01.png)
 
+
 ### Der Skript-Baum
 
 Im oberen Bereich des [Skript-Baums](/scripting/de-script-tree.html) findest du alle Elemente aufgeführt, die in deiner aktuellen Visualisierung verwendet wurden. 
@@ -42,6 +43,7 @@ Um eine neue Variable anzulegen, klicke einfach auf [+].
 
 ![BuildingBlocks03.png](/assets/images/scripting/buildingblocks/BuildingBlocks03.png)
 
+
 ### Beispiel für einen Porgramm-Ablauf
 
 Der folgende Screenshot zeigt einen Programmablauf, mit dem ein Text dynamisch angepasst werden kann, zum Beispiel, um zu einer bestimmten Uhrzeit eine bestimmte Nachricht auf deinem Dashboard anzuzeigen. 
@@ -52,10 +54,10 @@ In der ersten Zeile des Programmablaufs wird der Variablen [Outputtext] ein Text
 Dieser Text setzt sich zusammen aus dem Control [Text] und dem Inhalt des Controls [Textblock]. 
 In der zweiten Zeile wird dem Text durch den Building Block [Append Text] ein weiterer Text hinzugefügt. 
 Die dritte Zeile zeigt die Ausgabe der Variable in einer Push-Notification. 
+Der Ablauf muss dabei nicht zwingend linear sein und lässt auch Verzweigungen wie „if… then…“ sowie Schleifen zu. 
 
 ![BuildingBlocks04.png](/assets/images/scripting/buildingblocks/BuildingBlocks04.png)
 
-Der Ablauf muss dabei nicht zwingend linear sein und lässt auch Verzweigungen wie „if… then…“ sowie Schleifen zu. 
 
 Im nächsten Beispiel siehst du, wie du eine Schleife über die Daten einer Datenquelle anlegst. 
 Wenn in der Liste aus Produkten die Produktkategorie “Bikes” ist, soll das Gewicht aufsummiert werden. 
