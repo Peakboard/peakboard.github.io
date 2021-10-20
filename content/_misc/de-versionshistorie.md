@@ -8,10 +8,9 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.12.0.0 (18.10.2021)
+footer: 2.12.1.0 (20.10.2021)
 ---
-## 2.12.0.0 (18.10.2021) [Download](https://peakboard.rocks/download-version-history)
-
+## 2.12.1.0 (20.10.2021) [Download](https://peakboard.rocks/download-version-history)
 * **Allgemein**
 * [Web Access] - Zugriff auf angelegte globale Skript Funktionen implementiert
 * [Dataflows] - Schritt [Duplikate entfernen] hinzugefügt

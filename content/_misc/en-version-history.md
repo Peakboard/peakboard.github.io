@@ -8,10 +8,58 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.11.5.0 (12.10.2021)
+footer: 2.12.1.0 (20.10.2021)
 ---
-## 2.11.5.0 (12.10.2021) [Download](https://peakboard.rocks/download-version-history)
-* ** Data Sources**.
+## 2.12.1.0 (20.10.2021) [Download](https://peakboard.rocks/download-version-history)
+* **General**
+* [Web Access] - Access to created global script functions implemented
+* [Dataflows] - [Remove duplicates] step added
+* [Dataflows] - Missing translations added
+* Visual revision of all control icons
+* Visual revision of all icons
+* Fix for several errors in [Certificate Manager](/administration/de-certificates.html) for [MQTT](/data_sources/de-mqtt-broker.html) and [OPC UA](/data_sources/OPCUA/de-opc-ua.html)
+* Fix for a bug where an error caused a wrong error message
+* Fix for a bug where repeated upload of a visualization caused an error in the configuration file 
+* Fix for a bug where the refresh script of variables, lists and dataflows was not removed from the script area when deleting them
+* Fix for a bug where an error message was displayed in Web Access despite successful modification of the active visualization
+* Fix for a bug where [dataflows] were displayed as editable for non-editable dataflows
+* Fix for a bug where Google Drive could no longer be used
+* Fix for a bug where the range function in a [Dataflow] did not work correctly
+* **Controls**
+* [Table Grid](/controls/Common/en-table-grid.html) - Fix for a bug where the reordering of columns was not saved with [OK].
+* [Drop Down](/controls/Input/en-dropdown.html) - fix for a bug where the Visible/Invisible property led to a critical error
+* [Text](/controls/Common/en-text-block.html) - fix for a bug where formatting for background was lost
+* **Data sources**
+* [Extension](/data_sources/Extension/en-Extension.html) - Fix for a bug where a created extension connection could no longer be edited or copied
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a problem where only correct URIs could be used for the namespace
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for several errors
+* [Peakboard Hub List] - error messages revised
+* [Date and Time](/data_sources/en-date-and-time.html) - Now shows a real date when linked to a [Text-Control](/controls/Common/en-text-block.html)
+* [Peakboard data source](data_sources/en-peakboard-data-soure.html) - Error messages revised
+* [CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data
+* **Peakboard API**
+* API call for reading and writing a single value of a list, added by passing the index.
+* Added endpoints for Peakboard scripts
+* Fix for a bug where values could no longer be set via Web Access
+* **Peakboard Box**
+* Fix for a bug where logs were only removed from the view when deleted, but not from the Peakboard Box.
+* Fix for an error in the log caused by initial default visualization
+* Fix for an error in the log caused by resetting a Peakboard Box.
+* **Peakboard Edge
+* Minor bug fixes 
+* **Scripting**
+* [Script Tree](/scripting/de-script-tree.html) revised
+* [Building Blocks](/scripting/en-building-blocks.html) - bugfixes and minor improvements like drag & drop and more new blocks
+* Fix for a bug where the name "data" for a variable caused errors in the script
+* Fix for a bug where it was not possible to create a function under the language selection CN
+* Error messages revised
+* Fix for a bug where newly created functions could not be transferred to [Block Mode].
+* Fix for a bug where global functions were lost
+* Fix for a bug where the validator did not work correctly anymore
+
+
+## 2.11.5.0 (12.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EnMeVya4r8lJmTsqlLtJZo8BMjBlPIG65o_de2Bcm2A5gg?e=rA9CFG)
+* **Data Sources**.
 * Hotfix for a bug where an [extension](/data_sources/Extension/en-Extension.html) could no longer be edited or copied
 
 ## 2.11.4.0 (10.09.2021)
