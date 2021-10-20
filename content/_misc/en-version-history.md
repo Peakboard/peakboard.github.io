@@ -8,9 +8,9 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.12.1.0 (20.10.2021)
+footer: 2.12.2.0 (20.10.2021)
 ---
-## 2.12.1.0 (20.10.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.12.2.0 (20.10.2021) [Download](https://peakboard.rocks/download-version-history)
 * **General**
 * [Web Access] - Access to created global script functions implemented
 * [Dataflows] - [Remove duplicates] step added

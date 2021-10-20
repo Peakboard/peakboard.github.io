@@ -16,7 +16,7 @@ Anschließend installierst du dir die MS Teams App auf deinem Handy.
 Nun musst du noch in dem Team die Notifications über das Glocken-Symbol anschalten und Push-Nachrichten für MS Teams auf deinem Smartphone erlauben.
 Neue Nachrichten in dieser Team Konversation werden automatisch auf deinem Handy bzw. deiner Smartwatch angezeigt. 
 
-Nachdem du dein Team und Smartphone entsprechend konfiguriert hast, benötigst du nun die E-Mail Adresse des Channels.
+Nachdem du dein Team und Smartphone entsprechend konfiguriert hast, benötigst du nun die E-Mail-Adresse des Channels.
 
 ![Get email address](/assets/images/misc/messagemsteams/img1.png)
 
