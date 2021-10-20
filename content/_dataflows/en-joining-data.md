@@ -9,48 +9,46 @@ ref: flow-4000
 redirect_from:
   - /dataflows/40-en-joining-data.html
 ---
-We already learned about the possibility of [adding a new column](/dataflows/en-changing-data-content.html) when [manipulating-columns](/dataflows/en-adding-deleting-changing-columns.html) and to change it by a [Look Up](https://help.peakboard.com/dataflows/en-adding-deleting-changing-columns.html#:~:text=Add%20Lookup%20Column%20-%20Add%20a%20new%20column%20with%20references%20to%20another%20data%20source) to another data source. This is useful when only a single column is involved.
-The join step goes one step further. Here, two table-like datasets are linked together. You know this technique in the field of relational databases, such as a [SQL](/data_sources/en-ms-sql-server.html) or [Oracle](/data_sources/en-oracle.html) database. There it works the same way.
+When [manipulating columns with dataflows](/dataflows/en-adding-deleting-changing-columns.html) we have already shown you, how to [add a new column](/dataflows/en-changing-data-content.html) and fill it with a [Look Up](https://help.peakboard.com/dataflows/en-adding-deleting-changing-columns.html#:~:text=Add%20Lookup%20Column%20-%20Add%20a%20new%20column%20with%20references%20to%20another%20data%20source) to another data source. 
+However, to link two or more table-like datasets together, we recommend joins, a technique often found in relational databases, such as [SQL](/data_sources/en-ms-sql-server.html) or [Oracle](/data_sources/en-oracle.html). To join two tables, start by creating a [dataflow].
 
-The source table of the current data flow is always seen as the "left" table. The newly added (i.e. joined) table is the "right" table.
-The following example shows the addition of an additional table with vice presidents to the well-known [example of American presidents](https://mysafeinfo.com/api/data?list=presidents). 
-In the lower area you have to define the columns where the join takes place. In the example there is only one link, namely the column "FullName" in the original table and the column "Name" in the linked table. Both contain the full name of the respective president and serve as key attribute for the join step.
+In the following example, we will add another column to a table of US presidents, which contains the respective vice presidents. 
+The initial table is listed on the left, the table to be added is listed on the right.
+
+In the dropdown menu you select the columns to be linked. 
+Here the column "FullName" in the original table will be joined with the column "Name". 
+
+Under [Join type] you select the logic according to which the columns will be joined. 
 
 ![Join Data](/assets/images/dataflows/dataflows-join01.png)
 
-The Join Type defines the logic used to join the two tables. Here, too, we are guided by the usual terms of relational connections:
-
 ### Inner Join
+The result of an inner join contains exactly those rows that have a correspondence in both tables. 
+If there are rows in the left or right table that have no equivalent in the other table, these rows will be lost.
 
 ![Dataflow SQL Inner Join](/assets/images/dataflows/peakboard-helpsite_inner-join.png)
 
-The result contains only the rows where there is a match in both tables. This is the most common method. However, rows will be lost if there are rows in the left or right table that do not have a match in the other table.
-
 ### Full Join
+No rows are lost during the full join. 
+If there are rows without correspondence in the left or right table, these rows will be empty in the result.
 
 ![Dataflow SQL Full Join](/assets/images/dataflows/peakboard-helpsite_full-join.png)
 
-No rows will be lost. If there are rows without a match in the left or right table, the columns of the other table will remain empty in this case.
-
 ### Left Join
+During the left join, the rows of the left table remain completely intact. 
+The rows of the right table only find their way into the result if they have a counterpart on the left side.
 
 ![Dataflow SQL Left Join](/assets/images/dataflows/peakboard-helpsite_left-join.png)
 
-The rows of the left table are completely preserved. The rows of the right table only find their way into the result if they have a counterpart on the left.
-
 ### Right Join
+During the right join, the rows of the right table remain completely intact. 
+The rows of the left table only find their way into the result if they have a counterpart on the right side.
 
 ![Dataflow SQL Right Join](/assets/images/dataflows/peakboard-helpsite_right-join.png)
 
-The rows of the right table are completely preserved. The rows of the left table only find their way into the result if they have a counterpart on the right side.
-
-The following example nicely shows a real full join. The first row is only present in the original table, so the location remains empty. The last row is missing in the original table, so the customer and location from the right table are displayed. All other columns are either empty or 0 (depending on whether it is a string or a number).
-
-![Join Data](/assets/images/dataflows/dataflows-join02.png)
 
 <div class="box-tip" markdown="1">
-**Note**
-
-You can join not only data sources, but of course other dataflows as well.
+**Tip** </br>
+By the way, you can join not only data sources, but of course also other [dataflows].
 </div>
 
