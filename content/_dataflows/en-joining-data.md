@@ -48,8 +48,6 @@ The rows of the left table only find their way into the result if they have a co
 
 
 <div class="box-tip" markdown="1">
-**Tip**
-
-By the way, you can join not only data sources, but of course also other [dataflows].
+**By the way, you can join not only data sources, but of course also other [dataflows].**
 </div>
 
