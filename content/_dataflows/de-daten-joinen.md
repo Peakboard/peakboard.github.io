@@ -24,31 +24,28 @@ Hier wird die Spalte “FullName” in der Originaltabelle mit der Spalte “Nam
 Unter [Join type] wählst du, nach welcher Logik die Spalten miteinander verknüpft werden.
 
 ### Inner Join
-
-![Dataflow SQL Inner Join](/assets/images/dataflows/peakboard-helpsite_inner-join.png)
-
 Das Ergebnis eines inner Joins enthält genau die Zeilen, bei denen es eine Entsprechung in beiden Tabellen gibt. 
 Wenn es in der linken oder rechten Tabelle Zeilen gibt, die keine Entsprechung in der jeweils anderen Tabelle haben, gehen diese Zeilen dabei verloren.
 
+![Dataflow SQL Inner Join](/assets/images/dataflows/peakboard-helpsite_inner-join.png)
+
 ### Full Join
-
-![Dataflow SQL Full Join](/assets/images/dataflows/peakboard-helpsite_full-join.png)
-
 Beim full Join gehen keine Zeilen verloren. 
 Wenn es in der linken oder rechten Tabelle Zeilen ohne Entsprechung gibt, werden diese zeilen im Ergebnis leer angeführt.
 
+![Dataflow SQL Full Join](/assets/images/dataflows/peakboard-helpsite_full-join.png)
+
 ### Left Join
-
-![Dataflow SQL Left Join](/assets/images/dataflows/peakboard-helpsite_left-join.png)
-
 Beim left Join bleiben die Zeilen der linken Tabelle vollständig erhalten. 
 Die Zeilen der rechten Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der linken Seite haben.
 
+![Dataflow SQL Left Join](/assets/images/dataflows/peakboard-helpsite_left-join.png)
+
+
 ### Right Join
+Beim right Join bleiben die Zeilen der rechten Tabelle vollständig erhalten. Die Zeilen der linken Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der rechten Seite haben.
 
 ![Dataflow SQL Right Join](/assets/images/dataflows/peakboard-helpsite_right-join.png)
-
-Beim right Join bleiben die Zeilen der rechten Tabelle vollständig erhalten. Die Zeilen der linken Tabelle finden nur dann ihren Weg in das Ergebnis, wenn sie eine Entsprechung auf der rechten Seite haben.
 
 <div class="box-tip" markdown="1">
 **Hinweis**

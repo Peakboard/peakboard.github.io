@@ -27,6 +27,7 @@ mail.sendviacustomsmtpasync('[SmtpServer]','[SmtpServerUser]','[SmtpServerPasswo
 ```
 
 <div class="box-warning" markdown="1">
-**Beachte** </br>
+**Beachte**
+
 Der Absender der Nachricht muss in dem Team sein, welches die Nachricht erhalten soll!
 </div>
