@@ -45,7 +45,7 @@ footer: 2.12.2.0 (20.10.2021)
 * Fix for a bug where logs were only removed from the view when deleted, but not from the Peakboard Box.
 * Fix for an error in the log caused by initial default visualization
 * Fix for an error in the log caused by resetting a Peakboard Box.
-* **Peakboard Edge
+* **Peakboard Edge**
 * Minor bug fixes 
 * **Scripting**
 * [Script Tree](/scripting/de-script-tree.html) revised
