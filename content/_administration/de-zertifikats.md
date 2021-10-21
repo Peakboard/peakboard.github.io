@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Hinzufügen eines Zertifikats
-menu_title: Hinzufügen eines Zertifikats
+title: Hinzufügen eines Zertifikats zur Zertifikatverwaltung
+menu_title: Hinzufügen eines Zertifikats zur Zertifikatverwaltung
 description: Hinzufügen eines Zertifikats
 lang: de
 weight: 900
@@ -10,40 +10,29 @@ redirect_from:
   - /administration/09-de-zertifikats.html
 ---
 
-Als erstes muss das Zertifikat als Datei auf dem Dateisystem vorliegen.
 
-Am einfachsten speichern kann man es zum Beispiel aus Chrome heraus.
+Die Zertifikatsverwaltung enthält alle Zertifikate einer Visualisierung und ermöglicht deren Verwaltung. Dazu gehören auch die Zertifikate für OPC UA oder MQTT.
 
-Dort auf die HTTPS-Webseite gehen; Strg+Umschalt+I und dort im Reiter "Security" das Zertifikat anzeigen lassen.
+Geöffnet werden kann der Dialog wie im ersten Screenshot über das Hauptfenster [Zertifikate verwalten] unter den [Einstellungen] im Peakboard Designer.
+![Zertifikate verwalten](/assets/images/admin/certificates/managecert1.png)
 
-Von dort aus kann man im Tab "Details" in eine Datei speichern. `DER (*.cer)` ist für diesen Fall ausreichend.
+Neben der Verwaltung besteht auch die Möglichkeit Zertifikate in den Windows Zertifikatspeicher auf der Peakboard Box zu laden. 
+Dazu muss in dem Dropdown die unterste Option [Peakboard Box] gewählt werden (4). 
+Anschließend können Zertifikate (in den gängigen Zertifikat- und Zertifikatarchiv-Formaten) importiert werden. 
+Der Import findet findet immer in den aktuell ausgewählten Reiter statt. 
+Die einzelnen Kategorieren (3) entsprechen dabei Unterordnern aus dem Windows "local machine" Zertifikatspeicher.
 
-![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
+![Zertifikate verwalten Dialog](/assets/images/admin/certificates/managecert2.png)
 
-Die exportierte Datei nun auf die Peakboard Box kopieren.
+Für die Kategorien (3) gilt:
+* My - Zertifikate mit private Key (meist .pfx, .p12 Dateien)
+* TrustedPeople - Zertifikate denen vertraut werden soll (meist .cer, .crt, .der,.. Dateien, können aber auch .pfx und .p12 sein)
+* Rejected - Zertifikate die abgelehnt werden sollen
 
-Dafür im Windows-Explorer auf die Freigabe \\\<ip-adresse-Peakboard Box>\Share zugreifen und dort ablegen.  
-Statt der IP-Adresse kann natürlich auch der Hostname der Peakboard Box verwendet werden.
+<div class="box-warning" markdown="1">
+Alle Zertifikate des Typs Peakboard Box werden dann beim Start einer Visualisierung in den jeweiligen Ordner im Windows Zertifikatspeicher der Peakboard Box geladen und beim Stoppen der Visualisierung wieder entfernt.
+</div>
 
-Benutzername und Passwort des PBAdmin eingeben.
-
-![Window Explorer](/assets/images/admin/certificates/windows-explorer2.png)
-
-Dann via PowerShell mit der Peakboard Box verbinden.
-
-Lokal eine PowerShell als Administrator ausführen
-
-* net start WinRM
-* Set-Item WSMan:\localhost\Client\TrustedHosts -Value \<ip-adresse\>
-* Enter-PSSession -ComputerName \<ip-adresse\> -Credential pbadmin
-
-Wenn die Verbindung steht, das Zertifikat in den Zertifikatspeicher importieren:
-
-* $cert = "C:\Share\DemoCert.cer"
-* Import-Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
-
-![PowerShell](/assets/images/admin/certificates/powershell2.png)
-
-Nun sollte das Zertifikat beim Aufruf automatisch als vertrauenswürdig eingestuft werden.
-
-Voraussetzung ist allerdings, dass es ansonsten ein korrekt ausgestelltes Zertifikat ist, d.h. es darf nicht mehr mit SHA-1 erstellt worden sein und der Hostname des Servers aus der URL, muss mit dem Namen im Zertifikat übereinstimmen.
+<div class="box-tip" markdown="1">
+Die MQTT und OPC UA Zertifikate liegen als Datei der Visualisierung bei und werden von der jeweiligen Datenquelle direkt genutzt ohne über den Windows Zertifikatspeicher zu gehen.
+</div>
