@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 
-Die Zertifikatsverwaltung enthält alle Zertifikate einer Visualisierung und ermöglicht deren Verwaltung. Dazu gehören auch die Zertifikate für OPC UA oder MQTT.
+Die Zertifikatsverwaltung enthält alle Zertifikate einer Visualisierung und ermöglicht deren Verwaltung. Dazu gehören auch die Zertifikate für [OPC UA](/data_sources/OPCUA/de-opc-ua.html) oder [MQTT](/data_sources/de-mqtt-broker.html).
 
 Geöffnet werden kann der Dialog wie im ersten Screenshot über das Hauptfenster [Zertifikate verwalten] unter den [Einstellungen] im Peakboard Designer.
 ![Zertifikate verwalten](/assets/images/admin/certificates/managecert1.png)

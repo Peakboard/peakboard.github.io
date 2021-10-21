@@ -9,42 +9,28 @@ ref: admin-900
 redirect_from:
   - /administration/09-en-certificats.html
 ---
+The certificate management contains all certificates of a visualization and enables their management. 
+This also includes the certificates for [OPC UA](/data_sources/OPCUA/en-opc-ua.html) or [MQTT](/data_sources/en-mqtt-broker.html).
 
-First, the certificate must exist as a file on the file system.
+The dialog can be opened as shown in the first screenshot via the main window [Manage Certificates] under the [Settings] in the Peakboard Designer.
+![Manage Certificates](/assets/images/admin/certificates/managecert1.png)
 
-The easiest way to save it is for example from Chrome.
+In addition to the management, it is also possible to load certificates into the Windows certificate store on the Peakboard Box. 
+To do this, the lowest option [Peakboard Box] must be selected in the dropdown (4). 
+Then certificates (in the common certificate and certificate archive formats) can be imported. 
+The import always takes place in the currently selected category. 
+The individual categories (3) correspond to subfolders from the Windows "local machine" certificate store.
 
+![Manage Certificates Dialog](/assets/images/admin/certificates/managecert2.png)
 
+For the categories (3) applies:
+* TrustedPeople - certificates that should be trusted (mostly .cer, .crt, .der,.. files, but can also be .pfx and .p12).
+* Rejected - certificates that should be rejected
 
-Go to the https page there; Ctrl+Shift+I and then display the certificate in the "Security" tab.
+<div class="box-warning" markdown="1">
+All certificates of the Peakboard Box type are then loaded into the respective folder in the Windows certificate store of the Peakboard Box when a visualization is started and removed again when the visualization is stopped.
+</div>
 
-From there you can save to a file in the tab "Details". `DER (*.cer)` is sufficient for this case.
-
-![Zertifikat Details](/assets/images/admin/certificates/zertifikat-details.png)
-
-Copy the exported file to the device.
-
-To do this, access the share \\\<ip-adress-peakboard-box>\Share in Windows Explorer and store it there.
-
-Enter the user name and password of the PBAdmin.
-
-![Window Explorer](/assets/images/admin/certificates/windows-explorer2.png)
-
-Then connect to the device via PowerShell.
-
-Running a PowerShell locally as an administrator
-
-* net start WinRM
-* Set-Item WSMan:\localhost\Client\TrustedHosts -Value \<ip-address\>
-* Enter-PSSession -ComputerName \<ip address\> -Credential pbadmin
-
-When connected, import the certificate into the certificate store:
-
-* $cert = "C:\Share\DemoCert.cer"  
-* Import Certificate -FilePath $cert -CertStoreLocation Cert:\LocalMachine\Root
-
-![PowerShell](/assets/images/admin/certificates/powershell2.png)
-
-Now the certificate should automatically be classified as trustworthy when invoked.
-
-However, the prerequisite is that it is otherwise a correctly issued certificate, i.e. it must no longer have been created with SHA-1 and the host name of the server from the URL must match the name in the certificate.
+<div class="box-tip" markdown="1">
+The MQTT and OPC UA certificates are included as a file in the visualization and are used directly by the respective data source without going through the Windows certificate store.
+</div>
