@@ -17,7 +17,7 @@ footer: 2.12.2.0 (20.10.2021)
 * [Dataflows] - Missing translations added
 * Visual revision of all control icons
 * Visual revision of all icons
-* Fix for several errors in [Certificate Manager](/administration/de-certificates.html) for [MQTT](/data_sources/de-mqtt-broker.html) and [OPC UA](/data_sources/OPCUA/de-opc-ua.html)
+* Fix for several errors in [Certificate Manager](/administration/en-certificates.html) for [MQTT](/data_sources/en-mqtt-broker.html) and [OPC UA](/data_sources/OPCUA/en-opc-ua.html)
 * Fix for a bug where an error caused a wrong error message
 * Fix for a bug where repeated upload of a visualization caused an error in the configuration file 
 * Fix for a bug where the refresh script of variables, lists and dataflows was not removed from the script area when deleting them
@@ -35,7 +35,7 @@ footer: 2.12.2.0 (20.10.2021)
 * [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for several errors
 * [Peakboard Hub List] - error messages revised
 * [Date and Time](/data_sources/en-date-and-time.html) - Now shows a real date when linked to a [Text-Control](/controls/Common/en-text-block.html)
-* [Peakboard data source](data_sources/en-peakboard-data-soure.html) - Error messages revised
+* [Peakboard data source](/data_sources/en-peakboard-data-soure.html) - Error messages revised
 * [CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data
 * **Peakboard API**
 * API call for reading and writing a single value of a list, added by passing the index.
