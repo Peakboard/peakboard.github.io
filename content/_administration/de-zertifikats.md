@@ -19,13 +19,12 @@ Geöffnet werden kann der Dialog wie im ersten Screenshot über das Hauptfenster
 Neben der Verwaltung besteht auch die Möglichkeit Zertifikate in den Windows Zertifikatspeicher auf der Peakboard Box zu laden. 
 Dazu muss in dem Dropdown die unterste Option [Peakboard Box] gewählt werden (4). 
 Anschließend können Zertifikate (in den gängigen Zertifikat- und Zertifikatarchiv-Formaten) importiert werden. 
-Der Import findet findet immer in den aktuell ausgewählten Reiter statt. 
+Der Import findet immer in der aktuell ausgewählten Kategorie statt. 
 Die einzelnen Kategorieren (3) entsprechen dabei Unterordnern aus dem Windows "local machine" Zertifikatspeicher.
 
 ![Zertifikate verwalten Dialog](/assets/images/admin/certificates/managecert2.png)
 
 Für die Kategorien (3) gilt:
-* My - Zertifikate mit private Key (meist .pfx, .p12 Dateien)
 * TrustedPeople - Zertifikate denen vertraut werden soll (meist .cer, .crt, .der,.. Dateien, können aber auch .pfx und .p12 sein)
 * Rejected - Zertifikate die abgelehnt werden sollen
 
