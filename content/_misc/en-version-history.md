@@ -17,7 +17,7 @@ footer: 2.12.2.0 (20.10.2021)
 * [Dataflows] - Missing translations added
 * Visual revision of all control icons
 * Visual revision of all icons
-* Fix for several errors in [Certificate Manager](/administration/en-certificates.html) for [MQTT](/data_sources/en-mqtt-broker.html) and [OPC UA](/data_sources/OPCUA/en-opc-ua.html)
+* Fix for several errors in [Certificate Manager](/administration/en-certificats.html) for [MQTT](/data_sources/en-mqtt-broker.html) and [OPC UA](/data_sources/OPCUA/en-opc-ua.html)
 * Fix for a bug where an error caused a wrong error message
 * Fix for a bug where repeated upload of a visualization caused an error in the configuration file 
 * Fix for a bug where the refresh script of variables, lists and dataflows was not removed from the script area when deleting them

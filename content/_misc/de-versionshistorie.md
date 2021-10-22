@@ -35,7 +35,7 @@ footer: 2.12.2.0 (20.10.2021)
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Fix für verschiedene Fehler
 * [Peakboard Hub List] - Fehlermeldungen überarbeitet
 * [Datum und Uhrzeit](/data_sources/de-datum-und-uhrzeit.html) - Zeigt nun ein reales Datum an, wenn es mit einem [Text-Control](/controls/Common/de-text-block.html) verknüpft wird
-* [Peakboard Datenquelle](data_sources/de-peakboard-data-soure.html) - Fehlermeldungen überarbeitet
+* [Peakboard Datenquelle](/data_sources/de-peakboard-data-source.html) - Fehlermeldungen überarbeitet
 * [CSV](/data_sources/de-csv.html) - Fix für einen Fehler, bei dem die Datenquelle ohne Laden der Daten angelegt werden konnte
 * **Peakboard API**
 * API-Call für das Lesen und Schreiben eines einzelnen Wertes einer Liste, durch Übergabe des Index hinzugefügt
