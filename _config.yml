@@ -147,15 +147,6 @@ collections:
       en: "Misc"
       de: "Misc"
       cn: "其他"
-
-  tutorials:
-    output: true
-    icon: question.svg
-    position: 8
-    title:
-      en: "Tutorials"
-      de: "Tutorials"
-      cn: "教程"
       
   hub:
     output: true
@@ -163,9 +154,9 @@ collections:
     position: 6
     home_position: 6
     title:
-      en: "Hub"
-      de: "Hub"
-      cn: "Hub"
+      en: "Peakboard Hub"
+      de: "Peakboard Hub"
+      cn: "Peakboard Hub"
 
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
