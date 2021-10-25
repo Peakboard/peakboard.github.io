@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Peakboard Boxen managen
+title: Peakboard Boxen managen
 menu_title: Peakboard Boxen managen
 description: Peakboard Hub - Peakboard Boxen managen 
 lang: de
