@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Verfügbarkeit von Peakboard Boxen einsehen
+title: Verfügbarkeit von Peakboard Boxen einsehen
 menu_title: Verfügbarkeit von Peakboard Boxen einsehen 
 description: Peakboard Hub - Verfügbarkeit von Peakboard Boxen einsehen 
 lang: de
