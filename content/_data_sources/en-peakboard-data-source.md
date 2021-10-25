@@ -6,6 +6,8 @@ description: How to use Peakboard as a data source
 lang: en
 weight: 2800
 ref: dat-2800
+redirect_from:
+  - /data_sources/en-peakboard-data-soure.html
 ---
 
 The Peakboard data source provides an easy way to share data between mutliple Peakboard Boxes. It enables the user to read and write the native variables and lists of a box from other Peakboards within the network. The possibility to expose variables and lists of Peakboard visualizations with settings the tick in the edit dialogs. With the Peakboard data source there is now a simple and straight forward way to consume and manipulate this data.

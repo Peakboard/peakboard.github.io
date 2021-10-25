@@ -11,12 +11,12 @@
 
   span {
     padding-bottom: 2px;
-    color: white;
+    color: #ffa500;
     font-weight: 700;
     border-bottom: 2px solid #ffa500;
 
     &.black {
-      color: black;
+      color: #ffa500;
     }
 
     &:hover,
@@ -37,7 +37,7 @@
   }
 
   i {
-    border: solid white;
+    border: solid #ffa500;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -45,7 +45,7 @@
     margin-bottom: 2px;
 
     &.black {
-      border: solid black;
+      border: solid #ffa500;
       border-width: 0 2px 2px 0;
     }
   }

@@ -275,14 +275,11 @@ html {
 
   a {
     color: #ffa500;
+    font-weight: 700;
     text-decoration: none;
     overflow-wrap: break-word;
     word-break: break-word;
     word-wrap: break-word;
-
-  }
-  a:hover,
-  a:focus {
     border-bottom: 2px solid #ffa500;
   }
 
@@ -402,7 +399,7 @@ html {
 
     span {
       padding-bottom: 2px;
-      color: #000;
+      color: #ffa500;
       font-weight: 700;
       border-bottom: 2px solid #ffa500;
 
@@ -424,7 +421,7 @@ html {
     }
 
     i {
-      border: solid black;
+      border: solid #ffa500;
       border-width: 0 2px 2px 0;
       display: inline-block;
       padding: 3px;
