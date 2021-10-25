@@ -125,10 +125,8 @@
         var rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-height'));
 
         var rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
-        console.log("span"+rowGap);
 
         var rowSpan = Math.ceil((item.getBoundingClientRect().height + rowGap)/(20 + rowGap) - 2);
-        console.log("span"+rowSpan);
 
         item.style.gridRowEnd = "span "+rowSpan;
     }
