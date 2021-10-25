@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Shared Variable Lists
+title: Shared Variable Lists
 menu_title: Shared Variable Lists
 description: Peakboard Hub - Shared Variable Lists
 lang: en
