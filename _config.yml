@@ -32,6 +32,11 @@ collections:
       en: "Get Started"
       de: "Erste Schritte"
       cn: "快速入门"
+    sublevel:
+      Tutorials:
+        en: "Tutorials"
+        de: "Tutorials"
+        cn: "教程"
 
   data_sources:
     output: true
