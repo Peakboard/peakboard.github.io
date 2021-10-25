@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Tokens erstellen
+title: Tokens erstellen
 menu_title: Tokens erstellen 
 description: Peakboard Hub - Tokens erstellen 
 lang: de
