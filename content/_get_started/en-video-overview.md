@@ -9,4 +9,5 @@ ref: start-300
 redirect_from:
   - /video_tutorials/09-en-bridge.html
   - /video_tutorials/01-en-first-steps.html
+  - /tutorials/en-video-overview.html
 ---

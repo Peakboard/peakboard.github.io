@@ -34,4 +34,5 @@ redirect_from:
   - /video_tutorials/Peakboard IO/24-de-schichtplan.html 
   - /video_tutorials/Scripting/25-de-screenwechsel.html 
   - /video_tutorials/Scripting/26-de-tabellen-faerben.html
+  - /tutorials/de-video-overview.html
 ---
