@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Creating Tokens
+title: Creating Tokens
 menu_title: Creating Tokens
 description: Peakboard Hub - Creating Tokens
 lang: en
