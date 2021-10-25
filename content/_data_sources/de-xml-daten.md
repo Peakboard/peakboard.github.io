@@ -4,11 +4,12 @@ title: Externen Datenquellen am Beispiel einer XML-Datenquelle
 menu_title: Externen Datenquellen am Beispiel einer XML-Datenquelle
 description: Externen Datenquellen am Beispiel einer XML-Datenquelle
 lang: de
-weight: 700
-ref: tut-700
+weight: 0
+ref: dat-0
 image: /assets/images/Tutorial/Overview/Tutorial_External_Data_Source_Small.png
 redirect_from:
   - /tutorials/03-de-xml-daten.html
+  - /tutorials/de-xml-daten.html
 ---
 In den beiden Einführungstutorials wurden lediglich statische Inhalte in der Visualisierung genutzt. Richtig spannend wird das alles aber erst, wenn das Design dynamische Daten anzeigt. Grundsätzlich unterscheidet man bei Peakboard zwischen zwei wesentlichen Konzepten, wie dynamische Inhalte eingebettet werden:
 

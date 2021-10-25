@@ -4,6 +4,6 @@ title: 推荐视频
 menu_title: 推荐视频
 description: Video Tutorials
 lang: cn
-weight: 20
-ref: tut-20
+weight: 300
+ref: start-300
 ---

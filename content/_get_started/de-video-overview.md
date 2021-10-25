@@ -4,8 +4,8 @@ title: Videos
 menu_title: Videos
 description: Videos
 lang: de
-weight: 20
-ref: tut-20
+weight: 300
+ref: start-300
 redirect_from:
   - videos/
   - /video_tutorials/01-de-erste-schritte.html

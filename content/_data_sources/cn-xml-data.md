@@ -4,12 +4,12 @@ title: 使用XML数据源的外部数据源示例
 menu_title: 使用XML数据源的外部数据源示例
 description: 使用XML数据源的外部数据源示例
 lang: cn
-weight: 700
-ref: tut-700
-homepage: true
+weight: 0
+ref: dat-0
 image: /assets/images/Tutorial/Overview/Tutorial_External_Data_Source_Small.png
 redirect_from:
-  - /tutorials/03-cn-xml-data.html
+  - /tutorials/03-de-xml-daten.html
+  - /tutorials/de-xml-daten.html
 ---
 在两个入门教程中，仅将静态内容用于可视化。但是，只有当设计显示动态数据时，这一切功能才会变得非常令人兴奋。基本上，Peakboard区分嵌入动态内容的两个主要概念：
 

@@ -5,7 +5,7 @@ menu_title: Including Excel File From a Network Drive
 description: Including Excel File From a Network Drive
 lang: en
 weight: 600
-ref: tut-600
+ref: dat-6000
 homepage: true
 image: /assets/images/Tutorial/Overview/Tutorial_Excel_Small.png
 redirect_from:

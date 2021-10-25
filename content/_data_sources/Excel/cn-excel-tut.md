@@ -5,7 +5,7 @@ menu_title: 包含来自网络驱动器的Excel文件
 description: 包含来自网络驱动器的Excel文件
 lang: cn
 weight: 600
-ref: tut-600
+ref: dat-6000
 homepage: true
 image: /assets/images/Tutorial/Overview/Tutorial_Excel_Small.png
 redirect_from:
