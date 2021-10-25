@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Geteilte Verbindungen
+title: Geteilte Verbindungen
 menu_title: Geteilte Verbindungen
 description: Peakboard Hub - Geteilte Verbindungen
 lang: de
