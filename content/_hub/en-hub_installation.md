@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Installation  
+title: Installation  
 menu_title: Installation  
 description: Peakboard Hub - Installation  
 lang: en
