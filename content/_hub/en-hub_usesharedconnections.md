@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Using Shared Connections in the Peakboard Designer
+title: Using Shared Connections in the Peakboard Designer
 menu_title: Using Shared Connections in the Peakboard Designer
 description: Peakboard Hub - Using Shared Connections in the Peakboard Designer
 lang: en
