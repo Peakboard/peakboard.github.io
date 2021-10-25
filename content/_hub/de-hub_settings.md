@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Einstellungen 
+title: Einstellungen 
 menu_title: Einstellungen 
 description: Peakboard Hub - Einstellungen 
 lang: de
