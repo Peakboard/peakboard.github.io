@@ -9,7 +9,7 @@ layout: base
     <h3 class="px-2">{{ collection.title[page.lang] | capitalize }}</h3>
     <h1 class="px-2">{{ page.title }}</h1>
     <p class="px-2">{{ site.language[page.lang].video-overview-content }}</p>
-    <a href="{{ site.language[page.lang].video-overview-link }}" class="action-link px-2"><span>{{ site.language[page.lang].video-overview-link-text }} <i class="right-arrow"></i></span></a>
+    <a href="{{ site.language[page.lang].video-overview-link }}" class="action-link border-0 px-2"><span>{{ site.language[page.lang].video-overview-link-text }} <i class="right-arrow"></i></span></a>
 
     {% assign video_categories = site.data[page.lang].video_tutorials | group_by: 'category' %}
     {% if video_categories %}
@@ -38,10 +38,10 @@ layout: base
                                 {% capture link %}//www.youtube.com/embed/{{video.youtube_id}}?autoplay=1&rel=0{% endcapture %}
                                 {% endif %}
 
-                                <a class="no-underline video-thumbnail" href="{{ link }}" data-lity>
+                                <a class="no-underline border-0 video-thumbnail" href="{{ link }}" data-lity>
                                     <img class="w-full p-4 lightbox-ignore" style="padding: 1rem;margin:0;" src="{{ video.image }}" alt="{{ video.description }}">
                                 </a>
-                                <a class="no-underline text-black" href="{{ link }}" data-lity>
+                                <a class="no-underline border-0 text-black" href="{{ link }}" data-lity>
                                     <div class="p-4">
                                         <div class="text-black mb-2">{{ video.title | escape }}</div>
                                     </div>
