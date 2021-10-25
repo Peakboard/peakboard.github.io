@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Peakboard Hub - Shared Connections 
+title: Shared Connections 
 menu_title: Shared Connections 
 description: Peakboard Hub - Shared Connections 
 lang: en
