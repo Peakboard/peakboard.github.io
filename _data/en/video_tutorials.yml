@@ -1,10 +1,10 @@
 - title: First Steps with the Peakboard Designer
   description: First Steps with the Peakboard Designer
   language: en
-  youtube_id: TqYdZqW0xMk
+  youtube_id: nQMqZFHG1nk
   weight: 100
   homepage: true
-  image: /assets/images/videos/TqYdZqW0xMk.jpg
+  image: /assets/images/videos/nQMqZFHG1nk.png
   category: Recommended
   
 - title: Upload of visualizations and administration of Peakboard Boxes
@@ -47,7 +47,7 @@
   language: en
   youtube_id: lJteh_tnZL8
   weight: 500
-  image: /assets/images/videos/lJteh_tnZL8.jpg
+  image: /assets/images/videos/lJteh_tnZL8.png
   category: More
 
 - title: Visualization of a SAP Function Module with Peakboard
@@ -55,7 +55,7 @@
   language: en
   youtube_id: 3hUxD8e4kzk
   weight: 200
-  image: /assets/images/videos/3hUxD8e4kzk.jpg
+  image: /assets/images/videos/3hUxD8e4kzk.png
   category: More
 
 - title: Create a digital Bulletin Board with Peakboard
