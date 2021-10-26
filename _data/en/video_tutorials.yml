@@ -35,7 +35,7 @@
   category: More
 
 - title: Peakboard Dataflows explained
-  description: In this video we show you how to use the new dataflows to process data from an ERP system. These and many more use cases can be found at https://github.com/Peakboard/CoolStuff or in the Peakboard Designer under Template.
+  description: In this video we show you how to use the new dataflows to process data from an ERP system. These and many more use cases can be found in the Peakboard Designer under Template.
   language: en
   youtube_id: r2_Nsh3lZMI
   weight: 200
@@ -88,7 +88,7 @@
   language: en
   youtube_id: EY2t4GffFd4
   weight: 200
-  image: /assets/images/videos/EY2t4GffFd4.jpg
+  image: /assets/images/videos/EY2t4GffFd4.png
   category: Machine Protocols
 
 - title: Visualize XML and JSON REST APIs with Peakboard
@@ -96,7 +96,7 @@
   language: en
   youtube_id: GowkU7h9gvs
   weight: 200
-  image: /assets/images/videos/GowkU7h9gvs.jpg
+  image: /assets/images/videos/GowkU7h9gvs.png
   category: More
 
 - title: Digitalized production? Easily done, by connecting your Peakboard Boxes with each other!
