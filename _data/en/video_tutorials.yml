@@ -77,10 +77,10 @@
 - title: How to create a Siemens S7 PLC visualization and connect it with Peakboard
   description: In this video we show you how to connect a Siemens S7 controller to your Peakboard and visualize machine data in real time.
   language: en
-  youtube_id: gE8tboIOvTQ
+  youtube_id: 9rXozcIwm2A
   weight: 200
   homepage: true
-  image: /assets/images/videos/gE8tboIOvTQ.jpg
+  image: /assets/images/videos/9rXozcIwm2A.png
   category: Machine Protocols
 
 - title: Communicate with Peakboard via MQTT
@@ -99,13 +99,6 @@
   image: /assets/images/videos/GowkU7h9gvs.jpg
   category: More
 
-- title: Peakboard-Bridge Installation and Configuration
-  description: Peakboard-Bridge Installation and Configuration
-  language: en
-  youtube_id: FiCH_gC8Ypg
-  weight: 200
-  image: /assets/images/videos/FiCH_gC8Ypg.jpg
-  category: More
 - title: Digitalized production? Easily done, by connecting your Peakboard Boxes with each other!
   description: Digitalization doesn’t have to be complicated! In today's video, you’ll learn how to quickly and easily digitalize production processes by connecting your Peakboard Boxes with each other to easily take your first steps towards smart factory and industry 4.0. We’ll explain exactly how to do this using the example of a production line with four workstations, which each production part must pass through until it is finished.
   language: en
