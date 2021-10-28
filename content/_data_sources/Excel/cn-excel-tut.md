@@ -10,6 +10,7 @@ homepage: true
 image: /assets/images/Tutorial/Overview/Tutorial_Excel_Small.png
 redirect_from:
   - /tutorials/04-cn-excel-tut.html
+  - /tutorials/cn-excel-tut.html 
 ---
 Peakboard支持各种准确数据源；通常新手只喜欢使用Excel。可查找[此处](/data_sources/13-cn-excel.html)了解有关Excel普通文档作为数据源。本教程逐步展示了从包含文件到在小图表中准备数据的完整过程。
 

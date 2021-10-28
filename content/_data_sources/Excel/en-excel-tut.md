@@ -10,6 +10,7 @@ homepage: true
 image: /assets/images/Tutorial/Overview/Tutorial_Excel_Small.png
 redirect_from:
   - /tutorials/04-en-excel-tut.html
+  - /tutorials/en-excel-tut.html
 ---
 Peakboard supports a variety of beautiful data sources; often newcomers just like to use Excel. A normal documentation on Excel as a data source can be found at [here.](/data_sources/13-en-excel.html) This step-by-step tutorial shows the complete process from including the file to preparing the data in a small chart.
 
