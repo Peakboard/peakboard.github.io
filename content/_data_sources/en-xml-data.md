@@ -8,8 +8,8 @@ weight: 0
 ref: dat-0
 image: /assets/images/Tutorial/Overview/Tutorial_External_Data_Source_Small.png
 redirect_from:
-  - /tutorials/03-de-xml-daten.html
-  - /tutorials/de-xml-daten.html
+  - /tutorials/03-en-xml-data.html
+  - /tutorials/en-xml-data.html
 ---
 In the two introductory tutorials, only static content was used in the visualization. But all this only becomes really exciting when the design displays dynamic data. Basically, Peakboard distinguishes between two main concepts for embedding dynamic content:
 
