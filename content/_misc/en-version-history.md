@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.12.2.0 (20.10.2021)
+footer: 2.12.4.0 (28.10.2021)
 ---
-## 2.12.2.0 (20.10.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.12.4.0 (28.10.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Peakboard Box**
+* Hotfix for a bug where the initial visualization was not terminated correctly, generating a large number of errors in the log.
+
+## 2.12.2.0 (20.10.2021)
 * **General**
 * [Web Access] - Access to created global script functions implemented
 * [Dataflows] - [Remove duplicates] step added
