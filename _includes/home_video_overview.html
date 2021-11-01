@@ -1,6 +1,32 @@
 {% assign videos = site.data[page.lang].video_tutorials | where:"homepage",true %}
 {% if videos %}
-<div class="my-12 max-w-xl mx-auto px-8">
+<style>
+    .custom-shape-divider-bottom-one {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        background: #28292c;
+    }
+    .custom-shape-divider-bottom-one svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 120px;
+    }
+
+    .custom-shape-divider-bottom-one .shape-fill {
+        fill: #ffffff;
+    }
+</style>
+<div class="hidden sm:block custom-shape-divider-bottom-one">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+    </svg>
+</div>
+<div class="mb-32 max-w-xl mx-auto px-8">
     <h3 class="font-bold text-4xl text-black">{{ site.language[page.lang].homepage-video-highlights-title }}</h3>
     <p class="my-3 text-black">{{ site.language[page.lang].homepage-video-highlights-content }}</p>
         {% assign videos_sorted = videos | sort:"weight" %}

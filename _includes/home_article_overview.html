@@ -1,5 +1,31 @@
 <div class="article-overview hidden sm:hidden md:block lg:block xl:block">
-    <div class="{% if page.lang != 'cn' %}my-6{% else %}mb-6{% endif %} py-12 px-8 max-w-xl mx-auto">
+    <style>
+        .custom-shape-divider-bottom-two {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            background: #ffffff;
+        }
+        .custom-shape-divider-bottom-two svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 120px;
+        }
+
+        .custom-shape-divider-bottom-two .shape-fill {
+            fill: #F1F0F0;
+        }
+    </style>
+    <div class="hidden sm:block custom-shape-divider-bottom-two">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="pb-12 px-8 max-w-xl mx-auto">
         <h3 class="font-bold text-4xl text-black">{{ site.language[page.lang].homepage-article-overview-title }}</h3>
         <p class="my-3 text-black">{{ site.language[page.lang].homepage-article-overview-content }}</p>
 
@@ -9,7 +35,7 @@
                 {% for collection in collections %}
                     {% if collection.label != "posts" %}{% if collection.label != "tutorials" %}
                         {% if collection.title[page.lang] %}
-                            <div class="brick w-full lg:w-1/2 xl:w-1/2 overflow-hidden mb-4 pr-2">
+                            <div class="brick w-full lg:w-4/5 xl:w-4/5 overflow-hidden mb-4 pr-2">
                                 <div class="flex">
                                     <div class="pl-8">{% include svg/{{ collection.icon }} %}</div>
                                     <div class="w-auto"><h3 class="md:ml-2 inline content-center text-lg font-bold">{{ collection.title[page.lang] }}</h3></div>
@@ -137,7 +163,7 @@
         for(var x=0;x<allItems.length;x++) {
             resizeGridItem(allItems[x]);
         }
-        document.getElementById("bricks").style["grid-template-columns"] = "repeat(2, minmax(250px,1fr))";
+        document.getElementById("bricks").style["grid-template-columns"] = "repeat(3, minmax(250px,1fr))";
     }
 
     window.addEventListener("resize", resizeAllGridItems);

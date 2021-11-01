@@ -147,10 +147,10 @@ collections:
       en: "Misc"
       de: "Misc"
       cn: "其他"
-      
+
   hub:
     output: true
-    icon: hub.svg
+    icon: hub2.svg
     position: 6
     home_position: 6
     title:
