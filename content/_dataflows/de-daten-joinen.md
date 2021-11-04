@@ -13,8 +13,7 @@ Beim [Manipulieren von Spalten](/dataflows/de-spalteninhalte-aendern.html) haben
 Um allerdings zwei oder mehrere tabellenartige Datenbestände miteinander zu verknüpfen, empfehlen wir Joins, eine Technik die oft im Bereich der relationalen Datenbanken, wie [SQL](/data_sources/de-ms-sql-server.html) oder [Oracle](/data_sources/de-oracle.html) Datenbank.
 
 Beginne zunächst damit, einen [Dataflow anzulegen](https://help.peakboard.com/dataflows/de-erste-schritte.html#:~:text=Einen%20neuen%20Dataflow%20anlegen).
-
-Klicke im Dataflow auf [joinen] und wähle die Datenquelle aus, die mit dem Dataflow verbunden werden soll.
+Klicke anschließend im Dataflow auf [joinen] und wähle die Datenquelle aus, die mit dem Dataflow verbunden werden soll.
 Über [+] kannst du die Schlüsselattribute hinzufügen – das sind die Attribute, die in beiden Tabellen vorhanden sind und beim joinen als Identifikatoren gelten.
 Welcher Join für deinen Anwendungsfall passend ist, zeigen wir dir im nachfolgenden Artikel.
 
