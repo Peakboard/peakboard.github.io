@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Joining data via INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL JOIN
+title: Link table-like datasets using joins
 menu_title: Joining Tables
 description: This article and its graphics explain the method of INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL JOIN between two tables applied to the SQL functionality.
 lang: en
@@ -10,7 +10,7 @@ redirect_from:
   - /dataflows/40-en-joining-data.html
 ---
 
-When it comes to [manipulating columns], we've already shown you how to [add a new column](/dataflows/en-changing-data-content.html) and fill it by [Look Up](https://help.peakboard.com/dataflows/en-adding-deleting-changing-columns.html#:~:text=Add%20Lookup%20Column%20-%20Add%20a%20new%20column%20with%20references%20to%20another%20data%20source). 
+When it comes to [manipulating columns](/dataflows/en-changing-data-content.html), we've already shown you how to [add a new column](/dataflows/en-changing-data-content.html) and fill it by [Look Up](https://help.peakboard.com/dataflows/en-adding-deleting-changing-columns.html#:~:text=Add%20Lookup%20Column%20-%20Add%20a%20new%20column%20with%20references%20to%20another%20data%20source). 
 However, to link two or even more table-like datasets together, we recommend using joins - a technique you may be familiar with from relational databases, such as [SQL](/data_sources/en-ms-sql-server.html) or [Oracle](/data_sources/en-oracle.html).
 First, start by [creating a dataflow](https://help.peakboard.com/dataflows/en-getting-started.html#:~:text=expected%20result%20appears.-,Create%20a%20new%20dataflow,-Click%20on%20%5B%E2%80%A6%5D%20next). 
 Then click on [add step] in the dataflow and select [join]. 
@@ -46,6 +46,7 @@ The rows of the left table are only included in the result if they have a counte
 
 
 <div class="box-tip" markdown="1">
-**By the way, you can not only connect data sources, but of course also other [dataflows](/dataflows/en-getting-started.html) in this way.**
+**Note**
+By the way, you can not only connect data sources, but of course also other [dataflows](/dataflows/en-getting-started.html) in this way.
 </div>
 
