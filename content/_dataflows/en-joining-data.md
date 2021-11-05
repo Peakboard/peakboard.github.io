@@ -47,6 +47,7 @@ The rows of the left table are only included in the result if they have a counte
 
 <div class="box-tip" markdown="1">
 **Note**
+
 By the way, you can not only connect data sources, but of course also other [dataflows](/dataflows/en-getting-started.html) in this way.
 </div>
 
