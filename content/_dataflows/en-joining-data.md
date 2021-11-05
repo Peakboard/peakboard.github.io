@@ -9,21 +9,19 @@ ref: flow-4000
 redirect_from:
   - /dataflows/40-en-joining-data.html
 ---
-When [manipulating columns with dataflows](/dataflows/en-adding-deleting-changing-columns.html) we have already shown you, how to [add a new column](/dataflows/en-changing-data-content.html) and fill it with a [Look Up](https://help.peakboard.com/dataflows/en-adding-deleting-changing-columns.html#:~:text=Add%20Lookup%20Column%20-%20Add%20a%20new%20column%20with%20references%20to%20another%20data%20source) to another data source. 
-However, to link two or more table-like datasets together, we recommend joins, a technique often found in relational databases, such as [SQL](/data_sources/en-ms-sql-server.html) or [Oracle](/data_sources/en-oracle.html). To join two tables, start by creating a [dataflow].
 
-In the following example, we will add another column to a table of US presidents, which contains the respective vice presidents. 
-The initial table is listed on the left, the table to be added is listed on the right.
-
-In the dropdown menu you select the columns to be linked. 
-Here the column "FullName" in the original table will be joined with the column "Name". 
-
-Under [Join type] you select the logic according to which the columns will be joined. 
+When it comes to [manipulating columns], we've already shown you how to [add a new column](/dataflows/en-changing-data-content.html) and fill it by [Look Up](https://help.peakboard.com/dataflows/en-adding-deleting-changing-columns.html#:~:text=Add%20Lookup%20Column%20-%20Add%20a%20new%20column%20with%20references%20to%20another%20data%20source). 
+However, to link two or even more table-like datasets together, we recommend using joins - a technique you may be familiar with from relational databases, such as [SQL](/data_sources/en-ms-sql-server.html) or [Oracle](/data_sources/en-oracle.html).
+First, start by [creating a dataflow](https://help.peakboard.com/dataflows/en-getting-started.html#:~:text=expected%20result%20appears.-,Create%20a%20new%20dataflow,-Click%20on%20%5B%E2%80%A6%5D%20next). 
+Then click on [add step] in the dataflow and select [join]. 
+In the dialog you can now select the data source you want to connect to the dataflow (2). 
+Via [+] you add the key attributes (3) - these are the attributes that can be found in both tables and are used as identifiers for the join. 
+In the following article we will show you which join type (4) is suitable for your use case.
 
 ![Join Data](/assets/images/dataflows/dataflows-join01.png)
 
 ### Inner Join
-The result of an inner join contains exactly those rows that have a correspondence in both tables. 
+The result of an inner join contains exactly those rows that have a counterpart in both tables. 
 If there are rows in the left or right table that have no equivalent in the other table, these rows will be lost.
 
 ![Dataflow SQL Inner Join](/assets/images/dataflows/peakboard-helpsite_inner-join.png)
@@ -35,19 +33,19 @@ If there are rows without correspondence in the left or right table, these rows 
 ![Dataflow SQL Full Join](/assets/images/dataflows/peakboard-helpsite_full-join.png)
 
 ### Left Join
-During the left join, the rows of the left table remain completely intact. 
-The rows of the right table only find their way into the result if they have a counterpart on the left side.
+During the left join, the rows of the left table remain fully intact. 
+The rows of the right table are only included in the result if they have a counterpart on the left side.
 
 ![Dataflow SQL Left Join](/assets/images/dataflows/peakboard-helpsite_left-join.png)
 
 ### Right Join
-During the right join, the rows of the right table remain completely intact. 
-The rows of the left table only find their way into the result if they have a counterpart on the right side.
+During the right join, the rows of the right table remain fully intact. 
+The rows of the left table are only included in the result if they have a counterpart on the right side.
 
 ![Dataflow SQL Right Join](/assets/images/dataflows/peakboard-helpsite_right-join.png)
 
 
 <div class="box-tip" markdown="1">
-**By the way, you can join not only data sources, but of course also other [dataflows].**
+**By the way, you can not only connect data sources, but of course also other [dataflows](/dataflows/en-getting-started.html) in this way.**
 </div>
 
