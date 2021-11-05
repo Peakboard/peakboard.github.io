@@ -15,7 +15,7 @@ Um allerdings zwei oder sogar mehrere tabellenartige Datenbestände miteinander 
 Beginne zunächst damit, einen [Dataflow anzulegen](https://help.peakboard.com/dataflows/de-erste-schritte.html#:~:text=Einen%20neuen%20Dataflow%20anlegen).
 Klicke anschließend im Dataflow auf [Schritt hinzufügen] und wähle dann [joinen]. 
 Im Dialog kannst du nun die Datenquelle auswählen, die mit dem Dataflow verbunden werden soll (2).
-Über [+] fügst du die Schlüsselattribute (3) hinzu – das sind die Attribute, die in beiden Tabellen vorhanden sind und beim joinen als Identifikatoren gelten.
+Über [+] fügst du die Schlüsselattribute (3) hinzu – das sind die Attribute, die in beiden Tabellen vorhanden sind und beim Joinen als Identifikatoren gelten.
 Welcher Join Typ (4) für deinen Anwendungsfall passend ist, zeigen wir dir im nachfolgenden Artikel.
 
 ![Join Data](/assets/images/dataflows/dataflows-join01.png)
