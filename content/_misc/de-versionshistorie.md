@@ -8,9 +8,51 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.12.4.0 (28.10.2021)
+footer: 2.13.0.0 (23.11.2021)
 ---
-## 2.12.4.0 (28.10.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.13.0.0 (23.11.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Allgemein**
+* [Manage & Upload-Dialog] - Überarbeitet
+* [Manage & Upload-Dialog] - Healthy Check implementiert
+* [Manage & Upload-Dialog] - Shut-Down-Button für Peakboard Boxen implementiert
+* [Zertifikatsmanager](/administration/de-zertifikats.html) - User Handhabung verbessert
+* Proxy-Authentifizierung für den Peakboard Designer unter [Einstellungen] hinzugefügt
+* Fix für einen Fehler, bei dem fehlerhafte Logs generiert wurden
+* Fix für einen Fehler, bei dem das Ändern einer Variablen über den Web-Access dazu führte, dass alle Variablen überschrieben wurden
+* Fix für einen Fehler, bei dem Log-Files mit mehr als 100 KB automatisch gelöscht wurden
+* **Controls**
+* Für Controls mit Datenbindungsdialog wird automatisch dieser beim Anlegen des Controls geöffnet
+* Animation - Eigenschaft für alle Controls überarbeitet
+* Animation - Preview und Customizing überarbeitet
+* [PowerBI-Control](/controls/Extended/de-power-bi.html) - Kompatibilität für Reports hinzugefügt
+* [PowerBI-Control](/controls/Extended/de-power-bi.html) - Dialog überarbeitet
+* [Web Page](/controls/Extended/de-webpage.html) - Check Box für die Erlaubnis zum Öffnen von Websiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist hinzugefügt
+* [Web Widget](/controls/Extended/de-web-widget.html) - Check Box für die Erlaubnis zum Öffnen von Websiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist hinzugefügt
+* Retro Flipper Control entfernt
+* Fix für einen Fehler, bei dem in der bedingnten Formatierung eine leere Eingabe nicht als solche erkannt wurde
+* Fix für einen Fehler, bei dem Dateien vom Format .mkv nicht als Video-Dateien erkannt wurden
+* **Datenquellen**
+* Peakboard Brige aus allen Datenquellen und Ressourcen entfernt
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) -  Browseing Dialog verbessert
+* [Oracle](/data_sources/de-oracle.html) - Datenstruktur überarbeitet
+* [ODBC](/data_sources/de-odbc.html) - Datenstruktur überarbeitet
+* Fix für einen Fehler, bei dem NULL-Values in der [ODBC-Datenquelle](/data_sources/de-odbc.html) einen kritischen Fehler verursacht haben
+* Fix für einen Fehler, bei dem die MQTT-Datenquelle in seltenen Fällen einen schweren Ausnahmefehler verursachen konnte
+* Fix für einen Fehler, bei dem geteilte Variablen einen Loop erzeugen konnten
+* Fix für einen Fehler, bei dem die [add Time] Funktion einer Zeit-Datenquelle nicht korrekt auf der Zeichenoberfläche angezeigt wurde
+* **Peakboard Hub**
+* Peakboard Boxen können über den Peakboard Hub mit dem Peakboard Designer synchronisiert werden
+* Fix für einen Fehler, bei dem eine eingerichtete Peakboard Hub Verbindung nicht wieder gelöscht werden konnte
+* **Scripting**
+* [Building Blocks](/scripting/de-building-blocks.html) - Copy & Paste Funktionalität überarbeitet
+* [Mail Funktion] - Überarbeitet und User Handling verbessert
+* Fix für einen Fehler, bei dem die Datentypen "bool" und "number" nicht vom MQTT-[Building Block](/scripting/de-building-blocks.html) unterstützt wurden
+* Fix für einen Fehler, bei dem das Unbennen des Screens alle [Building Blocks](/scripting/de-building-blocks.html) eines mit dem Screen verknüpften Skripts gelöscht hat
+* Fix für einen Fehler, bei dem das Setzen eines Wertes in [Peakboard Hub-Listen]() automatisch alle anderen Spalten auf ihre Standardwerte setzte
+* Fix für einen Fehler, bei dem alle Funktionen in der Intellisense mehrfach angezeigt wurden
+
+
+## 2.12.4.0 (28.10.2021) [Download]()
 * **Peakboard Box**
 * Hotfix für einen Fehler, bei dem die initiale Visualisierung nicht korrekt beendet wurde, wodurch eine Vielzahl von Fehlern im Log generiert wurde
 
