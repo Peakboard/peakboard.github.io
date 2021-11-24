@@ -32,7 +32,7 @@ footer: 2.13.0.0 (23.11.2021)
 * Fix für einen Fehler, bei dem in der bedingnten Formatierung eine leere Eingabe nicht als solche erkannt wurde
 * Fix für einen Fehler, bei dem Dateien vom Format .mkv nicht als Video-Dateien erkannt wurden
 * **Datenquellen**
-* Peakboard Brige aus allen Datenquellen und Ressourcen entfernt
+* Peakboard Bridge aus allen Datenquellen und Ressourcen entfernt
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) -  Browseing Dialog verbessert
 * [Oracle](/data_sources/de-oracle.html) - Datenstruktur überarbeitet
 * [ODBC](/data_sources/de-odbc.html) - Datenstruktur überarbeitet
@@ -52,7 +52,7 @@ footer: 2.13.0.0 (23.11.2021)
 * Fix für einen Fehler, bei dem alle Funktionen in der Intellisense mehrfach angezeigt wurden
 
 
-## 2.12.4.0 (28.10.2021) [Download]()
+## 2.12.4.0 (28.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EtolqoY9p55Oql8sO98FdzkBWXHTeq6Y74crW0jDSxVbmA?e=ZAMfd8)
 * **Peakboard Box**
 * Hotfix für einen Fehler, bei dem die initiale Visualisierung nicht korrekt beendet wurde, wodurch eine Vielzahl von Fehlern im Log generiert wurde
 
