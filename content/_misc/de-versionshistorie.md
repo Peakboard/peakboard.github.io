@@ -18,22 +18,22 @@ footer: 2.13.1.0 (23.11.2021)
 * [Zertifikatsmanager](/administration/de-zertifikats.html) - User Handhabung verbessert
 * Proxy-Authentifizierung für den Peakboard Designer unter [Einstellungen] hinzugefügt
 * Fix für einen Fehler, bei dem fehlerhafte Logs generiert wurden
-* Fix für einen Fehler, bei dem das Ändern einer Variablen über den Web-Access dazu führte, dass alle Variablen überschrieben wurden
+* Fix für einen Fehler, bei dem das Ändern einer Variable über den Web-Access dazu führte, dass alle Variablen überschrieben wurden
 * Fix für einen Fehler, bei dem Log-Files mit mehr als 100 KB automatisch gelöscht wurden
 * **Controls**
-* Für Controls mit Datenbindungsdialog wird automatisch dieser beim Anlegen des Controls geöffnet
+* Für Controls mit Datenbindungsdialog wird dieser automatisch beim Anlegen des Controls geöffnet
 * Animation - Eigenschaft für alle Controls überarbeitet
 * Animation - Preview und Customizing überarbeitet
 * [PowerBI-Control](/controls/Extended/de-power-bi.html) - Kompatibilität für Reports hinzugefügt
 * [PowerBI-Control](/controls/Extended/de-power-bi.html) - Dialog überarbeitet
-* [Web Page](/controls/Extended/de-webpage.html) - Check Box für die Erlaubnis zum Öffnen von Websiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist hinzugefügt
+* [Web Page](/controls/Extended/de-webpage.html) - Check Box für die Erlaubnis zum Öffnen von Webseiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist, hinzugefügt
 * [Web Widget](/controls/Extended/de-web-widget.html) - Check Box für die Erlaubnis zum Öffnen von Websiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist hinzugefügt
 * Retro Flipper Control entfernt
-* Fix für einen Fehler, bei dem in der bedingnten Formatierung eine leere Eingabe nicht als solche erkannt wurde
+* Fix für einen Fehler, bei dem in der bedingten Formatierung eine leere Eingabe nicht als solche erkannt wurde
 * Fix für einen Fehler, bei dem Dateien vom Format .mkv nicht als Video-Dateien erkannt wurden
 * **Datenquellen**
 * Peakboard Bridge aus allen Datenquellen und Ressourcen entfernt
-* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) -  Browseing Dialog verbessert
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) -  Browsing Dialog verbessert
 * [Oracle](/data_sources/de-oracle.html) - Datenstruktur überarbeitet
 * [ODBC](/data_sources/de-odbc.html) - Datenstruktur überarbeitet
 * Fix für einen Fehler, bei dem NULL-Values in der [ODBC-Datenquelle](/data_sources/de-odbc.html) einen kritischen Fehler verursacht haben
