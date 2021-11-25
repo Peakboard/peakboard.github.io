@@ -17,7 +17,7 @@ Dazu klickst du zuerst auf [Add Variable List] legst zunächst eine Datenstruktu
 Hier definierst du deine Spalten deiner Liste. 
 Im nächsten Bereich hast du die Möglichkeit Daten für diese Liste zu pflegen. 
 
-Ist die Liste einmal angelegt und dein [Peakboard Designer mit dem Peakboard Hub verbunden](), dann kannst du diese über die Datenquelle [Peakboard Hub Liste]() im Peakboard Designer einbinden. 
+Ist die Liste einmal angelegt und dein [Peakboard Designer mit dem Peakboard Hub verbunden](/hub/de-hub_connectpbdesigner.html), dann kannst du diese über die Datenquelle [Peakboard Hub Liste]() im Peakboard Designer einbinden. 
 
 Möchtest du Daten in die Peakboard Hub Liste zurückschreiben, kannst du das im Skripteditor des Peakboard Designers machen. 
 
