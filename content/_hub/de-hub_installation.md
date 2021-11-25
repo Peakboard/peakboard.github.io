@@ -12,7 +12,7 @@ redirect_from:
 
 Peakboard Hub wird lokal auf deinem Server gehostet, dieser benötigt IIS und Windows Server ab mindestens Version 2016. 
 Es wird zu keinem Zeitpunkt eine Kommunikation nach außen hergestellt, sondern ausschließlich zwischen dem Nutzer, den Peakboard Boxen und Peakboard Hub. 
-Für die Authentifizierung wird der Windows Domain Controller (Active Directoy) genutzt, gib also einfach den *Nutzernamen mit Domäne* und das *Windows Passwort* beim Login ein. 
+Für die Authentifizierung wird der Windows Domain Controller (Active Directoy) genutzt, gib also einfach den *Windows Nutzernamen mit Domäne* und das *Windows Passwort* beim Login ein. 
 Die Datenhaltung von Peakboard Hub findet in einem mitgelieferten SQL Server Express 2019 statt. 
 Es kann aber auch ein bereits vorhandener SQL Server ab Version 2017 verwendet werden.
 
@@ -31,6 +31,7 @@ Anschließend ist Peakboard Hub in deinen SSIS Seiten zu finden.
 Hier kannst du alles wie von IIS gewohnt konfigurieren und beispielsweise eine sichere Kommunikation mit Zertifikaten deines Unternehmens einfügen.
 
 Nach dem ersten Login eines Nutzers in Peakboard Hub kann im Installationsordner (Standardmäßig C:/inetpub/PeakboardHub) noch unter der Applikation [Peakboard.HUB.DatabaseManager] definiert werden, welche Nutzer Admin Rechte für Peakboard Hub erhalten sollen.
+ Sobald ein Nutzer Admin Rechte besitzt, kann dieser zukünftig weitere Nutzer im Nutzermanagement des Peakboard Hubs zum Admin ernennen.
 
 <div class="box-warning" markdown="1"> **Beachte**:
 * Wenn du Updates der Peakboard Boxen über den Peakboard Hub durchführen willst, musst du den ISS Prozess dazu berechtigen, in den Installations-Ordner (c:/inetpub/PeakboardHub) zu schreiben.

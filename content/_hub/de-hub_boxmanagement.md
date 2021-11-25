@@ -4,8 +4,8 @@ title: Peakboard Boxen managen
 menu_title: Peakboard Boxen managen
 description: Peakboard Hub - Peakboard Boxen managen 
 lang: de
-weight: 200
-ref: hub-200
+weight: 500
+ref: hub-500
 redirect_from:
 ---
 
