@@ -14,47 +14,47 @@ footer: 2.13.2.0 (23.11.2021)
 * **General**
 * [Manage & Upload Dialog] - Revised
 * [Manage & Upload Dialog] - Healthy Check implemented
-* [Manage & Upload Dialog] - Shut-Down button for Peakboard boxes implemented
+* [Manage & Upload Dialog] - Shut-Down button for Peakboard Boxes implemented
 * [Certificate Manager](/administration/en-certificates.html) - User handling improved
-* Added proxy authentication for Peakboard Designer under [Settings].
-* Fix for a bug where incorrect logs were generated
-* Fix for a bug where changing a variable via web access caused all variables to be overwritten
-* Fix for a bug where log files with more than 100 KB were automatically deleted
+* Added proxy authentication for Peakboard Designer under [Settings]
+* Fix for a bug that generated incorrect logs
+* Fix for a bug that caused all variables to be overwritten, when changing a variable via web access
+* Fix for a bug that automatically deleted log files with more than 100 KB
 * **Controls**
-* For controls with data binding dialog, this is automatically opened when the control is created
+* For controls with data binding dialog, the dialog is opened automatically when the control is created
 * Animation - property for all controls revised
-* Animation - Preview and Customizing revised
+* Animation - Preview and customizing revised
 * [PowerBI-Control](/controls/Extended/en-power-bi.html) - compatibility for reports added
 * [PowerBI-Control](/controls/Extended/en-power-bi.html) - Dialog revised
-* [Web Page](/controls/Extended/en-webpage.html) - added check box for permission to open web pages for which no valid certificate is installed on the Peakboard box
-* [Web Widget](/controls/Extended/en-web-widget.html) - check box for permission to open websites for which no valid certificate is installed on the Peakboard box added
+* [Web Page](/controls/Extended/en-webpage.html) - added check box for permission to open web pages for which no valid certificate is installed on the Peakboard Box
+* [Web Widget](/controls/Extended/en-web-widget.html) - check box for permission to open websites for which no valid certificate is installed on the Peakboard Box added
 * Retro Flipper Control removed
-* Fix for a bug where in conditional formatting an empty input was not recognized as such
+* Fix for a bug that did not recognize an empty input as such in [conditional formatting](/controls/en-cf.html)
 * Fix for a bug where .mkv format files were not recognized as video files
 * **Data Sources**
 * Removed Peakboard Bridge from all data sources and resources.
 * [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Browse dialog improved
 * [Oracle](/data_sources/en-oracle.html) - data structure revised
 * [ODBC](/data_sources/en-odbc.html) - data structure reworked
-* Fix for a bug where NULL values in [ODBC data source](/data_sources/en-odbc.html) caused a critical error
+* Fix for a bug that caused a critical error for NULL values in the [ODBC data source](/data_sources/en-odbc.html)
 * Fix for a bug where the MQTT data source could cause a fatal exception error in rare cases
 * Fix for a bug where split variables could create a loop
 * Fix for a bug where the [add Time] function of a time data source did not display correctly on the drawing interface
 * **Peakboard Hub**
-* Peakboard boxes can be synchronized with Peakboard Designer via the Peakboard Hub
-* Fix for a bug where an established Peakboard Hub connection could not be deleted again
+* Peakboard Boxes can be synchronized with the Peakboard Designer via Peakboard Hub
+* Fix for a bug where an established Peakboard Hub connection could not be deleted
 * **Scripting**
 * [Building Blocks](/scripting/en-building-blocks.html) - Copy & Paste functionality revised
 * [Mail Function] - Revised and user handling improved
 * Fix for a bug where the data types "bool" and "number" were not supported by the MQTT [Building Block](/scripting/en-building-blocks.html)
 * Fix for a bug where unnaming the screen deleted all [Building Blocks](/scripting/en-building-blocks.html) of a script linked to the screen
 * Fix for a bug where setting a value in [Peakboard Hub Lists]() automatically set all other columns to their default values
-* Fix for a bug where all functions in the Intellisense were displayed multiple times.
+* Fix for a bug that displayed displayed multiple times
 
 
 ## 2.12.4.0 (28.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EtolqoY9p55Oql8sO98FdzkBWXHTeq6Y74crW0jDSxVbmA?e=ZAMfd8)
 * **Peakboard Box**
-* Hotfix for a bug where the initial visualization was not terminated correctly, generating a large number of errors in the log.
+* Hotfix for a bug where the initial visualization was not terminated correctly, generating a large number of errors in the log
 
 ## 2.12.2.0 (20.10.2021)
 * **General**

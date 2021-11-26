@@ -48,7 +48,7 @@ footer: 2.13.2.0 (23.11.2021)
 * [Mail Funktion] - Überarbeitet und User Handling verbessert
 * Fix für einen Fehler, bei dem die Datentypen "bool" und "number" nicht vom MQTT-[Building Block](/scripting/de-building-blocks.html) unterstützt wurden
 * Fix für einen Fehler, bei dem das Unbennen des Screens alle [Building Blocks](/scripting/de-building-blocks.html) eines mit dem Screen verknüpften Skripts gelöscht hat
-* Fix für einen Fehler, bei dem das Setzen eines Wertes in [Peakboard Hub-Listen]() automatisch alle anderen Spalten auf ihre Standardwerte setzte
+* Fix für einen Fehler, bei dem das Setzen eines Wertes in [Peakboard Hub-Listen](/data_sources/de-peakboard-hub-list.html) automatisch alle anderen Spalten auf ihre Standardwerte setzte
 * Fix für einen Fehler, bei dem alle Funktionen in der Intellisense mehrfach angezeigt wurden
 
 
