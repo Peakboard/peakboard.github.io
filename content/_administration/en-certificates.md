@@ -8,6 +8,7 @@ weight: 900
 ref: admin-900
 redirect_from:
   - /administration/09-en-certificats.html
+  - /administration/en-certificats.html
 ---
 The certificate management contains all certificates of a visualization and enables their management. 
 This also includes the certificates for [OPC UA](/data_sources/OPCUA/en-opc-ua.html) or [MQTT](/data_sources/en-mqtt-broker.html).
