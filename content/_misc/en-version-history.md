@@ -8,9 +8,9 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.13.1.0 (23.11.2021)
+footer: 2.13.2.0 (23.11.2021)
 ---
-## 2.13.1.0 (23.11.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.13.2.0 (23.11.2021) [Download](https://peakboard.rocks/download-version-history)
 * **General**
 * [Manage & Upload Dialog] - Revised
 * [Manage & Upload Dialog] - Healthy Check implemented
