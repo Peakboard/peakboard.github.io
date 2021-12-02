@@ -8,9 +8,13 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.13.2.0 (23.11.2021)
+footer: 2.13.3.0 (02.12.2021)
 ---
-## 2.13.2.0 (23.11.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.13.3.0 (02.12.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Data_sources**.
+* [Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive 
+
+## 2.13.2.0 (23.11.2021)
 * **General**
 * [Manage & Upload Dialog] - Revised
 * [Manage & Upload Dialog] - Healthy Check implemented

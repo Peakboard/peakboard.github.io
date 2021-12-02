@@ -8,9 +8,14 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.13.2.0 (23.11.2021)
+footer: 2.13.3.0 (02.12.2021)
 ---
-## 2.13.2.0 (23.11.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.13.3.0 (02.12.2021) [Download](https://peakboard.rocks/download-version-history)
+* **Datenquellen**
+* [Excel](/data_sources/Excel/de-excel.html) - Hotfix für eine Fehler, der bei einer vorhandenen Verbindung zu einer Excel-Datei auf einem Netzlaufwerk einen fehlerhaften Dialog öffnete 
+
+
+## 2.13.2.0 (23.11.2021)
 * **Allgemein**
 * [Manage & Upload-Dialog] - Überarbeitet
 * [Manage & Upload-Dialog] - Healthy Check implementiert
