@@ -10,22 +10,24 @@ redirect_from:
 
 ---
 
-Um Push-Nachrichten auf deinem Smartphone oder deiner Smartwatch anzuzeigen, benötigst du zunächst ein neues Team, an das die Meldungen von der Peakboard Box gesendet werden sollen.
+Du kannst mithilfe von Microsoft Teams ganz einfach Push-Nachrichten von deiner Peakboard Box auf dein Smartphone oder deine Smartwatch senden. 
+Erstelle dazu zunächst ein neues Team, an das die Meldungen von der Peakboard Box gesendet werden sollen.
+Anschließend installierst du dir die Microsoft Teams App auf deinem Handy und aktivierst die Benachrichtigungen über das Glockensymbol. 
+Vergiss nicht, Push-Nachrichten für Microsoft Teams auf deinem Smartphone zu erlauben.
+Neue Nachrichten in diesem Team werden nun automatisch auf deinem Handy bzw. deiner Smartwatch angezeigt.
 
-Anschließend installierst du dir die MS Teams App auf deinem Handy.
-Nun musst du noch in dem Team die Notifications über das Glocken-Symbol anschalten und Push-Nachrichten für MS Teams auf deinem Smartphone erlauben.
-Neue Nachrichten in dieser Team Konversation werden automatisch auf deinem Handy bzw. deiner Smartwatch angezeigt. 
-
-Nachdem du dein Team und Smartphone entsprechend konfiguriert hast, benötigst du nun die E-Mail-Adresse des Channels.
+Nachdem du dein Microsoft Teams Team und dein Smartphone entsprechend konfiguriert hast, benötigst du die E-Mail-Adresse des Teams. 
+Du findest sie unter [Get email address].
 
 ![Get email address](/assets/images/misc/messagemsteams/img1.png)
 
-Abschließend musst du nur noch eine E-Mail von der Peakboard Box aus, mit Hilfe eines Lua Skriptes, an diese Adresse verschicken.
+Mithilfe dieses Lua Skripts kannst du eine E-Mail von der Peakboard Box an diese E-Mail-Adresse senden.
 
 ```lua
 mail.sendviacustomsmtpasync('[SmtpServer]','[SmtpServerUser]','[SmtpServerPassword]','[mailTo]','[Subject]','[Body]')
 ```
 
-<div class="box-warning" markdown="1">
+<div class="box-warning" markdown="1"> **Achtung**
+
 **Der Absender der Nachricht muss in dem Team sein, welches die Nachricht erhalten soll!**
 </div>
