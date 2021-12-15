@@ -3,7 +3,7 @@ layout: article
 title: Installation  
 menu_title: Installation  
 description: Peakboard Hub - Installation  
-lang: de
+lang: en
 weight: 100
 ref: hub-100
 redirect_from:
