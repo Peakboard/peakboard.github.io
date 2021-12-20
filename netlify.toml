@@ -1,4 +1,5 @@
 [[redirects]]
-  from = "https://help.peakboard.cn"
+  from = "/"
   to = "/cn/"
   status = 301
+  country = de
