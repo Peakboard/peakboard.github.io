@@ -577,3 +577,39 @@ html {
   font-weight: 900;
   padding-bottom: 2px;
 }
+
+.homepage-box-warning {
+  color: #ffffff;
+  background-color: #28292C;
+  padding: 15px;
+  margin: 20px 0;
+  border: 3px solid #ffa500;
+  border-radius: 4px;
+}
+
+.homepage-box-warning strong {
+  display: inline;
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.homepage-box-warning b {
+  display: inline;
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.homepage-box-warning p {
+  display: inline;
+}
+
+.homepage-box-warning:before {
+  color: #FFA500;
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+  content: "\f071";
+  font-weight: 900;
+  padding-bottom: 2px;
+}
