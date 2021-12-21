@@ -2,4 +2,3 @@
   from = "/"
   to = "/cn/"
   status = 301
-  country = "de"
