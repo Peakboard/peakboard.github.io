@@ -3,5 +3,5 @@
   to = "/cn/"
   status = 301
   force = true
-  conditions = {Country = ["NL"]}
+  conditions = {Country = ["NL","DK"]}
   # conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
