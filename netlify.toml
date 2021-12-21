@@ -6,10 +6,9 @@
   conditions = {Country = ["CN","HK"]}
   # conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
   
-  [[redirects]]
+[[redirects]]
   from = "/"
   to = "/cn/"
   status = 301
   force = true
-  conditions = {Language = ["en"]}
-  # conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  conditions = {Language = ["zh"]}
