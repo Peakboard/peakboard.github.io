@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Einführung in den Peakboard Designer  
-menu_title: Einführung in den Peakboard Designer  
-description: Einführung in den Peakboard Designer  
+title: Der Peakboard Designer  
+menu_title: Der Peakboard Designer  
+description: Der Peakboard Designer  
 lang: de
 weight: 100
 ref: start-100
