@@ -13,6 +13,8 @@ languageNames:
   cn: Chinese
 # Analytics
 gtm: "GTM-P8XSNDC"
+mtm: "OdpfKO2P"
+
 # Build settings
 markdown: kramdown
 theme: minima
