@@ -143,9 +143,9 @@
 }
 
 /* Add orange full stop (dot) */
-h1:after,
-h2:after,
-h3:after{
+.dot:after,
+.dot:after,
+.dot:after{
   color: #ffa500;
   content: ".";
 }
