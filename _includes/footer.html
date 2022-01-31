@@ -11,7 +11,7 @@
                         {% assign pages = site[collection.label] | where: "ref", 'misc-1' | where: "lang", page.lang %}
                         {% for p in pages %}
                             <div class="mr-12 mt-12 md:mt-0">
-                                <h3 class="mb-4 font-light border-b border-grey-light text-3xl text-white">{{ text.footer-version }}</h3>
+                                <h3 class="mb-4 font-light border-b border-grey-light text-3xl text-white dot">{{ text.footer-version }}</h3>
                                 <p class="mb-3 font-bold text-white">{{ p.footer }}</p>
 
                                     <a href="{{ p.url }}" class="text-white no-underline hover:underline font-light">{{ p.title }}</a>
@@ -20,7 +20,7 @@
                         {% endfor %}
                     {% endfor %}
                     <div class="mr-12 mt-12 md:mt-0">
-                        <h3 class="mb-4 font-light border-b border-grey-light text-3xl text-white">{{ text.footer-support }}</h3>
+                        <h3 class="mb-4 font-light border-b border-grey-light text-3xl text-white dot">{{ text.footer-support }}</h3>
                         <p class="mb-3 font-bold text-white">{{ text.footer-support-tel }}
                             <a href="#" class="text-white no-underline hover:underline font-light">+49 711 46 05 99 -61</a>
                         </p>
@@ -29,7 +29,7 @@
                         </p>
                     </div>
                     <div class="mr-12 mt-12 md:mt-0">
-                        <h3 class="mb-4 font-light border-b border-grey-light text-3xl text-white">{{ text.footer-contact }}</h3>
+                        <h3 class="mb-4 font-light border-b border-grey-light text-3xl text-white dot">{{ text.footer-contact }}</h3>
                         <p class="mb-3 font-bold text-white">{{ text.footer-contact-email }}
                             <a href="mailto:info@peakboard.com" class="text-white no-underline hover:underline font-light">info@peakboard.com</a>
                         </p>
