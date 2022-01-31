@@ -153,6 +153,7 @@ html {
     font-size: 2.375rem;
     line-height: 2.875rem;
     font-weight: 600;
+    @apply font-title;
   }
 
   h2,
@@ -160,6 +161,7 @@ html {
     font-size: 1.625rem;
     line-height: 2.125rem;
     font-weight: 300;
+    @apply font-title;
   }
 
   h3,
@@ -168,6 +170,7 @@ html {
     font-weight: 400;
     text-transform: uppercase;
     color: rgba(0, 0, 0, .84);
+    @apply font-title;
   }
 
   h4,
@@ -176,6 +179,7 @@ html {
     line-height: 1.5rem;
     font-weight: 300;
     border-bottom: 2px solid #f2f3f4;
+    @apply font-title;
   }
 
   h5,
@@ -183,6 +187,7 @@ html {
     font-size: 0.875rem;
     line-height: 1.375rem;
     text-transform: uppercase;
+    @apply font-title;
   }
 
   h6,
@@ -190,6 +195,7 @@ html {
     font-size: 0.75rem;
     line-height: 1.25rem;
     text-transform: uppercase;
+    @apply font-title;
   }
 
   /* Add margin if adjacent element */
