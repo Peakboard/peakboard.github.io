@@ -6,9 +6,10 @@
 
 <section class="hero py-8 px-8">
     <div class="my-6 max-w-xl mx-auto px-8">
-        <h3 class="font-bold text-4xl text-white">{{ site.language[page.lang].homepage-top-section-title }}</h3>
+        <h2 class="font-bold text-4xl text-white">{{ site.language[page.lang].homepage-top-section-title }}</h2>
         <p class="my-3 text-white">{{ site.language[page.lang].homepage-top-section-content }}</p>
-        <a href="{{ site.language[page.lang].homepage-top-section-link }}" class="action-link"><span>{{ site.language[page.lang].homepage-top-section-link-text }} <i class="right-arrow"></i></span></a>
+        <!-- Removed: link above search bar. Commented out because can be used again in future -->
+        <!--<a href="{{ site.language[page.lang].homepage-top-section-link }}" class="action-link"><span>{{ site.language[page.lang].homepage-top-section-link-text }} <i class="right-arrow"></i></span></a>-->
 
         <div class="search-container mt-8">
             <form id="search-form-homepage" action="{{search_link}}">

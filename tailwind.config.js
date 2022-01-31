@@ -54,12 +54,10 @@ module.exports = {
             }
         },
         fontFamily: {
-            title: ['Roboto'],
-            regular: ['Open Sans'],
+            title: ['HelveticaDisplayBlack'],
+            regular: ['HelveticaNow'],
             sans: [
-                "Roboto",
-                "Open Sans",
-                "Helvetica Neue",
+                "HelveticaNow",
                 "sans-serif"
             ],
             serif: [

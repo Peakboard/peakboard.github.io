@@ -141,3 +141,11 @@
 .article-overview {
   background: #f1f0f0;
 }
+
+/* Add orange full stop (dot) */
+h1:after,
+h2:after,
+h3:after{
+  color: #ffa500;
+  content: ".";
+}
