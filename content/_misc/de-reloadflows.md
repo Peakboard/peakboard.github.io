@@ -41,14 +41,14 @@ oder direkt beim anlegen einer Datenquelle oder eines Dataflows unter Nachlade A
 In dieser Maske besteht nun die Möglichkeit bestehende Reload Flows zu bearbeiten oder neue Reload Flows zu erstellen.
 
 #### Reload Flow erstellen
-Um einen neuen Reload Flow zu erstellen klicken wir auf das Plus im oberen linken Eck (1) 
-können dann dem Reload Flow einen Namen geben (2) 
+Um einen neuen Reload Flow zu erstellen klicken wir auf das Plus im oberen linken Eck (4) 
+können dann dem Reload Flow einen Namen geben (5) 
 und über die Data Sources in der rechten Seite die Reload Flow Elemente hinzufügen (3). 
-Im mittleren Bereich sehen wir dann die Reihenfolge in der die Reload Flow Elemente in diesem Reload Flow geladen werden (4).
+Im mittleren Bereich sehen wir dann die Reihenfolge in der die Reload Flow Elemente in diesem Reload Flow geladen werden (2).
 
 #### Reload Flow bearbeiten
 Um einen bestehenden Reload Flow zu bearbeiten kann dieser in dem linken Bereich ausgewählt werden (1). 
-Daraufhin können der Name und die einzelnen Reload Flow Elemente bearbeitet werden (2).
+Daraufhin können der Name und die einzelnen Reload Flow Elemente bearbeitet werden (5, 2).
 Um die Reihenfolge der Reload Flow Elemente in einem Reload Flow zu ändern können wir über Drag und Drop die einzelnen Reload Flow Elemente in ihrer Position bearbeiten. 
 Um ein Reload Flow Element aus einem reload flow zu löschen können wir auf die Mülltonne neben dem Reload Flow Element klicken
 Um einen Reload Flow zu löschen müssen wir die Maus über den Reload Flow bewegen und dann auf das Minus klicken.
