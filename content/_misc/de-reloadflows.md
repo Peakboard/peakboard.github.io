@@ -55,7 +55,7 @@ Um einen Reload Flow zu löschen müssen wir die Maus über den Reload Flow bewe
 
 Alle Änderungen innhalb der Maske können entweder über OK gespeichert werden oder über cancel verworfen werden.
 
-![image_1](/assets/images/misc/Reload_Flows/Interface.png)
+![image_1](/assets/images/misc/Reload_Flows/Reload_Flows_Interface.png)
 
 #### Funktionen innerhalb des Reload Flows
 Innerhalb des Reload Flows gibt es 2 Funktionen. 
