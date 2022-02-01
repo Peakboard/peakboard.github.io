@@ -36,7 +36,7 @@ Um auf die Maske zum erstellen eines Reload Flows zu gelangen kann etweder über
 
 oder direkt beim anlegen einer Datenquelle oder eines Dataflows unter Nachlade Art Reload Flow gewählt werden:
 
-![image_1](/assets/images/misc/Reload_Flows/Reload_FLows_Location2.png)
+![image_1](/assets/images/misc/Reload_Flows/Reload_Flows_Location2.png)
 
 In dieser Maske besteht nun die Möglichkeit bestehende Reload Flows zu bearbeiten oder neue Reload Flows zu erstellen.
 
@@ -68,4 +68,4 @@ Wird der Reload Flow dann ausgelößt werden alle weiteren Reload Flow Targets n
 Ist ein Reload Flow Element in einem Reload Flow eingebunden kann beim Bearbeiten dieses Reload Flows direkt Reload Flow in der Nachlade Art gewählt werden. 
 Ist das Reload Flow Element noch nicht in einem Reload Flow beinhaltet öffnet sich beim auswählen dieser option direkt die Reload Flows Maske und es kann entweder in einen bestehenden reload flow hinzugefügt werden oder ein neuer Reload Flow erstellt werden in dem dieses Reload Flow Element hinzugefügt werden kann.
 
-![image_1](/assets/images/misc/Reload_Flows/Reload_FLows_Location2.png)
+![image_1](/assets/images/misc/Reload_Flows/Reload_Flows_Location2.png)
