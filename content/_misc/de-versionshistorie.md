@@ -28,7 +28,7 @@ footer: 2.14.1.0 (09.02.2022)
 * [Webseiten-Control](/controls/Extended/de-webpage.html) - Das Control kann nun mit einer Variablen verknüpft werden
 * [Bedingte Formatierung](/controls/de-cf.html) - Funktion zum Überspringen eines Screens implementiert
 * [Bedingte Formatierung](/controls/de-cf.html) - Per Rechtsklick auf ein Control kann die [bedingte Fromatierung] aufgerufen werden
-* [Gauge-Diagramm]/controls/Chart/de-circular-gauge.html - Verbesserungen
+* [Gauge-Diagramm](/controls/Chart/de-circular-gauge.html) - Verbesserungen
 * [Bild-Control](/controls/Media/de-image.html) - nicht relevante Eigenschaften entfernt
 * [Animation] - Überarbeitet
 * [Icon](/controls/Common/de-icon.html) - Option für einen dunklen Hintergrund implementiert
@@ -74,9 +74,9 @@ footer: 2.14.1.0 (09.02.2022)
 * Die Methode *brushes.fromhex()* erlaubt nun alle gängigen Hex-Code Formate für Farbcodes
 * Die Methode *runtime.screenscale()* entfernt
 * Funktion zum Kopieren globaler Funktionen implementiert
-* [Building Blocks] - Reload Flows hinzugefügt
-* [Building Blocks] - Gelöschte Building Blocks können vom Nutzer wieder hergestellt werden
-* [Building Blocks] - Skript-Baum umgestaltet
+* [Building Blocks](/scripting/de-building-blocks.html) - Reload Flows hinzugefügt
+* [Building Blocks](/scripting/de-building-blocks.html) - Gelöschte Building Blocks können vom Nutzer wieder hergestellt werden
+* [Building Blocks](/scripting/de-building-blocks.html) - Skript-Baum umgestaltet
 
 
 ## 2.13.3.0 (02.12.2021) [Download](https://peakboard.rocks/download-version-history)
