@@ -8,8 +8,77 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.13.3.0 (02.12.2021)
+footer: 2.14.1.0 (09.02.2022)
 ---
+## 2.14.1.0 (09.02.2022) [Download](https://peakboard.rocks/download-version-history)
+* Implementierung einer neuen Versionierung, die Updates unabhängig von einem Update der Peakboard Box ermöglicht
+* **Allgemein**
+* Umstrukturierung der obersten Menüleiste
+* Funktion für den direkten Upload einer Visualisierung auf eine Peakboard Box implementiert
+* [Zertifikatsmanager](/administration/de-zertifikats.html) - UI überarbeitet
+* [Font Manager](/misc/de-fonts.html) - UI und UX Verbesserung
+* [Ressourcen](/misc/de-ressourcen.html) - Funktion zum Erneuern des Access-Tokens implementiert
+* [Ressourcen](/misc/de-ressourcen.html) - Möglichkeit zum Editieren des Netzlaufwerkpfades bei Netzwerkressourcen hinzugefügt
+* Möglichkeit zum Setzen der Proxy-Einstellungen einer Peakboard Box reaktiviert
+* Fix für einen Fehler, bei dem das Aktualisieren eines Screenshots dazu führte, dass die Drag&Drop Funktionalität für Controls nicht mehr funktioniert
+* Fix für einen Fehler, bei dem eine Netzwerkressource bewirkte, dass die Quelldatei nicht überschrieben werden konnte
+* Fix für einen Fehler, bei dem das Abspielen eines "Getting-Started-Video" zu einem kritischen Fehler führte
+* Fix für einen Fehler, bei dem beim Duplizieren eines Screens die Skripte nicht korrekt dupliziert wurden
+* **Controls**
+* [Webseiten-Control](/controls/Extended/de-webpage.html) - Das Control kann nun mit einer Variablen verknüpft werden
+* [Bedingte Formatierung](/controls/de-cf.html) - Funktion zum Überspringen eines Screens implementiert
+* [Bedingte Formatierung](/controls/de-cf.html) - Per Rechtsklick auf ein Control kann die [bedingte Fromatierung] aufgerufen werden
+* [Gauge-Diagramm]/controls/Chart/de-circular-gauge.html - Verbesserungen
+* [Bild-Control](/controls/Media/de-image.html) - nicht relevante Eigenschaften entfernt
+* [Animation] - Überarbeitet
+* [Icon](/controls/Common/de-icon.html) - Option für einen dunklen Hintergrund implementiert
+* Fix für einen Fehler, bei dem das Duplizieren einer [bedingten Formatierung](/controls/de-cf.html) dazu führte, dass die Formatierung gelöscht wurde
+* Fix für einen Fehler, bei dem Formen unzulässige Eigenschaften in der [bedingten Formatierung](/controls/de-cf.html) zur Auswahl hatten
+* Fix für einen Fehler, bei dem das Drücken der Enter-Taste in der [bedingten Formatierung](/controls/de-cf.html) dazu führte, dass eine neue Regel geöffnet wurde
+* Fix für einen Fehler, bei dem die Farbe des [Text Box] Controls nicht per Skript gesetzt werden konnte
+* Fix für einen Fehler, bei dem, innerhalb eines [TileView-Controls](/controls/Common/de-tile-view.html), das [Textticker-Control](/controls/Extended/de-text-ticker.html) alle und nicht nur die Datenzeile des Tiles verwendet hatte
+* Fix für einen Fehler, bei dem innerhalb eines [TileView-Controls](/controls/Common/de-tile-view.html), das drücken der Enter-Taste den Dialog geschlossen hatte
+* Fix für einen Fehler, bei dem das Sperren einer List- oder TileView zu einem Fehler führte
+* Fix für einen Fehler, bei dem für ein [Rich-Text](/controls/Document/de-rich-text.html) Control der Hintergrund nicht übernommen wurde
+* Fix für einen Fehler, bei dem eigene Schriftarten nicht im Peakboard Designer angezeigt wurden
+* Fix für einen Fehler, bei dem im Font Manager, bei einem Import, vorhandene Schriftarten nicht überschrieben wurden
+* Fix für einen Fehler, bei dem in einen [Gauge-Diagramm](/controls/Chart/de-linear-gauge.html) Text-Werte mit dem Diagramm verknüpft werden konnten
+* Fix für einen Fehler, bei dem ein max. Value von 0 in einem [Gauge-Diagramm](/controls/Chart/de-linear-gauge.html) zu einem schweren Ausnahmefehler führte
+* **Datenquellen**
+* [Reload Flows](/misc/de-reloadflows.html) implementiert
+* Abhängigkeiten beim Laden der Datenquellen und Dataflows überarbeitet
+* [Dataflows](/dataflows/de-erste-schritte.html) - Unnötigen Skript-Editor entfernt
+* [CSV](/data_sources/de-csv.html), [XML](/data_sources/de-xml.html), [JSON](/data_sources/de-json.html) - Sharepoint als Quelltyp implementiert
+* [MQTT](/data_sources/de-mqtt-broker.html) - kleinere Bugfixes
+* [Peakboard Hub Datenquelle](/data_sources/de-peakboard-hub-list.html) - Umstrukturierung und entfernen der max. Rows Eigenschaft
+* [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Browse-Dialog überarbeitet
+* Fix für einen Fehler, bei dem die [Peakboard Hub Datenquelle](/data_sources/de-peakboard-hub-list.html) keine Vorschaudaten lieferte
+* Fix für einen Fehler, bei dem in der [SQL](/data_sources/de-ms-sql-server.html)-Datenquelle mehr als 50 Preview Datensätze geladen wurden
+* Fix für einen Fehler, bei dem die [Peakboard Datenquelle]() nicht korrekt initiiert wurde
+* Fix für einen Fehler, bei dem eine Listenvariable mit einer Zahlenspalte zu einem Fehler in der Preview führte
+* Fix für einen Fehler, bei dem in einer ODBC-Datenquelle keine dynamischen Querys mehr verwendet werden konnten
+* **Peakboard API**
+* Fix für einen Fehler, bei dem Werte nicht über die API übermittelt werden konnten
+* **Peakboard Box**
+* [Hotkey Strg + i] und Infopanel für Peakboard Box implementiert
+* Fix für einen Fehler, bei dem die Screenshot Funktionalität nicht mehr korrekt funktioniert
+* **Peakboard Hub**
+* Check für ungenutzte Zertifikate implementiert
+* **Peakboard Web Access**
+* Funktion implementiert, dass der unsichere 40404-Kanal für alle Anrufe verweigert wird, wenn dies nicht unbedingt erforderlich ist
+* UI Verbesserungen
+* Fix für einen Fehler, bei dem Dateien nicht mehr über den [Web Access] ausgetauscht werden konnten
+* Fix für einen Fehler, bei dem beim Pausieren einer Visualisierung ein Fehler zurückgegeben wurde
+* Fix für einen Fehler, bei dem die "read only" Eigenschaft für eine Variable keine Auswirkung hatte
+* **Scripting**
+* Die Methode *brushes.fromhex()* erlaubt nun alle gängigen Hex-Code Formate für Farbcodes
+* Die Methode *runtime.screenscale()* entfernt
+* Funktion zum Kopieren globaler Funktionen implementiert
+* [Building Blocks] - Reload Flows hinzugefügt
+* [Building Blocks] - Gelöschte Building Blocks können vom Nutzer wieder hergestellt werden
+* [Building Blocks] - Skript-Baum umgestaltet
+
+
 ## 2.13.3.0 (02.12.2021) [Download](https://peakboard.rocks/download-version-history)
 * **Datenquellen**
 * [Excel](/data_sources/Excel/de-excel.html) - Hotfix für eine Fehler, der bei einer vorhandenen Verbindung zu einer Excel-Datei auf einem Netzlaufwerk einen fehlerhaften Dialog öffnete 
@@ -98,7 +167,7 @@ footer: 2.13.3.0 (02.12.2021)
 * Fix für einen Fehler im Log, der durch den Reset einer Peakboard Box verursacht wurde
 * **Peakboard Edge**
 * Kleinere Fehlerkorrekturen 
-* **Skripting**
+* **Scripting**
 * [Skript-Baum](/scripting/de-script-tree.html) überarbeitet
 * [Building Blocks](/scripting/de-building-blocks.html) - Bugfixes und kleinere Verbesserungen wie Drag & Drop und weitere neue Blöcke
 * Fix für einen Fehler, bei dem die Bezeichnung "data" für eine Variable zu Fehlern im Skript führte
@@ -121,11 +190,11 @@ footer: 2.13.3.0 (02.12.2021)
 * Hotfix für einen Fehler, bei dem der Zugriff auf angelegte [Peakboard Variablen/Listen](/scripting/de-variables.html) über die API nicht mehr möglich war
 
 ## 2.11.2.0 (30.08.2021)
-* **Skripting**
+* **Scripting**
 * Hotfix von einem Fehler beim Wechseln des aktiven Skripts im [Skript-Editor](/scripting/de-script-editor.html)
 
 ## 2.11.0.0 (18.08.2021)
-* **Skripting**
+* **Scripting**
 * [Peakboard Building Blocks](/scripting/de-building-blocks.html) implementiert
 * [Skript-Editor](/scripting/de-script-editor.html) - Globale Skripte werden nun in ihre einzelnen Funktionen aufgeteilt
 * [Skript-Editor](/scripting/de-script-editor.html) - Der Skript-Editor behält die zuletzt verwendete Skalierung bei
