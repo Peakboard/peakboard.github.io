@@ -16,18 +16,18 @@ footer: 2.14.1.0 (09.02.2022)
 * Umstrukturierung der obersten Menüleiste
 * Funktion für den direkten Upload einer Visualisierung auf eine Peakboard Box implementiert
 * [Zertifikatsmanager](/administration/de-zertifikats.html) - UI überarbeitet
-* [Font Manager](/misc/de-fonts.html) - UI und UX Verbesserung
+* [Font Manager](/misc/de-fonts.html) - UI und UX verbessert
 * [Ressourcen](/misc/de-ressourcen.html) - Funktion zum Erneuern des Access-Tokens implementiert
 * [Ressourcen](/misc/de-ressourcen.html) - Möglichkeit zum Editieren des Netzlaufwerkpfades bei Netzwerkressourcen hinzugefügt
 * Möglichkeit zum Setzen der Proxy-Einstellungen einer Peakboard Box reaktiviert
-* Fix für einen Fehler, bei dem das Aktualisieren eines Screenshots dazu führte, dass die Drag&Drop Funktionalität für Controls nicht mehr funktioniert
+* Fix für einen Fehler, bei dem das Aktualisieren eines Screenshots dazu führte, dass die Drag & Drop Funktion für Controls ausfiel
 * Fix für einen Fehler, bei dem eine Netzwerkressource bewirkte, dass die Quelldatei nicht überschrieben werden konnte
-* Fix für einen Fehler, bei dem das Abspielen eines "Getting-Started-Video" zu einem kritischen Fehler führte
+* Fix für einen Fehler, bei dem das Abspielen des "Getting-Started-Video" zu einem kritischen Fehler führte
 * Fix für einen Fehler, bei dem beim Duplizieren eines Screens die Skripte nicht korrekt dupliziert wurden
 * **Controls**
 * [Webseiten-Control](/controls/Extended/de-webpage.html) - Das Control kann nun mit einer Variablen verknüpft werden
 * [Bedingte Formatierung](/controls/de-cf.html) - Funktion zum Überspringen eines Screens implementiert
-* [Bedingte Formatierung](/controls/de-cf.html) - Per Rechtsklick auf ein Control kann die [bedingte Fromatierung] aufgerufen werden
+* [Bedingte Formatierung](/controls/de-cf.html) - Per Rechtsklick auf ein Control kann die [bedingte Formatierung] aufgerufen werden
 * [Gauge-Diagramm](/controls/Chart/de-circular-gauge.html) - Verbesserungen
 * [Bild-Control](/controls/Media/de-image.html) - nicht relevante Eigenschaften entfernt
 * [Animation] - Überarbeitet
@@ -35,20 +35,20 @@ footer: 2.14.1.0 (09.02.2022)
 * Fix für einen Fehler, bei dem das Duplizieren einer [bedingten Formatierung](/controls/de-cf.html) dazu führte, dass die Formatierung gelöscht wurde
 * Fix für einen Fehler, bei dem Formen unzulässige Eigenschaften in der [bedingten Formatierung](/controls/de-cf.html) zur Auswahl hatten
 * Fix für einen Fehler, bei dem das Drücken der Enter-Taste in der [bedingten Formatierung](/controls/de-cf.html) dazu führte, dass eine neue Regel geöffnet wurde
-* Fix für einen Fehler, bei dem die Farbe des [Text Box] Controls nicht per Skript gesetzt werden konnte
+* Fix für einen Fehler, bei dem die Farbe des [Text Box](/controls/Common/de-text-block.html) Controls nicht per Skript gesetzt werden konnte
 * Fix für einen Fehler, bei dem, innerhalb eines [TileView-Controls](/controls/Common/de-tile-view.html), das [Textticker-Control](/controls/Extended/de-text-ticker.html) alle und nicht nur die Datenzeile des Tiles verwendet hatte
-* Fix für einen Fehler, bei dem innerhalb eines [TileView-Controls](/controls/Common/de-tile-view.html), das drücken der Enter-Taste den Dialog geschlossen hatte
+* Fix für einen Fehler, bei dem innerhalb eines [TileView-Controls](/controls/Common/de-tile-view.html), das Drücken der Enter-Taste den Dialog geschlossen hat
 * Fix für einen Fehler, bei dem das Sperren einer List- oder TileView zu einem Fehler führte
 * Fix für einen Fehler, bei dem für ein [Rich-Text](/controls/Document/de-rich-text.html) Control der Hintergrund nicht übernommen wurde
 * Fix für einen Fehler, bei dem eigene Schriftarten nicht im Peakboard Designer angezeigt wurden
 * Fix für einen Fehler, bei dem im Font Manager, bei einem Import, vorhandene Schriftarten nicht überschrieben wurden
-* Fix für einen Fehler, bei dem in einen [Gauge-Diagramm](/controls/Chart/de-linear-gauge.html) Text-Werte mit dem Diagramm verknüpft werden konnten
+* Fix für einen Fehler, bei dem in einem [Gauge-Diagramm](/controls/Chart/de-linear-gauge.html) Text-Werte mit dem Diagramm verknüpft werden konnten
 * Fix für einen Fehler, bei dem ein max. Value von 0 in einem [Gauge-Diagramm](/controls/Chart/de-linear-gauge.html) zu einem schweren Ausnahmefehler führte
 * **Datenquellen**
 * [Reload Flows](/misc/de-reloadflows.html) implementiert
 * Abhängigkeiten beim Laden der Datenquellen und Dataflows überarbeitet
 * [Dataflows](/dataflows/de-erste-schritte.html) - Unnötigen Skript-Editor entfernt
-* [CSV](/data_sources/de-csv.html), [XML](/data_sources/de-xml.html), [JSON](/data_sources/de-json.html) - Sharepoint als Quelltyp implementiert
+* [CSV](/data_sources/de-csv.html), [XML](/data_sources/de-xml.html), [JSON](/data_sources/de-json.html) - SharePoint als Quelltyp implementiert
 * [MQTT](/data_sources/de-mqtt-broker.html) - kleinere Bugfixes
 * [Peakboard Hub Datenquelle](/data_sources/de-peakboard-hub-list.html) - Umstrukturierung und entfernen der max. Rows Eigenschaft
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Browse-Dialog überarbeitet
@@ -61,11 +61,11 @@ footer: 2.14.1.0 (09.02.2022)
 * Fix für einen Fehler, bei dem Werte nicht über die API übermittelt werden konnten
 * **Peakboard Box**
 * [Hotkey Strg + i] und Infopanel für Peakboard Box implementiert
-* Fix für einen Fehler, bei dem die Screenshot Funktionalität nicht mehr korrekt funktioniert
+* Fix für einen Fehler, bei keine Screenshots mehr gemacht werden konnten
 * **Peakboard Hub**
 * Check für ungenutzte Zertifikate implementiert
 * **Peakboard Web Access**
-* Funktion implementiert, dass der unsichere 40404-Kanal für alle Anrufe verweigert wird, wenn dies nicht unbedingt erforderlich ist
+* Funktion implementiert, die den unsicheren 40404-Kanal für alle Anrufe verweigert, wenn dies nicht unbedingt erforderlich sind
 * UI Verbesserungen
 * Fix für einen Fehler, bei dem Dateien nicht mehr über den [Web Access] ausgetauscht werden konnten
 * Fix für einen Fehler, bei dem beim Pausieren einer Visualisierung ein Fehler zurückgegeben wurde

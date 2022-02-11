@@ -8,8 +8,77 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-en-version-history.html
-footer: 2.13.3.0 (02.12.2021)
+footer: 2.14.1.0 (09.02.2022)
 ---
+## 2.14.1.0 (09.02.2022) [Download](https://peakboard.rocks/download-version-history)
+* Implementation of a new versiong, which allows for updates independent of an update of the Peakboard Box
+* **General**
+* Restructuring of the top menu bar
+* Function for direct upload of a visualization to a Peakboard Box implemented
+* [Certificate Manager](/administration/en-certificates.html) - UI revised
+* [Font Manager](/misc/en-fonts.html) - UI and UX improvement
+* [Resources](/misc/en-ressources.html) - function to renew access token implemented
+* [Resources](/misc/en-ressources.html) - added option to edit network drive path for network resources
+* Possibility to set proxy settings of a Peakboard box reactivated
+* Fix for a bug that caused the drag & drop function for controls to fail when refreshing a screenshot
+* Fix for a bug in which a network resource caused the source file not to be overwritten
+* Fix for a bug where the playback of one of the "Getting Started" videos caused a critical error
+* Fix for a bug where duplicating a screen did not duplicate the scripts correctly
+* **Controls**
+* [Web page control](/controls/Extended/en-webpage.html) - the control can now be linked to a variable
+* [Conditional formatting](/controls/en-cf.html) - Function to skip a screen implemented
+* [Conditional formatting](/controls/en-cf.html) - Right-click on a control to invoke [conditional formatting].
+* [Gauge-Diagram](/controls/Chart/en-circular-gauge.html) - improvements
+* [Image control](/controls/Media/en-image.html) - removed irrelevant properties
+* [Animation] - Revised
+* [Icon](/controls/Common/en-icon.html) - option for a dark background implemented
+* Fix for a bug where duplicating a [conditional formatting](/controls/en-cf.html) caused the formatting to be deleted
+* Fix for a bug where shapes had invalid properties in the [conditional formatting](/controls/en-cf.html) selection
+* Fix for a bug where pressing the Enter key in [conditional formatting](/controls/en-cf.html) caused a new rule to be opened
+* Fix for a bug where the color of the [Text Box](/controls/Common/en-text-block.html) control could not be set by script
+* Fix for a bug where, within a [TileView-Control](/controls/Common/de-tile-view.html), the [Textticker-Control](/controls/Extended/de-text-ticker.html) had used the entire data line of the tile and not just the data line of the tile.
+* Fix for a bug that closed the dialog when pressing the enter key inside a [TileView-Control](/controls/Common/de-tile-view.html)
+* Fix for a bug whereby locking a ListView or TileView resulted in an error
+* Fix for a bug where for a [Rich-Text](/controls/Document/en-rich-text.html) control the background was not taken over
+* Fix for a bug in which custom fonts were not displayed in the Peakboard Designer
+* Fix for a bug where existing fonts were not overwritten in the Font Manager during an import
+* Fix for a bug, where in a [Gauge-Diagram](/controls/Chart/en-linear-gauge.html) text values could be linked to the diagram
+* Fix for a bug where a max. value of 0 in a [Gauge-Diagram](/controls/Chart/en-linear-gauge.html) led to a severe exception error
+* **Data Sources**
+* [Reload Flows](/misc/de-reloadflows.html) implemented.
+* Data source and dataflow loading dependencies reworked.
+* [Dataflows](/dataflows/en-first-steps.html) - removed unnecessary script editor
+* [CSV](/data_sources/en-csv.html), [XML](/data_sources/en-xml.html), [JSON](/data_sources/en-json.html) - SharePoint implemented as source type
+* [MQTT](/data_sources/en-mqtt-broker.html) - minor bugfixes
+* [Peakboard Hub data source](/data_sources/en-peakboard-hub-list.html) - restructuring and removing max. rows property
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Browse dialog reworked
+* Fix for a bug in which the [Peakboard Hub data source](/data_sources/en-peakboard-hub-list.html) did not provide preview data
+* Fix for a bug where the [SQL](/data_sources/en-ms-sql-server.html) data source loaded more than 50 preview records
+* Fix for a bug causing the [Peakboard data source]() to be initiated incorrectly
+* Fix for a bug where a list variable with a number column led to an error in the preview
+* Fix for a bug in which dynamic queries could no longer be used in an ODBC data source
+* **Peakboard API**
+* Fix for a bug where values could not be submitted via the API.
+* **Peakboard Box**
+* [Hotkey Ctrl + i] and Infopanel for the Peakboard Box implemented
+* Fix for a bug where the screenshot feature did not work correctly anymore
+* **Peakboard Hub**
+* Check for unused certificates implemented
+* **Peakboard Web Access**
+* Implemented feature to deny unsafe 40404 channel for all calls unless absolutely necessary
+* UI improvements
+* Fix for a bug in which files could no longer be shared via [Web Access].
+* Fix for a bug which returned an error when pausing a visualization
+* Fix for a bug where the "read only" property for a variable had no effect
+* **Scripting**
+* The method *brushes.fromhex()* now allows all common hex code formats for color codes
+* Removed the *runtime.screenscale()* method
+* Function to copy global functions implemented
+* [Building Blocks](/scripting/en-building-blocks.html) - added reload flows
+* [Building Blocks](/scripting/en-building-blocks.html) - deleted Building Blocks can be restored by user
+* [Building Blocks](/scripting/en-building-blocks.html) - redesigned script tree
+
+
 ## 2.13.3.0 (02.12.2021) [Download](https://peakboard.rocks/download-version-history)
 * **Data_sources**.
 * [Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive 
