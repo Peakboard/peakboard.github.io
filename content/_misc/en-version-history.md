@@ -7,10 +7,13 @@ lang: en
 weight: 1
 ref: misc-1
 redirect_from:
-  - /misc/06-en-version-history.html
-footer: 2.14.1.0 (09.02.2022)
+  - /misc/06-de-versionshistorie.html
+footer: 2.14.2.0 (17.02.2022)
 ---
-## 2.14.1.0 (09.02.2022) [Download](https://peakboard.rocks/download-version-history)
+## 2.14.2.0 (17.02.2022) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix for a bug where the body could not be read in an http request for CSV, XML and JSON data sources
+
+## 2.14.1.0 (09.02.2022)
 * Implementation of a new versiong, which allows for updates independent of an update of the Peakboard Box
 * **General**
 * Restructuring of the top menu bar
@@ -47,7 +50,7 @@ footer: 2.14.1.0 (09.02.2022)
 * **Data Sources**
 * [Reload Flows](/misc/de-reloadflows.html) implemented.
 * Data source and dataflow loading dependencies reworked.
-* [Dataflows](/dataflows/en-first-steps.html) - removed unnecessary script editor
+* [Dataflows](/dataflows/en-getting-started.html) - removed unnecessary script editor
 * [CSV](/data_sources/en-csv.html), [XML](/data_sources/en-xml.html), [JSON](/data_sources/en-json.html) - SharePoint implemented as source type
 * [MQTT](/data_sources/en-mqtt-broker.html) - minor bugfixes
 * [Peakboard Hub data source](/data_sources/en-peakboard-hub-list.html) - restructuring and removing max. rows property
