@@ -8,6 +8,7 @@ weight: 100
 ref: flow-100
 redirect_from:
   - /dataflows/01-en-getting-started.html
+  - /dataflows/en-first-steps.html
 ---
 Data sources communicate with source systems of all kinds and deliver the data mostly in form of a table. 
 To display this data, you can either access it with the [controls](/controls/en-general-properties.html) or use a [script](/scripting/de-script-engine.html) to process it first. 
