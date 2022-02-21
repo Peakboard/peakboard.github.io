@@ -8,9 +8,10 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.14.2.0 (17.02.2022)
+footer: 2.14.2.1 (17.02.2022)
 ---
-## 2.14.2.0 (17.02.2022) [Download](https://peakboard.rocks/download-version-history)
+## 2.14.2.1 (17.02.2022) [Download](https://peakboard.rocks/download-version-history)
+* Hotfix for a bug in Peakboard Designer, where the update of the software could not be done anymore
 * Hotfix for a bug where the body could not be read in an http request for CSV, XML and JSON data sources
 
 ## 2.14.1.0 (09.02.2022)
