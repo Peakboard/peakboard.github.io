@@ -20,7 +20,9 @@ The individual calls of the REST API can be explored in the Swagger tool of the 
 You get access to this from Forcam itself.
 
 
+
 ![image_1](/assets/images/misc/Forcam/Forcam1.png)
+
 
 
 Once you have found the desired query in the Swagger tool, you can copy the request URL 
@@ -29,7 +31,9 @@ and use it in the Peakboard Designer.
 To do this, create a new JSON data source in the Peakboard Designer.
 
 
+
 ![image_1](/assets/images/misc/Forcam/Forcam2.png)
+
 
 
 This requires a name and a reload interval.
@@ -47,7 +51,9 @@ This corresponds to the base URL of the queries. In addition, the client ID and 
 After that, a token can be requested via Request Token.
 
 
+
 ![image_1](/assets/images/misc/Forcam/Forcam3.png)
+
 
 
 After the OAuth authentication has been completed successfully, data from the REST API can already be loaded via Load data. 

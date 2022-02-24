@@ -20,7 +20,9 @@ Im Swagger Tool der API können die einzelnen Calls der REST API erkundet werden
 Den Zugriff hierauf erhaltet ihr dabei von Forcam selbst.
 
 
+
 ![image_1](/assets/images/misc/Forcam/Forcam1.png)
+
 
 
 Habt ihr im Swagger Tool die gewünschte Abfrage gefunden dann könnt ihr die Request URL kopieren 
@@ -29,7 +31,9 @@ und diese dann im Peakboard Designer nutzen.
 Dafür legt ihr im Peakboard Designer eine neue JSON Datenquelle an.
 
 
+
 ![image_1](/assets/images/misc/Forcam/Forcam2.png)
+
 
 
 Diese benötigt einen Namen und ein Reload Intervall.
@@ -47,7 +51,9 @@ Diese entspricht der Basis URL der Abfragen. Außerdem müssen noch die von Forc
 Danach kann über Token Anfordern ein Token angefordert werden.
 
 
+
 ![image_1](/assets/images/misc/Forcam/Forcam3.png)
+
 
 
 Nachdem die OAuth Authentifizierung erfolgreich abgeschlossen wurde, können über Daten Laden bereits daten aus der REST API geladen werden. 
