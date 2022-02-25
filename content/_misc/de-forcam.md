@@ -60,4 +60,5 @@ Nachdem die OAuth Authentifizierung erfolgreich abgeschlossen wurde, können üb
 Um noch zu definieren welche Daten aus dem Ergebnis genau angezeigt werden sollen kann über den Pfad der Pfad definiert werden, welcher in der JSON Response verwendet werden soll.
 
 
+
 In [diesem Video](https://www.youtube.com/watch?v=kZlCyePq61A) wird nochmal erklärt wie die Forcam Anbindung im Peakboard Designer erstellt wird.
