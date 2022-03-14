@@ -10,141 +10,280 @@ redirect_from:
   - /misc/07-en-API.html
 ---
 
-There are a number of use cases where it may be necessary to send information from outside to a Peakbard box. 
-Depending on the Use Case, the information is not requested from the box by the source system as with data sources, but is actively pushed from the external system to the box. 
-A second Use Case could be that the external system wants to request data from the box, for example, a variable that counts a process or similar.
-Both processes, i.e. reading and writing data, can be easily represented with the JSon-based REST-API.
-The basis are scalar [variables or lists](https://help.peakboard.com/scripting/en-variables.html), where the attribute **Can Push Data via API** is set.
-In general the calls are password protected. 
-So the caller has to authenticate himself with his classic Base64-encoded credentials.
+In different scenarios, you may want to address the interface of the box. 
+This can be the case, for example, if you want to integrate Peakboard into an existing IT system.
 
-## Read data
+The following article will explain which options are available for this. 
+The article describes possibilities how data of a Peakboard visualization can be read out, how data of a Peakboard visualization can be changed and how a function of a Peakboard visualization can be triggered. 
+It also shows where you can find details about other interfaces, for example, to read out or edit system properties of a Peakboard box. 
+This includes things like reading out a screenshot, restarting a box or changing the active visualization.
 
-The call to read data is as follows:
+### Preparing to read / write individual values
+In order to read data from a visualization, you must first transfer it to a variable or a list. 
+To do this, you must first create a string variable, for example, and enable it for external access. 
+To do this, click on the [Variables] folder and then on [Add Variable]. 
+In the now opening dialog you give this variable a name and determine in the tab [Advanced] that this variable should be readable and writable from outside.
 
-[http://NameOfBox:40404/api/runtime/data?name=NameOfDataArtefact]
+![image_1](/assets/images/misc/API/1.gif)
 
-The call must be made as http-Get command. Here is an example of a scalar variable:
+To fill this variable with a value you can now link it to a textbox for example. 
+To do this, you can click on a textbox and create the link by double-clicking on it and selecting the variable you just created in the dropdown.
+
+![image_2](/assets/images/misc/API/2.png)
+
+### Read data (single value)
+If you want to read the value of the variable now, you can do this with the following query:
 ```
+HTTP GET (Port 40405)
+https://[Box IP or hostname]:40405/api/data?name=Test
+
+With Basic Authorization
+```
+
+You will get this response in JSON format:
+```JSON
 {
   "ScalarData": [
     {
-      "Name": "MyString",
-      "Value": "My String"
+      }, "name": { "test",
+      "accessibility": {
+        "CanRead": true,
+        "CanWrite": true
+      },
+      }, "value": "Hello World"
     }
   ],
-  "ListData": []
+  }, "listData": []
 }
 ```
 
-For a list, the columns of the table and the benefits are given in a corresponding JSon representation. The following example shows a table with three columns and the first two rows:
+Since it is a single variable, the content is in ScalarData. 
+There you will find, among other things, the name as well as the value.
+
+### Write data (single value)
+```JSON
+HTTP POST (Port 40405)
+https://[Box IP or hostname]:40405/api/data
+Content-Type
+application/json
+
+With Basic Authorization
+
+
+Body
+{
+  "ListInstructions":[],
+  "ScalarInstructions":
+  [
+    {
+      "DataSourceName": "Test",
+      }, "OpCode": "set",
+      "Data": "Test"
+    }
+  ]
+}
 
 ```
+
+The value has now changed and you get the following response:
+
+```JSON
 {
-  "ScalarData": [],
+    "message": "OK."
+}
+```
+
+### Preparation for reading / writing lists
+If you do not want to process individual values, but lists via the interface, you must first create a list in the Peakboard Designer. 
+In the [Accessibility by API] section of the list you have the possibility to select that this list can be read and written from outside.
+
+![image_3](/assets/images/misc/API/3.png)
+
+If you want to change the values of the list, you can create a ListView. 
+In this ListView you can create a textbox that you link to a column of the data source.
+
+### Read data (list)
+If you want to select all values in the list, you can do it using the following query:
+
+``JSON
+HTTP GET (port 40405)
+https://[Box IP or hostname]:40405/api/data?name=TestList
+
+With Basic Authorization
+```
+
+This will give you the following response:
+
+``JSON
+{
+  }, "scalarData": [],
   "ListData": [
     {
-      "Name": "MyList",
+      }, "name": { "TestList",
       "Columns": [
         {
-          "Name": "Name",
-          "ElementName": "Name",
-          "Type": "String"
+          }, "name": "Col1",
+          "elementName": "Col1",
+          "type": "String"
         },
         {
-          "Name": "Revenue."
-          "ElementName": "Revenue",
-          "Type": "Number"
-        },
-        {
-          "Name": "Paid",
-          "ElementName": "Paid",
-          "Type": "Boolean"
+          }, "name": "Col2",
+          "ElementName": "Col2",
+          "type": "Number"
         }
       ],
       "Items": [
         [
           {
-            "Column": "Name."
-            "Value": "Mark"
+            }, "column": "col1",
+            "Value": "A"
           },
           {
-            "Column": "Revenue",
-            "Value": 123.15
-          },
-          {
-            "Column": "Paid",
-            "Value": false
+            "Column": "Col2",
+            "Value": 1
           }
         ],
         [
           {
-            "Column": "Name."
-            "Value": "Paul"
+            }, "column": "col1",
+            { "value": "B"
           },
           {
-            "Column": "Revenue",
-            "Value": 56.56
-		  }
-	}
+            "Column": "Col2",
+            "Value": 2
+          }
+        ],
+        [
+          {
+            }, "column": "col1",
+            { "value": "C"
+          },
+          {
+            "Column": "Col2",
+            "Value": 3
+          }
+        ]
+      ]
+    }
+  ]
 }
 ```
 
-## Write data
+Alternatively, you can read only one field of the table by passing the index of the row and the name of the columns:
 
-To write data, an http post command is sent under the same URL without specifying the data element name in the URL. The data element is defined via the JSon content and is similar to the Get-Repsonse from the read operation. To set the value of a variable zo an additional operation code (OpCode) must be specified. It defines the action to be executed with respect to the variable. In this case "Set".
+``JSON
+HTTP GET (Port 40405)
+https://[Box IP or hostname]:40405/api/data?name=TestList&lineNumber=0&columnNames=Col1
 
+With Basic Authorization
 ```
+This will then give you a single cell response that looks like this:
+
+``JSON
 {
-	"ListInstructions": [],
-	"ScalarInstructions":
-	[
-		{
-			"DataSourceName": "MyString",
-			"OpCode": "Set",
-			"Data": "My little white rabbit"
-		}
-	]
+  "``ScalarData'': [],
+  "ListData": [
+    {
+      }, "name": { "TestList",
+      "Columns": [
+        {
+          }, "name": "Col1",
+          "elementName": "Col1",
+          "type": "String"
+        }
+      ],
+      "Items": [
+        [
+          {
+            }, "column": "col1",
+            { "value": "A"
+          }
+        ]
+      ]
+    }
+  ]
 }
 ```
 
-![api-01.png](/assets/images/misc/API/api-01.png)
+### Write data (list)
+If you want to edit a cell of the table, you can do this via an HTTP post. 
+For this you need to pass the data as JSON body as in the following query.
 
-In addition to setting variables, there are also the following operation codes:
+```JSON
+HTTP POST (Port 40405)
+https://[Box IP or hostname]:40405/api/data
+Content-Type
+application/json
 
-* **Add**, multiplies the existing value
-* **Subtract**, subtracts the existing value
-* **Multiply**, multiply the existing value
-* **Divide**, divides the existing value
-**Power**, pose the existing value
-**Append**, add a string at the end
+With Basic Authorization
 
-The description of lists is shown in the following example. 
-Note that a line number is only necessary in certain cases, depending on the operation.
 
-```
+Body
 {
-	"ListInstructions":
-	[
-		{
-			"DataSourceName": "MyList",
-			"OpCode": "Append."
-			"Data": {
-				
-				"Name": "Katrin",
-				"Revenue": 100,
-				"Paid": false,
-			}
-		},
-	],
-	"ScalarInstructions": []
+  }, "ListInstructions": 
+  [
+    {
+      "DataSourceName": "TestList",
+      "OpCode": "Update",
+      "LineNumber": 1,
+      }, "data":
+      {
+        "Col1": "C"
+      }
+    }
+  ],
+  "ScalarInstructions":[]
 }
 ```
 
-The following operations are possible to manipulate a table object:
+### Execute function
+If you want to execute a script in your visualization. 
+You can create a global function and share it with the outside world. 
+To create a global function, click in the explorer on Scripts -> Functions -> Add global function.
 
-* **Append** appends the line to the end of the table
-* **Remove** deletes the line at the specified **LineNumber**
-* **Insert** inserts the line at the position indicated by **LineNumber**.
-* **Set** replaces the complete table with the sent data
-* **Clear** empty the complete table
+In the function you must now mark that it is to be released externally. 
+To do this, click on [Shared Function]. 
+For the function you can specify parameters, which can be passed to the function.
+
+![image_4](/assets/images/misc/API/4.png)
+
+This parameter can be controlled later in the script by the name of the parameter. 
+For example, the following script displays the parameter as a message on the visualization:
+
+```lua
+runtime.shownotification(MyParam)
+```
+
+The function named MyFunc can now be called using the following query:
+
+```JSON
+HTTP POST (port 40405)
+https://[Box IP or hostname]:40405/api/functions/MyFunc
+Content-Type
+application/json
+
+With Basic Authorization
+
+
+Body
+{
+  }, "MyParam": "Hello World"
+}
+```
+
+### Overview of all interfaces
+In addition to the calls described here, many others can be called and tested. 
+For this purpose, Peakboard offers an interface that displays a list of all interfaces. 
+Here you can directly authenticate yourself and start a query to the box.
+
+You can find this interface under:
+
+```
+https://[Box IP or hostname]:40405/swagger
+```
+
+![image_5](/assets/images/misc/API/5.gif)
+
+
+
+
