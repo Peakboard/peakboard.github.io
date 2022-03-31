@@ -13,11 +13,11 @@ redirect_from:
 
 ---
 
-If you decide to upgrade a purchased Peakboard Box, for example from the Pro to the Enterprise version, it is necessary to exchange the license key.
-You can request an upgrade licence key by [mail](mailto:sales@peakboard.com).
-It is also possible to purchase a trial license for a fixed period of time.
+If you decide to upgrade a purchased Peakboard Box, for example from the Peakboard Pro to the Peakboard Enterprise version, it is necessary to exchange the license key.
+You can request an upgrade licence key by [e-mail](mailto:sales@peakboard.com).
+It is also possible to first purchase a trial license for a fixed period of time.
 <div class="box-warning" markdown="1"><h5>Caution</h5>
-Make sure to save your original purchased license key of the Peakboard Pro Box in a separate text file!
+Please make sure to save your original purchased license key of your Peakboard Pro Box in a separate text file!
 </div>
 After expiration of the test period, the test license loses its validity, whereby the Peakboard Box can no longer be used with this license.
 In order to continue using your Peakboard Box, you must change the license key back to the license key previously saved in the separate text file.
