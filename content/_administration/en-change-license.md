@@ -13,15 +13,18 @@ redirect_from:
 
 ---
 
-If the decision is made to upgrade a purchased Peakboard-Box, for example from the Pro to the Enterprise version, it is necessary to exchange the license key.
-An upgrade license key can be requested by [mail](mailto:sales@peakboard.com).
-There is the possibility to purchase a test license for a fixed period of time. Please make sure to save your original purchased license key of the Peakboard Pro Box in a separate text file!
-After expiration of the trial period, the trial license loses its validity and the Peakboard Box can no longer be used with this license. Please change the license key to the license key saved in the separate text file in order to continue using your purchased Peakboard Box.
+If you decide to upgrade a purchased Peakboard Box, for example from the Pro to the Enterprise version, it is necessary to exchange the license key.
+You can request an upgrade licence key by [mail](mailto:sales@peakboard.com).
+It is also possible to purchase a trial license for a fixed period of time.
+<div class="box-warning" markdown="1"><h5>Caution</h5>
+Make sure to save your original purchased license key of the Peakboard Pro Box in a separate text file!
+</div>
+After expiration of the test period, the test license loses its validity, whereby the Peakboard Box can no longer be used with this license.
+In order to continue using your Peakboard Box, you must change the license key back to the license key previously saved in the separate text file.
 
-To change the licence of a Peakboard Box, first click on the "Manage/Upload" button (1) in the Peakboard Designer.
+To change the license of a Peakboard Box, first click on the "Peakboard Box" button (1) in the Peakboard Designer.
+In the "Peakboard Box Settings" dialog, select the desired Peakboard Box in the left column by left-clicking on it (2).
+In the "General" tab, click on the edit icon behind the license key text field and enter your new license key in the text field (3).
+To complete the process, save your changes and close the dialog (4).
 
-In the "Manage/Upload" dialog, select the desired Peakboard Box and double-click on it to open the "Settings" dialog (2). 
-Under "Properties" you can see the properties like name and license (3). 
-The edit symbol now allows to change the license (4).
-
-![Manage Dialog](/assets/images/admin/license/manage-dialog.png)
+![Change Licence](/assets/images/admin/license/en_change-licence.png)
