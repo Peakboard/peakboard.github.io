@@ -2,17 +2,10 @@
     <span class="text-grey-light mr-3 hidden md:flex items-center">{% include svg/globe.svg %}</span>
     {% if page.lang == "de" %}
         <span class="text-orange mr-2">DE</span> /
-        <a href="{{ '/en/search.html' | relative_url }}" class="no-underline text-grey ml-2 mr-2 hover:text-orange">EN</a> /
-        <a href="{{ '/cn/search.html' | relative_url }}" class="no-underline text-grey ml-2 hover:text-orange">CN</a>
+        <a href="{{ '/en/search.html' | relative_url }}" class="no-underline text-grey ml-2 mr-2 hover:text-orange">EN</a>
     {% endif %}
     {% if page.lang == "en" %}
         <a href="{{ '/search.html' relative_url }}" class="no-underline text-grey mr-2 hover:text-orange">DE</a> /
-        <span class="text-orange mr-2 ml-2">EN</span> /
-        <a href="{{ '/cn/search.html' | relative_url }}" class="no-underline text-grey ml-2 hover:text-orange">CN</a>
-    {% endif %}
-    {% if page.lang == "cn" %}
-        <a href="{{ '/search.html' relative_url }}" class="no-underline text-grey mr-2 hover:text-orange">DE</a> /
-        <a href="{{ '/en/search.html' | relative_url }}" class="no-underline text-grey ml-2 mr-2 hover:text-orange">EN</a> /
-        <span class="text-orange ml-2">CN</span>
+        <span class="text-orange mr-2 ml-2">EN</span>
     {% endif %}
 </div>
