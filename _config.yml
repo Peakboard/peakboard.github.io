@@ -4,7 +4,7 @@ description: "Tutorials and articles on using Peakboard."
 url: "http://help.peakboard.com"
 twitter_username: pkbrd
 github_username:  Peakboard
-languages: ["en", "de", "cn"]
+languages: ["en", "de"]
 exclude_from_localizations: ["assets", "CNAME"]
 defaultLang: de
 languageNames:
