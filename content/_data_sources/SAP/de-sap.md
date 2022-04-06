@@ -9,54 +9,26 @@ ref: dat-1100
 redirect_from:
   - /data_sources/SAP/10-de-sap.html
 ---
-Diese Seite erklärt die einzelnen Features beim Zugriff auf eine SAP-Datenquelle von Peakboard aus. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
+Die Anbindung an SAP erfolgt über Direct RFC. 
+Hier kommuniziert die Box direkt mit einem SAP-Applikationsserver. 
+Ohne Middleware und ohne die Notwendigkeit auf SAP größeres Dinge konfigurieren zu müssen. 
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
+Um die SAP Datenquelle anzubinden, wählst du unter "Daten hinzufügen" die Datenquelle "SAP" aus. (1)
 
-Die Anbindung an SAP kann über verschiedene Wege erfolgen. Welche davon für Ihren Fall am besten ist, hängt von mehreren Faktoren ab, die im Folgenden erläutert sind:
+![SAP Daten hinzufuegen](/assets/images/data-sources/sap/de_SAP-add.png)
 
-**Direct RFC**
+Im folgenden Dialog kann zwischen einem einzelnen Anwendungsserver und dem Lastausgleich gewählt werden.
+Es ist technisch nicht möglich auf SAP Transaktionen zuzugreifen.
+Die entsprechenden Felder im Bereich "Verbindung" müssen mit den gewohnten SAP Logon-Daten ausgefüllt werden. (2)
 
-:	Im Fall von Direct RFC kommuniziert die Box direkt mit einem SAP-Applikationsserver. Ohne Middleware und ohne die Notwendigkeit auf SAP größeres Dinge konfigurieren zu müssen. In der Regel ist das für nahezu alle Kunden die beste Zugriffsoption.
+Der eigentliche Zugriff auf SAP wird über XQL-Anweisung formuliert.
+Damit du die XQL-Anweisung nicht komplett von Hand eingeben musst, kannst du über den "Vorlagen" Button ein Muster einfügen. (3)
+Der Screenshot zeigt eine Anweisung auf eine simple SAP-Tabelle. Weitere Infos und Beispiele zu XQL findest du im Bereich [SAP mit XQL](/data_sources/SAP/de-xql.html)
 
-**SAP Gateway**
+Zur Plausibilitätsprüfung der Daten klickst du auf den "Daten Laden" Button um eine Vorschau zu generieren. (4)
 
-:	Das SAP Gateway ist ein Modul innerhalb von SAP, das über den Transaktionscode SEGW erreichbar ist. Dort werden üblicherweise RFC-Funktionsbausteine als OData-Service bereitgestellt. Eine Einführung in SAP Gateway finden Sie entweder über Google oder [hier.](https://blogs.sap.com/2013/01/24/a-simple-overview-on-sap-netweaver-gateway/) Um sich mit Peakboard an einen Gateway Service zu verbinden, brauchen Sie mindestens die URL des Services und den Namen des Entity Sets. Bitte beachten Sie, dass ein großer Nachteil diese Zugriffsmethode der Entwicklungsaufwand ist, der möglicherweise auf Gateway-Seite nötig ist.
+![SAP Saten konfigurieren](/assets/images/data-sources/sap/de_SAP-config-01.png)
 
-**Peakboard-Bridge**
+Danach bestätigst du die Erstellung der Datenquelle mit einem Klick auf "OK". (5)
 
-:	In der ersten Generation von Peakboard war die Bridge nötig, um mit SAP zu kommunizieren. Seit der zweiten Generation (ca. Mai 2017) ist diese Feature obsolet und sollte nicht mehr verwendet werden.
-
-## Zugriff über „Direct RFC“
-
-Um die Datenquelle an SAP anzubinden, müssen die Felder Client (Mandant), User Name, Password und Sprache (mit dem SAP-üblichen Sprachkürzel) ausgefüllt werden. Darüberhinaus muss der Tabreiter ‚Direct RFC‘ aktiviert werden. Auf diesem Reiter ist der SAP-Applikationsserver und die Systemnummer anzugeben.
-
-![Sap Data Dialog](/assets/images/data-sources/sap/sap-data-dialog.png)
-
-Der eigentliche Zugriff auf SAP wird über XQL-Anweisung formuliert. Damit Sie die XQL-Anweisung nicht komplett von Hand eingeben müssen, können Sie sich über den Template-Knopf ein Muster einfügen lassen. Der folgende Screenshot zeigt eine Anweisung auf eine simple SAP-Tabelle. Weitere Infos und Beispiele zu XQL finden Sie auf einer weiteren Seite.
-
-![Sap Direct RFC](/assets/images/data-sources/sap/sap-direct-rfc.png)
-
-Die nächsten Schritte sind der Load-Button, um die Spalten bzw. die Metadaten zu laden und der Preview-Button, um die Daten auf Plausibilität zu prüfen.
-
-![Sap Load Columns](/assets/images/data-sources/sap/sap-load-columns.png)
-
-![Sap Load Columns Preview](/assets/images/data-sources/sap/sap-load-columns-preview.png)
-
-## Zugriff über SAP Gateway
-
-Basis für den Zugriff ist ein Gateway Service, der eine Liste aller im Moment eingeloggter User zurückgibt. Der folgende Screenshot zeigt den Service in der Entwurfsansicht der Transaktion SEGW:
-
-![SAP NetWeaver Gateway Service Builder](/assets/images/data-sources/sap/sap-netweaver-gateway-service-builder.png)
-
-
-Die neu angelegte Datenquelle benötigt einen eindeutigen Namen sowie User-Name und Passwort des SAP-Systems. Im Reiter SAP Gateway tragen Sie bitte die URL des Gateway Service ein. Danach klicken Sie auf den kleinen Knopf mit den drei Punkten, um alle Entity Sets in den Auswahl-Dialog zu laden, die unter dieser Service-URL verfügbar sind.
-
-![Sap Gateway Select Element](/assets/images/data-sources/sap/sap-gateway-select-element.png)
-
-
-Sobald Sie sich für eine Entity entschieden haben, bestätigen Sie mit OK. Jetzt werden die Spalten und ihre Datentypen geladen und angezeigt. Damit ist die Konfiguration beendet. Prüfen Sie die Daten auf Plausibilität, in dem Sie sie im Preview-Fenster betrachten.
-
-![SAP Gateway Dialog](/assets/images/data-sources/sap/sap-gateway-dialog.png)
-
-![Sap Preview](/assets/images/data-sources/sap/sap-preview.png)
+![SAP Daten konfigurieren](/assets/images/data-sources/sap/de_SAP-config-02.png)
