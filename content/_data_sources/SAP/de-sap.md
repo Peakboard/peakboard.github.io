@@ -11,7 +11,7 @@ redirect_from:
 ---
 Die Anbindung an SAP erfolgt über Direct RFC. 
 Hier kommuniziert die Box direkt mit einem SAP-Applikationsserver. 
-Ohne Middleware und ohne die Notwendigkeit auf SAP größeres Dinge konfigurieren zu müssen. 
+Ohne Middleware und ohne die Notwendigkeit auf SAP größere Dinge konfigurieren zu müssen. 
 
 Um die SAP Datenquelle anzubinden, wählst du unter "Daten hinzufügen" die Datenquelle "SAP" aus. (1)
 
@@ -25,7 +25,7 @@ Der eigentliche Zugriff auf SAP wird über XQL-Anweisung formuliert.
 Damit du die XQL-Anweisung nicht komplett von Hand eingeben musst, kannst du über den "Vorlagen" Button ein Muster einfügen. (3)
 Der Screenshot zeigt eine Anweisung auf eine simple SAP-Tabelle. Weitere Infos und Beispiele zu XQL findest du im Bereich [SAP mit XQL](/data_sources/SAP/de-xql.html)
 
-Zur Plausibilitätsprüfung der Daten klickst du auf den "Daten Laden" Button um eine Vorschau zu generieren. (4)
+Zur Plausibilitätsprüfung der Daten klickst du auf den "Daten Laden" Button, um eine Vorschau zu generieren. (4)
 
 ![SAP Saten konfigurieren](/assets/images/data-sources/sap/de_SAP-config-01.png)
 
