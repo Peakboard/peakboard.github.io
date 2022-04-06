@@ -10,7 +10,7 @@ redirect_from:
   - /data_sources/SAP/10-de-sap.html
 ---
 Die Anbindung an SAP erfolgt über Direct RFC. 
-Hier kommuniziert die Box direkt mit einem SAP-Applikationsserver. 
+Hier kommuniziert die Peakboard Box direkt mit einem SAP-Applikationsserver. 
 Ohne Middleware und ohne die Notwendigkeit auf SAP größere Dinge konfigurieren zu müssen. 
 
 Um die SAP Datenquelle anzubinden, wählst du unter "Daten hinzufügen" die Datenquelle "SAP" aus. (1)
@@ -21,7 +21,7 @@ Im folgenden Dialog kann zwischen einem einzelnen Anwendungsserver und dem Lasta
 Es ist technisch nicht möglich auf SAP Transaktionen zuzugreifen.
 Die entsprechenden Felder im Bereich "Verbindung" müssen mit den gewohnten SAP Logon-Daten ausgefüllt werden. (2)
 
-Der eigentliche Zugriff auf SAP wird über XQL-Anweisung formuliert.
+Der eigentliche Zugriff auf SAP wird über eine XQL-Anweisung formuliert.
 Damit du die XQL-Anweisung nicht komplett von Hand eingeben musst, kannst du über den "Vorlagen" Button ein Muster einfügen. (3)
 Der Screenshot zeigt eine Anweisung auf eine simple SAP-Tabelle. Weitere Infos und Beispiele zu XQL findest du im Bereich [SAP mit XQL](/data_sources/SAP/de-xql.html)
 
