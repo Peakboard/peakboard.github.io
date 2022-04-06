@@ -10,7 +10,7 @@ redirect_from:
   - /data_sources/SAP/10-en-sap.html
 ---
 The connection to SAP is established via Direct RFC. 
-Here the box communicates directly with an SAP application server. 
+Here the Peakboard box communicates directly with an SAP application server. 
 Without middleware and without the need to configure major things on SAP. 
 
 To connect the SAP data source, select the "SAP" data source under "Add Data Source". (1)
@@ -21,7 +21,7 @@ In the following dialog you can choose between a Single Application Server and L
 It is technically not possible to access SAP transactions.
 The corresponding fields in the "Connection" area must be filled in with the accustomed SAP logon data. (2)
 
-The actual access to SAP is formulated via XQL statement.
+The actual access to SAP is formulated via an XQL statement.
 To avoid having to enter the XQL statement completely by hand, you can insert a template via the "Template" button. (3)
 The screenshot shows a instruction for a simple SAP table. More information and examples about XQL can be found in the section [SAP with XQL](/data_sources/SAP/en-xql.html).
 
