@@ -190,10 +190,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem alle Funktionen in der Intellisense mehrfach angezeigt wurden
 
 
-## 2.12.4.0 (28.10.2021)
+## 2.12.4.0 (28.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EtolqoY9p55Oql8sO98FdzkBWXHTeq6Y74crW0jDSxVbmA?e=ZAMfd8)
 * **Peakboard Box**
 * Hotfix für einen Fehler, bei dem die initiale Visualisierung nicht korrekt beendet wurde, wodurch eine Vielzahl von Fehlern im Log generiert wurde
-
 
 ## 2.12.2.0 (20.10.2021)
 * **Allgemein**
@@ -242,26 +241,21 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem globale Funktionen verloren gingen
 * Fix für einen Fehler, bei dem der Validator nicht mehr korrekt funktionierte
 
-
-## 2.11.5.0 (12.10.2021)
+## 2.11.5.0 (12.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EnMeVya4r8lJmTsqlLtJZo8BMjBlPIG65o_de2Bcm2A5gg?e=rA9CFG)
 * **Datenquellen**
 * Hotfix für einen Fehler, bei dem eine [Extension](/data_sources/Extension/de-Extension.html) nicht mehr editiert oder kopiert werden konnte
-
 
 ## 2.11.4.0 (10.09.2021)
 * **Allgemein**
 * Hotfix für einen Fehler, bei dem fehlerhafte Übersetzungen zu einem Absturz der chinesischen Version des Peakboard Designers führte
 
-
 ## 2.11.3.0 (02.09.2021)
 * **Allgemein**
 * Hotfix für einen Fehler, bei dem der Zugriff auf angelegte [Peakboard Variablen/Listen](/scripting/de-variables.html) über die API nicht mehr möglich war
 
-
 ## 2.11.2.0 (30.08.2021)
 * **Scripting**
 * Hotfix von einem Fehler beim Wechseln des aktiven Skripts im [Skript-Editor](/scripting/de-script-editor.html)
-
 
 ## 2.11.0.0 (18.08.2021)
 * **Scripting**
@@ -328,7 +322,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Peakboard Hub - Single Point Authentifizierung hinzugefügt
 
 
-## 2.10.0.0 (07.06.2021)
+## 2.10.0.0 (07.06.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/En6NjAbJgwRGmo3-7UwERfYBnhZXfhdNt6Du_7RHSt1uwQ?e=yhQVBk)
 * Auf die Peakboard Box geladene Visualisierungen erhalten nun einen Zeitstempel und werden chronologisch sortiert
 * Benutzerrollen Konzept auf der Peakboard Box erweitert
 * Aktualisierung der Videos im Startbildschirm des Peakboard Designers hinzugefügt
@@ -353,11 +347,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die Twitter-Datenquelle nicht mehr funktionierte
 * Fix für einen Fehler, bei dem die unaktivierte Schaltfläche [Sichtbar] eines Controls zu einem Fehler beim Laden einer Visualisierung führte
 
-
-## 2.9.1.0(26.04.2021)
+## 2.9.1.0(26.04.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Es4Ev5qm_DFMsGgGKNwIbD8B4VBkbi2j0Z2Edm36JzPwAg?e=OSrLcx) 
 * Hotfix für einen Fehler, bei dem die OData-Datenquelle nicht mehr erstellt und bearbeitet werden konnte
 * Hotfix für einen Fehler, bei dem Cloud-Ressourcen nicht mehr angelegt oder bearbeitet werden konnten
-
 
 ## 2.9.0.1(22.04.2021)
 * Rework für das Webinterface der Peakboard Box
@@ -377,9 +369,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem der Zugriff eigens angelegter Nutzer auf das Webinterface zu einem Fehler geführt hat
 
 
-## 2.8.2.0(22.03.2021)
+## 2.8.2.0(22.03.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Et7Z8JdjpM9Jh8gyaTDtO4kBf7djpCRziclmq4rqvdEOFg?e=D85Hdg)
 * Hotfix für einen kritischen Fehler, bei dem das Zertifikat für die verschlüsselte Kommunikation (:40405) nicht korrekt erstellt wurde 
-
 
 ## 2.8.1.0 (16.03.2021)
 * Fix für einen Fehler, bei dem ein fehlerhaft erstelltes Zertifikat nicht wieder gelöscht werden konnte
@@ -412,7 +403,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem das Neu laden einer Excel-Datenquelle die Datentypeinstellungen zurückgesetzt hat
 
 
-## 2.7.0.0 (09.02.2021)
+## 2.7.0.0 (09.02.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EoZnpEzOy4FInIVk-lDFuVgBrcMTaidBnaHa-UJhcQ2J_w?e=vwbWpU) 
 * Peakboard Hub List als Datenquelle für [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) hinzugefügt
 * Rework für die MQTT Datenquelle
 * Rework für interaktive [Controls]
@@ -446,14 +437,12 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die Preview auf einem anderen Monitor ausgeführt wurde als der Peakboard Designer
 
   
-## 2.6.2.0 (17.12.2020)
+## 2.6.2.0 (17.12.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ejzogw8wAfFIkKfyq_iKMMEB1CM2pSuQXSpg9MKHOHfNjQ?e=oW3wim)
 * Hotfix für einen Fehler in der XML-Datenquelle, bei dem die Daten nicht geladen wurden
 * Hotfix für einen Fehler, bei dem das Ändern der JSON, XML, CSV Header nicht übernommen wurde
 
-
 ## 2.6.1.0 (30.11.2020)
 * Hotfix für die Runtime-Überwachung
-
 
 ## 2.6.0.0 (23.11.2020)
 * Informationsgrafiken hinzugefügt
@@ -477,14 +466,11 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem das Web-Widget auf der Zeichenfläche nicht angezeigt wurde
 * Fix für einen Fehler, bei dem die XQL Statements für die SAP-Datenquelle fehlerhafte Werte zurückgegeben haben
 
-
-## 2.5.2.0 (26.10.2020)
+## 2.5.2.0 (26.10.2020)[Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Eq7oFzyBV1BBvKCc5yvk0rQBnpL3-11nML-P2XrKp63W7g?e=Klr4Wn)
 * Hotfix für einen Fehler, bei dem das Beschreiben von Listenvariablen nicht mehr möglich war
-
 
 ## 2.5.1.0 (23.10.2020)
 * Hotfix für einen Fehler, bei dem die SAP-Datenquelle nach einem Fehler, leer geöffnet wurde
-
 
 ## 2.5.0.0 (20.10.2020) 
 * Peakboard UWP Preview, sowie Updates für Peakboard 1 Boxen entfernt
@@ -516,27 +502,21 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem das Webpage-Control nicht mit der Authentifizierung "none" genutzt werden konnte
 * Fix für einen Fehler, bei dem die Deinstallation des Peakboard Designers nicht korrekt vollständig ausgeführt wurde
 
-
-## 2.4.5.0 // 1.13.5.0 (01.10.2020)
+## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=ZurMnR)
 * Hotfix für einen Fehler im SQL-Datenquellendialoge
 * Hotfix für einen Fehler bei http-put-Requests
-
 
 ## 2.4.4.1 // 1.13.4.1 (30.09.2020)
 * Hotfix für einen Fehler bei dem Dataflows für eine Excel-Datenquelle nicht mehr ausgeführt werden konnten
 
-
 ## 2.4.3.0 // 1.13.3.0 (29.09.2020)
 * Hotfix für IPv6-Adressen handling
-
 
 ## 2.4.2.0 // 1.13.2.0 (28.09.2020)
 * Hotfix für einen Fehler beim Öffnen der Siemens und Mitsubishi-Datenquelle
 
-
 ## 2.4.1.0 // 1.13.1.0 (25.09.2020)
 * Hotfix für Peakboard Edge Management Dialog
-
 
 ## 2.4.0.2 // 1.13.0.2 (24.09.2020)
 * Mitsubishi Datenquelle hinzugefügt
@@ -617,25 +597,20 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die Transition eines Screens mit der Eigenschaft "none" nicht funktioniert hatte
 * Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
 
-
-## 2.3.4.0 // 1.12.4.0 (19.08.2020)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EraALhDXk0lCifINoOfWVzUBpy6oBuxTOIWbFGoGyHpSXA?e=a1FFgj)
 * Hotfix für einen Speicherfehler
-
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020) 
 * Hotfix für Fehler beim Öffnen und Schließen der S7 Datenquelle
 
-
 ## 2.3.2.0 // 1.12.2.0 (06.08.2020)
 * Hotfix für einen Fehler in der CSV-Datenquelle bei dem die Spaltenbezeichnungen nicht korrekt erfasst wurden
-
 
 ## 2.3.1.0 // 1.12.1.0 (17.07.2020) 
 * Hotfix für einen Fehler bei dem die Daten aus der SQL Datenquelle nicht geladen wurden
 * Hotfix für einen Fehler im PowerBI-Control
 
-
-## 2.3.0.2 // 1.12.0.2 (15.07.2020)
+## 2.3.0.2 // 1.12.0.2 (15.07.2020) 
 * Peakboard Edge hinzugefügt
 * Peakboard Edge als Datenquelle hinzugefügt
 * Peakboard Datenquelle hinzugefügt
@@ -664,20 +639,16 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler bei dem der Broadcast der Peakboard 2 Box nicht korrekt ausgeführt wurde
 * Fix für einen Fehler bei dem das Textticker-Control und das DropDown-Control nicht korrekt ausgeführt wurden
 
-
-## 2.2.4.2 // 1.11.4.2 (25.06.2020)
+## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ehr7t9IhmVdJiio__qmtMUIBP-W5NGPKml40HbMNCx9EDA?e=qFy3H7)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
-
-## 2.2.3.0 // 1.11.3.0 (29.05.2020)
+## 2.2.3.0 // 1.11.3.0 (29.05.2020) 
 * Hotfix für die JSON-Datenquelle
-
 
 ## 2.2.2.1// 1.11.2.1 (26.05.2020)
 * Hotfix für einen Fehler bei dem die Lizenz nicht erkannt wurde
 * Hotfix für einen Fehler bei dem das Ändern des Passworts einer Peakboard 2 Box zu einem Fehler führte
-
 
 ## 2.2.0.1 // 1.11.0.1 (12.05.2020)
 * Peakboard Extension Kit zur Entwicklung eigener Datenquellen implementiert
@@ -713,13 +684,11 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler bei dem ein gesperrtes Element auf der Zeichenfläche die Bearbeitung eines darunterliegenden Elements verhinderte
 * Fix für einen Fehler bei dem die Peakboard 2 Preview nicht auf einem Windows 7 Gerät ausgeführt werden konnte
 
-
-## 2.1.1.0 // 1.10.1.0 (03.04.2020)
+## 2.1.1.0 // 1.10.1.0 (03.04.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Evp-kobC6_NCsm9EOQjZxcgBnqmFDJ2-doAIGrfKQIAaiQ?e=1nheWl)
 * Fix für die Datenverknüpfung von Spalten, welche mit einer Zahl beginnen
 * Fix für einen Fehler bei dem die Navigation per Tabulator-Taste beim Umbenennen von Spalten nicht funktioniert hat
 * Datenverknüpfungsdialog für Tile, ListView, TileView und Live Tiles übernommen
 * Kleinere Fehlerkorrekturen für den Datenverknüpfungsdialog
-
 
 ## 2.1.0.0 // 1.10.0.0 (23.03.2020)
 * SharePoint OneDrive als neue Datenquelle hinzugefügt
@@ -759,8 +728,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
 
-
-## 2.0.0.7 // 1.9.0.7 (10.02.2020)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/ElRTM3tT5SRGi3BBUtFM2ogBg1QT4ZGiOLCHdz8ihwA6JQ?e=Q4rjH7)
 * Unterscheidung in der Versionierung für Peakboard 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
@@ -787,35 +755,27 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler beim Kopieren einer OPC/UA Datenquelle
 * Fix für Skript-Fehlermeldungen im Peakboard Runtime Log
 
-
-## 1.8.7.0 (31.01.2020)
+## 1.8.7.0 (31.01.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
 * Hotfix für einen Excel-Datenquellenfehler, der dazu führte, dass die Excel-Datenquelle die Daten nicht geladen hat, wenn keine Spaltennamen ausgewählt wurden
-
 
 ## 1.8.6.0 (14.01.2019)
 * Hotfix für Excel Spaltennamen
 
-
 ## 1.8.5.1 (13.01.2020)
 * Ein Fehler wurde im Designer behoben, wodurch die OPC UA Datenquelle einen Fehler ausgab, sobald mit dem Server interagiert werden sollte.
-
 
 ## 1.8.4.0 (07.01.2020)
 * Hotfix für ShowDialog Lua Funktionen
 
-
 ## 1.8.3.0 (19.12.2019)
 * Hotfix für die WLAN Konfiguration per Skript
-
 
 ## 1.8.2.0 (18.12.2019)
 * Hotfix für JSON-Datenquelle
 * Hotfix für Excel-Datenquelle
 
-
 ## 1.8.1.0 (17.12.2019)
 * Hotfix für einen Fehler bei dem die Peakboard Runtime für die Preview nicht aktualisiert wurde
-
 
 ## 1.8.0.2 (16.12.2019)
 * Signifikante Verbesserung der Performance bei der Verarbeitung von Skripten (Multithreading)
@@ -835,9 +795,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für die Handhabung von Resourcen über die Peakboard Bridge
 
 
-## 1.7.1.0 (29.10.2019)
+## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Eoikktz-6r5ItM51juqX6fgBA5na2F5KWMY9yzi7b8WHkA?e=ByOAeQ)
 * Hotfix für den Template Designer
-
 
 ## 1.7.0.0 (28.10.2019)
 * Neue Datenquelle: SharePoint Lists
@@ -865,22 +824,17 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für die Zeitdatenquelle
 * Fix für den Colorpicker beim Ändern der Werte im Textfeld
 
-
-## 1.6.4.0 (18.10.2019)
+## 1.6.4.0 (18.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
 * Die Grundeinstellung für das Designer-Theme wurde auf "Light" zurückgesetzt.
-
 
 ## 1.6.3.0 (17.10.2019)
 * Es wurde ein Fehler in der Zeit-Datenquelle behoben, bei dem Zeitzonen manchmal nicht korrekt angewandt worden.
 
-
 ## 1.6.2.0 (19.09.2019)
 * Es wurde ein Fehler der S7-Datenquelle behoben, bei dem mehrere Variablen von Merker-Bausteinen nicht gelesen werden konnten.
 
-
 ## 1.6.1.0 (27.08.2019)
 * Hotfix für den Peakboard Webbrowser 
-
 
 ## 1.6.0.0 (22.08.2019)
 * E-Mail mit dem Peakboard versenden unterstützt jetzt keine Authentifizierung
@@ -902,22 +856,18 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für das Öffnen von Dateien 
 
 
-## 1.5.3.9 (07.08.2019)
+## 1.5.3.9 (07.08.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
 * Ein Problem bei der Verarbeitung von NULL-Daten in der SQL-Server Datenquelle wurde behoben.
-
 
 ## 1.5.3.1 (06.08.2019)
 * Hotfix für den Versionsabgleich zwischen Designer und Runtime, hier wurde ein Fehler gemeldet, obwohl die Versionen auf dem gleichen Stand waren
-
 
 ## 1.5.2.15 (05.08.2019)
 * Fix für Bridge-Resourcen
 * Fix für fehlende DLLs
 
-
 ## 1.5.1.0 (16.07.2019)
 * Ein Fehler wurde behoben, der das Laden von Bilder über die Bridge verhinderte.
-
 
 ## 1.5.0.0 (15.07.2019)
 * Es wurde ein Problem behoben, der zu einem hohen Speicherverbrauch für Dateiressourcen führte.
@@ -932,18 +882,14 @@ footer: 2.15.0.0 (06.04.2022)
 * Ein Fehler wurde behoben, bei dem das Öffnen eines Skripts in einem Dataflow den Speichern-Button in anderen Skripten deaktiviert hat.
 * Ein Fehler wurde behoben, der dazu führte, dass der Designer beim Drag'n-Drop eines Diagramms auf die Leinwand in der chinesischen Version abstürzte.
 
-
 ## 1.4.2.7 (08.07.2019)
 * Hotfix für ein Problem mit Bildelementen, die den Speicher voll laufen ließen
-
 
 ## 1.4.2.2 (05.07.2019)
 * Hotfix zur Handhabung von Bild-Dateien
 
-
 ## 1.4.1.0 (14.06.2019)
 * Hotfix für die Verwendung des Tile-Control
-
 
 ## 1.4.0.0 (11.06.2019)
 * WLan Dialog überarbeitet - Funktion wird nur auf Boxen ab Version 1.4.0.0 unterstützt
@@ -960,9 +906,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix im Skript-Editor für globale Funktionen 
 
 
-## 1.3.1.0 (29.05.2019)
+## 1.3.1.0 (29.05.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
 * Hotfix für das Speichern von Farben bei Kreis und Donut-Diagrammen
-
 
 ## 1.3.0.0 (21.05.2019)
 * OPC UA: Fix von Browsing-Problemen bei absoluten Node IDs
@@ -998,10 +943,8 @@ footer: 2.15.0.0 (06.04.2022)
 ## 1.2.2.0 (23.04.2019)
 * Hotfix für die Installation der Peakboard Runtime
 
-
 ## 1.2.1.1 (17.04.2019)
 * Hotfix für den Reload einer S7 Datenquelle in der Preview
-
 
 ## 1.2.0.1 (16.04.2019)
 * Regel-Editor für die Controls Text, Linear-Gauge und Circular-Gauge
@@ -1031,13 +974,12 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für das umbennenen von Skripten 
 
 
+
 ## 1.1.0.46 (18.03.2019)
 * Hotfix für das Threshold Diagramm des Advanced Charts
 
-
 ## 1.1.0.1 (11.03.2019)
 * Fehlende deutsche Übersetzungen hinzugefügt
-
 
 ## 1.1.0.0 (11.03.2019)
 
@@ -1062,16 +1004,13 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für JSON Push
 * Fix für OPC UA
 
-
 ## 1.0.35.53 (12.02.2019)
 
 * Hotfix für den Umgang mit OPC UA-Server-Zertifikaten
 
-
 ## 1.0.35.50 (12.02.2019)
 
 * Hotfix für falsche Übersetzungen
-
 
 ## 1.0.35.6 (05.02.2019)
 
@@ -1093,11 +1032,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für den Deploy auf mehrere Boxen
 * Fix für Google Docs Control
 
-
 ## 1.0.34.7 (18.01.2019)
 
 * Hotfix für die Validierung der Daten im Dialog der OPC UA Datenquelle
-
 
 ## 1.0.34.3 (14.01.2019)
 
@@ -1108,11 +1045,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für das Verschieben mehrere Objekte
 * Fix für die Zugriffsrechte auf Microsoft One Drive
 
-
 ## 1.0.33.7 (19.12.2018)
 
 * OPC UA Datenquelle: Der Umgang mit Serverzertifikaten wurde überarbeitet und ist jetzt spezifikationskonform
-
 
 ## 1.0.33.0 (17.12.2018)
 
@@ -1122,18 +1057,15 @@ footer: 2.15.0.0 (06.04.2022)
 * Für das Löschen von Resourcen, Datenquellen und Ordnern wurde ein Bestätigungsdialog eingefügt
 * Fix für den Linear Gauge
 
-
 ## 1.0.32.1 (03.12.2018)
 
 * Fix für den Umgang mit Listen in der JSON-Datenquelle
 * Fix für die abas-Authentifizierung in der JSON-Datenquelle
 
-
 ## 1.0.32.0 (28.11.2018)
 
 * Der Bridge-Dialog wurde überarbeitet
 * Der Zeitserver wird jetzt global für die Visualisierung gesetzt
-
 
 ## 1.0.31.1 (22.11.2018)
 
@@ -1152,16 +1084,13 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für die visible Eigenschaft im Zusammenhang mit Shadow Frames
 * Fix für für die gecachten Screenshots, die den Designer zum Absturz bringen konnten
 
-
 ## 1.0.30.2 (14.11.2018)
 
 * Hotfix für das Updaten von PDF Dateien
 
-
 ## 1.0.30.1 (07.11.2018)
 
 * Hotfix für das automatische Gruppieren aus der Zwischenablage eingefügter Controls
-
 
 ## 1.0.30.0 (05.11.2018)
 
@@ -1169,16 +1098,13 @@ footer: 2.15.0.0 (06.04.2022)
 * Tablegrid Zellen padding and margin kann nun angepasst werden
 * Screens können nun mit Strg + Up / Down verschoben werden
 
-
 ## 1.0.29.3 (31.10.2018)
 
 * Hotfix für das Zoomen und Scrollen in WebViews
 
-
 ## 1.0.29.1 (30.10.2018)
 
 * Hotfix für das Ändern des Admin-Passworts
-
 
 ## 1.0.29.0 (29.10.2018)
 
@@ -1190,43 +1116,35 @@ footer: 2.15.0.0 (06.04.2022)
 * Grafische Elemente können nun gruppiert werden
 * Bei Auswahl mehrerer grafischer Elemente können nun Eigenschaften für identische Elemente manipuliert werden
 
-
 ## 1.0.28.23 (22.10.2018)
 
 * Der Dialog zum Lookup Column Step der Dataflows zeigt jetzt die korrekte aktuelle Konfiguration an
-
 
 ## 1.0.28.22 (19.10.2018)
 
 * Ein Bug bei dem Bridge-Resource nicht mehr geladen wurden, wenn die Datei geöffnet war, wurde behoben
 
-
 ## 1.0.28.15 (14.10.2018)
 
 * Der Hintergrund für den Titel des Tabellen-Elements hat jetzt die korrekte Farbe
-
 
 ## 1.0.28.9 (11.10.2018)
 
 * Hotfix für einen Fehler, bei dem Charts aus einer Excel-Bridge-Resource nicht geladen wurden
 * Ein Bug im Seitenwechsel des neuen PDF-Reader wurde behoben.
 
-
 ## 1.0.28.5 (09.10.2018)
 
 * Fix für die Buttons beim Hinzufügen von IPs/ Domains zu OPC UA Zertifikaten
 * Fix für Validierung von OPC UA Namespaces
 
-
 ## 1.0.28.4 (27.09.2018)
 
 * Fix für einen Absturz beim Laden bestimmter Visualisierungen
 
-
 ## 1.0.28.1 (25.09.2018)
 
 * Hotfix für das Editieren statischer Listen
-
 
 ## 1.0.28.0 (24.09.2018)
 
@@ -1237,23 +1155,19 @@ footer: 2.15.0.0 (06.04.2022)
 * Fixes für Dataflows
 * Fix für SAP Nummer Spalten
 
-
 ## 1.0.27.27 (20.09.2018)
 
 * Die Standardsprache für die Spracherkennung wurde angepasst.
 * Ein Fehler in der Rückwärtskompatibilität der Spracherkennung wurde behoben
-
 
 ## 1.0.27.17 (18.09.2018)
 
 * Fix für ein Problem, bei dem die Spracherkennung beim Deployment erst nach einem Neustart der Box startete
 * Fix eines Fehlers, welcher bei der Installation der Runtime auf Windows Server 2016 auftrat
 
-
 ## 1.0.27.10 (14.09.2018)
 
 * Hotfix für PDF Control
-
 
 ## 1.0.27.0 (11.09.2018)
 
@@ -1268,11 +1182,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Weitere Sprachen für Zeitdatenquellen hinzugefügt
 * Fix für Titel-/ Untertitel Binding
 
-
 ## 1.0.26.9 (07.09.2018)
 
 * Hotfix für die JSON-Datenquelle
-
 
 ## 1.0.26.2 (28.08.2018)
 
@@ -1285,11 +1197,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für Absturz des Designers beim Öffnen falscher Dateien
 * Fix für das Laden von SAP Vorschaudaten im Designer
 
-
 ## 1.0.25.1 (22.08.2018)
 
 * Hotfix für Rectangle Controls beim Update von 1.0.24.5
-
 
 ## 1.0.25.0 (21.08.2018)
 
@@ -1304,11 +1214,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für manche 4k Displays
 * Fixes für Lua Datum Snippets
 
-
 ## 1.0.24.5 (06.08.2018)
 
 * Hotfix für die Feed-Datenquelle
-
 
 ## 1.0.24.1 (01.08.2018)
 
@@ -1353,12 +1261,10 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für das Umbenennen von Timer Scripts
 * Fix für Power BI Tile Control
 
-
 ## 1.0.23.10 (13.07.2018)
 
 * Fix für SAP im Preview
 * Fix für Ressourcen mit Authentifizierung
-
 
 ## 1.0.23.3 (09.07.2018)
 
@@ -1377,7 +1283,6 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix in der Slack-Datenquelle
 * Fix dass der Titel der Vorlagen nicht angezeigt wurde
 
-
 ## 1.0.22.0 (18.06.2018)
 
 * Überarbeitete Datenquellendialoge
@@ -1393,11 +1298,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für Fehler beim Hinzufügen einer Spalte zu einer Lua-Script-Tabelle
 * Fix für CSV-Datenquellenspalten
 
-
 ## 1.0.21.2 (13.06.2018)
 
 * Fix für Datenquellennamen
-
 
 ## 1.0.21.1 (12.06.2018)
 
@@ -1419,20 +1322,17 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für KeyInput-Event
 * Fix für Absturz der Laufzeit, wenn Text des Textfeldes auf null gesetzt wird
 
-
 ## 1.0.20.9 (30.04.2018)
 
 * Scroll- und Zoom Eigenschaft wurde dem Webview Control zugefügt
 * Lua Runtime Eigenschaft Screen Scale wurde hinzugefügt
 * Fix für S7 benutzerdefinierte Variablen
 
-
 ## 1.0.20.6 (24.04.2018)
 
 * Das manuelle Update wurde umgebaut und erlaubt nun auch das Updaten mehrerer Boxen
 * Timer Scripte können nun deaktiviert werden
 * Fix für die Formatierung einer einzeiligen Tabelle
-
 
 ## 1.0.19.7 (17.04.2018)
 
@@ -1471,12 +1371,10 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für die Mail Datenquelle
 * Fix für die Script Validierung
 
-
 ## 1.0.17.0 (16.02.2018)
 
 * Fix beim Öffnen einer pbmx Datei, für den Zugriff auf Templates und globale Scripte
 * Fix für den Select File Dialog
-
 
 ## 1.0.16.0 (13.02.2018)
 
@@ -1485,34 +1383,28 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für das Kopieren von Controls mit nicht existenten Schriftarten
 * Fixes für Peakboard IO Tabellen
 
-
 ## 1.0.15.0 (09.02.2018)
 
 * Verbesserungen für die Peakboard-Bridge
 * Verbesserungen für die OPC UA Datenquelle
 * Ribon Bar Icons wurden ersetzt
 
-
 ## 1.0.14.4 (02.02.2018)
 
 * Verbesserungen für die Peakboard-Bridge
 
-
 ## 1.0.13.4 (30.01.2018)
 
 * Fix für Twitter/ Instagram mit Bilder
-
 
 ## 1.0.13.0 (30.01.2018)
 
 * OPC UA unterstützt nun Methodenaufrufe
 * Peakboard-Bridge Stabilität Optimierungen
 
-
 ## 1.0.12.9 (22.01.2018)
 
 * Interne Änderungen ohne Auswirkungen
-
 
 ## 1.0.12.0 (19.01.2018)
 
@@ -1524,11 +1416,9 @@ footer: 2.15.0.0 (06.04.2022)
 * S7 unterstützt nun String-Variablen
 * Textticker Fixes und Erweiterungen
 
-
 ## 1.0.11.6 (16.01.2018)
 
 * OPC UA Datenquelle wurde erweitert
-
 
 ## 1.0.10.0 (12.01.2018)
 
@@ -1544,7 +1434,6 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für SAP Query Abfragen ohne Rückgabewerte
 * Fixes für S7 Datenquelle
 
-
 ## 1.0.9.0 (22.12.2017)
 
 * Neues Control: Live Tiles
@@ -1553,22 +1442,18 @@ footer: 2.15.0.0 (06.04.2022)
 * Über Strg + L kann in der Runtime das aktuelle Log angezeigt werden
 * Fixes für Map Control, Image Control, Websnippet Control, Animierte Gifs
 
-
 ## 1.0.8.17 (15.12.2017)
 
 * Fix für das Ändern von Schriftarten über einen Lua-Script
 
-
 ## 1.0.8.7 (27.11.2017)
 * Fix für lokale PDF Dateien
-
 
 ## 1.0.8.4 (23.11.2017)
 
 * Globales Event Key Down wurde hinzugefügt
 * Globales Event Key Input wurde hinzugefügt
 * Fix Änderungen in Ressourcen während der Laufzeit
-
 
 ## 1.0.8.0 (23.11.2017)
 
@@ -1580,13 +1465,11 @@ footer: 2.15.0.0 (06.04.2022)
 * Lua Snippets wurden um Waiting Screen erweitert
 * SAP über Bridge wird nicht mehr unterstützt
 
-
 ## 1.0.7.3 (08.11.2017)
 
 * Zwei neue Templates wurden hinzugefügt
 * Fix für tablejoin Lua Funktionen
 * Fix für math.tonumber() und string.tostring() Lua Funktionen
-
 
 ## 1.0.7.0 (06.11.2017)
 
@@ -1596,13 +1479,11 @@ footer: 2.15.0.0 (06.04.2022)
 * Tabellenspalten-Änderungen lassen sich nun zurücksetzen
 * Fix für das Ändern des Passworts einer Box vom Designer
 
-
 ## 1.0.6.5 (26.10.2017)
 
 * Settings- und Variablendialoge wurden überarbeitet
 * Fixes für Gauges bei gleichem Maximal, Minimal und aktuellem Wert
 * Fixes für Intellisense
-
 
 ## 1.0.6.3 (19.10.2017)
 
@@ -1612,7 +1493,6 @@ footer: 2.15.0.0 (06.04.2022)
 * Syntaxeditor wurde überarbeitet
 * Neue Codesnippets wurden hinzugefügt
 * Fix für Max, Min und Sum Function
-
 
 ## 1.0.5.0 (06.10.2017)
 
@@ -1624,7 +1504,6 @@ footer: 2.15.0.0 (06.04.2022)
 * Änderungen von IP Adressen von Peakboard Boxen werden automatisch aktualisiert
 * Fix für Excel mit sprachenabhängigen Kommazahlen
 * Fixes für Script Validierung und Script Editor
-
 
 ## 1.0.4.0 (29.09.2017)
 
@@ -1640,12 +1519,10 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für Globale Lua Funktionen
 * Fix für den Validator in Globalen Lua Scripten
 
-
 ## 1.0.3.1 (22.09.2017)
 
 * Script Editor Dialog wurde überarbeitet
 * Versionshistorie wurde im Aboutdialog verlinkt
-
 
 ## 1.0.3.0 (22.09.2017)
 
@@ -1659,11 +1536,9 @@ footer: 2.15.0.0 (06.04.2022)
 * Fixes für Excel Datenquelle
 * Fix für Bindings von Listen
 
-
 ## 1.0.2.1 (14.09.2017)
 
 * Fix für Webpage Table Datenquelle ohne Authentifizierung
-
 
 ## 1.0.2.0 (05.09.2017)
 
@@ -1682,7 +1557,6 @@ footer: 2.15.0.0 (06.04.2022)
 * Überarbeitung einiger Dialoge
 * .NET Core Runtime V1.0 wurde auf V1.1 erhöht
 
-
 ## 1.0.1.2 (21.08.2017)
 
 * Siemens S7 Datenquelle
@@ -1695,24 +1569,20 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für SQLSever mit leeren Spaltennamen
 * Fix für erstellen neuer Pakete ohne Admin Rechte
 
-
 ## 1.0.0.486 (31.07.2017)
 
 * Fix für die SQL Datenquelle bei double Werten
 * Fix damit ein neues Steuerelement sofort an vorderster Position zu sehen ist
 * Fix bei der Erkennung, ob sich in der Visualisierung etwas geändert hat
 
-
 ## 1.0.0.483 (28.07.2017)
 
 * Fixe Tabellenspalten können nur noch mit validen Namen bezeichnet werden
 * Fix für Probleme beim Verbindungsabbruch, während dem veröffentlichen eines Peakboards
 
-
 ## 1.0.0.482 (25.07.2017)
 
 * Fix für das Selektionsfeld bei fixierten Elementen
-
 
 ## 1.0.0.481 (24.07.2017)
 
@@ -1724,7 +1594,6 @@ footer: 2.15.0.0 (06.04.2022)
 * Das Selektionsfeld wurde umgestaltet
 * Screens können nicht mehr deaktiviert werden
 
-
 ## 1.0.0.475 (21.07.2017)
 
 * Neue Interaktive Steuerelemente (Date Picker, Time Picker)
@@ -1733,7 +1602,6 @@ footer: 2.15.0.0 (06.04.2022)
 * Über Lua kann nun mit RemoveAt ein Element an einem definierten Index entfernt werden
 * Fix bei den Größen und Positionen beim Anzeigen von Fenstern im Peakboard Designer
 * Änderungen der Icons einiger Steuerelemente
-
 
 ## 1.0.0.469 (18.07.2017)
 
