@@ -12,9 +12,9 @@ footer: 2.15.0.0 (06.04.2022)
 ---
 ## 2.15.0.0 (06.04.2022) [Download](https://peakboard.rocks/download-version-history)
 * **General**
-* Loading screen for Runtime and Peakboard Designer implemented
-* Runtime log messages improved
-* Runtime allows imitation of dataload based on preview data
+* Loading screen for Peakboard Runtime and Peakboard Designer implemented
+* Peakboard Runtime log messages improved
+* Peakboard Runtime allows imitation of dataload based on preview data
 * Fix for a bug where the Update button was grayed out if the software version of the Peakboard Box was too old and it was therefore not possible to perform an update
 * Fix for a bug where the info dialog (ctrl+i) on the Peakboard Box displayed the wrong version
 * Fix for a bug that occurred when the font size in the font manager was set to zero or smaller
@@ -58,7 +58,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix for a bug where two instances were created when creating a timer script
 * Fix for a bug where a sound output was interrupted if you changed the color and the sound command was not at the end of the script
 
-* **Administration
+* **Administration**
 * Optical adjustment of two text fields in the Peakboard Box Settings
 * Fix for a bug where the Peakboard Box license was not valid due to the missing Peakboard Box ID
 * Fix for a bug where it was not possible to delete a visualization from a Peakboard Box

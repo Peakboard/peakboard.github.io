@@ -12,9 +12,9 @@ footer: 2.15.0.0 (06.04.2022)
 ---
 ## 2.15.0.0 (06.04.2022) [Download](https://peakboard.rocks/download-version-history)
 * **Allgemein**
-* Ladebildschirm für Runtime und Peakboard Designer implementiert
-* Runtime Log Nachrichten verbessert
-* Runtime erlaubt das Imitieren von Datensätzen basierend auf den Vorschaudaten
+* Ladebildschirm für Peakboard Runtime und Peakboard Designer implementiert
+* Peakboard Runtime Log Nachrichten verbessert
+* Peakboard Runtime erlaubt das Imitieren von Datensätzen basierend auf den Vorschaudaten
 * Fix für einen Fehler, bei dem der Update Button ausgegraut wurde, wenn die Software-Version der Peakboard Box zu alt war und es somit nicht möglich war ein Update vorzunehmen
 * Fix für einen Fehler, bei dem der Info-Dialog (strg+i) auf der Peakboard Box, die falsche Versionierung angezeigt hat
 * Fix für einen Fehler, der auftrat, wenn die Schriftgröße im Schriftarten Manager auf null oder kleiner eingestellt wurde
