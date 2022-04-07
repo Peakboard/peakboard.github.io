@@ -16,14 +16,13 @@ footer: 2.15.0.0 (06.04.2022)
 * Peakboard Runtime Log Nachrichten verbessert
 * Peakboard Runtime erlaubt das Imitieren von Datensätzen basierend auf den Vorschaudaten
 * Fix für einen Fehler, bei dem der Update Button ausgegraut wurde, wenn die Software-Version der Peakboard Box zu alt war und es somit nicht möglich war ein Update vorzunehmen
-* Fix für einen Fehler, bei dem der Info-Dialog (strg+i) auf der Peakboard Box, die falsche Versionierung angezeigt hat
+* Fix für einen Fehler, bei dem der Info-Dialog (strg+i) auf der Peakboard Box, die falsche Versionierung angezeigt hatte
 * Fix für einen Fehler, der auftrat, wenn die Schriftgröße im Schriftarten Manager auf null oder kleiner eingestellt wurde
 * Fix für einen Fehler, bei dem die URL einer Webressource beim Kopieren zwischen zwei Projekten verloren ging
 * Fix für einen Fehler, bei dem das Klicken des Hochladen Buttons ohne verbundene Peakboard Box eine Fehlermeldung generierte
 * Fix für einen Fehler, bei dem im Peakboard Designer Setup Build Version "0" angezeigt wurde
 
 * **Datenquellen**
-* Neue Datenquelle [Modbus](/data_sources/de-modbus.html) hinzugefügt
 * [MQTT](/data_sources/de-mqtt-broker.html) - Dynamisches Abonnement hinzugefügt
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Verbesserungen
 * [Reload Flows](/misc/de-reloadflows.html) - Liste der verfügbaren Datenquellen auf alphabetisch angepasst
@@ -31,15 +30,15 @@ footer: 2.15.0.0 (06.04.2022)
 * [XQL](/data_sources/SAP/de-xql.html) - Option zum Exportieren von Tabellenparametern in "EXECUTE FUNCTION" hinzugefügt
 * Fix für mehrere Fehler und generelle Verbesserungen in [Reload Flows](/misc/de-reloadflows.html)
 * Fix für einen Fehler, bei dem eine Fehlermeldung generiert wurde wenn die Nachlade Art einer Datenquelle auf [Beim Start] eingestellt war
-* Fix für einen Fehler, bei dem SAP, Oracle und ODBC-Datenquellen einen Fehler statt einer leeren Tabelle liefern, wenn keine Daten vorhanden sind
+* Fix für einen Fehler, bei dem SAP, Oracle und ODBC-Datenquellen einen Fehler statt einer leeren Tabelle lieferten, wenn keine Daten vorhanden waren
 
 * **Controls**
 * Fehlerbehaftete Gauge Controls überarbeitet
 * Optische Anpassungen bei [Dropdown-Liste](/controls/Input/de-dropdown.html) und [Textfeld](/controls/Input/de-textbox.html)
 * [Checkbox](/controls/Input/de-checkbox.html) - Toggled Event ergänzt
 * [Drop down](/controls/Input/de-dropdown.html) - Benamung des Eigenschaften-Fensters angepasst
-* Fix für einen Fehler, bei dem Änderungen einer Liste im laufenden Betrieb  von [Bedingter Formatierung](/controls/de-cf.html)zu einem schwerwiegenden Fehler führten
-* Fix für einen Fehler, bei dem ein Auswahl-Dialog gezeigt wurde, wenn man ein [PDF](/controls/Document/de-pdf.html) per Drag and Drop einfügt
+* Fix für einen Fehler, bei dem Änderungen einer Liste im laufenden Betrieb  von [Bedingter Formatierung](/controls/de-cf.html) zu einem schwerwiegenden Fehler führten
+* Fix für einen Fehler, bei dem ein Auswahl-Dialog gezeigt wurde, wenn man ein [PDF](/controls/Document/de-pdf.html) per Drag and Drop eingefügt hat
 * Fix für einen Fehler, bei dem Webressourcen nicht direkt über den [PDF](/controls/Document/de-pdf.html) Viewer eingefügt werden konnten
 * Fix für einen Fehler, bei dem [Kippschalter](/controls/Input/de-toggleswitch.html) und [Checkbox](/controls/Input/de-checkbox.html) den Skript nicht auslösten, obwohl die angebundene Variable geändert wurde
 
@@ -50,13 +49,13 @@ footer: 2.15.0.0 (06.04.2022)
 * [Skript-Editor](/scripting/de-script-editor.html) - Speichern-Abfrage eingefügt wenn das Fenster ohne vorher zu speichern geschlossen wird oder leere Blöcke enthält
 * Neue Zeilen können jetzt an jeder Stelle in Variablen Listen eingefügt werden, anstatt wie bisher nur am Ende der Liste
 * Fix für einen Fehler, bei dem in [Building Blocks](/scripting/de-building-blocks.html) bei Dataflows Item- und Index-Werte fehlten
-* Fix für einen Fehler, bei dem Dataflow spezifische Blöcke in [Building Blocks](/scripting/de-building-blocks.html) nicht angezeigt wurden, wenn der Dataflow noch nicht existiert
+* Fix für einen Fehler, bei dem Dataflow spezifische Blöcke in [Building Blocks](/scripting/de-building-blocks.html) nicht angezeigt wurden, wenn der Dataflow noch nicht existiert hat
 * Fix für einen Fehler, bei dem der Speichern Button in [Building Blocks](/scripting/de-building-blocks.html) nicht ausgegraut wurde nachdem er benutzt wurde
 * Fix für einen Fehler, bei dem nach der Benutzung des "Speichern und Schließen" Buttons in [Building Blocks](/scripting/de-building-blocks.html) trotzdem der Speichern Dialog geöffnet wurde
 * Fix für einen Fehler, bei dem die Zeit Datenquelle im [Skript-Editor](/scripting/de-script-editor.html) gefehlt hat
 * Fix für einen Fehler, bei dem Siemens S7 Datenquellen nicht per Skript neu geladen werden konnten
 * Fix für einen Fehler, bei dem beim Erstellen eines Timer-Skripts zwei Instanzen erstellt wurden
-* Fix für einen Fehler, bei dem ein Sound Output unterbrochen wurde, wenn man die Farbe ebenfalls geändert hat und der Sound-Befehl nicht am Ende des Skripts stand
+* Fix für einen Fehler, bei dem ein Sound Output unterbrochen wurde, wenn man die Farbe ebenfalls geändert hatte und der Sound-Befehl nicht am Ende des Skripts stand
 
 * **Administration**
 * Optische Anpassung zweier Textfelder in den Peakboard Box Settings

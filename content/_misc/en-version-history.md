@@ -16,53 +16,52 @@ footer: 2.15.0.0 (06.04.2022)
 * Peakboard Runtime log messages improved
 * Peakboard Runtime allows imitation of dataload based on preview data
 * Fix for a bug where the Update button was grayed out if the software version of the Peakboard Box was too old and it was therefore not possible to perform an update
-* Fix for a bug where the info dialog (ctrl+i) on the Peakboard Box displayed the wrong version
+* Fix for a bug where the info dialog (ctrl+i) on the Peakboard Box had displayed the wrong version
 * Fix for a bug that occurred when the font size in the font manager was set to zero or smaller
-* Fix for a bug where the URL of a web resource was lost when copying between two projects
-* Fix for a bug where clicking the Upload button without a Peakboard box connected generated an error message
-* Fix for a bug where Peakboard Designer Setup showed build version "0".
+* Fix for a bug where the URL of a web resource was lost when it was copied between two projects
+* Fix for a bug where clicking the Upload button without a Peakboard Box connected was generating an error message
+* Fix for a bug where the Peakboard Designer setup was showing build version [0].
 
 * **Data Sources**
-* Added new data source [Modbus](/data_sources/en-modbus.html)
 * [MQTT](/data_sources/en-mqtt-broker.html) - dynamic subscription mode added
-* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Improvements
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - improvements
 * [Reload Flows](/misc/en-reloadflows.html) - list of available data sources updated to alphabetical order
-* [Sharepoint](/data_sources/en-sharepointlist.html) - Added new section [Shared with me] in the file selector to include files whose parent folder you don't have access to
-* [XQL](/data_sources/SAP/en-xql.html) - added option to export table parameters in "EXECUTE FUNCTION"
+* [Sharepoint](/data_sources/en-sharepointlist.html) - added new section [Shared with me] in the file selector to include files whose parent folder you don't have access to
+* [XQL](/data_sources/SAP/en-xql.html) - added option to export table parameters in [EXECUTE FUNCTION]
 * Fix for several bugs and general improvements in [Reload Flows](/misc/en-reloadflows.html)
 * Fix for a bug where an error message was generated when the reload state of a data source was set to [On Startup].
-* Fix for a bug where SAP, Oracle and ODBC data sources return an error instead of an empty table when no data is present
+* Fix for a bug where SAP, Oracle and ODBC data sources were returning an error instead of an empty table when no data was present
 
 * **Controls**
 * Buggy gauge controls reworked
 * Optical adjustments at [Dropdown-List](/controls/Input/en-dropdown.html) and [Text Box](/controls/Input/en-textbox.html)
 * [Checkbox](/controls/Input/en-checkbox.html) - toggled event added
-* [Drop down](/controls/Input/en-dropdown.html) - Naming of properties window adjusted
-* Fix for a bug where changes to a list while [Conditional formatting](/controls/en-cf.html) was running resulted in a fatal error
+* [Drop down](/controls/Input/en-dropdown.html) - naming of properties window adjusted
+* Fix for a bug where changes to a list while [Conditional formatting](/controls/en-cf.html) was running was resulting in a fatal error
 * Fix for a bug where a selection dialog was shown when dragging and dropping a [PDF](/controls/Document/en-pdf.html)
 * Fix for a bug where web resources could not be inserted directly via the [PDF](/controls/Document/en-pdf.html) viewer
-* Fix for a bug where [Toggle Switch](/controls/Input/en-toggleswitch.html) and [Checkbox](/controls/Input/en-checkbox.html) did not trigger the script even though the bound variable was changed
+* Fix for a bug where [Toggle Switch](/controls/Input/en-toggleswitch.html) and [Checkbox](/controls/Input/en-checkbox.html) were not triggering the script even though the bound variable was changed
 
 * **Scripting**
 * [Building Blocks](/scripting/en-building-blocks.html) - [Get row number] block added to list/tile view templates
 * [Building Blocks](/scripting/en-building-blocks.html) - removed unused and outdated blocks
 * [Script Editor](/scripting/en-script-editor.html) - debugger removed
-* [Script-Editor](/scripting/en-script-editor.html) - added save request if the window is closed without saving first or contains empty blocks
+* [Script Editor](/scripting/en-script-editor.html) - added save request if the window is closed without saving first or contains empty blocks
 * New lines can now be inserted at any position in variable lists, instead of only at the end of the list as before
 * Fix for a bug where in [Building Blocks](/scripting/en-building-blocks.html) item and index values were missing in dataflows
-* Fix for a bug where dataflow specific blocks in [Building Blocks](/scripting/en-building-blocks.html) were not displayed if the dataflow did not exist yet
+* Fix for a bug where dataflow specific blocks in [Building Blocks](/scripting/en-building-blocks.html) were not displayed if the dataflow was not existing yet
 * Fix for a bug where the save button in [Building Blocks](/scripting/en-building-blocks.html) was not grayed out after it was used
 * Fix for a bug where the save dialog was opened anyway after using the "Save and Close" button in [Building Blocks](/scripting/en-building-blocks.html)
-* Fix for a bug where the time data source was missing in [Script Editor](/scripting/en-script-editor.html)
-* Fix for a bug where Siemens S7 data sources could not be reloaded via script
+* Fix for a bug where the time data source was missing in the [Script Editor](/scripting/en-script-editor.html)
+* Fix for a bug where Siemens S7 data sources were not reloadable via script
 * Fix for a bug where two instances were created when creating a timer script
-* Fix for a bug where a sound output was interrupted if you changed the color and the sound command was not at the end of the script
+* Fix for a bug where a sound output was interrupted if the color was changed and the sound command was not at the end of the script
 
 * **Administration**
-* Optical adjustment of two text fields in the Peakboard Box Settings
+* Optical adjustment of two text fields in the Peakboard Box settings
 * Fix for a bug where the Peakboard Box license was not valid due to the missing Peakboard Box ID
 * Fix for a bug where it was not possible to delete a visualization from a Peakboard Box
-* Fix for a bug where it was possible to access the entries in the log tab of the Peakboard Box Settings despite missing privileges and a corresponding error message
+* Fix for a bug where it was possible to access the entries in the log tab of the Peakboard Box settings despite missing privileges and a corresponding error message
 * Fix for a bug where the button for encrypting a Peakboard Box in the Peakboard Box Settings was not grayed out even though the Peakboard Box was not connected
 
 * **Peakboard Hub**
