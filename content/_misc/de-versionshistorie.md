@@ -23,7 +23,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem im Peakboard Designer Setup Build Version "0" angezeigt wurde
 
 * **Datenquellen**
-* Neue Datenquelle [Modbus](/data_sources/modbus.html) hinzugefügt
+* Neue Datenquelle [Modbus](/data_sources/de-modbus.html) hinzugefügt
 * [MQTT](/data_sources/de-mqtt-broker.html) - Dynamisches Abonnement hinzugefügt
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Verbesserungen
 * [Reload Flows](/misc/de-reloadflows.html) - Liste der verfügbaren Datenquellen auf alphabetisch angepasst
