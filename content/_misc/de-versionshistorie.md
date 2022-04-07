@@ -11,7 +11,7 @@ redirect_from:
 footer: 2.15.0.0 (06.04.2022)
 ---
 ## 2.15.0.0 (06.04.2022) [Download](https://peakboard.rocks/download-version-history)
-###Allgemein
+* **Allgemein**
 * Ladebildschirm für Runtime und Peakboard Designer implementiert
 * Runtime Log Nachrichten verbessert
 * Runtime erlaubt das Imitieren von Datensätzen basierend auf den Vorschaudaten
@@ -21,7 +21,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die URL einer Webressource beim Kopieren zwischen zwei Projekten verloren ging
 * Fix für einen Fehler, bei dem das Klicken des Hochladen Buttons ohne verbundene Peakboard Box eine Fehlermeldung generierte
 * Fix für einen Fehler, bei dem im Peakboard Designer Setup Build Version "0" angezeigt wurde
-###Datenquellen
+
+* **Datenquellen**
 * Neue Datenquelle [Modbus](/data_sources/modbus.html) hinzugefügt
 * [MQTT](/data_sources/de-mqtt-broker.html) - Dynamisches Abonnement hinzugefügt
 * [OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Verbesserungen
@@ -31,7 +32,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für mehrere Fehler und generelle Verbesserungen in [Reload Flows](/misc/de-reloadflows.html)
 * Fix für einen Fehler, bei dem eine Fehlermeldung generiert wurde wenn die Nachlade Art einer Datenquelle auf [Beim Start] eingestellt war
 * Fix für einen Fehler, bei dem SAP, Oracle und ODBC-Datenquellen einen Fehler statt einer leeren Tabelle liefern, wenn keine Daten vorhanden sind
-###Controls
+
+* **Controls**
 * Fehlerbehaftete Gauge Controls überarbeitet
 * Optische Anpassungen bei [Dropdown-Liste](/controls/Input/de-dropdown.html) und [Textfeld](/controls/Input/de-textbox.html)
 * [Checkbox](/controls/Input/de-checkbox.html) - Toggled Event ergänzt
@@ -40,7 +42,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem ein Auswahl-Dialog gezeigt wurde, wenn man ein [PDF](/controls/Document/de-pdf.html) per Drag and Drop einfügt
 * Fix für einen Fehler, bei dem Webressourcen nicht direkt über den [PDF](/controls/Document/de-pdf.html) Viewer eingefügt werden konnten
 * Fix für einen Fehler, bei dem [Kippschalter](/controls/Input/de-toggleswitch.html) und [Checkbox](/controls/Input/de-checkbox.html) den Skript nicht auslösten, obwohl die angebundene Variable geändert wurde
-###Scripting
+
+* **Scripting**
 * [Building Blocks](/scripting/de-building-blocks.html) - [Get row number] Block in List-/Tile-View Templates hinzugefügt
 * [Building Blocks](/scripting/de-building-blocks.html) - Ungenutzte und veraltete Blöcke entfernt
 * [Skript-Editor](/scripting/de-script-editor.html) - Debugger wurde entfernt
@@ -54,13 +57,15 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem Siemens S7 Datenquellen nicht per Skript neu geladen werden konnten
 * Fix für einen Fehler, bei dem beim Erstellen eines Timer-Skripts zwei Instanzen erstellt wurden
 * Fix für einen Fehler, bei dem ein Sound Output unterbrochen wurde, wenn man die Farbe ebenfalls geändert hat und der Sound-Befehl nicht am Ende des Skripts stand
-###Administration
+
+* **Administration**
 * Optische Anpassung zweier Textfelder in den Peakboard Box Settings
 * Fix für einen Fehler, bei dem die Peakboard Box Lizenz aufgrund der fehlenden Peakboard Box ID nicht gültig war
 * Fix für einen Fehler, bei dem es nicht möglich war, eine Visualisierung von einer Peakboard Box zu löschen
 * Fix für einen Fehler, bei dem man trotz fehlender Rechte und entsprechender Fehlermeldung Zugriff auf die Einträge im Log-Reiter der Peakboard Box Settings hatte
 * Fix für einen Fehler, bei dem der Button für die Verschlüsselung einer Peakboard Box in den Peakboard Box Settings nicht ausgegraut wurde, obwohl diese nicht verbunden war
-###Peakboard Hub
+
+* **Peakboard Hub**
 * Beispielwert für [setentry] auf 1 angepasst
 
 ## 2.14.2.1 (17.02.2022)
