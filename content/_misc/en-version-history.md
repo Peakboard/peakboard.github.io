@@ -36,12 +36,12 @@ footer: 2.15.0.0 (06.04.2022)
 * **Controls**
 * Buggy gauge controls reworked
 * Optical adjustments at [Dropdown-List](/controls/Input/en-dropdown.html) and [Text Box](/controls/Input/en-textbox.html)
-* [Checkbox](/controls/input/en-checkbox.html) - toggled event added
+* [Checkbox](/controls/Input/en-checkbox.html) - toggled event added
 * [Drop down](/controls/Input/en-dropdown.html) - Naming of properties window adjusted
 * Fix for a bug where changes to a list while [Conditional formatting](/controls/en-cf.html) was running resulted in a fatal error
 * Fix for a bug where a selection dialog was shown when dragging and dropping a [PDF](/controls/Document/en-pdf.html)
-* Fix for a bug where web resources could not be inserted directly via the [PDF](/controls/Document/de-pdf.html) viewer
-* Fix for a bug where [toggleswitch](/controls/Input/de-toggleswitch.html) and [checkbox](/controls/Input/de-checkbox.html) did not trigger the script even though the bound variable was changed
+* Fix for a bug where web resources could not be inserted directly via the [PDF](/controls/Document/en-pdf.html) viewer
+* Fix for a bug where [Toggle Switch](/controls/Input/en-toggleswitch.html) and [Checkbox](/controls/Input/en-checkbox.html) did not trigger the script even though the bound variable was changed
 
 * **Scripting**
 * [Building Blocks](/scripting/en-building-blocks.html) - [Get row number] block added to list/tile view templates
