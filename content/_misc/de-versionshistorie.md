@@ -69,7 +69,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Beispielwert für [setentry] auf 1 angepasst
 
 
-## 2.14.2.1 (17.02.2022)
+## 2.14.2.1 (17.02.2022) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EluftgNSJBxPhzSKmmhz8zABOjbWYYTuNLunCFcEKOdrLw?e=FiSNJs)
 * Hotfix für einen Fehler im Peakboard Designer, bei dem das Update der Software nicht mehr durchgeführt werden konnte
 * Hotfix für einen Fehler, bei dem der Body in einem http-Request für CSV, XML und JSON-Datenquellen nicht ausgelesen werden konnte
 
@@ -143,7 +143,7 @@ footer: 2.15.0.0 (06.04.2022)
 * [Building Blocks](/scripting/de-building-blocks.html) - Skript-Baum umgestaltet
 
 
-## 2.13.3.0 (02.12.2021)
+## 2.13.3.0 (02.12.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtIXvBD0Wb1Nrnq8cVlDrU4BHvbGNQcVyUBB7EA_xIW21w?e=5GyvbL)
 * **Datenquellen**
 * [Excel](/data_sources/Excel/de-excel.html) - Hotfix für eine Fehler, der bei einer vorhandenen Verbindung zu einer Excel-Datei auf einem Netzlaufwerk einen fehlerhaften Dialog öffnete 
 
@@ -190,7 +190,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem alle Funktionen in der Intellisense mehrfach angezeigt wurden
 
 
-## 2.12.4.0 (28.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EtolqoY9p55Oql8sO98FdzkBWXHTeq6Y74crW0jDSxVbmA?e=ZAMfd8)
+## 2.12.4.0 (28.10.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EhYAfPDg_1RIgxpp98o8Uk8BN5AcP7ALGHkrAk7edQZyUQ?e=v3gMFZ)
 * **Peakboard Box**
 * Hotfix für einen Fehler, bei dem die initiale Visualisierung nicht korrekt beendet wurde, wodurch eine Vielzahl von Fehlern im Log generiert wurde
 
@@ -241,7 +241,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem globale Funktionen verloren gingen
 * Fix für einen Fehler, bei dem der Validator nicht mehr korrekt funktionierte
 
-## 2.11.5.0 (12.10.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EnMeVya4r8lJmTsqlLtJZo8BMjBlPIG65o_de2Bcm2A5gg?e=rA9CFG)
+## 2.11.5.0 (12.10.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Es6oSH41OdxKrzAYe1GAsiQBmTy4cLj0JVtTBUUwjoA4sg?e=mBqqDu)
 * **Datenquellen**
 * Hotfix für einen Fehler, bei dem eine [Extension](/data_sources/Extension/de-Extension.html) nicht mehr editiert oder kopiert werden konnte
 
@@ -322,7 +322,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Peakboard Hub - Single Point Authentifizierung hinzugefügt
 
 
-## 2.10.0.0 (07.06.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/En6NjAbJgwRGmo3-7UwERfYBnhZXfhdNt6Du_7RHSt1uwQ?e=yhQVBk)
+## 2.10.0.0 (07.06.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Et6MEvU9ihhDnL2cOQ0b3OABbdKXwgXuwsD1S0Tw3jhjdg?e=hYHChI)
 * Auf die Peakboard Box geladene Visualisierungen erhalten nun einen Zeitstempel und werden chronologisch sortiert
 * Benutzerrollen Konzept auf der Peakboard Box erweitert
 * Aktualisierung der Videos im Startbildschirm des Peakboard Designers hinzugefügt
@@ -347,7 +347,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die Twitter-Datenquelle nicht mehr funktionierte
 * Fix für einen Fehler, bei dem die unaktivierte Schaltfläche [Sichtbar] eines Controls zu einem Fehler beim Laden einer Visualisierung führte
 
-## 2.9.1.0(26.04.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Es4Ev5qm_DFMsGgGKNwIbD8B4VBkbi2j0Z2Edm36JzPwAg?e=OSrLcx) 
+## 2.9.1.0(26.04.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EhYAfPDg_1RIgxpp98o8Uk8BN5AcP7ALGHkrAk7edQZyUQ?e=OGM4nr) 
 * Hotfix für einen Fehler, bei dem die OData-Datenquelle nicht mehr erstellt und bearbeitet werden konnte
 * Hotfix für einen Fehler, bei dem Cloud-Ressourcen nicht mehr angelegt oder bearbeitet werden konnten
 
