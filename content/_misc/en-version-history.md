@@ -8,11 +8,71 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.14.2.1 (17.02.2022)
+footer: 2.15.0.0 (06.04.2022)
 ---
-## 2.14.2.1 (17.02.2022) [Download](https://peakboard.rocks/download-version-history)
+## 2.15.0.0 (06.04.2022) [Download](https://peakboard.rocks/download-version-history)
+* **General**
+* Loading screen for Runtime and Peakboard Designer implemented
+* Runtime log messages improved
+* Runtime allows imitation of dataload based on preview data
+* Fix for a bug where the Update button was grayed out if the software version of the Peakboard Box was too old and it was therefore not possible to perform an update
+* Fix for a bug where the info dialog (ctrl+i) on the Peakboard Box displayed the wrong version
+* Fix for a bug that occurred when the font size in the font manager was set to zero or smaller
+* Fix for a bug where the URL of a web resource was lost when copying between two projects
+* Fix for a bug where clicking the Upload button without a Peakboard box connected generated an error message
+* Fix for a bug where Peakboard Designer Setup showed build version "0".
+
+* **Data Sources**
+* Added new data source [Modbus](/data_sources/en-modbus.html)
+* [MQTT](/data_sources/en-mqtt-broker.html) - dynamic subscription mode added
+* [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Improvements
+* [Reload Flows](/misc/en-reloadflows.html) - list of available data sources updated to alphabetical order
+* [Sharepoint](/data_sources/en-sharepointlist.html) - Added new section [Shared with me] in the file selector to include files whose parent folder you don't have access to
+* [XQL](/data_sources/SAP/en-xql.html) - added option to export table parameters in "EXECUTE FUNCTION"
+* Fix for several bugs and general improvements in [Reload Flows](/misc/en-reloadflows.html)
+* Fix for a bug where an error message was generated when the reload state of a data source was set to [On Startup].
+* Fix for a bug where SAP, Oracle and ODBC data sources return an error instead of an empty table when no data is present
+
+* **Controls**
+* Buggy gauge controls reworked
+* Optical adjustments at [Dropdown-List](/controls/Input/en-dropdown.html) and [Text Box](/controls/Input/en-textbox.html)
+* [Checkbox](/controls/input/en-checkbox.html) - toggled event added
+* [Drop down](/controls/Input/en-dropdown.html) - Naming of properties window adjusted
+* Fix for a bug where changes to a list while [Conditional formatting](/controls/en-cf.html) was running resulted in a fatal error
+* Fix for a bug where a selection dialog was shown when dragging and dropping a [PDF](/controls/Document/en-pdf.html)
+* Fix for a bug where web resources could not be inserted directly via the [PDF](/controls/Document/de-pdf.html) viewer
+* Fix for a bug where [toggleswitch](/controls/Input/de-toggleswitch.html) and [checkbox](/controls/Input/de-checkbox.html) did not trigger the script even though the bound variable was changed
+
+* **Scripting**
+* [Building Blocks](/scripting/en-building-blocks.html) - [Get row number] block added to list/tile view templates
+* [Building Blocks](/scripting/en-building-blocks.html) - removed unused and outdated blocks
+* [Script Editor](/scripting/en-script-editor.html) - debugger removed
+* [Script-Editor](/scripting/en-script-editor.html) - added save request if the window is closed without saving first or contains empty blocks
+* New lines can now be inserted at any position in variable lists, instead of only at the end of the list as before
+* Fix for a bug where in [Building Blocks](/scripting/en-building-blocks.html) item and index values were missing in dataflows
+* Fix for a bug where dataflow specific blocks in [Building Blocks](/scripting/en-building-blocks.html) were not displayed if the dataflow did not exist yet
+* Fix for a bug where the save button in [Building Blocks](/scripting/en-building-blocks.html) was not grayed out after it was used
+* Fix for a bug where the save dialog was opened anyway after using the "Save and Close" button in [Building Blocks](/scripting/en-building-blocks.html)
+* Fix for a bug where the time data source was missing in [Script Editor](/scripting/en-script-editor.html)
+* Fix for a bug where Siemens S7 data sources could not be reloaded via script
+* Fix for a bug where two instances were created when creating a timer script
+* Fix for a bug where a sound output was interrupted if you changed the color and the sound command was not at the end of the script
+
+* **Administration
+* Optical adjustment of two text fields in the Peakboard Box Settings
+* Fix for a bug where the Peakboard Box license was not valid due to the missing Peakboard Box ID
+* Fix for a bug where it was not possible to delete a visualization from a Peakboard Box
+* Fix for a bug where it was possible to access the entries in the log tab of the Peakboard Box Settings despite missing privileges and a corresponding error message
+* Fix for a bug where the button for encrypting a Peakboard Box in the Peakboard Box Settings was not grayed out even though the Peakboard Box was not connected
+
+* **Peakboard Hub**
+* Example value for [setentry] changed to 1
+
+
+## 2.14.2.1 (17.02.2022) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EluftgNSJBxPhzSKmmhz8zABOjbWYYTuNLunCFcEKOdrLw?e=FiSNJs)
 * Hotfix for a bug in Peakboard Designer, where the update of the software could not be done anymore
 * Hotfix for a bug where the body could not be read in an http request for CSV, XML and JSON data sources
+
 
 ## 2.14.1.0 (09.02.2022)
 * Implementation of a new versiong, which allows for updates independent of an update of the Peakboard Box
@@ -83,7 +143,7 @@ footer: 2.14.2.1 (17.02.2022)
 * [Building Blocks](/scripting/en-building-blocks.html) - redesigned script tree
 
 
-## 2.13.3.0 (02.12.2021) [Download](https://peakboard.rocks/download-version-history)
+## 2.13.3.0 (02.12.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtIXvBD0Wb1Nrnq8cVlDrU4BHvbGNQcVyUBB7EA_xIW21w?e=5GyvbL)
 * **Data_sources**.
 * [Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive 
 
