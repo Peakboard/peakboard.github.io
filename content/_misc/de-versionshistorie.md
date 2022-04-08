@@ -33,6 +33,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem SAP, Oracle und ODBC-Datenquellen einen Fehler statt einer leeren Tabelle lieferten, wenn keine Daten vorhanden waren
 
 * **Controls**
+* Neues Control [Date Picker](/controls/Input/de-datepicker.html)
+* Neues Control [Time Picker](/controls/Input/de-timepicker.html)
 * Fehlerbehaftete Gauge Controls überarbeitet
 * Optische Anpassungen bei [Dropdown-Liste](/controls/Input/de-dropdown.html) und [Textfeld](/controls/Input/de-textbox.html)
 * [Checkbox](/controls/Input/de-checkbox.html) - Toggled Event ergänzt

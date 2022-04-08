@@ -33,6 +33,8 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix for a bug where SAP, Oracle and ODBC data sources were returning an error instead of an empty table when no data was present
 
 * **Controls**
+* New control [Date Picker](/controls/Input/en-datepicker.html)
+* New control [Time Picker](/controls/Input/en-timepicker.html)
 * Buggy gauge controls reworked
 * Optical adjustments at [Dropdown-List](/controls/Input/en-dropdown.html) and [Text Box](/controls/Input/en-textbox.html)
 * [Checkbox](/controls/Input/en-checkbox.html) - toggled event added
