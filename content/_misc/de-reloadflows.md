@@ -9,63 +9,70 @@ ref: misc-11100
 redirect_from:
 
 ---
-
-Reload Flows
-
 ### Funktion
 
 Reload Flows dienen dazu eine Reihenfolge anzulegen in der Datenquellen und Dataflows geladen werden. 
 
 Das bietet sich an, wenn Datenquellen oder Dataflows Informationen einer anderen Datenquelle oder eines Dataflows benötigen, um geladen zu werden. 
-Reload Flows können für alle Pull Datenquellen angelegt werden für die ein Reload Intervall bestimmt werden kann. 
-MQTT oder OPC UA Datenqellen können zum beispiel nicht in einem Reload Flow geladen werden.
+Reload Flows können für alle Pull Datenquellen angelegt werden, für die ein Reload Intervall bestimmt werden kann. 
+MQTT oder OPC UA Datenquellen können zum Beispiel nicht in einem Reload Flow geladen werden.
 
 ### Ein Reload Flow besteht aus folgenden Elementen
 
 {% include styled_table.html %}
 {: .w-full }
-| Reload Flow Element      | Ein Element das im Reload Flow genutzt wird. Dies kann eine Datenquelle oder ein Dataflow sein. |
-| Reload Flow Source       | Die Datenquelle oder der Dataflow der den Reload Flow auslöst dieses kann nicht über den Reload Flow geladen werden welchen es auslöst. |
-| Reload Flow Target       | Ein reload flow Element welches von dem Reload Flow geladen wird. Hier können alle Datenquellen eingebunden werden die in einem bestimmten Zeitintervall neu geladen werden und Dataflows. |
+| Reload Flow Element      | Ein Element, das im Reload Flow genutzt wird. Dies kann eine Datenquelle oder ein Dataflow sein. |
+| Reload Flow Source       | Die Datenquelle oder der Dataflow der den Reload Flow auslöst. Dieses kann nicht über den Reload Flow geladen werden welchen es auslöst. |
+| Reload Flow Target       | Ein Reload Flow Element, welches von dem Reload Flow geladen wird. Hier können alle Datenquellen eingebunden werden, die in einem bestimmten Zeitintervall neu geladen werden, sowie jegliche Dataflows. |
+
 
 ### Erstellen und Bearbeiten eines Reload Flows
 
-Um auf die Maske zum erstellen eines Reload Flows zu gelangen kann etweder über die Projekteinstellungen unter dem Punkt Reload Flows geklickt werden:
+Um einen Reload Flow zu erstellen, klickst du im Reiter [Start] des Peakboard Designers auf das Drop Down Menü [Projekt] und dort auf [Reload Flows] (1)
 
-![image_1](/assets/images/misc/Reload_Flows/Reload_Flows_Location.png)
+![Reload Flow anlegen](/assets/images/misc/Reload_Flows/de_reloadflow-add.png)
 
-oder direkt beim anlegen einer Datenquelle oder eines Dataflows unter Nachlade Art Reload Flow gewählt werden:
+Alternativ stellst du während der Konfiguration einer Datenquelle die Nachlade Art auf [Von Reload Flow] (2), um ebenfalls in den Erstellungsdialog zu gelangen.
 
-![image_1](/assets/images/misc/Reload_Flows/Reload_Flows_Location2.png)
+![Reload Flow aus Datenquelle anlegen](/assets/images/misc/Reload_Flows/de_reloadflow-add02.png)
 
-In dieser Maske besteht nun die Möglichkeit bestehende Reload Flows zu bearbeiten oder neue Reload Flows zu erstellen.
+In diesem Dialog kannst du nun bestehende Reload Flows bearbeiten oder neue Reload Flows erstellen.
+
 
 #### Reload Flow erstellen
-Um einen neuen Reload Flow zu erstellen klicken wir auf das Plus im oberen linken Eck (4) 
-können dann dem Reload Flow einen Namen geben (5) 
-und über die Data Sources in der rechten Seite die Reload Flow Elemente hinzufügen (3). 
-Im mittleren Bereich sehen wir dann die Reihenfolge in der die Reload Flow Elemente in diesem Reload Flow geladen werden (2).
+Um einen neuen Reload Flow zu erstellen, klickst du auf das Plus in der oberen linken Ecke des Dialogs (3).
+Dann kannst du dem Reload Flow einen Namen geben (4) und über die Datasources auf der rechten Seite die Reload Flow Elemente (5) per Drag-and-Drop im mittleren Bereich hinzufügen. 
+Im mittleren Bereich kannst du die Reihenfolge in der die Reload Flow Elemente in diesem Reload Flow geladen werden bestimmen (6).
+
+![Reload Flows konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-config.png)
+
 
 #### Reload Flow bearbeiten
-Um einen bestehenden Reload Flow zu bearbeiten kann dieser in dem linken Bereich ausgewählt werden (1). 
-Daraufhin können der Name und die einzelnen Reload Flow Elemente bearbeitet werden (5, 2).
-Um die Reihenfolge der Reload Flow Elemente in einem Reload Flow zu ändern können wir über Drag und Drop die einzelnen Reload Flow Elemente in ihrer Position bearbeiten. 
-Um ein Reload Flow Element aus einem reload flow zu löschen können wir auf die Mülltonne neben dem Reload Flow Element klicken
-Um einen Reload Flow zu löschen müssen wir die Maus über den Reload Flow bewegen und dann auf das Minus klicken.
+Um einen bestehenden Reload Flow zu bearbeiten, wählst du diesen im linken Bereich des Reload Flow Dialogs aus (7). 
+Daraufhin kannst du den Namen und die einzelnen Reload Flow Elemente bearbeiten.
+Um die Reihenfolge der Reload Flow Elemente in einem Reload Flow zu ändern, kannst du per Drag-and-Drop die einzelnen Reload Flow Elemente verschieben. 
+Um ein Reload Flow Element aus einem Reload Flow zu löschen, bewegst du die Maus über das Reload Flow Element und klickst auf die Mülltonne neben dem Reload Flow Element (8).
 
-Alle Änderungen innhalb der Maske können entweder über OK gespeichert werden oder über cancel verworfen werden.
+![Reload Flows bearbeiten](/assets/images/misc/Reload_Flows/de_reloadflow-config02.png)
 
-![image_1](/assets/images/misc/Reload_Flows/Reload_Flows_Interface.png)
+Möchtest du einen Reload Flow vollständig löschen, bewegst du die Maus über den Reload Flow und klickst dann auf die Mülltonne (9).
+
+Alle Änderungen innerhalb des Dialogs kannst du entweder über [OK] speichern oder über [Abbrechen] verwerfen.
+
+![Reload Flows bearbeiten](/assets/images/misc/Reload_Flows/de_reloadflow-config03.png)
+
 
 #### Funktionen innerhalb des Reload Flows
 Innerhalb des Reload Flows gibt es 2 Funktionen. 
-Das erste Reload Flow Element dient dabei als Reload Flow Source, diese kann also nicht nach dem Reload Flow geladen werden sondern nur nach einem Zeitinterval oder über ein Skript. 
-Hier können wir außerdem bestimmen ob der Reload Flow nur ausgelöst werden soll wenn sich Daten geändert haben oder ob er in jedem Fall beim Neuladen der Reload Flow Source ausgelöst werden soll. 
-Wird der Reload Flow dann ausgelößt werden alle weiteren Reload Flow Targets neu geladen.
+Das erste Reload Flow Element dient dabei als Reload Flow Source, diese kann also nicht nach dem Reload Flow geladen werden, sondern nur nach einem Zeitintervall oder über ein Skript. 
+In den Einstellungen dieser Datenquelle kannst du festlegen, ob der Reload Flow nur ausgelöst werden soll, wenn sich Daten geändert haben oder ob er in jedem Fall beim Neuladen der Reload Flow Source ausgelöst werden soll. (10)
+Wird der Reload Flow dann ausgelöst werden alle weiteren Reload Flow Targets neu geladen.
 
-![image_1](/assets/images/misc/Reload_Flows/Reload_Flow_Element.png)
+![Datenquelle konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-datasource01.png)
 
-Ist ein Reload Flow Element in einem Reload Flow eingebunden kann beim Bearbeiten dieses Reload Flows direkt Reload Flow in der Nachlade Art gewählt werden. 
-Ist das Reload Flow Element noch nicht in einem Reload Flow beinhaltet öffnet sich beim auswählen dieser option direkt die Reload Flows Maske und es kann entweder in einen bestehenden reload flow hinzugefügt werden oder ein neuer Reload Flow erstellt werden in dem dieses Reload Flow Element hinzugefügt werden kann.
+Ist ein Reload Flow Element bereits in einem Reload Flow eingebunden, ist beim Bearbeiten dieser Datenquelle direkt [Von Reload Flow] in der Nachlade Art ausgewählt.
+Über den Reload Flows Button (11) kannst du den Dialog zum Bearbeiten der Reload Flows öffnen.
+Ist das Reload Flow Element noch nicht in einem Reload Flow beinhaltet, öffnet sich beim Auswählen dieser Option direkt der Reload Flows Dialog.
+Hier kannst du das Reload Flow Element entweder in einen bestehenden Reload Flow einfügen oder einen neuen Reload Flow erstellen und es diesem hinzufügen.
 
-![image_1](/assets/images/misc/Reload_Flows/Reload_Flows_Location2.png)
+![Datenquelle konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-datasource02.png)
