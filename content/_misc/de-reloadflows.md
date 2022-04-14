@@ -22,9 +22,15 @@ MQTT oder OPC UA Datenquellen können zum Beispiel nicht in einem Reload Flow ge
 {% include styled_table.html %}
 {: .w-full }
 | Reload Flow Element      | Ein Element, das im Reload Flow genutzt wird. Dies kann eine Datenquelle oder ein Dataflow sein. |
-| Reload Flow Source       | Die Datenquelle oder der Dataflow der den Reload Flow auslöst. Dieses kann nicht über den Reload Flow geladen werden welchen es auslöst. |
-| Reload Flow Target       | Ein Reload Flow Element, welches von dem Reload Flow geladen wird. Hier können alle Datenquellen eingebunden werden, die in einem bestimmten Zeitintervall neu geladen werden, sowie jegliche Dataflows. |
+| Reload Flow Source       | Die Datenquelle oder der Dataflow der den Reload Flow auslöst. Diese kann nicht über den Reload Flow geladen werden welchen sie auslöst. |
+| Reload Flow Target       | Ein Reload Flow Element, welches von dem Reload Flow geladen wird. Hier können alle Datenquellen eingebunden werden, die in einem bestimmten Zeitintervall neu geladen werden, sowie jegliche Dataflows. Ein Reload Flow Target kann auch gleichzeitig eine Reload Flow Source sein wenn darauf weitere Elemente folgen. |
 
+<div class="box-tip" markdown="1">**Hinweis**
+
+Die Elemente sind nicht auf die Nutzung in einem einzigen Reload Flow beschränkt.
+Eine Datenquelle oder ein Dataflow kann in mehreren Reload Flows verwendet werden.
+Bitte achte darauf, bei mehrfacher Verwendung von Datenquellen oder Dataflows keine versehentlichen Dauerschleifen zu erzeugen.
+</div>
 
 ### Erstellen und Bearbeiten eines Reload Flows
 
@@ -76,3 +82,11 @@ Ist das Reload Flow Element noch nicht in einem Reload Flow beinhaltet, öffnet 
 Hier kannst du das Reload Flow Element entweder in einen bestehenden Reload Flow einfügen oder einen neuen Reload Flow erstellen und es diesem hinzufügen.
 
 ![Datenquelle konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-datasource02.png)
+
+<div class="box-tip" markdown="1">**Hinweis**
+
+Wie oben bereits erwähnt kann ein Reload Flow Target gleichzeitig eine Reload Flow Source sein, wenn weitere Elemente folgen.
+Zudem sind Reload Flow Elemente nicht auf die Nutzung in einem einzigen Reload Flow beschränkt.
+Daraus kann sich eine Mischform der beiden dargestellten Optionen ergeben.
+In dieser wird in den Einstellungen der Datenquelle sowohl die Auswahl [Reload Flows bei Datenänderung laden] (10), als auch der Reload Flows Button (11) angezeigt.
+</div>
