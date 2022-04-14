@@ -26,7 +26,7 @@ For example, MQTT or OPC UA data sources cannot be loaded in a reload flow.
 | Reload Flow Source | The data source or dataflow that triggers the reload flow. It can not be loaded from the reload flow it triggers. |
 | Reload Flow Target | A reload flow element that is loaded by the reload flow. Any data sources that are reloaded at a specified time interval can be included here, as well as any dataflows. A reload flow target can also be a reload flow source if it is followed by other elements. |
 
-<div class="box-tip" markdown="1">**Note**.
+<div class="box-tip" markdown="1">**Note**
 
 Elements are not limited to use in a single reload flow.
 A data source or dataflow can be used in multiple reload flows.
@@ -85,7 +85,7 @@ Here you can either insert the reload flow element into an existing reload flow 
 
 ![Configure data source](/assets/images/misc/Reload_Flows/en_reloadflow-datasource02.png)
 
-<div class="box-tip" markdown="1">**Note**.
+<div class="box-tip" markdown="1">**Note**
 
 As mentioned above, a reload flow target can also be a reload flow source if other elements follow.
 Additionaly, reload flow elements are not limited to use in a single reload flow.
