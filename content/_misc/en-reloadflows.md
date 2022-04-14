@@ -28,7 +28,7 @@ For example, MQTT or OPC UA data sources cannot be loaded in a reload flow.
 
 <div class="box-tip" markdown="1">**Note**.
 
-Elements are not limited to use in a single Reload Flow.
+Elements are not limited to use in a single reload flow.
 A data source or dataflow can be used in multiple reload flows.
 Please be careful not to create accidental continuous loops when using data sources or dataflows multiple times.
 </div>
@@ -88,7 +88,7 @@ Here you can either insert the reload flow element into an existing reload flow 
 <div class="box-tip" markdown="1">**Note**.
 
 As mentioned above, a reload flow target can also be a reload flow source if other elements follow.
-In addition, reload flow elements are not limited to use in a single reload flow.
+Additionaly, reload flow elements are not limited to use in a single reload flow.
 This can result in a hybrid of the two options shown.
 In this case, both the [Trigger Reload Flows with data change] (10) selection and the reload flows button (11) are shown in the data source settings.
 </div>
