@@ -23,7 +23,7 @@ MQTT oder OPC UA Datenquellen können zum Beispiel nicht in einem Reload Flow ge
 {: .w-full }
 | Reload Flow Element      | Ein Element, das im Reload Flow genutzt wird. Dies kann eine Datenquelle oder ein Dataflow sein. |
 | Reload Flow Source       | Die Datenquelle oder der Dataflow der den Reload Flow auslöst. Diese kann nicht über den Reload Flow geladen werden welchen sie auslöst. |
-| Reload Flow Target       | Ein Reload Flow Element, welches von dem Reload Flow geladen wird. Hier können alle Datenquellen eingebunden werden, die in einem bestimmten Zeitintervall neu geladen werden, sowie jegliche Dataflows. Ein Reload Flow Target kann auch gleichzeitig eine Reload Flow Source sein wenn darauf weitere Elemente folgen. |
+| Reload Flow Target       | Ein Reload Flow Element, welches von dem Reload Flow geladen wird. Hier können alle Datenquellen eingebunden werden, die in einem bestimmten Zeitintervall neu geladen werden, sowie jegliche Dataflows. Ein Reload Flow Target kann auch gleichzeitig eine Reload Flow Source sein, wenn darauf weitere Elemente folgen. |
 
 <div class="box-tip" markdown="1">**Hinweis**
 

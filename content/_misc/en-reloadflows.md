@@ -23,8 +23,15 @@ For example, MQTT or OPC UA data sources cannot be loaded in a reload flow.
 {% include styled_table.html %}
 {: .w-full }
 | Reload Flow Element | An element that is used in the reload flow. This can be a data source or a dataflow. |
-| Reload Flow Source | The data source or dataflow that triggers the reload flow. This cannot be loaded from the reload flow it triggers. |
-| Reload Flow Target | A reload flow element that is loaded by the reload flow. Here you can include all data sources that are reloaded in a certain time interval, as well as any dataflows. |
+| Reload Flow Source | The data source or dataflow that triggers the reload flow. It can not be loaded from the reload flow it triggers. |
+| Reload Flow Target | A reload flow element that is loaded by the reload flow. Any data sources that are reloaded at a specified time interval can be included here, as well as any dataflows. A reload flow target can also be a reload flow source if it is followed by other elements. |
+
+<div class="box-tip" markdown="1">**Note**.
+
+Elements are not limited to use in a single Reload Flow.
+A data source or dataflow can be used in multiple reload flows.
+Please be careful not to create accidental continuous loops when using data sources or dataflows multiple times.
+</div>
 
 
 ### Creating and editing a reload flow
@@ -77,3 +84,11 @@ If the reload flow element is not yet included in a reload flow, selecting this 
 Here you can either insert the reload flow element into an existing reload flow or create a new reload flow and add the element to it.
 
 ![Configure data source](/assets/images/misc/Reload_Flows/en_reloadflow-datasource02.png)
+
+<div class="box-tip" markdown="1">**Note**.
+
+As mentioned above, a reload flow target can also be a reload flow source if other elements follow.
+In addition, reload flow elements are not limited to use in a single reload flow.
+This can result in a hybrid of the two options shown.
+In this case, both the [Trigger Reload Flows with data change] (10) selection and the reload flows button (11) are shown in the data source settings.
+</div>
