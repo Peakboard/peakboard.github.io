@@ -70,7 +70,7 @@ Alle Änderungen innerhalb des Dialogs kannst du entweder über [OK] speichern o
 
 #### Funktionen innerhalb des Reload Flows
 Innerhalb des Reload Flows gibt es 2 Funktionen. 
-Das erste Reload Flow Element dient dabei als Reload Flow Source, diese kann also nicht nach dem Reload Flow geladen werden, sondern nur nach einem Zeitintervall oder über ein Skript. 
+Das erste Reload Flow Element dient dabei als Reload Flow Source, diese kann also nicht nach dem Reload Flow geladen werden. 
 In den Einstellungen dieser Datenquelle kannst du festlegen, ob der Reload Flow nur ausgelöst werden soll, wenn sich Daten geändert haben oder ob er in jedem Fall beim Neuladen der Reload Flow Source ausgelöst werden soll. (10)
 Wird der Reload Flow dann ausgelöst werden alle weiteren Reload Flow Targets neu geladen.
 

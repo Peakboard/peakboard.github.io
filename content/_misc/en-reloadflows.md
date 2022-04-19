@@ -72,7 +72,7 @@ All changes within the dialog can be saved by clicking [OK] or discarded by clic
 
 #### Functions within the reload flow
 Within the reload flow there are 2 functions. 
-The first reload flow element serves as a reload flow source, so it cannot be loaded after the reload flow, but only after a time interval or via a script. 
+The first reload flow element serves as a reload flow source, so it cannot be loaded after the reload flow.
 In the settings of this data source, you can define if the reload flow should only be triggered if data has changed or if it should be triggered in any case when the reload flow source is reloaded. (10)
 If the reload flow is then triggered, all further reload flow targets will be reloaded.
 
