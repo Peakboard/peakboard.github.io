@@ -70,7 +70,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Example value for [setentry] changed to 1
 
 
-## 2.14.2.1 (17.02.2022) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EluftgNSJBxPhzSKmmhz8zABOjbWYYTuNLunCFcEKOdrLw?e=FiSNJs)
+## 2.14.2.1 (17.02.2022) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EluftgNSJBxPhzSKmmhz8zABOjbWYYTuNLunCFcEKOdrLw?e=8W6nEf)
 * Hotfix for a bug in Peakboard Designer, where the update of the software could not be done anymore
 * Hotfix for a bug where the body could not be read in an http request for CSV, XML and JSON data sources
 
