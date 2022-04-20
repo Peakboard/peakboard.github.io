@@ -34,7 +34,7 @@ Bitte achte darauf, bei mehrfacher Verwendung von Datenquellen oder Dataflows ke
 
 ### Erstellen und Bearbeiten eines Reload Flows
 
-Um einen Reload Flow zu erstellen, klickst du im Reiter [Start] des Peakboard Designers auf das Drop Down Menü [Projekt] und dort auf [Reload Flows] (1)
+Um einen Reload Flow zu erstellen, klickst du im Reiter [Start] des Peakboard Designers auf das Drop-Down-Menü [Projekt] und dort auf [Reload Flows] (1)
 
 ![Reload Flow anlegen](/assets/images/misc/Reload_Flows/de_reloadflow-add.png)
 
@@ -48,13 +48,13 @@ In diesem Dialog kannst du nun bestehende Reload Flows bearbeiten oder neue Relo
 #### Reload Flow erstellen
 Um einen neuen Reload Flow zu erstellen, klickst du auf das Plus in der oberen linken Ecke des Dialogs (3).
 Dann kannst du dem Reload Flow einen Namen geben (4) und über die Datasources auf der rechten Seite die Reload Flow Elemente (5) per Drag-and-Drop im mittleren Bereich hinzufügen. 
-Im mittleren Bereich kannst du die Reihenfolge in der die Reload Flow Elemente in diesem Reload Flow geladen werden bestimmen (6).
+Dort kannst du dann die Reihenfolge in der die Reload Flow Elemente in diesem Reload Flow geladen werden bestimmen (6).
 
 ![Reload Flows konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-config.png)
 
 
 #### Reload Flow bearbeiten
-Um einen bestehenden Reload Flow zu bearbeiten, wählst du diesen im linken Bereich des Reload Flow Dialogs aus (7). 
+Um einen bestehenden Reload Flow zu bearbeiten, wählst du diesen im linken Bereich des Reload Flows Dialogs aus (7). 
 Daraufhin kannst du den Namen und die einzelnen Reload Flow Elemente bearbeiten.
 Um die Reihenfolge der Reload Flow Elemente in einem Reload Flow zu ändern, kannst du per Drag-and-Drop die einzelnen Reload Flow Elemente verschieben. 
 Um ein Reload Flow Element aus einem Reload Flow zu löschen, bewegst du die Maus über das Reload Flow Element und klickst auf die Mülltonne neben dem Reload Flow Element (8).
@@ -69,16 +69,16 @@ Alle Änderungen innerhalb des Dialogs kannst du entweder über [OK] speichern o
 
 
 #### Funktionen innerhalb des Reload Flows
-Innerhalb des Reload Flows gibt es 2 Funktionen. 
+Innerhalb des Reload Flows gibt es zwei Funktionen. 
 Das erste Reload Flow Element dient dabei als Reload Flow Source, diese kann also nicht nach dem Reload Flow geladen werden. 
 In den Einstellungen dieser Datenquelle kannst du festlegen, ob der Reload Flow nur ausgelöst werden soll, wenn sich Daten geändert haben oder ob er in jedem Fall beim Neuladen der Reload Flow Source ausgelöst werden soll. (10)
-Wird der Reload Flow dann ausgelöst werden alle weiteren Reload Flow Targets neu geladen.
+Wird der Reload Flow dann ausgelöst, werden alle weiteren Reload Flow Targets neu geladen.
 
 ![Datenquelle konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-datasource01.png)
 
 Ist ein Reload Flow Element bereits in einem Reload Flow eingebunden, ist beim Bearbeiten dieser Datenquelle direkt [Von Reload Flow] in der Nachlade Art ausgewählt.
 Über den Reload Flows Button (11) kannst du den Dialog zum Bearbeiten der Reload Flows öffnen.
-Ist das Reload Flow Element noch nicht in einem Reload Flow beinhaltet, öffnet sich beim Auswählen dieser Option direkt der Reload Flows Dialog.
+Ist das Reload Flow Element noch nicht in einem Reload Flow enthalten, öffnet sich beim Auswählen dieser Option direkt der Reload Flows Dialog.
 Hier kannst du das Reload Flow Element entweder in einen bestehenden Reload Flow einfügen oder einen neuen Reload Flow erstellen und es diesem hinzufügen.
 
 ![Datenquelle konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-datasource02.png)
