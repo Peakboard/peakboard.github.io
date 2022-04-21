@@ -24,7 +24,6 @@ To connect the SAP data source, select the [SAP] data source under [Add Data Sou
 ![Add SAP Data](/assets/images/data-sources/sap/en_SAP-add.png)
 
 In the following dialog you can choose between a Single Application Server and Load Balancing.
-It is technically not possible to access SAP transactions.
 The corresponding fields in the [Connection] area must be filled in with the accustomed SAP logon data. (2)
 
 The actual access to SAP is formulated via an XQL statement.
