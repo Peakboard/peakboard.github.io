@@ -144,7 +144,7 @@ footer: 2.15.0.0 (06.04.2022)
 * [Building Blocks](/scripting/de-building-blocks.html) - Skript-Baum umgestaltet
 
 
-## 2.13.3.0 (02.12.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtIXvBD0Wb1Nrnq8cVlDrU4BHvbGNQcVyUBB7EA_xIW21w?e=5GyvbL)
+## 2.13.3.0 (02.12.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtIXvBD0Wb1Nrnq8cVlDrU4BHvbGNQcVyUBB7EA_xIW21w?e=YkSFBz)
 * **Datenquellen**
 * [Excel](/data_sources/Excel/de-excel.html) - Hotfix für eine Fehler, der bei einer vorhandenen Verbindung zu einer Excel-Datei auf einem Netzlaufwerk einen fehlerhaften Dialog öffnete 
 
@@ -191,7 +191,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem alle Funktionen in der Intellisense mehrfach angezeigt wurden
 
 
-## 2.12.4.0 (28.10.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EhYAfPDg_1RIgxpp98o8Uk8BN5AcP7ALGHkrAk7edQZyUQ?e=v3gMFZ)
+## 2.12.4.0 (28.10.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/ErlC_bDOZidOg-zryBddBXsBco6UpcXvTnHaz_dLZqOggw?e=DDkZps)
 * **Peakboard Box**
 * Hotfix für einen Fehler, bei dem die initiale Visualisierung nicht korrekt beendet wurde, wodurch eine Vielzahl von Fehlern im Log generiert wurde
 
@@ -242,7 +242,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem globale Funktionen verloren gingen
 * Fix für einen Fehler, bei dem der Validator nicht mehr korrekt funktionierte
 
-## 2.11.5.0 (12.10.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Es6oSH41OdxKrzAYe1GAsiQBmTy4cLj0JVtTBUUwjoA4sg?e=mBqqDu)
+## 2.11.5.0 (12.10.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Es6oSH41OdxKrzAYe1GAsiQBmTy4cLj0JVtTBUUwjoA4sg?e=SANl6w)
 * **Datenquellen**
 * Hotfix für einen Fehler, bei dem eine [Extension](/data_sources/Extension/de-Extension.html) nicht mehr editiert oder kopiert werden konnte
 
@@ -323,7 +323,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Peakboard Hub - Single Point Authentifizierung hinzugefügt
 
 
-## 2.10.0.0 (07.06.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Et6MEvU9ihhDnL2cOQ0b3OABbdKXwgXuwsD1S0Tw3jhjdg?e=hYHChI)
+## 2.10.0.0 (07.06.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Et6MEvU9ihhDnL2cOQ0b3OABbdKXwgXuwsD1S0Tw3jhjdg?e=cKtPc8)
 * Auf die Peakboard Box geladene Visualisierungen erhalten nun einen Zeitstempel und werden chronologisch sortiert
 * Benutzerrollen Konzept auf der Peakboard Box erweitert
 * Aktualisierung der Videos im Startbildschirm des Peakboard Designers hinzugefügt
@@ -348,7 +348,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die Twitter-Datenquelle nicht mehr funktionierte
 * Fix für einen Fehler, bei dem die unaktivierte Schaltfläche [Sichtbar] eines Controls zu einem Fehler beim Laden einer Visualisierung führte
 
-## 2.9.1.0(26.04.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EhYAfPDg_1RIgxpp98o8Uk8BN5AcP7ALGHkrAk7edQZyUQ?e=OGM4nr) 
+## 2.9.1.0(26.04.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EjocT8mWFYdHninsPZh4VywBwERzmKaNcJ7MkRdUxcIJow?e=DFyLCn) 
 * Hotfix für einen Fehler, bei dem die OData-Datenquelle nicht mehr erstellt und bearbeitet werden konnte
 * Hotfix für einen Fehler, bei dem Cloud-Ressourcen nicht mehr angelegt oder bearbeitet werden konnten
 
@@ -370,7 +370,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem der Zugriff eigens angelegter Nutzer auf das Webinterface zu einem Fehler geführt hat
 
 
-## 2.8.2.0(22.03.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Et7Z8JdjpM9Jh8gyaTDtO4kBf7djpCRziclmq4rqvdEOFg?e=D85Hdg)
+## 2.8.2.0(22.03.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EqUKx5Nh0PJDlamMS9GGhxcBGIYOuWPGvrQcwb1yAJdFig?e=ap6n5o)
 * Hotfix für einen kritischen Fehler, bei dem das Zertifikat für die verschlüsselte Kommunikation (:40405) nicht korrekt erstellt wurde 
 
 ## 2.8.1.0 (16.03.2021)
@@ -404,7 +404,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem das Neu laden einer Excel-Datenquelle die Datentypeinstellungen zurückgesetzt hat
 
 
-## 2.7.0.0 (09.02.2021) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EoZnpEzOy4FInIVk-lDFuVgBrcMTaidBnaHa-UJhcQ2J_w?e=vwbWpU) 
+## 2.7.0.0 (09.02.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EmkMsuxkxZNJt1fJ-ZkumSkBegdQqDts2Sv8uJPG4dbyWQ?e=9iQge1) 
 * Peakboard Hub List als Datenquelle für [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) hinzugefügt
 * Rework für die MQTT Datenquelle
 * Rework für interaktive [Controls]
@@ -438,7 +438,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die Preview auf einem anderen Monitor ausgeführt wurde als der Peakboard Designer
 
   
-## 2.6.2.0 (17.12.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ejzogw8wAfFIkKfyq_iKMMEB1CM2pSuQXSpg9MKHOHfNjQ?e=oW3wim)
+## 2.6.2.0 (17.12.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Euwhhl_e85ROtu9HgUnXyEUBaZaYoqItskvLgNclOqgQnQ?e=k9WN36)
 * Hotfix für einen Fehler in der XML-Datenquelle, bei dem die Daten nicht geladen wurden
 * Hotfix für einen Fehler, bei dem das Ändern der JSON, XML, CSV Header nicht übernommen wurde
 
@@ -467,7 +467,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem das Web-Widget auf der Zeichenfläche nicht angezeigt wurde
 * Fix für einen Fehler, bei dem die XQL Statements für die SAP-Datenquelle fehlerhafte Werte zurückgegeben haben
 
-## 2.5.2.0 (26.10.2020)[Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Eq7oFzyBV1BBvKCc5yvk0rQBnpL3-11nML-P2XrKp63W7g?e=Klr4Wn)
+## 2.5.2.0 (26.10.2020)[Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtdGqMkn0ehHgj1FankNqwsB8YniUX7iQCTLy0qSWIhMzg?e=e9NCZG)
 * Hotfix für einen Fehler, bei dem das Beschreiben von Listenvariablen nicht mehr möglich war
 
 ## 2.5.1.0 (23.10.2020)
@@ -503,7 +503,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem das Webpage-Control nicht mit der Authentifizierung "none" genutzt werden konnte
 * Fix für einen Fehler, bei dem die Deinstallation des Peakboard Designers nicht korrekt vollständig ausgeführt wurde
 
-## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ev2WJvGLtwFLvz5nRtGX4KABmPad9KPzH7w9J37lCRFrZQ?e=ZurMnR)
+## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/ElKusA888WtJpmpCneFxfeABymSoBZpp__ZY9EnjW21FiQ?e=qA8fmn)
 * Hotfix für einen Fehler im SQL-Datenquellendialoge
 * Hotfix für einen Fehler bei http-put-Requests
 
@@ -598,7 +598,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler, bei dem die Transition eines Screens mit der Eigenschaft "none" nicht funktioniert hatte
 * Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/EraALhDXk0lCifINoOfWVzUBpy6oBuxTOIWbFGoGyHpSXA?e=a1FFgj)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EphbbQwgJxJBp-heqcckzOMBwNl5PGG37IXLoLOG9JizAw?e=OeThjQ)
 * Hotfix für einen Speicherfehler
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020) 
@@ -640,7 +640,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler bei dem der Broadcast der Peakboard 2 Box nicht korrekt ausgeführt wurde
 * Fix für einen Fehler bei dem das Textticker-Control und das DropDown-Control nicht korrekt ausgeführt wurden
 
-## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Ehr7t9IhmVdJiio__qmtMUIBP-W5NGPKml40HbMNCx9EDA?e=qFy3H7)
+## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EmWenTHVTOpOv-rSJpM7M9oBNyVCJdeRmI41GxSsxy9PBg?e=vNKPQ0)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
@@ -685,7 +685,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler bei dem ein gesperrtes Element auf der Zeichenfläche die Bearbeitung eines darunterliegenden Elements verhinderte
 * Fix für einen Fehler bei dem die Peakboard 2 Preview nicht auf einem Windows 7 Gerät ausgeführt werden konnte
 
-## 2.1.1.0 // 1.10.1.0 (03.04.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Evp-kobC6_NCsm9EOQjZxcgBnqmFDJ2-doAIGrfKQIAaiQ?e=1nheWl)
+## 2.1.1.0 // 1.10.1.0 (03.04.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EpZUKEw4TBRAhSqm2mCP5YsB46SPevNs6tuZWr-7SQu7Rg?e=6T4QpP)
 * Fix für die Datenverknüpfung von Spalten, welche mit einer Zahl beginnen
 * Fix für einen Fehler bei dem die Navigation per Tabulator-Taste beim Umbenennen von Spalten nicht funktioniert hat
 * Datenverknüpfungsdialog für Tile, ListView, TileView und Live Tiles übernommen
@@ -729,7 +729,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
 
-## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/ElRTM3tT5SRGi3BBUtFM2ogBg1QT4ZGiOLCHdz8ihwA6JQ?e=Q4rjH7)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EnenswLvD_1Btv8mtp1vDosBvRfhvUyblw215m4dS-pOmg?e=Qz84LI)
 * Unterscheidung in der Versionierung für Peakboard 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
@@ -756,7 +756,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für einen Fehler beim Kopieren einer OPC/UA Datenquelle
 * Fix für Skript-Fehlermeldungen im Peakboard Runtime Log
 
-## 1.8.7.0 (31.01.2020) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EWNEpnPQNOFCjqG7OvWuxV0BIkIHRXdOO3yCGSgBwQnf3A?e=MlaQeI)
+## 1.8.7.0 (31.01.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EnId924Qa-dMvg6OQ1sDI4wBUUFjoU6MNgsVE00Fwpq7Wg?e=nFuPDa)
 * Hotfix für einen Excel-Datenquellenfehler, der dazu führte, dass die Excel-Datenquelle die Daten nicht geladen hat, wenn keine Spaltennamen ausgewählt wurden
 
 ## 1.8.6.0 (14.01.2019)
@@ -796,7 +796,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für die Handhabung von Resourcen über die Peakboard Bridge
 
 
-## 1.7.1.0 (29.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:f:/s/peakboardpublic/Eoikktz-6r5ItM51juqX6fgBA5na2F5KWMY9yzi7b8WHkA?e=ByOAeQ)
+## 1.7.1.0 (29.10.2019) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Es4DU5XtdqBEoFlZsPO4_lcB4f-E9XdfkNDk18rsQLUObw?e=dS4BG4)
 * Hotfix für den Template Designer
 
 ## 1.7.0.0 (28.10.2019)
@@ -825,7 +825,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für die Zeitdatenquelle
 * Fix für den Colorpicker beim Ändern der Werte im Textfeld
 
-## 1.6.4.0 (18.10.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/EYyKT0GXBTlLiTKu0NqnesEBMTN6QRcCyjaxUeThQgBKew?e=jVNs2G)
+## 1.6.4.0 (18.10.2019) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtdDaaDV1GhDvM0VMu81LegBW4469ENDbwbWAjahCQPrAw?e=wK440r)
 * Die Grundeinstellung für das Designer-Theme wurde auf "Light" zurückgesetzt.
 
 ## 1.6.3.0 (17.10.2019)
@@ -857,7 +857,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix für das Öffnen von Dateien 
 
 
-## 1.5.3.9 (07.08.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/ESHFf50r2tdFrrr2RA_rRegBzgCcoM7oz8C-IeIQPXRljw?e=3Mp4Nl)
+## 1.5.3.9 (07.08.2019)
 * Ein Problem bei der Verarbeitung von NULL-Daten in der SQL-Server Datenquelle wurde behoben.
 
 ## 1.5.3.1 (06.08.2019)
@@ -907,7 +907,7 @@ footer: 2.15.0.0 (06.04.2022)
 * Fix im Skript-Editor für globale Funktionen 
 
 
-## 1.3.1.0 (29.05.2019) [Download](https://theobaldsoftware.sharepoint.com/:u:/s/peakboardpublic/Eb34w5ubUXVLkIfnSREFSNEBFwHlT-3UVgFaXcc1vNr0qA?e=AjCyqo)
+## 1.3.1.0 (29.05.2019)
 * Hotfix für das Speichern von Farben bei Kreis und Donut-Diagrammen
 
 ## 1.3.0.0 (21.05.2019)
