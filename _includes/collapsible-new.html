@@ -52,22 +52,25 @@
         transform: rotate(90deg);
     }
 
-    .article-content > ul {
+    .article-content ul {
+        padding-left: 3rem !important;
+    }
+
+    .article-content ul > li:first-child {
+        margin-top: 20px;
+    }
+
+    .article-content ul > li:last-child {
+        margin-bottom: 20px;
+    }
+
+    .article-content > div {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-out;
         background-color: #fafafa;
-        padding-left: 3rem !important;
         border-bottom-width: 1px;
         border-bottom-color: lightgray;
-        margin-bottom:0;
-    }
-
-    .article-content > ul > li:first-child {
-        margin-top: 20px;
-    }
-
-    .article-content > ul > li:last-child {
         margin-bottom: 20px;
     }
 
@@ -181,6 +184,12 @@
 
 
         coll[i].addEventListener("click", function() {
+            // collapse previous active entry
+            var previouslyActive = document.getElementsByClassName("active")[0]
+            previouslyActive.classList.toggle("active");
+            previouslyActive.nextElementSibling.style.maxHeight = null;
+
+            // open clicked entry
             this.classList.toggle("active");
             var content = this.nextElementSibling;
             if (content.style.maxHeight){

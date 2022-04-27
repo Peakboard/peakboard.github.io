@@ -1,0 +1,84 @@
+<h2 id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-download">{{ include.data.version }} ({{ include.data.date }}) <a href="{{ include.data.download_url }}">Download</a></h2>
+<div id="{{ include.data.version | remove: '.' }}-container">
+  <div class="block">
+    <div class="border-b border-gray-200">
+      <nav class="-mb-px flex flex-wrap" aria-label="Tabs">
+        {% assign counter = 1 %}
+        {% for tab in include.data.tabs %}
+          <a variant="normal" id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-tab-{% if tab.name != '' %}{{ tab.name }}{% else %}{{ counter }}{% endif %}"
+             class="tab-item border-transparent break-words hover:border-gray-300 cursor-pointer text-gray-darkest hover:text-gray-darker py-4 px-4 text-center border-b-2 font-semibold">
+            {% if tab.name != '' %}{{ tab.name }}{% else %}{{ counter }}{% assign counter = counter | plus: 1 %}{% endif %}
+          </a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+  {% assign other_counter = 1 %}
+  {% for tab in include.data.tabs %}
+    <div class="hidden mb-8" id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-tab-{% if tab.name != '' %}{{ tab.name }}{% else %}{{ other_counter }}{% assign other_counter = other_counter | plus: 1 %}{% endif %}-content">
+      {% if tab.content.type == 'list' %}
+      <ul>
+        {% for item in tab.content.list_items %}
+          <li>{{ item | markdownify }}</li>
+        {% endfor %}
+      </ul>
+      {% elsif tab.content.type == 'image' %}
+      <img src="/assets/images/versions/{{ tab.content.image }}" class="block w-auto lightbox-ignore m-4" alt="{{ tab.name }}">
+      <p class="m-4">{{ tab.content.description }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  {
+    var tabItems = document.getElementsByClassName("tab-item");
+    var currentTabItemId
+
+    for (var i = 0; i < tabItems.length; i++) {
+      if (tabItems[i].id !== currentTabItemId) {
+        // click and hover events
+        tabItems[i].addEventListener("click", function(event) {
+          currentTabItemId = onTabClick(event, currentTabItemId);
+        });
+      }
+    }
+
+    // open first tab
+    var currentTabItem = tabItems[0];
+    currentTabItemId = currentTabItem.id;
+    currentTabItem.classList.add("tab-item-active", "border-orange");
+    currentTabItem.classList.remove("border-transparent", "hover:border-gray-300");
+    document.getElementById(currentTabItemId + "-content").classList.remove("hidden");
+    var versionContainer = document.getElementById(currentTabItemId.split("-")[0] + "-container");
+    versionContainer.style.maxHeight = versionContainer.scrollHeight + "px";
+
+    function onTabClick(event, currentId) {
+      // find previous active item and make not active
+      var previousActiveTab = document.getElementsByClassName("tab-item-active")[0];
+      if (previousActiveTab) {
+        previousActiveTab.classList.add("border-transparent", "hover:border-gray-300");
+        previousActiveTab.classList.remove("tab-item-active", "border-orange");
+
+        // hide content corresponding with previous tab
+        var previousActiveTabContent = document.getElementById(currentId + "-content");
+        previousActiveTabContent.classList.add("hidden");
+      }
+
+      // change clicked tab to current tab
+      currentId = event.target.id;
+      event.target.classList.add("tab-item-active", "border-orange");
+      event.target.classList.remove("border-transparent", "hover:border-gray-300");
+
+      // show content corresponding with current tab
+      var tabContent = document.getElementById(currentId + "-content");
+      if(tabContent) tabContent.classList.remove("hidden");
+
+      // recalculate max-height for tab container
+      var versionContainer = document.getElementById(currentId.split("-")[0] + "-container");
+      versionContainer.style.maxHeight = versionContainer.scrollHeight + "px";
+
+      return event.target.id;
+    }
+  }
+</script>

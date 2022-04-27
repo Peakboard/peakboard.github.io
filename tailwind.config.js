@@ -7,7 +7,8 @@ module.exports = {
         '_posts/*.md',
         'js/*.js',
         '*.html',
-        '*.md'
+        '*.md',
+        "./node_modules/flowbite/**/*.js"
     ],
     theme: {
         extend: {
@@ -130,7 +131,7 @@ module.exports = {
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),
-        require('@tailwindcss/aspect-ratio'),
+        require('@tailwindcss/aspect-ratio')
     ],
     future: {
         removeDeprecatedGapUtilities: true,

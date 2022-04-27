@@ -279,7 +279,7 @@ html {
     outline-style: none;
   }
 
-  a {
+  a:not([variant="normal"]) {
     color: #ffa500;
     font-weight: 700;
     text-decoration: none;
