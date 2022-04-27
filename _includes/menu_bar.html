@@ -45,53 +45,55 @@
                     {% for article in sorted_articles %}
                         {% assign parts = article.path | split: "/" %}
                         {% assign num_parts = article.path | split: "/" | size %}
-                        {% if num_parts == 2 %}
+                        {% if article.draft != true %}
+                            {% if num_parts == 2 %}
 
-                    <li>
-                        <a class="w-full block  py-1 hover:text-orange text-sm text-white no-underline" href="{{ article.url | relative_url }}">
-                            {{ article.menu_title | default: article.title | escape }}
-                        </a>
-                    </li>
+                        <li>
+                            <a class="w-full block py-1 hover:text-orange text-sm text-white no-underline" href="{{ article.url | relative_url }}">
+                                {{ article.menu_title | default: article.title | escape }}
+                            </a>
+                        </li>
 
-                        {% else %}
-                            {% assign sub_level = parts[1] %}
-                            {% assign matched = used_categories | where_exp:"item", "item == sub_level" | size %}
-                            {% if matched == 0 %}
-                                {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
+                            {% else %}
+                                {% assign sub_level = parts[1] %}
+                                {% assign matched = used_categories | where_exp:"item", "item == sub_level" | size %}
+                                {% if matched == 0 %}
+                                    {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
 
-                    <li class="has-submenu">
-                        <p class="py-2 hover:text-orange cursor-pointer text-sm text-white flex items-center">
+                        <li class="has-submenu">
+                            <p class="py-2 hover:text-orange cursor-pointer text-sm text-white flex items-center">
 
-                            {{ collection.sublevel[sub_level][page.lang] }}
+                                {{ collection.sublevel[sub_level][page.lang] }}
 
-                            {% include svg/right_arrow.svg %}
-                        </p>
-                        <ul class="sub_level_list list-reset pl-4 absolute top-0 bottom-0 right-0 w-full bg-grey-dark">
-                            <li class="sub-level-list-close flex items-center text-sm  text-white hover:text-orange cursor-pointer mb-4 mt-3" id="sublevel">
-                                {% include svg/left_arrow.svg %}
+                                {% include svg/right_arrow.svg %}
+                            </p>
+                            <ul class="sub_level_list list-reset pl-4 absolute top-0 bottom-0 right-0 w-full bg-grey-dark">
+                                <li class="sub-level-list-close flex items-center text-sm  text-white hover:text-orange cursor-pointer mb-4 mt-3" id="sublevel">
+                                    {% include svg/left_arrow.svg %}
 
-                                {{ collection.title[page.lang] }}
+                                    {{ collection.title[page.lang] }}
 
-                            </li>
-                                {% assign sorted_sub_articles = (all_articles | sort: 'weight' ) %}
-                                {% for art in sorted_sub_articles %}
-                                    {% assign parts = art.path | split: "/" %}
-                                    {% assign num_parts = art.path | split: "/" | size %}
-                                    {% if num_parts == 3 and parts[1] == sub_level %}
+                                </li>
+                                    {% assign sorted_sub_articles = (all_articles | sort: 'weight' ) %}
+                                    {% for art in sorted_sub_articles %}
+                                        {% assign parts = art.path | split: "/" %}
+                                        {% assign num_parts = art.path | split: "/" | size %}
+                                        {% if num_parts == 3 and parts[1] == sub_level %}
 
-                            <li>
-                                <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ art.url | relative_url }}">
-                                    {{ art.menu_title | default: art.title | escape }}
-                                </a>
-                            </li>
+                                <li>
+                                    <a class="w-full block py-2 hover:text-orange text-white no-underline" href="{{ art.url | relative_url }}">
+                                        {{ art.menu_title | default: art.title | escape }}
+                                    </a>
+                                </li>
 
-                                    {% endif %}
-                                {% endfor %}
+                                        {% endif %}
+                                    {% endfor %}
 
-                        </ul>
-                    </li>
+                            </ul>
+                        </li>
 
-                                {% assign used_categories = used_categories | push: sub_level %}
+                                    {% assign used_categories = used_categories | push: sub_level %}
+                                {% endif %}
                             {% endif %}
                         {% endif %}
                     {% endfor %}
