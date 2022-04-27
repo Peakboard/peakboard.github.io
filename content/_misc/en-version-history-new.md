@@ -9,6 +9,7 @@ ref: misc-100000
 redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.15.0.0 (06.04.2022)
+draft: true
 ---
 
 {% assign sorted_version_history_entries = site.data[page.lang].version_history | sort %}
