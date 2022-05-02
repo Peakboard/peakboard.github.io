@@ -1,8 +1,8 @@
 ---
 layout: article
-title: FAQ - Sicherheit
-menu_title: FAQ - Sicherheit
-description: FAQ - Sicherheit
+title: FAQ - Security
+menu_title: FAQ - Security
+description: FAQ - Security
 lang: en
 weight: 10500
 ref: misc-10500
