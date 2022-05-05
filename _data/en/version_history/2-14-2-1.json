@@ -4,12 +4,14 @@
   "download_url": "https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EluftgNSJBxPhzSKmmhz8zABOjbWYYTuNLunCFcEKOdrLw?e=8W6nEf",
   "tabs": [
     {
-      "name": "Hotfix",
+      "name": "Gesamtübersicht",
       "content": {
         "type": "list",
         "list_items": [
-          "Hotfix for a bug in Peakboard Designer, where the update of the software could not be done anymore",
-          "Hotfix for a bug where the body could not be read in an http request for CSV, XML and JSON data sources"
+          "* Hotfix für einen Fehler im Peakboard Designer, bei dem das Update der Software nicht mehr durchgeführt werden konnte",
+          "* Hotfix für einen Fehler, bei dem der Body in einem http-Request für CSV, XML und JSON-Datenquellen nicht ausgelesen werden konnte",
+          "",
+          "",
         ]
       }
     }
