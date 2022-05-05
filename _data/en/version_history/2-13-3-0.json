@@ -8,8 +8,10 @@
       "content": {
         "type": "list",
         "list_items": [
-          "* **Datenquellen**"
-          "* [Excel](/data_sources/Excel/de-excel.html) - Hotfix für eine Fehler, der bei einer vorhandenen Verbindung zu einer Excel-Datei auf einem Netzlaufwerk einen fehlerhaften Dialog öffnete "
+          "* **Datenquellen**",
+          "* [Excel](/data_sources/Excel/de-excel.html) - Hotfix für eine Fehler, der bei einer vorhandenen Verbindung zu einer Excel-Datei auf einem Netzlaufwerk einen fehlerhaften Dialog öffnete ",
+          "",
+          "",
         ]
       }
     }
