@@ -12,12 +12,12 @@ redirect_from:
 
 ## Forcam als Datenquelle für Peakboard nutzen.
 
-Bei der Anbindung von Forcam wird die Force Bridge API eine sogenannte REST API verwendet. 
-Über diese können Calls getätigt werden welche bestimmte Informationen zurückgeben.
-Eine Dokumentation der Force Bridge API findet ihr [hier.](https://forcebridge.io/)
+Bei der Anbindung von Forcam wird die Force Bridge API, eine sogenannte REST API verwendet. 
+Über diese können Calls getätigt werden, welche bestimmte Informationen zurückgeben.
+Eine Dokumentation der Force Bridge API findest du [hier.](https://forcebridge.io/)
 
-Im Swagger Tool der API können die einzelnen Calls der REST API erkundet werden. 
-Den Zugriff hierauf erhaltet ihr dabei von Forcam selbst.
+Im Swagger Tool der API kannst du die einzelnen Calls der REST API erkunden. 
+Den Zugriff hierauf erhältst du dabei von Forcam selbst.
 
 
 
@@ -25,10 +25,9 @@ Den Zugriff hierauf erhaltet ihr dabei von Forcam selbst.
 
 
 
-Habt ihr im Swagger Tool die gewünschte Abfrage gefunden dann könnt ihr die Request URL kopieren 
-und diese dann im Peakboard Designer nutzen.
+Hast du im Swagger Tool die gewünschte Abfrage gefunden, kannst du die Request URL kopieren und diese im Peakboard Designer nutzen.
 
-Dafür legt ihr im Peakboard Designer eine neue JSON Datenquelle an.
+Dafür legst du im Peakboard Designer eine neue [JSON Datenquelle](/data_sources/de-json.html) an.
 
 
 
@@ -36,19 +35,19 @@ Dafür legt ihr im Peakboard Designer eine neue JSON Datenquelle an.
 
 
 
-Diese benötigt einen Namen und ein Reload Intervall.
-Beim Quell typ muss  URL definiert werden und für die Basis URL die im Swagger Tool kopierte Request URL. 
+Gib der Datenquelle einen Namen und ein Reload Intervall.
+Bei [Quelltyp] muss [URL] ausgewählt werden und ins Feld [Basis Url] fügst du die im Swagger Tool kopierte Request URL ein. 
 
-Nach dem Einfügen der URL wird diese automatisch in die Basis URL und den URL Pfad für die spezifische Abfrage aufgeteilt. 
-So kann die Basis URL in mehreren JSON Datenquellen als existierende Verbindung genutzt werden.
+Nach dem Einfügen der URL wird diese automatisch in die Basis URL und den URL-Pfad für die spezifische Abfrage aufgeteilt. 
+So kannst du die Basis URL in mehreren JSON Datenquellen als existierende Verbindung nutzen.
 
-Um auf die REST API von Forcam zugreifen zu können benötigt es einer OAuth Authentifizierung. 
-Diese kann unter dem Authentication Type ausgewählt werden. 
-Wenn auf den Button Token anfordern geklickt wird öffnet sich automatisch eine Maske, in der unter dem Punkt Voreinstellungen FORCE Bridge ausgewählt werden kann. 
+Um auf die REST API von Forcam zugreifen zu können, benötigst du eine OAuth Authentifizierung. 
+Diese wählst du im Drop-Down [Authentication Type] aus. 
+Wenn du auf den Button [Token anfordern] klickst, öffnet sich automatisch eine Maske, in der du unter dem Punkt [Voreinstellungen] im Drop-Down FORCE Bridge auswählst. 
 Dadurch werden automatisch einzelne Standardfelder ausgefüllt. 
-Es muss nun nur noch in der Access Token URL die URL der Forcam API eingesetzt werden. 
-Diese entspricht der Basis URL der Abfragen. Außerdem müssen noch die von Forcam zur Verfügung gestellte Client ID und das Client Secret eingetragen werden. 
-Danach kann über Token Anfordern ein Token angefordert werden.
+Du musst nun nur noch in der Access Token URL die URL der Forcam API einsetzen. 
+Diese entspricht der Basis URL der Abfragen. Außerdem musst du noch die von Forcam zur Verfügung gestellte Client ID und das[Client Secret in den entsprechenden Feldern eintragen. 
+Danach kannst du über [Token Anfordern] ein Token anfordern.
 
 
 
@@ -56,9 +55,9 @@ Danach kann über Token Anfordern ein Token angefordert werden.
 
 
 
-Nachdem die OAuth Authentifizierung erfolgreich abgeschlossen wurde, können über Daten Laden bereits daten aus der REST API geladen werden. 
-Um noch zu definieren welche Daten aus dem Ergebnis genau angezeigt werden sollen kann über den Pfad der Pfad definiert werden, welcher in der JSON Response verwendet werden soll.
+Nachdem die OAuth Authentifizierung erfolgreich abgeschlossen wurde, kannst du über [Daten Laden] bereits Daten aus der REST API laden. 
+Um noch zu definieren, welche Daten aus dem Ergebnis genau angezeigt werden sollen, kann über [Pfad] der Pfad definiert werden, der in der JSON Response verwendet werden soll.
 
 
 
-In [diesem Video](https://www.youtube.com/watch?v=kZlCyePq61A) wird nochmal erklärt wie die Forcam Anbindung im Peakboard Designer erstellt wird.
+In [diesem Video](https://www.youtube.com/watch?v=kZlCyePq61A) wird nochmal erklärt, wie die Forcam Anbindung im Peakboard Designer erstellt wird.
