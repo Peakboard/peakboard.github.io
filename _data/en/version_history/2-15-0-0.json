@@ -16,7 +16,7 @@
       "content": {
         "type": "image",
         "image": "2-15-0-0-Datepicker_en.gif",
-        "description": "New interactive control [Date Picker]() for date input is now available. Data format for data input and visual output can be defined individually."
+        "description": "New interactive control [Date Picker](/controls/Input/de-datepicker.html) for date input is now available. Data format for data input and visual output can be defined individually."
       }
     },
 	{
@@ -24,7 +24,7 @@
       "content": {
         "type": "image",
         "image": "2-15-0-0-Timepicker_en.gif",
-        "description": "New interactive control [Time Picker]() for time input is now available. Data format for data input and visual output can be defined individually."
+        "description": "New interactive control [Time Picker](/controls/Input/de-timepicker.html) for time input is now available. Data format for data input and visual output can be defined individually."
       }
     },
 	{
