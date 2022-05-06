@@ -4,6 +4,30 @@
   "download_url": "https://peakboard.rocks/download-version-history",
   "tabs": [
     {
+      "name": "Script Tree",
+      "content": {
+        "type": "image",
+        "image": "2-15-0-0-Scripttree_en.gif",
+        "description": "The script tree has been revised and restructured. It has been adapted to the script tree of the Building Block mode. Colored indicators showing which data type is returned by a script snippet have been implemented. In the script tree, the created folder structure is taken from the File Explorer. Icons have also been added for data sources and controls."
+      }
+    },
+	{
+      "name": "Date Picker",
+      "content": {
+        "type": "image",
+        "image": "2-15-0-0-Datepicker_en.gif",
+        "description": "New interactive control [Date Picker]() for date input is now available. Data format for data input and visual output can be defined individually."
+      }
+    },
+	{
+      "name": "Time Picker",
+      "content": {
+        "type": "image",
+        "image": "2-15-0-0-Timepicker_en.gif",
+        "description": "New interactive control [Time Picker]() for time input is now available. Data format for data input and visual output can be defined individually."
+      }
+    },
+	{
       "name": "General overview",
       "content": {
         "type": "list",
