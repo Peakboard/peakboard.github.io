@@ -64,7 +64,7 @@
           "Fix for a bug where the button for encrypting a Peakboard Box in the Peakboard Box Settings was not grayed out even though the Peakboard Box was not connected",
           "",
           "**Peakboard Hub**",
-          "Example value for [setentry] changed to 1","
+          "Example value for [setentry] changed to 1",
         ]
       }
     }
