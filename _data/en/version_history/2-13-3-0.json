@@ -1,0 +1,17 @@
+[{
+  "version": "2.13.3.0",
+  "date": "02.12.2021",
+  "download_url": "https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtIXvBD0Wb1Nrnq8cVlDrU4BHvbGNQcVyUBB7EA_xIW21w?e=YkSFBz",
+  "tabs": [
+    {
+      "name": "General overview",
+      "content": {
+        "type": "list",
+        "list_items": [
+          "**Data_sources**.",
+          "[Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive ",
+        ]
+      }
+    }
+  ]
+}]
