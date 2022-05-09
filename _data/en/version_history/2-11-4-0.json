@@ -1,0 +1,17 @@
+[{
+  "version": "2.11.4.0",
+  "date": "10.09.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "General overview",
+      "content": {
+        "type": "list",
+        "list_items": [
+          "**General**.",
+          "Hotfix for a bug where incorrect translations caused the Chinese version of the Peakboard Desinger to crash",
+        ]
+      }
+    }
+  ]
+}]

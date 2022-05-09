@@ -1,0 +1,17 @@
+[{
+  "version": "2.11.3.0",
+  "date": "02.09.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "General overview",
+      "content": {
+        "type": "list",
+        "list_items": [
+          "**General**.",
+          "Hotfix for a bug where access to created [Peakboard variables/lists](/scripting/en-variables.html) via the API was no longer possible","
+        ]
+      }
+    }
+  ]
+}]
