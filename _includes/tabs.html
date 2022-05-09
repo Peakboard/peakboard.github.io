@@ -24,7 +24,7 @@
       </ul>
       {% elsif tab.content.type == 'image' %}
       <img src="/assets/images/versions/{{ tab.content.image }}" class="block w-auto lightbox-ignore m-4" alt="{{ tab.name }}">
-      <p class="m-4">{{ tab.content.description }}</p>
+      <p class="m-4">{{ tab.content.description | markdownify }}</p>
       {% endif %}
     </div>
   {% endfor %}
