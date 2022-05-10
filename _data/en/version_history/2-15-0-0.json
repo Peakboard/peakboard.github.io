@@ -5,31 +5,31 @@
   "tabs": [
     {
       "name": "Script Tree",
-      "content": {
+      "content": [{
         "type": "image",
         "image": "2-15-0-0-Scripttree_en.gif",
         "description": "The script tree has been revised and restructured. It has been adapted to the script tree of the Building Block mode. Colored indicators showing which data type is returned by a script snippet have been implemented. In the script tree, the created folder structure is taken from the File Explorer. Icons have also been added for data sources and controls."
-      }
+      }]
     },
 	{
       "name": "Date Picker",
-      "content": {
+      "content": [{
         "type": "image",
         "image": "2-15-0-0-Datepicker_en.gif",
         "description": "New interactive control [Date Picker](/controls/Input/en-datepicker.html) for date input is now available. Data format for data input and visual output can be defined individually."
-      }
+      }]
     },
 	{
       "name": "Time Picker",
-      "content": {
+      "content": [{
         "type": "image",
         "image": "2-15-0-0-Timepicker_en.gif",
         "description": "New interactive control [Time Picker](/controls/Input/en-timepicker.html) for time input is now available. Data format for data input and visual output can be defined individually."
-      }
+      }]
     },
 	{
       "name": "General overview",
-      "content": {
+      "content": [{
         "type": "list",
         "list_items": [
           "**General**",
@@ -88,9 +88,9 @@
           "Fix for a bug where the button for encrypting a Peakboard Box in the Peakboard Box Settings was not grayed out even though the Peakboard Box was not connected",
           "",
           "**Peakboard Hub**",
-          "Example value for [setentry] changed to 1",
+          "Example value for [setentry] changed to 1"
         ]
-      }
+      }]
     }
   ]
 }]

@@ -5,7 +5,7 @@
   "tabs": [
     {
       "name": "General overview",
-      "content": {
+      "content": [{
         "type": "list",
         "list_items": [
           "**General**",
@@ -54,7 +54,7 @@
           "Fix for a bug where global functions were lost",
           "Fix for a bug where the validator did not work correctly anymore",
         ]
-      }
+      }]
     }
   ]
 }]

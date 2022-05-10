@@ -4,7 +4,7 @@
   "tabs": [
     {
       "name": "General overview",
-      "content": {
+      "content": [{
         "type": "list",
         "list_items": [
           "Implementation of a new version, which allows for updates independent of an update of the Peakboard Box",
@@ -74,7 +74,7 @@
           "[Building Blocks](/scripting/en-building-blocks.html) - deleted Building Blocks can be restored by user",
           "[Building Blocks](/scripting/en-building-blocks.html) - redesigned script tree",
         ]
-      }
+      }]
     }
   ]
 }]

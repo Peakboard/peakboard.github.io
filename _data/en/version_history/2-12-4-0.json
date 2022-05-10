@@ -5,13 +5,13 @@
   "tabs": [
     {
       "name": "General overview",
-      "content": {
+      "content": [{
         "type": "list",
         "list_items": [
           "**Peakboard Box**",
           "Hotfix for a bug where the initial visualization was not terminated correctly, generating a large number of errors in the log",
         ]
-      }
+      }]
     }
   ]
 }]

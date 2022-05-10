@@ -5,13 +5,13 @@
   "tabs": [
     {
       "name": "General overview",
-      "content": {
+      "content": [{
         "type": "list",
         "list_items": [
           "**Data sources**.",
           "[Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive ",
         ]
-      }
+      }]
     }
   ]
 }]

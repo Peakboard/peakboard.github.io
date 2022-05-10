@@ -5,13 +5,13 @@
   "tabs": [
     {
       "name": "General overview",
-      "content": {
+      "content": [{
         "type": "list",
         "list_items": [
           "**Data sources**.",
           "Hotfix for a bug where an [extension](/data_sources/Extension/en-Extension.html) could no longer be edited or copied",
         ]
-      }
+      }]
     }
   ]
 }]

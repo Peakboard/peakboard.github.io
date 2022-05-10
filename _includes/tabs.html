@@ -16,16 +16,20 @@
   {% assign other_counter = 1 %}
   {% for tab in include.data.tabs %}
     <div class="hidden mb-8" id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-tab-{% if tab.name != '' %}{{ tab.name }}{% else %}{{ other_counter }}{% assign other_counter = other_counter | plus: 1 %}{% endif %}-content">
-      {% if tab.content.type == 'list' %}
-      <ul>
-        {% for item in tab.content.list_items %}
-          <li>{{ item | markdownify }}</li>
-        {% endfor %}
-      </ul>
-      {% elsif tab.content.type == 'image' %}
-      <img src="/assets/images/versions/{{ tab.content.image }}" class="block w-auto lightbox-ignore m-4" alt="{{ tab.name }}">
-      <p class="m-4">{{ tab.content.description | markdownify }}</p>
-      {% endif %}
+      {% for content in tab.content %}
+        {% if content.type == 'list' %}
+        <ul>
+          {% for item in content.list_items %}
+            <li>{{ item | markdownify }}</li>
+          {% endfor %}
+        </ul>
+        {% elsif content.type == 'headline' %}
+        <h3>{{ content.text | markdownify }}</h3>
+        {% elsif content.type == 'image' %}
+        <img src="/assets/images/versions/{{ content.image }}" class="block w-auto lightbox-ignore m-4" alt="{{ tab.name }}">
+        <p class="m-4">{{ content.description | markdownify }}</p>
+        {% endif %}
+      {% endfor %}
     </div>
   {% endfor %}
 </div>

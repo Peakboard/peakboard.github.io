@@ -5,13 +5,15 @@
   "tabs": [
     {
       "name": "General overview",
-      "content": {
+      "content": [{
+        "type": "headline",
+        "text": "General"
+      }, {
         "type": "list",
         "list_items": [
-          "**General**.",
           "Hotfix for a bug where access to created [Peakboard variables/lists](/scripting/en-variables.html) via the API was no longer possible",
         ]
-      }
+      }]
     }
   ]
 }]

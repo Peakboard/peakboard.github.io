@@ -5,7 +5,7 @@
   "tabs": [
     {
       "name": "General overview",
-      "content": {
+      "content": [{
         "type": "list",
         "list_items": [
           "**General**",
@@ -48,7 +48,7 @@
           "Fix for a bug where setting a value in [Peakboard Hub Lists]() automatically set all other columns to their default values",
           "Fix for a bug that displayed displayed multiple times",
         ]
-      }
+      }]
     }
   ]
 }]
