@@ -6,9 +6,11 @@
     {
       "name": "General overview",
       "content": [{
+		"type": "headline",
+        "text": "General"
+      }, {
         "type": "list",
         "list_items": [
-          "**General**",
           "[Web Access] - Access to created global script functions implemented",
           "[Dataflows] - [Remove duplicates] step added",
           "[Dataflows] - Missing translations added",
@@ -22,11 +24,21 @@
           "Fix for a bug where [dataflows] were displayed as editable for non-editable dataflows",
           "Fix for a bug where Google Drive could no longer be used",
           "Fix for a bug where the range function in a [Dataflow] did not work correctly",
-          "**Controls**",
+      }, {
+		"type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
           "[Table Grid](/controls/Common/en-table-grid.html) - Fix for a bug where the reordering of columns was not saved with [OK].",
           "[Drop Down](/controls/Input/en-dropdown.html) - fix for a bug where the Visible/Invisible property led to a critical error",
           "[Text](/controls/Common/en-text-block.html) - fix for a bug where formatting for background was lost",
-          "**Data sources**",
+      }, {
+		"type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
           "[Extension](/data_sources/Extension/en-Extension.html) - Fix for a bug where a created extension connection could no longer be edited or copied",
           "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a problem where only correct URIs could be used for the namespace",
           "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for several errors",
@@ -34,17 +46,37 @@
           "[Date and Time](/data_sources/en-date-and-time.html) - Now shows a real date when linked to a [Text-Control](/controls/Common/en-text-block.html)",
           "[Peakboard data source](/data_sources/en-peakboard-data-soure.html) - Error messages revised",
           "[CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data",
-          "**Peakboard API**",
+      }, {
+		"type": "headline",
+        "text": "Peakboard API"
+      }, {
+        "type": "list",
+        "list_items": [
           "API call for reading and writing a single value of a list, added by passing the index.",
           "Added endpoints for Peakboard scripts",
           "Fix for a bug where values could no longer be set via Web Access",
-          "**Peakboard Box**",
+      }, {
+		"type": "headline",
+        "text": "Peakboard Box"
+      }, {
+        "type": "list",
+        "list_items": [
           "Fix for a bug where logs were only removed from the view when deleted, but not from the Peakboard Box.",
           "Fix for an error in the log caused by initial default visualization",
           "Fix for an error in the log caused by resetting a Peakboard Box.",
-          "**Peakboard Edge**",
+      }, {
+		"type": "headline",
+        "text": "Peakboard Edge"
+      }, {
+        "type": "list",
+        "list_items": [
           "Minor bug fixes ",
-          "**Scripting**",
+      }, {
+		"type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
           "[Script Tree](/scripting/de-script-tree.html) revised",
           "[Building Blocks](/scripting/en-building-blocks.html) - bugfixes and minor improvements like drag & drop and more new blocks",
           "Fix for a bug where the name \"data\" for a variable caused errors in the script",
