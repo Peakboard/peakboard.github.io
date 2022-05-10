@@ -6,6 +6,9 @@
     {
       "name": "General overview",
       "content": [{
+		"type": "headline",
+        "text": "Data sources"
+      }, {
         "type": "list",
         "list_items": [
           "**Data sources**.",
