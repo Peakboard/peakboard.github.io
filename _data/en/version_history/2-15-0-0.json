@@ -6,14 +6,20 @@
     {
       "name": "Script Tree",
       "content": [{
+		"type": "headline",
+        "text": "Script Tree"
+      }, {
         "type": "image",
         "image": "2-15-0-0-Scripttree_en.gif",
-        "description": "The script tree has been revised and restructured. It has been adapted to the script tree of the Building Block mode. Colored indicators showing which data type is returned by a script snippet have been implemented. In the script tree, the created folder structure is taken from the File Explorer. Icons have also been added for data sources and controls."
+        "description": "The [script tree](/scripting/en-script-tree.html) has been revised and restructured. It has been adapted to the script tree of the Building Block mode. Colored indicators showing which data type is returned by a script snippet have been implemented. In the script tree, the created folder structure is taken from the File Explorer. Icons have also been added for data sources and controls."
       }]
     },
 	{
       "name": "Date Picker",
       "content": [{
+		"type": "headline",
+        "text": "Date Picker"
+      }, {
         "type": "image",
         "image": "2-15-0-0-Datepicker_en.gif",
         "description": "New interactive control [Date Picker](/controls/Input/en-datepicker.html) for date input is now available. Data format for data input and visual output can be defined individually."
@@ -22,6 +28,9 @@
 	{
       "name": "Time Picker",
       "content": [{
+		"type": "headline",
+        "text": "Time Picker"
+      }, {
         "type": "image",
         "image": "2-15-0-0-Timepicker_en.gif",
         "description": "New interactive control [Time Picker](/controls/Input/en-timepicker.html) for time input is now available. Data format for data input and visual output can be defined individually."
@@ -30,9 +39,11 @@
 	{
       "name": "General overview",
       "content": [{
+		"type": "headline",
+        "text": "General"
+      }, {
         "type": "list",
         "list_items": [
-          "**General**",
           "Loading screen for Peakboard Runtime and Peakboard Designer implemented",
           "Peakboard Runtime log messages improved",
           "Peakboard Runtime allows imitation of dataload based on preview data",
@@ -42,8 +53,13 @@
           "Fix for a bug where the URL of a web resource was lost when it was copied between two projects",
           "Fix for a bug where clicking the Upload button without a Peakboard Box connected was generating an error message",
           "Fix for a bug where the Peakboard Designer setup was showing build version [0].",
-          "",
-          "**Data Sources**",
+        ]
+      }, {
+		"type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
           "[MQTT](/data_sources/en-mqtt-broker.html) - dynamic subscription mode added",
           "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - improvements",
           "[Reload Flows](/misc/en-reloadflows.html) - list of available data sources updated to alphabetical order",
@@ -52,8 +68,13 @@
           "Fix for several bugs and general improvements in [Reload Flows](/misc/en-reloadflows.html)",
           "Fix for a bug where an error message was generated when the reload state of a data source was set to [On Startup].",
           "Fix for a bug where SAP, Oracle and ODBC data sources were returning an error instead of an empty table when no data was present",
-          "",
-          "**Controls**",
+        ]
+      }, {
+		"type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
           "New control [Date Picker](/controls/Input/en-datepicker.html)",
           "New control [Time Picker](/controls/Input/en-timepicker.html)",
           "Buggy gauge controls reworked",
@@ -64,8 +85,13 @@
           "Fix for a bug where a selection dialog was shown when dragging and dropping a [PDF](/controls/Document/en-pdf.html)",
           "Fix for a bug where web resources could not be inserted directly via the [PDF](/controls/Document/en-pdf.html) viewer",
           "Fix for a bug where [Toggle Switch](/controls/Input/en-toggleswitch.html) and [Checkbox](/controls/Input/en-checkbox.html) were not triggering the script even though the bound variable was changed",
-          "",
-          "**Scripting**",
+        ]
+      }, {
+		"type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
           "[Building Blocks](/scripting/en-building-blocks.html) - [Get row number] block added to list/tile view templates",
           "[Building Blocks](/scripting/en-building-blocks.html) - removed unused and outdated blocks",
           "[Script Editor](/scripting/en-script-editor.html) - debugger removed",
@@ -79,15 +105,25 @@
           "Fix for a bug where Siemens S7 data sources were not reloadable via script",
           "Fix for a bug where two instances were created when creating a timer script",
           "Fix for a bug where a sound output was interrupted if the color was changed and the sound command was not at the end of the script",
-          "",
-          "**Administration**",
+        ]
+      }, {
+		"type": "headline",
+        "text": "Administration"
+      }, {
+        "type": "list",
+        "list_items": [
           "Optical adjustment of two text fields in the Peakboard Box settings",
           "Fix for a bug where the Peakboard Box license was not valid due to the missing Peakboard Box ID",
           "Fix for a bug where it was not possible to delete a visualization from a Peakboard Box",
           "Fix for a bug where it was possible to access the entries in the log tab of the Peakboard Box settings despite missing privileges and a corresponding error message",
           "Fix for a bug where the button for encrypting a Peakboard Box in the Peakboard Box Settings was not grayed out even though the Peakboard Box was not connected",
-          "",
-          "**Peakboard Hub**",
+        ]
+      }, {
+		"type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
           "Example value for [setentry] changed to 1"
         ]
       }]
