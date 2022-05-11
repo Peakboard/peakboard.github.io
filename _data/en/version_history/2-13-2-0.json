@@ -6,9 +6,11 @@
     {
       "name": "General overview",
       "content": [{
+		"type": "headline",
+        "text": "General"
+      }, {
         "type": "list",
         "list_items": [
-          "**General**",
           "[Manage & Upload Dialog] - Revised",
           "[Manage & Upload Dialog] - Healthy Check implemented",
           "[Manage & Upload Dialog] - Shut-Down button for Peakboard Boxes implemented",
@@ -17,7 +19,13 @@
           "Fix for a bug that generated incorrect logs",
           "Fix for a bug that caused all variables to be overwritten, when changing a variable via web access",
           "Fix for a bug that automatically deleted log files with more than 100 KB",
-          "**Controls**",
+		]
+      }, {
+		"type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
           "For controls with data binding dialog, the dialog is opened automatically when the control is created",
           "Animation - property for all controls revised",
           "Animation - Preview and customizing revised",
@@ -28,7 +36,13 @@
           "Retro Flipper Control removed",
           "Fix for a bug that did not recognize an empty input as such in [conditional formatting](/controls/en-cf.html)",
           "Fix for a bug where .mkv format files were not recognized as video files",
-          "**Data Sources**",
+		]
+      }, {
+		"type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
           "Removed Peakboard Bridge from all data sources and resources.",
           "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Browse dialog improved",
           "[Oracle](/data_sources/en-oracle.html) - data structure revised",
@@ -37,10 +51,22 @@
           "Fix for a bug where the MQTT data source could cause a fatal exception error in rare cases",
           "Fix for a bug where split variables could create a loop",
           "Fix for a bug where the [add Time] function of a time data source did not display correctly on the drawing interface",
-          "**Peakboard Hub**",
+		]
+      }, {
+		"type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
           "Peakboard Boxes can be synchronized with the Peakboard Designer via Peakboard Hub",
           "Fix for a bug where an established Peakboard Hub connection could not be deleted",
-          "**Scripting**",
+		]
+      }, {
+		"type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
           "[Building Blocks](/scripting/en-building-blocks.html) - Copy & Paste functionality revised",
           "[Mail Function] - Revised and user handling improved",
           "Fix for a bug where the data types \"bool\" and \"number\" were not supported by the MQTT [Building Block](/scripting/en-building-blocks.html)",
