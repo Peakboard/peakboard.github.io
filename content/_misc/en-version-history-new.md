@@ -19,3 +19,4 @@ draft: true
 {% endfor %}
 
 {% include collapsible-new.html %}
+{% include tabs-script.html %}

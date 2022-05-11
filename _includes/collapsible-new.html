@@ -185,9 +185,7 @@
 
         coll[i].addEventListener("click", function() {
             // collapse previous active entry
-            var previouslyActive = document.getElementsByClassName("active")[0]
-            previouslyActive.classList.toggle("active");
-            previouslyActive.nextElementSibling.style.maxHeight = null;
+
 
             // open clicked entry
             this.classList.toggle("active");

@@ -1,0 +1,70 @@
+<script>
+  {
+    var tabItems = document.getElementsByClassName("tab-item");
+    var currentTabItemIdArray = {};
+
+    for (var i = 0; i < tabItems.length; i++) {
+      //if (tabItems[i].id !== currentTabItemId) {
+        // bind click events
+        tabItems[i].addEventListener("click", function(event) {
+            var versionId = event.target.id.split("-")[0];
+            currentTabItemIdArray[versionId] = onTabClick(event, currentTabItemIdArray[versionId]);
+        });
+      //}
+    }
+
+    var allVersionContainers = document.querySelectorAll("[id$=-container]");
+    for (var j = 0; j < allVersionContainers.length; j++) {
+        var container = allVersionContainers[j];
+
+        // open first tab
+        var firstTabItem = container.querySelectorAll(".tab-item")[0]; // get first tab item
+        var firstTabItemVersionId = firstTabItem.id.split("-")[0]; // get version id of first tab item
+        currentTabItemIdArray[firstTabItemVersionId] = firstTabItem.id; // set version of currentTabItemIdArray to id of first tab item
+        setTabActive(firstTabItem); // set active classes on tab
+
+        document.getElementById(currentTabItemIdArray[firstTabItemVersionId] + "-content").classList.remove("hidden"); // show first tab
+
+        // only open the first container
+        if(j === 0) container.style.maxHeight = container.scrollHeight + "px";
+    }
+
+    function onTabClick(event, currentId) {
+      var currentVersionId = event.target.id.split("-")[0];
+
+      // find previous active item and make not active
+      var previousActiveTab = document.getElementsByClassName("tab-item-active")[0];
+      var previousActiveTabVersionId = previousActiveTab.id.split("-")[0];
+      if (previousActiveTab && previousActiveTabVersionId === currentVersionId) {
+        setTabInactive(previousActiveTab)
+
+        // hide content corresponding with previous tab
+        var previousActiveTabContent = document.getElementById(currentId + "-content");
+        previousActiveTabContent.classList.add("hidden");
+      }
+
+      // change clicked tab to current tab
+      currentId = event.target.id;
+      setTabActive(event.target);
+
+      // show content corresponding with current tab
+      var tabContent = document.getElementById(currentId + "-content");
+      if(tabContent) tabContent.classList.remove("hidden");
+
+      // recalculate max-height for tab container
+      var versionContainer = document.getElementById(currentId.split("-")[0] + "-container");
+      versionContainer.style.maxHeight = versionContainer.scrollHeight + "px";
+
+      return event.target.id;
+    }
+  }
+
+  function setTabActive(targetElement) {
+    targetElement.classList.add("tab-item-active", "border-orange");
+    targetElement.classList.remove("border-transparent", "hover:border-gray-300");
+  }
+  function setTabInactive(targetElement) {
+    targetElement.classList.add("border-transparent", "hover:border-gray-300");
+    targetElement.classList.remove("tab-item-active", "border-orange");
+  }
+</script>
