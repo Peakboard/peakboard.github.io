@@ -23,7 +23,8 @@
           "Fix for a bug where an error message was displayed in Web Access despite successful modification of the active visualization",
           "Fix for a bug where [dataflows] were displayed as editable for non-editable dataflows",
           "Fix for a bug where Google Drive could no longer be used",
-          "Fix for a bug where the range function in a [Dataflow] did not work correctly",
+          "Fix for a bug where the range function in a [Dataflow] did not work correctly"
+        ]
       }, {
 		"type": "headline",
         "text": "Controls"
@@ -32,7 +33,8 @@
         "list_items": [
           "[Table Grid](/controls/Common/en-table-grid.html) - Fix for a bug where the reordering of columns was not saved with [OK].",
           "[Drop Down](/controls/Input/en-dropdown.html) - fix for a bug where the Visible/Invisible property led to a critical error",
-          "[Text](/controls/Common/en-text-block.html) - fix for a bug where formatting for background was lost",
+          "[Text](/controls/Common/en-text-block.html) - fix for a bug where formatting for background was lost"
+        ]
       }, {
 		"type": "headline",
         "text": "Data sources"
@@ -45,7 +47,8 @@
           "[Peakboard Hub List] - error messages revised",
           "[Date and Time](/data_sources/en-date-and-time.html) - Now shows a real date when linked to a [Text-Control](/controls/Common/en-text-block.html)",
           "[Peakboard data source](/data_sources/en-peakboard-data-soure.html) - Error messages revised",
-          "[CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data",
+          "[CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data"
+        ]
       }, {
 		"type": "headline",
         "text": "Peakboard API"
@@ -54,7 +57,8 @@
         "list_items": [
           "API call for reading and writing a single value of a list, added by passing the index.",
           "Added endpoints for Peakboard scripts",
-          "Fix for a bug where values could no longer be set via Web Access",
+          "Fix for a bug where values could no longer be set via Web Access"
+        ]
       }, {
 		"type": "headline",
         "text": "Peakboard Box"
@@ -63,14 +67,16 @@
         "list_items": [
           "Fix for a bug where logs were only removed from the view when deleted, but not from the Peakboard Box.",
           "Fix for an error in the log caused by initial default visualization",
-          "Fix for an error in the log caused by resetting a Peakboard Box.",
+          "Fix for an error in the log caused by resetting a Peakboard Box."
+        ]
       }, {
 		"type": "headline",
         "text": "Peakboard Edge"
       }, {
         "type": "list",
         "list_items": [
-          "Minor bug fixes ",
+          "Minor bug fixes "
+        ]
       }, {
 		"type": "headline",
         "text": "Scripting"
@@ -84,7 +90,7 @@
           "Error messages revised",
           "Fix for a bug where newly created functions could not be transferred to [Block Mode].",
           "Fix for a bug where global functions were lost",
-          "Fix for a bug where the validator did not work correctly anymore",
+          "Fix for a bug where the validator did not work correctly anymore"
         ]
       }]
     }
