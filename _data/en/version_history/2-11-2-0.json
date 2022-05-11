@@ -1,0 +1,19 @@
+[{
+  "version": "2.11.2.0",
+  "date": "30.08.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "General overview",
+      "content": [{
+		"type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Hotfix of an error when switching the active script in the [Script Editor](/scripting/en-script-editor.html)",
+        ]
+      }
+    }
+  ]
+}]
