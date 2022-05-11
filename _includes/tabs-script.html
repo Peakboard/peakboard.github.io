@@ -26,11 +26,13 @@
         document.getElementById(currentTabItemIdArray[firstTabItemVersionId] + "-content").classList.remove("hidden"); // show first tab
 
         // only open the first container
-        if(j === 0) setTimeout(expandContainer(container), 200);
+        if(j === 0) expandContainer(container);
     }
 
     function expandContainer(container) {
-      container.style.maxHeight = container.scrollHeight + "px";
+        setTimeout(function() {
+            container.style.maxHeight = container.scrollHeight + "px";
+        }, 100);
     }
 
     function setTabActive(targetElement) {
