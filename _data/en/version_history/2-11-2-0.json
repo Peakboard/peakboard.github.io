@@ -7,7 +7,7 @@
       "name": "General overview",
       "content": [{
 		"type": "headline",
-        "text": "Scripting"
+        "text": "Scripting",
       }, {
         "type": "list",
         "list_items": [
