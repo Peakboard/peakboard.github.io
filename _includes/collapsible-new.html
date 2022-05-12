@@ -1,7 +1,12 @@
-<div class="block text-center mt-8" style="max-height: fit-content; background: #FFFFFF;">
+<div class="block text-center mt-8" style="max-height: fit-content; background: #FFFFFF; border-bottom-width: 0;">
     <span id="seeMoreLink" class="action-link z-10 cursor-pointer">
         <span>{{ site.language[page.lang].version-history-see-more }} <i class="right-arrow rotate"></i></span>
     </span>
+</div>
+<div class="block text-center mt-4" style="max-height: fit-content; background: #FFFFFF; border-bottom-width: 0;">
+    <a href="{{ site.language[page.lang].version-history-archive-link }}" class="action-link z-10 cursor-pointer">
+        <span>{{ site.language[page.lang].version-history-archive }} <i class="right-arrow rotate"></i></span>
+    </a>
 </div>
 <div id="text-download-tooltip" class="hidden">{{ site.language[page.lang].version-history-download-tooltip }}</div>
 

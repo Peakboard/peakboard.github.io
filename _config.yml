@@ -229,6 +229,8 @@ language:
     cookie-box-change-preferences-button-save: "Save Preferences"
     version-history-see-more: "See more"
     version-history-download-tooltip: "Download this software version"
+    version-history-archive: "Go to version archive"
+    version-history-archive-link: "/misc/en-version-history-archive.html"
   de:
     homepage-top-section-title: "Peakboard Help"
     homepage-top-section-content: "Diese Seite hilft dir, Peakboard schnell zu verstehen und es optimal für deine Bedürfnisse zu nutzen. Es gibt Artikel für Anfänger, für Fortgeschrittene und auch ganze Tutorials, die anhand eines Beispiels genau erklären, wie du deine Visualisierung erstellst."
@@ -295,6 +297,8 @@ language:
     cookie-box-change-preferences-button-save: "Speichern"
     version-history-see-more: "Mehr anzeigen"
     version-history-download-tooltip: "Download this software version"
+    version-history-archive: "Go to version archive"
+    version-history-archive-link: "/misc/de-versionshistorie-archive.html"
   cn:
     homepage-top-section-title: "获取帮助"
     homepage-top-section-content: "针对您的需求，帮助您快速、高效地充分利用Peakboard，详情请参考相关文章。"
@@ -365,6 +369,8 @@ language:
     cookie-box-change-preferences-button-save: "保存偏好"
     version-history-see-more: "显示更多"
     version-history-download-tooltip: "Download this software version"
+    version-history-archive: "Go to version archive"
+    version-history-archive-link: "/misc/cn-version-history-archive.html"
 algolia:
   application_id: '75B7PWB4DF'
   index_name: peakboard-help
