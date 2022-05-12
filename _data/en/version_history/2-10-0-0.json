@@ -30,9 +30,9 @@
           "Fix for a bug where scaling a control via script did not work",
           "Fix for a bug where multiple opened templates got the same ID",
           "Fix for a bug where the Twitter data source did not work anymore",
-          "Fix for a bug where the unchecked [Visible] button of a control caused an error when loading a visualization",
+          "Fix for a bug where the unchecked [Visible] button of a control caused an error when loading a visualization"
         ]
-      }
+      }]
     }
   ]
 }]

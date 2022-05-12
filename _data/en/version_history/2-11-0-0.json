@@ -13,7 +13,7 @@
         "list_items": [
           "[Peakboard Building Blocks](/scripting/en-building-blocks.html) implemented",
           "[Script Editor](/scripting/en-script-editor.html) - Global scripts are now split into their individual functions",
-          "[Script Editor](/scripting/en-script-editor.html) - The script editor keeps the last used scaling",
+          "[Script Editor](/scripting/en-script-editor.html) - The script editor keeps the last used scaling"
         ]
       }, {
 		"type": "headline",
@@ -27,7 +27,7 @@
           "[Extension](/data_sources/Extension/en-Extension.html) - Data type handling adjusted",
           "[Extension](/data_sources/Extension/en-Extension.html) - error handling adapted",
           "[MQTT](/data_sources/en-mqtt-broker.html) - certificate handling reworked",
-          "[XML](/data_sources/en-xml.html) - error handling revised",
+          "[XML](/data_sources/en-xml.html) - error handling revised"
         ]
       }, {
 		"type": "headline",
@@ -56,7 +56,7 @@
           "TileView - Fix for a bug where the visible/invisible function didn't work and led to an error message",
           "TileView - Fix for a bug where locking a control inside a TileView caused the ListView to be locked instead of the control",
           "Circular Gauge - fix for a bug where the control disappeared",
-          "Linear Gauge - fix for a bug where the control disappeared",
+          "Linear Gauge - fix for a bug where the control disappeared"
         ]
       }, {
 		"type": "headline",
@@ -77,7 +77,7 @@
           "Fix for a bug where the cached image of a resource was not deleted",
           "Fix for a bug where the network functions in the script editor were suggested incorrectly",
           "Fix for a bug where using an unapplied variable in a Dataflow resulted in a critical error",
-          "Fix for a bug where an invalid naming of a font led to an incorrect error message",
+          "Fix for a bug where an invalid naming of a font led to an incorrect error message"
         ]
       }, {
 		"type": "headline",
@@ -88,7 +88,7 @@
           "Peakboard Log process revised",
           "Peakboard Log UI revised",
           "[Certificate Management](/administration/en-certificats.html) implemented via Peakboard Designer",
-          "Added new user roles",
+          "Added new user roles"
         ]
       }, {
 		"type": "headline",
@@ -97,7 +97,7 @@
         "type": "list",
         "list_items": [
           "Error handling adjusted ",
-          "Fix for a bug where the Peakboard Edge Tester did not work correctly in the Peakboard Designer",
+          "Fix for a bug where the Peakboard Edge Tester did not work correctly in the Peakboard Designer"
         ]
       }, {
 		"type": "headline",
@@ -107,9 +107,9 @@
         "list_items": [
           "Peakboard Hub - Connections revised",
           "Peakboard Hub - Token Authentication removed",
-          "Peakboard Hub - Single Point Authentication added",
+          "Peakboard Hub - Single Point Authentication added"
         ]
-      }
+      }]
     }
   ]
 }]
