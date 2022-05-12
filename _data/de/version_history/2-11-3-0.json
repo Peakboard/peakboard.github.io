@@ -1,0 +1,19 @@
+[{
+  "version": "2.11.3.0",
+  "date": "02.09.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+        "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Hotfix für einen Fehler, bei dem der Zugriff auf angelegte [Peakboard Variablen/Listen](/scripting/de-variables.html) über die API nicht mehr möglich war"
+        ]
+      }]
+    }
+  ]
+}]

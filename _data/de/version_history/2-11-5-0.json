@@ -1,0 +1,19 @@
+[{
+  "version": "2.11.5.0",
+  "date": "12.10.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		"type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Hotfix für einen Fehler, bei dem eine [Extension](/data_sources/Extension/de-Extension.html) nicht mehr editiert oder kopiert werden konnte"
+        ]
+      }]
+    }
+  ]
+}]

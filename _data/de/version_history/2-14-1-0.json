@@ -1,0 +1,153 @@
+[{
+  "version": "2.14.1.0",
+  "date": "09.02.2022",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "Umstrukturierte Menüleiste",
+      "content": [{
+        "type": "image",
+        "image": "2-14-1-0-Menubar_de.gif",
+        "description": "Die Menüleiste im oberen Bereich des Peakboard Designers wurde neu strukturiert. Dabei wurde der Tab [Einstellungen] durch zwei Menü Icons im Tab [Home] ersetzt. Das Icon [Projekt] bietet Projektspezifische Einstellungen, das Icon [Allgemeines] generelle Einstellungen des Peakboard Designers. Zusätzlich wurde ein [Hochladen] Button in das Menü aufgenommen. So kannst du Visualisierungen direkt auf eine verfügbare Peakboard Box laden, ohne Umweg über die Peakboard Box Settings."
+      }]
+    },
+	{
+      "name": "Reload Flows",
+      "content": [{
+        "type": "image",
+        "image": "2-14-1-0-Reloadflow_de.gif",
+        "description": "Manchmal ist es notwendig eine feste Reihenfolge zu definieren, in der unterschiedliche Datenquellen geladen werden. Bisher musstest du dafür ein passendes Skript schreiben. Mit den neuen [Reloadflows]( /misc/de-reloadflows.html) kannst du einfach per Drag & Drop eine Reihenfolge festlegen."
+      }]
+    },
+	{
+      "name": "Peakboard Box Infopanel",
+      "content": [{
+        "type": "image",
+        "image": "2-14-1-0-Infopanel_de.png",
+        "description": "Über das neue Infopanel kannst du während einer laufenden Visualisierung auf deiner Peakboard Box Debug Informationen, Statusinformationen oder Peakboard Box spezifische Funktionen abrufen. Hierfür musst du eine Tastatur an deine Peakboard Box anschließen und mit dem Shortcut [Strg + i] das Infopanel öffnen."
+      }]
+    },
+	{
+      "name": "Gesamtübersicht",
+      "content": [{
+        "type": "list",
+        "list_items": [
+            "Implementierung einer neuen Versionierung, die Updates unabhängig von einem Update der Peakboard Box ermöglicht"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Umstrukturierung der obersten Menüleiste",
+            "Funktion für den direkten Upload einer Visualisierung auf eine Peakboard Box implementiert",
+            "[Zertifikatsmanager](/administration/de-zertifikats.html) - UI überarbeitet",
+            "[Font Manager](/misc/de-fonts.html) - UI und UX verbessert",
+            "[Ressourcen](/misc/de-ressourcen.html) - Funktion zum Erneuern des Access-Tokens implementiert",
+            "[Ressourcen](/misc/de-ressourcen.html) - Möglichkeit zum Editieren des Netzlaufwerkpfades bei Netzwerkressourcen hinzugefügt",
+            "Möglichkeit zum Setzen der Proxy-Einstellungen einer Peakboard Box reaktiviert",
+            "Fix für einen Fehler, bei dem das Aktualisieren eines Screenshots dazu führte, dass die Drag & Drop Funktion für Controls ausfiel",
+            "Fix für einen Fehler, bei dem eine Netzwerkressource bewirkte, dass die Quelldatei nicht überschrieben werden konnte",
+            "Fix für einen Fehler, bei dem das Abspielen des \"Getting-Started-Video\" zu einem kritischen Fehler führte",
+            "Fix für einen Fehler, bei dem beim Duplizieren eines Screens die Skripte nicht korrekt dupliziert wurden"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+            "[Webseiten-Control](/controls/Extended/de-webpage.html) - Das Control kann nun mit einer Variablen verknüpft werden",
+            "[Bedingte Formatierung](/controls/de-cf.html) - Funktion zum Überspringen eines Screens implementiert",
+            "[Bedingte Formatierung](/controls/de-cf.html) - Per Rechtsklick auf ein Control kann die [bedingte Formatierung] aufgerufen werden",
+            "[Gauge-Diagramm](/controls/Chart/de-circular-gauge.html) - Verbesserungen",
+            "[Bild-Control](/controls/Media/de-image.html) - nicht relevante Eigenschaften entfernt",
+            "[Animation] - Überarbeitet",
+            "[Icon](/controls/Common/de-icon.html) - Option für einen dunklen Hintergrund implementiert",
+            "Fix für einen Fehler, bei dem das Duplizieren einer [bedingten Formatierung](/controls/de-cf.html) dazu führte, dass die Formatierung gelöscht wurde",
+            "Fix für einen Fehler, bei dem Formen unzulässige Eigenschaften in der [bedingten Formatierung](/controls/de-cf.html) zur Auswahl hatten",
+            "Fix für einen Fehler, bei dem das Drücken der Enter-Taste in der [bedingten Formatierung](/controls/de-cf.html) dazu führte, dass eine neue Regel geöffnet wurde",
+            "Fix für einen Fehler, bei dem die Farbe des [Text Box](/controls/Common/de-text-block.html) Controls nicht per Skript gesetzt werden konnte",
+            "Fix für einen Fehler, bei dem, innerhalb eines [TileView-Controls](/controls/Common/de-tile-view.html), das [Textticker-Control](/controls/Extended/de-text-ticker.html) alle und nicht nur die Datenzeile des Tiles verwendet hatte",
+            "Fix für einen Fehler, bei dem innerhalb eines [TileView-Controls](/controls/Common/de-tile-view.html), das Drücken der Enter-Taste den Dialog geschlossen hat",
+            "Fix für einen Fehler, bei dem das Sperren einer List- oder TileView zu einem Fehler führte",
+            "Fix für einen Fehler, bei dem für ein [Rich-Text](/controls/Document/de-rich-text.html) Control der Hintergrund nicht übernommen wurde",
+            "Fix für einen Fehler, bei dem eigene Schriftarten nicht im Peakboard Designer angezeigt wurden",
+            "Fix für einen Fehler, bei dem im Font Manager, bei einem Import, vorhandene Schriftarten nicht überschrieben wurden",
+            "Fix für einen Fehler, bei dem in einem [Gauge-Diagramm](/controls/Chart/de-linear-gauge.html) Text-Werte mit dem Diagramm verknüpft werden konnten",
+            "Fix für einen Fehler, bei dem ein max. Value von 0 in einem [Gauge-Diagramm](/controls/Chart/de-linear-gauge.html) zu einem schweren Ausnahmefehler führte"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+            "[Reload Flows](/misc/de-reloadflows.html) implementiert",
+            "Abhängigkeiten beim Laden der Datenquellen und Dataflows überarbeitet",
+            "[Dataflows](/dataflows/de-erste-schritte.html) - Unnötigen Skript-Editor entfernt",
+            "[CSV](/data_sources/de-csv.html), [XML](/data_sources/de-xml.html), [JSON](/data_sources/de-json.html) - SharePoint als Quelltyp implementiert",
+            "[MQTT](/data_sources/de-mqtt-broker.html) - kleinere Bugfixes",
+            "[Peakboard Hub Datenquelle](/data_sources/de-peakboard-hub-list.html) - Umstrukturierung und entfernen der max. Rows Eigenschaft",
+            "[OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Browse-Dialog überarbeitet",
+            "Fix für einen Fehler, bei dem die [Peakboard Hub Datenquelle](/data_sources/de-peakboard-hub-list.html) keine Vorschaudaten lieferte",
+            "Fix für einen Fehler, bei dem in der [SQL](/data_sources/de-ms-sql-server.html)-Datenquelle mehr als 50 Preview Datensätze geladen wurden",
+            "Fix für einen Fehler, bei dem die [Peakboard Datenquelle]() nicht korrekt initiiert wurde",
+            "Fix für einen Fehler, bei dem eine Listenvariable mit einer Zahlenspalte zu einem Fehler in der Preview führte",
+            "Fix für einen Fehler, bei dem in einer ODBC-Datenquelle keine dynamischen Querys mehr verwendet werden konnten"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Peakboard API"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Fix für einen Fehler, bei dem Werte nicht über die API übermittelt werden konnten"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Peakboard Box"
+      }, {
+        "type": "list",
+        "list_items": [
+            "[Hotkey Strg + i] und Infopanel für Peakboard Box implementiert",
+            "Fix für einen Fehler, bei keine Screenshots mehr gemacht werden konnten"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Check für ungenutzte Zertifikate implementiert"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Peakboard Web Access"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Funktion implementiert, die den unsicheren 40404-Kanal für alle Anrufe verweigert, wenn dies nicht unbedingt erforderlich sind",
+            "UI Verbesserungen",
+            "Fix für einen Fehler, bei dem Dateien nicht mehr über den [Web Access] ausgetauscht werden konnten",
+            "Fix für einen Fehler, bei dem beim Pausieren einer Visualisierung ein Fehler zurückgegeben wurde",
+            "Fix für einen Fehler, bei dem die \"read only\" Eigenschaft für eine Variable keine Auswirkung hatte"
+        ]
+      }, {
+		"type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Die Methode *brushes.fromhex()* erlaubt nun alle gängigen Hex-Code Formate für Farbcodes",
+            "Die Methode *runtime.screenscale()* entfernt",
+            "Funktion zum Kopieren globaler Funktionen implementiert",
+            "[Building Blocks](/scripting/de-building-blocks.html) - Reload Flows hinzugefügt",
+            "[Building Blocks](/scripting/de-building-blocks.html) - Gelöschte Building Blocks können vom Nutzer wieder hergestellt werden",
+            "[Building Blocks](/scripting/de-building-blocks.html) - Skript-Baum umgestaltet"
+        ]
+      }]
+    }
+  ]
+}]

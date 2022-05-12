@@ -1,0 +1,19 @@
+[{
+  "version": "2.11.2.0",
+  "date": "30.08.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		"type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Hotfix von einem Fehler beim Wechseln des aktiven Skripts im [Skript-Editor](/scripting/de-script-editor.html)"
+        ]
+      }]
+    }
+  ]
+}]

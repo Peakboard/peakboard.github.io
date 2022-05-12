@@ -1,0 +1,16 @@
+[{
+  "version": "2.11.4.0",
+  "date": "10.09.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+        "type": "list",
+        "list_items": [
+            "Hotfix für einen Fehler, bei dem fehlerhafte Übersetzungen zu einem Absturz der chinesischen Version des Peakboard Designers führte"
+        ]
+      }]
+    }
+  ]
+}]

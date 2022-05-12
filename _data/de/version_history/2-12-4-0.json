@@ -1,0 +1,19 @@
+[{
+  "version": "2.12.4.0",
+  "date": "28.10.2021",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		"type": "headline",
+        "text": "Peakboard Box"
+      }, {
+        "type": "list",
+        "list_items": [
+            "Hotfix für einen Fehler, bei dem die initiale Visualisierung nicht korrekt beendet wurde, wodurch eine Vielzahl von Fehlern im Log generiert wurde"
+        ]
+      }]
+    }
+  ]
+}]

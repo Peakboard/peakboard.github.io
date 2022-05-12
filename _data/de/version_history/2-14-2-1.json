@@ -1,0 +1,17 @@
+[{
+  "version": "2.14.2.1",
+  "date": "17.02.2022",
+  "download_url": "",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+        "type": "list",
+        "list_items": [
+            "Hotfix für einen Fehler im Peakboard Designer, bei dem das Update der Software nicht mehr durchgeführt werden konnte",
+            "Hotfix für einen Fehler, bei dem der Body in einem http-Request für CSV, XML und JSON-Datenquellen nicht ausgelesen werden konnte"
+        ]
+      }]
+    }
+  ]
+}]
