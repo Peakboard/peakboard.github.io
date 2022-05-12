@@ -4,6 +4,30 @@
   "download_url": "",
   "tabs": [
     {
+      "name": "Restructured menu bar",
+      "content": [{
+        "type": "image",
+        "image": "2-14-1-0-Menubar_en.gif",
+        "description": "The menu bar at the top of the Peakboard Designer has been restructured. The tab [Settings] has been replaced by two menu icons in the tab [Home]. The [Project] icon offers project-specific settings, the [General] icon general settings of the Peakboard Designer. Additionally, an [Upload] button has been added to the menu. This allows you to upload visualizations directly to an available Peakboard box without having to use the Peakboard Box Settings."
+      }]
+    },
+	{
+      "name": "Reload Flows",
+      "content": [{
+        "type": "image",
+        "image": "2-14-1-0-Reloadflow_en.gif",
+        "description": "Sometimes it is necessary to define a fixed order in which different data sources are loaded. Until now you had to write a script for this. With the new [Reloadflows]( /misc/de-reloadflows.html) you can simply drag and drop to define an order."
+      }]
+    },
+	{
+      "name": "Peakboard Box Infopanel",
+      "content": [{
+        "type": "image",
+        "image": "2-14-1-0-Infopanel_en.gif",
+        "description": "The new Infopanel allows you to retrieve debug information, status information or Peakboard Box specific functions while a visualization is running on the Peakboard Box. To do this, you have to connect a keyboard to the Peakboard Box and open the Infopanel with the shortcut [Ctrl + i]."
+      }]
+    },
+	{
       "name": "General overview",
       "content": [{
         "type": "list",
