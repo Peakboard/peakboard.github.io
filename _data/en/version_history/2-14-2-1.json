@@ -1,7 +1,7 @@
 [{
   "version": "2.14.2.1",
   "date": "17.02.2022",
-  "download_url": "https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EluftgNSJBxPhzSKmmhz8zABOjbWYYTuNLunCFcEKOdrLw?e=8W6nEf",
+  "download_url": "",
   "tabs": [
     {
       "name": "General overview",
@@ -9,7 +9,7 @@
         "type": "list",
         "list_items": [
           "Hotfix for a bug in Peakboard Designer, where the update of the software could not be done anymore",
-          "Hotfix for a bug where the body could not be read in an http request for CSV, XML and JSON data sources",
+          "Hotfix for a bug where the body could not be read in an http request for CSV, XML and JSON data sources"
         ]
       }]
     }

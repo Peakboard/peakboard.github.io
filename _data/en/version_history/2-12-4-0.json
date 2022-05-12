@@ -1,7 +1,7 @@
 [{
   "version": "2.12.4.0",
   "date": "28.10.2021",
-  "download_url": "https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/ErlC_bDOZidOg-zryBddBXsBco6UpcXvTnHaz_dLZqOggw?e=DDkZps",
+  "download_url": "",
   "tabs": [
     {
       "name": "General overview",
@@ -11,7 +11,7 @@
       }, {
         "type": "list",
         "list_items": [
-          "Hotfix for a bug where the initial visualization was not terminated correctly, generating a large number of errors in the log",
+          "Hotfix for a bug where the initial visualization was not terminated correctly, generating a large number of errors in the log"
         ]
       }]
     }

@@ -18,7 +18,7 @@
           "Added proxy authentication for Peakboard Designer under [Settings]",
           "Fix for a bug that generated incorrect logs",
           "Fix for a bug that caused all variables to be overwritten, when changing a variable via web access",
-          "Fix for a bug that automatically deleted log files with more than 100 KB",
+          "Fix for a bug that automatically deleted log files with more than 100 KB"
 		]
       }, {
 		"type": "headline",
@@ -35,7 +35,7 @@
           "[Web Widget](/controls/Extended/en-web-widget.html) - check box for permission to open websites for which no valid certificate is installed on the Peakboard Box added",
           "Retro Flipper Control removed",
           "Fix for a bug that did not recognize an empty input as such in [conditional formatting](/controls/en-cf.html)",
-          "Fix for a bug where .mkv format files were not recognized as video files",
+          "Fix for a bug where .mkv format files were not recognized as video files"
 		]
       }, {
 		"type": "headline",
@@ -50,7 +50,7 @@
           "Fix for a bug that caused a critical error for NULL values in the [ODBC data source](/data_sources/en-odbc.html)",
           "Fix for a bug where the MQTT data source could cause a fatal exception error in rare cases",
           "Fix for a bug where split variables could create a loop",
-          "Fix for a bug where the [add Time] function of a time data source did not display correctly on the drawing interface",
+          "Fix for a bug where the [add Time] function of a time data source did not display correctly on the drawing interface"
 		]
       }, {
 		"type": "headline",
@@ -59,7 +59,7 @@
         "type": "list",
         "list_items": [
           "Peakboard Boxes can be synchronized with the Peakboard Designer via Peakboard Hub",
-          "Fix for a bug where an established Peakboard Hub connection could not be deleted",
+          "Fix for a bug where an established Peakboard Hub connection could not be deleted"
 		]
       }, {
 		"type": "headline",
@@ -72,7 +72,7 @@
           "Fix for a bug where the data types \"bool\" and \"number\" were not supported by the MQTT [Building Block](/scripting/en-building-blocks.html)",
           "Fix for a bug where unnaming the screen deleted all [Building Blocks](/scripting/en-building-blocks.html) of a script linked to the screen",
           "Fix for a bug where setting a value in [Peakboard Hub Lists]() automatically set all other columns to their default values",
-          "Fix for a bug that displayed displayed multiple times",
+          "Fix for a bug that displayed displayed multiple times"
         ]
       }]
     }

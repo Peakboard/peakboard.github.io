@@ -8,7 +8,7 @@
       "content": [{
         "type": "list",
         "list_items": [
-          "Hotfix for a bug where incorrect translations caused the Chinese version of the Peakboard Desinger to crash",
+          "Hotfix for a bug where incorrect translations caused the Chinese version of the Peakboard Desinger to crash"
         ]
       }]
     }
