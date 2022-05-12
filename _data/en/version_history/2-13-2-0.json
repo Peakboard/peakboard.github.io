@@ -4,6 +4,30 @@
   "download_url": "",
   "tabs": [
     {
+      "name": "Peakboard Box Settings",
+      "content": [{
+        "type": "image",
+        "image": "2-13-2-0-Boxsettings_en.gif",
+        "description": "The dialog for managing your Peakboard Boxes has been thoroughly revised so that you have all the information and important functions right at your fingertips at all times."
+      }]
+    },
+	{
+      "name": "Peakboard Box Check",
+      "content": [{
+        "type": "image",
+        "image": "2-13-2-0-Boxcheck_en.gif",
+        "description": "The Peakboard Box check has been implemented in the revised Peakboard Box settings. It provides you with detailed meta information about your Peakboard Box and allows you to identify possible problem sources. For easier support from our side there is also the possibility to export this information."
+      }]
+    },
+	{
+      "name": "Peakboard Hub synchronization",
+      "content": [{
+        "type": "image",
+        "image": "2-13-2-0-Hubsynchro_en.gif",
+        "description": "If the Peakboard Hub is in use and connected to the Peakboard Designer, you can synchronize all Peakboard Boxes created in the Peakboard Hub with one click in the Peakboard Box settings and add them to the Peakboard Designer."
+      }]
+    },
+    {
       "name": "General overview",
       "content": [{
 		"type": "headline",
