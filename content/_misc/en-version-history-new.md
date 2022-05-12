@@ -18,5 +18,6 @@ draft: true
   {% include tabs.html data=version_entry %}
 {% endfor %}
 
-{% include collapsible-new.html %}
 {% include tabs-script.html %}
+
+{% include collapsible-new.html %}
