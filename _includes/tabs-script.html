@@ -50,6 +50,9 @@
       // find previous active item and make not active
       var previousActiveTab = document.getElementsByClassName("tab-item-active")[0];
       var previousActiveTabVersionId = previousActiveTab.id.split("-")[0];
+      console.log(previousActiveTabVersionId)
+      console.log(currentVersionId)
+      console.log(previousActiveTab)
       if (previousActiveTab && previousActiveTabVersionId === currentVersionId) {
         setTabInactive(previousActiveTab)
 

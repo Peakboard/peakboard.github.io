@@ -5,7 +5,7 @@
       <nav class="-mb-px flex flex-wrap" aria-label="Tabs">
         {% assign counter = 1 %}
         {% for tab in include.data.tabs %}
-          <a variant="normal" id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-tab-{% if tab.name != '' %}{{ tab.name }}{% else %}{{ counter }}{% endif %}"
+          <a variant="normal" id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-tab-{% if tab.name != '' %}{{ tab.name | replace: ' ', '-' }}{% else %}{{ counter }}{% endif %}"
              class="tab-item border-transparent break-words hover:border-gray-300 cursor-pointer text-gray-darkest hover:text-gray-darker py-4 px-4 text-center border-b-2 font-semibold">
             {% if tab.name != '' %}{{ tab.name }}{% else %}{{ counter }}{% assign counter = counter | plus: 1 %}{% endif %}
           </a>
@@ -15,7 +15,7 @@
   </div>
   {% assign other_counter = 1 %}
   {% for tab in include.data.tabs %}
-    <div class="hidden mb-8" id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-tab-{% if tab.name != '' %}{{ tab.name }}{% else %}{{ other_counter }}{% assign other_counter = other_counter | plus: 1 %}{% endif %}-content">
+    <div class="hidden mb-8" id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-tab-{% if tab.name != '' %}{{ tab.name | replace: ' ', '-' }}{% else %}{{ other_counter }}{% assign other_counter = other_counter | plus: 1 %}{% endif %}-content">
       {% for content in tab.content %}
         {% if content.type == 'list' %}
         <ul>
