@@ -8,7 +8,8 @@
         // bind click events
         tabItems[i].addEventListener("click", function(event) {
             var versionId = event.target.id.split("-")[0];
-            currentTabItemIdArray[versionId] = onTabClick(event, currentTabItemIdArray[versionId]);
+            var container = document.getElementById(versionId + "-container");
+            currentTabItemIdArray[versionId] = onTabClick(event, currentTabItemIdArray[versionId], container);
         });
       //}
     }
@@ -44,15 +45,12 @@
       targetElement.classList.remove("tab-item-active", "border-orange");
     }
 
-    function onTabClick(event, currentId) {
+    function onTabClick(event, currentId, container) {
       var currentVersionId = event.target.id.split("-")[0];
 
       // find previous active item and make not active
-      var previousActiveTab = document.getElementsByClassName("tab-item-active")[0];
+      var previousActiveTab = container.getElementsByClassName("tab-item-active")[0];
       var previousActiveTabVersionId = previousActiveTab.id.split("-")[0];
-      console.log(previousActiveTabVersionId)
-      console.log(currentVersionId)
-      console.log(previousActiveTab)
       if (previousActiveTab && previousActiveTabVersionId === currentVersionId) {
         setTabInactive(previousActiveTab)
 
