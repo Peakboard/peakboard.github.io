@@ -9,7 +9,7 @@ ref: misc-1000001
 redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.15.0.0 (06.04.2022)
-menu: false
+hide_in_menu: true
 ---
 ## 2.15.0.0 (06.04.2022) [Download](https://peakboard.rocks/download-version-history)
 * **General**

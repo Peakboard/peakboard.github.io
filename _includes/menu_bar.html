@@ -45,8 +45,8 @@
                     {% for article in sorted_articles %}
                         {% assign parts = article.path | split: "/" %}
                         {% assign num_parts = article.path | split: "/" | size %}
-                        {% if article.draft != true and article.menu != true %}
-                            {% if article.menu != true %}
+                        {% unless article.draft %}
+                            {% unless article.hide_in_menu %}
                                 {% if num_parts == 2 %}
 
                                     <li>
@@ -96,8 +96,8 @@
                                         {% assign used_categories = used_categories | push: sub_level %}
                                     {% endif %}
                                 {% endif %}
-                            {% endif %}
-                        {% endif %}
+                            {% endunless %}
+                        {% endunless %}
                     {% endfor %}
 
                 </ul>
