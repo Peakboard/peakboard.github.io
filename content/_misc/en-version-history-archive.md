@@ -1,14 +1,15 @@
 ---
 layout: article
-title: Version History
-menu_title: Version History
-description: Version History
+title: Version History Archive
+menu_title: Version History Archive
+description: Version History Archive
 lang: en
 weight: 1
-ref: misc-1
+ref: misc-1000001
 redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.15.0.0 (06.04.2022)
+menu: false
 ---
 ## 2.15.0.0 (06.04.2022) [Download](https://peakboard.rocks/download-version-history)
 * **General**

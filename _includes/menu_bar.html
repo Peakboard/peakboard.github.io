@@ -45,7 +45,7 @@
                     {% for article in sorted_articles %}
                         {% assign parts = article.path | split: "/" %}
                         {% assign num_parts = article.path | split: "/" | size %}
-                        {% if article.draft != true %}
+                        {% if article.draft != true and article.menu != true %}
                             {% if num_parts == 2 %}
 
                         <li>

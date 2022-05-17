@@ -1,11 +1,11 @@
 ---
 layout: article
-title: Version History New
-menu_title: Version History New
-description: Version History New
+title: Version History
+menu_title: Version History
+description: Version History
 lang: en
 weight: 1
-ref: misc-100000
+ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
 footer: 2.15.0.0 (06.04.2022)
