@@ -21,7 +21,7 @@ You get access to this from Forcam itself.
 
 
 
-![swagger tool](/assets/images/data-sources/forcam/en_swaggertool.png)
+![swagger tool](/assets/images/data-sources/forcam/de_en_swaggertool.png)
 
 
 
@@ -74,5 +74,3 @@ To specify which data from the result should be displayed, you can use [Path] (1
 
 
 In [this video](https://www.youtube.com/watch?v=kZlCyePq61A) it is explained again how the Forcam connection is established in the Peakboard Designer.
-
-Translated with www.DeepL.com/Translator (free version)
