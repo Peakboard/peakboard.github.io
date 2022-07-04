@@ -14,6 +14,7 @@ On the one hand, there is the [conditional formatting](/controls/en-cf.html) for
 Requirements that cannot be met with these two features, on the other hand, often require programming skills.
 With Peakboard Building Blocks, even users who are not experienced in scripting can now fulfill these requirements by simply combining graphical blocks, without having to write any code themselves.
 
+
 ### Peakboard building blocks in the script editor
 In the [script editor](/scripting/en-script-editor.html) you have the option to select whether you want to write the required code yourself or use the Peakboard building blocks to combine it using the slider at the top right.
 

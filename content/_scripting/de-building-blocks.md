@@ -14,6 +14,7 @@ Zum einen gibt es die [bedingte Formatierung](/controls/de-cf.html) für datenab
 Anforderungen, die mit diesen beiden Features nicht erfüllt werden können, erfordern hingegen oft Programmierkenntnisse. 
 Mit den Peakboard Building Blocks können nun auch Skripting-unerfahrene Anwender und Anwenderinnen durch simples Zusammenklicken grafischer Blöcke diese Anforderungen erfüllen, und zwar ganz ohne dabei selbst Code schreiben zu müssen.
 
+
 ### Peakboard Building Blocks im Skript-Editor
 Im [Skript-Editor](/scripting/de-script-editor.html) hast du die Möglichkeit über den Regler oben Rechts auszuwählen, ob du den benötigten Code selbst schreiben oder mithilfe der Peakboard Building Blocks zusammenklicken möchtest.
 
