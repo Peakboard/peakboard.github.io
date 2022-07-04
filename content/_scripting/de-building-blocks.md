@@ -44,7 +44,7 @@ Um eine neue Variable anzulegen, klicke einfach auf [+].
 ![BuildingBlocks03.png](/assets/images/scripting/buildingblocks/BuildingBlocks03.png)
 
 
-### Beispiel für einen Porgramm-Ablauf
+### Beispiel für einen Programm-Ablauf
 
 Der folgende Screenshot zeigt einen Programmablauf, mit dem ein Text dynamisch angepasst werden kann, zum Beispiel, um zu einer bestimmten Uhrzeit eine bestimmte Nachricht auf deinem Dashboard anzuzeigen. 
 Lege also zunächst das Control [Text](/controls/Common/de-text-block.html) an und gib ihm einen Namen. 
