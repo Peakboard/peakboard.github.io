@@ -27,6 +27,7 @@ Im Bereich [Details angeben] (3) kannst du zwischen vier verschiedenen Lesearten
 * Eingaberegister lesen
 
 Hier wählst du auch die Start-Adresse sowie Anzahl der Datenpunkte aus die gelesen werden sollen.
+
 Zur Plausibilitätsprüfung der Daten klickst du auf den Button [Daten Laden], um eine Vorschau zu generieren. (4)
 
 ![Modbus Datenquelle konfigurieren](/assets/images/data-sources/modbus/de_modbus-config-01.png)
