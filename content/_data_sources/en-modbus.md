@@ -27,7 +27,6 @@ In the area [Specify] (3) you can choose between four different read modes:
 * Read Input Registers
 
 Here you also select the start address and the number of data points to be read.
-
 To check the plausibility of the data click on the button [Load Data] to generate a preview. (4)
 
 ![Configure Modbus data source](/assets/images/data-sources/modbus/en_modbus-config-01.png)
