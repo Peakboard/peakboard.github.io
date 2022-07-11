@@ -3,7 +3,7 @@ layout: article
 title: Rockwell
 menu_title: Rockwell
 description: Connecting a Rockwell data source in the Peakboard Designer
-lang: de
+lang: en
 weight: 2575
 ref: dat-2575
 redirect_from:
