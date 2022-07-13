@@ -53,11 +53,11 @@ In the column [Caption] (10) give the columns better names, e.g. "Train type" in
 
 Back in the main screen, change the following values in the [Appearance] (13) section of the table, for example:
 
-Header Font: header2, change font size to 45 and bold.
-Body Font: default, change font size to 30
-Header Background: #FFFFAA00
-Border size: 0
-Cell Padding: 30,15,30,15
+- Header Font: header2, change font size to 45 and bold.
+- Body Font: default, change font size to 30
+- Header Background: #FFFFAA00
+- Border size: 0
+- Cell Padding: 30,15,30,15
 
 Now click on [Preview] (14).
 

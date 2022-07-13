@@ -41,23 +41,23 @@ Als nächstes erstellst du die Visualisierung. Die Daten sollen einfach nur in e
 
 ![Control hinzufügen](/assets/images/Tutorial/XML/XML_add-control-01_de.png)
 
-Bestätige mit einem Klick auf [OK] und justiere die Größe des Tabellenelements durch Klicken und Ziehen an deren Rändern nach deinem Geschmack möglichst flächenfüllend (9).
+Bestätige mit einem Klick auf [OK] und justiere die Größe des Tabellenelements durch Klicken und Ziehen an deren Rändern möglichst flächenfüllend (9).
 
 ![Control hinzufügen](/assets/images/Tutorial/XML/XML_add-control-02_de.png)
 
 Das Tabellenelement zeigt auf dem Panel jetzt schon alle Spalten der Datenquelle an. Allerdings noch nicht besonders hübsch, deshalb öffnest du mit einem Klick auf die drei Punkte im Bereich [Allgemein] - [Spalten] den nachfolgenden Konfigurationsdialog. Dort sind alle Spalten der Datenquelle gelistet. 
 
-Vergib in der Spalte [Legende] (10) nun bessere, sprechende Namen für die jeweiligen Spalten, z.B. „Zugtyp“ statt „type“ oder „Abfahrt“ statt „time“ usw. In der Spalte [Breite] (11) steht standardmäßig „Fill“. Stelle hier alle Spalten außer die Fahrtrichtung auf „Cut“ um. Das bedeutet, dass die Spalte so breit gerendert wird, wie das breiteste Datenelement, also auf eine optimale Breite. Die [Ausrichtung] (12) änderst du je nach Geschmack ebenfalls überall bis auf die der Fahrtrichtung auf „Center“. Klicke dann auf [OK].
+Vergib in der Spalte [Legende] (10) nun bessere, sprechende Namen für die jeweiligen Spalten, z.B. „Zugtyp“ statt „type“ oder „Abfahrt“ statt „time“ usw. In der Spalte [Breite] (11) steht standardmäßig „Fill“. Stelle hier alle Spalten außer die Fahrtrichtung auf „Cut“ um. Das bedeutet, dass die Spalte so breit gerendert wird, wie das breiteste Datenelement, also auf eine optimale Breite. Die [Ausrichtung] (12) änderst du ebenfalls überall bis auf die der Fahrtrichtung auf „Center“. Klicke dann auf [OK].
 
 ![Control konfigurieren](/assets/images/Tutorial/XML/XML_control-config-01_de.png)
 
 Zurück im Hauptfenster änderst du beispielsweise folgende Werte im Bereich [Aussehen] (13) der Tabelle:
 
-Schriftart Header: header2, Schriftgröße auf 45 und bold ändern
-Schriftart Body: default, Schriftgröße auf 30 ändern
-Hintergrund Header: #FFFFAA00
-Rahmendicke: 0
-Zellenabstand: 30,15,30,15
+- Schriftart Header: header2, Schriftgröße auf 45 und bold ändern
+- Schriftart Body: default, Schriftgröße auf 30 ändern
+- Hintergrund Header: #FFFFAA00
+- Rahmendicke: 0
+- Zellenabstand: 30,15,30,15
 
 Nun klickst du auf [Vorschau] (14).
 
