@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Externen Datenquellen am Beispiel einer XML-Datenquelle
-menu_title: Externen Datenquellen am Beispiel einer XML-Datenquelle
-description: Externen Datenquellen am Beispiel einer XML-Datenquelle
+title: Externe dynamische Datenquellen am Beispiel einer XML-Datenquelle
+menu_title: Externe dynamische Datenquellen
+description: Externe dynamische Datenquellen am Beispiel einer XML-Datenquelle
 lang: de
 weight: 0
 ref: dat-0
@@ -11,41 +11,58 @@ redirect_from:
   - /tutorials/03-de-xml-daten.html
   - /tutorials/de-xml-daten.html
 ---
-In den beiden Einführungstutorials wurden lediglich statische Inhalte in der Visualisierung genutzt. Richtig spannend wird das alles aber erst, wenn das Design dynamische Daten anzeigt. Grundsätzlich unterscheidet man bei Peakboard zwischen zwei wesentlichen Konzepten, wie dynamische Inhalte eingebettet werden:
+Grundsätzlich unterscheidet man bei Peakboard zwischen zwei wesentlichen Konzepten, wie dynamische Inhalte eingebettet werden:
 
-1. Die Daten kommen schon fertig aufbereitet aus der externen Quelle und brauchen nur noch in ein Panel eingebunden werden. Das ist zum Beispiel der Fall, wenn Sie eine externe Webseite komplett oder in Teilen einbinden. Oder auch ein BI-Tool wie Power BI, QlikView, Tableau oder ähnliches nutzen und das Aufbereiten der Daten diesem BI-Tool überlassen. Peakboard fungiert dann als eine Art Anzeigeprogramm und das jeweilige Vorsystem sorgt für die visuelle Aufbereitung.
+1. Die Daten kommen schon fertig aufbereitet aus der externen Quelle und brauchen nur noch in ein Panel eingebunden werden. Das ist zum Beispiel der Fall, wenn du eine externe Webseite komplett oder in Teilen einbindest. Oder auch wenn du ein BI-Tool wie Power BI, QlikView, Tableau oder ähnliches nutzt und das Aufbereiten der Daten diesem BI-Tool überlässt. Peakboard fungiert dann als eine Art Anzeigeprogramm und das jeweilige Vorsystem sorgt für die visuelle Aufbereitung.
 
 2. Die Daten kommen als Rohdaten aus einer externen Quelle. Solche Quellen können zum Beispiel XML, JSon, eine Datenbank oder ein Social Media Feed sein. Hier werden nur die reinen Daten transportiert und die Visualisierung findet dann direkt auf Peakboard statt. Für diesen Zweck stehen visuelle Controls zur Verfügung, um die Daten hübsch anzuzeigen, z.B. Charts, Tabellen usw.
 
-Dieses Tutorial behandelt ausschließlich die zweite Option. Basis soll eine XML-Datenquelle sein. Schauen Sie sich dazu einmal die folgende XML-Datei an. Sie enthält alle aktuellen Abfahrten vom Stuttgarter Hauptbahnhof in Echtzeit und wird von der Deutschen Bahn zur Verfügung gestellt:
+Diese Anleitung behandelt ausschließlich die zweite Option. Basis soll eine XML-Datenquelle sein. Schau dir dazu einmal die folgende XML-Datei an. Sie enthält alle aktuellen Abfahrten vom Stuttgarter Hauptbahnhof in Echtzeit und wird von der Deutschen Bahn zur Verfügung gestellt:
 
 [https://open-api.bahn.de/bin/rest.exe/departureBoard?authKey=DBhackFrankfurt0316&lang=de&id=008000096](https://open-api.bahn.de/bin/rest.exe/departureBoard?authKey=DBhackFrankfurt0316&lang=de&id=008000096)
 
-Gehen Sie nun in den Peakboard-Designer, legen Sie ein neues Board an, und klicken Sie mit der rechten Maustaste oben links auf den Data-Knoten des Package-Explorers. Im Menü wählen Sie dann XML als Datenquelle aus.
+Öffne jetzt den Peakboard Designer und wähle unter [Datenquelle hinzufügen] die Datenquelle [XML] aus (1).
 
+![XML Datenquelle hinzufügen](/assets/images/Tutorial/XML/XML_add_de.png)
 
-![image_1](/assets/images/Tutorial/XML/TutorialExterneDatenquelle01.png)
+Im Dialog für die Konfiguration der XML-Datenquelle musst du zunächst einen eindeutigen Namen für die Datenquelle vergeben (z.B. Abfahrt) (2) und dann per Copy & Paste die URL von oben in das Feld [Basis Url] (3) übernehmen. Peakboard teilt die URL automatisch auf (4). Durch einen Klick auf die drei Punkte im Bereich [Details angeben] (5) kannst du die gewünschten Elemente der XML Datei auswählen. 
 
-In der Maske für die Konfiguration der XML-Datenquelle muss zunächst ein eindeutiger Name für die Datenquelle vergeben werden (z.B. Abfahrt), dann per Copy & Paste die URL von oben als URL übernehmen und auf Load klicken. Peakboard analysiert die Struktur der XML-Datei und zeigt den Baum der XML-Elemente an. Je nachdem welches Element man ausgewählt hat, werden unten alle Attribute angezeigt, die an oder unter dem gewählten Element liegen. Bestimmte Elemente brauchen wir später gar nicht. Hier kann man den Haken entfernen, dann tauchen sie im weiteren Verlauf gar nicht erst auf. Vor allem bei sehr komplexen XML-Files ist es ratsam frühzeitig alle Elemente wegzulassen, für die man keine Verwendung hat.
+![XML Datenquelle konfigurieren](/assets/images/Tutorial/XML/XML_config-01_de.png)
 
-![image_1](/assets/images/Tutorial/XML/TutorialExterneDatenquelle02.png)
+Bestimmte Elemente werden nicht benötigt. Hier kannst du die Markierung entfernen (6), dann tauchen sie im weiteren Verlauf nicht auf. Vor allem bei sehr komplexen XML-Files ist es ratsam frühzeitig alle Elemente wegzulassen, für die du keine Verwendung hast.
 
-Ein Klick auf OK übernimmt alle Werte in die Hauptmaske. Die korrekte Konfiguration lässt sich durch einen Klick auf Preview überprüfen. Hier kann auch die Plausibilität der Daten noch einmal kurz überprüft werden.
+![XML Datenquelle konfigurieren](/assets/images/Tutorial/XML/XML_config-02_de.png)
 
-![image_1](/assets/images/Tutorial/XML/TutorialExterneDatenquelle03.png)
+Ein Klick auf OK übernimmt alle Werte in den Datenquellen-Dialog. Die korrekte Konfiguration kannst du durch einen Klick auf [Daten laden] überprüfen. Im Bereich Vorschau (7) kannst du dann auch die Plausibilität der Daten noch einmal kurz überprüfen.
 
-Zurück auf dem Hauptfenster des Designer können wir uns jetzt um die Visualisierung kümmern. Die Daten sollen einfach nur in einer Tabelle angezeigt werden. Ziehen Sie dazu ein Table-Grid-Control von der Toolbox auf das Panel und justieren Sie die Größe des Tabellenelements mit Hilfe der Hilfslinien so, dass es das komplette Panel bis auf einen gebührenden Abstand zum Rand ausfüllt.
+![XML Datenquelle konfigurieren](/assets/images/Tutorial/XML/XML_config-03_de.png)
 
-![image_1](/assets/images/Tutorial/XML/TutorialExterneDatenquelle04.png)
+Als nächstes erstellst du die Visualisierung. Die Daten sollen einfach nur in einer Tabelle angezeigt werden. Ziehe dazu ein Table-Grid-Control [Tabelle] von der Toolbox auf die Arbeitsfläche und wähle die in den vorangegangenen Schritten erstellte Datenquelle aus (8).
 
-Als nächstes müssen wir nun das Tabellenelement mit der Datenquelle verbinden. Dazu gibt es die Eigenschaft „Source“ im Attribute-Fenster unten rechts. Ein Klick auf die drei Punkte bringt uns in den Dialog zur Auswahl der Datenquelle. Es gibt im Moment nur eine Datenquelle, nämlich unsere XML-Datei namens Abfahrt. Die wählen wir aus und bestätigen mit OK.
+![Control hinzufügen](/assets/images/Tutorial/XML/XML_add-control-01_de.png)
 
-![image_1](/assets/images/Tutorial/XML/TutorialExterneDatenquelle05.png)
+Bestätige mit einem Klick auf [OK] und justiere die Größe des Tabellenelements durch Klicken und Ziehen an deren Rändern nach deinem Geschmack möglichst flächenfüllend (9).
 
-Das Tabellenelement zeigt auf dem Panel jetzt schon alle Spalten an, die unsere Datenquelle hat. Allerdings noch nicht besonders hübsch, deshalb öffnen wir mit einem Doppelklick auf die Tabelle den nachfolgenden Konfigurationsdialog. Dort sind alle Spalten der Datenquelle gelistet. Bitte vergeben Sie in der Spalte Caption nun bessere, sprechende Namen für die jeweiligen Spalten, z.B. „Zugtyp“ statt „type“ oder „Zeit“ statt „time“ usw. In der Spalte Width steht standardmäßig ein Sternchen. Sternchen bedeutet, dass die zur Verfügung stehende Gesamtbreite einer Tabelle auf alle Sternchen-Spalten gleichmäßig verteilt werden. Man könnte nun eine festes Zahl dort hineinschreiben (z.B 50 für eine fixe Breite von 50 Pixeln) oder das Schlüsselwort „Auto“. Das bedeutet, dass die Spalte so breit gerendert wird, wie das breiteste Datenelement, also eine optimale Breite.
+![Control hinzufügen](/assets/images/Tutorial/XML/XML_add-control-02_de.png)
 
-![image_1](/assets/images/Tutorial/XML/TutorialExterneDatenquelle06.png)
+Das Tabellenelement zeigt auf dem Panel jetzt schon alle Spalten der Datenquelle an. Allerdings noch nicht besonders hübsch, deshalb öffnest du mit einem Klick auf die drei Punkte im Bereich [Allgemein] - [Spalten] den nachfolgenden Konfigurationsdialog. Dort sind alle Spalten der Datenquelle gelistet. 
 
-Zurück im Designer klicken Sie nun bitte mal auf Preview. Das Ergebnis sollte so aussehen wie der nachfolgende Screenshot. Die Tabelle wird dynamisch gefüllt und gemäß den Angaben in der Datenquelle alle 90 Sekunden aufgefrischt.
+Vergib in der Spalte [Legende] (10) nun bessere, sprechende Namen für die jeweiligen Spalten, z.B. „Zugtyp“ statt „type“ oder „Abfahrt“ statt „time“ usw. In der Spalte [Breite] (11) steht standardmäßig „Fill“. Stelle hier alle Spalten außer die Fahrtrichtung auf „Cut“ um. Das bedeutet, dass die Spalte so breit gerendert wird, wie das breiteste Datenelement, also auf eine optimale Breite. Die [Ausrichtung] (12) änderst du je nach Geschmack ebenfalls überall bis auf die der Fahrtrichtung auf „Center“. Klicke dann auf [OK].
 
-![image_1](/assets/images/Tutorial/XML/TutorialExterneDatenquelle07.png)
+![Control konfigurieren](/assets/images/Tutorial/XML/XML_control-config-01_de.png)
+
+Zurück im Hauptfenster änderst du beispielsweise folgende Werte im Bereich [Aussehen] (13) der Tabelle:
+
+Schriftart Header: header2, Schriftgröße auf 45 und bold ändern
+Schriftart Body: default, Schriftgröße auf 30 ändern
+Hintergrund Header: #FFFFAA00
+Rahmendicke: 0
+Zellenabstand: 30,15,30,15
+
+Nun klickst du auf [Vorschau] (14).
+
+![Control konfigurieren](/assets/images/Tutorial/XML/XML_control-config-02_de.png)
+
+Das Ergebnis sollte nun ungefähr so aussehen wie der nachfolgende Screenshot. Die Tabelle wird dynamisch gefüllt und gemäß den Angaben in der Datenquelle alle 90 Sekunden aufgefrischt.
+
+![Ergebnis](/assets/images/Tutorial/XML/XML_result_de.png)
