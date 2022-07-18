@@ -36,7 +36,7 @@
       }]
     },
     {
-      "name": "Drop-down menu",
+      "name": "Drag&drop menu",
       "content": [{
         "type": "image",
         "image": "2-16-0-0-Menu_en.gif",
@@ -55,7 +55,7 @@
           "[Peakboard Runtime] - Fix for a bug where data was displayed as unavailable if a reloadable list was accessed during reload",
           "[Peakboard Designer] - New feature implemented: When a screen is dragged and dropped onto the workspace, a button is automatically created with which the screen can be displayed.",
           "[Peakboard Designer] - Fixed incorrect naming in Explorer",
-          "[Peakboard Designer] - drop-down menu for data sources, dataflows and variables implemented on the workspace",
+          "[Peakboard Designer] - drag&drop menu for data sources, dataflows and variables implemented on the workspace",
           "Peakboard Box Settings - Fix for a bug where Peakboard Designer does not save a change when selecting the Ethernet option [Obtain IP address automatically]",
           "Fix for an error that occurred when the screen was disconnected from the Peakboard Box",
           "Error messages can be sent to Peakboard for analysis",
