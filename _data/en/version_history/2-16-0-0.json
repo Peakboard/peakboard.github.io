@@ -1,0 +1,186 @@
+[{
+  "version": "2.16.0.0",
+  "date": "18.07.2022",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "tabs": [
+    {
+      "name": "Revised user interface",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-UI_en.gif",
+        "description": "The user interface has been comprehensively revised in terms of appearance and user-friendliness."
+      }]
+    },
+	  {
+      "name": "New data source: Rockwell",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Rockwell_en.gif",
+        "description": "New data source [Rockwell](/data_sources/en-rockwell.html) is now available."
+      }]
+    },
+	  {
+      "name": "New data source: Modbus",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Modbus_en.gif",
+        "description": "New data source [Modbus](/data_sources/en-modbus.html) is now available."
+      }]
+    },
+    {
+      "name": "Alerts in Peakboard Hub",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Alerts.gif",
+        "description": "Via scripting it is now possible to send alerts to the Peakboard Hub."
+      }]
+    },
+    {
+      "name": "Drop-down menu on workspace",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Menu_en.gif",
+        "description": "With the new drop-down menu for data sources, you can now more easily create your desired controls and build your visualization even faster."
+      }]
+    },
+	  {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Runtime] - Fix for a bug where an error was issued instead of default values when data was converted incorrectly",
+          "[Peakboard Runtime] - Fix for a bug where data was displayed as unavailable if a reloadable list was accessed during reload",
+          "[Peakboard Designer] - New feature implemented: When a screen is dragged and dropped onto the workspace, a button is automatically created with which the screen can be displayed.",
+          "[Peakboard Designer] - Fixed incorrect naming in Explorer",
+          "[Peakboard Designer] - drop-down menu for data sources, dataflows and variables implemented on the workspace",
+          "Peakboard Box Settings - Fix for a bug where Peakboard Designer does not save a change when selecting the Ethernet option [Obtain IP address automatically]",
+          "Fix for an error that occurred when the screen was disconnected from the Peakboard Box",
+          "Error messages can be sent to Peakboard for analysis",
+          "Added Sharepoint as a selection option in resource selection dialog",
+          "Added possibility to edit scripts in screens and controls via right click",
+          "General adjustments to email server",
+          "Naming of splash sceen window adjusted",
+          "Initial screen revised",
+          "New icons for data sources implemented"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "New data source [Rockwell](/data_sources/en-rockwell.html)",
+          "New data source [Modbus](/data_sources/en-modbus.html)",
+          "[E-mail](/data_sources/en-mail.html) - Optimized sending e-mails",
+          "[Excel](/data_sources/Excel/en-excel.html) - OneDrive support implemented",
+          "[Excel](/data_sources/Excel/en-excel.html) - Fix for a bug with existing Excel data sources",
+          "[JSON](/data_sources/en-json.html) - fix for a bug where JSon nodes containing a dot do not show their value in the editor",
+          "[MQTT](/data_sources/en-mqtt-broker.html) - fix for a bug where adding a new MQTT subscription caused a crash",
+          "[MS SQL Server](/data_sources/en-ms-sql-server.html) - default timeout value increased from 30 seconds to 120 seconds",
+          "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for an error where all columns were always loaded as [ number ] type",
+          "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for a bug where script validation did not work properly",
+          "[Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - functionality extended",
+          "[Reload Flows](/misc/en-reloadflows.html) - Fix for several errors that occurred when making changes to a data source contained in a reload flow",
+          "[Siemens S7](/data_sources/en-siemens-s7.html) - User interface reworked and split connection implemented",
+          "[Siemens S7](/data_sources/en-siemens-s7.html) - Fix for an error that occurred when reading certain string data types",
+          "[Siemens S7](/data_sources/de-siemens-s7.html) - Fix for an error that occurred when reading negative values",
+          "Revision of data source [Microsoft Calendar](/data_sources/en-microsoft-calendar.html)",
+          "Removed [Microsoft Dynamics NAV] data source",
+          "Added ability to log in to cloud-based data sources with different user credentials."
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where disabling a dataflow did not gray it out until the project was reloaded",
+          "Fix for a bug where the horizontal scrollbar was not displayed if the dataflow did not contain any rows",
+          "Fix for a bug where data sources could only be enabled/disabled in the context menu",
+          "Changed incorrect naming in context menu",
+          "Fixed bug in user interface",
+          "Naming and behavior adjustments in the aggregation section"
+        ]
+        }, {
+          "type": "headline",
+          "text": "Controls"
+        }, {
+          "type": "list",
+          "list_items": [
+            "[Conditional Formatting](/controls/en-cf.html) - fix for a bug where conditional formatting did not work if the column name contained a [:] or [-]",
+            "[Shapes](/controls/Shape/en-shapes.html) - Balloon and cloud removed",
+            "[Linear Gauge](/controls/Chart/en-linear-gauge.html) - description text changed when data source was missing",
+            "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - fix for a bug where the wrong bar height was displayed if you changed the alignment",
+            "[PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where PDFs used in multiple PDF viewers and added via script were not displayed",
+            "[PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where a background change had no effect",
+            "[PDF Viewer]( /controls/Document/en-pdf.html) - script functionality for browsing PDFs implemented",
+            "[PDF Viewer](/controls/Document/en-pdf.html) - new functionality implemented in [Building Blocks](/scripting/en-building-blocks.html)",
+            "[Power BI](/controls/Extended/en-power-bi.html) - page selection option for multi-page reports implemented",
+            "[Table Grid](/controls/Common/en-table-grid.html) - fix for a bug in the column dialog",
+            "[Table Grid](/controls/Common/en-table-grid.html) - options for background colors adjusted",
+            "[Tile-Control](/controls/Common/en-tilecontrol.html) - datasource index function implemented",
+            "[TileView](/controls/Common/en-tile-view.html) and [ListView](/controls/Common/en-list-view.html) - fix for a bug where the Boolean type in conditional formatting was not applied when copying",
+            "[TileView](/controls/Common/en-tile-view.html) and [ListView](/controls/Common/en-list-view.html) - function to change visibility implemented",
+            "[TileView](/controls/Common/en-tile-view.html) and [ListView](/controls/Common/en-list-view.html) - Preset fields adjusted",
+            "[TileView](/controls/Common/en-tile-view.html) - Additional spacing settings implemented",
+            "[TileView](/controls/Common/de-tile-view.html) - fix for a bug where it was not possible to copy and paste an icon control inside a tile control",
+            "[Text-Ticker](/controls/Extended/en-text-ticker.html) - Replaced wrong icon in explorer",
+            "[Text-Ticker](/controls/Extended/en-text-ticker.html) - Adjusted behavior when linking to empty list",
+            "Fix for a bug where creating a series from charts was not possible",
+            "Fix for a bug where Peakboard Runtime crashed on startup when using a [Checkbox](/controls/Input/en-checkbox.html) or a [Toggleswitch](/controls/Input/en-toggleswitch.html) inside a [TileView](/controls/Common/en-tile-view.html) or got stuck on startup when using them in a [ListView](/controls/Common/en-list-view.html)",
+            "Default value for charts without data adjusted from [72] to [0]",
+            "Default formats changed"
+          ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building Blocks](/scripting/en-building-blocks.html) - Texts in hub list blocks changed from index to ID",
+          "[Building Blocks](/scripting/en-building-blocks.html) - SQL stored procedure block extended",
+          "[Building Blocks](/scripting/en-building-blocks.html) - Current screenshots sendable by mail",
+          "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where [Set variable] stopped working",
+          "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where the preview for a block continued to be displayed even when the cursor was released outside the workspace",
+          "[Building Blocks](/scripting/en-building-blocks.html) - fix for an error that occurred with special characters in column names",
+          "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where a block became incorrect after the script was closed and reopened",
+          "[Building Blocks](/scripting/en-building-blocks.html) - Aggregation functions optimized",
+          "[Building Blocks](/scripting/en-building-blocks.html) - Quick access for AND/OR blocks implemented",
+          "Fix for a bug where an incorrect default script was generated in global functions",
+          "Fix for a bug where Intellisense stopped working for controls",
+          "Fix for a bug where the [isvisible] property did not work in the runtime",
+          "Fix for a bug where the script example [addendingcharacters] did not work",
+          "Adjusted naming in script tree",
+          "Implemented new functions for data sources, dataflows and lists",
+          "Translations in script editor, script tree and context menu improved",
+          "Functions for Peakboard Hub implemented in script editor and building blocks",
+          "Lua SQL module improved",
+          "Timer can be activated and deactivated via script or building blocks",
+          "Script tree contents for TileView and ListView adapted"          
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Lists](/hub/en-hub_variableslist.html) - fix for an error that occurred when only a single line was added"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Peakboard Web Access"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where it was not possible to scroll through the existing visualizations if there were too many on a Peakboard Box",
+          "Fix for a bug where it was not possible to save changes made in a split list in the web interface",
+          "Implemented new global function for image sources",
+          "Added result display in notification for successfully executed function"          
+        ]
+      }]
+    }
+  ]
+}]

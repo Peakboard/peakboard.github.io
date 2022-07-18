@@ -7,7 +7,6 @@ lang: de
 weight: 2450
 ref: dat-2450
 redirect_from:
-hide_in_menu: true
 ---
 Bei Modbus handelt es sich um ein offenes Kommuniktationsprotokoll.
 Mit Modbus können ein Client wie zum Beispiel Peakboard und mehrere Server verbunden werden.

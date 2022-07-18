@@ -7,7 +7,6 @@ lang: de
 weight: 2575
 ref: dat-2575
 redirect_from:
-hide_in_menu: true
 ---
 Rockwell Automation (Allen-Bradley) ist ein amerikanischer Hersteller von speicherprogrammierbaren Steuerungen (SPSen).
 Der Peakboard Designer unterstützt alle Rockwell SPSen, die das von Rockwell entwickelte Protokoll Ethernet/IP nutzen.

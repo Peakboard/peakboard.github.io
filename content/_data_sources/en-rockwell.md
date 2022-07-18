@@ -7,7 +7,6 @@ lang: en
 weight: 2575
 ref: dat-2575
 redirect_from:
-hide_in_menu: true
 ---
 Rockwell Automation (Allen-Bradley) is an American manufacturer of programmable logic controllers (PLCs).
 Peakboard Designer supports all Rockwell PLCs that use the Ethernet/IP protocol developed by Rockwell.
