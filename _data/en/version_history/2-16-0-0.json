@@ -4,7 +4,7 @@
   "download_url": "https://peakboard.rocks/download-version-history",
   "tabs": [
     {
-      "name": "Revised user interface",
+      "name": "Revised UI",
       "content": [{
         "type": "image",
         "image": "2-16-0-0-UI_en.gif",
@@ -12,7 +12,7 @@
       }]
     },
 	  {
-      "name": "New data source: Rockwell",
+      "name": "Rockwell",
       "content": [{
         "type": "image",
         "image": "2-16-0-0-Rockwell_en.gif",
@@ -20,7 +20,7 @@
       }]
     },
 	  {
-      "name": "New data source: Modbus",
+      "name": "Modbus",
       "content": [{
         "type": "image",
         "image": "2-16-0-0-Modbus_en.gif",
@@ -28,7 +28,7 @@
       }]
     },
     {
-      "name": "Alerts in Peakboard Hub",
+      "name": "Peakboard Hub Alerts",
       "content": [{
         "type": "image",
         "image": "2-16-0-0-Alerts.gif",
@@ -36,7 +36,7 @@
       }]
     },
     {
-      "name": "Drop-down menu on workspace",
+      "name": "Drop-down menu",
       "content": [{
         "type": "image",
         "image": "2-16-0-0-Menu_en.gif",
