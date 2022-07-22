@@ -8,7 +8,7 @@
       "content": [{
         "type": "image",
         "image": "2-16-0-0-UI_de.gif",
-        "description": "Das User Interface wurde hinsichtlich der Optik und Nutzerfreundlichkeit umfassen überarbeitet."
+        "description": "Das User Interface wurde hinsichtlich der Optik und Nutzerfreundlichkeit umfassend überarbeitet."
       }]
     },
 	  {
@@ -32,7 +32,7 @@
       "content": [{
         "type": "image",
         "image": "2-16-0-0-Alerts.gif",
-        "description": "Per Scripting ist es jetzt möglich Warnmeldungen an den Peakboard Hub zu senden."
+        "description": "Per Scripting ist es jetzt möglich Warnmeldungen an Peakboard Hub zu senden."
       }]
     },
     {
