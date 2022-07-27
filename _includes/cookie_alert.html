@@ -77,6 +77,18 @@
                             </button>
                         </div>
                     </div>
+                    <div class="my-4">
+                        <div class="flex items-center justify-between">
+                            <span class="flex-grow flex flex-col sm:mx-2 lg:mx-16" id="toggleLabelMarketing">
+                                <span class="text-sm font-medium text-gray-900 text-left font-semibold">{{ site.language[page.lang].cookie-box-change-preferences-section-marketing }}</span>
+                                <span class="text-sm leading-normal text-gray-700 text-left">{{ site.language[page.lang].cookie-box-change-preferences-section-marketing-explanation }}</span>
+                            </span>
+                            <button id="cookie-type-marketing" type="button" aria-pressed="false" aria-labelledby="toggleLabel" class="mx-16 bg-orange relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-light">
+                                <span class="sr-only">{{ site.language[page.lang].cookie-box-change-preferences-section-marketing }}</span>
+                                <span id="cookie-type-marketing-span" aria-hidden="true" class="translate-x-5 inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200"></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="mt-5 sm:mt-6 sm:grid sm:grid-cols-2 sm:gap-3 sm:grid-flow-row-dense">
@@ -96,7 +108,7 @@
         if('{{page.layout}}' !== 'privacy')
         {
             let cookieBox = document.getElementById("cookie-box");
-            consentForCookie = getCookie("consentCookie");
+            var consentForCookie = getCookie("consentCookie");
 
             if (!consentForCookie) {
                 cookieBox.classList.remove("hidden");
@@ -105,15 +117,15 @@
             }
 
             document.getElementById("cookie-accept").onclick = function (e) {
-                setCookie("consentCookie", "level=3", 3650);
+                setCookie("consentCookie", "level=5", 3650);
                 cookieBox.classList.add("hidden");
-                insertAllowedScripts(3);
+                insertAllowedScripts(5);
             }
 
             document.getElementById("cookie-accept-all").onclick = function (e) {
-                setCookie("consentCookie", "level=3", 3650);
+                setCookie("consentCookie", "level=5", 3650);
                 cookieBox.classList.add("hidden");
-                insertAllowedScripts(3);
+                insertAllowedScripts(5);
             }
 
             document.getElementById("cookie-change").onclick = function (e) {
@@ -145,15 +157,49 @@
                 }
             }
 
+            let useMarketing = true;
+            let cookieTypeMarketing = document.getElementById("cookie-type-marketing");
+            let cookieTypeMarketingSpan = document.getElementById("cookie-type-marketing-span");
+
+            cookieTypeMarketing.onclick = function (e) {
+                if (useMarketing) {
+                    useMarketing = false;
+                    <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+                    cookieTypeMarketing.classList.remove("bg-orange");
+                    cookieTypeMarketing.classList.add("bg-gray-200");
+                    <!-- On: "translate-x-5", Off: "translate-x-0" -->
+                    cookieTypeMarketingSpan.classList.remove("translate-x-5");
+                    cookieTypeMarketingSpan.classList.add("translate-x-0");
+                } else {
+                    useMarketing = true;
+                    <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+                    cookieTypeMarketing.classList.remove("bg-gray-200");
+                    cookieTypeMarketing.classList.add("bg-orange");
+                    <!-- On: "translate-x-5", Off: "translate-x-0" -->
+                    cookieTypeMarketingSpan.classList.remove("translate-x-0");
+                    cookieTypeMarketingSpan.classList.add("translate-x-5");
+                }
+            }
+
             document.getElementById("cookie-save").onclick = function (e) {
                 // depending on checkbox
-                if (useStatistics) {
-                    // checkbox not unchecked, so still save as level 3
+                if (useStatistics && useMarketing) {
+                    // checkbox not unchecked, so still save as level 5
+                    setCookie("consentCookie", "level=5", 3650);
+                    cookieBox.classList.add("hidden");
+                    insertAllowedScripts(5);
+                } else if (useMarketing) {
+                    // useMarketing checkbox not unchecked, so still save as level 4
+                    setCookie("consentCookie", "level=4", 3650);
+                    cookieBox.classList.add("hidden");
+                    insertAllowedScripts(4);
+                } else if (useStatistics) {
+                    // useStatistics checkbox not unchecked, so still save as level 3
                     setCookie("consentCookie", "level=3", 3650);
                     cookieBox.classList.add("hidden");
                     insertAllowedScripts(3);
                 } else {
-                    // checkbox unchecked, so save as level 2
+                    // useStatistics and useMarketing checkbox unchecked, so save as level 2
                     setCookie("consentCookie", "level=2", 3650);
                     cookieBox.classList.add("hidden");
                     insertAllowedScripts(2);
@@ -175,10 +221,22 @@
     }
 
     function insertAllowedScripts(level) {
-        if(level === 3) {
-            // insert statistics
+        var head = document.getElementsByTagName('head')[0];
 
-            var head = document.getElementsByTagName('head')[0];
+        if(level === 4 || level === 5) {
+            // insert marketing
+
+            // activecampaign
+            var activecampaign = document.createElement("script");
+            activecampaign.type = "text/javascript";
+            activecampaign.textContent = "(function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement('script');r.src=o;r.async=true;i=t.getElementsByTagName('script')[0];i.parentNode.insertBefore(r,i)})(window,document,'https://diffuser-cdn.app-us1.com/diffuser/diffuser.js','vgo');"
+                + "vgo('setAccount', '651388145');vgo('setTrackByDefault', true);vgo('process');";
+            head.appendChild(activecampaign);
+
+        }
+
+        if(level === 3 || level === 5) {
+            // insert statistics
 
             // GTM
             var gtm = document.createElement("script");
