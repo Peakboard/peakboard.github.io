@@ -8,7 +8,7 @@ weight: 1
 ref: misc-1
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.15.0.0 (06.04.2022)
+footer: 2.16.0.0 (18.07.2022)
 ---
 
 {% assign sorted_version_history_entries = site.data[page.lang].version_history | sort %}
