@@ -139,6 +139,7 @@
 
             cookieTypeStatistics.onclick = function (e) {
                 if (useStatistics) {
+                    console.log("cookieTypeStatistics switch off")
                     useStatistics = false;
                     <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
                     cookieTypeStatistics.classList.remove("bg-orange");
@@ -147,6 +148,8 @@
                     cookieTypeStatisticsSpan.classList.remove("translate-x-5");
                     cookieTypeStatisticsSpan.classList.add("translate-x-0");
                 } else {
+                    console.log("cookieTypeStatistics switch on")
+                    console.log("cookieTypeStatistics switch on")
                     useStatistics = true;
                     <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
                     cookieTypeStatistics.classList.remove("bg-gray-200");
@@ -163,6 +166,7 @@
 
             cookieTypeMarketing.onclick = function (e) {
                 if (useMarketing) {
+                    console.log("cookieTypeMarketing switch off")
                     useMarketing = false;
                     <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
                     cookieTypeMarketing.classList.remove("bg-orange");
@@ -171,6 +175,7 @@
                     cookieTypeMarketingSpan.classList.remove("translate-x-5");
                     cookieTypeMarketingSpan.classList.add("translate-x-0");
                 } else {
+                    console.log("cookieTypeMarketing switch on")
                     useMarketing = true;
                     <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
                     cookieTypeMarketing.classList.remove("bg-gray-200");
@@ -182,6 +187,8 @@
             }
 
             document.getElementById("cookie-save").onclick = function (e) {
+                console.log("cookie-save useStatistics: " + useStatistics)
+                console.log("cookie-save useMarketing: " + useMarketing)
                 // depending on checkbox
                 if (useStatistics && useMarketing) {
                     // checkbox not unchecked, so still save as level 5
@@ -197,12 +204,12 @@
                     // useStatistics checkbox not unchecked, so still save as level 3
                     setCookie("consentCookie", "level=3", 3650);
                     cookieBox.classList.add("hidden");
-                    insertAllowedScripts(2);
+                    insertAllowedScripts(3);
                 } else {
                     // useStatistics and useMarketing checkbox unchecked, so save as level 2
                     setCookie("consentCookie", "level=2", 3650);
                     cookieBox.classList.add("hidden");
-                    insertAllowedScripts(1);
+                    insertAllowedScripts(2);
                 }
             }
         }
