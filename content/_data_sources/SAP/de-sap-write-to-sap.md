@@ -10,7 +10,7 @@ ref: dat-1150
 
 Im SAP kann über Peakboard ein beliebiger Funktionsbaustein des SAP Systems aufgerufen werden. Dabei ist es wichtig, dass dieser Funktionsbaustein Remote-fähig ist. Über Peakboard kann der Funktionsbaustein (Z_Function_Module) aufgerufen werden und Exportparameter übergeben werden. Diese können dann innerhalb des Funktionsbausteins auf der Seite von SAP beliebig weiterverarbeitet werden.
 
-Zunächst wird im Peakboard Designer eine SAP Datenquelle angelegt (YourSAPDatasource). Diese kann einerseits dafür verwendet werden. Daten aus dem SAP System anzuzeigen und zum anderen, um Daten zurück zu schreiben.
+Zunächst legst du im Peakboard Designer eine SAP Datenquelle an (YourSAPDatasource). Diese kann einerseits dafür verwendet werden. Daten aus dem SAP System anzuzeigen und zum anderen, um Daten zurück zu schreiben.
 
 Dabei kann der Exportparameter aus unterschiedlichen Datenquellen, beispielsweise einer im Peakbaord angelegten Variablen (PeakboardVariable) stammen.
 

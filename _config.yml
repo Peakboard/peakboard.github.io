@@ -301,7 +301,7 @@ language:
     cookie-box-change-preferences-button-save: "Speichern"
     version-history-see-more: "Mehr anzeigen"
     version-history-download-tooltip: "Download this software version"
-    version-history-archive: "Go to version archive"
+    version-history-archive: "Zum Versionsarchiv"
     version-history-archive-link: "/misc/de-versionshistorie-archive.html"
   cn:
     homepage-top-section-title: "获取帮助"

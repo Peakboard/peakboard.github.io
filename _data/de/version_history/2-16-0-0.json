@@ -1,0 +1,186 @@
+[{
+  "version": "2.16.0.0",
+  "date": "18.07.2022",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "tabs": [
+    {
+      "name": "Überarbeitetes UI",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-UI_de.gif",
+        "description": "Das User Interface wurde hinsichtlich der Optik und Nutzerfreundlichkeit umfassend überarbeitet."
+      }]
+    },
+	  {
+      "name": "Rockwell",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Rockwell_de.gif",
+        "description": "Neue Datenquelle [Rockwell](/data_sources/de-rockwell.html) ist jetzt verfügbar."
+      }]
+    },
+	  {
+      "name": "Modbus",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Modbus_de.gif",
+        "description": "Neue Datenquelle [Modbus](/data_sources/de-modbus.html) ist jetzt verfügbar."
+      }]
+    },
+    {
+      "name": "Peakboard Hub Warnmeldungen",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Alerts.gif",
+        "description": "Per Scripting ist es jetzt möglich Warnmeldungen an Peakboard Hub zu senden."
+      }]
+    },
+    {
+      "name": "Drag&Drop-Menü",
+      "content": [{
+        "type": "image",
+        "image": "2-16-0-0-Menu_de.gif",
+        "description": "Mit dem neuen Drag&Drop-Menü für Datenquellen kannst du jetzt noch einfacher deine gewünschten Controls erstellen und deine Visualisierung noch schneller aufbauen."
+      }]
+    },
+	  {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Runtime] - Fix für einen Fehler, bei dem bei fehlerhafter Datenkonvertierung keine Standardwerte sondern ein Fehler ausgegeben wurden",
+          "[Peakboard Runtime] - Fix für einen Fehler, bei dem Daten als nicht verfügbar angezeigt wurden, wenn während dem neu laden auf eine nachladbare Liste zugegriffen wurde",
+          "[Peakboard Designer] - Neue Funktion implementiert: Wird ein Bildschirm per Drag-and-drop auf die Arbeitsfläche gezogen wird automatisch ein Button erstellt mit dem der Bildschirm angezeigt werden kann",
+          "[Peakboard Designer] - Fehlerhafte Benamung im Explorer korrigiert",
+          "[Peakboard Designer] - Drag&Drop-Menü für Datenquellen, Dataflows und Variablen auf der Arbeitsfläche implementiert",
+          "Peakboard Box Einstellungen - Fix für einen Fehler, bei dem der Peakboard Designer keine Änderung speichert wenn man die Ethernet Option [IP-Adresse automatisch beziehen] auswählt",
+          "Fix für einen Fehler,  der auftrat wenn der Bildschirm von der Peakboard Box getrennt wurde",
+          "Fehlermeldungen können an Peakboard zur Analyse gesendet werden",
+          "Sharepoint als Auswahlmöglichkeit im Ressourcen-Auswahldialog hinzugefügt",
+          "Möglichkeit Skripte in Screens und Controls per Rechtsklick zu bearbeiten hinzugefügt",
+          "Allgemeine Anpassungen E-Mail Server",
+          "Benamung des Splash-Sceen-Fensters angepasst",
+          "Einstiegsbildschirm überarbeitet",
+          "Neue Icons für Datenquellen implementiert"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Neue Datenquelle [Rockwell](/data_sources/de-rockwell.html)",
+          "Neue Datenquelle [Modbus](/data_sources/de-modbus.html)",
+          "[E-Mail](/data_sources/de-mail.html) - Versenden von E-Mails optimiert",
+          "[Excel](/data_sources/Excel/de-excel.html) - OneDrive Unterstützung implementiert",
+          "[Excel](/data_sources/Excel/de-excel.html) - Fix für einen Fehler mit bestehenden Excel-Datenquellen",
+          "[JSON](/data_sources/de-json.html) - Fix für einen Fehler, bei dem JSon-Knoten die einen Punkt enthalten ihren Wert nich im Editor anzeigen",
+          "[MQTT](/data_sources/de-mqtt-broker.html) - Fix für einen Fehler bei dem das Hanzufügen einer neuen MQTT Subscription zu einem Absturz führte",
+          "[MS SQL Server](/data_sources/de-ms-sql-server.html) - Standardwert der Zeitüberschreitung von 30 Sekunden auf 120 Sekunden erhöht",
+          "[OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Fix für einen Fehler, bei dem alle Spalten immer als Typ [Zahl] geladen wurden",
+          "[OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Fix für einen Fehler, bei dem die Skript Validierung nicht richtig funktionierte",
+          "[Peakboard Hub List](/data_sources/de-peakboard-hub-list.html) - Funktionsumfang erweitert",
+          "[Reload Flows](/misc/de-reloadflows.html) - Fix für mehrere Fehler die bei Änderungen an einer in einem Reload Flow enthaltenen Datenquelle auftraten",
+          "[Siemens S7](/data_sources/de-siemens-s7.html) - Benutzeroberfläche überarbeitet und geteilte Verbindung implementiert",
+          "[Siemens S7](/data_sources/de-siemens-s7.html) - Fix für einen Fehler, der durch das auslesen bestimmter String Datentypen auftrat",
+          "[Siemens S7](/data_sources/de-siemens-s7.html) - Fix für einen Fehler, der beim Auslesen negativer Werte auftrat",
+          "Überarbeitung der Datenquelle [Microsoft Calendar](/data_sources/de-microsoft-calendar.html)",
+          "Datenquelle [Microsoft Dynamics NAV] entfernt",
+          "Möglichkeit sich bei Cloud-basierten Datenquellen mit anderen Benutzerdaten anzumelden hinzugefügt"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem die Deaktivierung eines Dataflows diesen nicht ausgraute bis das Projekt neu geladen wurde",
+          "Fix für einen Fehler, bei dem die horizontale Scrollbar nicht angezeigt wurde, wenn der Dataflow keine Zeilen enthielt",
+          "Fix für einen Fehler, bei dem Datenquellen nur im Kontextmenü aktiviert/deaktiviert werden konnten",
+          "Fehlerhafte Benamung im Kontextmenü geändert",
+          "Fehler in der Benutzeroberfläche ausgebessert",
+          "Benamungs- und Verhaltensanpassungen im Bereich Aggregierung"          
+        ]
+        }, {
+          "type": "headline",
+          "text": "Controls"
+        }, {
+          "type": "list",
+          "list_items": [
+            "[Bedingte Formatierung](/controls/de-cf.html) - Fix für einen Fehler, bei dem die Bedingte Formatierung nicht funktionerte, wenn im Spaltenname ein [:] oder [-] enthalten war",
+            "[Formen](/controls/Shape/de-shapes.html) - Ballon und Wolke entfernt",
+            "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - Beschreibungstext bei fehlender Datenquelle geändert",
+            "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - Fix für einen Fehler, bei dem die falsche Balkenhöhe angezeigt wurde, wenn man die Ausrichtung verändert hatte",
+            "[PDF Viewer](/controls/Document/de-pdf.html) - Fix für einen Fehler, bei dem PDFs die in mehreren PDF Viewern genutzt und per Skript hinzugefügt werden nicht angezeigt wurden",
+            "[PDF Viewer](/controls/Document/de-pdf.html) - Fix für einen Fehler, bei dem eine Hintergrundänderung keine Auswirkung hatte",
+            "[PDF Viewer](/controls/Document/de-pdf.html) - Skript-Funktionalität zum Blättern in PDFs implementiert",
+            "[PDF Viewer](/controls/Document/de-pdf.html) - Neue Funktion in [Building Blocks](/scripting/de-building-blocks.html) implementiert",
+            "[Power BI](/controls/Extended/de-power-bi.html) - Seitenauswahloption für mehrseitige Berichte implementiert",
+            "[Table Grid](/controls/Common/de-table-grid.html) - Fix für einen Fehler im Spaltendialog",
+            "[Table Grid](/controls/Common/de-table-grid.html) - Optionen für Hintergrundfarben angepasst",
+            "[Tile-Control](/controls/Common/de-tilecontrol.html - datasource index Funktion implementiert",
+            "[TileView](/controls/Common/de-tile-view.html) und [ListView](/controls/Common/de-list-view.html) - Fix für einen Fehler, bei dem beim Kopieren die Boolean-Art im Conditional Formatting nicht übernommen wurde",
+            "[TileView](/controls/Common/de-tile-view.html) und [ListView](/controls/Common/de-list-view.html) - Funktion zur Änderung der Sichtbarkeit implementiert",
+            "[TileView](/controls/Common/de-tile-view.html) und [ListView](/controls/Common/de-list-view.html) - Voreingestellte Felder angepasst",
+            "[TileView](/controls/Common/de-tile-view.html) - Weitere Abstandseinstellungen implemetiert",
+            "[TileView](/controls/Common/de-tile-view.html) - Fix für einen Fehler, bei dem es nicht möglich war ein Icon-Control innerhalb eines Tile-Control zu kopieren und einzufügen",
+            "[Text-Ticker](/controls/Extended/de-text-ticker.html) - Falsches Icon im Explorer ersetzt",
+            "[Text-Ticker](/controls/Extended/de-text-ticker.html) - Verhalten bei Verknüpfung mit leerer Liste angepasst",
+            "Fix für einen Fehler, bei dem die Erstellung einer Serie aus Diagrammen nicht möglich war",
+            "Fix für einen Fehler, bei dem die Peakboard Runtime beim Start abstürzte, wenn eine [Checkbox](/controls/Input/de-checkbox.html) oder ein [Kippschalter](/controls/Input/de-toggleswitch.html) innerhalb einer [TileView](/controls/Common/de-tile-view.html) verwendet wurden oder beim Start hängenblieb wenn diese in einer [ListView](/controls/Common/de-list-view.html) verwendet wurden",
+            "Standardwert für Diagramme ohne Daten von [72] auf [0] angepasst",
+            "Standardformate geändert"            
+          ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building Blocks](/scripting/de-building-blocks.html) - Texte in hub list blocks von Index auf ID umgestellt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - SQL Stored Procedure Block erweitert",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Aktuelle Screenshots per Mail versendbar",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, bei dem [Set variable] nicht mehr funktionierte",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, bei dem die Vorschau für einen Block weiterhin angezeigt wurde, auch wenn der Cursor außerhalb des Arbeitsbereiches losgelassen wurde",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, der bei Sonderzeichen in Spaltennamen auftrat",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, bei dem ein Block fehlerhaft wurde nachdem der Skript geschlossen und wieder geöffnet wurde",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Aggregierungsfunktionen optimiert",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Schnellzugriff für AND/OR Blöcke implementiert",
+          "Fix für einen Fehler, bei dem in globalen Funktionen ein fehlerhafter Standard-Skript generiert wurde",
+          "Fix für einen Fehler, bei dem Intellisense für Controls nicht mehr funktioniert hat",
+          "Fix für einen Fehler, bei dem die Eigenschaft [isvisible] in der Runtime nicht funktioniert hat",
+          "Fix für einen Fehler, bei dem das Skript-Beispiel [addendingcharacters] nicht funktionierte",
+          "Benamungen im Skript-Baum angepasst",
+          "Neue Funktionen für Datenquellen, Dataflows und Listen implementiert",
+          "Übersetzungen im Skript Editor, Skript-Baum und Kontextmenü verbessert",
+          "Funktionen für Peakboard Hub in Skript-Editor und Building Blocks implementiert",
+          "Lua SQL Modul erweitert",
+          "Timer per Skript oder Building Blocks aktivierbar und deaktivierbar",
+          "Skript-Baum Inhalte für TileView und ListView angepasst"          
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Listen](/hub/de-hub_variableslist.html) - Fix für einen Fehler, der auftrat, wenn nur eine einzelne Zeile hinzugefügt wurde"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Peakboard Web Access"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem es nicht möglich war durch die vorhandenen Visualisierungen zu scrollen wenn auf einer Peakboard Box zu viele vorhanden waren",
+          "Fix für einen Fehler, bei dem es nicht möglich war, Änderungen die in einer geteilten Liste vorgenommen wurden in der Weboberfläche zu speichern",
+          "Neue globale Funktion für Bildquellen implementiert",
+          "Ergebnis-Anzeige in Benachrichtigung für erfolgreich ausgeführte Funktion eingefügt"          
+        ]
+      }]
+    }
+  ]
+}]

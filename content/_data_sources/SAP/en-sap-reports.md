@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Installing Function Modules for SAP Reports
-menu_title: Installing Function Modules for SAP Reports
-description: Installing Function Modules for SAP Reports Tutorial
+title: Function Modules for SAP Reports
+menu_title: Function Modules for SAP Reports
+description: Function Modules for SAP Reports
 lang: en
 weight: 1110
 ref: dat-1110
@@ -19,5 +19,12 @@ If you cannot do this yourself, ask a colleague from your SAP Basis department t
 
 ![Function Builder Tables](/assets/images/data-sources/sap/report-custom-function-03.png)
 
-Please copy the source code by Ctrl+C and Ctrl+V from this [text file](https://peakboard.com/download/dokumente/Z_XTRACT_IS_REMOTE_REPORT.txt) into the code editor (Source Code tab). Save the module and activate it. Now it is ready for use.
-The individual steps (program execution, spool retrieval, job monitoring, and so on) are documented in the code accordingly. This makes it easy for the inclined reader to find out how the ABAP code works.
+Copy the source code by Ctrl+C and Ctrl+V from this [text file](https://peakboard.com/download/dokumente/Z_XTRACT_IS_REMOTE_REPORT.txt) into the code editor (Source Code tab). Save the module and activate it. Now it is ready for use.
+The individual steps (program execution, spool retrieval, job monitoring, and so on) are documented in the code accordingly. This way, if you are interested, you can easily find out how the ABAP code works.
+
+## SAP Standard Data Type TAB512
+
+Instead of using the SAP standard data type TAB512 for the LIST_OUTPUT table parameter, you can create your own Z data type.
+This is necessary if the output length of a report line is longer than 512 characters. The maximum possible length is 1023 characters.
+
+![TAB512](/assets/images/data-sources/sap/sap-reports-tab512.png)

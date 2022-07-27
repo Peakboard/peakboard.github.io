@@ -10,11 +10,11 @@ ref: dat-1150
 
 In SAP, any function module of the SAP system can be called via Peakboard. It is important that this function module is remote-enabled. With Peakboard, the function module (Z_Function_Module) can be called and export parameters can be transferred. These can then be processed further within the function module on the SAP side.
 
-An SAP data source is first created in the Peakboard Designer (YourSAPDatasource). This can be used both to display data from the SAP system and to write data back.
+First, you create an SAP data source in the Peakboard Designer (YourSAPDatasource). This can be used both to display data from the SAP system and to write data back.
 
 The export parameter can come from different data sources, for example, a variable created in the Peakboard (PeakboardVariable).
 
-``lua
+```lua
 local con = data.YourSAPDatasource.getconnection()
 -- Connect to SAP system
 con.open()
