@@ -12,7 +12,7 @@ redirect_from:
   - /get_started/de-anschliessen-und-die-erste-visualisierung.html
 ---
 
-![Die Peakboard Box](/assets/images/get_started/Peakboard-Box_technical-data_de.jpg)
+![Die Peakboard Box](/assets/images/get_started/Peakboard-Box_technical-data_de.png)
 
 Diese Anleitung zeigt dir, wie du deine Peakboard Box in Betrieb nimmst und deine erste Datenvisualisierung überträgst.
 Sieh dir außerdem [unser Video](https://youtu.be/-6YyjhlpdjU) für weitere Tipps zur Übertragung deiner Visualisierung auf die Peakboard Box an.

@@ -12,7 +12,7 @@ redirect_from:
   - /get_started/en-peakboard-connecting.html
 ---
 
-![The Peakboard Box](/assets/images/get_started/Peakboard-Box_technical-data_en.jpg)
+![The Peakboard Box](/assets/images/get_started/Peakboard-Box_technical-data_en.png)
 
 This tutorial will show you how to get your Peakboard Box up and running and transfer your first data visualization.
 Also, check out [our video](https://youtu.be/-6YyjhlpdjU) for more tips on transferring your visualization to the Peakboard Box.
@@ -29,7 +29,7 @@ To transfer your dashboard to the Peakboard Box, you must first add it to the Pe
 You can find out how to do this [here](/administration/07-en-add.html).
 After the Peakboard Box has been added, click on the [Upload] button and select the desired Peakboard Box to upload the visualization (1).
 
-![Upload Visualization](/assets/images/get_started/Peakboard-box_Upload_en.png)
+![Upload Visualization](/assets/images/get_started/Peakboard-Box_Upload_en.png)
 
 If the transfer was successful and no other dashboard is already active, the data visualization will also be displayed directly on the monitor. 
 *Note:* Each Peakboard Box stores any number of dashboards, but only one can be active at a time.

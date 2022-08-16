@@ -27,7 +27,7 @@ Die Templates dienen als Beispiel und können als Basis für deine individuelle 
 Über das Feld [Skript-Templates] (3) erhältst du Zugriff auf Templates zu den verschiedensten Anwendungsfällen und Beispieldateien, die dir das Arbeiten mit Skripten erklären.
 Um deine Visualisierung ohne ein Template zu beginnen, wähle [Leere Datei] im Bereich [Ganz neu anfangen] (4).
 
-![Peakboard Get Started Dialog](/assets/images/Tutorial/Get_Started/Peakboard-Designer_start_de.png)
+![Peakboard Get Started Dialog](/assets/images/get_started/Peakboard-Designer_start_de.png)
 
 # 2. Die Struktur des Peakboard Designers
 
@@ -35,7 +35,7 @@ Nun bist du richtig im Peakboard Designer angekommen.
 Der Peakboard Designer ist in fünf Hauptbereiche aufgeteilt.
 Ganz oben ist die Menüleiste (1), links der Explorer (2), der Arbeitsbereich ist in der Mitte (3), die verschiedenen Controls auf der rechten Seite (4) und darunter die Attribute (5).
 
-![Peakboard Designer Übersicht](/assets/images/Tutorial/Get_Started/Peakboard-Designer_overview_de.png)
+![Peakboard Designer Übersicht](/assets/images/get_started/Peakboard-Designer_overview_de.png)
 
 ## 2.1 Die Menüleiste 
 
@@ -44,7 +44,7 @@ In der Menüleiste findest du Grundfunktionen des Peakboard Designers.
 Über den Button [Projekt] (3) nimmst du grundlegende Einstellungen zu deiner Visualisierung vor und mit dem Button [Allgemeines] (4) führst du beispielsweise ein Software-Update aus.
 Deine eingesetzten Peakboard Boxen und Peakboard Edge kannst du über die entsprechenden Buttons (5) verwalten.
 
-![Peakboard Designer Menüleiste](/assets/images/Tutorial/Get_Started/Peakboard-Designer_menu_de.png)
+![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_de.png)
 
 ## 2.2 Der Explorer
 

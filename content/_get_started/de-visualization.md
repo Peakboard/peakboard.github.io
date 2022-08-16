@@ -9,8 +9,6 @@ ref: start-150
 redirect_from:
 ---
 
-# 1. Deine erste Visualisierung erstellen
-
 Da du den Peakboard Designer nun kennst, ist es Zeit deine erste Visualisierung zu erstellen. 
 Füge zunächst per Drag and Drop ein [Text] Control aus der Übersicht rechts hinzu und definiere in den Attributen verschiedene Einstellungen sowie das Aussehen dieses Controls.
 Wähle außerdem die gewünschte Schriftart, die Ausrichtung oder den Hintergrund, sowie einen Text, der angezeigt werden soll. Dieser wird später durch einen Datensatz ersetzt.
