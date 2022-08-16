@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Die Peakboard Box anschließen und die erste Visualisierung übertragen
-menu_title: Die Peakboard Box
-description: Die Peakboard Box anschließen und die erste Visualisierung übertragen
+title: Connect the Peakboard Box and transfer the first visualization
+menu_title: The Peakboard Box
+description: Connect the Peakboard Box and transfer the first visualization
 lang: en
 weight: 200
 ref: start-200
