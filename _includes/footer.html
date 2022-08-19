@@ -12,10 +12,12 @@
                         {% for p in pages %}
                             <div class="mr-12 mt-12 md:mt-0">
                                 <h3 class="mb-4 font-light border-b border-grey-light text-3xl text-white dot">{{ text.footer-version }}</h3>
-                                <p class="mb-3 font-bold text-white">{{ p.footer }}</p>
 
-                                    <a href="{{ p.url }}" class="text-white no-underline hover:underline font-light">{{ p.title }}</a>
-                                </p>
+                                {% assign sorted_version_history_entries = site.data[page.lang].version_history | sort %}
+                                {% assign latest_version = sorted_version_history_entries | reverse | first %}
+                                <p class="mb-3 font-bold text-white">{{ latest_version.version }} ({{ latest_version.date }})</p>
+
+                                <a href="{{ p.url }}" class="text-white no-underline hover:underline font-light">{{ p.title }}</a>
                             </div>
                         {% endfor %}
                     {% endfor %}

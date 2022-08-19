@@ -8,7 +8,6 @@ weight: 1
 ref: misc-1000001
 redirect_from:
   - /misc/06-de-versionshistorie.html
-footer: 2.15.0.0 (06.04.2022)
 hide_in_menu: true
 ---
 ## 2.9.1.0(26.04.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EjocT8mWFYdHninsPZh4VywBwERzmKaNcJ7MkRdUxcIJow?e=DFyLCn) 

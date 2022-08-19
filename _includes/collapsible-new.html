@@ -10,6 +10,37 @@
 </div>
 <div id="text-download-tooltip" class="hidden">{{ site.language[page.lang].version-history-download-tooltip }}</div>
 
+<div class="relative z-10 hidden" id="download-modal" role="dialog">
+    <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+
+    <div class="fixed z-10 inset-0 overflow-y-auto">
+        <div class="flex items-end sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
+
+            <div class="relative bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-lg sm:w-full sm:p-6">
+
+                <div class="hidden sm:block absolute top-0 right-0 pt-3 pr-3">
+                    <button type="button" id="download-modal-close" class="p-1 bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange">
+                        <span class="sr-only">Close</span>
+                        <!-- Heroicon name: outline/x -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="mt-3 text-center sm:mt-5">
+                    <h2 class="text-lg leading-6 font-medium text-gray-900">{{ site.language[page.lang].version-history-download-modal-title-pre }} <span id="download-modal-title"></span> {{ site.language[page.lang].version-history-download-modal-title-post }}</h2>
+                </div>
+                <div class="mt-6 sm:mt-10 sm:grid sm:grid-cols-2 sm:gap-3 sm:grid-flow-row-dense">
+                    <button type="button" id="download-modal-link-designer" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-orange text-lg font-semibold text-white hover:bg-orange-light focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange sm:text-lg">Peakboard Designer</button>
+                    <button type="button" id="download-modal-link-box" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-orange text-lg font-semibold text-white hover:bg-orange-light  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange sm:text-lg">Peakboard Box</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <style>
     @media only screen and (max-width: 600px) {
         .article-content > h2 {
@@ -160,37 +191,55 @@
                 linkIcon.classList.add("lightbox-ignore");
                 link[a].prepend(linkIcon);
 
-                var linkToolTipParent = document.createElement("div");
+                /*var linkToolTipParent = document.createElement("div");
                 linkToolTipParent.classList.add(
                     "z-50","origin-top-right","absolute","right-0",
-                    "mt-2","w-80","h-10","rounded-md","bg-white",
+                    "mt-2","w-80","rounded-md","bg-white",
                     "ring-2","ring-orange","ring-opacity-80","link-tool-tip","hidden");
 
                 var linkToolTip = document.createElement("p");
                 linkToolTip.classList.add(
                     "block","px-4","py-2","text-sm","text-center",
                     "text-gray-700","hover:bg-gray-100","hover:text-gray-900");
-                linkToolTip.innerText = document.getElementById("text-download-tooltip").innerText;
+                linkToolTip.innerHTML = document.getElementById("text-download-tooltip").innerText + "<br>" + document.getElementById("text-download-tooltip").innerText;
                 linkToolTipParent.append(linkToolTip);
 
-                link[a].append(linkToolTipParent);
+                link[a].append(linkToolTipParent);*/
 
-                link[a].addEventListener("mouseover", function(event) {
+                // when click on download link, toggle visibility of the modal
+                link[a].addEventListener("click", function(event) {
                     var targetElement = event.target;
-                    targetElement.parentNode.getElementsByClassName("link-tool-tip")[0].classList.remove("hidden");
+
+                    document.getElementById("download-modal-title").innerText = targetElement.getAttribute('data-version');
+                    document.getElementById("download-modal-link-box").setAttribute('data-target', targetElement.getAttribute('data-download-link-box'));
+                    document.getElementById("download-modal-link-designer").setAttribute('data-target', targetElement.getAttribute('data-download-link-designer'));
+                    document.getElementById("download-modal").classList.toggle("hidden");
                 }, false);
 
-                link[a].addEventListener("mouseout", function(event) {
+                document.getElementById("download-modal-link-designer").addEventListener("click", function(event) {
                     var targetElement = event.target;
-                    targetElement.parentNode.getElementsByClassName("link-tool-tip")[0].classList.add("hidden");
-                }, false);
+                    window.open(targetElement.getAttribute('data-target'), '_blank');
+                } , false);
+
+                document.getElementById("download-modal-link-box").addEventListener("click", function(event) {
+                    var targetElement = event.target;
+                    window.open(targetElement.getAttribute('data-target'), '_blank');
+                } , false);
+
+                document.getElementById("download-modal-close").addEventListener("click", function(event) {
+                    document.getElementById("download-modal").classList.add("hidden");
+                } , false);
             }
         }
 
 
-        coll[i].addEventListener("click", function() {
+        coll[i].addEventListener("click", function(event) {
             // collapse previous active entry
 
+            var targetElement = event.target;
+            if(targetElement.classList.contains('download-link')) {
+                return;
+            }
 
             // open clicked entry
             this.classList.toggle("active");

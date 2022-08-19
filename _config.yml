@@ -231,6 +231,8 @@ language:
     cookie-box-change-preferences-button-save: "Save Preferences"
     version-history-see-more: "See more"
     version-history-download-tooltip: "Download this software version"
+    version-history-download-modal-title-pre: "Download software version"
+    version-history-download-modal-title-post: "for "
     version-history-archive: "Go to version archive"
     version-history-archive-link: "/misc/en-version-history-archive.html"
   de:
@@ -301,6 +303,8 @@ language:
     cookie-box-change-preferences-button-save: "Speichern"
     version-history-see-more: "Mehr anzeigen"
     version-history-download-tooltip: "Download this software version"
+    version-history-download-modal-title-pre: "Download software version"
+    version-history-download-modal-title-post: "for "
     version-history-archive: "Zum Versionsarchiv"
     version-history-archive-link: "/misc/de-versionshistorie-archive.html"
   cn:
@@ -373,6 +377,8 @@ language:
     cookie-box-change-preferences-button-save: "保存偏好"
     version-history-see-more: "显示更多"
     version-history-download-tooltip: "Download this software version"
+    version-history-download-modal-title-pre: "Download software version"
+    version-history-download-modal-title-post: "for "
     version-history-archive: "Go to version archive"
     version-history-archive-link: "/misc/cn-version-history-archive.html"
 algolia:
