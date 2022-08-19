@@ -34,7 +34,7 @@ Here you can configure everything as you are used to from IIS and, for example, 
 After the first login of a user in Peakboard Hub you can define in the installation folder (by default C:/inetpub/PeakboardHub) under the application [Peakboard.HUB.DatabaseManager] which users should get admin rights for Peakboard Hub.
  As soon as a user has admin rights, this user can appoint further users in the user management of Peakboard Hub as admin in the future.
 
-<div class="box-warning" markdown="1"> **Beachte**:
+<div class="box-warning" markdown="1"> **Please note**:
 * If you want to update Peakboard boxes via Peakboard Hub, you must authorize the ISS process to write to the installation folder (c:/inetpub/PeakboardHub).
 * If you want to use MQTT for communication between Peakboard boxes, you have to open the MQTT port (default: 1883).
 </div>
