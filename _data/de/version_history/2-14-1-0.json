@@ -23,7 +23,7 @@
       "name": "Peakboard Box Infopanel",
       "content": [{
         "type": "image",
-        "image": "2-14-1-0-Infopanel_de.png",
+        "image": "2-14-1-0-Infopanel_en.png",
         "description": "Über das neue Infopanel kannst du während einer laufenden Visualisierung auf deiner Peakboard Box Debug Informationen, Statusinformationen oder Peakboard Box spezifische Funktionen abrufen. Hierfür musst du eine Tastatur an deine Peakboard Box anschließen und mit dem Shortcut [Strg + i] das Infopanel öffnen."
       }]
     },
