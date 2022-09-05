@@ -36,6 +36,7 @@ Welche Ports genau genutzt werden, hängt dabei natürlich vom Einzelfall ab.
 
 {% include styled_table.html %}
 {: .w-full }
-| 40406       |	Peakboard Edge |
+| 40404       |	Peakboard Edge Management |
+| 40406       |	Peakboard Edge Datenverbindung |
 | 40408       |	Kommunikationskanal für Peakboard Hub |
 | 40409       |	Kommunikationskanal für Peakboard Hub |

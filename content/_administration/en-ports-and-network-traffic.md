@@ -25,7 +25,7 @@ Which ports are used exactly, depends of course on the individual case.
 {% include styled_table.html %}
 {: .w-full }
 | 32XX / 33XX | Port for SAP communication, XX is the system number of the SAP system. |
-| 1433        |	Port for SQL Server |
+| 1433        |	Port for SQL server |
 | 80          |	Standard port for generic API queries of common Internet services |
 | 102         |	Siemens S7 |
 | 4840        |	Standard port for OPC UA |
@@ -33,6 +33,7 @@ Which ports are used exactly, depends of course on the individual case.
 ### Ports for Peakboard Edge and Peakboard Hub
 {% include styled_table.html %}
 {: .w-full }
-| 40406       |	Peakboard Edge |
+| 40404       |	Peakboard Edge management |
+| 40406       |	Peakboard Edge data connection |
 | 40408       |	Communication channel for Peakboard Hub |
 | 40409       |	Communication channel for Peakboard Hub |
