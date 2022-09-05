@@ -302,9 +302,9 @@ language:
     cookie-box-change-preferences-section-marketing-explanation: "Marketing Cookies speichern Informationen hinsichtlich besuchter Websites von Nutzern. Diese Daten werden dazu genutzt, um personalisierte, auf die Nutzerinteressen abgestimmte Werbeanzeigen einzublenden."
     cookie-box-change-preferences-button-save: "Speichern"
     version-history-see-more: "Mehr anzeigen"
-    version-history-download-tooltip: "Download this software version"
-    version-history-download-modal-title-pre: "Download software version"
-    version-history-download-modal-title-post: "for "
+    version-history-download-tooltip: "Diese Softwareversion herunterladen"
+    version-history-download-modal-title-pre: "Download der Softwareversion"
+    version-history-download-modal-title-post: "für "
     version-history-archive: "Zum Versionsarchiv"
     version-history-archive-link: "/misc/de-versionshistorie-archive.html"
   cn:
