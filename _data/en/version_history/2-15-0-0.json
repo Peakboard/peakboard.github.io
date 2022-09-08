@@ -2,6 +2,8 @@
   "version": "2.15.0.0",
   "date": "06.04.2022",
   "download_url": "",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/2.15.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/2.15.0.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Script Tree",
