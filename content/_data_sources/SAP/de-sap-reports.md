@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 Für die Verwendung von SAP-Reports in Peakboard musst du einen kundeneigenen Funktionsbaustein im SAP-System installieren.
-Falls du das nicht selber machen kannst, bitte Sie einen Kollegen aus deiner SAP-Basis-Abteilung, dir zu helfen. Lege zunächst eine Funktionsgruppe (z.B. mit dem Namen ZXTRACT) an, um den Baustein anzulegen. Lege dann einen neuen Funktionsbaustein an. Der Name sollte Z_XTRACT_IS_REMOTE_REPORT sein, kann bei Bedarf aber auch geändert werden. Definiere den Baustein in seinen Attributen als remotefähig und lege die Import-, Export- und Tabellenparameter so an, wie in den nachfolgenden Screenshots gezeigt.
+Falls du das nicht selber machen kannst, bitte einen Kollegen aus deiner SAP-Basis-Abteilung, dir zu helfen. Lege zunächst eine Funktionsgruppe (z.B. mit dem Namen ZXTRACT) an, um den Baustein anzulegen. Lege dann einen neuen Funktionsbaustein an. Der Name sollte Z_XTRACT_IS_REMOTE_REPORT sein, kann bei Bedarf aber auch geändert werden. Definiere den Baustein in seinen Attributen als remotefähig und lege die Import-, Export- und Tabellenparameter so an, wie in den nachfolgenden Screenshots gezeigt.
 
 ![Function Builder Import](/assets/images/data-sources/sap/report-custom-function-01.png)
 
