@@ -40,7 +40,7 @@ The right column shows the functions (7) and the files (8) used in the active vi
 
 To change the active visualization, click on the [Vizualizations] button in the left column. In the visualization overview you can see which visualization is currently active based on the pause symbol (9). 
 
-[Switch web access visualization](/assets/images/admin/web-access/Web-Access_visualization-01_en.png)
+![Switch web access visualization](/assets/images/admin/web-access/Web-Access_visualization-01_en.png)
 
 You can delete visualizations from the Peakboard box here by clicking on the trash can icon, or switch to the selected visualization by clicking the play icon. 
 
