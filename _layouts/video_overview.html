@@ -32,11 +32,7 @@ layout: base
 
                         <div class="w-full lg:w-1/3 xl:w-1/3 px-2 overflow-hidden mb-4 lg:mb-0 xl:mb-0">
                             <div class="w-full h-full border-solid border-2 border-grey-lighter card-highlight">
-                                {% if page.lang == 'cn' %}
-                                {% capture link %}https://v.qq.com/txp/iframe/player.html?vid={{video.tencent_id}}{% endcapture %}
-                                {% else %}
                                 {% capture link %}//www.youtube.com/embed/{{video.youtube_id}}?autoplay=1&rel=0{% endcapture %}
-                                {% endif %}
 
                                 <a style="border-bottom:0!important;" class="no-underline video-thumbnail" href="{{ link }}" data-lity>
                                     <img class="w-full p-4 lightbox-ignore" style="padding: 1rem;margin:0;" src="{{ video.image }}" alt="{{ video.description }}">

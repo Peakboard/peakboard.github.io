@@ -10,7 +10,6 @@ defaultLang: de
 languageNames:
   de: Deutsch
   en: English
-  cn: Chinese
 # Analytics
 gtm: "GTM-P8XSNDC"
 mtm: "OdpfKO2P"
@@ -33,7 +32,6 @@ collections:
     title:
       en: "Get Started"
       de: "Erste Schritte"
-      cn: "快速入门"
 
   data_sources:
     output: true
@@ -43,28 +41,22 @@ collections:
     title:
       en: "Data Sources"
       de: "Datenquellen"
-      cn: "数据源"
     sublevel:
       SAP:
         en: "SAP"
         de: "SAP"
-        cn: "SAP"
       Excel:
         en: "Excel"
         de: "Excel"
-        cn: "Excel"
       OPCUA:
         en: "OPC UA"
         de: "OPC UA"
-        cn: "OPC UA"
       Extension:
         en: "Extension"
         de: "Extension"
-        cn: "Extension"
       PeakboardEdge:
         en: "Peakboard Edge"
         de: "Peakboard Edge"
-        cn: "Peakboard Edge"
 
   dataflows:
     output: true
@@ -74,7 +66,6 @@ collections:
     title:
       en: "Dataflows"
       de: "Dataflows"
-      cn: "数据流"
 
   controls:
     output: true
@@ -84,36 +75,28 @@ collections:
     title:
       en: "Controls"
       de: "Controls"
-      cn: "控件"
     sublevel:
       Common:
         en: "Common"
         de: "Standard"
-        cn: "Common"
       Media:
         en: "Media"
         de: "Medien"
-        cn: "Media"
       Shape:
         en: "Shape"
         de: "Formen"
-        cn: "Shape"
       Document:
         en: "Document"
         de: "Dokument"
-        cn: "Document"
       Chart:
         en: "Chart"
         de: "Diagramm"
-        cn: "Chart"
       Input:
         en: "Input"
         de: "Input"
-        cn: "Input"
       Extended:
         en: "Extended"
         de: "Erweitert"
-        cn: "Extended"
 
   scripting:
     output: true
@@ -123,12 +106,10 @@ collections:
     title:
       en: "Scripting"
       de: "Scripting"
-      cn: "脚本"
     sublevel:
       Samples:
         en: "Samples"
         de: "Beispiele"
-        cn: "示例"
 
   administration:
     output: true
@@ -138,7 +119,6 @@ collections:
     title:
       en: "Administration"
       de: "Administration"
-      cn: "管理"
 
   misc:
     output: true
@@ -148,7 +128,6 @@ collections:
     title:
       en: "Misc"
       de: "Misc"
-      cn: "其他"
 
   hub:
     output: true
@@ -158,7 +137,6 @@ collections:
     title:
       en: "Peakboard Hub"
       de: "Peakboard Hub"
-      cn: "Peakboard Hub"
 
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
@@ -307,80 +285,6 @@ language:
     version-history-download-modal-title-post: "für "
     version-history-archive: "Zum Versionsarchiv"
     version-history-archive-link: "/misc/de-versionshistorie-archive.html"
-  cn:
-    homepage-top-section-title: "获取帮助"
-    homepage-top-section-content: "针对您的需求，帮助您快速、高效地充分利用Peakboard，详情请参考相关文章。"
-    homepage-top-section-link: "https://help.peakboard.com/get_started/cn-peakboard-designer-basics.html"
-    homepage-top-section-link-text: "入门"
-    homepage-top-section-search-placeholder: "搜索帮助..."
-    homepage-video-highlights-title: "推荐视频"
-    homepage-video-highlights-content: "视频是最高效的学习工具。在下方的视频部分，您可以观看示例和教程，了解所有与Peakboard相关的信息。"
-    homepage-video-highlights-see-more: "查看更多视频教程"
-    homepage-video-highlights-see-more-link: "https://help.peakboard.com/tutorials/cn-video-overview.html"
-    homepage-article-overview-title: "帮助概览"
-    homepage-article-overview-content: "有关Peakboard的帮助文章。"
-    footer-support: "技术支持"
-    footer-support-tel: "电话："
-    footer-support-email: "邮箱："
-    footer-contact: "联系方式"
-    footer-contact-email: "电话："
-    footer-contact-website: "网站："
-    footer-copyright: "版权所有，保留所有权利"
-    footer-version: "Latest Update"
-    footer-legal: "Legal Information"
-    footer-legal-url: "https://peakboard.com/en/legal-notice/"
-    footer-privacy: "Privacy Policy"
-    search-title: "Peakboard搜索"
-    search-results: "搜索结果"
-    search-no-results: "未找到相关搜索结果： "
-    search-bar-placeholder: "搜索..."
-    top-menu-menu: "Menu"
-    cookie-alert-message: "This website uses cookies to ensure you get the best experience on our website."
-    cookie-alert-button: "OK"
-    cookie-alert-link-text: "Read more"
-    cookie-alert-link: "https://peakboard.com/en/privacy-policy/"
-    video-overview-content: "您可以在此找到所有视频教程，帮助您使用Peakboard(推荐从腾讯视频网站中打开，查看蓝光画质)。"
-    video-overview-link-text: "Peakboard频道"
-    video-overview-link: "https://v.qq.com/biu/videoplus?vuid=1721428022"
-    video-overview-see-more: "显示更多"
-    video-overview-no-category-title: "Other"
-    video-none: "No videos yet."
-    tutorial-overview-category: "可用教程"
-    tutorial-overview-content: "您可以在此查看详细的步骤指导，快速创建可视化。此外，还有许多视频教程供您参考。"
-    tutorial-overview-link-text: "查看视频教程"
-    tutorial-overview-link: "https://v.qq.com/biu/videoplus?vuid=1721428022"
-    tutorial-overview-see-more: "显示更多"
-    tutorial-overview-no-category-title: "Other"
-    tutorial-none: "No tutorials yet."
-    cta-title: "需要更多支持?"
-    cta-subtitle: "其他资源"
-    cta-column-one-link: "https://v.qq.com/s/videoplus/1721428022"
-    cta-column-one-link-text: "访问腾讯视频"
-    cta-column-one-text: "海量视频为您讲解如何设计看板，新手和高级用户同样适宜。"
-    cta-column-two-link: "https://templates.peakboard.com/cn/?utm_medium=website_info_box&utm_campaign=helpsite"
-    cta-column-two-link-text: "查看免费模板"
-    cta-column-two-text: "免费下载适用于各种使用场景的模板。"
-    cta-column-three-link: "https://peakboard.cn/?utm_medium=website_info_box&utm_campaign=helpsite"
-    cta-column-three-link-text: "浏览www.peakboard.cn"
-    cta-column-three-text: "深入了解Peakboard，浏览产品不同的使用场景和客户成功案例。"
-    cookie-box-title: "Cookies，美味可口!"
-    cookie-box-explanation: "我们使用cookie来不断改善我们网站上的网站体验：templates.peakboard.com、help.peakboard.com并向您展示相关内容。使用本网站即表示您同意我们的cookie政策。"
-    cookie-box-link-privacy-policy: "隐私权政策"
-    cookie-box-button-accept: "同意所有"
-    cookie-box-button-change: "更改隐私首选项"
-    cookie-box-change-preferences-title: "隐私偏好"
-    cookie-box-change-preferences-explanation: "您可在此查看网站使用的所有Cookies概览。您可同意所有相关设置，或者点击显示更多信息，然后勾选某些Cookies。"
-    cookie-box-change-preferences-section-essential: "必要类 (1)"
-    cookie-box-change-preferences-section-essential-explanation: "此类Cookies用于确保基本功能，为网站正常运行所必需。"
-    cookie-box-change-preferences-section-statistics: "统计类 (1)"
-    cookie-box-change-preferences-section-statistics-explanation: "此类Cookies会收集匿名信息，能帮助我们了解访客如何使用本网站。"
-    cookie-box-change-preferences-button-save: "保存偏好"
-    version-history-see-more: "显示更多"
-    version-history-download-tooltip: "Download this software version"
-    version-history-download-modal-title-pre: "Download software version"
-    version-history-download-modal-title-post: "for "
-    version-history-archive: "Go to version archive"
-    version-history-archive-link: "/misc/cn-version-history-archive.html"
 algolia:
   application_id: '75B7PWB4DF'
   index_name: peakboard-help
