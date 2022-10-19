@@ -14,7 +14,7 @@
       }]
     },
 	  {
-      "name": "Automatic Theming",
+      "name": "Automatic theming",
       "content": [{
         "type": "image",
         "image": "2-17-0-0-Theming_en.gif",
@@ -22,7 +22,7 @@
       }]
     },
 	  {
-      "name": "Project colors management",
+      "name": "Project colors",
       "content": [{
         "type": "image",
         "image": "2-17-0-0-Colors_en.gif",
