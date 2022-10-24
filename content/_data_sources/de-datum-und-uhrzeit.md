@@ -10,42 +10,62 @@ redirect_from:
   - /data_sources/02-de-datum-und-uhrzeit.html
 ---
 
-Die Peakboard Box verfügt derzeit über keine Möglichkeit, sich über den nächsten Neustart hinaus die Uhrzeit zu merken. 
-Aus diesem Grund gibt es innerhalb des Designers die Möglichkeit, Datum und Uhrzeit als ganz normale Datenquelle einzubinden. 
-Die Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.
+Im Peakboard Designer hast du die Möglichkeit, Datum und Uhrzeit als Datenquelle einzubinden. 
+Diese Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.
 
 Über die Format-Angabe wird definiert, wie die Zeit bzw. das Datum oder eine Kombination daraus dargestellt werden soll. 
-Die einzelnen Formatkomponenten können Sie der Tabelle unten entnehmen. 
-Für den Fall, dass eine andere Zeitzone als CET zur Zeitberechnung genutzt werden soll, steht die entsprechende Combo-Box zur Verfügung.
+Die einzelnen Formatkomponenten kannst du der Tabelle unten entnehmen. 
+Für den Fall, dass du eine andere Zeitzone als CET zur Zeitberechnung nutzen möchtest, steht die entsprechende Combo-Box zur Verfügung.
 
-Standardmäßig greift die Time-Datenquelle auf den Windows-Zeitserver im Internet zu (konkret auf time.windows.com). 
-Sollte das nicht gewünscht sein oder Peakboard in einem Netz ohne Internetzugang betrieben werden, kann sich Peakboard die Zeit auch von einem netzinternen Zeitserver holen. 
-Dazu wird unter "Settings" (1) über die Schaltfläche "Time Server" (2) die IP-Adresse oder der Host-Name des Zeitservers in das entsprechende Textfeld (2) geschrieben.
+Die Zeitdatenquelle bietet neben der Anzeige von Datum und Uhrzeit auch die Möglichkeit, Daten anhand eines aktuellen Zeitstempels anzuzeigen. Damit die Zeitdatenquelle funktioniert, musst du zunächst einen Zeitserver als Referenz für die Datenquelle hinterlegen.
 
-![TimeServer](/assets/images/data-sources/date-and-time/TimeServer.png)
-
-Um einen lokalen Windows-Rechner als Timeserver zu verwenden, muss ein Registry-Eintrag angepasst werden.
-Dafür muss zunächst in der Registry im Ordner 
-`HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer\`  
-der Wert **[Enabled]** auf 1 (true) gesetzt werden
-
-Anschließend muss das Command Fenster als Administrator ausgeführt und folgender Befehl eingegeben werden:
-`w32tm /config /update`
+<div class="box-tip" markdown="1">**Hinweis**
+Aktuell gibt es zwei Orte, an denen ein Zeitserver hinterlegt werden muss!
+</div>
 
 
-Die Zeitdatenquelle lässt sich wie jede andere Datenquelle unter "add Data Source" (1) und anschließend "Time" (2) anlegen.
-Ab der Designer Version 1.7.0.0 können Zeitsprünge (Addition oder Subtraktion) direkt in der Zeitdatenquelle ausgeführt werden und müssen nicht mehr zwingend über ein Skript erzeugt werden (3).
+## Zeitserver Peakboard Projekt (Zeitserver für die Visualisierung)
 
-![Add Time Dialog](/assets/images/data-sources/date-and-time/add-time-dialog.png)
+Standardmäßig greift die Zeitdatenquelle auf den Windows-Zeitserver im Internet zu (konkret auf time.windows.com). 
+Sollte das nicht gewünscht sein oder die Peakboard Box in einem Netz ohne Internetzugang betrieben werden, kann sich die Datenquelle die Zeit auch von einem netzinternen Zeitserver holen. 
+Dafür klickst du im Tab [Start] auf [Projekt] und wählst [Projektinfos] (1) aus. 
 
-Der folgende Screenshot zeigt, wie die Zeit per Drag and Drop (1) auf dem Screen verwendet werden kann. Alternativ lässt sich die Datenquelle, wie jede andere Datenquelle auch, an Steuerelemente binden oder per Script nutzen.
-Im Control-Editor kann über Format das Anzeigeformat für ein deutsch- oder englischsprachiges Layout angepasst oder ein eigenes Format (3) angelegt werden.
+![Projektinfos](/assets/images/data-sources/date-and-time/de_projectinfo.png)
 
-![Place Time](/assets/images/data-sources/date-and-time/place-time.png)
+Im geöffneten Dialogfeld [Projekt bearbeiten] gibst du die IP-Adresse oder den Host-Namen des Zeitservers in das entsprechende Textfeld (2) ein.
 
-Im Preview werden jetzt das aktuelle Datum und die Uhrzeit angezeigt.
+![Zeitserver](/assets/images/data-sources/date-and-time/de_timeserver.png)
 
-![Preview Time](/assets/images/data-sources/date-and-time/preview-time.png)
+
+## Zeitserver Peakboard Box (Zeitserver für die Peakboard Box)
+
+Beim erstmaligen Hinzufügen einer Peakboard Box zum Peakboard Designer, wirst du aufgefordert einen Zeitserver zu hinterlegen. Dieser Zeitserver ist für den Validierungsprozess der Zertifikate auf der Peakboard Box zuständig. 
+
+<div class="box-tip" markdown="1">**Tipp**
+Findest du im Log deiner Peakboard Box den Eintrag:
+[Could not connect to timeserver times.windows.com], so wurde der Zeitserver für das Peakboard Projekt nicht gesetzt!
+</div>
+
+Die Zeitdatenquelle lässt sich wie jede andere Datenquelle über [Datenquelle hinzufügen] und anschließend [Zeit] (3) anlegen.
+
+![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_01.png)
+
+Zeitsprünge (Addition oder Subtraktion) können direkt in der Zeitdatenquelle ausgeführt werden (4). Dies ist beispielsweise dann hilfreich, wenn immer die Daten der letzten 8 Stunden angezeigt werden sollen.
+
+![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_02.png)
+
+Die folgende Animation zeigt, wie die Zeit per Drag and Drop auf dem Screen verwendet werden kann. 
+
+![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_03.gif)
+
+Alternativ lässt sich die Datenquelle, wie jede andere Datenquelle auch, an Controls binden oder per Skript nutzen.
+Im Control-Editor kann über Format das Anzeigeformat für ein deutsch- oder englischsprachiges Layout angepasst oder ein eigenes Format (5) angelegt werden.
+
+![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_04.png)
+
+In der Preview werden jetzt das aktuelle Datum und die Uhrzeit angezeigt.
+
+![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_05.png)
 
 Platzhalter für den Format-String:
 
