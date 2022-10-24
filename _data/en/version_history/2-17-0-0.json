@@ -2,8 +2,8 @@
   "version": "2.17.0.2",
   "date": "19.10.2022",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2/PeakboardSetup.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Theme selection slider",
