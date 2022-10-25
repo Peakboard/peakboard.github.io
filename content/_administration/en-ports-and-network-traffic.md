@@ -37,3 +37,8 @@ Which ports are used exactly, depends of course on the individual case.
 | 40406       |	Peakboard Edge data connection |
 | 40408       |	Communication channel for Peakboard Hub |
 | 40409       |	Communication channel for Peakboard Hub |
+
+### Optional ports
+{% include styled_table.html %}
+{: .w-full }
+| 5985–5986   |	PowerShell remote access |

@@ -16,14 +16,12 @@ In der folgenden Tabelle sind die Ports zusammengetragen, die für die einzelnen
 Welche Ports genau genutzt werden, hängt dabei natürlich vom Einzelfall ab. 
 
 ### Zwingend erforderliche Ports
-
 {% include styled_table.html %}
 {: .w-full }
 | 40404       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 | 40405       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
 
 ### Ports für bestimmte Datenquellen
-
 {% include styled_table.html %}
 {: .w-full }
 | 32XX / 33XX | Port für SAP-Kommunikation, XX ist die Systemnummer des SAP-Systems |
@@ -33,10 +31,14 @@ Welche Ports genau genutzt werden, hängt dabei natürlich vom Einzelfall ab.
 | 4840        |	Standardport für OPC UA |
 
 ### Ports für Peakboard Edge und Peakboard Hub
-
 {% include styled_table.html %}
 {: .w-full }
 | 40404       |	Peakboard Edge Management |
 | 40406       |	Peakboard Edge Datenverbindung |
 | 40408       |	Kommunikationskanal für Peakboard Hub |
 | 40409       |	Kommunikationskanal für Peakboard Hub |
+
+### Optionale Ports
+{% include styled_table.html %}
+{: .w-full }
+| 5985–5986   |	PowerShell Remote Zugriff |
