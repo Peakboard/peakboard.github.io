@@ -22,7 +22,7 @@ The following command line entry illustrates how the installation works in silen
 
 ````markdown
     ```
-       "C:\Temp\PeakBoardDesignerSetup.exe" /S /D <installation path>
+       "C:\Temp\PeakBoardDesignerSetup.exe" -Silent True -InstallPath <installation path>
     ```
 ````
 

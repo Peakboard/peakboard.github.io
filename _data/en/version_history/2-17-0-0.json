@@ -1,0 +1,126 @@
+[{
+  "version": "2.17.0.2",
+  "date": "19.10.2022",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Theme selection slider",
+      "content": [{
+        "type": "image",
+        "image": "2-17-0-0-Themes_en.gif",
+        "description": "To make it even easier for you to create visually appealing visualizations, you can now choose from several pre-made themes when you start your project."
+      }]
+    },
+	  {
+      "name": "Automatic theming",
+      "content": [{
+        "type": "image",
+        "image": "2-17-0-0-Theming_en.gif",
+        "description": "Build your visualization without having to think about the color scheme. All elements that you add to your visualization are automatically created in matching colors."
+      }]
+    },
+	  {
+      "name": "Project colors",
+      "content": [{
+        "type": "image",
+        "image": "2-17-0-0-Colors_en.gif",
+        "description": "If you want to change the color of your finished visualization afterwards, you can now do so easily and centrally in one place with the project colors management. Here you can adjust the entire theme or individual color values with a few clicks."
+      }]
+    },
+	  {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Setup] - Fix for a bug where the uninstaller was placed in the wrong folder",
+          "[Setup] - Improved positioning of the dialog window when starting the setup",
+          "[Templates] - Fix for a bug where some templates could not be opened",
+          "[Fonts](/misc/en-custom-fonts.html) - added validation of font names in input field",
+          "[Fonts](/misc/en-custom-fonts.html) - Fix for a bug where saving a font resulted in a fatal error",
+          "[Attributes] - UX improvements in color selection",
+          "[Project info dialog] - Extensively revised",
+          "[Resources](/misc/en-ressources.html) - Dynamic network path for data sources and resources enabled",
+          "[Peakboard Designer] - Fix for a bug where info icons could be accessed with the tab key",
+          "[Peakboard Designer] - Fix for a bug where the Peakboard Designer splash screen did not display the full version",
+          "[Peakboard Designer] - Fix for a bug where it was not possible to drag elements from the explorer on top of other elements",
+          "[Peakboard Designer] - Fix for a bug where it was not possible to download resources from subfolders",
+          "[Peakboard Designer] - Input dialog was revised",
+          "[Peakboard Designer] - Extensive Theming options implemented, see highlights",
+          "[Peakboard Designer] - Project colors management implemented, see highlights",
+          "[Peakboard Box settings] - Fix for a bug where clicking on [Hidden SSID] had no effect",
+          "[Peakboard Box settings] - Screen resolution in Peakboard Box check area added",
+          "[Drag and drop menu] - Fix for a bug in the behavior of the text block in connection with a data source.",
+          "[Drag and drop menu] - submenu for charts added and general improvements",
+          "[Drag and drop menu] - Standard template for tiles added",
+          "[Drag and drop menu] - selection options extended",
+          "Fix for a bug that caused a memory leak",
+          "Fix for an error that showed licenses as invalid when a second ethernet connection was connected via a screen",
+          "Improved certificate handling"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Excel](/data_sources/Excel/en-excel.html) - Example network path added to the data source options",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - UX improvements for multiline properties",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where custom UIs stopped working",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where extension custom functions were not displayed in the script editor and building blocks",
+          "[Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the filter operator (like == or >=) was not visible when editing a filtered hub list",
+          "[Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to create a hub list data source with SQL statement",
+          "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for several bugs regarding the handling of namespaces and certificates",
+          "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a bug where the correct number types were not supplied in the visualization",
+          "[SAP](/data_sources/SAP/en-sap.html) - Added additional templates for the XQL editor",
+          "[SharePoint](/data_sources/en-sharepointlist.html) - Fix for an error where subpages could not be loaded"
+        ]
+        }, {
+          "type": "headline",
+          "text": "Controls"
+        }, {
+          "type": "list",
+          "list_items": [
+          "[Charts] - Localization improved",
+          "[Circular gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the font did not change when adjusted via conditional formatting.",
+          "[Styled list] - Fix for a bug where a fatal error occurred when updating a used image resource",
+          "[Table] - Cell spacing attribute improved",
+          "[Table] - Corner radius attribute added",
+          "[Table] - Fix for an error where copying a table reset various parameters to the default values"            
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building blocks](/scripting/en-building-blocks.html) - Missing parameters of Peakboard Edge restored",
+          "[Building blocks](/scripting/en-building-blocks.html) - Missing OPC UA/MQTT parameters restored",
+          "[Timer] - Fix for a bug where scheduled timer scripts were not executed reliably",
+          "[Timer] - Simplified setting a scheduled timer",
+          "[Tiles] - Fix for a bug where when changing the index of the data source, the elements within a tile were duplicated unintentionally",
+          "[Variables] - UX improvements when creating a new variable",
+          "[Variable list] - Fix for a bug where the properties [Accessible via API] and [Save changes on Peakboard box] were not applied when copying a list.",
+          "[Variable list] - Copy and paste from Excel implemented",
+          "[Script editor](/scripting/en-script-editor.html) - Fix for a bug where Peakboard Box properties were no longer retrievable in scripts",
+          "[Script editor](/scripting/en-script-editor.html) - Fix for a bug where Intellisense did not work after switching from block to script mode",
+          "[Script editor](/scripting/en-script-editor.html) - [get row number] moved from styled list and styled tile collection",
+          "[Script editor](/scripting/en-script-editor.html) - Missing return data type indicators in the [Find value] area restored",
+          "[Script editor](/scripting/en-script-editor.html) - Fixed display errors of some sample texts"              
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Send alert] function implemented in script and building blocks"
+        ]
+      }]
+    }
+  ]
+}]

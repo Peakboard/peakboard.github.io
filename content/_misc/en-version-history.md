@@ -7,7 +7,7 @@ lang: en
 weight: 1
 ref: misc-1
 redirect_from:
-  - /misc/06-de-versionshistorie.html
+  - /misc/06-en-version-history.html
 ---
 
 {% assign sorted_version_history_entries = site.data[page.lang].version_history | sort %}

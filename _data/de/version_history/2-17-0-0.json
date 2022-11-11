@@ -1,0 +1,126 @@
+[{
+  "version": "2.17.0.2",
+  "date": "19.10.2022",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/2.17.0.2.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Themeauswahl-Slider",
+      "content": [{
+        "type": "image",
+        "image": "2-17-0-0-Themes_de.gif",
+        "description": "Um dir die Erstellung optisch ansprechender Visualisierungen noch einfacher zu machen kannst du jetzt aus verschiedenen vorbereiteten Themes auswählen, wenn du dein Projekt startest."
+      }]
+    },
+	  {
+      "name": "Automatisches Theming",
+      "content": [{
+        "type": "image",
+        "image": "2-17-0-0-Theming_de.gif",
+        "description": "Baue deine Visualisierung auf, ohne über die Farbgebung nachdenken zu müssen. Alle Elemente, die du zu deiner Visualisierung hinzufügst, werden automatisch in passenden Farben angelegt."
+      }]
+    },
+	  {
+      "name": "Projektfarben",
+      "content": [{
+        "type": "image",
+        "image": "2-17-0-0-Colors_de.gif",
+        "description": "Falls du deine fertige Visualisierung im Nachhinein farblich ändern möchtest, kannst du das jetzt ganz einfach und zentral an einer Stelle mit der Projektfarben-Verwaltung. Hier kannst du das komplette Theme oder einzelne Farbwerte mit wenigen Klicks anpassen."
+      }]
+    },
+	  {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Installation] - Fix für einen Fehler, bei dem der Uninstaller im falschen Ordner platziert war",
+          "[Installation] - Verbesserung der Positionierung des Dialogfensters beim Start des Setups",
+          "[Templates] - Fix für einen Fehler, bei dem manche Templates nicht geöffnet werden konnten",
+          "[Schriftarten](/misc/de-custom-fonts.html) - Validierung der Schriftart-Namen im Eingabefeld ergänzt",
+          "[Schriftarten](/misc/de-custom-fonts.html) - Fix für einen Fehler, bei dem das Speichern einer Schriftart zu einem fatalen Fehler führte",
+          "[Attribute] - UX-Verbesserungen bei der Farbauswahl",
+          "[Projekt Info-Dialog] - Umfangreich überarbeitet",
+          "[Ressourcen](/misc/de-ressourcen.html) - Dynamischer Netzwerkpfad für Datenquellen und Ressourcen ermöglicht",
+          "[Peakboard Designer] - Fix für einen Fehler bei dem Info-Icons mit der Tab-Taste angesteuert wurden",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem im Startbildschirm des Peakboard Designers nicht die vollständige Version angezeigt wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem es nicht möglich war, Elemente aus dem Explorer über andere Elemente zu ziehen",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem es nicht möglich war, Ressourcen aus Unterordnern herunterzuladen",
+          "[Peakboard Designer] - Input Dialog wurde überarbeitet",
+          "[Peakboard Designer] - Umfangreiche Theming-Optionen implementiert, siehe Highlights",
+          "[Peakboard Designer] - Projektfarben-Verwaltung implementiert, siehe Highlights",
+          "[Peakboard Box-Einstellungen] - Fix für einen Fehler, bei dem ein Klick auf [Versteckte SSID] keine Auswirkung hatte",
+          "[Peakboard Box-Einstellungen] - Bildschirmauflösung im Bereich Peakboard Box Check ergänzt",
+          "[Drag&Drop-Menü] - Fix für einen Fehler im Verhalten des Textblocks in Verbindung mit einer Datenquelle",
+          "[Drag&Drop-Menü] - Untermenü für Diagramme ergänzt und generelle Verbesserungen",
+          "[Drag&Drop-Menü] - Standard-Template für Tiles ergänzt",
+          "[Drag&Drop-Menü] - Auswahlmöglichkeiten erweitert",
+          "Fix für einen Fehler, der ein Speicherleck verursachte",
+          "Fix für einen Fehler, der Lizenzen als ungültig anzeigte, wenn eine zweite Ethernet-Verbindung über einen Bildschirm angeschlossen wurde",
+          "Zertifikatshandling verbessert"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Excel](/data_sources/Excel/de-excel.html) - Beispiel-Netzwerkpfad in den Optionen der Datenquelle ergänzt",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - UX-Verbesserungen für mehrzeilige Eigenschaften",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - Fix für einen Fehler, bei dem Benutzerdefinierte UIs nicht mehr funktionierten",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - Fix für einen Fehler, bei dem benutzerdefinierte Funktionen von Extensions nicht im Skript-Editor und in den Building Blocks angezeigt wurden",
+          "[Hub List](/data_sources/de-peakboard-hub-list.html) - Fix für einen Fehler, bei dem der Filteroperator (wie == oder >=) beim Bearbeiten einer gefilterten Hub-Liste nicht sichtbar war",
+          "[Hub List](/data_sources/de-peakboard-hub-list.html) - Fix für einen Fehler, bei dem es nicht möglich war, eine Hub-Listen-Datenquelle mit SQL-Anweisung zu erstellen",
+          "[OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Fix für mehrere Fehler bezüglich des Umgangs mit Namensräumen und Zertifikaten",
+          "[OPC UA](/data_sources/OPCUA/de-opc-ua.html) - Fix für einen Fehler, bei dem in der Visualisierung nicht die richtigen Zahlentypen geliefert wurden",
+          "[SAP](/data_sources/SAP/de-sap.html) - Zusätzliche Templates für den XQL-Editor hinzugefügt",
+          "[SharePoint](/data_sources/de-sharepointlist.html) - Fix für einen Fehler, bei dem keine Unterseiten geladen werden konnten"
+        ]
+        }, {
+          "type": "headline",
+          "text": "Controls"
+        }, {
+          "type": "list",
+          "list_items": [
+          "[Diagramme] - Lokalisierung verbessert",
+          "[Gauge-Diagramm Rund](/controls/Chart/de-circular-gauge.html) - Fix für einen Fehler, bei dem die Schriftart sich nicht geändert hat, wenn sie über die bedingte Formatierung angepasst wurde",
+          "[Styled List] - Fix für einen Fehler, bei dem beim Aktualisieren einer verwendeten Bild-Ressource ein fataler Fehler auftrat",
+          "[Tabelle] - Attribut [Zellenabstand] verbessert",
+          "[Tabelle] - Eckenradius Attribut hinzugefügt",
+          "[Tabelle] - Fix für einen Fehler, bei dem durch das Kopieren einer Tabelle verschiedene Parameter auf die Standardwerte zurückgesetzt wurden"            
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fehlende Parameter der Peakboard Edge wiederhergestellt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fehlende OPC UA/MQTT Parameter wiederhergestellt",
+          "[Timer] - Fix für einen Fehler, bei dem geplante Timerskripte nicht zuverlässig ausgeführt wurden",
+          "[Timer] - Einstellen eines geplanten Timers vereinfacht",
+          "[Tiles] - Fix für einen Fehler, bei dem beim Ändern des Index der Datenquelle die Elemente innerhalb eines Tiles ungewünscht dupliziert wurden",
+          "[Variablen] - UX-Verbesserung beim Erstellen einer neuen Variable",
+          "[Variablen-Liste] - Fix für einen Fehler, bei dem beim Kopieren einer Liste die Eigenschaften [Erreichbar via API] und [Änderungen auf der Peakboard Box speichern] nicht übernommen wurden",
+          "[Variablen-Liste] - Kopieren und Einfügen aus Excel implementiert",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, bei dem die Peakboard Box Eigenschaften nicht mehr in Skripten abrufbar waren",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, bei dem Intellisense nach dem Wechsel vom Block- in den Skript-Modus nicht funktioniert hat",
+          "[Skript-Editor](/scripting/de-script-editor.html) - [Zeilennummer abrufen] von Styled List und Styled Tile Kollektion verschoben",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Fehlende Rückgabedatentyp-Indikatoren im Bereich [Wert suchen] wiederhergestellt",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Anzeigefehler einiger Beispieltexte ausgebessert"              
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Alarm senden]-Funktion in Skript und Building Blocks implementiert"
+        ]
+      }]
+    }
+  ]
+}]
