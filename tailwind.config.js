@@ -52,6 +52,7 @@ module.exports = {
                 "grey-lightest": "#f0f1f2",
                 orange: "#ffa500",
                 "orange-light": "#faad63",
+                "orange-lighter": "#ffe9c5"
             }
         },
         fontFamily: {

@@ -1,0 +1,15 @@
+<section class="content-center mt-16">
+    <div class="bg-orange-lighter">
+        <div class="flex-row justify-center py-32 mx-auto max-w-2xl xl:max-w-4xl">
+            <h3 class="text-center uppercase text-xl">{{ site.language[include.lang].review-subtitle }}</h3>
+            <h2 class="lowercase text-center text-3xl mb-8 lg:text-4xl lg:mb-4">{{ site.language[include.lang].review-title }}</h2>
+            <p id="review-text" class="hidden my-4 text-center">{{ site.language[include.lang].review-text }} <span id="review-text-two">{{ site.language[include.lang].review-text-two }}</span></p>
+            <div class="flex mx-auto" style="max-width: fit-content;">
+                <img id="review-thumbs-up" class="block w-20 mx-auto flex-shrink" src="/assets/images/review/peakboard-icon-thumbs-up.svg" alt="Thumbs up icon">
+                <img id="review-thumbs-down" class="block w-20 mx-auto flex-shrink" src="/assets/images/review/peakboard-icon-thumbs-down.svg" alt="Thumbs down icon">
+            </div>
+            <textarea rows="4" id="review-text-input" class="hidden flex mx-auto border border-orange max-w-md w-full w-1/2 mx-4 p-2"></textarea>
+            <button id="review-button" class="hidden flex mx-auto bg-orange text-white font-semibold max-w-md mt-1 mx-4 p-2">{{ site.language[include.lang].review-button }}</button>
+        </div>
+    </div>
+</section>
