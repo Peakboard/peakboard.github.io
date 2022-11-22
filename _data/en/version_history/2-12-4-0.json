@@ -1,7 +1,9 @@
 [{
   "version": "2.12.4.0",
   "date": "28.10.2021",
-  "download_url": "",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/2.12.4.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/2.12.4.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "General overview",
