@@ -10,9 +10,9 @@ redirect_from:
 ---
 
 Da du den Peakboard Designer nun kennst, ist es Zeit deine erste Visualisierung zu erstellen. 
-Füge zunächst per Drag and Drop ein [Text] Control aus der Übersicht rechts hinzu und definiere in den Attributen verschiedene Einstellungen sowie das Aussehen dieses Controls.
-Wähle außerdem die gewünschte Schriftart, die Ausrichtung oder den Hintergrund, sowie einen Text, der angezeigt werden soll. Dieser wird später durch einen Datensatz ersetzt.
-Füge als dein zweites Control ein [Gauge-Diagramm Rund] aus der Gruppe [Diagramm] hinzu und passe auch hier im Bereich [Aussehen] Attribute wie Größe oder Farbe an (1).
+Füge zunächst per Drag and Drop ein [Text] Control hinzu und definiere in den Attributen verschiedene Einstellungen sowie das Aussehen dieses Controls.
+Wähle zum Beispiel die gewünschte Schriftart, die Ausrichtung, sowie einen Text, der angezeigt werden soll. Dieser wird später durch einen Datensatz ersetzt.
+Füge als dein zweites Control ein [Gauge-Diagramm Rund] aus der Gruppe [Diagramm] hinzu und passe auch hier im Bereich [Aussehen] Attribute wie Balkenbreite, Werteausrichtung oder Wert-Schriftart an (1).
 
 ![Peakboard Designer – Controls](/assets/images/get_started/Visualization_controls_de.png)
 
@@ -84,6 +84,13 @@ Klicke in der Menüleiste auf [Vorschau] (1) um sie dir anzusehen.
 ![Peakboard Designer – Preview Button](/assets/images/get_started/Visualization_excel-08_de.png)
 
 Es öffnet sich ein neuer Dialog, der dir das Ergebnis zeigt. Diese Visualisierung kann nun auf deine Peakboard Box übertragen werden.
+
+# 1.5. Projektfarben
+
+Sollte dir die fertige Visualisierung farblich nicht gefallen oder geänderte Arbeitsbedingungen erfordern beispielsweise eine andere Farbgebung, dann kannst du die Farben ganz einfach und zentral in der Projektfarben-Verwaltung anpassen.
+Klicke dazu auf den Button Projektfarben in der Menüleiste und suche dir dann ein neues passendes Theme aus. Alternativ kannst du dort auch nur einzelne Aspekte deiner Visualisierung zentral abändern.
+
+![Peakboard Designer – Projektfarben](/assets/images/get_started/Visualization_projectcolors_de.gif)
 
 # 2. Nächster Schritt
 

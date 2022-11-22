@@ -25,7 +25,9 @@ Hier findest du nützliche Links zur Peakboard Help (1) oder den Videotutorials.
 Über das Feld [Templates] (2) findest du zu einigen Templates, die den Einstieg so einfach wie möglich machen sollen.
 Die Templates dienen als Beispiel und können als Basis für deine individuelle Visualisierung verwendet werden.
 Über das Feld [Skript-Templates] (3) erhältst du Zugriff auf Templates zu den verschiedensten Anwendungsfällen und Beispieldateien, die dir das Arbeiten mit Skripten erklären.
-Um deine Visualisierung ohne ein Template zu beginnen, wähle [Leere Datei] im Bereich [Ganz neu anfangen] (4).
+Um deine Visualisierung ohne ein Template zu beginnen, wähle eines der Themes aus dem Theme-Slider im Bereich [Neues Projekt] (4) aus.
+Du kannst das gewählte Theme später immer noch ändern, falls es dir nicht gefällt.
+Alternativ klicke im linken Bereich auf [neue datei], dann wird automatisch das Petrol Theme ausgewählt und damit eine leere Datei geöffnet.
 
 ![Peakboard Get Started Dialog](/assets/images/get_started/Peakboard-Designer_start_de.png)
 
@@ -33,18 +35,21 @@ Um deine Visualisierung ohne ein Template zu beginnen, wähle [Leere Datei] im B
 
 Nun bist du richtig im Peakboard Designer angekommen.
 Der Peakboard Designer ist in fünf Hauptbereiche aufgeteilt.
-Ganz oben ist die Menüleiste (1), links der Explorer (2), der Arbeitsbereich ist in der Mitte (3), die verschiedenen Controls auf der rechten Seite (4) und darunter die Attribute (5).
+Ganz oben ist die Menüleiste (1), direkt darunter findest du die verschiedenen Controls (2), links den Explorer (3), der Arbeitsbereich ist in der Mitte (4) und auf der rechten Seite die Attribute (5).
 
 ![Peakboard Designer Übersicht](/assets/images/get_started/Peakboard-Designer_overview_de.png)
 
 ## 2.1 Die Menüleiste 
 
 In der Menüleiste findest du Grundfunktionen des Peakboard Designers.
-Öffne hier eine Vorschau deiner Visualisierung (1) und lade sie auf deine Peakboard Box (2).
-Über den Button [Projekt] (3) nimmst du grundlegende Einstellungen zu deiner Visualisierung vor und mit dem Button [Allgemeines] (4) führst du beispielsweise ein Software-Update aus.
-Deine eingesetzten Peakboard Boxen und Peakboard Edge kannst du über die entsprechenden Buttons (5) verwalten.
+Im Tab [Start] öffnest du eine Vorschau deiner Visualisierung (1) und lädst sie auf deine Peakboard Box (2).
+Über den Button [Projekt] (3) nimmst du grundlegende Einstellungen zu deiner Visualisierung vor und mit dem Button [Allgemeines] (4) führst du beispielsweise ein Software-Update aus. Deine eingesetzten Peakboard Boxen und Peakboard Edge kannst du über die entsprechenden Buttons (5) verwalten. Außerdem findest du in der Menüleiste Zugriff auf den Skript-Editor (6). 
 
-![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_de.png)
+![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_01_de.png)
+
+Im Tab [Format] findest du die Verwaltung der Schriftarten (7) sowie die Projektfarben (8).
+
+![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_02_de.png)
 
 ## 2.2 Der Explorer
 
@@ -69,7 +74,7 @@ Ziehe die Elemente entweder per Drag and Drop auf den Arbeitsbereich oder füge 
 
 ## 2.4 Die Attribute
 
-Unterhalb der Controls ist die Attributübersicht.
+Im rechten Bereich findest du die Attributübersicht.
 Hier werden für das aktuell aktive Control die jeweiligen einstellbaren Parameter und Attribute aufgelistet. 
 Diese Parameter sind für jedes Control unterschiedlich.
 Probiere zum Beispiel aus, mit einem Rechtsklick auf [Bildschirme] (1) im Explorer einen weiteren Bildschirm hinzuzufügen. 

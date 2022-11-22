@@ -10,9 +10,9 @@ redirect_from:
 ---
 
 Now that you know the Peakboard Designer, it's time to create your first visualization. 
-First, drag and drop a [Text] control from the overview on the right and define various settings in the attributes as well as the appearance of this control.
-Also choose the desired font, alignment or background, as well as a text to be displayed. This will later be replaced by a data set.
-Add a [Circular gauge diagram] from the [Diagram] group as your second control and adjust attributes such as size or color in the section [Appearance] for it as well (1).
+First, drag and drop a [Text] control and define various settings in the attributes as well as the appearance of this control.
+For example, select the desired font, the alignment, and a text to be displayed. This text will later be replaced by a data set.
+Add a [Circular gauge diagram] from the [Diagram] group as your second control and adjust attributes such as bar width, value alignment or value font in the [Appearance] area here as well (1).
 
 ![Peakboard Designer - Controls](/assets/images/get_started/Visualization_controls_en.png)
 
@@ -83,9 +83,16 @@ You did it!
 Your first visualization with Peakboard is ready.
 Click on [Preview] (1) in the menu bar to view it.
 
-![Peakboard Designer - Preview Button](/assets/images/get_started/Visualization_excel-08_en.png)
+![Peakboard Designer - Preview button](/assets/images/get_started/Visualization_excel-08_en.png)
 
 A new dialog will open showing you the result. This visualization can now be transferred to your Peakboard box.
+
+# 1.5 Project colors
+
+If you do not like the color of the finished visualization or if changed working conditions require a different color scheme, for example, you can easily and centrally adjust the colors in the project color management.
+To do this, click on the Project Colors button in the menu bar and then select a new, suitable theme. Alternatively, you can also change only individual aspects of your visualization centrally.
+
+![Peakboard Designer – Project colors](/assets/images/get_started/Visualization_projectcolors_en.gif)
 
 # 2. Next step
 
