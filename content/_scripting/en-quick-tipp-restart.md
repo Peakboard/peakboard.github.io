@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Quick Tip - Scheduled restart
-menu_title: Quick Tip - Scheduled restart
+title: Quick tip - scheduled restart
+menu_title: Quick tip - scheduled restart
 description: Restart the Peakboard Box at a scheduled time
 lang: en
 weight: 850
