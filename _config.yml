@@ -296,7 +296,7 @@ language:
     version-history-archive: "Zum Versionsarchiv"
     version-history-archive-link: "/misc/de-versionshistorie-archive.html"
 algolia:
-  application_id: '75B7PWB4DF'
+  application_id: 'N9W4P1U3FJ'
   index_name: peakboard-help
   settings:
     attributesForFaceting: ['title','searchable(collection)', 'searchable(search-ignore)', 'searchable(lang)']

@@ -7,8 +7,8 @@ var main = {
     init: function () {
         // general settings for instant search
         const search = instantsearch({
-            appId: '75B7PWB4DF',
-            apiKey: '89a33221bbd638417a444874aaa424aa',
+            appId: 'N9W4P1U3FJ',
+            apiKey: '06e6890ab67bc9ae7837e7f57bd8d55b',
             indexName: 'peakboard-help',
             routing: true,
             searchParameters: {
