@@ -26,7 +26,7 @@
         {% elsif content.type == 'headline' %}
         <h3>{{ content.text | markdownify }}</h3>
         {% elsif content.type == 'image' %}
-        <img src="/assets/images/versions/{{ content.image }}" class="block w-auto lightbox-ignore m-4" alt="{{ tab.name }}">
+        <img src="/assets/images/versions/{{ content.image }}" class="block w-auto lightbox-ignore m-4" height="420" alt="{{ tab.name }}">
         <p class="m-4">{{ content.description | markdownify }}</p>
         {% endif %}
       {% endfor %}
