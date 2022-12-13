@@ -1,6 +1,6 @@
 [{
   "version": "3.0.0.0",
-  "date": "12.12.2022",
+  "date": "13.12.2022",
   "download_url": "https://peakboard.rocks/download-version-history",
   "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.0.0.0.0/PeakboardRuntime.pbux",
   "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.0.0.0.0/PeakboardSetup.exe",
@@ -26,7 +26,7 @@
       "content": [{
         "type": "image",
         "image": "3-0-0-0-Grouping_de.gif",
-        "description": "Die Funktionen für die Gruppierung wurden erweitert und die Bedienung verbessert. Die gruppierten Controls werden übersichtlich als Ordner angezeigt. Du kannst Gruppen innerhalb von Gruppen erstellen, Namen für die Ordner vergeben und alles ist intuitiv per Drag-and-Drop steuerbar. Per Doppelklick kannst du eine Gruppe tiefer gehen. Hälst du die Strg-Taste gedrückt, kannst du direkt ein Control innerhalb einer Gruppe auswählen."
+        "description": "Die Funktionen für die Gruppierung wurden erweitert und die Bedienung verbessert. Die gruppierten Controls werden übersichtlich als Ordner angezeigt. Du kannst Gruppen innerhalb von Gruppen erstellen, Namen für die Ordner vergeben und alles ist intuitiv per Drag-and-Drop steuerbar. Per Doppelklick kannst du eine Gruppe tiefer gehen. Hältst du die Strg-Taste gedrückt, kannst du direkt ein Control innerhalb einer Gruppe auswählen."
       }]
     },
 	  {
