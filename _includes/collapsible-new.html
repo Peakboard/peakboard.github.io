@@ -216,19 +216,21 @@
                     document.getElementById("download-modal").classList.toggle("hidden");
                 }, false);
 
-                document.getElementById("download-modal-link-designer").addEventListener("click", function(event) {
-                    var targetElement = event.target;
-                    window.open(targetElement.getAttribute('data-target'), '_blank');
-                } , false);
+                if(i === 0) {
+                    document.getElementById("download-modal-link-designer").addEventListener("click", function (event) {
+                        var targetElement = event.target;
+                        window.open(targetElement.getAttribute('data-target'), '_blank');
+                    }, true);
 
-                document.getElementById("download-modal-link-box").addEventListener("click", function(event) {
-                    var targetElement = event.target;
-                    window.open(targetElement.getAttribute('data-target'), '_blank');
-                } , false);
+                    document.getElementById("download-modal-link-box").addEventListener("click", function (event) {
+                        var targetElement = event.target;
+                        window.open(targetElement.getAttribute('data-target'), '_blank');
+                    }, true);
 
-                document.getElementById("download-modal-close").addEventListener("click", function(event) {
-                    document.getElementById("download-modal").classList.add("hidden");
-                } , false);
+                    document.getElementById("download-modal-close").addEventListener("click", function (event) {
+                        document.getElementById("download-modal").classList.add("hidden");
+                    }, true);
+                }
             }
         }
 
