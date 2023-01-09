@@ -39,17 +39,13 @@ Ganz oben ist die Menüleiste (1), direkt darunter findest du die verschiedenen 
 
 ![Peakboard Designer Übersicht](/assets/images/get_started/Peakboard-Designer_overview_de.png)
 
-## 2.1 Die Menüleiste 
+## 2.1 Die Menüleiste
 
 In der Menüleiste findest du Grundfunktionen des Peakboard Designers.
-Im Tab [Start] öffnest du eine Vorschau deiner Visualisierung (1) und lädst sie auf deine Peakboard Box (2).
-Über den Button [Projekt] (3) nimmst du grundlegende Einstellungen zu deiner Visualisierung vor und mit dem Button [Allgemeines] (4) führst du beispielsweise ein Software-Update aus. Deine eingesetzten Peakboard Boxen und Peakboard Edge kannst du über die entsprechenden Buttons (5) verwalten. Außerdem findest du in der Menüleiste Zugriff auf den Skript-Editor (6). 
+Du kannst eine Vorschau deiner Visualisierung öffnen (1) oder sie auf deine Peakboard Box laden (2).
+Über den Button [Allgemeines] (3) führst du beispielsweise ein Software-Update aus und mit dem Button [Projekt] (4) nimmst du grundlegende Einstellungen zu deiner Visualisierung vor. Deine eingesetzten Peakboard Boxen und Peakboard Edge kannst du ebenfalls über die entsprechenden Buttons (5) verwalten. Außerdem findest du in der Menüleiste Zugriff auf den Skript-Editor (6), die Verwaltung der Schriftarten (7) sowie die Projektfarben (8).
 
-![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_01_de.png)
-
-Im Tab [Format] findest du die Verwaltung der Schriftarten (7) sowie die Projektfarben (8).
-
-![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_02_de.png)
+![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_de.png)
 
 ## 2.2 Der Explorer
 
@@ -64,7 +60,7 @@ Die Visualisierung wird automatisch auf die Auflösung des angeschlossenen Bilds
 
 ![Peakboard Designer Explorer](/assets/images/get_started/Peakboard-Designer_explorer_de.png)
 
-## 2.3 Die Controls 
+## 2.3 Die Controls
 
 Für die verschiedenen Anwendungsfälle findest du vorgefertigte Oberflächenelemente, die wir Controls nennen. Sie lassen sich verwenden und anpassen, um deine Daten zu visualisieren.
 Von einfachen Textfeldern, Tabellen, über simple Diagramme wie Balken- oder Tortendiagramme, bis hin zu anspruchsvollen, kombinierbaren Diagrammen (Erweiterte Diagramme) und wiederholbaren Oberflächenpatterns wie die Listen- oder Tileansicht ist alles für dich dabei.
@@ -75,9 +71,9 @@ Ziehe die Elemente entweder per Drag and Drop auf den Arbeitsbereich oder füge 
 ## 2.4 Die Attribute
 
 Im rechten Bereich findest du die Attributübersicht.
-Hier werden für das aktuell aktive Control die jeweiligen einstellbaren Parameter und Attribute aufgelistet. 
+Hier werden für das aktuell aktive Control die jeweiligen einstellbaren Parameter und Attribute aufgelistet.
 Diese Parameter sind für jedes Control unterschiedlich.
-Probiere zum Beispiel aus, mit einem Rechtsklick auf [Bildschirme] (1) im Explorer einen weiteren Bildschirm hinzuzufügen. 
+Probiere zum Beispiel aus, mit einem Rechtsklick auf [Bildschirme] (1) im Explorer einen weiteren Bildschirm hinzuzufügen.
 Klicke nun auf einen der Bildschirme und lege in den Attributen unter [Allgemeines] die [Anzeigedauer] (2) fest.
 Diese Anzeigedauer definiert, wie lange der jeweilige Bildschirm sichtbar bleibt, bevor der darauffolgende angezeigt wird.
 
@@ -90,5 +86,5 @@ Da du jetzt einen groben Überblick über den Peakboard Designer hast, kannst du
 Wenn du bereits eine Peakboard Box besitzt, hilft dir der Artikel [Die Peakboard Box](https://help.peakboard.com/get_started/de-peakboard-box.html) danach bei deinen nächsten Schritten.
 
 Solltest du Probleme mit dem Peakboard Designer haben, zögere nicht mit uns in [Kontakt](mailto: support@peakboard.com) zu treten.
-Alle wichtigen Informationen dazu findest du unter [www.peakboard.com/academy](https://peakboard.com/academy/). 
+Alle wichtigen Informationen dazu findest du unter [www.peakboard.com/academy](https://peakboard.com/academy/).
 Wir wünschen dir viel Spaß und Erfolg mit Peakboard!

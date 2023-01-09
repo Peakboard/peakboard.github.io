@@ -39,17 +39,12 @@ At the top is the menu bar (1), directly below it you will find the various cont
 
 ![Peakboard Designer overview](/assets/images/get_started/Peakboard-Designer_overview_en.png)
 
-## 2.1 The menu bar 
+## 2.1 The menu bar
 
-In the menu bar you will find the basic functions of the Peakboard Designer.
-In the tab [Home] you open a preview of your visualization (1) and load it onto your Peakboard Box (2).
-Use the [Project] button (3) to make basic settings for your visualization and the [General] button (4) to perform a software update, for example. You can manage your Peakboard Boxes and Peakboard Edge via the corresponding buttons (5). In addition, you will find access to the script editor (6) in the menu bar. 
+You can open a preview of your visualization (1) or load it onto your Peakboard Box (2).
+With the button [General] (3) you can for example perform a software update and with the button [Project] (4) you can make basic settings for your visualization. You can also manage your Peakboard Boxes and Peakboard Edge via the corresponding buttons (5). In addition, you will find access to the script editor (6), the fonts (7) and the project colors (8) in the menu bar.
 
-![Peakboard Designer menu bar](/assets/images/get_started/Peakboard-Designer_menu_01_en.png)
-
-In the tab [Format] you will find the administration of the fonts (7) as well as the project colors (8).
-
-![Peakboard Designer menu bar](/assets/images/get_started/Peakboard-Designer_menu_02_en.png)
+![Peakboard Designer menu bar](/assets/images/get_started/Peakboard-Designer_menu_en.png)
 
 ## 2.2 The explorer
 
@@ -64,7 +59,7 @@ The visualization will be automatically scaled to the resolution of the connecte
 
 ![Peakboard Designer explorer](/assets/images/get_started/Peakboard-Designer_explorer_en.png)
 
-## 2.3 The controls 
+## 2.3 The controls
 
 For the different use cases you will find pre-built interface elements, which we call controls. They can be used and customized to visualize your data.
 From simple text fields, tables, simple charts like bar charts or pie charts, to sophisticated, combinable charts (Advanced charts) and repeatable interface patterns like the list or tile view, everything is available to you.
@@ -75,9 +70,9 @@ Either drag and drop the elements onto the workspace or add them with a double c
 ## 2.4 The attributes
 
 In the area to the right you will find the attribute overview.
-Here the respective adjustable parameters and attributes are listed for the currently active control. 
+Here the respective adjustable parameters and attributes are listed for the currently active control.
 These parameters are different for each control.
-For example, try adding another screen by right-clicking on [Screens] in the Explorer. 
+For example, try adding another screen by right-clicking on [Screens] in the Explorer.
 Now click on one of the screens and set the [Display duration] in the attributes under [General].
 This display duration defines how long the respective screen remains visible before the next one is displayed.
 
@@ -90,5 +85,5 @@ Now that you have a rough overview of the Peakboard Designer, you can start crea
 If you already have a Peakboard Box, the article [The Peakboard Box](https://help.peakboard.com/get_started/de-peakboard-box.html) will help you with your next steps.
 
 If you have problems with the Peakboard Designer, don't hesitate to [contact](mailto: support@peakboard.com) us.
-All important information can be found at [www.peakboard.com/academy](https://peakboard.com/academy/). 
+All important information can be found at [www.peakboard.com/academy](https://peakboard.com/academy/).
 We wish you a lot of fun and success with Peakboard!
