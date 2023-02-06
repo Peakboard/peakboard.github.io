@@ -1,0 +1,120 @@
+[{
+  "version": "3.1.0.0",
+  "date": "06.02.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.1.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.1.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Überarbeitung Property Grid",
+      "content": [{
+        "type": "image",
+        "image": "3-1-0-0-Propertygrid_de.gif",
+        "description": "Umfassende Überarbeitung des Property Grid für mehr Übersichtlichkeit und einfachere Bedienung"
+      }]
+    },
+    {
+      "name": "Verbessertes Mousover",
+      "content": [{
+        "type": "image",
+        "image": "3-1-0-0-Mouseover_de.gif",
+        "description": "Verbesserte Mouseover-Funktionalität. Damit du auf einen Blick siehst wo du deine Daten im Projekt eingesetzt hast"
+      }]
+    },
+	  {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer Setup] - Fix für einen Fehler, bei dem das Setup fehlschlug, wenn eine Instanz des Peakboard Designers geöffnet war",
+          "[Peakboard Designer] - Wenn das Update des Peakboard Designers fehlschlägt, wird der offizielle Downloadlink zur Verfügung gestellt",
+          "[Peakboard Designer] - UX-Verbesserung: Icons zu Kontextmenüs hinzugefügt",
+          "[Peakboard Designer] - Referenzen in Skripten werden automatisch umbenannt, wenn ein Bildschirm umbenannt wird",
+          "[Peakboard Designer] – Doppelklickverhalten im Explorer angepasst",
+          "[Peakboard Designer] – Upload-Button öffnet Peakboard Box Einstellungen, wenn keine Peakboard Box verbunden ist",
+          "[Peakboard Designer] – Hochgeladene Visualisierungen sind automatisch aktiv",
+          "[Peakboard Designer] – Standard-Schriftgrößen angepasst",
+          "[Peakboard Designer] – Variablen und Peakboard Edge Boxen können beim Upload einer Visualisierung festgelegt werden",
+          "[Peakboard Designer] – Einstellungen des urspünglichen Setups werden beim Update nicht mehr abgefragt und automatisch übernommen",
+          "[Peakboard Designer] – Aktivierungsstatus für Bildschirme im Kontextmenü hinzugefügt",
+          "[Peakboard Designer] - Fix für einen Fehler im Verhalten ausgeblendeter Elemente",
+          "[Peakboard Designer] – Fix für einen Fehler, bei dem eine Änderung des Dateinamens eines Projektes nicht korrekt angezeigt wurde",
+          "[Peakboard Designer] – Fix für einen Fehler, bei dem Bildschirme nicht umbenannt werden konnten wenn man sich gerade auf einem anderen Bildschirm befand",
+          "[Peakboard Designer] – Fix für kleinere Fehler der Gruppieren- und Einrahmen-Funktionalitäten",
+          "[Peakboard Designer] – Fix für einen Fehler, bei dem die zuletzt geöffneten Visualisierungen in der Vorschau nicht korrekt dargestellt wurden",
+          "[Peakboard Box] – Kommunikationskanal hinzugefügt, um auf Peakboard Boxen per Microsoft Azure zuzugreifen",
+          "[Peakboard Box] – Aufforderung zur Änderung des Passworts beim ersten Hinzufügen einer Peakboard Box zum Peakboard Designer hinzugefügt",
+          "[Peakboard Box] - Fix für einen Fehler im Update-Prozess",
+          "[Peakboard Box] - Fix für einen Fehler, bei dem auf der Peakboard Box gespeicherte Datenbanken beim Löschen der dazugehörigen Visualisierung nicht von der Peakboard Box entfernt wurden",
+          "[Peakboard Box Einstellungen] – Auswahl mehrerer Peakboard Boxen gleichzeitig ermöglicht",
+          "[Peakboard Box Einstellungen] – Kleine Verbesserungen im Peakboard Box Check",
+          "[Peakboard Box Einstellungen] – Timeserver jetzt direkt im Dialog bearbeitbar",
+          "[Peakboard Box Einstellungen] – Fix für einen Fehler bei dem das Update nicht auswählbar war",
+          "[Peakboard Box Einstellungen] – Fix für einen Fehler, bei dem es nicht möglich war das Peakboard Box Passwort zu ändern",
+          "[Peakboard Edge] – Mehrere Verbesserungen für die neuen Peakboard Edge Einstellungen"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[SAP] – Unterstützung für verschachtelte Tabellen in den XLQ-Anweisungen",
+          "[XML] – Fix für einen Fehler, bei dem die getroffene Spaltenauswahl nicht beibehalten wurde, wenn der Pfad-Dialog erneut geöffnet wurde",
+          "[Peakboard Hub List] – Fix für einen Fehler, bei dem nicht automatisch alle Spalten ausgewählt wurden und im Filter entsprechend nicht verfügbar waren"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für vertauschte Eingabefelder bei der Aggregation",
+          "Fix für einen Fehler, bei dem Dataflows die mit einer deaktivierten Datenquelle verknüpft waren nicht automatisch wieder reaktiviert wurden, wenn die Datenquelle wieder aktiviert wurde",
+          "Fix für fehlerhaftes Verhalten beim Kopieren und ändern der Quelle von Dataflows"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Input-Controls können nicht mehr versehentlich mit einer Datenquelle verbunden werden",
+          "Diagramm-Eigenschaften angepasst",
+          "Zeilenabstand-Eigenschaft zu Styled List hinzugefügt",
+          "Optischen Leerzustand für alle Tile-Controls hinzugefügt",
+          "[Tabelle] – Beim Doppelklick auf eine Tabelle öffnet sich der Spalteneditor, wenn bereits eine Datenquelle verbunden ist",
+          "[Bedingte Formatierung] – Vergleichsoperatoren bleiben erhalten, wenn der Datentyp gleich bleibt",
+          "[Bedingte Formatierung] – Fix für einen Fehler, bei dem Copy+Paste im Template Editor nicht funktioniert hat",
+          "[Bedingte Formatierung] – Fix für einen Fehler, bei dem die Bedingte Formatierung nicht mehr funktionierte wenn eine Ressource im Explorer ausgetauscht wurde",
+          "[Webpage] - Fix für einen Fehler, bei dem manche Webseiten nicht korrekt angezeigt wurden.",
+          "Fix für einen Fehler, bei dem die Animation von Tiles nicht funktioniert hat",
+          "Fix für einen Fehler, bei dem sich beim Aktualisieren einer Datenquelle die Hintergrundfarbe von Tiles geändert hat",
+          "Fix für einen Fehler, bei dem durchsichtige Hintergründe von Styled List und Styled Tile Kollektion im Arbeitsbereich nicht korrekt angezeigt wurden",
+          "Fix für einen Fehler, bei dem die Hintergrundfarbe von Styled Tile Kollektionen nicht korrekt angezeigt wurde"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Funktion zur Berechnung von Zeitspannen hinzugefügt",
+          "Das Feld für das Peakboard Hub MQTT Topic erlaubt nun Skripte",
+          "Listen können jetzt als .csv per Skript oder Building Blocks an einen UNC-Pfad exportiert werden",
+          "[Building Blocks] – Verbesserung der Lokalisierung und Fix für fehlerhafte Blöcke",
+          "[Building Blocks] – nicht-funktionale Komponenten entfernt",
+          "[Building Blocks] – Blöcke für Datenquellen und Dataflows erweitert",
+          "[Building Blocks] – Kategorie [Datum] hinzugefügt",
+          "Fix für einen Fehler, bei dem Intelisense-Vorschläge doppelt angezeigt wurden",
+          "Fix für einen Fehler, bei dem globale Funktionen nicht korrekt umbenannt werden konnten",
+          "Fix für einen Fehler bei dem ein geänderter Bildschirmname in Aktivierungsskripten nicht richtig angezeigt wurde"              
+        ]
+        }
+        ]
+      }]
+    }
+  ]
