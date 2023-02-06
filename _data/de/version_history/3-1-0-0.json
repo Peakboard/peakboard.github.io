@@ -62,9 +62,9 @@
       }, {
         "type": "list",
         "list_items": [
-          "[SAP] – Unterstützung für verschachtelte Tabellen in den XLQ-Anweisungen",
-          "[XML] – Fix für einen Fehler, bei dem die getroffene Spaltenauswahl nicht beibehalten wurde, wenn der Pfad-Dialog erneut geöffnet wurde",
-          "[Peakboard Hub List] – Fix für einen Fehler, bei dem nicht automatisch alle Spalten ausgewählt wurden und im Filter entsprechend nicht verfügbar waren"
+          "[SAP](/data_sources/SAP/de-sap.html) – Unterstützung für verschachtelte Tabellen in den XLQ-Anweisungen",
+          "[XML](/data_sources/de-xml.html) – Fix für einen Fehler, bei dem die getroffene Spaltenauswahl nicht beibehalten wurde, wenn der Pfad-Dialog erneut geöffnet wurde",
+          "[Peakboard Hub List](/data_sources/de-peakboard-hub-list.html) – Fix für einen Fehler, bei dem nicht automatisch alle Spalten ausgewählt wurden und im Filter entsprechend nicht verfügbar waren"
         ]
       }, {
         "type": "headline",
@@ -87,10 +87,10 @@
           "Zeilenabstand-Eigenschaft zu Styled List hinzugefügt",
           "Optischen Leerzustand für alle Tile-Controls hinzugefügt",
           "[Tabelle] – Beim Doppelklick auf eine Tabelle öffnet sich der Spalteneditor, wenn bereits eine Datenquelle verbunden ist",
-          "[Bedingte Formatierung] – Vergleichsoperatoren bleiben erhalten, wenn der Datentyp gleich bleibt",
-          "[Bedingte Formatierung] – Fix für einen Fehler, bei dem Copy+Paste im Template Editor nicht funktioniert hat",
-          "[Bedingte Formatierung] – Fix für einen Fehler, bei dem die Bedingte Formatierung nicht mehr funktionierte wenn eine Ressource im Explorer ausgetauscht wurde",
-          "[Webpage] - Fix für einen Fehler, bei dem manche Webseiten nicht korrekt angezeigt wurden.",
+          "[Bedingte Formatierung](/controls/de-cf.html) – Vergleichsoperatoren bleiben erhalten, wenn der Datentyp gleich bleibt",
+          "[Bedingte Formatierung](/controls/de-cf.html) – Fix für einen Fehler, bei dem Copy+Paste im Template Editor nicht funktioniert hat",
+          "[Bedingte Formatierung](/controls/de-cf.html) – Fix für einen Fehler, bei dem die Bedingte Formatierung nicht mehr funktionierte wenn eine Ressource im Explorer ausgetauscht wurde",
+          "[Webpage](/controls/Extended/de-webpage.html) - Fix für einen Fehler, bei dem manche Webseiten nicht korrekt angezeigt wurden.",
           "Fix für einen Fehler, bei dem die Animation von Tiles nicht funktioniert hat",
           "Fix für einen Fehler, bei dem sich beim Aktualisieren einer Datenquelle die Hintergrundfarbe von Tiles geändert hat",
           "Fix für einen Fehler, bei dem durchsichtige Hintergründe von Styled List und Styled Tile Kollektion im Arbeitsbereich nicht korrekt angezeigt wurden",
@@ -105,10 +105,10 @@
           "Funktion zur Berechnung von Zeitspannen hinzugefügt",
           "Das Feld für das Peakboard Hub MQTT Topic erlaubt nun Skripte",
           "Listen können jetzt als .csv per Skript oder Building Blocks an einen UNC-Pfad exportiert werden",
-          "[Building Blocks] – Verbesserung der Lokalisierung und Fix für fehlerhafte Blöcke",
-          "[Building Blocks] – nicht-funktionale Komponenten entfernt",
-          "[Building Blocks] – Blöcke für Datenquellen und Dataflows erweitert",
-          "[Building Blocks] – Kategorie [Datum] hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) – Verbesserung der Lokalisierung und Fix für fehlerhafte Blöcke",
+          "[Building Blocks](/scripting/de-building-blocks.html) – nicht-funktionale Komponenten entfernt",
+          "[Building Blocks](/scripting/de-building-blocks.html) – Blöcke für Datenquellen und Dataflows erweitert",
+          "[Building Blocks](/scripting/de-building-blocks.html) – Kategorie [Datum] hinzugefügt",
           "Fix für einen Fehler, bei dem Intelisense-Vorschläge doppelt angezeigt wurden",
           "Fix für einen Fehler, bei dem globale Funktionen nicht korrekt umbenannt werden konnten",
           "Fix für einen Fehler bei dem ein geänderter Bildschirmname in Aktivierungsskripten nicht richtig angezeigt wurde"              

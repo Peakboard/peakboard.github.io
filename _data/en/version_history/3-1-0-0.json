@@ -6,7 +6,7 @@
   "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.1.0.0.0/PeakboardSetup.exe",
   "tabs": [
     {
-      "name": "Property Grid Revision",
+      "name": "Property grid revision",
       "content": [{
         "type": "image",
         "image": "3-1-0-0-Propertygrid_en.gif",
@@ -62,9 +62,9 @@
       }, {
         "type": "list",
         "list_items": [
-          "[SAP] - Support for nested tables in XLQ statements",
-          "[XML] - Fix for a bug where the column selection made was not retained when the path dialog was reopened",
-          "[Peakboard Hub List] - fix for a bug where not all columns were automatically selected and were correspondingly unavailable in the filter"
+          "[SAP](/data_sources/SAP/en-sap.html) - Support for nested tables in XLQ statements",
+          "[XML](/data_sources/en-xml.html) - Fix for a bug where the column selection made was not retained when the path dialog was reopened",
+          "[Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - fix for a bug where not all columns were automatically selected and were correspondingly unavailable in the filter"
         ]
       }, {
         "type": "headline",
@@ -87,10 +87,10 @@
           "Added row gap property to styled list",
           "Added visual empty state for all tile controls",
           "[Table] - Double-clicking on a table opens the column editor if a data source is already connected",
-          "[Conditional formatting] - Comparison operators are preserved if the data type remains the same",
-          "[Conditional formatting] - Fix for a bug where copy+paste didn't work in the template editor",
-          "[Conditional formatting] - Fix for a bug where conditional formatting stopped working when a resource was replaced in Explorer",
-          "[Webpage] - Fix for a bug where some webpages were not displayed correctly.",
+          "[Conditional formatting](/controls/en-cf.html) - Comparison operators are preserved if the data type remains the same",
+          "[Conditional formatting](/controls/en-cf.html) - Fix for a bug where copy+paste didn't work in the template editor",
+          "[Conditional formatting](/controls/en-cf.html) - Fix for a bug where conditional formatting stopped working when a resource was replaced in Explorer",
+          "[Webpage](/controls/Extended/en-webpage.html) - Fix for a bug where some webpages were not displayed correctly.",
           "Fix for a bug where the animation of tiles did not work",
           "Fix for a bug where the background color of tiles changed when updating a datasource",
           "Fix for a bug where transparent backgrounds of styled list and styled tile collection were not displayed correctly in the workspace",
@@ -105,10 +105,10 @@
           "Added function to calculate time spans",
           "The Peakboard Hub MQTT topic field now allows scripts",
           "Lists can now be exported as .csv via script or building blocks to a UNC path",
-          "[Building blocks] - localization improvements and fix for broken blocks",
-          "[Building blocks] - non-functional components removed",
-          "[Building blocks] - blocks for datasources and Dataflows extended",
-          "[Building blocks] - category [date] added",
+          "[Building blocks](/scripting/en-building-blocks.html) - localization improvements and fix for broken blocks",
+          "[Building blocks](/scripting/en-building-blocks.html) - non-functional components removed",
+          "[Building blocks](/scripting/en-building-blocks.html) - blocks for datasources and Dataflows extended",
+          "[Building blocks](/scripting/en-building-blocks.html) - category [date] added",
           "Fix for a bug where Intelisense suggestions were shown twice",
           "Fix for a bug where global functions could not be renamed correctly",
           "Fix for a bug where a changed screen name was not displayed correctly in activation scripts"              
