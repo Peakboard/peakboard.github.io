@@ -23,37 +23,46 @@ Um auf eigene Power BI Dashboards zugreifen zu können, muss zunächst mit seine
 
 ## 1. Eine App zur Kommunikation zwischen Peakboard und Power BI registrieren
 
-> 1. Logge dich in dein Azure-Konto ein und wähle den Azure-Dienst Azure Active Directory aus.
-> 2. Wähle dann im linken Menü den Punkt [App-Registrierungen] aus und klicke dann oben auf das Plus-Symbol [Neue Registrierung]
+1. Logge dich in dein Azure-Konto ein und wähle den Azure-Dienst Azure Active Directory aus.
+2. Wähle im linken Menü den Punkt [App-Registrierungen] (1) aus und klicke oben auf das Plus-Symbol [Neue Registrierung] (2).
 
 ![Azure Active Directory](/assets/images/Controls/Controls-Power/PowerBI_01.png)
 
-> 3. Vergib einen passenden Namen und wähle als unterstützten Kontotyp den Typ [einzelner Mandant] aus.
-> 4. Unter Umleitungs-URI wählst du [Öffentlicher Client/nativ (mobil und Desktop)] aus.
-> 5. Klicke nun auf den Button [Registrieren].
+3. Vergib einen passenden Namen (3) und wähle als unterstützten Kontotyp den Typ [einzelner Mandant] (4) aus.
+4. Unter Umleitungs-URI wählst du [Öffentlicher Client/nativ (mobil und Desktop)] (5) aus.
+5. Klicke auf den Button [Registrieren] (6).
 
 ![App-Registrierung](/assets/images/Controls/Controls-Power/PowerBI_02.png)
 
 ## 2. Anpassen der App
 
-> 1. Die Übersicht der App öffnet sich nach der Registrierung automatisch. Wähle im Menü links den Punkt [Authentifizierung]
-> 2. Setze unter [Erweiterte Einstellungen] den Schieberegler [Öffentliche Clientflows zulassen] auf [Ja].
-> 3. Klicke nun auf den Button [Speichern].
+1. Die Übersicht der App öffnet sich nach der Registrierung automatisch. Wähle im Menü links den Punkt [Authentifizierung] (1)
+2. Setze unter [Erweiterte Einstellungen] den Schieberegler [Öffentliche Clientflows zulassen] auf [Ja] (2).
+3. Klicke nun auf den Button [Speichern] (3).
 
 ![Authentifizierung](/assets/images/Controls/Controls-Power/PowerBI_03.png)
 
-> 4. Wechsle über das Menü links in den Bereich [API-Berechtigungen] und stelle sicher dass die Rechte mit denen auf dem Screenshot übereinstimmen.
-> 5. Nimm entsprechende Anpassungen vor wenn die Rechte abweichen oder du noch die Administratoreinwilligung erteilen musst.
+4. Wechsle über das Menü links in den Bereich [API-Berechtigungen] (4) und stelle sicher dass die Rechte mit denen auf dem Screenshot übereinstimmen.
+5. Nimm entsprechende Anpassungen vor wenn die Rechte abweichen oder du noch die Administratoreinwilligung erteilen musst.
 
 ![API-Berechtigungen](/assets/images/Controls/Controls-Power/PowerBI_04.png)
 
-> 6. Wechsle nun über das Menü links in den Bereich [Übersicht].
-> 7. Für den nächsten Schritt benötigst du die IDs [Anwendungs-ID (Client)] und [Verzeichnis-ID (Mandant)].
+6. Wechsle nun über das Menü links in den Bereich [Übersicht] (5).
+7. Für den nächsten Schritt benötigst du die IDs [Anwendungs-ID (Client)] (6) und [Verzeichnis-ID (Mandant)] (7).
 
 ![IDs](/assets/images/Controls/Controls-Power/PowerBI_05.png)
 
 ## 3. Power BI im Peakboard Designer einfügen
 
-> 1. Lege im Peakboard Designer unter [Andere] ein Power BI Control an.
-> 2. Füge die IDs aus dem vorigen Schritt an den entsprechenden Stellen ein und gib Benutzername und Passwort ein.
-> 3. Jetzt kannst du ein beliebiges Tile eines Dashboards auswählen.
+1. Lege im Peakboard Designer unter [Andere] ein Power BI Control (1) an.
+
+![Power BI Control](/assets/images/Controls/Controls-Power/PowerBI_06.png)
+
+2. Füge die IDs aus dem vorigen Schritt an den entsprechenden Stellen ein und gib Benutzername und Passwort ein.
+
+![IDs](/assets/images/Controls/Controls-Power/PowerBI_07.png)
+
+3. Jetzt kannst du einen beliebigen Report oder ein Tile eines Dashboards auswählen.
+
+![Report](/assets/images/Controls/Controls-Power/PowerBI_08.png)
+![Peakboard Designer](/assets/images/Controls/Controls-Power/PowerBI_09.png)
