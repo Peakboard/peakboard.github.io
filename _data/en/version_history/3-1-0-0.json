@@ -21,6 +21,14 @@
         "description": "Improved mouseover functionality. So that you can easily see where you have used your data in the project"
       }]
     },
+    {
+      "name": "Set-variable-on-Upload feature",
+      "content": [{
+        "type": "image",
+        "image": "3-1-0-0-Upload_en.gif",
+        "description": "Variables and Peakboard Edge Boxes can be set dynamically during upload. So you can scale your project even easier"
+      }]
+    },
 	  {
       "name": "General overview",
       "content": [{

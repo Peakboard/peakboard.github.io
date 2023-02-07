@@ -21,6 +21,14 @@
         "description": "Verbesserte Mouseover-Funktionalität. Damit du auf einen Blick siehst wo du deine Daten im Projekt eingesetzt hast"
       }]
     },
+    {
+      "name": "Set-variable-on-Upload-Funktion",
+      "content": [{
+        "type": "image",
+        "image": "3-1-0-0-Upload_de.gif",
+        "description": "Variablen und Peakboard Edge Boxen können beim Hochladen dynamisch festgelegt werden. Damit du dein Projekt noch einfacher skalieren kannst."
+      }]
+    },
 	  {
       "name": "Gesamtübersicht",
       "content": [{
