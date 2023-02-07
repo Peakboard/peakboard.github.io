@@ -10,41 +10,24 @@ redirect_from:
   - /data_sources/02-de-datum-und-uhrzeit.html
 ---
 
-Im Peakboard Designer hast du die Möglichkeit, Datum und Uhrzeit als Datenquelle einzubinden. 
+Im Peakboard Designer hast du die Möglichkeit, Datum und Uhrzeit als Datenquelle einzubinden.
 Diese Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.
 
-Über die Format-Angabe wird definiert, wie die Zeit bzw. das Datum oder eine Kombination daraus dargestellt werden soll. 
-Die einzelnen Formatkomponenten kannst du der Tabelle unten entnehmen. 
+Über die Format-Angabe wird definiert, wie die Zeit bzw. das Datum oder eine Kombination daraus dargestellt werden soll.
+Die einzelnen Formatkomponenten kannst du der Tabelle unten entnehmen.
 Für den Fall, dass du eine andere Zeitzone als CET zur Zeitberechnung nutzen möchtest, steht die entsprechende Combo-Box zur Verfügung.
 
-Die Zeitdatenquelle bietet neben der Anzeige von Datum und Uhrzeit auch die Möglichkeit, Daten anhand eines aktuellen Zeitstempels anzuzeigen. Damit die Zeitdatenquelle funktioniert, musst du zunächst einen Zeitserver als Referenz für die Datenquelle hinterlegen.
-
-<div class="box-tip" markdown="1">**Hinweis**
-Aktuell gibt es zwei Orte, an denen ein Zeitserver hinterlegt werden muss!
-</div>
-
-
-## Zeitserver Peakboard Projekt (Zeitserver für die Visualisierung)
-
-Standardmäßig greift die Zeitdatenquelle auf den Windows-Zeitserver im Internet zu (konkret auf time.windows.com). 
-Sollte das nicht gewünscht sein oder die Peakboard Box in einem Netz ohne Internetzugang betrieben werden, kann sich die Datenquelle die Zeit auch von einem netzinternen Zeitserver holen. 
-Dafür klickst du im Tab [Start] auf [Projekt] und wählst [Projektinfos] (1) aus. 
-
-![Projektinfos](/assets/images/data-sources/date-and-time/de_projectinfo.png)
-
-Im geöffneten Dialogfeld [Projekt bearbeiten] gibst du die IP-Adresse oder den Host-Namen des Zeitservers in das entsprechende Textfeld (2) ein.
-
-![Zeitserver](/assets/images/data-sources/date-and-time/de_timeserver.png)
-
+Die Zeitdatenquelle bietet neben der Anzeige von Datum und Uhrzeit auch die Möglichkeit, Daten anhand eines aktuellen Zeitstempels anzuzeigen.
 
 ## Zeitserver Peakboard Box (Zeitserver für die Peakboard Box)
 
-Beim erstmaligen Hinzufügen einer Peakboard Box zum Peakboard Designer, wirst du aufgefordert einen Zeitserver zu hinterlegen. Dieser Zeitserver ist für den Validierungsprozess der Zertifikate auf der Peakboard Box zuständig. 
+Beim erstmaligen Hinzufügen einer Peakboard Box zum Peakboard Designer, wirst du aufgefordert einen Zeitserver zu hinterlegen. Dieser Zeitserver ist unter anderem für den Validierungsprozess der Zertifikate auf der Peakboard Box zuständig.
 
-<div class="box-tip" markdown="1">**Tipp**
-Findest du im Log deiner Peakboard Box den Eintrag:
-[Could not connect to timeserver times.windows.com], so wurde der Zeitserver für das Peakboard Projekt nicht gesetzt!
-</div>
+Den Zeitserver kannst du in den Peakboard Box-Einstellungen ändern.
+Im Reiter [Peakboard Box Prüfung] (1) deiner Peakboard Box findest du im Bereich System den Eintrag [Zeitserver].
+Durch einen Klick auf das Zahnrad-Symbol (2) öffnest du den Dialog zur Auswahl von Zeitserver und Zeitzone.
+
+![Zeitserver](/assets/images/data-sources/date-and-time/de_timeserver.png)
 
 Die Zeitdatenquelle lässt sich wie jede andere Datenquelle über [Datenquelle hinzufügen] und anschließend [Zeit] (3) anlegen.
 
@@ -65,7 +48,7 @@ Im Control-Editor kann über Format das Anzeigeformat für ein deutsch- oder eng
 
 In der Preview werden jetzt das aktuelle Datum und die Uhrzeit angezeigt.
 
-![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_05.png)
+![Zeitdatenquelle](/assets/images/data-sources/date-and-time/timedatasource_05.png)
 
 Platzhalter für den Format-String:
 
