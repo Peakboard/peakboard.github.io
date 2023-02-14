@@ -1,26 +1,25 @@
 ---
 layout: article
-title: Peakboard Designer Verbindung herstellen 
-menu_title: Peakboard Designer Verbindung herstellen  
-description: Peakboard Designer Verbindung herstellen  
+title: Peakboard Designer Verbindung
+menu_title: Peakboard Designer Verbindung
+description: Peakboard Designer Verbindung herstellen
 lang: de
 weight: 200
 ref: hub-200
 redirect_from:
 ---
 
-Um den Peakboard Hub im Peakboard Designer nutzen zu können, muss zunächst der Peakboard Designer geöffnet werden. 
-Unter den Einstellungen findest du hier den Menüpunkt [Peakboard Hub]. 
-Klickt du auf den Button öffnet sich der Dialog zum Verbinden zum Peakboard Hub. 
+Um den Peakboard Hub im Peakboard Designer nutzen zu können, muss zunächst der Peakboard Designer geöffnet werden.
+Unter den Einstellungen findest du hier den Menüpunkt [Peakboard Hub] (1) mit dem sich der Dialog zum Verbinden des Peakboard Hub öffnet.
 
-Hier musst du zuerst die URL des Peakboard Hubs (inkl. http:// bzw. https://) eingeben. 
+Hier musst du zuerst die URL des Peakboard Hubs (inkl. http:// bzw. https://) eingeben (2).
 
-![Availability Overview](/assets/images/hub/hub_connecttodesigner1.png) 
+![Peakboard Hub](/assets/images/hub/de_hub_connecttodesigner1.png)
 
-![Availability Overview](/assets/images/hub/hub_connecttodesigner2.png) 
+![Peakboard Hub Settings](/assets/images/hub/de_hub_connecttodesigner2.png)
 
-Außerdem musst du hierfür den Gruppenschlüssel, den du im Peakboard Hub finden kannst, eingeben. 
+Außerdem musst du hierfür den Gruppenschlüssel (3), den du im Peakboard Hub finden kannst, eingeben.
 
-Wenn du nun auf Verbinden klickst, wird die Verbindung zum Hub hergestellt und du kannst alle Möglichkeiten, die der Peakboard Hub bietet im Peakboard Designer verwenden. 
+Wenn du nun auf Verbinden klickst, wird die Verbindung zum Hub hergestellt und du kannst alle Möglichkeiten, die der Peakboard Hub bietet im Peakboard Designer verwenden.
 
-![Availability Overview](/assets/images/hub/hub_connecttodesigner3.png) 
+![Group Key](/assets/images/hub/hub_connecttodesigner3.png)
