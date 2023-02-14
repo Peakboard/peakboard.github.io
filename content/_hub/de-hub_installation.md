@@ -12,33 +12,32 @@ redirect_from:
 
 Peakboard Hub wird lokal auf deinem Server gehostet, dieser benötigt IIS und Windows Server ab mindestens Version 2016. 
 Außerdem muss zusätzlich die [ASP.NET Core 2.2 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-2.2.2-windows-hosting-bundle-installer) vorab installiert werden.
-Es wird zu keinem Zeitpunkt eine Kommunikation nach außen hergestellt, sondern ausschließlich zwischen dem Nutzer, den Peakboard Boxen und Peakboard Hub. 
-Für die Authentifizierung wird der Windows Domain Controller (Active Directoy) genutzt, gib also einfach den *Windows Nutzernamen mit Domäne* und das *Windows Passwort* beim Login ein. 
-Die Datenhaltung von Peakboard Hub findet in einem mitgelieferten SQL Server Express 2019 statt. 
+Es wird zu keinem Zeitpunkt eine Kommunikation nach außen hergestellt, sondern ausschließlich zwischen dem Nutzer, den Peakboard Boxen und Peakboard Hub.
+Für die Authentifizierung wird der Windows Domain Controller (Active Directory) genutzt, gib also einfach den *Windows Nutzernamen ohne Domäne* und das *Windows Passwort* beim Login ein.
+Die Datenhaltung von Peakboard Hub findet in einem mitgelieferten SQL Server Express 2019 statt.
 Es kann aber auch ein bereits vorhandener SQL Server ab Version 2017 verwendet werden.
 
 ### Installation / Updates
 
-Für die initiale Installation auf einem Windows Server benötigst du nur die Installationsdatei von Peakboard Hub, die du innerhalb deines laufenden SLAs kostenfrei zur Verfügung gestellt bekommst. 
-In der ersten Installation empfehlen wir alle Haken gesetzt zu lassen, somit werden alle notwendigen Bestandteile mitinstalliert und die Konfiguration im IIS besonders komfortabel gesetzt. 
+Für die initiale Installation auf einem Windows Server benötigst du nur die Installationsdatei von Peakboard Hub, die du [hier](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) herunterladen kannst.
+In der ersten Installation empfehlen wir alle Haken gesetzt zu lassen, somit werden alle notwendigen Bestandteile mitinstalliert und die Konfiguration im IIS besonders komfortabel gesetzt.
 Falls ein bereits vorhandener SQL Server genutzt werden soll, ist es möglich auf die Installation des SQL Servers zu verzichten.
 
-Bei zukünftigen Updates setzt du lediglich den Haken bei [PB Hub Main]. 
+Bei zukünftigen Updates setzt du lediglich den Haken bei [PB Hub Main].
 Ein Update kann einfach über das bereits existierende Setup installiert werden.
 
-
-Während des Setups wirst du dazu aufgefordert eine Datenbank anzulegen, die als Datenbasis für Peakboard Hub dient und einen Datenbank Nutzer anzugeben. 
-Anschließend ist Peakboard Hub in deinen SSIS Seiten zu finden. 
+Während des Setups wirst du dazu aufgefordert eine Datenbank anzulegen, die als Datenbasis für Peakboard Hub dient und einen Datenbank Nutzer anzugeben.
+Anschließend ist Peakboard Hub in deinen SSIS Seiten zu finden.
 Hier kannst du alles wie von IIS gewohnt konfigurieren und beispielsweise eine sichere Kommunikation mit Zertifikaten deines Unternehmens einfügen.
 
-Nach dem ersten Login eines Nutzers in Peakboard Hub kann im Installationsordner (Standardmäßig C:/inetpub/PeakboardHub) noch unter der Applikation [Peakboard.HUB.DatabaseManager] definiert werden, welche Nutzer Admin Rechte für Peakboard Hub erhalten sollen.
- Sobald ein Nutzer Admin Rechte besitzt, kann dieser zukünftig weitere Nutzer im Nutzermanagement des Peakboard Hubs zum Admin ernennen.
+Nach dem ersten Login eines Nutzers in Peakboard Hub sollte im Installationsordner (Standardmäßig C:/inetpub/PeakboardHub) noch unter der Applikation [Peakboard.HUB.DatabaseManager] definiert werden, welche Nutzer Admin Rechte für Peakboard Hub erhalten sollen.
+ Sobald ein Nutzer Admin Rechte besitzt, kann dieser zukünftig weitere Nutzer im Nutzermanagement des Peakboard Hubs zum Admin ernennen. Der DatabaseManager ist fortan nicht mehr nötig.
 
 <div class="box-warning" markdown="1"> **Beachte**:
 * Wenn du Updates der Peakboard Boxen über den Peakboard Hub durchführen willst, musst du den ISS Prozess dazu berechtigen, in den Installations-Ordner (c:/inetpub/PeakboardHub) zu schreiben.
-* Wenn du MQTT zur Kommunikation zwischen Peakboard Boxen genutzt werden soll, muss der MQTT Port (Standardmäßig: 1883) geöffnet werden.
+* Wenn MQTT zur Kommunikation zwischen Peakboard Boxen genutzt werden soll, muss der MQTT Port (Standardmäßig: 1883) geöffnet werden.
 </div>
 
 Hier siehst du, wo du die Berechtigungen setzen musst:
 
-![hub_permissions](/assets/images/hub/hub_permissions.png)
+![Peakboard Hub Berechtigungen](/assets/images/hub/hub_permissions.png)
