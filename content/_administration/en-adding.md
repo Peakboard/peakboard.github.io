@@ -8,15 +8,25 @@ weight: 700
 ref: admin-700
 redirect_from:
   - /administration/07-en-adding.html
+  - /administration/07-en-add.html
   - /administration/PB%202.x%20Box/en-adding.html
 ---
 
-To add a Peakboard-Box to the Peakboard-Designer, click the Manage button in the Peakboard-Designer area’s top menu bar. A new window will open.
+To add a Peakboard Box to the Peakboard Designer, click on the Peakboard Box button (1) in the menu bar. This will open the Peakboard Box Settings.
 
-Click here on the button Add.
+![Peakboard Box button](/assets/images/admin/add/en_add-box-01.png)
 
-![Deploy Dialog](/assets/images/admin/add/deploy-dialog.png)
+Here you have several options to add Peakboard Boxes
+Click on the add button (2) in the Peakboard Box Settings to open the selection dialog.
 
-A window opens again in which all Peakboard-Boxes in the network are displayed. Select the desired Peakboard by a simple mouse click and fill in the fields Username and Password.
+![Peakboard Box selection](/assets/images/admin/add/en_add-box-02.png)
 
-After confirming the window with OK, your Peakboard-Box will be added to the Peakboard-Designer.
+In this dialog all Peakboard Boxes in the network are displayed.
+Simply mark the desired Peakboard Box by clicking on it (3) and fill in the fields username (4) and password (5).
+After confirming with OK your Peakboard Box will be added to the Peakboard Designer.
+
+Alternatively, you can add your boxes from the Peakboard Hub by clicking on the Peakboard Hub Synchronize button (6).
+
+![Peakboard Hub synchronization](/assets/images/admin/add/en_add-box-03.png)
+
+This requires an installed [Peakboard Hub](/hub/en-hub_installation.html) where boxes have already been added.
