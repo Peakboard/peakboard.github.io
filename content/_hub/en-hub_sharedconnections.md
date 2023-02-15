@@ -4,8 +4,8 @@ title: Connections
 menu_title: Connections
 description: Peakboard Hub - Connections
 lang: en
-weight: 500
-ref: hub-500
+weight: 600
+ref: hub-600
 redirect_from:
 ---
 In the menu item Connections you can create connections to different data sources and use them in Peakboard Designer.

@@ -4,8 +4,8 @@ title: Verbindungen
 menu_title: Verbindungen
 description: Peakboard Hub - Verbindungen
 lang: de
-weight: 500
-ref: hub-500
+weight: 600
+ref: hub-600
 redirect_from:
 ---
 Im Menüpunkt Verbindungen kannst du Verbindungen zu unterschiedlichen Datenquellen erstellen und im Peakboard Designer verwenden.
