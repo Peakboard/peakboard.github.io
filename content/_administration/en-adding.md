@@ -12,11 +12,11 @@ redirect_from:
   - /administration/PB%202.x%20Box/en-adding.html
 ---
 
-To add a Peakboard Box to the Peakboard Designer, click on the Peakboard Box button (1) in the menu bar. This will open the Peakboard Box Settings.
+To add a Peakboard Box to the Peakboard Designer, click on the Peakboard Box button (1) in the menu bar. This will open the Peakboard Box settings.
 
 ![Peakboard Box button](/assets/images/admin/add/en_add-box-01.png)
 
-Here you have several options to add Peakboard Boxes
+Here you have several options to add Peakboard Boxes.
 Click on the add button (2) in the Peakboard Box Settings to open the selection dialog.
 
 ![Peakboard Box selection](/assets/images/admin/add/en_add-box-02.png)
