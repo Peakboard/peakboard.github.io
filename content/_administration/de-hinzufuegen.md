@@ -23,7 +23,7 @@ Klicke in den Peakboard Box Einstellungen auf den Hinzufügen-Button (2), um den
 ![Peakboard Box Auswahl](/assets/images/admin/add/de_add-box-02.png)
 
 In diesem Dialog werden alle im Netzwerk befindlichen Peakboard Boxen angezeigt.
-Markiere einfach die gewünschte Peakboard Box durch einen einfachen Mausklick (3) und fülle die Felder Benutzername (4) und Passwort (5) aus.
+Markiere die gewünschte Peakboard Box durch einen Klick (3) und fülle die Felder Benutzername (4) und Passwort (5) aus.
 Nach dem Bestätigen mit OK wird deine Peakboard Box dem Peakboard Designer hinzugefügt.
 
 Alternativ kannst du mit einem Klick auf den Peakboard Hub Synchronize-Button (6) deine Boxen vom Peakboard Hub hinzufügen.
