@@ -22,7 +22,7 @@ In den Attributen des Controls kannst du wenn gewünscht dann noch ein Aktualisi
 
 Die Größe der HTML-Ausgabe wird durch den HTML-Code und nicht durch die Größe des Controls bestimmt. Das Control muss aber groß genug sein, um alles anzuzeigen.
 
-## Examples:
+## Beispiele
 
 Im Folgenden findest du zum Experimentieren eine kleine Liste von Websites, die das Generieren von HTML-Widgets erlauben
 
