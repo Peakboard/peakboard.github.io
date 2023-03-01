@@ -9,7 +9,7 @@ ref: misc-1000001
 redirect_from:
 hide_in_menu: true
 ---
-## 2.9.1.0(26.04.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EjocT8mWFYdHninsPZh4VywBwERzmKaNcJ7MkRdUxcIJow?e=DFyLCn) 
+## 2.9.1.0(26.04.2021)
 * Hotfix für einen Fehler, bei dem die OData-Datenquelle nicht mehr erstellt und bearbeitet werden konnte
 * Hotfix für einen Fehler, bei dem Cloud-Ressourcen nicht mehr angelegt oder bearbeitet werden konnten
 
@@ -31,7 +31,7 @@ hide_in_menu: true
 * Fix für einen Fehler, bei dem der Zugriff eigens angelegter Nutzer auf das Webinterface zu einem Fehler geführt hat
 
 
-## 2.8.2.0(22.03.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EqUKx5Nh0PJDlamMS9GGhxcBGIYOuWPGvrQcwb1yAJdFig?e=ap6n5o)
+## 2.8.2.0(22.03.2021)
 * Hotfix für einen kritischen Fehler, bei dem das Zertifikat für die verschlüsselte Kommunikation (:40405) nicht korrekt erstellt wurde 
 
 ## 2.8.1.0 (16.03.2021)
@@ -65,7 +65,7 @@ hide_in_menu: true
 * Fix für einen Fehler, bei dem das Neu laden einer Excel-Datenquelle die Datentypeinstellungen zurückgesetzt hat
 
 
-## 2.7.0.0 (09.02.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EmkMsuxkxZNJt1fJ-ZkumSkBegdQqDts2Sv8uJPG4dbyWQ?e=9iQge1) 
+## 2.7.0.0 (09.02.2021)
 * Peakboard Hub List als Datenquelle für [Peakboard Hub](https://peakboard.com/produkt/peakboard-hub/) hinzugefügt
 * Rework für die MQTT Datenquelle
 * Rework für interaktive [Controls]
@@ -99,7 +99,7 @@ hide_in_menu: true
 * Fix für einen Fehler, bei dem die Preview auf einem anderen Monitor ausgeführt wurde als der Peakboard Designer
 
   
-## 2.6.2.0 (17.12.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Euwhhl_e85ROtu9HgUnXyEUBaZaYoqItskvLgNclOqgQnQ?e=k9WN36)
+## 2.6.2.0 (17.12.2020)
 * Hotfix für einen Fehler in der XML-Datenquelle, bei dem die Daten nicht geladen wurden
 * Hotfix für einen Fehler, bei dem das Ändern der JSON, XML, CSV Header nicht übernommen wurde
 
@@ -128,7 +128,7 @@ hide_in_menu: true
 * Fix für einen Fehler, bei dem das Web-Widget auf der Zeichenfläche nicht angezeigt wurde
 * Fix für einen Fehler, bei dem die XQL Statements für die SAP-Datenquelle fehlerhafte Werte zurückgegeben haben
 
-## 2.5.2.0 (26.10.2020)[Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtdGqMkn0ehHgj1FankNqwsB8YniUX7iQCTLy0qSWIhMzg?e=e9NCZG)
+## 2.5.2.0 (26.10.2020)
 * Hotfix für einen Fehler, bei dem das Beschreiben von Listenvariablen nicht mehr möglich war
 
 ## 2.5.1.0 (23.10.2020)
@@ -164,7 +164,7 @@ hide_in_menu: true
 * Fix für einen Fehler, bei dem das Webpage-Control nicht mit der Authentifizierung "none" genutzt werden konnte
 * Fix für einen Fehler, bei dem die Deinstallation des Peakboard Designers nicht korrekt vollständig ausgeführt wurde
 
-## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/ElKusA888WtJpmpCneFxfeABymSoBZpp__ZY9EnjW21FiQ?e=qA8fmn)
+## 2.4.5.0 // 1.13.5.0 (01.10.2020)
 * Hotfix für einen Fehler im SQL-Datenquellendialoge
 * Hotfix für einen Fehler bei http-put-Requests
 
@@ -259,7 +259,7 @@ hide_in_menu: true
 * Fix für einen Fehler, bei dem die Transition eines Screens mit der Eigenschaft "none" nicht funktioniert hatte
 * Fix für einen Fehler, bei der Farbauswahl von Advanced Charts
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EphbbQwgJxJBp-heqcckzOMBwNl5PGG37IXLoLOG9JizAw?e=OeThjQ)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020)
 * Hotfix für einen Speicherfehler
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020) 
@@ -301,7 +301,7 @@ hide_in_menu: true
 * Fix für einen Fehler bei dem der Broadcast der Peakboard 2 Box nicht korrekt ausgeführt wurde
 * Fix für einen Fehler bei dem das Textticker-Control und das DropDown-Control nicht korrekt ausgeführt wurden
 
-## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EmWenTHVTOpOv-rSJpM7M9oBNyVCJdeRmI41GxSsxy9PBg?e=vNKPQ0)
+## 2.2.4.2 // 1.11.4.2 (25.06.2020)
 * Hotfix für die Verwendung lokaler Netzwerkressourcen
 * Hotfix für einen Fehler in der Excel Datenquelle, bei dem die Verwendung lokaler Netzwerkdateien nicht korrekt funktionierte
 
@@ -346,7 +346,7 @@ hide_in_menu: true
 * Fix für einen Fehler bei dem ein gesperrtes Element auf der Zeichenfläche die Bearbeitung eines darunterliegenden Elements verhinderte
 * Fix für einen Fehler bei dem die Peakboard 2 Preview nicht auf einem Windows 7 Gerät ausgeführt werden konnte
 
-## 2.1.1.0 // 1.10.1.0 (03.04.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EpZUKEw4TBRAhSqm2mCP5YsB46SPevNs6tuZWr-7SQu7Rg?e=6T4QpP)
+## 2.1.1.0 // 1.10.1.0 (03.04.2020)
 * Fix für die Datenverknüpfung von Spalten, welche mit einer Zahl beginnen
 * Fix für einen Fehler bei dem die Navigation per Tabulator-Taste beim Umbenennen von Spalten nicht funktioniert hat
 * Datenverknüpfungsdialog für Tile, ListView, TileView und Live Tiles übernommen
@@ -390,7 +390,7 @@ hide_in_menu: true
 * Fehlermeldung für falsch selektierte JSON-Objekte angepasst
 * Fix für einen Fehler, bei dem die Skalierung der Preview nicht korrekt dargestellt wurde
 
-## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EnenswLvD_1Btv8mtp1vDosBvRfhvUyblw215m4dS-pOmg?e=Qz84LI)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020)
 * Unterscheidung in der Versionierung für Peakboard 2 Boxen (2.x.x.x) und Peakboard Boxen (1.x.x.x)
 * Änderung der Peakboard Runtime (Preview) Architektur von UWP auf WPF
 * Abschaffung der Peakboard Bridge für Peakboard 2 Boxen
@@ -417,7 +417,7 @@ hide_in_menu: true
 * Fix für einen Fehler beim Kopieren einer OPC/UA Datenquelle
 * Fix für Skript-Fehlermeldungen im Peakboard Runtime Log
 
-## 1.8.7.0 (31.01.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EnId924Qa-dMvg6OQ1sDI4wBUUFjoU6MNgsVE00Fwpq7Wg?e=nFuPDa)
+## 1.8.7.0 (31.01.2020)
 * Hotfix für einen Excel-Datenquellenfehler, der dazu führte, dass die Excel-Datenquelle die Daten nicht geladen hat, wenn keine Spaltennamen ausgewählt wurden
 
 ## 1.8.6.0 (14.01.2019)
@@ -457,7 +457,7 @@ hide_in_menu: true
 * Fix für die Handhabung von Resourcen über die Peakboard Bridge
 
 
-## 1.7.1.0 (29.10.2019) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Es4DU5XtdqBEoFlZsPO4_lcB4f-E9XdfkNDk18rsQLUObw?e=dS4BG4)
+## 1.7.1.0 (29.10.2019)
 * Hotfix für den Template Designer
 
 ## 1.7.0.0 (28.10.2019)
@@ -486,7 +486,7 @@ hide_in_menu: true
 * Fix für die Zeitdatenquelle
 * Fix für den Colorpicker beim Ändern der Werte im Textfeld
 
-## 1.6.4.0 (18.10.2019) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtdDaaDV1GhDvM0VMu81LegBW4469ENDbwbWAjahCQPrAw?e=wK440r)
+## 1.6.4.0 (18.10.2019)
 * Die Grundeinstellung für das Designer-Theme wurde auf "Light" zurückgesetzt.
 
 ## 1.6.3.0 (17.10.2019)

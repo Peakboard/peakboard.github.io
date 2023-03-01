@@ -1,0 +1,128 @@
+[{
+  "version": "3.1.0.3",
+  "date": "06.02.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.1.0.3.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.1.0.3.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Property grid revision",
+      "content": [{
+        "type": "image",
+        "image": "3-1-0-0-Propertygrid_en.gif",
+        "description": "Extensive revision of the property grid"
+      }]
+    },
+    {
+      "name": "Improved mouseover",
+      "content": [{
+        "type": "image",
+        "image": "3-1-0-0-Mouseover_en.gif",
+        "description": "Improved mouseover functionality. So that you can easily see where you have used your data in the project"
+      }]
+    },
+    {
+      "name": "Set-variable-on-upload feature",
+      "content": [{
+        "type": "image",
+        "image": "3-1-0-0-Upload_en.gif",
+        "description": "Variables and Peakboard Edge Boxes can be set dynamically during upload. So you can scale your project even easier"
+      }]
+    },
+	  {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer Setup] - Fix for a bug where the setup failed when an instance of the Peakboard Designer was running",
+          "[Peakboard Designer] - When the Peakboard Designer update fails, the official download link is provided",
+          "[Peakboard Designer] - UX improvement: icons added to context menus",
+          "[Peakboard Designer] - References in scripts are automatically renamed when a screen is renamed",
+          "[Peakboard Designer] - Double-click behavior in Explorer adjusted",
+          "[Peakboard Designer] - Upload button opens Peakboard Box settings when no Peakboard Box is connected",
+          "[Peakboard Designer] - Uploaded visualizations are automatically active",
+          "[Peakboard Designer] - Default font sizes adjusted",
+          "[Peakboard Designer] - Variables and Peakboard Edge boxes can be set when uploading a visualization",
+          "[Peakboard Designer] - Settings of the original setup are no longer queried and automatically applied when updating",
+          "[Peakboard Designer] - Added activation status for screens in the context menu",
+          "[Peakboard Designer] - Fix for a bug in the behavior of hidden elements",
+          "[Peakboard Designer] - Fix for a bug where a change in a project's file name was not displayed correctly",
+          "[Peakboard Designer] - Fix for a bug where screens could not be renamed when you were on a different screen",
+          "[Peakboard Designer] - Fix for minor bugs of the grouping and framing functionalities",
+          "[Peakboard Designer] - Fix for a bug where the last opened visualizations were not displayed correctly in the preview",
+          "[Peakboard Box] - Added communication channel to access Peakboard Boxes via Microsoft Azure",
+          "[Peakboard Box] - Added prompt to change password when adding a Peakboard Box to the Peakboard Designer for the first time.",
+          "[Peakboard Box] - Fix for a bug in the update process",
+          "[Peakboard Box] - Fix for a bug where databases stored on the Peakboard Box were not removed from the Peakboard Box when deleting the associated visualization",
+          "[Peakboard Box Settings] - Allow selection of multiple Peakboard Boxes at the same time",
+          "[Peakboard Box Settings] - Minor improvements in the Peakboard Box check",
+          "[Peakboard Box Settings] - Timeserver now editable directly in dialog",
+          "[Peakboard Box Settings] - Fix for a bug where the update was not selectable",
+          "[Peakboard Box Settings] - Fix for a bug where it was not possible to change the Peakboard Box password",
+          "[Peakboard Edge] - Several improvements for the new Peakboard Edge settings"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datasources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[SAP](/data_sources/SAP/en-sap.html) - Support for nested tables in XLQ statements",
+          "[XML](/data_sources/en-xml.html) - Fix for a bug where the column selection made was not retained when the path dialog was reopened",
+          "[Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - fix for a bug where not all columns were automatically selected and were correspondingly unavailable in the filter"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for mixed up input fields during aggregation",
+          "Fix for bug where Dataflows associated with a disabled data source were not automatically reactivated when the datasource was reactivated",
+          "Fix for incorrect behavior when copying and changing the source of Dataflows"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Input controls can no longer be accidentally connected to a datasource",
+          "Chart properties adjusted",
+          "Added row gap property to styled list",
+          "Added visual empty state for all tile controls",
+          "[Table] - Double-clicking on a table opens the column editor if a data source is already connected",
+          "[Conditional formatting](/controls/en-cf.html) - Comparison operators are preserved if the data type remains the same",
+          "[Conditional formatting](/controls/en-cf.html) - Fix for a bug where copy+paste didn't work in the template editor",
+          "[Conditional formatting](/controls/en-cf.html) - Fix for a bug where conditional formatting stopped working when a resource was replaced in Explorer",
+          "[Webpage](/controls/Extended/en-webpage.html) - Fix for a bug where some webpages were not displayed correctly.",
+          "Fix for a bug where the animation of tiles did not work",
+          "Fix for a bug where the background color of tiles changed when updating a datasource",
+          "Fix for a bug where transparent backgrounds of styled list and styled tile collection were not displayed correctly in the workspace",
+          "Fix for a bug where background color of styled tile collections was not displayed correctly"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Added function to calculate time spans",
+          "The Peakboard Hub MQTT topic field now allows scripts",
+          "Lists can now be exported as .csv via script or building blocks to a UNC path",
+          "[Building blocks](/scripting/en-building-blocks.html) - localization improvements and fix for broken blocks",
+          "[Building blocks](/scripting/en-building-blocks.html) - non-functional components removed",
+          "[Building blocks](/scripting/en-building-blocks.html) - blocks for datasources and Dataflows extended",
+          "[Building blocks](/scripting/en-building-blocks.html) - category [date] added",
+          "Fix for a bug where Intelisense suggestions were shown twice",
+          "Fix for a bug where global functions could not be renamed correctly",
+          "Fix for a bug where a changed screen name was not displayed correctly in activation scripts"              
+        ]
+        }
+        ]
+      }]
+    }
+  ]

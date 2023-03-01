@@ -9,7 +9,7 @@ ref: misc-1000001
 redirect_from:
 hide_in_menu: true
 ---
-## 2.9.1.0(26.04.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EjocT8mWFYdHninsPZh4VywBwERzmKaNcJ7MkRdUxcIJow?e=DFyLCn) 
+## 2.9.1.0(26.04.2021)
 * Hotfix for a bug where the OData data source could no longer be created and edited.
 * Hotfix for a bug where cloud resources could no longer be created or edited
 
@@ -31,7 +31,7 @@ hide_in_menu: true
 * Fix for a bug where the access of specially created users to the web interface led to an error
 
 
-## 2.8.2.0(22.03.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EqUKx5Nh0PJDlamMS9GGhxcBGIYOuWPGvrQcwb1yAJdFig?e=ap6n5o)
+## 2.8.2.0(22.03.2021)
 * Hotfix for a critical bug where the certificate for encrypted communication (:40405) was not created correctly
 
 ## 2.8.1.0 (16.03.2021)
@@ -65,7 +65,7 @@ hide_in_menu: true
 * Fix for a bug where reloading an Excel data source reset the data type settings
   
   
-## 2.7.0.0 (09.02.2021) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EmkMsuxkxZNJt1fJ-ZkumSkBegdQqDts2Sv8uJPG4dbyWQ?e=9iQge1) 
+## 2.7.0.0 (09.02.2021)
 * Added Peakboard Hub List as data source for [Peakboard Hub](https://Peakboard.com/produkt/Peakboard-hub/)
 * Rework for MQTT data source
 * Rework for interactive [Controls]
@@ -98,7 +98,7 @@ hide_in_menu: true
 * Fix for a bug where the log files on the Peakboard Box were not sorted correctly
 * Fix for a bug where the preview was run on a different monitor than the Peakboard Designer
 
-## 2.6.2.0 (17.12.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Euwhhl_e85ROtu9HgUnXyEUBaZaYoqItskvLgNclOqgQnQ?e=k9WN36)
+## 2.6.2.0 (17.12.2020)
 * Hotfix for a bug in the XML data source where the data was not loaded.
 * Hotfix for a bug where changing the JSON, XML, CSV headers was not applied.
 
@@ -127,7 +127,7 @@ hide_in_menu: true
 * Fix for an error where the web widget was not displayed on the drawing area
 * Fix for an error where the XQL statements for the SAP data source returned incorrect values
 
-## 2.5.2.0 (26.10.2020)[Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtdGqMkn0ehHgj1FankNqwsB8YniUX7iQCTLy0qSWIhMzg?e=e9NCZG)
+## 2.5.2.0 (26.10.2020)
 * Hotfix for an error where writing to list variables was no longer possible
 
 ## 2.5.1.0 (23.10.2020)
@@ -163,7 +163,7 @@ hide_in_menu: true
 * Fix for an error where the webpage control could not be used with authentication "none
 * Fix for an error where uninstalling Peakboard Designer was not correctly completed
 
-## 2.4.5.0 // 1.13.5.0 (01.10.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/ElKusA888WtJpmpCneFxfeABymSoBZpp__ZY9EnjW21FiQ?e=qA8fmn)
+## 2.4.5.0 // 1.13.5.0 (01.10.2020)
 * Hotfix for an error in the SQL data source dialog
 * Hotfix for an error with http-put requests
 
@@ -242,7 +242,7 @@ hide_in_menu: true
 * Fix for an error where the refresh script for the mail data source was not executed
 * Fix for a bug where the Visibilty property
 
-## 2.3.4.0 // 1.12.4.0 (19.08.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EphbbQwgJxJBp-heqcckzOMBwNl5PGG37IXLoLOG9JizAw?e=OeThjQ)
+## 2.3.4.0 // 1.12.4.0 (19.08.2020)
 * Hotfix for memory errors
 
 ## 2.3.3.1 // 1.12.3.1 (07.08.2020)
@@ -284,7 +284,7 @@ hide_in_menu: true
 * Fix for an error where the broadcast of the Peakboard 2 Box was not executed correctly
 * Fix for an error where the Textticker-Control and the DropDown-Control were not executed correctly
 
-## 2.2.4.2 // 1.11.4.2 (25.06.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EmWenTHVTOpOv-rSJpM7M9oBNyVCJdeRmI41GxSsxy9PBg?e=vNKPQ0)
+## 2.2.4.2 // 1.11.4.2 (25.06.2020)
 * Hotfix for the use of local network resources
 * Hotfix for an error in the Excel data source where the use of local network files did not work correctly
 
@@ -329,7 +329,7 @@ hide_in_menu: true
 * Fix for an error where a locked element on the drawing area prevented the processing of an underlying element
 * Fix for an error where Peakboard 2 Preview could not run on a Windows 7 device
 
-## 2.1.1.0 // 1.10.1.0 (03.04.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EpZUKEw4TBRAhSqm2mCP5YsB46SPevNs6tuZWr-7SQu7Rg?e=6T4QpP)
+## 2.1.1.0 // 1.10.1.0 (03.04.2020)
 * Fix for data binding of columns starting with a number
 * Fix for a bug where tab key navigation did not work when renaming columns
 * Data binding dialog for Tile, ListView, TileView and Live Tiles adopted
@@ -374,7 +374,7 @@ hide_in_menu: true
 * Fix for an error where the preview scaling was not displayed correctly
 
  
-## 2.0.0.7 // 1.9.0.7 (10.02.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EnenswLvD_1Btv8mtp1vDosBvRfhvUyblw215m4dS-pOmg?e=Qz84LI)
+## 2.0.0.7 // 1.9.0.7 (10.02.2020)
 * Differentiation in versioning for Peakboard 2 Boxes (2.x.x.x) and Peakboard Boxes (1.x.x.x)  
 * Change of Peakboard Runtime (Preview) architecture from UWP to WPF
 * Abolition of the Peakboard Bridge for Peakboard 2 Boxes
@@ -401,7 +401,7 @@ hide_in_menu: true
 * Fix for an error when copying an OPC/UA data source
 * Fix for script error messages in Peakboard Runtime Log
 
-## 1.8.7.0 (31.01.2020) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EnId924Qa-dMvg6OQ1sDI4wBUUFjoU6MNgsVE00Fwpq7Wg?e=nFuPDa)
+## 1.8.7.0 (31.01.2020)
 * Hotfix for an Excel data source error that caused the Excel data source not to load the data when no column names were selected
 
 ## 1.8.6.0 (14.01.2020)
@@ -440,7 +440,7 @@ hide_in_menu: true
 * Fix for incorrect assignment of IPv6 addresses
 * Fix for handling resources via the Peakboard Bridge
 
-## 1.7.1.0 (29.10.2019) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/Es4DU5XtdqBEoFlZsPO4_lcB4f-E9XdfkNDk18rsQLUObw?e=dS4BG4)
+## 1.7.1.0 (29.10.2019)
 * Hotfix for Template Designer
 
 ## 1.7.0.0 (28.10.2019)
@@ -469,7 +469,7 @@ hide_in_menu: true
 * Fix for the time data source
 * Fix for the color picker when changing the values in the text field
 
-## 1.6.4.0 (18.10.2019) [Download](https://peakboard.sharepoint.com/:f:/s/PeakboardPublic/EtdDaaDV1GhDvM0VMu81LegBW4469ENDbwbWAjahCQPrAw?e=wK440r)
+## 1.6.4.0 (18.10.2019)
 * The default setting for the Designer theme was reverted to "Light" mode.
 
 ## 1.6.3.0 (17.10.2019)

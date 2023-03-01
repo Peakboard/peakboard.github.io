@@ -1,0 +1,132 @@
+[{
+  "version": "3.0.1.0",
+  "date": "13.12.2022",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.0.1.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.0.1.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Dataflow rearrangement",
+      "content": [{
+        "type": "image",
+        "image": "3-0-0-0-Dataflows_en.gif",
+        "description": "The dataflows have found a new place to make it easier for you to keep track of them. You will find them with the corresponding data source or the corresponding variable list instead of a separate folder as before."
+      }]
+    },
+	  {
+      "name": "Menu bar redesign",
+      "content": [{
+        "type": "image",
+        "image": "3-0-0-0-Menu_en.gif",
+        "description": "Another step for more overview and faster workflows is the revised menu bar. You'll find everything you need clearly arranged in a simple menu bar without tabs. The option to adjust the orientation can now be found in the right-click menu on the workspace."
+      }]
+    },
+	  {
+      "name": "Grouping",
+      "content": [{
+        "type": "image",
+        "image": "3-0-0-0-Grouping_en.gif",
+        "description": "The grouping functions have been extended and the operation has been improved. The grouped controls are clearly displayed as folders. You can create groups within groups, assign names for the folders and everything is intuitively controllable via drag-and-drop. Double-click to navigate down a group. If you hold down the Ctrl key, you can directly select a control within a group."
+      }]
+    },
+	  {
+      "name": "Peakboard Edge revision",
+      "content": [{
+        "type": "image",
+        "image": "3-0-0-0-Edge_en.gif",
+        "description": "Both the Peakboard Edge management dialog and the associated data source dialog have been extensively revised. It is now also possible to create multiple Peakboard Edge data sources."
+      }]
+    },
+	  {
+      "name": "New grid layout",
+      "content": [{
+        "type": "image",
+        "image": "3-0-0-0-Grid_en.gif",
+        "description": "The alignment grid has been extensively redesigned. While you move or resize an element on the workspace, the grid is displayed in the background. You can see at a glance where the control will be placed when you release it. The requirement for this is that [Snap to grid] is activated. You can also completely deactivate or reactivate the function either in the attributes or by right-clicking on the workspace."
+      }]
+    },
+	  {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer Setup] - Version history opens in browser after successful Peakboard Designer setup",
+          "[Peakboard Designer] - Fix for a bug where added controls were kept on an existing workspace when creating a new file",
+          "[Peakboard Designer] - Fix for a bug where the frequency of WLAN networks in the Peakboard Box settings was displayed in kHz instead of GHz",
+          "[Peakboard Designer] - Fix for a bug where some dialogs did not open optimally due to certain resolution settings",
+          "[Peakboard Designer] - Names of data sources and variable lists can be changed even if they are used in a dataflow. The source in the dataflow is automatically adjusted",
+          "[Peakboard Designer] - Function[ [Snap to Grid] improved, see Highlights",
+          "[Peakboard Designer] - [Snap to grid] can be disabled in the template editor and the grid can be displayed with the [g] key",
+          "[Peakboard Designer] - Added new feature to create a new font as an alternative to [Modify Font] in the font dialog",
+          "[Peakboard Designer] - UX improvement in the Add Peakboard Box dialog",
+          "[Peakboard Designer] - Revised the design of the preview tab"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Edge] - Fix for a bug caused by an incorrect hostname in case of DNS issues",
+          "[Drag&drop menu] - Incorrect and missing translations added"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Dataflows redesigned, see highlights"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where some control cursors were not displayed correctly",
+          "Arrangement of used controls in Explorer adjusted (newest controls on top)",
+          "General performance improvements for controls",
+          "Incorrect translations corrected"            
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where Styled List and Styled Tile collection had a snippet displayed in the wrong place"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Administration"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where adding Peakboard Hub or Visualization certificates to the certificate store of a Peakboard box stopped working",
+          "Fix for a bug where updating old boxes with insufficient memory failed",
+          "Implemented ability to change the keyboard layout on the Peakboard Box in the Peakboard Box settings"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Peakboard Hub"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for an error where no result was displayed when creating a filter that linked to a variable in a Peakboard Hub data source"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Peakboard web access"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where the execution of a function with restricted parameters did not work properly"
+        ]
+      }]
+    }
+  ]
+}]
