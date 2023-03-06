@@ -140,12 +140,12 @@
 </style>
 <script>
 
+    var renderShowMoreLink = false;
     var coll = document.getElementsByTagName("h2");
 
     for (var i = 0; i < coll.length; i++) {
         var entryTitle = coll[i].childNodes[0].nodeValue;
         var link = coll[i].getElementsByTagName('a');
-        var renderShowMoreLink = false;
 
         // if h2 content starts with number
         if (entryTitle.match(/^\d/)) {
@@ -253,7 +253,7 @@
             }
         });
 
-        coll[i].nextElementSibling.style.minWidth = "100%";
+        if(coll[i].nextElementSibling) coll[i].nextElementSibling.style.minWidth = "100%";
         if(link.length === 0) {
             coll[i].classList.add("grid", "grid-cols-2");
         } else if (link.length === 1 && window.getComputedStyle(link[0]).getPropertyValue("display") !== 'none') {
@@ -273,12 +273,10 @@
             var coll = document.getElementsByTagName("h2");
 
             for (var i = 0; i < coll.length; i++) {
-                if (entryTitle.match(/^\d/)) {
-                    // hide individual version rows after 10 rows
-                    if(i > 10) {
+                if(coll[i].id.includes('-download')) {
+                    if(coll[i].style.display === 'none') {
                         coll[i].style.display = null;
                         coll[i].nextElementSibling.style.display = null;
-                        renderShowMoreLink = true;
                     }
                 }
             }

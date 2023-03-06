@@ -1,0 +1,53 @@
+<section class="content-center mt-16">
+    <div class="bg-orange-lighter">
+        <div class="flex-row justify-center py-32 mx-auto max-w-2xl xl:max-w-4xl">
+            <h3 class="text-center uppercase text-xl">{{ site.language[include.lang].review-subtitle }}</h3>
+            <h2 class="lowercase text-center text-3xl mb-8 lg:text-4xl lg:mb-4">{{ site.language[include.lang].review-title }}</h2>
+            <p id="review-text" class="hidden my-4 text-center">{{ site.language[include.lang].review-text }} <span id="review-text-two">{{ site.language[include.lang].review-text-two }}</span></p>
+            <div class="flex mx-auto" style="max-width: fit-content;">
+
+                <svg id="review-thumbs-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="block w-20 mx-auto flex-shrink cursor-pointer" pointer-events="bounding-box">
+                    <defs>
+                        <style>
+                            .clx-1{
+                                fill:none;
+                                stroke:orange;
+                                stroke-miterlimit:10;
+                                stroke-width:12px;}
+                            .clx-1:hover{
+                                stroke:black;
+                            }
+                        </style>
+                    </defs>
+                    <g class="clx-1">
+                        <path d="M100,96.74l14.11,1.54c1.31-2.76,3.58-4.84,6.32-5.93l9.38-31.41c1.41-4.67,5.72-7.69,10.39-7.69,1.01,0,2.04,.15,3.06,.45,5.68,1.71,8.93,7.76,7.22,13.45l-7.31,24.34h39.72c11.74,0,20.7,10.48,18.85,22.07l-5.44,34.34c-1.56,9.9-10.11,17.2-20.14,17.2H103"/>
+                        <rect x="54" y="84.25" width="49" height="88" rx="6.16" ry="6.16"/>
+                    </g>
+                </svg>
+
+                <svg id="review-thumbs-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="block w-20 mx-auto flex-shrink cursor-pointer" pointer-events="bounding-box">
+                    <defs>
+                        <style>
+                            .clx-1{
+                                fill:none;
+                                stroke:orange;
+                                stroke-miterlimit:10;
+                                stroke-width:12px;
+                            }
+                            .clx-1:hover{
+                                stroke:black;
+                            }
+                        </style>
+                    </defs>
+                    <g class="clx-1">
+                        <path d="M156,159.51l-14.11-1.54c-1.31,2.76-3.58,4.84-6.32,5.93l-9.38,31.41c-1.41,4.67-5.72,7.69-10.39,7.69-1.01,0-2.04-.15-3.06-.45-5.68-1.71-8.93-7.76-7.22-13.45l7.31-24.34h-39.72c-11.74,0-20.7-10.48-18.85-22.07l5.44-34.34c1.56-9.9,10.11-17.2,20.14-17.2h73.18"/>
+                        <rect x="153" y="84" width="49" height="88" rx="6.16" ry="6.16" transform="translate(355 256) rotate(180)"/>
+                    </g>
+                </svg>
+
+            </div>
+            <textarea rows="4" id="review-text-input" class="hidden flex mx-auto border border-orange max-w-md w-full w-1/2 mx-4 p-2"></textarea>
+            <button id="review-button" class="hidden flex mx-auto bg-orange text-white font-semibold max-w-md mt-1 mx-4 p-2">{{ site.language[include.lang].review-button }}</button>
+        </div>
+    </div>
+</section>
