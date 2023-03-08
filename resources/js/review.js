@@ -4,7 +4,7 @@ var reviewTextInput = document.getElementById("review-text-input");
 var reviewText = document.getElementById("review-text");
 var reviewTextTwo = document.getElementById("review-text-two");
 var reviewButton = document.getElementById("review-button");
-var urlCode = "3XtcAznSGPVG-sbIpPzqSBZnPWm93poS7gyRzvodOtD3AzFuGmIvpw==";
+var urlCode = "AifjDQbjRfTcjDrGPpBSqVj7g_5a8HpOivJY6pFrNxpnAzFuVd00xA==";
 var reviewId;
 
 if(reviewThumbsUp != null) {
@@ -23,6 +23,7 @@ if(reviewThumbsUp != null) {
 if(reviewThumbsDown != null) {
     reviewThumbsDown.addEventListener("click", function() {
         // send API call
+
         call('https://peakboarddwhfunctions.azurewebsites.net/api/SubmitUserFeedback?code=' + urlCode + '&Article=' + window.location.href + '&Thumbs=Down');
 
         // change to input box for more information
