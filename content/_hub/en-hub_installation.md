@@ -17,14 +17,11 @@ The Windows Domain Controller (Active Directoy) is used for authentication, so j
 Peakboard Hub's data storage takes place in an included SQL Server Express 2019.
 However, an already existing SQL Server from version 2017 can also be used.
 
-### Installation / Updates
+### Installation
 
 For the initial installation on a Windows server, you only need the installation file of Peakboard Hub, which is provided [here](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
 In the first installation we recommend to leave all checkmarks set, so all necessary components are installed and the configuration in the IIS is set very comfortably.
 If you want to use an already existing SQL Server, it is possible to omit the installation of the SQL Server.
-
-For future updates you only have to check [PB Hub Main].
-An update can simply be installed over the already existing setup.
 
 During setup, you will be prompted to create a database that will serve as the database for Peakboard Hub and to specify a database user.
 After that Peakboard Hub can be found in your SSIS pages.
@@ -41,3 +38,9 @@ After the first login of a user in Peakboard Hub you should define in the instal
 Here you can see where to set the permissions:
 
 ![Peakboard Hub permissions](/assets/images/hub/hub_permissions.png)
+
+### Updates
+
+To perform an update, download the latest [Peakboard Hub installation file](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
+In the setup process, in contrast to the initial installation, you only check the [Peakboard Hub] box.
+The update can simply be installed over the already existing setup.
