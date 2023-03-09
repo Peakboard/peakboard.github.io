@@ -5,6 +5,7 @@ var reviewText = document.getElementById("review-text");
 var reviewTextTwo = document.getElementById("review-text-two");
 var reviewButton = document.getElementById("review-button");
 var urlCode = "AifjDQbjRfTcjDrGPpBSqVj7g_5a8HpOivJY6pFrNxpnAzFuVd00xA==";
+
 var reviewId;
 
 if(reviewThumbsUp != null) {
