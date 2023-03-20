@@ -9,40 +9,48 @@ ref: flow-100
 redirect_from:
   - /dataflows/01-de-erste-schritte.html
 ---
-Datenquellen oder Data Sources kommunizieren mit Quellsystemen aller Art und liefern die Daten meist in Form einer Tabelle.
-Um diese Daten anzuzeigen, greift man entweder mit den [Controls](/controls/de-allgemeine-eigenschaften.html) darauf zu oder benutzt zunächst ein [Script](/scripting/de-script-engine.html), um sie aufzubereiten.
-Wie du [Daten per Skript weiterverarbeitest](/scripting/de-manipulieren.html) oder wie man [Tabellendaten manipuliert](/scripting/de-tabellen-daten.html), erfährst du in den beiden Artikeln.
-In diesem Artikel zeigen wir dir, wie du verschiedene Daten mithilfe von Dataflows nachbearbeitest, auch ohne tiefgehende Skripting Kenntnisse. 
+
+Unterschiedliche Datenquellen kommunizieren mit Quellsystemen aller Art und liefern die Daten meist in Form einer Tabelle.
+Um diese Daten anzuzeigen, greifst du entweder mit den [Controls](/controls/de-allgemeine-eigenschaften.html) darauf zu oder benutzt zunächst ein [Skript](/scripting/de-script-engine.html), um sie aufzubereiten.
+Wie du [Daten per Skript weiterverarbeitest](/scripting/de-manipulieren.html) oder wie du [Tabellendaten manipulieren](/scripting/de-tabellen-daten.html) kannst, erfährst du in den entsprechenden Artikeln.
+In diesem Artikel zeigen wir dir, wie du verschiedene Daten mithilfe von Dataflows nachbearbeitest, auch ohne tiefgehende Skripting Kenntnisse.
 Mit Dataflows lassen sich zum Beispiel:  
 
 * [Spalten umbenennen und unnötige Spalten löschen.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Remove%20Columns%20-%20Spalten%20l%C3%B6schen)
 * [Datentypen anpassen.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Change%20data%20Type%20-%20Datentyp%20%C3%A4ndern)
 * [Neue Spalten hinzufügen und sie mit Inhalten nach einer bestimmten Logik befüllen.](/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html)
-* [Mehrere Datenquellen, auch aus unterschiedlichen Vorsystemen, mithilfe von Joins verknüpfen und zu einer einzelnen Tabelle verbinden.](/dataflows/de-daten-joinen.html) 
+* [Mehrere Datenquellen, auch aus unterschiedlichen Vorsystemen, mithilfe von Joins verknüpfen und zu einer einzelnen Tabelle verbinden.](/dataflows/de-daten-joinen.html)
 
-Dataflows ermöglichen es ausgehend von einer einzelnen Tabelle schrittweise den Datenbestand anzupassen, bis das Ergebnis deinen Wünschen entspricht. 
-Die einzelnen Schritte kannst du im Peakboard Designer für jeden Dataflow einsehen, ändern und ergänzen. 
-So lässt sich leicht kontrollieren, ob die Sequenz auch den gewünschten Effekt hat und das Ergebnis erscheint. 
+Dataflows ermöglichen es dir ausgehend von einer einzelnen Tabelle schrittweise den Datenbestand anzupassen, bis das Ergebnis deinen Wünschen entspricht.
+Die einzelnen Schritte kannst du im Peakboard Designer für jeden Dataflow einsehen, ändern und ergänzen.
+So kannst du leicht kontrollieren, ob die Sequenz auch den gewünschten Effekt hat und das Ergebnis erscheint.
 
 ## Einen neuen Dataflow anlegen
 
-Klicke im Explorer auf […] neben [Dataflows] oder neben deiner [Datenquelle] um einen neuen Dataflow anzulegen. 
+Um einen neuen Dataflow anzulegen, klicke auf [...] neben [Daten] oder führe einen Rechtsklick darauf aus und wähle [Dataflow hinzufügen] (1).
 
-![Einen neuen Dataflow anlegen](/assets/images/dataflows/getting-started/dataflows-create.png)
+![Dataflow anlegen](/assets/images/dataflows/getting-started/de_dataflows_create-01.png)
 
-Wähle nun deine Basis-Tabelle aus (1) und bestätige diese mit [OK] (2). 
+Nun musst du deine Basis-Tabelle auswählen (2) und mit [OK] (3) bestätigen.
+
+![Basis-Tabelle auswählen](/assets/images/dataflows/getting-started/de_dataflows_create-02.png)
+
+Dieser Schritt wird ausgelassen wenn du um den Dataflow anzulegen auf [...] direkt neben deiner Datenquelle die du als Basis-Tabelle nutzen möchtest klickst oder einen Rechtsklick darauf machst und [Daten mit einem Dataflow verarbeiten] (4) auswählst.
+
+![Dataflow alternativ anlegen](/assets/images/dataflows/getting-started/de_dataflows_create-03.png)
+
 Selbst wenn am Ende mehrere Tabellen an der Datentransformation beteiligt sind, startet der Dataflow immer mit genau einer Tabelle.
-Im Textfeld (3) kannst du einen eindeutigen Namen zur leichteren Identifikation des Dataflows vergeben.
+Im Textfeld (5) vergibst du einen eindeutigen Namen zur leichteren Identifikation des Dataflows.
+Über [Schritt hinzufügen] (6) kannst du nun weitere Transformationsschritte auf die Tabelle anwenden.
 
-![Haupttabelle auswählen](/assets/images/dataflows/getting-started/dataflows-maindialog-01.png)
+![Schritt hinzufügen](/assets/images/dataflows/getting-started/de_dataflows_create-04.png)
 
-Jetzt sind alle Vorbereitungen getroffen. 
-Über [Add Step] (4) können nun weitere Transformationsschritte auf die Tabelle angewendet werden. 
-Im rechten Bereich des Dialogs sind alle bereits angewendeten Schritte aufgelistet. 
-Sie können nachträglich natürlich verändert oder gelöscht werden. 
-Klicke auf einen der Schritte und lass dir im Dialogbereich links des Zustands der Daten **NACH** diesem Schritt anzeigen. 
-Der Datenbestand in diesem Beispiel ist, wie du im Screenshot unten sehen kannst, noch in seinem Ausgangszustand.  
+Im rechten Bereich des Dialogs sind alle bereits angewendeten Schritte aufgelistet.
+Diese kannst du auch nachträglich verändern oder löschen.
+Klicke auf einen der Schritte und lass dir im Dialogbereich links den Zustands der Daten **NACH** diesem Schritt anzeigen.
 
-Zuletzt kann noch eingestellt werden, ob der Dataflow zusammen mit seiner Quelle aktualisiert werden soll oder einem eigenen Intervall folgt (5).
+![Ergebnis](/assets/images/dataflows/getting-started/de_dataflows_create-05.gif)
 
-![Haupttabelle auswählen](/assets/images/dataflows/getting-started/dataflows-maindialog-02.png)
+Zuletzt kannst du unter [Nachlade-Status] noch einstellen, ob der Dataflow beim Start der Visualisierung, in einem gewählten Intervall, von einem Reload Flow oder zusammen mit seiner Quelle aktualisiert werden soll (7).
+
+![Nachlade-Status](/assets/images/dataflows/getting-started/de_dataflows_create-06.png)
