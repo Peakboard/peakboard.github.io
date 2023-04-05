@@ -8,22 +8,17 @@ export default {
     init() {
         for(let product of this.elements.products) {
             product.addEventListener("click", () => this.toggleNavbarProduct(product));
+            if(product.classList.contains('show-initial')) this.toggleNavbarProduct(product);
         }
 
         for(let category of this.elements.categories) {
             category.addEventListener("click", () => this.toggleNavbarCategory(category));
+            if(category.classList.contains('show-initial')) this.toggleNavbarCategory(category);
         }
 
         for(let subCategory of this.elements.subCategories) {
             subCategory.addEventListener("click", () => this.toggleNavbarSubCategory(subCategory));
-        }
-
-        // open up initial product side menu
-        const currentProduct = document.querySelectorAll(".side-menu-product-current")[0];
-
-        if(currentProduct) {
-            currentProduct.classList.add("show");
-            currentProduct.nextElementSibling.classList.remove("hidden");
+            if(subCategory.classList.contains('show-initial')) this.toggleNavbarSubCategory(subCategory);
         }
     },
 

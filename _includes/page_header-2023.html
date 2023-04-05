@@ -6,22 +6,22 @@
 
 <div class="flex h-24 page-header">
     {% capture home_link %}{% if page.lang == 'en' %}/en/{% else %}/{% endif %}{% endcapture %}
-    <div class="w-32 md:w-48 flex justify-center items-center page-header-bg z-40">
+    <div class="w-32 md:w-48 flex justify-center items-center bg-black z-40">
         <a class="no-underline w-full text-center max-w-xxs hover:opacity-75 focus:opacity-75" href="{{ home_link }}">
             <img src="/assets/logos/logo.svg" class="w-4/5 mx-auto" alt="Peakboard Logo">
         </a>
     </div>
     <div class="flex-auto h-12 z-20">
-        <div class="flex items-center justify-end page-header-bg text-white h-12 z-20">
+        <div class="flex items-center justify-end bg-black text-white h-12 z-20">
             <a href="mailto:support@peakboard.com" class="no-underline hover:text-orange text-grey-light flex items-center px-2 h-12">
                 {% include svg/mail.svg %}
             </a>
             {% include {{include.lang_selector}}_lang_selector.html %}
         </div>
     </div>
-    <div class="page-header-bg text-white h-12 flex justify-end xl:justify-start items-center absolute mt-12 w-full">
-        <div class="hidden navbar z-30 flex flex-col xl:flex-row page-header-bg md:justify-center w-full">
-            <div class="navbar-inner xl:flex page-header-bg items-center text-white xl:pt-0">
+    <div class="bg-black text-white h-12 flex justify-end xl:justify-start items-center absolute mt-12 w-full">
+        <div class="navbar z-30 flex flex-col lg:hidden xl:flex-row bg-black md:justify-center w-full">
+            <div class="navbar-inner xl:flex bg-black items-center text-white xl:pt-0">
                 {% include menu_bar.html %}
             </div>
         </div>
@@ -31,8 +31,8 @@
     </div>
 </div>
 <div class="page-header">
-    <div class="page-header-bg grid items-center pt-8 lg:pt-0">
-        <h2 class="text-4xl text-white text-center font-black dot">{% if page.product == 'designer' %}Peakboard Designer{% else %}Peakboard Hub{% endif %}</h2>
+    <div class="bg-black grid items-center pt-8 lg:pt-0">
+        <h2 class="text-4xl text-white text-center font-black font-title dot">{% if page.product == 'designer' %}Peakboard Designer{% else %}Peakboard Hub{% endif %}</h2>
 
         <div class="search-container my-8 mx-auto max-w-lg px-4">
             <form id="search-form-homepage" action="{{search_link}}">

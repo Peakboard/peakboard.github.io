@@ -24,7 +24,7 @@ layout: base
             </a>
 
             <div class="mt-2 mb-8">
-                <h3 class="text-lg uppercase font-title font-extrabold side-menu-product cursor-pointer {% if page.product == 'designer' %}side-menu-product-current{% endif %}">Peakboard Designer</h3>
+                <h3 class="text-lg uppercase font-title font-extrabold side-menu-product cursor-pointer {% if page.product == 'designer' %}show-initial{% endif %}">Peakboard Designer</h3>
 
                 <!-- TODO: duplicated for peakboard hub, change later -->
 
@@ -35,12 +35,12 @@ layout: base
                   {% if collection.label != "hub" %}
                     {% if collection.title[page.lang] %}
                       <div>
-                        <div class="flex flex-row my-2 space-x-3.5 side-menu-category cursor-pointer select-none z-50">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="fill: none !important;" class="w-7 h-7 side-menu-icon flex-shrink-0" xmlns="http://www.w3.org/2000/svg">
+                        <div class="flex flex-row my-2 space-x-3.5 side-menu-category cursor-pointer select-none z-50 {% if page.collection == collection.label %}show-initial{% endif %}">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="fill: none !important;" class="w-6 h-6 side-menu-icon flex-shrink-0" xmlns="http://www.w3.org/2000/svg">
                                 {% assign svg_file_name = collection.new_icon %}
                                 {% include svg/{{ svg_file_name }} class="w-7 h-7 side-menu-icon flex-shrink-0" style="fill: none !important;" %}
                             </svg>
-                            <h4 class="text-lg font-title font-extrabold side-menu-title">{{ collection.title[page.lang] }}</h4>
+                            <h4 class="text-lg font-title font-semibold side-menu-title">{{ collection.title[page.lang] }}</h4>
                         </div>
 
                         <div class="ml-9 side-menu-links hidden">
@@ -52,17 +52,17 @@ layout: base
                               {% unless article.draft %}
                                 {% unless article.hide_in_menu %}
                                   {% if num_parts == 2 %}
-                                    <a class="w-full block py-1 hover:text-orange text-sm text-black no-underline" href="{{ article.url | relative_url }}">
+                                    <a class="w-full block py-1 text-sm no-underline {% if article.title == page.title %}text-orange{% else %}text-black hover:text-orange{% endif %}" href="{{ article.url | relative_url }}">
                                         {{ article.menu_title | default: article.title | escape }}
                                     </a>
-
 
                                   {% else %}
                                     {% assign sub_level = parts[1] %}
                                     {% assign matched = used_categories | where_exp:"item", "item == sub_level" | size %}
                                     {% if matched == 0 %}
                                       {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
-                                        <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer">
+                                      {% assign current_page_parts = page.url | split: "/" %}
+                                        <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[1] %}show-initial{% endif %}">
                                             {{ sub_level | replace: "_", " " | escape }}
 
                                             <!-- to -rotate-90 -->
