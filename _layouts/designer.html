@@ -1,0 +1,79 @@
+---
+layout: base
+---
+
+<!-- TODO: check lang_selector, use article, home or make new one?-->
+{% include page_header-2023.html lang_selector="product" %}
+
+<style>
+    .custom-shape-divider-bottom-one {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        background: #212224;
+    }
+    .custom-shape-divider-bottom-one svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 120px;
+    }
+
+    .custom-shape-divider-bottom-one .shape-fill {
+        fill: #ffffff;
+    }
+</style>
+<div class="hidden md:block custom-shape-divider-bottom-one">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<div class="mt-8 grid grid-cols-5 md:mt-0">
+    <div class="hidden bg-transparent lg:col-span-1 lg:block">
+    </div>
+
+    <section class="col-span-5 lg:col-span-3">
+
+        <div class="px-8 mx-auto mb-8">
+
+            <p class="text-gray-500 text-sm grow-0">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve"
+                     class="h-2.5 w-2.5 inline mr-0.5"><polygon points="460,530.874 1,265.87 460,0.866 "/></svg>
+                {{ site.language[page.lang].product-back-to-start }}
+            </p>
+            <h2 class="font-black self-center text-center text-4xl text-black dot mb-6">Themen</h2>
+
+            <div class="grid sm:grid-cols-2 sm:gap-8 lg:grid-cols-3 lg:gap-10">
+
+                {% assign collections = site.collections | sort: 'position' %}
+                {% for collection in collections %}
+                  {% if collection.label != "posts" %}
+                    {% if collection.label != "hub" %}
+                      {% if collection.title[page.lang] %}
+
+                        {% assign articles=site[collection.label] | where:"lang",page.lang %}
+                        {% assign sorted_articles = (articles | sort: 'weight') %}
+                        {% assign first_article = sorted_articles.first %}
+                        <a href="{{ first_article.url | relative_url  }}">
+                            <div class="flex flex-col my-2 cursor-pointer border-4 border-gray-200 p-4 gap-y-4 hover:border-orange">
+                                {% assign svg_file_name = collection.new_icon %}
+                                {% include svg/{{ svg_file_name }} class="w-14 h-14 mx-auto" style="fill: none !important;" %}
+
+                                <h4 class="text-lg font-title font-extrabold mx-auto">{{ collection.title[page.lang] }}</h4>
+                            </div>
+                        </a>
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <div class="hidden bg-transparent lg:col-span-1 lg:block">
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="{{ include.style }} " class="{{ include.class }}" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15 23.25H9L9.75 18.75H14.25L15 23.25Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6.75 23.25H17.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20.25 0.75H3.75C2.09315 0.75 0.75 2.09315 0.75 3.75V15.75C0.75 17.4069 2.09315 18.75 3.75 18.75H20.25C21.9069 18.75 23.25 17.4069 23.25 15.75V3.75C23.25 2.09315 21.9069 0.75 20.25 0.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.75 10.75L4.75 6.75C4.89063 6.60955 5.08125 6.53066 5.28 6.53066C5.47875 6.53066 5.66937 6.60955 5.81 6.75L7.72 8.72C7.86063 8.86045 8.05125 8.93934 8.25 8.93934C8.44875 8.93934 8.63937 8.86045 8.78 8.72L12.78 4.72" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.75 14.75H23.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.25 8.75V11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20.25 8.75V11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M17.25 6.5V11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

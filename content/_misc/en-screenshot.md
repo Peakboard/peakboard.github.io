@@ -1,5 +1,6 @@
 ---
-layout: article
+layout: article-2023
+product: designer
 title: Screenshot via HTTP Request
 menu_title: Screenshot via HTTP Request
 description: Screenshot of HTTP request

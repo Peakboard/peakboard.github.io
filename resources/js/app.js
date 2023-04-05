@@ -1,5 +1,6 @@
 import Lightbox from "../js/lighbox/Lightbox";
 import Menu from "../js/menu";
+import SideMenu from "../js/sideMenu";
 import Accordian from "../js/accordian";
 
 if (document.querySelector(".article-content")) {
@@ -13,16 +14,19 @@ if(document.querySelector(".cta")) {
 
 Menu.init();
 Accordian.init();
+SideMenu.init();
 
 window.addEventListener("load", () => {
   document.querySelector("html").classList.remove("no-js");
 });
 
-document.getElementById("top-menu-search-button").onclick = function(e) {
-  if(this.type !== 'submit') {
-    this.setAttribute("type", "submit");
-    document.getElementById('top-menu-search-input').classList.toggle('show');
-    document.getElementById('top-menu-search-input-field').focus();
-    e.preventDefault();
+if(document.getElementById("top-menu-search-button")) {
+  document.getElementById("top-menu-search-button").onclick = function (e) {
+    if (this.type !== 'submit') {
+      this.setAttribute("type", "submit");
+      document.getElementById('top-menu-search-input').classList.toggle('show');
+      document.getElementById('top-menu-search-input-field').focus();
+      e.preventDefault();
+    }
   }
-};
+}

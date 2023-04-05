@@ -8,10 +8,10 @@
     "devDependencies": {
         "@babel/core": "^7.12.9",
         "@babel/preset-env": "^7.12.7",
-        "@tailwindcss/aspect-ratio": "^0.2.0",
-        "@tailwindcss/forms": "^0.2.1",
-        "@tailwindcss/typography": "^0.3.1",
-        "autoprefixer": "^10.0.4",
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "@tailwindcss/forms": "^0.4.1",
+        "@tailwindcss/typography": "^0.4.1",
+        "autoprefixer": "^10.4.14",
         "babel-core": "^6.26.3",
         "gulp": "^4.0.2",
         "gulp-babel": "^8.0.0",
@@ -23,8 +23,8 @@
         "gulp-terser": "^2.0.0",
         "gulp-webp": "^4.0.1",
         "lodash": "^4.17.4",
-        "postcss": "^8.2.10",
-        "tailwindcss": "^2.0.1",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^2.2.19",
         "webpack-stream": "^6.1.1"
     },
     "dependencies": {}

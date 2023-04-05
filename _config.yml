@@ -27,6 +27,7 @@ collections:
   get_started:
     output: true
     icon: paper-plane.svg
+    new_icon: "category-paper-plane.svg"
     position: 0
     home_position: 0
     title:
@@ -36,6 +37,7 @@ collections:
   data_sources:
     output: true
     icon: database.svg
+    new_icon: "category-datasources.svg"
     position: 1
     home_position: 5
     title:
@@ -61,6 +63,7 @@ collections:
   dataflows:
     output: true
     icon: dataflows.svg
+    new_icon: "category-dataflows.svg"
     position: 2
     home_position: 3
     title:
@@ -70,6 +73,7 @@ collections:
   controls:
     output: true
     icon: parameters-v.svg
+    new_icon: "category-controls.svg"
     position: 3
     home_position: 2
     title:
@@ -101,6 +105,7 @@ collections:
   scripting:
     output: true
     icon: browser.svg
+    new_icon: "category-scripting.svg"
     position: 4
     home_position: 4
     title:
@@ -114,6 +119,7 @@ collections:
   administration:
     output: true
     icon: id-card.svg
+    new_icon: "category-administration.svg"
     position: 5
     home_position: 1
     title:
@@ -123,6 +129,7 @@ collections:
   misc:
     output: true
     icon: plus-c.svg
+    new_icon: "category-misc.svg"
     position: 7
     home_position: 7
     title:
@@ -132,6 +139,7 @@ collections:
   hub:
     output: true
     icon: hub2.svg
+    new_icon: "hub2.svg"
     position: 6
     home_position: 6
     title:
@@ -142,11 +150,15 @@ collections:
 # Portions of text found throughout common components (like the footer) can be configured here for each language
 language:
   en:
+    product-back-to-start: "Back to start"
+    article-back-to-overview: "Back to overview"
     homepage-top-section-title: "Peakboard Help"
     homepage-top-section-content: "This page helps you get the most out of Peakboard for your needs quickly and efficiently. There are articles for beginners, for advanced users and also whole tutorials which explain with an example exactly how you can build your visualization."
     homepage-top-section-link: "https://help.peakboard.com/get_started/en-peakboard-designer-basics.html"
     homepage-top-section-link-text: "Get started with Peakboard"
     homepage-top-section-search-placeholder: "Search Peakboard Help..."
+    homepage-top-section-search-placeholder-hub: "Search Peakboard Hub..."
+    homepage-top-section-search-placeholder-designer: "Search Peakboard Designer..."
     homepage-video-highlights-title: "Recommended Videos"
     homepage-video-highlights-content: "It's easiest to learn with the help of videos. In our video section you can see many examples and tutorials to learn all about Peakboard."
     homepage-video-highlights-see-more: "See more video tutorials"
@@ -219,11 +231,15 @@ language:
     version-history-archive: "Go to version archive"
     version-history-archive-link: "/misc/en-version-history-archive.html"
   de:
+    product-back-to-start: "zurück zur Startseite"
+    article-back-to-overview: "Zurück zur Übersicht"
     homepage-top-section-title: "Peakboard Help"
     homepage-top-section-content: "Diese Seite hilft dir, Peakboard schnell zu verstehen und es optimal für deine Bedürfnisse zu nutzen. Es gibt Artikel für Anfänger, für Fortgeschrittene und auch ganze Tutorials, die anhand eines Beispiels genau erklären, wie du deine Visualisierung erstellst."
     homepage-top-section-link: "https://help.peakboard.com/get_started/de-peakboard-designer-basics.html"
     homepage-top-section-link-text: "Erste Schritte mit Peakboard"
     homepage-top-section-search-placeholder: "Peakboard Help Durchsuchen..."
+    homepage-top-section-search-placeholder-hub: "Peakboard Hub Durchsuchen..."
+    homepage-top-section-search-placeholder-designer: "Peakboard Designer Durchsuchen..."
     homepage-video-highlights-title: "Beliebte Videos"
     homepage-video-highlights-content: "Mithilfe von Videos lernt es sich doch am leichtesten. In unserem Videobereich findest du zahlreiche Beispiele und Tutorials, um so alles über Peakboard zu erfahren."
     homepage-video-highlights-see-more: "Alle Videos anzeigen"
