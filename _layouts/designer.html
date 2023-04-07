@@ -2,7 +2,6 @@
 layout: base
 ---
 
-<!-- TODO: check lang_selector, use article, home or make new one?-->
 {% include page_header-2023.html lang_selector="product" %}
 
 <style>
@@ -40,11 +39,11 @@ layout: base
 
         <div class="px-8 mx-auto mb-8">
 
-            <p class="text-gray-500 text-sm grow-0">
+            <a href="{% if page.lang == 'en' %}/en{% else %}/{% endif %}" class="text-gray-500 text-sm grow-0 hover:underline">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve"
                      class="h-2.5 w-2.5 inline mr-0.5"><polygon points="460,530.874 1,265.87 460,0.866 "/></svg>
                 {{ site.language[page.lang].product-back-to-start }}
-            </p>
+            </a>
             <h2 class="self-center text-center text-4xl text-black font-title dot mb-6">Themen</h2>
 
             <div class="grid sm:grid-cols-2 sm:gap-8 lg:grid-cols-3 lg:gap-10">

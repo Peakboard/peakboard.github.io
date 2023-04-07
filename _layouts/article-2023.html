@@ -15,7 +15,7 @@ layout: base
 <div class="grid grid-cols-5">
     <div class="hidden bg-gray-200 lg:col-span-1 lg:block">
         <div class="p-8">
-            <a class="text-gray-500 text-sm" href="{% if page.lang == 'en' %}/en{% endif %}{% if page.product == 'designer' %}/designer{% else %}/{% endif %}">
+            <a class="text-gray-500 text-sm hover:underline" href="{% if page.lang == 'en' %}/en{% endif %}{% if page.product == 'designer' %}/designer{% else %}/{% endif %}">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve"
                      class="h-2.5 w-2.5 inline mr-0.5">
                     <polygon points="460,530.874 1,265.87 460,0.866 "/>
@@ -77,7 +77,7 @@ layout: base
                                           {% assign parts = art.path | split: "/" %}
                                           {% assign num_parts = art.path | split: "/" | size %}
                                           {% if num_parts == 3 and parts[1] == sub_level %}
-                                            <a class="ml-6 w-full block py-1 hover:text-orange text-sm text-gray-600 no-underline" href="{{ art.url | relative_url }}">
+                                            <a class="ml-6 w-full block py-1 text-sm no-underline {% if art.title == page.title %}text-orange{% else %}text-gray-600 hover:text-orange{% endif %}" href="{{ art.url | relative_url }}">
                                                 {{ art.title | escape }}
                                             </a>
 

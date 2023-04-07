@@ -1,0 +1,43 @@
+<style>
+    .custom-shape-divider-bottom-two {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        background: #FFFFFF;
+    }
+    .custom-shape-divider-bottom-two svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 120px;
+    }
+
+    .custom-shape-divider-bottom-two .shape-fill {
+        fill: #F1F0F0;
+    }
+</style>
+<div class="hidden sm:block custom-shape-divider-bottom-two">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+    </svg>
+</div>
+<div class="pb-12 px-4 mx-auto" style="background-color: #f1f0f0;">
+    <h2 class="pt-8 font-title text-black text-3xl text-center dot md:pt-0">{{ site.language[page.lang].homepage-get-started-section-title }}</h2>
+
+    <div class="my-8 grid gap-y-4 max-w-2xl mx-auto md:grid-cols-3 lg:gap-x-4">
+        {% assign articles=site.get_started | where:"lang",page.lang %}
+        {% assign sorted_articles = (articles | sort: 'weight') %}
+        {% for article in sorted_articles %}
+            {% if article.layout != "video_overview" %}
+                <a  href="{{ article.url }}" class="relative">
+                    <div class="h-48 p-8 bg-orange flex items-center justify-center hover:opacity-80">
+                        <p class="text-lg font-bold text-black">{{ article.title }}</p>
+                    </div>
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

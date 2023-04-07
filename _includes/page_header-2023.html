@@ -32,12 +32,49 @@
 </div>
 <div class="page-header">
     <div class="bg-black grid items-center pt-8 lg:pt-0">
-        <h2 class="text-4xl text-white text-center font-black font-title dot">{% if page.product == 'designer' %}Peakboard Designer{% else %}Peakboard Hub{% endif %}</h2>
+        <h2 class="text-4xl text-white text-center font-black font-title dot lg:text-5xl">{% if page.product == 'designer' %}Peakboard Designer{% elsif include.homepage %}Peakboard Help{% else %}Peakboard Hub{% endif %}</h2>
+
+        {% if include.homepage %}
+        <p class="px-4 text-lg text-white text-center pt-3 pb-6 max-w-lg mx-auto lg:px-0">
+            Diese Seite hilft dir, Peakboard schnell zu verstehen und es optimal für
+            deine Bedürfnisse zu nutzen. Es gibt Artikel für Anfänger, für Fortgeschrittene und auch ganze
+            Tutorials, die anhand eines Beispiels genau erklären, wie du deine Visualisierung erstellst.
+        </p>
+        {% endif %}
 
         <div class="search-container my-8 mx-auto max-w-lg px-4">
             <form id="search-form-homepage" action="{{search_link}}">
-                <span><input type="text" class="search-bar search-bar-rounded focus:ring-0" placeholder="{% if page.product == 'designer' %}{{ site.language[page.lang].homepage-top-section-search-placeholder-designer }}{% else %}{{ site.language[page.lang].homepage-top-section-search-placeholder-hub }}{% endif %}" name="fromHomepage" autocapitalize="off" autocomplete="off" autocorrect="off"></span>
+                <span><input type="text" class="search-bar search-bar-rounded focus:ring-0" placeholder="{% if page.product == 'designer' %}{{ site.language[page.lang].homepage-top-section-search-placeholder-designer }}{% elsif include.homepage %}{{ site.language[page.lang].homepage-top-section-search-placeholder }}{% else %}{{ site.language[page.lang].homepage-top-section-search-placeholder-hub }}{% endif %}" name="fromHomepage" autocapitalize="off" autocomplete="off" autocorrect="off"></span>
             </form>
         </div>
     </div>
 </div>
+
+{% if include.homepage %}
+<style>
+    .custom-shape-divider-bottom-one {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        background: #000000;
+    }
+    .custom-shape-divider-bottom-one svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 120px;
+    }
+
+    .custom-shape-divider-bottom-one .shape-fill {
+        fill: #ffffff;
+    }
+</style>
+<div class="hidden md:block custom-shape-divider-bottom-one">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+    </svg>
+</div>
+{% endif %}
