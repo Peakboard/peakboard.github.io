@@ -1,0 +1,135 @@
+[{
+  "version": "3.2.0.0",
+  "date": "10.04.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.2.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.2.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Rework icon control",
+      "content": [{
+        "type": "image",
+        "image": "3-2-0-0-Icons_en.gif",
+        "description": "The icon control has been extensively improved. Unnecessary icons have been removed, each icon has been tagged to significantly improve the search function. In addition, categories have been introduced to further simplify your search for the right icon."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - Added support for parameter evaluation in custom list for all properties",
+          "[Peakboard Designer] - Naming in Explorer improved",
+          "[Peakboard Designer] - Automatic renaming of all references when a control name is changed",
+          "[Peakboard Designer] - Swipe animation improved when switching screens in project",
+          "[Peakboard Designer] - Explorer context menus revised",
+          "[Peakboard Designer] - Control highlight function improved",
+          "[Peakboard Designer] - Scrolling properties improved for multiple elements",
+          "[Peakboard Designer] - Added feature to display unused data sources or variables",
+          "[Peakboard Designer] - References to data sources are automatically renamed when the data source is renamed",
+          "[Peakboard Designer] - Revision of the pop-up that users can create via script",
+          "[Peakboard Designer] - Added hover labels for the menu bar",
+          "[Peakboard Designer] - Explorer: UX improvements",
+          "[Peakboard Designer] - Fix for a bug where removing a value from a combo box list caused a crash",
+          "[Peakboard Designer] - Fix for a bug where font changes to axis labels were not applied in the project",
+          "[Peakboard Designer] - Fix for a bug where the arrange function stopped working correctly",
+          "[Peakboard Designer] - Fix for incorrect UI texts in the start dialog",
+          "[Peakboard Designer] - Fix for pixelated texts in the Peakboard Designer interface",
+          "[Peakboard Designer] - Multiple fixes in attributes",
+          "[Peakboard Designer] - Fix for a bug where the script indicator did not work properly for some controls in the Explorer",
+          "[Peakboard Box settings] - Peakboard Box check: A disabled MQTT server is no longer displayed as an error, only as a warning",
+          "[Peakboard Box settings] - Display of Peakboard Box version adjusted",
+          "[Peakboard Box settings] - Added check for update capability of the Peakboard Box before downloading the update file",
+          "[Peakboard Box settings] - Log messages are now copyable",
+          "[Peakboard Box settings] - User Roles - New Function [Allow cloud communication]",
+          "[Peakboard Box settings] - Screenshot is updated when a Peakboard Box is selected in the Peakboard Box Settings",
+          "[Peakboard Box settings] - Added selection option for Azure Service Bus communication",
+          "[Peakboard Box settings] - Export of Peakboard Box check values added",
+          "[Peakboard Box settings] - Fix for a bug where two scrollbars of different fields overlapped, making them unusable",
+          "[Peakboard Box settings] - Fix for a bug where exporting the Peakboard Box check values returned incorrect special characters",
+          "[Drag-and-Drop menu] - When creating tables via the menu, the edit columns dialog no longer opens automatically",
+          "[Cloud communication] - API / WebAccess endpoints added",
+          "[Remote installation] - Remote installation script added to the Peakboard Designer",
+          "[Resources] - Network resources dialog visually redesigned",
+          "[Fonts manager] - UX improvements",
+          "[Template editor] - Fix for missing icons in context menu."
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[OPC UA] - When reading an array, it is internally automatically set to JSON and the string data type is selected",
+          "[OPC UA] - Fix for an error where the connection to OPC UA failed if a certificate was required for user authentication",
+          "[Rockwell] - When reading an array, it is internally automatically set to JSON and the String data type is selected",
+          "[Rockwell] - Updating the library to the latest version",
+          "[Rockwell] - Update libplctag library for Ethernet IP Rockwell communication",
+          "[Extensions] - Custom UI fields allow variable input",
+          "[Excel] - Simplification of adding Excel data sources",
+          "[ODBC] - Connection string showable",
+          "[SAP] - Fix for a bug where inappropriate descriptions were displayed for exceptions",
+          "[SAP] - Fix for a text error",
+          "[Peakboard Hub list] - New filter [Check for unused]."
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Retrieving a value from JSON via a path added",
+          "Retrieving a value from XML via a path added",
+          "Fix for a bug where the drop down menu was cut off if the screen resolution was too low",
+          "Fix for a bug where a dataflow could not be created if a script failed in it."
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Control naming uniqueness check added",
+          "Controls are renamed when copying between different screens",
+          "[Table] - Fix for a bug where the table is not fully displayed when adding a row to an empty table without a header row",
+          "[Web page] - Added option to set password by variable",
+          "[Web page] - Chromium web browser updated",
+          "[Web page] - Fix for a bug where the [UserAgent] property had no effect",
+          "[Styled tile] - Fix for a bug where no update occurred when only individual values were changed",
+          "[Icons] - Extensive rework of the icon dialog, see highlight for more information",
+          "[PDF] - Fix for a bug where specifying a page number in properties had no effect and the first page was always displayed instead",
+          "[Conditional Formatting] - Pressing Enter saves changes in the active text field instead of just closing the dialog",
+          "[Conditional formatting] - UX improvements",
+          "[Conditional formatting] - Text field/drop down is cleared when data type is changed",
+          "[Conditional formatting] - Fix for a bug where a critical error occurred when a reference was missing",
+          "[Text] - Visual improvements to the text box in visualizations",
+          "[Drop down] - Visual improvement",
+          "[Toggle switch] - Fix for incorrect data linking",
+          "[Gauge diagram round] - Fix for bug where needle color was displayed incorrectly in the Peakboard Designer",
+          "[Styled list] - Fix for an error that occurred when a locked control was used in a styled list",
+          "Fix for an error that occurred when an inappropriate list was used for a table",
+          "Fix for a bug in the localization behavior in the Explorer."
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Error messages and error behavior improved",
+          "Access to time servers via Lua script possible",
+          "[Script editor] - performance improvement of snippet suggestions",
+          "[Building blocks] - Localization improved",
+          "[Building blocks] - Fix for a bug where it didn't work to check if a timer is enabled in block mode",
+          "[Variables] - Fix for a bug where variables with umlauts were not transferred correctly",
+          "[Script editor] - Fix for truncated text display",
+          "[Script editor] - Fix for incorrect Lua snippet to start a timer"            
+        ]
+        }
+        ]
+      }]
+    }
+  ]
