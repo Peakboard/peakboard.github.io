@@ -6,6 +6,7 @@ description: Peakboard Box mit Powershell zur Domäne hinzufügen
 lang: de
 weight: 252
 ref: admin-252
+draft: true
 ---
 
 > ## WICHTIG!
