@@ -1,5 +1,6 @@
 ---
 layout: article
+product: hub
 title: MQTT Server
 menu_title: MQTT Server
 description: MQTT Server 

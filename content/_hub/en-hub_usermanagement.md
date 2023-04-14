@@ -1,5 +1,6 @@
 ---
 layout: article
+product: hub
 title: Users
 menu_title: Users
 description: Peakboard Hub - Users

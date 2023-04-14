@@ -1,5 +1,6 @@
 ---
 layout: article
+product: hub
 title: Lists
 menu_title: Lists
 description: Peakboard Hub - Lists 

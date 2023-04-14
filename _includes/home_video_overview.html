@@ -1,56 +1,45 @@
-{% assign videos = site.data[page.lang].video_tutorials | where:"homepage",true %}
-{% if videos %}
 <style>
-    .custom-shape-divider-bottom-one {
+    .custom-shape-divider-bottom-three {
         position: relative;
         bottom: 0;
         left: 0;
         width: 100%;
         overflow: hidden;
         line-height: 0;
-        background: #28292c;
+        background: #F1F0F0;
     }
-    .custom-shape-divider-bottom-one svg {
+    .custom-shape-divider-bottom-three svg {
         position: relative;
         display: block;
         width: calc(100% + 1.3px);
         height: 120px;
     }
 
-    .custom-shape-divider-bottom-one .shape-fill {
-        fill: #ffffff;
+    .custom-shape-divider-bottom-three .shape-fill {
+        fill: #FFFFFF;
     }
 </style>
-<div class="hidden sm:block custom-shape-divider-bottom-one">
+<div class="hidden sm:block custom-shape-divider-bottom-three">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
     </svg>
 </div>
-<div class="mb-32 max-w-xl mx-auto px-8">
-    <h2 class="font-extrabold text-4xl text-black dot">{{ site.language[page.lang].homepage-video-highlights-title }}</h2>
-    <p class="my-3 text-black">{{ site.language[page.lang].homepage-video-highlights-content }}</p>
-        {% assign videos_sorted = videos | sort:"weight" %}
-        <div class="flex flex-wrap my-4">
+<div class="pb-12 px-4 mx-auto">
+    <h2 class="pt-8 font-title text-black text-3xl text-center dot md:pt-0">{{ site.language[page.lang].homepage-video-section-title }}</h2>
+
+    {% assign videos = site.data[page.lang].video_tutorials | where:"homepage",true %}
+    {% assign videos_sorted = videos | sort:"weight" %}
+    <div class="grid gap-y-4 md:grid-cols-3 md:gap-x-4 my-8 mx-auto max-w-2xl">
 
         {% for video in videos_sorted limit:3 %}
-            <div class="w-full lg:w-1/3 xl:w-1/3 overflow-hidden mb-4 lg:mb-0 xl:mb-0 pr-2 {% if forloop.last %}lg:pr-0 xl:pr-0{% endif %}">
-                <div class="w-full h-full border-solid border-2 border-grey-lighter card-highlight">
-                    {% capture link %}//www.youtube.com/embed/{{video.youtube_id}}?autoplay=1&rel=0{% endcapture %}
-
-                    <a class="no-underline video-thumbnail" href="{{ link }}" data-lity>
-                        <img class="w-full p-4 lightbox-ignore" style="padding: 1rem;margin:0;" src="{{ video.image }}" alt="{{ video.description }}">
-                    </a>
-                    <a class="no-underline text-black" href="{{ link }}" data-lity>
-                        <div class="p-4">
-                            <div class="text-black mb-2">{{ video.title | escape }}</div>
-                        </div>
-                    </a>
+            {% capture link %}//www.youtube.com/embed/{{video.youtube_id}}?autoplay=1&rel=0{% endcapture %}
+            <a href="{{ link }}" data-lity class="no-underline border-4 border-gray-200 hover:border-orange">
+                <div class="video-thumbnail" style="float: none;">
+                    <img class="lightbox-ignore" src="{{ video.image }}" alt="{{ video.description }}">
                 </div>
-            </div>
+                <div class="p-4 font-medium text-black">{{ video.title | escape }}</div>
+            </a>
         {% endfor %}
 
-        </div>
-
-    <a href="{{ site.language[page.lang].homepage-video-highlights-see-more-link }}" class="action-link"><span class="black">{{ site.language[page.lang].homepage-video-highlights-see-more }} <i class="right-arrow black"></i></span></a>
+    </div>
 </div>
-{% endif %}

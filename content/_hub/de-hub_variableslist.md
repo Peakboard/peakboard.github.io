@@ -1,5 +1,6 @@
 ---
 layout: article
+product: hub
 title: Listen 
 menu_title: Listen 
 description: Peakboard Hub - Listen 

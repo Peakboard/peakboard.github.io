@@ -1,5 +1,6 @@
 ---
 layout: article
+product: hub
 title: Peakboard Designer Verbindung
 menu_title: Peakboard Designer Verbindung
 description: Peakboard Designer Verbindung herstellen

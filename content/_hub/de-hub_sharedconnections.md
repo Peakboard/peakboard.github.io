@@ -1,5 +1,6 @@
 ---
 layout: article
+product: hub
 title: Verbindungen
 menu_title: Verbindungen
 description: Peakboard Hub - Verbindungen

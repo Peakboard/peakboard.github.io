@@ -1,5 +1,6 @@
 ---
 layout: article
+product: hub
 title: Peakboard Boxes
 menu_title: Peakboard Boxes
 description: Peakboard Hub - Peakboard Boxes 
