@@ -6,6 +6,7 @@ description: Peakboard Box - Join Domain via Powershell
 lang: en
 weight: 252
 ref: admin-252
+draft: true
 ---
 
 > ## IMPORTANT!

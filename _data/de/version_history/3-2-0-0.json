@@ -1,0 +1,135 @@
+[{
+  "version": "3.2.0.0",
+  "date": "10.04.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.2.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.2.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Überarbeitung Icon Control",
+      "content": [{
+        "type": "image",
+        "image": "3-2-0-0-Icons_de.gif",
+        "description": "Das Icon-Control wurde umfassend verbessert. Unnötige Icons wurden entfernt, jedes Icon wurde mit Tags versehen, um die Suchfunktion deutlich zu verbessern. Zusätzlich wurden Kategorien eingeführt, um dir die Suche nach dem passenden Icon noch weiter zu vereinfachen."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - Unterstützung der Parameterauswertung in der benutzerdefinierten Liste für alle Eigenschaften hinzugefügt",
+          "[Peakboard Designer] - Benamung im Explorer verbessert",
+          "[Peakboard Designer] - Automatische Umbenennung aller Referenzen bei Änderung eines Control-Namens",
+          "[Peakboard Designer] - Swipe-Animation beim Bildschirmwechsel im Projekt verbessert",
+          "[Peakboard Designer] - Kontextmenüs des Explorers überarbeitet",
+          "[Peakboard Designer] - Control Highlight-Funktion verbessert",
+          "[Peakboard Designer] - Scrolleigenschaften bei mehreren Elementen verbessert",
+          "[Peakboard Designer] - Funktion zur Anzeige ungenutzter Datenquellen oder Variablen hinzugefügt",
+          "[Peakboard Designer] - Referenzen auf Datenquellen werden automatisch umbenannt, wenn die Datenquelle umbenannt wird",
+          "[Peakboard Designer] - Überarbeitung des Pop-Ups, das Benutzer per Script erzeugen können",
+          "[Peakboard Designer] - Hover-Beschriftungen für die Menüleiste hinzugefügt",
+          "[Peakboard Designer] - Explorer: UX-Verbesserungen",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Entfernen eines Wertes aus einer Liste einer Combobox zum Absturz führte",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem Schriftartenänderungen an Achsenbeschriftungen im Projekt nicht übernommen wurden",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem die Anordnen-Funktion nicht mehr korrekt funktioniert hat",
+          "[Peakboard Designer] - Fix für fehlerhafte UI-Texte im Start-Dialog",
+          "[Peakboard Designer] - Fix für verpixelte Texte in der Oberfläche des Peakboard Designer",
+          "[Peakboard Designer] - Mehrere Fixes in den Attributen",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem die Skript-Anzeige für manche Controls im Explorer nicht richtig funktioniert hat",
+          "[Peakboard Box Einstellungen] - Peakboard Box Check: Ein deaktivierter MQTT-Server wird nicht mehr als Fehler angezeigt, nur als Warnung",
+          "[Peakboard Box Einstellungen] - Anzeige der Peakboard Box Version angepasst",
+          "[Peakboard Box Einstellungen] - Prüfung auf Updatefähigkeit der Peakboard Box vor Download der Updatedatei hinzugefügt",
+          "[Peakboard Box Einstellungen] - Log-Nachrichten sind jetzt kopierbar",
+          "[Peakboard Box Einstellungen] - Benutzerrollen - Neue Funktion [Cloud-Kommunikation erlauben]",
+          "[Peakboard Box Einstellungen] - Screenshot wird aktualisiert, wenn eine Peakboard Box in den Peakboard Box Einstellungen ausgewählt wird",
+          "[Peakboard Box Einstellungen] - Auswahloption für Azure Service Bus-Kommunikation hinzugefügt",
+          "[Peakboard Box Einstellungen] - Export der Werte der Peakboard Box Prüfung um einen Wert ergänzt",
+          "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem zwei Scrollbars unterschiedlicher Felder sich überschnitten haben und dadurch nicht mehr nutzbar waren",
+          "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem der Export der Werte der Peakboard Box Prüfung fehlerhafte Sonderzeichen lieferte",
+          "[Drag-and-Drop Menü]  - Beim Erstellen von Tabellen über das Menü wird der Spalten bearbeiten Dialog nicht mehr automatisch geöffnet",
+          "[Cloud-Kommunikation] - API / WebAccess-Endpunkte hinzugefügt",
+          "[Ferninstallation] - Ferninstallationsskript zum Peakboard Designer hinzugefügt",
+          "[Ressourcen] - Netzwerk-Ressourcen-Dialog optisch überarbeitet",
+          "[Schriftarten Manager] - UX-Verbesserungen",
+          "[Template Editor] - Fix für fehlende Icons im Kontext-Menü"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[OPC UA] - Beim Lesen eines Arrays wird dieses intern automatisch auf JSON gesetzt und der Datentyp String gewählt",
+          "[OPC UA] - Fix für einen Fehler, bei dem die Verbindung zu OPC UA fehlschlug, wenn ein Zertifikat für die Benutzerauthentifizierung nötig war",
+          "[Rockwell] - Beim Lesen eines Arrays wird dieses intern automatisch auf JSON gesetzt und der Datentyp String gewählt",
+          "[Rockwell] - Aktualisierung der Bibliothek auf die neueste Version",
+          "[Rockwell] - Aktualisierung der libplctag Bibliothek für Ethernet IP Rockwell Kommunikation",
+          "[Extensions] - Benutzerdefinierte UI-Felder ermöglichen die Eingabe von Variablen",
+          "[Excel] - Vereinfachung des Hinzufügens von Excel-Datenquellen",
+          "[ODBC] - Verbindungsstring einblendbar",
+          "[SAP] - Fix für einen Fehler, bei dem unpassende Beschreibungen für Ausnahmen angezeigt wurden",
+          "[SAP] - Fix für einen Textfehler",
+          "[Peakboard Hub Liste] - Neuer Filter [Prüfe auf nicht verwendete]"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Abrufen eines Werts aus JSON über einen Pfad hinzugefügt",
+          "Abrufen eines Werts aus XML über einen Pfad hinzugefügt",
+          "Fix für einen Fehler, bei dem das Drop-Down-Menü abgeschnitten wurde, wenn die Bildschirmauflösung zu niedrig war",
+          "Fix für einen Fehler, bei dem ein Dataflow nicht erstellt werden konnte, wenn ein Skript darin fehlschlug"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Prüfung der Control Benamung auf Einzigartigkeit hinzugefügt",
+          "Controls werden beim Kopieren zwischen verschiedenen Bildschirmen umbenannt",
+          "[Tabelle] - Fix für einen Fehler, bei dem die Tabelle nicht vollständig angezeigt wird wenn eine Zeile zu einer leeren Tabelle ohne Kopfzeile hinzugefügt wird",
+          "[Webseite] - Option das Passwort per Variable zu setzen hinzugefügt",
+          "[Webseite] - Chromium Webbrowser aktualisiert",
+          "[Webseite] - Fix für einen Fehler, bei dem die Eigenschaft [UserAgent] keine Auswirkung hatte",
+          "[Styled Tile] - Fix für einen Fehler, bei dem keine Aktualisierung stattfand, wenn nur einzelne Werte geändert wurden",
+          "[Icons] - Umfangreiche Überarbeitung des Icon Dialogs, weitere Informationen siehe Highlight",
+          "[PDF] - Fix für einen Bug, bei dem die Angabe einer Seitenzahl in den Eigenschaften keine Auswirkung hatte und stattdessen immer die erste Seite angezeigt wurde",
+          "[Bedingte Formatierung] - Drücken der Eingabetaste speichert Änderungen im aktiven Textfeld, anstatt nur den Dialog zu schließen",
+          "[Bedingte Formatierung] - UX-Verbesserungen",
+          "[Bedingte Formatierung ] - Textfeld/Drop-Down wird geleert wenn der Datentyp gewechselt wird",
+          "[Bedingte Formatierung] - Fix für einen Fehler, bei dem es bei fehlender Referenz zu einem kritischen Fehler kam",
+          "[Text] - Optische Verbesserungen der Textbox in Visualisierungen",
+          "[Drop-Down] - Optische Verbesserung",
+          "[Kippschalter] - Fix für fehlerhafte Datenverknüpfung",
+          "[Gauge-Diagramm Rund] - Fix für einen Fehler, bei dem im Peakboard Designer die Nadelfarbe falsch angezeigt wurde",
+          "[Styled List] - Fix für einen Fehler, der auftrat, wenn ein gesperrtes Control in einer Styled List verwendet wurde",
+          "Fix für einen Fehler, der entstand, wenn eine unpassende Liste für eine Tabelle verwendet wurde",
+          "Fix für einen Fehler im Verhalten der Lokalisation im Explorer"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fehlermeldungen und Fehlerverhalten verbessert",
+          "Zugriff auf Zeitserver per Lua Skript möglich",
+          "[Skript-Editor] - Performance Verbesserung der Snippet-Vorschläge",
+          "[Building Blocks] - Lokalisierung verbessert",
+          "[Building Blocks] - Fix für einen Fehler, bei dem es im Block-Modus nicht funktioniert hat zu prüfen ob ein Timer aktiviert ist",
+          "[Variablen] - Fix für einen Fehler, bei dem Variablen mit Umlauten nicht korrekt übertragen wurden",
+          "[Skript-Editor] - Fix für abgeschnittene Textanzeige",
+          "Fix für fehlerhaftes Lua-Snippet um einen Timer zu starten"              
+        ]
+        }
+        ]
+      }]
+    }
+  ]
