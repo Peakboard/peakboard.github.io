@@ -4,7 +4,7 @@ title: Version History Archive
 menu_title: Version History Archive
 description: Version History Archive
 lang: en
-weight: 1
+weight: 1000001
 ref: misc-1000001
 redirect_from:
 hide_in_menu: true
