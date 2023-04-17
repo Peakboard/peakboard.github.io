@@ -2,7 +2,7 @@
 layout: article
 title: Icon
 menu_title: Icon
-description: Information über Peakboard Designer Icon Control.
+description: Informationen über das Icon Control.
 lang: de
 weight: 230
 ref: con-230
@@ -10,25 +10,16 @@ redirect_from:
   - /controls/de-icon.html
 ---
 
-Mit Hilfe des Icon-Controls lassen sich unterschiedliche Icons in die Visualisierung integrieren.
-Wie jedes andere Control wird das Icon-Control dazu mittels Drag&Drop auf die Oberfläche gezogen (1). 
-Anschließend können die [allgemeinen Eigenschaften](/controls/de-allgemeine-eigenschaften.html) des Controls wie gewohnt genutzt werden.
-Über *Select Icon* kann das Haupt-Icon bestimmt werden (2).
-Der sich öffnende Icon-Dialog ermöglicht die Suche nach einem passenden Icon.
-Hierbei kann aus folgenden Collections ausgewählt werden (3):
+Mithilfe des Icon-Controls kannst du unterschiedliche Icons in die Visualisierung integrieren.
+Wie jedes andere Control ziehst du das Icon-Control mittels Drag-and-Drop auf die Oberfläche.
+Durch einen Doppelklick auf das automatisch eingesetzte Standard-Icon oder über den Button [Icon wählen] im Bereich [Aussehen] in den Attributen kannst du das gewünschte Icon auswählen.
 
-* General: Enthält allgemeine Icons
-* Logistics: Enthält Icons aus der Logistikbranche
-* SCADA: Enthält Icons zur *Supervisory Control and Data Acquisition* welche verwendet werden können um Produktionslinien nachzustellen und zu überwachen.
+Der sich öffnende Icon-Dialog ermöglicht dir die Suche nach einem passenden Icon.
+Über die Suche kannst du nach Stichworten suchen. Alternativ dazu kannst du auch über die verschiedenen Kategorien im linken Bereich suchen.
 
+![Icon Control](/assets/images/versions/3-2-0-0-Icons_de.gif)
 
-So lässt sich mit Hilfe des entsprechenden Suchbegriffs sowie der gewünschten Collection ein passendes Icon finden.
-Mit OK wird die Auswahl bestätigt.
+Über die beiden Farbwahlfelder [Farbe 1] und [Farbe 2] im oberen Bereich kannst du, falls gewünscht, eine Primär- und Sekundärfarbe bestimmen. Mit OK bestätigst du die Auswahl.
 
-Über *Colors* lassen sich dann noch bei bestimmten Icons eine Primär- und Sekundärfarbe bestimmen (4).
-
-
-Soll unter gewissen Bedingungen ein anderes Icon angezeigt werden (z.B. bei einem Maschinenausfall ein Warnsymbol), dann kann dieses unter Conditional Formatting ausgewählt werden (5).
-Wie das Conditional Formatting funktioniert wird in [diesem Artikel](https://help.peakboard.com/controls/de-cf.html) erklärt.
-
-![image_1](/assets/images/Controls/icon/icon01.png)
+Möchtest du unter gewissen Bedingungen ein anderes Icon anzeigen lassen (zum Beispiel bei einem Maschinenausfall ein Warnsymbol), dann kannst du dieses im Bereich [Logik] in den Attributen unter [Bedingte Formatierung] auswählen.
+Wie die bedingte Formatierung funktioniert wird in [diesem Artikel](/controls/de-cf.html) erklärt.
