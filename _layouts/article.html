@@ -63,7 +63,7 @@ layout: base
                                     {% if matched == 0 %}
                                       {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
                                       {% assign current_page_parts = page.url | split: "/" %}
-                                        <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[1] %}show-initial{% endif %}">
+                                        <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[2] %}show-initial{% endif %}">
                                             {{ sub_level | replace: "_", " " | escape }}
 
                                             <!-- to -rotate-90 -->

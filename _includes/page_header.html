@@ -44,7 +44,7 @@
 
         <div class="search-container my-8 mx-auto max-w-lg px-4">
             <form id="search-form-homepage" action="{{search_link}}">
-                <span><input type="text" class="search-bar search-bar-rounded focus:ring-0" placeholder="{% if page.product == 'designer' %}{{ site.language[page.lang].homepage-top-section-search-placeholder-designer }}{% elsif include.homepage %}{{ site.language[page.lang].homepage-top-section-search-placeholder }}{% else %}{{ site.language[page.lang].homepage-top-section-search-placeholder-hub }}{% endif %}" name="fromHomepage" autocapitalize="off" autocomplete="off" autocorrect="off"></span>
+                <span><input type="text" class="search-bar search-bar-rounded focus:ring-0" placeholder="{% if page.product == 'hub' %}{{ site.language[page.lang].homepage-top-section-search-placeholder-hub }}{% elsif include.homepage %}{{ site.language[page.lang].homepage-top-section-search-placeholder }}{% else %}{{ site.language[page.lang].homepage-top-section-search-placeholder-designer }}{% endif %}" name="fromHomepage" autocapitalize="off" autocomplete="off" autocorrect="off"></span>
             </form>
         </div>
     </div>
