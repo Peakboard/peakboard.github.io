@@ -31,7 +31,7 @@
         {% assign articles=site.get_started | where:"lang",page.lang %}
         {% assign sorted_articles = (articles | sort: 'weight') %}
         {% for article in sorted_articles %}
-            {% if article.layout != "video_overview" %}
+            {% if article.layout != "video_overview" and article.layout !="category_landing" %}
                 <a  href="{{ article.url }}" class="relative">
                     <div class="h-48 p-8 bg-orange flex items-center justify-center hover:opacity-80">
                         <p class="text-lg font-bold text-black">{{ article.title }}</p>

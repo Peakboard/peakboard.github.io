@@ -54,10 +54,7 @@ layout: base
                     {% if collection.label != "hub" %}
                       {% if collection.title[page.lang] %}
 
-                        {% assign articles=site[collection.label] | where:"lang",page.lang %}
-                        {% assign sorted_articles = (articles | sort: 'weight') %}
-                        {% assign first_article = sorted_articles.first %}
-                        <a href="{{ first_article.url | relative_url  }}">
+                        <a href="/{{ collection.label }}{% if page.lang == 'en' %}/en-index{% endif %}">
                             <div class="flex flex-col my-2 cursor-pointer border-4 border-gray-200 p-4 gap-y-4 hover:border-orange">
                                 {% assign svg_file_name = collection.new_icon %}
                                 {% include svg/{{ svg_file_name }} class="w-12 h-12 mx-auto" style="fill: none !important;" %}

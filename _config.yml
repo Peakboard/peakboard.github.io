@@ -125,6 +125,9 @@ collections:
     title:
       en: "Administration"
       de: "Administration"
+    category_landing_text:
+      en: "This section contains articles about the administration of Peakboard."
+      de: "In diesem Bereich finden Sie Artikel zur Administration von Peakboard."
 
   misc:
     output: true
@@ -150,6 +153,7 @@ collections:
 # Portions of text found throughout common components (like the footer) can be configured here for each language
 language:
   en:
+    category-landing-menu-title: "What topics are you interested in?"
     product-back-to-start: "Back to start"
     article-back-to-overview: "Back to overview"
     homepage-top-section-title: "Peakboard Help"
@@ -234,6 +238,7 @@ language:
     version-history-archive: "Go to version archive"
     version-history-archive-link: "/misc/en-version-history-archive.html"
   de:
+    category-landing-menu-title: "Was interessiert dich?"
     product-back-to-start: "zurück zur Startseite"
     article-back-to-overview: "Zurück zur Übersicht"
     homepage-top-section-title: "Peakboard Help"
