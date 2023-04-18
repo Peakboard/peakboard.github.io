@@ -1,6 +1,7 @@
 ---
 layout: category_landing
 category_landing: dataflows
+title: Dataflows - Peakboard Designer
 lang: en
 weight: 1000002
 ref: flow-1000002
