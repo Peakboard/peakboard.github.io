@@ -25,7 +25,7 @@ layout: base
             <p class="text-center mt-6">{{ collection.category_landing_text[page.lang] }}</p>
           </div>
           <div class="w-1/2 px-8 mx-auto my-8">
-            <p class="text-xl mt-10 mb-4 font-semibold font-title">{{ site.language[page.lang].category-landing-menu-title }}</p>
+            <p class="text-xl text-center mt-10 mb-4 font-semibold font-title">{{ site.language[page.lang].category-landing-menu-title }}</p>
 
             {% assign articles=site[collection.label] | where:"lang",page.lang %}
             {% assign sorted_articles = articles | sort: 'weight' %}
@@ -35,7 +35,7 @@ layout: base
               {% unless article.draft %}
                 {% unless article.hide_in_menu %}
                   {% if num_parts == 2 %}
-                    <a class="w-full block py-1 text-sm no-underline text-black hover:text-orange" href="{{ article.url | relative_url }}">
+                    <a class="text-center w-full block py-1 text-sm no-underline text-black hover:text-orange" href="{{ article.url | relative_url }}">
                       {{ article.menu_title | default: article.title | escape }}
                     </a>
                   {% else %}
@@ -44,7 +44,7 @@ layout: base
                     {% if matched == 1 %}
                       {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
                       {% assign current_page_parts = page.url | split: "/" %}
-                      <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer">
+                      <p class="text-center w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer">
                         {{ sub_level | replace: "_", " " | escape }}
 
                         <!-- to -rotate-90 -->
@@ -59,7 +59,7 @@ layout: base
                           {% assign parts = art.path | split: "/" %}
                           {% assign num_parts = art.path | split: "/" | size %}
                           {% if num_parts == 3 and parts[1] == sub_level %}
-                            <a class="ml-6 w-full block py-1 text-sm no-underline text-gray-600 hover:text-orange" href="{{ art.url | relative_url }}">
+                            <a class="text-center w-full block py-1 text-sm no-underline text-gray-600 hover:text-orange" href="{{ art.url | relative_url }}">
                               {{ art.title | escape }}
                             </a>
 
