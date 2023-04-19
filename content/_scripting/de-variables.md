@@ -12,17 +12,15 @@ redirect_from:
 In anspruchsvollen Visualisierungen (mit oder ohne Scripting), wird es immer wieder nötig sein, Daten in einer Art globalen Variable abzulegen. 
 Aus diesem Grund gibt es in jeder Visualisierung im Projektbaum links die Möglichkeit, solche Variablen anzulegen.
 Man kann auf sie von Skripten und von Dataflows aus zugreifen.
-Selbst ein Zugriff von außen (also per API call) zum Beispiel mit der [Peakboard Datenquelle](https://help.peakboard.com/data_sources/de-peakboard-data-soure.html) ist möglich. 
-Nähere Infos zu den API Calls lassen sich [hier](https://help.peakboard.com/misc/de-push-nachrichten.html) finden.
+Selbst ein Zugriff von außen (also per API call) zum Beispiel mit der [Peakboard Datenquelle](https://help.peakboard.com/data_sources/de-peakboard-data-soure.html) ist möglich.
 Generell unterscheidet man zwischen einzelnen-skalaren Variablen und tabellarischen Variablen, auch genannt Listen.
 
 ![Variable oder Liste anlegen](/assets/images/scripting/variables/lists-variables-01.png)
 
-
 ### (skalare) Variablen
 
 Jeder Variable benötigt einen eindeutigen Namen und einen Datentyp. Die in Peakboard verfügbaren Datentypen sind String, Number oder Boolean. Eine weitere Differenzierung des Datentyps (z.B. integer, decimal, float, etc...) ist nicht vorgesehen. Das gilt auch im Scripting.
-Die Option **Save Changes to Box** sorgt dafür, dass der aktuelle Wert einer Variablen über den Neustart hinaus erhalten bleibt (z.B für einen Zähler, der über einen sehr langen Zeitraum hinweg zählt). 
+Die Option **Save Changes to Box** sorgt dafür, dass der aktuelle Wert einer Variablen über den Neustart hinaus erhalten bleibt (z.B für einen Zähler, der über einen sehr langen Zeitraum hinweg zählt).
 
 ![Variable](/assets/images/scripting/variables/lists-variables-02.png)
 
