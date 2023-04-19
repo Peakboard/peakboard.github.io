@@ -140,8 +140,10 @@
 </style>
 <script>
 
+    var context = document.getElementById("page-content");
+
     var renderShowMoreLink = false;
-    var coll = document.getElementsByTagName("h2");
+    var coll = context.getElementsByTagName("h2");
 
     for (var i = 0; i < coll.length; i++) {
         var entryTitle = coll[i].childNodes[0].nodeValue;
@@ -216,24 +218,19 @@
                     document.getElementById("download-modal").classList.toggle("hidden");
                 }, false);
 
-                console.log(i);
-
                 if(i === 1) {
                     document.getElementById("download-modal-link-designer").addEventListener("click", function (event) {
                         var targetElement = event.target;
-                        console.log("debug1")
                         window.open(targetElement.getAttribute('data-target'), '_blank');
                     }, true);
 
                     document.getElementById("download-modal-link-box").addEventListener("click", function (event) {
                         var targetElement = event.target;
-                        console.log("debug2")
                         window.open(targetElement.getAttribute('data-target'), '_blank');
                     }, true);
 
                     document.getElementById("download-modal-close").addEventListener("click", function (event) {
                         document.getElementById("download-modal").classList.add("hidden");
-                        console.log("debug3")
                     }, true);
                 }
             }
