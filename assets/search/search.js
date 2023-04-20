@@ -5,6 +5,17 @@ layout: null
 var main = {
 
     init: function () {
+
+        // show right header title
+        const product = decodeURI(getUrlVars()["product"]);
+        if(product === 'hub') {
+            document.getElementById('normal-title').classList.add('hidden');
+            document.getElementById('hub-title').classList.remove('hidden');
+        } else if (product === 'designer') {
+            document.getElementById('normal-title').classList.add('hidden');
+            document.getElementById('designer-title').classList.remove('hidden');
+        }
+
         // general settings for instant search
         const search = instantsearch({
             appId: 'N9W4P1U3FJ',

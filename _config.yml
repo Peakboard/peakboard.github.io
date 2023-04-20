@@ -326,8 +326,8 @@ algolia:
   application_id: 'N9W4P1U3FJ'
   index_name: peakboard-help
   settings:
-    attributesForFaceting: ['title','searchable(collection)', 'searchable(search-ignore)', 'searchable(lang)']
-    searchableAttributes: ['title','unordered(content)','collection','description','search-ignore', lang]
+    attributesForFaceting: ['title','searchable(collection)', 'searchable(search-ignore)', 'searchable(lang)', 'searchable(product)']
+    searchableAttributes: ['title','unordered(content)','collection','description','search-ignore', 'product', 'lang']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
