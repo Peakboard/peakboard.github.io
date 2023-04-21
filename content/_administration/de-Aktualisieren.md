@@ -28,7 +28,7 @@ Wähle per Mausklick die Peakboard Box aus, die du aktualisieren möchtest und w
 Verfügt der Arbeitsplatz mit dem Peakboard Designer über eine aktive Internetverbindung, so kann das Update mit einem Klick auf [Aktualisieren] (4) ausgeführt werden.
 
 Befindet sich dieser Arbeitsplatz dagegen in einem isolierten Netzwerk, so erfolgt das Update mittels Update-Datei.
-[Lade die Update-Datei hier herunter](https://peakboard.com/download/runtime/Peakboard.Runtime_Update.pbux) und stelle sie dem Peakboard Designer per Netzlaufwerk oder USB-Stick zur Verfügung. Starte das Update über das Drop-down-Me­nü und einem Klick auf [Aktualisieren aus Datei] (5).
+[Lade die Update-Datei hier herunter](https://help.peakboard.com/misc/de-versionshistorie.html) und stelle sie dem Peakboard Designer per Netzlaufwerk oder USB-Stick zur Verfügung. Starte das Update über das Drop-down-Me­nü und einem Klick auf [Aktualisieren aus Datei] (5).
 
 ![Aktualisieren aus Datei](/assets/images/admin/update/de_update-03.png)
 
