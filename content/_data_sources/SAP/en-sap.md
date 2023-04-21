@@ -24,7 +24,7 @@ To connect the SAP data source, select the [SAP] data source under [Add Data Sou
 ![Add SAP Data](/assets/images/data-sources/sap/en_SAP-add.png)
 
 In the following dialog you can choose between a Single Application Server and Load Balancing.
-The corresponding fields in the [Connection] area must be filled in with the accustomed SAP logon data. (2)
+The corresponding fields in the [Connection] area must be filled in with the SAP logon data of an RFC user. (2) This can be a normal dialog user, or a service user. For security reasons, SAP recommends the use of a service user where the password does not expire. If no user of this type exists, it must be created in advance.
 
 The actual access to SAP is formulated via an XQL statement.
 To avoid having to enter the XQL statement completely by hand, you can insert a template via the [Template] button . (3)
