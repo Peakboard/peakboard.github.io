@@ -28,7 +28,7 @@ Select the Peakboard Box you want to update and switch to the [General] tab (3).
 If the workstation with the Peakboard Designer has an active internet connection, the update can be executed by clicking on [Update] (4).
 
 If, on the other hand, this workstation is located in an isolated network, the update is carried out using an update file.
-[Download the update file here](https://peakboard.com/download/runtime/Peakboard.Runtime_Update.pbux) and make it available to the Peakboard Designer via network drive or USB stick. Start the update via the drop-down menu and a click on [Update from file](5).
+[Download the update file here](https://help.peakboard.com/misc/en-version-history.html) and make it available to the Peakboard Designer via network drive or USB stick. Start the update via the drop-down menu and a click on [Update from file](5).
 
 ![Update from file](/assets/images/admin/update/en_update-03.png)
 

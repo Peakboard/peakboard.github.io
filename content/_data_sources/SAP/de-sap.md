@@ -24,7 +24,7 @@ Um die SAP Datenquelle anzubinden, wählst du unter [Daten hinzufügen] die Date
 ![SAP Daten hinzufuegen](/assets/images/data-sources/sap/de_SAP-add.png)
 
 Im folgenden Dialog kann zwischen einem einzelnen Anwendungsserver und dem Lastausgleich gewählt werden.
-Die entsprechenden Felder im Bereich [Verbindung] müssen mit den gewohnten SAP Logon-Daten ausgefüllt werden. (2)
+Die entsprechenden Felder im Bereich [Verbindung] müssen mit den SAP Logon-Daten eines RFC-Benutzers ausgefüllt werden. (2) Das kann ein normaler Dialog-Benutzer sein, oder ein Service-Benutzer. SAP empfiehlt aus Sicherheitsgründen die Nutzung eines Service-Benutzers, bei dem das Passwort nicht abläuft. Existiert kein Nutzer dieser Art, so muss dieser im Vorfeld angelegt werden.
 
 Der eigentliche Zugriff auf SAP wird über eine XQL-Anweisung formuliert.
 Damit du die XQL-Anweisung nicht komplett von Hand eingeben musst, kannst du über den Button [Vorlagen] ein Muster einfügen. (3)
