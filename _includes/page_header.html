@@ -36,9 +36,7 @@
 
         {% if include.homepage %}
             <p class="px-4 text-lg text-white text-center pt-3 pb-6 max-w-lg mx-auto lg:px-0">
-                Diese Seite hilft dir, Peakboard schnell zu verstehen und es optimal für
-                deine Bedürfnisse zu nutzen. Es gibt Artikel für Anfänger, für Fortgeschrittene und auch ganze
-                Tutorials, die anhand eines Beispiels genau erklären, wie du deine Visualisierung erstellst.
+                {{ site.language[page.lang].homepage-top-section-content }}
             </p>
         {% endif %}
 
