@@ -44,6 +44,7 @@ Ganz oben ist die Menüleiste (1), direkt darunter findest du die verschiedenen 
 In der Menüleiste findest du Grundfunktionen des Peakboard Designers.
 Du kannst eine Vorschau deiner Visualisierung öffnen (1) oder sie auf deine Peakboard Box laden (2).
 Über den Button [Allgemeines] (3) führst du beispielsweise ein Software-Update aus und mit dem Button [Projekt] (4) nimmst du grundlegende Einstellungen zu deiner Visualisierung vor. Deine eingesetzten Peakboard Boxen und Peakboard Edge kannst du ebenfalls über die entsprechenden Buttons (5) verwalten. Außerdem findest du in der Menüleiste Zugriff auf den Skript-Editor (6), die Verwaltung der Schriftarten (7) sowie die Projektfarben (8).
+Am unteren Rand des Peakboard Designers findest du einen Button um die Sprache zwischen Deutsch und Englisch zu wechseln, sowie einige Zoom-Steuerelemente.
 
 ![Peakboard Designer Menüleiste](/assets/images/get_started/Peakboard-Designer_menu_de.png)
 

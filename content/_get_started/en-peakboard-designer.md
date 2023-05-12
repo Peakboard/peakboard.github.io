@@ -44,6 +44,8 @@ At the top is the menu bar (1), directly below it you will find the various cont
 You can open a preview of your visualization (1) or load it onto your Peakboard Box (2).
 With the button [General] (3) you can for example perform a software update and with the button [Project] (4) you can make basic settings for your visualization. You can also manage your Peakboard Boxes and Peakboard Edge via the corresponding buttons (5). In addition, you will find access to the script editor (6), the fonts (7) and the project colors (8) in the menu bar.
 
+At the bottom of the Peakboard Designer you will find a button to switch the language between English and German, as well as some zoom controls.
+
 ![Peakboard Designer menu bar](/assets/images/get_started/Peakboard-Designer_menu_en.png)
 
 ## 2.2 The explorer
@@ -82,7 +84,7 @@ This display duration defines how long the respective screen remains visible bef
 
 Now that you have a rough overview of the Peakboard Designer, you can start creating your first visualization. Of course, we will be happy to support you with our article [The first visualization](https://help.peakboard.com/get_started/en-visualization.html).
 
-If you already have a Peakboard Box, the article [The Peakboard Box](https://help.peakboard.com/get_started/de-peakboard-box.html) will help you with your next steps.
+If you already have a Peakboard Box, the article [The Peakboard Box](https://help.peakboard.com/get_started/en-peakboard-box.html) will help you with your next steps.
 
 If you have problems with the Peakboard Designer, don't hesitate to [contact](mailto: support@peakboard.com) us.
 All important information can be found at [www.peakboard.com/academy](https://peakboard.com/academy/).
