@@ -29,6 +29,10 @@
         <img src="/assets/images/versions/{{ content.image }}" class="block w-auto lightbox-ignore m-4" height="420" alt="{{ tab.name }}">
         <p class="m-4">{{ content.description | markdownify }}</p>
         {% endif %}
+        {% elsif content.type == 'video' %}
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{content.youtube_id}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p class="m-4">{{ content.description | markdownify }}</p>
+        {% endif %}
       {% endfor %}
     </div>
   {% endfor %}

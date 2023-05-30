@@ -8,8 +8,8 @@
     {
       "name": "Rework icon control",
       "content": [{
-        "type": "image",
-        "image": "3-2-0-0-Icons_en.gif",
+        "type": "video",
+        "youtube_id": "nQMqZFHG1nk",
         "description": "The icon control has been extensively improved. Unnecessary icons have been removed, each icon has been tagged to significantly improve the search function. In addition, categories have been introduced to further simplify your search for the right icon."
       }]
     },

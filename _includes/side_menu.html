@@ -1,12 +1,14 @@
 {% assign collection = site.collections | where: "label", page.collection | first %}
 <div class="p-8">
-    <a class="text-gray-500 text-sm hover:underline" href="{% if page.lang == 'en' %}/en{% endif %}{% if page.product == 'designer' %}/designer{% else %}/{% endif %}{% unless page.product %}designer{% endunless %}">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve"
-             class="h-2.5 w-2.5 inline mr-0.5">
-                    <polygon points="460,530.874 1,265.87 460,0.866 "/>
-                </svg>
-        {{ site.language[page.lang].article-back-to-overview }}
-    </a>
+    {% unless include.product_overview %}
+        <a class="text-gray-500 text-sm hover:underline" href="{% if page.lang == 'en' %}/en{% endif %}{% if page.product == 'designer' %}/designer{% else %}/{% endif %}{% unless page.product %}designer{% endunless %}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve"
+                 class="h-2.5 w-2.5 inline mr-0.5">
+                        <polygon points="460,530.874 1,265.87 460,0.866 "/>
+                    </svg>
+            {{ site.language[page.lang].article-back-to-overview }}
+        </a>
+    {% endunless %}
 
     <div class="mt-2 mb-8">
         <h3 class="text-lg uppercase font-title font-extrabold side-menu-product cursor-pointer {% if page.product == 'designer' %}show-initial{% endif %}{% unless page.product %}show-initial{% endunless %}">Peakboard Designer</h3>
