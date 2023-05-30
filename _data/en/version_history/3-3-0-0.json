@@ -101,7 +101,7 @@
         "type": "list",
         "list_items": [
           "The control name field is hidden in the attributes if [Used in scripts] is not enabled",
-          "[Conditional formatting] - checkbox instead of drop-down field for boolean values in the [conditions] section."
+          "[Conditional formatting] - checkbox instead of drop-down field for boolean values in the [conditions] section.",
           "[Text Box] - added data validation via regex pattern - see highlights for more information",
           "[QR code] - fix for a bug where the background attribute had no effect",
           "[QR code] - removed outer border attribute",
