@@ -28,8 +28,7 @@ During setup, you will be prompted to create a database that will serve as the d
 After that Peakboard Hub can be found in your SSIS pages.
 Here you can configure everything as you are used to from IIS and, for example, add secure communication with certificates from your company.
 
-After the first login of a user in Peakboard Hub you should define in the installation folder (by default C:/inetpub/PeakboardHub) under the application [Peakboard.HUB.DatabaseManager] which users should get admin rights for Peakboard Hub.
- As soon as a user has admin rights, this user can appoint further users in the user management of Peakboard Hub as admin in the future. From now on, the DatabaseManager is no longer necessary.
+After the first login of a user in Peakboard Hub, this user will automatically become an administrator. You can appoint further users in the user management of Peakboard Hub as admins in the future.
 
 <div class="box-warning" markdown="1"> **Please note**:
 * If you want to update Peakboard Boxes via Peakboard Hub, you must authorize the ISS process to write to the installation folder (c:/inetpub/PeakboardHub).

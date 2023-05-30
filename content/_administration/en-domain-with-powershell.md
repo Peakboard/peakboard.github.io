@@ -61,8 +61,8 @@ Are you sure you want to change this list?
 After joining the domain, you need to set up an appropriate Active Directory user for the AutoLogon.
 To this user you have to add the following file to the autostart: [C:\Program Files\Peakboard\Runtime\Peakboard.Runtime.Wpf]
 
-Now you have to restart (4) the Peakboard Box and remove it (5) from the Peakboard Designer. Both can be done in the Peakboard Box Settings.
+Now you have to restart the Peakboard Box, by confirming the restart request. Then delete the Peakboard Box in the Peakboard Box Settings from the Peakboard Designer (4).
 
 ![Re-add Peakboard Box](/assets/images/admin/domain/domain-powershell_02_en.png)
 
-Finally, you can re-add the Peakboard Box to the Peakboard Designer (6). To do this, use the previously saved license key with the user name [pbadmin]. If this does not work, the user must be activated by a domain administrator with a new password.
+Finally, you can re-add the Peakboard Box to the Peakboard Designer (5). To do this, use the previously saved license key with the user name [pbadmin]. If this does not work, the user must be activated by a domain administrator with a new password.

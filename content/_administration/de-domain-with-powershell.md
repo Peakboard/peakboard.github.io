@@ -60,8 +60,8 @@ Möchten Sie diese Liste wirklich ändern?
 Nach der Aufnahme in die Domäne musst du einen passenden Active-Directory-User für den AutoLogon einrichten.
 Diesem User musst du folgende Datei zum Autostart hinzufügen: [C:\Program Files\Peakboard\Runtime\Peakboard.Runtime.Wpf]
 
-Jetzt musst du die Peakboard Box neustarten (4) und sie anschließend aus dem Peakboard Designer löschen (5). Beides kannst du über die Peakboard Box Einstellungen erledigen.
+Jetzt musst du die Peakboard Box neustarten, bestätige dazu die entsprechende Neustart-Abfrage. Anschließend löschst du die Peakboard Box in den Peakboard Box Einstellungen aus dem Peakboard Designer (4).
 
 ![Peakboard Box neu hinzufügen](/assets/images/admin/domain/domain-powershell_02_de.png)
 
-Zuletzt kannst du die Peakboard Box neu zum Peakboard Designer hinzufügen (6). Nutze hierzu den vorab gesicherten Lizenzschlüssel mit dem Benutzernamen [pbadmin]. Sollte das nicht funktionieren muss der Nutzer durch einen Domänen-Administrator mit einem neuen Passwort aktiviert werden.
+Zuletzt kannst du die Peakboard Box neu zum Peakboard Designer hinzufügen (5). Nutze hierzu den vorab gesicherten Lizenzschlüssel mit dem Benutzernamen [pbadmin]. Sollte das nicht funktionieren muss der Nutzer durch einen Domänen-Administrator mit einem neuen Passwort aktiviert werden.
