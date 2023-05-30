@@ -1,0 +1,138 @@
+[{
+  "version": "3.3.0.0",
+  "date": "30.05.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.3.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.3.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Dataflows dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Dataflows_en.gif",
+        "description": "The Dataflow dialog has been extensively revised. You can now add new steps via a clearly structured dialog. The individual steps are explained using a graphic and a descriptive text, so that it is even easier for you to select the appropriate step."
+      }]
+    },
+    {
+      "name": "Extensions dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Extensions_en.gif",
+        "description": "The extensions dialog has been updated. You can now see at a glance which extensions you already have installed and can install or uninstall these or other extensions directly from the dialog."
+      }]
+    },
+    {
+      "name": "Show references",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-References_en.gif",
+        "description": "Display all references in which a selected data source or variable is used in the new dialog. A click on one of the references closes the dialog and marks the reference in the workspace on the corresponding screen or opens the corresponding dialog window."
+      }]
+    },
+    {
+      "name": "Show unused",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Unused_en.gif",
+        "description": "You can check if there are unused resources, data sources or variables in your project and delete them directly in the newly created dialog if you don't need them anymore."
+      }]
+    },
+    {
+      "name": "Input validation",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Input_en.gif",
+        "description": "You can check if there are unused resources, data sources or variables in your project and delete them directly in the newly created dialog if you don't need them anymore."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - new phone number added",
+          "[Peakboard Designer] - added automatic naming of controls in the explorer that do not have a name",
+          "[Peakboard Designer] - added reference dialog for data sources and variables - see Highlights for more information",
+          "[Peakboard Designer installation] - added option to cancel closing Peakboard Designer",
+          "[Peakboard Box settings] - added [take screenshot] permission",
+          "[Peakboard Box settings] - Peakboard Box check - button for time server disabled if Peakboard Box is not available",
+          "[Peakboard Box settings] - added cancel button for version warning when uploading a visualization",
+          "[Peakboard Box] - clear input for text input events enabled via script",
+          "[Resources] - permissions for local resources extended",
+          "[Resources] - resources can be changed dynamically when referencing a path instead of just an ID."
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datasources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Extensions] - extensive revision of the extensions dialog - more information in the highlights",
+          "[Extensions] - added support for dynamic functions in custom lists",
+          "[Extensions] - extensions are no longer saved when they are no longer used in the project",
+          "[OData] - added dynamic filters with Lua script",
+          "[OPC UA] - fix for a bug where variables and subscriptions that were not available when starting the visualization are not reloaded until you disconnect and restart the connection",
+          "[OPC UA] - fix for a bug where numeric data was not converted to the required format when being imported and therefore was not displayed in gauge diagrams",
+          "[OPC UA] - fix for a bug where some OPC UA data was not displayed correctly in text fields",
+          "[Peakboard Edge] - fix for a bug where script access to a Peakboard Edge data source stopped working properly when a dataflow was applied to that datasource",
+          "[Peakboard Hub list] - fix for a bug where an existing Peakboard Hub list datasource did not display new columns from Peakboard Hub",
+          "[Peakboard Hub list] - fix for a bug where filter operators were removed when changing the column selection",
+          "[PowerBI] - fix for a bug where reports were not updating",
+          "[Rockwell] - Fix for a bug where it was not possible to write data to the Rockwell PLC",
+          "[SAP] - fix for a bug where the datasource was not loaded, and an error was displayed when a column did not contain any values"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Extensive rework of the dataflow dialog - see highlights for more information",
+          "Fix for a bug where the dataflow was not loaded when created on a datasource with a refreshed script",
+          "Fix for a bug where dataflows were loaded immediately even though they were set to load only when the data source was reloaded"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "The control name field is hidden in the attributes if [Used in scripts] is not enabled",
+          "[Conditional formatting] - checkbox instead of drop-down field for boolean values in the [conditions] section."
+          "[Text Box] - added data validation via regex pattern - see highlights for more information",
+          "[QR code] - fix for a bug where the background attribute had no effect",
+          "[QR code] - removed outer border attribute",
+          "[QR code] - [color] attribute selectable",
+          "[Webpage] - added zooming and scrolling in attributes."
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building blocks] - missing script for variable lists added",
+          "[Building blocks] - new building block for copying all data of a data source into a variable list",
+          "[Building blocks] - new building block for multi input calculations",
+          "[Building blocks] - fix for an error that occurred when swapping the datasource in a custom function",
+          "[Script editor] - UX improvements for unnamed controls",
+          "[Script editor] - fix for a bug where a correctly phrased custom function caused a validation error",
+          "[Variables] - UI adjustments in dialog",
+          "Fix for a bug where the parameter list of global functions was missing the scrollbar"
+        ]
+        }, {
+          "type": "headline",
+          "text": "Peakboard Hub"
+        }, {
+          "type": "list",
+          "list_items": [
+            "Fix for minor visual errors in dialog"
+        ]
+        }
+        ]
+      }]
+    }
+  ]

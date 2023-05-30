@@ -1,0 +1,138 @@
+[{
+  "version": "3.3.0.0",
+  "date": "30.05.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.3.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.3.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Dataflows Dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Dataflows_de.gif",
+        "description": "Der Dataflow Dialog wurde umfassend überarbeitet. Du fügst neue Schritte jetzt über einen neuen übersichtlichen Dialog hinzu. Die einzelnen Schritte werden dabei mithilfe einer Grafik und eines Beschreibungstextes verständlich erklärt, sodass dir die Auswahl des passenden Schrittes noch leichter fällt."
+      }]
+    },
+    {
+      "name": "Extensions Dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Extensions_de.gif",
+        "description": "Der Extensions Dialog wurde erweitert. Du siehst jetzt auf einen Blick welche Extensions du bereits installiert hast und kannst diese oder weitere Extensions direkt aus dem Dialog installieren oder deinstallieren."
+      }]
+    },
+    {
+      "name": "Referenzen anzeigen",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-References_de.gif",
+        "description": "Lasse dir im neuen Dialog alle Referenzen anzeigen in denen eine ausgewählte Datenquelle oder Variable genutzt wird. Ein Klick auf eine der Referenzen schließt den Dialog und markiert die Referenz im Arbeitsbereich auf dem entsprechenden Bildschirm oder öffnet das entsprechende Fenster."
+      }]
+    },
+    {
+      "name": "Ungenutzte anzeigen",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Unused_de.gif",
+        "description": "Du kannst dir anzeigen lassen ob in deinem Projekt ungenutzte Ressourcen, Datenquellen oder Variablen vorhanden sind und diese im neu erstellten Dialog direkt löschen falls du sie wirklich nicht mehr benötigst."
+      }]
+    },
+    {
+      "name": "Input Validierung",
+      "content": [{
+        "type": "image",
+        "image": "3-3-0-0-Input_de.gif",
+        "description": "Das Text Box Control wurde überarbeitet. Du kannst zwischen den drei Eingabetypen [Text], [Passwort] und [Numeric] wählen. Um sicherzustellen, dass die Daten im gewünschten Format eingegeben werden, kannst du die Datenvalidierung aktivieren und mithilfe eines Regex-Pattern festlegen welches Format die Einageb haben muss."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - Neue Telefonnummer eingetragen",
+          "[Peakboard Designer] - Automatische Benamung von Controls im Explorer, die keinen Namen haben, hinzugefügt - weitere Informationen siehe Highlights",
+          "[Peakboard Designer] - Referenzen-Dialog für Datenquellen und Variablen hinzugefügt - weitere Informationen siehe Highlights",
+          "[Peakboard Designer Installation] - Option zum Abbruch des Schließens des Peakboard Designers hinzugefügt",
+          "[Peakboard Box Einstellungen] - Berechtigung [Screenshot erstellen] hinzugefügt",
+          "[Peakboard Box Einstellungen] - Peakboard Box Prüfung - Button für Zeitserver deaktiviert, wenn die Peakboard Box nicht verfügbar ist",
+          "[Peakboard Box Einstellungen] - Abbrechen Button für die Versions-Warnung beim Hochladen einer Visualisierung hinzugefügt",
+          "[Peakboard Box] - Löschen von Eingaben für Texteingabe-Ereignisse per Skript ermöglicht",
+          "[Ressourcen] - Berechtigungen für lokale Ressourcen erweitert",
+          "[Ressourcen] - Ressourcen können dynamisch geändert werden, wenn sie auf einen Pfad verweisen statt nur auf eine ID"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Extensions] - Umfassende Überarbeitung des Extensions Dialog - weitere Informationen in den Highlights",
+          "[Extensions] - Unterstützung für dynamische Funktionen in benutzerdefinierten Listen hinzugefügt",
+          "[Extensions] - Extensions werden nicht mehr mitgespeichert, wenn sie im Projekt nicht mehr benutzt werden",
+          "[OData] - Dynamische Filter mit Lua Skript hinzugefügt",
+          "[OPC UA] - Fix für einen Fehler, bei dem Variablen und Subscriptions die beim Start der Visualisierung nicht verfügbar waren nicht neu geladen werden, bis die Verbindung unterbrochen und neu gestartet wird",
+          "[OPC UA] - Fix für einen Fehler, bei dem numerische Daten beim Einlesen nicht in das benötigte Format überführt wurden und deshalb in Gauge-Diagrammen nicht angezeigt wurden",
+          "[OPC UA] - Fix für einen Fehler, bei dem manche OPC UA Daten nicht korrekt in Textfeldern angezeigt wurden",
+          "[Peakboard Edge] - Fix für einen Fehler, bei dem der Skript-Zugriff auf eine Peakboard Edge Datenquelle nicht mehr richtig funktionierte, wenn ein Dataflow auf dieser Datenquelle angewendet wurde",
+          "[Peakboard Hub Liste] - Fix für einen Fehler, bei dem eine bestehende Peakboard Hub List Datenquelle neue Spalten aus dem Peakboard Hub nicht angezeigt hat",
+          "[Peakboard Hub Liste] - Fix für einen Fehler, bei dem beim Ändern der Spaltenauswahl die Filteroperatoren entfernt wurden",
+          "[PowerBI] - Fix für einen Fehler, bei dem Reports nicht aktualisiert wurden",
+          "[Rockwell] - Fix für einen Fehler, bei dem es nicht möglich war Daten in die Rockwell SPS zu schreiben",
+          "[SAP] - Fix für einen Fehler, bei dem die Datenquelle nicht geladen wurde und ein Fehler angezeigt wurde, wenn eine Spalte keine Werte enthielt"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Umfangreiche Überarbeitung des Dataflow-Dialogs - weitere Informationen siehe Highlights",
+          "Fix für einen Fehler, bei dem der Datflow nicht geladen wurde, wenn er auf einer Datenquelle mit einem Refreshed-Skript erstellt wurde",
+          "Fix für einen Fehler, bei dem Dataflows sofort geladen wurden, obwohl eingestellt war, dass sie erst beim erneuten Laden der Datenquelle laden sollen"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Das Feld Control Name wird in den Attributen ausgeblendet, wenn [In Skripten verwendet] nicht aktiviert ist",
+          "[Bedingte Formatierung] - Checkbox anstatt Drop-down-Feld für Boolean-Werte im Abschnitt [Bedingungen]",
+          "[Textfeld] - Daten Validierung per Regex-Pattern hinzugefügt - weitere Informationen siehe Highlights",
+          "[QR Code] - Fix für einen Fehler, bei dem das Hintergrund Attribut keinen Effekt hatte",
+          "[QR Code] - Außenrand Attribut enfernt",
+          "[QR Code] - [Farbe] Attribut wählbar",
+          "[Webpage] - Zoomen und Scrollen in den Attributen ergänzt"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building Blocks] - Fehlenden Skript für variable Listen ergänzt",
+          "[Building Blocks] - Neuer Building Block zum Kopieren aller Daten einer Datenquelle in eine variable Liste",
+          "[Building Blocks] - Neuer Building Block für Multi Eingabe Berechnungen",
+          "[Building Blocks] - Fix für einen Fehler der auftrat, wenn bei einer benutzerdefinierten Funktion die Datenquelle getauscht wurde",
+          "[Skript-Editor] - UX-Verbesserungen für unbenamte Controls",
+          "[Skript-Editor] - Fix für einen Fehler, bei dem eine korrekt formulierte benutzerdefinierte Funktion einen Validierungsfehler verursachte",
+          "[Variablen] - UI-Anpassungen im Dialog",
+          "Fix für einen Fehler, bei dem bei der Parameter-Liste globaler Funktionen die Scrollleiste fehlte"
+        ]
+        }, {
+          "type": "headline",
+          "text": "Peakboard Hub"
+        }, {
+          "type": "list",
+          "list_items": [
+            "Fix für kleinere optische Fehldarstellungen im Dialog"
+        ]
+        }
+        ]
+      }]
+    }
+  ]
