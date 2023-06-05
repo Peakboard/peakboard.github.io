@@ -2,7 +2,9 @@
 layout: article
 title: Die erste Visualisierung  
 menu_title: Die erste Visualisierung  
-description: Die erste Visualisierung  
+description: Die erste Visualisierung
+homepage: true
+homepage_icon: /assets/images/homepage/get-started-low-code-software-vector.svg
 lang: de
 weight: 150
 ref: start-150

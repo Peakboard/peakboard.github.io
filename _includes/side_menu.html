@@ -27,7 +27,11 @@
                         {% assign svg_file_name = collection.new_icon %}
                         {% include svg/{{ svg_file_name }} class="w-7 h-7 side-menu-icon flex-shrink-0" style="fill: none !important;" %}
                     </svg>
-                    <h4 class="text-lg font-title font-semibold side-menu-title">{{ collection.title[page.lang] }}</h4>
+                    <h4 class="text-lg font-title font-semibold side-menu-title">
+                        {% if include.nav_to_category == "true" %}<a href="/{{ collection.label }}{% if page.lang == 'en' %}/en-index{% endif %}">{% endif %}
+                        {{ collection.title[page.lang] }}
+                        {% if include.nav_to_category == "true" %}</a>{% endif %}
+                    </h4>
                 </div>
 
                 <div class="ml-9 side-menu-links hidden">
