@@ -2,7 +2,9 @@
 layout: article
 title: The Peakboard Designer  
 menu_title: The Peakboard Designer  
-description: The Peakboard Designer  
+description: The Peakboard Designer
+homepage: true
+homepage_icon: /assets/images/homepage/get-started-pb-designer-vector.svg
 lang: en
 weight: 100
 ref: start-100

@@ -3,6 +3,8 @@ layout: article
 title: Die Peakboard Box anschließen und die erste Visualisierung übertragen
 menu_title: Die Peakboard Box
 description: Die Peakboard Box anschließen und die erste Visualisierung übertragen
+homepage: true
+homepage_icon: /assets/images/homepage/get-started-upload-contour.svg
 lang: de
 weight: 200
 ref: start-200

@@ -3,6 +3,8 @@ layout: article
 title: Connect the Peakboard Box and transfer the first visualization
 menu_title: The Peakboard Box
 description: Connect the Peakboard Box and transfer the first visualization
+homepage: true
+homepage_icon: /assets/images/homepage/get-started-upload-contour.svg
 lang: en
 weight: 200
 ref: start-200

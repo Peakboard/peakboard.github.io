@@ -12,6 +12,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+            },
             padding: {
                 '1/2': '50%',
                 '1/3': '33.333333%',
@@ -43,6 +46,7 @@ module.exports = {
             },
             colors: {
                 "dark-black": "#111111",
+                "sherpa-blue": "#003944",
                 "grey-darker": "#4a5556",
                 "grey-dark": "#606f7b",
                 "grey-darkest": "#373d3f",
