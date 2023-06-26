@@ -9,24 +9,26 @@ ref: dat-2740
 redirect_from:
 ---
 
-### Connection problems (PB Box ↔︎ PB Edge)
+### Connection problems (Peakboard Box ↔︎ Peakboard Edge)
 
 #### Has the connection already worked and has it broken off without further ado?
-A restart of the PB Edge and the PB Box can help.
 
-#### Couldn't establish a connection between PB Box and PB Edge or restarting both devices didn't help?
-Check if both devices (PB Box and PB Edge) are connected to the same network. A network administrator can help best. If none is available, you can alternatively test if a connection between the Designer and the PB Box, and the Designer and PB Edge is possible. If this is not the case, the problem can be solved with the faulty connection.
+A restart of the Peakboard Edge and the Peakboard Box can help.
 
+#### Couldn't establish a connection between the Peakboard Box and the Peakboard Edge or restarting both devices didn't help?
 
-### Connection problems (Connection tester / Preview ↔︎ PB Edge)
-If the connection preview ↔︎ PB Edge fails, use the connection tester in the designer.
+Check if both devices (Peakboard Box and Peakboard Edge) are connected to the same network. A network administrator can help you the best. If none is available, you can alternatively test if a connection between the Peakboard Designer and the Peakboard Box, and the Peakboard Designer and Peakboard Edge is possible. If this is not the case, the problem can be solved with the faulty connection.
 
-If the connection tester ↔︎ PB Edge fails:
+### Connection problems (Connection tester / Preview ↔︎ Peakboard Edge)
 
-* Note Edge ID
-* Use the key combination "Win + R" to open the Windows "Run" dialog
-* type "cmd" and press enter to open a command line window
-* enter the command "ping <Edge ID>" in the command line, where <Edge ID> is preceded by the previously noted Edge ID
-If the connection is possible (the ping is answered), please contact Peakboard Support. 
+If the connection preview ↔︎ Peakboard Edge fails, use the connection tester in the Peakboard Designer.
 
-If the connection is not possible, the Peakboard Edge is either in another network or it is blocked by internal network rules. In the latter case, only a company IT administrator can help.
+If the connection tester ↔︎ Peakboard Edge fails:
+
+* Note the Peakboard Edge ID
+* Use the key combination [Win + R] to open the Windows [Run] dialog
+* Type [cmd] and press enter to open a command line window
+* Enter the command [ping <Edge ID>] in the command line, where <Edge ID> is preceded by the previously noted Peakboard Edge ID
+If the connection is possible (the ping is answered), please contact Peakboard Support.
+
+If the connection is not possible, the Peakboard Edge is either in another network or it is blocked by internal network rules. In the latter case, only a company IT administrator can help you.
