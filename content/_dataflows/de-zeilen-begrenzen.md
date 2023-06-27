@@ -1,30 +1,23 @@
 ---
 layout: article
-title: Zeilenanzahl begrenzen
-menu_title: Zeilenanzahl begrenzen
-description: Zeilenanzahl begrenzen
+title: Zeilen begrenzen
+menu_title: Zeilen begrenzen
+description: Zeilen begrenzen
 lang: de
-weight: 6000
-ref: flow-6000
+weight: 5000
+ref: flow-5000
 redirect_from:
   - /dataflows/60-de-zeilen-begrenzen.html
 ---
-Es gibt drei unterschiedliche Schritte, um die Anzahl der Zeilen zu begrenzen:
+Du kannst mit diesem Schritt die Anzahl der Zeilen einer Tabelle auf drei Unterschiedliche Arten begrenzen:
 
-* **Take Top** nimmt nur die ersten Zeilen in der aktuellen Sortierung der Tabelle
-* **Take Last** nimmt nur die letzten Zeilen in der aktuellen Sortierung der Tabelle
-* **Take Range** schneidet unter Angabe des Start- und End-Index einen Teil der Gesamtzeilen heraus
+* **Erste Zeilen auswählen** begrenzt die Tabelle auf die gewählte Anzahl der Zeilen von oben
+* **Bereich auswählen** begrenzt die Tabelle auf die gewählte Anzahl der Zeilen ab einem definierten Index
+* **Letzte Zeilen auswählen** begrenzt die Tabelle auf die gewählte Anzahl der Zeilen von unten
 
 <div class="box-tip" markdown="1">
 **Achtung**
-Wenn Sie beispielsweise aus einer Tabelle von Artikeln und Umsatzdaten die drei umsatzstärksten Artikel filtern wollen, müssen Sie **VOR** dem Zeilenbegrenzungsschritt die korrekte Sortierung anwenden. 
-Ansonsten werden mit großer Wahrscheinlichkeit irgendwelche, aber wohl nicht die gewünschten drei Zeilen gezogen.
+Wenn du beispielsweise aus einer Tabelle von Artikeln und Umsatzdaten die drei umsatzstärksten Artikel filtern möchtest, dann musst du **VOR** dem Zeilenbegrenzungsschritt die korrekte Sortierung anwenden damit die gewünschten drei Zeilen ausgewählt werden.
 </div>
 
-
-![Take Data](/assets/images/dataflows/dataflows-take01.png)
-
-![Take Data](/assets/images/dataflows/dataflows-take02.png)
-
-![Take Data](/assets/images/dataflows/dataflows-take03.png)
-
+![Bereich auswählen](/assets/images/dataflows/dataflows_select-range.gif)

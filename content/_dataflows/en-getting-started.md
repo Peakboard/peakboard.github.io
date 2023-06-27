@@ -12,15 +12,15 @@ redirect_from:
 ---
 
 Different data sources communicate with source systems of all kinds and usually deliver the data in the form of a table.
-To display this data, you either access it by using [controls](/controls/en-general-properties.html) or first use a [script](/scripting/en-script-engine.html) to process it.
-You can learn how to [script data](/scripting/en-manipulate.html) or how to [manipulate table data](/scripting/en-table-data.html) in the corresponding articles.
+To display this data, you either access it by using controls or first use a script to process it.
+You can learn how to [script data](/scripting/en-table-data.html) or how to [manipulate table data](/scripting/en-manipulating-table-data.html) in the corresponding articles.
 In this article, we will show you how to post-process various data using dataflows, even without deep scripting knowledge.
 With dataflows you can for example:  
 
-* [Rename columns and delete unnecessary columns](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Remove%20Columns%20-%20Columns%20l%C3%B6schen)
-* [Customize data types.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Change%20data%20Type%20-%20DataType%20%C3%A4change).
-* [Add new columns and fill them with content according to a certain logic.](/dataflows/en-columns-add-delete-change.html)
-* [Join multiple data sources, even from different upstream systems, using joins and combine them into a single table](/dataflows/en-data-joining.html)
+* [Remove unnessecary columns](/dataflows/en-edit-columns.html#remove-columns) and [rename columns.](/dataflows/en-edit-columns.html#rename-column)
+* [Change column data type.](/dataflows/en-edit-columns.html#change-column-data-type)
+* [Add new columns and fill them with content created by a logic defined in a script.](/dataflows/en-edit-columns.html)
+* [Link multiple data sources, even from different source systems, using joins and combine them into a single table.](/dataflows/en-unite-tables.html)
 
 Dataflows allow you to start from a single table and adjust the dataset step by step until the result is what you need.
 You can view, change and add to the individual steps for each dataflow in the Peakboard Designer.

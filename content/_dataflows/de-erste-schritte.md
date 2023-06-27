@@ -11,15 +11,15 @@ redirect_from:
 ---
 
 Unterschiedliche Datenquellen kommunizieren mit Quellsystemen aller Art und liefern die Daten meist in Form einer Tabelle.
-Um diese Daten anzuzeigen, greifst du entweder mit den [Controls](/controls/de-allgemeine-eigenschaften.html) darauf zu oder benutzt zunächst ein [Skript](/scripting/de-script-engine.html), um sie aufzubereiten.
-Wie du [Daten per Skript weiterverarbeitest](/scripting/de-manipulieren.html) oder wie du [Tabellendaten manipulieren](/scripting/de-tabellen-daten.html) kannst, erfährst du in den entsprechenden Artikeln.
+Um diese Daten anzuzeigen, greifst du entweder mit den Controls darauf zu oder benutzt zunächst ein Skript, um sie aufzubereiten.
+Wie du [Daten per Skript weiterverarbeitest](/scripting/de-tabellen-daten.html) oder wie du [Tabellendaten manipulieren](/scripting/de-manipulieren.html) kannst, erfährst du in den entsprechenden Artikeln.
 In diesem Artikel zeigen wir dir, wie du verschiedene Daten mithilfe von Dataflows nachbearbeitest, auch ohne tiefgehende Skripting Kenntnisse.
 Mit Dataflows lassen sich zum Beispiel:  
 
-* [Spalten umbenennen und unnötige Spalten löschen.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Remove%20Columns%20-%20Spalten%20l%C3%B6schen)
-* [Datentypen anpassen.](https://help.peakboard.com/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html#:~:text=Change%20data%20Type%20-%20Datentyp%20%C3%A4ndern)
-* [Neue Spalten hinzufügen und sie mit Inhalten nach einer bestimmten Logik befüllen.](/dataflows/de-spalten-hinzufuegen-loeschen-aendern.html)
-* [Mehrere Datenquellen, auch aus unterschiedlichen Vorsystemen, mithilfe von Joins verknüpfen und zu einer einzelnen Tabelle verbinden.](/dataflows/de-daten-joinen.html)
+* [Unnötige Spalten entfernen](/dataflows/de-spalten-bearbeiten.html#spalten-entfernen) und [Spalten umbenennen.](/dataflows/de-spalten-bearbeiten.html#spalte-umbenennen)
+* [Datentypen anpassen.](/dataflows/de-spalten-bearbeiten.html#spaltentyp-%C3%A4ndern)
+* [Neue Spalten hinzufügen und sie mit Inhalten nach einer bestimmten Logik befüllen.](/dataflows/de-spalten-bearbeiten.html)
+* [Mehrere Datenquellen, auch aus unterschiedlichen Vorsystemen, mithilfe von Joins verknüpfen und zu einer einzelnen Tabelle verbinden.](/dataflows/de-tabellen-vereinen.html)
 
 Dataflows ermöglichen es dir ausgehend von einer einzelnen Tabelle schrittweise den Datenbestand anzupassen, bis das Ergebnis deinen Wünschen entspricht.
 Die einzelnen Schritte kannst du im Peakboard Designer für jeden Dataflow einsehen, ändern und ergänzen.
