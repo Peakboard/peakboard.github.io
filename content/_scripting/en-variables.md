@@ -9,33 +9,20 @@ ref: scr-200
 redirect_from:
   - /data_sources/01-en-variablen.html
 ---
-In sophisticated visualizations (with or without scripting), it will always be necessary to store data in a kind of global variable. 
-For this reason, every visualization offers the possibility to create such variables in the project tree on the left.
-You can access them from scripts and from dataflows.
-Even an external access (i.e. via API call) for example with the [Peakboard Data Source](https://help.peakboard.com/data_sources/de-peakboard-data-soure.html) is possible. 
-More information about the API calls can be found [here](https://help.peakboard.com/misc/de-push-nachrichten.html).
-Generally, a distinction is made between single-scalar variables and tabular variables, also called lists.
 
-![Create variable or list](/assets/images/scripting/variables/lists-variables-01.png)
+Besides data sources, controls and resources, variables and lists are an integral part of most projects. To cache and process data from different data sources, you can store them in a variable or a list. You can then use scripts or dataflows to access the variables as needed, or share them with other Peakboard Boxes or external applications.
+To create a variable or list, click on [...] (1) in the corresponding area of the Explorer or right-click on [Variables] and select [Add variable] (2) or [Add list] (3).
 
+![Add variable or list](/assets/images/scripting/variables/en_add-variable.png)
 
-### (scalar) variables
+In the dialog of the variable or list you can choose from the three available data types string, number or boolean (4). Next, you give the variable or list a name (5) and can enter the first values (6). Optionally, you can activate that changes to the variable are saved on the Peakboard Box (7). This way, the values are still available after a restart of the Peakboard Box and will not be reset. You can also optionally activate that a value is set during the upload (8).
 
-Each variable needs a unique name and a data type. The data types available in Peakboard are String, Number or Boolean. 
-A further differentiation of the data type (e.g. integer, decimal, float, etc...) is not provided. 
-This also applies to scripting.
-The option **Save Changes to Box** ensures that the current value of a variable is retained after the restart (e.g. for a counter that counts over a very long period of time). 
-**Can push data via API** means that the data is read and written from outside by an API Rest Call.
+[Dialog variable or list](/assets/images/scripting/variables/en_dialog.png)
 
-![Variable](/assets/images/scripting/variables/lists-variables-02.png)
+On the left side of the dialog, you will find the [Advanced] tab (9). In this area, you have the option to enable access to the variable or list via API (10). This way, you can either read or read and write the variable or list from outside using the Peakboard data source, for example. You also have the option to limit the variable to specified values (11). It is also possible to enable the connection to the Peakboard Hub (12) to share the variable or list with other Peakboard Boxes.
 
-### Lists
+[Advanced](/assets/images/scripting/variables/en_advanced.png)
 
-Lists consist of columns, each with a unique name and data type. 
-With the plus button new columns can be added. 
-If the list should be filled with data, the data can be edited, added or deleted directly in the table with the delete button. 
-Editing the structure as well as the user data should be self-explanatory.
+Unlike scalar variables with a single value, lists consist of columns, each with a unique name and data type. With the [+] symbol (13) you can add new columns. You can manually fill the list with values or edit or delete values directly in the table.
 
-The two additional options below correspond to the function as for the scalar variable.
-
-![List](/assets/images/scripting/variables/lists-variables-03.png)
+[Lists](/assets/images/scripting/variables/en_lists.png)
