@@ -42,16 +42,25 @@ This step is skipped if you click on [...] next to the data source you want to u
 
 Even if several tables are involved in the data transformation at the end, the dataflow always starts with exactly one table.
 In the text field (5) you assign a unique name for easier identification of the dataflow.
-Via [Add step](6) you can now apply further transformation steps to the table.
+Using the [+] symbol (6) you can now apply further transformation steps to the table. There are also some frequently used steps available for quick selection (7).
 
 ![Add step](/assets/images/dataflows/getting-started/en_dataflows_create-04.png)
 
-In the right area of the dialog all steps already applied are listed.
+In the selection dialog that opens, you can see all available steps. If you click on one of the steps, more information about the step will be shown to make the selection of the right step as easy as possible.
+
+![Add step dialog](/assets/images/dataflows/getting-started/en_dataflows_create-05.png)
+
+In the left part of the dialog, all steps already applied are listed.
 You can change or delete them later.
-Click on one of the steps and let the dialog area on the left show you the state of the data **AFTER** this step.
+Click on one of the steps and let the dialog area on the right show you the state of the data **AFTER** this step.
 
-![Result](/assets/images/dataflows/getting-started/en_dataflows_create-05.gif)
+![Result](/assets/images/dataflows/getting-started/en_dataflows_create-01.gif)
 
-Finally, under [Reload Status] you can set whether the dataflow should be updated at the start of the visualization, at a chosen interval, from a reload flow or together with its source (7).
+Another alternative to adding the steps via the selection dialog is to use the context menu directly in the data preview.
+By right-clicking on the area you want to change, you will see the appropriate steps for this area.
 
-![Reload-state](/assets/images/dataflows/getting-started/en_dataflows_create-06.png)
+![Context menu](/assets/images/dataflows/getting-started/en_dataflows_create-02.gif)
+
+Finally, under [Reload state] you can set whether the dataflow should be updated at the start of the visualization, at a chosen interval, from a reload flow or together with its source (8).
+
+![Reload state](/assets/images/dataflows/getting-started/en_dataflows_create-06.png)

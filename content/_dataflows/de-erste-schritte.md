@@ -41,16 +41,25 @@ Dieser Schritt wird ausgelassen wenn du um den Dataflow anzulegen auf [...] dire
 
 Selbst wenn am Ende mehrere Tabellen an der Datentransformation beteiligt sind, startet der Dataflow immer mit genau einer Tabelle.
 Im Textfeld (5) vergibst du einen eindeutigen Namen zur leichteren Identifikation des Dataflows.
-Über [Schritt hinzufügen] (6) kannst du nun weitere Transformationsschritte auf die Tabelle anwenden.
+Über das [+] Symbol (6) kannst du nun weitere Transformationsschritte auf die Tabelle anwenden. Es stehen außerdem einige häufig genutzte Schritte zur Schnellauswahl zur Verfügung (7).
 
 ![Schritt hinzufügen](/assets/images/dataflows/getting-started/de_dataflows_create-04.png)
 
-Im rechten Bereich des Dialogs sind alle bereits angewendeten Schritte aufgelistet.
+In dem sich öffnenden Auswahldialog kannst du alle verfügbaren Schritte einsehen. Wenn du einen der Schritte anklickst werden dir weitere Informationen zum jeweiligen Schritt angezeigt um die die Auswahl des richtigen Schrittes so einfach wie möglich zu machen.
+
+![Schritt hinzufügen Dialog](/assets/images/dataflows/getting-started/de_dataflows_create-05.png)
+
+Im linken Bereich des Dialogs sind alle bereits angewendeten Schritte aufgelistet.
 Diese kannst du auch nachträglich verändern oder löschen.
-Klicke auf einen der Schritte und lass dir im Dialogbereich links den Zustands der Daten **NACH** diesem Schritt anzeigen.
+Klicke auf einen der Schritte und lass dir im Dialogbereich rechts den Zustands der Daten **NACH** diesem Schritt anzeigen.
 
-![Ergebnis](/assets/images/dataflows/getting-started/de_dataflows_create-05.gif)
+![Ergebnis](/assets/images/dataflows/getting-started/de_dataflows_create-01.gif)
 
-Zuletzt kannst du unter [Nachlade-Status] noch einstellen, ob der Dataflow beim Start der Visualisierung, in einem gewählten Intervall, von einem Reload Flow oder zusammen mit seiner Quelle aktualisiert werden soll (7).
+Eine weitere Alternative zum Hinzufügen der Schritte über den Auswahldialog ist das Kontextmenü direkt in der Datenvorschau.
+Durch einen Rechtsklick auf den Bereich den du verändern möchtest werden dir passende Schritte für diesen Bereich angezeigt.
+
+![Kontextmenü](/assets/images/dataflows/getting-started/de_dataflows_create-02.gif)
+
+Zuletzt kannst du unter [Nachlade-Status] noch einstellen, ob der Dataflow beim Start der Visualisierung, in einem gewählten Intervall, von einem Reload Flow oder zusammen mit seiner Quelle aktualisiert werden soll (8).
 
 ![Nachlade-Status](/assets/images/dataflows/getting-started/de_dataflows_create-06.png)
