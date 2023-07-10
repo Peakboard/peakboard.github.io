@@ -1,0 +1,42 @@
+[{
+  "version": "1.16.0.3",
+  "date": "10.07.2023",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.16.0.3/PeakboardHubSetup.exe",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [
+        {
+          "type": "headline",
+          "text": "Allgemein"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "[Setup] - Fix für einen Fehler, bei dem Zertifikate nicht korrekt installiert wurden",
+            "[Setup] - Fix für einen Fehler, bei dem eine unnötige Fehlermeldung ausgegeben wurde",
+            "[Setup] - Fix für einen Fehler, bei dem der Button [Abbrechen] nicht funktioniert hat",
+            "[Geteilte Verbindungen] - Übertragungsprotokoll SMTP hinzugefügt",
+            "Fix für einen Fehler, bei dem zu viele Log-Meldungen ausgegeben wurden, wenn eine Peakboard Box nicht erreichbar war",
+            "Fix für einen Fehler, bei dem der Button [Kopieren] im Gruppenschlüssel-Dialog nicht funktionierte",
+            "Fix für einen Fehler, der bei fehlendem Hostnamen auftrat",
+            "Fix für einen Fehler, bei dem es nicht möglich war die Funktion [Wert setzen] für Zeilen mit großer ID zu nutzen",
+            "Fix für einen Fehler, bei dem es nicht mehr möglich war Peakboard Boxen korrekt zu aktualisieren",
+            "Fix für einen Fehler, bei dem die Peakboard Box-Verfügbarkeitsübersicht nicht mehr funktioniert hat",
+            "Fix für einen Fehler bei dem die Unbeaufsichtigte Installation nicht mehr funktioniert hat",
+            "Fix für einen Fehler, bei dem das Löschen einer Benutzergruppe während der Erstellung dieser zu einer Fehlermeldung führte",
+            "Fix für einen Fehler, bei dem die Version der Peakboard Boxen in der Peakboard Box Übersicht nicht korrekt angezeigt wurde",
+            "Limitierung der Log-Dateigröße",
+            "App-Verbindung entfernt",
+            "Lizenz und Keygenerator hinzugefügt",
+            "Neue Benutzer-Rolle [Nur Screenshot]",
+            "Textkorrekturen im Footer des Hauptfensters",
+            "Datum des Uploads in der Dropdown-Liste der Visualisierungen hinzugefügt",
+            "Peakboard Hub Versionsanzeige hinzugefügt",
+            "Überschriften der Unterseiten angepasst"
+          ]
+        }
+      ]
+    }
+  ]
+}]

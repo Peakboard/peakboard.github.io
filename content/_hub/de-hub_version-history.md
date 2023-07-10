@@ -7,7 +7,6 @@ description: Version History
 lang: de
 weight: 800
 ref: hub-800
-draft: true
 ---
 
 {% assign sorted_version_history_entries = site.data[page.lang].hub_version_history | sort %}

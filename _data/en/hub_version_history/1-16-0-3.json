@@ -1,0 +1,42 @@
+[{
+  "version": "1.16.0.3",
+  "date": "10.07.2023",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.16.0.3/PeakboardHubSetup.exe",
+  "tabs": [
+    {
+      "name": "General overview",
+      "content": [
+        {
+          "type": "headline",
+          "text": "General"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "[Setup] - Fix for a bug where certificates were not installed correctly",
+            "[Setup] - Fix for a bug where an unnecessary error message was displayed",
+            "[Setup] - Fix for a bug where the [Cancel] button did not work",
+            "[Shared connections] - added SMTP transfer protocol",
+            "Fix for a bug where too many log messages were issued when a Peakboard Box was unreachable",
+            "Fix for a bug where the [Copy] button in the group key dialog did not work",
+            "Fix for a bug that occurred when the hostname was missing",
+            "Fix for a bug where it was not possible to use the [Set value] function for rows with a large ID",
+            "Fix for a bug where it was no longer possible to update Peakboard Boxes correctly",
+            "Fix for a bug where the Peakboard Box availability overview stopped working",
+            "Fix for a bug where the silent installation did not work anymore",
+            "Fix for a bug where deleting a user group while creating it resulted in an error message",
+            "Fix for a bug where the version of the Peakboard Boxes was not displayed correctly in the Peakboard Box overview",
+            "Limitation of log file size",
+            "Removed app connection",
+            "License and key generator added",
+            "New user role [Screenshot only]",
+            "Text fixes in the footer of the main window",
+            "Added date of upload in the dropdown list of visualizations",
+            "Added Peakboard Hub version display",
+            "Adjusted headings of the subpages"
+          ]
+        }
+      ]
+    }
+  ]
+}]
