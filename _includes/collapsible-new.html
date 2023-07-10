@@ -3,11 +3,13 @@
         <span>{{ site.language[page.lang].version-history-see-more }} <i class="right-arrow rotate"></i></span>
     </span>
 </div>
+{% if include.archive == true %}
 <div class="block text-center mt-4" style="max-height: fit-content; background: #FFFFFF; border-bottom-width: 0;">
     <a href="{{ site.language[page.lang].version-history-archive-link }}" class="action-link z-10 cursor-pointer">
         <span>{{ site.language[page.lang].version-history-archive }} <i class="right-arrow rotate"></i></span>
     </a>
 </div>
+{% endif %}
 <div id="text-download-tooltip" class="hidden">{{ site.language[page.lang].version-history-download-tooltip }}</div>
 
 <div class="relative z-10 hidden" id="download-modal" role="dialog">
@@ -27,6 +29,7 @@
                         </svg>
                     </button>
                 </div>
+
 
                 <div class="mt-3 text-center sm:mt-5">
                     <h2 class="text-lg leading-6 font-medium text-gray-900">{{ site.language[page.lang].version-history-download-modal-title-pre }} <span id="download-modal-title"></span> {{ site.language[page.lang].version-history-download-modal-title-post }}</h2>
@@ -193,21 +196,6 @@
                 linkIcon.classList.add("lightbox-ignore");
                 link[a].prepend(linkIcon);
 
-                /*var linkToolTipParent = document.createElement("div");
-                linkToolTipParent.classList.add(
-                    "z-50","origin-top-right","absolute","right-0",
-                    "mt-2","w-80","rounded-md","bg-white",
-                    "ring-2","ring-orange","ring-opacity-80","link-tool-tip","hidden");
-
-                var linkToolTip = document.createElement("p");
-                linkToolTip.classList.add(
-                    "block","px-4","py-2","text-sm","text-center",
-                    "text-gray-700","hover:bg-gray-100","hover:text-gray-900");
-                linkToolTip.innerHTML = document.getElementById("text-download-tooltip").innerText + "<br>" + document.getElementById("text-download-tooltip").innerText;
-                linkToolTipParent.append(linkToolTip);
-
-                link[a].append(linkToolTipParent);*/
-
                 // when click on download link, toggle visibility of the modal
                 link[a].addEventListener("click", function(event) {
                     var targetElement = event.target;
@@ -285,6 +273,8 @@
 
             document.getElementById("seeMoreLink").style.display = 'none';
         });
+    } else {
+        document.getElementById("seeMoreLink").style.display = 'none';
     }
 
     coll[0].classList.toggle("active");
