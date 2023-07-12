@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Version History
+title: Versionshistorie
 product: hub
-menu_title: Version History
-description: Version History
+menu_title: Versionshistorie
+description: Versionshistorie
 lang: de
 weight: 800
 ref: hub-800
