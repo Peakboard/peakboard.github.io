@@ -69,3 +69,5 @@ Mit diesem Schritt fügst du der Tabelle eine Spalte aus einer weiteren Tabelle 
 Du definierst eine Quellspalte, die als Basis für den Lookup dienen soll, sowie die Lookup-Datenquelle aus der die Daten entnommen werden sollen. Mit der Lookup-Zielspalte gibst du an, mit welcher Spalte aus der Lookup-Datenquelle abgeglichen wird und mit der Lookup-Rückgabespalte, welche Spalte übertragen werden soll.
 
 Die neue Spalte bleibt leer, wenn für einen Eintrag in der Quellspalte keine Entsprechung in der Lookup-Zielspalte gefunden werden kann. So lässt sich die Anforderung realisieren Daten zu finden, die gerade KEINE Entsprechung in einer anderen Datenquelle haben. In diesem Anwendungsfall kannst du dann alle Zeilen filtern, die in der ergänzenden Spalte leer sind.
+
+![Lookup-Spalte](/assets/images/dataflows/dataflows_lookup.gif)

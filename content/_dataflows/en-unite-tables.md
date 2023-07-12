@@ -69,3 +69,5 @@ With this step you add a column from another table to the table.
 You define a source column that will serve as the basis for the Lookup, as well as the Lookup data source from which the data will be taken. With the Lookup target column you specify with which column from the Lookup data source will be matched and with the Lookup return column which column will be transferred.
 
 The new column remains empty if no match can be found for an entry in the source column in the Lookup target column. This is how you realize the requirement to find data that currently has NO correspondence in another data source. In this use case you can then filter all rows that are empty in the additional column.
+
+![Lookup column](/assets/images/dataflows/dataflows_lookup.gif)
