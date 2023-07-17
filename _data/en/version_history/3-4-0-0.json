@@ -1,0 +1,104 @@
+[{
+  "version": "3.4.0.0",
+  "date": "17.07.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Format Dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-4-0-0-Format_en.gif",
+        "description": "The format dialog has been extensively revised. You can now choose from the following three format types in the left part of the dialog: Number, Date and time, Time span. In the right pane you can edit the chosen format and make extensive settings for the respective format type."
+      }]
+    },
+    {
+      "name": "HTTP Request Building Blocks",
+      "content": [{
+        "type": "image",
+        "image": "3-4-0-0-HTTP-BB_en.gif",
+        "description": "You will now find two new Building Blocks in the script editor. With these, you can use an existing connection from, for example, a JSON data source to send various HTTP requests."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer setup] - New UI concept",
+          "[Peakboard Box] - adjustment in data structure",
+          "[Peakboard Box] - user based environment variables moved to configuration file",
+          "[Peakboard Box] - pbadmin removed",
+          "[Peakboard Box Settings] - fix for bug where role drop-down menu didn't work until dialog was reloaded",
+          "[Peakboard Box settings] - fix for a bug where connecting to a hidden SSID was not possible",
+          "[Peakboard Box settings] - missing error messages added in case of failed update",
+          "[Resources](/misc/en-ressources.html) - resource referencing by ID",
+          "[Resources](/misc/en-ressources.html) - fix for a bug where a resource was not displayed correctly in the corresponding control",
+          "Format dialog extensively revised - 3 types of formats: Number, Date and time, Time span. More information in the highlights"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datasources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Modbus](/data_sources/en-modbus.html) - fix for a bug where only an unexpected error was displayed instead of a useful error message",
+          "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - enabled access to variables via SQL statement",
+          "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - fix for a bug where column types were not taken into account, resulting in unusable filters",
+          "[SAP](/data_sources/SAP/en-sap.html) - fix for a bug where column names with special characters were not read correctly",
+          "[SAP](/data_sources/SAP/en-sap.html) - string passthrough syntax updated",
+          "[Reload flows](/misc/en-reloadflows.html) - data sources that trigger a reload flow now show this in their data source dialog",
+          "[Email](/data_sources/en-mail.html) - fix for a bug where an internet connection was required even though a local smtp server was defined",
+          "[JSON](/data_sources/en-json.html) - fix for a bug where data was lost if the column name contained a dot",
+          "Empty state of scripted URLs in data sources improved"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Reload flows](/misc/en-reloadflows.html) - fix for a bug where a dataflow could be used multiple times in a reload flow",
+          "Fix for a bug where validation did not work properly when renaming dataflows",
+          "Fix for a bug where the name change of an aggregation step was not applied",
+          "Fix for a bug where incorrect logic was used for data type eligibility for an aggregation",
+          "Localization improvements"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Icon](/controls/Common/en-icon.html) - extensive UX improvements",
+          "[Text](/controls/Common/en-text-block.html) - alignment options added"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building blocks](/scripting/en-building-blocks.html) - fix for a bug that occurred in custom function blocks when the source was changed with dynamic and non-dynamic functions",
+          "[Building blocks](/scripting/en-building-blocks.html) - HTTP requests reworked",
+          "[Building blocks](/scripting/en-building-blocks.html) - color picker integrated",
+          "[Script editor](/scripting/en-script-editor.html) - fix for a bug where the dataflow was displayed in the wrong place in the script tree"
+        ]
+        }, {
+          "type": "headline",
+          "text": "Peakboard Hub"
+        }, {
+          "type": "list",
+          "list_items": [
+          "Fix for a bug where clicking the help button caused a fatal error",
+          "Peakboard Hub online activated"
+        ]
+        }
+        ]
+      }]
+    }
+  ]

@@ -1,0 +1,104 @@
+[{
+  "version": "3.4.0.0",
+  "date": "17.07.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Format Dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-4-0-0-Format_de.gif",
+        "description": "Der Format Dialog wurde umfassend überarbeitet. Du kannst jetzt im linken Bereich des Dialogs aus den folgenden drei Formatarten wählen: Zahl, Datum und Uhrzeit, Zeitspanne. Im rechten Bereich kannst du das ausgewählte Format bearbeiten und umfangreiche Einstellungen zur jeweiligen Formatart vornehmen."
+      }]
+    },
+    {
+      "name": "HTTP Request Building Blocks",
+      "content": [{
+        "type": "image",
+        "image": "3-4-0-0-HTTP-BB_de.gif",
+        "description": "Du findest jetzt zwei neue Building Blocks im Skript-Editor. Mit diesen kannst du eine bestehende Verbindung aus beispielsweise einer JSON Datenquelle nutzen, um verschiedene HTTP Requests zu senden."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer Setup] - Neues UI-Konzept",
+          "[Peakboard Box] - Anpassung in der Datenstruktur",
+          "[Peakboard Box] - Benutzerbasierte Umgebungsvariablen in Konfigurationsdatei umgezogen",
+          "[Peakboard Box] - pbadmin entfernt",
+          "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem das Rollen-Drop-down-Menü erst nach dem neu Laden des Dialogs funktionierte",
+          "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem die Verbindung zu einer versteckten SSID nicht möglich war",
+          "[Peakboard Box Einstellungen] - Fehlende Fehlermeldungen ergänzt bei fehlgeschlagener Aktualisierung",
+          "[Ressourcen](/misc/de-ressourcen.html) - Ressourcenreferenzierung per ID",
+          "[Ressourcen](/misc/de-ressourcen.html) - Fix für einen Fehler, bei dem eine Ressource im entsprechenden Control nicht richtig dargestellt wurde",
+          "Format-Dialog umfassend überarbeitet - 3 Arten von Formaten: Zahl, Datum und Zeit, Zeitspanne. Weitere Informationen in den Highlights"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Modbus](/data_sources/de-modbus.html) - Fix für einen Fehler, bei dem nur ein unerwarteter Fehler angezeigt wurden statt einer nützlichen Fehlermeldung",
+          "[Peakboard Hub List](/data_sources/de-peakboard-hub-list.html) - Zugriff auf Variablen per SQL-Statement ermöglicht",
+          "[Peakboard Hub List](/data_sources/de-peakboard-hub-list.html) - Fix für einen Fehler, bei dem Spaltentypen nicht berücksichtigt wurden und somit zu unbrauchbaren Filtern führte",
+          "[SAP](/data_sources/SAP/de-sap.html) - Fix für einen Fehler, bei dem Spaltennamen mit Sonderzeichen nicht richtig gelesen wurden",
+          "[SAP](/data_sources/SAP/de-sap.html) - String-Passthrough-Syntax aktualisiert",
+          "[Reload Flows](/misc/de-reloadflows.html) - Datenquellen die einen Reload Flow auslösen zeigen dies jetzt in ihrem Datenquellendialog an",
+          "[E-Mail](/data_sources/de-mail.html) - Fix für einen Fehler, bei dem eine Internetverbindung gefordert wurde, obwohl ein lokaler smtp Server definiert war",
+          "[JSON](/data_sources/de-json.html) - Fix für einen Fehler, bei dem Daten verloren gingen, wenn der Spaltenname einen Punkt enthielt",
+          "Empty State von geskripteten URLs in Datenquellen verbessert"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Reload Flows](/misc/de-reloadflows.html) - Fix für einen Fehler, bei dem ein Dataflow mehrfach in einem Reload Flow verwendet werden konnte",
+          "Fix für einen Fehler, bei dem die Validierung beim Umbenennen von Dataflows nicht richtig funktionierte",
+          "Fix für einen Fehler, bei dem die Namensänderung eines Aggregierungsschrittes nicht übernommen wurde",
+          "Fix für einen Fehler, bei dem für eine Aggregation eine falsche Logik bei der Zulässigkeit von Datentypen verwendet wurde",
+          "Verbesserungen der Lokalisierung"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Icon](/controls/Common/de-icon.html) - umfassende UX-Verbesserungen",
+          "[Text](/controls/Common/de-text-block.html) - Ausrichtungsoptionen hinzugefügt"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, zu dem es in benutzerdefinierten Funktionsblöcken kam, wenn die Quelle mit dynamischen und nicht-dynamischen Funktionen geändert wurde",
+          "[Building Blocks](/scripting/de-building-blocks.html) - HTTP Requests überarbeitet",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Color Picker integriert",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, bei dem der Dataflow im Skriptbaum an falscher Stelle angezeigt wurde"
+        ]
+        }, {
+          "type": "headline",
+          "text": "Peakboard Hub"
+        }, {
+          "type": "list",
+          "list_items": [
+          "Fix für einen Fehler, bei dem ein Klick auf den Hilfe-Button einen fatalen Fehler verursachte",
+          "Peakboard Hub online freigeschaltet"
+        ]
+        }
+        ]
+      }]
+    }
+  ]
