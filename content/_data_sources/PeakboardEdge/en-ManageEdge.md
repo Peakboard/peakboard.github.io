@@ -9,63 +9,47 @@ ref: dat-2710
 redirect_from:
 ---
 
-![img01](/assets/images/data-sources/peakboard-edge/manage01.png)
+To add a new Peakboard Edge or to manage your existing Peakboard Edge click on the Peakboard Edgde icon (1) in the menu bar to open the Peakboard Edge settings.
 
-Start Designer and open main view
+![Open Peakboard Edge Settings](/assets/images/data-sources/peakboard-edge/en_edge-manage_01.png)
 
-In the menu bar at the top, select "Home". 
+The Peakboard Edge settings are very similar to the Peakboard Box settings.
 
-Click on the "Manage / Test" button in the "PB Edge" field to open the Edge management interface
+In the left pane you will find a list of your already added Peakboard Edge (2). With the [+] symbol (3) you can add a new Peakboard Edge. In the right area you will find different tabs with which you can manage the respective Peakboard Edge. If you select multiple Peakboard Edge, you can perform the displayed actions with multiple Peakboard Edge at the same time.
 
- 
-![img02](/assets/images/data-sources/peakboard-edge/manage02.png)
+![Peakboard Edge settings](/assets/images/data-sources/peakboard-edge/en_edge-manage_02.png)
 
-The management interface is structured analogous to the management interface of Peakboard Boxes. 
+### Add Peakboard Edge
 
-On top: there are different buttons for actions with one or more selected edges.
+After clicking on the [+] symbol, the dialog for adding a new Peakboard Edge opens.
 
-Center: contains all already added Peakboard Edge
+You can select an automatically detected Peakboard Edge (1) or add a Peakboard Edge manually by entering the IP address (2) and the corresponding password (3).
 
-Downstairs: There are two buttons to add a new PB Edge, and to close the interface
+![Add Peakboard Edge](/assets/images/data-sources/peakboard-edge/de_edge-manage_03.png)
 
+### Peakboard Edge settings
 
-### Actions with an Edge:
-In the management interface, select one or more (hold down CTRL) Edge(s). 
+In the tab [General] (1) you have the option to update (2), restart (3) or delete (4) the Peakboard Edge.
+You will also see the name of the Peakboard Edge, the IP address and the current version.
 
-Select a possible action from the upper menu bar. Note: Multi-Edge actions are performed on all selected edges when multiple edges are selected. Single-edge actions can only be performed when exactly one Edge is selected.
+![General](/assets/images/data-sources/peakboard-edge/en_edge-manage_04.png)
 
+In the tab [Test ports] (5) you can check if the devices connected to the Peakboard Edge are working and connected correctly and if the connection to the Peakboard Designer is working correctly. In the upper right corner, [connected] is displayed when the connection has been successfully established. If it takes more than a few seconds for the status to display, there is probably a problem.
 
-### Add a new Edge:
-To manage a Peakboard Edge and to integrate it into a visualization it has to be added to the designer.
+[Received string value] (6) shows the last text value read by the Peakboard Edge. For this, a barcode scanner, a keyboard, an RFID reader or similar must be connected via USB.
 
-![img03](/assets/images/data-sources/peakboard-edge/manage03.png)
+[Sound output] (7) can be used to play a sound on the Peakboard Edge if you have connected a USB speaker.
 
-"Open the "Select Edge" dialog via the "Add" button in the administration dialog
+Via the [OUTPUT] check boxes (8) you can switch the relays on the Peakboard Edge. Correctly working relays can be heard by a clicking sound. This simulates the switching of a connected signal light or similar.
 
-Select one of the displayed Peakboard Edge OR enter the desired data under "Name or IP Address
+The [INPUT] check boxes (9) represent the values of the input pins of the terminal strip. You can change their status for example by connecting a switch.
 
-Enter the password supplied with the Peakboard Edge.
+![Test ports](/assets/images/data-sources/peakboard-edge/en_edge-manage_05.png)
 
-ALTERNATIVE: Enter data for authorization via a proxy.
+In the tab [Logs] (10) you will find an overview of the existing log entries. You can filter and export them.
 
-Confirm via the "OK" button and add the Peakboard Edge to the Designer
+![Logs](/assets/images/data-sources/peakboard-edge/en_edge-manage_06.png)
 
- 
-### Test the connection to Edge:
-The connection test is used to check if a connection between Designer and Edge is possible, as well as to test if the devices connected to the Edge work and are connected correctly.
+In the tab [Peakboard Edge check] (11) you will find an overview of the state of the Peakboard Edge with corresponding status indicators. You can export them (12).
 
-![img04](/assets/images/data-sources/peakboard-edge/manage04.png)
-
-"Open the "Peakboard Edge connection test" dialog via the "Test connection" button of the administration interface
-
-Wait until the "Connection status" is green and a connection to the Edge is established. Note: If it takes longer than a few seconds to connect, there is probably a problem. See the Troubleshooting section → Connection issues may help.
-
-If you already have input or output devices connected to the Edge, you can test them by following these steps:
-
-You can play a sound on the Edge using the sound selector if a USB speaker is connected.
-
-"Received String value" shows the last text value read by the Edge (A barcode scanner, keyboard, RFID reader, ...) must be connected via USB.
-
-Using the "OUTPUT" check boxes the relays on the Peakboard Edge can be switched (can be heard by an acoustic "click" on the Edge. Simulates the switching of a connected traffic light or similar.
-
-The "INPUT" checkboxes represent the values of the input pins of the terminal strip. Their status can be changed by a connected switch, for example.
+![Peakboard Edge check](/assets/images/data-sources/peakboard-edge/en_edge-manage_07.png)

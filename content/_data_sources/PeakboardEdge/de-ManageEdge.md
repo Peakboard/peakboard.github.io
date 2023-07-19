@@ -9,63 +9,47 @@ ref: dat-2710
 redirect_from:
 ---
 
-![img01](/assets/images/data-sources/peakboard-edge/manage01.png)
+Um eine neue Peakboard Edge hinzuzufügen oder deine bestehenden Peakboard Edge zu verwalten, klickst du auf das Peakboard Edgde-Symbol (1) in der Menüleiste, um die Peakboard Edge Einstellungen zu öffnen.
 
-Designer starten und Hauptansicht öffnen
+![Peakboard Edge Einstellungen öffnen](/assets/images/data-sources/peakboard-edge/de_edge-manage_01.png)
 
-In der Menüleiste oben, “Startseite” (“Home”) auswählen 
+Die Peakboard Edge Einstellungen sind sehr ähnlich aufgebaut wie die Peakboard Box Einstellungen.
 
-Auf den Knopf “Verwalten / Testen” (“Manage / Test”) in dem Feld “PB Edge” klicken um die Verwaltungsoberfläche für Edge zu öffnen
+Im linken Bereich findest du eine Liste deiner bereits hinzugefügten Peakboard Edge (2). Über das [+]-Symbol (3) kannst du eine neue Peakboard Edge hinzufügen. Im rechten Bereich findest du verschiedene Tabs, mit denen du die jeweiligen Peakboard Edge verwalten kannst. Wenn du mehrere vorhandene Peakboard Edge auswählst, kannst du die angezeigten Aktionen mit mehreren Peakboard Edge gleichzeitig ausführen.
 
- 
-![img02](/assets/images/data-sources/peakboard-edge/manage02.png)
+![Peakboard Edge Einstellungen](/assets/images/data-sources/peakboard-edge/de_edge-manage_02.png)
 
-Die Verwaltungsoberfläche ist analog zur Verwaltungsoberfläche von Peakboard Boxen aufgebaut. 
+### Peakboard Edge hinzufügen
 
-Oben: befinden sich verschiedene Knöpfe für Aktionen mit einer oder meheren ausgewählten Edge.
+Nach einem Klick auf das [+]-Symbol öffnet sich der Dialog zum Hinzufügen einer neuen Peakboard Edge.
 
-Mittig: befinden sich alle bereits zugefügten Peakboard Edge
+Du kannst eine automatisch erkannte Peakboard Edge auswählen (1) oder eine Peakboard Edge manuell hinzufügen, indem du IP-Adresse (2) und zugehöriges Passwort (3) eingibst.
 
-Unten: Befinden sich zwei Knöpfe zum Zufügen eines neuen PB Edge, sowie zum schließen der Oberfläche
+![Peakboard Edge hinzufügen](/assets/images/data-sources/peakboard-edge/de_edge-manage_03.png)
 
+### Peakboard Edge Einstellungen
 
-### Aktionen mit einem Edge:
-In Verwaltungsoberfläche eines oder mehrere (STRG gedrückt halten) Edge auswählen. 
+Im Tab [Allgemein] (1) hast du die Option, die Peakboard Edge upzudaten (2), neu zu starten (3) oder zu löschen (4).
+Außerdem wird dir der Name der Peakboard Edge, die IP-Adresse und die aktuelle Version angezeigt.
 
-In der oberen Menüleiste mögliche Aktion auswählen. Hinweis: Multi-Edge Aktionen werden bei der Auswahl mehrerer Edges an allen ausgewählten durchgeführt. Single-Edge Aktionen können nur bei der Auswahl genau eines Edge durchgeführt werden.
+![Allgemein](/assets/images/data-sources/peakboard-edge/de_edge-manage_04.png)
 
+Im Tab [Ports testen] (5) kannst du überprüfen, ob die an der Peakboard Edge angeschlossenen Geräte funktionieren und richtig angeschlossen wurden und ob die Verbindung zum Peakboard Designer richtig funktioniert. Oben rechts wird [verbunden] angezeigt, wenn die Verbindung erfolgreich hergestellt wurde. Wenn es länger als ein paar Sekunden dauert, bis der Status angezeigt wird, liegt vermutlich ein Problem vor.
 
-### Zufügen eines neuen Edge:
-Um ein Peakboard Edge verwalten und innerhalb einer Visualisierung einbinden zu können muss es zum Designer hinzugefügt werden.
+[Gelesene Zeichenfolge] (6) zeigt den letzten von der Peakboard Edge gelesenen Textwert an. Dazu muss beispielsweise ein Barcodescanner, eine Tastatur, ein RFID-Reader oder ähnliches über USB angeschlossen sein.
 
-![img03](/assets/images/data-sources/peakboard-edge/manage03.png)
+Über die [Soundausgabe] (7) kann ein Ton auf der Peakboard Edge abgespielt werden, insofern du einen USB-Lautsprecher angeschlossen hast.
 
-“Edge auswählen” (“Select Edge”) Dialog über den “Hinzufügen” (“Add”) Knopf im Verwaltungsdialog öffnen
+Über die [OUTPUT] Check-Boxen (8) kannst du die Relais auf der Peakboard Edge schalten. Korrekt funktionierende Relais kannst du durch ein klackendes Geräusch wahrnehmen. Dies simuliert das Schalten einer angeschlossenen Ampel oder ähnlichem.
 
-Eines der angezeigten Peakboard Edge auswählen ODER unter “Name oder IP-Adresse” (“Name of IP Address”) die gewünschten Daten eingeben
+Die [INPUT] Check-Boxen (9) stellen die Werte der Eingabe Pins der Klemmleiste dar. Ihren Status kannst du zum Beispiel durch einen angeschlossenen Schalter verändern.
 
-Das mitgelieferte Passwort des Peakboard Edge eingeben.
+![Ports testen](/assets/images/data-sources/peakboard-edge/de_edge-manage_05.png)
 
-ALTERNATIV: Daten zur Autorisierung über ein Proxy eingeben.
+Im Tab [Logs] (10) findest du eine Übersicht über die vorhandenen Log-Einträge. Diese kannst du filtern und exportieren.
 
-Über den “OK” Knopf bestätigen und das Peakboard Edge zum Designer zufügen
+![Logs](/assets/images/data-sources/peakboard-edge/de_edge-manage_06.png)
 
- 
-### Verbindung zu Edge testen:
-Der Verbinungstest dient zum überprüfen ob eine Verbindung zwischen Designer und Edge möglich sind, sowie zum Testen ob die am Edge angeschlossenen Geräte funktionieren und richtig angeschlossen wurden.
+Im Tab [Peakboard Edge Prüfung] (11) findest du einen Überblick über den Zustand der Peakboard Edge mit entsprechenden Statusanzeigen. Diesen kannst du exportieren (12).
 
-![img04](/assets/images/data-sources/peakboard-edge/manage04.png)
-
-“Peakboard Edge Verbindung testen” (“Peakboard Edge connection test”) Dialog über den “Verbindungstest” (“Test connection”) Button der Verwaltungsoberfläche öffnen
-
-Warten bis der “Verbindungsstatus” (“Connection status”) grün ist und somit eine Verbindung zum Edge hergestellt wurde. Hinweis: Falls das Herstellen der Verbindung länger als ein paar Sekunden dauert liegt wahrscheinlich ein Problem vor. Ein Blick in den Abschnitt Problembehandlung → Verbindungsprobleme kann hier helfen.
-
-Wurden bereits Ein- oder Ausgabegeräte an das Edge angeschlossen können diese über folgende Schritte getestet werden:
-
-Über die Soundauswahl kann ein Ton auf dem Edge abgespielt werden, insofern ein USB-Lautsprecher angeschlossen wurde.
-
-“Gelesene Zeichenfolge” (“Received String value”) zeigt den letzten vom Edge gelesenen Textwert (Ein Barcodescanner, Tastatur, RFID-Reader,…) müssen über USB angeschlossen sein.
-
-Über die “OUTPUT” Check-Boxen können die Relais auf dem Peakboard Edge geschaltet werden (kann durch ein akkustisches “klacken” auf dem Edge wahrgenommen werden. Simuliert das schalten einer angeschlossenen Ampel oder ähnlichem.
-
-Die “INPUT” Check-Boxen stellen die Werte der Eingabe Pins der Klemmleiste dar. Ihr Status kann zum Beispiel durch einen angeschlossenen Schalter verändert werden.
+![Peakboard Edge Prüfung](/assets/images/data-sources/peakboard-edge/de_edge-manage_07.png)

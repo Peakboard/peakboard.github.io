@@ -9,26 +9,27 @@ ref: dat-2720
 redirect_from:
 ---
 
-A maximum of one Peakboard Edge data source can be used in a visualization. All Peakboard Edge devices that are to be used in the visualization are stored within this data source.
+## Add Peakboard Edge data source
 
-![img01](/assets/images/data-sources/peakboard-edge/add01.png)
+In Explorer via [Data], [Add data source], [Peakboard Edge] (1) add a new data source.
 
-In the main window of the designer a new Edge data source can be created via the explorer: Data->Add Data Source->PB Edge.
+![Peakboard Edge Data Source](/assets/images/data-sources/peakboard-edge/en_edge-add_01.png)
 
-![img02](/assets/images/data-sources/peakboard-edge/add02.png)
+Within the dialog of this data source you can store all Peakboard Edge you want to use in the visualization. First, give the data source a name.
 
-In the interface for managing the Edge data source, individual Edge devices are integrated that are to be used later in the visualization. 
+### Adding a Peakboard Edge to the data source
 
+In the Enter details area, select the Peakboard Edge type you want to use (1).
 
-### Adding a PB Edge:
-Enter a name. This will be used later within the visualization to access the Edge Box to be added.
+Then enter a name in the Peakboard Edge mapping area (2). This will be used later within the visualization to access the Peakboard Edge to be added.
 
-Select OPTIONAL Peakboard Edge. If it is already known which real Peakboard Edge is to be associated with the name, this can be selected here. If this Peakboard Edge has not yet been added in the Designer, it can be added here and in the Designer via "Add new Edge...".
+Then select the Peakboard Edge (3). If you already know which real Peakboard Edge you want to link to the name, you can select it here. If this Peakboard Edge has not been added to the Peakboard Designer yet, you can set [select later...] and add the Peakboard Edge later in the Peakboard Edge settings.
 
-The "Add" button adds a new Edge to the data source.
+Use the [+] symbol (4) to add another Peakboard Edge to the data source.
+Peakboard Edge included in the data source will be displayed as a separate row. You can change the name and the assignment of the real device by clicking on the respective fields.
 
-Edge included in the data source are displayed as separate lines. The name, as well as the assignment of the real device can be adjusted by double-clicking (if the line is already selected, a single click is sufficient) on the respective fields. 
+With a click on the [trash can] symbol (5) you can remove the corresponding line and thus the corresponding Peakboard Edge.
 
-A click on the "magnifying glass" icon opens the connection tester dialog, if a real Edge has already been added to the corresponding line.
+Then click on [Enable listener] (6) to get a preview for already selected Peakboard Edge.
 
-By clicking on the "Trashcan" icon, the corresponding line (the corresponding edge) can be removed. Alternatively the currently selected line can be removed by pressing the "DEL" key.
+![Peakboard Edge data source](/assets/images/data-sources/peakboard-edge/en_edge-add_02.png)

@@ -9,26 +9,27 @@ ref: dat-2720
 redirect_from:
 ---
 
-In einer Visualisierung kann maximal eine Peakboard Edge Datenquelle genutzt werden. Innerhalb dieser Datenquelle werden alle Peakboard Edge Geräte, welche in der Visualisierung verwendet werden sollen hinterlegt.
+## Peakboard Edge Datenquelle hinzufügen
 
-![img01](/assets/images/data-sources/peakboard-edge/add01.png)
+Im Explorer über [Daten], [Datenquelle hinzufügen], [Peakboard Edge] (1) fügst du eine neue Datenquelle hinzu.
 
-Im Hauptfenster des Designers kann eine neue Edge Datenquelle über den Explorer: Data->Datenquelle hinzufügen->PB Edge erstellt werden.
+![Peakboard Edge Datenquelle](/assets/images/data-sources/peakboard-edge/de_edge-add_01.png)
 
-![img02](/assets/images/data-sources/peakboard-edge/add02.png)
+Innerhalb des Dialogs dieser Datenquelle kannst du alle Peakboard Edge, die du in der Visualisierung verwenden möchtest, hinterlegen. Gib der Datenquelle zuerst einen Namen.
 
-In der Oberfläche zum Verwalten der Edge Datenquelle werden einelne Edge Geräte eingebunden, die später in der Visualisierung verwendet werden sollen. 
+### Hinzufügen einer Peakboard Edge zur Datenquelle
 
+Im Bereich Details eingeben wählst du den Peakboard Edge Typ aus, den du verwenden möchtest (1).
 
-### Hinzufügen eines PB Edge:
-Namen eingeben. Dieser wird später innerhalb der Visualisierung zum Zugriff auf die zuzufügende Edge Box genutzt.
+Gib dann im Bereich Peakboard Edge Mapping einen Namen ein (2). Dieser wird später innerhalb der Visualisierung zum Zugriff auf die hinzuzufügende Peakboard Edge genutzt.
 
-OPTIONAL Peakboard Edge auswählen. Falls schon bekannt ist, welches reale Peakboard Edge mit dem Namen verknüpft werden soll, kann dies hier ausgewählt werden. Sollte dieses Peakboard Edge noch nicht im Designer hinzugefügt worden sein, kann es über “Neues Edge hinzufügen…” hier und im Designer zugefügt werden.
+Wähle dann die Peakboard Edge aus (3). Falls schon bekannt ist, welche reale Peakboard Edge du mit dem Namen verknüpfen willst, kannst du diese hier auswählen. Sollte diese Peakboard Edge noch nicht zum Peakboard Designer hinzugefügt worden sein, kannst du [später auswählen...] einstellen und die Peakboard Edge später in den Peakboard Edge Einstellungen hinzufügen.
 
-Über den “Hinzufügen” (“Add”) Knopf wird ein neues Edge zur Datenquelle hinzugefügt.
+Über das [+]-Symbol (4) fügst du eine weitere Peakboard Edge zur Datenquelle hinzu.
+In der Datenquelle eingebundene Peakboard Edge werden jeweils als eigene Zeile dargestellt. Den Namen, sowie die Zuordnung des realen Gerätes kannst du über einen Klick  auf die jeweiligen Felder anpassen.
 
-In der Datenquelle eingebundene Edge werden jeweils als eigene Zeile dargestellt. Der Namen, sowie die Zuordnung des realen Gerätes können über einen Doppelklick (falls die Zeile bereits ausgewählt wurde, reicht ein einfacher Klick) auf die jeweiligen Felder angepasst werden. 
+Mit einem Klick auf das [Mülleimer]-Symbol (5) kannst du die entsprechende Zeile und somit die entsprechende Peakboard Edge entfernen.
 
-Über einen Klick auf das “Lupe”-Icon kommt man in den Verbindungstester Dialog, falls in der entsprechenden Zeile bereits ein reales Edge hinterlegt wurde.
+Klicke dann auf [Empfänger starten] (6), um für bereits ausgewählte Peakboard Edge eine Vorschau angezeigt zu bekommen.
 
-Über das “Mülleimer”-Icon kann die entsprechende Zeile (das entsprechende Edge) entfernt werden. Alternativ kann auch die aktuell ausgewählte Zeile über die “ENTF” (“DEL”) Taste entfernt werden.
+![Peakboard Edge Datenquelle](/assets/images/data-sources/peakboard-edge/de_edge-add_02.png)

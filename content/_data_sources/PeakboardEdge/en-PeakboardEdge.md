@@ -11,7 +11,7 @@ redirect_from:
 
 ![Peakboard Edge](/assets/images/data-sources/peakboard-edge/peakboard-edge_technical-details_en.png)
 
-Peakboard Edge serves as an interface between inputs and outputs and a Peakboard Box. 
+Peakboard Edge serves as an interface between inputs and outputs and a Peakboard Box.
 
 One or more Peakboard Edge are located in the network and communicate with one or more Peakboard Boxes. The Peakboard Box can receive information from or send information to the Peakboard Edge. The Peakboard Edge in turn provides various connection options.
 
@@ -24,11 +24,9 @@ One or more Peakboard Edge are located in the network and communicate with one o
 | Terminal Strip (IN) | 4 current outputs a 3.3 V, 4 inputs | Are divided into pairs. Peakboard Edge detects the state of the inputs |
 | Terminal Strip (OUT) | 4 switchable current pins (up to 24V), 1 current input | 4 switchable pins can be controlled via the Peakboard Edge so that the current from the current input is applied to them |
 
-
 The following devices, for example, can be connected to these connection options:
 
-
-### inputs
+### Inputs
 
 {% include styled_table.html %}
 | Input Device | Connection |
@@ -39,7 +37,6 @@ The following devices, for example, can be connected to these connection options
 | Barcode Scanner | USB |
 | RFID Reader | USB |
 
-
 ### Outputs
 
 {% include styled_table.html %}
@@ -49,7 +46,6 @@ The following devices, for example, can be connected to these connection options
 | Signal Light | Terminal Block |
 | Speakers | USB |
 
-
-By means of a visualization on a Peakboard Box, the information from the input devices on a Peakboard Edge can be displayed on a screen or stored in a database. At the same time the information can be processed. The output devices on a Peakboard Edge can also be controlled via the visualization. 
+By means of a visualization on a Peakboard Box, the information from the input devices on a Peakboard Edge can be displayed on a screen or stored in a database. At the same time the information can be processed. The output devices on a Peakboard Edge can also be controlled via the visualization.
 
 The following steps provide an overview of how Peakboard Edge can be used.
