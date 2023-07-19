@@ -1,9 +1,9 @@
 [{
-  "version": "3.4.0.0",
+  "version": "3.4.0.1",
   "date": "17.07.2023",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardSetup.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.1.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.1.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Format Dialog",
@@ -33,6 +33,7 @@
           "[Peakboard Box] - adjustment in data structure",
           "[Peakboard Box] - user based environment variables moved to configuration file",
           "[Peakboard Box] - pbadmin removed",
+          "[Peakboard Box] - Added possibility to remove the Peakboard user",
           "[Peakboard Box Settings] - fix for bug where role drop-down menu didn't work until dialog was reloaded",
           "[Peakboard Box settings] - fix for a bug where connecting to a hidden SSID was not possible",
           "[Peakboard Box settings] - missing error messages added in case of failed update",
@@ -75,7 +76,8 @@
         "type": "list",
         "list_items": [
           "[Icon](/controls/Common/en-icon.html) - extensive UX improvements",
-          "[Text](/controls/Common/en-text-block.html) - alignment options added"
+          "[Text](/controls/Common/en-text-block.html) - alignment options added",
+          "[Power BI](/controls/Extended/en-power-bi.html) - Fix for a bug where a Power BI tile would not load properly after 12 hours"
         ]
       }, {
 		    "type": "headline",

@@ -1,9 +1,9 @@
 [{
-  "version": "3.4.0.0",
+  "version": "3.4.0.1",
   "date": "17.07.2023",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.0.0/PeakboardSetup.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.1.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.1.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Format Dialog",
@@ -33,6 +33,7 @@
           "[Peakboard Box] - Anpassung in der Datenstruktur",
           "[Peakboard Box] - Benutzerbasierte Umgebungsvariablen in Konfigurationsdatei umgezogen",
           "[Peakboard Box] - pbadmin entfernt",
+          "[Peakboard Box] - Möglichkeit zur Entfernung des Peakboard Nutzers hinzugefügt",
           "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem das Rollen-Drop-down-Menü erst nach dem neu Laden des Dialogs funktionierte",
           "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem die Verbindung zu einer versteckten SSID nicht möglich war",
           "[Peakboard Box Einstellungen] - Fehlende Fehlermeldungen ergänzt bei fehlgeschlagener Aktualisierung",
@@ -75,7 +76,8 @@
         "type": "list",
         "list_items": [
           "[Icon](/controls/Common/de-icon.html) - umfassende UX-Verbesserungen",
-          "[Text](/controls/Common/de-text-block.html) - Ausrichtungsoptionen hinzugefügt"
+          "[Text](/controls/Common/de-text-block.html) - Ausrichtungsoptionen hinzugefügt",
+          "[Power BI](/controls/Extended/de-power-bi.html) - Fix für einen Fehler, bei dem eine Power BI Kachel nach 12 Stunden nicht mehr richtig geladen wurde"
         ]
       }, {
 		    "type": "headline",
