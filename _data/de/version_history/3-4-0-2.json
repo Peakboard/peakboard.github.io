@@ -1,9 +1,9 @@
 [{
-  "version": "3.4.0.1",
+  "version": "3.4.0.2",
   "date": "17.07.2023",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.1.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.1.0/PeakboardSetup.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.2.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.2.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Format Dialog",
@@ -37,6 +37,7 @@
           "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem das Rollen-Drop-down-Menü erst nach dem neu Laden des Dialogs funktionierte",
           "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem die Verbindung zu einer versteckten SSID nicht möglich war",
           "[Peakboard Box Einstellungen] - Fehlende Fehlermeldungen ergänzt bei fehlgeschlagener Aktualisierung",
+          "[Peakboard Edge] - Fix für einen Fehler, bei dem der Verbindungsstatus in den Peakboard Edge Einstellungen falsch angezeigt wurde",
           "[Ressourcen](/misc/de-ressourcen.html) - Ressourcenreferenzierung per ID",
           "[Ressourcen](/misc/de-ressourcen.html) - Fix für einen Fehler, bei dem eine Ressource im entsprechenden Control nicht richtig dargestellt wurde",
           "Format-Dialog umfassend überarbeitet - 3 Arten von Formaten: Zahl, Datum und Zeit, Zeitspanne. Weitere Informationen in den Highlights"
@@ -55,6 +56,7 @@
           "[Reload Flows](/misc/de-reloadflows.html) - Datenquellen die einen Reload Flow auslösen zeigen dies jetzt in ihrem Datenquellendialog an",
           "[E-Mail](/data_sources/de-mail.html) - Fix für einen Fehler, bei dem eine Internetverbindung gefordert wurde, obwohl ein lokaler smtp Server definiert war",
           "[JSON](/data_sources/de-json.html) - Fix für einen Fehler, bei dem Daten verloren gingen, wenn der Spaltenname einen Punkt enthielt",
+          "[Google Spreadsheets](/data_sources/de-google-spreadsheets.html) - Fix für einen Fehler, bei dem das Zugriffstoken nach 1-12 Stunden ablief",
           "Empty State von geskripteten URLs in Datenquellen verbessert"
         ]
       }, {
