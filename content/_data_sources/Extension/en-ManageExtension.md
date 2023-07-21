@@ -9,41 +9,43 @@ ref: dat-2605
 redirect_from:
 ---
 
-### Adding extensions
-To add an extension to the Peakboard Designer, you need the extension as a zip file.
-Via the button [General] in the menu bar and a click on [Extensions] (1) you reach the management dialog of the extensions.
+### Add and delete extensions
 
-![Add extension](/assets/images/data-sources/extension/Peakboard-Extension_add-01_en.png)
+Via [Data], [Add data source], [Extensions] and [Manage extensions] (1) you can access the management dialog for the Peakboard Extensions.
 
-There you click on the button [Add/Update] (2) and select your zip file.
+![Manage extensions](/assets/images/data-sources/extension/en_extension_add-01.png)
 
-![Add extension](/assets/images/data-sources/extension/Peakboard-Extension_add-02_en.png)
+You'll find an overview of the extensions provided by Peakboard. Already installed extensions are marked accordingly (1).
+To install an extension, click on the [Install] (2) button below the desired extension.
+To delete already installed extensions, click on the trash can icon (3) below the respective extension.
 
-After restarting the Peakboard Designer, the extension appears under [Data sources] (3) as well as in the management dialog of the extensions.
+![Add extension](/assets/images/data-sources/extension/en_extension_add-02.png)
 
-![Add extension](/assets/images/data-sources/extension/Peakboard-Extension_add-03_en.png)
+To apply the changes, you have to restart the Peakboard Designer.
+The currently added extensions are now visible under [Data], [Add data source], [Extensions] (4).
+Deleted extensions are no longer visible there.
+
+![Add extension](/assets/images/data-sources/extension/en_extension_add-03.png)
 
 <div class="box-warning" markdown="1">
 **Caution!**
 
-It is not necessary to modify the Peakboard Box in any way. 
-The extension is automatically loaded onto the Peakboard Box by the deploy process of a dashboard.
+It is not necessary to modify the Peakboard Box in any way.
+The extension is automatically loaded onto the Peakboard Box by the deployment process of a dashboard.
 </div>
 
-### Deleting extensions
-To delete added extensions open the extension management dialog ([General], [Extensions]) and click on the arrow for the drop-down menu in the column [Action] and select [Delete] (4).
+### Write extensions yourself
 
-![Delete extension](/assets/images/data-sources/extension/Peakboard-Extension_delete_en.png)
+If you want to adapt the extensions or write your own extension, you can also find the existing extensions in our [GitHub repository](https://github.com/Peakboard/PeakboardExtensions) and helpful articles e.g. [here](https://help.peakboard.com/data_sources/Extension/de-DatasourceNoUI.html) in the Peakboard help.
+The examples are kept simple and show the applicable architecture clearly.
+Each extension is available in source code (directory SourceCode) and as a file to install (binaries).
 
-After restarting the Peakboard Designer, the extension no longer appears in the data sources or the extensions management dialog.
+### Installing your own Extension
 
-### Downloading extension examples
-You can find some extensions in our [Template Gallery](https://templates.peakboard.com/en/) which can be used directly.
-Download the extension and add it to the Peakboard Designer as described above.
+To add your own extension to Peakboard Designer, you need the extension as a zip file.
+Click in the Extension management under [Data], [Add data source], [Extensions] and [Manage extensions] on [Add custom extension] (1), then select the zip file to install the extension.
 
-![Download extension](/assets/images/data-sources/extension/Peakboard-Extension_download_en.png)
+![Add your own extension](/assets/images/data-sources/extension/en_extension_add-04.png)
 
-### Writing your own extensions
-If you want to adapt the extensions or write your own extension, you can also find the existing extensions in our [Github repository](https://github.com/Peakboard/PeakboardExtensions) and helpful articles such as [this one](https://help.peakboard.com/data_sources/Extension/en-DatasourceNoUI.html) in the Peakboard help. 
-The examples are kept simple and show the applicable architecture clearly. 
-Each extension is available in source code (directory SourceCode) and as a file for import (binaries).
+To apply the changes, you have to restart the Peakboard Designer.
+The newly added custom extension is now visible under [Data], [Add data source], [Extensions].
