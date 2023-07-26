@@ -11,51 +11,57 @@ Before you start, save your license via the Peakboard Designer. Open the Peakboa
 
 ![Save license](/assets/images/admin/domain/domain-powershell_01_en.png)
 
-> ## IMPORTANT!
->
-> Run PowerShell as administrator to reboot your Peakboard Box. Please enter the following commands and confirm each of them with [Enter]. 
+## IMPORTANT!
 
+Run PowerShell as administrator to reboot your Peakboard Box. Please enter the following commands and confirm each of them with [Enter].
 
 * Use this command to open the remote connection setting:
-```
-> net start WinRM
+
+```powershell
+net start WinRM
 ```
 
-* Enter the IP address of the Peakboard Box without [&lt;&gt;]. For example -Value 192.168.0.1: 
-```
-> Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the Peakboard Box>
+* Enter the IP address of the Peakboard Box without [&lt;&gt;]. For example -Value 192.168.0.1:
+
+```powershell
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the Peakboard Box>
 ```
 
 * If the following text appears, press [y] to acknowledge it.
-```
+
+```powershell
 Use this command to change the TrustedHosts list for the WinRM client. The computers in the TrustedHosts list may not be authenticated. The client may send credentials to these computers.
 Are you sure you want to change this list?
 [Y] Yes [N] No [H] Stop [?] Help (default is "Y"): 
 ```
 
 * Now connect the Peakboard Box.
-```
-> Enter-PSSession -ComputerName <IP address of the Peakboard Box> -Credential pbadmin
+
+```powershell
+Enter-PSSession -ComputerName <IP address of the Peakboard Box> -Credential pbadmin
 ```
 
 * Log out the Peakboard user remotely.
-```
-> logoff 1
+
+```powershell
+logoff 1
 ```
 
 * Disable automatic login after startup.
-```
->$RegistryPath = 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon'
-> Remove-ItemProperty -Path $RegistryPath -Name 'AutoAdminLogon' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonCount' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonSID' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'DefaultPassword' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'DefaultUserName' -Force
+
+```powershell
+$RegistryPath = 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon'
+Remove-ItemProperty -Path $RegistryPath -Name 'AutoAdminLogon' -Force
+Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonCount' -Force
+Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonSID' -Force
+Remove-ItemProperty -Path $RegistryPath -Name 'DefaultPassword' -Force
+Remove-ItemProperty -Path $RegistryPath -Name 'DefaultUserName' -Force
 ```
 
 * Add the Peakboard Box to the domain.
-```
-> Add-Computer -DomainName domain.local -Credential domain\<domainadmin-user>
+
+```powershell
+Add-Computer -DomainName domain.local -Credential domain\<domainadmin-user>
 ```
 
 After joining the domain, you need to set up an appropriate Active Directory user for the AutoLogon.
