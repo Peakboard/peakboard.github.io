@@ -4,8 +4,8 @@ title: Tabellendaten manipulieren
 menu_title: Tabellendaten manipulieren
 description: Tabellendaten manipulieren
 lang: de
-weight: 400
-ref: scr-400
+weight: 903
+ref: scr-903
 redirect_from:
   - /scripting/04-de-manipulieren.html
 ---

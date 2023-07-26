@@ -4,8 +4,8 @@ title: Colorize Table Grids
 menu_title: Colorize Table Grids
 description: Colorize Table Grids
 lang: en
-weight: 500
-ref: scr-500
+weight: 904
+ref: scr-904
 redirect_from:
   - /scripting/05-en-formatting.html
 ---

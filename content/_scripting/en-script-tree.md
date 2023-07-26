@@ -4,8 +4,8 @@ title: Peakboard Script Tree
 menu_title: Peakboard Script Tree
 description: Informatinon about the Peakboard Script Tree
 lang: en
-weight: 102
-ref: scr-102
+weight: 900
+ref: scr-900
 redirect_from:
 ---
 

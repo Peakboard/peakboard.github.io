@@ -4,8 +4,8 @@ title: Daten per Skript weiterverarbeiten
 menu_title: Daten per Skript weiterverarbeiten
 description: Daten per Skript weiterverarbeiten
 lang: de
-weight: 300
-ref: scr-300
+weight: 902
+ref: scr-902
 redirect_from:
   - /scripting/03-de-tabellen-daten.html
 ---

@@ -4,8 +4,8 @@ title: Variablen und Listen
 menu_title: Variablen und Listen
 description: Variablen und Listen
 lang: de
-weight: 200
-ref: scr-200
+weight: 130
+ref: scr-130
 redirect_from:
   - /data_sources/01-de-variablen.html
 ---

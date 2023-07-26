@@ -4,8 +4,8 @@ title: Postprocessing Table Data
 menu_title: Postprocessing Table Data
 description: Postprocessing Table Data
 lang: en
-weight: 300
-ref: scr-300
+weight: 902
+ref: scr-902
 redirect_from:
   - /scripting/03-en-table-data.html
 ---

@@ -4,8 +4,8 @@ title: Peakboard Script Editor
 menu_title: Peakboard Script Editor
 description: Information about the Peakboard Script Editor
 lang: en
-weight: 101
-ref: scr-101
+weight: 110
+ref: scr-110
 redirect_from:
 ---
 

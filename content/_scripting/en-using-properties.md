@@ -4,8 +4,8 @@ title: Using Peakboard Box Properties
 menu_title:  Using Peakboard Box Properties
 description:  Using Peakboard Box Properties
 lang: en
-weight: 600
-ref: scr-600
+weight: 905
+ref: scr-905
 redirect_from:
   - /scripting/06-en-using-properties.html
 ---

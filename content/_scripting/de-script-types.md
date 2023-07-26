@@ -4,8 +4,8 @@ title: Die Peakboard-Skript-Typen
 menu_title: Die Peakboard-Skript-Typen
 description: Informatinon über die Peakboard-Skript-Typen
 lang: de
-weight: 103
-ref: scr-103
+weight: 901
+ref: scr-901
 redirect_from:
 ---
 

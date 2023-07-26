@@ -4,8 +4,8 @@ title: Quick Tipp - Visualisierung mit einem Presenter schalten
 menu_title: Quick Tipp - Visualisierung mit einem Presenter schalten
 description: Quick Tipp - Visualisierung mit einem Presenter schalten
 lang: de
-weight: 900
-ref: scr-900
+weight: 908
+ref: scr-908
 redirect_from:
   - /misc/08-de-presenter.html
   - /misc/de-presenter.html

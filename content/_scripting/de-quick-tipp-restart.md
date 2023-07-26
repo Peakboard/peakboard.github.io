@@ -4,8 +4,8 @@ title: Quick Tipp - Geplanter Neustart
 menu_title: Quick Tipp - Geplanter Neustart
 description: Die Peakboard Box zu einer geplanten Uhrzeit neu starten
 lang: de
-weight: 850
-ref: scr-850
+weight: 907
+ref: scr-907
 redirect_from:
 ---
 

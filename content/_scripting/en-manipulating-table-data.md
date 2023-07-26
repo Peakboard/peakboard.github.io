@@ -4,8 +4,8 @@ title: Manipulating Table Data
 menu_title: Manipulating Table Data
 description: Manipulating Table Data
 lang: en
-weight: 400
-ref: scr-400
+weight: 903
+ref: scr-903
 redirect_from:
   - /scripting/04-en-manipulating-table-data.html
 ---

@@ -4,8 +4,8 @@ title: Quick tip - switch visualization with a presenter
 menu_title: Quick tip - switch visualization with a presenter
 description: Quick tip - switch visualization with a presenter
 lang: en
-weight: 900
-ref: scr-900
+weight: 908
+ref: scr-908
 redirect_from:
   - /misc/08-en-presenter.html
   - /misc/en-presenter.html

@@ -4,8 +4,8 @@ title: Peakboard Script Types
 menu_title: Peakboard Script Types
 description: Informatinon about the Peakboard Script Types
 lang: en
-weight: 103
-ref: scr-103
+weight: 901
+ref: scr-901
 redirect_from:
 ---
 

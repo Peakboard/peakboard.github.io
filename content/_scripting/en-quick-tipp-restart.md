@@ -4,8 +4,8 @@ title: Quick tip - scheduled restart
 menu_title: Quick tip - scheduled restart
 description: Restart the Peakboard Box at a scheduled time
 lang: en
-weight: 850
-ref: scr-850
+weight: 907
+ref: scr-907
 redirect_from:
 ---
 

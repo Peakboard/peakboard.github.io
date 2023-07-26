@@ -4,8 +4,8 @@ title: Färben von Tabellen-Grids
 menu_title: Färben von Tabellen-Grids
 description: Färben von Tabellen-Grids
 lang: de
-weight: 500
-ref: scr-500
+weight: 904
+ref: scr-904
 redirect_from:
   - /scripting/05-de-formatieren.html
 ---

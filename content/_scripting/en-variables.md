@@ -4,8 +4,8 @@ title: Variables and Lists
 menu_title: Variables and Lists
 description: Variables and Lists
 lang: en
-weight: 200
-ref: scr-200
+weight: 130
+ref: scr-130
 redirect_from:
   - /data_sources/01-en-variablen.html
 ---

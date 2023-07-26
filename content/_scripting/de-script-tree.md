@@ -4,8 +4,8 @@ title: Der Peakboard-Skript-Baum
 menu_title: Der Peakboard-Skript-Baum
 description: Informatinon über den Peakboard-Skript-Baum
 lang: de
-weight: 102
-ref: scr-102
+weight: 900
+ref: scr-900
 redirect_from:
 ---
 

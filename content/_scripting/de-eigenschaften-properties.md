@@ -4,8 +4,8 @@ title: Peakboard Box Eigenschaften (Properties) nutzen
 menu_title: Peakboard Box Eigenschaften (Properties) nutzen
 description: Peakboard Box Eigenschaften (Properties) nutzen
 lang: de
-weight: 600
-ref: scr-600
+weight: 905
+ref: scr-905
 redirect_from:
   - /scripting/06-de-eigenschaften-properties.html
 ---

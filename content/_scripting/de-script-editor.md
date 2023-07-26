@@ -4,8 +4,8 @@ title: Peakboard-Skript-Editor
 menu_title: Peakboard-Skript-Editor
 description: Information über den Peakboard-Skript-Editor
 lang: de
-weight: 101
-ref: scr-101
+weight: 110
+ref: scr-110
 redirect_from:
 ---
 

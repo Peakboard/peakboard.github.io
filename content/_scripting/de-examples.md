@@ -4,8 +4,8 @@ title: Beispiele
 menu_title: Beispiele
 description: Beispiele
 lang: de
-weight: 700
-ref: scr-700
+weight: 200
+ref: scr-200
 redirect_from:
 ---
 
