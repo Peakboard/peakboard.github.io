@@ -26,6 +26,8 @@ Oberhalb der Arbeitsfläche (2) findest du jeweils einen Button zum [auskommenti
 Weitere hilfreiche Tastenkombinationen findest du am Ende dieses Artikels.
 </div>
 
+![Skript-Editor](/assets/images/scripting/editor/de_script-editor-02.png)
+
 Der Skript-Baum (6) soll das Arbeiten mit Skripten erleichtern. Hierzu finden sich dort bereits vordefinierte Funktionen und Beispiele, welche einfach per Doppelklick an der Stelle des Cursors eingesetzt werden können. Er enthält neben den zuvor im Peakboard Designer angelegten Elementen des Explorers wie zum Beispiel [Daten], [Dataflows], [Variablen], [Reload Flows], [Ressources] und [Controls]/[Screens] auch [Timer Skripte], [Logik & Schleifen], [Mathematik] und viele weitere Funktionen, sowie unter anderem alle Verbindungen aus deinem aktuellen Projekt unter [In externem System veröffentlichen].
 
 Mithilfe der Ordner auf der linken Seite des Skript-Editors (7) navigierst du durch deine bisher angelegten Skripte im aktuellen Projekt, ohne den Editor dabei verlassen zu müssen. Skripte aus Dataflows sind dort nicht aufgeführt.

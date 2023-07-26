@@ -26,6 +26,8 @@ The magnifying glass button (5) or the key combination [Ctrl+F] will take you to
 For more helpful keyboard shortcuts, see the end of this article.
 </div>
 
+![Skript-Editor](/assets/images/scripting/editor/en_script-editor-02.png)
+
 The script tree (6) is intended to make working with scripts easier. It contains predefined functions and examples, which can be inserted at the cursor position by simply double-clicking. In addition to the elements of the explorer previously created in the Peakboard Designer, such as [Data], [Dataflows], [Variables], [Reload flows], [Resources] and [Controls]/[Screens], it also contains [Timer scripts], [Logic & loops], [Math] and many other functions, as well as, among other things, all connections from your current project under [Publish in external system].
 
 Using the folders on the left side of the script editor (7) you can navigate through your previously created scripts in the current project without having to leave the editor. Scripts from dataflows are not listed there.
