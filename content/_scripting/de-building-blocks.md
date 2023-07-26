@@ -13,7 +13,7 @@ Peakboard bietet dir mit der [bedingten Formatierung](/controls/de-cf.html) ein 
 
 ### Peakboard Building Blocks im Skript-Editor
 
-Im [Skript-Editor](/scripting/de-script-editor.html) hast du die Möglichkeit über den Regler oben Rechts auszuwählen, ob du den benötigten Code selbst schreiben oder mithilfe der Peakboard Building Blocks zusammenklicken möchtest.
+Im [Skript-Editor](/scripting/de-script-editor.html) hast du die Möglichkeit über den Regler oben Rechts auszuwählen, ob du den benötigten Code mithilfe der Peakboard Building Blocks zusammenklicken oder selbst schreiben möchtest.
 
 <div class="box-warning" markdown="1">
 **Vorsicht**

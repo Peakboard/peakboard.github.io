@@ -13,7 +13,7 @@ Peakboard offers you [conditional formatting](/controls/de-cf.html), a tool for 
 
 ### Peakboard building blocks in the script editor
 
-In the [script editor](/scripting/en-script-editor.html), you have the option to select whether you want to write the required code yourself or combine it with the help of the Peakboard building blocks using the slider at the top right.
+In the [script editor](/scripting/en-script-editor.html), you have the option to select whether you want to combine the required code with the help of the Peakboard building blocks or write it yourself using the slider at the top right.
 
 <div class="box-warning" markdown="1">
 **Caution**.

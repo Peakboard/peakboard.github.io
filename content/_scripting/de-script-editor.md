@@ -14,7 +14,7 @@ In der nachfolgenden Abbildung siehst du am Beispiel eines Timer-Skripts, wie de
 
 ![Skript-Editor](/assets/images/scripting/editor/de_script-editor-01.png)
 
-Wenn du den Skript-Editor öffnest, kannst du dich entscheiden, ob du im klassischen textbasierten Editor arbeiten willst, oder in den [Building Block Mode](/scripting/de-building-blocks.html) wechseln willst (1).
+Wenn du den Skript-Editor öffnest, kannst du dich entscheiden, ob du im [Building Block Mode](/scripting/de-building-blocks.html) arbeiten willst, oder in den klassischen textbasierten Editor wechseln willst (1).
 
 Oberhalb der Arbeitsfläche (2) findest du jeweils einen Button zum [auskommentieren] (3) sowie einen zum [entkommentieren] (4).
 
@@ -28,7 +28,7 @@ Weitere hilfreiche Tastenkombinationen findest du am Ende dieses Artikels.
 
 ![Skript-Editor](/assets/images/scripting/editor/de_script-editor-02.png)
 
-Der Skript-Baum (6) soll das Arbeiten mit Skripten erleichtern. Hierzu finden sich dort bereits vordefinierte Funktionen und Beispiele, welche einfach per Doppelklick an der Stelle des Cursors eingesetzt werden können. Er enthält neben den zuvor im Peakboard Designer angelegten Elementen des Explorers wie zum Beispiel [Daten], [Dataflows], [Variablen], [Reload Flows], [Ressources] und [Controls]/[Screens] auch [Timer Skripte], [Logik & Schleifen], [Mathematik] und viele weitere Funktionen, sowie unter anderem alle Verbindungen aus deinem aktuellen Projekt unter [In externem System veröffentlichen].
+Der Skript-Baum (6) soll das Arbeiten mit Skripten erleichtern. Hierzu findest du dort bereits vordefinierte Funktionen und Beispiele, die du einfach per Doppelklick an der Stelle des Cursors einsetzen kannst. Er enthält neben den zuvor von dir im Peakboard Designer angelegten Elementen des Explorers wie zum Beispiel [Daten], [Dataflows], [Variablen], [Reload Flows], [Ressources] und [Controls]/[Screens] auch [Timer Skripte], [Logik & Schleifen], [Mathematik] und viele weitere Funktionen, sowie unter anderem alle Verbindungen aus deinem aktuellen Projekt unter [In externem System veröffentlichen].
 
 Mithilfe der Ordner auf der linken Seite des Skript-Editors (7) navigierst du durch deine bisher angelegten Skripte im aktuellen Projekt, ohne den Editor dabei verlassen zu müssen. Skripte aus Dataflows sind dort nicht aufgeführt.
 
