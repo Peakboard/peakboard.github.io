@@ -9,7 +9,8 @@ ref: dat-2500
 redirect_from:
   - /data_sources/21-en-siemens-s7.html
 ---
-In general, there are several ways to process machine data in Peakboard, e.g. via a cloud-based IoT hub (like from Azure or Google) or a MQTT server. The Siemens S7 data source enables the Peakboard-Box to be connected directly to an S7 controller. If the control network is separated from the "normal" business network in the respective environment, the box can receive a second LAN connection via USB, which is connected to the business network (e.g. for SAP access) on one side and to the S7 control network on the other.
+
+Peakboard offers you several ways to process machine data, e.g. via a cloud-based IoT hub (such as from Azure or Google) or an MQTT server. The Siemens S7 data source allows you to connect the Peakboard Box directly to an S7 controller. In case the control network is separated from the "normal" business network in your respective environment, the box can get a second LAN port via USB, which is connected to the business network on one side (e.g. for SAP access) and to the S7 control network on the other side.
 
 ## Prerequisites
 
@@ -25,59 +26,37 @@ The following screenshot shows the raw view of a data block from the S7 programm
 
 ![Data Block](/assets/images/data-sources/siemens-s7/datenquelle-s7-02-data-block.png)
 
+## Connecting in the Peakboard Designer
 
-## Connecting the Peakboard-Designer
+To connect Peakboard to the S7, create a data source under [Data], [Add data source], [Siemens S7] (1).
 
-To connect Peakboard to the S7, create a corresponding data source. Enter a mandatory name, IP address, slot and rack. Models 1200, 1500, 200, 300 and 400 are currently supported when specifying the S7 CPU. The reload interval specifies how much time passes until the next data update. You can use Max Items to define the number of values that are later to be included in the table. The most current variable value always comes first in the table. It only makes sense to enter a value greater than 1 if you want to access the values before (!) the current call later in a script.
+![Add data source](/assets/images/data-sources/siemens-s7/en_s7_add-datasource.png)
 
-![Data Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-03-edit-data-dialog.png)
+Enter a name (2), the IP address (3), rack (4) and slot (5). The reload interval (6) specifies how much time elapses until the next data update.
+
+![Configure data source](/assets/images/data-sources/siemens-s7/en_s7_configure-datasource.png)
 
 ## Variable definition
 
-An entry must be made manually for each variable to be retrieved. To do this, a unique name must be entered, but it does not have to be the same as the variable on the controller. Furthermore, the position of the variable must be defined. This includes whether the variable is in a data block, flag, output or input (type) and the offset which specifies the memory address of the variable.
+For each variable to be retrieved you have to make an entry manually. To add a new variable, click on the [+] symbol (7). You have to choose a unique name (8), but it does not have to be the same as the variable on the controller. Furthermore you have to define the position of the variable. This includes whether the variable is in a data block, flag, output or input (Type) and the offset, which specifies the memory address of the variable.
 
-![Edit Variable Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-04-edit-variable-dialog.png)
+![Add variable](/assets/images/data-sources/siemens-s7/en_s7_add-variable.png)
 
-When defining the offset, note the special formatting features that depend on the data type.
-If a variable of the data type Bit, i.e. a boolean value, is to be read, the offset must be specified in the form [Byte.Bit]. Valid values are, for example, "0.0" or "2.7".
+When defining the offset, you have to consider special formatting features, which depend on the data type. If you want to read a variable of the data type Bit, i.e. a Boolean value, you have to specify the offset in the form [Byte.Bit]. Valid values are for example [0.0] or [2.7].
 
-## Bundle variables into structures
+## Writing variables
 
-Often a controller provides a multitude of values. If you want to obtain a large number of variables, there is a risk that the data source configuration will quickly become confusing.
-To avoid this problem, it is possible to bundle variables into structures and thus organize them locally or thematically.
-First click on the "add custom" button.
-In the following dialog, variables can be added in addition to the mandatory name. Note that a structure must contain at least two variables.
-
-![Edit Custom Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-05-edit-custom-dialog.png)
-
-Variables that are stored in a structure are later displayed on an equal level with all other values in the table.
-An example configuration could look like this.
-
-![Struct Pattern](/assets/images/data-sources/siemens-s7/datenquelle-s7-06-struct-pattern.png)
-
-All variables that are in connection with line 1 and thus on data block #3 are stored here in their own structure.
-
-With a click on Preview, the Peakboard Designer connects to the S7 controller, retrieves the current values and visualizes them in a table.
-
-![Preview Dialog](/assets/images/data-sources/siemens-s7/datenquelle-s7-07-preview-dialog.png)
-
-The data source can now be used as usual in Peakboard, e.g. by binding or with the help of a script. Please pay attention: The data source refreshed event is only fired if at least one variable has changed. If all variables remain the same, NO event is triggered.
-
-## Writing Variables
-
-Setting values on S7 controls is only possible with Lua-Script. There are four methods, one for each type of memory. These methods can be found in the script editor under "Write to PLC" of the data source.
+Setting values on S7 controllers is possible only with Lua script. There are four methods for this, one for each type of memory. These methods can be found in the script editor under [FUNCTIONS], [Publish to external system], [Siemens S7], [Write to PLC].
 Note that the variable to be written does not have to be stored in the data source.
 
-![Write Methods](/assets/images/data-sources/siemens-s7/datenquelle-s7-08-write-methods.png)
+![Write variables](/assets/images/data-sources/siemens-s7/en_s7_write-variable.png)
 
-The syntax of the methods is largely identical, whereby only the essential information of the attributing variable is required.
+The syntax of the methods is largely identical, whereby only the essential information of the variable to be written to is required.
+
 Such a command has the following pattern:
 
-```lua
-Data.[plc].setvar( ([Datenblocknummer], )[Offset], [Datentyp], [Wert] )
+``lua
+data.[plc].setvar( ([data block number], )[offset], [data type], [value] )
 ```
 
-The data block number is only required if you want to write to a data block and is specified as an integer.
-The offset is specified as in the variable configuration dialog.
-The same applies to the data type.
-Like offset and data type, the value is specified as a character string ('value').
+The data block number is only needed if a data block is to be written to and is specified as an integer. The offset is specified as in the variable configuration dialog. The same applies to the data type. The value is specified, like offset and data type, as a string ('value').
