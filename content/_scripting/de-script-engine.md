@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Die Peakboard-Skript-Engine
-menu_title: Die Peakboard-Skript-Engine
-description: Informatinon über die Peakboard Skript Engine
+title: Peakboard-Skript-Engine
+menu_title: Peakboard-Skript-Engine
+description: Information über die Peakboard Skript Engine
 lang: de
 weight: 100
 ref: scr-100
@@ -10,20 +10,21 @@ redirect_from:
   - /scripting/01-de-script-engine.html
 ---
 
-Eine der Grundideen hinter Peakboard ist, dass der End-User keinerlei Kenntnisse im Programmieren mitbringen muss.
+Der Peakboard Designer ist eine Low-Code-Software, mit der du komplexe Anwendungen ohne umfangreiche Programmierkenntnisse erstellen kannst.
+Basierend auf dieser Idee ermöglichen dir die [Dataflows](/dataflows/de-erste-schritte.html) eine Vielzahl von Funktionen, für die normalerweise Skripte notwendig wären.
 
-Basierend auf dieser Idee ermöglichen die [Dataflows](/dataflows/de-erste-schritte.html) eine Vielzahl von Funktionen für die normalerweise Skripte notwendig wären.
-
-Dennoch werden vereinzelt Skripte benötigt, um beispielsweise
+Dennoch benötigst du vereinzelt Skripte, um beispielsweise
 
 * Interaktivität zu erzeugen (z.B. bei einem Touchscreen)
-* [Daten in einem Dataflow zu filtern](/dataflows/de-daten-filtern.html)
-* komplexe Regeln zur Formatierung und Anzeige von Texten zu erstellen
+* [Daten in einem Dataflow zu filtern](/dataflows/de-filtern-und-sortieren.html)
+* Komplexe Regeln zur Formatierung und Anzeige von Texten zu erstellen
 * Informationen in eine Datenbank oder nach SAP zurückzuschreiben
 
- 
-Die grundlegende Skriptsprache ist Lua, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials.
-In Lua können die Datentypen, String, Number und Boolean verwendet werden.
-Ebenso können eigene Funktionen damit angelegt werden.
+Die grundlegende Skriptsprache im Peakboard Designer ist Lua, dazu gibt es im Internet zahlreiche Dokumentationen und Tutorials.
+Im Peakboard Designer kann Lua die Datentypen, String, Number und Boolean verwenden.
+Ebenso kannst du eigene Funktionen damit anlegen.
 
-Eine sehr schöne Dokumentation finden Sie auf [dieser Internetseite](https://www.lua.org/docs.html).
+![Lua Skripte](/assets/images/scripting/engine/de_script-engine-01.gif)
+
+Eine sehr umfangreiche Dokumentation findest du beispielsweise auf [lua.org](https://www.lua.org/docs.html).
+Wie du Lua Skripte im Peakboard Designer verwenden kannst, findest du in den nachfolgenden Artikeln.
