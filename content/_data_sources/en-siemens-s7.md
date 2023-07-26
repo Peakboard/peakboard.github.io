@@ -10,7 +10,7 @@ redirect_from:
   - /data_sources/21-en-siemens-s7.html
 ---
 
-Peakboard offers you several ways to process machine data, e.g. via a cloud-based IoT hub (such as from Azure or Google) or an MQTT server. The Siemens S7 data source allows you to connect the Peakboard Box directly to an S7 controller. In case the control network is separated from the "normal" business network in your respective environment, the box can get a second LAN port via USB, which is connected to the business network on one side (e.g. for SAP access) and to the S7 control network on the other side.
+Peakboard offers you several ways to process machine data, e.g. via a cloud-based IoT hub (such as from Azure or Google) or an MQTT server. The Siemens S7 data source allows you to connect the Peakboard Box directly to an S7 controller.
 
 ## Prerequisites
 

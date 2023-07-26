@@ -10,7 +10,7 @@ redirect_from:
   - /data_sources/21-de-siemens-s7.html
 ---
 
-Peakboard bietet dir mehrere Möglichkeiten, Maschinendaten zu verarbeiten, z.B. über einen cloudbasierten IoT-Hub (wie von Azure oder Google) oder einen MQTT-Server. Die Siemens-S7-Datenquelle ermöglicht es dir, die Peakboard Box direkt an eine S7-Steuerung anzubinden. Für den Fall, dass in deiner jeweiligen Umgebung das Steuernetz vom „normalen“ Business-Netz getrennt ist, kann die Box über USB einen zweiten LAN-Anschluss bekommen, der auf der einen Seite mit dem Business Netz (z.B. für den SAP-Zugriff) und auf der anderen Seite mit dem S7-Steuernetz verbunden ist.
+Peakboard bietet dir mehrere Möglichkeiten, Maschinendaten zu verarbeiten, z.B. über einen cloudbasierten IoT-Hub (wie von Azure oder Google) oder einen MQTT-Server. Die Siemens-S7-Datenquelle ermöglicht es dir, die Peakboard Box direkt an eine S7-Steuerung anzubinden.
 
 ## Voraussetzungen
 
