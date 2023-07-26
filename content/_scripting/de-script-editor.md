@@ -1,39 +1,39 @@
 ---
 layout: article
-title: Der Peakboard-Skript-Editor
-menu_title: Der Peakboard-Skript-Editor
-description: Informatinon über den Peakboard-Skript-Editor
+title: Peakboard-Skript-Editor
+menu_title: Peakboard-Skript-Editor
+description: Information über den Peakboard-Skript-Editor
 lang: de
 weight: 101
 ref: scr-101
 redirect_from:
 ---
 
-Für komplexe [Lua-Skripte](/scripting/de-script-engine.html) liefert der Peakboard Designer einen eigenen Skript-Editor. 
-In der nachfolgenden Abbildung siehst du am Beispiel eines Timer-Skripts, wie der Skript-Editor aussieht, allerdings ist der Aufbau für alle [Peakboard Skript-Typen](/scripting/de-script-types.html) nahezu identisch. 
+Für komplexe Lua-Skripte liefert der Peakboard Designer einen eigenen Skript-Editor.
+In der nachfolgenden Abbildung siehst du am Beispiel eines Timer-Skripts, wie der Skript-Editor aussieht, allerdings ist der Aufbau für alle Peakboard Skript-Typen nahezu identisch.
 
-![Image01](/assets/images/scripting/editor/Scripting01.png)
+![Skript-Editor](/assets/images/scripting/editor/de_script-editor-01.png)
 
-Wenn du den Skript-Editor öffnest, kannst du dich entscheiden, ob du im klassischen textbasierten Editor arbeiten willst, oder in den [Building Blocks Mode](/scripting/de-building-blocks.html) wechseln willst (1).
+Wenn du den Skript-Editor öffnest, kannst du dich entscheiden, ob du im klassischen textbasierten Editor arbeiten willst, oder in den [Building Block Mode](/scripting/de-building-blocks.html) wechseln willst (1).
 
-Oberhalb des Skript-Baums (2) findest du jeweils einen Button zum [comment out / auskommentieren] sowie einen zum [uncomment / entkommentieren]. 
+Oberhalb der Arbeitsfläche (2) findest du jeweils einen Button zum [auskommentieren] (3) sowie einen zum [entkommentieren] (4).
 
-Über die Lupe oder über die Tastenkombination [Strg+F] gelangst du zu [find / suche] und [replace / ersetzen]. 
+Über den Lupen-Button (5) oder über die Tastenkombination [Strg+F] gelangst du zu [Suchen] und [Ersetzen].
 
 <div class="box-tip" markdown="1">
 **Tipp:**
 
-Weitere hilfreiche Tastenkombination findest du am Ende dieses Artikels.
+Weitere hilfreiche Tastenkombinationen findest du am Ende dieses Artikels.
 </div>
 
-Der [Skript-Baum](/scripting/de-script-tree.html) (3) enthält neben den zuvor im Peakboard Designer angelegten Elementen des Explorers ([Data], [Variable], [Dataflows], [Screens] und [Ressources]) auch [Timer], [Types], [Runtime] sowie einige der am häufigsten verwendeten Funktionen. 
-Zuletzt findest du hier auch deine zuvor angelegten und [geteilten Verbindungen (Shared Connections)](/misc/de-shared-connection.html).
+Der Skript-Baum (6) soll das Arbeiten mit Skripten erleichtern. Hierzu finden sich dort bereits vordefinierte Funktionen und Beispiele, welche einfach per Doppelklick an der Stelle des Cursors eingesetzt werden können. Er enthält neben den zuvor im Peakboard Designer angelegten Elementen des Explorers wie zum Beispiel [Daten], [Dataflows], [Variablen], [Reload Flows], [Ressources] und [Controls]/[Screens] auch [Timer Skripte], [Logik & Schleifen], [Mathematik] und viele weitere Funktionen, sowie unter anderem alle Verbindungen aus deinem aktuellen Projekt unter [In externem System veröffentlichen].
 
-Mithilfe der Ordner links (4) navigierst du durch die [verschiedenen Skripte](/scripting/de-script-types.html), ohne den Editor dabei verlassen zu müssen.
+Mithilfe der Ordner auf der linken Seite des Skript-Editors (7) navigierst du durch deine bisher angelegten Skripte im aktuellen Projekt, ohne den Editor dabei verlassen zu müssen. Skripte aus Dataflows sind dort nicht aufgeführt.
 
-Nachdem du das Skript in der Mitte des Skript-Editors eingegeben hast (5), kannst du über [Validate / Validieren] prüfen, ob es korrekt ist (6). 
+Nachdem du ein Skript in der Arbeitsfläche des Skript-Editors eingegeben hast, kannst du über den Button [Validieren] (8) prüfen, ob es korrekt ist.
+In der Fehlerliste (9) werden fehlende oder falsche Elemente aufgeführt.
 
-Sollte dein Skript nicht korrekt funktionieren, so kannst du es mit dem Debugger (7) debuggen.
+### Hilfreiche Tastenkombinationen
 
 {% include styled_table.html %}
 {: .w-full }
@@ -46,4 +46,3 @@ Sollte dein Skript nicht korrekt funktionieren, so kannst du es mit dem Debugger
 | ALT + Up/Down					| Verschieben einer Schriftzeile			|
 | ALT + Mausauswahl				| Auswahl des Cursors in mehreren Zeilen	|
 | Tab							| Autovervollständigung						|
-
