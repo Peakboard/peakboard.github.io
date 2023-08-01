@@ -1,9 +1,9 @@
 [{
-  "version": "3.4.0.2",
+  "version": "3.4.0.3",
   "date": "17.07.2023",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.2.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.2.0/PeakboardSetup.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.3.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.3.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Format Dialog",
@@ -48,6 +48,7 @@
       }, {
         "type": "list",
         "list_items": [
+          "[Hotfix 3.4.0.3] - [Rockwell](/data_sources/en-rockwell.html) - fix for a bug where it was not possible to load data in the Peakboard Designer",
           "[Modbus](/data_sources/en-modbus.html) - fix for a bug where only an unexpected error was displayed instead of a useful error message",
           "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - enabled access to variables via SQL statement",
           "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - fix for a bug where column types were not taken into account, resulting in unusable filters",
@@ -98,6 +99,7 @@
         }, {
           "type": "list",
           "list_items": [
+          "[Hotfix 3.4.0.3] - fix for a bug where no Peakboard Boxes could be added to the Peakboard Hub online",
           "Fix for a bug where clicking the help button caused a fatal error",
           "Peakboard Hub online activated"
         ]

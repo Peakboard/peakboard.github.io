@@ -1,9 +1,9 @@
 [{
-  "version": "3.4.0.2",
+  "version": "3.4.0.3",
   "date": "17.07.2023",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.2.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.2.0/PeakboardSetup.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.3.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.4.0.3.0/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Format Dialog",
@@ -48,6 +48,7 @@
       }, {
         "type": "list",
         "list_items": [
+          "[Hotfix 3.4.0.3] - [Rockwell](/data_sources/de-rockwell.html) - Fix für einen Fehler, bei dem es nicht möglich war Daten im Peakboard Designer zu laden",
           "[Modbus](/data_sources/de-modbus.html) - Fix für einen Fehler, bei dem nur ein unerwarteter Fehler angezeigt wurden statt einer nützlichen Fehlermeldung",
           "[Peakboard Hub List](/data_sources/de-peakboard-hub-list.html) - Zugriff auf Variablen per SQL-Statement ermöglicht",
           "[Peakboard Hub List](/data_sources/de-peakboard-hub-list.html) - Fix für einen Fehler, bei dem Spaltentypen nicht berücksichtigt wurden und somit zu unbrauchbaren Filtern führte",
@@ -98,6 +99,7 @@
         }, {
           "type": "list",
           "list_items": [
+          "[Hotfix 3.4.0.3] - Fix für einen Fehler, bei dem keine Peakboard Boxen zum Peakboard Hub online hinzugefügt werden konnten",
           "Fix für einen Fehler, bei dem ein Klick auf den Hilfe-Button einen fatalen Fehler verursachte",
           "Peakboard Hub online freigeschaltet"
         ]
