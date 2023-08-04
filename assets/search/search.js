@@ -11,9 +11,15 @@ var main = {
         if(product === 'hub') {
             document.getElementById('normal-title').classList.add('hidden');
             document.getElementById('hub-title').classList.remove('hidden');
+            document.getElementById('edge-title').classList.add('hidden');
         } else if (product === 'designer') {
             document.getElementById('normal-title').classList.add('hidden');
             document.getElementById('designer-title').classList.remove('hidden');
+            document.getElementById('edge-title').classList.add('hidden');
+        } else if (product === 'edge') {
+            document.getElementById('normal-title').classList.add('hidden');
+            document.getElementById('designer-title').classList.add('hidden');
+            document.getElementById('edge-title').classList.remove('hidden');
         }
 
         // general settings for instant search

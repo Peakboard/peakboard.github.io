@@ -1,5 +1,6 @@
 ---
 layout: article
+product: edge
 title: Verwenden der Peakboard Edge Datenquelle
 menu_title: Verwenden der Peakboard Edge Datenquelle
 description: Information über die Verwendung der Peakboard Edge Datenquelle
@@ -7,6 +8,7 @@ lang: de
 weight: 2730
 ref: dat-2730
 redirect_from:
+  - /data_sources/PeakboardEdge/de-UseEdgeDatasource.html
 ---
 
 ![Peakboard Edge Datenquelle](/assets/images/data-sources/peakboard-edge/de_edge-use_01.png)

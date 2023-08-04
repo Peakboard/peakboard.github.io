@@ -1,5 +1,6 @@
 ---
 layout: article
+product: edge
 title: Peakboard Edge
 menu_title: Peakboard Edge 
 description: Information about Peakboard Edge
@@ -7,6 +8,7 @@ lang: en
 weight: 2700
 ref: dat-2700
 redirect_from:
+  - /data_sources/PeakboardEdge/en-PeakboardEdge.html
 ---
 
 ![Peakboard Edge](/assets/images/data-sources/peakboard-edge/peakboard-edge_technical-details_en.png)

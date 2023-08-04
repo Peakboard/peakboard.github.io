@@ -26,20 +26,16 @@ collections_dir: content
 collections:
   get_started:
     output: true
-    icon: paper-plane.svg
-    new_icon: "category-paper-plane.svg"
+    icon: "category-paper-plane.svg"
     position: 0
-    home_position: 0
     title:
       en: "Get Started"
       de: "Erste Schritte"
 
   data_sources:
     output: true
-    icon: database.svg
-    new_icon: "category-datasources.svg"
+    icon: "category-datasources.svg"
     position: 1
-    home_position: 5
     title:
       en: "Data Sources"
       de: "Datenquellen"
@@ -56,26 +52,19 @@ collections:
       Extension:
         en: "Extension"
         de: "Extension"
-      PeakboardEdge:
-        en: "Peakboard Edge"
-        de: "Peakboard Edge"
 
   dataflows:
     output: true
-    icon: dataflows.svg
-    new_icon: "category-dataflows.svg"
+    icon: "category-dataflows.svg"
     position: 2
-    home_position: 3
     title:
       en: "Dataflows"
       de: "Dataflows"
 
   controls:
     output: true
-    icon: parameters-v.svg
-    new_icon: "category-controls.svg"
+    icon: "category-controls.svg"
     position: 3
-    home_position: 2
     title:
       en: "Controls"
       de: "Controls"
@@ -104,10 +93,8 @@ collections:
 
   scripting:
     output: true
-    icon: browser.svg
-    new_icon: "category-scripting.svg"
+    icon: "category-scripting.svg"
     position: 4
-    home_position: 4
     title:
       en: "Scripting"
       de: "Scripting"
@@ -118,10 +105,8 @@ collections:
 
   administration:
     output: true
-    icon: id-card.svg
-    new_icon: "category-administration.svg"
+    icon: "category-administration.svg"
     position: 5
-    home_position: 1
     title:
       en: "Administration"
       de: "Administration"
@@ -131,23 +116,27 @@ collections:
 
   misc:
     output: true
-    icon: plus-c.svg
-    new_icon: "category-misc.svg"
+    icon: "category-misc.svg"
     position: 7
-    home_position: 7
     title:
       en: "Misc"
       de: "Misc"
 
   hub:
     output: true
-    icon: hub2.svg
-    new_icon: "hub2.svg"
+    icon: "category-misc.svg"
     position: 6
-    home_position: 6
     title:
       en: "Peakboard Hub"
       de: "Peakboard Hub"
+
+  edge:
+    output: true
+    icon: "category-misc.svg"
+    position: 8
+    title:
+      en: "Peakboard Edge"
+      de: "Peakboard Edge"
 
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
@@ -162,9 +151,11 @@ language:
     homepage-top-section-link-text: "Get started with Peakboard"
     homepage-top-section-search-placeholder: "Search Peakboard Help..."
     homepage-top-section-search-placeholder-hub: "Search Peakboard Hub..."
+    homepage-top-section-search-placeholder-edge: "Search Peakboard Edge..."
     homepage-top-section-search-placeholder-designer: "Search Peakboard Designer..."
     homepage-product-section-title: "For what products do you need help"
     homepage-product-section-hub-title: "Peakboard Hub"
+    homepage-product-section-edge-title: "Peakboard Edge"
     homepage-product-section-designer-title: "Peakboard Designer"
     homepage-get-started-section-title: "Get started"
     homepage-video-section-title: "Popular videos"
@@ -249,10 +240,12 @@ language:
     homepage-top-section-link-text: "Erste Schritte mit Peakboard"
     homepage-top-section-search-placeholder: "Peakboard Help durchsuchen..."
     homepage-top-section-search-placeholder-hub: "Peakboard Hub durchsuchen..."
+    homepage-top-section-search-placeholder-edge: "Peakboard Edge durchsuchen..."
     homepage-top-section-search-placeholder-designer: "Peakboard Designer durchsuchen..."
     homepage-product-section-title: "Für welches Produkt benötigst du Hilfe"
     homepage-product-section-hub-title: "Peakboard Hub"
     homepage-product-section-designer-title: "Peakboard Designer"
+    homepage-product-section-edge-title: "Peakboard Edge"
     homepage-get-started-section-title: "Erste Schritte"
     homepage-video-section-title: "Beliebte Videos"
     homepage-video-highlights-title: "Beliebte Videos"

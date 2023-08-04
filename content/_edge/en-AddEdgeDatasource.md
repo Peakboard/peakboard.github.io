@@ -1,5 +1,6 @@
 ---
 layout: article
+product: edge
 title: Adding a Peakboard Edge data source
 menu_title: Add a Peakboard Edge data source
 description: Information about adding a Peakboard Edge data source
@@ -7,6 +8,7 @@ lang: en
 weight: 2720
 ref: dat-2720
 redirect_from:
+  - /data_sources/PeakboardEdge/en-AddEdgeDatasource.html
 ---
 
 ## Add Peakboard Edge data source

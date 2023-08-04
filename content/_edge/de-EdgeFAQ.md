@@ -1,5 +1,6 @@
 ---
 layout: article
+product: edge
 title: Probleme mit Peakboard Edge
 menu_title: Probleme mit Peakboard Edge
 description: Information über Probleme mit Peakboard Edge
@@ -7,6 +8,7 @@ lang: de
 weight: 2740
 ref: dat-2740
 redirect_from:
+  - /data_sources/PeakboardEdge/de-EdgeFAQ.html
 ---
 
 ### Verbindungsprobleme (Peakboard Box ↔︎ Peakboard Edge)

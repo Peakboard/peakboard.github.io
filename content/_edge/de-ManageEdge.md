@@ -1,5 +1,6 @@
 ---
 layout: article
+product: edge
 title: Peakboard Edge Verwalten
 menu_title: Peakboard Edge Verwalten
 description: Information über die Verwaltung eines Peakboard Edge
@@ -7,6 +8,7 @@ lang: de
 weight: 2710
 ref: dat-2710
 redirect_from:
+  - /data_sources/PeakboardEdge/de-ManageEdge.html
 ---
 
 Um eine neue Peakboard Edge hinzuzufügen oder deine bestehenden Peakboard Edge zu verwalten, klickst du auf das Peakboard Edgde-Symbol (1) in der Menüleiste, um die Peakboard Edge Einstellungen zu öffnen.
