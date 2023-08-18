@@ -122,13 +122,61 @@ Fruit at index 3: orange
 
 In Lua, you can use control statements to change the flow of loops. These statements include:
 
-* `break`: ends the loop prematurely when a certain condition is met.
-* `continue` (not native to Lua): Skips the rest of the current iteration and continues to the next iteration.
+### `break` statement
+
+Ends the loop prematurely when a certain condition is met. Once `break` is executed, the program flow jumps out of the loop and continues with the next line of code after the loop.
+
+**Example:**
+
+```lua
+for i = 1, 10 do
+    if i == 5 then
+        break
+    end
+    print(i)
+end
+-- This will print numbers from 1 to 4. The loop terminates when i equals 5.
+```
+
+The output will be:
+
+```lua
+1
+2
+3
+4
+```
+
+### Mimicking the `continue` statement
+
+Lua doesn't have a continue statement like some other languages. The basic idea of `continue` is to skip the current iteration and move on to the next one.
+
+In Lua, you can achieve this effect using a combination of `goto` and labels.
+
+**Example:**
+
+```lua
+for i = 1, 10 do
+    if i % 2 == 0 then
+        goto continue
+    end
+    print(i)  -- Will print only odd numbers between 1 and 10.
+    ::continue::
+end
+```
+
+The output will be:
+
+```lua
+1
+3
+5
+7
+9
+```
+
+Here, when `i` is an even number, the program flow jumps to the label `::continue::`, effectively skipping the `print(i)` statement for even numbers.
 
 It's important to be careful when using control statements, as they can make your code more complex and harder to maintain.
-
-## Conclusion
-
-Loops are crucial for automating repetitive tasks and processing data in your Peakboard visualizations. Understanding and effectively using `while`, `repeat...until`, and `for` loops will help you create more efficient and dynamic scripts to enhance your Peakboard projects.
 
 Don't forget to test your loops thoroughly to make sure they behave as expected and to avoid potential pitfalls like infinite loops.
