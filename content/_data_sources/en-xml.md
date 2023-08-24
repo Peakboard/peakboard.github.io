@@ -9,40 +9,49 @@ ref: dat-800
 redirect_from:
   - /data_sources/08-en-xml.html
 ---
-This article explains how to use the data source for data in XML format. The exact specification and further information about XML can be found [here](https://de.wikipedia.org/wiki/Extensible_Markup_Language)
 
-A nice example of XML data can be found at [this XML file](http://mysafeinfo.com/api/data?list=presidents&format=xml). 
-It contains an example data set about the first 5 US presidents.
+This article explains the handling of the data source for data in XML format. You can find the exact specification and further information about XML [for example in this Wikipedia article](https://de.wikipedia.org/wiki/Extensible_Markup_Language).
 
-Now go to the Peakboard Designer, create a new board, and click on the [...] button (1) under Data in the left-hand side of the Explorer. 
-Under "Add Data Source" (2) select XML as data source.
+For a nice example of XML data, see [this XML file](http://mysafeinfo.com/api/data?list=presidents&format=xml).
+It contains a sample dataset about the first 5 US presidents.
 
-![image_1](/assets/images/data-sources/xml/xml-01.png)
+Open the Peakboard Designer, create a new project, and click the [...] button under Data on the left side of the explorer, or alternatively right click on it.
+Then select XML (1) as data source under [Add data source].
 
-In the mask for the configuration of the XML data source, a unique name for the data source must first be assigned (e.g. Presidents).
-As "Source Type" select **URL** and then copy & paste the URL from above from your browser (1). 
+![Add XML data source](/assets/images/data-sources/xml/en_xml-01.png)
+
+In the mask for the configuration of the XML data source you first assign a unique name (1) for the data source (e.g. XMLtest).
+As [Source type] (2) you select [URL] and then copy and paste the URL from your browser (3).
 The following source systems are currently available here:
+
 * **URL**
-**NetworkShareFile**
-**NetworkShareFileDirect**
-**File**
+* **Local network**
+* **File**
+* **OneDrive**
+* **SharePoint**
 
-In this case you do not need authentication and therefore select the type **None** under "Authentication".
-The XML data source currently supports the following types for authentication:
+In this case, you do not need authentication and therefore select the type [None] (4) under [Authentication Type].
+For authentication, the XML data source currently supports the following types:
+
 * **None**
-**Basic**
-**Bearer**
-**OAuth **
+* **Basic**
+* **Bearer**
+* **OAuth**
 
-Under "Specify" you can define the path with the [...] button (2).
-Peakboard analyses the structure of the XML file and displays the tree of XML elements. 
-Depending on which element you have selected, all attributes that are located on or below the selected element are displayed below. 
-Some elements we do not need later on. 
-Here you can uncheck the box and they will not appear at all. 
-Especially with very complex XML files it is advisable to leave out all elements that you don't need (3).
+In the [Request] section (5) you can select the desired method if necessary and use the [Edit Request Header or Body] button to adjust the header and body (only for PUT or POST requests) to your requirements.
 
-![image_1](/assets/images/data-sources/xml/xml-02.png)
+In the area [Specify Details] you define the path by clicking on the [...] button next to the text field (6).
 
-A click on OK transfers all values to the main mask. The correct configuration can be checked by clicking on Preview. Here the plausibility of the data can be checked again briefly and the data type can be changed if necessary.
+![XML dialog](/assets/images/data-sources/xml/en_xml-02.png)
 
-![image_1](/assets/images/data-sources/xml/xml-03.png)
+To do this, Peakboard analyzes the structure of the XML file and displays the tree of XML elements.
+Depending on which element you have selected, all attributes that are at or below the selected element are displayed below.
+Certain elements you will not need later.
+Here you can remove the checkmark, then they do not appear in the further process.
+Especially with very complex XML files it is advisable to leave out all elements you don't need.
+
+![XML path dialog](/assets/images/data-sources/xml/en_xml-03.png)
+
+With a click on OK you transfer all values into the main mask. You can check the correct configuration by clicking on [Load data]. In the preview you can check the plausibility of the data and change the data type if necessary (1).
+
+![Check data](/assets/images/data-sources/xml/en_xml-04.png)
