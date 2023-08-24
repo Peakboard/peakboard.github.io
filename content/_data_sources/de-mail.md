@@ -8,27 +8,39 @@ weight: 850
 ref: dat-850
 redirect_from:
 ---
-Diese Seite erklärt die einzelnen Features beim Zugriff auf die Mail-Datenquelle. 
-Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
+
+Diese Seite erklärt die einzelnen Features beim Zugriff auf die E-Mail Datenquelle.
+Unter dem folgenden Link findest du ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
 [Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
-Die Maildatenquelle erlaubt den Zugriff auf ein E-Mail-Postfach per Imap. 
-Sie wird üblicherweise dazu genutzt, um über einen sehr einfachen Weg Nachrichten an eine Peakboard Box zu senden. 
-Generell gibt es zwei Muster, die Datenquelle einzusetzen:
+Die E-Mail Datenquelle erlaubt dir den Zugriff auf ein E-Mail-Postfach per IMAP sowie den Versand von E-Mails per SMTP.
+Üblicherweise nutzt du sie, um über einen sehr einfachen Weg Nachrichten an oder von einer Peakboard Box zu senden.
+Generell gibt es zwei Arten, wie du die Datenquelle einsetzen kannst:
 
 - Der Inhalt des Postfaches wird einfach als tabellarische Datenquelle dargestellt. Jede Zeile entspricht einer E-Mail.
-- Jede eingehende E-Mail löst ein Event aus, in das sich LUA-Skript-Code integrieren lässt.
+- Jede eingehende E-Mail löst ein Event aus, in das sich Lua-Skript-Code integrieren lässt.
 
-Welche Strategie die bessere ist, kommt auf den Einzelfall an und hängt auch von den Programmierfähigkeiten ab.
+Welche Strategie die bessere ist, kommt auf den Einzelfall an und hängt auch von deinen Programmierfähigkeiten ab.
 
-* **IMAP** und **Port** ist die Netzwerkadresse und der Port des Mail-Servers
-* Mit dem **...**-Button erreichen Sie ein separates Fenster zur Eingabe von Username und Passwort
-* **Folder** ist der zu lesende Unterordner des Postfachs, normalerweise INBOX
-* **Entire Message** definiert, ob die komplette Nachricht heruntergeladen werden soll oder nur der Betreff
-* **Content Type** definiert, ob der Mail-Inhalt in unformatiertem Text oder HTML formatiert geliefert werden soll
+Um die Datenquelle hinzuzufügen mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle dann [Datenquelle hinzufügen] und [E-Mail] (1).
 
-Für den Fall, dass Sie per Scripting auf eingehende Mails reagieren wollen, nutzen Sie bitte die **Message Handle Script**-Routine.
+![E-Mail Datenquelle hinzufügen](/assets/images/data-sources/mail/de_email-01.png)
 
-![mail.png](/assets/images/data-sources/mail/mail.png)
+Gib der Datenquelle einen Namen (1) und befülle diese mit den Login-Informationen des E-Mail-Accounts, den du benutzen möchtest (2).
 
+Im Bereich **Verbindung**:
+
+- **IMAP** und **Port** ist die Netzwerkadresse und der Port des Mail-Servers zum Empfangen von E-Mails
+- **SMTP** und **Port** ist die Netzwerkadresse und der Port des Mail-Servers zum Versenden von E-Mails
+- Im Textfeld **Benutzername** gibst du die E-Mail Adresse ein, im Textfeld **Passwort** das zugehörige Passwort
+
+Im Bereich **Details angeben**:
+
+- **Ordner** ist der zu lesende Unterordner des Postfachs, normalerweise INBOX
+- **Gesamte Nachricht** definiert, ob die komplette Nachricht heruntergeladen werden soll oder nur der Betreff
+- **Inhaltstyp** definiert, ob der Mail-Inhalt in unformatiertem Text oder HTML formatiert geliefert werden soll
+
+![E-Mail Datenquelle konfigurieren](/assets/images/data-sources/mail/de_email-02.png)
+
+Für den Fall, dass du per Scripting auf eingehende Mails reagieren willst, nutze die **Message Handle Script**-Routine.

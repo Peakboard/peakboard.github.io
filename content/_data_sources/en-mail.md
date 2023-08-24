@@ -8,27 +8,39 @@ weight: 850
 ref: dat-850
 redirect_from:
 ---
-This page explains the individual features when accessing the mail data source. 
-Under the following link you will find a tutorial on how to configure external data sources in general and how to connect them to peakboard elements:
 
-[First steps with external data sources using the example of an XML data source](/tutorials/en-xml-data.html)
+This page explains the individual features when accessing the email data source.
+Under the following link you will find a tutorial on how to generally configure external data sources and link them to Peakboard elements:
 
-The mail data source allows access to an e-mail mailbox via Imap. 
-It is usually used to send messages to a peakboard box via a very simple way. 
-In general, there are two patterns of using the data source:
+[Getting started with external data sources using an XML data source as an example](/tutorials/03-en-xml-data.html).
 
-- The content of the mailbox is simply displayed as a tabular data source. Each line corresponds to an e-mail.
-- Each incoming e-mail triggers an event into which LUA script code can be integrated.
+The email data source allows you to access an email box via IMAP as well as send emails via SMTP.
+Typically, you use it to send messages to or from a Peakboard box via a very simple way.
+Generally, there are two ways you can use the data source:
 
-Which strategy is the better one depends on the individual case and also depends on programming skills.
+- The content of the mailbox is simply represented as a tabular data source. Each row corresponds to an email.
+- Each incoming email triggers an event, into which Lua script code can be integrated.
 
-* **IMAP** and **Port** is the network address and port of the mail server
-* With the **...** button you reach a separate window for entering username and password
-* **Folder** is the subfolder of the mailbox to be read, normally INBOX
-* **Entire Message** defines whether the complete message should be downloaded or only the subject
-* **Content Type** defines whether the mail content is to be delivered in unformatted text or HTML format
+Which strategy is better depends on the individual case and also depends on your programming skills.
 
-In case you want to react to incoming mails via scripting, please use the **Message Handle Script** routine.
+To add the data source right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [Email] (1).
 
-![mail.png](/assets/images/data-sources/mail/mail.png)
+![Add email data source](/assets/images/data-sources/mail/en_email-01.png)
 
+Give the data source a name (1) and fill it with the login information of the email account you want to use (2).
+
+In the **Connection** section:
+
+- **IMAP** and **Port** is the network address and the port of the mail server to receive e-mails
+- **SMTP** and **Port** is the network address and the port of the mail server for sending e-mails
+- In the text field **User name** you enter the e-mail address, in the text field **Password** the corresponding password
+
+In the **Specify details** area: **Folder**:
+
+- **Folder** is the subfolder of the mailbox to read, usually INBOX.
+- **Total Message** defines if the complete message should be downloaded or only the subject
+- **Content type** defines if the mail content should be delivered in unformatted text or formatted HTML
+
+![configure email data source](/assets/images/data-sources/mail/de_email-02.png)
+
+In case you want to respond to incoming mails via scripting, use the **Message Handle Script** routine.
