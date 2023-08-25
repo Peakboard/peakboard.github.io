@@ -1,32 +1,31 @@
 ---
 layout: article
-title: Webpage
-menu_title: Webpage
-description: Information über Webpage Daten in Peakboard
+title: Webseitentabelle
+menu_title: Webseitentabelle
+description: Information über Webseitentabellen in Peakboard
 lang: de
 weight: 900
 ref: dat-900
 redirect_from:
   - /data_sources/09-de-webpage.html
 ---
-Diese Seite erklärt die einzelnen Features beim Zugriff auf eine Tabelle, die auf einer Webseite enthalten ist. Unter dem folgenden Link finden Sie ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
+
+Diese Seite erklärt dir die einzelnen Features beim Zugriff auf eine Tabelle, die auf einer Webseite enthalten ist. Unter dem folgenden Link findest du ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
 
 [Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
-Falls Sie keine URL zu einer passenden Webseite zur Hand haben, sondern die Sache einfach nur einmal ausprobieren wollen, nehmen Sie bitte die folgende Beispiel-URL. Sie verweist auf eine Webseite mit mehreren Tabellen. Wir interessieren uns in diesem Artikel nur für die erste, große Tabelle mit den aktuellen Edelmetallkursen. Die anderen, kleineren Tabellen – weiter unten auf der Seite – interessieren uns nicht. Sie sollen rausgefiltert werden.
+Falls du keine URL zu einer passenden Webseite zur Hand hast, sondern die Sache einfach nur einmal ausprobieren möchtest, verwende die folgende Beispiel-URL. Sie verweist auf eine Webseite mit mehreren Tabellen. Interessant ist für diesen Artikel nur die erste, große Tabelle mit den aktuellen Edelmetallkursen. Die anderen, kleineren Tabellen – weiter unten auf der Seite sollen rausgefiltert werden.
 
 [https://www.gold.de/kurse/](https://www.gold.de/kurse/)
 
-Peakboard sucht in der jeweiligen Webseite nach HTML-Tabellen. Das funktioniert besonders gut, wenn das HTML syntaktisch korrekt ist. Sollten Sie sich an einer Webseite versuchen, bei der die Daten nicht korrekt gefunden werden oder unvollständig sind, prüfen Sie den HTML-Syntax.
+Um die Datenquelle für Webseitentabellen hinzuzufügen mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle [Datenquelle hinzufügen] und [Webseitentabelle](1).
 
-In der entsprechenden Datenquellen-Maske muss natürlich wieder ein eindeutiger Name vergeben werden und das Wichtigste: Die URL. Ggfs. noch Username und Passwort für den Fall, dass die Webseite eine Authentifizierung verlangt. Alle Tabellen auf der Seite haben entweder einen Namen oder eine Nummer. Es gibt einen Selektionsdialog, der Ihnen hilft, die richtige Tabelle zu identifizieren, falls es auf der Seite mehrere Tabellen gibt. Klicken Sie dazu auf den kleinen Knopf mit den drei Punkten. Alle gefundenen Tabellen werden in der Combo-Box angezeigt. Sie können so ausprobieren, welche die richtige Tabelle ist. Für den Fall, dass die Tabelle keine HTML-Überschriften hat (<th>-Tag), stehen die Überschriften eventuell in der ersten Tabellenzeile. Falls das so ist, aktivieren Sie die die Checkbox. Dann berücksichtigt Peakboard das bei der Datenfindung. Mit OK werden die Angaben in die Hauptmaske übernommen.
+Peakboard sucht in der jeweiligen Webseite nach HTML-Tabellen. Das funktioniert besonders gut, wenn das HTML syntaktisch korrekt ist. Solltest du dich an einer Webseite versuchen, bei der die Daten nicht korrekt gefunden werden oder unvollständig sind, prüfe die HTML-Syntax.
 
-![Select Table From Webpage](/assets/images/data-sources/webpage/select-table-from-webpage.png)
+Gib der Datenquelle einen eindeutigen Namen (1) und gib die URL (2) ein. Falls die Webseite eine Authentifizierung (3) verlangt kannst du diese ebenfalls eingeben.
+Alle Tabellen auf der Webseite haben entweder einen Namen oder eine Nummer. Um die gewüschte Tabelle auszuwählen musst du auf das Ladesymbol (4) klicken, danach kannst du im Drop-down (5) die verschiedenen Tabellen auswählen die erkannt wurden.
+Jetzt kannst du ausprobieren, welche die richtige Tabelle ist. Für den Fall, dass die Tabelle keine HTML-Überschriften hat (`<th>`-Tag), stehen die Überschriften eventuell in der ersten Tabellenzeile. Falls das so ist, aktiviere die entsprechende Checkbox (6). Mit einem Klick auf [Daten laden] (7) kannst du dir jeweils die Vorschau der gewählten Tabelle anzeigen lassen.
 
-Wie üblich werden die Metadaten (Spalten und deren Datentyp) ebenfalls übernommen. Sie können noch die Zeit für das automatische Auffrischen der Datenquelle in Sekunden angeben und bei Bedarf die maximale Anzahl der Zeilen beschränken. Sollte sich die Quelle aus irgendeinem Grund ändern, kann mit Load Columns das Ermitteln der Metadaten von Hand nochmal gestartet werden. Die gepeicherten Metadaten werden dann gelöscht und neu ermittelt.
+![Webseitentabelle konfigurieren](/assets/images/data-sources/webpage/de_webpage-02.png)
 
-![Webpage Add Data Dialog](/assets/images/data-sources/webpage/webpage-add-data-dialog.png)
-
-Ein Klick auf Preview öffnet das Datenfenster zur Kontrolle der Eingabe.
-
-![Webpage Preview Data](/assets/images/data-sources/webpage/webpage-preview-data.png)
+Die Metadaten (Spalten und deren Datentyp) werden übernommen. Du kannst die Zeit für das automatische Auffrischen der Datenquelle in Sekunden angeben und bei Bedarf die maximale Anzahl der Zeilen beschränken. Sollte sich die Quelle aus irgendeinem Grund ändern, kannst du mit dem Ladesymbol das Ermitteln der Metadaten von Hand erneut starten. Die gepeicherten Metadaten werden dann gelöscht und neu ermittelt.
