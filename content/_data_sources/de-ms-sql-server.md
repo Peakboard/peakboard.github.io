@@ -9,10 +9,17 @@ ref: dat-1200
 redirect_from:
   - /data_sources/12-5-de-ms-sql-server.html
 ---
-Dieser Artikel erklärt den Zugriff von Peakboard auf einen MS SQL Server. Der Dialog ist eigentlich nahezu selbsterklärend. Neben dem Host-Namen sind User-Name, Passwort und die Datenbank (Initial Catalog) zu füllen. Falls ein Host mehrere SQL-Server-Instanzen hat, ist die gewünschte Instanz einfach mit einem Backslash an den Host-Namen anzuhängen.
 
-Das SQL-Statement kann beliebig kompliziert werden. Es sei an dieser Stelle empfohlen, sehr komplexe Queries lieber im SQL Server in eine View zu packen und von hier aus auf die View zu lesen.
+Dieser Artikel erklärt den Zugriff von Peakboard auf einen MS SQL Server.
+Um die Datenquelle hinzuzufügen, mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle dann [Datenquelle hinzufügen] und [SQL Server] (1).
 
-Der Load-Button führt das SQL-Statement einmalig aus und füllt die Spalten-Daten. Ab dann sollte der Preview ebenfalls funktionieren und das Dataset steht in Peakboard zur Weiterverarbeitung zur Verfügung.
+![Datenquelle hinzufügen](/assets/images/data-sources/ms-sql/de_sql-01.png)
 
-![Add SQL Server Data](/assets/images/data-sources/ms-sql/add-sql-server-data.png)
+Gib der Datenquelle einen Namen (1). Neben dem Host-Namen (2) musst du den Benutzernamen (3), das Passwort (4) und die Datenbank (5) angeben, die du verwenden möchtest. Falls ein Host mehrere SQL-Server-Instanzen hat, hängst du die gewünschte Instanz mit einem Backslash an den Host-Namen an.
+
+Das SQL-Statement (6) kann beliebig kompliziert werden.
+Sehr komplexe Queries solltest du im SQL Server in einer Sicht erstellen und dann mit Peakboard die Sicht abfragen.
+
+Mit [Daten Laden] (7) kannst du die Daten prüfen und dann in deinem Projekt nutzen.
+
+![SQL Dialog](/assets/images/data-sources/ms-sql/de_sql-02.png)

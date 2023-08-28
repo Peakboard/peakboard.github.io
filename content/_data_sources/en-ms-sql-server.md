@@ -9,10 +9,17 @@ ref: dat-1200
 redirect_from:
   - /data_sources/12-5-en-ms-sql-server.html
 ---
-This article explains Peakboard’s access to an MS SQL Server. The dialogue is almost self-explanatory. In addition to the host name, the user name, password and the database (Initial Catalog) must be filled in. If a host has multiple SQL Server instances, the desired instance is simply attached to the host name with a backslash.
 
-The SQL statement can be complicated as required. At this point, we recommend that you rather place very complex queries in a view in SQL Server and read them from here to the view.
+This article explains how to access an MS SQL Server from Peakboard.
+To add the data source, right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [SQL server] (1).
 
-The Load button executes the SQL statement once and fills the column data. From then on, the preview should also work and the dataset is available in Peakboard for further processing.
+![Add data source](/assets/images/data-sources/ms-sql/en_sql-01.png)
 
-![Add SQL Server Data](/assets/images/data-sources/ms-sql/add-sql-server-data.png)
+Give the data source a name (1). Besides the host name (2) you need to specify the user name (3), password (4) and the database (5) you want to use. If a host has multiple SQL server instances, append the desired instance to the host name with a backslash.
+
+The SQL statement (6) can be as complicated as you like.
+You should create very complex queries in a view in SQL Server and then query the view with Peakboard.
+
+With [Load data] (7) you can check the data and then use it in your project.
+
+![SQL Dialog](/assets/images/data-sources/ms-sql/en_sql-02.png)
