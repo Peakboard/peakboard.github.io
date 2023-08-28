@@ -9,24 +9,29 @@ ref: cal-1000
 redirect_from:
   - /data_sources/24-en-microsoft-calendar.html
 ---
-The Microsoft Calendar data source allows you to access a calendar stored in Office 365. Currently, only Microsoft calendars hosted on Office 365 or Office.com are supported. SharePoint calendars or local Exchange calendars are not supported.
+
+The Microsoft Calendar data source allows you to access a calendar that is hosted on Office 365. Currently, only Microsoft calendars hosted on Office 365 or on Office.com are supported. SharePoint calendars or local Exchange calendars are not supported.
 
 ## Setting up the data source
 
-Besides the mandatory name of the data source, Peakboard must be authorized to access the calendar. Click on the Authorize button and follow the usual prompts for account access. Please note that username and password are never stored in the board, but only a token whose validity can be reset via the Office 365 portal.
+To add the data source right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [Microsoft Calendar] (1).
 
-![image_1](/assets/images/data-sources/mscal/calendar-authorize.png)
+![Add data source](/assets/images/data-sources/mscal/en_mscal-01.png)
 
-The rest of the fields to be filled are almost self-explanatory. The time period for which the calendar entries are searched for must be indicated in the specified format. The Date Format field contains the pattern used to format the date and time in the subsequent table. If you want to process the main part of the calendar entry (the so-called body) as HTML formatting instead of plain text, click the corresponding checkbox.
+Give the data source a name (1) and define the desired time period (2) for which calendar entries should be displayed in the given format and select the correct time zone.
 
+![Data Sources Dialog](/assets/images/data-sources/mscal/en_mscal-02.png)
 
-![image_1](/assets/images/data-sources/mscal/calendar-maindialog.png)
+Now you need to authorize Peakboard to access the calendar. Click on the [Authorize] button (1) and follow the prompts for account access. Please note that username and password will never be stored in your project, only a token whose validity you can reset via the Office 365 portal.
 
-The result is a normal list containing one row per calendar entry. It can now be processed accordingly, just like any other data source.
+![Authorization](/assets/images/data-sources/mscal/en_mscal-03.png)
 
-![image_1](/assets/images/data-sources/mscal/calendar-entries.png)
+The Date format (1) field contains the pattern that will be used to format the date and time in the later table. In case you want to process the main part of the calendar entry (the so-called body) as HTML formatting instead of plain text, click the corresponding checkbox [Content as HTML] (2).
+Click on [Load data] (3) to display the preview.
+The result is a list containing one line per calendar entry.
 
-Under the following link you will find additional information as a YouTube video (in German only, sorry):
+![Preview](/assets/images/data-sources/mscal/en_mscal-04.png)
 
-[Darstellung des Microsoft Outlook Kalenders in Peakboard.](https://www.youtube.com/watch?v=0LsEXH9-r7s)
+Under the following link you can find additional information in the form of a YouTube video:
 
+[Viewing the Microsoft Outlook Calendar in Peakboard.](https://www.youtube.com/watch?v=0LsEXH9-r7s)

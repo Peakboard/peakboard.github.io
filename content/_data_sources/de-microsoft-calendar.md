@@ -1,31 +1,39 @@
 ---
 layout: article
-title: Microsoft Calendar
-menu_title: Microsoft Calendar
-description: Information über Kalender Integration in Peakboard
+title: Microsoft Kalendar
+menu_title: Microsoft Kalendar
+description: Information über die Integration von Microsoft Kalender in Peakboard
 lang: de
 weight: 1000
 ref: cal-1000
 redirect_from:
   - /data_sources/24-de-microsoft-calendar.html
 ---
-Die Microsoft Calendar Datenquelle ermöglicht es, auf einen Kalender zuzugreifen, der bei Office 365 hinterlegt ist. Derzeit werden nur Kalender von Microsoft unterstützt, die bei Office 365 oder bei Office.com gehostet werden. SharePoint-Kalender oder lokale Exchange-Kalender werden nicht unterstützt.
+
+Die Microsoft Kalender Datenquelle ermöglicht es dir, auf einen Kalender zuzugreifen, der bei Office 365 hinterlegt ist. Derzeit werden nur Kalender von Microsoft unterstützt, die bei Office 365 oder bei Office.com gehostet werden. SharePoint-Kalender oder lokale Exchange-Kalender werden nicht unterstützt.
 
 ## Einrichten der Datenquelle
 
-Neben dem obligatorischen Namen der Datenquelle muss Peakboard authorisiert werden, auf den Kalender zuzugreifen. Klicken Sie dazu auf den Authorize Button und folgenden Sie den üblichen Eingabeaufforderungen für den Kontenzugang. Bitte beachten Sie, dass niemals Username und Passwort in dem Board gespeichert werden, sondern nur ein Token, dessen Gültigkeit über das Office-365-Portal zurückgesetzt werden kann.
+Um die Datenquelle hinzuzufügen, mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle dann [Datenquelle hinzufügen] und [Microsoft Kalender] (1).
 
-![image_1](/assets/images/data-sources/mscal/calendar-authorize.png)
+![Datenquelle hinzufügen](/assets/images/data-sources/mscal/de_mscal-01.png)
 
-Der Rest der zu füllenden Felder sind nahezu selbsterklärend. Der Zeitabschnitt, für den die Kalender-Einträge gesucht werden, muss im vorgegebenen Format angegeben werden. Das Feld Date Format enthält das Pattern, mit der Datum und Uhrzeit in der späteren Tabelle formatiert werden. Für den Fall, dass Sie den Hauptteil des Kalendereintrags (der so genannte Body) nicht als Klartext, sondern als HTML-Formatierung weiterverarbeiten möchten, klicken Sie die entsprechende Checkbox an.
+Gib der Datenquelle einen Namen (1) und definiere den gewünschten Zeitabschnitt (2) für den Kalendereinträge angezeigt werden sollen im vorgegebenen Format und wähle die korrekte Zeitzone.
 
-![image_1](/assets/images/data-sources/mscal/calendar-maindialog.png)
+Nun musst du Peakboard autorisieren, auf den Kalender zuzugreifen. Klicke dazu auf den [Authorize]-Button (3) und folgende den Eingabeaufforderungen für den Kontenzugang.
 
-Das Ergebnis ist ein ganz normale Liste, die pro Kalendereintrag eine Zeile enthält. Sie kann nun entsprechend weiterverarbeitet werden, wie jeder andere Datenquelle auch.
+![Datenquellen Dialog](/assets/images/data-sources/mscal/de_mscal-02.png)
 
-![image_1](/assets/images/data-sources/mscal/calendar-entries.png)
+Bitte beachte, dass niemals Username und Passwort in deinem Projekt gespeichert werden, sondern nur ein Token, dessen Gültigkeit du über das Office-365-Portal zurücksetzen kannst.
 
-Unter dem folgenden Link finden Sie ergänzende Infos in Form eines YouTube-Videos:
+![Autorisierung](/assets/images/data-sources/mscal/de_mscal-03.png)
+
+Das Feld Datumsformat (1) enthält das Pattern, mit der Datum und Uhrzeit in der späteren Tabelle formatiert werden. Für den Fall, dass du den Hauptteil des Kalendereintrags (der sogenannte Body) nicht als Klartext, sondern als HTML-Formatierung weiterverarbeiten möchtest, klicke die entsprechende Checkbox [Inhalt als HTML] (2) an.
+Klicke auf [Daten laden] (3), um dir die Vorschau anzeigen zu lassen.
+Das Ergebnis ist eine Liste, die pro Kalendereintrag eine Zeile enthält.
+
+![Vorschau](/assets/images/data-sources/mscal/de_mscal-04.png)
+
+Unter dem folgenden Link findest du ergänzende Informationen in Form eines YouTube-Videos:
 
 [Darstellung des Microsoft Outlook Kalenders in Peakboard.](https://www.youtube.com/watch?v=0LsEXH9-r7s)
-
