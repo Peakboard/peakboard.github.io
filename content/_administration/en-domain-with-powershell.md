@@ -6,6 +6,8 @@ description: Peakboard Box - Join Domain via Powershell
 lang: en
 weight: 252
 ref: admin-252
+draft: true
+
 ---
 
 Before you start, save your license via the Peakboard Designer. Open the Peakboard Box Settings, select your desired Peakboard Box (1) and copy the license key (2) in the [General] (3) section.

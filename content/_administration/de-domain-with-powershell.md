@@ -6,6 +6,8 @@ description: Peakboard Box mit Powershell zur Domäne hinzufügen
 lang: de
 weight: 252
 ref: admin-252
+draft: true
+
 ---
 
 Sichere bevor du startest deine Lizenz via Peakboard Designer. Öffne dazu die Peakboard Box Einstellungen, wähle deine gewünschte Peakboard Box aus (1) und kopiere im Bereich [Allgemeines] (2) den Lizenzschlüssel (3).
