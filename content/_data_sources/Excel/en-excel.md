@@ -11,45 +11,45 @@ redirect_from:
   - /data_sources/13-en-excel.html
   - /data_sources/en-excel.html
 ---
-This page explains the individual features when accessing an Excel data source from Peakboard. 
-Under the following link you will find a tutorial on how to configure external data sources in general and how to link them to Peakboard elements:
 
-[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-data.html)
+This page explains the features of accessing an Excel data source from Peakboard.
+The following link contains a tutorial on how to configure external data sources in general and how to link them to Peakboard elements:
 
-After you click Add Excel Data, a window opens. 
-The dialog is divided into three areas - General, Specify and Preview.
+[Getting started with external data sources using an XML data source as an example](/tutorials/03-en-xml-data.html).
 
-Under General you have to give the data source a name and select the location (e.g. dropbox) where your Excel file can be found. 
-The following storage locations are currently supported:
+To add the data source, right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [Excel] (1).
 
-* **File** - The Excel file was previously added to the Peakboard Package as a resource and is part of the .pbmx-File
-* **Dropbox**
-* **GoogleDrive**
-* **OneDrive** - Microsoft OneDrive (both the free offer and as part of Office 365)
-* **SharePoint** 
-* **PeakboardBridge** - Outdated, better use LocalNetwork
-* **LocalNetwork** - Peakboard 2 boxes only - The file can be mounted directly from a network drive by entering a domain user and password. Please note that the UNC drive paths must be used.
+ ![Add data source](/assets/images/data-sources/excel/en_excel-01.png)
 
-> ## IMPORTANT!
->
-> Excel files, which were created as **File**, contain only the data set which was current when the file was added to the resources.
-> To display real-time data, you should choose one of the other options!
+Give the data source a name (1) and select the source type (2) of your Excel file.
+The following source types are supported:
 
-For the cloud connection, you must first log in to the cloud provider via the "Authorize Button" and then select the corresponding Excel file via the ... button under Document.
+* **URL**
+* **Local network** - The file can be mounted directly from a network drive by entering a domain user and password. Note that the UNC drive paths must be used.
+* **File** - The Excel file is added to the project as a resource and is part of the .pbmx file.
+* **OneDrive** - Microsoft OneDrive (both the free offering, and as part of Office 365).
+* **SharePoint**
 
-In the input window "Reload Interval" the time in seconds is entered in which the data source should check if new data is available.
+<div class="box-tip" markdown="1">
+**Important**.
+Any Excel files you create as **file** will only contain the record that was current when the file was added to the resources. To display real-time data, you should choose one of the other options!
+</div>
 
-Under "Specify" you select the desired spreadsheet via the drop-down menu.
-By default, the data in the respective spreadsheet is simply starting from the first cell in the upper left corner (Select All). 
-If this is not the case, you can enter a range in the "Range" field in which Peakboard should search for the data (e.g. from cell B2 to H23, then B2:H23 would have to be entered here).
-"Column names in first row" means that the first row of the Excel file will be used for naming the columns.
-Otherwise, generic column headings are formed (Column0, Column1, etc.). 
-"Switch Rows and Columns" allows you to transpose the Excel data with just one click.
-Max. rows" allows you to limit the number of rows loaded.
+To connect to OneDrive or Sharepoint, you must first log in using the authorization button.
+Then select the desired Excel file via the [...] button (3).
+Using the reload interval (4) you can enter the time in seconds in which the data source should check whether new data is available.
+In order to select the desired worksheet you have to load the data initially. To do this, click on the corresponding load button (5).
+Now you can select the desired worksheet via the [Worksheet] drop-down (6).
+By default, the data in the respective worksheet is simply starting from the first cell in the upper left corner and [Select all] (7) is selected. If this is not the case for you, you can enter a [Range] (8) in which Peakboard should search for the data (e.g. from cell B2 to H23, then B2:H23 would be entered here).
+[Column names in first row] means that the first row of the Excel file is used for naming the columns.
+Otherwise generic column headings are formed (Column0, Column1, etc.).
+[Switch rows and columns] allows you to transpose the Excel data with just one click.
 
- ![Add Excel Data Dialog](/assets/images/data-sources/excel/add-excel-data.png)
+Click on [Load data](9) to preview the data.
 
- Click on the "Load Data" button under Preview. 
- The data is then loaded from the Excel file according to the specifications and displayed in the preview window. 
- By default, all data is loaded from Excel with the data type "String".
- In the preview window you can now change this data type to the desired data type "Number" or "Boolean".
+![Excel Dialog](/assets/images/data-sources/excel/en_excel-02.png)
+
+By default all data is loaded from Excel with the data type [string].
+In the preview window you can change the data type (1).
+
+![Change data type](/assets/images/data-sources/excel/en_excel-03.png)
