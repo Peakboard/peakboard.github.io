@@ -43,12 +43,10 @@ Beachte, dass die Funktion `os.date` die lokale Zeitzone und die Systemeinstellu
 
 ## Grundlegende Datumsfunktionen
 
-* `date.create(2018, 12, 31, 12, 30, 00)`
-
+`date.create(2018, 12, 31, 12, 30, 00)`
 Diese Funktion kannst du verwenden, um ein neues Datumsobjekt mit den angegebenen Werten für Jahr, Monat, Tag, Stunde, Minute und Sekunde zu erstellen. Ähnlich wie bei `os.date`.
 
-* `date.tostring(906000490, 'yyyyMMdd')`
-
+`date.tostring(906000490, 'yyyyMMdd')`
 Diese Funktion wandelt eine numerische Darstellung eines Datums (in Sekunden seit dem 1. Januar 1970) in eine formatierte String-Darstellung um, die auf dem angegebenen Format basiert.
 
 **Beispiel mit `log()`:**
@@ -58,8 +56,7 @@ local formattedDate = date.tostring(906000490, 'yyyyMMdd')
 log("Formatted Date: " .. formattedDate)
 ```
 
-* `date.parse('20171231', 'yyyyMMdd')`
-
+`date.parse('20171231', 'yyyyMMdd')`
 Diese Funktion analysiert eine String-Darstellung eines Datums auf der Grundlage des angegebenen Formats und wandelt sie in eine numerische Darstellung um (Sekunden seit dem 1. Januar 1970).
 
 **Beispiel mit `log()`:**
@@ -69,32 +66,25 @@ local numericalDate = date.parse('20171231', 'yyyyMMdd')
 log("Numerical Date: " .. numericalDate)
 ```
 
-* `date.addyear(data.mydate.getluadate(), 2)`
-
+`date.addyear(data.mydate.getluadate(), 2)`
 Diese Funktion fügt eine bestimmte Anzahl von Jahren zu einem gegebenen Datumsobjekt hinzu.
 
-* `date.addday(data.mydate.getluadate(), 2)`
-
+`date.addday(data.mydate.getluadate(), 2)`
 Diese Funktion fügt eine bestimmte Anzahl von Tagen zu einem gegebenen Datumsobjekt hinzu.
 
-* `date.addmonth(data.mydate.getluadate(), 2)`
-
+`date.addmonth(data.mydate.getluadate(), 2)`
 Diese Funktion fügt eine bestimmte Anzahl von Monaten zu einem gegebenen Datumsobjekt hinzu.
 
-* `date.addhour(data.mydate.getluadate(), 2)`
-
+`date.addhour(data.mydate.getluadate(), 2)`
 Diese Funktion fügt eine bestimmte Anzahl von Stunden zu einem gegebenen Datumsobjekt hinzu.
 
-* `date.addminute(data.mydate.getluadate(), 2)`
-
+`date.addminute(data.mydate.getluadate(), 2)`
 Diese Funktion fügt eine bestimmte Anzahl von Minuten zu einem gegebenen Datumsobjekt hinzu.
 
-* `date.addsecond(data.mydate.getluadate(), 2)`
-
+`date.addsecond(data.mydate.getluadate(), 2)`
 Diese Funktion fügt eine bestimmte Anzahl von Sekunden zu einem gegebenen Datumsobjekt hinzu.
 
-* `date.difference(date1, date2)`
-
+`date.difference(date1, date2)`
 Diese Funktion berechnet die Zeitdifferenz in Sekunden zwischen zwei Datumsobjekten.
 
 **Beispiel mit `log()`:**
@@ -106,8 +96,7 @@ local differenceInSeconds = date.difference(date1, date2)
 log("Time Difference in Seconds: " .. differenceInSeconds)
 ```
 
-* `date.getweeknumberofyear(data.mydate.getluadate())`
-
+`date.getweeknumberofyear(data.mydate.getluadate())`
 Diese Funktion berechnet die Kalenderwoche des angegebenen Datumsobjekts.
 
 **Beispiel mit `log()`:**
@@ -117,8 +106,7 @@ local weekNumber = date.getweeknumberofyear(data.mydate.getluadate())
 log("Calendar Week Number: " .. weekNumber)
 ```
 
-* `date.calculateshiftduration('08:00', '16:00', '10:00', '10:15')`
-
+`date.calculateshiftduration('08:00', '16:00', '10:00', '10:15')`
 Diese Funktion berechnet die Dauer einer Schicht auf der Grundlage der angegebenen Startzeit, Endzeit, Pausenstartzeit und Pausenendzeit.
 
 **Beispiel mit `log()`:**
