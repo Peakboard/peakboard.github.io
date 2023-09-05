@@ -16,9 +16,15 @@ Unter dem folgenden Link findest du ein Tutorial, wie generell externe Datenquel
 
 Du kannst die Sharepoint-Datenquelle sowohl mit Listen aus On-Premise als auch mit Cloud-Installationen wie Office 365 koppeln.
 
+<div class="box-tip" markdown="1">
+**Hinweis**
+Bei Verwendung der Zweifaktorauthentifizierung kann es zu Problemen bei der Anbindung der Datenquelle kommen.
+Du kannst dies vermeiden indem du für die Anbindung einen Benutzer ohne Zweifaktorauthentifizierung nutzt.
+</div>
+
 Um die Datenquelle hinzuzufügen, mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle dann [Datenquelle hinzufügen] und [Sharepoint Liste] (1).
 
-![Sharepoint-Liste hinzufügen](/assets/images/data-sources/sharepointlist/de_sharepoint-01.png)
+![Sharepoint-Liste hinzufügen](/assets/images/data-sources/sharepointlist/de_sharepointlist-01.png)
 
 Gib der Datenquelle einen Namen (1).
 
@@ -34,4 +40,4 @@ Neben den reinen Nutzdaten werden auch auch Metadaspalten mit übermittelt, z.B.
 Je nach Anwendungsfall können diese Zusatzspalten nützlich sein.
 Wenn die Metadaten ermittelt sind, steht die Datenquelle zur Nutzung zur Verfügung.
 
-![Sharepoint-Liste konfigurieren](/assets/images/data-sources/sharepointlist/de_sharepoint-02.png)
+![Sharepoint-Liste konfigurieren](/assets/images/data-sources/sharepointlist/de_sharepointlist-02.png)

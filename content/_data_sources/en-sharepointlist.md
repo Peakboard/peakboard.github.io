@@ -16,9 +16,15 @@ Under the following link you will find a tutorial on how to generally configure 
 
 You can pair the Sharepoint data source with lists from on-premise as well as cloud installations like Office 365.
 
+<div class="box-tip" markdown="1">
+**Note**.
+When using two-factor authentication, you may encounter problems when connecting to the data source.
+You can avoid this by using a user without two-factor authentication for the connection.
+</div>
+
 To add the data source, right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [Sharepoint list] (1).
 
-![Add Sharepoint list](/assets/images/data-sources/sharepointlist/en_sharepoint-01.png)
+![Add Sharepoint list](/assets/images/data-sources/sharepointlist/en_sharepointlist-01.png)
 
 Give the data source a name (1).
 
@@ -34,4 +40,4 @@ Beside the pure data, meta columns are also transmitted, e.g. the date of the la
 Depending on the application, these additional columns can be useful.
 When the metadata is determined, the data source is available for use.
 
-![Configure Sharepoint list](/assets/images/data-sources/sharepointlist/en_sharepoint-02.png)
+![Configure Sharepoint list](/assets/images/data-sources/sharepointlist/en_sharepointlist-02.png)
