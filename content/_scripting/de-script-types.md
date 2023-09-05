@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Die Peakboard-Skript-Typen
-menu_title: Die Peakboard-Skript-Typen
+title: Skript-Typen
+menu_title: Skript-Typen
 description: Informatinon über die Peakboard-Skript-Typen
 lang: de
 weight: 901

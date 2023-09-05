@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakboard Script Types
-menu_title: Peakboard Script Types
+title: Script Types
+menu_title: Script Types
 description: Informatinon about the Peakboard Script Types
 lang: en
 weight: 901

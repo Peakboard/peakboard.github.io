@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Lua Schleifen
-menu_title: Lua Schleifen
+title: Schleifen
+menu_title: Schleifen
 description: Informationen über Schleifen in der Lua Skripterstellung
 lang: de
 weight: 320

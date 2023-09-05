@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Lua Operatoren
-menu_title: Lua Operatoren
+title: Operatoren
+menu_title: Operatoren
 description: Informationen über Operatoren in der Lua Skripterstellung
 lang: de
 weight: 310

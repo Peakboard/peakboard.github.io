@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakboard-Skript-Engine
-menu_title: Peakboard-Skript-Engine
+title: Skript-Engine
+menu_title: Skript-Engine
 description: Information über die Peakboard Skript Engine
 lang: de
 weight: 100

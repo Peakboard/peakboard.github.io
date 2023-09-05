@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakboard building blocks
-menu_title: Peakboard building blocks
+title: Building blocks
+menu_title: Building blocks
 description: Information about Peakboard building blocks
 lang: en
 weight: 120

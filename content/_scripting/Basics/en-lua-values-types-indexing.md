@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Lua values, types and indexing
-menu_title: Lua values, types & indexing
+title: Values, types and indexing
+menu_title: Values, types & indexing
 description: Information on values, types and indexing in Lua scripting
 lang: en
 weight: 300

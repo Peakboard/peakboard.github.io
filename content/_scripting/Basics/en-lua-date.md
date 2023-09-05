@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Create date
-menu_title: Create date
-description: Information about creating a date in Lua scripting
+title: Date functions
+menu_title: Date functions
+description: Information about date manipulation in Lua scripting.
 lang: en
 weight: 350
 ref: scr-350
@@ -43,11 +43,11 @@ Note that the `os.date` function uses the local time zone and system settings fo
 
 ## Basic date functions
 
-1. `date.create(2018, 12, 31, 12, 30, 00)`
+* `date.create(2018, 12, 31, 12, 30, 00)`
 
 You can use this function to create a new date object with the given values for year, month, day, hour, minute and second. Similar to `os.date`.
 
-2. `date.tostring(906000490, 'yyyMMdd')`
+* `date.tostring(906000490, 'yyyMMdd')`
 
 This function converts a numeric representation of a date (in seconds since January 1, 1970) into a formatted string representation based on the specified format.
 
@@ -58,7 +58,7 @@ local formattedDate = date.tostring(906000490, 'yyyyMMdd')
 log("Formatted Date: " .. formattedDate)
 ```
 
-3. `date.parse('20171231', 'yyyyMMdd')`
+* `date.parse('20171231', 'yyyyMMdd')`
 
 This function parses a string representation of a date based on the specified format and converts it to a numeric representation (seconds since January 1, 1970).
 
@@ -69,31 +69,31 @@ local numericalDate = date.parse('20171231', 'yyyyMMdd')
 log("Numerical Date: " .. numericalDate)
 ```
 
-4. `date.addyear(data.mydate.getluadate(), 2)`
+* `date.addyear(data.mydate.getluadate(), 2)`
 
 This function adds a given number of years to a given date object.
 
-5. `date.addday(data.mydate.getluadate(), 2)`
+* `date.addday(data.mydate.getluadate(), 2)`
 
 This function adds a given number of days to a given date object.
 
-6. `date.addmonth(data.mydate.getluadate(), 2)`
+* `date.addmonth(data.mydate.getluadate(), 2)`
 
 This function adds a given number of months to a given date object.
 
-7. `date.addhour(data.mydate.getluadate(), 2)`
+* `date.addhour(data.mydate.getluadate(), 2)`
 
 This function adds a given number of hours to a given date object.
 
-8. `date.addminute(data.mydate.getluadate(), 2)`
+* `date.addminute(data.mydate.getluadate(), 2)`
 
 This function adds a given number of minutes to a given date object.
 
-9. `date.addsecond(data.mydate.getluadate(), 2)`
+* `date.addsecond(data.mydate.getluadate(), 2)`
 
 This function adds a given number of seconds to a given date object.
 
-10. `date.difference(date1, date2)`
+* `date.difference(date1, date2)`
 
 This function calculates the time difference in seconds between two date objects.
 
@@ -106,7 +106,7 @@ local differenceInSeconds = date.difference(date1, date2)
 log("Time Difference in Seconds: " .. differenceInSeconds)
 ```
 
-11. `date.getweeknumberofyear(data.mydate.getluadate())`
+* `date.getweeknumberofyear(data.mydate.getluadate())`
 
 This function calculates the calendar week of the given date object.
 
@@ -117,7 +117,7 @@ local weekNumber = date.getweeknumberofyear(data.mydate.getluadate())
 log("Calendar Week Number: " .. weekNumber)
 ```
 
-12. `date.calculateshiftduration('08:00', '16:00', '10:00', '10:15')`
+* `date.calculateshiftduration('08:00', '16:00', '10:00', '10:15')`
 
 This function calculates the duration of a shift based on the specified start time, end time, break start time, and break end time.
 

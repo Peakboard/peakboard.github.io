@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakboard Script Engine
-menu_title: Peakboard Script Engine
+title: Script Engine
+menu_title: Script Engine
 description: Information about the Peakboard Script Engine
 lang: en
 weight: 100

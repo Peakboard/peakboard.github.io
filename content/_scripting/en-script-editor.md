@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakboard Script Editor
-menu_title: Peakboard Script Editor
+title: Script Editor
+menu_title: Script Editor
 description: Information about the Peakboard Script Editor
 lang: en
 weight: 110

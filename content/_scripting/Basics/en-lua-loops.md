@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Lua loops
-menu_title: Lua loops
+title: Loops
+menu_title: Loops
 description: Information about loops in Lua scripting
 lang: en
 weight: 320

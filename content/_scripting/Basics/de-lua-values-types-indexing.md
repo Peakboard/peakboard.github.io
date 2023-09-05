@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Lua Werte, Typen und Indexierung
-menu_title: Lua Werte, Typen & Indexierung
+title: Werte, Typen und Indexierung
+menu_title: Werte, Typen & Indexierung
 description: Informationen über Werte, Typen und Indexierung in der Lua Skripterstellung
 lang: de
 weight: 300

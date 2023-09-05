@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakboard-Skript-Editor
-menu_title: Peakboard-Skript-Editor
+title: Skript-Editor
+menu_title: Skript-Editor
 description: Information über den Peakboard-Skript-Editor
 lang: de
 weight: 110

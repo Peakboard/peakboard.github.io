@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Der Peakboard-Skript-Baum
-menu_title: Der Peakboard-Skript-Baum
+title: Skript-Baum
+menu_title: Skript-Baum
 description: Informatinon über den Peakboard-Skript-Baum
 lang: de
 weight: 900

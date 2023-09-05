@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Peakboard Script Tree
-menu_title: Peakboard Script Tree
+title: Script Tree
+menu_title: Script Tree
 description: Informatinon about the Peakboard Script Tree
 lang: en
 weight: 900
