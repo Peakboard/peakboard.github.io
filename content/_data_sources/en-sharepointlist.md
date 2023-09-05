@@ -9,18 +9,29 @@ ref: dat-1650
 redirect_from:
 ---
 
-This page explains the individual features when accessing a sharepoint list. 
-Under the following link you will find a tutorial on how to configure external data sources in general and how to connect them to peakboard elements:
+This page explains the individual features when accessing a Sharepoint list.
+Under the following link you will find a tutorial on how to generally configure external data sources and link them to Peakboard elements:
 
-[First steps with external data sources using the example of an XML data source](/tutorials/03-en-xml-data.html)
+[Getting started with external data sources using an XML data source as an example](/tutorials/03-en-xml-data.html).
 
-The SharePoint data source can be coupled with both on-premise lists and cloud installations such as Office 365. 
-Enter the site URL under **Sharepoint Site** and the technical name of the list under **List**.
-**EMail** and **Password** are the usual access data. 
-For **Sharepoint Installation**, Peakboard needs a note whether it is an on-premise or online installation.
-**Load Data** shows preview data and determines the metadata for the columns. 
-Please note that in addition to the pure user data, several metadata columns are also transmitted, e.g. the date of the last access, the name of the creator and many more. 
+You can pair the Sharepoint data source with lists from on-premise as well as cloud installations like Office 365.
+
+To add the data source, right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [Sharepoint list] (1).
+
+![Add Sharepoint list](/assets/images/data-sources/sharepointlist/en_sharepoint-01.png)
+
+Give the data source a name (1).
+
+In the [Connection] section enter the page URL at [Sharepoint page (collection)] (2).
+Email (3) and password (4) are your Sharepoint access data.
+With the selection field [Sharepoint installation] (5) you define if it is an on-premise or online installation.
+
+In the area [Specify details] you enter the name of the desired list (6) and define the maximum number of rows to be loaded (7).
+
+By clicking on [Load data] (8) the corresponding data will be displayed as a preview.
+
+Beside the pure data, meta columns are also transmitted, e.g. the date of the last access, the name of the creator and others.
 Depending on the application, these additional columns can be useful.
-Once the metadata has been determined, the data source is available for use.
+When the metadata is determined, the data source is available for use.
 
-![Sharepoint list](/assets/images/data-sources/sharepointlist/sharepoint.png)
+![Configure Sharepoint list](/assets/images/data-sources/sharepointlist/en_sharepoint-02.png)
