@@ -26,3 +26,11 @@ On the left side of the dialog, you will find the [Advanced] tab (9). In this ar
 Unlike scalar variables with a single value, lists consist of columns, each with a unique name and data type. With the [+] symbol (13) you can add new columns. You can manually fill the list with values or edit or delete values directly in the table.
 
 ![Lists](/assets/images/scripting/variables/en_lists.png)
+
+### Export list as CSV
+
+You can export the data collected in a list (1) as a CSV file for archiving purposes, for example.
+The requirement for the export is a CSV target file that you have added as a network resource in the Peakboard Designer (2).
+To start the export from within the project, create a button (3). With the following Building Block (4) / script in the tapped event, the list will then be exported to the specified destination file and its contents will be overwritten with the contents of the list as soon as the button is clicked.
+
+![CSV export](/assets/images/scripting/variables/en_csv-export.png)

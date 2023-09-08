@@ -26,3 +26,11 @@ Im linken Bereich des Dialogs findest du den Tab [Erweitert] (9). In diesem Bere
 Im Unterschied zu den skalaren Variablen mit einem einzelnen Wert bestehen Listen aus Spalten, die jeweils einen eindeutigen Namen und einen eigenen Datentyp haben. Mit dem [+] Symbol (13) kannst du neue Spalten hinzufügen. Du kannst die Liste direkt in der Tabelle manuell mit Werten befüllen, editieren oder Werte löschen.
 
 ![Listen](/assets/images/scripting/variables/de_lists.png)
+
+### Liste als CSV exportieren
+
+Du kannst die in einer Liste (1) erfassten Daten beispielsweise zu Archivierungszwecken als CSV-Datei exportieren.
+Voraussetzung für den Export ist eine CSV-Zieldatei, die du im Peakboard Designer als Netzwerk-Ressource hinzugefügt hast (2).
+Um den Export aus dem Projekt heraus starten zu können, legst du dir einen Button (3) an. Mit folgendem Building Block (4) / Skript im Tapped-Event wird die Liste dann in die angegebene Zieldatei exportiert und deren Inhalt mit dem Inhalt der Liste überschrieben, sobald der Button geklickt wird.
+
+![CSV Export](/assets/images/scripting/variables/de_csv-export.png)
