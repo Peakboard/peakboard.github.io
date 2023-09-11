@@ -9,24 +9,38 @@ ref: dat-2300
 redirect_from:
   - /data_sources/18-de-mqtt-broker.html
 ---
-Die Datenquelle MQTT-Broker bietet den Zugang zum Subscription-Modell eines MQTT-Servers (siehe [https://de.wikipedia.org/wiki/MQTT](https://de.wikipedia.org/wiki/MQTT)). Wie das Protokoll selbst ist auch die Konfiguration recht einfach und wird im folgenden Screenshot dargestellt. Im Wesentlichen ist nur der Server anzugeben. Die Angabe des Ports ist optional genauso wie die Angabe von User-Name und Passwort (zu erreichen über den kleinen Button mit den drei Punkten). Falls Sie keinen MQTT-Server zur Verfügung haben, nehmen Sie einfach [test.mosquitto.org](http://test.mosquitto.org/). Er ist öffentlich zugänglich.
 
-![image_1](/assets/images/data-sources/mqtt-broker/mqtt-01.png)
+Die Datenquelle MQTT-Broker bietet dir den Zugang zum Subscription-Modell eines MQTT-Servers (siehe [https://de.wikipedia.org/wiki/MQTT](https://de.wikipedia.org/wiki/MQTT)).
+MQTT (Message Queue Telemetry Transport) ist ein leichtgewichtiges Messaging-Protokoll, das für Szenarien mit geringer Bandbreite und instabilen Netzwerken konzipiert ist. Es basiert auf einem Publish-Subscribe-Modell, wobei ein Broker als Mittler dient, der Nachrichten von Publishern empfängt und an Subscriber weiterleitet, die sich auf spezifische Topics abonniert haben.
 
-Es gibt zwei Modelle, MQTT-Messages mit dieser Datenquelle zu verarbeiten. Die einfachste Option ist über die klassische Abwicklung einer Datenquelle, also über ein tabellenartiges Datenobjekt. Jede neue Nachricht wird als Eintrag dieser Tabelle hinzugefügt. Um eine Subscription auf ein MQTT-Topic zu setzen, muss sie entsprechend angelegt werden. Eine Subscription kann über mehrere Topics laufen. Der folgende Screenshot zeigt diesen Zusammenhang. Das tabellenartige Datenobjekt hat drei Spalten: Timestamp, Topic und Message. Message enthält in der Regel einfach einen JSON-String.
+Um die Datenquelle hinzuzufügen, mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle dann [Datenquelle hinzufügen] und [MQTT] (1).
 
-![image_1](/assets/images/data-sources/mqtt-broker/mqtt-02.png)
+![MQTT hinzufügen](/assets/images/data-sources/mqtt-broker/de_mqtt-01.png)
 
-Die zweite Möglichkeit auf eingehende Nachrichten zu reagieren ist über ein Script. Dazu kann für jede Subscription jeweils ein Script hinterlegt werden. Die Nutzdaten der MQTT-Nachricht stehen innerhalb des Scripts mit message.timestamp, message.topic und message.text zur Verfügung (siehe auch Objekt-Baum auf der linken Seite). Falls Sie den reinen Nachrichtentext zunächst parsen müssen, nutzen Sie einfach json.parse(…).
-![image_1](/assets/images/data-sources/mqtt-broker/mqtt-03.png)
+Gib der Datenquelle einen Namen (1). Um die Datenquelle zu verbinden, musst du den Server unter [MQTT Broker] (2) angeben. Die Angabe des MQTT Brokerports (3) ist optional, genauso wie die Authentifizierung (4).
 
-## Sending Messages
+Falls du keinen MQTT-Server zur Verfügung hast, kannst du [test.mosquitto.org](http://test.mosquitto.org/) verwenden. Er ist öffentlich zugänglich. Alternativ kannst du auch unseren Test-Broker [templates.peakboard.rocks] nutzen.
 
-Jede MQTT-Quelle kann auch dazu genutzt werden, um Nachrichten von Peakboard an den MQTT-Server zu senden. Der folgende Screenshot zeigt wie es geht. Die Funktion des Datenobjekts lautet einfach nur
+Um Daten zu empfangen, musst du eine oder mehrere Subscriptions (5) hinzufügen. Durch einen Klick auf den entsprechenden Button fügst du eine neue Subscription hinzu. Wenn du den Peakboard Test-Broker benutzt, kannst du folgende Topic Filter hinzufügen:
 
+* shopfloor/counter/
+* shopfloor/station1/
+* shopfloor/station2/
+* shopfloor/station3/
+* shopfloor/station4/
+* shopfloor/station5/
 
-```lua
-Data.MeinMQTTObjekt.Publish(MeinTopic, MeineNachricht)
-```
+Für jede der 5 verschiedenen Stationen wechselt die Datenquelle zwischen den Statuscodes 100, 200, 300. Der Produktionszähler zählt hoch und wird nach einer Weile zurückgesetzt.
 
-![image_1](/assets/images/data-sources/mqtt-broker/mqtt-04.png)
+Unter [Quality of Service] (6) kannst du einstellen, wie Nachrichten zwischen Publisher und Subscriber übertragen werden.
+Es gibt drei Stufen:
+
+* At most once: Die Nachricht wird einmal gesendet, und es gibt keine Bestätigung vom Empfänger.
+* At least once: Die Nachricht wird mindestens einmal gesendet, und der Empfänger sendet eine Bestätigung zurück. Wenn die Bestätigung nicht empfangen wird, wird die Nachricht erneut gesendet.
+* Exactly once: Dies ist die sicherste, aber auch die langsamste QoS-Stufe. Sie stellt sicher, dass die Nachricht genau einmal zugestellt wird, indem ein Vier-Wege-Handshake zwischen Sender und Empfänger verwendet wird.
+
+Die Auswahl der richtigen QoS-Stufe hängt von den spezifischen Anforderungen deiner MQTT-Anwendung ab. Es ist ein Kompromiss zwischen Geschwindigkeit und Zuverlässigkeit der Nachrichtenübermittlung.
+
+Um dir eine Vorschau der hinzugefügten Topic Filter anzeigen zu lassen, klicke auf [Empfänger starten] (7).
+
+![MQTT konfigurieren](/assets/images/data-sources/mqtt-broker/de_mqtt-02.png)
