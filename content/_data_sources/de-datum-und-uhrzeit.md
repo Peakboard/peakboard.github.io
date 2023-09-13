@@ -37,7 +37,7 @@ Zeitsprünge (Addition oder Subtraktion) können direkt in der Zeitdatenquelle a
 
 ![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_02.png)
 
-Die folgende Animation zeigt, wie die Zeit per Drag and Drop auf dem Screen verwendet werden kann. 
+Die folgende Animation zeigt, wie die Zeit per Drag and Drop auf dem Screen verwendet werden kann.
 
 ![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_03.gif)
 
@@ -52,7 +52,7 @@ In der Preview werden jetzt das aktuelle Datum und die Uhrzeit angezeigt.
 
 Platzhalter für den Format-String:
 
-```
+```html
 HH: Stunde (00 – 24)
 hh: Stunde (00 – 12)
 mm: Minute
@@ -62,4 +62,5 @@ MM: Monat (Zahl) z.B. 11
 MMMM: Monat (Text) z.B. November
 yy: zweistelliges Jahr z.B. 89
 yyyy: vierstelliges Jahr z.B. 1989
+tt: AM/PM Kennzeichner
 ```

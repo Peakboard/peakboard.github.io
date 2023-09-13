@@ -37,7 +37,7 @@ You can perform time jumps (addition or subtraction) directly in the time data s
 
 ![Time data source](/assets/images/data-sources/date-and-time/de_timedatasource_02.png)
 
-The following animation shows how to use the time by dragging and dropping it on the screen. 
+The following animation shows how to use the time by dragging and dropping it on the screen.
 
 ![Time data source](/assets/images/data-sources/date-and-time/en_timedatasource_03.gif)
 
@@ -52,7 +52,7 @@ The preview now shows the current date and time.
 
 Placeholder for the format string:
 
-```
+```html
 HH: hour (00 - 24)
 hh: hour (00 - 12)
 mm: minute
@@ -62,4 +62,5 @@ MM: Month (number) e.g. 11
 MMMM: month (text) e.g. November
 yy: two-digit year e.g. 89
 yyyy: four-digit year e.g. 1989
+tt: AM/PM identifier
 ```
