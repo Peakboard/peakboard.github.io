@@ -22,6 +22,22 @@
       }]
     },
     {
+      "name": "Diagramme",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Charts_de.gif",
+        "description": "Die Diagramme wurden umfassend überarbeitet. Zu den wichtigsten Änderung gehören unter anderem: Du kannst die Balken und Säulen in den entsprechenden Diagrammen abrunden. Du kannst den Abstand zwischen den Balken / Säulen in den entsprechenden Diagrammen definieren. Du kannst für die Achsenlabels und die Chartlabels nun Formate vergeben und so z.B. ein Datum konvertieren, Einheitszeichen hinzufügen, 1000 in 1k abkürzen und ähnliches. Du kannst die Achsen nun umfärben oder komplett ausblenden. Das Tabmenü wurde grundlegend überarbeitet: Es gibt nun Icons die dem Typ und Farbe ihrer Serien entsprechen. Du kannst Serien verschieben, duplizieren und umbenennen. Außerdem wurden die Schwellenwerte bei Balken- und Säulendiagrammen grundlegend überarbeitet. Du kannst nun dynamische Schwellenwerte für jeden Balken / Säule setzen. Alle Änderungen findest du in der Gesamtübersicht."
+      }]
+    },
+    {
+      "name": "Zeitachse",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Timelinegrid.gif",
+        "description": "Das Zeitachsen Control wurde grundlegend überarbeitet, um dir die Arbeit damit erheblich zu vereinfachen. Unter anderem kannst du die Zeitachse nun ganz einfach nach Wunsch begrenzen und die Zeit zwischen zwei Timestamps wird automatisch berechnet und angezeigt. So lassen sich beispielsweise ganz leicht Ausfallzeiten während einer bestimmten Schicht oder ähnliche Use Cases umsetzen. Zusätzlich wurde auch die Oberfläche aufgefrischt und erlaubt dir neue Möglichkeiten der Anpassung in den Attributen."
+      }]
+    },
+    {
       "name": "Gesamtübersicht",
       "content": [{
 		    "type": "headline",
@@ -96,7 +112,7 @@
         "type": "list",
         "list_items": [
           "Fix für einen Fehler, bei dem Teile von Live Tiles, Styled Tile Kollektionen und Styled Lists wegen falscher Berechnungen abgeschnitten wurden",
-          "[Zeitachse] - umfassend überarbeitet",
+          "[Zeitachse] - umfassend überarbeitet - weitere Informationen in den Highlights",
           "[Diagramm] - Fix für einen Fehler, bei dem Gitternetzlinien und deren Auswahloptionen nicht richtig angezeigt wurden",
           "[Diagramm] - Fix für einen Fehler, bei dem Wertelabels innerhalb von Diagrammen abgeschnitten angezeigt wurden",
           "[Diagramm] - Fix für einen Fehler der durch die die Kombination verschiedener Säulendiagramme ausgelöst wurde",

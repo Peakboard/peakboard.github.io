@@ -22,6 +22,22 @@
       }]
     },
     {
+      "name": "Charts",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Charts_en.gif",
+        "description": "The charts have been extensively revised. Among the most important changes are: You can round the bars and columns in the corresponding charts. You can define the distance between the bars / columns in the corresponding charts. You can now assign formats for the axis labels and the chart labels and thus, for example, convert a date, add unit signs, abbreviate 1000 to 1k and the like. You can now recolor the axes or hide them completely. The tab menu has been fundamentally reworked: There are now icons that correspond to the type and color of their series. You can move, duplicate and rename series. Also, the thresholds for bar and column charts have been fundamentally reworked. You can now set dynamic thresholds for each bar / column. All changes can be found in the general overview."
+      }]
+    },
+    {
+      "name": "Timeline grid",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Timelinegrid.gif",
+        "description": "The timeline grid control has been fundamentally revised to make your work with it much easier. Among other things, you can now easily limit the timeline as desired and the time between two timestamps is automatically calculated and displayed. This makes it easy to implement downtimes during a certain shift or similar use cases. In addition, the interface has been refreshed and allows you new options for customization in the attributes."
+      }]
+    },
+    {
       "name": "General overview",
       "content": [{
 		    "type": "headline",
