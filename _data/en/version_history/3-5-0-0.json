@@ -1,0 +1,157 @@
+[{
+  "version": "3.5.0.0",
+  "date": "02.10.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.5.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.5.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Quick access",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Schnellzugriff.gif",
+        "description": "The quick access allows you to open a quick access bar with the shortcut [Ctrl + K] with which you can search for various functions of the Peakboard Designer and execute them directly from the bar."
+      }]
+    },
+    {
+      "name": "Autosave",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Autosave.gif",
+        "description": "Have you ever had a PC crash while working with Peakboard Designer? We are here for you! With the Autosave feature, you can restore your project after a crash so you don't lose your hard work."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Setup] - fix for a bug where the software was not completely removed when uninstalling",
+          "[Peakboard Designer] - fix for a bug where deleting a project color resulted in an error",
+          "[Peakboard Designer]- fix for a bug where drag-and-drop to add resources no longer worked when Peakboard Designer was automatically opened after an update",
+          "[Peakboard Designer] - fix for a bug where the global text input event did not support a minus",
+          "[Peakboard Designer] - added quick access bar - more information in highlights",
+          "[Peakboard Designer] - autosave feature added - more information in the highlights",
+          "[Peakboard Box] - fix for a bug where Peakboard Boxes were not renamed correctly",
+          "[Peakboard Box] - fix for a bug where the time server could only be edited while it was available",
+          "[Peakboard Box] - fix for a bug with Peakboard Box permissions",
+          "[Peakboard Box] - upload process reworked",
+          "[Peakboard Box] - communication over Azure communication bus between Peakboard Designer and Peakboard Box enabled for Peakboard Boxes connected via Peakboard Hub",
+          "[Peakboard Box] - adjustments to permissions of encrypted connections",
+          "[Explorer] - display behavior for long names revised",
+          "[Resources](/misc/en-ressources.html) - fix for a bug where network resources referenced the wrong file when multiple network resources were connected",
+          "[Resources](/misc/en-ressources.html) - fix for a bug where adding a dynamic URL did not work properly",
+          "[Resources](/misc/en-ressources.html) - fix for a bug where the connection type was accidentally reset when overwriting a local file",
+          "[Resources](/misc/en-ressources.html) - adjusted behavior for missing resources in project file",
+          "[Resources](/misc/en-ressources.html) - added function to show unused resources",
+          "[Resources](/misc/en-ressources.html) - added function to show all references for resources",
+          "[Web Access](/administration/en-web-access.html) - fix for a critical bug triggered by a logo file when opening Web Access",
+          "[Shared Connections](/misc/en-shared-connection.html) - fix for a bug where shared connections did not work properly after copy&paste."
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datasources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where the Refreshed script was executed when a data source was enabled or disabled without reloading",
+          "Revision of default headers of several data sources",
+          "Added popup to change data source connection in attributes ",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - fix for a bug that occurred when previewing a visualization of a project that contained extensions but did not have them installed",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - installed extensions are displayed in the menu for adding a data source along with the rest of the data sources",
+          "[Mitsubishi] - fix for a bug where data was not loaded correctly in the visualization",
+          "[JSON](/data_sources/en-json.html) - fix for a bug where syntax caused problems when autocompleting column names",
+          "[Excel](/data_sources/Excel/en-excel.html) - fix for a bug that occurred when URL was selected as the source type and the path was left blank",
+          "[Excel](/data_sources/Excel/en-excel.html) - fix for a bug where the data source tried to access the file each time a key was pressed, generating an error each time",
+          "[Modbus](/data_sources/en-modbus.html) - fix for a bug where only one data source could be loaded even though multiple data sources were added with a split connection",
+          "[Modbus](/data_sources/en-modbus.html) - fix for a bug where there were problems reconnecting to a Modbus device if the connection was previously lost",
+          "[OData](/data_sources/en-odata.html) - extensively revised",
+          "[SAP](/data_sources/SAP/en-sap.html) - individual dialog boxes are now mandatory.",
+          "[Twitter] - data source removed",
+          "[Reload Flows](/misc/en-reloadflows.html) - fix for a bug that was triggered when the name of a reload flow started with a number"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug that occurred when running two aggregations in a row",
+          "Fix for a bug where the help button had no function",
+          "Fix for a bug that occurred when columns were named the same twice",
+          "Fix for a bug where renaming column names did not work properly",
+          "Fix for a bug where the formatting dialog displayed something wrong",
+          "Added time-based aggregation",
+          "Dataflow steps can be renamed as needed",
+          "Dataflow steps can be subsequently reordered as needed",
+          "Dataflow steps can be enabled or disabled as needed"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where parts of live tiles, styled tile collections and styled lists were truncated due to incorrect calculations",
+          "[Timeline grid] - extensively revised",
+          "[Chart] - fix for a bug where gridlines and their selection options were not displayed correctly",
+          "[Chart] - fix for a bug where value labels were displayed truncated within charts",
+          "[Chart] - fix for a bug that was triggered by combining different column charts",
+          "[Chart] - fix for a bug where chart labels were truncated",
+          "[Chart] - fix for a bug where the label font was not displayed immediately after a change in the preview",
+          "[Chart] - fix for a bug where a threshold continued to be displayed on the chart after the threshold was cleared",
+          "[Chart] - fix for a bug where multiple series with multiple thresholds did not work at the same time",
+          "[Chart] - fix for a bug where changes to main values were not immediately previewed when changed",
+          "[Chart] - fix for a bug where values changed accidentally when scrolling through dialogs",
+          "[Chart] - conditional formatting enabled",
+          "[Chart] - spacing options revised",
+          "[Chart] - bar and column chart with thresholds revised",
+          "[Chart] - line and spline charts contour properties revised",
+          "[Chart] - circle/ring chart revised",
+          "[Chart] - corner radius property added for bar and column charts",
+          "[Chart] - trend lines removed",
+          "[Chart] - added custom format for labels",
+          "[Chart] - enabled coloring of chart axes",
+          "[Chart] - X and Y axis now fully hideable",
+          "[Chart] - numbers in axis labels can be formatted",
+          "[Chart] - series can be self-named",
+          "[Chart] - minor UX improvements",
+          "[Chart] - series can be sorted by yourself",
+          "[Chart] - series can be copied",
+          "[Chart] - zero values on stacked columns and bars can be hidden",
+          "[Text](/controls/Common/en-text-block.html) - orientation options revised",
+          "[Table](/controls/Common/en-table-grid.html) - fix for a bug where the displayed values for the inner spacing were not applied when changes were made",
+          "[Table](/controls/Common/de-table-grid.html) - fix for a bug where the data source could be accidentally changed",
+          "[Website] - enabled use of dynamic variables in HTML code"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where activation scripts were executed twice or without a trigger",
+          "Fix for a bug where error messages were no longer automatically hidden",
+          "Removed script snippet [source] for control timeline",
+          "Unified syntax for split connections in various places",
+          "[Script editor](/scripting/en-script-editor.html) - fix for a bug where a malformed global function caused dataflows to stop being created",
+          "[Script editor](/scripting/en-script-editor.html) - fix for a bug where resources did not have the full path",
+          "[Script editor](/scripting/en-script-editor.html) - fix for a bug where groups could not be accessed when preceding screens were disabled",
+          "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where SQL inserts did not work when variables were used as input",
+          "[Building Blocks](/scripting/en-building-blocks.html) - added two new functions to change a Peakboard Hub connection",
+          "[Building Blocks](/scripting/en-building-blocks.html) - revised the connection setup of a SQL query block",
+          "[Building Blocks](/scripting/en-building-blocks.html) - revised snippets for DataRow loaded event",
+          "[Building Blocks](/scripting/en-building-blocks.html) - removed various non-functional Building Blocks and snippets in charts section",
+          "[Building Blocks](/scripting/en-building-blocks.html) - UI improvements for time picker",
+          "[Timer] - fix for a bug where scheduled times of multiple timer scripts were not displayed correctly",
+          "[Variables](/scripting/en-variables.html) - fix for a bug where lists could be created that did not contain columns",
+          "[Snippets] - added all columns to modify hub list"
+        ]
+        }
+        ]
+      }]
+    }
+  ]

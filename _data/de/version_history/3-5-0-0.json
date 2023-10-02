@@ -1,0 +1,157 @@
+[{
+  "version": "3.5.0.0",
+  "date": "02.10.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.5.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.5.0.0.0/PeakboardSetup.exe",
+  "tabs": [
+    {
+      "name": "Schnellzugriff",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Schnellzugriff.gif",
+        "description": "Der Schnellzugriff ermöglicht es dir mit dem Shortcut [Strg + K] eine Schnellzugriff-Leiste zu öffnen mit der du nach verschiedensten Funktionen des Peakboard Designers suchen und diese auch direkt aus der Leiste ausführen kannst."
+      }]
+    },
+    {
+      "name": "Autosave",
+      "content": [{
+        "type": "image",
+        "image": "3-5-0-0-Autosave.gif",
+        "description": "Hattest du schon einmal einen PC-Absturz während der Arbeit mit dem Peakboard Designer? Wir sind für dich da! Mit der Autosave-Funktion kannst du dein Projekt nach einem Absturz wiederherstellen, damit du deine harte Arbeit nicht verlierst."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Setup] - Fix für einen Bug, bei dem die Software bei der Deinstallation nicht vollständig entfernt wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Löschen einer Projektfarbe zu einem Fehler führte",
+          "[Peakboard Designer]- Fix für einen Fehler, bei dem Drag-and-Drop zum Hinzufügen von Ressourcen nicht mehr funktionierte, wenn der Peakboard Designer nach einem Update automatisch geöffnet wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das globale Texteingabe-Event kein Minus unterstützte",
+          "[Peakboard Designer] - Schnellzugriff-Leiste hinzugefügt - weitere Informationen in den Highlights",
+          "[Peakboard Designer] - Autosave-Funktion hinzugefügt - Weitere Informationen in den Highlights",
+          "[Peakboard Box] - Fix für einen Fehler, bei dem Peakboard Boxen nicht korrekt umbenannt wurden",
+          "[Peakboard Box] - Fix für einen Fehler, bei dem der Zeitserver nur editiert werden konnte, solange er verfügbar war",
+          "[Peakboard Box] - Fix für einen Fehler mit den Peakboard Box Berechtigungen",
+          "[Peakboard Box] - Upload-Prozess überarbeitet",
+          "[Peakboard Box] - Kommunikation über den Azure Communication Bus zwischen Peakboard Designer und Peakboard Box ermöglicht für Peakboard Boxen, die über den Peakboard Hub verbunden sind",
+          "[Peakboard Box] - Anpassungen der Berechtigungen von verschlüsselten Verbindungen",
+          "[Explorer] - Anzeigeverhalten bei langen Namen überarbeitet",
+          "[Ressourcen](/misc/de-ressourcen.html) - Fix für einen Fehler, bei dem Netzwerkressourcen auf die falsche Datei referenzierten, wenn mehrere Netzwerkressourcen verbunden wurden",
+          "[Ressourcen](/misc/de-ressourcen.html) - Fix für einen Fehler, bei dem das Hinzufügen einer dynamischen URL nicht richtig funktionierte",
+          "[Ressourcen](/misc/de-ressourcen.html) - Fix für einen Fehler, bei dem die Verbindungsart beim Überschreiben einer lokalen Datei versehentlich zurückgesetzt wurde",
+          "[Ressourcen](/misc/de-ressourcen.html) - Verhalten bei fehlenden Ressourcen in der Projektdatei angepasst",
+          "[Ressourcen](/misc/de-ressourcen.html) - Funktion zum Anzeigen ungenutzter Ressourcen hinzugefügt",
+          "[Ressourcen](/misc/de-ressourcen.html) - Funktion zum Anzeigen aller Referenzen für Ressourcen hinzugefügt",
+          "[Web Access](/administration/de-web-access.html) - Fix für einen kritischen Fehler, der durch eine Logo-Datei beim öffnen des Web Access ausgelöst wurde",
+          "[Geteilte Verbindungen](/misc/de-shared-connection.html) - Fix für einen Fehler, bei dem geteilte Verbindungen nach dem Kopieren per Copy&Paste nicht mehr richtig funktionierten"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem das Refreshed-Skript ausgeführt wurde, wenn eine Datenquelle aktiviert oder deaktiviert wurde, ohne neu zu laden",
+          "Überarbeitung der Standard-Header mehrerer Datenquellen",
+          "Popup zum Ändern der Datenquellen-Verbindung in den Attributen hinzugefügt ",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - Fix für einen Fehler, der auftrat, wenn die Vorschau einer Visualisierung eines Projekts gestartet wurde, das Extensions enthielt, diese aber nicht installiert waren",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - Installierte Extensions werden im Menü zum Hinzufügen einer Datenquelle zusammen mit den restlichen Datenquellen angezeigt",
+          "[Mitsubishi] - Fix für einen Fehler, bei dem Daten in der Visualisierung nicht richtig geladen wurden",
+          "[JSON](/data_sources/de-json.html) - Fix für einen Fehler, bei dem es zu Problemen durch die Syntax kam, wenn Spaltennamen automatisch vervollständigt wurden",
+          "[Excel](/data_sources/Excel/de-excel.html) - Fix für einen Fehler, der auftrat, wenn Als Quelltyp URL gewählt wurde und der Pfad leer gelassen wurde",
+          "[Excel](/data_sources/Excel/de-excel.html) - Fix für einen Fehler, bei dem die Datenquelle bei jedem Tastendruck versucht hat auf die Datei zuzugreifen und dabei jedes Mal einen Fehler erzeugt hat",
+          "[Modbus](/data_sources/de-modbus.html) - Fix für einen Fehler, bei dem nur eine Datenquelle geladen werden konnte, obwohl mehrere Datenquellen mit einer geteilten Verbindung hinzugefügt wurden",
+          "[Modbus](/data_sources/de-modbus.html) - Fix für einen Fehler, bei dem es Probleme beim erneuten Verbinden mit einem Modbus-Gerät gab, wenn die Verbindung vorher verloren wurde",
+          "[OData](/data_sources/de-odata.html) - Umfassend überarbeitet",
+          "[SAP](/data_sources/SAP/de-sap.html) - Einzelne Dialogfelder sind nun verpflichtend",
+          "[Twitter] - Datenquelle entfernt",
+          "[Reload Flows](/misc/de-reloadflows.html) - Fix für einen Fehler, der ausgelöst wurde, wenn der Name eines Reload Flows mit einer Zahl begonnen hat"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, der auftrat, wenn man zwei Aggregierungen hintereinander ausführte",
+          "Fix für einen Fehler, bei dem der Hilfe-Button keine Funktion hatte",
+          "Fix für einen Fehler, der durch Doppelbenamung von Spalten entstand",
+          "Fix für einen Fehler, bei dem das Umbenennen von Spaltennamen nicht richtig funktionierte",
+          "Fix für einen Fehler, bei dem der Formatierungs-Dialog etwas Falsches anzeigte",
+          "Zeitbasierte Aggregierung hinzugefügt",
+          "Dataflow Schritte können nach Bedarf umbenannt werden",
+          "Dataflow-Schritte können nach Bedarf nachträglich umsortiert werden",
+          "Dataflow-Schritte können nach Bedarf aktiviert oder deaktiviert werden"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem Teile von Live Tiles, Styled Tile Kollektionen und Styled Lists wegen falscher Berechnungen abgeschnitten wurden",
+          "[Zeitachse] - umfassend überarbeitet",
+          "[Diagramm] - Fix für einen Fehler, bei dem Gitternetzlinien und deren Auswahloptionen nicht richtig angezeigt wurden",
+          "[Diagramm] - Fix für einen Fehler, bei dem Wertelabels innerhalb von Diagrammen abgeschnitten angezeigt wurden",
+          "[Diagramm] - Fix für einen Fehler der durch die die Kombination verschiedener Säulendiagramme ausgelöst wurde",
+          "[Diagramm] - Fix für einen Fehler, bei dem Diagramm-Labels abgeschnitten wurden",
+          "[Diagramm] - Fix für einen Fehler, bei dem die Label-Schriftart nicht direkt nach einer Änderung in der Vorschau angezeigt wurde",
+          "[Diagramm] - Fix für einen Fehler, bei dem ein Schwellenwert weiterhin im Diagramm angezeigt wurde, nachdem der Schwellenwert gelöscht wurde",
+          "[Diagramm] - Fix für einen Fehler, bei dem mehrere Serien mit mehreren Schwellenwerten nicht gleichzeitig funktionierten",
+          "[Diagramm] - Fix für einen Fehler, bei dem Änderungen an Hauptwerten nicht sofort in der Vorschau angezeigt wurden, wenn sie geändert wurden",
+          "[Diagramm] - Fix für einen Fehler, bei dem Werte sich beim Scrollen durch Dialoge versehentlich geändert hatten",
+          "[Diagramm] - Bedingte Formatierung ermöglicht",
+          "[Diagramm] - Abstands-Optionen überarbeitet",
+          "[Diagramm] - Balken- und Säulen-Diagramm mit Schwellenwerten überarbeitet",
+          "[Diagramm] - Linien- und Spline-Diagramme Kontureigenschaften überarbeitet",
+          "[Diagramm] - Kreis-/Ring-Diagramm überarbeitet",
+          "[Diagramm] - Eckenradius-Eigenschaft für Balken- und Säulendiagramme hinzugefügt",
+          "[Diagramm] - Trendlinien entfernt",
+          "[Diagramm] - benutzerdefiniertes Format für Beschriftungen hinzugefügt",
+          "[Diagramm] - Einfärben von Diagramm-Achsen ermöglicht",
+          "[Diagramm] - X- und Y-Achse jetzt vollständig ausblendbar",
+          "[Diagramm] - Zahlen in der Achsenbeschriftung können formatiert werden",
+          "[Diagramm] - Serien können selbst benamt werden",
+          "[Diagramm] - kleinere UX-Verbesserungen",
+          "[Diagramm] - Serien können selbst sortiert werden",
+          "[Diagramm] - Serien können kopiert werden",
+          "[Diagramm] - Null-Werte bei gestapelten Säulen und Balken können ausgeblendet werden",
+          "[Text](/controls/Common/de-text-block.html) - Orientierungsoptionen überarbeitet",
+          "[Tabelle](/controls/Common/de-table-grid.html) - Fix für einen Fehler, bei dem die angezeigten Werte für den Innenabstand bei Änderungen nicht übernommen wurden",
+          "[Tabelle](/controls/Common/de-table-grid.html) - Fix für einen Fehler, bei dem versehentlich die Datenquelle geändert werden konnte",
+          "[Website] - Verwendung von dynamischen Variablen im HTML-Code ermöglicht"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem Aktivierungsskripte doppelt oder ohne Auslöser ausgeführt wurden",
+          "Fix für einen Fehler, bei dem Fehlermeldungen nicht mehr automatisch ausgeblendet wurden",
+          "Skript-Snippet [Quelle] für das Control Zeitachse entfernt",
+          "Syntax für geteilte Verbindungen an verschiedenen Stellen vereinheitlicht",
+          "[Skript Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, bei dem eine fehlerhafte globale Funktion dazu führte, dass keine Dataflows mehr erstellt werden konnten",
+          "[Skript Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, bei dem Ressourcen nicht den vollständigen Pfad hatten",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, bei dem nicht auf Gruppen zugegriffen werden konnte, wenn voranstehende Bildschirme deaktiviert wurden",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, bei dem SQL-Inserts nicht funktioniert haben, wenn Variablen als Input genutzt wurden",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Zwei neue Funktionen zum Ändern einer Peakboard Hub Verbindung hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Überarbeitung der Verbindungseinrichtung eines SQL-Query-Blocks",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Snippets für DataRow Loaded Event überarbeitet",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Verschiedene nicht funktionale Building Blocks und Snippets im Bereich Diagramme entfernt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - UI-Verbesserungen für Time Picker",
+          "[Timer] - Fix für einen Fehler, bei dem die geplanten Zeiten von mehreren Timer-Skripten nicht korrekt angezeigt wurden",
+          "[Variablen](/scripting/de-variables.html) - Fix für einen Fehler, bei dem Listen erstellt werden konnten, die keine Spalten enthielten",
+          "[Snippets] - Alle Spalten zum Ändern der Hub-Liste hinzugefügt"
+        ]
+        }
+        ]
+      }]
+    }
+  ]
