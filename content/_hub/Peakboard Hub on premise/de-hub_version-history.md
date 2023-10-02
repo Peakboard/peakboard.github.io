@@ -5,8 +5,8 @@ product: hub
 menu_title: Versionshistorie
 description: Versionshistorie
 lang: de
-weight: 800
-ref: hub-800
+weight: 190
+ref: hub-190
 ---
 
 {% assign sorted_version_history_entries = site.data[page.lang].hub_version_history | sort %}
