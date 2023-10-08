@@ -5,8 +5,8 @@ title: MQTT Server
 menu_title: MQTT Server
 description: MQTT Server 
 lang: en
-weight: 400
-ref: hub-400
+weight: 500
+ref: hub-500
 redirect_from:
 ---
 Peakboard Hub has an integrated MQTT server that you can use for communication between your Peakboard Boxes.

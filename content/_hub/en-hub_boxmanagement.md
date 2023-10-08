@@ -5,8 +5,8 @@ title: Peakboard Boxes
 menu_title: Peakboard Boxes
 description: Peakboard Hub - Peakboard Boxes 
 lang: en
-weight: 500
-ref: hub-500
+weight: 600
+ref: hub-600
 redirect_from:
 ---
 

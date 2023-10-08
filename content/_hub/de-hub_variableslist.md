@@ -5,8 +5,8 @@ title: Listen
 menu_title: Listen 
 description: Peakboard Hub - Listen 
 lang: de
-weight: 700
-ref: hub-700
+weight: 800
+ref: hub-800
 redirect_from:
 ---
 

@@ -5,8 +5,8 @@ title: Lists
 menu_title: Lists
 description: Peakboard Hub - Lists 
 lang: en
-weight: 700
-ref: hub-700
+weight: 800
+ref: hub-800
 redirect_from:
 ---
 

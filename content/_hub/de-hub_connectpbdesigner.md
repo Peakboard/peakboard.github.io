@@ -5,21 +5,31 @@ title: Peakboard Designer Verbindung
 menu_title: Peakboard Designer Verbindung
 description: Peakboard Designer Verbindung herstellen
 lang: de
-weight: 200
-ref: hub-200
+weight: 300
+ref: hub-300
 redirect_from:
 ---
 
-Um den Peakboard Hub im Peakboard Designer nutzen zu können, muss zunächst der Peakboard Designer geöffnet werden.
-Unter den Einstellungen findest du hier den Menüpunkt [Peakboard Hub] (1) mit dem sich der Dialog zum Verbinden des Peakboard Hub öffnet.
+Um den Peakboard Hub im Peakboard Designer nutzen zu können, musst du ihn im Peakboard Designer verbinden.
+Um in den Verbindungsdialog zu gelangen, klickst du in der Menüleiste des Peakboard Designers auf das Peakboard Hub Symbol (1).
+Alternativ kannst du auch auf die Statusanzeige (2) am unteren Rand des Bildschirms klicken.
+Anhand der Statusanzeige kannst du jederzeit den Verbindungsstatus des aktuell verbundenen Peakboard Hub erkennen.
 
-![Peakboard Hub](/assets/images/hub/de_hub_connecttodesigner1.png)
+![Peakboard Hub verbinden](/assets/images/hub/de_hub_connecttodesigner-01.png)
 
-Hier musst du zuerst die URL des Peakboard Hubs (inkl. http:// bzw. https://) eingeben (2).
-Außerdem musst du hierfür den Gruppenschlüssel (3), den du im Peakboard Hub finden kannst, eingeben.
+Im Peakboard Hub Verbindungsdialog musst du zuerst auswählen, ob du einen Peakboard Hub online oder einen Peakboard Hub on premise verbinden möchtest (1).
+Für die Verbindung zu einem Peakboard Hub on premise musst du die URL des Peakboard Hub on premise (inkl. http:// bzw. https://) eingeben (2). Für den Peakboard Hub online entfällt dieses Feld.
+Bei beiden Peakboard Hub Arten musst du den Gruppenschlüssel (3) eingeben.
 
-![Group Key](/assets/images/hub/hub_connecttodesigner3.png)
+![Verbindungsdialog](/assets/images/hub/de_hub_connecttodesigner-02.png)
 
-![Peakboard Hub Settings](/assets/images/hub/de_hub_connecttodesigner2.png)
+Den Gruppenschlüssel findest du mit einem Klick auf den Profilbutton (1) in deinem Peakboard Hub.
 
-Wenn du nun auf Verbinden klickst, wird die Verbindung zum Hub hergestellt und du kannst alle Möglichkeiten, die der Peakboard Hub bietet im Peakboard Designer verwenden.
+![Gruppenschlüssel](/assets/images/hub/de_hub_connecttodesigner-03.png)
+
+Wenn du nun auf Verbinden klickst, wird die Verbindung zum Peakboard Hub hergestellt und du kannst alle Möglichkeiten, die der Peakboard Hub bietet im Peakboard Designer verwenden.
+Du kannst vom Verbindungsdialog aus mit einem Klick auf den entsprechenden Button (1) direkt in deine Peakboard Hub Oberfläche springen.
+Du siehst den Status der Verbindung (2) und kannst diese trennen (3).
+Mit einem Klick auf den [Synchronisieren] Button (4) kannst du deinen Peakboard Designer mit allen Peakboard Boxen und angelegten Verbindungen des verbundenen Peakboard Hub synchronisieren.
+
+![Verbindungsdialog](/assets/images/hub/de_hub_connecttodesigner-04.png)

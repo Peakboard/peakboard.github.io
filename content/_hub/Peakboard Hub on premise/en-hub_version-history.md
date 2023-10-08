@@ -7,6 +7,8 @@ description: Version History
 lang: en
 weight: 190
 ref: hub-190
+redirect_from:
+  - /hub/en-hub_version-history.html
 ---
 
 {% assign sorted_version_history_entries = site.data[page.lang].hub_version_history | sort %}
