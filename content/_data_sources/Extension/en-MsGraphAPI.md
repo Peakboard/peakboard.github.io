@@ -87,7 +87,7 @@ https://graph.microsoft.com/beta/reports/microsoft.graph.getEmailActivityCounts(
 
 With the additional parameter [period='D30'] we retrieve the data of the last 30 days. Click on [Check] (4) to verify that the call is possible. After a positive confirmation, click on [Load data] in the right section to display a preview of the data.
 
-! [App-only access](/assets/images/data-sources/extension/msgraph/en_access-dialog.png)
+![App-only access](/assets/images/data-sources/extension/msgraph/en_access-dialog.png)
 
 ### Prepare data for use
 

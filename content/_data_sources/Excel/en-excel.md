@@ -45,7 +45,7 @@ By default, the data in the respective worksheet is simply starting from the fir
 Otherwise generic column headings are formed (Column0, Column1, etc.).
 [Switch rows and columns] allows you to transpose the Excel data with just one click.
 
-Click on [Load data](9) to preview the data.
+Click on [Load data] (9) to preview the data.
 
 ![Excel Dialog](/assets/images/data-sources/excel/en_excel-02.png)
 

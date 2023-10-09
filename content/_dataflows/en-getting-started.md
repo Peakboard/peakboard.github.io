@@ -38,7 +38,7 @@ Now you have to select your base table (2) and confirm with [OK] (3).
 
 This step is skipped if you click on [...] next to the data source you want to use as base table to create the dataflow or right click on it and select [Process data with a dataflow] (4).
 
-![Create dataflow alternatively](/assets/images/dataflows/en_getting-started/dataflows_create-03.png)
+![Create dataflow alternatively](/assets/images/dataflows/getting-started/en_dataflows_create-03.png)
 
 Even if several tables are involved in the data transformation at the end, the dataflow always starts with exactly one table.
 In the text field (5) you assign a unique name for easier identification of the dataflow.
