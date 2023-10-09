@@ -18,7 +18,7 @@ Falls du keine URL zu einer passenden Webseite zur Hand hast, sondern die Sache 
 
 [https://www.gold.de/kurse/](https://www.gold.de/kurse/)
 
-Um die Datenquelle für Webseitentabellen hinzuzufügen mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle [Datenquelle hinzufügen] und [Webseitentabelle](1).
+Um die Datenquelle für Webseitentabellen hinzuzufügen mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle [Datenquelle hinzufügen] und [Webseitentabelle] (1).
 
 Peakboard sucht in der jeweiligen Webseite nach HTML-Tabellen. Das funktioniert besonders gut, wenn das HTML syntaktisch korrekt ist. Solltest du dich an einer Webseite versuchen, bei der die Daten nicht korrekt gefunden werden oder unvollständig sind, prüfe die HTML-Syntax.
 

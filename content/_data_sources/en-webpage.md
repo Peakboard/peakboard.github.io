@@ -18,7 +18,7 @@ If you don't have a URL to a suitable web page at hand, but just want to try thi
 
 [https://www.dailymetalprice.com/](https://www.dailymetalprice.com/metalpricewidget.php)
 
-To add the data source for web page tables right click on [Data] or alternatively click on the [...] button and select [Add data source] and [Web page table](1).
+To add the data source for web page tables right click on [Data] or alternatively click on the [...] button and select [Add data source] and [Web page table] (1).
 
 Peakboard will search for HTML tables in the web page in question. This works especially well if the HTML is syntactically correct. If you are trying to access a web page where the data is not found correctly or is incomplete, check the HTML syntax.
 

@@ -45,7 +45,7 @@ hide_in_menu: true
 * Stability adjustment for Peakboard Runtime monitoring
 * Stability adjustment for Peakboard Management Service
 * Added step in dataflow that allows to change multiple data types at once
-* User-Agent for [Web Widget-Control](/controls/Extended/en-web-widget.html) and [Web Page-Control](/controls/Extended/en-webpage.html) can be defined
+* User-Agent for Web Widget-Control and [Web Page-Control](/controls/Extended/en-webpage.html) can be defined
 * OAuth2 authentication now allows an implicit grant type
 * Added ability to publish via shared [MQTT data source](/data_sources/en-mqtt-broker.html)
 * Shared MQTT connections now use a single shared connection
