@@ -56,7 +56,7 @@
             "[PowerBI-Control](/controls/Extended/de-power-bi.html) - Kompatibilität für Reports hinzugefügt",
             "[PowerBI-Control](/controls/Extended/de-power-bi.html) - Dialog überarbeitet",
             "[Web Page](/controls/Extended/de-webpage.html) - Check Box für die Erlaubnis zum Öffnen von Webseiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist, hinzugefügt",
-            "[Web Widget](/controls/Extended/de-web-widget.html) - Check Box für die Erlaubnis zum Öffnen von Websiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist hinzugefügt",
+            "Web Widget - Check Box für die Erlaubnis zum Öffnen von Websiten, für die kein gültiges Zertifikat auf der Peakboard Box installiert ist hinzugefügt",
             "Retro Flipper Control entfernt",
             "Fix für einen Fehler, bei dem in der bedingten Formatierung eine leere Eingabe nicht als solche erkannt wurde",
             "Fix für einen Fehler, bei dem Dateien vom Format .mkv nicht als Video-Dateien erkannt wurden"

@@ -56,7 +56,7 @@
           "[PowerBI-Control](/controls/Extended/en-power-bi.html) - compatibility for reports added",
           "[PowerBI-Control](/controls/Extended/en-power-bi.html) - Dialog revised",
           "[Web Page](/controls/Extended/en-webpage.html) - added check box for permission to open web pages for which no valid certificate is installed on the Peakboard Box",
-          "[Web Widget](/controls/Extended/en-web-widget.html) - check box for permission to open websites for which no valid certificate is installed on the Peakboard Box added",
+          "Web Widget - check box for permission to open websites for which no valid certificate is installed on the Peakboard Box added",
           "Retro Flipper Control removed",
           "Fix for a bug that did not recognize an empty input as such in [conditional formatting](/controls/en-cf.html)",
           "Fix for a bug where .mkv format files were not recognized as video files"
