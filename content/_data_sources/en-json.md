@@ -42,4 +42,4 @@ In the preview, you have the possibility to change the data type of the respecti
 
 Check the following link for a tutorial on how to generally configure external data sources and link them to Peakboard elements:
 
-[Getting started with external data sources using an XML data source as an example](/tutorials/03-en-xml-datasource.html).
+[Getting started with external data sources using an XML data source as an example](/data_sources/en-xml-data.html).

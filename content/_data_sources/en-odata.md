@@ -28,6 +28,6 @@ OData is a standardized data exchange format. The example URL points to a small 
 
 Once you have chosen an entity set, the available entity properties (5) are automatically displayed for selection. In case you don't want to retrieve all data from the source, you can specify an OData filter in the corresponding text field (6). If you don't know exactly how an OData filter works, you can find a good introduction [at odata.org](https://www.odata.org/getting-started/basic-tutorial/#queryData).
 
-With a click on [Load data](7) a test request is sent to the server and the data is prepared according to the specifications.
+With a click on [Load data] (7) a test request is sent to the server and the data is prepared according to the specifications.
 
 ![OData preview](/assets/images/data-sources/odata/en_odata-03.png)
