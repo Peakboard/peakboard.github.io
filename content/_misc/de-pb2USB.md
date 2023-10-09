@@ -9,7 +9,7 @@ ref: misc-11
 ---
 
 Wenn du Peakboard 2 auf deine Peakboard Box aufspielen möchtest, kannst du unter sales@peakboard.com einen entsprechenden USB-Stick anfordern.
-Das Update auf eine Peakboard 2 Box ist für alle Kunden mit einer gültigen [Service Level Agreement (SLA) Identifikationsnummer](https://peakboard.com/wp-content/uploads/2020/03/peakboard-service-level-agreement-de-v3.pdf) kostenlos.
+Das Update auf eine Peakboard 2 Box ist für alle Kunden mit einer gültigen Service Level Agreement (SLA) Identifikationsnummer kostenlos.
 
 
 Stecke den USB-Stick in den USB 3.0 Port deiner Peakboard Box. 

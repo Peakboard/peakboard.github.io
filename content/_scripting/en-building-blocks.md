@@ -9,7 +9,7 @@ ref: scr-120
 redirect_from:
 ---
 
-Peakboard offers you [conditional formatting](/controls/de-cf.html), a tool for data-dependent display logic, and [dataflows](/dataflows/de-first-steps.html), a way to prepare incoming data for your project. In order to be able to fulfill more complex requirements and ideas without extensive programming knowledge, you can use the Peakboard building blocks to assemble your code with graphical blocks.
+Peakboard offers you [conditional formatting](/controls/de-cf.html), a tool for data-dependent display logic, and [dataflows](/dataflows/en-getting-started.html), a way to prepare incoming data for your project. In order to be able to fulfill more complex requirements and ideas without extensive programming knowledge, you can use the Peakboard building blocks to assemble your code with graphical blocks.
 
 ### Peakboard building blocks in the script editor
 

@@ -64,7 +64,7 @@ Finally, you also have the option to define functions. As with the variables and
 
 To do this, you have to create a new function in the explorer of the Peakboard Designer under [Scripts] -> [Functions].
 
-Make sure that this function is defined as [Shared function](14).
+Make sure that this function is defined as [Shared function] (14).
 
 ![Web access functions](/assets/images/admin/web-access/Web-Access_visualization-06_en.png)
 

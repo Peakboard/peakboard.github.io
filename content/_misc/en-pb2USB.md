@@ -9,7 +9,7 @@ ref: misc-11
 ---
 
 To upgrade a Peakboard Box to a Peakboard 2 Box, a corresponding USB stick can be requested from the sales team (sales@peakboard.com).
-The update to a Peakboard 2 Box is free of charge for all customers with a valid [Service Level Agreement (SLA) identification number](https://peakboard.com/wp-content/uploads/2020/03/peakboard-service-level-agreement-en-v3.pdf).
+The update to a Peakboard 2 Box is free of charge for all customers with a valid Service Level Agreement (SLA) identification number.
 
 
 To update the Peakboard Boxes, this USB stick must be inserted into the USB 3.0 port of the respective Peakboard Box.
