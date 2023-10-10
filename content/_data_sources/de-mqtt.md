@@ -1,16 +1,17 @@
 ---
 layout: article
-title: MQTT-Broker
-menu_title: MQTT-Broker
-description: Information über MQTT-Broker Daten in Peakboard
+title: MQTT
+menu_title: MQTT
+description: Information über MQTT Daten in Peakboard
 lang: de
 weight: 2300
 ref: dat-2300
 redirect_from:
-  - /data_sources/18-de-mqtt-broker.html
+ - /data_sources/18-de-mqtt-broker.html
+ - /data_sources/de-mqtt-broker.html
 ---
 
-Die Datenquelle MQTT-Broker bietet dir den Zugang zum Subscription-Modell eines MQTT-Servers (siehe [https://de.wikipedia.org/wiki/MQTT](https://de.wikipedia.org/wiki/MQTT)).
+Die Datenquelle MQTT bietet dir den Zugang zum Subscription-Modell eines MQTT-Servers (siehe [https://de.wikipedia.org/wiki/MQTT](https://de.wikipedia.org/wiki/MQTT)).
 MQTT (Message Queue Telemetry Transport) ist ein leichtgewichtiges Messaging-Protokoll, das für Szenarien mit geringer Bandbreite und instabilen Netzwerken konzipiert ist. Es basiert auf einem Publish-Subscribe-Modell, wobei ein Broker als Mittler dient, der Nachrichten von Publishern empfängt und an Subscriber weiterleitet, die sich auf spezifische Topics abonniert haben.
 
 Um die Datenquelle hinzuzufügen, mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle dann [Datenquelle hinzufügen] und [MQTT] (1).
