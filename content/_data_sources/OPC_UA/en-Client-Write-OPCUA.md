@@ -8,6 +8,7 @@ weight: 2410
 ref: dat-2410
 redirect_from: 
  - /misc/en-Client-Write-OPCUA.html
+ - /data_sources/OPCUA/en-Client-Write-OPCUA.html
 ---
 
 With the following statement the value of a variable on an OPC UA server may be changed with a script.

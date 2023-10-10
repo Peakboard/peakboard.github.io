@@ -16,7 +16,7 @@ The Peakboard Hub on premise serves as your central platform for managing and mo
 
 ## The structure of Peakboard Hub on premise
 
-After you [install Peakboard Hub on premise](/hub/Peakboard%20Hub%20on%20premise/en-hub_version-history.html), you'll land right in the middle of the action after logging in.
+After you [install Peakboard Hub on premise](/hub/Peakboard_Hub_on_premise/en-hub_version-history.html), you'll land right in the middle of the action after logging in.
 The window is divided into three areas.
 
 ![Peakboard Hub](/assets/images/hub/en_hub_get-started-01.png)

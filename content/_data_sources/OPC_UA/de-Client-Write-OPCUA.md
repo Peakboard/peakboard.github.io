@@ -8,6 +8,7 @@ weight: 2410
 ref: dat-2410
 redirect_from: 
  - /misc/de-Client-Write-OPCUA.html
+ - /data_sources/OPCUA/de-Client-Write-OPCUA.html
 ---
 
 Mit folgendem Statement kann mit einem Skript der Wert einer Variablen auf einem OPC UA Server geändert werden.

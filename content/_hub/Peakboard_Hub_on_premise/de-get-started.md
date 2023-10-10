@@ -16,7 +16,7 @@ Der Peakboard Hub on premise dient als deine zentrale Plattform zur Verwaltung u
 
 ## Die Struktur des Peakboard Hub on premise
 
-Nachdem du [den Peakboard Hub on premise installiert hast](/hub/Peakboard%20Hub%20on%20premise/de-hub_installation.html) landest du nach dem Login direkt mitten im Geschehen.
+Nachdem du [den Peakboard Hub on premise installiert hast](/hub/Peakboard_Hub_on_premise/de-hub_installation.html) landest du nach dem Login direkt mitten im Geschehen.
 Das Fenster ist in drei Bereiche aufgeteilt.
 
 ![Peakboard Hub](/assets/images/hub/de_hub_get-started-01.png)

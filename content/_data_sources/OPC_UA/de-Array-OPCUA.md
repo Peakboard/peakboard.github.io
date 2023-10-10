@@ -8,6 +8,7 @@ weight: 2420
 ref: dat-2420
 redirect_from: 
  - /misc/de-Array-OPCUA.html
+ - /data_sources/OPCUA/de-Array-OPCUA.html
 ---
 
 Um einzelne Elemente eines Arrays von einem OPC UA Server nutzen zu können, muss zunächst das Array als Subscription angelegt werden (1).
