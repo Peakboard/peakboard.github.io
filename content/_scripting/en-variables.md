@@ -19,7 +19,7 @@ In the dialog of the variable or list you can choose from the three available da
 
 ![Dialog variable or list](/assets/images/scripting/variables/en_dialog.png)
 
-On the left side of the dialog, you will find the [Advanced] tab (9). In this area, you have the option to enable access to the variable or list via API (10). This way, you can either read or read and write the variable or list from outside using the Peakboard data source, for example. You also have the option to limit the variable to specified values (11). It is also possible to enable the connection to the Peakboard Hub (12) to share the variable or list with other Peakboard Boxes.
+On the left side of the dialog, you will find the [Advanced] tab (9). In this area, you have the option to enable access to the variable or list via API (10). This way, you can either read or read and write the variable or list from outside using the Peakboard data source, for example. You also have the option to limit the variable to specified values (11). It is also possible to activate the connection to the Peakboard Hub (12) in order to [share variables with other Peakboard Boxes](/hub/de-hub_mqtt.html).
 
 ![Advanced](/assets/images/scripting/variables/en_advanced.png)
 

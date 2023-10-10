@@ -19,7 +19,7 @@ Im Dialog der Variable oder Liste kannst du aus den drei verfügbaren Datentypen
 
 ![Dialog Variable oder Liste](/assets/images/scripting/variables/de_dialog.png)
 
-Im linken Bereich des Dialogs findest du den Tab [Erweitert] (9). In diesem Bereich hast du die Option, den Zugriff auf die Variable oder Liste per API zu ermöglichen (10). So kannst du von außerhalb beispielsweise mit der Peakboard Datenquelle die Variable oder Liste entweder Lesen oder Lesen und Schreiben. Du hast außerden die Möglichkeit festzulegen, dass die Variable auf festgelegte Werte beschränkt wird (11). Ebenfalls ist es möglich, die Anbindung an den Peakboard Hub zu aktivieren (12), um die Variable oder Liste mit anderen Peakboard Boxen zu teilen.
+Im linken Bereich des Dialogs findest du den Tab [Erweitert] (9). In diesem Bereich hast du die Option, den Zugriff auf die Variable oder Liste per API zu ermöglichen (10). So kannst du von außerhalb beispielsweise mit der Peakboard Datenquelle die Variable oder Liste entweder Lesen oder Lesen und Schreiben. Du hast außerden die Möglichkeit festzulegen, dass die Variable auf festgelegte Werte beschränkt wird (11). Ebenfalls ist es möglich, die Anbindung an den Peakboard Hub zu aktivieren (12), um [Variablen mit anderen Peakboard Boxen zu teilen](/hub/de-hub_mqtt.html).
 
 ![Erweitert](/assets/images/scripting/variables/de_advanced.png)
 
