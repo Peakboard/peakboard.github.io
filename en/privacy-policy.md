@@ -44,11 +44,12 @@ We herewith advise you that the transmission of data via the Internet (i.e. thro
 The data processing controller on this website is:
 
 Peakboard GmbH
-Kernerstrasse 50
-70182 Stuttgart
+Neckarstraße 189-191
+70190 Stuttgart
 Germany
 
-Phone:+49 711 46 05 99 60
+Phone: +49 711 40 26 100 0
+
 Email: info@peakboard.com
 
 The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g. names, email addresses, etc.).

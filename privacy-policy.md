@@ -51,11 +51,11 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
 Peakboard GmbH
-Kernerstrasse 50
-70182 Stuttgart
+Neckarstraße 189-191
+70190 Stuttgart
 Germany
 
-Telefon: +49 711 46 05 99 60
+Telefon: +49 711 40 26 100 0
 
 E-Mail: info@peakboard.com
 
