@@ -10,8 +10,13 @@ ref: hub-400
 redirect_from:
 ---
 
-It is often necessary that not all users have the same rights. Whether for organizational, data protection or other reasons, you can define who gets which rights in Peakboard Hub.
-You define the permissions in Peakboard Hub via user groups. The user management is visible to you if you have admin rights.
+It is often necessary that not all users have the same rights. Whether for organizational, data protection or other reasons, you can define who gets which rights in Peakboard Hub. You define the permissions in Peakboard Hub via user groups.
+
+<div class="box-warning" markdown="1">
+**Note**
+
+The user management is only visible to you if you have admin rights.
+</div>
 
 ### Add and set up a user group
 

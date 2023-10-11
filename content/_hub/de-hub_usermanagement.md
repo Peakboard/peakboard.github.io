@@ -11,7 +11,13 @@ redirect_from:
 ---
 
 Oft ist es nötig, dass nicht alle Nutzer über die gleichen Rechte verfügen. Egal ob aus organisatorischen, aus Datenschutzgründen oder anderen Gründen, im Peakboard Hub kannst du festlegen, wer welche Rechte bekommt.
-Die Berechtigungen legst du in Peakboard Hub über Nutzergruppen fest. Die Nutzerverwaltung ist für dich sichtbar, wenn du Adminrechte besitzt.
+Die Berechtigungen legst du in Peakboard Hub über Nutzergruppen fest.
+
+<div class="box-warning" markdown="1">
+**Hinweis**
+
+Die Nutzerverwaltung ist nur für dich sichtbar, wenn du Adminrechte besitzt.
+</div>
 
 ### Eine Nutzergruppe hinzufügen und einrichten
 
