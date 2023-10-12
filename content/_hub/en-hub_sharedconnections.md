@@ -29,7 +29,7 @@ In the [user management](/hub/en-hub_usermanagement.html) you can assign the cre
 ![User groups](/assets/images/hub/en_hub_connections-03.png)
 
 To use the created connections in the Peakboard Designer, you have to be connected to the Peakboard Hub with the group key of the corresponding user group.
-Then open the dialog in the Peakboard Designer under [Connections](1).
+Then open the dialog in the Peakboard Designer under [Connections] (1).
 
 ![Connections](/assets/images/hub/en_hub_connections-04.png)
 
