@@ -12,7 +12,8 @@ redirect_from:
 
 Im Menüpunkt Verbindungen kannst du Verbindungen zu unterschiedlichen Datenquellen erstellen und diese im Peakboard Designer verwenden.
 
-Wenn der [Peakboard Designer mit dem Peakboard Hub verbunden ist](/hub/de-hub_connectpbdesigner.html), kann eine hier angelegte Verbindung im Peakboard Designer geladen und anschließend in Datenquellen genutzt werden.
+Wenn der [Peakboard Designer mit dem Peakboard Hub verbunden ist](/hub/de-hub_connectpbdesigner.html), kann eine hier angelegte Verbindung im Peakboard Designer geladen und anschließend in Datenquellen genutzt werden ohne die Zugangsdaten erneut eingeben zu müssen.
+Das bedeutet auch, dass beispielsweise ein Administrator einzelnen Nutzern Zugang zu sensiblen Datensystem gewähren kann ohne die Zugangsdaten herausgeben zu müssen.
 
 Eine neue Verbindung legst du durch einen Klick auf den Button [Add Connection] (1) im Peakboard Hub an.
 
