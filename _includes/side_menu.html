@@ -18,9 +18,7 @@
         <div class="hidden side-menu-product-menu">
             {% assign collections = site.collections | sort: 'position' %}
             {% for collection in collections %}
-            {% if collection.label != "posts" %}
-            {% if collection.label != "hub" %}
-            {% if collection.label != "edge" %}
+            {% if collection.product == "designer" %}
             {% if collection.title[page.lang] %}
             <div>
                 <div class="flex flex-row my-2 space-x-3.5 side-menu-category cursor-pointer select-none z-50 {% if page.collection == collection.label %}show-initial{% endif %}">
@@ -87,8 +85,6 @@
             </div>
             {% endif %}
             {% endif %}
-            {% endif %}
-            {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -99,7 +95,7 @@
         <div class="hidden side-menu-product-menu">
             {% assign collections = site.collections | sort: 'position' %}
             {% for collection in collections %}
-            {% if collection.label == "hub" %}
+            {% if collection.product == "hub" %}
             {% if collection.title[page.lang] %}
             <div>
                 <div class="ml-4 mt-2 side-menu-links">
@@ -120,7 +116,7 @@
                     {% if matched == 0 %}
                     {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
                     {% assign current_page_parts = page.url | split: "/" %}
-                    <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[1] %}show-initial{% endif %}">
+                    <p class="-ml-4 w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[2] %}show-initial{% endif %} {{ current_page_parts[2] }} {{sub_level}}">
                         {{ sub_level | replace: "_", " " | escape }}
 
                         <!-- to -rotate-90 -->
@@ -163,7 +159,7 @@
         <div class="hidden side-menu-product-menu">
             {% assign collections = site.collections | sort: 'position' %}
             {% for collection in collections %}
-            {% if collection.label == "edge" %}
+            {% if collection.product == "edge" %}
             {% if collection.title[page.lang] %}
             <div>
                 <div class="ml-4 mt-2 side-menu-links">
@@ -184,13 +180,13 @@
                     {% if matched == 0 %}
                     {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
                     {% assign current_page_parts = page.url | split: "/" %}
-                    <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[1] %}show-initial{% endif %}">
+                    <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[2] %}show-initial{% endif %}">
                         {{ sub_level | replace: "_", " " | escape }}
 
                         <!-- to -rotate-90 -->
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve" class="h-2.5 w-2.5 inline mr-0.5 ml-2 transform rotate-180">
-                                                <polygon points="460,530.874 1,265.87 460,0.866 "/>
-                                            </svg>
+                            <polygon points="460,530.874 1,265.87 460,0.866 "/>
+                        </svg>
                     </p>
 
                     {% assign sorted_sub_articles = all_articles | sort: 'weight' %}
