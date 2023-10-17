@@ -52,18 +52,18 @@ layout: base
                 {% assign collections = site.collections | sort: 'position' %}
                 {% for collection in collections %}
                   {% if collection.label != "posts" %}
-                    {% if collection.label != "hub" %}
-                      {% if collection.title[page.lang] %}
+                    {% if collection.display_as_collection %}
+                          {% if collection.title[page.lang] %}
 
-                        <a href="/{{ collection.label }}{% if page.lang == 'en' %}/en-index{% endif %}">
-                            <div class="flex flex-col my-2 cursor-pointer border-4 border-gray-200 p-4 gap-y-4 hover:border-orange">
-                                {% assign svg_file_name = collection.icon %}
-                                {% include svg/{{ svg_file_name }} class="w-12 h-12 mx-auto" style="fill: none !important;" %}
+                            <a href="/{{ collection.label }}{% if page.lang == 'en' %}/en-index{% endif %}">
+                                <div class="flex flex-col my-2 cursor-pointer border-4 border-gray-200 p-4 gap-y-4 hover:border-orange">
+                                    {% assign svg_file_name = collection.icon %}
+                                    {% include svg/{{ svg_file_name }} class="w-12 h-12 mx-auto" style="fill: none !important;" %}
 
-                                <h4 class="text-lg font-title font-extrabold mx-auto">{{ collection.title[page.lang] }}</h4>
-                            </div>
-                        </a>
-                      {% endif %}
+                                    <h4 class="text-lg font-title font-extrabold mx-auto">{{ collection.title[page.lang] }}</h4>
+                                </div>
+                            </a>
+                          {% endif %}
                     {% endif %}
                   {% endif %}
                 {% endfor %}

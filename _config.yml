@@ -26,6 +26,7 @@ collections_dir: content
 collections:
   get_started:
     output: true
+    display_as_collection: true
     icon: "category-paper-plane.svg"
     position: 0
     title:
@@ -34,6 +35,7 @@ collections:
 
   data_sources:
     output: true
+    display_as_collection: true
     icon: "category-datasources.svg"
     position: 1
     title:
@@ -55,6 +57,7 @@ collections:
 
   dataflows:
     output: true
+    display_as_collection: true
     icon: "category-dataflows.svg"
     position: 2
     title:
@@ -63,6 +66,7 @@ collections:
 
   controls:
     output: true
+    display_as_collection: true
     icon: "category-controls.svg"
     position: 3
     title:
@@ -93,6 +97,7 @@ collections:
 
   scripting:
     output: true
+    display_as_collection: true
     icon: "category-scripting.svg"
     position: 4
     title:
@@ -105,6 +110,7 @@ collections:
 
   administration:
     output: true
+    display_as_collection: true
     icon: "category-administration.svg"
     position: 5
     title:
@@ -116,6 +122,7 @@ collections:
 
   misc:
     output: true
+    display_as_collection: true
     icon: "category-misc.svg"
     position: 7
     title:
@@ -124,16 +131,14 @@ collections:
 
   hub:
     output: true
-    icon: "category-misc.svg"
-    position: 6
+    display_as_collection: false
     title:
       en: "Peakboard Hub"
       de: "Peakboard Hub"
 
   edge:
     output: true
-    icon: "category-misc.svg"
-    position: 8
+    display_as_collection: false
     title:
       en: "Peakboard Edge"
       de: "Peakboard Edge"
