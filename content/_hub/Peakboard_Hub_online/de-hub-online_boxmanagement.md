@@ -1,0 +1,59 @@
+---
+layout: article
+product: hub
+title: Peakboard Boxen
+menu_title: Peakboard Boxen
+description: Peakboard Hub online - Peakboard Boxen
+lang: de
+weight: 220
+ref: hub-220
+redirect_from:
+---
+
+### Eine Peakboard Box zum Peakboard Hub online hinzufügen
+
+Im ersten Schritt musst du deine Peakboard Box mit der Cloud verbinden.
+Öffne hierzu den Peakboard Designer und öffne die Peakboard Box Einstellungen (1).
+
+![Peakboard Box Einstellungen](/assets/images/hub/de_hub-online_boxes-01.png)
+
+Wähle links die Peakboard Box aus (1), die du zum Peakboard Hub online hinzufügen möchtest und öffne den Tab [Allgemeines] (2).
+Klicke auf das Cloud-Symbol (3) um deine Peakboard Box mit der Cloud zu verbinden. Kopiere dann die Cloudverbindungs-ID (4), diese benötigst du im nächsten Schritt.
+
+![Peakboard Box Cloudverbindungs-ID](/assets/images/hub/de_hub-online_boxes-02.png)
+
+Klicke nun im Peakboard Hub online unter [Peakboard Boxes] auf [Add Peakboard Box] (1) um den Dialog zum Hinzufügen zu öffnen.
+Um eine Peakboard Box zum Peakboard Hub online hinzuzufügen, benötigst du die vorher kopierte Cloudverbindungs-ID (2) aus dem Peakboard Designer sowie die Zugangsdaten (3) eines Benutzers mit ausreichenden Berechtigungen.
+
+![Peakboard Box hinzufügen](/assets/images/hub/de_hub-online_boxes-03.png)
+
+### Peakboard Boxen verwalten
+
+Rechts oben kannst du nun auswählen, in welcher Ansicht deine Peakboard Boxen angezeigt werden sollen.
+
+Die Listenansicht (1) empfiehlt sich, wenn du bereits viele Peakboard Boxen mit Peakboard Hub on premise verbunden hast.
+Du bekommst damit einen schnellen Überblick über die Gruppen, Namen und weitere Daten deiner Peakboard Boxen. Allerdings sind in dieser Ansicht keine Screenshots sichtbar.
+Um diese anzuzeigen, wählst du kleine (2) oder große Kacheln (3) zur Ansicht. Jetzt siehst du auf einen Blick, welche Visualisierung derzeit auf den Peakboard Boxen geladen ist.
+
+Neben den Screenshots der Visualisierung (außer in der Listenansicht) die regelmäßig geladen werden, findest du weitere Elemente, die die verschiedenen Ansichtsarten gemeinsam haben. In der Kachelansicht kannst du mit einem Klick auf das Lupen-Symbol den aktuellen Screenshot vergrößern und mit dem Reload-Symbol wird der Screenshot aktualisiert.
+Ein grüner Kreis neben dem Namen der jeweiligen Peakboard Box zeigt an, ob sie erreichbar ist oder nicht (4). Du siehst auf einen Blick die IP-Adresse (5), den Nutzer (6) und die Version (7) der jeweiligen Peakboard Box und kannst sie mit einem Klick auf den [Restart]-Button (8) neu starten.  Über das [...]-Symbol (9) kannst du ein Kontextmenü öffnen, über das du Zugriff auf weitere Aktionen bekommst. Du kannst deine Peakboard Boxen updaten, zurücksetzen, löschen oder einer Gruppe zuweisen.
+
+![Peakboard Boxen verwalten](/assets/images/hub/de_hub-online_boxes-04.png)
+
+### Peakboard Box Detailansicht
+
+Klickst du auf den Namen der Peakboard Box oder auf den Screenshot, gelangst du in die Detailseite der gewählten Peakboard Box.
+Die Detailseite bietet zwei Tabs, [Application] (1) und [System] (2).
+Im Application-Tab wird angezeigt, welche Visualisierung derzeit angezeigt wird.
+Im oberen Bereich kannst du durch einen Klick auf das Drop-down-Menü (3) auswählen, welche Visualisierung auf der Peakboard Box geladen werden soll. Du kannst die Visualisierung dort außerdem löschen (4) oder stoppen (5). Im unteren Bereich findest du wieder einen aktuellen Screenshot. Diesen kannst du durch einen Klick auf den entsprechenden Button (6) aktualisieren.
+
+![Application Tab](/assets/images/hub/de_hub-online_boxes-05.png)
+
+Im System-Tab findest du vier Bereiche:
+
+* **Box Information (1):** Hier findest du allgemeine Informationen zu deiner Peakboard Box und erkennst durch farbliche Markierungen und Statusanzeigen bestehende Probleme. Einige Punkte können durch einen Klick auf das Stift- oder Zahnrad-Symbol angepasst werden.
+* **Properties (2):** Hier wird die BoxID sowie die Lizenz der ausgewählten Peakboard Box angezeigt.
+* **Certificates (3):** In diesem Bereich kannst du Zertifikate für deine Peakboard Box hinterlegen.
+* **Log Files (4):** Hier werden auf der Peakboard Box vorhandene Logs angezeigt. Du kannst diese nach verschiedenen Kriterien filtern (5).
+
+![System Tab](/assets/images/hub/de_hub-online_boxes-06.png)
