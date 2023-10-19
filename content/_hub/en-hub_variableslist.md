@@ -12,15 +12,18 @@ redirect_from:
 
 In the Peakboard Hub, you can create lists that you can use in the Peakboard Designer.
 These lists offer you the possibility to change data centrally for all Peakboard Boxes that use them.
-In addition, these lists also offer you the possibility to quickly and easily save Peakboard data centrally, for example, to generate machine statuses for a long-term evaluation.
+In addition, these lists also offer you the possibility to store data quickly and easily in a central location via Peakboard.
+For example, you can save the machine status for machines, regardless of their age or configuration, in order to generate a long-term evaluation.
 
 ### Creating a new list
 
 To create a new list, click on the [Add] button (1) in the [Lists] area.
+With the [Import] button you can load lists into the Peakboard Hub that have been saved as JSON strings in a text file.
+How the creation works you can read in the section [Export Lists] below.
 
 ![Add list](/assets/images/hub/en_hub_list-01.png)
 
-Give the list a name (1). Then create a data structure and define the columns of your list. To add a column, click on [Add Column] (2), give the column the desired name (3) and select the column type (4).
+Give the list a name (1). Then create a data structure and define the columns of your list. To add a column, click on [Add Column] (2), give the column the desired name (3) and select the column type (4). You can create columns of the types, string, number or boolean.
 To change the order of the columns, you can drag and drop them. When you have added all columns, save the list with [Save] (5).
 
 ![Create list](/assets/images/hub/en_hub_list-02.png)
@@ -30,6 +33,11 @@ You can add rows with [Add] (1), you can enter values in the rows (2), delete ro
 
 With a click on [Edit Properties] (5) you can change the column types and names afterwards.
 With the option [Clear All] (6) you delete all entries from the list.
+
+<div class="box-tip" markdown="1">**Note**.
+
+To prevent someone from making unauthorized changes, you can set the permissions for each created list in detail [via the Peakboard Hub user management to suit your needs](/hub/en-hub_usermanagement.html).
+</div>
 
 ![Enter data](/assets/images/hub/en_hub_list-03.png)
 
