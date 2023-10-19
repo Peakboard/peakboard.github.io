@@ -10,17 +10,20 @@ ref: hub-700
 redirect_from:
 ---
 
-In the menu item Connections you can create connections to different data sources and use them in the Peakboard Designer.
+In the menu item Connections you can create connections to different data sources and use them later [in the Peakboard Designer](/misc/en-shared-connection.html).
 
 If the [Peakboard Designer is connected to the Peakboard Hub](/hub/de-hub_connectpbdesigner.html), a connection created here can be loaded in the Peakboard Designer and then used in data sources without having to enter the access data again.
+
+<div class="box-tip" markdown="1">**Note**
+
 This also means that, for example, an administrator can grant access to sensitive data systems to individual users without having to give out the access data.
+</div>
 
 You create a new connection by clicking on the button [Add Connection] (1) in the Peakboard Hub.
 
 ![Add Connection](/assets/images/hub/en_hub_connections-01.png)
 
-Give the connection a name here (1) and choose the connection type (2) you want.
-Depending on the selected connection you have to enter the corresponding data in the mask on the right side (3).
+Give the connection a name (1) and select the desired data source for which you want to create a connection. Each data source needs individual login data. You can enter these in the mask on the right side (3).
 
 ![Add connection](/assets/images/hub/en_hub_connections-02.png)
 

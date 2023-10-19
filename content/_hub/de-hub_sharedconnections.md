@@ -10,17 +10,20 @@ ref: hub-700
 redirect_from:
 ---
 
-Im Menüpunkt Verbindungen kannst du Verbindungen zu unterschiedlichen Datenquellen erstellen und diese im Peakboard Designer verwenden.
+Im Menüpunkt Verbindungen kannst du Verbindungen zu unterschiedlichen Datenquellen erstellen und diese später [im Peakboard Designer verwenden](/misc/de-shared-connection.html).
 
 Wenn der [Peakboard Designer mit dem Peakboard Hub verbunden ist](/hub/de-hub_connectpbdesigner.html), kann eine hier angelegte Verbindung im Peakboard Designer geladen und anschließend in Datenquellen genutzt werden ohne die Zugangsdaten erneut eingeben zu müssen.
+
+<div class="box-tip" markdown="1">**Hinweis**
+
 Das bedeutet auch, dass beispielsweise ein Administrator einzelnen Nutzern Zugang zu sensiblen Datensystem gewähren kann ohne die Zugangsdaten herausgeben zu müssen.
+</div>
 
 Eine neue Verbindung legst du durch einen Klick auf den Button [Add Connection] (1) im Peakboard Hub an.
 
 ![Verbindung hinzufügen](/assets/images/hub/de_hub_connections-01.png)
 
-Gib hier der Verbindung einen Namen (1) und wähle die gewünschte Verbindungsart (2).
-Je nach gewählter Verbindung musst du dann die entsprechenden Daten in der Maske auf der rechten Seite (3) eingeben.
+Gib hier der Verbindung einen Namen (1) und wähle die gewünschte Datenquelle für die du eine Verbindung anlegen möchtest. Jede Datenquelle benötigt individuelle Anmeldedaten. Diese kannst du in der Maske auf der rechten Seite (3) eingeben.
 
 ![Verbindung hinzufügen](/assets/images/hub/de_hub_connections-02.png)
 
