@@ -28,7 +28,7 @@ To have more space in your browser window you can hide the menu after use by cli
 
 The following menu items are available:
 
-* Peakboard Boxes: Get an overview of your connected Peakboard Boxes and add new Peakboard Boxes or restart them. More information can be found [in the article regarding the Peakboard Boxes](/hub/en-hub_boxmanagement.html).
+* Peakboard Boxes: Get an overview of your connected Peakboard Boxes and add new Peakboard Boxes or restart them. More information can be found [in the article regarding the Peakboard Boxes](/hub/Peakboard_Hub_online/en-hub-online_boxmanagement.html).
 * Connections: Create connections to data sources that you can then use in the Peakboard Designer. More information can be found [in the article about Peakboard Hub connections](/hub/en-hub_sharedconnections.html).
 * Lists: Manage and create lists that you can use in the Peakboard Designer. You can find more information [in the Peakboard lists article](/hub/en-hub_variableslist.html).
 * Alerts: Manage alerts triggered from your Peakboard Boxes.
@@ -44,6 +44,6 @@ In the workspace you will see what you have selected in the menu.
 
 ## Next steps
 
-Now that you have a first overview of the Peakboard Hub online you can start by [connecting the Peakboard Hub online to your Peakboard Designer](/hub/en-hub_connectpbdesigner.html) and then [adding your Peakboard Boxes to the Peakboard Hub online](/hub/en-hub_boxmanagement.html).
+Now that you have a first overview of the Peakboard Hub online you can start by [connecting the Peakboard Hub online to your Peakboard Designer](/hub/en-hub_connectpbdesigner.html) and then [adding your Peakboard Boxes to the Peakboard Hub online](/hub/Peakboard_Hub_online/en-hub-online_boxmanagement.html).
 
 If you have any problems with the Peakboard Hub online, don't hesitate to [contact](mailto:support@peakboard.com) us. We wish you a lot of fun and success with Peakboard!

@@ -28,7 +28,7 @@ Um mehr Platz in deinem Brwoserfenster zu haben kannst du das Menü nach der Nut
 
 Folgende Menüelemente sind vorhanden:
 
-* Peakboard Boxes: Verschaffe dir einen Überblick über deine verbundenen Peakboard Boxen und füge neue Peakboard Boxen hinzu oder starte sie neu. Weitere Informationen findest du [im Artikel zu den Peakboard Boxen](/hub/de-hub_boxmanagement.html).
+* Peakboard Boxes: Verschaffe dir einen Überblick über deine verbundenen Peakboard Boxen und füge neue Peakboard Boxen hinzu oder starte sie neu. Weitere Informationen findest du [im Artikel zu den Peakboard Boxen](/hub/Peakboard_Hub_online/de-hub-online_boxmanagement.html).
 * Connections: Lege Verbindungen zu Datenquellen an, die du dann im Peakboard Designer verwenden kannst. Weitere Informationen findest du [im  Artikel über Peakboard Hub Verbindungen](/hub/de-hub_sharedconnections.html).
 * Lists: Verwalte und erstelle Listen, die du im Peakboard Designer verwenden kannst. Weitere Informationen findest du [im  Artikel über Peakboard Hub Listen](/hub/de-hub_variableslist.html).
 * Alerts: Verwalte hier ausgelöste Alerts aus deinen Peakboard Boxen.
@@ -44,6 +44,6 @@ Im Arbeitsbereich wird dir angezeigt was du im Menü ausgewählt hast.
 
 ## Nächste Schritte
 
-Da du jetzt einen ersten Überblick über den Peakboard Hub online bekommen hast kannst du damit starten [den Peakboard Hub online mit deinem Peakboard Designer zu verbinden](/hub/de-hub_connectpbdesigner.html) und dann [deine Peakboard Boxen zum Peakboard Hub online hinzuzufügen](/hub/de-hub_boxmanagement.html).
+Da du jetzt einen ersten Überblick über den Peakboard Hub online bekommen hast kannst du damit starten [den Peakboard Hub online mit deinem Peakboard Designer zu verbinden](/hub/de-hub_connectpbdesigner.html) und dann [deine Peakboard Boxen zum Peakboard Hub online hinzuzufügen](/hub/Peakboard_Hub_online/de-hub-online_boxmanagement.html).
 
 Solltest du Probleme mit dem Peakboard Hub online haben, zögere nicht mit uns in [Kontakt](mailto:support@peakboard.com) zu treten. Wir wünschen dir viel Spaß und Erfolg mit Peakboard!
