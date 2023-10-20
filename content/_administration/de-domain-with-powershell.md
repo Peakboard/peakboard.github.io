@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Box mit Powershell zur Domäne hinzufügen
-menu_title: Peakboard Box mit Powershell zur Domäne hinzufügen
-description: Peakboard Box mit Powershell zur Domäne hinzufügen
+title: Eine Peakboard Box zur Domäne hinzufügen inklusive Autostart
+menu_title: Peakboard Box zur Domäne hinzufügen + Autostart
+description: Eine Peakboard Box zur Domäne hinzufügen inklusive Autostart
 lang: de
 weight: 252
 ref: admin-252
@@ -10,72 +10,40 @@ draft: true
 
 ---
 
-Sichere bevor du startest deine Lizenz via Peakboard Designer. Öffne dazu die Peakboard Box Einstellungen, wähle deine gewünschte Peakboard Box aus (1) und kopiere im Bereich [Allgemeines] (2) den Lizenzschlüssel (3).
+Um deine Peakboard Box zur Domäne hinzuzufügen muss diese [an einen Bildschirm angeschlossen](/get_started/de-peakboard-box.html) und betriebsbereit sein.
 
-![Lizenz sichern](/assets/images/admin/domain/domain-powershell_01_de.png)
+1) Beginne die Anbindung mit dem Tastenkürzel [Strg + I]. Dadurch öffnet sich in der Visualisierung das Debug Panel.
+   ![Debug Panel öffnen](/assets/images/admin/domain/de_domain-01.png)
 
-<div class="box-warning" markdown="1">
-**Wichtig!**
+2) Als nächstes benutzt du das Tastenkürzel [Strg + 7] um das Login-Fenster für die Domäne zu öffnen. Gib dort die aktuellen Zugangsdaten ein (pbadmin + Passwort) und bestätige mit [OK].
+   ![Login Fenster öffnen](/assets/images/admin/domain/de_domain-02.png)
 
-Führe PowerShell als Administrator aus um deine Peakboard Box neu zu starten.
-</div>
+3) Im nächsten Login-Fenster trägst du nun deine Domänen-Daten ein und bestätigst mit [OK].
+   Es erfolgt ein Neustart.
+   ![Domänen Daten eintragen](/assets/images/admin/domain/de_domain-03.png)
 
-Gib die nachfolgenden Befehle ein und bestätige jeden davon mit [Enter].
+4) Logge dich nun mit dem Domänen-Nutzer ein, der für den Autologin genutzt werden soll.
 
-Mit diesem Befehl öffnest du die remote Connection Einstellung:
+   <div class="box-warning" markdown="1">**Achtung**
+   Folgende Nutzernamen dürfen für die Automatische Nutzeranmeldung nicht verwendet werden: `Peakboard`, `PBadmin`
+   </div>
 
-```powershell
-net start WinRM
-```
+5) Starte aus der Eingabeaufforderung heraus eine Powershell mit dem Befehl `powershell`.
+   ![Powershell starten](/assets/images/admin/domain/de_domain-04.png)
 
-Gib die IP-Adresse der Peakboard Box ohne [&lt;&gt;] ein. Zum Beispiel -Value 192.168.0.1:
+6) Fordere mit dem Befehl `Start-Process powershell -Verb runAs` administrative Rechte für die Powershell an. Hier musst du dich nun mit einem Domänen-Nutzer authetifizieren der administrative Rechte besitzt.
+   ![Adminrechte für Powershell](/assets/images/admin/domain/de_domain-05.png)
 
-```powershell
-Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-Adresse der Peakboard Box>
-```
+7) Erlaube mit dem Befehl `Set-ExecutionPolicy Bypass -Scope Process` temporär das Ausführen eines Powershell Skripts. Bestätige dazu nach der Eingabe mit [Y].
+   ![Temporäre Erlaubnis für Powershell Skript](/assets/images/admin/domain/de_domain-06.png)
 
-Sollte der nachfolgende Text erscheinen, so quittiere ihn mit [J].
+8) Starte das Set_Autostart Skript mit dem Befehl `& 'C:\Program Files\Peakboard\ManagementService\OutputFiles\Set_Autostart.ps1'`
 
-```powershell
-Mit diesem Befehl ändern Sie die TrustedHosts-Liste für den WinRM-Client. Die Computer in der TrustedHosts-Liste können möglicherweise nicht authentifiziert werden. Der Client sendet möglicherweise Anmeldeinformationen an diese Computer.
-Möchten Sie diese Liste wirklich ändern?
-[J] Ja  [N] Nein  [H] Anhalten  [?] Hilfe (Standard ist "J"): 
-```
+9) Trage hier nun die Daten des Domänen-Nutzers ein, der für den Autostart genutzt werden soll.
+   ![Autostart Nutzer eintragen](/assets/images/admin/domain/de_domain-07.png)
 
-Verknüpfe dich nun mit der Peakboard Box.
+10) Es erfolgt ein Neustart und der automatische Login und Start der Peakboard Runtime
 
-```powershell
-Enter-PSSession -ComputerName <IP-Adresse der Peakboard Box> -Credential pbadmin
-```
+Um deine Box zu administrieren musst du diese im Peakboard Designer mit den Zugangsdaten des Domänen-Administrators hinzufügen.
 
-Logge den Peakboard User remote aus.
-
-```powershell
-logoff 1
-```
-
-Unterbinde die Automatische Anmeldung nach dem Starten.
-
-```powershell
->$RegistryPath = 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon'
-> Remove-ItemProperty -Path $RegistryPath -Name 'AutoAdminLogon' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonCount' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonSID' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'DefaultPassword' -Force
-> Remove-ItemProperty -Path $RegistryPath -Name 'DefaultUserName' -Force
-```
-
-Füge die Peakboard Box zur Domäne hinzu.
-
-```powershell
-Add-Computer -DomainName domain.local -Credential domain\<domainadmin-user>
-```
-
-Nach der Aufnahme in die Domäne musst du einen passenden Active-Directory-User für den AutoLogon einrichten.
-Diesem User musst du folgende Datei zum Autostart hinzufügen: [C:\Program Files\Peakboard\Runtime\Peakboard.Runtime.Wpf]
-
-Jetzt musst du die Peakboard Box neustarten, bestätige dazu die entsprechende Neustart-Abfrage. Anschließend löschst du die Peakboard Box in den Peakboard Box Einstellungen aus dem Peakboard Designer (4).
-
-![Peakboard Box neu hinzufügen](/assets/images/admin/domain/domain-powershell_02_de.png)
-
-Zuletzt kannst du die Peakboard Box neu zum Peakboard Designer hinzufügen (5). Nutze hierzu den vorab gesicherten Lizenzschlüssel mit dem Benutzernamen [pbadmin]. Sollte das nicht funktionieren muss der Nutzer durch einen Domänen-Administrator mit einem neuen Passwort aktiviert werden.
+![Peakboard Box hinzufügen](/assets/images/admin/domain/de_domain-08.png)
