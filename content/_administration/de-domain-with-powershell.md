@@ -12,6 +12,14 @@ draft: true
 
 Um deine Peakboard Box zur Domäne hinzuzufügen muss diese [an einen Bildschirm angeschlossen](/get_started/de-peakboard-box.html) und betriebsbereit sein.
 
+Weitere Voraussetzungen für den im Folgenden beschriebenen Ablauf:
+
+* Die Peakboard Box, die zur Domäne hinzugefügt werden soll, muss mindestens Softwareversion 3.5 haben.
+* Der Domänen-Nutzer, der die Peakboard Box administrieren soll, muss im Active Directory der Domäne durch einen Administrator der Sicherheitsgruppe `PeakboardAdmins` als Mitglied hinzugefügt werden.
+
+![Sicherheitsgruppe](/assets/images/admin/domain/de_domain-09.png)
+![Sicherheitsgruppe](/assets/images/admin/domain/de_domain-10.png)
+
 1. Beginne die Anbindung mit dem Tastenkürzel [Strg + I]. Dadurch öffnet sich in der Visualisierung das Debug Panel.
    ![Debug Panel öffnen](/assets/images/admin/domain/de_domain-01.png)
 

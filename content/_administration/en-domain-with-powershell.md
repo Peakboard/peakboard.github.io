@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Peakboard Box - Join Domain via Powershell
-menu_title: Peakboard Box - Join Domain via Powershell
-description: Peakboard Box - Join Domain via Powershell
+title: Add a Peakboard Box to the domain including autostart
+menu_title: Add Peakboard Box to domain + autostart
+description: Add a Peakboard Box to the domain including autostart
 lang: en
 weight: 252
 ref: admin-252
@@ -10,72 +10,48 @@ draft: true
 
 ---
 
-Before you start, save your license via the Peakboard Designer. Open the Peakboard Box Settings, select your desired Peakboard Box (1) and copy the license key (2) in the [General] (3) section.
+To add your Peakboard Box to the domain it must be [connected to a screen](/get_started/en-peakboard-box.html) and operational.
 
-![Save license](/assets/images/admin/domain/domain-powershell_01_en.png)
+Other requirements for the procedure described below:
 
-<div class="box-warning" markdown="1">
-**Important!**
+* The Peakboard Box to be added to the domain must have at least software version 3.5.
+* The domain user who is going to administrate the Peakboard Box must be added as a member of the security group 'PeakboardAdmins' in the Active Directory of the domain by an administrator.
 
-Run PowerShell as administrator to reboot your Peakboard Box.
-</div>
+![Security Group](/assets/images/admin/domain/en_domain-09.png)
+![Security group](/assets/images/admin/domain/en_domain-10.png)
 
-Please enter the following commands and confirm each of them with [Enter].
+1. Start the connection with the keyboard shortcut [Ctrl + I]. This will open the debug panel in the visualization.
+   ![Open debug panel](/assets/images/admin/domain/en_domain-01.png)
 
-Use this command to open the remote connection setting:
+2. Next, use the keyboard shortcut [Ctrl + 7] to open the login window for the domain. Enter the current login data (pbadmin + password) and confirm with [OK].
+   ![Open login window](/assets/images/admin/domain/en_domain-02.png)
 
-```powershell
-net start WinRM
-```
+3. Enter your domain data in the next login window and confirm with [OK].
+   A restart is performed.
+   ![Enter domain data](/assets/images/admin/domain/en_domain-03.png)
 
-Enter the IP address of the Peakboard Box without [&lt;&gt;]. For example -Value 192.168.0.1:
+4. Now log in with the domain user that should be used for the autologin.
 
-```powershell
-Set-Item WSMan:\localhost\Client\TrustedHosts -Value <IP-address of the Peakboard Box>
-```
+   <div class="box-warning" markdown="1">**Caution**.
+   The following usernames must not be used for the autologin: `Peakboard`, `PBadmin`.
+   </div>
 
-If the following text appears, press [y] to acknowledge it.
+5. From the command prompt, start a powershell with the command `powershell`.
+   ![Start powershell](/assets/images/admin/domain/en_domain-04.png)
 
-```powershell
-Use this command to change the TrustedHosts list for the WinRM client. The computers in the TrustedHosts list may not be authenticated. The client may send credentials to these computers.
-Are you sure you want to change this list?
-[Y] Yes [N] No [H] Stop [?] Help (default is "Y"): 
-```
+6. Request administrative rights for the powershell with the command `start-process powershell -Verb runAs`. You have to authenticate yourself with a domain user that has administrative rights.
+   ![Admin rights for powershell](/assets/images/admin/domain/en_domain-05.png)
 
-Now connect the Peakboard Box.
+7. Use the command `Set-ExecutionPolicy Bypass -Scope Process` to temporarily allow the execution of a powershell script. To do this, confirm with [Y] after entering the command.
+   ![Temporary permission for Powershell script](/assets/images/admin/domain/en_domain-06.png)
 
-```powershell
-Enter-PSSession -ComputerName <IP address of the Peakboard Box> -Credential pbadmin
-```
+8. Start the Set_Autostart script with the command `& 'C:\Program Files\Peakboard\ManagementService\OutputFiles\Set_Autostart.ps1'`
 
-Log out the Peakboard user remotely.
+9. Now enter the data of the domain user which should be used for the autostart.
+   ![Enter autostart user](/assets/images/admin/domain/en_domain-07.png)
 
-```powershell
-logoff 1
-```
+10. A reboot and the automatic login and start of the Peakboard Runtime will take place.
 
-Disable automatic login after startup.
+To administrate your box you have to add it in the Peakboard Designer with the access data of the domain administrator.
 
-```powershell
-$RegistryPath = 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon'
-Remove-ItemProperty -Path $RegistryPath -Name 'AutoAdminLogon' -Force
-Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonCount' -Force
-Remove-ItemProperty -Path $RegistryPath -Name 'AutoLogonSID' -Force
-Remove-ItemProperty -Path $RegistryPath -Name 'DefaultPassword' -Force
-Remove-ItemProperty -Path $RegistryPath -Name 'DefaultUserName' -Force
-```
-
-Add the Peakboard Box to the domain.
-
-```powershell
-Add-Computer -DomainName domain.local -Credential domain\<domainadmin-user>
-```
-
-After joining the domain, you need to set up an appropriate Active Directory user for the AutoLogon.
-To this user you have to add the following file to the autostart: [C:\Program Files\Peakboard\Runtime\Peakboard.Runtime.Wpf]
-
-Now you have to restart the Peakboard Box, by confirming the restart request. Then delete the Peakboard Box in the Peakboard Box Settings from the Peakboard Designer (4).
-
-![Re-add Peakboard Box](/assets/images/admin/domain/domain-powershell_02_en.png)
-
-Finally, you can re-add the Peakboard Box to the Peakboard Designer (5). To do this, use the previously saved license key with the user name [pbadmin]. If this does not work, the user must be activated by a domain administrator with a new password.
+![Add Peakboard Box](/assets/images/admin/domain/en_domain-08.png)
