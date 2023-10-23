@@ -38,7 +38,7 @@ The data can for example come from an additional data source.
 
 For the creation of such a script we provide prefabricated blocks in the [Building Blocks](/scripting/en-building-blocks.html) in the block mode and also in the script mode, with which you can create the script according to your needs. Of course you can also create the script manually.
 
-For the above mentioned case, that the data comes from an additional data source, you create a refreshed script on this data source. Remove the checkmark for [Execute only if data has changed] (1). This will cause the data to be captured at the rate defined in the additional data source, even if nothing has changed.
+For the above mentioned case, that the data comes from an additional data source, you create a refreshed script on this data source. Select [Only execute if data has been changed] (1). This will capture the data if something has changed.
 In the [FUNCTIONS] (2) section of the [Script Editor](/scripting/en-script-editor.html), under [Publish to external systems] and [Peakboard Hub] in block mode, you will find the option [Add row at end] (3). Drag this block to the workspace of the script editor and complete it according to your needs with the data to be written to the list. In the example shown, another block has been added at the end (4) to reload the Peakboard Hub list so that it can be displayed live in, for example, a table.
 After clicking [Save & close] (5), the script is finished and new incoming data from the additional data source is automatically written to the Peakboard Hub list.
 
