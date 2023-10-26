@@ -15,6 +15,8 @@ You can see if the connection is established in the Peakboard Designer by the Pe
 
 ![Peakboard Hub connected](/assets/images/data-sources/peakboard-hublist/en_hublist-01.png)
 
+### Add Peakboard Hub list data source and read data
+
 To add the Peakboard Hub list data source, right click on [Data] in the explorer, then select [Add Data Source] and [Peakboard Hub List] (1) to open the dialog.
 
 ![Add Peakboard Hub list](/assets/images/data-sources/peakboard-hublist/en_hublist-02.png)
@@ -33,18 +35,20 @@ Finally click on [Load data] (11) to display a preview of the list. With [OK] (1
 
 ![Add Peakboard Hub list](/assets/images/data-sources/peakboard-hublist/en_hublist-03.png)
 
+### Write data to the Peakboard Hub list
+
 If you want to write data to the Peakboard hub list, this is done by a script.
 The data can for example come from an additional data source.
 
 For the creation of such a script we provide prefabricated blocks in the [Building Blocks](/scripting/en-building-blocks.html) in the block mode and also in the script mode, with which you can create the script according to your needs. Of course you can also create the script manually.
 
-For the above mentioned case, that the data comes from an additional data source, you create a refreshed script on this data source. Select [Only execute if data has been changed] (1). This will capture the data if something has changed.
+For the above mentioned case that the data originates from an additional data source, you can create a refreshed script on this data source. Check the box [Only execute if data has been changed] (1). This will capture the data when something has changed. There is also the possibility to capture data at certain intervals or when a certain event occurs. For this you can use script types like timer or tapped scripts.
 In the [FUNCTIONS] (2) section of the [Script Editor](/scripting/en-script-editor.html), under [Publish to external systems] and [Peakboard Hub] in block mode, you will find the option [Add row at end] (3). Drag this block to the workspace of the script editor and complete it according to your needs with the data to be written to the list. In the example shown, another block has been added at the end (4) to reload the Peakboard Hub list so that it can be displayed live in, for example, a table.
 After clicking [Save & close] (5), the script is finished and new incoming data from the additional data source is automatically written to the Peakboard Hub list.
 
 ![Write to Peakboard Hub list](/assets/images/data-sources/peakboard-hublist/en_hublist-04.png)
 ![Building block final](/assets/images/data-sources/peakboard-hublist/de_hublist-05.png)
 
-To then visualize the Peakboard Hub List data source, drag and drop it from Explorer onto the workspace and you can, for example, display it as a table or further process it using other methods such as Dataflows.
+To then visualize the Peakboard Hub List data source, drag and drop it from Explorer onto the workspace and you can, for example, display it as a table or further process it using other methods such as [Dataflows](/dataflows/en-getting-started.html).
 
 ![Visualize Peakboard Hub list](/assets/images/data-sources/peakboard-hublist/en_hublist-06.png)

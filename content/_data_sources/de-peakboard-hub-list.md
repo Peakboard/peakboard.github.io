@@ -15,6 +15,8 @@ Ob die Verbindung steht, erkennst du dann im Peakboard Designer anhand der Peakb
 
 ![Peakboard Hub verbunden](/assets/images/data-sources/peakboard-hublist/de_hublist-01.png)
 
+### Peakboard Hub Liste-Datenquelle hinzufügen und Daten lesen
+
 Um die Peakboard Hub Liste-Datenquelle hinzuzufügen, mache im Explorer einen Rechtsklick auf [Daten], wähle dann [Datenquelle hinzufügen] und [Peakboard Hub Liste] (1) aus, um den Dialog zu öffnen.
 
 ![Peakboard Hub Liste hinzufügen](/assets/images/data-sources/peakboard-hublist/de_hublist-02.png)
@@ -33,18 +35,20 @@ Klicke zuletzt auf [Daten laden] (11), um eine Vorschau der Liste anzuzeigen. Mi
 
 ![Peakboard Hub Liste hinzufügen](/assets/images/data-sources/peakboard-hublist/de_hublist-03.png)
 
+### Daten in die Peakboard Hub Liste schreiben
+
 Möchtest du nun Daten in die Peakboard Hub Liste schreiben, wird das über ein Skript erledigt.
 Die Daten können beispielsweise aus einer weiteren Datenquelle stammen.
 
 Für die Erstellung eines solchen Skripts stellen wir dir in den [Building Blocks](/scripting/de-building-blocks.html) im Block-Mode und auch im Script-Mode vorgefertigte Bausteine zur Verfügung, mit denen du das Skript nach deinen Bedürfnissen erstellen kannst. Natürlich kannst du das Skript auch händisch erstellen.
 
-Für den oben genannten Fall, dass die Daten aus einer weiteren Datenquelle stammen, legst du einen Refreshed Skript auf dieser Datenquelle an. Setze den Haken bei [Nur ausführen, wenn Daten geändert wurden] (1). Dadurch werden die Daten erfasst, wenn sich etwas geändert hat.
-Im Bereich [FUNKTIONEN] (2) des [Skript-Editors](/scripting/de-script-editor.html) findest du unter [In externen Systemen veröffentlichen] und [Peakboard Hub] im Block-Mode die Option [Zeile am Ende hinzufügen] (3). Ziehe diesen Block auf die Arbeitsfläche des Skript-Editors und ergänze ihn nach deinen Bedürfnissen mit den Daten, die in die Liste geschrieben werden sollen. Im gezeigten Beispiel wurde am Ende ein weiterer Block hinzugefügt (4), der die Peakboard Hub Liste neu lädt, damit sie live in zum Beispiel einer Tabelle dargestellt werden kann.
+Für den oben genannten Fall, dass die Daten aus einer weiteren Datenquelle stammen, legst du nun beispielsweise einen Refreshed Skript auf dieser Datenquelle an. Setze den Haken bei [Nur ausführen, wenn Daten geändert wurden] (1). Dadurch werden die Daten erfasst, wenn sich etwas geändert hat. Es gibt auch die Möglichkeit Daten in bestimmten Intervallen oder bei auftreten eines bestimmten Erieignisses zu erfassen. Hierfür kannst du Skriptarten wie Timer- oder Tapped-Skripte verwenden.
+Im Bereich [FUNKTIONEN] (2) des [Skript-Editors](/scripting/de-script-editor.html) findest du unter [In externen Systemen veröffentlichen] und [Peakboard Hub] im Block-Mode die Option [Zeile am Ende hinzufügen] (3). Ziehe diesen Block auf die Arbeitsfläche des Skript-Editors und ergänze ihn nach deinen Bedürfnissen mit den Daten, die in die Liste geschrieben werden sollen. Im gezeigten Beispiel wurde am Ende ein weiterer Block hinzugefügt (4), der die Peakboard Hub Liste neu lädt, damit sie beispielsweise in einer Tabelle live dargestellt werden kann.
 Nach einem Klick auf [Speichern & Schließen] (5) ist das Skript fertig und es werden neu eingehende Daten aus der weiteren Datenquelle automatisch in die Peakboard Hub Liste geschrieben.
 
 ![In Peakboard Hub Liste schreiben](/assets/images/data-sources/peakboard-hublist/de_hublist-04.png)
 ![Building Block final](/assets/images/data-sources/peakboard-hublist/de_hublist-05.png)
 
-Um die Peakboard Hub Liste-Datenquelle dann visuell darzustellen, ziehst du sie per Drag-and-drop aus dem Explorer auf die Arbeitsfläche und kannst sie beispielsweise als Tabelle anzeigen lassen oder sie mit anderen Methoden wie Dataflows weiterverarbeiten.
+Um die Peakboard Hub Liste-Datenquelle dann visuell darzustellen, ziehst du sie per Drag-and-drop aus dem Explorer auf die Arbeitsfläche und kannst sie beispielsweise als Tabelle anzeigen lassen oder sie mit anderen Methoden wie [Dataflows](/dataflows/de-erste-schritte.html) weiterverarbeiten.
 
 ![Peakboard Hub Liste visualisieren](/assets/images/data-sources/peakboard-hublist/de_hublist-06.png)
