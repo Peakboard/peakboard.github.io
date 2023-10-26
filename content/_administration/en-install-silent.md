@@ -10,14 +10,15 @@ redirect_from:
 
 ---
 
-The installation of the Peakboard Designer can be done via the command line. 
+The installation of the Peakboard Designer can be done via the command line.
 If the following window appears, confirm that you trust the software provider by clicking [Yes].
 
 ![Windows User Account Control Window](/assets/images/admin/install-silent/usercontrol.png)
 
 ### Silent Installation of the Peakboard Designer
-Here, only the Peakboard Designer and the Peakboard Runtime necessary for the preview function are installed. 
-The *PeakBoardDesignerSetup.exe* can be called from any directory. 
+
+Here, only the Peakboard Designer and the Peakboard Runtime necessary for the preview function are installed.
+The *PeakBoardDesignerSetup.exe* can be called from any directory.
 The following command line entry illustrates how the installation works in silent mode from the directory [C:\Temp]:
 
 ````markdown
@@ -27,14 +28,13 @@ The following command line entry illustrates how the installation works in silen
 ````
 
 ### Silent Uninstallation
-Similar to the installation, the uninstallation of the software can also be done in silent mode. 
-To do this, adapt the command to the path of the *uninst.exe*. 
-By default, the Peakboard Designer is installed under [C:\Program Files\Peakboard], where you will also find the *uninst.exe*.
 
+Similar to the installation, the uninstallation of the software can also be done in silent mode.
+To do this, adapt the command to the path of the *uninst.exe*.
+By default, the Peakboard Designer is installed under [C:\Program Files\Peakboard], where you will also find the *uninst.exe*.
 
 `````markdown
     ```
-       "C:\Program Files\Peakboard\uninst.exe" /S
+       "C:\Program Files\Peakboard\uninst.exe" -Silent True
     ```
 ````
-
