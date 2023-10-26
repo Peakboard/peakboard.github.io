@@ -11,6 +11,10 @@ redirect_from:
  - /hub/de-hub_boxmanagement.html
 ---
 
+Um deine Peakboard Boxen zu verwalten musst du sie zum Peakboard Hub hinzufügen.
+Das Vorgehen unterscheidet sich, je nachdem ob du einen [Peakboard Hub on premise](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) oder einen [Peakboard Hub online](/hub/Peakboard_Hub_online/de-hub-online_boxmanagement.html) verwendest.
+Achte darauf, den korrekten Artikel zu nutzen.
+
 ### Eine Peakboard Box zum Peakboard Hub on premise hinzufügen
 
 Klicke unter [Peakboard Boxes] auf [Add Peakboard Box] (1) um den Dialog zum Hinzufügen zu öffnen.
