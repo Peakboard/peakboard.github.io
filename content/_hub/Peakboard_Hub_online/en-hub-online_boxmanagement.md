@@ -39,7 +39,7 @@ The list view (1) is recommended if you already have many Peakboard Boxes connec
 It gives you a quick overview of the groups, names and other data of your Peakboard Boxes. However, no screenshots are visible in this view.
 To display them, select small (2) or large tiles (3) for viewing. Now you can see at a glance which visualization is currently loaded on the Peakboard Boxes.
 
-Besides the screenshots that are loaded regularly (except in the list view), you will find other elements that the different view types have in common. In the tile view you can click on the magnifying glass icon to enlarge the current screenshot and the reload icon to update the screenshot.
+Besides the screenshots that are updated regularly (except in the list view), you will find other elements that the different view types have in common. In the tile view you can click on the magnifying glass icon to enlarge the current screenshot and the reload icon to update the screenshot.
 A green circle next to the name of the respective Peakboard Boxes indicates whether it is accessible or not (4). You can see the IP address (5), the user (6) and the version (7) of the respective Peakboard Box at a glance and can restart it by clicking on the [Restart] button (8). By clicking on the [...] icon (9), you can open a context menu that gives you access to further actions. You can update, reset, delete or assign your Peakboard Boxes to a group.
 
 ![Manage Peakboard Boxes](/assets/images/hub/en_hub-online_boxes-04.png)
@@ -49,15 +49,15 @@ A green circle next to the name of the respective Peakboard Boxes indicates whet
 Clicking on the name of the Peakboard Boxes or on the screenshot will take you to the detail page of the selected Peakboard Boxes.
 The detail page offers two tabs, [Application] (1) and [System] (2).
 The application tab shows which visualization is currently displayed.
-In the upper area, you can select which visualization should be loaded on the Peakboard Box by clicking on the drop-down menu (3). You can also delete (4) or stop (5) the visualization there. In the lower area you will again find a current screenshot. You can update it by clicking on the corresponding button (6).
+In the upper area you can select which of the existing visualizations should be displayed on the Peakboard Box by clicking on the drop-down menu (3). You can also delete (4) or stop (5) the visualization there. In the lower area you will again find a current screenshot. You can update it by clicking on the corresponding button (6).
 
 ![Application tab](/assets/images/hub/en_hub-online_boxes-05.png)
 
 In the system tab you will find four areas:
 
 * **Box Information (1):** Here you can find general information about your Peakboard Box and identify existing problems by colored markings and status indicators. Some items can be adjusted by clicking on the pencil or gear icon.
-**Properties (2):** The BoxID and the license of the selected Peakboard Box are displayed here.
+**Properties (2):** The BoxID and the license of the selected Peakboard Box are displayed here. You can also change the license there.
 **Certificates (3):** In this area you can store certificates for your Peakboard Box.
-* **Log Files (4):** Here you can see the logs of your Peakboard Box. You can filter them by different criteria (5).
+* **Log Files (4):** Here you can see the logs of your Peakboard Box. You can filter them by different criteria (5). With the button [...] you can also export the log files. You can either export the filtered logs with [Export] or all existing logs with [Export All]. In both cases the logs are exported in text format.
 
 ![System tab](/assets/images/hub/en_hub-online_boxes-06.png)

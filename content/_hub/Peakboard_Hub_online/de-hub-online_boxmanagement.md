@@ -39,7 +39,7 @@ Die Listenansicht (1) empfiehlt sich, wenn du bereits viele Peakboard Boxen mit 
 Du bekommst damit einen schnellen Überblick über die Gruppen, Namen und weitere Daten deiner Peakboard Boxen. Allerdings sind in dieser Ansicht keine Screenshots sichtbar.
 Um diese anzuzeigen, wählst du kleine (2) oder große Kacheln (3) zur Ansicht. Jetzt siehst du auf einen Blick, welche Visualisierung derzeit auf den Peakboard Boxen geladen ist.
 
-Neben den Screenshots der Visualisierung (außer in der Listenansicht) die regelmäßig geladen werden, findest du weitere Elemente, die die verschiedenen Ansichtsarten gemeinsam haben. In der Kachelansicht kannst du mit einem Klick auf das Lupen-Symbol den aktuellen Screenshot vergrößern und mit dem Reload-Symbol wird der Screenshot aktualisiert.
+Neben den Screenshots der Visualisierung (außer in der Listenansicht) die regelmäßig aktualisiert werden, findest du weitere Elemente, die die verschiedenen Ansichtsarten gemeinsam haben. In der Kachelansicht kannst du mit einem Klick auf das Lupen-Symbol den aktuellen Screenshot vergrößern und mit dem Reload-Symbol wird der Screenshot aktualisiert.
 Ein grüner Kreis neben dem Namen der jeweiligen Peakboard Box zeigt an, ob sie erreichbar ist oder nicht (4). Du siehst auf einen Blick die IP-Adresse (5), den Nutzer (6) und die Version (7) der jeweiligen Peakboard Box und kannst sie mit einem Klick auf den [Restart]-Button (8) neu starten.  Über das [...]-Symbol (9) kannst du ein Kontextmenü öffnen, über das du Zugriff auf weitere Aktionen bekommst. Du kannst deine Peakboard Boxen updaten, zurücksetzen, löschen oder einer Gruppe zuweisen.
 
 ![Peakboard Boxen verwalten](/assets/images/hub/de_hub-online_boxes-04.png)
@@ -49,15 +49,15 @@ Ein grüner Kreis neben dem Namen der jeweiligen Peakboard Box zeigt an, ob sie 
 Klickst du auf den Namen der Peakboard Box oder auf den Screenshot, gelangst du in die Detailseite der gewählten Peakboard Box.
 Die Detailseite bietet zwei Tabs, [Application] (1) und [System] (2).
 Im Application-Tab wird angezeigt, welche Visualisierung derzeit angezeigt wird.
-Im oberen Bereich kannst du durch einen Klick auf das Drop-down-Menü (3) auswählen, welche Visualisierung auf der Peakboard Box geladen werden soll. Du kannst die Visualisierung dort außerdem löschen (4) oder stoppen (5). Im unteren Bereich findest du wieder einen aktuellen Screenshot. Diesen kannst du durch einen Klick auf den entsprechenden Button (6) aktualisieren.
+Im oberen Bereich kannst du durch einen Klick auf das Drop-down-Menü (3) auswählen, welche der vorhandenen Visualisierungen auf der Peakboard Box angezeigt werden soll. Du kannst die Visualisierung dort außerdem löschen (4) oder stoppen (5). Im unteren Bereich findest du wieder einen aktuellen Screenshot. Diesen kannst du durch einen Klick auf den entsprechenden Button (6) aktualisieren.
 
 ![Application Tab](/assets/images/hub/de_hub-online_boxes-05.png)
 
 Im System-Tab findest du vier Bereiche:
 
 * **Box Information (1):** Hier findest du allgemeine Informationen zu deiner Peakboard Box und erkennst durch farbliche Markierungen und Statusanzeigen bestehende Probleme. Einige Punkte können durch einen Klick auf das Stift- oder Zahnrad-Symbol angepasst werden.
-* **Properties (2):** Hier wird die BoxID sowie die Lizenz der ausgewählten Peakboard Box angezeigt.
+* **Properties (2):** Hier wird die BoxID sowie die Lizenz der ausgewählten Peakboard Box angezeigt. Du kannst die Lizenz dort auch ändern.
 * **Certificates (3):** In diesem Bereich kannst du Zertifikate für deine Peakboard Box hinterlegen.
-* **Log Files (4):** Hier werden auf der Peakboard Box vorhandene Logs angezeigt. Du kannst diese nach verschiedenen Kriterien filtern (5).
+* **Log Files (4):** Hier werden auf der Peakboard Box vorhandene Logs angezeigt. Du kannst diese nach verschiedenen Kriterien filtern (5). Über den Button [...] kannst du die Log Files auch exportieren. Du kannst entweder mit [Export] die gefilterten Logs exportieren oder mit [Export All] alle vorhandnenen Logs. Die Logs werden in beiden Fällen im Textformat exportiert.
 
 ![System Tab](/assets/images/hub/de_hub-online_boxes-06.png)
