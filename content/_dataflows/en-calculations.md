@@ -19,6 +19,7 @@ Aggregating data is a common use case in data preparation. A typical example is 
 In the aggregate step dialog, you define various aggregation steps using aggregation functions. To do this, you select the mathematical function you want to execute and the column with which it should be executed and give the result column a name.
 To add another function, click on the plus symbol.
 You can also create aggregation groups. To do this, you optionally select columns to group the aggregation by identical values of this column.
+If the data source contains a column with timestamps you can enable [Time-based aggregation] and aggregate the data according to a defined time interval.
 
 The following mathematical functions are possible:
 

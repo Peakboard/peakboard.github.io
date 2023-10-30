@@ -19,6 +19,7 @@ Daten zu aggregieren ist ein gängiger Anwendungsfall bei der Datenaufbereitung.
 Im Dialog des Aggregieren-Schritts definierst du verschiedene Aggregierungsschritte mithilfe von Aggregierungsfunktionen. Dazu wählst du die mathematische Funktion die du ausführen möchtest sowie die Spalte mit der sie ausgeführt werden soll und gibst der Ergebnisspalte einen Namen.
 Um eine weitere Funktion hinzuzufügen klickst du auf das Plus-Symbol.
 Du kannst außerdem Aggregierungsgruppen bilden. Dazu wählst du optional Spalten aus um die Aggregation nach identischen Werten dieser Spalte zu gruppieren.
+Wenn die Datenquelle eine Spalte mit Zeitstempeln enthält kannst du [Zeitbasierte Aggregierung] aktivieren und die Daten nach einem definierten Zeitintervall aggregieren.
 
 Folgende mathematische Funktionen sind möglich:
 

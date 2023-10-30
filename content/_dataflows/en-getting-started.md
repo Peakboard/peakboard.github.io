@@ -51,7 +51,7 @@ In the selection dialog that opens, you can see all available steps. If you clic
 ![Add step dialog](/assets/images/dataflows/getting-started/en_dataflows_create-05.png)
 
 In the left part of the dialog, all steps already applied are listed.
-You can change or delete them later.
+You can change or delete them later. You can rename the steps at any time and also change their order later. You can also deactivate or reactivate individual steps.
 Click on one of the steps and let the dialog area on the right show you the state of the data **AFTER** this step.
 
 ![Result](/assets/images/dataflows/getting-started/en_dataflows_create-01.gif)

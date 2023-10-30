@@ -50,7 +50,7 @@ In dem sich öffnenden Auswahldialog kannst du alle verfügbaren Schritte einseh
 ![Schritt hinzufügen Dialog](/assets/images/dataflows/getting-started/de_dataflows_create-05.png)
 
 Im linken Bereich des Dialogs sind alle bereits angewendeten Schritte aufgelistet.
-Diese kannst du auch nachträglich verändern oder löschen.
+Diese kannst du auch nachträglich verändern oder löschen. Du kannst die Schritte jederzeit umbenennen und auch nachträglich deren Reihenfolge ändern. Außerdem kannst du einzelne Schritte deaktivieren oder wieder aktivieren.
 Klicke auf einen der Schritte und lass dir im Dialogbereich rechts den Zustands der Daten **NACH** diesem Schritt anzeigen.
 
 ![Ergebnis](/assets/images/dataflows/getting-started/de_dataflows_create-01.gif)

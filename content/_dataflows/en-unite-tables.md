@@ -19,6 +19,7 @@ With this step you add columns from another table to the table, provided that th
 ![Join](/assets/images/dataflows/dataflows_join.gif)
 
 Different join types are available for different use cases.
+You can also optionally select whether you want to use only individual columns for the step.
 
 ### Inner join
 
@@ -61,13 +62,3 @@ With this step you append rows from another table to the table, provided that it
 Unlike the join step, the data is attached rather than linked. You just have to select the table to attach, then all columns of the table to be attached, where the name and the data type match, will be attached to the corresponding column of the original table. If there is no match of the column name or the data type does not match, the column will be ignored. In case the column names or data types do not match, you need to rename or reformat them first to make them match.
 
 ![Union](/assets/images/dataflows/dataflows_union.gif)
-
-## Add Lookup column
-
-With this step you add a column from another table to the table.
-
-You define a source column that will serve as the basis for the Lookup, as well as the Lookup data source from which the data will be taken. With the Lookup target column you specify with which column from the Lookup data source will be matched and with the Lookup return column which column will be transferred.
-
-The new column remains empty if no match can be found for an entry in the source column in the Lookup target column. This is how you realize the requirement to find data that currently has NO correspondence in another data source. In this use case you can then filter all rows that are empty in the additional column.
-
-![Lookup column](/assets/images/dataflows/dataflows_lookup.gif)
