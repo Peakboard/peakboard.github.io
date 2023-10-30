@@ -1,0 +1,38 @@
+[{
+  "version": "1.17.2.0",
+  "date": "15.08.2023",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.17.2.0/PeakboardHubSetup.exe",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [
+        {
+          "type": "headline",
+          "text": "Allgemein"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "Menü-Icons überarbeitet",
+            "[Setup] - Verwendung einer bestehenden Datenbank erlaubt",
+            "[Setup] - An das aktuelle Peakboard Designer Setup angepasst",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Fix für einen Fehler, bei dem die Anzeige beim editieren eines Wertes ungewollt automatisch auf die erste Seite zurückgesprungen ist",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Fix für einen Fehler, bei dem die Anzeige beim editieren eines Wertes ungewollt die Anzahl der gezeigten Elemente geändert hat",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Optionen für die angezeigte Elementanzahl pro Seite angepasst",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Für alle Leseprozesse die select-Anweisungen angepasst",
+            "[Logs] - Fix für einen Fehler, bei dem die Filter nicht richtig funktionierten",
+            "[Logs] - Anzeige des betroffenen Nutzers und der Benutzergruppe hinzugefügt",
+            "[Nutzerverwaltung](/hub/de-hub_usermanagement.html) - Fix für einen Fehler, bei dem es möglich war als einziger Administrator die eigenen Adminrechte zu entfernen",
+            "[Nutzerverwaltung](/hub/de-hub_usermanagement.html) - Fix für einen Fehler, bei dem eine Benutzerrolle fehlte",
+            "[Nutzerverwaltung](/hub/de-hub_usermanagement.html) - Fix für einen Fehler, bei dem es nicht möglich war, neue Nutzergruppen hinzuzufügen",
+            "[Nutzerverwaltung](/hub/de-hub_usermanagement.html) - Neue Berechtigung [Cloud-Kommunikation] hinzugefügt",
+            "[Nutzerverwaltung](/hub/de-hub_usermanagement.html) - Benutzer können manipuliert werden, wenn die Peakboard Box mit einem Benutzer mit der passenden Rolle hinzugefügt wurde",
+            "[Peakboard Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Fix für einen Fehler, bei dem Peakboard Boxen nicht richtig gelöscht werden konnten",
+            "[Peakboard Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Feste Höhe für Screenshots definiert",
+            "[Peakboard Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Detailansicht überarbeitet"
+          ]
+        }
+      ]
+    }
+  ]
+}]

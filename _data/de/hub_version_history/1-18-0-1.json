@@ -1,0 +1,36 @@
+[{
+  "version": "1.18.0.1",
+  "date": "12.10.2023",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.18.0.1/PeakboardHubSetup.exe",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [
+        {
+          "type": "headline",
+          "text": "Allgemein"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Fix für einen Fehler, bei dem eingeblendete Tooltips nicht mehr ausgeblendet werden konnten",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Fix für einen Fehler, der auftrat, wenn während dem Editiervorgang in eine andere Liste gewechselt wurde",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Fix für einen Fehler, bei dem nur der aktuell angezeigte Teil anstatt die gesamte Tabelle sortiert wurde",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Fix für einen Fehler, bei dem in Textfeldern versehentlich bei dem Versuch etwas zu Markieren Drag-and-drop aktiviert wurde",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - UI umfassend überarbeitet",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Option zum Sortieren von Listen nach einer Spalte und speichern dieser Einstellung in den Benutzereinstellungen hinzugefügt",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Listenberechtigung [Struktur ändern] hinzugefügt",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Mehrere Listenfunktionen hinzugefügt die in den Benutzereinstellungen gespeichert werden",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Detaillierte Brechtigungsoptionen für Listen hinzugefügt",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Scrolling Option im Bereich der Listenübersicht hinzugefügt damit lange Listen-Namen lesbar bleiben",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Listen werden in der Übersicht alphabetisch sortiert",
+            "[Nutzerverwaltung](/hub/de-hub_usermanagement.html) - Fix für einen Fehler, bei dem es möglich war Nutzergruppen mit identischen Namen anzulegen",
+            "[Logs] - Fix für mehrere Fehler in den Logs",
+            "[Alerts] - UI umfassend überarbeitet",
+            "[Peakboard Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Detailseite der Peakboard Box kann nur geöffnet werden, wenn diese aktuell verfügbar ist"
+          ]
+        }
+      ]
+    }
+  ]
+}]

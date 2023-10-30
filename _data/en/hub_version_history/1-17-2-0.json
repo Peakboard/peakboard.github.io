@@ -1,0 +1,38 @@
+[{
+  "version": "1.17.2.0",
+  "date": "15.08.2023",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.17.2.0/PeakboardHubSetup.exe",
+  "tabs": [
+    {
+      "name": "General overview",
+      "content": [
+        {
+          "type": "headline",
+          "text": "General"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "Menu icons revised",
+            "[Setup] - Use of an existing database allowed",
+            "[Setup] - Adjusted to the current Peakboard Designer setup",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Fix for a bug where the display unintentionally automatically jumped back to the first page when editing a value",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Fix for a bug where the display unintentionally changed the number of items shown when editing a value",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Adjusted options for the number of elements displayed per page",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Adjusted select statements for all read processes",
+            "[Logs] - Fix for a bug where the filters did not work properly",
+            "[Logs] - Added display of affected user and user group",
+            "[User management](/hub/en-hub_usermanagement.html) - Fix for a bug where it was possible to remove own admin rights as the only administrator",
+            "[User management](/hub/en-hub_usermanagement.html) - Fix for a bug where a user role was missing",
+            "[User administration](/hub/en-hub_usermanagement.html) - Fix for a bug where it was not possible to add new user groups",
+            "[User management](/hub/en-hub_usermanagement.html) - Added new permission [cloud communication]",
+            "[User Management](/hub/en-hub_usermanagement.html) - Users can be manipulated if the Peakboard Box is added with a user with the appropriate role",
+            "[Peakboard Boxes](/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Fix for a bug where Peakboard Boxes could not be deleted properly",
+            "[Peakboard Boxes](/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Fixed height defined for screenshots",
+            "[Peakboard Boxes](/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Detail view revised"
+          ]
+        }
+      ]
+    }
+  ]
+}]
