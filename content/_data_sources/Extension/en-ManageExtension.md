@@ -11,7 +11,7 @@ redirect_from:
 
 ### Add and delete extensions
 
-Via [Data], [Add data source], [Extensions] and [Manage extensions] (1) you can access the management dialog for the Peakboard Extensions.
+Via [Data], [Add data source] and [Manage extensions] (1) you can access the management dialog for the Peakboard Extensions. Currently installed extensions are already displayed above this point.
 
 ![Manage extensions](/assets/images/data-sources/extension/en_extension_add-01.png)
 
@@ -22,7 +22,7 @@ To delete already installed extensions, click on the trash can icon (3) below th
 ![Add extension](/assets/images/data-sources/extension/en_extension_add-02.png)
 
 To apply the changes, you have to restart the Peakboard Designer.
-The currently added extensions are now visible under [Data], [Add data source], [Extensions] (4).
+The currently added extensions are now visible under [Data], [Add data source] (4).
 Deleted extensions are no longer visible there.
 
 ![Add extension](/assets/images/data-sources/extension/en_extension_add-03.png)

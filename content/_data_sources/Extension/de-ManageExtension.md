@@ -11,7 +11,7 @@ redirect_from:
 
 ### Extensions hinzufügen und löschen
 
-Über [Daten], [Datenquelle hinzufügen], [Extensions] und [Extensions verwalten] (1) gelangst du in den Verwaltungsdialog für die Peakboard Extensions.
+Über [Daten], [Datenquelle hinzufügen] und [Extensions verwalten] (1) gelangst du in den Verwaltungsdialog für die Peakboard Extensions. Oberhalb von diesem Punkt werden derzeit installierte Extensions bereits angezeigt.
 
 ![Extensions verwalten](/assets/images/data-sources/extension/de_extension_add-01.png)
 
@@ -22,7 +22,7 @@ Um bereits installierte Extensions zu löschen, klickst du auf das Mülleimer-Sy
 ![Extension hinzufügen](/assets/images/data-sources/extension/de_extension_add-02.png)
 
 Damit die Änderungen übernommen werden, musst du den Peakboard Designer neu starten.
-Die aktuell hinzugefügten Extensions sind jetzt unter [Daten], [Datenquelle hinzufügen], [Extensions] (4) sichtbar.
+Die aktuell hinzugefügten Extensions sind jetzt unter [Daten], [Datenquelle hinzufügen] sichtbar (4).
 Gelöschte Extensions sind dort nun nicht mehr sichtbar.
 
 ![Extension hinzufügen](/assets/images/data-sources/extension/de_extension_add-03.png)
