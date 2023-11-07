@@ -20,10 +20,12 @@ Diese Anleitung zeigt dir, wie du deine Peakboard Box in Betrieb nimmst und dein
 Sieh dir außerdem [unser Video](https://youtu.be/-6YyjhlpdjU) für weitere Tipps zur Übertragung deiner Visualisierung auf die Peakboard Box an.
 Falls noch nicht geschehen, empfehlen wir dir für die Einführung in den Peakboard Designer vorab den Artikel [Der Peakboard Designer](/get_started/de-peakboard-designer.html) durchzulesen.
 
+Im Artikel [Peakboard BYOD](/get_started/de-peakboard-byod.html) kannst du nachlesen wie du vorgehen musst um deine eigene Hardware anstelle einer Peakboard Box zu verwenden.
+
 Um deine Peakboard Box zu starten muss ein Monitor angeschlossen werden. Der Monitor wird mit einem HDMI-Kabel angesteuert und solange das WLAN noch nicht konfiguriert ist, benötigst du für die Peakboard Box ein LAN-Kabel (RJ45, Ethernet). Versorge deine Peakboard Box über das beiliegende Netzteil mit USB-C-Kabel mit Strom, um sie in Betrieb zu nehmen.
 
 Sobald sie mit Strom versorgt wird, bootet das [Windows 10 IoT Enterprise](https://docs.microsoft.com/de-de/windows/iot-core/windows-iot-enterprise) Betriebssystem auf der Peakboard Box und das Peakboard Logo wird für einige Sekunden auf dem Monitor angezeigt. 
-Nach einigen weiteren Sekunden ist die Peakboard Box bereits betriebsbereit. 
+Nach einigen weiteren Sekunden ist die Peakboard Box bereits betriebsbereit.
 
 ![Initialer Bildschirm](/assets/images/get_started/Peakboard-Box_InitialScreen_de.png)
 
@@ -33,5 +35,5 @@ Nachdem die Peakboard Box hinzugefügt wurde, klickst du auf den [Hochladen]-But
 
 ![Visualisierung hochladen](/assets/images/get_started/Peakboard-Box_Upload_de.png)
 
-Wenn die Übertragung erfolgreich war und kein anderes Dashboard bereits aktiv ist, wird die Datenvisualisierung auch direkt auf dem Monitor angezeigt. 
+Wenn die Übertragung erfolgreich war und kein anderes Dashboard bereits aktiv ist, wird die Datenvisualisierung auch direkt auf dem Monitor angezeigt.
 *Merke:* Jede Peakboard Box speichert beliebig viele Dashboards, aber nur eins davon kann jeweils aktiv sein.
