@@ -5,8 +5,9 @@ menu_title: Resources
 description: Additional Resources
 lang: en
 weight: 100
-ref: misc-100
+ref: resources-100
 redirect_from:
+  - /misc/en-ressources.html
   - /misc/01-en-ressources.html
 ---
 
