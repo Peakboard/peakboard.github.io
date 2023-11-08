@@ -22,10 +22,8 @@
             {% if collection.title[page.lang] %}
             <div>
                 <div class="flex flex-row my-2 space-x-3.5 side-menu-category cursor-pointer select-none z-50 {% if page.collection == collection.label %}show-initial{% endif %}">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="fill: none !important;" class="w-6 h-6 side-menu-icon flex-shrink-0" xmlns="http://www.w3.org/2000/svg">
-                        {% assign svg_file_name = collection.icon %}
-                        {% include svg/{{ svg_file_name }} class="w-7 h-7 side-menu-icon flex-shrink-0" style="fill: none !important;" %}
-                    </svg>
+                    {% assign svg_file_name = collection.icon %}
+                    {% include svg/{{ svg_file_name }} class="w-7 h-7 side-menu-icon flex-shrink-0" style="fill: none !important;" %}
                     <h4 class="text-lg font-title font-semibold side-menu-title">
                         {% if include.nav_to_category == "true" %}<a href="/{{ collection.label }}{% if page.lang == 'en' %}/en-index{% endif %}">{% endif %}
                         {{ collection.title[page.lang] }}
@@ -57,8 +55,8 @@
 
                         <!-- to -rotate-90 -->
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve" class="h-2.5 w-2.5 inline mr-0.5 ml-2 transform rotate-180">
-                                                <polygon points="460,530.874 1,265.87 460,0.866 "/>
-                                            </svg>
+                            <polygon points="460,530.874 1,265.87 460,0.866 "/>
+                        </svg>
                     </p>
 
                     {% assign sorted_sub_articles = all_articles | sort: 'weight' %}
