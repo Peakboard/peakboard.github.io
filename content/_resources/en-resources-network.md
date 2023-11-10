@@ -24,7 +24,7 @@ Right-click on [Resources] and click on [Add network resource] (1) to open the c
 ![Add network resource](/assets/images/resources/en_resources-network-01.png)
 
 In the connection dialog, first give the resource a name (1). You can also define a reload interval (2) in which the file is updated.
-Then you need the connection data for your file. This includes the UNC path (3), the user name (4) of the domain user who is to be used for the connection and who has the necessary rights, as well as the corresponding password (5). You can check the connection using the [Test connection] button (6).
+Then you need the connection data for your file. This includes the UNC path (3), the user name (4) including the domain name of the domain user who is to be used for the connection and who has the necessary rights, as well as the corresponding password (5). You can check the connection using the [Test connection] button (6).
 Alternatively, you can also use an existing connection (7).
 
 ![Set up connection](/assets/images/resources/en_resources-network-02.png)

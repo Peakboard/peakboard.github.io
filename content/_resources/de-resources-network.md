@@ -24,7 +24,7 @@ Durch einen Rechtsklick auf [Ressourcen] und einen Klick auf [Netzwerk-Ressource
 ![Netzwerk-Ressource hinzufügen](/assets/images/resources/de_resources-network-01.png)
 
 Im Verbindungsdialog gibst du der Ressource zuerst einen Namen (1). Du kannst außerdem ein Nachladeintervall (2) definieren, in dem die Datei aktualisiert wird.
-Dann benötigst du die Verbindungsdaten zu deiner Datei. Dazu gehören der UNC-Pfad (3), der Benutzername (4) des Domänen-Nutzers, der für die Verbindung genutzt werden soll und der über die nötigen Rechte verfügt, sowie das zugehörige Passwort (5). Mit dem Button [Verbindungstest] (6) kannst du die Verbindung prüfen.
+Dann benötigst du die Verbindungsdaten zu deiner Datei. Dazu gehören der UNC-Pfad (3), der Benutzername (4) inklusive Domainname des Domänen-Nutzers, der für die Verbindung genutzt werden soll und der über die nötigen Rechte verfügt, sowie das zugehörige Passwort (5). Mit dem Button [Verbindungstest] (6) kannst du die Verbindung prüfen.
 Alternativ kannst du auch eine bereits vorhandene Verbindung nutzen (7).
 
 ![Verbindung einrichten](/assets/images/resources/de_resources-network-02.png)
