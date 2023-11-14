@@ -9,8 +9,7 @@ ref: start-250
 redirect_from:
 ---
 
-Peakboard Bring-Your-Own-Device (BYOD)
-In diesem Artikel lernst du , wie du dein eigenes Gerät als eigenständige Runtime-Instanz anstelle einer Peakboard Box nutzen kannst.
+In diesem Artikel lernst du , wie du dein eigenes Gerät mit Peakboard BYOD anstelle einer Peakboard Box nutzen kannst.
 
 ## Vorbereitung und Mindestanforderungen
 
@@ -27,59 +26,50 @@ Wenn du dir unsicher bist [kontaktiere den Peakboard Support](mailto:support@pea
 
 ### Betriebssystem-Mindestanforderungen
 
-* Windows 10 (ab Version 1607), beliebige Edition, x64 (x86/ARM wird nicht unterstützt)
-* Windows 11, beliebige Edition, x64 (x86/ARM wird nicht unterstützt)
+* Windows 10 (ab Version 1607), beliebige Edition, x64 (x86/ARM nicht unterstützt)
+* Windows 11, beliebige Edition, x64 (x86/ARM nicht unterstützt)
+
+<div class="box-warning" markdown="1">
+**Achtung**
+
+x86- und ARM-Prozessoren werden **nicht** unterstützt!
+</div>
 
 Auf dem Betriebssystem muss [das ASP.NET Core 3.1 Runtime (v3.1.32) - Windows Hosting Bundle]( https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-3.1.32-windows-hosting-bundle-installer) installiert sein.
 
 ## Peakboard BYOD Setup
 
-Das Setup führt dich automatisch durch den Installationsprozess. Es bietet die Option, die Runtime beim Hochfahren automatisch zu starten (1). In der Regel ist dies auch das gewünschte Verhalten.
+Das Setup führt dich automatisch durch den Installationsprozess. Es bietet die Option, Peakboard BYOD beim Hochfahren automatisch zu starten (1). In der Regel ist dies auch das gewünschte Verhalten. Für den automatischen Start wird der aktuell angemeldete Benutzer, der das Setup ausführt, verwendet.
 
 ![Setup-Optionen](/assets/images/get_started/de_peakboard-byod-01.png)
 
-Du hast außerdem die Möglichkeit den Lizenzschlüssel (1) während der Installation anzugeben. Wenn du zum Zeitpunkt der Installation noch keinen Lizenzschlüssel hast, kannst du diesen Schritt überspringen und die Lizenz später aktivieren.
-
-<div class="box-warning" markdown="1">
-**Hinweis**
-
-Kopiere an dieser Stelle den Hardwareschlüssel (2), wenn du später eine Lizenz beantragen möchtest.
-</div>
-
-![Lizenzschlüssel eingeben](/assets/images/get_started/de_peakboard-byod-02.png)
-
-Die Runtime-Instanz funktioniert trotzem ordnungsgemäß, mit Ausnahme eines Lizenzhinweises auf dem Bildschirm. Um den Schritt zu überspringen klicke auf [Next]. Es erscheint ein Hinweis zur Lizenz denn du durch einen erneuten Klick auf [Next] endgültig überspringen kannst.
-
-Das Setup enthält die reguläre Desktop-Runtime-Anwendung sowie den Verwaltungsdienst und den Webserverdienst.
-
 ## Peakboard BYOD Instanz dem Peakboard Designer hinzufügen und lizensieren
 
-Vergewissere dich, dass die Runtime-Instanz ordnungsgemäß ausgeführt wird.
-Jetzt kannst du die Instanz [wie eine Peakboard Box dem Peakboard Designer hinzufügen](/administration/de-hinzufuegen.html). Wähle deine BYOD Instanz aus der Liste aus (1) und nutze die folgenden Anmeldedaten.
+Vergewissere dich, dass Peakboard BYOD ordnungsgemäß ausgeführt wird.
+Jetzt kannst du die Instanz [wie eine Peakboard Box dem Peakboard Designer hinzufügen](/administration/de-hinzufuegen.html). Wähle deine Peakboard BYOD Instanz aus der Liste aus (1) und gib den Standard-Benutzernamen (2) `PeakboardAdmin` ein. Das Passwort (3) lässt du leer.
 
-### Standard-Anmeldedaten
+![BYOD hinzufügen](/assets/images/get_started/de_peakboard-byod-02.png)
 
-* **Benutzername (2):** PeakboardAdmin
-* **Passwort (3):** InitP@ss
+Du wirst nun aufgefordert ein neues Passwort für den Standard-Benutzer der Peakboard Box zu vergeben.
+Du kannst das Passwort später noch ändern oder weitere Nutzer hinzufügen.
 
-![BYOD hinzufügen](/assets/images/get_started/de_peakboard-byod-03.png)
+![Passwort vergeben](/assets/images/get_started/de_peakboard-byod-03.png)
 
-Die Runtime-Instanz wird nun in der Liste der Peakboard Boxen angezeigt (1).
-Wenn die Instanz zu diesem Zeitpunkt noch nicht lizenziert ist, erscheint das Eingabefeld für die Eingabe der Lizenzdaten.
-Um eine Lizenz beim Peakboard-Vertriebsteam anzufordern, [sende bitte den zuvor kopierten Hardwareschlüssel per E-Mail](mailto:support@peakboard.com). Du erhälst daraufhin eine Peakboard Box-ID (2) und einen zugehörigen Lizenzschlüssel (3). Der Lizenzschlüssel ist ein kryptischer Schlüssel (ca. 20-30 Zeichen lang), und die Peakboard Box-ID hat das Format [PBRXXXXX], wobei XXXX eine zufällige Zahl ist.
+Die Peakboard BYOD Instanz wird nun in der Liste der Peakboard Boxen angezeigt (1).
+Da die Instanz zu diesem Zeitpunkt noch nicht lizenziert ist, erscheint das Eingabefeld für die Eingabe der Lizenzdaten.
+Um eine Lizenz beim Peakboard-Vertriebsteam anzufordern, [sende bitte den Hardwareschlüssel (2) per E-Mail](mailto:support@peakboard.com). Du erhälst daraufhin eine Peakboard Box-ID (3) und einen zugehörigen Lizenzschlüssel (4). Der Lizenzschlüssel ist ein kryptischer Schlüssel (ca. 20-30 Zeichen lang), und die Peakboard Box-ID hat das Format [PBRXXXXX], wobei XXXX eine zufällige Zahl ist.
 
 ![BYOD lizensieren](/assets/images/get_started/de_peakboard-byod-04.png)
 
-Wenn du die Instanz nur für Testzwecke nutzen möchtest kannst du diesen Schritt überspringen und die Instanz weiterhin unlizensiert lassen. Eine unlizenzierte Peakboard BYOD-Instanz funktioniert ohne jegliche Einschränkungen. Es wird lediglich ein Banner erscheinen, das auf die fehlende Lizenz hinweist.
+Wenn du die Instanz nur für Testzwecke nutzen möchtest kannst du diesen Schritt überspringen und die Instanz weiterhin unlizensiert lassen. Eine unlizenzierte Peakboard BYOD Instanz funktioniert ohne jegliche Einschränkungen. Es wird lediglich ein Banner erscheinen, das auf die fehlende Lizenz hinweist.
 
 ![Lizenzwarnung](/assets/images/get_started/de_peakboard-byod-05.png)
 
-## Automatische Anmeldung
+## Automatische Anmeldung und automatischer Start
 
-In vielen Anwendungsfällen soll die Runtime-Instanz automatisch nach dem Einschalten des Geräts gestartet werden. Der erste Schritt besteht darin, nach dem Booten automatisch eine Windows-Anmeldung durchzuführen. Dies geschieht über einen Registrierungsschlüssel.
-Wenn du die Option während der Indsstallation auswählst übernimmt das Setup diese Schritte bereits für dich.
+In vielen Anwendungsfällen soll die Peakboard BYOD Instanz automatisch nach dem Einschalten des Geräts gestartet werden, ohne dass der Endnutzer mit der Windows-Oberfläche interagieren muss.
 
-Idealerweise gibt es ein lokales Windows-Konto auf dem Rechner, das für die automatische Anmeldung verwendet wird. Du kannst dieses PowerShell-Skript ausführen, um den Registrierungsschlüssel für die automatische Anmeldung festzulegen. Gib dazu den Benutzernamen und das Kennwort ein.
+Der erste Schritt um dieses Verhalten einzurichten besteht darin, nach dem Booten automatisch eine Windows-Anmeldung durchzuführen. Dies geschieht über einen Registrierungsschlüssel. Idealerweise gibt es ein lokales Windows-Konto auf dem Rechner, das für die automatische Anmeldung verwendet wird. Fühle das folgende PowerShell-Skript aus, um den Registrierungsschlüssel für die automatische Anmeldung festzulegen. Ersetze dazu den Benutzernamen und das Passwort.
 
 ```powershell
 $Username = Read-Host 'Enter username for auto-logon (f.e. domain\peakboard)'
@@ -90,14 +80,15 @@ Set-ItemProperty $RegistryPath 'DefaultUsername' -Value "$Username" -type String
 Set-ItemProperty $RegistryPath 'DefaultPassword' -Value "$Pass" -type String
 ```
 
-Um die Runtime nach der automatischen Anmeldung automatisch zu starten, legst du eine Verknüpfung für die `Peakboard.Runtime.Wpf.exe` im Benutzerverzeichnis von `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup` ab, zum Beispiel `C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
+Um Peakboard BYOD nach der automatischen Anmeldung automatisch zu starten, legst du eine Verknüpfung für die `Peakboard.Runtime.Wpf.exe` im Benutzerverzeichnis von `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup` ab, zum Beispiel `C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
+Hast du diesen Punkt während der Installation ausgewählt, dann hat das Setup diesen Schritt bereits für dich übernommen.
 
 ## Weitere Tipps und Tricks
 
-Die oben beschriebenen Schritte sind die wichtigsten Schritte, um Peakboard BYOD auf einem Gerät zum Laufen zu bringen. Falls du die Benutzererfahrung noch reibungsloser gestalten und Windows vor den Endbenutzern verstecken möchtest sind hier einige Schritte, um dies zu erreichen:
+Die oben beschriebenen Schritte sind die wichtigsten Schritte, um Peakboard BYOD auf einem Gerät zum Laufen zu bringen. Falls du die Benutzererfahrung noch reibungsloser gestalten und Windows weiter vor den Endbenutzern verstecken möchtest sind hier einige Ideen, um dies zu erreichen:
 
 * Verwende einen einfarbigen, schwarzen Desktop-Hintergrund
 * Entferne alle Verknüpfungen auf dem Desktop
 * Verstecke die Taskleiste
-* Verwende ein einfarbiges, schwarzes Profilbild für das Konto, unter dem die Runtime-Instanz ausgeführt wird
+* Verwende ein einfarbiges, schwarzes Profilbild für das Benutzerkonto, unter dem die Peakboard BYOD Instanz ausgeführt wird
 * Passe die Windows-Energieeinstellungen an deinen Anwendungsfall an. In der Regel bedeutet dies die Deaktivierung des Bildschirmschoners, des des automatischen Ruhezustands u.ä.
