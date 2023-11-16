@@ -4,13 +4,14 @@ title: SAP
 menu_title: SAP
 description: Information über SAP Daten in Peakboard
 lang: de
-weight: 1100
-ref: dat-1100
+weight: 2400
+ref: dat-2400
 redirect_from:
   - /data_sources/SAP/10-de-sap.html
 ---
-Die Anbindung an SAP erfolgt über Direct RFC. 
-Hier kommuniziert die Peakboard Box direkt mit einem SAP-Applikationsserver. 
+
+Die Anbindung an SAP erfolgt über Direct RFC.
+Hier kommuniziert die Peakboard Box direkt mit einem SAP-Applikationsserver.
 Ohne Middleware und ohne die Notwendigkeit händischer Vorkonfiguration.
 
 <div class="box-tip" markdown="1">**Hinweis**

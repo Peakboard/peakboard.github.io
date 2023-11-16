@@ -4,8 +4,8 @@ title: Azure IoT Hub
 menu_title: Azure IoT Hub
 description: Information über Azure IoT Hub Daten in Peakboard
 lang: de
-weight: 2100
-ref: dat-2100
+weight: 200
+ref: dat-200
 redirect_from:
   - /data_sources/20-de-azure-iot-hub.html
 ---

@@ -4,8 +4,8 @@ title: Auslesen eines Arrays (OPC UA)
 menu_title: Auslesen eines Arrays (OPC UA)
 description: Auslesen eines Arrays (OPC UA)
 lang: de
-weight: 2420
-ref: dat-2420
+weight: 1920
+ref: dat-1920
 redirect_from: 
  - /misc/de-Array-OPCUA.html
  - /data_sources/OPCUA/de-Array-OPCUA.html

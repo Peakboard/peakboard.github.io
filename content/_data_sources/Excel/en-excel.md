@@ -4,8 +4,8 @@ title: Excel
 menu_title: Excel
 description: Information about Excel Data in Peakboard
 lang: en
-weight: 1500
-ref: dat-1500
+weight: 600
+ref: dat-600
 redirect_from:
   - /en/datasources-excel/
   - /data_sources/13-en-excel.html

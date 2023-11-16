@@ -4,8 +4,8 @@ title: OData
 menu_title: OData
 description: Information about OData in Peakboard
 lang: en
-weight: 700
-ref: dat-700
+weight: 1700
+ref: dat-1700
 redirect_from:
   - /data_sources/07-en-odata.html
 ---

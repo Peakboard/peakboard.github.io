@@ -4,8 +4,8 @@ title: Siemens S7
 menu_title: Siemens S7
 description: Information about Siemens S7 Data in Peakboard
 lang: en
-weight: 2500
-ref: dat-2500
+weight: 2600
+ref: dat-2600
 redirect_from:
   - /data_sources/21-en-siemens-s7.html
 ---
@@ -55,7 +55,7 @@ The syntax of the methods is largely identical, whereby only the essential infor
 
 Such a command has the following pattern:
 
-``lua
+```lua
 data.[plc].setvar( ([data block number], )[offset], [data type], [value] )
 ```
 

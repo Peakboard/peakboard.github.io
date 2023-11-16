@@ -4,8 +4,8 @@ title: Microsoft Graph API Extension
 menu_title: Microsoft Graph API Extension
 description: Informationen über die Nutzung der Microsoft Graph API Extension
 lang: de
-weight: 2640
-ref: dat-2640
+weight: 750
+ref: dat-750
 redirect_from:
 ---
 
@@ -82,9 +82,7 @@ Als Beispiel rufen wir einen Nutzungsreport aus Office 365 ab. Der Report listet
 Für die Abfrage nutzt du am besten den App-Only Access. Stelle sicher dass du der App die entsprechende Berechtigung [Reports.Read.All] gegeben hast.
 Gib der Datenquelle zuerst einen Namen. Trage deine IDs und das Client Secret in die entsprechenden Felder ein (1) und verbinde dich mit dem [Connect] Button. Setze dann den Haken bei [Custom Call] (2) und füge die URL für den Report aus dem Graph Explorer ein (3):
 
-```
-https://graph.microsoft.com/beta/reports/microsoft.graph.getEmailActivityCounts(period='D30')
-```
+`https://graph.microsoft.com/beta/reports/microsoft.graph.getEmailActivityCounts(period='D30')`
 
 Mit dem zusätzlichen Parameter [period=‘D30‘] rufen wir die Daten der letzten 30 Tage ab. Klicke auf [Check] (4) um zu verifizieren, dass die Abfrage möglich ist. Nach positiver Bestätigung klickst du auf [Daten laden] im rechten Bereich um dir eine Vorschau der Daten anzeigen zu lassen.
 

@@ -4,8 +4,8 @@ title: XML
 menu_title: XML
 description: Information über XML Daten in Peakboard
 lang: de
-weight: 800
-ref: dat-800
+weight: 2800
+ref: dat-2800
 redirect_from:
   - /data_sources/08-de-xml.html
 ---

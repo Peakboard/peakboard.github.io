@@ -4,8 +4,8 @@ title: CSV
 menu_title: CSV
 description: Information about CSV Data  in Peakboard
 lang: en
-weight: 500
-ref: dat-500
+weight: 300
+ref: dat-300
 redirect_from:
   - /data_sources/05-en-csv.html
 ---

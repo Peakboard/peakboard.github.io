@@ -4,8 +4,8 @@ title: Schreiben nach OPC UA
 menu_title: Schreiben nach OPC UA
 description: Schreiben nach OPC UA
 lang: de
-weight: 2410
-ref: dat-2410
+weight: 1910
+ref: dat-1910
 redirect_from: 
  - /misc/de-Client-Write-OPCUA.html
  - /data_sources/OPCUA/de-Client-Write-OPCUA.html

@@ -4,8 +4,8 @@ title: Excel über ODBC einbinden
 menu_title: Excel über ODBC einbinden
 description: Excel über ODBC einbinden
 lang: de
-weight: 1510
-ref: dat-1510
+weight: 610
+ref: dat-610
 redirect_from:
   - /data_sources/31-de-ODBC-Excel.html
 ---

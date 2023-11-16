@@ -4,8 +4,8 @@ title: Microsoft Graph API Extension
 menu_title: Microsoft Graph API Extension
 description: Information about using the Microsoft Graph API Extension
 lang: en
-weight: 2640
-ref: dat-2640
+weight: 750
+ref: dat-750
 redirect_from:
 ---
 
@@ -16,7 +16,7 @@ To use the Microsoft Graph API Extension data source, the following minimum requ
 
 To get started, you must first register an app in Microsoft Azure.
 
-## Register an app to enable communication between Peakboard and Microsoft Graph.
+## Register an app to enable communication between Peakboard and Microsoft Graph
 
 1. Log in to your Azure account and select the Azure service Azure Active Directory. 2. Select [App registrations] (1) in the left menu and click the plus icon [New registration] (2) in the top menu.
 
@@ -30,12 +30,12 @@ To get started, you must first register an app in Microsoft Azure.
 
 ## Customize the app
 
-The overview of the app opens automatically after registration. In the menu on the left, select [Authentication] (1). 
+1. The overview of the app opens automatically after registration. In the menu on the left, select [Authentication] (1).
 2. Under [Advanced settings] set the slider [Allow public client flows] to [Yes] (2).
+3. Click on the [Save] button (3).
 
 ![Authentication](/assets/images/data-sources/extension/msgraph/en_app-03.png)
 
-3. Click on the [Save] button (3).
 4. Use the menu on the left to switch to [API permissions] (4) to check them. Which permissions are needed for each query can be found in the Microsoft Graph documentation.
 5. Make appropriate adjustments if necessary, or get the necessary administrator permissions from an administrator.
 
@@ -72,7 +72,7 @@ Since the selection of queries and functions is quite extensive, Microsoft offer
 
 In the accompanying [documentation]( https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) you will also find many example queries that you can use.
 
-## Add a query in the Peakboard Designer.
+## Add a query in the Peakboard Designer
 
 As an example, let's call a usage report from Office 365. The report lists the aggregated Outlook activity per day for the entire organization. Reports like this are useful for giving system administrators insights into what's happening in their Office 365 tenant, for example. [Find related documentation here]( https://learn.microsoft.com/en-us/graph/api/reportroot-getemailactivityusercounts?view=graph-rest-1.0&tabs=http)
 
@@ -81,9 +81,7 @@ As an example, let's call a usage report from Office 365. The report lists the a
 For the query, it is best to use the app-only access. Make sure that you have given the app the appropriate permission [Reports.Read.All].
 First, give the data source a name. Enter your IDs and the client secret in the corresponding fields (1) and connect using the [Connect] button. Then check the [Custom Call] checkbox (2) and insert the URL for the report from Graph Explorer (3):
 
-```
-https://graph.microsoft.com/beta/reports/microsoft.graph.getEmailActivityCounts(period='D30')
-```
+`https://graph.microsoft.com/beta/reports/microsoft.graph.getEmailActivityCounts(period='D30')`
 
 With the additional parameter [period='D30'] we retrieve the data of the last 30 days. Click on [Check] (4) to verify that the call is possible. After a positive confirmation, click on [Load data] in the right section to display a preview of the data.
 

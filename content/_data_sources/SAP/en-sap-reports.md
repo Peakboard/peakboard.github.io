@@ -4,8 +4,8 @@ title: Function Modules for SAP Reports
 menu_title: Function Modules for SAP Reports
 description: Function Modules for SAP Reports
 lang: en
-weight: 1110
-ref: dat-1110
+weight: 2410
+ref: dat-2410
 redirect_from:
   - /data_sources/SAP/11-en-sap-reports.html
 ---

@@ -4,8 +4,8 @@ title: Erstellen einer einfachen Datenquelle ohne UI
 menu_title: Erstellen einer einfachen Datenquelle ohne UI
 description: Informationen über das Erstellen einer einfachen Datenquelle ohne UI
 lang: de
-weight: 2620
-ref: dat-2620
+weight: 730
+ref: dat-730
 redirect_from:
 ---
 
@@ -14,7 +14,7 @@ Die folgenden Erklärungen beziehen sich auf ein Beispiel, dass [hier](https://g
 
 Klassen, die von CustomListBase erben, repräsentieren eine Datenquelle. Im Folgenden werden die einzelnen, zu überschreibenden Funktionen erklärt:
 
-```
+```C#
 GetDefinitionOverride liefert die Metadaten für die Datenquelle.
         protected override CustomListDefinition GetDefinitionOverride()
         {
@@ -35,13 +35,14 @@ Dabei sind insbesondere die Properties wichtig. Die Collection an Properties rep
 ![img01](/assets/images/data-sources/extension/PeakboardExtension_user_property.png)
 
 Folgende Attribute kann eine Property haben:
-- Name 
+
+- Name
 - Value - der Defaultwert
 - MultiLine - Gibt dem User ein großes Textfeld (z.B. für SQL-Statements)
 - Masked - verbirgt dem User den Wert (z.B. für Passwörter)
 CheckDataOverride wird aufgerufen, wenn der Enduser Daten eingeben hat, die auf Plausibilität geprüft werden sollen.
 
-```
+```C#
         protected override void CheckDataOverride(CustomListData data)
         {
             if (!data.Properties.TryGetValue("MaxLength", StringComparison.OrdinalIgnoreCase, out var MaxLength))
@@ -53,7 +54,7 @@ CheckDataOverride wird aufgerufen, wenn der Enduser Daten eingeben hat, die auf 
 
 GetColumnsOverride wird gerufen, wenn der Designer Metadaten benötigt, um in der Visualisierung oder der UI auf die Spalten zu reagieren.
 
-```
+```C#
         protected override CustomListColumnCollection GetColumnsOverride(CustomListData data)
         {
             return new CustomListColumnCollection
@@ -66,7 +67,7 @@ GetColumnsOverride wird gerufen, wenn der Designer Metadaten benötigt, um in de
 
 GetItemsOverride wird aufgerufen, wenn der tatsächliche Datenaustausch stattfinden soll. Wie im folgenden Beispiel wird eine Collection aus CustomListObjectElement zurückgegeben. Jedes CustomListObjectElement besteht aus den Spaltennamen und den tatsächlichen Werten.
 
-```
+```C#
         protected override CustomListObjectElementCollection GetItemsOverride(CustomListData data)
         {
             Int32 maxLength = CheckAndGetMaxLengthProperty(data);

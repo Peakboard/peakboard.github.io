@@ -4,8 +4,8 @@ title: Modbus
 menu_title: Modbus
 description: Anbindung einer Modbus Datenquelle im Peakboard Designer
 lang: de
-weight: 2450
-ref: dat-2450
+weight: 1300
+ref: dat-1300
 redirect_from:
 ---
 Bei Modbus handelt es sich um ein offenes Kommuniktationsprotokoll.
@@ -20,6 +20,7 @@ Um die Modbus Datenquelle anzubinden, wählst du unter [Datenquelle hinzufügen]
 Im folgenden Dialog füllst du die Felder im Bereich [Verbindung] mit den entsprechenden Serverdaten (Slave). (2)
 
 Im Bereich [Details angeben] (3) kannst du zwischen vier verschiedenen Lesearten auswählen:
+
 * Spulen lesen
 * Einzelne Eingaben lesen
 * Halteregister lesen

@@ -4,14 +4,13 @@ title: Erstellen einer einfachen Datenquelle mit UI
 menu_title: Erstellen einer einfachen Datenquelle mit UI
 description: Informationen über das Erstellen einer einfachen Datenquelle mit UI
 lang: de
-weight: 2630
-ref: dat-2630
+weight: 740
+ref: dat-740
 redirect_from:
 ---
 
 
 Die folgenden Erklärungen beziehen sich auf ein Beispiel, dass [hier](https://github.com/Peakboard/PeakboardExtensions/tree/master/Samples/AirportConditions) heruntergeladen werden kann.
-
 
 Die einfachste Methode, um einer CustomList zu bauen, ist sie mit generischen Properties auszustatten, wie im CatFacts-Beispiel gezeigt.
 Für den Fall, dass eine anspruchsvollere UI nötig ist, lassen sich die Properties durch eine eigene UI ersetzen, indem die Funktion GetControlOverride überschrieben wird. Sie liefert eine Instanz eines WPF-Controls zurück.

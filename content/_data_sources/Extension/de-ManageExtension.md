@@ -4,8 +4,8 @@ title: Extensions verwalten
 menu_title: Extensions verwalten
 description: Grundlagen für das Extension Kit
 lang: de
-weight: 2605
-ref: dat-2605
+weight: 710
+ref: dat-710
 redirect_from:
 ---
 

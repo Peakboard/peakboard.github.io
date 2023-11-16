@@ -4,8 +4,8 @@ title: Hauptklasse ExtensionBase
 menu_title: Hauptklasse ExtensionBase
 description: Informationen über die Hauptklasse ExtensionBase
 lang: de
-weight: 2610
-ref: dat-2610
+weight: 720
+ref: dat-720
 redirect_from:
 ---
 

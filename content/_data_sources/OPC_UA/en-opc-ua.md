@@ -4,8 +4,8 @@ title: OPC UA
 menu_title: OPC UA
 description: Information about OPC UA Data in Peakboard
 lang: en
-weight: 2400
-ref: dat-2400
+weight: 1900
+ref: dat-1900
 redirect_from: 
  - /data_sources/en-opc-ua.html
  - /data_sources/22-de-opc-ua.html
@@ -17,7 +17,7 @@ redirect_from:
 
 Like every other Peakboard datasource, the OPC UA datasource needs a name (1).
 
-A [client certificate] (2) is necessary. This certificate is stored as a whole (public + private key) on client side. 
+A [client certificate] (2) is necessary. This certificate is stored as a whole (public + private key) on client side.
 Afterwards the public key part has to be transferred to the server and stored as a trusted certificate ( *only exception: the “none:none:?” endpoint is used* )
 
 ![image_2](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
@@ -29,13 +29,12 @@ Afterwards the public key part has to be transferred to the server and stored as
 
 ![image_3](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
 
-
-*Create a new certificate*
+### Create a new certificate
 
 * Insert all necessary information in the upper input-block. Change necessary information in the lower input-block. Mostly no changes have to be made here.
 
 Insert the URL to the OPC UA Server (3). Should look like ( *opc.tcp://<host>.<domain>:<port>[/<path>]* )
-The server URL can be scripted using the [{ } button]. 
+The server URL can be scripted using the [{ } button].
 
 <div class="box-tip" markdown="1">
 Note:
@@ -43,16 +42,16 @@ Note:
 This script will only be executed once, when connecting to the server on startup!
 </div>
 
-Load the endpoints of the server using the [refresh button] on the right of the endpoint selection (4). 
-When a certificate popup is shown, accept the server certificate. 
-Afterwards select the endpoint of your choice. 
+Load the endpoints of the server using the [refresh button] on the right of the endpoint selection (4).
+When a certificate popup is shown, accept the server certificate.
+Afterwards select the endpoint of your choice.
 Endpoints differ by their encryption and signing levels and algorithms.
 
-If desired, use an authentication method (username, certificate) (5). 
-The OPC UA authentication is used to authenticate the OPC UA user against the server. 
+If desired, use an authentication method (username, certificate) (5).
+The OPC UA authentication is used to authenticate the OPC UA user against the server.
 
 <div class="box-tip" markdown="1">
-Note: 
+Note:
 
 Client and server certificate are used to authenticate the client and the server against each other and thus differ from the user authentication.
 </div>
@@ -71,7 +70,7 @@ Certificates will still have to be created and accepted (to accept the server ce
 
 ![image_4](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
 
-*Select the communication type of your datasource*
+### Select the communication type of your datasource
 
 * **Subscriptions**: The OPC UA defined subscriptions. Should be the way to go, if available on the server.
 * **Variables**: Pull node values after a predefined amount of time (Reload Interval). Only variable nodes can be used, objects and their events are not available.
@@ -79,10 +78,12 @@ Certificates will still have to be created and accepted (to accept the server ce
 [Edit Subscription specific settings] (2). Should only be done, if you know what you are doing.
 
 Choose a Message Type (3):
+
 * Simple: Store the latest message for each subscription.
 * Advanced: Store the last (amount = Queue Size) value updates.
 
 Manage your subscriptions (4).
+
 * Clicking directly or opening the menu and choosing [Browse] will open the nodes Browser, which searches for all nodes on the server (a connection is necessary) (see 4. a.).
 * Using [Add manually], nodes can be added by their node id and namespace, without using the browser (can be done offline) (see 4. b.).
 
@@ -101,9 +102,10 @@ The browse dialog will show the tree of nodes stored on the connected OPC UA ser
 The Title, Namespace and Identifier of a node can be edited.
 Namespace and Identifier can be scripted. This script will be executed only once, when subscribing to the OPC UA server on startup.
 
-If a connection to the server is possible, the [Fetch Node Info] button can be used, to read additional node information (node class, data type, …) from the server. 
+If a connection to the server is possible, the [Fetch Node Info] button can be used, to read additional node information (node class, data type, …) from the server.
 
 Node classes:
+
 * **Variable**: Has a value which will be read from the server.
 * **Object**: Has events, which can be subscribed to, from the [Edit OPC UA Subscription Item] dialog. Subscribing to events can be done using the [Add] button under the [Event Filter] table (a server connection is necessary).
 

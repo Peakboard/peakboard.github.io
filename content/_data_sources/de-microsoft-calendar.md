@@ -1,11 +1,11 @@
 ---
 layout: article
-title: Microsoft Kalendar
-menu_title: Microsoft Kalendar
+title: Microsoft Kalender
+menu_title: Microsoft Kalender
 description: Information über die Integration von Microsoft Kalender in Peakboard
 lang: de
-weight: 1000
-ref: cal-1000
+weight: 1400
+ref: cal-1400
 redirect_from:
   - /data_sources/24-de-microsoft-calendar.html
 ---

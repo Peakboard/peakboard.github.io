@@ -1,11 +1,11 @@
 ---
 layout: article
-title: Sharepoint-Liste
-menu_title: Sharepoint-Liste
-description: Information über die Sharepoint-Listen Datenquelle in Peakboard
+title: SharePoint-Liste
+menu_title: SharePoint-Liste
+description: Information über die SharePoint-Listen Datenquelle in Peakboard
 lang: de
-weight: 1650
-ref: dat-1650
+weight: 2500
+ref: dat-2500
 redirect_from:
 ---
 

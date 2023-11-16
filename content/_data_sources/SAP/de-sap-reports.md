@@ -4,8 +4,8 @@ title: Funktionsbaustein für SAP Reports
 menu_title: Funktionsbaustein für SAP Reports
 description: Funktionsbaustein für SAP Reports
 lang: de
-weight: 1110
-ref: dat-1110
+weight: 2410
+ref: dat-2410
 redirect_from:
   - /data_sources/SAP/11-de-sap-reports.html
 ---
