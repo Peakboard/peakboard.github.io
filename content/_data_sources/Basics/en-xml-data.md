@@ -8,8 +8,9 @@ weight: 0
 ref: dat-0
 image: /assets/images/Tutorial/Overview/Tutorial_External_Data_Source_Small.png
 redirect_from:
-  - /tutorials/03-en-xml-data.html
-  - /tutorials/en-xml-data.html
+ - /tutorials/03-en-xml-data.html
+ - /tutorials/en-xml-data.html
+ - /data_sources/en-xml-data.html
 ---
 Basically, Peakboard distinguishes between two main concepts of how dynamic content is embedded:
 

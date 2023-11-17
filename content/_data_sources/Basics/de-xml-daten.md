@@ -8,8 +8,9 @@ weight: 0
 ref: dat-0
 image: /assets/images/Tutorial/Overview/Tutorial_External_Data_Source_Small.png
 redirect_from:
-  - /tutorials/03-de-xml-daten.html
-  - /tutorials/de-xml-daten.html
+ - /tutorials/03-de-xml-daten.html
+ - /tutorials/de-xml-daten.html
+ - /data_sources/de-xml-daten.html
 ---
 Grundsätzlich unterscheidet man bei Peakboard zwischen zwei wesentlichen Konzepten, wie dynamische Inhalte eingebettet werden:
 

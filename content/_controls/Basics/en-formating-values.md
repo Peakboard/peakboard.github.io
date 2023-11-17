@@ -4,10 +4,11 @@ title: Formating Values
 menu_title: Formating Values
 description: Formating Values
 lang: en
-weight: 300
-ref: misc-300
+weight: 20
+ref: con-20
 redirect_from:
-  - /misc/03-en-formating-values.html
+ - /misc/03-en-formating-values.html
+ - /misc/en-formating-values.html
 ---
 
 Usually these are either numbers or dates. Both types of values are characterised by the fact that they are usually to be displayed differently from the purely technical ones. For example, the value “2.96583” should be presented to the user as an amount “2,97 €” or “20170620” as a nicely formatted date “20.06.2017”. There are format properties at various points in the controls that all work according to the same principle. The following screenshot shows the formatting property of a text block:
@@ -27,6 +28,5 @@ Under the following link you will find a complete list of all format values that
 [https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings)
 
 ![image_1](/assets/images/misc/Values/Format02.png)
-
 
 In [this article](https://help.peakboard.com/data_sources/en-date-and-time.html) is explained how to format date and time.

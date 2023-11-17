@@ -4,10 +4,12 @@ title: Conditional formatting
 menu_title: Conditional Formatting
 description: Conditional formatting
 lang: en
-weight: 101
-ref: con-101
+weight: 10
+ref: con-10
 redirect_from:
+ - /controls/en-cf.html
 ---
+
 ![img00](/assets/images/Controls/ConditionalFormatting/img00.png)
 
 Conditional formatting allows you to change different properties of a control based on a defined event without having to resort to complex scripts.
@@ -30,8 +32,8 @@ Here you can first enter a name for the rule for easier identification (1).
 The rule editor itself is based on a simple if-then concept.
 The IF statement defines when the rule should be executed (2), while the THEN statement defines the corresponding action (3).
 Depending on the control type, control-specific properties can be changed.
- 
- {% include styled_table.html %}
+
+{% include styled_table.html %}
 | Text Control | Shapes |
 |---------------|---------------|
 | text | background |
@@ -44,7 +46,6 @@ Depending on the control type, control-specific properties can be changed.
 | Top | Left |
 | Left | Visible |
 | Visible ||
-
 
 With the button "Add new rule" further rules can be defined for the control (4).
 

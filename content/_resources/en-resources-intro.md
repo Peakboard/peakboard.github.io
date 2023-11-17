@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Resources - Introduction
-menu_title: Resources - Introduction
-description: Resources - Introduction
+title: Resources - Basics
+menu_title: Basics
+description: Resources - Basics
 lang: en
 weight: 100
 ref: resources-100

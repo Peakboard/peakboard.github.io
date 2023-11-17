@@ -7,6 +7,7 @@ lang: de
 weight: 300
 ref: resources-300
 redirect_from:
+ - /misc/de-multipleconnectionerror.html
 ---
 
 Bei Netzwerk-Ressourcen handelt es sich ähnlich wie bei den [lokalen Ressourcen](/resources/de-resources-local.html) um Dateien in einem Dateisystem.
@@ -33,3 +34,13 @@ Die Ressource wird jetzt im Explorer angezeigt.
 Du kannst die Netzwerk-Ressource mit einem Rechtsklick bearbeiten (1), kopieren (2), löschen (3) oder anzeigen lassen, an welchen Stellen du die Ressource in deinem Projekt aktuell verwendest (4).
 
 ![Netzwerk-Ressource verwalten](/assets/images/resources/de_resources-network-03.png)
+
+### Fehler bei Netzwerkressourcen
+
+Es kann vorkommen, dass der Peakboard Designer beim Zugriff auf eine Netzwerkressource wie z.B. eine Excel oder ein Bild folgenden Fehler anzeigt:
+
+```
+System.ComponentModel.Win32Exception (0x80004005): Mehrfache Verbindungen zu einem Server oder einer freigegebenen Ressource von demselben Benutzer unter Verwendung mehrerer Benutzernamen sind nicht zulässig. Trenne alle früheren Verbindungen zu dem Server bzw. der freigegebenen Ressource, und versuche es erneut.
+```
+
+Die Ursache für den Fehler sind die Eingehenden Regeln der Windows Defender Firewall deines Computers bzw. deiner Domäne. Hier musst du oder ein Administrator für die Peakboard Runtime die Verbindungen für alle Profile zulassen.

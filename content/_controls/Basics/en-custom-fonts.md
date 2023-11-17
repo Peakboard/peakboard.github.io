@@ -4,11 +4,13 @@ title: Using Custom Fonts
 menu_title: Using Custom Fonts
 description: Using Custom Fonts
 lang: en
-weight: 500
-ref: misc-500
+weight: 40
+ref: con-40
 redirect_from:
-  - /misc/05-en-custom-fonts.html
+ - /misc/05-en-custom-fonts.html
+ - /misc/en-custom-fonts.html
 ---
+
 By default, Peakboard supports a whole range of pre-defined Windows fonts; for text boxes, tables and everywhere where text is used for visualization.
 
 If the default fonts are not enough, you can add new fonts to a package. To do this, you need the font as a true-type font file with the extension .ttf. The file must correspond exactly to the logical name of the font so that it can be processed correctly by Peakboard. You can find out the correct name by double-clicking the file in Explorer. The name is then displayed at the top.

@@ -4,19 +4,19 @@ title: Reload flows
 menu_title: Reload flows
 description: How reload flows work.
 lang: en
-weight: 11100
-ref: misc-11100
+weight: 10
+ref: dat-10
 redirect_from:
-
+ - /misc/en-reloadflows.html
 ---
+
 ### Function
 
-Reload flows are used to create an order in which data sources and dataflows are loaded. 
+Reload flows are used to create an order in which data sources and dataflows are loaded.
 
-This is useful when data sources or dataflows need information from another data source or dataflow to be loaded. 
-You can create reload flows for all pull data sources for which a reload interval can be defined. 
+This is useful when data sources or dataflows need information from another data source or dataflow to be loaded.
+You can create reload flows for all pull data sources for which a reload interval can be defined.
 For example, you cannot load MQTT or OPC UA data sources in a reload flow.
-
 
 ### A reload flow consists of the following elements
 
@@ -33,7 +33,6 @@ You can use a data source or dataflow in multiple reload flows.
 Please be careful not to create accidental continuous loops when using data sources or dataflows multiple times.
 </div>
 
-
 ### Creating and editing a reload flow
 
 To create a reload flow, click on the [Project] drop-down menu in the [Home] tab of the Peakboard Designer and then on [Reload Flows] (1).
@@ -46,19 +45,19 @@ Alternatively, set the reload state to [On Reload Flow] (2) during the configura
 
 In this dialog, you can now edit existing reload flows or create new reload flows.
 
-
 #### Creating a reload flow
+
 To create a new reload flow, click on the plus in the upper left corner of the dialog (3).
-You can then give the reload flow a name (4) and add the reload flow elements (5) via the data sources on the right side by dragging and dropping them in the center area. 
+You can then give the reload flow a name (4) and add the reload flow elements (5) via the data sources on the right side by dragging and dropping them in the center area.
 In the center area you can specify the order in which the reload flow elements are loaded in this reload flow (6).
 
 ![Configure reload flows](/assets/images/misc/Reload_Flows/en_reloadflow-config.png)
 
-
 #### Editing a reload flow
-To edit an existing reload flow, select it in the left area of the reload flows dialog (7). 
+
+To edit an existing reload flow, select it in the left area of the reload flows dialog (7).
 You can then edit the name and the individual reload flow elements.
-To change the order of the reload flow elements in a reload flow, you can drag and drop the individual reload flow elements. 
+To change the order of the reload flow elements in a reload flow, you can drag and drop the individual reload flow elements.
 To delete a reload flow element from a reload flow, move the mouse over the reload flow element and click on the trash can next to the reload flow element (8).
 
 ![Edit reload flows](/assets/images/misc/Reload_Flows/en_reloadflow-config02.png)
@@ -69,9 +68,9 @@ You can save all changes within the dialog by clicking [OK] or discard them by c
 
 ![Edit reload flows](/assets/images/misc/Reload_Flows/en_reloadflow-config03.png)
 
-
 #### Functions within the reload flow
-Within the reload flow there are two functions. 
+
+Within the reload flow there are two functions.
 The first reload flow element serves as a reload flow source, so it cannot be loaded after the reload flow.
 In the settings of this data source, you can define if the reload flow should only be triggered if data has changed or if it should be triggered in any case when the reload flow source is reloaded. (10)
 If the reload flow is then triggered, all further reload flow targets will be reloaded.

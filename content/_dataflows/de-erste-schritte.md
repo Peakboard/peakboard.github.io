@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Deine ersten Schritte mit Dataflows
-menu_title: Erste Schritte
+menu_title: Basics
 description: Dataflows - Erste Schritte
 lang: de
 weight: 100
