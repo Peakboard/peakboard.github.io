@@ -1,0 +1,131 @@
+[{
+  "version": "3.6.0.0",
+  "date": "21.11.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.0.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.0.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - Fix für einen Fehler, der bei Ladebalken auftrat",
+          "[Peakboard Designer] - Fix für einen Fehler, der auftrat, wenn ein ungültiger Name in ein geprüftes Eingabefeld eingetragen wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, der auftrat, wenn eines oder mehrere Elemente aus dem Explorer gelöscht wurden",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Projekt nicht mehr geöffnet werden konnte, nachdem einer Gruppe ein leerer Name zugewiesen wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Hauptfenster nicht korrekt skaliert werden konnte",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Kopieren mehrerer Controls gleichzeitig zwischen Projekten die Z-Position umgekehrt hat",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Kopieren zwischen verschiedenen Bildschirmen oder Projekten das Element verschoben hat",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Layout einer Gruppe durcheinander kam, wenn die Gruppe in der Größe verändert wurde und der Schritt rückgängig gemacht wurde",
+          "[Peakboard Designer] - Prüfung auf reflektierte Elemente implementiert",
+          "[Peakboard Designer] - Peakboard Hub Link verweist auf die jeweilige Seite der Peakboard Box im Peakboard Hub",
+          "[Peakboard Designer] - Logs des Management Servers und des Web Servers verbessert",
+          "[Peakboard Designer] - Ladebalken beim Öffnen von Projekten implementiert",
+          "[Peakboard Designer] - Automatisches Maximieren am Bildschirmrand implementiert",
+          "[Peakboard Box] - Fix für einen Fehler, bei dem die Anmeldung eines Domänennutzers sehr lange gedauert hat",
+          "[Peakboard Box] - Fehleranzeige verbessert",
+          "[Peakboard Box] - Verbesserte Fehlermeldung, wenn der Zeitserver nicht erreichbar ist",
+          "[Peakboard Box] - Verbesserter Logeinträge",
+          "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem das Datum Drop Down im Bereich Logs ohne Funktion war",
+          "[Explorer] - Fix für einen Fehler, bei dem das Erstellen von Unterordnern nicht richtig möglich war",
+          "[Explorer] - Fix für einen Fehler, bei dem Datenquellen und Ressourcen unsichtbar wurden, wenn der Ordner, der die Datenquelle/Ressource enthält, gelöscht wurde",
+          "[Explorer] - Fix für einen Fehler, bei dem die Tooltips von Texten nicht aktualisiert wurden, wenn die Texte sich geändert haben",
+          "[Attribute] - Fix für mehrere abgeschnittene Beschriftungen",
+          "[Web Server] - Fix für ein Speicherleck"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Excel](/data_sources/Excel/de-excel.html) - Fehlermeldungen bei fehlerhaftem Laden überarbeitet",
+          "[Reload Flows](/data_sources/Basics/de-reloadflows.html) - Fix für einen Fehler, bei dem nicht mehrere Reload Flows vom gleichen Element ausgelöst werden konnten",
+          "[Odata](/data_sources/de-odata.html) - Dynamisches Filtern implementiert",
+          "[JSON](/data_sources/de-json.html) - Fix für einen Fehler, bei dem JSON bei Datenquellen mit Arrays nicht richtig funktionierte",
+          "[Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html) - Fix für einen Fehler, bei dem beim Hinzufügen eines booleschen Wertes im Filter der anfängliche Wert null anstatt false war",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - Fix für einen Fehler, bei dem manche Extensions eine falsche ID hatten, was zu weiteren Fehlern führte"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem bestehende Dataflows aus Projekten, die mit einer älteren Version erstellt wurden, nicht mehr funktionierten",
+          "Umfassende Überarbeitung des Dataflow-Schritt Filter",
+          "UX- und Designverbesserungen"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Format](/controls/Basics/de-formatieren-von-Werten.html) - Möglichkeit ein Plus-Zeichen als Präfix für positive Werte zu nutzen hinzugefügt",
+          "[Excel Chart](/controls/Chart/de-excel-viewer.html) - Fix für einen Fehler, der auftrat, wenn für das Excel Chart eine leere Datei genutzt wurde",
+          "[Bedingte Formatierung](/controls/Basics/de-cf.html) - Fix für einen Fehler, bei dem alle Elemente eines OR-Statements gelöscht wurden, wenn das erste Element entfernt wurde",
+          "[Bedingte Formatierung](/controls/Basics/de-cf.html) - UX-Verbesserungen",
+          "[Dropdown-Liste](/controls/Input/de-dropdown.html) - Fix für einen Fehler, bei dem der linke Abstand durch die Größe des Controls bestimmt wurde",
+          "[Icon](/controls/Common/de-icon.html) - Fix für einen Fehler, bei dem das Ändern der Projektfarbe keinen Einfluss auf die Farben der bedingten Formatierung eines Icons hatte",
+          "[Live Tile / Styled Tile Kollektion / Styled List] - Fix für einen Fehler, bei dem der Titel in der Vorschau/Visualisierung nicht mehr angezeigt wurde",
+          "[Live Tile / Styled Tile Kollektion / Styled List] - Fix für einen Fehler, bei dem keine neuen Controls hinzugefügt werden konnten, wenn der Dialog geöffnet und wieder geschlossen wurde",
+          "[Live Tile / Styled Tile Kollektion / Styled List] - Fix für einen Fehler, bei dem das Kopieren und Einfügen von Controls nicht mehr funktionierte",
+          "[Live Tile / Styled Tile Kollektion / Styled List] - Fix für einen Fehler, bei dem das Schließen des Dialogs der bedingten Formatierung auch den Template Dialog geschlossen hat",
+          "[Live Tile / Styled Tile Kollektion / Styled List] - Verhalten der bedingten Templates überarbeitet",
+          "[Styled Tile Kollektion / Styled List] - Horizontale Scrolloption hinzugefügt",
+          "[Diagramme] - Verlaufsoption für Anzeige einiger Serien hinzugefügt",
+          "[Diagramme] - Fix für einen Fehler in der Symboldarstellung des Bearbeitungsdialogs",
+          "[Gauges] - Fix für einen Fehler, bei dem die Positionierung der Gauges nicht stimmte, wenn der Wert nicht angezeigt wurde",
+          "[Gauges] - Fix für einen Fehler, der auftrat, wenn der Wert und das Maximum mit einer Datenquelle verknüpft waren und das Maximum entfernt wurde",
+          "[Gauges] - UX-Überarbeitung der Attribute",
+          "[Gauges] - Möglichkeit zum Festlegen des Zahlenformats für Wertelabel implementiert",
+          "[Gauges] - Optionen für Konturen und Eckenradien hinzugefügt",
+          "[Gauges] - Mindestgrößen definiert",
+          "[Circular Gauge](/controls/Chart/de-circular-gauge.html) - Fix für einen Fehler, bei dem der Wert angezeigt wurde, obwohl dieser in den Attributen nicht aktiviert wurde",
+          "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - Fix für einen Fehler, bei dem die Beschriftung/Anordnung von Linear Gauges im vertikalen Zustand nicht funktionierte",
+          "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - Fix für einen Fehler, bei dem die Abrundung nur an einem Ende angewendet wurde",
+          "[Textfeld](/controls/Input/de-textbox.html) - Fix für einen Fehler, bei dem die Validierung nicht funktionierte, wenn das Textfeld an eine Variable gebunden war",
+          "[Textfeld](/controls/Input/de-textbox.html) - Fix für fehlerhafte/unnötige Warnmeldungen",
+          "[Textfeld](/controls/Input/de-textbox.html) - UX-Verbesserungen bei Regex",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, der auftrat, wenn eine Projektdatei eine Zeitachse vom Datentyp Dauer enthielt",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, bei dem der letzte angezeigte Abschnitt immer in der Standardfarbe war, wenn der Eingabetyp Duration gewählt wurde",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, bei dem es nicht möglich war, eine Variable vom Datentyp Number für die Beschränkung der Zeitachse zu verknüpfen",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, bei dem der erste angezeigte Abschnitt eine fehlerhafte Farbe hatte, wenn Zeitstempel hinzugefügt wurden, die außerhalb der Beschränkung lagen",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, bei dem der letzte angezeigte Abschnitt in Leerfarbe angezeigt wurde, wenn die Beschränkungen der Zeitachse aufgehoben wurden",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, der durch dynamisches Hinzufügen neuer Werte zu einer Liste, die mit einer Zeitachse verbunden war, ausgelöst wurde",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, bei dem das Ändern der Projektfarben nicht dazu führte, dass die Zeitachsenfarben angepasst wurden",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Label werden nur angezeigt, wenn genügend Platz vorhanden ist"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, der durch das Ausführen einer Funktion in einem Projekt, das mit einer älteren Version erstellt wurde, ausgelöst wurde",
+          "Fix für einen Fehler, bei dem der Zugriff auf Gruppen via Skript in bestehenden Projekten nicht möglich war",
+          "Fix für einen Fehler, bei dem Skripte in globalen Funktionen nicht validiert werden konnten",
+          "[Building Blocks](/scripting/de-building-blocks.html) - ODBC und Oracle Skript-Zugriff aktualisiert",
+          "[Globale Funktionen] - UI des Einstellungsdialogs umfassend überarbeitet",
+          "[Globale Funktionen] - Beschreibung und API-Verfügbarkeit hinzugefügt"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Ressourcen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Netzwerk-Ressourcen](/resources/de-resources-network.html) - Fix für kleinere Fehler der Netzwerk-Ressourcen",
+          "Generelle kleine Verbesserungen"
+        ]
+        }
+        ]
+      }]
+    }
+  ]
