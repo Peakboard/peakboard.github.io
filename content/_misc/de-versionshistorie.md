@@ -18,4 +18,4 @@ redirect_from:
 
 {% include tabs-script.html %}
 
-{% include collapsible-new.html archive=true %}
+{% include collapsible-new.html archive=true hub=false %}

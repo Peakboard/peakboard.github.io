@@ -1,4 +1,4 @@
-<h2 id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-download">{{ include.data.version }} ({{ include.data.date }}) {% if include.data.download_url and include.data.download_url != '' %}<a data-version="{{ include.data.version }}" data-download-link-box="{{ include.data.box_download_url }}" data-download-link-designer="{{ include.data.designer_download_url }}" href="#">Download</a>{% endif %}</h2>
+<h2 id="{{ include.data.version | remove: '.' }}-{{ include.data.date | remove: '.' }}-download">{{ include.data.version }} ({{ include.data.date }}) {% if include.data.download_url and include.data.download_url != '' %}<a data-version="{{ include.data.version }}" data-download-link-box="{{ include.data.box_download_url }}" data-download-link-designer="{{ include.data.designer_download_url }}" data-download-link-hub="{{ include.data.download_url }}" data-download-link-byod="{{ include.data.byod_download_url }}" href="#">Download</a>{% endif %}</h2>
 <div id="{{ include.data.version | remove: '.' }}-container">
   <div class="block">
     <div class="border-b border-gray-200">
