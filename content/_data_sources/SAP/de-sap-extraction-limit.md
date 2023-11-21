@@ -4,8 +4,8 @@ title: SAP Tabellen mit vielen Spalten auslesen
 menu_title: SAP Tabellen mit vielen Spalten auslesen
 description: SAP Tabellen mit vielen Spalten auslesen
 lang: de
-weight: 1140
-ref: dat-1140
+weight: 2440
+ref: dat-2440
 ---
 
 Hier finden Sie die Anleitung zur manuellen Installation des Funktionsbausteins Z_XTRACT_IS_TABLE.
@@ -13,7 +13,6 @@ Hier finden Sie die Anleitung zur manuellen Installation des Funktionsbausteins 
 ### Schritt 1 – Baustein anlegen
 
 Starten Sie die Transaktion SE37 und legen Sie einen neuen Baustein namens Z_XTRACT_IS_TABLE an. Sie können ihn in eine bestehende Funktionsgruppe ablegen oder eine neue Funktionsgruppe dafür anlegen. Dasselbe gilt für die Entwicklungsklasse.
-
 
 Im Reiter Attribute stellen sie die Ausführungsart auf remote aufrufbar.
 
@@ -43,4 +42,4 @@ Den ABAP-Code finden Sie in der Datei Z_XTRACT_IS_TABLE.txt welche [hier](https:
 
 Speichern und Aktivieren Sie den Baustein.
 
-Alternativ können Sie den Funktionsbaustein mit Hilfe des mitgelieferten Transportauftrags thtrans.zip installieren, den Sie im Unterordner ABAP des Installationsordners finden. 
+Alternativ können Sie den Funktionsbaustein mit Hilfe des mitgelieferten Transportauftrags thtrans.zip installieren, den Sie im Unterordner ABAP des Installationsordners finden.

@@ -4,8 +4,8 @@ title: Reading an array (OPC UA)
 menu_title: Read an array (OPC UA)
 description: Reading an array (OPC UA)
 lang: en
-weight: 2420
-ref: dat-2420
+weight: 1920
+ref: dat-1920
 redirect_from: 
  - /misc/en-Array-OPCUA.html
  - /data_sources/OPCUA/en-Array-OPCUA.html

@@ -4,8 +4,8 @@ title: E-Mail
 menu_title: E-Mail
 description: Information about E-Mail data sources in Peakboard
 lang: en
-weight: 850
-ref: dat-850
+weight: 500
+ref: dat-500
 redirect_from:
 ---
 

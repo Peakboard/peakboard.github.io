@@ -4,8 +4,8 @@ title: Rockwell
 menu_title: Rockwell
 description: Anbindung einer Rockwell Datenquelle im Peakboard Designer
 lang: de
-weight: 2575
-ref: dat-2575
+weight: 2300
+ref: dat-2300
 redirect_from:
 ---
 Rockwell Automation (Allen-Bradley) ist ein amerikanischer Hersteller von speicherprogrammierbaren Steuerungen (SPSen).

@@ -4,8 +4,8 @@ title: Google Tabellen
 menu_title: Google Tabellen
 description: Google Tabellen
 lang: de
-weight: 1600
-ref: dat-1600
+weight: 1000
+ref: dat-1000
 redirect_from:
   - /data_sources/30-de-google-spreadsheets.html
 ---

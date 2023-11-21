@@ -4,8 +4,8 @@ title: Modbus
 menu_title: Modbus
 description: Connecting a Modbus data source in the Peakboard Designer
 lang: en
-weight: 2450
-ref: dat-2450
+weight: 1300
+ref: dat-1300
 redirect_from:
 ---
 Modbus is an open communications protocol.
@@ -20,6 +20,7 @@ To connect the Modbus data source, select the data source [Modbus] under [Add Da
 In the following dialog you fill the fields in the [Connection] section with the corresponding server data (slave). (2)
 
 In the area [Specify] (3) you can choose between four different read modes:
+
 * Read Coils
 * Read Discrete Inputs
 * Read Holding Registers

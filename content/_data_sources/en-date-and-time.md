@@ -4,8 +4,8 @@ title: Date and Time
 menu_title: Date and Time
 description: Information about time and date data in Peakboard
 lang: en
-weight: 300
-ref: dat-300
+weight: 400
+ref: dat-400
 redirect_from:
   - /data_sources/02-en-date-and-time.html
 ---

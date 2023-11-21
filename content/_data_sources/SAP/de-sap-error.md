@@ -4,40 +4,31 @@ title: SAP Fehlermeldungen
 menu_title: SAP Fehlermeldungen
 description: SAP Fehlermeldungen
 lang: de
-weight: 1130
-ref: dat-1130
+weight: 2430
+ref: dat-2430
 ---
 
 > ## WICHTIG!
 >
 > Die Einstellungen müssen einmal am eigenen Rechner (zur Nutzung der Preview-Funktion) *und* einmal auf der Peakboard Box vorgenommen werden!
 
-
 Es kann sein, dass Sie bei der Verbindung zu SAP einen der folgenden Fehler erhalten:
 
-## ERROR Dienst '?' unbekannt oder Dienst sapms unbekannt: 
+## ERROR Dienst '?' unbekannt oder Dienst sapms unbekannt:
 
 Das Problem ist, dass sapdp* (z.B. sapdp00 3200/tcp) Einträge in den Dateidiensten im Ordner C:\Windows\System32\drivers\etc\services fehlen.
 
 Um das Problem zu lösen müssen Sie die folgende Zeile an die Datei services anhängen. nn ist die Instanznummer des SAP-Systems (z.B. 00 oder 99).
 
-```
-sapms<SID> 36<nn>/tcp
-```
+`sapms<SID> 36<nn>/tcp`
 
-  
 Wenn Ihre SID beispielsweise ECC ist, sieht die Zeile beispielsweise wie die folgende aus:
 
-```
-sapmsECC 3600/tcpp  
-```
-
+`sapmsECC 3600/tcpp`
 
 Für System ID (SID) ECC und Instanznummer 12 bitte einstellen:
 
-```
-sapmsECC 3612/tcpp
-```
+`sapmsECC 3612/tcpp`
 
 > ## WICHTIG!
 >
@@ -51,24 +42,33 @@ Nach der Bearbeitung der Datei müssen Sie möglicherweise den Peakboard Designe
 
 [SAP-Hinweis 52959](https://launchpad.support.sap.com/#/notes/52959)
 
-## Anpassung der service-Datei auf der Peakboard Box:
+## Anpassung der Service-Datei auf der Peakboard Box
+
 Nachfolgende Anleitung erklärt, wie die Einträge in der Servicedatei auf der Peakboard Box vorgenommen werden können
+
 * Lokal eine PowerShell als Administrator ausführen und folgende Commands eingeben:
+
 ```
 net start WinRM
 Set-Item WSMan:\localhost\Client\TrustedHosts -Value <ip-adresse>
 Enter-PSSession -ComputerName <ip-adresse> -Credential pbadmin
 ```
+
 * Service Datei auf das Peakboard Box Share Laufwerk verschieben:
+
 ```
 Move-Item -Path C:\Windows\System32\drivers\etc\services -Destination C:\Share
 ```
+
 * Im Datei-Browser das Share-Laufwerk der Peakboard Box öffnen:
+
 ```
 \\[Name der Peakboard Box, z.B. PB1234]\share
 ```
+
 * Einträge in der Datei Service wie vorangengangen beschrieben einfügen und Datei speichern
 * Service Datei zurück an den Urspurng schieben
+
 ```
 Move-Item -Path C:\Share\services -Destination C:\Windows\System32\drivers\etc
 ```

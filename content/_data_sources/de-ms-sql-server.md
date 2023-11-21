@@ -4,8 +4,8 @@ title: MS SQL Server
 menu_title: MS SQL Server
 description: Information über MS SQL Server Daten in Peakboard
 lang: de
-weight: 1200
-ref: dat-1200
+weight: 1500
+ref: dat-1500
 redirect_from:
   - /data_sources/12-5-de-ms-sql-server.html
 ---

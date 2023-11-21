@@ -4,14 +4,15 @@ title: SAP mit XQL
 menu_title: XQL
 description: Information über die Nutzung von XQL
 lang: de
-weight: 1120
-ref: dat-sap-1120
+weight: 2420
+ref: dat-sap-2420
 redirect_from:
   - /data_sources/SAP/20-de-xql.html
 ---
+
 Die Definition des SAP-Zugriffs erfolgt über XQL.
 XQL ist eine einfache Beschreibungssprache.
-Im folgenden wird erklärt, wie du über XQL in SAP auf RFC-Funktionbsbausteine, Reports, Tabellen, Cubes und Queries zugreifen kannst. 
+Im folgenden wird erklärt, wie du über XQL in SAP auf RFC-Funktionbsbausteine, Reports, Tabellen, Cubes und Queries zugreifen kannst.
 Um die Sache nicht zu kompliziert zu machen, enthält diese Seite möglichst viele Beispiele und weniger eine formale Beschreibung von XQL.
 
 ## Tabellen-Zugriff

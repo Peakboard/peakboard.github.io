@@ -4,8 +4,8 @@ title: MQTT
 menu_title: MQTT
 description: Information about MQTT data in Peakboard
 lang: en
-weight: 2300
-ref: dat-2300
+weight: 1600
+ref: dat-1600
 redirect_from:
  - /data_sources/18-en-mqtt-broker.html
  - /data_sources/en-mqtt-broker.html

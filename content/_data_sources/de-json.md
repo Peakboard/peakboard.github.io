@@ -4,8 +4,8 @@ title: JSON
 menu_title: JSON
 description: Information über JSON Daten in Peakboard
 lang: de
-weight: 600
-ref: dat-600
+weight: 1100
+ref: dat-1100
 redirect_from:
   - /data_sources/06-de-json.html
 ---

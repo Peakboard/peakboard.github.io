@@ -4,8 +4,8 @@ title: OPC UA
 menu_title: OPC UA
 description: Information über OPC UA Daten in Peakboard
 lang: de
-weight: 2400
-ref: dat-2400
+weight: 1900
+ref: dat-1900
 redirect_from: 
  - /data_sources/de-opc-ua.html
  - /data_sources/22-de-opc-ua.html
@@ -27,13 +27,12 @@ Ein [Client-Zertifikat] (2) ist erforderlich. Dieses Zertifikat wird als Ganzes 
 
 ![image_3](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
 
-
-*Neues Zertifikat erstellen*
+### Neues Zertifikat erstellen
 
 * Fügen Sie alle erforderlichen Informationen in den oberen Eingabeblock ein. Ändern Sie notwendige Informationen im unteren Eingabeblock. Meistens müssen hier keine Änderungen vorgenommen werden.
 
 Fügen Sie die URL zum OPC UA Server ein (3). Sollte wie folgt aussehen ( *opc.tcp://<host>.<domain>:<port>[/<path>]* )
-Die Server-URL kann über die Schaltfläche [{ }] in einem Skript eingegeben werden. 
+Die Server-URL kann über die Schaltfläche [{ }] in einem Skript eingegeben werden.
 
 <div class="box-tip" markdown="1">
 Note:
@@ -41,16 +40,16 @@ Note:
 Dieses Skript wird nur einmal ausgeführt, nämlich beim Verbindungsaufbau zum Server beim Start!
 </div>
 
-Laden Sie die Endpunkte des Servers über die Schaltfläche [Aktualisieren] rechts neben der Endpunktauswahl (4). 
-Wenn ein Zertifikats-Popup angezeigt wird, akzeptieren Sie das Server-Zertifikat. 
-Wählen Sie anschließend den Endpunkt Ihrer Wahl. 
+Laden Sie die Endpunkte des Servers über die Schaltfläche [Aktualisieren] rechts neben der Endpunktauswahl (4).
+Wenn ein Zertifikats-Popup angezeigt wird, akzeptieren Sie das Server-Zertifikat.
+Wählen Sie anschließend den Endpunkt Ihrer Wahl.
 Die Endpunkte unterscheiden sich durch ihre Verschlüsselungs- und Signierstufen und Algorithmen.
 
-Falls gewünscht, verwenden Sie eine Authentifizierungsmethode (Benutzername, Zertifikat) (5). 
-Die OPC-UA-Authentifizierung wird verwendet, um den OPC-UA-Benutzer gegenüber dem Server zu authentifizieren. 
+Falls gewünscht, verwenden Sie eine Authentifizierungsmethode (Benutzername, Zertifikat) (5).
+Die OPC-UA-Authentifizierung wird verwendet, um den OPC-UA-Benutzer gegenüber dem Server zu authentifizieren.
 
 <div class="box-tip" markdown="1">
-Note: 
+Hinweis:
 
 Client- und Server-Zertifikat werden verwendet, um den Client und den Server gegeneinander zu authentifizieren und unterscheiden sich somit von der Benutzerauthentifizierung.
 </div>
@@ -69,7 +68,7 @@ Zertifikate müssen noch erstellt und akzeptiert werden (um das Serverzertifikat
 
 ![image_4](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
 
-*Wählen die Kommunikationsart der Datenquelle*
+### Wähle die Kommunikationsart der Datenquelle
 
 * **Subscriptions**: Die von OPC UA definierten Abonnements. Dies sollte der richtige Weg sein, sofern auf dem Server verfügbar.
 * **Variables**: Ziehen Sie Knotenwerte nach einer vordefinierten Zeitspanne (Reload Interval). Es können nur variable Knoten verwendet werden, Objekte und ihre Ereignisse sind nicht verfügbar.
@@ -77,10 +76,12 @@ Zertifikate müssen noch erstellt und akzeptiert werden (um das Serverzertifikat
 [Abonnementspezifische Einstellungen bearbeiten] (2). Sollte nur durchgeführt werden, wenn Sie wissen, was Sie tun. 
 
 Wähle einen Nachrichtentyp (3):
+
 * Simple: Speichern Sie die letzte Nachricht für jedes Abonnement.
 * Advanced: Speichern Sie die letzten Wertaktualisierungen (Betrag = Warteschlangengröße).
 
 Verwalten Sie Ihre Abonnements (4).
+
 * Durch direktes Anklicken oder Öffnen des Menüs und Auswahl von [Durchsuchen] wird der Knoten-Browser geöffnet, der alle Knoten auf dem Server sucht (eine Verbindung ist erforderlich) (siehe 4. a.).
 * Mit [Manuell hinzufügen] können Knoten anhand ihrer Knoten-ID und ihres Namensraums hinzugefügt werden, ohne den Browser zu verwenden (kann offline durchgeführt werden) (siehe 4. b.).
 
@@ -99,9 +100,10 @@ Der Durchsuchen-Dialog zeigt den Baum der Knoten, die auf dem angeschlossenen OP
 Der Titel, der Namensraum und der Bezeichner eines Knotens können bearbeitet werden.
 Namespace und Identifier können mit einem Skript versehen werden. Dieses Skript wird nur einmal ausgeführt, wenn der OPC UA Server beim Start abonniert wird.
 
-Wenn eine Verbindung zum Server möglich ist, kann die Schaltfläche [Knoteninfo holen] verwendet werden, um zusätzliche Knoteninformationen (Knotenklasse, Datentyp, ...) vom Server zu lesen. 
+Wenn eine Verbindung zum Server möglich ist, kann die Schaltfläche [Knoteninfo holen] verwendet werden, um zusätzliche Knoteninformationen (Knotenklasse, Datentyp, ...) vom Server zu lesen.
 
 Node Klassen:
+
 * **Variable**: Hat einen Wert, der vom Server gelesen wird.
 * **Object**: Verfügt über Ereignisse, die im Dialogfeld [OPC UA Abonnementelement bearbeiten] abonniert werden können. Das Abonnieren von Ereignissen kann über die Schaltfläche [Hinzufügen] unter der Tabelle [Ereignisfilter] erfolgen (eine Serververbindung ist erforderlich).
 

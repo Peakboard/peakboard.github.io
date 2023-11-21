@@ -4,8 +4,8 @@ title: Reading SAP Tables with Many Columns
 menu_title: Reading SAP Tables with Many Columns
 description: Reading SAP Tables with Many Columns
 lang: en
-weight: 1140
-ref: dat-1140
+weight: 2440
+ref: dat-2440
 ---
 
 Here you will find instructions for the manual installation of the function module Z_XTRACT_IS_TABLE.
@@ -13,7 +13,6 @@ Here you will find instructions for the manual installation of the function modu
 ### Step 1 - Create module
 
 Start transaction SE37 and create a new module called Z_XTRACT_IS_TABLE. You can store it in an existing function group or create a new function group for it. The same applies to the development class.
-
 
 On the Attributes tab, set the execution type to remote callable.
 
@@ -43,4 +42,4 @@ You can find the ABAP code in the file Z_XTRACT_IS_TABLE.txt which can be downlo
 
 Save and activate the module.
 
-Alternatively, you can install the function module using the transport request thtrans.zip, which is delivered with the system. This is located in the ABAP subfolder of the installation folder. 
+Alternatively, you can install the function module using the transport request thtrans.zip, which is delivered with the system. This is located in the ABAP subfolder of the installation folder.

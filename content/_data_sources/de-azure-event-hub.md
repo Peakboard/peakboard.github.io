@@ -4,8 +4,8 @@ title: Azure Event Hub
 menu_title: Azure Event Hub
 description: Informatinon about Azure Event Hub Data in Peakboard
 lang: de
-weight: 2200
-ref: dat-2200
+weight: 100
+ref: dat-100
 redirect_from:
   - /data_sources/19-de-azure-event-hub.html
 ---

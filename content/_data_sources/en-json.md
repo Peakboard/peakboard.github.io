@@ -4,8 +4,8 @@ title: JSON
 menu_title: JSON
 description: Information about JSON Data  in Peakboard
 lang: en
-weight: 600
-ref: dat-600
+weight: 1100
+ref: dat-1100
 redirect_from:
   - /data_sources/06-en-json.html
 ---
@@ -32,7 +32,7 @@ If you want to use only a part of the JSON content, you have to formulate a JSON
 
 The field [Max. rows] (6) limits the number of rows to a certain value.
 
-When all settings are done, you can preview the data with [Load data] (7). 
+When all settings are done, you can preview the data with [Load data] (7).
 
 ![Configure JSON data source](/assets/images/data-sources/json/en_JSON-datasource-02.png)
 

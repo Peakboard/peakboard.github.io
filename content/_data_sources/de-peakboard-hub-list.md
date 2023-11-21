@@ -4,8 +4,8 @@ title: Peakboard Hub Liste
 menu_title: Peakboard Hub Liste
 description: Peakboard Hub Liste
 lang: de
-weight: 2900
-ref: dat-2900
+weight: 2200
+ref: dat-2200
 redirect_from:
 ---
 

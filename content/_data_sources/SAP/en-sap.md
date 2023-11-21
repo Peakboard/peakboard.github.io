@@ -4,14 +4,15 @@ title: SAP
 menu_title: SAP
 description: Information about SAP Data in Peakboard
 lang: en
-weight: 1100
-ref: dat-1100
+weight: 2400
+ref: dat-2400
 redirect_from:
   - /data_sources/SAP/10-en-sap.html
 ---
-The connection to SAP is established via Direct RFC. 
-Here the Peakboard box communicates directly with an SAP application server. 
-Without middleware and without the need to configure major things on SAP. 
+
+The connection to SAP is established via Direct RFC.
+Here the Peakboard box communicates directly with an SAP application server.
+Without middleware and without the need to configure major things on SAP.
 
 <div class="box-tip" markdown="1">**Note**
 

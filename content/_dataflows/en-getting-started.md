@@ -1,8 +1,8 @@
 ---
 layout: article
 title: Your first steps with Dataflows 
-menu_title: Getting started
-description: Dataflows - Getting started
+menu_title: Basics
+description: Dataflows - Get started
 lang: en
 weight: 100
 ref: flow-100

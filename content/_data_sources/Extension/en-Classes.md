@@ -4,8 +4,8 @@ title: Main class ExtensionBase
 menu_title: Main class ExtensionBase
 description: Information about the main class ExtensionBase
 lang: en
-weight: 2610
-ref: dat-2610
+weight: 720
+ref: dat-720
 redirect_from:
 ---
 

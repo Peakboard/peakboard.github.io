@@ -4,8 +4,8 @@ title: Sharepoint List
 menu_title: Sharepoint List
 description: Information about the Sharepoint Lists Data Source in Peakboard
 lang: en
-weight: 1650
-ref: dat-1650
+weight: 2500
+ref: dat-2500
 redirect_from:
 ---
 

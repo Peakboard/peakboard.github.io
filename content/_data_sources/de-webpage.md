@@ -4,8 +4,8 @@ title: Webseitentabelle
 menu_title: Webseitentabelle
 description: Information über Webseitentabellen in Peakboard
 lang: de
-weight: 900
-ref: dat-900
+weight: 2700
+ref: dat-2700
 redirect_from:
   - /data_sources/09-de-webpage.html
 ---

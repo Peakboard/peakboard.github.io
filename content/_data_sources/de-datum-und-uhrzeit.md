@@ -4,8 +4,8 @@ title: Datum und Uhrzeit
 menu_title: Datum und Uhrzeit
 description: Informationen über Zeit- und Datumsangaben in Peakboard
 lang: de
-weight: 300
-ref: dat-300
+weight: 400
+ref: dat-400
 redirect_from:
   - /data_sources/02-de-datum-und-uhrzeit.html
 ---

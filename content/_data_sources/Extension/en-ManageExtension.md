@@ -4,8 +4,8 @@ title: Manage extensions
 menu_title: Manage extension 
 description: Basic information about the Peakboard Extension Kit
 lang: en
-weight: 2605
-ref: dat-2605
+weight: 710
+ref: dat-710
 redirect_from:
 ---
 
