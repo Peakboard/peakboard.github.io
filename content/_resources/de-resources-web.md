@@ -24,9 +24,9 @@ Die folgenden Typen stehen zur Auswahl.
 
 * **Basic Authentication:** Du sendest deinen Benutzernamen und dein Passwort in einer einfachen (aber verschlüsselten) Form, um dich zu identifizieren.
 * **Bearer Authentication:** Du verwendest einen speziellen Sicherheitsschlüssel (Token), den du erhältst, nachdem du dich eingeloggt hast. Diesen Schlüssel zeigst du vor, wie ein Konzertticket, um Zugang zu erhalten.
-* **OAuth:** OAuth ist wie ein fortgeschrittenes Berechtigungssystem, das dir erlaubt, einem Dienst zu gestatten, in deinem Namen mit anderen Apps zu interagieren, ohne deine Login-Daten weiterzugeben. Du erteilst die Erlaubnis, und die App bekommt einen speziellen Schlüssel (Token), den sie benutzt, um in deinem Namen bestimmte Dinge zu tun.
+* **OAuth:** [OAuth](/data_sources/Basics/de-OAuth.html) ist wie ein fortgeschrittenes Berechtigungssystem, das dir erlaubt, einem Dienst zu gestatten, in deinem Namen mit anderen Apps zu interagieren, ohne deine Login-Daten weiterzugeben. Du erteilst die Erlaubnis, und die App bekommt einen speziellen Schlüssel (Token), den sie benutzt, um in deinem Namen bestimmte Dinge zu tun.
 
-Alternativ kannst du auch eine bereits vorhandene Verbindung (6) nutzen.
+Alternativ kannst du auch [eine bereits vorhandene Verbindung (6) nutzen](/data_sources/Basics/de-shared-connection.html).
 
 ![Verbindung einrichten](/assets/images/resources/de_resources-web-02.png)
 

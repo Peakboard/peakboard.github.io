@@ -13,6 +13,14 @@ Als lokale Ressourcen werden statische Dateien bezeichnet, die direkt aus dem Da
 
 Es werden viele verschiedene Dateitypen akzeptiert. Es kann sich dabei um Dateien handeln, die lediglich angezeigt werden, beispielsweise Bilder oder PDFs. Aber auch Dateien, die Daten enthalten, wie beispielsweise Excel-Dateien, können statisch hinzugefügt werden, um sie danach beispielsweise mit [Dataflows](/dataflows/de-erste-schritte.html) oder Ähnlichem weiterzuverarbeiten.
 
+<div class="box-warning" markdown="1">
+**Wichtiger Hinweis**
+
+Wenn Dateien wie Excel als lokale Ressource im Projekt hinterlegt werden, handelt es sich dabei nicht um Live-Daten!
+Wird die Datei auf dem Betriebssystem geändert, ändern sich die Daten der im Projekt hinterlegten Ressource nicht.
+Wähle eine der anderen Möglichkeiten, um Echtzeitdaten anzuzeigen.
+</div>
+
 ### Lokale Ressource hinzufügen
 
 Um eine lokale Ressource hinzuzufügen, machst du einen Rechtsklick auf [Ressourcen] und klickst auf [Lokale Ressource hinzufügen] (1).
@@ -25,3 +33,5 @@ Die Datei findest du dann im Explorer im Bereich [Ressourcen] und kannst sie dor
 Du kannst die lokale Ressource mit einem Rechtsklick bearbeiten (1), kopieren (2), löschen (3), auf das aktuelle System im vorliegenden Zustand herunterladen (4) oder anzeigen lassen, an welchen Stellen du die Ressource in deinem Projekt aktuell verwendest (5).
 
 ![Lokale Ressource verwalten](/assets/images/resources/de_resources-local-02.png)
+
+Alternativ zu diesem Vorgehen bieten einige Controls und Datenquellen ebenfalls die Möglichkeit, aus ihrem jeweiligen Erstellungsdialog heraus eine Ressource hinzuzufügen. Du findest dort im Dateiauswahldialog einen Button [Ressource hinzufügen] über den du direkt neue Ressourcen hinzufügen kannst.

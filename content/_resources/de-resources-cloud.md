@@ -27,7 +27,11 @@ Mache einen Rechtsklick auf [Ressourcen], wähle [Cloud-Ressource hinzufügen] u
 
 Es öffnet sich ein Fenster zum Einrichten der Berechtigung. Hier musst du dich mit den Zugangsdaten deines Anbieters authentifizieren.
 
-Hinweis: Deine Zugangsdaten zu deinem Cloudspeicher werden NICHT im Peakboard Designer oder auf der Peakboard Box gespeichert, sondern lediglich ein Zugriffstoken. Wenn du diese Erlaubnis rückgängig machen willst, gehe einfach in die Einstellungen deines Cloudspeicher-Accounts. Dort ist der Zugriff gelistet und kann gelöscht werden. Das ist ein übliches Verfahren, um Drittanbietern Zugriff auf einen Cloudspeicher zu ermöglichen.
+<div class="box-warning" markdown="1">
+**Wichtiger Hinweis**
+
+Deine Zugangsdaten zu deinem Cloudspeicher werden NICHT im Peakboard Designer oder auf der Peakboard Box gespeichert, sondern lediglich ein Zugriffstoken. Wenn du diese Erlaubnis rückgängig machen willst, gehe einfach in die Einstellungen deines Cloudspeicher-Accounts. Dort ist der Zugriff gelistet und kann gelöscht werden. Das ist ein übliches Verfahren, um Drittanbietern Zugriff auf einen Cloudspeicher zu ermöglichen.
+</div>
 
 ![Zugriff autorisieren](/assets/images/resources/de_resources-cloud-02.png)
 

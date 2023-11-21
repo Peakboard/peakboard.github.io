@@ -10,10 +10,12 @@ redirect_from:
  - /misc/de-multipleconnectionerror.html
 ---
 
-Bei Netzwerk-Ressourcen handelt es sich ähnlich wie bei den [lokalen Ressourcen](/resources/de-resources-local.html) um Dateien in einem Dateisystem.
-Im Gegensatz zu den lokalen Ressourcen werden diese allerdings nicht direkt in das Projekt importiert, sondern über ihren UNC-Pfad angebunden.
+Bei Netzwerk-Ressourcen handelt es sich ähnlich wie bei den [lokalen Ressourcen](/resources/de-resources-local.html) um Dateien in einem Dateisystem. Im Gegensatz zu den lokalen Ressourcen werden diese allerdings nicht direkt in das Projekt importiert, sondern über ihren UNC-Pfad angebunden.
 
-Die Netzwerk-Ressource selbst wird auch nicht im Projekt mit gespeichert. Voraussetzung für die Nutzung der Ressource ist also die Verbindung zu dem Netzwerk, in dem die Datei abgelegt ist.
+Ein UNC-Pfad (Universal Naming Convention) ist eine Standardmethode, um Dateien und Ressourcen auf einem Netzwerk anzusprechen. Ein UNC-Pfad hat in der Regel das Format: `\\Servername\Freigabename\Pfad\Dateiname`
+Dabei ist der Servername der Name des Computers oder Servers, auf dem die Ressource gespeichert ist. Der Freigabename ist der Name der Freigabe auf dem Server. Als Pfad wird der Pfad zu dem spezifischen Ordner oder der Datei innerhalb der Freigabe bezeichnet und der Dateiname ist der Name der spezifischen Datei.
+
+Die Netzwerk-Ressource selbst wird nicht im Projekt mit gespeichert. Voraussetzung für die Nutzung der Ressource ist also die Verbindung zu dem Netzwerk, in dem die Datei abgelegt ist.
 Der Vorteil dieser Anbindungsmethode ist, dass die Dateien nicht so statisch sind wie eine lokale Ressource und sich ändern können, wenn sie überschrieben werden.
 
 Voraussetzung für den Zugriff ist ein Domänen-Nutzer mit entsprechenden Zugriffsrechten auf die freigegebenen Netzwerk-Dateien.
@@ -43,4 +45,13 @@ Es kann vorkommen, dass der Peakboard Designer beim Zugriff auf eine Netzwerkres
 System.ComponentModel.Win32Exception (0x80004005): Mehrfache Verbindungen zu einem Server oder einer freigegebenen Ressource von demselben Benutzer unter Verwendung mehrerer Benutzernamen sind nicht zulässig. Trenne alle früheren Verbindungen zu dem Server bzw. der freigegebenen Ressource, und versuche es erneut.
 ```
 
-Die Ursache für den Fehler sind die Eingehenden Regeln der Windows Defender Firewall deines Computers bzw. deiner Domäne. Hier musst du oder ein Administrator für die Peakboard Runtime die Verbindungen für alle Profile zulassen.
+Der Fehler deutet darauf hin, dass das Ziel-Laufwerk, zu welchem du eine Verbindung herstellen willst, bereits auf deinem Computer eingerichtet ist. Um dieses Problem zu beheben, empfiehlt es sich, die Verbindung zum betroffenen Laufwerk vorübergehend zu trennen und die Ressource neu anzulegen. Anschließend fügst du das Laufwerk erneut hinzu. Dieses spezifische Problem tritt nur auf deinem eigenen Notebook auf, da die Peakboard Box standardmäßig keine weiteren Netzlaufwerke eingebunden hat.
+
+Ein weiterer möglicher Grund für diesen Fehler könnte in den Einstellungen der eingehenden Regeln der Windows Defender Firewall deines Computers oder deiner Domäne liegen. In diesem Fall ist es notwendig, dass du oder ein zuständiger Administrator die erforderlichen Verbindungen für die Peakboard Runtime für alle Profile freigibst.
+
+### Nützliches
+
+Um Datenquellen und Ressourcen dynamisch zum Peakboard Designer hinzuzufügen, empfiehlt sich die [Network Files Extension](https://templates.peakboard.com/extensions/Network-Files/).
+Diese Extension ermöglicht es, die Dateinamen aller Dateien auszulesen, die in einem bestimmten UNC Netzwerkpfad liegen. Dadurch kannst du Datenquellen und Ressourcen dynamisch, basierend auf deren Dateinamen, zum Peakboard Designer hinzufügen.
+
+Um dann zwischen den Ressourcen zu wechseln, ist [dieses Skript-Beispiel](https://templates.peakboard.com/Script-Example-Image-Change/) interessant. Es zeigt, wie du interaktiv Bilder austauschen kannst.

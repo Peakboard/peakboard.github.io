@@ -15,7 +15,15 @@ In addition to the various [data sources](/data_sources/en-index.html), [dataflo
 
 ### Resources in the Peakboard Designer
 
-A resource can be anything that is required as additional material for a visualization, such as images, fonts or data files like Excel or similar.
+A resource can be anything that is required as additional material for a visualization, such as images, [fonts](/controls/Basics/en-custom-fonts.html) or data files like Excel or similar.
+
+<div class="box-warning" markdown="1">
+**Important note**
+
+If files such as Excel are stored as a local resource in the project, they are not live data!
+If the file is changed on the operating system, the data of the resource stored in the project does not change.
+Select one of the other options to display real-time data.
+</div>
 
 In the simplest case, the respective resource is stored directly and statically in the Peakboard project. However, a resource can also be dynamic and accessed via a URL, for example, or stored in cloud storage or on a shared drive within the same network.
 
@@ -29,6 +37,9 @@ The following resource types can currently be added:
 * **[Cloud resources:](/resources/en-resources-cloud.html)** Resources from the following cloud storages - Dropbox, Google Drive, OneDrive and SharePoint
 
 ![Resources menu](/assets/images/resources/en_resources-intro-01.png)
+
+To use the resources in your project, drag and drop them onto the workspace.
+This automatically creates a corresponding control, for example an [image](/controls/Media/en-image.html) control or a [PDF viewer](/controls/Document/en-pdf.html) control.
 
 ### Using a resource folder
 
