@@ -31,7 +31,7 @@
                     </h4>
                 </div>
 
-                <div class="ml-9 side-menu-links hidden">
+                <div class="ml-10 side-menu-links hidden">
                     {% assign articles=site[collection.label] | where:"lang",page.lang %}
                     {% assign sorted_articles = articles | sort: 'weight' %}
                     {% for article in sorted_articles %}
