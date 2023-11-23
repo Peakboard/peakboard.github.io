@@ -8,7 +8,7 @@ lang: en
 weight: 800
 ref: hub-800
 redirect_from:
- - /hub/de-hub_variableslist.html
+ - /hub/en-hub_variableslist.html
 ---
 
 In the Peakboard Hub, you can create lists that you can use in the Peakboard Designer.
@@ -41,4 +41,4 @@ With the option [Clear All] (6) you delete all entries from the list.
 
 To prevent anyone from accessing your data at will, you can specify [in the Peakboard Hub user management](/hub/en-hub_usermanagement.html) which user group has access to the list with their respective group key. The [article about user management](/hub/en-hub_usermanagement.html) also describes how you can assign user group permissions for individual lists in even more detail.
 
-In the next article you will read [how to use the lists in the Peakboard Designer](/hub/en-hub_use-list.html).
+In the next article you will read [how to use the lists in the Peakboard Designer](/hub/Lists/en-hub_use-list.html).

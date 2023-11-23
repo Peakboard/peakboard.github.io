@@ -45,7 +45,7 @@ Give the flow a name in the mask under [Flow name] (1). Then select the Peakboar
 
 ![Select flow trigger](/assets/images/hub/en_hub_powerautomate-04.png)
 
-Next add a new action via [+ New Step](1).
+Next add a new action via [+ New Step] (1).
 
 ![New step](/assets/images/hub/en_hub_powerautomate-05.png)
 
@@ -59,7 +59,7 @@ Under [Message text] (2) you define how the message should look like that will b
 The message can consist of static input as well as dynamic blocks.
 Click on the [+] symbol to open the pop-up and select blocks in the [Dynamic content] (3) area to add them to the message.
 Use the [Expression] tab (4) to add predefined functions or write your own custom function. These options allow you to implement even complex requirements.
-Under [Show advanced options](5) you can add more Slack specific settings to the message.
+Under [Show advanced options] (5) you can add more Slack specific settings to the message.
 
 ![Create message](/assets/images/hub/en_hub_powerautomate-07.png)
 

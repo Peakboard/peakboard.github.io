@@ -41,4 +41,4 @@ Mit einem Klick auf [Edit Properties] (5) kannst du die Spaltentypen und Namen d
 
 Um zu verhindern, dass jeder beliebig auf deine Daten zugreifen kann, kannst du [in der Nutzerverwaltung des Peakboard Hub](/hub/de-hub_usermanagement.html) festlegen, welche Nutzergruppe mit ihrem jeweiligen Gruppenschlüssel Zugriff auf die Liste hat. Im [Artikel über die Nutzerverwaltung](/hub/de-hub_usermanagement.html) ist auch beschrieben, wie du die Berechtigungen von Nutzergruppen für einzelne Listen noch detaillierter vergeben kannst.
 
-Im nächsten Artikel liest du, [wie du die Listen im Peakboard Designer verwenden kannst](/hub/de-hub_use-list.html).
+Im nächsten Artikel liest du, [wie du die Listen im Peakboard Designer verwenden kannst](/hub/Listen/de-hub_use-list.html).
