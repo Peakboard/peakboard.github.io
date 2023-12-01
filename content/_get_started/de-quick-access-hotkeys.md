@@ -11,12 +11,12 @@ redirect_from:
 
 Die Quick Access Bar, auch bekannt als Schnellzugriffsbar, und Hotkeys zielen beide darauf ab, die Benutzererfahrung des Peakboard Designers zu verbessern und die Effizienz zu erhöhen.
 
-### Die Quick Access Bar
+## Die Quick Access Bar
 
 Die Quick Access Bar ermöglicht es dir, auf die am häufigsten verwendeten Funktionen und Werkzeuge an einem leicht zugänglichen Ort zuzugreifen. Dies spart Zeit, da du nicht durch Menüs navigieren musst, um auf diese Funktionen zuzugreifen.
 Wenn du neu im Peakboard Designer bist, kann dir die Quick Access Bar als hilfreicher Wegweiser dienen, um grundlegende und wichtige Funktionen schnell zu erlernen und zu nutzen. So kannst du deine Lernkurve bei der Einarbeitung in den Peakboard Designer verringern.
 
-#### Die Quick Access Bar verwenden
+### Die Quick Access Bar verwenden
 
 Um auf die Quick Access Bar zuzugreifen nutzt du die Hotkeys [Strg + K] oder klickst in der Menüleiste auf das entsprechende Lupen-Icon (1). Welche Hotkeys es im Peakboard Designer noch gibt erfährst du im zweiten Teil dieses Artikels.
 
@@ -37,7 +37,7 @@ Die Quick Access Bar erweitert sich automatisch, wenn Elemente hinzugefügt werd
 
 Außer dem Hinzufügen und Entfernen von Elementen sowie deren Elementspezifischen Optionen kannst du über die Quick Access Bar auch auf sämtliche Optionen der Menüleiste zugreifen. Du kannst neue Projekte öffnen, das aktuelle Projekt speichern, Einstellungen für den Peakboard Designer oder dein Projekt vornehmen, den Schriftarten Manager oder die Projektfarben öffnen und auf die Einstellungen deiner Peakboard Boxen, Peakboard Edge oder Peakboard Hub zugreifen.
 
-### Hotkeys
+## Hotkeys
 
 Hotkeys, auch bekannt als Tastenkombinationen, zielen ebenfalls darauf ab, deine Benutzererfahrung durch eine effizientere und schnellere Bedienung des Peakboard Designers zu verbessern.
 
@@ -46,7 +46,7 @@ Während die Quick Access Bar dir einen schnellen Zugriff auf die Funktionen des
 Für Benutzer mit körperlichen Einschränkungen oder solche, die Schwierigkeiten mit der präzisen Maussteuerung haben, können Hotkeys eine zugänglichere Möglichkeit bieten, die Funktionen des Peakboard Designers zu nutzen und die Barrierefreiheit zu erweitern.
 Während die Quick Access Bar intuitiv und für Anfänger leichter zu erlernen ist, erfordern die Hotkeys ein gewisses Maß an Lernen und Gewöhnung.
 
-#### Hotkeys verwenden
+### Hotkeys verwenden
 
 Hotkeys findest du in verschiedensten Bereich des Peakboard Designers. Sie sind oft im Kontextmenü hinter den jeweiligen Optionen aufgeführt (1).
 
@@ -54,7 +54,8 @@ Hotkeys findest du in verschiedensten Bereich des Peakboard Designers. Sie sind 
 
 Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peakboard Designers
 
-**Im Peakboard Designer**
+#### Im Peakboard Designer
+
 `Strg + K` - Öffnet die Quick Access Bar
 `Strg + 1` - Setzt die Zoomstufe der Arbeitsfläche auf 100%
 `Strg + 0` - Passt die Arbeitsfläche in das Fenster ein
@@ -65,7 +66,8 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 `Bild Auf und Ab` - Navigation zwischen mehreren Bildschirmen
 `F5` - Vorschau starten
 
-**Im Arbeitsbereich des Peakboard Designers mit einem ausgewählten Control**
+#### Im Arbeitsbereich des Peakboard Designers mit einem ausgewählten Control
+
 `Strg + 2` - Passt die Zoomstufe der Arbeitsfläche auf das aktuell ausgewählte Control an
 `Strg + C` - Kopiert das Control
 `Strg + V` - Fügt das kopierte Control ein
@@ -79,11 +81,13 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 `Shift + Pfeiltasten` - Bewegt das Control um 10 px in die gewählte Richtung
 `Esc` - Wählt das aktuell aktive Control ab
 
-**Im Arbeitsbereich des Peakboard Designers mit mehreren ausgewählten Controls**
+#### Im Arbeitsbereich des Peakboard Designers mit mehreren ausgewählten Controls
+
 `Strg + G` - Controls gruppieren
 `Strg +Shift + G` - Gruppierung aufheben
 
-**In der Vorschau oder einer aktiven Visualisierung auf der Peakboard Box**
+#### In der Vorschau oder einer aktiven Visualisierung auf der Peakboard Box
+
 `Strg + L` - Öffnet und schließt das Log
 `Esc` - Fenster-Modus
 `Strg + F` - Fullscreen-Modus
