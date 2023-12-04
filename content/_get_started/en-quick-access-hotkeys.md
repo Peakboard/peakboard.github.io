@@ -68,6 +68,7 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 | Arrow keys up and down + Enter        | Navigates through drop-down menus and selects an element      |
 | Page up and down                      | navigate between multiple screens                             |
 | F5                                    | Start preview                                                 |
+| Hold down G                           | Show grid                                                     |
 
 #### In the Peakboard Designer workspace with a control selected
 

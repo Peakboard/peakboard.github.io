@@ -65,9 +65,10 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 | Strg + S                              | Datei speichern                                               |
 | Strg + O                              | Datei öffnen                                                  |
 | Strg + N                              | Neue Datei                                                    |
-| Pfeiltasten hoch und runter + Enter   | Navigation durch Drop-down-Menüs und AUswahl eines Elements   |
+| Pfeiltasten hoch und runter + Enter   | Navigation durch Drop-down-Menüs und Auswahl eines Elements   |
 | Bild Auf und Ab                       | Navigation zwischen mehreren Bildschirmen                     |
 | F5                                    | Vorschau starten                                              |
+| G gedrückt halten                     | Raster auf der Arbeitsfläche anzeigen                         |
 
 #### Im Arbeitsbereich des Peakboard Designers mit einem ausgewählten Control
 
