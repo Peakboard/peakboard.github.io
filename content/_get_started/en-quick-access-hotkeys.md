@@ -56,38 +56,47 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 
 #### In the Peakboard Designer
 
-`Ctrl + K` - Opens the Quick Access Bar
-`Ctrl + 1` - Sets the zoom level of the workspace to 100%
-`Ctrl + 0` - Fits the workspace into the window
-`Ctrl + S` - Save file
-`Ctrl + O` - Open file
-`Ctrl + N` - New file
-`Arrow keys up and down + Enter` - Navigates through drop-down menus and selects an element
-`Page up and down` - navigate between multiple screens
-`F5` - Start preview
+| Hotkeys                               | Effect                                                        |
+|---------------------------------------|---------------------------------------------------------------|
+| Ctrl + K                              | Opens the Quick Access Bar                                    |
+| Ctrl + 1                              | Sets the zoom level of the workspace to 100%                  |
+| Ctrl + 0                              | Fits the workspace into the window                            |
+| Ctrl + S                              | Save file                                                     |
+| Ctrl + O                              | Open file                                                     |
+| Ctrl + N                              | New file                                                      |
+| Arrow keys up and down + Enter        | Navigates through drop-down menus and selects an element      |
+| Page up and down                      | navigate between multiple screens                             |
+| F5                                    | Start preview                                                 |
 
 #### In the Peakboard Designer workspace with a control selected
 
-`Ctrl + 2` - Adjusts the zoom level of the workspace to the currently selected control
-`Ctrl + C` - Copies the control
-`Ctrl + V` - Pastes the copied control
-`Ctrl + Z` - Undoes the last step
-`Del` - Deletes the control
-`Alt + Shift + F` - Brings the control to the front
-`Alt + Ctrl + F` - Moves the control one level forward
-`Alt + Ctrl + B` - Moves the control back one level
-`Alt + Shift + B` - Moves the control to the back
-`Ctrl + F` - Opens the conditional formatting dialog
-`Shift + arrow keys` - Moves the control 10 px in the selected direction
-`Esc` - Deselects the currently active control
+| Hotkeys                               | Effect                                                                    |
+|---------------------------------------|---------------------------------------------------------------------------|
+| Ctrl + 2                              | Adjusts the zoom level of the workspace to the currently selected control |
+| Ctrl + C                              | Copies the control                                                        |
+| Ctrl + V                              | Pastes the copied control                                                 |
+| Ctrl + Z                              | Undoes the last step                                                      |
+| Del                                   | Deletes the control                                                       |
+| Alt + Shift + F                       | Brings the control to the front                                           |
+| Alt + Ctrl + F                        | Moves the control one level forward                                       |
+| Alt + Ctrl + B                        | Moves the control back one level                                          |
+| Alt + Shift + B                       | Moves the control to the back                                             |
+| Ctrl + F                              | Opens the conditional formatting dialog                                   |
+| Shift + arrow keys                    | Moves the control 10 px in the selected direction                         |
+| Esc                                   | Deselects the currently active control                                    |
 
 #### In the Peakboard Designer workspace with multiple controls selected
 
-`Ctrl + G` - Group controls
-`Ctrl + Shift + G` - Ungroup controls
+| Hotkeys                               | Effect                                                        |
+|---------------------------------------|---------------------------------------------------------------|
+| Ctrl + G                              | Group controls                                                |
+| Ctrl + Shift + G                      | Ungroup controls                                              |
 
 #### In the preview or an active visualization on the Peakboard Boxes
 
-`Ctrl + L` - Opens and closes the log
-`Esc` - Window mode
-`Ctrl + F` - Fullscreen mode
+| Hotkeys                               | Effect                                                        |
+|---------------------------------------|---------------------------------------------------------------|
+| Ctrl + I                              | Opens and closes the info panel                               |
+| Ctrl + L                              | Opens and closes the log                                      |
+| Esc                                   | Window mode                                                   |
+| Ctrl + F                              | Fullscreen mode                                               |

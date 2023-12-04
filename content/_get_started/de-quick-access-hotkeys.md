@@ -56,38 +56,47 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 
 #### Im Peakboard Designer
 
-`Strg + K` - Öffnet die Quick Access Bar
-`Strg + 1` - Setzt die Zoomstufe der Arbeitsfläche auf 100%
-`Strg + 0` - Passt die Arbeitsfläche in das Fenster ein
-`Strg + S` - Datei speichern
-`Strg + O` - Datei öffnen
-`Strg + N` - Neue Datei
-`Pfeiltasten hoch und runter + Enter` - Navigation durch Drop-down-Menüs und AUswahl eines Elements
-`Bild Auf und Ab` - Navigation zwischen mehreren Bildschirmen
-`F5` - Vorschau starten
+| Hotkeys                               | Effekt                                                        |
+|---------------------------------------|---------------------------------------------------------------|
+| Strg + K                              | Öffnet die Quick Access Bar                                   |
+| Strg + 1                              | Setzt die Zoomstufe der Arbeitsfläche auf 100%                |
+| Strg + 0                              | Passt die Arbeitsfläche in das Fenster ein                    |
+| Strg + S                              | Datei speichern                                               |
+| Strg + O                              | Datei öffnen                                                  |
+| Strg + N                              | Neue Datei                                                    |
+| Pfeiltasten hoch und runter + Enter   | Navigation durch Drop-down-Menüs und AUswahl eines Elements   |
+| Bild Auf und Ab                       | Navigation zwischen mehreren Bildschirmen                     |
+| F5                                    | Vorschau starten                                              |
 
 #### Im Arbeitsbereich des Peakboard Designers mit einem ausgewählten Control
 
-`Strg + 2` - Passt die Zoomstufe der Arbeitsfläche auf das aktuell ausgewählte Control an
-`Strg + C` - Kopiert das Control
-`Strg + V` - Fügt das kopierte Control ein
-`Strg + Z` - Macht den letzten Schritt rückgängig
-`Entf` - Löscht das Control
-`Alt + Shift + F` - Bringt das Control in den Vordergrund
-`Alt + Strg + F` - Bringt das Control eine Ebene nach vorne
-`Alt + Strg + B` - Bringt das Control eine Ebene nach hinten
-`Alt + Shift + B` - Bringt das Control in den Hintergrund
-`Strg + F` - Öffnet den Dialog der bedingten Formatierung
-`Shift + Pfeiltasten` - Bewegt das Control um 10 px in die gewählte Richtung
-`Esc` - Wählt das aktuell aktive Control ab
+| Hotkeys                               | Effekt                                                                        |
+|---------------------------------------|-------------------------------------------------------------------------------|
+| Strg + 2                              | Passt die Zoomstufe der Arbeitsfläche auf das aktuell ausgewählte Control an  |
+| Strg + C                              | Kopiert das Control                                                           |
+| Strg + V                              | Fügt das kopierte Control ein                                                 |
+| Strg + Z                              | Macht den letzten Schritt rückgängig                                          |
+| Entf                                  | Löscht das Control                                                            |
+| Alt + Shift + F                       | Bringt das Control in den Vordergrund                                         |
+| Alt + Strg + F                        | Bringt das Control eine Ebene nach vorne                                      |
+| Alt + Strg + B                        | Bringt das Control eine Ebene nach hinten                                     |
+| Alt + Shift + B                       | Bringt das Control in den Hintergrund                                         |
+| Strg + F                              | Öffnet den Dialog der bedingten Formatierung                                  |
+| Shift + Pfeiltasten                   | Bewegt das Control um 10 px in die gewählte Richtung                          |
+| Esc                                   | Wählt das aktuell aktive Control ab                                           |
 
 #### Im Arbeitsbereich des Peakboard Designers mit mehreren ausgewählten Controls
 
-`Strg + G` - Controls gruppieren
-`Strg +Shift + G` - Gruppierung aufheben
+| Hotkeys                               | Effekt                                                        |
+|---------------------------------------|---------------------------------------------------------------|
+| Strg + G                              | Controls gruppieren                                           |
+| Strg +Shift + G                       | Gruppierung aufheben                                          |
 
 #### In der Vorschau oder einer aktiven Visualisierung auf der Peakboard Box
 
-`Strg + L` - Öffnet und schließt das Log
-`Esc` - Fenster-Modus
-`Strg + F` - Fullscreen-Modus
+| Hotkeys                               | Effekt                                                        |
+|---------------------------------------|---------------------------------------------------------------|
+Strg + I                                | Öffnet und schließt das Info-Panel                            |
+Strg + L                                | Öffnet und schließt das Log                                   |
+Esc                                     | Fenster-Modus                                                 |
+Strg + F                                | Fullscreen-Modus                                              |
