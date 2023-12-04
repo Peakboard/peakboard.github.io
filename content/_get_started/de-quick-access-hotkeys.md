@@ -14,7 +14,7 @@ Die Quick Access Bar, auch bekannt als Schnellzugriffsbar, und Hotkeys zielen be
 ## Die Quick Access Bar
 
 Die Quick Access Bar ermöglicht es dir, auf die am häufigsten verwendeten Funktionen und Werkzeuge an einem leicht zugänglichen Ort zuzugreifen. Dies spart Zeit, da du nicht durch Menüs navigieren musst, um auf diese Funktionen zuzugreifen.
-Wenn du neu im Peakboard Designer bist, kann dir die Quick Access Bar als hilfreicher Wegweiser dienen, um grundlegende und wichtige Funktionen schnell zu erlernen und zu nutzen. So kannst du deine Lernkurve bei der Einarbeitung in den Peakboard Designer verringern.
+Wenn du neu im Peakboard Designer bist, kann dir die Quick Access Bar als hilfreicher Wegweiser dienen, um grundlegende und wichtige Funktionen schnell zu erlernen und zu nutzen. So wird deine Lernkurve bei der Einarbeitung in den Peakboard Designer deutlich steiler.
 
 ### Die Quick Access Bar verwenden
 
@@ -95,6 +95,13 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 |---------------------------------------|---------------------------------------------------------------|
 | Strg + G                              | Controls gruppieren                                           |
 | Strg +Shift + G                       | Gruppierung aufheben                                          |
+
+#### Im Skript-Editor
+
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effekt**                                                    |
+|---------------------------------------|---------------------------------------------------------------|
+| Strg + Leertaste                      | IntelliSense-Optionen anzeigen                                |
 
 #### In der Vorschau oder einer aktiven Visualisierung auf der Peakboard Box
 

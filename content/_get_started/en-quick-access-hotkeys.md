@@ -14,7 +14,7 @@ The quick access bar and hotkeys both aim to improve the user experience in the 
 ## The quick access bar
 
 The quick access bar allows you to access the most frequently used functions and tools in one easily accessible location. This saves time as you don't have to navigate through menus to access these functions.
-If you are new to Peakboard Designer, the quick access bar can serve as a helpful guide to quickly learn and use basic and important functions. This way you can reduce your learning curve when familiarizing yourself with the Peakboard Designer.
+If you are new to Peakboard Designer, the quick access bar can serve as a helpful guide to quickly learn and use basic and important functions. This makes your learning curve much steeper when familiarizing yourself with the Peakboard Designer.
 
 ### Using the quick access bar
 
@@ -95,6 +95,13 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 |---------------------------------------|---------------------------------------------------------------|
 | Ctrl + G                              | Group controls                                                |
 | Ctrl + Shift + G                      | Ungroup controls                                              |
+
+#### In the script editor
+
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effect**                                                    |
+|---------------------------------------|---------------------------------------------------------------|
+| Ctrl + Space                          | Show IntelliSense options                                     |
 
 #### In the preview or an active visualization on the Peakboard Boxes
 
