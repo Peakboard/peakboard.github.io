@@ -70,7 +70,8 @@ Folgende Format-Werte kannst du für Datum/Uhrzeit nutzen:
 
 #### Datum
 
-| Formatbezeichner | Beschreibung                                | Beispiel                                                                                   |
+{% include styled_table.html %}
+| **Formatbezeichner** | **Beschreibung**                        | **Beispiel**                                                                               |
 |------------------|---------------------------------------------|--------------------------------------------------------------------------------------------|
 | "d"       | Der Tag des Monats, von 1 bis 31.                  | 2009-06-01T13:45:30 -> 1<br>2009-06-15T13:45:30 -> 15                                      |
 | "dd"      | Der Tag des Monats, von 01 bis 31.                 | 2009-06-01T13:45:30 -> 01<br>2009-06-15T13:45:30 -> 15                                     |
@@ -90,7 +91,8 @@ Folgende Format-Werte kannst du für Datum/Uhrzeit nutzen:
 
 #### Zeit
 
-| Formatbezeichner | Beschreibung                                | Beispiel                                                                                   |
+{% include styled_table.html %}
+| **Formatbezeichner** | **Beschreibung**                        | **Beispiel**                                                                               |
 |------------------|---------------------------------------------|--------------------------------------------------------------------------------------------|
 | "h"       | Die Stunde, mit einer 12-Stunden-Uhr von 1 bis 12. | 2009-06-15T01:45:30 -> 1<br>2009-06-15T13:45:30 -> 1                                       |
 | "hh"      | Die Stunde, mit einer 12 Stunden Uhr von 01 bis 12. | 2009-06-15T01:45:30 -> 01<br>2009-06-15T13:45:30 -> 01                                    |
@@ -124,7 +126,8 @@ Folgende Format-Werte kannst du für Datum/Uhrzeit nutzen:
 
 #### Datum/Uhrzeit: Sonstige
 
-| Formatbezeichner | Beschreibung                                | Beispiel                                                                                   |
+{% include styled_table.html %}
+| **Formatbezeichner** | **Beschreibung**                        | **Beispiel**                                                                               |
 |------------------|---------------------------------------------|--------------------------------------------------------------------------------------------|
 | "string"  | Trennzeichen für String-Literale.                  | 2009-06-15T13:45:30 ("arr:" h:m t) -> arr: 1:45 P                                          |
 | "%"       | Legt das folgende Zeichen als benutzerdefinierten Formatbezeichner fest. | 2009-06-15T13:45:30 (%h) -> 1                                        |
@@ -143,35 +146,40 @@ Folgende Format-Werte kannst du für Intervall nutzen:
 
 #### Tage
 
-| Formatbezeichner  | Beschreibung                                | Beispiel                                                                                 |
+{% include styled_table.html %}
+| **Formatbezeichner**  | **Beschreibung**                        | **Beispiel**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "d", "%d"       | Die Anzahl der ganzen Tage im Zeitintervall.                                                    | "%d" --> "6" "d\.hh\:mm" --> "6.14:32" |
 | "dd"-"dddddddd" | Die Anzahl der ganzen Tage im Zeitintervall, ggf. mit führenden Nullen aufgefüllt.         | "ddd" --> "006" "dd\.hh\:mm" --> "06.14:32" |
 
 #### Stunden
 
-| Formatbezeichner  | Beschreibung                                | Beispiel                                                                                 |
+{% include styled_table.html %}
+| **Formatbezeichner**  | **Beschreibung**                        | **Beispiel**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "h", "%h"       | Die Anzahl der ganzen Stunden im Zeitintervall, die nicht als Teil von Tagen gezählt werden. Einstellige Stunden haben keine führende Null. | "%h" --> "14" "hh\:mm" --> "14:32" |
 | "hh"            | Die Anzahl der ganzen Stunden im Zeitintervall, die nicht als Teil von Tagen gezählt werden. Einstellige Stunden haben eine führende Null. | "hh" --> "14" "hh" --> 08 |
 
 #### Minuten
 
-| Formatbezeichner  | Beschreibung                                | Beispiel                                                                                 |
+{% include styled_table.html %}
+| **Formatbezeichner**  | **Beschreibung**                        | **Beispiel**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "m", "%m"       | Die Anzahl der ganzen Minuten im Zeitintervall, die nicht als Teil von Stunden oder Tagen gezählt werden. Einstellige Minuten haben keine führende Null. | "%m" --> "8" "h\:m" --> "14:8" |
 | "mm"            | Die Anzahl der ganzen Minuten im Zeitintervall, die nicht als Teil von Stunden oder Tagen gezählt werden. Einstellige Minuten haben eine führende Null. | "mm" --> "08" "d\.hh\:mm\:ss" --> 6.08:05:17 |
 
 #### Sekunden
 
-| Formatbezeichner  | Beschreibung                                | Beispiel                                                                                 |
+{% include styled_table.html %}
+| **Formatbezeichner**  | **Beschreibung**                        | **Beispiel**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "s", "%s"       | Die Anzahl der ganzen Sekunden im Zeitintervall, die nicht als Teil von Stunden, Tagen oder Minuten gezählt werden. Einstellige Sekunden haben keine führende Null. | "%s" --> 12 "s\.fff" --> 12.965 |
 | "ss"            | Die Anzahl der ganzen Sekunden im Zeitintervall, die nicht als Teil von Stunden, Tagen oder Minuten gezählt werden. Einstellige Sekunden haben eine führende Null. | "ss" --> 06 "ss\.fff" --> 06.965 |
 
 #### Sekundenbruchteile
 
-| Formatbezeichner  | Beschreibung                                | Beispiel                                                                                 |
+{% include styled_table.html %}
+| **Formatbezeichner**  | **Beschreibung**                        | **Beispiel**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "f", "%f"       | Die Zehntelsekunden eines Zeitintervalls.                                                                   | "f" --> 8 "ss\.f" --> 06.8 |
 | "ff"            | Die Hundertstel einer Sekunde in einem Zeitintervall.                                                   | "ff" --> 89 "ss\.ff" --> 06.89 |
@@ -190,7 +198,8 @@ Folgende Format-Werte kannst du für Intervall nutzen:
 
 #### Intervalle: Sonstige
 
-| Formatbezeichner  | Beschreibung                                | Beispiel                                                                                 |
+{% include styled_table.html %}
+| **Formatbezeichner**  | **Beschreibung**                        | **Beispiel**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "string"        | Trennzeichen für String-Literale.                                                                        | "hh':'mm':'ss" --> "14:32:17" |
 | "\"             | Das Escape-Zeichen.                                                                                        | "hh\:mm\:ss" --> "14:32:17" |

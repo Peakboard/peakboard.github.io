@@ -70,7 +70,8 @@ You can use the following format values for date/time:
 
 #### Date
 
-| Format specifier | Description                                 | Examples                                                                                   |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                         | **Examples**                                                                               |
 |------------------|---------------------------------------------|--------------------------------------------------------------------------------------------|
 | "d"       | The day of the month, from 1 to 31.                | 2009-06-01T13:45:30 -> 1<br>2009-06-15T13:45:30 -> 15                                      |
 | "dd"      | The day of the month, from 01 to 31.               | 2009-06-01T13:45:30 -> 01<br>2009-06-15T13:45:30 -> 15                                     |
@@ -90,7 +91,8 @@ You can use the following format values for date/time:
 
 #### Time
 
-| Format specifier | Description                                 | Examples                                                                                   |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                         | **Examples**                                                                               |
 |------------------|---------------------------------------------|--------------------------------------------------------------------------------------------|
 | "h"       | The hour, using a 12-hour clock from 1 to 12.      | 2009-06-15T01:45:30 -> 1<br>2009-06-15T13:45:30 -> 1                                       |
 | "hh"      | The hour, using a 12-hour clock from 01 to 12.     | 2009-06-15T01:45:30 -> 01<br>2009-06-15T13:45:30 -> 01                                     |
@@ -124,7 +126,8 @@ You can use the following format values for date/time:
 
 #### Date/Time: Other
 
-| Format specifier | Description                                 | Examples                                                                                   |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                         | **Examples**                                                                               |
 |------------------|---------------------------------------------|--------------------------------------------------------------------------------------------|
 | "string"  | Literal string delimiter.                          | 2009-06-15T13:45:30 ("arr:" h:m t) -> arr: 1:45 P                                          |
 | "%"       | Defines the following character as a custom format specifier. | 2009-06-15T13:45:30 (%h) -> 1                                                   |
@@ -143,35 +146,40 @@ You can use the following format values for Interval:
 
 #### Days
 
-| Format specifier  | Description                                 | Example                                                                                  |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                          | **Examples**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "d", "%d"       | The number of whole days in the time interval.                                                  | "%d" --> "6" "d\.hh\:mm" --> "6.14:32" |
 | "dd"-"dddddddd" | The number of whole days in the time interval, padded with leading zeros as needed.        | "ddd" --> "006" "dd\.hh\:mm" --> "06.14:32" |
 
 #### Hours
 
-| Format specifier  | Description                                 | Example                                                                                  |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                          | **Examples**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "h", "%h"       | The number of whole hours in the time interval that aren't counted as part of days. Single-digit hours don't have a leading zero. | "%h" --> "14" "hh\:mm" --> "14:32" |
 | "hh"            | The number of whole hours in the time interval that aren't counted as part of days. Single-digit hours have a leading zero. | "hh" --> "14" "hh" --> 08 |
 
 #### Minutes
 
-| Format specifier  | Description                                 | Example                                                                                  |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                          | **Examples**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "m", "%m"       | The number of whole minutes in the time interval that aren't included as part of hours or days. Single-digit minutes don't have a leading zero. | "%m" --> "8" "h\:m" --> "14:8" |
 | "mm"            | The number of whole minutes in the time interval that aren't included as part of hours or days. Single-digit minutes have a leading zero. | "mm" --> "08" "d\.hh\:mm\:ss" --> 6.08:05:17 |
 
 #### Seconds
 
-| Format specifier  | Description                                 | Example                                                                                  |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                          | **Examples**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "s", "%s"       | The number of whole seconds in the time interval that aren't included as part of hours, days, or minutes. Single-digit seconds don't have a leading zero. | "%s" --> 12 "s\.fff" --> 12.965 |
 | "ss"            | The number of whole seconds in the time interval that aren't included as part of hours, days, or minutes. Single-digit seconds have a leading zero. | "ss" --> 06 "ss\.fff" --> 06.965 |
 
 #### Fractions of a second
 
-| Format specifier  | Description                                 | Example                                                                                  |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                          | **Examples**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "f", "%f"       | The tenths of a second in a time interval.                                                                  | "f" --> 8 "ss\.f" --> 06.8 |
 | "ff"            | The hundredths of a second in a time interval.                                                          | "ff" --> 89 "ss\.ff" --> 06.89 |
@@ -190,7 +198,8 @@ You can use the following format values for Interval:
 
 #### Intervals: Other
 
-| Format specifier  | Description                                 | Example                                                                                  |
+{% include styled_table.html %}
+| **Format specifier** | **Description**                          | **Examples**                                                                             |
 |-------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
 | "string"        | Literal string delimiter.                                                                                | "hh':'mm':'ss" --> "14:32:17" |
 | "\"             | The escape character.                                                                                      | "hh\:mm\:ss" --> "14:32:17" |

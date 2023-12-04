@@ -56,7 +56,8 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 
 #### Im Peakboard Designer
 
-| Hotkeys                               | Effekt                                                        |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effekt**                                                    |
 |---------------------------------------|---------------------------------------------------------------|
 | Strg + K                              | Öffnet die Quick Access Bar                                   |
 | Strg + 1                              | Setzt die Zoomstufe der Arbeitsfläche auf 100%                |
@@ -70,7 +71,8 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 
 #### Im Arbeitsbereich des Peakboard Designers mit einem ausgewählten Control
 
-| Hotkeys                               | Effekt                                                                        |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effekt**                                                                    |
 |---------------------------------------|-------------------------------------------------------------------------------|
 | Strg + 2                              | Passt die Zoomstufe der Arbeitsfläche auf das aktuell ausgewählte Control an  |
 | Strg + C                              | Kopiert das Control                                                           |
@@ -87,14 +89,16 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 
 #### Im Arbeitsbereich des Peakboard Designers mit mehreren ausgewählten Controls
 
-| Hotkeys                               | Effekt                                                        |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effekt**                                                    |
 |---------------------------------------|---------------------------------------------------------------|
 | Strg + G                              | Controls gruppieren                                           |
 | Strg +Shift + G                       | Gruppierung aufheben                                          |
 
 #### In der Vorschau oder einer aktiven Visualisierung auf der Peakboard Box
 
-| Hotkeys                               | Effekt                                                        |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effekt**                                                    |
 |---------------------------------------|---------------------------------------------------------------|
 Strg + I                                | Öffnet und schließt das Info-Panel                            |
 Strg + L                                | Öffnet und schließt das Log                                   |

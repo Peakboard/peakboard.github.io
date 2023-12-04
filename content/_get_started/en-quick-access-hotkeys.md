@@ -56,7 +56,8 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 
 #### In the Peakboard Designer
 
-| Hotkeys                               | Effect                                                        |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effect**                                                    |
 |---------------------------------------|---------------------------------------------------------------|
 | Ctrl + K                              | Opens the Quick Access Bar                                    |
 | Ctrl + 1                              | Sets the zoom level of the workspace to 100%                  |
@@ -70,7 +71,8 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 
 #### In the Peakboard Designer workspace with a control selected
 
-| Hotkeys                               | Effect                                                                    |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effect**                                                                |
 |---------------------------------------|---------------------------------------------------------------------------|
 | Ctrl + 2                              | Adjusts the zoom level of the workspace to the currently selected control |
 | Ctrl + C                              | Copies the control                                                        |
@@ -87,14 +89,16 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 
 #### In the Peakboard Designer workspace with multiple controls selected
 
-| Hotkeys                               | Effect                                                        |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effect**                                                    |
 |---------------------------------------|---------------------------------------------------------------|
 | Ctrl + G                              | Group controls                                                |
 | Ctrl + Shift + G                      | Ungroup controls                                              |
 
 #### In the preview or an active visualization on the Peakboard Boxes
 
-| Hotkeys                               | Effect                                                        |
+{% include styled_table.html %}
+| **Hotkeys**                           | **Effect**                                                    |
 |---------------------------------------|---------------------------------------------------------------|
 | Ctrl + I                              | Opens and closes the info panel                               |
 | Ctrl + L                              | Opens and closes the log                                      |
