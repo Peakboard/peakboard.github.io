@@ -1,14 +1,24 @@
 [{
-  "version": "3.6.1.0",
+  "version": "3.6.2.1",
   "date": "21.11.2023",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.1.0.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.1.0.0/PeakboardSetup.exe",
-  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.1.0.0/PeakboardRuntimeSetupUI.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.2.1.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.2.1.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.2.1.0/PeakboardRuntimeSetupUI.exe",
   "tabs": [
     {
       "name": "General overview",
       "content": [{
+		    "type": "headline",
+        "text": "Hotfix 3.6.2.1"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Styled tile collection / Styled list] - Fix for a bug where gauges in a styled tile collection or a styled list caused a memory leak",
+          "[Gauges] - Fix for a bug where gauges with transparent empty color were completely transparent",
+          "[PDF Viewer] - Fix for a bug where the PDF Viewer control did not work in some cases"
+        ]
+      }, {
 		    "type": "headline",
         "text": "Hotfix 3.6.1.0"
       }, {
