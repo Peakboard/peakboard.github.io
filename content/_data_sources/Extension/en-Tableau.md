@@ -9,7 +9,8 @@ ref: dat-760
 redirect_from:
 ---
 
-To connect to Tableau, a token is generated in the Peakboard Designer using a [Peakboard extension](https://help.peakboard.com/data_sources/Extension/de-Extension.html). The desired Tableau dashboard is then integrated into your application via [script](https://help.peakboard.com/scripting/de-script-engine.html) using an [HTML code control](https://help.peakboard.com/controls/Extended/de-html-code.html).
+The challenge when integrating Tableau into your application is the authentication.
+To connect to Tableau, a token is required with which the Peakboard Designer can then access the various dashboards. This token is generated in the Peakboard Designer with the help of a [Peakboard Extension](/data_sources/Extension/en-Extension.html). The desired Tableau dashboard is then integrated into your application via [script](/scripting/en-script-engine.html) using an [HTML code control](/controls/Extended/en-html-code.html).
 
 ## Preparations in Tableau
 
@@ -65,9 +66,11 @@ Give the data source a name (1). Then fill the fields in the [Specify details] a
 
 ![Tableau overview](/assets/images/data-sources/extension/tableau/en_tableau-10.png)
 
+Use [Load data] to generate the token and confirm the creation of the data source with [OK].
+
 ### Add required variables
 
-Two variables are required for the script. Right-click on [Variables] and [Add variable] (1) to add the first variable.
+Two global variables are required for the script, the servername and the URL of the desired Tableau dashboard. The variables could also be integrated into the script as fixed elements, but changing them later would be much more complex. Right-click on [Variables] and [Add variable] (1) to add the first variable.
 
 ![Add variable](/assets/images/data-sources/extension/tableau/en_tableau-11.png)
 

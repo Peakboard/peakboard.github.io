@@ -9,7 +9,8 @@ ref: dat-760
 redirect_from:
 ---
 
-Für die Verbindung mit Tableau wird im Peakboard Designer ein Token mit Hilfe einer [Peakboard Extension](https://help.peakboard.com/data_sources/Extension/de-Extension.html) generiert. Per [Skript](https://help.peakboard.com/scripting/de-script-engine.html) wird das gewünschte Tableau Dashboard dann mit Hilfe eines [HTML-Code Controls](https://help.peakboard.com/controls/Extended/de-html-code.html) in deine Anwendung eingebunden.
+Die Herausforderung beim Einbinden von Tableau in deine Anwendung ist die Authentifizierung.
+Für die Verbindung mit Tableau wird ein Token benötigt mit dem der Peakboard Designer dann auf die verschiedenen Dashboards zugreifen kann. Dieser Token wird im Peakboard Designer mit Hilfe einer [Peakboard Extension](/data_sources/Extension/de-Extension.html) generiert. Per [Skript](/scripting/de-script-engine.html) wird das gewünschte Tableau Dashboard dann mit Hilfe eines [HTML-Code Controls](/controls/Extended/de-html-code.html) in deine Anwendung eingebunden.
 
 ## Vorbereitungen in Tableau
 
@@ -65,9 +66,11 @@ Gib der Datenquelle einen Namen (1). Befülle dann im Bereich [Details angeben] 
 
 ![Tableau Übersicht](/assets/images/data-sources/extension/tableau/de_tableau-10.png)
 
+Über [Daten laden] generierst du den Token und kannst die Erstellung der Datenquelle mit [OK] bestätigen.
+
 ### Benötigte Variablen hinzufügen
 
-Für das Skript werden zwei Variablen benötigt. Über einen Rechtsklick auf [Variablen] und [Variable hinzufügen] (1) fügst du die erste Variable hinzu.
+Für das Skript werden zwei globale Variablen benötigt, der Servername und die URL des gewünschten Tableau Dashboards. Die Variablen könnten auch als fixe Elemente in das Skript integriert werden, diese nachträglich zu ändern wäre dann aber deutlich aufwendiger. Über einen Rechtsklick auf [Variablen] und [Variable hinzufügen] (1) fügst du die erste Variable hinzu.
 
 ![Variable hinzufügen](/assets/images/data-sources/extension/tableau/de_tableau-11.png)
 
