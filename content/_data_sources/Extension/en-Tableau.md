@@ -9,7 +9,9 @@ ref: dat-760
 redirect_from:
 ---
 
-The challenge when integrating Tableau into your application is the authentication.
+In this article you will learn how to integrate your Tableau dashboards into a Peakboard application.
+It covers creating a client secret in Tableau, installing the extension, configuring it in Peakboard, setting up variables and integrating an HTML code control. It also explains the steps for creating a refreshed script and testing in the preview.
+
 To connect to Tableau, a token is required with which the Peakboard Designer can then access the various dashboards. This token is generated in the Peakboard Designer with the help of a [Peakboard Extension](/data_sources/Extension/en-Extension.html). The desired Tableau dashboard is then integrated into your application via [script](/scripting/en-script-engine.html) using an [HTML code control](/controls/Extended/en-html-code.html).
 
 ## Preparations in Tableau
@@ -74,13 +76,13 @@ Two global variables are required for the script, the servername and the URL of 
 
 ![Add variable](/assets/images/data-sources/extension/tableau/en_tableau-11.png)
 
-Give it the name [Servername] (1), select the data type string (2) and enter the highlighted part of the URL of the Tableau dashboard as the value (3).
+Give it the name [Servername] (1), for example, select the data type string (2) and enter the highlighted part of the URL of the Tableau dashboard as the value (3).
 
 ![Variable Servername](/assets/images/data-sources/extension/tableau/en_tableau-12.png)
 
 ![Servername](/assets/images/data-sources/extension/tableau/en_tableau-13.png)
 
-Create another variable of data type string (1). Name the variable [URL] (2) and give it the full URL of the Tableau dashboard (3) as the value.
+Create another variable of data type string (1). Name the variable [URL] (2) or something similar and give it the full URL of the Tableau dashboard (3) as the value.
 
 ![Variable URL](/assets/images/data-sources/extension/tableau/en_tableau-14.png)
 
@@ -89,6 +91,7 @@ Create another variable of data type string (1). Name the variable [URL] (2) and
 ### Set up HTML code control
 
 Drag the HTML code control (1) from the [Other] area onto the workspace.
+You will later insert a dynamic HTML code into this. The control processes this code and displays the HTML-based Tableau Dashboard.
 
 ![Add HTML code control](/assets/images/data-sources/extension/tableau/en_tableau-16.png)
 
@@ -111,6 +114,30 @@ local html = "<script type=\"module\" src=\"https://" .. data.servername .. "/ja
 html = html .. "<tableau-viz id=\"tableauViz\" src=\"" .. data.URL .. "\" width=\"1920\" height=\"883\" toolbar=\"bottom\" iframe-auth token=\"" .. token .."\"></tableau-viz>"
 screens['Screen1'].WebWidget.htmlcode = html
 ```
+
+The script embeds the Tableau dashboard in the HTML code control. The following parameters and variables are used in the code:
+
+1. `local token = data.Peakboard_Tableau.first.Token`:
+   - **Parameter:** `Token`
+   - **Description:** This is the authentication token that is required to access the Tableau Dashboard. The token is obtained from the data source named `data.Peakboard_Tableau`.
+
+2. `local html = "<script type=\"module\" src=\"https://" .. data.servername .. "/javascripts/api/tableau.embedding.3.latest.min.js\"></script>"`:
+   - **Parameter:** `data.servername`
+   - **Description:** This is the name of the server on which the Tableau application is hosted. This value is used to create the path to Tableau.
+
+3. `html = html .. "<tableau-viz id=\"tableauViz\" src=\"" .. data.URL .. "\" width=\"1920\" height=\"883\" toolbar=\"bottom\" iframe-auth token=\"" .. token .."\"></tableau-viz>"`:
+   - **Parameter:** `data.URL`, `width`, `height`, `toolbar`, `iframe-auth`, `token`
+   - **Description:**
+     - `data.URL`: The URL of the specific Tableau dashboard to be embedded.
+     - `width` and `height`: The width and height of the embedded dashboard. Here they are set to 1920x883 pixels.
+     - `toolbar`: Position of the Tableau toolbar (here at the bottom). It controls where and whether the toolbar is displayed.
+     - `iframe-auth token`: This is the authentication token defined above and is used to access the dashboard.
+
+4. `screens['Screen1'].WebWidget.htmlcode = html`:
+   - **Parameter:** `screens['Screen1'].WebWidget.htmlcode`
+   - **Description:** This part of the code assigns the previously created HTML script (`html`) to the HTML code control (`WebWidget`) on the screen `Screen1`. This displays the Tableau dashboard on this screen.
+
+Using further parameters in the dynamic HTML, you can restrict the Tableau dashboard and get rid of the toolbars or tabs, you can set up filters or allow or disallow certain levels of interactivity. You can find out what options are available [in the Tableau documentation](https://help.tableau.com/current/api/embedding_api/en-us/docs/embedding_api_configure.html).
 
 Replace the names of the referenced data source [Peakboard_Tableau], the HTML code control [WebWidget] and the variables [Servername] and [URL] with the names you used and save the script.
 
