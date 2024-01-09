@@ -38,12 +38,14 @@ For your use case, however, you can also use a timer script, for example.
 The script for the HTTP POST looks like this:
 
 ```lua
+{% raw %}
 data.testvariable = screens['Screen1']. Textfeld.text
 
 local creds = http.createbasicauth('username', 'password')
 local header = {{name='content-type', value='application/json'}, {name='Authorization', value=creds}}
 local body = '{"'Testparameter": "' .. data. Testvariable ..'"}'
 http.post('https://192.168.20.2:40405/api/functions/Testfunction', header, body)
+{% endraw %}
 ```
 
 The first line of the script overwrites the variable with the value entered in the text field control as soon as the button is clicked.

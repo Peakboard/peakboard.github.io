@@ -38,12 +38,14 @@ Für deinen Anwendungsfall kannst du aber beispielsweise auch ein Timer-Skript n
 Das Skript für den HTTP POST sieht folgendermaßen aus:
 
 ```lua
+{% raw %}
 data.Testvariable = screens['Screen1'].Textfeld.text
 
 local creds = http.createbasicauth('username', 'password')
 local header = {{name='content-type', value='application/json'}, {name='Authorization', value=creds}}
 local body = '{"Testparameter": "' .. data.Testvariable ..'"}'
 http.post('https://192.168.20.2:40405/api/functions/Testfunction', header, body)
+{% endraw %}
 ```
 
 Die erste Zeile des Skripts überschreibt die Variable mit dem Wert, der in das Textfeld Control eingegeben wurde, sobald der Button angeklickt wird.
