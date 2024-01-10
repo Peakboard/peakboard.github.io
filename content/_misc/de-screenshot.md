@@ -10,51 +10,41 @@ redirect_from:
   - /misc/09-de-screenshot.html
 ---
 
-Werden beispielsweise am Shopfloor Entscheidungen auf Grundlage einer Visualisierung getroffen, so ist es notwendig die Entscheidungsgrundlage zu dokumentieren.
-Dies kann beispielsweise über einen Screenshot der Visualisierung realisiert werden.
+Ob zur Dokumentation des aktuellen Zustands einer Anwendung, zur Fehleranalyse, Datenanalyse oder einfach zum Teilen von Informationen.
+Es gibt viele Gründe einen Screenshot anzufertigen und diesen an anderer Stelle weiterzuverwenden.
 
-Technisch kann so ein Screenshot über einen HTTP Get Request direkt von der Box extrahiert werden.
+Technisch kannst du so einen Screenshot über einen HTTP GET Request direkt von der Peakboard Box extrahieren.
 
-### Dieser Befehl sieht für Peakboard 2 Boxen folgendermaßen aus:
+### Peakboard API Swagger nutzen
 
+Klicke in den Peakboard Box Einstellungen im Tab [Allgemeines] (1) deiner Peakboard Box auf den Button [Swagger] (2) um die Übersicht der Peakboard API zu öffnen.
 
+![Peakboard API Swagger](/assets/images/misc/Screenshot/de_screenshot-01.png)
 
-![HTTP Get Request](/assets/images/misc/Screenshot/Screenshot02.png)
+Klicke auf den Button [Authorize] (1), gib die Zugangsdaten deiner Peakboard Box ein (2) und bestätige mit [Authorize] (3) um dich zu authentifizieren.
 
-Die Request URL gestaltet sich dabei wie folgt, wobei als Methode GET verwendet wird:
+![Authorize](/assets/images/misc/Screenshot/de_screenshot-02.png)
 
-```
-[Name der Box]:40404/api/screenshot
-```
+Im Bereich [RuntimeApiManagementService] findest du den HTTP GET Request `/api/screenshot` (1).
+Klicke auf den Button [Try it out] und dann auf [Execute] um die Funktion zu testen und die Request URL anzuzeigen.
+Die Request URL (2) gestaltet sich dabei wie folgt, wobei als Methode GET verwendet wird:
 
-Wie in der Darstellung ersichtlich, erfolgt die Autorisierung Base64 encoded. Einen entsprechenden Encoder finden Sie beispielsweise [hier](https://www.base64encode.org/). 
-Der Autorisierungsstring setzt sich wie folgt zusammen:
+`[IP der Peakboard Box]:40404/api/screenshot`
 
-```
-pbadmin:Ihr_Gerätepasswort
-```
+![HTTP GET Request](/assets/images/misc/Screenshot/de_screenshot-03.png)
 
-Bei erfolgreichem Request erhalten Sie einen Screenshot von der aktuellen Anzeige zur beliebigen Weiterverarbeitung von der Box geliefert.
+### Screenshot auf einer weiteren Peakboard Box anzeigen
 
+Mit dem HTTP GET Request kannst du nun den Screenshot beliebig weiterverarveiten.
+Als Beispiel zeigst du auf einer zweiten Peakboard Box den Screenshot deiner ersten Peakboard Box an.
+So kannst du von der zweiten Peakboard Box aus direkt sehen ob die erste Peakboard Box korrekt läuft.
 
+Lege dazu einfach ein Bild Control (1) an und füge eine neue Web-Ressource (2) hinzu.
 
-### Für Peakboard 1 Boxen sieht der Befehl etwas anders aus:
+![Bild Control hinzufügen](/assets/images/misc/Screenshot/de_screenshot-04.png)
 
+Gib die Request URL (1) als Quell-URL sowie deine Zugangsdaten für die Peakboard Box als Basic Authorization (2) ein. Gib der Ressource einen Namen (3) und definiere ein geeignetes Nachladeintervall (4).
 
+![Web-Ressource hinzufügen](/assets/images/misc/Screenshot/de_screenshot-05.png)
 
-![HTTP Get Request](/assets/images/misc/Screenshot/Screenshot01.png)
-
-Die Request URL gestaltet sich dabei wie folgt, wobei als Methode GET verwendet wird:
-
-```
-[Name der Box]:8080/api/iot/screenshot
-```
-
-Wie in der Darstellung ersichtlich, erfolgt die Autorisierung Base64 encoded. Einen entsprechenden Encoder finden Sie beispielsweise [hier](https://www.base64encode.org/). 
-Der Autorisierungsstring setzt sich wie folgt zusammen:
-
-```
-Administrator:Ihr_Gerätepasswort
-```
-
-Bei erfolgreichem Request erhalten Sie einen Screenshot von der aktuellen Anzeige zur beliebigen Weiterverarbeitung von der Box geliefert.
+Wenn sich jetzt auf der ersten Peakboard Box die Visualisierung ändert wird die Änderung nach Ablauf des Nachladeintervalls in der Anwendung auf der zweiten Peakboard Box sichtbar.
