@@ -42,3 +42,12 @@ Im Tab [Verbindungen] (2) kannst du dann im oberen Bereich [WLAN-Verbindung] aus
 
 Wenn die Verbindung hergestellt ist, kannst du das Netzwerkkabel trennen.
 Lösche dann die Peakboard Box in den Peakboard Box Einstellungen und füge sie erneut hinzu, damit die WLAN-Verbindung fehlerfrei funktioniert.
+
+<div class="box-warning" markdown="1">
+**Achtung!**
+
+Die LAN-Verbindung muss getrennt werden damit eine fehlerfreie Funktion gewährleistet ist.
+Generell sollte die Peakboard Box nur in einem LAN-Netzwerk **oder** einem WLAN-Netzwerk betrieben werden.
+</div>
+
+Einen [Artikel zur Einrichtung eines Proxy-Servers findest du hier](/administration/de-proxy.html).

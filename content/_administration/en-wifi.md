@@ -41,3 +41,11 @@ In the [Connections] tab (2), you can then select the desired network from the a
 
 Once the connection is established, you can disconnect the network cable.
 Then delete the Peakboard Box in the Peakboard Box settings and re-add it so that the WiFi connection works properly.
+
+<div class="box-warning" markdown="1">
+**Caution!**
+
+The LAN connection must be disconnected to ensure error-free operation.
+In general, the Peakboard Box should only be operated in a LAN network **or** a WiFi network. </div>
+
+You can find an [article on setting up a proxy server here](/administration/en-proxy.html).
