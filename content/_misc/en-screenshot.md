@@ -14,7 +14,7 @@ redirect_from:
 Whether to document the current status of an application, for error analysis, data analysis or simply to share information.
 There are many reasons to take a screenshot and use it elsewhere.
 
-Technically, you can extract such a screenshot directly from the Peakboard Box via an HTTP GET request.
+Technically, you can extract such a screenshot directly from the Peakboard Box via [the Peakboard API](/misc/en-API.html) using an HTTP GET request.
 
 ### Using the Peakboard API Swagger
 
@@ -30,7 +30,7 @@ In the [RuntimeApiManagementService] area you will find the HTTP GET request `/a
 Click on the [Try it out] button and then on [Execute] to test the function and display the request URL.
 The request URL (2) is as follows, using GET as the method:
 
-`[IP of the Peakboard Box]:40404/api/screenshot`.
+`[IP of the Peakboard Box]:40405/api/screenshot`.
 
 ![HTTP GET Request](/assets/images/misc/Screenshot/en_screenshot-03.png)
 
