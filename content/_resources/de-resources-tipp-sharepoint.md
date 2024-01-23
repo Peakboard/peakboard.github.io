@@ -9,9 +9,9 @@ ref: resources-600
 redirect_from:
 ---
 
-In Fabriken mit manueller/halb manueller Produktion oder im Qualitätsmanagement werden oft Bildschirme genutzt, auf denen beispielsweise technische Zeichnungen angezeigt werden. Weitere Anwendungen sind Schritt-für-Schritt-Anleitungen, Anweisungen für Qualitätskontrollen und andere Dokumente. Oft ist PDF das Standardformat für diese Art von Dokumenten.
+Zur Unterstützung von Werkern werden technische Zeichnungen und Betriebs- sowie Auftragsdaten auf Bildschirmen in manuellen oder halbautomatischen Produktionsumgebungen und im Qualitätsmanagement angezeigt. PDF ist häufig das bevorzugte Format für diese Dokumente.
 
-In diesem Artikel lernst du, wie du eine SharePoint Dokumentenbibliothek verwenden kannst, um PDFs zu speichern, diese im Peakboard Designer herunterzuladen und in einer Visualisierung dynamisch anzeigen zu können.
+Der Artikel vermittelt, wie eine SharePoint-Dokumentenbibliothek zur Speicherung von PDFs verwendet wird, einschließlich des Herunterladens dieser Dateien im Peakboard Designer und ihrer dynamischen Integration in Visualisierungen.
 
 ### Die SharePoint-Dokumentenbibliothek
 

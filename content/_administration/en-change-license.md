@@ -23,9 +23,9 @@ Please make sure to save your original purchased license key of your Peakboard P
 After expiration of the test period, the test license loses its validity, whereby the Peakboard Box can no longer be used with this license.
 In order to continue using your Peakboard Box, you must change the license key back to the license key previously saved in the separate text file.
 
-To change the license of a Peakboard Box, first click on the "Peakboard Box" button (1) in the Peakboard Designer.
-In the "Peakboard Box Settings" dialog, select the desired Peakboard Box in the left column by left-clicking on it (2).
-In the "General" tab, click on the edit icon behind the license key text field and enter your new license key in the text field (3).
+To change the license of a Peakboard Box, first click on the Peakboard Box button (1) in the Peakboard Designer.
+In the Peakboard Box settings, select the desired Peakboard Box in the left column by left-clicking on it (2).
+In the [General] tab, click on the edit icon behind the license key text field and enter your new license key in the text field (3).
 To complete the process, save your changes and close the dialog (4).
 
 ![Change Licence](/assets/images/admin/license/en_change-licence.png)

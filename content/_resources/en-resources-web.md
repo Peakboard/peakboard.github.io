@@ -24,9 +24,9 @@ The following types are available.
 
 * **Basic Authentication:** You send your username and password in a simple (but encrypted) form to identify yourself.
 * **Bearer Authentication:** You use a special security key (token) that you receive after you have logged in. You present this key, like a concert ticket, to gain access.
-* **OAuth:** OAuth is like an advanced authorization system that allows you to allow a service to interact with other apps on your behalf without sharing your login credentials. You grant permission, and the app gets a special key (token) that it uses to do certain things on your behalf.
+* **OAuth:** [OAuth](/data_sources/Basics/en-OAuth.html) is like an advanced authorization system that allows you to allow a service to interact with other apps on your behalf without sharing your login credentials. You grant permission, and the app gets a special key (token) that it uses to do certain things on your behalf.
 
-Alternatively, you can also use an existing connection (6).
+Alternatively, you can also [use an existing connection](/data_sources/Basics/en-shared-connection.html) (6).
 
 ![Set up connection](/assets/images/resources/en_resources-web-02.png)
 

@@ -9,9 +9,9 @@ ref: resources-600
 redirect_from:
 ---
 
-In factories with manual/semi-manual production or in quality management, screens are used frequently to for example display technical drawings. Other applications include step-by-step instructions, quality control instructions or other documents. PDF is often the standard format for these types of documents.
+To support workers, technical drawings and operating and order data are effectively displayed on screens in manual or semi-automated production environments and in quality management. PDF is often the preferred format for these documents.
 
-In this article, you will learn how to use a SharePoint document library to save PDFs, download them in the Peakboard Designer and display them dynamically in a visualization.
+The article explains how to use a SharePoint document library to store PDFs, including how to download these files in Peakboard Designer and how to integrate them dynamically into visualizations.
 
 ### The SharePoint document library
 

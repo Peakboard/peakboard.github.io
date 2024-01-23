@@ -10,7 +10,7 @@ redirect_from:
 
 ---
 
-The installation of the Peakboard Designer can be done via the command line.
+The installation of the Peakboard Designer can be done via the command line. The command line must be executed as an administrator.
 If the following window appears, confirm that you trust the software provider by clicking [Yes].
 
 ![Windows User Account Control Window](/assets/images/admin/install-silent/usercontrol.png)
@@ -18,12 +18,12 @@ If the following window appears, confirm that you trust the software provider by
 ### Silent Installation of the Peakboard Designer
 
 Here, only the Peakboard Designer and the Peakboard Runtime necessary for the preview function are installed.
-The *PeakBoardDesignerSetup.exe* can be called from any directory.
+The *PeakboardSetup.exe* can be called from any directory.
 The following command line entry illustrates how the installation works in silent mode from the directory [C:\Temp]:
 
 ````markdown
     ```
-       "C:\Temp\PeakBoardDesignerSetup.exe" -Silent True -InstallPath <installation path>
+       "C:\Temp\PeakboardSetup.exe" -Silent True -InstallPath <installation path>
     ```
 ````
 

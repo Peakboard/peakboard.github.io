@@ -22,9 +22,9 @@ Achte hierbei bitte unbedingt darauf, deinen ursprünglichen, käuflich erworben
 Nach Ablauf des Testzeitraums verliert die Testlizenz ihre Gültigkeit, wodurch die Peakboard Box mit dieser Lizenz nicht mehr genutzt werden kann.
 Um deine Peakboard Box weiter zu verwenden, musst du den Lizenzschlüssel wieder auf den vorab in der separaten Textdatei gesicherten Lizenzschlüssel ändern.
 
-Um die Lizenz einer Peakboard Box zu ändern, klicke im Peakboard Designer zunächst auf den "Peakboard Box"-Button (1).
-Im "Peakboard Box Settings"-Dialog wählst du in der linken Spalte die gewünschte Peakboard Box mit einem Linksklick aus (2). 
-Klicke im Reiter "Allgemeines" auf das Editierungssymbol hinter dem Lizenzschlüssel-Textfeld und trage im Textfeld deinen neuen Lizenzschlüssel ein (3). 
+Um die Lizenz einer Peakboard Box zu ändern, klicke im Peakboard Designer zunächst auf den Peakboard Box-Button (1).
+In den Peakboard Box Einstellungen wählst du in der linken Spalte die gewünschte Peakboard Box mit einem Linksklick aus (2).
+Klicke im Tab [Allgemeines] auf das Editierungssymbol hinter dem Lizenzschlüssel-Textfeld und trage im Textfeld deinen neuen Lizenzschlüssel ein (3).
 Um den Vorgang abzuschließen, musst du deine Änderung speichern und den Dialog schließen (4).
 
 ![Lizenz Ändern](/assets/images/admin/license/de_lizenz-aendern.png)

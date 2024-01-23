@@ -15,7 +15,15 @@ Neben den verschiedenen [Datenquellen](/data_sources/), [Dataflows](/dataflows/)
 
 ### Ressourcen im Peakboard Designer
 
-Eine Ressource kann alles Mögliche sein, was an Zusatzmaterial für eine Visualisierung benötigt wird, wie zum Beispiel Bilder, Schriftarten oder Datendateien wie Excel oder Ähnliches.
+Eine Ressource kann alles Mögliche sein, was an Zusatzmaterial für eine Visualisierung benötigt wird, wie zum Beispiel Bilder, [Schriftarten](/controls/Basics/de-custom-fonts.html) oder Datendateien wie Excel oder Ähnliches.
+
+<div class="box-warning" markdown="1">
+**Wichtiger Hinweis**
+
+Wenn Dateien wie Excel als lokale Ressource im Projekt hinterlegt werden, handelt es sich dabei nicht um Live-Daten!
+Wird die Datei auf dem Betriebssystem geändert, ändern sich die Daten der im Projekt hinterlegten Ressource nicht.
+Wähle eine der anderen Möglichkeiten, um Echtzeitdaten anzuzeigen.
+</div>
 
 Im einfachsten Fall wird die jeweilige Ressource direkt, statisch im Peakboard Projekt hinterlegt. Eine Ressource kann aber auch dynamisch sein und zum Beispiel über eine URL abgerufen werden, in einem Cloudspeicher liegen oder auf einem freigegebenen Laufwerk innerhalb desselben Netzwerks.
 
@@ -30,7 +38,10 @@ Die folgenden Datentypen können derzeit hinzugefügt werden:
 
 ![Ressourcen-Menü](/assets/images/resources/de_resources-intro-01.png)
 
-### Ressourcen-Ordner verwenden
+Um die Ressourcen in deinem Projekt zu nutzen ziehst du sie per Drag-and-drop auf den Arbeitsbereich.
+Dadurch wird automatisch ein entsprechendes Control erstellt, beispielsweise ein [Bild](/controls/Media/de-image.html) Control oder ein [PDF Viewer](/controls/Document/de-pdf.html) Control.
+
+### Ressourcen-Ordner
 
 Wenn die Anzahl der Ressourceneinträge steigt, ist es sinnvoll, Ressourcen in Ordnern (1) zu organisieren. Du kannst die Dateien einfach per Drag-and-drop in ein Unterverzeichnis ablegen, um auch bei vielen Ressourcen den Überblick zu behalten (2).
 

@@ -1,0 +1,157 @@
+[{
+  "version": "3.6.3.0",
+  "date": "21.11.2023",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.3.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.3.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.6.3.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "Hotfix 3.6.3.0"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a critical error in the WebServer"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Hotfix 3.6.2.1"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Styled tile collection / Styled list] - Fix for a bug where gauges in a styled tile collection or a styled list caused a memory leak",
+          "[Gauges] - Fix for a bug where gauges with transparent empty color were completely transparent",
+          "[PDF Viewer] - Fix for a bug where the PDF Viewer control did not work in some cases"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Hotfix 3.6.1.0"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Oracle] - Fix for a bug that occurred when connecting to Oracle databases"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - Fix for a bug that occurred with loading bars",
+          "[Peakboard Designer] - Fix for a bug that occurred when an invalid name was entered in a validated input field",
+          "[Peakboard Designer] - Fix for a bug that occurred when one or more elements were deleted from the Explorer",
+          "[Peakboard Designer] - Fix for a bug where the project could no longer be opened after an empty name was assigned to a group",
+          "[Peakboard Designer] - Fix for a bug where the main window could not be scaled correctly",
+          "[Peakboard Designer] - Fix for a bug where copying multiple controls at once between projects reversed the Z position",
+          "[Peakboard Designer] - Fix for a bug where copying between different screens or projects moved the element",
+          "[Peakboard Designer] - Fix for a bug where the layout of a group would get messed up if the group was resized and the step was undone",
+          "[Peakboard Designer] - Check for reflected elements implemented",
+          "[Peakboard Designer] - Peakboard Hub link points to the respective page of the Peakboard Boxes in the Peakboard Hub",
+          "[Peakboard Designer] - Logs of the Management Server and the Web Server improved",
+          "[Peakboard Designer] - Loading bar implemented when opening projects",
+          "[Peakboard Designer] - Implemented automatic maximizing at the edge of the screen",
+          "[Peakboard Boxes] - Fix for a bug where the login of a domain user took a considerable amount of time",
+          "[Peakboard Boxes] - Error display improved",
+          "[Peakboard Boxes] - Improved error message when the time server is not available",
+          "[Peakboard Boxes] - Improved log entries",
+          "[Peakboard Boxes Settings] - Fix for a bug where the date drop down in the logs section was not working",
+          "[Explorer] - Fix for a bug where creating subfolders was not working properly",
+          "[Explorer] - Fix for a bug where data sources and resources became invisible if the folder containing the data source/resource was deleted",
+          "[Explorer] - Fix for a bug where the tooltips of texts were not updated when the texts changed",
+          "[Attributes] - Fix for multiple truncated labels",
+          "[Web Server] - Fix for a memory leak"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datasources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Excel](/data_sources/Excel/en-excel.html) - Error messages for incorrect loading revised",
+          "[Reload flows](/data_sources/Basics/en-reloadflows.html) - Fix for a bug where multiple reload flows could not be triggered from the same element",
+          "[Odata](/data_sources/en-odata.html) - Dynamic filtering implemented",
+          "[JSON](/data_sources/en-json.html) - Fix for a bug where JSON was not working properly for data sources with arrays",
+          "[Peakboard hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where when adding a boolean value in the filter, the initial value was null instead of false",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where some extensions had an incorrect ID, which led to further errors"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where existing dataflows from projects created with an older version no longer worked",
+          "Extensive rework of the dataflow step filter",
+          "UX and design improvements"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Format](/controls/Basics/en-formating-values.html) - Added the possibility to use a plus sign as a prefix for positive values",
+          "[Excel Chart](/controls/Chart/en-excel-viewer.html) - Fix for a bug that occurred when an empty file was used for the Excel chart",
+          "[Conditional formatting](/controls/Basics/en-cf.html) - Fix for a bug where all elements of an OR statement were deleted when the first element was removed",
+          "[Conditional formatting](/controls/Basics/en-cf.html) - UX improvements",
+          "[Dropdown list](/controls/Input/en-dropdown.html) - Fix for a bug where the left spacing was determined by the size of the control",
+          "[Icon](/controls/Common/en-icon.html) - Fix for a bug where changing the project color had no effect on the colors of the conditional formatting of an icon",
+          "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where the title was no longer displayed in the preview/visualization",
+          "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where no new controls could be added when the dialog was opened and closed again",
+          "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where copying and pasting controls no longer worked",
+          "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where closing the conditional formatting dialog also closed the template dialog",
+          "[Live Tile / Styled Tile Collection / Styled List] - Reworked behavior of conditional templates",
+          "[Styled Tile Collection / Styled List] - Horizontal scroll option added",
+          "[Charts] - Added gradient option for displaying some series",
+          "[Charts] - Fix for a bug in the symbol display of the editing dialog",
+          "[Gauges] - Fix for a bug where the positioning of the gauges was not correct if the value was not displayed",
+          "[Gauges] - Fix for a bug that occurred when the value and maximum were linked to a data source and the maximum was removed",
+          "[Gauges] - UX revision of the attributes",
+          "[Gauges] - implemented option to set the number format for value labels",
+          "[Gauges] - Added options for borders and corner radiuses",
+          "[Gauges] - Minimum sizes defined",
+          "[Circular Gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the value was displayed even though it was not activated in the attributes",
+          "[Linear Gauge](/controls/Chart/en-linear-gauge.html) - Fix for a bug where the labeling/arrangement of linear gauges did not work in vertical state",
+          "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - Fix for a bug where rounding was only applied at one end",
+          "[Textbox](/controls/Input/en-textbox.html) - Fix for a bug where validation did not work if the textbox was bound to a variable",
+          "[Textbox](/controls/Input/en-textbox.html) - Fix for incorrect/unnecessary warning messages",
+          "[Textbox](/controls/Input/en-textbox.html) - UX improvements for regex",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that occurred when a project file contained a timeline grid of the data type duration",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was always in the default color when the duration input type was selected",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where it was not possible to link a variable of data type number for the timeline grid constraint",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the first displayed section had an incorrect color if timestamps were added that were outside the constraint",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was displayed in empty color when timeline grid constraints were removed",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that was triggered by dynamically adding new values to a list that was linked to a timeline grid",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where changing the project colors did not cause the timeline grid colors to be adjusted",
+          "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Labels are only displayed if there is enough space"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug that was triggered by executing a function in a project that was created with an older version",
+          "Fix for a bug where access to groups via script was not possible in existing projects",
+          "Fix for a bug where scripts in global functions could not be validated",
+          "[Building Blocks](/scripting/en-building-blocks.html) - ODBC and Oracle script access updated",
+          "[Global Functions] - UI of the settings dialog extensively revised",
+          "[Global Functions] - Description and API availability added"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Resources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Network resources](/resources/en-resources-network.html) - Fix for minor network resource bugs",
+          "General minor improvements"
+        ]
+        }
+        ]
+      }]
+    }
+  ]

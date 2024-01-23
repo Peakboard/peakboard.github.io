@@ -27,7 +27,11 @@ Right-click on [Resources], select [Add cloud resource] and then select the desi
 
 A window opens to set up the authorization. Here you must authenticate yourself with your provider's access data.
 
-Note: Your access data to your cloud storage is NOT stored in the Peakboard Designer or on the Peakboard Boxes, but only an access token. If you want to revoke this permission, simply go to the settings of your cloud storage account. The access is listed there and can be deleted. This is a common procedure for granting third-party providers access to cloud storage.
+<div class="box-warning" markdown="1">
+**Important note**
+
+Your access data to your cloud storage is NOT stored in the Peakboard Designer or on the Peakboard Boxes, but only an access token. If you want to revoke this permission, simply go to the settings of your cloud storage account. The access is listed there and can be deleted. This is a common procedure for granting third-party providers access to cloud storage.
+</div>
 
 ![Authorize access](/assets/images/resources/en_resources-cloud-02.png)
 

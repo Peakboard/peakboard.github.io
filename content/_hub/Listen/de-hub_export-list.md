@@ -10,7 +10,7 @@ ref: hub-820
 redirect_from:
 ---
 
-Im vorigen Artikel hast du gelesen, [wie man eine Liste im Peakboard Designer nutzt](/hub/de-hub_use-list.html).
+Im vorigen Artikel hast du gelesen, [wie man eine Liste im Peakboard Designer nutzt](/hub//Listen/de-hub_use-list.html).
 
 ### Export von Listen
 

@@ -10,7 +10,7 @@ ref: hub-810
 redirect_from:
 ---
 
-In the previous article you read [how to create a new list in Peakboard Hub](/hub/en-hub_new-list.html).
+In the previous article you read [how to create a new list in Peakboard Hub](/hub/Lists/en-hub_new-list.html).
 
 ### Using the list in the Peakboard Designer
 
@@ -21,4 +21,4 @@ To do this, you create an appropriate script with the [script-editor](/scripting
 
 ![Script editor](/assets/images/hub/en_hub_list-04.png)
 
-In the next article you will read [how to export the lists](/hub/en-hub_export-list.html).
+In the next article you will read [how to export the lists](/hub/Lists/en-hub_export-list.html).

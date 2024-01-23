@@ -10,23 +10,63 @@ redirect_from:
  - /scripting/07-en-dynamic-queries.html
  - /misc/en-dynamic-queries.html
 ---
-Queries against a data source often have to be designed dynamically, depending on a certain context. Example: An end-user enters a date via a text field and the data source is to send the request to the host system so that it meets the user’s requirements. To do this, a dynamic SQL statement is created that contains the desired date of the end user. This article shows the standard procedure for designing such a dynamic query.
 
-The central element is a slider. The end user can set the number of data records to be retrieved in SAP using the slider. Each time the controller is operated, the data request is based on this. The following picture shows the design. In addition to the slider, we require a scalar data element (named Rowcount), the SAP source and a table to display the data from the SAP source.
+In a constantly changing data landscape, it is essential to design queries dynamically in order to adapt them to different user contexts. This is particularly relevant if end users are to intervene in the data query using interactive elements such as text fields or sliders. This article shows you an example of how you can design such a dynamic query. You need an SQL data source for the example.
 
-![image_1](/assets/images/misc/queries/misc_dynamische_Abfrage_01.png)
+## Example: Using a slider to dynamically set the number of rows displayed
 
-The slider provides a ValueChanged event that is called every time the value of the slider changes. We store a simple script that writes the value of the controller to the static variable RowCount and then triggers a reload of the SAP source. Here the script and a screenshot:
+In the following example, the worker can use a slider to specify how many rows of the queried data source should be displayed in the application. As an alternative to a slider, an input field for a date or another variable could also form the basis for the dynamic query, depending on the use case.
+
+### Create variable and slider
+
+Right-click on [Variables] and [Add variable] (1) to add a variable of the type Number. Give the variable a name. The variable is used in the XQL statement in the data source to enable the dynamic query.
+
+![Add variable](/assets/images/data-sources/dynamic/en_dynamic-01.png)
+
+Then drag and drop a slider control (1) onto the workspace and customize the attributes to your liking.
+To ensure that the variable is filled with the value of the slider, activate the [Used in scripts] checkbox (2) in the [Logic] area and give the slider a name (3).
+
+![Add slider](/assets/images/data-sources/dynamic/en_dynamic-02.png)
+
+### Create data source with SQL statement
+
+Right-click on [Data], [Add data source] and [SQL Server] (1) to create an SQL data source.
+
+![Add data source](/assets/images/data-sources/dynamic/en_dynamic-03.png)
+
+Give the data source a name (1), enter the data of the connection (2) and then insert the following XQL statement in the [Command] area (3):
+
+`SELECT TOP #[RowCount]# * FROM Orders;`
+
+Click on [Load data] (4) and confirm the creation of the data source with [OK] (5).
+
+![Configure data source](/assets/images/data-sources/dynamic/en_dynamic-04.png)
+
+The statement selects the specified rows of the [Orders] table. You must therefore replace [Orders] with the name of your table.
+The statement also contains a placeholder that takes the value from the variable that you created in the last step. The placeholder works according to the principle `#[MyVariable]#`.
+At this point, you can of course also use another statement that contains the variable and is better suited to your use case.
+
+Drag and drop the data source onto the workspace and select [Table] to display the data on the workspace.
+
+### Create value change event script of the slider
+
+Open the script editor for the [Value change event] (1) to enter the script.
+
+![Value change event](/assets/images/data-sources/dynamic/en_dynamic-05.png)
+
+The script sets the variable to the value of the slider (1) and then reloads the data source (2).
 
 ```lua
-data.RowCount = screen.Slider.value
-data.MAKT.reloadasync()
+data.RowCount = screens['Screen1'].Slider.value
+data.Peakboard_Test.reload()
 ```
 
-![image_1](/assets/images/misc/queries/misc_dynamische_Abfrage_02.png)
+[RowCount] is the name of the variable you have created, [Slider] is the name of the slider and [Peakboard_Test] is the name of the data source.
 
-The last mosaic tile is now the actual dynamisation. The following screenshot shows the SAP source in the design view. However, the XQL statement contains a placeholder, which in turn draws the value from the global RowCount variable at the decisive point. The placeholder works on the principle of #[MyVariable]#. The following is the XQL statement and a screenshot
+![Slider script](/assets/images/data-sources/dynamic/en_dynamic-06.png)
 
-`SELECT TOP #[RowCount]# * FROM MAKT;`
+### Test the application in the preview
 
-![image_1](/assets/images/misc/queries/misc_dynamische_Abfrage_03.png)
+Click on [Preview] to start it. Now move the slider to see the changes to the displayed lines live.
+
+![Preview](/assets/images/data-sources/dynamic/en_dynamic-07.gif)
