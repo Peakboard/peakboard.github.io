@@ -11,7 +11,7 @@ redirect_from:
  - /administration/en-internet-setup.html
 ---
 
-
+Whether you want to ensure data security, require access to geo-restricted content, implement company and security guidelines or operate bandwidth management. There are many reasons to use a proxy server.
 If you want to use a proxy server for the Internet connection of your Peakboard Box, you can specify this in the Peakboard Box settings in the Peakboard Designer.
 
 To do this, first [add your Peakboard Box to the Peakboard Designer](https://help.peakboard.com/administration/en-adding.html). Then open the Peakboard Box settings (1).

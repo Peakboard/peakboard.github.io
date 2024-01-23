@@ -11,6 +11,7 @@ redirect_from:
  - /administration/de-internetverbindung.html
 ---
 
+Egal ob du Datensicherheit gewährleisten möchtest, auf geo-beschränkte Inhalte Zugriff benötigst, Unternehmens- und Sicherheitsrichtlinien umsetzen oder Bandbreitenmanagement betreiben willst. Es gibt viele Gründe einen Proxyserver zu nutzen.
 Möchtest du für die Internetverbindung deiner Peakboard Box einen Proxyserver verwenden, dann kannst du dies in den Peakboard Box Einstellungen im Peakboard Designer festlegen.
 
 Dazu [fügst du zuerst deine Peakboard Box zum Peakboard Designer hinzu](https://help.peakboard.com/administration/de-hinzufuegen.html). Öffne dann die Peakboard Box Einstellungen (1).
