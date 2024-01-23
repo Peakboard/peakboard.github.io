@@ -19,8 +19,7 @@ To open the Font Manager, click on the [Fonts] button (1) in the menu bar.
 
 ![Open Font Manager](/assets/images/Controls/fonts/en_fonts-01.png)
 
-Alternatively, you can also access the Font Manager from the places in the Peakboard Designer where you can select fonts.
-For example, in the attributes of controls such as the text control, you will find a button (1) in the drop-down menu for selecting the font to adjust the font. If you click on the [...] button (2) in the pop-up, the font manager opens.
+Alternatively, you can also access the Font Manager from the places in the Peakboard Designer where you can select fonts. For example, in the attributes of controls such as the text control, you will find a button (1) to adjust the font in the drop-down menu for selecting the font. In the pop-up, you have the option to quickly and easily customize the currently selected font. You can apply these changes by clicking on [Modify font]. To make further adjustments to other fonts, click on the [...] button (2) in the pop-up. The font manager opens.
 
 ![Open font manager alternatively](/assets/images/Controls/fonts/en_fonts-02.png)
 
@@ -47,7 +46,15 @@ Make your settings below the preview. You can select the font family (3) and spe
 ### Add a new font family
 
 By default, the Peakboard Designer supports a whole range of font families.
-If these are not sufficient, you can also use many external font families in your Peakboard projects. Currently, adding external font families is limited to TrueType fonts with the file extension .ttf. OpenType fonts with the file extension .otf cannot be used. If your company has its own in-house fonts, the marketing or IT department or the corporate design style guide are usually good places to obtain the relevant files.
+If these are not sufficient, you can also use many external font families in your Peakboard projects.
+
+<div class="box-warning" markdown="1">
+**Attention!**
+
+Currently, adding external font families is limited to TrueType fonts with the file extension .ttf. OpenType fonts with the file extension .otf cannot be used.
+</div>
+
+If your company has its own in-house fonts, the marketing or IT department or the corporate design style guide are usually good places to obtain the relevant files.
 
 To add a new font family to the Peakboard Designer, click on the [+] button (1) behind the drop-down menu for selecting the font family in the font manager in the editing area of the font you want to change.
 

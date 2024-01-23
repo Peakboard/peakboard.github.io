@@ -19,7 +19,7 @@ Um den Schriftarten Manager zu öffnen, klickst du in der Menüleiste auf den [S
 
 ![Schriftarten Manager öffnen](/assets/images/Controls/fonts/de_fonts-01.png)
 
-Alternativ gelangst du auch von den Orten im Peakboard Designer, an denen du Schriftarten auswählen kannst in den Schriftarten Manager. So findest du zum Beispiel in den Attributen von Controls wie dem Text Control beim Drop-down-Menü zum Auswählen der Schriftart einen Button (1), um die Schriftart anzupassen. Klickst du im Pop-up auf den [...]-Button (2) öffnet sich der Schriftarten Manager.
+Alternativ gelangst du auch von den Orten im Peakboard Designer, an denen du Schriftarten auswählen kannst in den Schriftarten Manager. So findest du zum Beispiel in den Attributen von Controls wie dem Text Control beim Drop-down-Menü zum Auswählen der Schriftart einen Button (1), um die Schriftart anzupassen. Im Pop-up hast du die Möglichkeit die aktuell ausgewählte Schriftart schnell und einfach anzupassen. Mit einem Klick auf [Schriftart anpassen] kannst du diese Änderungen übernehmen. Um weitere Anpassungen auch an anderen Schriftarten vorzunehmen klickst du im Pop-up auf den [...]-Button (2). Es öffnet sich der Schriftarten Manager.
 
 ![Schriftarten Manager alternativ öffnen](/assets/images/Controls/fonts/de_fonts-02.png)
 
@@ -46,7 +46,15 @@ Unterhalb der Vorschau nimmst du deine Einstellungen vor. Du kannst die Schriftf
 ### Eine neue Schriftfamilie hinzufügen
 
 Standardmäßig unterstützt der Peakboard Designer eine ganze Reihe von Schriftfamilien.
-Falls diese nicht ausreichen, kannst du in deinen Peakboard Projekten auch viele externe Schriftfamilien nutzen. Derzeit ist das Hinzufügen externer Schriftfamilien auf TrueType Fonts mit der Dateiendung .ttf beschränkt. OpenType Fonts mit der Dateiendung .otf können nicht verwendet werden. Wenn dein Unternehmen eigene Hausschriften besitzt, sind die Marketing- oder die IT-Abteilung oder der Corporate Design Styleguide meist gute Anlaufstellen für den Erhalt der entsprechenden Dateien.
+Falls diese nicht ausreichen, kannst du in deinen Peakboard Projekten auch viele externe Schriftfamilien nutzen.
+
+<div class="box-warning" markdown="1">
+**Achtung!**
+
+Derzeit ist das Hinzufügen externer Schriftfamilien auf TrueType Fonts mit der Dateiendung .ttf beschränkt. OpenType Fonts mit der Dateiendung .otf können nicht verwendet werden.
+</div>
+
+Wenn dein Unternehmen eigene Hausschriften besitzt, sind die Marketing- oder die IT-Abteilung oder der Corporate Design Styleguide meist gute Anlaufstellen für den Erhalt der entsprechenden Dateien.
 
 Um eine neue Schriftfamilie zum Peakboard Designer hinzuzufügen, klickst du im Schriftarten Manager im Bearbeitungsbereich der Schriftart, die du verändern möchtest, auf den [+]-Button (1) hinter dem Drop-down-Menü zur Auswahl der Schriftfamilie.
 
