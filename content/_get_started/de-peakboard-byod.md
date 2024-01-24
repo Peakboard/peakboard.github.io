@@ -9,7 +9,7 @@ ref: start-250
 redirect_from:
 ---
 
-In diesem Artikel lernst du , wie du dein eigenes Gerät mit Peakboard BYOD anstelle einer Peakboard Box nutzen kannst.
+In diesem Artikel lernst du, wie du dein eigenes Gerät mit Peakboard BYOD anstelle einer Peakboard Box nutzen kannst.
 
 ## Vorbereitung und Mindestanforderungen
 

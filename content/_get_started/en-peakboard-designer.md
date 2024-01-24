@@ -20,7 +20,7 @@ You may need installation permissions from your system administrator to install 
 In this article we will give you a first overview of Peakboard Designer. In the following articles you will create your first visualization and transfer it to your Peakboard Box.
 Our [video tutorials](/tutorials/en-video-overview.html) also offer you further assistance, feel free to have a look around.
 
-# 1. Welcome to the Peakboard Designer
+## 1. Welcome to the Peakboard Designer
 
 After opening Peakboard Designer for the first time, you will find yourself in the start dialog.
 Here you will find useful links to the Peakboard Help (1) or the video tutorials.
@@ -33,7 +33,7 @@ Alternatively, click [new file] in the left pane and the petrol theme will be au
 
 ![Peakboard get started dialog](/assets/images/get_started/Peakboard-Designer_start_en.png)
 
-# 2. The structure of the Peakboard Designer
+## 2. The structure of the Peakboard Designer
 
 Now you've really arrived at the Peakboard Designer.
 The Peakboard Designer is divided into five main areas.
@@ -41,7 +41,7 @@ At the top is the menu bar (1), directly below it you will find the various cont
 
 ![Peakboard Designer overview](/assets/images/get_started/Peakboard-Designer_overview_en.png)
 
-## 2.1 The menu bar
+### 2.1 The menu bar
 
 You can open a preview of your visualization (1) or load it onto your Peakboard Box (2).
 With the button [General] (3) you can for example perform a software update and with the button [Project] (4) you can make basic settings for your visualization. You can also manage your Peakboard Boxes and Peakboard Edge via the corresponding buttons (5). In addition, you will find access to the script editor (6), the fonts (7) and the project colors (8) in the menu bar.
@@ -50,7 +50,7 @@ At the bottom of the Peakboard Designer you will find a button to switch the lan
 
 ![Peakboard Designer menu bar](/assets/images/get_started/Peakboard-Designer_menu_en.png)
 
-## 2.2 The explorer
+### 2.2 The explorer
 
 In the folder structure of the explorer all data sources, dataflows, variables, scripts and resources are displayed.
 In the last section [Screens] you will find a list of all existing visual controls on your workspace.
@@ -63,7 +63,7 @@ The visualization will be automatically scaled to the resolution of the connecte
 
 ![Peakboard Designer explorer](/assets/images/get_started/Peakboard-Designer_explorer_en.png)
 
-## 2.3 The controls
+### 2.3 The controls
 
 For the different use cases you will find pre-built interface elements, which we call controls. They can be used and customized to visualize your data.
 From simple text fields, tables, simple charts like bar charts or pie charts, to sophisticated, combinable charts (Advanced charts) and repeatable interface patterns like the list or tile view, everything is available to you.
@@ -71,7 +71,7 @@ Either drag and drop the elements onto the workspace or add them with a double c
 
 ![Peakboard Designer controls](/assets/images/get_started/Peakboard-Designer_controls_en.gif)
 
-## 2.4 The attributes
+### 2.4 The attributes
 
 In the area to the right you will find the attribute overview.
 Here the respective adjustable parameters and attributes are listed for the currently active control.
@@ -82,12 +82,11 @@ This display duration defines how long the respective screen remains visible bef
 
 ![Peakboard Designer attributes](/assets/images/get_started/Peakboard-Designer_attributes_en.png)
 
-# 3. Next steps
+## 3. Next steps
 
 Now that you have a rough overview of the Peakboard Designer, you can start creating your first visualization. Of course, we will be happy to support you with our article [The first visualization](https://help.peakboard.com/get_started/en-visualization.html).
 
 If you already have a Peakboard Box, the article [The Peakboard Box](https://help.peakboard.com/get_started/en-peakboard-box.html) will help you with your next steps.
 
-If you have problems with the Peakboard Designer, don't hesitate to [contact](mailto: support@peakboard.com) us.
-All important information can be found at [www.peakboard.com/academy](https://peakboard.com/academy/).
+If you have problems with the Peakboard Designer, don't hesitate to [contact](mailto:support@peakboard.com) us.
 We wish you a lot of fun and success with Peakboard!

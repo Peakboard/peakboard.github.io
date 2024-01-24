@@ -18,14 +18,14 @@ Füge als dein zweites Control ein [Gauge-Diagramm Rund] aus der Gruppe [Diagram
 
 ![Peakboard Designer – Controls](/assets/images/get_started/Visualization_controls_de.png)
 
-## 1.1 Ressourcen und Bilder verwenden
+### 1.1 Ressourcen und Bilder verwenden
 
 Verwende in deiner Anwendung unterschiedliche Dateitypen wie zum Beispiel Bilddateien (JPG oder PNG), PDFs oder binde Excel Dateien an. Ziehe zum Beispiel dein Logo als Bilddatei auf den Explorer oder rufe das Ordnermenü des Ressourcen Ordners auf und füge eine lokale Ressource hinzu. Anschließend kannst du die Datei per Drag and Drop aus dem Explorer auf eine freie Fläche des Arbeitsbereichs ziehen und Größe und Position bestimmen.
 Für andere Datenformate funktioniert der Vorgang sehr ähnlich.
 
 ![Peakboard Designer – Drag&Drop](/assets/images/get_started/Visualization_resources_de.gif)
 
-## 1.2 Datenquelle verbinden
+### 1.2 Datenquelle verbinden
 
 Binde mit Peakboard ganz einfach die unterschiedlichsten Datenquellen an.
 Von Datenformaten wie CSV, JSON und XML, Datenbanken und SAP über Social Media bis hin zu Maschinen-, Förderanlagen- und Sensoren-Informationen wie Siemens S7 und OPC UA.
@@ -53,7 +53,7 @@ Voilà, du hast soeben deine erste Datenquelle angebunden.
 
 ![Peakboard Designer – Excel Datenquelle](/assets/images/get_started/Visualization_excel-04_de.png)
 
-## 1.3 Daten und Control verbinden
+### 1.3 Daten und Control verbinden
 
 Im letzten Schritt wird die Datenquelle mit einem Control verbunden.
 Wähle ein Control im Explorer oder durch Anklicken auf der Arbeitsfläche aus, in diesem Fall das Textfeld.
@@ -75,7 +75,7 @@ Definiere dann für das Feld [Daten / Wert] (2) die Spalte [Stock_Quantity], fü
 
 ![Peakboard Designer – Gauge-Diagramm](/assets/images/get_started/Visualization_excel-07_de.png)
 
-## 1.4. Preview
+### 1.4. Preview
 
 Geschafft!
 Deine erste Anwendung mit Peakboard ist fertig.
@@ -85,7 +85,7 @@ Klicke in der Menüleiste auf [Vorschau] (1) um sie dir anzusehen.
 
 Es öffnet sich ein neuer Dialog, der dir das Ergebnis zeigt. Diese Anwendung kann nun auf deine Peakboard Box übertragen werden.
 
-## 1.5. Projektfarben
+### 1.5. Projektfarben
 
 Sollte dir die fertige Anwendung farblich nicht gefallen oder geänderte Arbeitsbedingungen erfordern beispielsweise eine andere Farbgebung, dann kannst du die Farben ganz einfach und zentral in der Projektfarben-Verwaltung anpassen.
 Klicke dazu auf den Button Projektfarben in der Menüleiste und suche dir dann ein neues passendes Theme aus. Alternativ kannst du dort auch nur einzelne Aspekte deiner Anwendung zentral abändern.
@@ -97,5 +97,4 @@ Klicke dazu auf den Button Projektfarben in der Menüleiste und suche dir dann e
 Wenn du bereits eine Peakboard Box besitzt, hilft dir der Artikel [Die Peakboard Box](https://help.peakboard.com/get_started/de-peakboard-box.html) bei deinen nächsten Schritten.
 
 Solltest du Probleme mit dem Peakboard Designer haben, zögere nicht mit uns in [Kontakt](mailto:support@peakboard.com) zu treten.
-Alle wichtigen Informationen dazu findest du unter [www.peakboard.com/academy](https://peakboard.com/academy/).
 Wir wünschen dir viel Spaß und Erfolg mit Peakboard!

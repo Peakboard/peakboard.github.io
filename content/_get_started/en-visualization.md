@@ -18,7 +18,7 @@ Add a [Circular gauge diagram] from the [Diagram] group as your second control a
 
 ![Peakboard Designer - Controls](/assets/images/get_started/Visualization_controls_en.png)
 
-## 1.1 Use resources and images
+### 1.1 Use resources and images
 
 Use different file types in your application such as image files (JPG or PNG), PDFs or attach Excel files.
 For example, drag your logo as an image file to the explorer or go to the folder menu of the resources folder and add a local resource.
@@ -27,7 +27,7 @@ For other data formats, the process works very similarly.
 
 ![Peakboard Designer - Drag&Drop](/assets/images/get_started/Visualization_resources_en.gif)
 
-## 1.2 Connect data source
+### 1.2 Connect data source
 
 Easily connect a wide variety of data sources with Peakboard.
 From data formats like CSV, JSON and XML, databases and SAP to social media and machine, conveyor and sensor information like Siemens S7 and OPC UA.
@@ -56,7 +56,7 @@ Voilà, you have just connected your first data source.
 
 ![Peakboard Designer - Excel data source](/assets/images/get_started/Visualization_excel-04_en.png)
 
-## 1.3 Connect data and control
+### 1.3 Connect data and control
 
 The last step is to connect the data source to a control.
 Select a control in the explorer or by clicking on the workspace, in this case the text field.
@@ -78,7 +78,7 @@ Define for the field [Data / Value] (2) the column [Stock_Quantity], for the fie
 
 ![Peakboard Designer - Gauge diagram](/assets/images/get_started/Visualization_excel-07_en.png)
 
-## 1.4. Preview
+### 1.4. Preview
 
 You did it!
 Your first application with Peakboard is ready.
@@ -88,7 +88,7 @@ Click on [Preview] (1) in the menu bar to view it.
 
 A new dialog will open showing you the result. This application can now be transferred to your Peakboard box.
 
-## 1.5 Project colors
+### 1.5 Project colors
 
 If you do not like the color of the finished application or if changed working conditions require a different color scheme, for example, you can easily and centrally adjust the colors in the project color management.
 To do this, click on the Project Colors button in the menu bar and then select a new, suitable theme. Alternatively, you can also change only individual aspects of your application centrally.
@@ -100,5 +100,4 @@ To do this, click on the Project Colors button in the menu bar and then select a
 If you already have a Peakboard Box, the article [The Peakboard Box](https://help.peakboard.com/get_started/de-peakboard-box.html) will help you with your next steps.
 
 If you have problems with the Peakboard Designer, don't hesitate to [contact](mailto:support@peakboard.com) us.
-All important information can be found at [www.peakboard.com/academy](https://peakboard.com/academy/).
 We wish you a lot of fun and success with Peakboard!
