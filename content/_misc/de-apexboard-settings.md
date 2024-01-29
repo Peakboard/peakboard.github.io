@@ -4,8 +4,8 @@ title: Apexboard - Einstellungen und Schichtauswahl
 menu_title: Einstellungen und Schichtauswahl
 description: Informationen zu den Einstellungen und der Schichtauswahl des Apexboards
 lang: de
-weight: 100
-ref: apex-100
+weight: 990
+ref: misc-990
 draft: true
 ---
 

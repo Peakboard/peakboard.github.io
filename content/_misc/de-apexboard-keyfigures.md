@@ -4,8 +4,8 @@ title: Apexboard - Kennzahlen
 menu_title: Kennzahlen
 description: Informationen zur Übersicht der Kennzahlen im Apexboard
 lang: de
-weight: 300
-ref: apex-300
+weight: 992
+ref: misc-992
 draft: true
 ---
 

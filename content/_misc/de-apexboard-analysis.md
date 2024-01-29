@@ -4,8 +4,8 @@ title: Apexboard - Analyse
 menu_title: Analyse
 description: Informationen zur abteilungsübergreifenden Analyse von Kennzahlen im Apexboard
 lang: de
-weight: 500
-ref: apex-500
+weight: 994
+ref: misc-994
 draft: true
 ---
 

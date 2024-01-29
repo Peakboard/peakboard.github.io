@@ -4,8 +4,8 @@ title: Apexboard - Maßnahmen
 menu_title: Maßnahmen
 description: Informationen zur Organisation von Maßnahmen im Apexboard
 lang: de
-weight: 400
-ref: apex-400
+weight: 993
+ref: misc-993
 draft: true
 ---
 

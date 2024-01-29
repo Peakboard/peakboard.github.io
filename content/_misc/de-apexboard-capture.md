@@ -4,8 +4,8 @@ title: Apexboard - Übersicht und Werte erfassen
 menu_title: Übersicht und Werte erfassen
 description: Informationen zur Strukturierung des Apexboard und dem Erfassen von Werten
 lang: de
-weight: 200
-ref: apex-200
+weight: 991
+ref: misc-991
 draft: true
 ---
 
