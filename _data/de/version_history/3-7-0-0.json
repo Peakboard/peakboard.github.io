@@ -1,0 +1,203 @@
+[{
+  "version": "3.7.0.0",
+  "date": "05.02.2024",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "Building Block Globale Funktionen",
+      "content": [{
+        "type": "image",
+        "image": "3-7-0-0-functions_de.gif",
+        "description": "Globale Funktionen können geteilt werden. Somit kannst du diese von außen aufrufen. Um es noch einfacher zu machen diese von einer anderen Peakboard Box aufzurufen hast du nun die Möglichkeit über einen Building Block direkt auf die vorhandenen globalen Funktionen einer anderen Peakboard Box zuzugreifen."
+      }]
+    },
+    {
+      "name": "Building Block Peakboard Hub Liste hinzufügen/ersetzen",
+      "content": [{
+        "type": "image",
+        "image": "3-7-0-0-hublist_de.gif",
+        "description": "Peakboard Hub Listen bieten den elegantesten Weg Daten für Peakboard zu speichern. Mit dem neuen Building Block ist es nun noch einfacher eine Datenquelle, oder eine Variable Liste in eine Peakboard Hub Liste zu überführen."
+      }]
+    },
+    {
+      "name": "JSON Parser",
+      "content": [{
+        "type": "image",
+        "image": "3-7-0-0-json_de.gif",
+        "description": "JSON ist die verbreitetste Datenstuktur in modernen IT Systemen. Um einfach mit JSON Daten arbeiten zu können gibt es nun einen Building Block, in dem man einen JSON Pfad eingeben kann und daraus den Wert erhält."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer Setup] - UI/UX Verbesserung der Startanimation",
+          "[Peakboard Designer] - Fix für einen Fehler, der auftrat, wenn der [Skript-Editors](/scripting/de-script-editor.html) über die Menüleiste geöffnet wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem der Peakboard Designer abstürzte, wenn die Sprache gewechselt wurde",
+          "[Peakboard Designer] - Fix für fehlerhaftes Cursorverhalten in mehrzeiligen Eingabefeldern",
+          "[Peakboard Designer] - Fix für einen Fehler, der auftrat, wenn ein Control in eine übergeordnete Gruppe bewegt wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, der auftrat, wenn der Befehl Gruppieren ausgeführt wurde, ohne dass Elemente ausgewählt waren",
+          "[Peakboard Designer] - Fix für einen Fehler, der beim Umbenennen von Variablen Listen oder Datenquellen auftrat",
+          "[Peakboard Designer] - Update-Hinweis beim Öffnen von Projekten aus älteren Peakboard Designer Versionen hinzugefügt",
+          "[Peakboard Designer] - Einbindung der Youtube-Videos im Start-Dialog verbessert",
+          "[Peakboard Designer] - Vorschauzeit auf 30 min verlängert",
+          "[Peakboard Designer] - UI/UX Verbesserungen in den Attributen",
+          "[Peakboard Designer] - Allgemeine Verbesserungen der Quick Access Bar",
+          "[Peakboard Designer] - UI Verbesserungen des Ordner hinzufügen Dialog",
+          "[Peakboard Designer] - Timeserver wird automatisch aus älteren Projekten entfernt da er nicht mehr verwendet wird",
+          "[Peakboard Designer] - Unterschiedliche Taskleisten-Programmsymbole für Peakboard Runtime und Peakboard Designer implementiert",
+          "[Peakboard Box Einstellungen] - Fix für einen Darstellungsfehler beim neu laden des Screenshots",
+          "[Peakboard Box Einstellungen] - Beim Zurücksetzen einer Peakboard Box wird diese vollständig aus den Peakboard Box Einstellungen entfernt, da sie neu hinzugefügt werden muss und das Passwort neu gesetzt werden muss",
+          "[Peakboard Box Einstellungen] - UX Verbesserung des Fehlerverhaltens der Screenshot Anzeige",
+          "[Peakboard Box] - Fix für einen Fehler in der WebServer Konfiguration",
+          "[Peakboard Box] - Fix für einen Fehler, bei dem beim Zurücksetzen einer Peakboard Box alle Benutzer gelöscht wurden und der Standard-Benutzer nicht wiederhergestellt wurde",
+          "[Peakboard Box] - Fix für einen Fehler, bei dem die Veröffentlichung einer Anwendung auf einer Peakboard Box per Cloudverbindung fehlschlug",
+          "[Peakboard Box] - Optimierung der Fehlermeldungen der Kommunikation zwischen Peakboard Box und Peakboard Hub online",
+          "[Peakboard Box] - Anzeigen der Systemzeit im Debug Panel ermöglicht",
+          "[Peakboard Box] - Speichernutzung von Peakboard Prozessen wird im Debug Panel angezeigt",
+          "[Peakboard Box]/[Peakboard BYOD] - Peakboard Box ID und Lizenz können nach dem Hinzufügen einer Peakboard Box noch geändert werden",
+          "[Peakboard BYOD] - Fix für einen Fehler, bei dem das Gerät nach der Installation neu startet",
+          "[Peakboard BYOD] - Fix für einen Fehler, bei dem das leer lassen des Passwort Felds zu einem Fehler führte, anstatt den Dialog zur Eingabe eines neuen Passwortes zu öffnen",
+          "[Peakboard BYOD] - Fix für einen Fehler, bei dem Benutzer, die kein lokaler Windows Admin waren, die Lizenz und Peakboard Box ID nicht festlegen konnten",
+          "[Peakboard BYOD] - Informationen zu Zugangsdaten aktualisiert",
+          "Format-Dialog um Lokalisierungsoption der Formate ergänzt"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem nicht alle Sonderzeichen im Passwortfeld von Datenquellen erlaubt waren",
+          "[Azure IoT Hub](/data_sources/de-azure-iot-hub.html) - Azure IoT Hub Tester entfernt",
+          "[Datum und Uhrzeit](/data_sources/de-datum-und-uhrzeit.html) - Fix für einen Fehler, bei dem die Zeit nicht bearbeitet werden konnte, wenn nicht die Standard Zeitzone ausgewählt war",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - Fehlermeldungen verbessert",
+          "[Extensions](/data_sources/Extension/de-Extension.html) - Verhalten der Fehlermeldungen verbessert",
+          "[JSON](/data_sources/de-json.html) - HTTP PATCH Request hinzugefügt",
+          "[JSON](/data_sources/de-json.html) - Pfad-Auswahlfeld überarbeitet und dynamisiert/skriptfähig gemacht",
+          "[Microsoft Graph](/data_sources/Extension/de-MsGraphAPI.html) - Automatische Token-Erneuerung für abgelaufene Token implementiert",
+          "[MQTT](/data_sources/de-mqtt.html) - Minimalbreite und Scrollbar für Spalten in der Vorschau der Datenquelle hinzugefügt",
+          "[Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html) - Fix für einen Fehler, bei dem der Vergleichoperator verschwunden ist, wenn der Dialog geschlossen und erneut geöffnet wurde",
+          "[Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html) - Fix für einen Fehler, bei dem es nicht möglich war, Peakboard Hub Daten zu laden",
+          "[Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html) - UX Verbesserungen in der bedingten Formatierung",
+          "[Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html) - Checkbox anstatt Eingabefeld für Werte vom Typ Boolean implementiert",
+          "[Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html) - Überarbeitete Vergleichsoperatoren",
+          "[Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html) - Leere Listen werden als leere Tabelle angezeigt anstatt eine Fehlermeldung auszulösen",
+          "[Reload Flows](/data_sources/Basics/de-reloadflows.html) - Fix für UI-Fehler",
+          "[Rockwell](/data_sources/de-rockwell.html) - Fix für einen Fehler der Datenquelle",
+          "[SAP](/data_sources/SAP/de-sap.html) - Fix für einen Fehler, bei dem Parameter mehrfach genutzt werden konnten",
+          "[SAP](/data_sources/SAP/de-sap.html) - Erweiterung der Funktionalität um das Laden von Tabellendaten aus variablen Listen in Funktionen",
+          "[SAP](/data_sources/SAP/de-sap.html) - Ausführung von XQL-Statements mit mehreren Rückgabewerten ermöglicht",
+          "[SAP](/data_sources/SAP/de-sap.html) - Unterstützung für das Schreiben von tabellenähnlichen Parametern in Variable Listen hinzugefügt",
+          "[SAP](/data_sources/SAP/de-sap.html) - Fehlermeldungen verbessert",
+          "[SAP](/data_sources/SAP/de-sap.html) - Definieren von mehreren Commands in einem einzelnen XQL Statement per Semikolon ermöglicht",
+          "[OPC UA](/data_sources/OPC_UA/de-opc-ua.html) und [MQTT](/data_sources/de-mqtt.html) Datenquellen können deaktiviert werden",
+          "Nachladestatus [Manuell] hinzugefügt",
+          "Unterstützung für die Erstellung von Dataflows direkt aus der Vorschau von Datenquellen hinzugefügt",
+          "Dialog wird automatisch geschlossen wenn über das Kontextmenü in der Vorschau ein Dataflow hinzugefügt wird"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem der Parse JSON Schritt nicht richtig funktionierte",
+          "Fix für einen Fehler, der auftrat, wenn der Schritt [Spalte hinzufügen] über den Schnell hinzufügen Bereich aufgerufen wurde",
+          "Fix für einen Fehler, bei dem Dataflows per Skript aktiviert, aber nicht deaktiviert werden konnten",
+          "Fix für einen Fehler, der auftrat, wenn im Spalten-Dialog des Schrittes gescrollt wurde",
+          "Fix für einen Fehler, bei dem beim erneuten Auswählen der Spalten für einen Join Schritt nicht alle Spalten zur Verfügung standen",
+          "Fix für einen Fehler beim schnellen Hinzufügen eines Spalte hinzufügen Schrittes",
+          "Fix für einen Fehler, bei dem die Auswahl des Schritts Zeilen begrenzen nicht richtig funktionierte",
+          "Fix für einen Fehler, bei dem die Sortierung verloren ging, wenn der Dataflow Schritt erneut geöffnet wurde",
+          "Fix für einen Fehler, bei dem beim Hinzufügen eines neuen Spalte hinzufügen Schrittes die Parameter des zuvor erstellten Schrittes nicht zurückgesetzt sondern übernommen wurden",
+          "Fix für einen Fehler, bei dem Dataflows die auf einer Variablen Liste basieren beim Start nicht geladen wurden",
+          "Allgemeine Performanceverbesserungen",
+          "Eingabefeld Validierung im Filter Schritt hinzugefügt",
+          "UX Verbesserungen für Spalten mit langem Textinhalt",
+          "Dataflow Name in Pflichtfeld umgewandelt"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem das Attribut [Ist selektiert] nicht korrekt funktionierte",
+          "[Bild] - Fix für einen Fehler, bei dem das Nachladen eines Bild Controls nicht funktionierte",
+          "[Combobox] - Überarbeitung des Ladeverhaltens des Selection Changed Events",
+          "[Date Picker] - Verbindung von Zeitdatenquellen als Minimales und Maximales Datum ermöglicht",
+          "[Diagramme] - Fix für eine Fehler mit der Abwärtskompatibilität von Diagrammfarben",
+          "[Diagramme] - Fix für einen Fehler, bei dem das Hinzufügen von Beschriftungen die Anwendung zum Absturz brachte",
+          "[Diagramme] - Fix für einen Fehler, der auftrat, wenn die Maus in einer Anwendung mit einem animierten Diagramm bewegt wurde",
+          "[Diagramme] - Fix für einen unwiderruflichen Fehler, der auftrat sobald ein Wert nicht verfügbar war",
+          "[Diagramme] - Fix für einen Fehler des automatischen Kurvenradius",
+          "[Diagramme] - Neues Attribut [Label-Breite] hinzugefügt",
+          "[Diagramme] - Erstellung einer Zeitachse implementiert",
+          "[Diagramme] - Umfassende UI Überarbeitung",
+          "[Drop Down] - Fix für einen Fehler, bei dem die Anwendung abstürzte, wenn ein Dataflow der mit einem Drop Down Control verbunden war neu geladen wurde",
+          "[Drop-Down] - UI-Verbesserungen",
+          "[Excel Diagramm] - Fix für einen Fehler, bei dem es nicht möglich war ein Arbeitsblatt oder ein Diagramm auszuwählen",
+          "[Gauge Diagramm linear] - Fix für einen Fehler, bei dem das Diagramm nicht korrekt angezeigt wurde, wenn als Leerfarbe transparent ausgewählt war",
+          "[PDF] - Fix für einen Fehler, bei dem die Skalierung in der Anwendung nicht korrekt funktionierte",
+          "[Styled Tile/Styled Tile Kollektion/Styled List] - Fix für einen Fehler, der bei per Skript kopierten Listen auftrat",
+          "[Styled Tile/Styled Tile Kollektion/Styled List] - Fix für einen Fehler, bei dem die Verbindung einer Datenquelle abgebrochen wurde, wenn diese umbenannt wurde",
+          "[Styled Tile/Styled Tile Kollektion/Styled List] - Fix für einen Fehler, bei dem Skripte nicht richtig ausgeführt wurden",
+          "[Styled Tile/Styled Tile Kollektion/Styled List] - Bedingte Templates Dialog überarbeitet",
+          "[Tabelle] - Fix für einen Fehler, bei dem das Verhalten der Zellenabstände nicht richtig funktionierte",
+          "[Tabelle] - Fix für einen Fehler, der auftrat, wenn man die Spalten bearbeiten wollte, obwohl keine Datenquelle verbunden war",
+          "[Tabelle] - Fix für einen Fehler, der das Layout einer verbundenen Tabelle zerstörte, wenn eine Liste umbenannt wurde",
+          "[Textfeld] - Fix für einen Fehler, bei dem die Validierung bei einer verbundenen Datenquelle nicht funktionierte",
+          "[Video] - Fix für einen Fehler, der auftrat, wenn man ein neues Video Control hinzugefügt hat ",
+          "[Webseite] - Fix für einen Fehler, der auftrat, wenn die Umleitung erfolgte bevor die Seite vollständig geladen wurde",
+          "[Webseite] - Zugriff auf aktuell angezeigte URL des Browsers per Skript ermöglicht",
+          "[Zeitachse](/controls/Chart/de-timeline.html) - Fix für einen Fehler, der bei falsch sortierten Daten auftrat",
+          "Eckenradien können für einzelne Ecken individuell festgelegt werden"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem Fehlermeldungen ohne Ereignisort des Fehlers geloggt wurden",
+          "Fix für einen Fehler mit zwischengespeicherten Chache-Schlüsseln von Listenelementen",
+          "Fix für einen Fehler, bei dem Tapped Event Skripte ungewollt dupliziert und gespeichert wurden",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für eine Fehler, der auftrat, wenn man versuchte zwei Building Blocks zu verbinden",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Neuer Building Block zum Kopieren der Daten einer Variablen Liste in eine [Peakboard Hub Liste](/data_sources/de-peakboard-hub-list.html)",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Stringbuilder überarbeitet",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Formatierungsoptionen für die Zeitdatenquelle hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - UI-Verbesserungen",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Funktionalität des [Liste kopieren] Building Block erweitert",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Building Block zum Ausführen einer globalen Funktion von einer anderen Peakboard Box aus hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - PATCH als HTTP Request Methode hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Neuer Building Block für das Leeren von Peakboard Hub Listen hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Unterstützung für Eingaben vom Typ Number zum Text Zusammenführen Block hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Neuer Block zum ändern des Datumsformates eines Strings hinzugefügt",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Neuer JSON Pfad Block über den ein JSOn Pfad eingegeben werden kann und der Wert des JSON ausgegeben wird",
+          "[Globale Funktionen] - Fix für einen Fehler, bei dem die Parameter globaler Funktionen mit dem Datentyp Boolean nicht kopiert und eingefügt werden konnten",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Building Block Modus als Standard festgelegt"
+        ]
+      }, {
+         "type": "headline",
+         "text": "Ressourcen"
+       }, {
+         "type": "list",
+         "list_items": [
+           "[Netzwerk-Ressourcen](/resources/de-resources-network.html) - Fix für einen Fehler bezüglich ungültiger UNC-Pfade",
+           "Allgemeine Performanceverbesserungen",
+           "Namen können nicht mehr doppelt vergeben werden, um Fehler zu vermeiden",
+           "Verbesserung der Lokalisierung"
+         ]
+        }
+        ]
+      }]
+    }
+  ]

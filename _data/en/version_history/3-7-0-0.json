@@ -1,0 +1,203 @@
+[{
+  "version": "3.7.0.0",
+  "date": "05.02.2024",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "Building block global functions",
+      "content": [{
+        "type": "image",
+        "image": "3-7-0-0-functions_en.gif",
+        "description": "Global functions can be shared. This allows you to call them from outside. To make it even easier to call them from another Peakboard Box, you now have the option of accessing the existing global functions of another Peakboard Box directly via a building block."
+      }]
+    },
+    {
+      "name": "Building block add/replace Peakboard Hub list",
+      "content": [{
+        "type": "image",
+        "image": "3-7-0-0-hublist_en.gif",
+        "description": "Peakboard Hub lists offer the most elegant way to store data for Peakboard. With the new building block, it is now even easier to convert a data source or a variable list into a Peakboard Hub List."
+      }]
+    },
+    {
+      "name": "JSON Parser",
+      "content": [{
+        "type": "image",
+        "image": "3-7-0-0-json_en.gif",
+        "description": "JSON is the most common data structure in modern IT systems. In order to be able to work easily with JSON data, there is now a building block in which you can enter a JSON path and obtain the value from it."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer Setup] - UI/UX improvement of the start animation",
+          "[Peakboard Designer] - Fix for a bug that occurred when the [Script editor](/scripting/en-script-editor.html) was opened from the menu bar",
+          "[Peakboard Designer] - Fix for a bug where the Peakboard Designer crashed when the language was changed",
+          "[Peakboard Designer] - Fix for incorrect cursor behavior in multi-line input fields",
+          "[Peakboard Designer] - Fix for a bug that occurred when a control was moved to a parent group",
+          "[Peakboard Designer] - Fix for a bug that occurred when the group command was executed without elements being selected",
+          "[Peakboard Designer] - Fix for a bug that occurred when renaming variable lists or data sources",
+          "[Peakboard Designer] - Added update hint when opening projects from older Peakboard Designer versions",
+          "[Peakboard Designer] - Improved integration of YouTube videos in the start dialog",
+          "[Peakboard Designer] - Preview time extended to 30 min",
+          "[Peakboard Designer] - UI/UX improvements in the attributes",
+          "[Peakboard Designer] - General improvements to the Quick Access Bar",
+          "[Peakboard Designer] - UI improvements to the add folder dialog",
+          "[Peakboard Designer] - Timeserver is automatically removed from older projects as it is no longer used",
+          "[Peakboard Designer] - Implemented different taskbar program icons for Peakboard Runtime and Peakboard Designer",
+          "[Peakboard Box settings] - Fix for a display error when reloading the screenshot",
+          "[Peakboard Box settings] - When resetting a Peakboard Box, it is completely removed from the Peakboard Box settings, as it must be added again and the password must be reset",
+          "[Peakboard Box settings] - UX improvement of the error behavior of the screenshot display",
+          "[Peakboard Box] - Fix for a bug in the WebServer configuration",
+          "[Peakboard Box] - Fix for a bug where all users were deleted when resetting a Peakboard Box and the default user was not restored",
+          "[Peakboard Box] - Fix for a bug where publishing an application to a Peakboard Box via cloud connection failed",
+          "[Peakboard Box] - Optimization of the error messages of the communication between Peakboard Box and Peakboard Hub online",
+          "[Peakboard Box] - Displaying the system time in the debug panel enabled",
+          "[Peakboard Box] - Memory usage of Peakboard processes is displayed in the debug panel",
+          "[Peakboard Box]/[Peakboard BYOD] - Peakboard Box ID and license can still be changed after adding a Peakboard Box",
+          "[Peakboard BYOD] - Fix for a bug where the device restarts after installation",
+          "[Peakboard BYOD] - Fix for a bug where leaving the password field blank resulted in an error instead of opening the dialog to enter a new password",
+          "[Peakboard BYOD] - Fix for a bug where users who were not a local windows admin could not set the license and Peakboard Box ID",
+          "[Peakboard BYOD] - Updated information on access data",
+          "Format dialog added localization option for formats"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where not all special characters were allowed in the password field of data sources",
+          "[Azure IoT Hub](/data_sources/en-azure-iot-hub.html) - Azure IoT Hub Tester removed",
+          "[Date and Time](/data_sources/en-date-and-time.html) - Fix for a bug where the time could not be edited if the default time zone was not selected",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - Error messages improved",
+          "[Extensions](/data_sources/Extension/en-Extension.html) - Behavior of error messages improved",
+          "[JSON](/data_sources/en-json.html) - HTTP PATCH request added",
+          "[JSON](/data_sources/en-json.html) - Path selection field revised and made dynamic/scriptable",
+          "[Microsoft Graph](/data_sources/Extension/en-MsGraphAPI.html) - Implemented automatic token renewal for expired tokens",
+          "[MQTT](/data_sources/en-mqtt.html) - Added minimum width and scrollbar for columns in the preview of the data source",
+          "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the comparison operator disappeared when the dialog was closed and reopened",
+          "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to load Peakboard Hub data",
+          "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - UX improvements in conditional formatting",
+          "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Implemented checkbox instead of input field for values of type Boolean",
+          "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Revised comparison operators",
+          "[Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - Empty lists are displayed as an empty table instead of triggering an error message",
+          "[Reload Flows](/data_sources/Basics/en-reloadflows.html) - Fix for UI error",
+          "[Rockwell](/data_sources/en-rockwell.html) - Fix for a bug in the data source",
+          "[SAP](/data_sources/SAP/en-sap.html) - Fix for a bug where parameters could be used multiple times",
+          "[SAP](/data_sources/SAP/en-sap.html) - Extension of functionality to load table data from variable lists into functions",
+          "[SAP](/data_sources/SAP/en-sap.html) - execution of XQL statements with multiple return values enabled",
+          "[SAP](/data_sources/SAP/en-sap.html) - Added support for writing table-like parameters to variable lists",
+          "[SAP](/data_sources/SAP/en-sap.html) - Error messages improved",
+          "[SAP](/data_sources/SAP/de-sap.html) - Defining multiple commands in a single XQL statement via semicolon enabled",
+          "[OPC UA](/data_sources/OPC_UA/en-opc-ua.html) and [MQTT](/data_sources/en-mqtt.html) data sources can be deactivated",
+          "Reload state [Manual] added",
+          "Added support for creating dataflows directly from the preview of data sources",
+          "Dialog is automatically closed when a dataflow is added via the context menu in the preview"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where the Parse JSON step was not working properly",
+          "Fix for a bug that occurred when the [Add column] step was called via the quick add area",
+          "Fix for a bug where dataflows could be activated by script but not deactivated",
+          "Fix for a bug that occurred when scrolling in the column dialog of the step",
+          "Fix for a bug where not all columns were available when reselecting the columns for a join step",
+          "Fix for a bug when quickly adding a column add step",
+          "Fix for a bug where selecting the limit rows step did not work correctly",
+          "Fix for a bug where sorting was lost when the Dataflow step was reopened",
+          "Fix for a bug where when adding a new add column step, the parameters of the previously created step were not reset but applied",
+          "Fix for a bug where dataflows based on a variable list were not loaded at startup",
+          "General performance improvements",
+          "Added validation input field in filter step",
+          "UX improvements for columns with long text content",
+          "Dataflow name converted to mandatory field"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where the attribute [Is selected] did not work correctly",
+          "[Image] - Fix for a bug where the reloading of an image control did not work",
+          "[Combobox] - Revision of the loading behavior of the selection changed event",
+          "[Date Picker] - Connection of time data sources as minimum and maximum date enabled",
+          "[Charts] - Fix for a bug with the backward compatibility of chart colors",
+          "[Charts] - Fix for a bug where adding labels caused the application to crash",
+          "[Charts] - Fix for a bug that occurred when moving the mouse in an application with an animated chart",
+          "[Charts] - Fix for a bug that occurred when a value was not available",
+          "[Charts] - Fix for a bug in the automatic curve radius",
+          "[Charts] - New attribute [label width] added",
+          "[Charts] - Creation of a time axis implemented",
+          "[Charts] - Extensive UI revision",
+          "[Drop down] - Fix for a bug where the application crashed when a dataflow associated with a drop down control was reloaded",
+          "[Drop down] - UI improvements",
+          "[Excel chart] - Fix for a bug where it was not possible to select a worksheet or chart",
+          " [Linear gauge] - Fix for a bug where the chart was not displayed correctly when transparent was selected as the blank color",
+          "[PDF] - Fix for a bug where scaling did not work correctly in the application",
+          "[Styled tile/Styled tile collection/Styled list] - Fix for a bug that occurred with scripted copied lists",
+          "[Styled tile/Styled tile collection/Styled list] - Fix for a bug where the connection of a data source was aborted when it was renamed",
+          "[Styled tile/Styled tile collection/Styled list] - Fix for a bug where scripts were not executed correctly",
+          "[Styled tile/Styled tile collection/Styled list] - Conditional templates dialog revised",
+          "[Table] - Fix for a bug where cell spacing behavior was not working properly",
+          "[Table] - Fix for a bug that occurred when trying to edit the columns even though no data source was connected",
+          "[Table] - Fix for a bug that destroyed the layout of a connected table when a list was renamed",
+          "[Text box] - Fix for a bug where validation did not work for a connected data source",
+          "[Video] - Fix for a bug that occurred when adding a new video control ",
+          "[Webpage] - Fix for a bug that occurred when the redirect occurred before the page was fully loaded",
+          "[Webpage] - Enabled access to currently displayed URL of the browser via script",
+          "[Timeline grid](/controls/Chart/en-timeline.html) - Fix for an error that occurred with incorrectly sorted data",
+          "Corner radii can be set individually for single corners"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where error messages were logged without the event location of the error",
+          "Fix for a bug with chache keys of list elements",
+          "Fix for a bug where tapped event scripts were unintentionally duplicated and saved",
+          "[Building blocks](/scripting/en-building-blocks.html) - Fix for a bug that occurred when trying to connect two building blocks",
+          "[Building blocks](/scripting/en-building-blocks.html) - New building block for copying the data of a variable list into a [Peakboard hub list](/data_sources/en-peakboard-hub-list.html)",
+          "[Building blocks](/scripting/en-building-blocks.html) - Stringbuilder revised",
+          "[Building blocks](/scripting/en-building-blocks.html) - Added formatting options for the time data source",
+          "[Building blocks](/scripting/en-building-blocks.html) - UI improvements",
+          "[Building blocks](/scripting/en-building-blocks.html) - Functionality of the [Copy list] building block extended",
+          "[Building blocks](/scripting/en-building-blocks.html) - Added building block to execute a global function from another Peakboard Box",
+          "[Building blocks](/scripting/en-building-blocks.html) - Added PATCH as HTTP request method",
+          "[Building blocks](/scripting/en-building-blocks.html) - Added new building block for emptying Peakboard hub lists",
+          "[Building blocks](/scripting/en-building-blocks.html) - Added support for number type inputs to the text merge block",
+          "[Building blocks](/scripting/en-building-blocks.html) - Added new block to change the date format of a string",
+          "[Building blocks](/scripting/en-building-blocks.html) - New JSON path block via which a JSON path can be entered and the value of the JSON is returned",
+          "[Global functions] - Fix for a bug where the parameters of global functions with the boolean data type could not be copied and pasted",
+          "[Script editor](/scripting/en-script-editor.html) - Building block mode set as default"
+        ]
+      }, {
+         "type": "headline",
+         "text": "Resources"
+       }, {
+         "type": "list",
+         "list_items": [
+           "[Network resources](/resources/en-resources-network.html) - Fix for a bug regarding invalid UNC paths",
+           "General performance improvements",
+           "Names can no longer be assigned twice to avoid errors",
+           "Improvement of the localization"
+         ]
+        }
+        ]
+      }]
+    }
+  ]
