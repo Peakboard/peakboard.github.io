@@ -1,0 +1,33 @@
+---
+layout: article
+title: Wechseln der Anwendung
+menu_title: Wechseln der Anwendung
+description: Wechseln der Anwendung
+lang: de
+weight: 800
+ref: admin-800
+redirect_from:
+ - /administration/08-de-wechseln.html
+ - /administration/de-wechseln.html
+---
+
+### Anwendung im Peakboard Designer wechseln
+
+Um die aktuelle Anwendung deiner Peakboard Box zu ändern öffnest du mit einem Klick auf das Peakboard Box Symbol die Peakboard Box Einstellungen (1).
+
+![Peakboard Box Einstellungen öffnen](/assets/images/admin/management/de_change-application-01.png)
+
+Wähle im linken Bereich die gewünschte Peakboard Box aus (1).
+Im Tab [Allgemeines] kannst du die angezeigte Anwendung ändern.
+Über den Button [Visualisierung hochladen] (2) lädst du die aktuell geöffnete Anwendung auf die ausgewählte Peakboard Box.
+
+![Anwendung hochladen](/assets/images/admin/management/de_change-application-02.png)
+
+Weiter unten im Bereich [Visualisierung] hast du weitere Optionen.
+Hier kannst du die Orientierung der Anwendung (1) und das Tastaturlayout (2) auswählen.
+Über das Drop-down Menü (3) kannst du aus den bereits hochgeladenen Anwendungen auswählen welche angezeigt werden soll.
+Rechts vom Drop-down kannst du die aktuelle Anwendung herunterladen (4), löschen (5), starten (6) oder stoppen (7).
+
+![Anwendungen verwalten](/assets/images/admin/management/de_change-application-03.png)
+
+Alternativ zum Wechsel der Anwendung im Peakboard Designer kannst du deine Anwendung auch [im Peakboard Hub](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html), [im Peakboard Hub online](/hub/Peakboard_Hub_online/de-hub-online_boxmanagement.html) oder [per Peakboard Web Access](/administration/de-web-access.html) wechseln.
