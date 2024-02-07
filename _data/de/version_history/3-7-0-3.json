@@ -1,10 +1,10 @@
 [{
-  "version": "3.7.0.1",
+  "version": "3.7.0.3",
   "date": "05.02.2024",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.1.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.1.0/PeakboardSetup.exe",
-  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.1.0/PeakboardRuntimeSetupUI.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.3.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.3.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.3.0/PeakboardRuntimeSetupUI.exe",
   "tabs": [
     {
       "name": "Building Block Globale Funktionen",
@@ -33,6 +33,22 @@
     {
       "name": "Gesamtübersicht",
       "content": [{
+        "type": "headline",
+        "text": "Hotfix 3.7.0.3"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Ressourcen] - Fix für einen Fehler, der bei Ressourcen mit Sonderzeichen auftrat"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Hotfix 3.7.0.2"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Ressourcen] - Fix für einen Fehler, der bei Verwendung von Excel Cloud Ressourcen auftrat"
+        ]
+      }, {
 		    "type": "headline",
         "text": "Hotfix 3.7.0.1"
       }, {
@@ -40,7 +56,7 @@
         "list_items": [
           "[Ressourcen] - Fix für einen Fehler, der beim Öffnen des Dialogs für lokale Ressourcen auftrat"
         ]
-      },{
+      }, {
 		    "type": "headline",
         "text": "Allgemein"
       }, {
@@ -194,15 +210,15 @@
           "[Skript-Editor](/scripting/de-script-editor.html) - Building Block Modus als Standard festgelegt"
         ]
       }, {
-         "type": "headline",
-         "text": "Ressourcen"
-       }, {
-         "type": "list",
-         "list_items": [
-           "[Netzwerk-Ressourcen](/resources/de-resources-network.html) - Fix für einen Fehler bezüglich ungültiger UNC-Pfade",
-           "Allgemeine Performanceverbesserungen",
-           "Namen können nicht mehr doppelt vergeben werden, um Fehler zu vermeiden",
-           "Verbesserung der Lokalisierung"
+        "type": "headline",
+        "text": "Ressourcen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Netzwerk-Ressourcen](/resources/de-resources-network.html) - Fix für einen Fehler bezüglich ungültiger UNC-Pfade",
+          "Allgemeine Performanceverbesserungen",
+          "Namen können nicht mehr doppelt vergeben werden, um Fehler zu vermeiden",
+          "Verbesserung der Lokalisierung"
          ]
         }
         ]
