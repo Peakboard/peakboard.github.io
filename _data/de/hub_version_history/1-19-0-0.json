@@ -1,0 +1,35 @@
+[{
+  "version": "1.19.0.0",
+  "date": "07.02.2024",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.19.0.0/PeakboardHubSetup.exe",
+  "tabs": [
+    {
+      "name": "Web Access",
+      "content": [{
+        "type": "image",
+        "image": "1-19-0-0-webaccess_de.gif",
+        "description": "Steuere deine Anwendungen auf deinen Peakboard Boxen über den Peakboard Hub. Die neue Möglichkeit erlaubt es dir, Funktionen auszuführen, Variablen oder Listen zu ändern oder sogar Dateien über den Peakboard Hub auf deine Peakboard Box zu laden."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [
+        {
+          "type": "headline",
+          "text": "Allgemein"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "[Web Access] - implementiert um Anwendungen auf Peakboard Boxen steuern zu können",
+            "[Nutzer](/hub/de-hub_usermanagement.html) - UI Rework",
+            "[Nutzer](/hub/de-hub_usermanagement.html) - Suche implementiert",
+            "[Verbindungen](/hub/de-hub_sharedconnections.html) - Suche implementiert",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Überarbeitung der UI",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Überarbeitung des Berechtigungssystems"
+          ]
+        }
+      ]
+    }
+  ]
+}]
