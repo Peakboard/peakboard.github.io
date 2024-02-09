@@ -15,30 +15,36 @@ Du hast [einige Werte erfasst](/apexboard/de-apexboard-capture.html) und kannst 
 
 Beim ersten Öffnen des Kennzahlen Dashboards bekommst du einen Überblick über den aktuellen Tag. Es werden alle Kennzahlen angezeigt, für die an diesem Tag Werte in der angemeldeten Abteilung und Schicht erfasst wurden (1). Die erste Kennzahl ist automatisch markiert (2). Im rechten Bereich (3) werden die Details der markierten Kennzahl angezeigt.
 
-Die Kennzahlen sind farblich nach ihrem Inhalt markiert. Positive/erfüllte Kennzahlen werden in grün angezeigt, abweichende Kennzahlen sind farblich gelb gestaltet. Größere Abweichungen sind in rot markiert. Die Schwellenwerte für diese farbliche Markierung legst du bei der [Konfiguration im Peakboard Hub]() fest. So kannst du auf einen Blick erkennen wo ein Eingreifen nötig wird.
+Die Kennzahlen sind farblich nach ihrem Inhalt markiert. Positive/erfüllte Kennzahlen werden in grün angezeigt, abweichende Kennzahlen sind farblich gelb gestaltet. Größere Abweichungen sind in rot markiert. Die Schwellenwerte für diese farbliche Markierung legst du bei der [Konfiguration im Peakboard Hub](de-apexboard-peakboard-hub.html) fest. So kannst du auf einen Blick erkennen wo ein Eingreifen nötig wird.
 
-![Kennzahlen Dashboard Übersicht]()
+![Kennzahlen Dashboard Übersicht](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-01.png)
 
 ### Kennzahlen filtern
 
 Im Datumsfeld oben rechts (1) kannst du festlegen für welchen Tag du die Kennzahlen angezeigt bekommen möchtest. Da im Regelmeeting meist über den vorangegangenen Tag gesprochen wird kannst du mit einem Klick auf [Zu gestern] (2) auf das gestrige Datum springen. Wenn du dich bereits in einem anderen Tag befindest, dann kannst du über [Zu heute] zurück zum heutigen Datum springen.
 
-Du kannst die Kennzahlen außerdem nach ihrer Kategorie filtern (3).
+Du kannst die Kennzahlen außerdem über das Menü nach ihrer Kategorie filtern (3).
 
-![Kennzahlen filtern]()
+![Kennzahlen filtern](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-02.png)
 
 ### Kennzahlen Details
 
 In den Details der Kennzahlen findest du drei Bereiche zur derzeit markierten Kennzahl.
 
-* **Durchschnittsanzeige für Heute/Gestern/7 Tage/30 Tage (1)** - Werte werden aggregiert dargestellt zusammen mit der relativen Abweichung
+* **Aggregationsanzeige für Heute/Gestern/7 Tage/30 Tage (1)** - Werte werden aggregiert dargestellt zusammen mit der relativen Abweichung
 * **Ist/Soll Vergleich letzte 10 Erfassungstage (2)** - Werte werden aggregiert als Säulendiagramm dargestellt. Ist-Werte bekommen die gleiche farbliche Markierung wie die Kennzahlen auf dem Dashboard.
 * **Abweichung in % letzte 10 Erfassungstage (3)** - Wird als Liniendiagramm dargestellt.
 
-Wie die Werte der Durchschnittsanzeige und des Ist/Soll Vergleichs aggregiert werden [legst du vorab im Peakboard Hub fest]().
+Wie die Werte der Aggregationsanzeige und des Ist/Soll Vergleichs aggregiert werden [legst du vorab im Peakboard Hub fest](de-apexboard-peakboard-hub.html).
 
 Unterhalb der Detailanzeige kannst du mit [Werte erfassen] (4) direkt weitere Werte für den aktuell im Datumsfeld ausgewählten Tag für die markierte Kennzahl erfassen.
 
 Über [Maßnahme zu Kennzahl erstellen] (5) kannst du direkt [in den Erstellungsdialog einer neuen Maßnahme springen](/apexboard/de-apexboard-measures.html) in dem die Kennzahl automatisch integriert wird.
 
-![Kennzahlen Details]()
+![Kennzahlen Details](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-03.png)
+
+### Tagesbewertung festlegen
+
+Wenn du über das Menü deine Kennzahlen nach Kategorie gefiltert hast, kannst du oberhalb der Kennzahlen im Bereich [Tagesbewertung] (1) festlegen, mit welcher Farbe der aktuell ausgewählte Tag in der gewählten Kategorie angezeigt werden soll.
+
+![Tagesbewertung festlegen](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-04.png)
