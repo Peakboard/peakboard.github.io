@@ -45,3 +45,21 @@ Here you can see where to set the permissions:
 To perform an update, download the latest [Peakboard Hub on premise installation file](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
 In the setup process, in contrast to the initial installation, you only check the [Peakboard Hub] box.
 The update can simply be installed over the already existing setup.
+
+### Log in with local Windows users
+
+To log in with your local Windows users instead of the Active Directory (domain) users, you must manually customize the configuration file `appsettings.json`. You can find the file by default under `C:/inetpub/PeakboardHub`
+
+Open the file with an editor and set the value `SiteSettings.IsPrincipalContextTypeMachine` to `true` and save the file.
+
+If the value does not exist, add the following area:
+
+```json
+"SiteSettings": {
+    "IsPrincipalContextTypeMachine": "true"
+  },
+```
+
+![Customize value](/assets/images/hub/hub_appsettings-json.png)
+
+Now the Active Directory (domain) users are no longer accessed but the local Windows users of the Peakboard Hub Server.
