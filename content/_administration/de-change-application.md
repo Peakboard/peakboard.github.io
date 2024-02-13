@@ -14,6 +14,7 @@ redirect_from:
 Je nach Anwendungsfall kann es nötig sein, die Anwendung auf einer Peakboard Box durch eine andere Anwendung auszutauschen.
 Es gibt mehrere Wege, um die Anwendung zu wechseln. Der Weg mit den umfangreichsten Optionen führt über den Peakboard Designer.
 Voraussetzung dafür ist, dass die Peakboard Box für das Gerät, auf dem der Peakboard Designer läuft, über das Netzwerk erreichbar ist.
+Auf einer Peakboard Box kann immer nur eine Anwendung laufen. Diese kann allerdings aus mehreren Bildschirmen bestehen.
 
 ### Anwendung im Peakboard Designer wechseln
 

@@ -14,6 +14,7 @@ redirect_from:
 Depending on the application, it may be necessary to replace the application on a Peakboard Boxes with another application.
 There are several ways to change the application. The way with the most extensive options is via the Peakboard Designer.
 To do this, the Peakboard Box must be accessible via the network for the device on which the Peakboard Designer is running.
+Only one application can run on a Peakboard Box at a time. However, it can consist of several screens.
 
 ### Change application in the Peakboard Designer
 
