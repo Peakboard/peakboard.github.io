@@ -11,6 +11,10 @@ redirect_from:
  - /administration/en-change-visualization.html
 ---
 
+Depending on the application, it may be necessary to replace the application on a Peakboard Boxes with another application.
+There are several ways to change the application. The way with the most extensive options is via the Peakboard Designer.
+To do this, the Peakboard Box must be accessible via the network for the device on which the Peakboard Designer is running.
+
 ### Change application in the Peakboard Designer
 
 To change the current application of your Peakboard Box, click on the Peakboard Box icon to open the Peakboard Box settings (1).
@@ -27,6 +31,8 @@ Further down in the [Visualization] area you have more options.
 Here you can select the orientation of the application (1) and the keyboard layout (2).
 You can use the drop-down menu (3) to select which application should be displayed from those that have already been uploaded.
 To the right of the drop-down menu, you can download (4), delete (5), start (6) or stop (7) the current application.
+
+To change the application, select the desired application from the drop-down list and click on the start button to start the application.
 
 [Manage applications](/assets/images/admin/management/en_change-application-03.png)
 
