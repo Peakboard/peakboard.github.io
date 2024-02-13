@@ -16,7 +16,7 @@ Der folgende Artikel zeigt das Vorgehen anhand des [Peakboard Hub Online](/hub/P
 
 Damit später die richtigen Abteilungen, Schichten, Mitarbeiter, und weitere Einstellungsoptionen im Apexboard verfügbar sind, musst du diese zuerst im Peakboard Hub konfigurieren. Die folgenden Listen musst du dafür im Peakboard Hub befüllen. Die restlichen Listen dienen der Datenspeicherung und sollten nicht bearbeitet werden.
 
-Du findest die Listen im Peakboard Hub unter dem Menüpunkt [Peakboard Hub Data] (1) im Tab [Peakboard Hub Lists] (2). Um einen neuen Eintrag in einer Liste anzulegen klickst du auf den [+ Add]-Button (3). Der Eintrag wird ganz unten in der Liste eingefügt. Um bestehende Einträge zu bearbeiten machst du einen Doppelklick in das Feld, das du bearbeiten möchtest.
+Du findest die Listen im Peakboard Hub unter dem Menüpunkt [Peakboard Hub Data] (1) im Tab [Peakboard Hub Lists] (2). Um einen neuen Eintrag in einer Liste anzulegen klickst du auf den [+ Add]-Button (3). Der Eintrag wird ganz unten in der Liste eingefügt. Um bestehende Einträge zu bearbeiten machst du einen Doppelklick in das Feld, das du bearbeiten möchtest. Wenn du Änderungen vorgenommen hast, speicherst du diese mit dem [Save]-Button (4).
 
 ![Peakboard Hub Listen](/assets/images/apexboard/peakboardhub/de_apexboard-peakboardhub-01.png)
 
