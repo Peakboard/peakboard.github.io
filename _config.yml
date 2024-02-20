@@ -73,6 +73,9 @@ collections:
       en: "Controls"
       de: "Controls"
     sublevel:
+      Basics:
+        en: "Basics"
+        de: "Basics"
       Common:
         en: "Common"
         de: "Standard"
