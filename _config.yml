@@ -174,7 +174,7 @@ language:
     homepage-product-section-title: "For what products do you need help"
     homepage-product-section-hub-title: "Peakboard Hub online & <br/>Peakboard Hub on-premise"
     homepage-product-section-edge-title: "Peakboard Edge"
-    homepage-product-section-designer-title: "Peakboard Designer, <br/> Peakboard Box & BYOD"
+    homepage-product-section-designer-title: "Peakboard Designer, <br/>Peakboard Box & BYOD"
     homepage-get-started-section-title: "Get started"
     homepage-video-section-title: "Popular videos"
     homepage-video-highlights-title: "Recommended videos"
@@ -262,10 +262,8 @@ language:
     homepage-top-section-search-placeholder-edge: "Peakboard Edge durchsuchen..."
     homepage-top-section-search-placeholder-designer: "Peakboard Designer durchsuchen..."
     homepage-product-section-title: "Für welches Produkt benötigst du Hilfe"
-    homepage-product-section-hub-title: "Peakboard Hub online  
-    + Peakboard Hub on-premise"
-    homepage-product-section-designer-title: "Peakboard Designer,  
-    Peakboard Box + BYOD"
+    homepage-product-section-hub-title: "Peakboard Hub online & <br/>Peakboard Hub on-premise"
+    homepage-product-section-designer-title: "Peakboard Designer, <br/>Peakboard Box & BYOD"
     homepage-product-section-edge-title: "Peakboard Edge"
     homepage-get-started-section-title: "Erste Schritte"
     homepage-video-section-title: "Beliebte Videos"
