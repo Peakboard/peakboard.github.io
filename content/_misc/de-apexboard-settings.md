@@ -4,18 +4,22 @@ title: Apexboard - Einstellungen und Schichtauswahl
 menu_title: Einstellungen und Schichtauswahl
 description: Informationen zu den Einstellungen und der Schichtauswahl des Apexboards
 lang: de
-weight: 990
-ref: misc-990
+weight: 989
+ref: misc-989
 draft: true
 ---
 
-Herzlich Willkommen zu deinem Apexboard!
-
-Du hast die Einrichtung des Peakboard Hub erfolgreich abgeschlossen und deine Peakboard Box mit dem Apexboard verbunden. In diesem Artikel lernst du, welche Einstellungen du für das Apexboard vornehmen kannst und wie du deine aktuelle Schicht auswählst.
+Du hast [die Einrichtung des Peakboard Hub](/apexboard/de-apexboard-peakboard-hub.html) erfolgreich abgeschlossen und [deine Peakboard Box mit dem Apexboard verbunden](/get_started/de-peakboard-box.html). In diesem Artikel lernst du, welche Einstellungen du für das Apexboard vornehmen kannst und wie du deine aktuelle Schicht auswählst.
 
 ## Einstellungen des Apexboard
 
-Beim ersten Start deines Apexboard öffnet sich automatisch der Bildschirm mit den Einstellungen für dein Apexboard. Hier verbindest du es mit dem WLAN (1) und deinem Peakboard Hub (2).
+Beim ersten Start deines Apexboard öffnet sich automatisch der Bildschirm mit den Einstellungen für dein Apexboard. Hier verbindest du es mit dem WLAN (1) und [deinem zuvor eingerichteten Peakboard Hub](/apexboard/de-apexboard-peakboard-hub.html) (2).
+
+<div class="box-tip" markdown="1">
+**Hinweis:**
+
+Ohne [die vorangegangene Konfiguration des Peakboard Hub](/apexboard/de-apexboard-peakboard-hub.html), kann das Apexboard unter Umständen nur eingeschränkt funktionieren.
+</div>
 
 ![Willkommensbildschirm](/assets/images/apexboard/settings/de_apexboard-settings-01.png)
 
@@ -31,11 +35,19 @@ Klicke zuletzt auf [Verbinden] (4) um die Verbindung zum WLAN herzustellen. Ob d
 
 ### Peakboard Hub verbinden
 
-Damit das Apexboard dir deine angelegten Abteilungen, Schichten und Kennzahlen anzeigen und deine Daten speichern und verarbeiten kann, musst du es mit deinem Peakboard Hub verbinden.
+Damit das Apexboard dir deine angelegten Abteilungen, Schichten und Kennzahlen anzeigen und deine Daten speichern und verarbeiten kann, musst du es mit deinem [zuvor eingerichteten Peakboard Hub](/apexboard/de-apexboard-peakboard-hub.html) verbinden.
 
 Mit dem Schieberegler (1) kannst du auswählen ob es sich bei deinem Peakboard Hub um den Peakboard Hub online (Standard) oder den Peakboard Hub On Premise handelt.
 
-Gib dann deine Verbindungsdaten ein. Im Falle des Peakboard Hub online genügt der Gruppenschlüssel [Group Key] (2). Beim Peakboard Hub On Premise musst du zusätzlich die [URL / IP Adresse] (3) angeben unter der dein Peakboard Hub erreichbar ist. Ob die Verbindung erfolgreich war erkennst du daran, dass [Verbunden] (4) angezeigt wird.
+<div class="box-tip" markdown="1">
+**Hinweis:**
+
+Apexboard wird standardmäßig mit dem Peakboard Hub online ausgeliefert.
+</div>
+
+Gib dann deine Verbindungsdaten ein. Im Falle des Peakboard Hub online genügt der Gruppenschlüssel [Group Key] (2).
+
+Beim Peakboard Hub On Premise musst du zusätzlich die [URL / IP Adresse] (3) angeben unter der dein Peakboard Hub erreichbar ist. Ob die Verbindung erfolgreich war erkennst du daran, dass [Verbunden] (4) angezeigt wird.
 
 ![Peakboard Hub verbinden](/assets/images/apexboard/settings/de_apexboard-settings-03.png)
 
@@ -50,7 +62,7 @@ Mit einem Klick auf [Weiter] (2) gelangst du auf den Bildschirm der Schichtauswa
 
 ## Schichtauswahl - zukünftiger Startbilschirm
 
-Im Bildschirm der Schichtauswahl kannst du aus den Abteilungen (1) und den Schichten (2) auswählen, die du zuvor [im Peakboard Hub angelegt hast](de-apexboard-peakboard-hub.html). Die korrekte Auswahl ist wichtig, damit erfasste Daten korrekt zugeordnet werden.
+Im Bildschirm der Schichtauswahl kannst du aus den Abteilungen (1) und den Schichten (2) auswählen, die du zuvor [im Peakboard Hub angelegt hast](/apexboard/de-apexboard-peakboard-hub.html). Die korrekte Auswahl ist wichtig, damit erfasste Daten korrekt zugeordnet werden.
 
 Wenn du deine Abteilung und Schicht ausgewählt hast kannst du das [Apexboard starten] (3). Möchtest du vorher nochmal etwas an den Einstellungen verändern gelangst du mit einem Klick auf [Einstellungen] (4) zurück in den Bildschirm mit den WLAN und Peakboard Hub Einstellungen.
 
