@@ -61,10 +61,6 @@ Um eine Lizenz beim Peakboard-Vertriebsteam anzufordern, [sende bitte den Hardwa
 
 ![BYOD lizensieren](/assets/images/get_started/de_peakboard-byod-04.png)
 
-Wenn du die Instanz nur für Testzwecke nutzen möchtest kannst du diesen Schritt überspringen und die Instanz weiterhin unlizensiert lassen. Eine unlizenzierte Peakboard BYOD Instanz funktioniert ohne jegliche Einschränkungen. Es wird lediglich ein Banner erscheinen, das auf die fehlende Lizenz hinweist.
-
-![Lizenzwarnung](/assets/images/get_started/de_peakboard-byod-05.png)
-
 ## Automatische Anmeldung und automatischer Start
 
 In vielen Anwendungsfällen soll die Peakboard BYOD Instanz automatisch nach dem Einschalten des Geräts gestartet werden, ohne dass der Endnutzer mit der Windows-Oberfläche interagieren muss.

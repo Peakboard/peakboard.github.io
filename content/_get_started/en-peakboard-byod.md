@@ -61,10 +61,6 @@ To request a license from the Peakboard sales team, [please send the hardware ke
 
 ![BYOD license](/assets/images/get_started/en_peakboard-byod-04.png)
 
-If you only want to use the instance for test purposes, you can skip this step and leave the instance unlicensed. An unlicensed Peakboard BYOD instance works without any restrictions. Only a banner will appear indicating the missing license.
-
-![License warning](/assets/images/get_started/en_peakboard-byod-05.png)
-
 ## Automatic login and automatic start
 
 In many use cases, the Peakboard BYOD instance should be started automatically after the device is switched on without the end user having to interact with the Windows interface.
