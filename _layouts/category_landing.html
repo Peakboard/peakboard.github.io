@@ -41,7 +41,7 @@ layout: base
                   {% else %}
                     {% assign sub_level = parts[1] %}
                     {% assign matched = used_categories | where_exp:"item", "item == sub_level" | size %}
-                    {% if matched == 1 %}
+                    {% if matched == 0 %}
                       {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
                       {% assign current_page_parts = page.url | split: "/" %}
                       <p class="text-center w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer">
