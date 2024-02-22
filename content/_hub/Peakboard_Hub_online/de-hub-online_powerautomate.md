@@ -5,8 +5,8 @@ title: Microsoft Power Automate Peakboard Connector
 menu_title: Power Automate Peakboard Connector
 description: Microsoft Power Automate Peakboard Connector
 lang: de
-weight: 230
-ref: hub-230
+weight: 240
+ref: hub-240
 redirect_from:
 ---
 
