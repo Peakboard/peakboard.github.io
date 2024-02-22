@@ -17,16 +17,22 @@ Diese Anleitung beschreibt die lokale Installation auf einem handelsüblichen Wi
 
 Für spätere Administrative Tätigkeiten benötigst du den Peakboard-Designer. Die [Installation für Windows kannst du hier herunterladen](https://peakboard.com/download/Peakboard/master/PeakboardSetup.exe).
 
-Die Installation ist geführt. Solltest du dennoch eine Anleitung benötigen findest du [hier in der Peakboard Help den passenden Artikel](/get_started/de-peakboard-designer.html).
+Die Installation [führt dich durch den Prozess](/get_started/de-peakboard-designer.html).
 
 ### Peakboard BYOD installieren
 
 Um Apexboard direkt auf deinem lokalen PC zu nutzen musst du [eine Instanz von Peakboard BYOD lokal installieren](/get_started/de-peakboard-byod.html).
 
-Wie in der Installationsanleitung beschrieben, musst du die neue BYOD-Instanz dem Designer hinzufügen. Den dafür nötigen Lizenzschlüssel kannst du unter [sales@peakboard.com](mailto:sales@peakboard.com) anfragen. Diese BYOD-Lizenz musst du nicht separat erwerben, sie ist in der Apexboard-Lizenz enthalten.
+Wie in der Installationsanleitung beschrieben, musst du die neue BYOD-Instanz dem Designer hinzufügen. Den dafür nötigen Lizenzschlüssel kannst du unter [sales@peakboard.com](mailto:sales@peakboard.com) anfragen.
 
-### pbmx-Datei herunterladen und nutzen
+<div class="box-tip" markdown="1">
+**Hinweis:**
 
-Die pbmx-Datei, die du für die Verwendung von Apexboard zusammen mit deiner BYOD-Instanz benötigst fragst du ebenfalls unter [sales@peakboard.com](mailto:sales@peakboard.com) an. Im Anschluss musst du [die pbmx-Datei mit Hilfe des Peakboard Designers auf deine BYOD-Instanz überspielen](/get_started/de-peakboard-box.html).
+Diese BYOD-Lizenz musst du nicht separat erwerben, sie ist in der Apexboard-Lizenz enthalten.
+</div>
+
+### Apexboard Anwendung herunterladen und nutzen
+
+Die pbmx-Datei der Apexboard Anwendung, die du für die Verwendung von Apexboard zusammen mit deiner BYOD-Instanz benötigst fragst du ebenfalls unter [sales@peakboard.com](mailto:sales@peakboard.com) an. Im Anschluss musst du [die pbmx-Datei mit Hilfe des Peakboard Designers auf deine BYOD-Instanz überspielen](/get_started/de-peakboard-box.html).
 
 Nachdem du die pbmx-Datei und damit die Apexboard Anwendung auf die BYOD-Instanz überspielt hast, läuft sie dort auch nach einem Neustart. Wenn du [deinen Peakboard Hub bereits eingerichtet hast](/apexboard/de-apexboard-peakboard-hub.html), kannst du wie gewohnt [mit den Einstellungen des Apexboard starten](/apexboard/de-apexboard-settings.html) und dein Apexboard auf deinem lokalen PC nutzen.
