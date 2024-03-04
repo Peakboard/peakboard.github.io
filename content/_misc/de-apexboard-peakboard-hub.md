@@ -79,6 +79,7 @@ In der Peakboard Hub Liste [SFM_M_Kpi] definierst du alle Eigenschaften deiner [
 | RelativeDelta     | Wenn für den Schwellenwert der Farbabstufung die relative Abweichung in Prozent genutzt werden soll, anstatt beispielsweise der exakten absoluten Abweichung in Stück, dann muss diese Checkbox aktiviert werden. Die Angaben in den Spalten [DeltaOrange] und [DeltaRed] werden dann in Prozent interpretiert, anstatt in der unter [Unit] angegebenen Einheit. |
 | NegativeKpi       | Mit dieser Checkbox kann festgelegt werden, wie Abweichungen vom Soll-Wert der Kennzahl interpretiert werden. Ist die Checkbox aktiviert, ist das Ziel, mit dem Ist-Wert unter dem Soll-Wert zu bleiben. Eine Überschreitung des Soll-Wertes hat negative Auswirkungen. Beispiel für solche Kennzahlen wären beispielsweise Unfälle, Durchlaufzeiten oder Ausschuss. |
 | ShowCurrentDay    | Mit dieser Checkbox legst du fest, welches Datum standardmäßig bei der Erfassung der Kennzahl hinterlegt sein soll. Bei aktivierter Checkbox wird der aktuelle Tag hinterlegt, ansonsten wird der Vortag angezeigt. Über das Datumsfeld kann weiterhin ein abweichendes Datum gewählt werden. |
+| SortingPosition   | Mit dieser Spalte legst du die Sortierungsreihenfolge fest.                               |
 
 [zum Seitenanfang](#anfang)
 
@@ -121,6 +122,7 @@ Die Spalten werden wie folgt befüllt.
 | ShowShift         | Mit dieser Checkbox legst du fest, ob die Schicht in der [Schichtauswahl](/apexboard/de-apexboard-settings.html) angezeigt wird oder ausgeblendet ist. |
 | ShiftStartTime    | Hier legst du im Format HHmm (Stunden:Minuten im 24-Stunden-Zeitformat) fest, um welche Uhrzeit die Schicht beginnt.  |
 | ShiftEndTime      | Hier legst du fest, um welche Uhrzeit die angelegte Schicht endet.                                                    |
+| SortingPosition   | Mit dieser Spalte legst du die Sortierungsreihenfolge fest.                                                           |
 
 [zum Seitenanfang](#anfang)
 

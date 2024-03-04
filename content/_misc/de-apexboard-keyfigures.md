@@ -50,9 +50,11 @@ In den Details der Kennzahlen findest du drei Bereiche zur derzeit markierten Ke
 
 Wie die Werte der Aggregationsanzeige und des Ist/Soll Vergleichs aggregiert werden [legst du vorab im Peakboard Hub fest](de-apexboard-peakboard-hub.html).
 
-Unterhalb der Detailanzeige kannst du mit [Werte erfassen] (4) direkt weitere Werte für den aktuell im Datumsfeld ausgewählten Tag für die markierte Kennzahl erfassen.
+Hast du beim [Erfassen von Werten](/apexboard/de-apexboard-capture.html) für eine Kennzahl mehrere Werte erfasst und diese per Kommentar voneinander unterschieden, kannst du die erfassten Werte mit einem Klick auf den [Liste]-Button (4) anzeigen lassen. Der aggregierte Wert der markierten Kennzahl setzt sich aus den Datensätzen zusammen, die in der Liste angezeigt werden.
 
-Über [Maßnahme zu Kennzahl erstellen] (5) kannst du direkt [in den Erstellungsdialog einer neuen Maßnahme springen](/apexboard/de-apexboard-measures.html) in dem die Kennzahl automatisch integriert wird.
+Unterhalb der Detailanzeige kannst du mit [Werte erfassen] (5) direkt weitere Werte für den aktuell im Datumsfeld ausgewählten Tag für die markierte Kennzahl erfassen.
+
+Über [Maßnahme zu Kennzahl erstellen] (6) kannst du direkt [in den Erstellungsdialog einer neuen Maßnahme springen](/apexboard/de-apexboard-measures.html) in dem die Kennzahl automatisch integriert wird.
 
 ![Kennzahlen Details](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-03.png)
 

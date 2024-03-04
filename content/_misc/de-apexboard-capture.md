@@ -47,11 +47,11 @@ Rechts oben findest du ein Info-Symbol (2). Durch einen Klick darauf wird dir ei
 
 In der Maske trägst du jetzt den aktuell Ist-Wert (3) sowie den Soll-Wert (4) ein.
 
-Wähle dann das gewünschte Datum (5) für den Wert aus. Das hier standardmäßig voreingestellte Datum [stellst du ebenfalls im Peakboard Hub ein](/apexboard/de-apexboard-peakboard-hub.html). Es kann entweder der aktuelle Tag oder der Vortag sein. Die Uhrzeit wird automatisch erfasst.
+Wähle dann das gewünschte Datum (5) für den Wert aus. Das hier standardmäßig voreingestellte Datum [stellst du ebenfalls im Peakboard Hub ein](/apexboard/de-apexboard-peakboard-hub.html). Es kann entweder der aktuelle Tag oder der Vortag sein. Die Uhrzeit wird automatisch erfasst. Mit dem Button [Zu heute] stellst du das Datum auf den heutigen Tag.
 
 Im Feld [Erfasst von] (6) wählst du aus von welchem Mitarbeiter der Wert ursprünglich erfasst wurde. Es stehen dabei alle Mitarbeiter, die [im Peakboard Hub hinterlegt wurden](/apexboard/de-apexboard-peakboard-hub.html) zur Auswahl.
 
-Zuletzt kannst du noch einen Kommentar (7) zu deinem erfassten Wert eintragen.
+Zuletzt kannst du noch einen Kommentar (7) zu deinem erfassten Wert eintragen. Dies kannst du nutzen um beispielsweise eine Kennzahl auf mehrere Maschinen aufzuteilen und später in den [Kennzahlen](/apexboard/de-apexboard-keyfigures.html) wieder anzuzeigen.
 
 Mit [Erfassen] (8) wird der Wert gespeichert und erscheint in der Liste der zuletzt erfassten Werte (9).
 
