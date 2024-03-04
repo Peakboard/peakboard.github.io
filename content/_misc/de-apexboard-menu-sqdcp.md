@@ -11,7 +11,14 @@ draft: true
 
 Du hast [deinen Peakboard Hub konfiguriert](/apexboard/de-apexboard-peakboard-hub.html), alle [Einstellungen vorgenommen und deine aktuelle Abteilung und Schicht ausgewählt](/apexboard/de-apexboard-settings.html). Nach der Bestätigung deiner Schichtauswahl befindest du dich automatisch im ersten Bildschirm deines Apexboard.
 
-## SQDCP Monatsübersicht
+<a name="anfang"></a>
+
+Der Artikel ist in die folgenden Bereiche unterteilt:
+
+* [SQDCP Monatsübersicht](#sqdcp)
+* [Das Menü](#menue)
+
+## SQDCP Monatsübersicht {#sqdcp}
 
 Hier hast du Zugriff auf das Menü (1) und erhälst auf einen Blick eine übersichtliche Visualisierung (2) über den aktuellen Stand deiner Kennzahlen im aktuellen Monats in den einzelnen Schlüsselbereichen.
 Die Abkürzung steht für Safety (Sicherheit), Quality (Qualität), Cost (Kosten), Delivery (Lieferung) und People (Personal).
@@ -22,7 +29,9 @@ Sind für einen der Bereiche gar keine Kennzahlen [im Peakboard Hub definiert wo
 
 ![Überblick SQDCP](/assets/images/apexboard/capture/de_apexboard-capture-01.png)
 
-## Das Menü
+[zum Seitenanfang](#anfang)
+
+## Das Menü {#menue}
 
 Auf der linken Seite des Bildschirms findest du das Menü. Du bekommst dort auf einen Blick das Datum angezeigt (1), sowie deine aktuell ausgewählte Abteilung und Schicht (2). Mit [Abmelden] (3) kannst du diese Auswahl ändern und gelangst zurück zur [Schichtauswahl](/apexboard/de-apexboard-settings.html).
 
@@ -39,3 +48,5 @@ Unterhalb des Timers findest du die verschiedenen Menüpunkte (5).
 * [**Einstellungen**](/apexboard/de-apexboard-settings.html) - Passe deine WLAN und Peakboard Hub Einstellungen an
 
 ![Das Menü](/assets/images/apexboard/capture/de_apexboard-capture-02.png)
+
+[zum Seitenanfang](#anfang)

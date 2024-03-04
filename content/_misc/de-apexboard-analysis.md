@@ -11,7 +11,11 @@ draft: true
 
 Da in den [Kennzahlen](/apexboard/de-apexboard-keyfigures.html) nur Daten zu der aktuell angemeldeten Abteilung und Schicht angezeigt werden, gibt es ein separates Tool zur automatischen abteilungsübergreifenden Analyse von Kennzahlen.
 
-## Neue Analyse vorbereiten
+<a name="anfang"></a>
+
+Du kannst [neue Analysen vorbereiten](#vorbereiten) und [die Ergebnisse auswerten](#analyse).
+
+## Neue Analyse vorbereiten {#vorbereiten}
 
 Um eine automatische Analyse einer Kennzahl zu erstellen, wählst du deine gewünschten Parameter aus und beginnst die Erstellung der Analyse mit einem Klick auf [Laden] (1).
 
@@ -19,7 +23,9 @@ Wähle zuerst eine oder mehrere Abteilungen (2) und Schichten (3) aus, für die 
 
 ![Analyse vorbereiten](/assets/images/apexboard/analysis/de_apexboard-analysis-01.png)
 
-## Die fertige Analyse
+[zum Seitenanfang](#anfang)
+
+## Die fertige Analyse {#analyse}
 
 Das Ergebnis der Analyse ist in vier Bereiche aufgeteilt. Die Daten werden für die gewählten Parameter aggregiert angezeigt.
 
@@ -29,3 +35,5 @@ Das Ergebnis der Analyse ist in vier Bereiche aufgeteilt. Die Daten werden für 
 * **Aggregationsanzeige für Heute/Gestern/7 Tage/30 Tage (4)** - Werte werden aggregiert dargestellt zusammen mit der relativen Abweichung.
 
 ![Die Analyse](/assets/images/apexboard/analysis/de_apexboard-analysis-02.png)
+
+[zum Seitenanfang](#anfang)

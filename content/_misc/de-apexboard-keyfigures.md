@@ -11,7 +11,16 @@ draft: true
 
 Du hast [einige Werte erfasst](/apexboard/de-apexboard-capture.html) und kannst dir jetzt im Menüpunkt [Kennzahlen] (1) einen besseren Überblick verschaffen.
 
-## Kennzahlen Dashboard
+<a name="anfang"></a>
+
+Nutze die folgenden Möglichkeiten:
+
+* [Kennzahlen Dashboard](#dashboard)
+* [Kennzahlen filtern](#filtern)
+* [Kennzahlen Details](#details)
+* [Tagesbewertung festlegen](#tagesbewertung)
+
+## Kennzahlen Dashboard {#dashboard}
 
 Beim ersten Öffnen des Kennzahlen Dashboards bekommst du einen Überblick über den aktuellen Tag. Es werden alle Kennzahlen angezeigt, für die an diesem Tag Werte in der angemeldeten Abteilung und Schicht erfasst wurden (1). Die erste Kennzahl ist automatisch markiert (2). Im rechten Bereich (3) werden die Details der markierten Kennzahl angezeigt.
 
@@ -19,7 +28,9 @@ Die Kennzahlen sind farblich nach ihrem Inhalt markiert. Positive/erfüllte Kenn
 
 ![Kennzahlen Dashboard Übersicht](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-01.png)
 
-### Kennzahlen filtern
+[zum Seitenanfang](#anfang)
+
+### Kennzahlen filtern {#filtern}
 
 Im Datumsfeld oben rechts (1) kannst du festlegen für welchen Tag du die Kennzahlen angezeigt bekommen möchtest. Da im Regelmeeting meist über den vorangegangenen Tag gesprochen wird kannst du mit einem Klick auf [Zu gestern] (2) auf das gestrige Datum springen. Wenn du dich bereits in einem anderen Tag befindest, dann kannst du über [Zu heute] zurück zum heutigen Datum springen.
 
@@ -27,7 +38,9 @@ Du kannst die Kennzahlen außerdem über das Menü nach ihrer Kategorie filtern 
 
 ![Kennzahlen filtern](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-02.png)
 
-### Kennzahlen Details
+[zum Seitenanfang](#anfang)
+
+### Kennzahlen Details {#details}
 
 In den Details der Kennzahlen findest du drei Bereiche zur derzeit markierten Kennzahl.
 
@@ -43,8 +56,12 @@ Unterhalb der Detailanzeige kannst du mit [Werte erfassen] (4) direkt weitere We
 
 ![Kennzahlen Details](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-03.png)
 
-### Tagesbewertung festlegen
+[zum Seitenanfang](#anfang)
+
+### Tagesbewertung festlegen {#tagesbewertung}
 
 Wenn du über das Menü deine Kennzahlen nach Kategorie gefiltert hast, kannst du oberhalb der Kennzahlen im Bereich [Tagesbewertung] (1) festlegen, mit welcher Farbe der aktuell ausgewählte Tag in der gewählten Kategorie angezeigt werden soll.
 
 ![Tagesbewertung festlegen](/assets/images/apexboard/keyfigures/de_apexboard-keyfigures-04.png)
+
+[zum Seitenanfang](#anfang)

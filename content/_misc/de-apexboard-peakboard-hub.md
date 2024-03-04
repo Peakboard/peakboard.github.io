@@ -12,6 +12,8 @@ draft: true
 Die Daten deines Apexboard werden im Peakboard Hub gespeichert. Neben der reinen Funktion als Datenspeicher kannst du über den Peakboard Hub dein Apexboard konfigurieren und deiner Arbeitsumgebung anpassen.
 Der folgende Artikel zeigt das Vorgehen anhand des [Peakboard Hub Online](/hub/Peakboard_Hub_online/de-get-started-online.html). Der Peakboard Hub Online des Apexboard wird dafür vorkonfiguriert ausgeliefert und beinhaltet bereits die für den reibungslosen Betrieb benötigten Listen.
 
+<a name="anfang"></a>
+
 ## Stammdaten im Peakboard Hub pflegen
 
 Damit später die richtigen Abteilungen, Schichten, Mitarbeiter und weitere Einstellungsoptionen im Apexboard verfügbar sind, musst du diese zuerst im Peakboard Hub konfigurieren. Die folgenden Listen musst du dafür im Peakboard Hub befüllen. Die restlichen Listen dienen der Datenspeicherung und sollten nicht bearbeitet werden.
@@ -40,6 +42,8 @@ In der Peakboard Hub Liste [SFM_M_Departments] definierst du die Abteilungen dei
 | ShowDepartment    | Mit dieser Checkbox legst du fest, ob diese Abteilung derzeit im Apexboard angezeigt wird oder nicht.                                             |
 | SortingPosition   | Mit dieser Spalte legst du die Sortierungsreihenfolge der Abteilungen fest. Die Sortierung erfolgt von rechts nach links und von oben nach unten. |
 
+[zum Seitenanfang](#anfang)
+
 ### SFM_M_Employees {#employees}
 
 In der Peakboard Hub Liste [SFM_M_Employees] legst du die einzelnen Mitarbeiter deines Unternehmens an. Den hier angelegten Mitarbeitern können im Apexboard dann Verantwortlichkeiten für [Kennzahlen](/apexboard/de-apexboard-keyfigures.html) oder [Maßnahmen](/apexboard/de-apexboard-measures.html) zugeordnet werden. Du befüllst die Spalten wie folgt.
@@ -54,6 +58,8 @@ In der Peakboard Hub Liste [SFM_M_Employees] legst du die einzelnen Mitarbeiter 
 | ReceiveNotifications  | Mit dieser Checkbox legst du fest, ob der Mitarbeiter in bestimmten Situationen benachrichtigt werden soll oder nicht.    |
 
 Jeder neu angelegte Mitarbeiter erhält automatisch eine [EmployeeID]
+
+[zum Seitenanfang](#anfang)
 
 ### SFM_M_Kpi {#kpi}
 
@@ -74,6 +80,8 @@ In der Peakboard Hub Liste [SFM_M_Kpi] definierst du alle Eigenschaften deiner [
 | NegativeKpi       | Mit dieser Checkbox kann festgelegt werden, wie Abweichungen vom Soll-Wert der Kennzahl interpretiert werden. Ist die Checkbox aktiviert, ist das Ziel, mit dem Ist-Wert unter dem Soll-Wert zu bleiben. Eine Überschreitung des Soll-Wertes hat negative Auswirkungen. Beispiel für solche Kennzahlen wären beispielsweise Unfälle, Durchlaufzeiten oder Ausschuss. |
 | ShowCurrentDay    | Mit dieser Checkbox legst du fest, welches Datum standardmäßig bei der Erfassung der Kennzahl hinterlegt sein soll. Bei aktivierter Checkbox wird der aktuelle Tag hinterlegt, ansonsten wird der Vortag angezeigt. Über das Datumsfeld kann weiterhin ein abweichendes Datum gewählt werden. |
 
+[zum Seitenanfang](#anfang)
+
 ### SFM_M_ProcessingStatus {#processingstatus}
 
 In der Peakboard Hub Liste [SFM_M_ProcessingStatus] definierst du die vier Spaltennamen deines [Maßnahmen Kanban-Board](/apexboard/de-apexboard-measures.html). Die Spalten werden dabei wie folgt befüllt.
@@ -83,6 +91,8 @@ In der Peakboard Hub Liste [SFM_M_ProcessingStatus] definierst du die vier Spalt
 |-------------------|-------------------------------------------------------|
 | ProcessingStatus  | Der Name der Spalte auf dem Maßnahmen Kanban-Board.   |
 | Position          | Die Sortierung der Spalten von links nach rechts.     |
+
+[zum Seitenanfang](#anfang)
 
 ### SFM_M_Settings {#settings}
 
@@ -95,6 +105,8 @@ In der Peakboard Hub Liste [SFM_M_Settings] werden einige grundlegende Einstellu
 | HubVersionNumber      | Hier wird die Version des verwendeten Peakboard Hub eingetragen. Diese Spalte wird ebenfalls vorausgefüllt und sollte nicht verändert werden. |
 | MeetingTimerMinutes   | Hier legst du die Dauer des Timers in der Menüleiste des Apexboard fest, der dich bei deinen Shopfloormeetings unterstützen soll. Die Angabe erfolgt in Minuten. |
 | TimelineDefaultUrl    | In der Detailansicht deiner definierten [Maßnahmen](/apexboard/de-apexboard-measures.html) im Apexboard findest du den Bearbeitungsfortschritt. Dort kannst du neben Texteinträgen auch Link-Einträge vornehmen. Mit der URL, die du in dieser Spalte eingibst, legst du fest, welche Website standardmäßig dort eingetragen wird. Dies kann sinnvoll sein, wenn regelmäßig auf die gleiche Website zugegriffen werden soll, beispielsweise eine Seite aus dem Intranet des Unternehmens. Lässt du den Eintrag leer, wird standardmäßig keine Website hinterlegt. |
+
+[zum Seitenanfang](#anfang)
 
 ### SFM_M_Shifts {#shifts}
 
@@ -110,6 +122,8 @@ Die Spalten werden wie folgt befüllt.
 | ShiftStartTime    | Hier legst du im Format HHmm (Stunden:Minuten im 24-Stunden-Zeitformat) fest, um welche Uhrzeit die Schicht beginnt.  |
 | ShiftEndTime      | Hier legst du fest, um welche Uhrzeit die angelegte Schicht endet.                                                    |
 
+[zum Seitenanfang](#anfang)
+
 ### SFM_M_Urls {#urls}
 
 In der Peakboard Hub Liste [SFM_M_Urls] definierst du die Menüeinträge des Browsers im Apexboard. Die Spalten befüllst du wie folgt.
@@ -119,3 +133,5 @@ In der Peakboard Hub Liste [SFM_M_Urls] definierst du die Menüeinträge des Bro
 |---------------|---------------------------------------------------------------------------------------------------|
 | PageName      | Der Name der Website, wie er im Untermenü des Browsers im Apexboard angezeigt werden soll.        |
 | Url           | Die URL der Website, die angezeigt werden soll, wenn der entsprechende Menüpunkt angeklickt wird. |
+
+[zum Seitenanfang](#anfang)

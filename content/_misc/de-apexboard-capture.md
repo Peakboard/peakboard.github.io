@@ -11,15 +11,22 @@ draft: true
 
 Du hast dir [einen Überblick über die Menüstruktur des Apexboard verschafft](/apexboard/de-apexboard-menu-sqdcp.html). Jetzt bist du bereit die ersten Werte zu erfassen.
 
+<a name="anfang"></a>
+
+In diesem Artikel findest du Informationen zu den Bereichen:
+
+* [Zuletzt erfasst](#zuletzt)
+* [Kennzahl auswählen und Werte erfassen](#werte)
+
 ## Werte erfassen
 
 Über das Menü gelangst du in den Bereich [Werte erfassen]. Hier kannst du direkt mit dem Erfassen von Werten beginnen (1) und bekommst einen Überblick über die zuletzt erfassten Werte (2).
 
 ![Werte erfassen](/assets/images/apexboard/capture/de_apexboard-capture-03.png)
 
-### Zuletzt erfasst
+### Zuletzt erfasst {#zuletzt}
 
-Im rechten Bereich des Bildschirms bekommst du eine Übersicht über die zuletzt erfassten Werte. Die Werte werden in einer detaillierten Liste mit Datum und Uhrzeit (1), Kategorie der Kennzahl (2), Ist- und Soll-Wert (3), sowie eventuellen Kommentaren (4) angezeigt. Mit einem Klick auf das Zahnrad-Symbol (5) kannst du Änderungen an den erfassten Werten vornehmen. Mit dem Mülleimer-Symbol (6) kannst du erfasste Werte löschen.
+Im rechten Bereich des Bildschirms bekommst du eine Übersicht über die zuletzt erfassten Werte. Die Werte werden in einer detaillierten Liste mit Datum und Uhrzeit (1), Kategorie der Kennzahl (2), sowie dem Ersteller und ob die Kennzahl nachträglich geändert wurde, Ist- und Soll-Wert (3), sowie eventuellen Kommentaren (4) angezeigt. Mit einem Klick auf das Zahnrad-Symbol (5) kannst du Änderungen an den erfassten Werten vornehmen. Mit dem Mülleimer-Symbol (6) kannst du erfasste Werte löschen.
 
 <div class="box-warning" markdown="1">
 **Achtung!**
@@ -29,7 +36,9 @@ Geänderte und gelöschte Werte können nicht wiederhergestellt werden.
 
 ![Zuletzt erfasst](/assets/images/apexboard/capture/de_apexboard-capture-04.png)
 
-### Kennzahl auswählen und Wert detailliert erfassen
+[zum Seitenanfang](#anfang)
+
+### Kennzahl auswählen und Wert detailliert erfassen {#werte}
 
 Um einen neuen Wert zu erfassen musst du zuerst auswählen in welcher Kennzahl (1) du den Wert erfassen möchstest. Die Kennzahlen entsprechen denen, die du [im Peakboard Hub festgelegt hast](/apexboard/de-apexboard-peakboard-hub.html).
 
@@ -49,3 +58,5 @@ Mit [Erfassen] (8) wird der Wert gespeichert und erscheint in der Liste der zule
 ![Wert erfassen](/assets/images/apexboard/capture/de_apexboard-capture-05.png)
 
 Wenn du Werte erfasst hast kannst du für einen besseren Überblick [zu den Kennzahlen wechseln](/apexboard/de-apexboard-keyfigures.html).
+
+[zum Seitenanfang](#anfang)
