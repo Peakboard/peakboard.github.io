@@ -1,10 +1,10 @@
 [{
-  "version": "3.7.0.3",
+  "version": "3.7.0.4",
   "date": "05.02.2024",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.3.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.3.0/PeakboardSetup.exe",
-  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.3.0/PeakboardRuntimeSetupUI.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.4.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.4.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.7.0.4.0/PeakboardRuntimeSetupUI.exe",
   "tabs": [
     {
       "name": "Building block global functions",
@@ -33,6 +33,14 @@
     {
       "name": "General overview",
       "content": [{
+        "type": "headline",
+        "text": "Hotfix 3.7.0.4"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Box] - Fix for a bug where licenses disappeared when an update for the Peakboard Box was installed"
+        ]
+      }, {
         "type": "headline",
         "text": "Hotfix 3.7.0.3"
       }, {
