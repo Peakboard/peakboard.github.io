@@ -32,10 +32,10 @@
         {% assign sorted_articles = (articles | sort: 'weight') %}
         {% for article in sorted_articles %}
             <a  href="{{ article.url }}" class="relative">
-                <div class="h-48 pt-2 flex flex-col bg-gradient-radial to-black via-sherpa-blue from-sherpa-blue flex items-center justify-center hover:opacity-80">
+                <div class="h-48 pt-2 flex flex-col bg-gradient-radial to-black via-sherpa-blue from-sherpa-blue items-center justify-center hover:opacity-80">
                     <img src="{{ article.homepage_icon }}" alt="Icon for {{ article.title }}" class="h-32 -mb-3">
                     <div class="h-16 w-full" style="background: rgba(75,85,99, 0.8);">
-                        <p class="text-lg text-gray-200 text-center absolute bottom-0 left-0 right-0 pb-1">{{ article.title }}</p>
+                        <p class="text-lg font-semibold text-gray-200 text-center absolute bottom-0 left-0 right-0 pb-1">{{ article.title }}</p>
                     </div>
                 </div>
             </a>
