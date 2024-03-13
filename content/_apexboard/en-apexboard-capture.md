@@ -4,7 +4,7 @@ product: apexboard
 title: Apexboard - Werte erfassen
 menu_title: Werte erfassen
 description: Informationen zum Erfassen von Werten in Apexboard
-lang: de
+lang: en
 weight: 991
 ref: apex-991
 ---

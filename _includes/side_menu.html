@@ -13,7 +13,7 @@
     <div class="mt-2 mb-8">
         <h3 class="text-lg uppercase font-title font-extrabold side-menu-product cursor-pointer {% if page.product == 'designer' %}show-initial{% endif %}{% unless page.product %}show-initial{% endunless %}">Peakboard Designer</h3>
 
-        <!-- TODO: duplicated for peakboard hub, change later -->
+        <!-- TODO: duplicated for peakboard designer, change later -->
 
         <div class="hidden side-menu-product-menu">
             {% assign collections = site.collections | sort: 'position' %}
@@ -92,7 +92,7 @@
     <div class="mt-2 mb-8">
         <h3 class="text-lg uppercase font-title font-extrabold side-menu-product cursor-pointer {% if page.product == 'hub' %}show-initial{% endif %}">Peakboard hub</h3>
 
-        <!-- TODO: duplicated for peakboard designer, change later -->
+        <!-- TODO: duplicated for peakboard hub, change later -->
         <div class="hidden side-menu-product-menu">
             {% assign collections = site.collections | sort: 'position' %}
             {% for collection in collections %}
@@ -159,12 +159,78 @@
     <div class="mt-2 mb-8">
         <h3 class="text-lg uppercase font-title font-extrabold side-menu-product cursor-pointer {% if page.product == 'edge' %}show-initial{% endif %}">Peakboard edge</h3>
 
-        <!-- TODO: duplicated for peakboard designer, change later -->
+        <!-- TODO: duplicated for peakboard edge, change later -->
         <div class="hidden side-menu-product-menu">
             {% assign collections = site.collections | sort: 'position' %}
             {% for collection in collections %}
             {% assign used_categories = "" | split: "" %}
             {% if collection.product == "edge" %}
+            {% if collection.title[page.lang] %}
+            <div>
+                <div class="ml-4 mt-2 side-menu-links">
+                    {% assign articles=site[collection.label] | where:"lang",page.lang %}
+                    {% assign sorted_articles = articles | sort: 'weight' %}
+                    {% for article in sorted_articles %}
+                    {% assign parts = article.path | split: "/" %}
+                    {% assign num_parts = article.path | split: "/" | size %}
+                    {% unless article.draft %}
+                    {% unless article.hide_in_menu %}
+                    {% if num_parts == 2 %}
+                    <a class="-ml-4 w-full block py-1 text-sm no-underline {% if article.title == page.title %}text-orange{% else %}text-black hover:text-orange{% endif %}" href="{{ article.url | relative_url }}">
+                        {{ article.menu_title | default: article.title | escape }}
+                    </a>
+                    {% else %}
+                    {% assign sub_level = parts[1] %}
+                    {% assign matched = used_categories | where_exp:"item", "item == sub_level" | size %}
+                    {% if matched == 0 %}
+                    {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
+                    {% assign current_page_parts = page.url | split: "/" %}
+                    <p class="w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[2] %}show-initial{% endif %}">
+                        {{ sub_level | replace: "_", " " | escape }}
+
+                        <!-- to -rotate-90 -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.5 531.74" overflow="visible" stroke="currentColor" xml:space="preserve" class="h-2.5 w-2.5 inline mr-0.5 ml-2 transform rotate-180">
+                            <polygon points="460,530.874 1,265.87 460,0.866 "/>
+                        </svg>
+                    </p>
+
+                    {% assign sorted_sub_articles = all_articles | sort: 'weight' %}
+                    <div class="hidden">
+                        {% for art in sorted_sub_articles %}
+                        {% assign parts = art.path | split: "/" %}
+                        {% assign num_parts = art.path | split: "/" | size %}
+                        {% if num_parts == 3 and parts[1] == sub_level %}
+                        <a class="ml-6 w-full block py-1 text-sm no-underline {% if art.title == page.title %}text-orange{% else %}text-gray-600 hover:text-orange{% endif %}" href="{{ art.url | relative_url }}">
+                            {{ art.title | escape }}
+                        </a>
+
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    {% assign used_categories = used_categories | push: sub_level %}
+                    {% endif %}
+                    {% endif %}
+                    {% endunless %}
+                    {% endunless %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% assign articles=site[collection.label] | where:"lang",page.lang %}
+
+    <div class="mt-2 mb-8">
+        <h3 class="text-lg uppercase font-title font-extrabold side-menu-product cursor-pointer {% if page.product == 'apexboard' %}show-initial{% endif %}">Apexboard</h3>
+
+        <!-- TODO: duplicated for peakboard apexboard, change later -->
+        <div class="hidden side-menu-product-menu">
+            {% assign collections = site.collections | sort: 'position' %}
+            {% for collection in collections %}
+            {% if collection.product == "apexboard" %}
             {% if collection.title[page.lang] %}
             <div>
                 <div class="ml-4 mt-2 side-menu-links">

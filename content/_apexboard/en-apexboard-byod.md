@@ -4,7 +4,7 @@ product: apexboard
 title: Apexboard - BYOD
 menu_title: BYOD
 description: Informationen zu den nötigen Schritten um Apexboard mit Peakboard BYOD zu nutzen
-lang: de
+lang: en
 weight: 995
 ref: apex-995
 ---

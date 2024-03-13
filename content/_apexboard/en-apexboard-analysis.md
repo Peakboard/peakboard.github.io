@@ -4,7 +4,7 @@ product: apexboard
 title: Apexboard - Analyse
 menu_title: Analyse
 description: Informationen zur abteilungsübergreifenden Analyse von Kennzahlen im Apexboard
-lang: de
+lang: en
 weight: 994
 ref: apex-994
 ---

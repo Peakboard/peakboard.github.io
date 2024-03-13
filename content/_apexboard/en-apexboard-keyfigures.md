@@ -4,7 +4,7 @@ product: apexboard
 title: Apexboard - Kennzahlen
 menu_title: Kennzahlen
 description: Informationen zur Übersicht der Kennzahlen im Apexboard
-lang: de
+lang: en
 weight: 992
 ref: apex-992
 ---

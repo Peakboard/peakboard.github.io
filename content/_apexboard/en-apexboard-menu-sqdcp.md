@@ -4,7 +4,7 @@ product: apexboard
 title: Apexboard - Menü und SQDCP Übersicht
 menu_title: Menü und SQDCP Übersicht
 description: Informationen zur Strukturierung des Apexboard und der SQDCP Monatsübersicht
-lang: de
+lang: en
 weight: 990
 ref: apex-990
 ---

@@ -4,7 +4,7 @@ product: apexboard
 title: Apexboard - Peakboard Hub einrichten
 menu_title: Peakboard Hub einrichten
 description: Informationen zu den nötigen Schritten um Einstellungen für das Apexboard im Peakboard Hub vorzunehmen
-lang: de
+lang: en
 weight: 989
 ref: apex-989
 ---

@@ -155,6 +155,12 @@ collections:
       en: "Peakboard Edge"
       de: "Peakboard Edge"
 
+  apexboard:
+    output: true
+    product: "apexboard"
+    title:
+      en: "Apexboard"
+      de: "Apexboard"
 
 # Portions of text found throughout common components (like the footer) can be configured here for each language
 language:
@@ -171,10 +177,12 @@ language:
     homepage-top-section-search-placeholder-hub: "Search Peakboard Hub..."
     homepage-top-section-search-placeholder-edge: "Search Peakboard Edge..."
     homepage-top-section-search-placeholder-designer: "Search Peakboard Designer..."
+    homepage-top-section-search-placeholder-apexboard: "Search Apexboard..."
     homepage-product-section-title: "For what products do you need help"
     homepage-product-section-hub-title: "Peakboard Hub online & <br/>Peakboard Hub on-premise"
     homepage-product-section-edge-title: "Peakboard Edge"
     homepage-product-section-designer-title: "Peakboard Designer, <br/>Peakboard Box & BYOD"
+    homepage-product-section-apexboard-title: "Apexboard"
     homepage-get-started-section-title: "Get started"
     homepage-video-section-title: "Popular videos"
     homepage-video-highlights-title: "Recommended videos"
@@ -261,10 +269,12 @@ language:
     homepage-top-section-search-placeholder-hub: "Peakboard Hub durchsuchen..."
     homepage-top-section-search-placeholder-edge: "Peakboard Edge durchsuchen..."
     homepage-top-section-search-placeholder-designer: "Peakboard Designer durchsuchen..."
+    homepage-top-section-search-placeholder-apexboard: "Apexboard durchsuchen..."
     homepage-product-section-title: "Für welches Produkt benötigst du Hilfe"
     homepage-product-section-hub-title: "Peakboard Hub online & <br/>Peakboard Hub on-premise"
     homepage-product-section-designer-title: "Peakboard Designer, <br/>Peakboard Box & BYOD"
     homepage-product-section-edge-title: "Peakboard Edge"
+    homepage-product-section-apexboard-title: "Apexboard"
     homepage-get-started-section-title: "Erste Schritte"
     homepage-video-section-title: "Beliebte Videos"
     homepage-video-highlights-title: "Beliebte Videos"

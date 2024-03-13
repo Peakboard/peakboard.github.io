@@ -32,7 +32,7 @@
 </div>
 <div class="page-header">
     <div class="bg-black grid items-center pt-8 lg:pt-0">
-        <h2 id="normal-title" class="text-4xl text-white text-center font-black font-title dot lg:text-5xl">{% if page.product == 'hub' %}Peakboard Hub{% elsif page.product == 'edge' %}Peakboard Edge{% elsif include.homepage %}Peakboard Help{% else %}Peakboard Designer{% endif %}</h2>
+        <h2 id="normal-title" class="text-4xl text-white text-center font-black font-title dot lg:text-5xl">{% if page.product == 'hub' %}Peakboard Hub{% elsif page.product == 'edge' %}Peakboard Edge{% elsif page.product == 'apexboard' %}Apexboard{% elsif include.homepage %}Peakboard Help{% else %}Peakboard Designer{% endif %}</h2>
 
         {% if include.homepage %}
             <p class="px-4 text-lg text-white text-center pt-3 pb-6 max-w-lg mx-auto lg:px-0">
@@ -45,15 +45,17 @@
             <h2 id="hub-title" class="hidden text-4xl text-white text-center font-black font-title dot lg:text-5xl">Peakboard Hub</h2>
             <h2 id="designer-title" class="hidden text-4xl text-white text-center font-black font-title dot lg:text-5xl">Peakboard Designer</h2>
             <h2 id="edge-title" class="hidden text-4xl text-white text-center font-black font-title dot lg:text-5xl">Peakboard Edge</h2>
+            <h2 id="apexboard-title" class="hidden text-4xl text-white text-center font-black font-title dot lg:text-5xl">Apexboard</h2>
 
-            <style>.ais-search-box { max-width: 100%; width: 100%; border-radius: 9999px; }</style>
+
+        <style>.ais-search-box { max-width: 100%; width: 100%; border-radius: 9999px; }</style>
             <section class="bg-black my-8 mx-auto px-4 max-w-lg w-full" id="search-box"><!-- SearchBox --></section>
         {% else %}
             <div class="search-container my-8 mx-auto max-w-lg px-4">
                 <form id="search-form-homepage" action="{{search_link}}">
                     <span>
-                        <input type="text" class="search-bar search-bar-rounded focus:ring-0" placeholder="{% if page.product == 'hub' %}{{ site.language[page.lang].homepage-top-section-search-placeholder-hub }}{% elsif page.product == 'edge'%}{{ site.language[page.lang].homepage-top-section-search-placeholder-edge }}{% elsif include.homepage %}{{ site.language[page.lang].homepage-top-section-search-placeholder }}{% else %}{{ site.language[page.lang].homepage-top-section-search-placeholder-designer }}{% endif %}" name="fromHomepage" autocapitalize="off" autocomplete="off" autocorrect="off">
-                        <input type="hidden" name="product" value="{% if page.product == 'hub' %}hub{% elsif page.product == 'edge' %}edge{% elsif include.homepage %}help{% else %}designer{% endif %}">
+                        <input type="text" class="search-bar search-bar-rounded focus:ring-0" placeholder="{% if page.product == 'hub' %}{{ site.language[page.lang].homepage-top-section-search-placeholder-hub }}{% elsif page.product == 'edge'%}{{ site.language[page.lang].homepage-top-section-search-placeholder-edge }}{% elsif page.product == 'apexboard'%}{{ site.language[page.lang].homepage-top-section-search-placeholder-apexboard }}{% elsif include.homepage %}{{ site.language[page.lang].homepage-top-section-search-placeholder }}{% else %}{{ site.language[page.lang].homepage-top-section-search-placeholder-designer }}{% endif %}" name="fromHomepage" autocapitalize="off" autocomplete="off" autocorrect="off">
+                        <input type="hidden" name="product" value="{% if page.product == 'hub' %}hub{% elsif page.product == 'edge' %}edge{% elsif page.product == 'apexboard' %}apexboard{% elsif include.homepage %}help{% else %}designer{% endif %}">
                     </span>
                 </form>
             </div>
