@@ -19,8 +19,8 @@ Welche Ports genau genutzt werden, hängt dabei natürlich vom Einzelfall ab.
 
 {% include styled_table.html %}
 {: .w-full }
-| 40404       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
-| 40405       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box |
+| 40404       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box / Peakboard BYOD |
+| 40405       | Kommunikationskanal zwischen Peakboard Designer und Peakboard Box / Peakboard BYOD |
 
 ### Ports für bestimmte Datenquellen
 
