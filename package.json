@@ -3,7 +3,7 @@
     "scripts": {
         "build": "set NODE_ENV=development&&set JEKYLL_ENV=development&& gulp build",
         "build-prod": "set NODE_ENV=production&&set JEKYLL_ENV=production&& gulp build",
-        "serve": "set NODE_ENV=development&&set JEKYLL_ENV=development&& gulp build && bundle exec jekyll serve"
+        "serve": "set NODE_ENV=development&&set JEKYLL_ENV=development&& gulp build && bundle exec jekyll serve --incremental"
     },
     "devDependencies": {
         "@babel/core": "^7.12.9",

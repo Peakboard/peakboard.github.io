@@ -7,6 +7,9 @@ description: Informationen zu den nötigen Schritten um Einstellungen für das A
 lang: de
 weight: 989
 ref: apex-989
+redirect_from:
+  - /apexboard
+  - /apexboard.html
 ---
 
 Die Daten deines Apexboard werden im Peakboard Hub gespeichert. Neben der reinen Funktion als Datenspeicher kannst du über den Peakboard Hub dein Apexboard konfigurieren und deiner Arbeitsumgebung anpassen.
