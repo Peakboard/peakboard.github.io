@@ -11,7 +11,7 @@ redirect_from:
  - /controls/de-excel-viewer.html
 ---
 
-Der Peakboard Designer bietet dir mit den [Diagrammen](/controls/Chart/de-chart.html), den [Gauge-Diagrammen](/controls/Chart/de-gauge.html), der [Signalleuchte](/controls/Chart/de-signal-lamp.html) und der [Zeitachse](/controls/Chart/de-timeline.html) zahlreiche Möglichkeiten, deine Daten in deiner Anwendung einzubinden und zu visualisieren. Trotzdem kann es in manchen Fällen sinnvoll sein, anstelle der reinen Daten die gesamte Visualisierung zu importieren. Genau diese Möglichkeit bietet das Excel-Diagramm Control. Mit diesem Control kannst du ein bestehendes Diagramm aus einer Excel-Datei in deine Anwendung einbinden.
+Der Peakboard Designer bietet dir mit den [Diagrammen](/controls/Chart/de-chart.html), den [Gauge-Diagrammen](/controls/Chart/de-gauge.html), der [Signalleuchte](/controls/Chart/de-signal-lamp.html) und der [Zeitachse](/controls/Chart/de-timeline.html) zahlreiche Möglichkeiten, deine Daten in deine Anwendung einzubinden und darzustellen. Trotzdem kann es in manchen Fällen sinnvoll sein, anstelle der reinen Daten die gesamte Visualisierung zu importieren. Genau diese Möglichkeit bietet das Excel-Diagramm Control. Mit diesem Control kannst du ein bestehendes Diagramm aus einer Excel-Datei in deine Anwendung einbinden.
 
 <div class="box-warning" markdown="1">
 **Achtung!**
@@ -45,6 +45,6 @@ Das Diagramm entspricht aus technischen Gründen optisch nicht immer 1:1 der Vor
 
 ## Attribute des Excel-Diagramm Controls
 
-In den Attributen kannst du im Bereich [Daten] (1), alternativ zum Doppelklick auf das Control, erneut auf den Einstellungsdialog des Controls zugreifen. Im Bereich [Aussehen] kannst du definieren, wie der Hintergrund des Controls aussehen soll (2) und einen Schatten hinzufügen (3). Außerdem kannst du im Bereich [Text] (4) das Erscheinungsbild der Diagrammbeschriftungen anpassen.
+In den Attributen kannst du im Bereich [Daten] (1), alternativ zum Doppelklick auf das Control, erneut auf den Einstellungsdialog des Controls zugreifen. Im Bereich [Aussehen] kannst du definieren, wie der Hintergrund des Controls aussehen soll (2) und einen Schatten hinzufügen (3). Außerdem kannst du im Bereich [Text] (4) das Erscheinungsbild der Diagrammbeschriftungen anpassen. Standardmäßig werden diese von Excel festgelegt. Aktiviere die Checkbox [Standardwerte überschreiben] um selbst festzulegen welche Schriftarten im Diagramm für edie einzelnen Bereiche genutzt werden.
 
 ![Aussehen des Diagramms anpassen](/assets/images/Controls/Excel-Viewer/de-excel-viewer-04.png)

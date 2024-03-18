@@ -45,6 +45,6 @@ The chart does not always correspond 1:1 to the template from the Excel file for
 
 ## Attributes of the Excel chart control
 
-In the attributes, you can access the settings dialog of the control again in the [Data] (1) area as an alternative to double-clicking on the control. In the [Appearance] area, you can define what the background of the control should look like (2) and add a shadow (3). You can also customize the appearance of the diagram labels in the [Text] area (4).
+In the attributes, you can access the settings dialog of the control again in the [Data] (1) area as an alternative to double-clicking on the control. In the [Appearance] area, you can define what the background of the control should look like (2) and add a shadow (3). You can also customize the appearance of the diagram labels in the [Text] area (4). By default, these are defined by Excel. Activate the [Override defaults] checkbox to specify which fonts are used in the chart for the individual areas.
 
 ![Customize the appearance of the chart](/assets/images/Controls/Excel-Viewer/en-excel-viewer-04.png)

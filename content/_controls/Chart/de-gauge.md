@@ -55,11 +55,11 @@ Im Bereich [Daten] (3) kannst du die zuvor im Dialog vorgenommenen Einstellungen
 
 ![Allgemeines und Daten](/assets/images/Controls/gauge/de-gauge-06.png)
 
-Im Bereich [Aussehen] kannst du dann die weiteren optischen Aspekte anpassen, wie beispielsweise das Aussehen des Balkens (1). Du kannst festlegen, ob und wie der Wert angezeigt werden soll (2) und wie der Hintergrund des Controls (3) gestaltet sein soll.
+Im Bereich [Aussehen] kannst du dann die weiteren optischen Aspekte anpassen, wie beispielsweise das Aussehen des Balkens (1). Neben der Balkenbreite und den genutzten Farben kannst du festlegen, ob die Farben als Verlauf angezeigt werden sollen. Wird die Checkbox aktiviert, wird automatisch ein Verlauf zwischen transparent und der gewählten Farbe erzeugt. Beim Gauge-Diagramm Rund kannst du mit der Checkbox [Abgerundete Ecken] festlegen, ob die Ecken des Balkens gerade oder abgerundet sein sollen. Mit dem Startwinkel legst du fest, an welcher Stelle das Gauge-Diagramm beginnen soll und mit dem Schwenkwinkel, wie viel Grad des Kreises das Gauge-Diagramm einnehmen soll. Du kannst festlegen, ob und [wie der Wert angezeigt werden soll](/controls/Basics/de-formatieren-von-Werten.html) (2) und wie der Hintergrund des Controls (3) gestaltet sein soll.
 Beim Gauge-Diagramm Rund kannst du zusätzlich einen Zeiger einfügen und dessen Aussehen festlegen (4).
 
 ![Aussehen](/assets/images/Controls/gauge/de-gauge-07.png)
 
-Im Bereich Logik kannst du das Control für Skripte verfügbar machen (1) und mit der bedingten Formatierung (2) die Eigenschaften des Controls regelbasiert anpassen, um beispielsweise Änderungen des Aussehens beim Erreichen von Schwellenwerten zu realisieren.
+Im Bereich Logik kannst du das Control für Skripte verfügbar machen (1) und mit der [bedingten Formatierung](/controls/Basics/de-cf.html) (2) die Eigenschaften des Controls regelbasiert anpassen, um beispielsweise Änderungen des Aussehens beim Erreichen von Schwellenwerten zu realisieren.
 
 ![Logik](/assets/images/Controls/gauge/de-gauge-08.png)
