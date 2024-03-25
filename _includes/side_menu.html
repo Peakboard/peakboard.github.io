@@ -120,7 +120,7 @@
                     {% if matched == 0 %}
                     {% assign all_articles = site[collection.label] | where: "lang", page.lang %}
                     {% assign current_page_parts = page.url | split: "/" %}
-                    <p class="-ml-4 w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[2] %}show-initial{% endif %} {{ current_page_parts[2] }} {{sub_level}}">
+                    <p class="-ml-4 w-full block py-1 hover:text-orange text-sm text-black no-underline side-menu-subcategory cursor-pointer {% if sub_level == current_page_parts[2] %}show-initial{% endif %}">
                         {{ sub_level | replace: "_", " " | escape }}
 
                         <!-- to -rotate-90 -->
@@ -134,7 +134,7 @@
                         {% for art in sorted_sub_articles %}
                         {% assign parts = art.path | split: "/" %}
                         {% assign num_parts = art.path | split: "/" | size %}
-                        {% if num_parts == 3 and parts[1] == sub_level and collection.label == current_page_parts[1] %}
+                        {% if num_parts == 3 and parts[1] == sub_level %}
                         <a class="ml-6 w-full block py-1 text-sm no-underline {% if art.title == page.title %}text-orange{% else %}text-gray-600 hover:text-orange{% endif %}" href="{{ art.url | relative_url }}">
                             {{ art.title | escape }}
                         </a>
