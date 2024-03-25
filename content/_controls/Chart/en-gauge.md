@@ -55,11 +55,11 @@ In the [Data] section (3), you can adjust the settings previously made in the di
 
 ![General and data](/assets/images/Controls/gauge/en-gauge-06.png)
 
-In the [Appearance] section, you can then adjust the other visual aspects, such as the appearance of the bar (1). You can specify whether and how the value should be displayed (2) and how the background of the control (3) should be designed.
+In the [Appearance] section, you can then adjust the other visual aspects, such as the appearance of the bar (1). In addition to the bar width and the colors used, you can specify whether the colors should be displayed as a gradient. If the checkbox is activated, a gradient is automatically created between transparent and the selected color. For the circular gauge, you can use the [Rounded ends] checkbox to specify whether the corners of the bar should be straight or rounded. Use the start angle to specify where the gauge should begin and the sweep angle to specify how many degrees of the circle the gauge should cover. You can specify whether and [how the value should be displayed](/controls/Basics/en-formating-values.html) (2) and how the background of the control (3) should be designed.
 You can also insert a pointer into the circular gauge and define its appearance (4).
 
 ![Appearance](/assets/images/Controls/gauge/en-gauge-07.png)
 
-In the Logic area, you can make the control available for scripts (1) and use conditional formatting (2) to adjust the properties of the control based on rules, for example to implement changes to the appearance when threshold values are reached.
+In the Logic area, you can make the control available for scripts (1) and use [conditional formatting](/controls/Basics/en-cf.html) (2) to adjust the properties of the control based on rules, for example to implement changes to the appearance when threshold values are reached.
 
 ![Logic](/assets/images/Controls/gauge/en-gauge-08.png)
