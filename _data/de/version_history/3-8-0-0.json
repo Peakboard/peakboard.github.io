@@ -7,14 +7,6 @@
   "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.8.0.0.0/PeakboardRuntimeSetupUI.exe",
   "tabs": [
     {
-      "name": "Beckhoff TwinCAT 3",
-      "content": [{
-        "type": "image",
-        "image": "3-8-0-0-beckhoff_de.png",
-        "description": "Die neue Beckhoff TwinCAT 3 Datenquelle ermöglicht es dir TwinCAT SPSen mit Peakboard zu verbinden."
-      }]
-    },
-    {
       "name": "Explorer Überarbeitung",
       "content": [{
         "type": "image",
@@ -36,6 +28,14 @@
         "type": "image",
         "image": "3-8-0-0-trycatch_de.png",
         "description": "Du kannst jetzt Try Catch Building Blocks anlegen um Fehler zu behandeln."
+      }]
+    },
+    {
+      "name": "Beckhoff TwinCAT 3",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-beckhoff_de.png",
+        "description": "Die neue Beckhoff TwinCAT 3 Datenquelle ermöglicht es dir TwinCAT SPSen mit Peakboard zu verbinden."
       }]
     },
     {
