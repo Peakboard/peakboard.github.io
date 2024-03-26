@@ -1,0 +1,141 @@
+[{
+  "version": "3.8.0.0",
+  "date": "26.03.2024",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.8.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.8.0.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.8.0.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "Beckhoff TwinCAT 3",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-beckhoff_de.png",
+        "description": "Die neue Beckhoff TwinCAT 3 Datenquelle ermöglicht es dir TwinCAT SPSen mit Peakboard zu verbinden."
+      }]
+    },
+    {
+      "name": "Explorer Überarbeitung",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-explorer_de.gif",
+        "description": "Der Explorer wurde umfassend optisch überarbeitet und hat eine Suchfunktion erhalten."
+      }]
+    },
+    {
+      "name": "Dataflows im Datenquellendialog",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-dataflows_de.gif",
+        "description": "Du kannst Dataflows jetzt direkt aus dem Datenquellen Dialog erstellen um die Rohdaten aus deinen Datenquellen noch schneller weiter zu verarbeiten."
+      }]
+    },
+    {
+      "name": "Try Catch Building Blocks",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-trycatch_de.png",
+        "description": "Du kannst jetzt Try Catch Building Blocks anlegen um Fehler zu behandeln."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Attribute] - UI-Verbesserungen für Eckenradien",
+          "[Explorer] - Umfassende Überarbeitung - weitere Informationen in den Highlights",
+          "[Management Service] - Fix für einen Fehler, bei dem der Management Service nicht mehr startete",
+          "[Peakboard BYOD Setup] - Uninstaller implementiert",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem einige Projekte nicht geöffnet werden konnten, wenn die Sprache des Peakboard Designers auf [Chinesisch] eingestellt war",
+          "[Peakboard Designer] - Fix für einen Fehler, der beim Upload und der Vorschau auftrat",
+          "[Peakboard Designer] - Fix für fehlerhaftes Verhalten von Controls, die in Templates eingefügt wurden",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem Hotkeys nicht korrekt funktionierten",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem gruppierte Objekte falsch positioniert wurden",
+          "[Peakboard Designer] - Filter- und Autovervollständigung zu Drop-down-Menüs hinzugefügt",
+          "[Peakboard Designer] - UX-Verbesserungen für Scroll- und Zoomfunktion",
+          "[Peakboard Designer] - Bedingte Formatierung für Gruppen hinzugefügt",
+          "[Peakboard Box] - Datei-Upload kann abgebrochen werden",
+          "[Peakboard Box] - Verbesserungen für Fehlermeldungen",
+          "[Peakboard Runtime] - Standard-Hintergrundfarbe für gefüllte Bereiche auf Schwarz geändert",
+          "[Web Access](/administration/de-web-access.html) - Fix für einen Fehler, bei dem Projekte nicht von Peakboard Boxen gelöscht werden konnten"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Neue Datenquelle: Beckhoff TwinCAT 3 - weitere Informationen in den Highlights",
+          "Fix für einen Fehler, bei dem es zu Problemen kam, wenn Spaltennamen das Zeichen [/] enthielten",
+          "[CSV](/data_sources/de-csv.html) & [JSON](/data_sources/de-json.html) - Fix für einen Fehler, bei dem Änderungen an Datenquellen nicht korrekt gespeichert wurden",
+          "[Excel](/data_sources/Excel/de-excel.html) - Verfügbare Arbeitsblätter werden automatisch geladen",
+          "[SAP](/data_sources/SAP/de-sap.html) - Fix für einen Fehler der SAP-Verbindung",
+          "[SAP](/data_sources/SAP/de-sap.html) - Instanznummer in Eingabefeld umgewandelt",
+          "[SAP](/data_sources/SAP/de-sap.html) - Kürzung von XQL RETVAL Spalten",
+          "[SAP](/data_sources/SAP/de-sap.html) - Definition von verschachtelten Tabellen für Funktionsmodule in XQL implementiert",
+          "[SAP](/data_sources/SAP/de-sap.html) - Verbesserung des Handlings von Exceptions in XQL Funktionen bei Abruf der Execute Methode",
+          "[SAP](/data_sources/SAP/de-sap.html) - Unterstützung von CHANGING Parametern in Funktionen implementiert",
+          "[SQL-Server](/data_sources/de-ms-sql-server.html) - Fix für einen Fehler, bei dem null-Werte den Debug-Modus zum Absturz brachten"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem der Schritt [Filter nach Datums-/Zeitspalten] nicht korrekt funktionierte",
+          "Fix für einen Fehler, bei dem der Schritt [Zeilen/Spalten tauschen] nicht korrekt funktionierte",
+          "UX-Verbesserungen für Kontextmenüs in Datenquellen",
+          "UX-Verbesserungen für UI",
+          "Dataflow-Typ wird als Tooltip angezeigt",
+          "Verbesserungen im Filterbereich"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Webpage](/controls/Extended/de-webpage.html) - Cookies, Cache und Löschmöglichkeit hinzugefügt",
+          "[Date Picker](/controls/Input/de-datepicker.html) & [Time Picker](/controls/Input/de-timepicker.html) - Bereichsauswahl ermöglicht",
+          "[Diagramm](/controls/Chart/de-chart.html) - Farbpaletten entfernt",
+          "[Drop-Down](/controls/Input/de-dropdown.html) - Standardhöhe vergrößert",
+          "[PDF](/controls/Document/de-pdf.html) - Fix für einen Fehler, der im Peakboard Designer und der Vorschau auftrat, wenn PDF-Dateien von bestimmten Orten abgerufen werden sollten",
+          "[Styled Tile/Styled Tile Kollektion/Styled List] - QR-Codes implementiert",
+          "[Tabelle](/controls/Common/de-table-grid.html) - Fix für einen Fehler, bei dem Tabellen ungewollt vollständig zurückgesetzt wurden, wenn die Datenquelle umbenannt wurde"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem die Validierung nicht mehr funktionierte, wenn Parameter genutzt und auf diese verwiesen wurde",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, bei dem es nicht möglich war, Daten vom Typ SAP oder SQL Server in eine Liste oder den Peakboard Hub zu exportieren",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Fix für einen Fehler, bei dem manche Eigenschaften nicht per Skript verändert werden konnten",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Try Catch Blöcke implementiert - weitere Informationen in den Highlights",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Building Block, der Daten nachlädt und darauf wartet implementiert",
+          "[Building Blocks](/scripting/de-building-blocks.html) - Platzhalter für Standardwerte integriert",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, der durch Syntax ausgelöst wurde",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Fix für einen Fehler, bei dem ein altes UI verwendet wurde",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Verbesserungen für Intellisense bei großen Skripten",
+          "[Skript-Editor](/scripting/de-script-editor.html) - Skript-Editor wird im Vollbildmodus gestartet",
+          "Neuen Timer-Skript-Typ [Manuell] implementiert"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Ressourcen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Ressourcen, die mit Controls verknüpft sind, werden automatisch nachgeladen, wenn sie ausgetauscht werden"
+         ]
+        }
+        ]
+      }]
+    }
+  ]
