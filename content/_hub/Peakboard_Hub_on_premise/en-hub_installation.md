@@ -26,13 +26,13 @@ In the first installation we recommend to leave all checkmarks set, so all neces
 If you want to use an already existing SQL Server, it is possible to omit the installation of the SQL Server.
 
 During setup, you will be prompted to create a database that will serve as the database for Peakboard Hub on premise and to specify a database user.
-After that Peakboard Hub on premise can be found in your SSIS pages.
+After that Peakboard Hub on premise can be found in your IIS pages.
 Here you can configure everything as you are used to from IIS and, for example, add secure communication with certificates from your company.
 
 After the first login of a user in the Peakboard Hub on premise, this user will automatically become an administrator. You can appoint further users in the user management of Peakboard Hub on premise as admins in the future.
 
 <div class="box-warning" markdown="1"> **Please note**:
-* If you want to update Peakboard Boxes via Peakboard Hub on premise, you must authorize the ISS process to write to the installation folder (c:/inetpub/PeakboardHub).
+* If you want to update Peakboard Boxes via Peakboard Hub on premise, you must authorize the IIS process to write to the installation folder (c:/inetpub/PeakboardHub).
 * If you want to use MQTT for communication between Peakboard boxes, you have to open the MQTT port (default: 1883).
 </div>
 
