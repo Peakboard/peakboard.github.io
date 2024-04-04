@@ -41,6 +41,11 @@ x86 and ARM processors are **not** supported!
 
 The setup automatically guides you through the installation process. It offers the option to start Peakboard BYOD automatically on startup (1). This is usually the desired behavior. The user currently logged in and running the setup is used for the automatic start.
 
+<div class="box-tip" markdown="1">**Required writing permissions**
+
+To ensure that all functions of the BYOD instance can be executed without errors, the logged-in user requires writing permissions for the folder `C:/ProgramData/Peakboard`.
+</div>
+
 ![Setup options](/assets/images/get_started/en_peakboard-byod-01.png)
 
 ## Add and license a Peakboard BYOD instance in the Peakboard Designer
