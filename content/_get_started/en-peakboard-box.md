@@ -29,11 +29,11 @@ After a few more seconds, the Peakboard Box is ready to use.
 
 ![Initial Screen](/assets/images/get_started/Peakboard-Box_InitialScreen_en.png)
 
-To transfer your dashboard to the Peakboard Box, you must first add it to the Peakboard Designer.
+To transfer your application to the Peakboard Box, you must first add it to the Peakboard Designer.
 You can find out how to do this [here](/administration/07-en-add.html).
 After the Peakboard Box has been added, click on the [Upload] button and select the desired Peakboard Box to upload the application (1).
 
 ![Upload application](/assets/images/get_started/Peakboard-Box_Upload_en.png)
 
-If the transfer was successful and no other dashboard is already active, the application will also be displayed directly on the monitor.
-*Note:* Each Peakboard Box stores any number of dashboards, but only one can be active at a time.
+If the transfer was successful and no other application is already active, the application will also be displayed directly on the monitor.
+*Note:* Each Peakboard Box stores any number of applications, but only one can be active at a time.

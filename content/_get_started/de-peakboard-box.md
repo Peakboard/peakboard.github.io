@@ -29,11 +29,11 @@ Nach einigen weiteren Sekunden ist die Peakboard Box bereits betriebsbereit.
 
 ![Initialer Bildschirm](/assets/images/get_started/Peakboard-Box_InitialScreen_de.png)
 
-Um dein Dashboard auf die Peakboard Box zu übertragen, musst du sie zuerst zum Peakboard Designer hinzufügen.
+Um deine Anwendung auf die Peakboard Box zu übertragen, musst du sie zuerst zum Peakboard Designer hinzufügen.
 Wie das geht, erfährst du [hier](/administration/07-de-hinzufuegen.html).
 Nachdem die Peakboard Box hinzugefügt wurde, klickst du auf den [Hochladen]-Button und wählst die gewünschte Peakboard Box aus um die Anwendung hochzuladen (1).
 
 ![Anwendung hochladen](/assets/images/get_started/Peakboard-Box_Upload_de.png)
 
-Wenn die Übertragung erfolgreich war und kein anderes Dashboard bereits aktiv ist, wird die Anwendung auch direkt auf dem Monitor angezeigt.
-*Merke:* Jede Peakboard Box speichert beliebig viele Dashboards, aber nur eins davon kann jeweils aktiv sein.
+Wenn die Übertragung erfolgreich war und keine Anwendung bereits aktiv ist, wird die Anwendung auch direkt auf dem Monitor angezeigt.
+*Merke:* Jede Peakboard Box speichert beliebig viele Anwendungen, aber nur eine davon kann jeweils aktiv sein.
