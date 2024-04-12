@@ -18,11 +18,11 @@ Wenn du neu im Peakboard Designer bist, kann dir die Quick Access Bar als hilfre
 
 ### Die Quick Access Bar verwenden
 
-Um auf die Quick Access Bar zuzugreifen nutzt du die Hotkeys [Strg + K] oder klickst in der Menüleiste auf das entsprechende Lupen-Icon (1). Welche Hotkeys es im Peakboard Designer noch gibt erfährst du im zweiten Teil dieses Artikels.
+Um auf die Quick Access Bar zuzugreifen nutzt du die Hotkeys [Strg + K] oder klickst in der Menüleiste auf das entsprechende Quick Access Bar Feld (1). Welche Hotkeys es im Peakboard Designer noch gibt erfährst du im zweiten Teil dieses Artikels.
 
 ![Quick Access Bar öffnen](/assets/images/get_started/de_quick-access-01.png)
 
-Die Quick Access Bar erscheint im oberen Bereich der Arbeitsfläche. Sie ist aufgeteilt in zwei Bereiche. Einen scrollbaren Menübereich (1) mit allen verfügbaren Funktionen und die Suchleiste (2) mit der du die Funktionen durchsuchen kannst.
+Die Quick Access Bar ist aufgeteilt in zwei Bereiche. Einen scrollbaren Menübereich (1) mit allen verfügbaren Funktionen und die Suchleiste (2) mit der du die Funktionen durchsuchen kannst.
 
 ![Quick Access Bar](/assets/images/get_started/de_quick-access-02.png)
 
@@ -108,7 +108,7 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 {% include styled_table.html %}
 | **Hotkeys**                           | **Effekt**                                                    |
 |---------------------------------------|---------------------------------------------------------------|
-Strg + I                                | Öffnet und schließt das Info-Panel                            |
-Strg + L                                | Öffnet und schließt das Log                                   |
-Esc                                     | Fenster-Modus                                                 |
-Strg + F                                | Fullscreen-Modus                                              |
+| Strg + I                                | Öffnet und schließt das Info-Panel                            |
+| Strg + L                                | Öffnet und schließt das Log                                   |
+| Esc                                     | Fenster-Modus                                                 |
+| Strg + F                                | Fullscreen-Modus                                              |
