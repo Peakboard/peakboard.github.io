@@ -11,18 +11,79 @@ redirect_from:
  - /controls/de-allgemeine-eigenschaften.html
 ---
 
-Alle Controls, die in der Toolbox oben rechts zur Verfügung stehen, haben Eigenschaften. Dazu gehören zum einen spezielle Eigenschaften, die nur für das jeweilige Control gelten aber auch allgemeine Eigenschaften, die fast bei jedem oder zumindest bei vielen Controls vorkommen. Damit nicht auf jeder Hilfe-Seite immer alle Eigenschaften wieder und wieder erklärt werden müssen, sind die Eigenschaften, die bei mehr als einem Control auftauchen, in der folgenden Liste zusammengefasst:
+Alle Controls haben Eigenschaften. Dazu gehören zum einen spezielle Eigenschaften, die nur für das jeweilige Control gelten, aber auch allgemeine Eigenschaften, die fast bei jedem oder zumindest bei vielen Controls vorkommen. Damit nicht auf jeder Hilfe-Seite immer alle Eigenschaften wieder und wieder erklärt werden müssen, sind die Eigenschaften, die bei mehr als einem Control auftauchen, im folgenden Artikel zusammengefasst. Der Eigenschaften-Bereich ist in mehrere Abschnitte unterteilt.
+
+### Control-Positionierung
+
+Mit den Positionierungswerkzeugen kannst du die Controls automatisch skalieren und einen bestimmten Bereich füllen lassen.
 
 {% include styled_table.html %}
-| **Eigenschaft**   | **Beschreibung** |
-|------------|-------------|
-| Name       | ist ein eindeutiger Name für das Control (ohne Sonderzeichen), um es von Skripten aus anzusteuern. Nur wenn das Control tatsächlich von Skripten aus genutzt wird, muss ein Name vergeben werden. |
-| Height     | ist die Höhe in Pixel.
-| Margin     | kann nicht direkt verändert werden, sondern repräsentiert die Position des Controls auf dem Board (x,y-Koordinate)|
-| Visible    | wird üblicherweise von Skripten aus gesetzt. Weist in einem Skript einem Control den Zustand visibility.visible für sichtbar oder visibility.collapsed für unsichtbar zu. |
-| Scripts    | um ein Control nach einer bestimmten Logik sichtbar / unsichtbar zu machen. |
-| Width      | ist die Breite in Pixel.|
-| Events     | Über diese Eigenschaft kann ein Dialog aufgerufen werden, der ein oder mehrere Skripte enthält, die beim Eintreten von Ereignissen des Controls aufgerufen werden.|
-| Font       | repräsentiert eine Schrift aus dem Font Manager. Manche Controls haben mehrere Font-Eigenschaften, z.B. das Table Grid: Eine für die Kopfzeile, eine für den Rest.|
-| Background | ist die Farbe des Hintergrunds. |
-| Foreground | ist die Farbe des Vordergrunds (was genau der "Vordergrund" ist, hängt vom Control ab).|
+| **Eigenschaft** | **Beschreibung** |
+|-----------------|------------------|
+| Oben links füllen | Füllt den oberen linken Bereich der Arbeitsfläche mit dem Control aus. |
+| Oben füllen | Füllt die obere Hälfte der Arbeitsfläche mit dem Control aus. |
+| Oben rechts füllen | Füllt den oberen rechten Bereich der Arbeitsfläche mit dem Control aus. |
+| Unten links füllen | Füllt den unteren linken Bereich der Arbeitsfläche mit dem Control aus. |
+| Unten füllen | Füllt die untere Hälfte der Arbeitsfläche mit dem Control aus. |
+| Unten rechts füllen | Füllt den unteren rechten Bereich der Arbeitsfläche mit dem Control aus. |
+| Links füllen | Füllt die linke Hälfte der Arbeitsfläche mit dem Control aus. |
+| Rechts füllen | Füllt die rechte Hälfte der Arbeitsfläche mit dem Control aus. |
+| Bildschirm füllen | Füllt die gesamte Arbeitsfläche mit dem Control aus. |
+| Control zentrieren | Zentriert das gewählte Control in der Arbeitsfläche. |
+
+Wird die Shift-Taste gehalten, wird automatisch ein Abstand rundherum hinzugefügt.
+
+### Control-Ausrichtung
+
+Werden mehrere Controls gleichzeitig markiert, erscheinen die Ausrichtungsoptionen für die gewählten Controls.
+
+{% include styled_table.html %}
+| **Eigenschaft** | **Beschreibung** |
+|-----------------|------------------|
+| Links ausrichten | Richtet die gewählten Controls an der linken Kante des Controls aus, das sich am weitesten links auf der Arbeitsfläche befindet. |
+| Zentriert ausrichten | Richtet die gewählten Controls an ihrer gemeinsamen senkrechten Achse aus. |
+| Rechts ausrichten | Richtet die gewählten Controls an der rechten Kante des Controls aus, das sich am weitesten rechts auf der Arbeitsfläche befindet. |
+| Oben ausrichten | Richtet die gewählten Controls an der oberen Kante des Controls aus, das sich am weitesten oben auf der Arbeitsfläche befindet. |
+| Mittig ausrichten | Richtet die gewählten Controls an ihrer gemeinsamen waagrechten Achse aus. |
+| Unten ausrichten | Richtet die gewählten Controls an der unteren Kante des Controls aus, das sich am weitesten unten auf der Arbeitsfläche befindet. |
+| Horizontale Abstände angleichen | Wenn mehr als zwei Controls ausgewählt sind, kannst du mit dieser Eigenschaft die horizontalen Abstände zwischen den Controls gleich groß machen. |
+| Vertikale Abstände angleichen | Wenn mehr als zwei Controls ausgewählt sind, kannst du mit dieser Eigenschaft die vertikalen Abstände zwischen den Controls gleich groß machen. |
+| Horizontale Abstände entfernen | Wenn mehr als zwei Controls ausgewählt sind, kannst du mit dieser Eigenschaft die horizontalen Abstände zwischen den Controls entfernen. |
+| Vertikale Abstände entfernen | Wenn mehr als zwei Controls ausgewählt sind, kannst du mit dieser Eigenschaft die vertikalen Abstände zwischen den Controls entfernen. |
+
+### Allgemeines
+
+In diesem Bereich findest du Eigenschaften, die sich die meisten Controls teilen.
+
+{% include styled_table.html %}
+| **Eigenschaft** | **Beschreibung** |
+|-----------------|------------------|
+| Breite | Die Breite des Controls in Pixeln. |
+| Höhe | Die Höhe des Controls in Pixeln. |
+| Links | Der Abstand des Controls zum linken Rand der Arbeitsfläche in Pixeln. |
+| Oben | Der Abstand des Controls zum oberen Rand der Arbeitsfläche in Pixeln. |
+| Control anzeigen/verbergen | Blendet das Control auf der Arbeitsfläche ein oder aus. |
+| Control fixieren/lösen | Fixiert das Control auf der Arbeitsfläche und deaktiviert somit die Möglichkeit das Control zu verschieben oder löst diese Fixierung. |
+| Abstand | Definiert einen Innenabstand für den Rahmen des Controls in Pixeln. |
+| Titel und Untertitel | Fügt einen Titel und/oder Untertitel zum Control hinzu, ohne dass du dafür ein separates Textfeld nutzen musst. |
+
+### Daten
+
+Dieser Bereich ist nicht bei allen Controls verfügbar und unterscheidet sich stark zwischen den unterschiedlichen Controls. Meist können hier Werte händisch eingegeben oder Datenquellen mit dem Control verknüpft werden.
+
+### Aussehen
+
+In diesem Bereich kannst du mit verschiedenen Eigenschaften das Aussehen des Controls beeinflussen. Die zur Verfügung stehenden Eigenschaften unterscheiden sich je nach gewähltem Control. Häufig lassen sich Hintergrundfarben, Konturen, Schatten, Schriftarten und viele weitere Eigenschaften anpassen.
+
+### Logik
+
+In diesem Bereich findest du Eigenschaften, die mit [Scripting](/scripting/de-script-engine.html) zu tun haben.
+
+{% include styled_table.html %}
+| **Eigenschaft** | **Beschreibung** |
+|-----------------|------------------|
+| Ist aktiviert | Aktiviert oder deaktiviert das Control in der Anwendung. Du kannst diese Eigenschaft per Skript ansteuern und ändern. |
+| In Skripten verwendet | Aktivierst du diese Eigenschaft, stehen weitere Eigenschaften zur Verfügung. |
+| Controlname | Ein eindeutiger Name für das Control (ohne Sonderzeichen), um es von Skripten aus anzusteuern. Nur wenn das Control tatsächlich von Skripten aus genutzt wird, musst du einen Namen vergeben. |
+| Bedingte Formatierung | Die [bedingte Formatierung](/controls/Basics/de-cf.html) erlaubt es dir, unterschiedliche Eigenschaften eines Controls aufgrund eines definierten Ereignisses zu verändern, ohne dabei auf komplexe Skripte zurückgreifen zu müssen. |
+| Events | Diese Eigenschaften können verwendet werden, um einen Dialog aufzurufen, der ein oder mehrere Skripte enthält, die aufgerufen werden, wenn Ereignisse des gewählten Controls auftreten. |
