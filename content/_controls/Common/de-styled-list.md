@@ -4,9 +4,9 @@ title: Styled List
 menu_title: Styled List
 description: Informationen über das Styled List Control im Peakboard Designer
 lang: de
+draft: true
 weight: 245
 ref: con-245
-draft: true
 redirect_from:
   - /controls/10-de-list-view.html
   - /controls/de-list-view.html
