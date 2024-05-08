@@ -40,7 +40,7 @@ Which ports are used exactly, depends of course on the individual case.
 | 40409       |	Communication channel for Peakboard Hub on premise |
 | 5671 (TLS/SSL)       |	Communication channel for Peakboard Hub online via AMQP connection (Azure Service Bus) |
 
-### Ports für Peakboard Edge
+### Ports for Peakboard Edge
 
 {% include styled_table.html %}
 {: .w-full }

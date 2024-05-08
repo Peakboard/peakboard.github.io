@@ -1,0 +1,141 @@
+[{
+  "version": "3.8.0.0",
+  "date": "26.03.2024",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.8.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.8.0.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.8.0.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "Explorer revision",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-explorer_en.gif",
+        "description": "The Explorer has been given a major visual overhaul and a search function has been added."
+      }]
+    },
+    {
+      "name": "Dataflows in the data source dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-dataflows_en.gif",
+        "description": "You can now create dataflows directly from the data source dialog to process the raw data from your data sources even faster."
+      }]
+    },
+    {
+      "name": "Try catch building blocks",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-trycatch_en.png",
+        "description": "You can now create try catch building blocks to handle errors."
+      }]
+    },
+    {
+      "name": "Beckhoff TwinCAT 3",
+      "content": [{
+        "type": "image",
+        "image": "3-8-0-0-beckhoff_en.png",
+        "description": "The new Beckhoff TwinCAT 3 data source enables you to connect TwinCAT PLCs with Peakboard."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Attributes] - UI improvements for corner radii",
+          "[Explorer] - Extensive revision - more information in the highlights",
+          "[Management service] - Fix for a bug where the management service would not start",
+          "[Peakboard BYOD setup] - Uninstaller implemented",
+          "[Peakboard Designer] - Fix for a bug where some projects could not be opened if the language of the Peakboard Designer was set to [Chinese]",
+          "[Peakboard Designer] - Fix for a bug that occurred during upload and preview",
+          "[Peakboard Designer] - Fix for incorrect behavior of controls that were inserted into templates",
+          "[Peakboard Designer] - Fix for a bug where hotkeys did not work correctly",
+          "[Peakboard Designer] - Fix for a bug where grouped objects were positioned incorrectly",
+          "[Peakboard Designer] - Added filter and autocomplete to drop-down menus",
+          "[Peakboard Designer] - UX improvements for scroll and zoom function",
+          "[Peakboard Designer] - Added conditional formatting for groups",
+          "[Peakboard Box] - File upload can be canceled",
+          "[Peakboard Box] - Improvements for error messages",
+          "[Peakboard Runtime] - Default background color for filled areas changed to black",
+          "[Web Access](/administration/en-web-access.html) - Fix for a bug where projects could not be deleted from Peakboard Boxes"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "New data source: Beckhoff TwinCAT 3 - more information in the highlights",
+          "Fix for a bug where problems occurred when column names contained the character [/]",
+          "[CSV](/data_sources/en-csv.html) & [JSON](/data_sources/en-json.html) - Fix for a bug where changes to data sources were not saved correctly",
+          "[Excel](/data_sources/Excel/en-excel.html) - Available worksheets are loaded automatically",
+          "[SAP](/data_sources/SAP/en-sap.html) - Fix for a bug in the SAP connection",
+          "[SAP](/data_sources/SAP/en-sap.html) - Instance number converted to input field",
+          "[SAP](/data_sources/SAP/en-sap.html) - truncation of XQL RETVAL columns",
+          "[SAP](/data_sources/SAP/en-sap.html) - Definition of nested tables for function modules implemented in XQL",
+          "[SAP](/data_sources/SAP/en-sap.html) - Improving the handling of exceptions in XQL functions when calling the execute method",
+          "[SAP](/data_sources/SAP/en-sap.html) - Support of CHANGING parameters in functions implemented",
+          "[SQL-Server](/data_sources/en-ms-sql-server.html) - Fix for a bug where null values crashed the debug mode"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where the [Filter by date/time columns] step did not work correctly",
+          "Fix for a bug where the [Switch rows/columns] step did not work correctly",
+          "UX improvements for context menus in data sources",
+          "UX improvements for the UI",
+          "Dataflow type is displayed as a tooltip",
+          "Improvements in the filter area"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Webpage](/controls/Extended/en-webpage.html) - Cookies, cache and deletion option added",
+          "[Date picker](/controls/Input/en-datepicker.html) & [Time picker](/controls/Input/en-timepicker.html) - Range selection enabled",
+          "[Chart](/controls/Chart/en-chart.html) - Color palettes removed",
+          "[Drop-down](/controls/Input/en-dropdown.html) - standard height increased",
+          "[PDF](/controls/Document/en-pdf.html) - Fix for a bug that occurred in the Peakboard Designer and the preview when PDF files were to be retrieved from certain locations",
+          "[Styled tile/Styled tile collection/Styled list] - QR codes implemented",
+          "[Table](/controls/Common/en-table-grid.html) - Fix for a bug where tables were unintentionally reset completely when the data source was renamed"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where validation stopped working when parameters were used and referenced",
+          "[Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where it was not possible to export data of type SAP or SQL Server to a list or the Peakboard Hub",
+          "[Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where some properties could not be changed via script",
+          "[Building blocks](/scripting/en-building-blocks.html) - Try Catch blocks implemented - more information in the highlights",
+          "[Building blocks](/scripting/en-building-blocks.html) - Building block that reloads and waits for data implemented",
+          "[Building blocks](/scripting/en-building-blocks.html) - Placeholder for default values integrated",
+          "[Script editor](/scripting/en-script-editor.html) - Fix for a bug that was triggered by syntax",
+          "[Script editor](/scripting/en-script-editor.html) - Fix for a bug where an old UI was used",
+          "[Script editor](/scripting/en-script-editor.html) - Improvements for Intellisense for large scripts",
+          "[Script editor](/scripting/en-script-editor.html) - Script editor is started in full screen mode",
+          "New timer script type [manual] implemented"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Resources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Resources that are linked to controls are automatically reloaded when they are replaced"
+         ]
+        }
+        ]
+      }]
+    }
+  ]

@@ -29,9 +29,9 @@ The templates serve as examples and can be used as a basis for your individual v
 The button [Script templates] (3) gives you access to templates for different use cases and example files that explain how to work with scripts.
 To start your visualization without a template, select one of the themes from the theme slider in the [Start from scratch] section (4).
 You can always change the selected theme later if you don't like it.
-Alternatively, click [new file] in the left pane and the petrol theme will be automatically selected, opening an empty file.
+Alternatively, click [New file] in the left pane and the petrol theme will be automatically selected, opening an empty file.
 
-![Peakboard get started dialog](/assets/images/get_started/Peakboard-Designer_start_en.png)
+![Peakboard get started dialog](/assets/images/get_started/en_designer-01.png)
 
 ## 2. The structure of the Peakboard Designer
 
@@ -39,29 +39,29 @@ Now you've really arrived at the Peakboard Designer.
 The Peakboard Designer is divided into five main areas.
 At the top is the menu bar (1), directly below it you will find the various controls (2), on the left you'll find the explorer (3), the workspace is in the middle (4) and on the right you'll find the attributes (5).
 
-![Peakboard Designer overview](/assets/images/get_started/Peakboard-Designer_overview_en.png)
+![Peakboard Designer overview](/assets/images/get_started/en_designer-02.png)
 
 ### 2.1 The menu bar
 
 You can open a preview of your visualization (1) or load it onto your Peakboard Box (2).
-With the button [General] (3) you can for example perform a software update and with the button [Project] (4) you can make basic settings for your visualization. You can also manage your Peakboard Boxes and Peakboard Edge via the corresponding buttons (5). In addition, you will find access to the script editor (6), the fonts (7) and the project colors (8) in the menu bar.
+With the button [General] (3) you can for example perform a software update and with the button [Project] (4) you can make basic settings for your visualization. You can also manage your Peakboard Boxes, Peakboard Edge and Peakboard Hub via the corresponding buttons (5). In addition, you will find access to the script editor (6), the fonts (7) and the project colors (8) in the menu bar. In the middle of the menu bar you will find the [quick access bar](/get_started/en-quick-access-hotkeys.html) (9).
 
 At the bottom of the Peakboard Designer you will find a button to switch the language between English and German, as well as some zoom controls.
 
-![Peakboard Designer menu bar](/assets/images/get_started/Peakboard-Designer_menu_en.png)
+![Peakboard Designer menu bar](/assets/images/get_started/en_designer-03.png)
 
 ### 2.2 The explorer
 
 In the folder structure of the explorer all data sources, dataflows, variables, scripts and resources are displayed.
 In the last section [Screens] you will find a list of all existing visual controls on your workspace.
-Since we have not added any controls yet, the folders are empty at the moment.
+Since we have not added any controls yet, the folders are empty at the moment. You can use the search bar (1) to search through the available elements in the explorer.
 
 With a right click on the folders you can perform different actions - alternatively this also works with a click on [...].
-For example, open the menu item [Edit screen size] with a right click on [Screens] to define the size of the visualization.
+For example, open the menu item [Edit screen size] (2) with a right click on [Screens] to define the size of the visualization.
 For our example it is best to leave it at 1920x1080 (Full HD).
 The visualization will be automatically scaled to the resolution of the connected screen, but the aspect ratio should be correct.
 
-![Peakboard Designer explorer](/assets/images/get_started/Peakboard-Designer_explorer_en.png)
+![Peakboard Designer explorer](/assets/images/get_started/en_designer-04.png)
 
 ### 2.3 The controls
 
@@ -69,7 +69,7 @@ For the different use cases you will find pre-built interface elements, which we
 From simple text fields, tables, simple charts like bar charts or pie charts, to sophisticated, combinable charts (Advanced charts) and repeatable interface patterns like the list or tile view, everything is available to you.
 Either drag and drop the elements onto the workspace or add them with a double click.
 
-![Peakboard Designer controls](/assets/images/get_started/Peakboard-Designer_controls_en.gif)
+![Peakboard Designer controls](/assets/images/get_started/en_designer-05.gif)
 
 ### 2.4 The attributes
 
@@ -80,7 +80,7 @@ For example, try adding another screen by right-clicking on [Screens] in the Exp
 Now click on one of the screens and set the [Display duration] in the attributes under [General].
 This display duration defines how long the respective screen remains visible before the next one is displayed.
 
-![Peakboard Designer attributes](/assets/images/get_started/Peakboard-Designer_attributes_en.png)
+![Peakboard Designer attributes](/assets/images/get_started/en_designer-06.png)
 
 ## 3. Next steps
 

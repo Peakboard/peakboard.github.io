@@ -10,41 +10,71 @@ redirect_from:
   - /administration/13-en-user-administration.html
 ---
 
-Peakboard offers a multitude of application possibilities. As a result, different groups of people in a company encounter the visualizations. To cover this fact, Peakboard has the possibility to add users for each box, which are assigned to a certain user group. This group can then be provided with the authorizations required for the work of the respective group of people.
-These permissions always affect the box and the connection from the Designer to the box. The Designer itself can always be used to its full extent.
+With Peakboard, you can create a wide range of industrial applications, from pure data visualization to human-machine interfaces. The user groups that come into contact with the applications are just as versatile as the applications themselves.
 
-## Affected components
+With user management, Peakboard offers you the possibility to adjust the permissions of the different users to ensure a smooth process. Users are created and managed separately in the Peakboard Designer for each Peakboard Box added. The authorizations affect the use of the Peakboard Box itself and the connection to the Peakboard Designer. The Peakboard Designer itself can always be used with the full range of functions.
 
-The following is a list of the areas that are affected by the user administration:
+## Default user `PeakboardAdmin`
 
-![Overview](/assets/images/admin/usermanagement/Overview.png)
+When you add a new Peakboard Box in the Peakboard Designer, the user 'PeakboardAdmin' is automatically set as the default user. When connecting the Peakboard Box, enter 'PeakboardAdmin' as the user name and leave the password field empty. You will then be asked to set an initial password for this user. This procedure is identical for both Peakboard Box and Peakboard BYOD.
 
-### Manage Visualizations
-This item specifies whether a user with this user group may activate, deactivate, deploy or delete visualizations.
+The `PeakboardAdmin` user has the role of administrator and has all available rights. With this user, the Peakboard Box can be used to its full extent. It is recommended to define separate users and roles for the different applications.
 
-### Push Data
-If you want to manipulate variables of an active visualization by http-push, the user under whose context the push is sent needs this privilege.
+## Users and roles
 
-### Set Properties
-A user with this privilege can manipulate the properties stored on the box. Since these properties give access to the license key among other things, this point should be reserved exclusively for administrators.
+To access the user management, open the Peakboard Box settings in the Peakboard Designer by clicking on the Peakboard Box icon (1) in the menu bar.
 
-### Manage Logs
-This user group has access to the log files created on the box. This includes reading as well as deleting the files.
+![Open Peakboard Box settings](/assets/images/admin/usermanagement/en_usermanagement-02.png)
 
-## Configuration of users and user groups
+In the [Users and roles] tab (1), make the respective settings for the users (2) and roles (3).
 
-In addition to the administrator account, which is permanently linked to the operating system of the box and thus falls out of this concept, Peakboard provides two predefined user groups. On the one hand this is the "Designer Administrator" with almost full permissions. The other user is the so-called "App User", which meant to be a suggestion for people who want to interact with the box only via web, for example. The "App User" can change visualizations. Access to critical information such as the license key, however, is prohibited.
-If you want to create a new user group, select the desired box and open the "Manage Users" option via the "Settings" button. After a short synchronization with the device, the configuration dialog is opened. It consists of two tabs, the first of which shows the users already configured on the box. The second tab provides information about the available roles and their distribution of rights.
-![NewGroup](/assets/images/admin/usermanagement/NewUsergroup.png)
-A click on the "Add" button creates a new user or a new user group depending on the tab. With the user group, you can define which privileges a user should have with this group by simply ticking the respective boxes. The name of the group can be changed by clicking in the name field. A small window opens in the tab "User". Here you enter the username of the new user account. A randomly generated password is displayed in the second text field. If you want to keep this, you have to save the password separately! It will no longer be accessible after closing this dialog.
-![NewUser](/assets/images/admin/usermanagement/NewUser.png)
-Once this is done, you only need to select the group to which you want the user to belong. The change of the name also runs here directly over the name field.
-![Save](/assets/images/admin/usermanagement/Save.png)
-To apply the changes, simply press the "Save" button. If desired, the settings of the currently selected box can also be applied to all other devices in the group. To do this, check the option "Replicate users and roles to other boxes in group '[Name of current group]'".
+![Users and roles](/assets/images/admin/usermanagement/en_usermanagement-03.png)
 
-## Use device with user context
+### Configuring the roles
 
-To use the devices in the desired user context, you have to add the boxes with the respective user in the Designer. In the management dialog press "Add". As you can see in the picture, user name and password must be entered in the dialog for device selection, as usual. Here the new user is stored with the desired user group instead of the otherwise required administrator account.
-![AddDevice](/assets/images/admin/usermanagement/AddDevice.png)
-A click on the "OK" button adds the Peakboard to the Designer. You can see which user is currently linked to the box in the "Username" column of the management dialog.
-![ManageDialogEntry](/assets/images/admin/usermanagement/ManageDialogEntry.png)
+Two roles are predefined by default in the roles area. The [Administrator] (1) has all existing permissions. This role cannot be deleted or customized and is assigned to the standard user. The [User] role (2) is a proposal for a restricted basic user. If this user connects to the Peakboard Box via Peakboard Designer, they can only manage the applications (3), i.e. upload, change or delete them and take screenshots (4). However, they do not have access to user and role management, log management or license or cloud connection settings, for example.
+
+![Standard roles](/assets/images/admin/usermanagement/en_usermanagement-04.png)
+
+#### Add and edit a new role
+
+Click on the [+] (1) and add a new role. The added role appears as a new column in the role overview and by default only has the permission to take screenshots. To rename the role, click on the pencil icon (2) next to the name of the new role. You can delete roles by clicking on the recycle bin icon (3). To adjust the permissions, select or deselect the checkboxes for the desired permissions (4).
+
+![Add a role](/assets/images/admin/usermanagement/en_usermanagement-05.png)
+
+The following permissions are available for selection.
+
+{% include styled_table.html %}
+| **Permission**            | **Description**                                       |
+|---------------------------|-------------------------------------------------------|
+| Manage Users              | Access to the administration of the Peakboard Box users. Users can be added and changed. |
+| Manage logs               | Access to the logs that are stored on the Peakboard Box. The logs can be read and deleted. |
+| Manage applications       | Activate, deactivate, upload and delete applications on the Peakboard Box in the Peakboard Designer and via web access. |
+| Read data                 | Share and read variables, lists and global functions externally. |
+| Write data                | Share variables, lists and global functions externally and write them back. |
+| Set properties            | Add, change and delete values in the Properties tab in the Peakboard Box settings. These are properties that apply to the entire Peakboard Box. This also includes the license key. This option should therefore be reserved for administrators. |
+| Define resources          | Change and add existing resources via web access. |
+| Take screenshot           | Required for the screenshot in the Peakboard Box settings. Minimum requirement for using the Peakboard Hub online. |
+| System settings           | Change general system settings relating to the Peakboard Box, such as the Peakboard Box name, network connections and similar. |
+| Allow cloud communication | Enable communication with the Peakboard Hub online. |
+
+### Configure the users
+
+Once you have configured the roles, you can create all the required users and assign them the appropriate role.
+To add a new user, click on the [+] (1). A secure password is automatically generated for the new user (2). Click on the eye symbol (3) to display it in plain text. You can also change the password manually if required. Give the new user a name in the [User name] column (4). In the [Role] column (5), select the desired role for the user from the drop-down menu.
+
+![Add and configure user](/assets/images/admin/usermanagement/en_usermanagement-06.png)
+
+To reduce configuration effort, you can automatically apply the settings for users and roles to all Peakboard Boxes that are in the same group. To do this, activate the checkbox [Replicate users and roles to other Peakboard Boxes in the group 'Name of current group'] (1).
+
+## Use Peakboard Box with user context
+
+To use the Peakboard Box in the desired user context, the respective Peakboard Box with the corresponding user must be added to the Peakboard Designer. To do this, enter the respective user name and password when adding the Peakboard Box. Now only actions that match the permissions assigned to the user can be carried out.
+
+## Operating system administrator account `pbadmin`
+
+Independent of the user management of the Peakboard Box in the Peakboard Designer, there is an administrator account for the Windows operating system in the background of the Peakboard Box. The default user here is `pbadmin`. You will receive the password by email when the Peakboard Box is shipped to you. You only need this user for administrative tasks in the background, not for your work with the Peakboard Box in the Peakboard Designer.
+
+To change the password of the 'pbadmin', click on the [Change pbadmin Password] button (1) in the [Roles] area.
+
+![Change pbadmin password](/assets/images/admin/usermanagement/en_usermanagement-07.png)

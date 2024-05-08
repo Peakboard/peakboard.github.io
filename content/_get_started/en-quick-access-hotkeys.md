@@ -18,11 +18,11 @@ If you are new to Peakboard Designer, the quick access bar can serve as a helpfu
 
 ### Using the quick access bar
 
-To access the quick access bar, use the hotkeys [Ctrl + K] or click on the corresponding Magnifier icon (1) in the menu bar. You will find a list of other hotkeys in the Peakboard Designer in the second part of this article.
+To access the quick access bar, use the hotkeys [Ctrl + K] or click on the corresponding quick access bar field (1) in the menu bar. You will find a list of other hotkeys in the Peakboard Designer in the second part of this article.
 
 ![Open quick access bar](/assets/images/get_started/en_quick-access-01.png)
 
-The quick access bar appears at the top of the workspace. It is divided into two areas. A scrollable menu area (1) with all available functions and the search bar (2) with which you can search through the functions.
+The quick access bar is divided into two areas. A scrollable menu area (1) with all available functions and the search bar (2) with which you can search through the functions.
 
 ![Quick access bar](/assets/images/get_started/en_quick-access-02.png)
 

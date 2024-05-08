@@ -27,7 +27,7 @@ Click on the cloud icon (3) to connect your Peakboard Box to the cloud. Then cop
 ![Peakboard Box cloud ID](/assets/images/hub/en_hub-online_boxes-02.png)
 
 Now click on [Add Peakboard Box] (1) in the Peakboard Hub online under [Peakboard Boxes] to open the add dialog.
-To add a Peakboard Box to the Peakboard Hub online, you need the previously copied cloud ID (2) from the Peakboard Designer as well as the credentials (3) of a user with sufficient permissions.
+To add a Peakboard Box to the Peakboard Hub online, you need the previously copied cloud ID (2) from the Peakboard Designer. The user (3) you are connecting to needs the [Allow cloud communication] permission. You can find the permission in the Peakboard Box settings in the [Users and roles] tab of the [User administration](/administration/en-user-administration.html).
 
 ![Add Peakboard Box](/assets/images/hub/en_hub-online_boxes-03.png)
 

@@ -8,45 +8,51 @@ weight: 2430
 ref: dat-2430
 ---
 
-> ## WICHTIG!
->
-> Die Einstellungen müssen einmal am eigenen Rechner (zur Nutzung der Preview-Funktion) *und* einmal auf der Peakboard Box vorgenommen werden!
+<div class="box-warning" markdown="1">
+**Wichtig!**
 
-Es kann sein, dass Sie bei der Verbindung zu SAP einen der folgenden Fehler erhalten:
+Du musst die Einstellungen am eigenen Rechner (zur Nutzung der Preview-Funktion) **und** auf der Peakboard Box vornehmen.
+</div>
 
-## ERROR Dienst '?' unbekannt oder Dienst sapms unbekannt:
+Es kann sein, dass du bei der Verbindung zu SAP einen der folgenden Fehler erhälst:
+
+## ERROR Dienst '?' unbekannt oder Dienst sapms unbekannt
 
 Das Problem ist, dass sapdp* (z.B. sapdp00 3200/tcp) Einträge in den Dateidiensten im Ordner C:\Windows\System32\drivers\etc\services fehlen.
 
-Um das Problem zu lösen müssen Sie die folgende Zeile an die Datei services anhängen. nn ist die Instanznummer des SAP-Systems (z.B. 00 oder 99).
+Um das Problem zu lösen musst du die folgende Zeile an die Datei services anhängen. nn ist die Instanznummer des SAP-Systems (z.B. 00 oder 99).
 
 `sapms<SID> 36<nn>/tcp`
 
-Wenn Ihre SID beispielsweise ECC ist, sieht die Zeile beispielsweise wie die folgende aus:
+Wenn deine SID beispielsweise ECC ist, sieht die Zeile wie die folgende aus:
 
-`sapmsECC 3600/tcpp`
+`sapmsECC 3600/tcp`
 
-Für System ID (SID) ECC und Instanznummer 12 bitte einstellen:
+Für System ID (SID) ECC und Instanznummer 12 einstellen:
 
-`sapmsECC 3612/tcpp`
+`sapmsECC 3612/tcp`
 
-> ## WICHTIG!
->
-> Beim Einfügen in diese Datei ist darauf zu achten, dass der letzte Eintrag immer mit einem Return abgeschlossen wird. Bei einigen Plattformen kann dies zu Problemen führen, da der letzte Eintrag möglicherweise nicht erkannt wird.
+<div class="box-warning" markdown="1">
+**Wichtig!**
 
-> ## WARNUNG!
->
->Die Servicedatei sollte keine Erweiterung erhalten. Der Name sollte services bleiben und nicht z.B. services.txt werden.
+Beim Einfügen in diese Datei musst du darauf achten, dass der letzte Eintrag immer mit einem Return abgeschlossen wird. Bei einigen Plattformen kann dies zu Problemen führen, da der letzte Eintrag möglicherweise nicht erkannt wird.
+</div>
 
-Nach der Bearbeitung der Datei müssen Sie möglicherweise den Peakboard Designer neu starten.
+<div class="box-warning" markdown="1">
+**Warnung!**
+
+Die Servicedatei sollte keine Erweiterung erhalten. Der Name sollte services bleiben und nicht z.B. services.txt werden.
+</div>
+
+Nach der Bearbeitung der Datei musst du möglicherweise den Peakboard Designer neu starten.
 
 [SAP-Hinweis 52959](https://launchpad.support.sap.com/#/notes/52959)
 
 ## Anpassung der Service-Datei auf der Peakboard Box
 
-Nachfolgende Anleitung erklärt, wie die Einträge in der Servicedatei auf der Peakboard Box vorgenommen werden können
+Die nachfolgende Anleitung erklärt dir, wie du die Einträge in der Servicedatei auf der Peakboard Box vornehmen kannst.
 
-* Lokal eine PowerShell als Administrator ausführen und folgende Commands eingeben:
+* Führe lokal eine PowerShell als Administrator aus und gib folgende Commands ein:
 
 ```
 net start WinRM
@@ -54,20 +60,20 @@ Set-Item WSMan:\localhost\Client\TrustedHosts -Value <ip-adresse>
 Enter-PSSession -ComputerName <ip-adresse> -Credential pbadmin
 ```
 
-* Service Datei auf das Peakboard Box Share Laufwerk verschieben:
+* Verschiebe die Service Datei auf das Peakboard Box Share Laufwerk
 
 ```
 Move-Item -Path C:\Windows\System32\drivers\etc\services -Destination C:\Share
 ```
 
-* Im Datei-Browser das Share-Laufwerk der Peakboard Box öffnen:
+* Öffne im Datei-Browser das Share-Laufwerk der Peakboard Box
 
 ```
 \\[Name der Peakboard Box, z.B. PB1234]\share
 ```
 
-* Einträge in der Datei Service wie vorangengangen beschrieben einfügen und Datei speichern
-* Service Datei zurück an den Urspurng schieben
+* Füge Einträge in der Datei Service wie vorangengangen beschrieben ein und speichere die Datei
+* Schiebe die Service Datei zurück an den Urspurng
 
 ```
 Move-Item -Path C:\Share\services -Destination C:\Windows\System32\drivers\etc

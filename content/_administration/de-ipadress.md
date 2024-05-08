@@ -9,28 +9,12 @@ ref: admin-2100
 redirect_from:
 ---
 
-Die manuelle Einstellung der IP-Adresse einer Peakboard Box ist nur möglich, wenn eine direkte Verbindung zu der Peakboard Box besteht.
+Die manuelle Einstellung der IP-Adresse einer Peakboard Box oder Peakboard BYOD Instanz ist nur möglich, wenn eine direkte Verbindung zu der Peakboard Box oder Peakboard BYOD Instanz besteht. Damit du die IP-Adresse einer Peakboard Box oder Peakboard BYOD Instanz ändern kannst, [musst du diese im Peakboard Designer hinzugefügt haben](/administration/de-hinzufuegen.html).
 
-Dazu sollte am besten ein Ethernet Kabel verwendet werden.
+Nachdem du die Peakboard Box oder Peakboard BYOD Instanz hinzugefügt hast kannst du die IP-Adresse in den Peakboard Box Einstellungen ändern. Klicke in der Menüleiste auf das Peakboard Box Symbol (1) um diese zu öffnen.
 
+![Peakboard Box Einstellungen öffnen](/assets/images/admin/ipadress/de_ipaddress-01.png)
 
+Wähle die gewünschte Peakboard Box oder Peakboard BYOD Instanz (1) im linken Bereich aus und wechsle zum Tab [Verbindungen] (2). Hier werden alle Verbindungen angezeigt, bei denen du Änderungen vornehmen kannst. Im Abschnitt Netzwerkverbindungen klickst du auf das Stift-Symbol (3) der gewünschten Verbindung. Im nun geöffneten Dialog kannst du Änderungen an der IP-Adresse (4) und der DNS-Serveradresse (5) vornehmen.
 
-Um die IP-Adresse der Peakboard Box zu ändern ist es wichtig, dass diese im Designer hinzugefügt wurde. 
-Wie das funktioniert steht in [diesem Artikel](https://help.peakboard.com/administration/PB%202.x%20Box/de-hinzufuegen.html) .
-
- 
- 
-Nachdem die Box hinzugefügt wurde kann über einen Doppelklick im Verwalten / Hochladen Dialog (1) die Maske der Peakboard Box-Einstellungen geöffnet werden (2).
-
-
-![image_1](/assets/images/admin/ipadress/ipadress.png)
-
-
-
-In diesem Dialog kann mit der Schaltfläche neben dem Eintrag Peakboard Box IP eine weitere Maske geöffnet werden (3).
-Hier werden alle Verbindungen angezeigt, für die eine IP-Adresse festgelegt werden kann.
-Nun muss nur noch die Entsprechende Verbindung über IP-Konfiguration ausgewählt werden (4) 
-und dann die IP-Adresse bzw. die DNS-Serveradresse geändert werden (5).
-
-
-![image_1](/assets/images/admin/ipadress/ipadress01.png)
+![IP-Adresse ändern](/assets/images/admin/ipadress/de_ipaddress-02.png)

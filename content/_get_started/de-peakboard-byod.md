@@ -41,6 +41,11 @@ Auf dem Betriebssystem muss [das ASP.NET Core 3.1 Runtime (v3.1.32) - Windows Ho
 
 Das Setup führt dich automatisch durch den Installationsprozess. Es bietet die Option, Peakboard BYOD beim Hochfahren automatisch zu starten (1). In der Regel ist dies auch das gewünschte Verhalten. Für den automatischen Start wird der aktuell angemeldete Benutzer, der das Setup ausführt, verwendet.
 
+<div class="box-tip" markdown="1">**Benötigte Schreibrechte**
+
+Um sicherzustellen, dass alle Funktionen der BYOD Instanz fehlerfrei ausgeführt werden können, benötigt der angemeldete Nutzer Schreibrechte für den Ordner `C:/ProgramData/Peakboard`.
+</div>
+
 ![Setup-Optionen](/assets/images/get_started/de_peakboard-byod-01.png)
 
 ## Peakboard BYOD Instanz dem Peakboard Designer hinzufügen und lizensieren

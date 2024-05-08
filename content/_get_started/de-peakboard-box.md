@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Die Peakboard Box anschließen und die erste Visualisierung übertragen
+title: Die Peakboard Box anschließen und die erste Anwendung übertragen
 menu_title: Die Peakboard Box
-description: Die Peakboard Box anschließen und die erste Visualisierung übertragen
+description: Die Peakboard Box anschließen und die erste Anwendung übertragen
 homepage: true
 homepage_icon: /assets/images/homepage/get-started-upload-contour.svg
 lang: de
@@ -16,8 +16,8 @@ redirect_from:
 
 ![Die Peakboard Box](/assets/images/get_started/Peakboard-Box_technical-data_de.png)
 
-Diese Anleitung zeigt dir, wie du deine Peakboard Box in Betrieb nimmst und deine erste Datenvisualisierung überträgst.
-Sieh dir außerdem [unser Video](https://youtu.be/-6YyjhlpdjU) für weitere Tipps zur Übertragung deiner Visualisierung auf die Peakboard Box an.
+Diese Anleitung zeigt dir, wie du deine Peakboard Box in Betrieb nimmst und deine erste Anwendung überträgst.
+Sieh dir außerdem [unser Video](https://youtu.be/-6YyjhlpdjU) für weitere Tipps zur Übertragung deiner Anwendung auf die Peakboard Box an.
 Falls noch nicht geschehen, empfehlen wir dir für die Einführung in den Peakboard Designer vorab den Artikel [Der Peakboard Designer](/get_started/de-peakboard-designer.html) durchzulesen.
 
 Im Artikel [Peakboard BYOD](/get_started/de-peakboard-byod.html) kannst du nachlesen wie du vorgehen musst um deine eigene Hardware anstelle einer Peakboard Box zu verwenden.
@@ -29,11 +29,11 @@ Nach einigen weiteren Sekunden ist die Peakboard Box bereits betriebsbereit.
 
 ![Initialer Bildschirm](/assets/images/get_started/Peakboard-Box_InitialScreen_de.png)
 
-Um dein Dashboard auf die Peakboard Box zu übertragen, musst du sie zuerst zum Peakboard Designer hinzufügen.
+Um deine Anwendung auf die Peakboard Box zu übertragen, musst du sie zuerst zum Peakboard Designer hinzufügen.
 Wie das geht, erfährst du [hier](/administration/07-de-hinzufuegen.html).
-Nachdem die Peakboard Box hinzugefügt wurde, klickst du auf den [Hochladen]-Button und wählst die gewünschte Peakboard Box aus um die Visualisierung hochzuladen (1).
+Nachdem die Peakboard Box hinzugefügt wurde, klickst du auf den [Hochladen]-Button und wählst die gewünschte Peakboard Box aus um die Anwendung hochzuladen (1).
 
-![Visualisierung hochladen](/assets/images/get_started/Peakboard-Box_Upload_de.png)
+![Anwendung hochladen](/assets/images/get_started/Peakboard-Box_Upload_de.png)
 
-Wenn die Übertragung erfolgreich war und kein anderes Dashboard bereits aktiv ist, wird die Datenvisualisierung auch direkt auf dem Monitor angezeigt.
-*Merke:* Jede Peakboard Box speichert beliebig viele Dashboards, aber nur eins davon kann jeweils aktiv sein.
+Wenn die Übertragung erfolgreich war und keine Anwendung bereits aktiv ist, wird die Anwendung auch direkt auf dem Monitor angezeigt.
+*Merke:* Jede Peakboard Box speichert beliebig viele Anwendungen, aber nur eine davon kann jeweils aktiv sein.

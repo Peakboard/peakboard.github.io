@@ -10,66 +10,41 @@ redirect_from:
  - /controls/en-cf.html
 ---
 
-![img00](/assets/images/Controls/ConditionalFormatting/img00.png)
+![Conditional formatting](/assets/images/Controls/ConditionalFormatting/en_cf-00.png)
 
 Conditional formatting allows you to change different properties of a control based on a defined event without having to resort to complex scripts.
 
-To define a conditional formatting for a control, first drag the desired control, in this case a rectangle, onto the surface (1).
-Under the category Appearance you will now find the property "Conditional Formatting" (2).
+To define conditional formatting for a control, first drag the desired control onto the workspace and select it (1). In the example shown, the bar in the upper area of the [template](https://templates.peakboard.com/Detailed-Board-Single-Production-Line/en) should display the status of the production line.
+The default status is green. If there is an error on the production line, the bar should turn red. If the production line is idle, the line should be colored light blue.
 
-![img01](/assets/images/Controls/ConditionalFormatting/img01.png)
+In the attributes in the [Logic] area, you will find the [Conditional formatting] item.
+This essentially consists of three elements. The text field (2) shows whether and how many rules you have created for this control. The trash can (3) allows you to delete all rules. The last icon (4) opens the rule editor for conditional formatting.
 
-This consists essentially of four elements.
-The text field shows whether and how many rules have been created for this element.
-The trash can allows you to delete all rules.
-With the help of the copy icon rules can easily be copied and applied to other controls without having to be redefined.
-The fourth and last icon opens the rule editor for conditional formatting.
+![Conditional formatting](/assets/images/Controls/ConditionalFormatting/en_cf-01.png)
 
-![img02](/assets/images/Controls/ConditionalFormatting/img02.png)
+Use the [+] symbol (1) to create a new rule. Here you can first assign a name (2) to the rule for easier identification.
 
-The "New Rule" button is used to create a new rule.
-Here you can first enter a name for the rule for easier identification (1).
 The rule editor itself is based on a simple if-then concept.
-The IF statement defines when the rule should be executed (2), while the THEN statement defines the corresponding action (3).
-Depending on the control type, control-specific properties can be changed.
+In the IF statement, you define when the rule should be executed (2), while in the THEN statement you define the corresponding action (3). Depending on the control type, you can change control-specific properties.
 
-{% include styled_table.html %}
-| Text Control | Shapes |
-|---------------|---------------|
-| text | background |
-| subtitles | border color |
-| background | border size |
-| Shadow Depth | Animation |
-| Animation | Width |
-| width | height |
-| Height | Top |
-| Top | Left |
-| Left | Visible |
-| Visible ||
+Once you have created a rule, you can use the [+] symbol to define additional rules for the control.
 
-With the button "Add new rule" further rules can be defined for the control (4).
+![New rule](/assets/images/Controls/ConditionalFormatting/en_cf-02.png)
 
-![img03](/assets/images/Controls/ConditionalFormatting/img03.png)
+In order to define a condition in the IF statement, you need a data source or variable that later triggers the THEN event. The [Status] column of the OPC UA data source [ProductionData_DF] is used for the states of the production line. The column has the three possible states [Running], [Error] and [Idle].
 
-In order to define a condition in the IF statement, it needs a data source or variable that later triggers the THEN event.
-Here, a variable ProdKPI1 (1) of the type Number was created, which, for example, reflects the daily production.
-In the example, if a daily production of 100 is reached, the rectangle should be colored green.
-First, the AND-Condition button is used to define the desired condition.
-To do this, select the variable using the concatenation symbol and then define the operator required to fulfill the condition (equal =, greater >, smaller <, not equal <>).
-The third field of the IF statement contains the comparison value.
-As here, this can be a permanently defined value or also a variable or value from a data source (2).
+The rectangle control should be displayed in red if the [Status] column shows the [Error] state. For example, name your created rule [Error] (1). Then select the data source, the column and the row in the IF area by clicking on the bracket symbol (2). Then use the drop-down menu to select the desired operator, in this case [==] (3). Now enter the value to be compared in the third field (4). You can enter a fixed value here or also link a variable or data source. In this case, enter the string [Error]. Depending on the use case, you can add further AND conditions (5) or OR blocks (6) at this point.
 
-If required, further AND or OR conditions can be defined (3).
+In the THEN area, you now define the action that is to be executed when the IF area is fulfilled. To do this, select the property that you want to change (7) and define the new value (8). In this case, the background color should be changed to red. If required, you can use the [Add formatting] button (9) to define further actions that are also executed when the IF area is fulfilled.
 
-In the THEN-statement the action is defined, which is to be executed when (2) is fulfilled.
-In this case the background should be colored green (4).
+![Configure rule](/assets/images/Controls/ConditionalFormatting/en_cf-03.png)
 
-With the button "Add formatting" additional actions can be defined, which should be executed when the condition is fulfilled.
+Now create another rule for the [Idle] state using the same scheme.
 
-![img04](/assets/images/Controls/ConditionalFormatting/img04.png)
+![Configure another rule](/assets/images/Controls/ConditionalFormatting/en_cf-04.png)
 
-In the preview you can see the result of the conditional formatting.
+You can now view the result of the conditional formatting in the preview.
 The conditional formatting is only executed in the preview or on the Peakboard Box!
-On the drawing area there is no change of the rectangle from white to green!
+There is no change on the workspace!
 
-![img05](/assets/images/Controls/ConditionalFormatting/img05.png)
+![Preview](/assets/images/Controls/ConditionalFormatting/en_cf-05.gif)
