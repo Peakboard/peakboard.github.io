@@ -11,9 +11,18 @@ redirect_from:
  - /controls/de-allgemeine-eigenschaften.html
 ---
 
-Alle Controls haben Eigenschaften. Dazu gehören zum einen spezielle Eigenschaften, die nur für das jeweilige Control gelten, aber auch allgemeine Eigenschaften, die fast bei jedem oder zumindest bei vielen Controls vorkommen. Damit nicht auf jeder Hilfe-Seite immer alle Eigenschaften wieder und wieder erklärt werden müssen, sind die Eigenschaften, die bei mehr als einem Control auftauchen, im folgenden Artikel zusammengefasst. Der Eigenschaften-Bereich ist in mehrere Abschnitte unterteilt.
+Alle Controls haben Eigenschaften. Dazu gehören zum einen spezielle Eigenschaften, die nur für das jeweilige Control gelten, aber auch allgemeine Eigenschaften, die fast bei jedem oder zumindest bei vielen Controls vorkommen. Damit nicht auf jeder Hilfe-Seite immer alle Eigenschaften wieder und wieder erklärt werden müssen, sind die Eigenschaften, die bei mehr als einem Control auftauchen, im folgenden Artikel zusammengefasst. Der Eigenschaften-Bereich ist in die folgenden Abschnitte unterteilt.
 
-### Control-Positionierung
+<a name="anfang"></a>
+
+* **[Control-Positionierung](#positionierung)**
+* **[Control-Ausrichtung](#ausrichtung)**
+* **[Allgemeines](#allgemeines)**
+* **[Daten](#daten)**
+* **[Aussehen](#aussehen)**
+* **[Logik](#logik)**
+
+### Control-Positionierung {#positionierung}
 
 Mit den Positionierungswerkzeugen kannst du die Controls automatisch skalieren und einen bestimmten Bereich füllen lassen.
 
@@ -31,11 +40,17 @@ Mit den Positionierungswerkzeugen kannst du die Controls automatisch skalieren u
 | Bildschirm füllen | Füllt die gesamte Arbeitsfläche mit dem Control aus. |
 | Control zentrieren | Zentriert das gewählte Control in der Arbeitsfläche. |
 
+<div class="box-tip" markdown="1">
+**Tipp:**
+
 Wird die Shift-Taste gehalten, wird automatisch ein Abstand rundherum hinzugefügt.
+</div>
 
-### Control-Ausrichtung
+[zum Seitenanfang](#anfang)
 
-Werden mehrere Controls gleichzeitig markiert, erscheinen die Ausrichtungsoptionen für die gewählten Controls.
+### Control-Ausrichtung {#ausrichtung}
+
+Werden mehrere Controls gleichzeitig markiert, erscheinen die Ausrichtungsoptionen für die gewählten Controls. Die anderen Eigenschaften können nicht Control-übergreifend festgelegt werden und sind daher ausgeblendet.
 
 {% include styled_table.html %}
 | **Eigenschaft** | **Beschreibung** |
@@ -51,7 +66,9 @@ Werden mehrere Controls gleichzeitig markiert, erscheinen die Ausrichtungsoption
 | Horizontale Abstände entfernen | Wenn mehr als zwei Controls ausgewählt sind, kannst du mit dieser Eigenschaft die horizontalen Abstände zwischen den Controls entfernen. |
 | Vertikale Abstände entfernen | Wenn mehr als zwei Controls ausgewählt sind, kannst du mit dieser Eigenschaft die vertikalen Abstände zwischen den Controls entfernen. |
 
-### Allgemeines
+[zum Seitenanfang](#anfang)
+
+### Allgemeines {#allgemeines}
 
 In diesem Bereich findest du Eigenschaften, die sich die meisten Controls teilen.
 
@@ -67,23 +84,31 @@ In diesem Bereich findest du Eigenschaften, die sich die meisten Controls teilen
 | Abstand | Definiert einen Innenabstand für den Rahmen des Controls in Pixeln. |
 | Titel und Untertitel | Fügt einen Titel und/oder Untertitel zum Control hinzu, ohne dass du dafür ein separates Textfeld nutzen musst. |
 
-### Daten
+[zum Seitenanfang](#anfang)
+
+### Daten {#daten}
 
 Dieser Bereich ist nicht bei allen Controls verfügbar und unterscheidet sich stark zwischen den unterschiedlichen Controls. Meist können hier Werte händisch eingegeben oder Datenquellen mit dem Control verknüpft werden.
 
-### Aussehen
+[zum Seitenanfang](#anfang)
+
+### Aussehen {#aussehen}
 
 In diesem Bereich kannst du mit verschiedenen Eigenschaften das Aussehen des Controls beeinflussen. Die zur Verfügung stehenden Eigenschaften unterscheiden sich je nach gewähltem Control. Häufig lassen sich Hintergrundfarben, Konturen, Schatten, Schriftarten und viele weitere Eigenschaften anpassen.
 
-### Logik
+[zum Seitenanfang](#anfang)
 
-In diesem Bereich findest du Eigenschaften, die mit [Scripting](/scripting/de-script-engine.html) zu tun haben.
+### Logik {#logik}
+
+In diesem Bereich findest du Eigenschaften, die mit Logik zu tun haben. Neben dem reinen [Scripting](/scripting/de-script-engine.html) findest du auch Eigenschaften für Low-Code und No-Code Bereiche wie beispielsweise die [bedingte Formatierung](/controls/Basics/de-cf.html).
 
 {% include styled_table.html %}
 | **Eigenschaft** | **Beschreibung** |
 |-----------------|------------------|
 | Ist aktiviert | Aktiviert oder deaktiviert das Control in der Anwendung. Du kannst diese Eigenschaft per Skript ansteuern und ändern. |
-| In Skripten verwendet | Aktivierst du diese Eigenschaft, stehen weitere Eigenschaften zur Verfügung. |
+| In Skripten verwendet | Aktivierst du diese Eigenschaft, stehen weitere Eigenschaften wie der Controlname zur Verfügung. Dieser wird benötigt damit das Control in Skripten angesprochen werden kann. |
 | Controlname | Ein eindeutiger Name für das Control (ohne Sonderzeichen), um es von Skripten aus anzusteuern. Nur wenn das Control tatsächlich von Skripten aus genutzt wird, musst du einen Namen vergeben. |
 | Bedingte Formatierung | Die [bedingte Formatierung](/controls/Basics/de-cf.html) erlaubt es dir, unterschiedliche Eigenschaften eines Controls aufgrund eines definierten Ereignisses zu verändern, ohne dabei auf komplexe Skripte zurückgreifen zu müssen. |
-| Events | Diese Eigenschaften können verwendet werden, um einen Dialog aufzurufen, der ein oder mehrere Skripte enthält, die aufgerufen werden, wenn Ereignisse des gewählten Controls auftreten. |
+| Events | Diese Eigenschaften können verwendet werden, um den Skript-Editor aufzurufen, der ein oder mehrere Skripte enthält, die aufgerufen werden, wenn Ereignisse des gewählten Controls auftreten. |
+
+[zum Seitenanfang](#anfang)

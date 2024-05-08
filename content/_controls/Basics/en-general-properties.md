@@ -13,7 +13,16 @@ redirect_from:
 
 All controls have properties. These include special properties that only apply to the respective control, but also general properties that occur with almost every control or at least with many controls. To avoid having to explain all properties again and again on every help page, the properties that appear on more than one control are summarized in the following article. The properties area is divided into several sections.
 
-### Control positioning
+<a name="top"></a>
+
+* **[Control positioning](#positioning)**
+* **[Control layout](#layout)**
+* **[General](#general)**
+* **[Data](#data)**
+* **[Appearance](#appearance)**
+* **[Logic](#logic)**
+
+### Control positioning {#positioning}
 
 You can use the positioning tools to automatically scale the controls and fill a specific area.
 
@@ -31,11 +40,17 @@ You can use the positioning tools to automatically scale the controls and fill a
 | Fill screen | Fills the entire workspace with the control. |
 | Center control | Centers the selected control in the workspace. |
 
+<div class="box-tip" markdown="1">
+**Tip:**
+
 If the Shift key is held down, a margin is automatically added on all sides.
+</div>
 
-### Control layout
+[back to top](#top)
 
-If several controls are selected at the same time, the alignment options for the selected controls appear.
+### Control layout {#layout}
+
+If several controls are selected at the same time, the alignment options for the selected controls appear. The other properties cannot be defined across all controls and are therefore hidden.
 
 {% include styled_table.html %}
 | **Property** | **Description** |
@@ -51,7 +66,9 @@ If several controls are selected at the same time, the alignment options for the
 | Remove horizontal spacing | If more than two controls are selected, you can use this property to remove the horizontal spacing between the controls. |
 | Remove vertical spacing | If more than two controls are selected, you can use this property to remove the vertical spacing between the controls. |
 
-### General
+[back to top](#top)
+
+### General {#general}
 
 In this section you will find properties that most controls share.
 
@@ -67,23 +84,31 @@ In this section you will find properties that most controls share.
 | Padding | Defines an inner spacing for the frame of the control in pixels. |
 | Title and subtitle | Adds a title and/or subtitle to the control without having to use a separate text field. |
 
-### Data
+[back to top](#top)
+
+### Data {#data}
 
 This area is not available for all controls and can vary significantly between the different controls. In most cases, values can be manually entered here or data sources can be linked to the control.
 
-### Appearance
+[back to top](#top)
+
+### Appearance {#appearance}
 
 In this area, you can use various properties to influence the appearance of the control. The available properties differ depending on the selected control. Background colors, outlines, shadows, fonts and many other properties can often be adjusted.
 
-### Logic
+[back to top](#top)
 
-In this area you will find properties that have to do with [Scripting](/scripting/en-script-engine.html).
+### Logic {#logic}
+
+In this area, you will find properties that have to do with logic. In addition to pure [scripting](/scripting/en-script-engine.html), you will also find properties for low-code and no-code areas such as [conditional formatting](/controls/Basics/en-cf.html).
 
 {% include styled_table.html %}
 | **Property** | **Description** |
 |-----------------|------------------|
 | Is activated | Activates or deactivates the control in the application. You can control and change this property using a script. |
-| Used in scripts | If you activate this property, further properties are available. |
+| Used in scripts | If you activate this property, further properties such as the control name are available. This is required so that the control can be addressed in scripts. |
 | Control name | A unique name for the control (without special characters) to access it from scripts. You only need to assign a name if the control is actually used from scripts. |
 | Conditional formatting | The [conditional formatting](/controls/Basics/en-cf.html) allows you to change different properties of a control based on a defined event without having to resort to complex scripts. |
-| Events | These properties can be used to call up a dialog containing one or more scripts that are called up when events occur for the selected control. |
+| Events | These properties can be used to call up the script editor, which contains one or more scripts that are called up when events occur for the selected control. |
+
+[back to top](#top)
