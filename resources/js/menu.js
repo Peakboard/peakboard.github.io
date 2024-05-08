@@ -14,11 +14,17 @@ export default {
   },
 
   openNavbar() {
+    // get element by class page-header, set to display none
+    document.getElementsByClassName("page-header-hide-on-mobile")[0].style.display = "none";
+
     this.els.html.classList.add("stuck");
     this.els.navbar.classList.add("show");
   },
 
   closeNavbar() {
+    // get element by class page-header, set display to block
+    document.getElementsByClassName("page-header-hide-on-mobile")[0].style.display = "block";
+
     this.closeAllMenus();
     this.els.navbar.classList.remove("show");
   },

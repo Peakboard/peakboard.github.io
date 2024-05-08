@@ -42,13 +42,16 @@ collections:
       en: "Data Sources"
       de: "Datenquellen"
     sublevel:
+      Basics:
+        en: "Basics"
+        de: "Basics"
       SAP:
         en: "SAP"
         de: "SAP"
       Excel:
         en: "Excel"
         de: "Excel"
-      OPCUA:
+      OPC_UA:
         en: "OPC UA"
         de: "OPC UA"
       Extension:
@@ -107,9 +110,9 @@ collections:
       en: "Scripting"
       de: "Scripting"
     sublevel:
-      Samples:
-        en: "Samples"
-        de: "Beispiele"
+      Basics:
+        en: "Basics"
+        de: "Basics"
 
   administration:
     output: true
@@ -147,6 +150,19 @@ collections:
     title:
       en: "Peakboard Hub"
       de: "Peakboard Hub"
+    sublevel:
+      Peakboard_Hub_on_premise:
+        en: "Peakboard Hub on premise"
+        de: "Peakboard Hub on premise"
+      Peakboard_Hub_online:
+        en: "Peakboard Hub online"
+        de: "Peakboard Hub online"
+      Listen:
+        en: "Listen"
+        de: "Listen"
+      Lists:
+        en: "Lists"
+        de: "Lists"
 
   edge:
     output: true
