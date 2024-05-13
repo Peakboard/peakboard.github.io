@@ -64,3 +64,11 @@ yy: two-digit year e.g. 89
 yyyy: four-digit year e.g. 1989
 tt: AM/PM identifier
 ```
+
+### Fix for time synchronization error
+
+Sometimes it can happen that the time cannot be synchronized correctly. To fix this problem, you need to change the type of communication between Windows and the NTP ( network time protocol) to client mode.
+
+To make this change, you must add the following parameter after the URL or IP of the time server in the Peakboard Box settings: `,0x8`.
+
+![Client-Mode Parameter](/assets/images/data-sources/date-and-time/en_timedatasource_06.png)

@@ -64,3 +64,11 @@ yy: zweistelliges Jahr z.B. 89
 yyyy: vierstelliges Jahr z.B. 1989
 tt: AM/PM Kennzeichner
 ```
+
+### Fix für Zeit-Synchronisationsfehler
+
+Manchmal kann es vorkommen, dass sich die Zeit nicht korrekt synchronisieren lässt. Um dieses Problem zu beheben, musst du die Art der Kommunikation zwischen Windows und dem NTP (Network Time Protocol) in den Client-Mode umstellen.
+
+Um diese Änderung vorzunehmen, musst du beim einrichten in den Peakboard Box Einstellungen hinter der URL oder IP des Zeitservers den folgenden Parameter hinzufügen: `,0x8`
+
+![Client-Mode Parameter](/assets/images/data-sources/date-and-time/de_timedatasource_06.png)
