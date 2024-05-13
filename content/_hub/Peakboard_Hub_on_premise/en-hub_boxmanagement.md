@@ -64,3 +64,26 @@ In the section [Availability] you can see the run and downtimes of the last 24 h
 The displayed timestamps show the time of the status change in each case.
 
 ![Availability](/assets/images/hub/en_hub_boxes-05.png)
+
+### Update Peakboard Box
+
+To update your Peakboard Boxes in the Peakboard Hub on premise, you must provide the desired update file yourself before you can perform the update.
+
+#### Update the file
+
+The prerequisite for updating your Peakboard Boxes is an up-to-date file with which the update can be carried out. With an existing internet connection, you can download the latest update file directly in the Peakboard Hub on premise interface. To do this, go to the [Settings] (1) area. In the [Update] section (2) under [Peakboard Box Update File Version] (3), you can see which version is currently stored on your Peakboard Hub on premise. You can download the latest version by clicking on the update icon (4). This is automatically stored under the path specified under [Box update package folder] (5).
+
+![Peakboard Box Update](/assets/images/hub/en_hub_boxes-06.png)
+
+If this does not work correctly or there is no internet connection, you can also carry out the process manually. To do this, download [the latest version for the update](https://peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux) and store the file under the path specified in [Box update package folder] on your Peakboard Hub on premise server or adjust the path accordingly.
+
+#### Perform update
+
+You can now update the desired boxes in two different places. You can click on the [...] icon (1) in the Peakboard Boxes overview and then select [Update] (2). The version to be installed by the update is displayed behind the menu item.
+
+![Peakboard Box update list](/assets/images/hub/en_hub_boxes-07.png)
+![Peakboard Box update tiles](/assets/images/hub/en_hub_boxes-08.png)
+
+Alternatively, you can see which version is currently installed in the detailed view of the Peakboard Box you want to update in the [System] section under [Version] (1). The version currently available for updates is displayed to the right. To perform the update, click on the update icon (2).
+
+![Peakboard Box update detail](/assets/images/hub/en_hub_boxes-09.png)
