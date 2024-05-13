@@ -61,3 +61,16 @@ In the system tab you will find four areas:
 * **Log Files (4):** Here you can see the logs of your Peakboard Box. You can filter them by different criteria (5). With the button [...] you can also export the log files. You can either export the filtered logs with [Export] or all existing logs with [Export All]. In both cases the logs are exported in text format.
 
 ![System tab](/assets/images/hub/en_hub-online_boxes-06.png)
+
+### Update Peakboard Box
+
+You can update your Peakboard Boxes directly via the Peakboard Hub online. This requires a working internet connection. The Peakboard Hub online always provides the latest version for the update process.
+
+You have two options for carrying out the update. Depending on the view you have selected, you can click on the gear icon (1) or the [...] icon (2) in the Peakboard Box overview and then select [Update] (3). The version that will be installed by the update is displayed behind the menu item.
+
+![Peakboard Box update tiles](/assets/images/hub/en_hub-online_boxes-07.png)
+![Peakboard Box update list](/assets/images/hub/en_hub-online_boxes-08.png)
+
+Alternatively, you can see which version is currently installed in the detailed view of the Peakboard Box you want to update in the [System] tab (1) in the [System] section under [Version] (2). The version currently available for updates is displayed to the right. To perform the update, click on the update icon (3).
+
+![Peakboard Box update detail](/assets/images/hub/en_hub-online_boxes-09.png)
