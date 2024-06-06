@@ -27,9 +27,8 @@ Here you will find useful links to the Peakboard Help (1) or the video tutorials
 Via the button [Templates] (2) you will find some templates, which should make the start as easy as possible.
 The templates serve as examples and can be used as a basis for your individual visualization.
 The button [Script templates] (3) gives you access to templates for different use cases and example files that explain how to work with scripts.
-To start your visualization without a template, select one of the themes from the theme slider in the [Start from scratch] section (4).
-You can always change the selected theme later if you don't like it.
-Alternatively, click [New file] in the left pane and the petrol theme will be automatically selected, opening an empty file.
+To start your visualization without a template, select one of the themes from the theme slider in the [Start from scratch] section (4). You can always change the selected theme later if you don't like it. Alternatively, click [New file] in the left pane and the petrol theme will be automatically selected, opening an empty file.
+To change the display language, click on the country flag at the bottom left (5).
 
 ![Peakboard get started dialog](/assets/images/get_started/en_designer-01.png)
 
@@ -44,9 +43,8 @@ At the top is the menu bar (1), directly below it you will find the various cont
 ### 2.1 The menu bar
 
 You can open a preview of your visualization (1) or load it onto your Peakboard Box (2).
-With the button [General] (3) you can for example perform a software update and with the button [Project] (4) you can make basic settings for your visualization. You can also manage your Peakboard Boxes, Peakboard Edge and Peakboard Hub via the corresponding buttons (5). In addition, you will find access to the script editor (6), the fonts (7) and the project colors (8) in the menu bar. In the middle of the menu bar you will find the [quick access bar](/get_started/en-quick-access-hotkeys.html) (9).
-
-At the bottom of the Peakboard Designer you will find a button to switch the language between English and German, as well as some zoom controls.
+With the button [General] (3) you can for example perform a software update and with the button [Project] (4) you can make basic settings for your visualization. You can also manage your Peakboard Boxes, Peakboard Edge and Peakboard Hub via the corresponding buttons (5). In addition, you will find access to the script editor (6), the fonts (7) and the project colors (8) in the menu bar. In the middle of the menu bar you will find the [quick access bar](/get_started/en-quick-access-hotkeys.html) (9). Clicking on the Peakbot symbol (10) opens it and allows you to talk to it about open questions you may have.
+At the bottom of the Peakboard Designer you will find a button with a country flag (11) to switch the language between German and English, as well as some zoom controls (12).
 
 ![Peakboard Designer menu bar](/assets/images/get_started/en_designer-03.png)
 
@@ -62,6 +60,22 @@ For our example it is best to leave it at 1920x1080 (Full HD).
 The visualization will be automatically scaled to the resolution of the connected screen, but the aspect ratio should be correct.
 
 ![Peakboard Designer explorer](/assets/images/get_started/en_designer-04.png)
+
+In very extensive projects, the Explorer can become confusing due to the large number of elements despite the folder structure and subdivision into different categories. In addition to the search function, two other tools are available to help you maintain an overview.
+
+#### Descriptions
+
+So that you can see at a glance what the content of an element is, regardless of whether it is a data source, variable, script, resource or control, you can add a short description to each element. This description is then displayed with an [i symbol] behind the respective element and appears in a pop-up on mouseover. To add a description to an element, right-click on the element and select [Description].
+
+![Description](/assets/images/get_started/en_designer-07.gif)
+
+#### Tags
+
+To show a relationship or priority between the elements of the Explorer, you can add a tag to the elements of the Explorer. To do this, right-click on the desired element and select one of the six available colors under [Tag]. The element will be highlighted in the corresponding color.
+
+A filter bar appears at the top of the Explorer, which you can use to filter according to the different tag colors. To do this, select one or more of the colors by clicking on them. To display all elements again, you can remove all filters by clicking on [Delete all].
+
+![Tags](/assets/images/get_started/en_designer-08.gif)
 
 ### 2.3 The controls
 
