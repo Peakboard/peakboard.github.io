@@ -30,10 +30,11 @@ Weitere hilfreiche Tastenkombinationen findest du am Ende dieses Artikels.
 
 Der Skript-Baum (6) soll das Arbeiten mit Skripten erleichtern. Hierzu findest du dort bereits vordefinierte Funktionen und Beispiele, die du einfach per Doppelklick an der Stelle des Cursors einsetzen kannst. Er enthält neben den zuvor von dir im Peakboard Designer angelegten Elementen des Explorers wie zum Beispiel [Daten], [Dataflows], [Variablen], [Reload Flows], [Ressources] und [Controls]/[Screens] auch [Timer Skripte], [Logik & Schleifen], [Mathematik] und viele weitere Funktionen, sowie unter anderem alle Verbindungen aus deinem aktuellen Projekt unter [In externem System veröffentlichen].
 
-Mithilfe der Ordner auf der linken Seite des Skript-Editors (7) navigierst du durch deine bisher angelegten Skripte im aktuellen Projekt, ohne den Editor dabei verlassen zu müssen. Skripte aus Dataflows sind dort nicht aufgeführt.
+Mithilfe der Ordner auf der linken Seite des Skript-Editors (7) navigierst du durch deine bisher angelegten Skripte im aktuellen Projekt, ohne den Editor dabei verlassen zu müssen. Skripte aus Dataflows sind dort nicht aufgeführt. In der Fehlerliste (8) werden fehlende oder falsche Elemente aufgeführt.
 
-Nachdem du ein Skript in der Arbeitsfläche des Skript-Editors eingegeben hast, kannst du über den Button [Validieren] (8) prüfen, ob es korrekt ist.
-In der Fehlerliste (9) werden fehlende oder falsche Elemente aufgeführt.
+Nachdem du ein Skript in der Arbeitsfläche des Skript-Editors eingegeben hast, kannst du über den Button [Skript testen] mithilfe der Vorschaudaten prüfen, ob es korrekt ist. Verwendest du `peakboard.log('...')`, um Inhalte zu loggen, werden dir diese ebenfalls angezeigt, wie auch weitere Rückgabewerte.
+
+![Skript testen](/assets/images/scripting/editor/de_script-editor-03.gif)
 
 ### Hilfreiche Tastenkombinationen
 

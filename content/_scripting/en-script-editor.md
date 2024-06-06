@@ -30,10 +30,11 @@ For more helpful keyboard shortcuts, see the end of this article.
 
 The script tree (6) is intended to make working with scripts easier. It contains predefined functions and examples, which you can insert at the cursor position by simply double-clicking. In addition to the elements of the explorer you previously created in the Peakboard Designer, such as [Data], [Dataflows], [Variables], [Reload flows], [Resources] and [Controls]/[Screens], it also contains [Timer scripts], [Logic & loops], [Math] and many other functions, as well as, among other things, all connections from your current project under [Publish in external system].
 
-Using the folders on the left side of the script editor (7) you can navigate through your previously created scripts in the current project without having to leave the editor. Scripts from dataflows are not listed there.
+Using the folders on the left side of the script editor (7) you can navigate through your previously created scripts in the current project without having to leave the editor. Scripts from dataflows are not listed there. Missing or wrong elements are listed in the error list (8).
 
-After entering a script in the workspace of the script editor, you can check whether it is correct by clicking the [Validate] button (8).
-Missing or wrong elements are listed in the error list (9).
+After you have entered a script in the script editor workspace, you can use the [Test script] button to check whether it is correct using the preview data. If you use `peakboard.log('...')` to log content, this will also be displayed, as well as other return values.
+
+![Test script](/assets/images/scripting/editor/en_script-editor-03.gif)
 
 ### Helpful keyboard shortcuts
 
