@@ -31,7 +31,7 @@ Datenquellen, Controls, Dataflows, Variablen, Ressourcen oder Bildschirme, all d
 
 ![Datenquelle hinzufügen](/assets/images/get_started/de_quick-access-03.png)
 
-Die Quick Access Bar erweitert sich automatisch, wenn Elemente hinzugefügt werden um zu den im Projekt vorhandenen Elementen passende Optionen (1). Ungenutzte Datenquellen, Ressourcen oder Variablen kannst du ebenfalls über die Quick Access Bar anzeigen lassen.
+Die Quick Access Bar erweitert sich automatisch, wenn Elemente hinzugefügt werden um zu den im Projekt vorhandenen Elementen passende Optionen (1). Ungenutzte Datenquellen, Ressourcen, Variablen oder globale Funktionen kannst du ebenfalls über die Quick Access Bar anzeigen lassen.
 
 ![Elementspezifische Optionen](/assets/images/get_started/de_quick-access-04.png)
 

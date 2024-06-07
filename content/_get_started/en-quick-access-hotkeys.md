@@ -31,7 +31,7 @@ You can add data sources, controls, dataflows, variables, resources or screens t
 
 ![Add data source](/assets/images/get_started/en_quick-access-03.png)
 
-The quick access bar expands automatically when elements are added with options that match the existing elements in the project. Unused data sources, resources or variables can also be displayed via the quick access bar.
+The quick access bar expands automatically when elements are added with options that match the existing elements in the project. Unused data sources, resources, variables or global functions can also be displayed via the quick access bar.
 
 ![Element-specific options](/assets/images/get_started/en_quick-access-04.png)
 
