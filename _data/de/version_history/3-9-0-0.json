@@ -1,0 +1,156 @@
+[{
+  "version": "3.9.0.0",
+  "date": "10.06.2024",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "Peakbot",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-peakbot_de.gif",
+        "description": "Unser neuer KI Assistent unterstützt dich bei allen Fragen rund um Peakboard."
+      }]
+    },
+    {
+      "name": "Drag-and-drop",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-dragdrop_de.gif",
+        "description": "Mit der neuen Drag-and-drop-Funktion kannst du die Daten deiner Listen verschieben oder umsortieren."
+      }]
+    },
+    {
+      "name": "Skript Tester",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-scripttest_de.gif",
+        "description": "Nutze den Skript Tester, um auf einen Blick zu sehen, ob dein Skript korrekt funktioniert. Durch die Nutzung von Logs kannst du dir außerdem die Ausgabe anzeigen lassen."
+      }]
+    },
+    {
+      "name": "Datenquellen Dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-datasources_de.gif",
+        "description": "Unser neuer Datenquellen-Dialog macht es noch einfacher und übersichtlicher, die richtige Datenquelle für deine Anwendung zu finden."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [{
+		    "type": "headline",
+        "text": "Allgemein"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem das Kopieren und Einfügen einer Gruppe dazu führte, dass die Z-Position der Grippe umgekehrt wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem eine unpassende Fehlermeldung bei unlizenzierten Boxen angezeigt wurde",
+          "[Peakboard Designer] - Fix für einen Fehler, bei dem eine falsche Datenverbindung bei einzeiligen Controls angezeigt wurde",
+          "[Peakboard Designer] - UI-Verbesserung für Sprachauswahl",
+          "[Peakboard Designer] - ChatGPT Helpbot implementiert",
+          "[Peakboard Designer] - Variablen können per Drag-and-drop auf ein Text Control gezogen werden, damit sich dessen Datenquelle ändert",
+          "[Peakboard Box] - Überarbeitung des initialen Peakboard Box Bildschirms",
+          "[Peakboard Box Einstellungen] - Fix für einen Fehler, der beim Prüfen der Verbindung der Ports 40408/40409 auftrat",
+          "[Peakboard Box Einstellungen] - Fix für einen Fehler, bei dem getrennte WLAN-Verbindungen nach dem Neustart einer Peakboard Box wieder verbunden waren",
+          "[Peakboard Box Einstellungen] - Aktuelle Zeit und Datum werden im Peakboard Box Check beim Zeitserver angezeigt",
+          "[Peakboard Box Einstellungen] - Option zur Deaktivierung der Verbindungsverschlüsselung hinzugefügt",
+          "[Peakboard Box Einstellungen] - Option zum Abbrechen hinzugefügt, wenn Peakboard Designer und Peakboard Box eine unterschiedliche Versionsnummer haben",
+          "[Peakboard Box Einstellungen] - Dialogverhalten bei Nutzung von betriebsrelevanten Nutzernamen der Nutzerverwaltung optimiert",
+          "[Explorer] - Fix für einen Fehler, bei dem vorhandene Skripte eines Controls beim Kopieren nicht angezeigt wurden",
+          "[Explorer] - UX-Verbesserung, die es ermöglicht, im Explorer ausgewählte Controls auf der Arbeitsfläche mit den Pfeiltasten zu verschieben",
+          "[Explorer] - UX-Verbesserung, die es ermöglicht, Ordner umzubenennen",
+          "[Explorer] - Möglichkeit zum Hinzufügen von Beschreibungen für alle Explorer-Elemente im Kontextmenü hinzugefügt",
+          "[Explorer] - Datenquellentyp wird, um die Übersicht zu verbessern, nur noch als Tooltip angezeigt",
+          "[Explorer] - Geöffnete und geschlossene Ordner werden bei erneutem Programmstart wieder gleich angezeigt",
+          "[Explorer] - Lokalisierungsverbesserungen",
+          "[Explorer] - UX-Verbesserung des Cursorverhaltens",
+          "[Explorer] - Tag-Funktion (farbliche Markierungen) und zugehörige Filter-Funktion für Elemente im Explorer hinzugefügt",
+          "[Globale Funktionen] - Ungenutzte und Referenzen anzeigen hinzugefügt",
+          "[Globale Funktionen] - Parameterprüfung hinzugefügt ",
+          "[Schriftarten] - Standardname wird beim Kopieren einer Schriftart basierend auf dem Namen der kopierten Schriftart vergeben"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Datenquellen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[CSV]/[JSON]/[XML] - Fix für einen Fehler, bei dem geladene Daten nach einem erneuten Öffnen des Datenquellendialogs nicht mehr angezeigt werden",
+          "[Excel] - Fix für einen Fehler, der beim Hinzufügen einer Excel Datenquelle grundlos angezeigt wurde",
+          "[JSON] - Drop-down zur Änderung des Datentyps in der Datenvorschau entfernt",
+          "[MQTT] / [OPC UA] - Fix für einen Fehler, bei dem das Auslösen eines Reload Flows ohne eine Datenänderung nicht funktionierte",
+          "[OPC UA] - Fix für einen Fehler, bei dem der Erstellungsdialog der Datenquelle mit einem ungültigen Namen gespeichert werden konnte, diese aber nicht erstellt wurde",
+          "[Peakboard Hub Liste] - Fix für einen Fehler, bei dem Filter durch SQL Statements auch nach dem Löschen des Statements weiterhin angewendet wurden",
+          "[SAP] - Variablenersetzung für verschachtelte XQL Tabellendefinitionen hinzugefügt",
+          "[SAP] - XQL Syntax Highlighting im Editor hinzugefügt",
+          "[QR Code] - Fix für einen Fehler, bei dem QR Codes nicht korrekt angezeigt wurden",
+          "Funktion zum schnellen Einfügen von Variablen in SQL Statements hinzugefügt",
+          "Umfangreicher Dialog zur Auswahl von Datenquellen hinzugefügt",
+          "[Reload Flows] - Fix für einen Fehler, bei dem gelöschte Dataflows weiterhin im Reload Flow verblieben sind",
+          "[Reload Flows] - Fix für einen Fehler, bei dem Reload Flows dazu führen konnten, dass Dataflows nicht mehr funktionierten",
+          "[Reload Flows] - Warnung vor dem Löschen von benutzten Elementen hinzugefügt"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem im Join Schritt automatisch alle Spalten für den Schritt ausgewählt wurden",
+          "Fix für einen Fehler, bei dem Sonderzeichen in Spaltenüberschriften in einem Schritt nicht automatisch korrigiert wurden",
+          "Performanceverbesserungen"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem Controls auf unterschiedlichen Bildschirmen nicht den gleichen Namen haben konnten",
+          "[Diagramm] - Formatierungskorrekturen",
+          "[Icon] - Fix für einen Anzeigefehler, durch den eine Icon Kategorie nicht angezeigt wurde",
+          "[Live Tiles] - vollständig aus dem Peakboard Designer entfernt, Nutzung zukünftig nicht mehr möglich",
+          "[Styled Tile] / [Styled Tile Kollektion] / [Styled List] - Fix für einen Fehler, bei dem mehrere Controls nicht richtig verwendet werden konnten",
+          "[Styled Tile] / [Styled Tile Kollektion] / [Styled List] - Einige Controls werden nur noch unter bestimmten Voraussetzungen zur Verwendung angezeigt",
+          "[Styled Tile] / [Styled Tile Kollektion] / [Styled List] - Fix für mehrere Fehler, die bei der Verwendung des QR-Code Controls auftraten",
+          "[Styled Tile] / [Styled Tile Kollektion] / [Styled List] - Skriptbaumzugriff auf korrekte Daten vereinfacht",
+          "[Styled Tile] / [Styled Tile Kollektion] / [Styled List] - Drag-and-drop-Funktionalität zwischen Controls hinzugefügt",
+          "[Text] - Fix für einen Fehler, bei dem der Wert nicht korrekt validiert wurde"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem nicht alle Referenzen korrekt umbenannt wurden, wenn ein Bildschirm umbenannt wurde",
+          "[Bedingte Formatierung] - Setzen von Textformaten per bedingter Formatierung ermöglicht",
+          "[Bedingte Formatierung] - Fix für einen Fehler, bei dem es möglich war, eine bedingte Formatierung zu speichern, ohne dass ein Operator ausgewählt wurde",
+          "[Building Blocks] - Fix für einen Fehler, bei dem ein Building Block nicht als korrekter Boolean akzeptiert wurde",
+          "[Building Blocks] - Fix für Fehler mehrerer Netzwerk Building Blocks",
+          "[Building Blocks] - Fix für falsche Parameter in der Datumsformatierung",
+          "[Building Blocks] - Skript-Baum vereinfacht",
+          "[Skript-Editor] - Fix für einen Fehler, bei dem Funktionen nicht korrekt im Skript-Editor gelöscht werden konnten",
+          "[Skript-Editor] - Fix für einen Fehler, der eine falsche Meldung zeigte, wenn ein Datumsstring geparst wurde",
+          "[Skript-Editor] - Skript testen Funktion hinzugefügt",
+          "[Skript-Editor] - Warnung vor dem Löschen von benutzten Elementen hinzugefügt",
+          "[Skript-Editor] - Ereignisabschnitt für Refreshed-Skripte mit Daten der Quelle, zu dem das Skript gehört",
+          "[Skript-Editor] - Benamungsanpassung SQL Server"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Ressourcen"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen Fehler, bei dem die Änderung von lokalen Dateien oder URLs nicht korrekt ausgeführt wurde",
+          "Fix für einen Fehler, bei dem der URL-Pfad beim Hinzufügen versehentlich verdoppelt werden konnte"
+         ]
+        }
+        ]
+      }]
+    }
+  ]

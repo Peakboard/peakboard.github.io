@@ -1,0 +1,156 @@
+[{
+  "version": "3.9.0.0",
+  "date": "10.06.2024",
+  "download_url": "https://peakboard.rocks/download-version-history",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.0.0/PeakboardRuntimeSetupUI.exe",
+  "tabs": [
+    {
+      "name": "Peakbot",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-peakbot_en.gif",
+        "description": "Our new AI assistant supports you with all your questions about Peakboard."
+      }]
+    },
+    {
+      "name": "Drag and drop",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-dragdrop_en.gif",
+        "description": "With the new drag and drop function, you can move or rearrange the data in your lists."
+      }]
+    },
+    {
+      "name": "Script tester",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-scripttest_en.gif",
+        "description": "Use the script tester to see at a glance whether your script is working correctly. By using logs, you can also display the output."
+      }]
+    },
+    {
+      "name": "Data sources dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-datasources_en.gif",
+        "description": "Our new data source dialog makes it even easier and clearer to find the right data source for your application."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [{
+		    "type": "headline",
+        "text": "General"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[Peakboard Designer] - Fix for a bug where copying and pasting a group caused the Z position of the group to be reversed",
+          "[Peakboard Designer] - Fix for a bug where an incorrect error message was displayed for unlicensed Peakboard Boxes",
+          "[Peakboard Designer] - Fix for a bug where an incorrect data connection was displayed for single-line controls",
+          "[Peakboard Designer] - UI improvement for language selection",
+          "[Peakboard Designer] - ChatGPT Helpbot implemented",
+          "[Peakboard Designer] - Variables can be dragged and dropped onto a text control to change its data source",
+          "[Peakboard Box] - Revision of the initial Peakboard Box screen",
+          "[Peakboard Box settings] - Fix for a bug that occurred when checking the connection of ports 40408/40409",
+          "[Peakboard Box settings] - Fix for a bug where disconnected Wi-Fi connections were reconnected after restarting a Peakboard Box",
+          "[Peakboard Box settings] - Current time and date are displayed in the Peakboard Box check at the time server",
+          "[Peakboard Box settings] - Added option to disable connection encryption",
+          "[Peakboard Box settings] - Added option to cancel if Peakboard Designer and Peakboard Box have a different version number",
+          "[Peakboard Box settings] - Dialog behaviour optimized when using relevant user names of the user administration",
+          "[Explorer] - Fix for a bug where existing scripts of a control were not displayed when copying",
+          "[Explorer] - UX improvement that allows selected controls in Explorer to be moved on the workspace using the arrow keys",
+          "[Explorer] - UX improvement that allows you to rename folders",
+          "[Explorer] - Added the possibility to add descriptions for all Explorer elements in the context menu",
+          "[Explorer] - Data source type is now only displayed as a tooltip to improve the overview",
+          "[Explorer] - Opened and closed folders are displayed in the same way when the program is restarted",
+          "[Explorer] - Localization improvements",
+          "[Explorer] - UX improvement of the cursor behavior",
+          "[Explorer] - Tag function (colored markers) and associated filter function added for elements in Explorer",
+          "[Global functions] - Display unused and references added",
+          "[Global functions] - Parameter check added",
+          "[Fonts] - Default name is assigned when copying a font based on the name of the copied font"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Data sources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "[CSV]/[JSON]/[XML] - Fix for a bug where loaded data is no longer displayed after reopening the data source dialog",
+          "[Excel] - Fix for a bug that appeared for no reason when adding an Excel data source",
+          "[JSON] - Removed drop-down for changing the data type in the data preview",
+          "[MQTT] / [OPC UA] - Fix for a bug where triggering a reload flow without a data change did not work",
+          "[OPC UA] - Fix for a bug where the creation dialog of the data source could be saved with an invalid name, but it was not created",
+          "[Peakboard hub list] - Fix for a bug where filters were still applied by SQL statements even after the statement was deleted",
+          "[SAP] - Added variable substitution for nested XQL table definitions",
+          "[SAP] - XQL syntax highlighting added in the editor",
+          "[QR code] - Fix for a bug where QR codes were not displayed correctly",
+          "Added function for quick insertion of variables in SQL statements",
+          "Extended dialog for selecting data sources added",
+          "[Reload flows] - Fix for a bug where deleted dataflows remained in the reload flow",
+          "[Reload flows] - Fix for a bug where reload flows could cause dataflows to stop working",
+          "[Reload flows] - Added warning before deleting used elements"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Dataflows"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where all columns were automatically selected for the join step",
+          "Fix for a bug where special characters in column headings were not automatically corrected in a step",
+          "Performance improvements"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Controls"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where controls on different screens could not have the same name",
+          "[Chart] - formatting fixes",
+          "[Icon] - Fix for a display bug where an icon category was not displayed",
+          "[Live tiles] - completely removed from the Peakboard Designer, no longer possible to use in the future",
+          "[Styled tile] / [Styled tile collection] / [Styled list] - Fix for a bug where several controls could not be used correctly",
+          "[Styled tile] / [Styled tile collection] / [Styled list] - Some controls are now only displayed for use under certain conditions",
+          "[Styled tile] / [Styled tile collection] / [Styled list] - Fix for several bugs that occurred when using the QR code control",
+          "[Styled tile] / [Styled tile collection] / [Styled list] - Simplified script tree access to correct data",
+          "[Styled tile] / [Styled tile collektion] / [Styled list] - Drag and drop functionality between controls added",
+          "[Text] - Fix for a bug where the value was not validated correctly"
+        ]
+      }, {
+		    "type": "headline",
+        "text": "Scripting"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where not all references were renamed correctly when a screen was renamed",
+          "[Conditional formatting] - Enabled setting of text formats via conditional formatting",
+          "[Conditional formatting] - Fix for a bug where it was possible to save the conditional formatting without selecting an operator",
+          "[Building blocks] - Fix for a bug where a building block was not accepted as a correct boolean",
+          "[Building blocks] - Fix for a bug with multiple network building blocks",
+          "[Building blocks] - Fix for incorrect parameters in date formatting",
+          "[Building blocks] - Script tree simplified",
+          "[Script editor] - Fix for a bug where functions could not be deleted correctly in the script editor",
+          "[Script editor] - Fix for a bug that showed an incorrect message when a date string was parsed",
+          "[Script editor] - Test script function added",
+          "[Script editor] - Added warning before deleting used elements",
+          "[Script editor] - Event section for refreshed scripts with data of the source to which the script belongs",
+          "[Script editor] - Naming adjustments SQL Server"
+        ]
+      }, {
+        "type": "headline",
+        "text": "Resources"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix for a bug where changing local files or URLs was not executed correctly.",
+          "Fix for a bug where the URL path could be accidentally duplicated when added"
+         ]
+        }
+        ]
+      }]
+    }
+  ]
