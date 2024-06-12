@@ -1,13 +1,13 @@
 [{
-  "version": "1.20.0.0",
+  "version": "1.20.1.0",
   "date": "10.06.2024",
-  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.20.0.0/PeakboardHubSetup.exe",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.20.1.0/PeakboardHubSetup.exe",
   "tabs": [
     {
       "name": "UI-Updates",
       "content": [{
         "type": "image",
-        "image": "1-20-0-0-UIupdate_de.gif",
+        "image": "1-20-1-0-UIupdate_de.gif",
         "description": "Die grafische Oberfläche des Peakboard Hub on premise wurde an vielen Stellen umfassend überarbeitet."
       }]
     },
