@@ -13,7 +13,7 @@ redirect_from:
 
 
 Der Peakboard Hub on premise wird lokal auf deinem Server gehostet, dieser benötigt IIS und Windows Server ab mindestens Version 2016. 
-Außerdem muss zusätzlich die [ASP.NET Core 2.2 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-2.2.2-windows-hosting-bundle-installer) vorab installiert werden.
+Außerdem muss zusätzlich die [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer) vorab installiert werden.
 Es wird zu keinem Zeitpunkt eine Kommunikation nach außen hergestellt, sondern ausschließlich zwischen dem Nutzer, den Peakboard Boxen und dem Peakboard Hub on premise.
 Für die Authentifizierung wird der Windows Domain Controller (Active Directory) genutzt, gib also einfach den *Windows Nutzernamen ohne Domäne* und das *Windows Passwort* beim Login ein.
 Die Datenhaltung des Peakboard Hub on premise findet in einem mitgelieferten SQL Server Express 2019 statt.
