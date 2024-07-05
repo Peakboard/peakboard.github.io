@@ -261,15 +261,6 @@
                 "    })(window,document,'script','dataLayer','" + "{{ site.gtm }}" + "');";
             head.appendChild(gtm);
 
-            // MTM
-            var mtm = document.createElement("script");
-            mtm.type = "text/javascript";
-            mtm.textContent = "var _mtm = window._mtm = window._mtm || [];" +
-                " _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});" +
-                " var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];" +
-                " g.async=true; g.src='https://matomo.peakboard.com/js/container_" + "{{ site.mtm }}" + ".js'; s.parentNode.insertBefore(g,s);";
-            head.appendChild(mtm);
-
             var theHTMLToInsert = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm }}"' +
                 '                              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
             document.body.insertAdjacentHTML("beforeend", theHTMLToInsert);
