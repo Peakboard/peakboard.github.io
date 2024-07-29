@@ -3,9 +3,9 @@ layout: article
 title: Screen Switching
 menu_title: Screen Switching
 description: Screen Switching inside an Application
-lang: de
-weight: 120
-ref: scr-120
+lang: en
+weight: 152
+ref: scr-152
 redirect_from:
 ---
 You  can switch between different screens  within  your  application. This is  particularly  useful  when  you  want  to  display  or  manipulate different data.
