@@ -1,15 +1,13 @@
 ---
 layout: article
-title: Neustarten und Herunterfahren einer Peakboard Box
-menu_title: restart Script
+title: Skript fürs Herunterfahren/Neustarten einer Peakboard Box
+menu_title: Restart Skript
 description: Beschreibt, wie eine Peakboard Box heruntergefahren und neugestartet werden kann.
 lang: de
 weight: 150
 ref: scr-150
 redirect_from:
 ---
-
-# Script fürs Herunterfahren/Neustarten einer Peakboard Box
 
 Möchtest du deine Peakboard Box herunterfahren oder neustarten, kannst du ein Skript verwenden. Das Skript kannst du entweder per Button oder zeitlich gesteuert ausführen. Ein zeitgesteuerter Neustart eignet sich insbesondere, um die Peakboard Box über Nacht auszuschalten oder für einen täglichen Neustart vor Schichtbeginn. Mehr Informationen zu einem geplanten Neustart findest du [hier](https://help.peakboard.com/scripting/de-quick-tipp-restart.html).
 
