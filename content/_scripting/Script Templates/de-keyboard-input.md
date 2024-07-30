@@ -9,8 +9,6 @@ ref: scr-155
 redirect_from:
 ---
 
-# Skript für das Erkennen von Tastatureingaben
-
 Tastatureingaben auf der Peakboard Box können mit einem Skript erkannt werden. Dazu wird ein Event angelegt, welches bei jeder Tastatureingabe ausgelöst wird. Das Event wird mit einer Funktion verknüpft, die dann entscheidet, welche Aktion bei bestimmten Eingaben ausgeführt werden soll.
 
 ## Tastatureingaben erkennen

@@ -9,8 +9,6 @@ ref: scr-155
 redirect_from:
 ---
 
-# Script for Detecting Keyboard Input
-
 Keyboard input on the Peakboard Box can be detected using a script. An event is created, which is triggered with every key press. The event is linked to a function that decides which action to take based on specific inputs.
 
 ## Detecting Keyboard Input
