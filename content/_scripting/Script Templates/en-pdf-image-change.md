@@ -3,7 +3,7 @@ layout: article
 title: Change PDF/Image
 menu_title: Change PDF/Image
 description: Describes how to change an image or PDF using a building block or script.
-lang: de
+lang: en
 weight: 120
 ref: scr-120
 redirect_from:
@@ -15,13 +15,13 @@ In Peakboard applications, you can display images and PDFs. If desired, these ca
 
 To display a PDF or image, you need the corresponding control (PDF/Image). Use in scripts must be activated for this and a name must be assigned.
 
-Additionally, various image or PDF [resources](https://help.peakboard.com/resources/de-resources-intro.html) are necessary. If needed, a resource can be initially assigned to the control. Subsequently, you can switch between different resources.
+Additionally, various image or PDF [resources](https://help.peakboard.com/resources/en-resources-intro.html) are necessary. If needed, a resource can be initially assigned to the control. Subsequently, you can switch between different resources.
 
 This function is available both through Peakboard Building Blocks and standard Lua scripting.
 
 ### Building Blocks
 
-![Building Blocks PDF change](/assets/images/scripting/Scripting_Beispiele/pdf-image-change/de-pdf-change-script.png)
+![Building Blocks PDF change](/assets/images/scripting/Scripting_Beispiele/pdf-image-change/en-pdf-change-script.png)
 
 The screenshot shows the Building Blocks for changing the PDF resource. Specifically, the command to set the new resource is seen in the purple-colored block: ```set source of PDF_Control in Screen1 to 'Demo_PDF.pdf'```. Here, ```Demo_PDF.pdf``` is the name of the new resource to be used.
 
