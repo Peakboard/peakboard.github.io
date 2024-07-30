@@ -15,7 +15,7 @@ Mit Peakboard kannst du Texte und Zeichenketten nicht nur anzeigen und auswerten
 
 Eine Möglichkeit zur Auswertung ist das Zählen der Buchstaben. Hierfür kann folgender Code verwendet werden:
 
-![Count](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-count.png)
+![Count](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-count.png)
 
 ```lua
 data.ModifiedText = string.tostring(string.len(data.BaseText))
@@ -29,7 +29,7 @@ Zu den möglichen Manipulationen zählen das Ersetzen, Trimmen, Löschen und die
 
 Um bestimmte Teile eines Textes zu ersetzen, verwende folgenden Code:
 
-![Replace](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-replace.png)
+![Replace](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-replace.png)
 
 ```lua
 data.ModifiedText = string.replace(data.BaseText, 'like', 'love')
@@ -39,7 +39,7 @@ data.ModifiedText = string.replace(data.BaseText, 'like', 'love')
 
 Um den Text zu trimmen, also nur einen bestimmten Teil des Textes anzuzeigen, verwende diesen Code:
 
-![Trim](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-trim.png)
+![Trim](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-trim.png)
 
 ```lua
 data.ModifiedText = string.sub(data.BaseText, 1, 7)
@@ -57,7 +57,7 @@ data.ModifiedText = string.match(data.BaseText, "%D+")
 
 Um den gesamten Text in Großbuchstaben zu konvertieren, verwende:
 
-![Uppercase](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-uppercase.png)
+![Uppercase](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-uppercase.png)
 
 ```lua
 data.ModifiedText = string.upper(data.BaseText)

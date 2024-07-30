@@ -15,7 +15,7 @@ With Peakboard, you can not only display and evaluate texts and strings but also
 
 One way to evaluate text is by counting the characters. You can use the following code for this:
 
-![Count](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-count.png)
+![Count](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-count.png)
 
 ```lua
 data.ModifiedText = string.tostring(string.len(data.BaseText))
@@ -29,7 +29,7 @@ Possible manipulations include replacing, trimming, deleting, and adjusting the 
 
 To replace specific parts of a text, use the following code:
 
-![Replace](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-replace.png)
+![Replace](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-replace.png)
 
 ```lua
 data.ModifiedText = string.replace(data.BaseText, 'like', 'love')
@@ -39,7 +39,7 @@ data.ModifiedText = string.replace(data.BaseText, 'like', 'love')
 
 To trim the text, i.e., display only a specific part of the text, use this code:
 
-![Trim](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-trim.png)
+![Trim](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-trim.png)
 
 ```lua
 data.ModifiedText = string.sub(data.BaseText, 1, 7)
@@ -57,7 +57,7 @@ data.ModifiedText = string.match(data.BaseText, "%D+")
 
 To convert the entire text to uppercase, use:
 
-![Uppercase](/assets/images/scripting/Scripting_Beispiele/dialogs/en-script-uppercase.png)
+![Uppercase](/assets/images/scripting/Scripting_Beispiele/working-with-text/en-script-uppercase.png)
 
 ```lua
 data.ModifiedText = string.upper(data.BaseText)
