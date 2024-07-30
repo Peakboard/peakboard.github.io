@@ -9,8 +9,6 @@ ref: scr-153
 redirect_from:
 ---
 
-# Skript für das Abspielen eines Sounds
-
 Möchtest du einen Sound auf deiner Peakboard Box abspielen, kannst du ein Skript verwenden. Es gibt zwei Arten von Sounds, die abgespielt werden können:
 - System Sounds
 - Eigene Sounds

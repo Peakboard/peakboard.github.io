@@ -9,8 +9,6 @@ ref: scr-153
 redirect_from:
 ---
 
-# Script for Playing a Sound
-
 If you want to play a sound on your Peakboard Box, you can use a script. There are two types of sounds that can be played:
 - System sounds
 - Custom sounds
