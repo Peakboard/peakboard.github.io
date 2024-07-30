@@ -24,7 +24,7 @@ Es werden die folgenden System Sounds unterstützt:
 - `beep`
 
 Das folgende Skript spielt den System Sound `buzzer` ab:
-![Play sound](assets/images/scripting/Scripting_Beispiele/play-sound/en-play-sound-script.png)
+![Play sound](/assets/images/scripting/Scripting_Beispiele/play-sound/en-play-sound-script.png)
 
 Bei der Verwendung von Building Blocks können die Sounds bequem per Dropdown ausgewählt werden. Bei der Verwendung des Skript-Modus müssen die Sounds per Name referenziert werden.
 
