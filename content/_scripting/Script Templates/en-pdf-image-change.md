@@ -4,8 +4,8 @@ title: Change PDF/Image
 menu_title: Change PDF/Image
 description: Describes how to change an image or PDF using a building block or script.
 lang: en
-weight: 120
-ref: scr-120
+weight: 154
+ref: scr-154
 redirect_from:
 ---
 

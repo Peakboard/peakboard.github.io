@@ -4,8 +4,8 @@ title: PDF/Bild wechseln
 menu_title: PDF/Bild wechseln
 description: Beschreibt das Ändern eines Bildes oder PDFs mit einem Building Block oder Skript.
 lang: de
-weight: 120
-ref: scr-120
+weight: 154
+ref: scr-154
 redirect_from:
 ---
 

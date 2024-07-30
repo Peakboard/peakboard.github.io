@@ -4,8 +4,8 @@ title: Skript zum Erkennen von Tastatureingaben
 menu_title: Skript zum Erkennen von Tastatureingaben
 description: Beschreibt, wie Tastatureingaben auf der Peakboard Box mit einem Skript erkannt werden können.
 lang: de
-weight: 120
-ref: scr-120
+weight: 155
+ref: scr-155
 redirect_from:
 ---
 

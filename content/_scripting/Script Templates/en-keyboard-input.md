@@ -4,8 +4,8 @@ title: Script for Detecting Keyboard Input
 menu_title: Script for Detecting Keyboard Input
 description: Describes how to detect keyboard input on the Peakboard Box using a script.
 lang: en
-weight: 120
-ref: scr-120
+weight: 155
+ref: scr-155
 redirect_from:
 ---
 
