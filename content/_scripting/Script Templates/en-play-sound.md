@@ -4,8 +4,8 @@ title: Play Sound
 menu_title: Play Sound
 description: Describes how sounds can be played using Peakboard and a script.
 lang: en
-weight: 120
-ref: scr-120
+weight: 153
+ref: scr-153
 redirect_from:
 ---
 

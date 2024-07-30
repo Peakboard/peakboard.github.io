@@ -4,8 +4,8 @@ title: Sound abspielen
 menu_title: Sound abspielen
 description: Beschreibt, wie Sounds mit Peakboard und einem Skript abgespielt werden können.
 lang: de
-weight: 120
-ref: scr-120
+weight: 153
+ref: scr-153
 redirect_from:
 ---
 
