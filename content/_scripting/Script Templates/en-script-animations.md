@@ -4,8 +4,8 @@ title: Animations in Scripts
 menu_title: Animations in Scripts
 description: Information on scripted animation of controls
 lang: en
-weight: 120
-ref: scr-120
+weight: 159
+ref: scr-159
 redirect_from:
 ---
 

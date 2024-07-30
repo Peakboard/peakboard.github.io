@@ -4,8 +4,8 @@ title: Animationen in Skripten
 menu_title: Animationen in Skripten
 description: Information über geskriptete Animierung von Controls
 lang: de
-weight: 120
-ref: scr-120
+weight: 159
+ref: scr-159
 redirect_from:
 ---
 
