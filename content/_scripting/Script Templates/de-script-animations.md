@@ -32,13 +32,13 @@ Zusätzlich ist es möglich, zwischen 1 und 5 oder unendlich vielen Wiederholung
 
 Der entsprechende Lua-Befehl kann im unteren Teil des vorherigen Screenshots gesehen werden. Über 
 
-`screen['<screen-name>'].<control-name>`
+```Lua
+screen['<screen-name>'].<control-name>.animate('<animation-name>', <anzahl>)
+```
 
- wird das richtige Control ausgewählt. Zum Animieren folgt anschließend 
- 
- `.animate("<animation-name>", <anzahl>)`.
+ wird das richtige Control ausgewählt und animiert. Dabei gilt:
 
- Dabei gilt:
-
+- `<screen-name>` - der Name des Screens auf welchem das Control zu finden ist
+- `<control-name>` - der Name des gewählten Controls
 - `<animation-name>` - der Name der Animation in Großbuchstaben: `ROTATE`, `BLINK`, `ZOOM`, `FADEOUT`, `VERTICALSHAKE`, `HORIZONTALSHAKE`, `ZIGZAGBOUNCE`
 - `<anzahl>` - die ganzzahlige Anzahl der Wiederholungen. In diesem Kontext steht `-1` für unendlich.

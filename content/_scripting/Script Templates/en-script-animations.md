@@ -32,13 +32,13 @@ Additionally, you can choose between 1 and 5 repetitions or opt for infinite rep
 
 The corresponding Lua command can be seen at the bottom of the previous screenshot. Using 
 
-`screen['<screen-name>'].<control-name>`
+```Lua
+screen['<screen-name>'].<control-name>.animate('<animation-name>', <number>)
+```
 
-the correct control is selected. To animate, follow with 
+the correct control is selected and animated. The following applies:
 
-`.animate("<animation-name>", <number>)` 
-
-In this context:
-
-- `<animation-name>` corresponds to the name of the animation in uppercase: `ROTATE`, `BLINK`, `ZOOM`, `FADEOUT`, `VERTICALSHAKE`, `HORIZONTALSHAKE`, `ZIGZAGBOUNCE`
-- `<number>` is an integer specifying the number of repetitions. In this context, "-1" stands for infinite.
+- `<screen-name>` - the name of the screen where the control is located
+- `<control-name>` - the name of the chosen control
+- `<animation-name>` - the name of the animation in uppercase: `ROTATE`, `BLINK`, `ZOOM`, `FADEOUT`, `VERTICALSHAKE`, `HORIZONTALSHAKE`, `ZIGZAGBOUNCE`
+- `<number>` - the integer number of repetitions. In this context, `-1` stands for infinite.
