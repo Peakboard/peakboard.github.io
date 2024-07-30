@@ -60,7 +60,7 @@ data.Number = math.ceil(data.Number)
 
 Wenn mit Nachkommastellen gerundet werden soll, ist dieser Code zu verwenden:
 
-![Double_round](/assets/images/scripting/Scripting_Beispiele/working-with-numbers/en-script-doublerround.png)
+![Double_round](/assets/images/scripting/Scripting_Beispiele/working-with-numbers/en-script-double-round.png)
 
 ```lua
 data.Number = math.roundwithdecimals(data.Number, 1)

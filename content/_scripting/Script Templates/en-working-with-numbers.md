@@ -60,7 +60,7 @@ data.Number = math.ceil(data.Number)
 
 To round with decimal places, use this code:
 
-![Double_round](/assets/images/scripting/Scripting_Beispiele/working-with-numbers/en-script-doublerround.png)
+![Double_round](/assets/images/scripting/Scripting_Beispiele/working-with-numbers/en-script-double-round.png)
 
 ```lua
 data.Number = math.roundwithdecimals(data.Number, 1)
