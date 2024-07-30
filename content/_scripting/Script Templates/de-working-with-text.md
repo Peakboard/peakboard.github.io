@@ -4,8 +4,8 @@ title: Text verarbeiten
 menu_title: Text verarbeiten
 description: Text verarbeiten
 lang: de
-weight: 162
-ref: scr-162
+weight: 163
+ref: scr-163
 redirect_from:
 ---
 

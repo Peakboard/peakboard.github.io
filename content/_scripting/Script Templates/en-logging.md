@@ -4,8 +4,8 @@ title: Writing to the Log File
 menu_title: Writing to the Log File
 description: Writing to the Log File
 lang: en
-weight: 163
-ref: scr-163
+weight: 164
+ref: scr-164
 redirect_from:
 ---
 
