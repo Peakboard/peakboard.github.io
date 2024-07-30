@@ -9,8 +9,6 @@ ref: scr-156
 redirect_from:
 ---
 
-# Zeit- und Datumsberechnungen
-
 Es stehen verschiedene Möglichkeiten der Manipulation bereit.
 
 Um mit dem aktuellen Datum/Zeit arbeiten zu können, muss grundsätzlich eine Datenquelle vom Typ Zeit angelegt werden. Innerhalb von Peakboard werden Zeiten/Daten als String gehandhabt, weshalb grundsätzlich eine Konvertierung via Skript erfolgen muss.
@@ -21,7 +19,7 @@ Wenn beispielsweise 7 Tage vom aktuellen Datum abgezogen werden sollen, muss das
 
 Im Folgenden die Umsetzung mit den Peakboard Building Blocks.
 
-![Substract_Date](/assets/images/scripting/working-with-date/en-script-substract-date.png)
+![Substract_Date](/assets/images/scripting/Scripting_Beispiele/working-with-date/en-script-substract-date.png)
 
 Sowie mit normalem Lua Skript.
 
@@ -35,7 +33,7 @@ data.ManipulatedTime = date.tostring(adjustedDate, 'yyyyMMddHHmmss')
 
 Bei der Berechnung einer Zeitdifferenz ist ein ähnliches Vorgehen von Nöten. Über die Subtraktionsfunktion wird die aktuelle Zeit von der Zielzeit abgezogen. Als Ergebnis wird die Differenz in Sekunden ausgegeben. Um ein anderes Intervall zu erhalten, muss das Ergebnis zum Beispiel durch 60 geteilt werden, um eine Differenz in Minuten zu erhalten. Dies ist im folgenden Screenshot mit Hilfe der Peakboard Building Blocks zu sehen.
 
-![Date_diff](/assets/images/scripting/working-with-date/en-script-date-diff.png)
+![Date_diff](/assets/images/scripting/Scripting_Beispiele/working-with-date/en-script-date-diff.png)
 
 Analog dazu wird im folgenden Skript der Datumsstring aus der Variablen ```ManipulatedTime``` in ein Datum umgewandelt. Anschließend wird die Differenz zum aktuellen Datum aus der Datenquelle ```Source_TimeCurrent``` berechnet und das Ergebnis in ganze  Tage umgerechnet.
 
