@@ -51,9 +51,9 @@ Werden POST- oder PUT-Anfragen gesendet, kann der Inhalt der Anfrage im Body der
 
 ```lua
 -- Ausführen einer Http-Post-Anfrage
-{% comment %}
+{% raw %}
 local header = {{name='Content-Type', value='application/json'}, {name='header2', value='value2'}} -- Das Senden eines Headers ist optional. Du kannst auch nil übergeben.
-{% endcomment %}
+{% endraw %}
 local body = 'username=user&password=password' -- Ein Body-Parameter ist optional. Du kannst auch nil übergeben.
 local result = http.post('https://mysite.com/endpoint', header, body)
 local status = result.status -- Empfängt den Statuscode der Http-Anfrage
