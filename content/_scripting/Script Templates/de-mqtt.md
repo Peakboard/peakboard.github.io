@@ -17,7 +17,7 @@ Es gibt zwei Möglichkeiten: Default Messages und Retained Messages. Der Untersc
 <div class="box-tip" markdown="1">
 **Hinweis:**
 
-Falls bereits eine geteilte MQTT-Verbindung vorhanden ist, kann der nächste Schritt übersprungen und die vorhandene Verbindung verwendet werden.
+Falls bereits eine geteilte MQTT Verbindung vorhanden ist, kann der nächste Schritt übersprungen und die vorhandene Verbindung verwendet werden.
 </div>
 
 Um MQTT-Nachrichten zu senden, muss eine MQTT-Datenquelle angelegt werden. Hierfür wird der Hostname des MQTT-Brokers und dessen Port (standardmäßig 1883) benötigt. Beachte, dass gegebenenfalls eine Authentifizierung per Zertifikat oder Benutzername und Passwort notwendig ist.
