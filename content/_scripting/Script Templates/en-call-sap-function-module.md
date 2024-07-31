@@ -13,7 +13,7 @@ With Peakboard, you can directly call SAP function modules via script, enabling 
 
 ## Step 1: Create an SAP Data Source
 <div class="box-tip" markdown="1">
-**Note:**
+**Hint:**
 
 If a shared SAP connection already exists, this step can be skipped, and the existing connection can be used.
 </div>
