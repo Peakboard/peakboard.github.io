@@ -46,17 +46,4 @@ When defining the offset, you have to consider special formatting features, whic
 
 ## Writing variables
 
-Setting values on S7 controllers is possible only with Lua script. There are four methods for this, one for each type of memory. These methods can be found in the script editor under [FUNCTIONS], [Publish to external system], [Siemens S7], [Write to PLC].
-Note that the variable to be written does not have to be stored in the data source.
-
-![Write variables](/assets/images/data-sources/siemens-s7/en_s7_write-variable.png)
-
-The syntax of the methods is largely identical, whereby only the essential information of the variable to be written to is required.
-
-Such a command has the following pattern:
-
-```lua
-data.[plc].setvar( ([data block number], )[offset], [data type], [value] )
-```
-
-The data block number is only needed if a data block is to be written to and is specified as an integer. The offset is specified as in the variable configuration dialog. The same applies to the data type. The value is specified, like offset and data type, as a string ('value').
+Setting values on S7 controllers is only possible with Lua scripts. You can find a suitable [script template](https://help.peakboard.com/scripting/Script%20Templates/de-publishS7.html) for this purpose.
