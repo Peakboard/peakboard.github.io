@@ -26,7 +26,7 @@ In the block, first select the connection to be used for connecting to the OPC-U
 
 The block can be found under `Publish to external systems` -> `OPC-UA` -> `Set variable`.
 
-![Changing Values in OPC-UA](/assets/images/scripting/Scripting_Beispiele/opc-ua/en-change-opc-ua-values.png)
+![Changing Values in OPC-UA](/assets/images/scripting/Scripting_Beispiele/opc-ua/en-script-change-opc-ua-values.png)
 
 If the modification is to be done in script mode, the following script can be used:
 
