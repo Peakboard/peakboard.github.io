@@ -27,7 +27,7 @@ Next, you can create a button in the application and assign it a Tapped event. I
 ### Building Blocks
 In block mode, you can use the `MQTT Publish` block. This can be found under: `Functions` -> `Publish to external systems` -> `MQTT`. In this block, you need to select an MQTT data source and the message type (default or retained). Additionally, you need to attach the topic and message in the form of text or a string variable to the block.
 
-![Sending an MQTT Message](/assets/images/scripting/Scripting_Beispiele/error-handling/en-mqtt-example.png)
+![Sending an MQTT Message](/assets/images/scripting/Scripting_Beispiele/mqtt/en-mqtt-example.png)
 
 ### Lua Script
 Sending Default Messages in script mode is possible with the following code:
