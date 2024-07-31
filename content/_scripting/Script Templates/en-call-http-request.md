@@ -49,6 +49,7 @@ In addition to the `http.get` function, there are also `http.post`, `http.put`, 
 
 When sending POST or PUT requests, the content of the request can be defined in the body of the request. A Lua object is created that contains the data to be sent to the server. Additionally, header information such as `Content-Type` or `Authorization` can be defined.
 
+{% raw %}
 ```lua
 -- Executes an HTTP Post request
 local header = {{name='Content-Type', value='application/json'}, {name='header2', value='value2'}} -- Sending a header is optional. You can also pass nil.
@@ -65,3 +66,4 @@ else
   peakboard.log('Status: Bad')
 end
 ```
+{% endraw %}
