@@ -46,17 +46,4 @@ Bei der Definition des Offsets sind Besonderheiten in der Formatierung zu beacht
 
 ## Variablen schreiben
 
-Das Setzen von Werten auf S7-Steuerungen ist ausschließlich mit Lua-Skript möglich. Dazu gibt es vier Methoden, jeweils eine pro Art von Speicher. Diese Methoden sind im Skript-Editor unter [FUNKTIONEN], [In externem System veröffentlichen], [Siemens S7], [In SPS schreiben] zu finden.
-Beachte, dass die Variable, welche geschrieben werden soll, nicht in der Datenquelle hinterlegt sein muss.
-
-![Variablen schreiben](/assets/images/data-sources/siemens-s7/de_s7_write-variable.png)
-
-Die Syntax der Methoden ist weitestgehend identisch, wobei stets ausschließlich die essentiellen Informationen der zuschreibenden Variable erforderlich sind.
-
-Ein solcher Befehl hat folgendes Muster:
-
-```lua
-data.[plc].setvar( ([Datenblocknummer], )[Offset], [Datentyp], [Wert] )
-```
-
-Die Datenblocknummer wird nur benötigt, wenn auf einen Datenbaustein geschrieben werden soll und wird als Ganzzahl angegeben. Die Angabe des Offsets erfolgt wie im Dialog zur Variablenkonfiguration. Gleiches gilt für den Datentyp. Der Wert wird, wie Offset und Datentyp, als Zeichenkette (‘Wert’) angegeben.
+Das Setzen von Werten auf S7-Steuerungen ist ausschließlich mit Lua-Skript möglich. Hierzu findest du ein passendes [Skript-Template](https://help.peakboard.com/scripting/Script%20Templates/de-publishS7.html).

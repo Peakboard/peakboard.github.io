@@ -13,7 +13,7 @@ redirect_from:
 Das Setzen von Werten auf S7-Steuerungen ist per Skript möglich. Dazu gibt es vier Methoden (Datablock, Memory, Input, Output). Diese Methoden sind im Skript-Editor unter [FUNKTIONEN], [In externem System veröffentlichen], [Siemens S7], [In SPS schreiben] zu finden.
 Beachte, dass die Variable, welche geschrieben werden soll, nicht in der Datenquelle hinterlegt sein muss.
 
-![Variablen schreiben](/assets/images/scripting/Scripting_Beispiele/publishS7/publishS7.png)
+![Variablen schreiben](/assets/images/scripting/Scripting_Beispiele/publishS7/en-publishS7.png)
 
 Die Syntax der Methoden ist weitestgehend identisch, wobei stets ausschließlich die essentiellen Informationen der zuschreibenden Variable erforderlich sind.
 
@@ -28,14 +28,14 @@ Die Datenblocknummer wird nur benötigt, wenn auf einen Datenbaustein geschriebe
 #### Datentypen 
 
 Folgende Datentypen werden dabei unterstützt:
-Bit
-Byte
-Word
-DWord
-UInt
-Int
-DInt
-Real
-String
-Time
+* Bit
+* Byte
+* Word
+* DWord
+* UInt
+* Int
+* DInt
+* Real
+* String
+* Time
 
