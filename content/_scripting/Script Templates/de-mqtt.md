@@ -17,7 +17,7 @@ Es gibt zwei Möglichkeiten: Default Messages und Retained Messages. Der Untersc
 <div class="box-tip" markdown="1">
 **Hinweis:**
 
-Falls bereits eine geteilte MQTT-Verbindung vorhanden ist, kann der nächste Schritt übersprungen und die vorhandene Verbindung verwendet werden.
+Falls bereits eine geteilte MQTT Verbindung vorhanden ist, kann der nächste Schritt übersprungen und die vorhandene Verbindung verwendet werden.
 </div>
 
 Um MQTT-Nachrichten zu senden, muss eine MQTT-Datenquelle angelegt werden. Hierfür wird der Hostname des MQTT-Brokers und dessen Port (standardmäßig 1883) benötigt. Beachte, dass gegebenenfalls eine Authentifizierung per Zertifikat oder Benutzername und Passwort notwendig ist.
@@ -27,7 +27,7 @@ Anschließend kann zum Beispiel ein Button in der Anwendung erstellt und diesem 
 ### Building Blocks
 Im Blockmodus kann der `MQTT Veröffentlichen`-Block verwendet werden. Dieser befindet sich unter: `Funktionen` -> `In externen Systemen veröffentlichen` -> `MQTT`. In diesem Block muss eine MQTT-Datenquelle und der Nachrichtentyp (default oder retained) gewählt werden. Weiterhin ist es notwendig, Topic und Nachricht in Form von Text oder einer Stringvariablen an den Block anzufügen.
 
-![Senden einer MQTT Nachricht](/assets/images/scripting/Scripting_Beispiele/error-handling/de-mqtt-example.png)
+![Senden einer MQTT Nachricht](/assets/images/scripting/Scripting_Beispiele/mqtt/de-mqtt-example.png)
 
 ### Lua-Skript
 Das Versenden von Default Messages ist im Skriptmodus wie folgt möglich:
