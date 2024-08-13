@@ -3,7 +3,7 @@ layout: article
 title: Changing Values in a Rockwell Controller
 menu_title: Changing Values in a Rockwell Controller
 description: Describes how values in a Rockwell controller can be written using a script.
-lang: de
+lang: en
 weight: 177
 ref: scr-177    
 redirect_from:

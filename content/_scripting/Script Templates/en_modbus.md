@@ -3,7 +3,7 @@ layout: article
 title: Changing Values via Modbus
 menu_title: Changing Values via Modbus
 description: Describes how to write values via Modbus using a script.
-lang: de
+lang: en
 weight: 176
 ref: scr-176    
 redirect_from:
