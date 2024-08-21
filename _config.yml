@@ -272,6 +272,9 @@ language:
     version-history-download-modal-title-post: "for "
     version-history-archive: "Go to version archive"
     version-history-archive-link: "/misc/en-version-history-archive.html"
+    language-popup-title: "Choose your preferred site"
+    language-popup-american: "American Site (EN-US)"
+    language-popup-english: "European Site (EN)"
   de:
     category-landing-menu-title: "Was interessiert dich?"
     product-back-to-start: "Zurück zur Startseite"
@@ -364,6 +367,9 @@ language:
     version-history-download-modal-title-post: "für "
     version-history-archive: "Zum Versionsarchiv"
     version-history-archive-link: "/misc/de-versionshistorie-archive.html"
+    language-popup-title: "Choose your preferred site"
+    language-popup-american: "American Site (EN-US)"
+    language-popup-english: "European Site (EN)"
 algolia:
   application_id: 'N9W4P1U3FJ'
   index_name: peakboard-help

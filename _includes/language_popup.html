@@ -1,0 +1,36 @@
+<div id="language-popup" class="fixed z-50 inset-0 overflow-y-auto hidden">
+    <div class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-50 backdrop-filter backdrop-blur-sm">
+        <div class="bg-white rounded-lg p-6 shadow-lg">
+            <h2 class="text-lg font-medium text-gray-900">{{ site.language[page.lang].language-popup-title }}=</h2>
+            <div class="mt-4">
+                <button id="en-us-link" class="bg-blue-500 text-white px-4 py-2 rounded">{{ site.language[page.lang].language-popup-american }}</button>
+                <button id="en-link" class="bg-green-500 text-white px-4 py-2 rounded">{{ site.language[page.lang].language-popup-english }}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                const url = new URL(link.href);
+                if (url.hostname.endsWith('peakboard.com') && url.pathname.startsWith('/en')) {
+                    event.preventDefault();
+                    showLanguagePopup(url);
+                }
+            });
+        });
+    });
+
+    function showLanguagePopup(url) {
+        const popup = document.getElementById('language-popup');
+        popup.style.display = 'block';
+        document.getElementById('en-us-link').onclick = function() {
+            window.location.href = url.href.replace('/en', '/en-us');
+        };
+        document.getElementById('en-link').onclick = function() {
+            window.location.href = url.href;
+        };
+    }
+</script>

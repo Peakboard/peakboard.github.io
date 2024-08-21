@@ -5,6 +5,7 @@
 
 <body class="font-sans flex flex-col min-h-full">
     {% include cookie_alert.html %}
+    {% include language_popup.html %}
 
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -12,6 +13,7 @@
     <div class="flex-auto">
         {{ content }}
     </div>
+
     {% include footer.html %}
     <script src="{{ '/assets/app.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
     <script src="{{ '/assets/search/jquery-3.5.1.min.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
