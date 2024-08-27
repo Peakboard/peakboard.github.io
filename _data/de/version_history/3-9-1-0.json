@@ -1,46 +1,22 @@
 [{
-  "version": "3.9.0.2",
-  "date": "10.06.2024",
+  "version": "3.9.1.0",
+  "date": "23.08.2024",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.2.0/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.2.0/PeakboardSetup.exe",
-  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.0.2.0/PeakboardRuntimeSetupUI.exe",
+  "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.1.0.0/PeakboardRuntime.pbux",
+  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.1.0.0/PeakboardSetup.exe",
+  "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.1.0.0/PeakboardRuntimeSetupUI.exe",
   "tabs": [
-    {
-      "name": "Peakbot",
-      "content": [{
-        "type": "image",
-        "image": "3-9-0-0-peakbot_de.gif",
-        "description": "Unser neuer KI Assistent unterstützt dich bei allen Fragen rund um Peakboard."
-      }]
-    },
-    {
-      "name": "Drag-and-drop",
-      "content": [{
-        "type": "image",
-        "image": "3-9-0-0-dragdrop_de.gif",
-        "description": "Mit der neuen Drag-and-drop-Funktion kannst du die Daten deiner Listen verschieben oder umsortieren."
-      }]
-    },
-    {
-      "name": "Skript Tester",
-      "content": [{
-        "type": "image",
-        "image": "3-9-0-0-scripttest_de.gif",
-        "description": "Nutze den Skript Tester, um auf einen Blick zu sehen, ob dein Skript korrekt funktioniert. Durch die Nutzung von Logs kannst du dir außerdem die Ausgabe anzeigen lassen."
-      }]
-    },
-    {
-      "name": "Datenquellen Dialog",
-      "content": [{
-        "type": "image",
-        "image": "3-9-0-0-datasources_de.gif",
-        "description": "Unser neuer Datenquellen-Dialog macht es noch einfacher und übersichtlicher, die richtige Datenquelle für deine Anwendung zu finden."
-      }]
-    },
     {
       "name": "Gesamtübersicht",
       "content": [{
+		    "type": "headline",
+        "text": "Hotfix 3.9.1.0"
+      }, {
+        "type": "list",
+        "list_items": [
+          "Fix für einen kritischen Fehler im PowerBI Control"
+        ]
+      }, {
 		    "type": "headline",
         "text": "Allgemein"
       }, {
