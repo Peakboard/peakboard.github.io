@@ -5,8 +5,8 @@ title: Apexboard - Peakboard Hub einrichten
 menu_title: Peakboard Hub einrichten
 description: Informationen zu den nötigen Schritten um Einstellungen für das Apexboard im Peakboard Hub vorzunehmen
 lang: en
-weight: 989
-ref: apex-989
+weight: 988
+ref: apex-988
 ---
 
 Die Daten deines Apexboard werden im Peakboard Hub gespeichert. Neben der reinen Funktion als Datenspeicher kannst du über den Peakboard Hub dein Apexboard konfigurieren und deiner Arbeitsumgebung anpassen.
