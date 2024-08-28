@@ -17,6 +17,9 @@
           "Fix for a critical error in the PowerBI control"
         ]
       }, {
+		"type": "headline",
+        "text": "General"
+      }, {
         "type": "list",
         "list_items": [
           "[Peakboard Designer] - Fix for a bug where copying and pasting a group caused the Z position of the group to be reversed",
