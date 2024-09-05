@@ -9,8 +9,6 @@ ref: scr-175
 redirect_from:
 ---
 
-# Script for Changing Values in OPC-UA
-
 <div class="box-tip" markdown="1">
 **Hint:**
 
