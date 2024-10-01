@@ -4,7 +4,7 @@ product: hub
 title: Provision
 menu_title: Provision
 description: Provision of the Peakboard Hub online
-lang: de
+lang: en
 weight: 100
 ref: hub-200
 redirect_from:
