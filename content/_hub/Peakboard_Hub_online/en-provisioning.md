@@ -1,9 +1,9 @@
 ---
 layout: article
 product: hub
-title: Bereitstellung
-menu_title: Bereitstellung
-description: Bereitstellung des Peakboard Hub onlines
+title: Provision
+menu_title: Provision
+description: Provision of the Peakboard Hub online
 lang: de
 weight: 100
 ref: hub-200
