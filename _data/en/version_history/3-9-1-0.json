@@ -6,6 +6,30 @@
   "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.1.0.0/PeakboardSetup.exe",
   "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.9.1.0.0/PeakboardRuntimeSetupUI.exe",
 "tabs": [
+	{
+      "name": "Drag and drop",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-dragdrop_en.gif",
+        "description": "With the new drag and drop function, you can move or rearrange the data in your lists."
+      }]
+    },
+    {
+      "name": "Script tester",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-scripttest_en.gif",
+        "description": "Use the script tester to see at a glance whether your script is working correctly. By using logs, you can also display the output."
+      }]
+    },
+    {
+      "name": "Data sources dialog",
+      "content": [{
+        "type": "image",
+        "image": "3-9-0-0-datasources_en.gif",
+        "description": "Our new data source dialog makes it even easier and clearer to find the right data source for your application."
+      }]
+    },
     {
       "name": "General overview",
       "content": [{
