@@ -9,10 +9,13 @@
 		{
 			"name": "General overview",
 			"content": [
-				{
-					"type": "list",
-					"text": "General",
-					"list_items": [
+			{
+				"type": "headline",
+				"text": "General"
+			},
+			{
+				"type": "list",
+				"list_items": [
 						"[Box communication] Allowed updating with a warning even if the version is not newer, enabling reinstallation of a broken installation."
 						"[Box communication] Disabled exporting Box settings from health check if box is unavailable."
 						"[Box communication] Removed \"Update from file\" button for cloud-connected boxes."
