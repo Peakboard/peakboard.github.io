@@ -1,105 +1,111 @@
-[{
-	"version": "3.10",
-	"date": "28.10.2024",
-	"download_url": "https://peakboard.rocks/download-version-history",
-	"box_download_url": "https://peakboard.com/download/Peakboard/archive/3.10/PeakboardRuntime.pbux",
-	"designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.10/PeakboardSetup.exe",
-	"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.10/PeakboardRuntimeSetupUI.exe",
-	"tabs": [
-		{
-			"name": "General overview",
-			"content": [
+[
+	{
+		"version": "3.10.0.0",
+		"date": "28.10.2024",
+		"download_url": "https://peakboard.rocks/download-version-history",
+		"box_download_url": "https://peakboard.com/download/Peakboard/archive/3.10/PeakboardRuntime.pbux",
+		"designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.10/PeakboardSetup.exe",
+		"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.10/PeakboardRuntimeSetupUI.exe",
+		"tabs": [
 			{
-				"type": "headline",
-				"text": "General"
-			},
-			{
-				"type": "list",
-				"list_items": [
-						"[Box communication] Allowed updating with a warning even if the version is not newer, enabling reinstallation of a broken installation."
-						"[Box communication] Disabled exporting Box settings from health check if box is unavailable."
-						"[Box communication] Removed \"Update from file\" button for cloud-connected boxes."
-						"[Box communication] Fixed issue with downloading a PBMX from a cloud-connected box."
-						"[Box communication] Resolved issue of displaying an old cloud key."
-						"[Building Blocks] Added Building Block for adding a row into the variable list."
-						"[Building Blocks] Introduced Building Block for running SQL queries for Oracle."
-						"[Button] Enabled adjustment of icon size and alignment in buttons."
-						"[Button] Added option to choose icons from the icon gallery."
-						"[Button] Fixed double-click issue on touch screens by resolving first hover state activation."
-						"[Checkbox] Resolved white screen issue when checkbox is clicked multiple times."
-						"[Data source] Addressed issue with special RSS feeds."
-						"[Dataflow] Fixed issue where columns were lost in Dataflow step join with selected columns."
-						"[Dataflow] Fixed potential deadlock when running reload and await on a dataflow."
-						"[Datepicker] Resolved binding issue when time/date picker control is connected to a list that gets cleared and refilled."
-						"[Datepicker & Timepicker] Fixed issue where window would not close when switching screens."
-						"[Datepicker & Timepicker] Corrected databinding for Date/Value in dialog."
-						"[Designer] Added global touchscreen tap event."
-						"[Designer] Implemented consistent (15px) offset for Copy-Pasting groups."
-						"[Designer] Restricted screen copy-pasting to enforce unique screen names."
-						"[Designer] Added trash icon to remove bound variable for title/subtitle."
-						"[Designer] Corrected display of language dropdown."
-						"[Designer] Fixed startup error related to settings helper in Peakboard Designer."
-						"[Designer] Set screen transition to \"None\" as the default."
-						"[Designer] Timer scripts are now enabled/disabled in the context menu and appear greyed out when disabled, similar to datasource."
-						"[Designer] Fixed issue where copied control names were removed instead of generating new names."
-						"[Designer] Fixed window size reference to respect current screen rather than primary."
-						"[Explorer] Updated icons for elements in script and resource sections."
-						"[Font] Restricted deletion of fonts used in conditional formatting within the font manager."
-						"[Format] Enabled conversion of negative timespan."
-						"[Group] Allowed printing of a group on the Windows default printer."
-						"[Group] Added ability to send a screenshot of a group via email."
-						"[Image] Enhanced image control with Opacity, Stretch, and Corner Radius appearance properties."
-						"[JSON, XML, CSV] Fixed oAuth request issues."
-						"[JSON] Resolved parsing issue with columns containing spaces."
-						"[Peakboard Box] Fixed variable-saving issue on Peakboard Box."
-						"[Peakboard Hub] Resolved issue with Box synchronization."
-						"[Peakbot] Removed due to unhelpful responses."
-						"[Power BI] Added support for setting Filters and scriptable report settings."
-						"[Power BI] Updated dialog style."
-						"[Power BI] Corrected report selection issue in dialog."
-						"[Power BI] Fixed cases where Power BI control became unresponsive."
-						"[Property Grid] Implemented basic numerical operations (+, -, x, /) in input fields for width, height, x, and y."
-						"[Resources] Resolved missing icon issue."
-						"[Resources] Fixed issue with changing network resource source for PDF/image control."
-						"[RSS] Resolved Basic auth issue."
-						"[S7] Fixed issue with writing shorter-than-expected strings for S7."
-						"[S7] Addressed error when saving S7 to connections."
-						"[Script editor] Fixed duplicate display of KeyPressed event parameters in global event parameters."
-						"[Script editor] Improved close behavior of \"X\" icon in save dialog to only close dialog and cancel close event."
-						"[Script editor] Resolved issue where save button remained disabled when building block was removed."
-						"[Script editor] Addressed issue where duplicated datasource/dataflow caused snippet tree section to stay on original source."
-						"[Script editor] Disabled \"Do you want to save your changes?\" dialog on \"Save and close.\""
-						"[Scripting] Enabled '.' in text input event."
-						"[Setup] Resolved custom path selection issue for BYOD installation."
-						"[Snippets / BB] Fixed \"Get index of\" for Number columns in data sources/dataflows."
-						"[Snippets / BB] Fixed initial functionality issue for boolean values in Building Blocks."
-						"[Snippets / BB] Created Snippet for printing current screenshot on default printer."
-						"[Snippets / BB] Added modifier checks (Shift, Control, etc.) for key pressed events."
-						"[Snippets / BB] Provided default sounds for \"play sound\" in addition to custom resources."
-						"[Snippets / BB] Placed Hub Connection Snippets/BB in subfolder \"Connection.\""
-						"[Snippets / BB] Resolved \"Add List\" block trigger issue in variable list reload event."
-						"[Snippets / BB] Fixed issue with \"Insert row\" snippet in variable lists bound to Styled List/Tile."
-						"[Snippets / BB] Fixed inability to save new scripts when switching between block and script mode."
-						"[Table] Limited column display to first 30 columns when dragging large data sources."
-						"[Textbox] Ensured text visibility even with transparent background inside."
-						"[Textbox] Corrected action behavior with styled lists requiring double-click for certain actions."
-						"[Textbox] Resolved issue with Regex example for Date DE."
-						"[Textbox] Ensured invalid border color disappears upon valid input, without requiring outside click."
-						"[Tile / TileView / ListView] Corrected title/subtitle binding issues."
-						"[Tile / TileView / ListView] Resolved error when copying ListView with image control."
-						"[Tile / TileView / ListView] Restored ListView index access in scripts for bound input controls."
-						"[Tile / TileView / ListView] Resolved Tile input binding issues."
-						"[Tile / TileView / ListView] Improved scroll performance for Styled List."
-						"[Tile / TileView / ListView] Fixed variable list update via script to reflect changes in Tile control."
-						"[Variable] Prompt user to add columns or data in existing structure."
-						"[Video] Added \"Start automatically\" property; video will only start in runtime if set to true."
-						"[Video] Enabled VLC player installation on external devices."
-						"[Video] Fixed multi-screen video control issue where runtime started all videos simultaneously."
-						"[Video] Integrated video streaming player into video control (Designer)."
-						"[Video] Enabled loop boolean for video controls via script."
-					]
-				}
-			]
-		}
-	]
-}]
+				"name": "General overview",
+				"content": [
+					{
+						"type": "headline",
+						"text": "General"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"[BB / Snippets] Ein \"Zeile einfügen\" BB für Variablenlisten hinzugefügt.  ",
+							"[Box communication] Aktualisierungen mit Warnungen wurden auch dann zugelassen, wenn die Version nicht neuer war, wodurch die Neuinstallation einer fehlerhaften Installation ermöglicht wurde.  ",
+							"[Box communication] Ein Fehler wurde behoben, bei dem das Herunterladen eines PBMX von einer cloudverbundenen Box fehlschlug.  ",
+							"[Box communication] Ein Fehler wurde behoben, bei dem der falsche Cloud-Schlüssel angezeigt werden konnte.  ",
+							"[Box communication] Ein Fehler wurde behoben, bei dem die Schaltfläche \"Aus Datei aktualisieren\" für über eine Cloud-Verbindung verbundene Boxen nicht verfügbar sein sollte.  ",
+							"[Box communication] Ein Fehler wurde behoben, der das Exportieren der Boxeinstellungen verhinderte, wenn die Box nicht verfügbar war.  ",
+							"[Building Blocks] Eine Veröffentlichungsfunktion für das Oracle DB Building Block wurde hinzugefügt.  ",
+							"[Button] Die Möglichkeit hinzugefügt, die Größe und Ausrichtung von Symbolen in Schaltflächen zu ändern.  ",
+							"[Button] Die Option hinzugefügt, aus der Symbolgalerie auszuwählen.  ",
+							"[Button] Ein Fehler wurde behoben, bei dem Touchscreens manchmal zwei Klicks für die Schaltfläche benötigten, da der erste Hover-Zustand aktiviert wurde.  ",
+							"[Checkbox] Ein Fehler wurde behoben, der zu einem weißen Bildschirm führte, wenn eine Checkbox mehrmals geklickt wurde.  ",
+							"[Data source] Ein Problem mit speziellen RSS-Feeds wurde behoben.  ",
+							"[Dataflow] Ein Fehler wurde behoben, bei dem eine Spalte im Dataflow-Schritt beim Join mit ausgewählten Spalten verloren ging.  ",
+							"[Dataflow] Ein Fehler wurde behoben, der zu einem Deadlock führte, wenn ein Reload ausgeführt und auf einen Dataflow gewartet wurde, was das Ende des Skripts verhinderte.  ",
+							"[Datepicker] Ein Fehler wurde behoben, bei dem die Datenbindung für Daten/Wert nur im Eigenschaftenraster funktionierte, jedoch nicht im Dialog für denzeitwähler.  ",
+							"[Datepicker] Ein Fehler wurde behoben, bei dem ein Zeit-/Datumsauswähler, der an eine Liste gebunden war, seine Bindung verlor, als die Liste geleert und mit Werten wieder aufgefüllt wurde.  ",
+							"[Datepicker] Ein Problem wurde behoben, bei dem das Zeitwählerfenster beim Wechseln der Bildschirme nicht geschlossen wurde.  ",
+							"[Designer] Die Bildschirmausblendung wurde standardmäßig auf \"Keine\" eingestellt.  ",
+							"[Designer] Ein Fehler wurde behoben, bei dem das Kopieren eines Steuerelements den Namen entfernte, anstatt einen neuen zu generieren.  ",
+							"[Designer] Ein Fehler wurde behoben, bei dem das Kopieren und Einfügen eines Bildschirms mit demselben Namen einen neuen Namen erforderte.  ",
+							"[Designer] Ein Fehler wurde behoben, bei dem das Kopieren und Einfügen von Gruppen nur Steuerelemente mit demselben (15px) Versatz enthielt.  ",
+							"[Designer] Ein Fehler wurde behoben, bei dem der Peakboard Designer nicht gestartet wurde, wenn ein Fehler im Einstellungshelfer vorlag.  ",
+							"[Designer] Ein Fehler wurde behoben, bei dem die Fenstergröße auf den primären Bildschirm anstelle des aktuellen verwiesen wurde.  ",
+							"[Designer] Ein Fehler wurde behoben, bei dem es nicht möglich war, eine gebundene Variable für den Titel/Untertitel zu entfernen; ein Papierkorb-Symbol wurde zu diesem Zweck hinzugefügt.  ",
+							"[Designer] Ein Fehler wurde behoben, bei dem YouTube-Links nicht funktionierten.  ",
+							"[Designer] Ein globales Ereignis für Touchscreen-Tipps wurde hinzugefügt.  ",
+							"[Designer] Ein Problem wurde behoben, bei dem das Sprachdropdown nicht richtig angezeigt wurde.  ",
+							"[Designer] Timer-Skripte konnten im Kontextmenü aktiviert/deaktiviert werden, wobei deaktivierte Elemente grau angezeigt wurden, genau wie bei Datenquellen.  ",
+							"[Designer] Video-Links aus der Übersetzungsdatei, die in den Quellcode fest kodiert waren, in eine Online-Datei ähnlich wie Erweiterungen verschoben.  ",
+							"[Dropdown] Die Symbole wurden aktualisiert.  ",
+							"[Explorer] Das \"Textinput\"-Ereignis wurde aktualisiert, um im Explorer denselben Namen und das gleiche Symbol wie im Kontextmenü zu haben.  ",
+							"[Explorer] Ein Fehler wurde behoben, bei dem die Symbole der Elemente im Skript- und Ressourcenteil verschwommen waren; wir sollten die bereitgestellten Symbole verwenden.  ",
+							"[Font] Ein Fehler wurde behoben, bei dem eine in der bedingten Formatierung verwendete Schriftart im Schriftartenmanager gelöscht werden konnte; dies sollte nicht möglich sein, und es sollten stattdessen entsprechende Informationen angezeigt werden.  ",
+							"[Format] Die Möglichkeit zur Umwandlung von negativen Zeitspannen wurde verbessert, da Aufträge überfällig sein können, in diesem Fall wird ein negatives Vorzeichen vor der Rückgabe erwartet.  ",
+							"[Group] Das Versenden eines Screenshots einer Gruppe per E-Mail wurde erlaubt.  ",
+							"[Group] Die Möglichkeit wurde aktiviert, eine Gruppe auf dem Standarddrucker zu drucken.  ",
+							"[Image] Erscheinungsoptionen für das Bildsteuerungselement hinzugefügt: Opazität, Dehnen, Randradius.  ",
+							"[JSON] Ein Fehler wurde behoben, bei dem JSON nicht geparst werden konnte, wenn der JSON-Name ein Leerzeichen enthielt.  ",
+							"[JSON] Ein Fehler wurde behoben, bei dem OAuth-Anfragen für JSON, XML, CSV usw. nicht korrekt gesendet wurden.  ",
+							"[Peakboard Box] Ein Fehler wurde behoben, bei dem eine Variable auf der Peakboard Box (große Projekte) nicht immer gespeichert wurde.  ",
+							"[Peakboard Hub] Ein Fehler wurde behoben, bei dem die Synchronisation der Boxverwaltung nicht funktionierte und \"Hub ist nicht verbunden\" angezeigt wurde, obwohl die Hub-Verbindung an anderer Stelle funktionierte (z. B. Hub-Datenquelle).  ",
+							"[Peakbot] Entfernt aufgrund unhilfreicher Antworten.  ",
+							"[Power BI] Ein Fehler wurde behoben, bei dem die Power BI-Steuerung nicht funktionierte und keine Fehlermeldung im Protokoll angezeigt wurde, möglicherweise aufgrund von Änderungen in der API.  ",
+							"[PowerBI] Der Dialogstil wurde überarbeitet.  ",
+							"[PowerBI] Die Möglichkeit wurde aktiviert, Filter zu setzen und Berichtseinstellungen skriptfähig zu machen.  ",
+							"[PowerBI] Ein Fehler wurde behoben, bei dem das erneute Öffnen des Steuerelements dazu führte, dass der falsche Bericht vorausgewählt war.  ",
+							"[Property Grid] Grundlegende mathematische Operationen (+ - x /) in Eingabefeldern für Breite/Höhe/x/y implementiert, ähnlich wie die Funktionalität in Adobe/Figma usw.  ",
+							"[Resources] Ein Fehler wurde behoben, bei dem das Ändern der Quelle eines PDF- oder Bildsteuerelements mit einer Netzwerkressource es für alle Steuerelemente, die diese Ressource verwenden, änderte.  ",
+							"[Resources] Ein Fehler wurde behoben, bei dem ein Symbol fehlte.  ",
+							"[RSS] Ein Fehler wurde behoben, bei dem Feed-Basisauthentifizierungsfehler in der Vorschau auftraten.  ",
+							"[S7] Ein Fehler wurde behoben, bei dem das Schreiben eines kürzeren Strings als vom S7 erwartet nicht funktionierte.  ",
+							"[S7] Ein Fehler wurde behoben, bei dem ein Fehler beim Speichern eines S7 in den Verbindungen auftrat.  ",
+							"[Script editor] Die Funktionalität wurde aktualisiert, sodass das Drücken der Schaltfläche \"Speichern und schließen\" den Dialog \"Möchten Sie Ihre Änderungen speichern?\" nicht anzeigt, da der Benutzer eindeutig speichern möchte.  ",
+							"[Script editor] Ein Fehler wurde behoben, bei dem die globalen Ereignisparameter für KeyPressed doppelt angezeigt wurden.  ",
+							"[Script editor] Ein Fehler wurde behoben, bei dem die Schaltfläche \"Speichern\" deaktiviert blieb, wenn ein Building Block entfernt wurde.  ",
+							"[Script editor] Ein Problem wurde behoben, bei dem das Drücken des \"X\"-Symbols im Speicherdialog nicht nur den Speicherdialog schloss, sondern stattdessen den gesamten Skripteditor schloss, was zu einem Verlust von Änderungen führte.  ",
+							"[Script editor] Ein Problem wurde behoben, bei dem das Duplizieren einer Datenquelle/Datenfluss mit einem aktualisierten Skript dazu führte, dass der obere Abschnitt des Snippet-Baums an der ursprünglichen Quelle hängen blieb.  ",
+							"[Scripting] Die Verwendung von '.' in Text Eingabeereignissen wurde zugelassen.  ",
+							"[Scripting] Ein Fehler wurde behoben, bei dem das Hinzufügen eines Wertes für einen Booleschen Wert in BB zuerst nicht korrekt funktionierte.  ",
+							"[Setup] Ein Fehler wurde behoben, bei dem die Auswahl eines benutzerdefinierten Pfades für die BYOD-Installation nur das Deinstallationsprogramm dort ablegte.  ",
+							"[Snippets / BB] Die Option hinzugefügt, Modifikatoren (Shift, Control usw.) für das Tastendruckereignis zu überprüfen.  ",
+							"[Snippets / BB] Ein Fehler wurde behoben, bei dem das Erstellen eines neuen Skripts im Blockmodus und der Wechsel in den Skriptmodus das Speichern des Skripts nicht erlaubte, es sei denn, es wurden Änderungen vorgenommen.  ",
+							"[Snippets / BB] Ein Fehler wurde behoben, bei dem das Snippet \"Zeile einfügen\" nicht funktionierte, wenn eine Variablenliste an eine stilisierte Liste/Tile gebunden war.  ",
+							"[Snippets / BB] Ein Fehler wurde behoben, bei dem der Block \"Variable List 'Add List'\" kein Reload-Ereignis für die Variablenliste auslöste.  ",
+							"[Snippets / BB] Ein Fehler wurde behoben, bei dem die Funktion \"Index abrufen\" nicht für Spalten vom Typ Nummer in Datenquellen und Datenflüssen funktionierte.  ",
+							"[Snippets / BB] Ein Snippet zum Drucken des aktuellen Screenshots auf dem Standarddrucker wurde erstellt.  ",
+							"[Snippets / BB] Hub-Verbindungs-Snippets/BB in einen Unterordner mit der Bezeichnung \"Connection\" organisiert.  ",
+							"[Snippets / BB] Standard-Töne neben benutzerdefinierten Ressourcendateien für die Soundwiedergabefunktionalität bereitgestellt.  ",
+							"[Table] Die Funktionalität beim Ziehen einer Datenquelle mit vielen Spalten wurde verbessert, um nur die ersten 30 Spalten zu übernehmen.  ",
+							"[Textbox] Die Regex-Validierung wurde aktualisiert, sodass die ungültige Rahmenfarbe verschwindet, sobald der eingegebene Wert gültig ist, und nicht nur nach dem Klicken außerhalb/Drücken der Eingabetaste.  ",
+							"[Textbox] Ein Fehler wurde behoben, bei dem das Regex-Beispiel für Datum DE nicht korrekt funktionierte.  ",
+							"[Textbox] Ein Fehler wurde behoben, bei dem der Text unsichtbar wurde, wenn der Hintergrund transparent war; der Text sollte weiterhin sichtbar sein.  ",
+							"[Textbox] Ein Problem wurde behoben, bei dem die Verwendung von Eingabetext in einer stilisierten Liste zwei Klicks für die nächste Aktion (z. B. Schaltfläche oder neue Eingabe) erforderte, während dies außerhalb direkt möglich war.  ",
+							"[Tile / TileView / ListView] Die Scrollleistung für stilisierte Listen wurde verbessert.  ",
+							"[Tile / TileView / ListView] Ein Fehler wurde behoben, bei dem das Kopieren und Einfügen einer ListView, die ein Bildsteuerelement enthielt, einen Fehler auslöste und die eingefügte ListView abstürzte.  ",
+							"[Tile / TileView / ListView] Ein Fehler wurde behoben, bei dem die Bindung von Titel/Untertitel nicht funktionierte.  ",
+							"[Tile / TileView / ListView] Ein Fehler wurde behoben, bei dem die Eingabeverknüpfung von Tile nicht funktionierte.  ",
+							"[Tile / TileView / ListView] Ein Fehler wurde behoben, bei dem, wenn ein Eingabesteuerelement in einer ListView an ein Element in der Liste der ListView gebunden war, der Index der ListView nicht mehr im Skript abgerufen werden konnte.  ",
+							"[Tile / TileView / ListView] Ein Problem wurde behoben, bei dem das Aktualisieren von Werten in einer Variablenliste über das Aktualisieren/Ersetzen der Listenskripts die Tile-Steuerung nicht aktualisierte.  ",
+							"[Variable] Der Benutzer wurde aufgefordert, auch Spalten hinzuzufügen oder nur die Daten in der vorhandenen Struktur.",
+							"[Video] Der Videoplayer für das Streaming wurde in unser Video-Steuerelement im Designer integriert.  ",
+							"[Video] Die Installation des VLC-Players auf externen Geräten wurde erlaubt.  ",
+							"[Video] Ein Problem wurde behoben, bei dem der Schleifenbool für Videosteuerungen nicht über Skripte gesetzt werden konnte.  ",
+							"[Video] Ein Problem wurde behoben, bei dem ein PBMX mit mehreren Bildschirmen und einem Video-Steuerelement auf jedem Bildschirm dazu führte, dass alle Videos (oder zumindest deren Ton) beim Starten der Laufzeit abgespielt wurden. Sowohl für Ressourcen- als auch für YouTube-Streams.  ",
+							"[Video] Eine Eigenschaft \"Automatisch starten\" wurde hinzugefügt, die verhindert, dass das Video direkt zur Laufzeit startet, und nur bei Initiierung durch Skript startet, wenn auf falsch gesetzt.  "
+						]
+					}
+				]
+			}
+		]
+	}
+]
