@@ -8,6 +8,22 @@
 		"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.10.0.0.0/PeakboardRuntimeSetupUI.exe",
 		"tabs": [
 			{
+			  "name": "Button Icons",
+			  "content": [{
+				"type": "image",
+				"image": "3-10-0-0-button_de.gif",
+				"description": "Die Buttons erlauben dir nun auf unsere Icon Galerie zuzugreifen."
+			  }]
+			},
+			{
+			  "name": "Video Streams",
+			  "content": [{
+				"type": "image",
+				"image": "3-10-0-0-stream_de.gif",
+				"description": "Das Video Control ermöglicht nun den Zugriff auf Video Streams und Youtube Videos."
+			  }]
+			},
+			{
 				"name": "General overview",
 				"content": [
 					{
