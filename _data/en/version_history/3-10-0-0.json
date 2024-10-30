@@ -8,6 +8,14 @@
 		"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.10.0.0.0/PeakboardRuntimeSetupUI.exe",
 		"tabs": [
 			{
+			  "name": "Script Templates",
+			  "content": [{
+				"type": "image",
+				"image": "3-10-0-0-templates_en.gif",
+				"description": "The script templates have been fundamentally revised."
+			  }]
+			},
+			{
 			  "name": "Button icons",
 			  "content": [{
 				"type": "image",
