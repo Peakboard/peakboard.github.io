@@ -59,7 +59,7 @@
 			
 			"[Database] - Fixed database update scripts for older database server versions",
 			"[Database] - Improved error messages for database issues",
-			"[Database] - Improved handling of unallowed characters in database passwords"
+			"[Database] - Improved handling of unallowed characters in database passwords",
 			
             "[Users](/hub/Peakboard_Hub_on_premise/en-hub_usermanagement.html) - Added possibility to create API tokens for user groups",
             "[Users](/hub/Peakboard_Hub_on_premise/en-hub_usermanagement.html) - Improved warnings for users leaving a company or demoting themselves",

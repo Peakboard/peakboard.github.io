@@ -59,7 +59,7 @@
 			
 			"[Datenbank] - Probleme mit Datenbank Updates für ältere Datenbanken behoben",
 			"[Datenbank] - Fehlermeldungen für die Datenbankverbindung verbessert",
-			"[Datenbank] - Fehlermeldung beim Verwenden von unerlaubten Zeichen im Datenbankpasswort verbessert"
+			"[Datenbank] - Fehlermeldung beim Verwenden von unerlaubten Zeichen im Datenbankpasswort verbessert",
 			
             "[Nutzer](/hub/Peakboard_Hub_on_premise/de-hub_usermanagement.html) - Möglichkeit zum Erstellen von API Tokens für Nutzergruppen hinzugefügt",
             "[Nutzer](/hub/Peakboard_Hub_on_premise/de-hub_usermanagement.html) - Warnungen beim Verlassen der aktuellen Organisation oder beim degradieren des eigenen Nutzers verbessert",
