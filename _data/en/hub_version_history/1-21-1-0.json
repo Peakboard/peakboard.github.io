@@ -29,8 +29,8 @@
 			"[UI] - Added new variables page",
 			"[UI] - Improved mobile access",
 			
-            "[Setup] (/hub/Peakboard_Hub_on_premise/en-hub_installation.html) - Added the Peakboard Hub API to the installer",
-			"[Setup] (/hub/Peakboard_Hub_on_premise/en-hub_installation.html) - Improved the Peakboard Hub installer",
+            "[Setup](/hub/Peakboard_Hub_on_premise/en-hub_installation.html) - Added the Peakboard Hub API to the installer",
+			"[Setup](/hub/Peakboard_Hub_on_premise/en-hub_installation.html) - Improved the Peakboard Hub installer",
             
 			"[Boxes](/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Added runtime updates for box groups",
 			"[Boxes](/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Added possibility to schedule runtime updates at specific daytimes",
