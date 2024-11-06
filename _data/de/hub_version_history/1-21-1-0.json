@@ -1,0 +1,75 @@
+[{
+  "version": "1.21.1.0",
+  "date": "06.11.2024",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.21.1.0/PeakboardHubSetup.exe",
+  "tabs": [
+	{
+      "name": "API Release",
+      "content": [{
+        "type": "image",
+        "image": "1-21-1-0-api_release.png",
+        "description": "Die Peakboard Hub API ist jetzt Teil der Hub Installation."
+      }]
+    },
+    {
+      "name": "Gesamtübersicht",
+      "content": [
+        {
+          "type": "headline",
+          "text": "Allgemein"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "[UI] - Die Connections Seite wurde an das neue Design angepasst",
+            "[UI] - Die Data Seite wurde an das neue Design angepasst",
+            "[UI] - Die Logs Seite wurde an das neue Design angepasst",
+            "[UI] - Die Users Seite wurde an das neue Design angepasst",
+            "[UI] - Die Alerts Seite wurde an das neue Design angepasst",
+			"[UI] - Added new variables page",
+			"[UI] - Improved mobile access",
+			
+            "[Setup] (/hub/Peakboard_Hub_on_premise/de-hub_installation.html) - Peakboard Hub API hinzugefügt",
+			"[Setup] (/hub/Peakboard_Hub_on_premise/de-hub_installation.html) - Verschiedene kleinere Punkte am Installer verbessert",
+            
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Updates für Box Gruppen hinzugefügt",
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Updates für Box Gruppen zu einer definierbaren Zeit hinzugefügt",
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Einstellbare Laufzeiten für Boxen hinzugefügt",
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Boxen werden nun im Hub deaktiviert, falls eine ungültige Verbindung genutzt wird",
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Namen von Box Gruppen können nun angepasst werden",
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Die Fehlermeldung für die Nutzung des pbadmin Nutzers im Peakboard Hub online wurde verbessert",
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Probleme beim hochladen von Peakboard Anwendungen wurden behoben",
+			"[Boxen] (/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Probleme beim Ändern des Zeitservers einer Box wurden behoben",
+			
+			"[Listen](/hub/Listen/de-hub_new-list.html) - Es können mehrere Filter auf einmal definiert werden",
+			"[Listen](/hub/Listen/de-hub_new-list.html) - Die Breite der ID Spalte kann selbst festgelegt werden",
+			"[Listen](/hub/Listen/de-hub_new-list.html) - Spaltenrestriktionen und Spaltenvalidierung hinzugefügt",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Problem beim Ändern des initialen Spaltenwertes behoben",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Probleme beim Importieren von Listen behoben",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Problem mit einem column-name Fehler beim Zufügen von Listen im Peakboard Designer behoben",
+            "[Listen](/hub/Listen/de-hub_new-list.html) - Probleme mit problematischen Spaltennamen behoben",
+			
+			"[Variablen] - Variablen zum Peakboard Hub hinzugefügt",
+			"[Variablen] - Initialwerte zu Peakboard Hub Variablen hinzugefügt",
+			"[Variablen] - Eine Möglichkeit zum Verbinden von Variablen mit Zellen in Listen hinzugefügt",
+            
+			"[API] - Die Peakboard Hub API für externe Verbindungen hinzugefügt",
+			
+			"[Log] - Problem mit Fehlermeldungen vom Typ Warnung behoben",
+			
+			"[Datenbank] - Probleme mit Datenbank Updates für ältere Datenbanken behoben",
+			"[Datenbank] - Fehlermeldungen für die Datenbankverbindung verbessert",
+			"[Datenbank] - Fehlermeldung beim Verwenden von unerlaubten Zeichen im Datenbankpasswort verbessert"
+			
+            "[Nutzer](/hub/Peakboard_Hub_on_premise/de-hub_usermanagement.html) - Möglichkeit zum Erstellen von API Tokens für Nutzergruppen hinzugefügt",
+            "[Nutzer](/hub/Peakboard_Hub_on_premise/de-hub_usermanagement.html) - Warnungen beim Verlassen der aktuellen Organisation oder beim degradieren des eigenen Nutzers verbessert",
+            "[Nutzer](/hub/Peakboard_Hub_on_premise/de-hub_usermanagement.html) - Berechtigungsmodell von vordefinierte Nutzerrollen zu einstellbaren Berechtigungen auf Basis von Nutzergruppen geändert",
+            
+            "Caching verbessert um Ladezeiten zu verkürzen",
+            "Ablaufzeit zu Einladungsmails hinzugefügt"
+          ]
+        }
+      ]
+    }
+  ]
+}]

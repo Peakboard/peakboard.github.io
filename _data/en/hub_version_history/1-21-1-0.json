@@ -1,0 +1,75 @@
+[{
+  "version": "1.21.1.0",
+  "date": "06.11.2024",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.21.1.0/PeakboardHubSetup.exe",
+  "tabs": [
+	{
+      "name": "API Release",
+      "content": [{
+        "type": "image",
+        "image": "1-21-1-0-api_release.png",
+        "description": "Peakboard Hub API is released with this version."
+      }]
+    },
+    {
+      "name": "General overview",
+      "content": [
+        {
+          "type": "headline",
+          "text": "General"
+        },
+        {
+          "type": "list",
+          "list_items": [
+            "[UI] - Updated the UI of the connections page to the new look and feel",
+            "[UI] - Updated the UI of the lists page to the new look and feel",
+            "[UI] - Updated the UI of the logs page to the new look and feel",
+            "[UI] - Updated the UI of the users page to the new look and feel",
+            "[UI] - Updated the UI of the alerts page to the new look and feel",
+			"[UI] - Added new variables page",
+			"[UI] - Improved mobile access",
+			
+            "[Setup] (/hub/Peakboard_Hub_on_premise/en-hub_installation.html) - Added the Peakboard Hub API to the installer",
+			"[Setup] (/hub/Peakboard_Hub_on_premise/en-hub_installation.html) - Improved the Peakboard Hub installer",
+            
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Added runtime updates for box groups",
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Added possibility to schedule runtime updates at specific daytimes",
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Added possibility to define timeframes in which boxes are running",
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Added deactivation of boxes if the connected credentials are not valid anymore",
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Improved box groups, so that box group names can be changed",
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Improved the error message, if the pbadmin was used to connect a box to the Peakboard Hub online",
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Fix issues with uploading Peakboard applications",
+			"[Boxes] (/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html) - Fix issues with setting a box time server",
+			
+			"[Lists](/hub/Lists/en-hub_new-list.html) - Added the possibility to define multiple filters at once",
+			"[Lists](/hub/Lists/en-hub_new-list.html) - Added possibility to customize the width of the ID column",
+			"[Lists](/hub/Lists/en-hub_new-list.html) - Added column restrictions and validation",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Fixed issues with updating the default value",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Fixed issues with importing lists",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Fixed issues with lists sometimes throwing an column-name-error in the designer",
+            "[Lists](/hub/Lists/en-hub_new-list.html) - Fixed issues with problematic column names for lists",
+			
+			"[Variables] - Added variables to the Peakboard Hub",
+			"[Variables] - Added initial values for variables",
+			"[Variables] - Added the possiblity to bind variables to list cells",
+            
+			"[API] - Added the Peakboard Hub API for third party access",
+			
+			"[Log] - Fixed issue with warning log messages not beeing shown",
+			
+			"[Database] - Fixed database update scripts for older database server versions",
+			"[Database] - Improved error messages for database issues",
+			"[Database] - Improved handling of unallowed characters in database passwords"
+			
+            "[Users](/hub/Peakboard_Hub_on_premise/en-hub_usermanagement.html) - Added possibility to create API tokens for user groups",
+            "[Users](/hub/Peakboard_Hub_on_premise/en-hub_usermanagement.html) - Improved warnings for users leaving a company or demoting themselves",
+            "[Users](/hub/Peakboard_Hub_on_premise/en-hub_usermanagement.html) - Reworked permissions to be part of the user group instead of predefined roles per user",
+            
+            "Improved caching for faster loading times",
+            "Added expiration time to invitation emails"
+          ]
+        }
+      ]
+    }
+  ]
+}]
