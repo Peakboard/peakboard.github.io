@@ -5,8 +5,8 @@ title: Listen im Peakboard Designer verwenden
 menu_title: Listen im Peakboard Designer verwenden
 description: Peakboard Hub - Listen im Peakboard Designer verwenden
 lang: de
-weight: 810
-ref: hub-810
+weight: 610
+ref: hub-610
 redirect_from:
 ---
 

@@ -5,8 +5,8 @@ title: Using lists in the Peakboard Designer
 menu_title: Using lists in the Peakboard Designer
 description: Peakboard Hub - Using lists in the Peakboard Designer 
 lang: en
-weight: 810
-ref: hub-810
+weight: 610
+ref: hub-610
 redirect_from:
 ---
 

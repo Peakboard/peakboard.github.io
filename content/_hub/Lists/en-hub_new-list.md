@@ -5,8 +5,8 @@ title: Add lists
 menu_title: Add lists
 description: Peakboard Hub - Add lists 
 lang: en
-weight: 800
-ref: hub-800
+weight: 600
+ref: hub-600
 redirect_from:
  - /hub/en-hub_variableslist.html
 ---

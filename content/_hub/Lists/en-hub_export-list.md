@@ -5,8 +5,8 @@ title: Export lists
 menu_title: Export lists
 description: Peakboard Hub - Export lists
 lang: en
-weight: 820
-ref: hub-820
+weight: 620
+ref: hub-620
 redirect_from:
 ---
 

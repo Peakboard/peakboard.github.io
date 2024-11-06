@@ -5,8 +5,8 @@ title: Listen exportieren
 menu_title: Listen exportieren
 description: Peakboard Hub - Listen exportieren
 lang: de
-weight: 820
-ref: hub-820
+weight: 620
+ref: hub-620
 redirect_from:
 ---
 

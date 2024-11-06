@@ -5,8 +5,8 @@ title: Verbindungen
 menu_title: Verbindungen
 description: Peakboard Hub - Verbindungen
 lang: de
-weight: 700
-ref: hub-700
+weight: 500
+ref: hub-500
 redirect_from:
 ---
 
