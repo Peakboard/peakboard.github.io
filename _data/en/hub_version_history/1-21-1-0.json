@@ -16,14 +16,7 @@
 	  "content": [
 		{
 		  "type": "headline",
-		  "text": "Test"
-		},
-		{
-		  "type": "list",
-		  "list_items": [
-			"test",
-			"test2"
-		  ]
+		  "text": "Sollte die Seite beim ersten Aufruf nicht richtig dargestellt werden, bitte den Browsercache leeren und neu laden (meist: strg + f5)"
 		}
 	  ]
     },

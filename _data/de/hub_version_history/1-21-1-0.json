@@ -16,14 +16,7 @@
 	  "content": [
 		{
 		  "type": "headline",
-		  "text": "Test"
-		},
-		{
-		  "type": "list",
-		  "list_items": [
-			"test",
-			"test2"
-		  ]
+		  "text": "If the page is not displayed correctly the first time you open it, please empty the browser cache and reload it (usually: ctrl + f5)"
 		}
 	  ]
 	},
