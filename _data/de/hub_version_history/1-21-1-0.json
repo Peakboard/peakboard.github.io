@@ -16,7 +16,7 @@
 	  "content": [
 		{
 		  "type": "list",
-		  "list_items": [ "If the page is not displayed correctly the first time you open it, please empty the browser cache and reload it (usually: ctrl + f5)" ]
+		  "list_items": [ "Sollte die Seite beim ersten Aufruf nicht richtig dargestellt werden, bitte den Browsercache leeren und neu laden (meist: strg + f5)" ]
 		}
 	  ]
 	},
