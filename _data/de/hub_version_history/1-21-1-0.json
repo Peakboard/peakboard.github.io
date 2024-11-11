@@ -12,13 +12,19 @@
       }]
     },
 	{
-		"name": "Information",
-		"content": [
-			{
-				"type": "headline",
-				"text": "If the page is not displayed correctly the first time you open it, please empty the browser cache and reload it (usually: ctrl + f5)"
-			}
-		]
+	  "name": "Information",
+	  "content": [
+		{
+		  "type": "headline",
+		  "text": "Test"
+		},
+		{
+		  "type": "list",
+		  "list_items": [
+			""
+		  ]
+		}
+	  ]
 	},
     {
       "name": "Gesamtübersicht",
