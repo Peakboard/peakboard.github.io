@@ -11,6 +11,15 @@
         "description": "Die Peakboard Hub API ist jetzt Teil der Hub Installation."
       }]
     },
+	{
+		"name": "Information",
+		"content": [
+			{
+				"type": "headline",
+				"text": "If the page is not displayed correctly the first time you open it, please empty the browser cache and reload it (usually: ctrl + f5)"
+			}
+		]
+	},
     {
       "name": "Gesamtübersicht",
       "content": [

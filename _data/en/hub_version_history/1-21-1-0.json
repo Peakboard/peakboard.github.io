@@ -11,6 +11,15 @@
         "description": "Peakboard Hub API is released with this version."
       }]
     },
+	{
+		"name": "Information",
+		"content": [
+			{
+				"type": "headline",
+				"text": "Sollte die Seite beim ersten Aufruf nicht richtig dargestellt werden, bitte den Browsercache leeren und neu laden (meist: strg + f5)
+			}
+		]
+	},
     {
       "name": "General overview",
       "content": [
