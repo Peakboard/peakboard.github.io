@@ -21,7 +21,8 @@
 		{
 		  "type": "list",
 		  "list_items": [
-			""
+			"test",
+			"test2"
 		  ]
 		}
 	  ]
