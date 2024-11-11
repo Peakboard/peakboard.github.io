@@ -15,8 +15,8 @@
 	  "name": "Information",
 	  "content": [
 		{
-		  "type": "headline",
-		  "text": "Sollte die Seite beim ersten Aufruf nicht richtig dargestellt werden, bitte den Browsercache leeren und neu laden (meist: strg + f5)"
+		  "type": "list",
+		  "list_items": [ "Sollte die Seite beim ersten Aufruf nicht richtig dargestellt werden, bitte den Browsercache leeren und neu laden (meist: strg + f5)" ]
 		}
 	  ]
     },
