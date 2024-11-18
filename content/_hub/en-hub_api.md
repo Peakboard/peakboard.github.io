@@ -12,8 +12,6 @@ redirect_from:
 
 The **Peakboard Hub API** enables seamless integration of Peakboard applications into custom environments. A Peakboard Hub Online or Peakboard Hub On-Premises license is required to use the API.
 
----
-
 ### Setting Up the Peakboard Hub API – On-Premises Only
 
 To install the Peakboard Hub API, you need the Peakboard Hub Setup, which can be downloaded [here](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
@@ -30,18 +28,18 @@ The Peakboard Hub On-Premises is hosted locally on your server and requires:
 
 ![Peakboard Hub Setup components selection](/assets/images/hub/hub_api-installation-01.png)
 
-1. Download the setup and run it with administrator privileges.
-2. In the **Component Selection** screen, select:
+Download the setup and run it with administrator privileges.
+In the **Component Selection** screen, select:
    - **Peakboard Hub API** (2): Installs the API.
    - **Configure API IIS Page** (3): Sets up an IIS page and app pool with default settings, which can be adjusted later if needed.
 
 > **Note:** If the IIS page setup is not selected, you must create the IIS page and app pool manually.
 
-3. If a Peakboard Hub instance is installed on the same system, the API will automatically use its database connection. Otherwise, select **Configure Database** (1) to specify a custom database connection.
+If a Peakboard Hub instance is installed on the same system, the API will automatically use its database connection. Otherwise, select **Configure Database** (1) to specify a custom database connection.
 
-<div class="box-warning" markdown="1"> **Please note**:
-If 'Configure Database' (1) is selected, the next screen will also ask for a Peakboard Hub installation path. If there is no Peakboard Hub you can ignore this, or if the Peakboard Hub should not be adjusted, just select an empty folder.
-</div>
+
+> **Note:** If 'Configure Database' (1) is selected, the next screen will also ask for a Peakboard Hub installation path. If there is no Peakboard Hub you can ignore this, or if the Peakboard Hub should not be adjusted, just select an empty folder.
+
 
 #### Updating the API
 
@@ -49,8 +47,6 @@ To update the API:
 - Download the latest setup version [here](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
 - Select **Peakboard Hub API** (2) in the component selection.
 - Select **.NET Hosting Bundle** or install the latest [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer) manually.
-
----
 
 ### Using the Peakboard Hub API
 
@@ -80,17 +76,17 @@ You can also set an expiration period for each key.
 #### Authorization
 
 To use the API:
-1. Access the main API page for available calls:
+Access the main API page for available calls:
    - **Peakboard Hub Online:** [https://api.peakboard.com/public-api/index.html](https://api.peakboard.com/public-api/index.html)
    - **On-Premises:** `<your-local-api-path>/public-api/index.html`
 
-2. Obtain an authorization token by making a GET request to:
+Obtain an authorization token by making a GET request to:
    - **Online:** [https://api.peakboard.com/public-api/v1/auth/token](https://api.peakboard.com/public-api/v1/auth/token)
    - **Peakboard Hub On-Premises:** `<your-local-api-path>/public-api/v1/auth/token`
 
    Include the header: `'apiKey': '<your-api-key>'`.
 
-3. Use the token in subsequent calls by including the header:
+Use the token in subsequent calls by including the header:
    `'Authorization': 'Bearer <your-authorization-token>'`.
 
 > **Note:** Tokens are temporary and must be renewed once expired.

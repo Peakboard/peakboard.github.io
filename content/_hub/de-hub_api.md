@@ -12,8 +12,6 @@ redirect_from:
 
 Die **Peakboard Hub API** ermöglicht die Integration von Peakboard-Anwendungen in individuelle Umgebungen. Für die Nutzung der API ist eine Peakboard Hub Online- oder On-Premises-Lizenz erforderlich.
 
----
-
 ### Einrichtung der Peakboard Hub API – Nur On-Premises
 
 Für die Installation der Peakboard Hub API wird das Peakboard Hub Setup benötigt, das Sie [hier herunterladen können](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
@@ -22,20 +20,23 @@ Für die Installation der Peakboard Hub API wird das Peakboard Hub Setup benöti
 
 Die Peakboard Hub On-Premises wird lokal auf Ihrem Server gehostet und benötigt:
 - **IIS** und **Windows Server 2016 oder neuer**.
-- Das [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer), das auch während der Installation über das Setup installiert werden kann.
+- Die [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer), welche auch während der Installation über das Setup installiert werden kann.
 
 > **Hinweis:** Eine laufende Peakboard Hub-Instanz ist für die vollständige Funktionalität der API erforderlich. Die API muss nicht auf demselben Server installiert sein, benötigt jedoch Zugriff auf dieselbe Datenbank.
 
 #### Installation
 
-1. Laden Sie das Setup herunter und führen Sie es mit Administratorrechten aus.
-2. Wählen Sie im Bildschirm **Komponentenauswahl** folgende Optionen:
+Laden Sie das Setup herunter und führen Sie es mit Administratorrechten aus.
+Wählen Sie im Bildschirm **Component Selection** folgende Optionen:
    - **Peakboard Hub API** (2): Installiert die API.
    - **Configure API IIS Page** (3): Erstellt eine IIS-Seite und einen App-Pool mit Standardeinstellungen, die später angepasst werden können.
 
 > **Hinweis:** Wenn die IIS-Einrichtung übersprungen wird, müssen die IIS-Seite und der App-Pool manuell erstellt werden.
 
-3. Wenn bereits eine Peakboard Hub-Instanz auf demselben System installiert ist, nutzt die API automatisch deren Datenbankverbindung. Ist dies nicht der Fall, wählen Sie die Komponente **Configure Database** (1), um eine benutzerdefinierte Datenbankverbindung anzugeben.
+Wenn bereits eine Peakboard Hub-Instanz auf demselben System installiert ist, nutzt die API automatisch deren Datenbankverbindung. Ist dies nicht der Fall, wählen Sie die Komponente **Configure Database** (1), um eine benutzerdefinierte Datenbankverbindung anzugeben.
+
+
+> **Hinweis:** Wenn 'Configure Database' (1) ausgewählt ist, frägt die nächste Seite nach dem Installationspfad des Peakboard Hubs. Falls auf dem System kein Peakboard Hub installiert ist, kann dies ignoriert werden. Andernfalls bitte einen leeren Ordner auswählen um die installierte Peakboard Hub Instanz nicht zu beeinflussen.
 
 #### Aktualisierung der API
 
@@ -44,21 +45,24 @@ Um die API zu aktualisieren:
 - Wählen Sie die Komponente **Peakboard Hub API** (2) aus.
 - Aktualisieren Sie das [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer), falls erforderlich.
 
----
-
 ### Nutzung der Peakboard Hub API
 
-#### API-Schlüssel
+#### API Key
+
+![API key Verwaltung](/assets/images/hub/hub_api-installation-02.png)
 
 Für den Zugriff auf die API wird ein API-Schlüssel benötigt. Dieser kann auf der Benutzergruppenseite generiert werden:
 
 - **Peakboard Hub Online:** Melden Sie sich unter [hub.peakboard.com](https://hub.peakboard.com) an und navigieren Sie zu *Organisation → API KEYS*.
-- **Peakboard Hub On-Premises:** Melden Sie sich bei Ihrem lokalen Hub an und gehen Sie zu *Benutzer → API KEYS*.
+- **Peakboard Hub On-Premises:** Melden Sie sich bei Ihrem lokalen Hub an und gehen Sie zu *Users → API KEYS*.
 
 Die API-Schlüssel sind an die Berechtigungen der jeweiligen Benutzergruppe gebunden und ermöglichen den Zugriff auf spezifische Ressourcen innerhalb dieser Gruppe. Die Berechtigungen umfassen:
-- **read:lists**, **write:lists**
-- **read:alerts**, **write:alerts**
-- **read:box**, **write:box**
+- **read:lists**
+- **write:lists**
+- **read:alerts**
+- **write:alerts**
+- **read:box**
+- **write:box**
 
 Zusätzlich kann ein Gültigkeitszeitraum für den Schlüssel festgelegt werden.
 
@@ -69,17 +73,17 @@ Zusätzlich kann ein Gültigkeitszeitraum für den Schlüssel festgelegt werden.
 #### Autorisierung
 
 So verwenden Sie die API:
-1. Rufen Sie die Hauptseite der API für verfügbare Endpunkte auf:
+Rufen Sie die Hauptseite der API für verfügbare Endpunkte auf:
    - **Online:** [https://api.peakboard.com/public-api/index.html](https://api.peakboard.com/public-api/index.html)
    - **On-Premises:** `<your-local-api-path>/public-api/index.html`
 
-2. Fordern Sie ein Autorisierungstoken über einen GET-Request an:
+Fordern Sie ein Autorisierungstoken über einen GET-Request an:
    - **Online:** [https://api.peakboard.com/public-api/v1/auth/token](https://api.peakboard.com/public-api/v1/auth/token)
    - **On-Premises:** `<your-local-api-path>/public-api/v1/auth/token`
 
    Fügen Sie den Header hinzu: `'apiKey': '<your-api-key>'`.
 
-3. Verwenden Sie das Token für nachfolgende Aufrufe, indem Sie den Header hinzufügen:
+Verwenden Sie das Token für nachfolgende Aufrufe, indem Sie den Header hinzufügen:
    `'Authorization': 'Bearer <your-authorization-token>'`.
 
 > **Hinweis:** Tokens sind nur temporär gültig und müssen nach Ablauf erneuert werden.
