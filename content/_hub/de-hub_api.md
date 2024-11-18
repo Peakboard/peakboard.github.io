@@ -73,17 +73,17 @@ Zusätzlich kann ein Gültigkeitszeitraum für den Schlüssel festgelegt werden.
 #### Autorisierung
 
 So verwenden Sie die API:
-Rufen Sie die Hauptseite der API für verfügbare Endpunkte auf:
-   - **Online:** [https://api.peakboard.com/public-api/index.html](https://api.peakboard.com/public-api/index.html)
-   - **On-Premises:** `<your-local-api-path>/public-api/index.html`
+Rufen Sie die Hauptseite der API auf um eine Übersicht der verfügbaren Endpunkte zu erhalten:
+   - **Peakboard Hub Online:** [https://api.peakboard.com/public-api/index.html](https://api.peakboard.com/public-api/index.html)
+   - **Peakboard Hub On-Premises:** `<your-local-api-path>/public-api/index.html`
 
 Fordern Sie ein Autorisierungstoken über einen GET-Request an:
-   - **Online:** [https://api.peakboard.com/public-api/v1/auth/token](https://api.peakboard.com/public-api/v1/auth/token)
-   - **On-Premises:** `<your-local-api-path>/public-api/v1/auth/token`
+   - **Peakboard Hub Online:** [https://api.peakboard.com/public-api/v1/auth/token](https://api.peakboard.com/public-api/v1/auth/token)
+   - **Peakboard Hub On-Premises:** `<your-local-api-path>/public-api/v1/auth/token`
 
-   Fügen Sie den Header hinzu: `'apiKey': '<your-api-key>'`.
+Der Header `'apiKey': '<your-api-key>'` wird dabei benötigt.
 
-Verwenden Sie das Token für nachfolgende Aufrufe, indem Sie den Header hinzufügen:
+Autorisieren Sie mit dem so erhaltenen Token alle nachfolgende Aufrufe, indem Sie den Header hinzufügen:
    `'Authorization': 'Bearer <your-authorization-token>'`.
 
-> **Hinweis:** Tokens sind nur temporär gültig und müssen nach Ablauf erneuert werden.
+> **Hinweis:** Autorisierungstokens sind nur temporär gültig und müssen nach Ablauf erneuert werden.
