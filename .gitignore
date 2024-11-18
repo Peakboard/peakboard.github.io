@@ -10,4 +10,3 @@ _mdwriter.cson
 package-lock.json
 .idea/*
 .idea
-Gemfile.lock
