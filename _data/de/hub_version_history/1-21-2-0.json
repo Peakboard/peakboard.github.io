@@ -1,7 +1,7 @@
 [{
-  "version": "1.21.1.0",
-  "date": "06.11.2024",
-  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.21.1.0/PeakboardHubSetup.exe",
+  "version": "1.21.2.0",
+  "date": "06.12.2024",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.21.2.0/PeakboardHubSetup.exe",
   "tabs": [
 	{
       "name": "API Release",
@@ -44,7 +44,6 @@
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Updates für Box Gruppen hinzugefügt",
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Updates für Box Gruppen zu einer definierbaren Zeit hinzugefügt",
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Einstellbare Laufzeiten für Boxen hinzugefügt",
-			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Boxen werden nun im Hub deaktiviert, falls eine ungültige Verbindung genutzt wird",
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Namen von Box Gruppen können nun angepasst werden",
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Die Fehlermeldung für die Nutzung des pbadmin Nutzers im Peakboard Hub online wurde verbessert",
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Probleme beim hochladen von Peakboard Anwendungen wurden behoben",
