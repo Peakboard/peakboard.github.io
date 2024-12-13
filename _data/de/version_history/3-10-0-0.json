@@ -32,16 +32,21 @@
 			  }]
 			},
 			{
-				"name": "General overview",
-				"content": [
-					{
+				  "name": "Gesamtübersicht",
+				  "content": [{
 						"type": "headline",
-						"text": "General"
-					},
-					{
-						"type": "list",
-						"list_items": [
-						
+					"text": "Hotfix 3.10.1.0"
+				  }, {
+					"type": "list",
+					"list_items": [
+					  "Fix für eine Fehlermeldung zur Boxverbindung die unregelmäßig auftrat."
+					]
+				  }, {
+						"type": "headline",
+					"text": "Allgemein"
+				  }, {
+					"type": "list",
+					"list_items": [
 							"[Video] Der Videoplayer erlaubt nun Livestreams.",
 							"[Video] Der Videoplayer erlaubt nun Youtube Videos.",
 							"[Box communication] Aktualisierungen mit Warnungen werden auch dann zugelassen, wenn die Version nicht neuer ist.",

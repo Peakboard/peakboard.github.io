@@ -32,13 +32,19 @@
 			  }]
 			},
 			{
-				"name": "General overview",
-				"content": [
-					{
+					  "name": "General overview",
+					  "content": [{
+							"type": "headline",
+						"text": "Hotfix 3.10.1.0"
+					  }, {
+						"type": "list",
+						"list_items": [
+							"Fix for an error message for the box connection that occurred irregularly."
+						]
+					  }, {
 						"type": "headline",
 						"text": "General"
-					},
-					{
+					  }, {
 						"type": "list",
 						"list_items": [
 							"[Video] The video player now allows live streams.",
