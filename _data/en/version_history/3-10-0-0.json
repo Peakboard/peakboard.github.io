@@ -1,7 +1,7 @@
 [
 	{
-		"version": "3.10.0.0",
-		"date": "28.10.2024",
+		"version": "3.10.0.1",
+		"date": "13.12.2024",
 		"download_url": "https://peakboard.rocks/download-version-history",
 		"box_download_url": "https://peakboard.com/download/Peakboard/archive/3.10.0.0.0/PeakboardRuntime.pbux",
 		"designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.10.0.0.0/PeakboardSetup.exe",
@@ -32,13 +32,19 @@
 			  }]
 			},
 			{
-				"name": "General overview",
-				"content": [
-					{
+					  "name": "General overview",
+					  "content": [{
+							"type": "headline",
+						"text": "Hotfix 3.10.1.0"
+					  }, {
+						"type": "list",
+						"list_items": [
+							"Fix for an error message for the box connection that occurred irregularly."
+						]
+					  }, {
 						"type": "headline",
 						"text": "General"
-					},
-					{
+					  }, {
 						"type": "list",
 						"list_items": [
 							"[Video] The video player now allows live streams.",
