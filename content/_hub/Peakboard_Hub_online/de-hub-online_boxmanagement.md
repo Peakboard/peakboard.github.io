@@ -14,6 +14,22 @@ Um deine Peakboard Boxen zu verwalten musst du sie zum Peakboard Hub hinzufügen
 Das Vorgehen unterscheidet sich, je nachdem ob du einen [Peakboard Hub on premise](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) oder einen [Peakboard Hub online](/hub/Peakboard_Hub_online/de-hub-online_boxmanagement.html) verwendest.
 Achte darauf, den korrekten Artikel zu nutzen.
 
+### Network Settings for the Peakboard Boxes
+Nötige Netzwerkeinstellungen um die Verbindungen von Peakboard Boxen zum Hub online zu gewährleisten.
+
+{% include styled_table.html %}
+{: .w-full }
+| URL                                       | Port    | Beschreibung
+| https://hub.peakboard.com                 | 443     | Initiale Anfrage von Boxen am Hub |
+| peakboardhubonline.servicebus.windows.net | 5671    | Kommunikationskanal für Peakboard Hub online per AMQP Verbindung (Azure Service Bus) |
+| https://peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux  | 443 |  Herunterladen von Update Dateien |
+| http://www.msftconnecttest.com/connecttest.txt | 80 | Überprüfen der Internetverbindung einer Box |
+
+<div class="box-warning" markdown="1">**Wichtig**.
+
+Notwendige [proxy Einstellungen](/administration/de-proxy.html) müssen auf den Boxen über den Peakboard Designer hinterlegt werden.
+</div>
+
 ### Eine Peakboard Box zum Peakboard Hub online hinzufügen
 
 Im ersten Schritt musst du deine Peakboard Box mit der Cloud verbinden.

@@ -32,12 +32,19 @@ Welche Ports genau genutzt werden, hängt dabei natürlich vom Einzelfall ab.
 | 102         |	Siemens S7 |
 | 4840        |	Standardport für OPC UA |
 
-### Ports für Peakboard Hub on premise und Peakboard Hub online
+### Ports für Peakboard Hub on premise
 
 {% include styled_table.html %}
 {: .w-full }
 | 40408       |	Kommunikationskanal für Peakboard Hub on premise |
 | 40409       |	Kommunikationskanal für Peakboard Hub on premise |
+
+### Ports für Peakboard Hub online
+
+{% include styled_table.html %}
+{: .w-full }
+| 80                   |  Überprüfen der Internetverbindung von einer Peakboard Box |
+| 443                  |	Initialer request von Peakboard Boxen zum Hub. Herunterladen von Update Dateien |
 | 5671 (TLS/SSL)       |	Kommunikationskanal für Peakboard Hub online per AMQP Verbindung (Azure Service Bus) |
 
 ### Ports für Peakboard Edge
