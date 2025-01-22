@@ -39,7 +39,7 @@ Standardmäßig erfolgt die Installation des Peakboard Designers unter [C:\Progr
     ```
 ````
 
-### Silent Deinstallation
+### Port 40404 blockieren
 
 Über den Parameter BlockUnencryptedConnection kann definiert werden dass die Box den unverschlüsselten Port 40404 komplett blockiert:
 

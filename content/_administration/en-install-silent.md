@@ -39,7 +39,7 @@ By default, the Peakboard Designer is installed under [C:\Program Files\Peakboar
     ```
 ````
 
-### Silent Deinstallation
+### Block Port 40404
 
 The BlockUnencryptedConnection parameter can be used to define that the box completely blocks the unencrypted port 40404:
 
