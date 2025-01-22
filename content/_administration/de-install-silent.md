@@ -38,3 +38,13 @@ Standardmäßig erfolgt die Installation des Peakboard Designers unter [C:\Progr
        "C:\Program Files\Peakboard\uninst.exe" -Silent True
     ```
 ````
+
+### Silent Deinstallation
+
+Über den Parameter BlockUnencryptedConnection kann definiert werden dass die Box den unverschlüsselten Port 40404 komplett blockiert:
+
+````markdown
+    ```
+       "C:\Temp\PeakboardSetup.exe" -Silent True -InstallPath <installation path> -BlockUnencryptedConnection True
+    ```
+````
