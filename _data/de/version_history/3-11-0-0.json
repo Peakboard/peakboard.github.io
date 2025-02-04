@@ -1,0 +1,432 @@
+[
+	{
+		"version": "3.11.0.0",
+		"date": "04.02.2025",
+		"download_url": "https://peakboard.rocks/download-version-history",
+		"box_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardRuntime.pbux",
+		"designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardSetup.exe",
+		"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardRuntimeSetupUI.exe",
+		"tabs": [
+			{
+              "name": "Flows",
+              "content": [{
+                "type": "image",
+                "image": "3-11-0-0-flows_de.gif",
+                "description": "Die Reload-Flows wurden komplett überarbeitet und bieten nun neben dem Nachladen von Datenquellen auch die Möglichkeit, Skripte auszuführen."
+              }]
+            },
+			{
+              "name": "Office 365",
+              "content": [{
+                "type": "image",
+                "image": "3-11-0-0-office365_de.gif",
+                "description": "Die Microsoft-Datenquellen wurden um neue Datenquellen wie Mail, Teams oder To-Do-Listen erweitert, und die bestehenden Office-Datenquellen Kalender und SharePoint-Listen wurden überarbeitet."
+              }]
+            },
+			{
+              "name": "Farbverläufe",
+              "content": [{
+                "type": "image",
+                "image": "3-11-0-0-gradients_de.gif",
+                "description": "Für Rechtecke, Kreise, Linien sowie für den Bildschirmhintergrund wurden Farbverläufe eingeführt."
+              }]
+            },
+			{
+				"name": "Gesamtübersicht",
+				"content": [
+					{
+						"type": "headline",
+						"text": "Bedingte Formatierung"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Drücken der Eingabetaste, während das Popup zur Auswahl der Datenquelle geöffnet ist, wählt jetzt die hervorgehobene Datenquelle aus, anstatt den gesamten Dialog zu schließen.",
+							"Operatoren wurden an den Datentyp der Spalte angepasst, und \"Contains\", \"StartsWith\" und \"EndsWith\" für String-Spalten hinzugefügt.",
+							"Ein Fehler behoben, bei dem das Erstellen einer bedingten Formatierung und Verbindung zu einer Zahlen-Spalte und anschließendem Wechsel zu einer booleschen Spalte nicht korrekt funktionierte."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Box-Kommunikation"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Bei der Herstellung einer sicheren Verbindung werden nun unnötige HTTP-Anfragen an Port 40404 blockiert.",
+							"Peakboard Boxen verwenden jetzt immer deren Proxy-Einstellungen.",
+							"Eine Eigenschaft zum Definieren alternativer Namen für Zertifikate wurde hinzugefügt.",
+							"Vollständige Blockierung des Ports 40404 ist jetzt möglich.",
+							"Ein Fehler behoben, der das Hinzufügen einer Peakboard Box verhinderte mit pbadmin und ohne andere Benutzer.",
+							"Ein Fehler beim Hochladen eines Pakets mit \"set on upload\"-Variablen wurde behoben.",
+							"Eine falsche Beschreibung für den API-Endpunkt /Device/CheckTime wurde behoben."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Dataflows"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Der Zeitfilter mit einer Zeitdatenquelle benötigt nun kein Eingabeformat mehr.",
+							"Das periodische Neuladen funktioniert jetzt korrekt.",
+							"Ein Fehler behoben, bei dem die Verwendung aller Spalten einer Datenquelle als Join-Spalte den Schritt nicht korrekt speicherte.",
+							"Ein Fehler behoben, bei dem das erneute Öffnen eines periodischen Dataflows zu überlappenden Intervallen zwischen den Quellen führte."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Datenquellen"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Header werden jetzt gespeichert, wenn in den Leerraum geklickt wird."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Designer"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Das Versionswarn-Popup öffnet sich jetzt vor dem Splashscreen und nicht dahinter.",
+							"Das Wechseln der Designer-Sprache aktualisiert jetzt die YouTube-Videos auf dem Startbildschirm.",
+							"Der Splashscreen zeigt jetzt Ladefortschritttexte anstelle von separaten Dialogen, wenn ein Benutzer eine pbmx-Datei direkt öffnet.",
+							"Der Stil des eingebetteten Editors für Datenbanken, SAP und Webansichten wurde aktualisiert.",
+							"Die Einfügeversätze wurden auf 20px angepasst, um im Rasterabstand zu bleiben; neue Controls werden jetzt mit einem oberen und linken Abstand von 40px und nicht mehr 50px hinzugefügt.",
+							"Die Deckkraft des Hintergrundbilds ist jetzt in Prozentsätzen (0-100) anpassbar, anstelle der vorherigen Skala (0,1 - 1).",
+							"Ein Fehler behoben, bei dem der Link zu den Video-Tutorials in Englisch auf eine veraltete URL verwies.",
+							"Ein Fehler behoben, bei dem ein Doppelklick auf eine umbenannte Datei den Titel nicht aktualisierte.",
+							"Eine Option zum Auswählen eines Farbverlaufs für den Hintergrund wurde hinzugefügt.",
+							"Überflüssige Eigenschaft vom Bildschirm entfernt.",
+							"Zusätzliche Optionen wurden im Abschnitt der zuletzt verwendeten Dateien hinzugefügt."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Diagramm"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, bei dem das Hinzufügen eines Diagramms mit einer Zeitreihe und doppelten Datumszeiten einen Fehler verursachte."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Dropdown"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Benutzer können jetzt zwischen einem Anzeigewert und dem Datenwert unterscheiden.",
+							"Die Datenbindung ist jetzt mit Zahlenvariablen/-spalten möglich, wenn die Datenquelle des Dropdowns eine Zahlenspalte ist.",
+							"Eine Änderung der Datenquelle eines Dropdowns führt nicht mehr dazu, dass die Datenbindung verloren geht."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Extensions"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Alle Fehler die von Extensions erzeugt werden, werden nun in der Runtime geloggt."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Excel-Diagramm"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Problem behoben, bei dem nicht jeder Text angezeigt wurde."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Styled tile collection / Styled List"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Die Performance wurde verbessert.",
+							"Ein Fehler beim Hinzufügen einer lokalen Ressource im Bildcontrol innerhalb einer styled Liste wurde behoben.",
+							"Ein Fehler, der beim zweimaligen Ändern der Orientierung auftrat, wurde behoben."
+						]
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Funktionen lassen sich nun duplizieren.",
+							"Das Umbennen von Funktionen ändert den Funktionsnamen nun an allen Stellen.",
+							"Ein Fehler behoben, bei dem das Bearbeiten eines Funktionsskripts und das Hinzufügen eines Parameters vor dem Speichern die Skriptänderungen gelöscht hat.",
+							"Ein Fehler behoben, bei dem das Kopieren und Einfügen einer Funktion bestehende Funktionsaufrufe überschrieben hat, sodass diese die eingefügte Funktion statt der Originalfunktion aufgerufen haben."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Gruppen"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, bei dem das Kopieren und Einfügen einer Gruppe mit bedingter Formatierung dazu führte, dass die eingefügte Gruppe die Formatierung verlor."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Hub-Liste"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Die Suche nach Hub-Listen durch Eingeben von Text ist jetzt möglich.",
+							"Ein Fehler behoben, bei dem das Neuladen von Hub-Listen im Dialog für Datenquellen zum Verlust von Filtern führte."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "JSON, CSV, XML, …"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Cookies können jetzt definiert werden, da zuvor Cookie-Header ignoriert wurden."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "JSON"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, bei dem Spalten mit '.' in ihren Namen nicht funktionierten."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Kalender"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Die Authentifizierung für Einzelmandanten (eigene Azure App) ist jetzt möglich."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Mail O365"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Neue Office 365 Mail Datenquelle erstellt."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Reload Flows"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Vollständige Neugestaltung."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Peakboard Box"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Das Log-Fenster wurde überarbeitet.",
+							"Benutzer können jetzt mit der Tabulatortaste zwischen verschiedenen Textfeldern springen.",
+							"Das Log-Fenster ist jetzt innerhalb der Vorschau verschiebbar.",
+							"Das Log-Fenster im Box-Management-Dialog wurde überarbeitet.",
+							"Ein Fehler behoben, bei dem der pbadmin nicht mehr genutzt werden konnte.",
+							"Ein Fehler beim Hochladen von PBMX über die Cloud-Verbindung wurde behoben.",
+							"Ein Problem behoben, bei dem das Timerskript nicht mehr funktionierte.",
+							"Ein Problem behoben, bei dem ein initialer PeakboardAdmin ohne Passwort das Hinzufügen eines neuen Benutzers über pbadmin verhinderte.",
+							"Ein Fehler, die vom Hochladen-Button im Box-Management-Dialog ausgelöst wurde, wurde behoben.",
+							"ManagementService und WebServer auf .NET 8 aktualisiert.",
+							"Updates für Peakboard Boxen kleiner als PB7000 werden nicht mehr erlaubt."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Peakboard Hub"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, der bei der Synchronisierung mit Peakboard Hub auftrat, wenn keine Boxes vorhanden waren."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Power BI"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, bei dem die Filter im Building Block nicht aktualiseirt werden konnten."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Rechteck"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ellipse und Linie erlauben jetzt die einen Farbverlauf."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Ressourcen"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Es ist nun möglich mehrere Ressourcen auf einmal hinzuzufügen.",
+							"Lokale Ressourcen können jetzt im Scripting nach Namen anstelle von Pfad gesetzt werden."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Rockwell"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Problem behoben, bei dem UDT nicht funktionierte, wenn es als globale UDT außerhalb eines Programms verwendet wurde."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Scripting"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler wurde behoben, bei dem das Snippet \"addmonth()\" einen Fehler auslöste, wenn das aktuelle Datum ein Tag im November war.",
+							"Eine separate Kategorie für peakboard.log() Logs wurde hinzugefügt.",
+							"Logging überarbeitet."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "SharePoint-Liste"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Vollständige Neuimplementierung."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Snippets / Building Blocks"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, bei dem stored procedurces Aufrufe verloren gingen.",
+							"Controls innerhalb der Styled Lists und Styled Tile Collections werden jetzt in Building Blocks angezeigt."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Tabelle"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Spalten sind jetzt an den Spaltennamen der Datenquelle und nicht an den technischen Namen gebunden."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Text"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Textcontrol kann nun scrollbar sein."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Textbox"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, bei dem das Texteingabeevent nicht ausgelöst wurde, wenn die Textbox an eine Variable gebunden war."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "ToDo"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Neue Datenquelle ToDo Liste wurde erstellt."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Variablen"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Die Höhe des Dialogs wurde erhöht.",
+							"Die Möglichkeit, Variablen mit dem Peakboard Hub zu verbinden wurden verbessert.",
+							"Ein Fehler behoben, bei dem Listen, die zum Speichern auf der Box eingestellt waren, nicht mehr funktionierten."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Verbindungsmananger"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Gemeinsame Verbindungen werden jetzt nach Typ und Name gruppiert, nachdem sie erstellt wurden."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "WebAccess"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Fehler behoben, bei dem Ausführen einer Funktion mit Zahlenparameter."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "XML"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ein Problem behoben, bei dem Werte beim zweiten Nachladen der Daten verloren gingen."
+						]
+					}
+				]
+			}
+		]
+	}
+]

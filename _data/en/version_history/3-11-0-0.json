@@ -1,0 +1,443 @@
+[
+	{
+		"version": "3.11.0.0",
+		"date": "04.02.2025",
+		"download_url": "https://peakboard.rocks/download-version-history",
+		"box_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardRuntime.pbux",
+		"designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardSetup.exe",
+		"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardRuntimeSetupUI.exe",
+		"tabs": [
+			{
+              "name": "Flows",
+              "content": [{
+                "type": "image",
+                "image": "3-11-0-0-flows_en.gif",
+                "description": "The reload flows have been completely revised and now offer the option of executing scripts in addition to reloading data sources."
+              }]
+            },
+			{
+              "name": "Office 365",
+              "content": [{
+                "type": "image",
+                "image": "3-11-0-0-office365_en.gif",
+                "description": "The Microsoft data sources have been expanded to include new data sources such as Mail, Teams and To-Do lists, and the existing Office data sources Calendar and SharePoint lists have been revised."
+              }]
+            },
+			{
+              "name": "Gradients",
+              "content": [{
+                "type": "image",
+                "image": "3-11-0-0-gradients_en.gif",
+                "description": "Colour gradients have been introduced for rectangles, circles, lines and the screen background."
+              }]
+            },
+			{
+				"name": "General overview",
+				"content": [
+					{
+						"type": "headline",
+						"text": "Box communication"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Added a property for defining alternative names for certificates.",
+							"Fixed a bug preventing the addition of a Peakboard Box, with pbadmin and no other user.",
+							"Fixed wrong description for API endpoint /Device/CheckTime.",
+							"Fixed an error when uploading a package with \"set on upload\" variables.",
+							"Full blocking of port 40404 is now possible.",
+							"Peakboard Boxes now uses everytime a unified HttpClient, with the proxy settings.",
+							"Upon establishing a secure connection, unnecessary HTTP calls to port 40404 are now blocked."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Calendar"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Single tenant authentication is now allowed."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Chart"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where adding a chart with a time series and duplicate datetimes caused an error."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Conditional Formatting"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where creating a conditional formatting and connecting to a number column, then switching to a boolean column.",
+							"Operators have been matched to the data type of the column and \"Contains,\" \"StartWith,\" and \"EndWith\" added for string columns.",
+							"Pressing the enter key while the data source selection popup is open will now select the highlighted data source instead of closing the entire dialog."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Connection manager"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Shared connections are now grouped by type and name after creation."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Data sources"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Data grid for Headers now saves them when clicking into whitespace."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Dataflow"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where join columns where not saved correctly.",
+							"Fixed an issue where reopening a periodic dataflow resulted in overlapping intervals between sources.",
+							"The time filter with a time data source no longer requires an input format."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Designer"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Added an option to choose a gradient for a screen background.",
+							"Additional options have been added to the recent files section.",
+							"Adjusted paste offsets to 20px to fit to the grid; new controls are now added with at 40px top and left.",
+							"Background image opacity is now adjustable in percentages (0-100) rather than the previous scale (0.1 - 1).",
+							"Fixed a bug where double-clicking a renamed file did not update the project title.",
+							"Fixed a bug where the video tutorials link in English directed to an outdated URL.",
+							"Removed unnecessary property from the screen.",
+							"Switching the designer language now updates the YouTube videos on the home screen.",
+							"The splash screen now displays loading step texts instead of separate dialogs when a user opens a pbmx file directly.",
+							"The version warning popup now opens in front of the splash screen instead of behind it.",
+							"Updated the style of the embedded editor for databases, SAP, and webviews."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Dropdown"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Changing the data source of a dropdown no longer causes the data/value databinding to be lost.",
+							"Data/value data binding is now possible with number variables/columns when the data source of the dropdown is a number column.",
+							"Users can now differentiate between the display value and data value."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Excel Chart"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed an issue where not every text was displayed."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Extensions"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"All errors in extensions are now shown in the runtime log."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Global functions"
+					},
+					{
+						"type": "List",
+						"list_items": 
+							"Functions can now be duplicated.",
+							"Renaming a global function will now rename it on every place.",
+							"Fixed a bug where copy-pasting a function would overwrite existing function calls, resulting in them calling the pasted function instead of the original.",
+							"Fixed a bug where editing a function script and adding a parameter before saving would delete the script changes."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Group"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where copy-pasting a group with conditional formatting would result in the pasted group losing the conditional formatting."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Hub list"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where reloading hub lists in the datasource dialog would result in the loss of filters.",
+							"Searching for hub lists by entering text is now possible."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "JSON, CSV, XML"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Cookies headers can now be defined."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "JSON"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where columns with '.' in their names did not work."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Mail O365"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Initial implementation."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Peakboard Box"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Prevent updates to Peakboard Boxes smaller than PB7000.",
+							"Reworked the logging section in the box management dialog.",
+							"Upgraded ManagementService and WebServer to .NET 8.",
+							"Fixed a bug happend by the upload button in the box management dialog.",
+							"Fixed a bug where pbadmin would become unusable if the users.json file is empty.",
+							"Fixed an error occurring when uploading PBMX via cloud connection.",
+							"Fixed an issue where an initial PeakboardAdmin without a password would prevent adding a new user from pbadmin.",
+							"Fixed an issue where the timerscript stopped working."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Peakboard Hub"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed an error that occurred when synchronizing with Peakboard Hub when no Boxes were there."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Power BI"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where the update filters in the Building Block could not be used."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Rectangle"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Ellipse and Line now allow the definition of a gradient."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Reload flows"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Full rework."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Resources"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Local resources can now be set by name instead of by path in scripting.",
+							"Users can now add multiple resources at once."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Rockwell"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed an issue where UDT would not work when used as a global UDT outside of a program."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Runtime"
+					},
+					{
+						"type": "List",
+						"list_items": [
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Scripting"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Added a separate category for peakboard.log() logs.",
+							"Fixed a bug where the \"addmonth()\" snippet threw an error when the current date was a day in November.",
+							"Reworked runtime logging.",
+							"The log window is now movable within the preview.",
+							"Users can now jump between different textboxes using the Tab key in the runtime environment."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "SharePoint list"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Full rework."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Snippets / Building Blocks"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Controls inside the styled tile collection or styled lists can now be accessed in Building Blocks.",
+							"Fixed a bug where stored procedure lost content."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Table"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Columns are now bound to the name of the data source instead of the technical name."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Text"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"The text control can not be set to scrollable."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Textbox"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where the text changed event does not trigger when bound to a variable."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Tile / TileView / ListView"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Improved the performance.",
+							"Fixed error associated with adding a local resource in the image control within a styled list.",
+							"Fixed error occurring when changing the orientation twice."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "ToDo"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Initial implementation."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Variable"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where lists set to be stored on the box do not work anymore.",
+							"Increased the window height.",
+							"The ability to connect variables to the Peakboard Hub has been improved.",
+						]
+					},
+					{
+						"type": "headline",
+						"text": "WebAccess"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where running a function with a number parameter did not work."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "XML"
+					},
+					{
+						"type": "List",
+						"list_items": [
+							"Fixed a bug where values were lost on the second reload of data."
+						]
+					}
+				]
+			}
+		]
+	}
+]
