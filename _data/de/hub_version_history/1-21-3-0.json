@@ -1,7 +1,7 @@
 [{
-  "version": "1.21.2.0",
-  "date": "06.12.2024",
-  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.21.2.0/PeakboardHubSetup.exe",
+  "version": "1.21.3.0",
+  "date": "04.02.2025",
+  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.21.3.0/PeakboardHubSetup.exe",
   "tabs": [
 	{
       "name": "API Release",
@@ -48,10 +48,12 @@
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Die Fehlermeldung für die Nutzung des pbadmin Nutzers im Peakboard Hub online wurde verbessert",
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Probleme beim hochladen von Peakboard Anwendungen wurden behoben",
 			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Probleme beim Ändern des Zeitservers einer Box wurden behoben",
+			"[Boxen](/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html) - Fehlermeldung beim Updates für zu alte Boxen zugefügt",
 			
 			"[Listen](/hub/Listen/de-hub_new-list.html) - Es können mehrere Filter auf einmal definiert werden",
 			"[Listen](/hub/Listen/de-hub_new-list.html) - Die Breite der ID Spalte kann selbst festgelegt werden",
 			"[Listen](/hub/Listen/de-hub_new-list.html) - Spaltenrestriktionen und Spaltenvalidierung hinzugefügt",
+			"[Listen](/hub/Listen/de-hub_new-list.html) - Spaltensortierung beim Doppelklicken der Spaltenüberschrift hinzugefügt",
             "[Listen](/hub/Listen/de-hub_new-list.html) - Problem beim Ändern des initialen Spaltenwertes behoben",
             "[Listen](/hub/Listen/de-hub_new-list.html) - Probleme beim Importieren von Listen behoben",
             "[Listen](/hub/Listen/de-hub_new-list.html) - Problem mit einem column-name Fehler beim Zufügen von Listen im Peakboard Designer behoben",
