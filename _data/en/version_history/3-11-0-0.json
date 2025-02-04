@@ -8,6 +8,14 @@
 		"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardRuntimeSetupUI.exe",
 		"tabs": [
 			{
+              "name": "Peakboard Boxes EoL",
+              "content": [{
+                "type": "image",
+                "image": "XXX.XXX",
+                "description": "It is no longer possible to update Peakboard Boxes up to ID PB6999."
+              }]
+            },
+			{
               "name": "Flows",
               "content": [{
                 "type": "image",
@@ -39,7 +47,7 @@
 						"text": "Box communication"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Added a property for defining alternative names for certificates.",
 							"Fixed a bug preventing the addition of a Peakboard Box, with pbadmin and no other user.",
@@ -55,7 +63,7 @@
 						"text": "Calendar"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Single tenant authentication is now allowed."
 						]
@@ -65,7 +73,7 @@
 						"text": "Chart"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where adding a chart with a time series and duplicate datetimes caused an error."
 						]
@@ -75,7 +83,7 @@
 						"text": "Conditional Formatting"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where creating a conditional formatting and connecting to a number column, then switching to a boolean column.",
 							"Operators have been matched to the data type of the column and \"Contains,\" \"StartWith,\" and \"EndWith\" added for string columns.",
@@ -87,7 +95,7 @@
 						"text": "Connection manager"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Shared connections are now grouped by type and name after creation."
 						]
@@ -97,7 +105,7 @@
 						"text": "Data sources"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Data grid for Headers now saves them when clicking into whitespace."
 						]
@@ -107,7 +115,7 @@
 						"text": "Dataflow"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where join columns where not saved correctly.",
 							"Fixed an issue where reopening a periodic dataflow resulted in overlapping intervals between sources.",
@@ -119,7 +127,7 @@
 						"text": "Designer"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Added an option to choose a gradient for a screen background.",
 							"Additional options have been added to the recent files section.",
@@ -139,7 +147,7 @@
 						"text": "Dropdown"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Changing the data source of a dropdown no longer causes the data/value databinding to be lost.",
 							"Data/value data binding is now possible with number variables/columns when the data source of the dropdown is a number column.",
@@ -151,7 +159,7 @@
 						"text": "Excel Chart"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed an issue where not every text was displayed."
 						]
@@ -161,7 +169,7 @@
 						"text": "Extensions"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"All errors in extensions are now shown in the runtime log."
 						]
@@ -171,7 +179,7 @@
 						"text": "Global functions"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": 
 						[
 							"Functions can now be duplicated.",
@@ -185,7 +193,7 @@
 						"text": "Group"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where copy-pasting a group with conditional formatting would result in the pasted group losing the conditional formatting."
 						]
@@ -195,7 +203,7 @@
 						"text": "Hub list"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where reloading hub lists in the datasource dialog would result in the loss of filters.",
 							"Searching for hub lists by entering text is now possible."
@@ -206,7 +214,7 @@
 						"text": "JSON, CSV, XML"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Cookies headers can now be defined."
 						]
@@ -216,7 +224,7 @@
 						"text": "JSON"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where columns with '.' in their names did not work."
 						]
@@ -226,7 +234,7 @@
 						"text": "Mail O365"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Initial implementation."
 						]
@@ -236,7 +244,7 @@
 						"text": "Peakboard Box"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Prevent updates to Peakboard Boxes smaller than PB7000.",
 							"Reworked the logging section in the box management dialog.",
@@ -253,7 +261,7 @@
 						"text": "Peakboard Hub"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed an error that occurred when synchronizing with Peakboard Hub when no Boxes were there."
 						]
@@ -263,7 +271,7 @@
 						"text": "Power BI"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where the update filters in the Building Block could not be used."
 						]
@@ -273,7 +281,7 @@
 						"text": "Rectangle"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ellipse and Line now allow the definition of a gradient."
 						]
@@ -283,7 +291,7 @@
 						"text": "Reload flows"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Full rework."
 						]
@@ -293,7 +301,7 @@
 						"text": "Resources"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Local resources can now be set by name instead of by path in scripting.",
 							"Users can now add multiple resources at once."
@@ -304,7 +312,7 @@
 						"text": "Rockwell"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed an issue where UDT would not work when used as a global UDT outside of a program."
 						]
@@ -314,7 +322,7 @@
 						"text": "Runtime"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 						]
 					},
@@ -323,7 +331,7 @@
 						"text": "Scripting"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Added a separate category for peakboard.log() logs.",
 							"Fixed a bug where the \"addmonth()\" snippet threw an error when the current date was a day in November.",
@@ -337,7 +345,7 @@
 						"text": "SharePoint list"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Full rework."
 						]
@@ -347,7 +355,7 @@
 						"text": "Snippets / Building Blocks"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Controls inside the styled tile collection or styled lists can now be accessed in Building Blocks.",
 							"Fixed a bug where stored procedure lost content."
@@ -358,7 +366,7 @@
 						"text": "Table"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Columns are now bound to the name of the data source instead of the technical name."
 						]
@@ -368,7 +376,7 @@
 						"text": "Text"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"The text control can not be set to scrollable."
 						]
@@ -378,7 +386,7 @@
 						"text": "Textbox"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where the text changed event does not trigger when bound to a variable."
 						]
@@ -388,7 +396,7 @@
 						"text": "Tile / TileView / ListView"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Improved the performance.",
 							"Fixed error associated with adding a local resource in the image control within a styled list.",
@@ -400,7 +408,7 @@
 						"text": "ToDo"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Initial implementation."
 						]
@@ -410,7 +418,7 @@
 						"text": "Variable"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where lists set to be stored on the box do not work anymore.",
 							"Increased the window height.",
@@ -422,7 +430,7 @@
 						"text": "WebAccess"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where running a function with a number parameter did not work."
 						]
@@ -432,7 +440,7 @@
 						"text": "XML"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Fixed a bug where values were lost on the second reload of data."
 						]

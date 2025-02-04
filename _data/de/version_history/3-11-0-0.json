@@ -8,6 +8,14 @@
 		"byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.11.0.0/PeakboardRuntimeSetupUI.exe",
 		"tabs": [
 			{
+              "name": "Peakboard Boxes EoL",
+              "content": [{
+                "type": "image",
+                "image": "XXX.XXX",
+                "description": "Es ist nicht mehr möglich Peakboard Boxen bis zur ID PB6999 upzudaten"
+              }]
+            },
+			{
               "name": "Flows",
               "content": [{
                 "type": "image",
@@ -39,7 +47,7 @@
 						"text": "Bedingte Formatierung"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Drücken der Eingabetaste, während das Popup zur Auswahl der Datenquelle geöffnet ist, wählt jetzt die hervorgehobene Datenquelle aus, anstatt den gesamten Dialog zu schließen.",
 							"Operatoren wurden an den Datentyp der Spalte angepasst, und \"Contains\", \"StartsWith\" und \"EndsWith\" für String-Spalten hinzugefügt.",
@@ -51,7 +59,7 @@
 						"text": "Box-Kommunikation"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Bei der Herstellung einer sicheren Verbindung werden nun unnötige HTTP-Anfragen an Port 40404 blockiert.",
 							"Peakboard Boxen verwenden jetzt immer deren Proxy-Einstellungen.",
@@ -67,7 +75,7 @@
 						"text": "Dataflows"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Der Zeitfilter mit einer Zeitdatenquelle benötigt nun kein Eingabeformat mehr.",
 							"Das periodische Neuladen funktioniert jetzt korrekt.",
@@ -80,7 +88,7 @@
 						"text": "Datenquellen"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Header werden jetzt gespeichert, wenn in den Leerraum geklickt wird."
 						]
@@ -90,7 +98,7 @@
 						"text": "Designer"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Das Versionswarn-Popup öffnet sich jetzt vor dem Splashscreen und nicht dahinter.",
 							"Das Wechseln der Designer-Sprache aktualisiert jetzt die YouTube-Videos auf dem Startbildschirm.",
@@ -110,7 +118,7 @@
 						"text": "Diagramm"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, bei dem das Hinzufügen eines Diagramms mit einer Zeitreihe und doppelten Datumszeiten einen Fehler verursachte."
 						]
@@ -120,7 +128,7 @@
 						"text": "Dropdown"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Benutzer können jetzt zwischen einem Anzeigewert und dem Datenwert unterscheiden.",
 							"Die Datenbindung ist jetzt mit Zahlenvariablen/-spalten möglich, wenn die Datenquelle des Dropdowns eine Zahlenspalte ist.",
@@ -132,7 +140,7 @@
 						"text": "Extensions"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Alle Fehler die von Extensions erzeugt werden, werden nun in der Runtime geloggt."
 						]
@@ -142,7 +150,7 @@
 						"text": "Excel-Diagramm"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Problem behoben, bei dem nicht jeder Text angezeigt wurde."
 						]
@@ -152,7 +160,7 @@
 						"text": "Styled tile collection / Styled List"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Die Performance wurde verbessert.",
 							"Ein Fehler beim Hinzufügen einer lokalen Ressource im Bildcontrol innerhalb einer styled Liste wurde behoben.",
@@ -160,7 +168,7 @@
 						]
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Funktionen lassen sich nun duplizieren.",
 							"Das Umbennen von Funktionen ändert den Funktionsnamen nun an allen Stellen.",
@@ -173,7 +181,7 @@
 						"text": "Gruppen"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, bei dem das Kopieren und Einfügen einer Gruppe mit bedingter Formatierung dazu führte, dass die eingefügte Gruppe die Formatierung verlor."
 						]
@@ -183,7 +191,7 @@
 						"text": "Hub-Liste"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Die Suche nach Hub-Listen durch Eingeben von Text ist jetzt möglich.",
 							"Ein Fehler behoben, bei dem das Neuladen von Hub-Listen im Dialog für Datenquellen zum Verlust von Filtern führte."
@@ -194,7 +202,7 @@
 						"text": "JSON, CSV, XML, …"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Cookies können jetzt definiert werden, da zuvor Cookie-Header ignoriert wurden."
 						]
@@ -204,7 +212,7 @@
 						"text": "JSON"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, bei dem Spalten mit '.' in ihren Namen nicht funktionierten."
 						]
@@ -214,7 +222,7 @@
 						"text": "Kalender"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Die Authentifizierung für Einzelmandanten (eigene Azure App) ist jetzt möglich."
 						]
@@ -224,7 +232,7 @@
 						"text": "Mail O365"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Neue Office 365 Mail Datenquelle erstellt."
 						]
@@ -234,7 +242,7 @@
 						"text": "Reload Flows"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Vollständige Neugestaltung."
 						]
@@ -244,7 +252,7 @@
 						"text": "Peakboard Box"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Das Log-Fenster wurde überarbeitet.",
 							"Benutzer können jetzt mit der Tabulatortaste zwischen verschiedenen Textfeldern springen.",
@@ -264,7 +272,7 @@
 						"text": "Peakboard Hub"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, der bei der Synchronisierung mit Peakboard Hub auftrat, wenn keine Boxes vorhanden waren."
 						]
@@ -274,7 +282,7 @@
 						"text": "Power BI"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, bei dem die Filter im Building Block nicht aktualiseirt werden konnten."
 						]
@@ -284,7 +292,7 @@
 						"text": "Rechteck"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ellipse und Linie erlauben jetzt die einen Farbverlauf."
 						]
@@ -294,7 +302,7 @@
 						"text": "Ressourcen"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Es ist nun möglich mehrere Ressourcen auf einmal hinzuzufügen.",
 							"Lokale Ressourcen können jetzt im Scripting nach Namen anstelle von Pfad gesetzt werden."
@@ -305,7 +313,7 @@
 						"text": "Rockwell"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Problem behoben, bei dem UDT nicht funktionierte, wenn es als globale UDT außerhalb eines Programms verwendet wurde."
 						]
@@ -315,7 +323,7 @@
 						"text": "Scripting"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler wurde behoben, bei dem das Snippet \"addmonth()\" einen Fehler auslöste, wenn das aktuelle Datum ein Tag im November war.",
 							"Eine separate Kategorie für peakboard.log() Logs wurde hinzugefügt.",
@@ -327,7 +335,7 @@
 						"text": "SharePoint-Liste"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Vollständige Neuimplementierung."
 						]
@@ -337,7 +345,7 @@
 						"text": "Snippets / Building Blocks"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, bei dem stored procedurces Aufrufe verloren gingen.",
 							"Controls innerhalb der Styled Lists und Styled Tile Collections werden jetzt in Building Blocks angezeigt."
@@ -348,7 +356,7 @@
 						"text": "Tabelle"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Spalten sind jetzt an den Spaltennamen der Datenquelle und nicht an den technischen Namen gebunden."
 						]
@@ -358,7 +366,7 @@
 						"text": "Text"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Textcontrol kann nun scrollbar sein."
 						]
@@ -368,7 +376,7 @@
 						"text": "Textbox"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, bei dem das Texteingabeevent nicht ausgelöst wurde, wenn die Textbox an eine Variable gebunden war."
 						]
@@ -378,7 +386,7 @@
 						"text": "ToDo"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Neue Datenquelle ToDo Liste wurde erstellt."
 						]
@@ -388,7 +396,7 @@
 						"text": "Variablen"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Die Höhe des Dialogs wurde erhöht.",
 							"Die Möglichkeit, Variablen mit dem Peakboard Hub zu verbinden wurden verbessert.",
@@ -400,7 +408,7 @@
 						"text": "Verbindungsmananger"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Gemeinsame Verbindungen werden jetzt nach Typ und Name gruppiert, nachdem sie erstellt wurden."
 						]
@@ -410,7 +418,7 @@
 						"text": "WebAccess"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Fehler behoben, bei dem Ausführen einer Funktion mit Zahlenparameter."
 						]
@@ -420,7 +428,7 @@
 						"text": "XML"
 					},
 					{
-						"type": "List",
+						"type": "list",
 						"list_items": [
 							"Ein Problem behoben, bei dem Werte beim zweiten Nachladen der Daten verloren gingen."
 						]
