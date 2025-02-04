@@ -173,6 +173,7 @@
 					{
 						"type": "List",
 						"list_items": 
+						[
 							"Functions can now be duplicated.",
 							"Renaming a global function will now rename it on every place.",
 							"Fixed a bug where copy-pasting a function would overwrite existing function calls, resulting in them calling the pasted function instead of the original.",
@@ -413,7 +414,7 @@
 						"list_items": [
 							"Fixed a bug where lists set to be stored on the box do not work anymore.",
 							"Increased the window height.",
-							"The ability to connect variables to the Peakboard Hub has been improved.",
+							"The ability to connect variables to the Peakboard Hub has been improved."
 						]
 					},
 					{
