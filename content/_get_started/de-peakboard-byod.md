@@ -35,7 +35,6 @@ Wenn du dir unsicher bist [kontaktiere den Peakboard Support](mailto:support@pea
 x86- und ARM-Prozessoren werden **nicht** unterstützt!
 </div>
 
-Auf dem Betriebssystem muss [das ASP.NET Core 3.1 Runtime (v3.1.32) - Windows Hosting Bundle]( https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-3.1.32-windows-hosting-bundle-installer) installiert sein.
 
 ## Peakboard BYOD Setup
 
