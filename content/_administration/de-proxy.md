@@ -41,14 +41,20 @@ Stelle sicher, dass du vorab deinen Proxy über den Peakboard Designer auf deine
 ```cmd
 control /name Microsoft.CredentialManager 
 ```
+
 ![Aufruf MS Credential Manager](/assets/images/admin/proxy/en_proxy-03.png)
+
 7.	Wähle Windows Credentials aus. (1)
 8.	Klicke auf Add a generic credential. (2)
+
 ![Auswahl Windows Credential](/assets/images/admin/proxy/en_proxy-04.png)
+
 9.	Gebe bei Internet or network address den Hostnamen oder die IP-Adresse eures Web-Proxys ein (Ohne Port).
 10.	Gebte den Benutzernamen und das Passwort ein.
 11.	Klickt auf OK.
+
 ![Eingabe Anmeldedaten](/assets/images/admin/proxy/en_proxy-04.png)
+
 12.	Starte deine Peakboard Box neu.
 
 
