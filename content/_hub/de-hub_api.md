@@ -14,7 +14,7 @@ Die **Peakboard Hub API** ermöglicht die Integration von Peakboard-Anwendungen 
 
 ### Einrichtung der Peakboard Hub API – Nur On-Premises
 
-Für die Installation der Peakboard Hub API wird das Peakboard Hub Setup benötigt, das Sie [hier herunterladen können](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
+Für die Installation der Peakboard Hub API wird das Peakboard Hub Setup benötigt, das Sie [hier herunterladen können](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
 
 #### Voraussetzungen
 

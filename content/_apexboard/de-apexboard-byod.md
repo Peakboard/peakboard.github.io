@@ -15,7 +15,7 @@ Diese Anleitung beschreibt die lokale Installation auf einem handelsüblichen Wi
 
 ### Peakboard Designer installieren
 
-Für spätere Administrative Tätigkeiten benötigst du den Peakboard-Designer. Die [Installation für Windows kannst du hier herunterladen](https://peakboard.com/download/Peakboard/master/PeakboardSetup.exe).
+Für spätere Administrative Tätigkeiten benötigst du den Peakboard-Designer. Die [Installation für Windows kannst du hier herunterladen](https://downloads.peakboard.com/download/Peakboard/master/PeakboardSetup.exe).
 
 Die Installation [führt dich durch den Prozess](/get_started/de-peakboard-designer.html).
 

@@ -13,7 +13,7 @@ Sometimes our service team needs access to your PC in order to provide you with 
 
 ### Download client
 
-[Download the client for remote maintenance here](https://peakboard.com/download/RemoteSupport.zip)
+[Download the client for remote maintenance here](https://downloads.peakboard.com/download/RemoteSupport.zip)
 Unzip the ZIP file and execute the contained exe file to start the client.
 This comes preconfigured and runs via its own server.
 

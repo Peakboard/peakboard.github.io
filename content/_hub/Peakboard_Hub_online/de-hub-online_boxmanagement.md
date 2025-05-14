@@ -22,7 +22,7 @@ Nötige Netzwerkeinstellungen um die Verbindungen von Peakboard Boxen zum Hub on
 | URL                                       | Port    | Beschreibung
 | https://hub.peakboard.com                 | 443     | Initiale Anfrage von Boxen am Hub |
 | peakboardhubonline.servicebus.windows.net | 5671    | Kommunikationskanal für Peakboard Hub online per AMQP Verbindung (Azure Service Bus) |
-| https://peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux  | 443 |  Herunterladen von Update Dateien |
+| https://downloads.peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux  | 443 |  Herunterladen von Update Dateien |
 | http://www.msftconnecttest.com/connecttest.txt | 80 | Überprüfen der Internetverbindung einer Box |
 
 <div class="box-warning" markdown="1">**Wichtig**.

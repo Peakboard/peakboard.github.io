@@ -3,9 +3,9 @@
     "version": "3.12.0.0",
     "date": "07.04.2025",
     "download_url": "https://peakboard.rocks/download-version-history",
-    "box_download_url": "https://peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardRuntime.pbux",
-    "designer_download_url": "https://peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardSetup.exe",
-    "byod_download_url": "https://peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardRuntimeSetupUI.exe",
     "tabs": [
       {
         "name": "Gesamtübersicht",

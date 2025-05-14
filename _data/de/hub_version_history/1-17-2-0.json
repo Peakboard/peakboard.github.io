@@ -1,7 +1,7 @@
 [{
   "version": "1.17.2.0",
   "date": "15.08.2023",
-  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.17.2.0/PeakboardHubSetup.exe",
+  "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/1.17.2.0/PeakboardHubSetup.exe",
   "tabs": [
     {
       "name": "Gesamtübersicht",

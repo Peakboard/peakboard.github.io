@@ -2,8 +2,8 @@
   "version": "2.14.2.1",
   "date": "17.02.2022",
   "download_url": "https://peakboard.rocks/download-version-history",
-  "box_download_url": "https://peakboard.com/download/Peakboard/archive/2.14.2.1/PeakboardRuntime.pbux",
-  "designer_download_url": "https://peakboard.com/download/Peakboard/archive/2.14.2.1/PeakboardSetup.exe",
+  "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/2.14.2.1/PeakboardRuntime.pbux",
+  "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/2.14.2.1/PeakboardSetup.exe",
   "tabs": [
     {
       "name": "Gesamtübersicht",

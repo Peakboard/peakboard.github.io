@@ -22,7 +22,7 @@ To ensure the correct functionality some network settings for the boxes are nece
 | URL                                       | Port    | Description
 | https://hub.peakboard.com                 | 443     | Initialer request von Peakboard Boxen zum Hub |
 | peakboardhubonline.servicebus.windows.net | 5671    | Communication channel for Peakboard Hub online via AMQP connection (Azure Service Bus) |
-| https://peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux  | 443 |  Download update files |
+| https://downloads.peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux  | 443 |  Download update files |
 | http://www.msftconnecttest.com/connecttest.txt | 80 | Check the internet connection state from a box |
 
 <div class="box-warning" markdown="1">**Note**.

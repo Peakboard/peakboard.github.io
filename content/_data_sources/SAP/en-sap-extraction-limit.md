@@ -38,7 +38,7 @@ Define the exceptions as shown in the following screenshot.
 
 ### Step 5 - Code
 
-You can find the ABAP code in the file Z_XTRACT_IS_TABLE.txt which can be downloaded [here](https://peakboard.com/download/dokumente/Z_XTRACT_IS_TABLE.txt). You can copy the code into the source code editor simply by pressing Ctrl+C and Ctrl+V.
+You can find the ABAP code in the file Z_XTRACT_IS_TABLE.txt which can be downloaded [here](https://downloads.peakboard.com/download/dokumente/Z_XTRACT_IS_TABLE.txt). You can copy the code into the source code editor simply by pressing Ctrl+C and Ctrl+V.
 
 Save and activate the module.
 

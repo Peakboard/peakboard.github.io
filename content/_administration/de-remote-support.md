@@ -13,7 +13,7 @@ Manchmal benötigt unser Service-Team Zugriff auf deinen PC, um dich bestmöglic
 
 ### Client herunterladen
 
-[Lade dir hier den Client zur Fernwartung herunter.](https://peakboard.com/download/RemoteSupport.zip)
+[Lade dir hier den Client zur Fernwartung herunter.](https://downloads.peakboard.com/download/RemoteSupport.zip)
 Entpacke die ZIP-Datei und führe die enthaltene exe-Datei aus, um den Client zu starten.
 Dieser kommt vorkonfiguriert und läuft über einen eigenen Server.
 

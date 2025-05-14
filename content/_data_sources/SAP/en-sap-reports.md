@@ -19,7 +19,7 @@ If you cannot do this yourself, ask a colleague from your SAP Basis department t
 
 ![Function Builder Tables](/assets/images/data-sources/sap/report-custom-function-03.png)
 
-Copy the source code by Ctrl+C and Ctrl+V from this [text file](https://peakboard.com/download/dokumente/Z_XTRACT_IS_REMOTE_REPORT.txt) into the code editor (Source Code tab). Save the module and activate it. Now it is ready for use.
+Copy the source code by Ctrl+C and Ctrl+V from this [text file](https://downloads.peakboard.com/download/dokumente/Z_XTRACT_IS_REMOTE_REPORT.txt) into the code editor (Source Code tab). Save the module and activate it. Now it is ready for use.
 The individual steps (program execution, spool retrieval, job monitoring, and so on) are documented in the code accordingly. This way, if you are interested, you can easily find out how the ABAP code works.
 
 ## SAP Standard Data Type TAB512
