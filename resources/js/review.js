@@ -4,14 +4,14 @@ var reviewTextInput = document.getElementById("review-text-input");
 var reviewText = document.getElementById("review-text");
 var reviewTextTwo = document.getElementById("review-text-two");
 var reviewButton = document.getElementById("review-button");
-var urlCode = "AifjDQbjRfTcjDrGPpBSqVj7g_5a8HpOivJY6pFrNxpnAzFuVd00xA==";
+var urlCode = "D56ddUZRQtLMWKmQW_PR5YHfB_UaAadR4e8fSzDu_vyMAzFucalfPw==";
 
 var reviewId;
 
 if(reviewThumbsUp != null) {
     reviewThumbsUp.addEventListener("click", function() {
         // send API call
-        call('https://peakboarddwhfunctions.azurewebsites.net/api/SubmitUserFeedback?code=' + urlCode + '&Article=' + window.location.href + '&Thumbs=Up',
+        call('https://peakboardglobalfunctions.azurewebsites.net/api/SubmitUserFeedback?code=' + urlCode + '&Article=' + window.location.href + '&Thumbs=Up',
             function() {
                 reviewThumbsUp.classList.toggle("hidden");
                 reviewThumbsDown.classList.toggle("hidden");
@@ -25,7 +25,7 @@ if(reviewThumbsDown != null) {
     reviewThumbsDown.addEventListener("click", function() {
         // send API call
 
-        call('https://peakboarddwhfunctions.azurewebsites.net/api/SubmitUserFeedback?code=' + urlCode + '&Article=' + window.location.href + '&Thumbs=Down');
+        call('https://peakboardglobalfunctions.azurewebsites.net/api/SubmitUserFeedback?code=' + urlCode + '&Article=' + window.location.href + '&Thumbs=Down');
 
         // change to input box for more information
         reviewText.classList.toggle("hidden");
@@ -35,7 +35,7 @@ if(reviewThumbsDown != null) {
         reviewThumbsDown.classList.toggle("hidden");
 
         document.getElementById("review-button").addEventListener("click", function() {
-            call('https://peakboarddwhfunctions.azurewebsites.net/api/SubmitUserFeedback?code=' + urlCode + '&ID=' + reviewId + '&Feedback=' + reviewTextInput.value,
+            call('https://peakboardglobalfunctions.azurewebsites.net/api/SubmitUserFeedback?code=' + urlCode + '&ID=' + reviewId + '&Feedback=' + reviewTextInput.value,
                 function() {
                     reviewTextTwo.classList.toggle("hidden");
                     reviewTextInput.classList.toggle("hidden");
