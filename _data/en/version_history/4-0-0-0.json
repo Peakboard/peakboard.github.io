@@ -1,132 +1,79 @@
 [
   {
-    "version": "4.0",
+    "version": "4.0.0.0",
     "date": "01.01.2025",
     "download_url": "https://peakboard.rocks/download-version-history",
-    "box_download_url": "https://peakboard.com/download/Peakboard/archive/4.0/PeakboardRuntime.pbux",
-    "designer_download_url": "https://peakboard.com/download/Peakboard/archive/4.0/PeakboardSetup.exe",
-    "byod_download_url": "https://peakboard.com/download/Peakboard/archive/4.0/PeakboardRuntimeSetupUI.exe",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardRuntimeSetupUI.exe",
     "tabs": [
       {
         "name": "General overview",
         "content": [
           {
             "type": "headline",
-            "text": "General Updates"
+            "text": "New Features"
           },
           {
             "type": "list",
             "list_items": [
-              "Added update column to the menu, including implementation in the data source menu with styling improvements.",
-              "Improved backstage functionality for enhanced user experience.",
-              "Implemented the ability to store and open PBMX files in the Peakboard Hub.",
-              "Enhanced 'Device/Checktime' endpoint to include AM/PM information.",
-              "Added hub flow lists to the Peakboard Hub List Datasource for better data management.",
-              "Implemented Peakboard Hub as a new resource type for better integration.",
-              "Added a building block for filling a string with characters, enhancing scripting capabilities.",
-              "Implemented Peakboard Hub files as source type for data sources like CSV and JSON.",
-              "Added a default date data source in new projects for convenience."
-            ]
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Fixed issue where PBFX files could not be opened directly in the Peakboard Designer from the file manager."
+              "Added update column to menu, including both the data source menu and the dataflow menu, with consistent styling.",
+              "Implemented Peakboard Hub as a new resource type.",
+              "Enabled the storage and opening of pbmx files in the Peakboard Hub.",
+              "Implemented Peakboard Hub files as a source type for data sources like CSV and JSON.",
+              "Added the hub flow lists to the Peakboard Hub Lists data source.",
+              "Added a right-click option to controls to copy and match style, improving workflow efficiency.",
+              "Offered the option of jumping directly to the location of the error in scripts or flows.",
+              "Allowed reading of all threads with answers in a channel via a new dropdown selection.",
+              "Implemented a new control for toggle functionality, adding a 'Border Size' property."
             ]
           },
           {
             "type": "headline",
-            "text": "Data Handling Improvements"
+            "text": "Enhancements"
           },
           {
             "type": "list",
             "list_items": [
-              "Updated data type in filters to correspond with the type of the chosen column, allowing correct comparisons.",
-              "Enabled users to be informed when no document entry is found during search.",
-              "Improved Filter UI allowing easier choice of current columns with added informational text.",
-              "Enabled dynamic default timeframe using default time data source in Teams, Calendar, and Outlook."
-            ]
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Fixed errors when using more than four 'OR' conditions within a filter.",
-              "Addressed incorrect inclusion/exclusion functionality in dataflow context menu filters.",
-              "Rectified issues where new columns added by 'Add column' or join steps in Dataflow threw fatal errors.",
-              "Resolved issue with renaming a variable used in a filter not updating the variable name within the dataflow filter."
+              "Improved data type matching in filters to correspond with the selected column's type.",
+              "Added am/pm information to Device/Checktime endpoint.",
+              "Updated Teams data source with a better time format for the 'Date' column.",
+              "Made default timeframe dynamic using the default time data source for Teams, Calendar, and Outlook.",
+              "Implemented drag-and-drop reordering for elements in the template explorer.",
+              "Enhanced error messages for Teams data source when 'Retrieve message from' is not selected.",
+              "Improved support for sending subjects (headers) with the Teams Snippet in Building Blocks.",
+              "Enabled adding a date data source by default in new projects.",
+              "Added sorting and max rows capability."
             ]
           },
           {
             "type": "headline",
-            "text": "User Interface & Experience"
+            "text": "User Experience"
           },
           {
             "type": "list",
             "list_items": [
-              "Improved Hub Dialog positioning to ensure buttons are not hidden.",
-              "Optimized scaling behavior of table columns containing long texts.",
-              "Added right-click option to copy and match style (appearance) across controls.",
-              "Introduced 'bring forward/backward' options beside 'bring to front/send to back' in the main designer.",
-              "Improved control renaming functionality in scripts to ensure accurate reference changes."
-            ]
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Fixed blurry template files for clearer presentation.",
-              "Corrected display issues of title and subtitle in preview mode.",
-              "Rectified toggle button functionality in the script editor."
+              "Improved the Box Management dialog with lazy loading to enhance performance.",
+              "Enhanced the design of the Backstage area.",
+              "Positioned Hub Dialog correctly to avoid obscured buttons."
             ]
           },
           {
             "type": "headline",
-            "text": "Performance & Optimization"
+            "text": "Bug Fixes"
           },
           {
             "type": "list",
             "list_items": [
-              "Implemented lazy loading for the Box Manage dialog to optimize performance.",
-              "Allowed editing of resolution in Box management dialog for better performance on 4K devices.",
-              "Added Hub authentication for secure communication between Peakboard Designer and Peakboard Box.",
-              "Enhanced Teams data source to provide a better time format for the 'Date' column."
-            ]
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Fixed high CPU/GPU usage when idle PDFs were present."
-            ]
-          },
-          {
-            "type": "headline",
-            "text": "Teams & Communication"
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Enhanced Teams data source with better error messages when 'Retrieve message from' is not selected.",
-              "Enabled sending a subject (header) with messages in Teams Snippet and Building Block.",
-              "Improved handling of timestamps in Teams/Outlook data sources, correcting a 2-hour offset.",
-              "Allowed reading of all threads with answers in a channel by adding relevant filter options."
-            ]
-          },
-          {
-            "type": "headline",
-            "text": "Control & Interface Enhancements"
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Added a date data source per default in new projects.",
-              "Enabled Copy/Paste functionality for MAC and IP Address in Box Dialog.",
-              "Improved Checkbox/Radio button label padding display based on label position."
-            ]
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Fixed scaling issues with checkboxes and radio buttons' icon size and scale.",
-              "Resolved automatic reference change issue in scripts when renaming Controls on different screens."
+              "Fixed an issue where characters were lost during the Scan Process, particularly for uppercase and special characters.",
+              "Resolved an issue with PBFX files not opening correctly with Peakboard Designer.",
+              "Addressed a problem with the inability to add more than four OR conditions within the filter.",
+              "Corrected a bug where data source deletion did not function if a dataflow depended on it.",
+              "Fixed issues with the context menu in dataflow cells causing fatal errors.",
+              "Addressed discrepancies in timestamps for Teams/Outlook data sources.",
+              "Resolved blurry appearance of template files.",
+              "Enhanced control resizing via code to a pure XAML solution.",
+              "Addressed checkbox and radio button padding and scaling issues."
             ]
           }
         ]
