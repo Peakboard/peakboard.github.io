@@ -41,7 +41,7 @@
               "Improved the Dataflow column selection by allowing easy reference to current columns directly in the Filter UI.",
               "Enhanced data type correspondence in filters to match the type of the selected column, supporting string comparisons.",
               "Introduced sorting and max rows in SharePoint list integration.",
-              "Added support for reordering elements in the template explorer via drag/drop for Dataflows and other elements."
+              "Added support for reordering elements in the template explorer via drag/drop for Dataflows and other elements.",
               "Fixed the context menu in Dataflow cells to work properly for columns added by \"Add column\" or a join step.",
               "Fixed an issue where the Dataflow context menu's Include/Exclude filter wasn't working properly.",
               "Fixed an issue where renaming a variable in a filter didn't update the name within the Dataflow filter.",
@@ -105,7 +105,7 @@
             "list_items": [
               "All threads including replies from a channel in the Teams data source can now be read together.",
               "Improved error messages and default values for Teams data source operations.",
-              "Provided a better time format for the 'Date' column in Teams data source to ease sorting and formatting."
+              "Provided a better time format for the 'Date' column in Teams data source to ease sorting and formatting.",
               "Fixed a timestamp offset issue in Teams/Outlook data sources where the timestamp was displayed with a 2-hour offset.",
               "Fixed the issue where adding a resource via SharePoint only displayed a limited number of items.",
               "Included the option to send a subject (header) with Teams Snippet/Building Blocks, in addition to the body."
