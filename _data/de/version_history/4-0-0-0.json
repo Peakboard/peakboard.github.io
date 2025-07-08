@@ -1,0 +1,148 @@
+[
+  {
+    "version": "4.0.0.0",
+    "date": "08.07.2025",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+      {
+        "name": "Peakboard Hub Flows",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-0-0-0-Flows_de.gif",
+            "description": "Nutze die volle Power des Peakboard Designers, um Workflows im Peakboard Hub zu erstellen. Sende Alarme, speichere Daten oder erstelle einen zentralen Broker für Ihre SPS."
+          }
+        ]
+      },
+      {
+        "name": "Peakboard Hub Ressourcen",
+        "content": [
+          {
+            "type": "image",
+            "image": "Hub-Resource_de.gif",
+            "description": "Speichere deine Dateien im neuen Peakboard Hub Dateimanager."
+          }
+        ]
+      },
+      {
+        "name": "Allgemeine Übersicht",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Dataflow"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "In beiden Menüs - Dataflow und Datenquellen - wurde eine Aktualisierungsspalte hinzugefügt, um Konsistenz zu gewährleisten.",
+              "Verbesserte Spaltenauswahl im Dataflow durch einfaches Referenzieren der aktuellen Spalten direkt in der Filter-Benutzeroberfläche.",
+              "Erweiterte Datentypen-Korrespondenz in Filtern, um den Typ der ausgewählten Spalte anzupassen und Stringvergleiche zu unterstützen.",
+              "Sortier- und maximale Reihen-Unterstützung in der SharePoint-Listenintegration eingeführt.",
+              "Unterstützung für das Neuanordnen von Elementen im Vorlagenexplorer durch Ziehen/Verschieben für Dataflows und andere Elemente hinzugefügt.",
+              "Das Kontextmenü in Dataflowzellen wurde so korrigiert, dass es ordnungsgemäß für Spalten funktioniert, die durch \"Spalte hinzufügen\" oder einen Verknüpfungsschritt hinzugefügt wurden.",
+              "Ein Problem wurde behoben, bei dem der Filter \"Ein-/Ausschließen\" im Kontextmenü des Datenflusses nicht ordnungsgemäß funktionierte.",
+              "Ein Problem wurde behoben, bei dem das Umbenennen einer Variablen in einem Filter den Namen innerhalb des Datenfluss-Filters nicht aktualisierte.",
+              "Probleme bei der Verwendung von mehr als vier ODER-Bedingungen in Filtern wurden behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Rechtsklick-Option zum Kopieren und Anpassen des Stils von Controls für eine einfachere Anpassung hinzugefügt.",
+              "In Styled lists können nun Elemente nach vorne oder hinten gebracht werden, wie es im Haupt-Designer ist.",
+              "Fixes für das Fenster bei mehreren Monitoren mit verschiedenen Skalierungen.",
+              "Neue Formatierungsoptionen für Datum und Uhrzeit hinzugefügt.",
+              "Fehlerbehandlung verbessert, indem Benutzer direkt zur Fehlerstelle springen können, z.B. in Skripten oder Flows.",
+              "Eine Standard-Datenquelle für Datum wird in neuen Projekten hinzugefügt.",
+              "Templates, die im Designer unscharf waren, sind jetzt scharf.",
+              "Ein Problem wurde behoben, bei dem Umschalt-Tasten im Skripteditor nicht funktionierten.",
+              "Probleme mit dem Skalierungsverhalten von Tabellenspalten bei langen Texteingaben wurden behoben.",
+              "Multi-Editor für Buttons korrigiert.",
+			  "Screens können nun durch Dragging umsortiert werden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Peakboard Hub als neuen Ressourcentyp implementiert.",
+              "Die Möglichkeit eingeführt, Hub-Flow-Listen als Peakboard Hub Liste Datenquelle hinzuzufügen.",
+              "Speichern und Öffnen von pbmx-Dateien direkt im Peakboard Hub ermöglicht.",
+              "Zentrale Benutzerverwaltung im Peakboard Hub für die Peakboard-Geräte hinzugefügt.",
+              "Die Position des Hub-Dialogs korrigiert, um zu verhindern, dass Buttons beim Öffnen verdeckt werden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Zeitsynchronisation aus dem Management-Service entfernt.",
+              "Lazy Loading für das Box-Manage-Dialogfeld implementiert, um die Ladezeit zu reduzieren und die Leistung bei vielen Boxen zu verbessern.",
+              "Kopieren/Einfügen-Funktionalität für MAC- und IP-Adressen im Box-Dialog aktiviert.",
+              "Auflösung kann im Box-Management-Dialog geändert werden. Standardmäßig wird Full HD gesetzt.",
+			  "Seiten für die Logs der Boxen implementiert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Office 365"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Alle Threads inklusive Antworten aus einem Kanal in der Teams-Datenquelle können nun zusammen gelesen werden.",
+              "Fehlermeldungen und Standardwerte für Teams-Datenquellenoperationen verbessert.",
+              "Ein besseres Zeitformat für die \"Datum\"-Spalte in der Teams-Datenquelle bereitgestellt, um Sortierung und Formatierung zu erleichtern.",
+              "Ein Zeitstempel-Versatzproblem in den Teams-/Outlook-Datenquellen behoben, bei dem der Zeitstempel mit einem zwei Stunden Versatz angezeigt wurde.",
+              "Das Problem behoben, bei dem das Hinzufügen einer Ressource über SharePoint nur eine begrenzte Anzahl von Elementen anzeigte.",
+              "Die Option hinzugefügt, ein Betreff (Header) mit Teams-Snippets/Building Blocks zu senden, zusätzlich zum Body."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Snippets / Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Building Block zum Auffüllen eines Strings mit Zeichen hinzugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Script-Editor"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Info wird gezeigt wenn eine Dokumentsuche keine Ergebnisse liefert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Checkbox"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Verbesserte Skalierung der Checkboxen und Radio-Buttons."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
