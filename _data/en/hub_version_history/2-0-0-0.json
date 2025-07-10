@@ -1,0 +1,173 @@
+[
+  {
+    "version": "2.0.0.0",
+    "date": "09.07.2025",
+    "download_url": "https://peakboard.com/download/PeakboardHub/archive/2.0.0.0/PeakboardHubSetup.exe",
+    "tabs": [
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Lists"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Update of the ‘Clear list’ function to ensure that IDs continue to be assigned in ascending order and to standardize the function across all platforms.",
+              "Added warning messages for renaming or deleting columns to prevent accidental actions.",
+              "Added SQL Joins in Peakboard Hub Data sources for enhanced data manipulation capabilities.",
+			  "SQL-Count issues with various data types resolved.",
+              "Other users working with the same hub list are now displayed to improve collaboration.",
+              "Added real-time changes in lists with multiple users, allowing updates to be reflected instantly.",
+              "Deleting lists has been improved. The list and all references are now deleted in a single transaction.",
+              "Fixed issue with lists having a column named 'Order' causing errors in the Peakboard Designer.",
+              "Removed the possibility of using '.' symbol in list column names to ensure data integrity.",
+              "Fixed an issue with manually entering number values and clicking 'enter' to save.",
+              "Fixed UI issue, where the list value columns did not match the header columns.",
+              "Fixed issue, where unusable buttons would be shown in UI.",
+              "Adding a new list will now always return the correct ID.",
+              "Resolved error with entering number values outside constraints causing a bugged view.",
+			  "Negative numbers cannot be used for the tick size in number constraints anymore.",
+              "Fixed bug where sometimes the wrong row could be deleted.",
+			  "The rearrangement of columns is now retained as the user view.",
+			  "Various UI improvements implemented."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "User management"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Enhanced email security by adding organization and group names to the password reset emails.",
+              "Enabled setting of box groups without the 'Users' access right requirement.",
+              "Improved search functionality for users in groups, ensuring accurate results.",
+              "Fixed issue with changing user group hub list column permissions.",
+			  "Added possibility to create a new group key for a user group."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Connections"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Completed UI rework to enhance user experience and streamline navigation.",
+              "Fixed issue with access rights for connections."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "General"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Changed collapse Icon position for increased consistency in user interfaces.",
+              "Updated address in the imprint to reflect the new address.",
+              "Highlighted icons on hover and added descriptive text to enhance clarity.",
+              "Removed unused packages to optimize system security, performance and efficiency.",
+              "Added a new endpoint to retrieve the current Peakboard Hub version.",
+              "Enhanced the license expired dialog to allow users to add a new license.",
+              "Fixed browser inserting entries into password fields for editing boxes in user groups."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Box management"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added the ability to manage Peakboard Boxes via Hub authentication for improved security.",
+              "Increased the maximum file size for uploading applications to boxes to 20 MB.",
+              "Fixed issue where 'No global functions' would be shown besides available global functions.",
+              "Prevented update button from appearing for boxes already on set version.",
+              "Resolved issue with editing users & roles on boxes.",
+              "Fixed issue with adding a box to the hub when no Box ID is set.",
+			  "Fixed an issue where updating the IP address via the host name sometimes did not work correctly.",
+			  "Fixed issue with global functions and number parameters.",
+			  "Added setting to force hostname usage.",
+			  "Added setting to block unencrypted communication over port 40404.",
+			  "Fixed issues with exporting logs from Peakboard Boxes."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "API"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Scope 'box:write' is now necessary for executing global functions on a Peakboard Box.",
+              "Direct Hub <-> API communication added.",
+              "Corrected typo in JSON and improved JWT date expiration display.",
+              "The endpoint ‘POST /v1/lists/list’ now expects correct JSON as content."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "UI"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Updated style of Imprint and Privacy Policy.",
+              "Adjusted popup dialogs for better functionality on small screens.",
+              "Fixed missing distance between buttons for consistent layout.",
+              "Show the current system time alongside the timeserver of a Peakboard Box.",
+              "Fixed dropdown visibility issue when a box is in the last group.",
+			  "Show the necessary hostname below the license.",
+			  "Updated sidebar.",
+			  "Reworked users page."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "File management"
+          },
+          {
+            "type": "list",
+            "list_items": [
+				"Implemented first iteration of Peakboard Hub File management.",
+				"Added functionality for uploading .pbmx files to boxes."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Alerts"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implemented capability to create push notifications for alerts across multiple browsers and mobile devices."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Variables"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed issue with list cells displaying bindings from other user groups."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implemented first iteration of Peakboard Hub Flows to support headless applications on the hub."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
