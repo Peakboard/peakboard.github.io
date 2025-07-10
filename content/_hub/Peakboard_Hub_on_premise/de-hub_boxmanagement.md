@@ -75,7 +75,7 @@ Voraussetzung für das Update deiner Peakboard Boxen ist eine aktuelle Datei, mi
 
 ![Peakboard Box Update](/assets/images/hub/de_hub_boxes-06.png)
 
-Sollte dies nicht korrekt funktionieren oder keine Internetverbindung bestehen kannst du den Prozess auch manuell durchführen. Lade dazu [die aktuellste Version für das Update](https://peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux) herunter und hinterlege die Datei unter dem beim Punkt [Box update package folder] hinterlegten Pfad auf deinem Peakboard Hub on premise Server oder passe den Pfad entsprechend an.
+Sollte dies nicht korrekt funktionieren oder keine Internetverbindung bestehen kannst du den Prozess auch manuell durchführen. Lade dazu [die aktuellste Version für das Update](https://downloads.peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux) herunter und hinterlege die Datei unter dem beim Punkt [Box update package folder] hinterlegten Pfad auf deinem Peakboard Hub on premise Server oder passe den Pfad entsprechend an.
 
 #### Update durchführen
 

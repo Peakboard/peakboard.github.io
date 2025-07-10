@@ -13,7 +13,7 @@ In diesem Artikel lernst du, wie du dein eigenes Gerät mit Peakboard BYOD anste
 
 ## Vorbereitung und Mindestanforderungen
 
-[Lade zuerst das Setup herunter](https://peakboard.com/download/Peakboard/master/PeakboardRuntimeSetupUI.exe) und übertrage es auf das Gerät, das du für Peakboard BYOD nutzen möchtest.
+[Lade zuerst das Setup herunter](https://downloads.peakboard.com/download/Peakboard/master/PeakboardRuntimeSetupUI.exe) und übertrage es auf das Gerät, das du für Peakboard BYOD nutzen möchtest.
 
 Die Mindestanforderungen an die Hardware hängen stark von deinem Anwendungsfall ab. Die folgenden Angaben sind lediglich die minimalen Systemanforderungen. Für ein reibungsloses Benutzererlebnis solltest du die Werte mindestens verdoppeln.
 Wenn du dir unsicher bist [kontaktiere den Peakboard Support](mailto:support@peakboard.com) für Empfehlungen für dein spezifisches Projekt.
@@ -35,7 +35,6 @@ Wenn du dir unsicher bist [kontaktiere den Peakboard Support](mailto:support@pea
 x86- und ARM-Prozessoren werden **nicht** unterstützt!
 </div>
 
-Auf dem Betriebssystem muss [das ASP.NET Core 3.1 Runtime (v3.1.32) - Windows Hosting Bundle]( https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-3.1.32-windows-hosting-bundle-installer) installiert sein.
 
 ## Peakboard BYOD Setup
 

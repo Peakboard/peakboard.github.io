@@ -14,7 +14,7 @@ The **Peakboard Hub API** enables seamless integration of Peakboard applications
 
 ### Setting Up the Peakboard Hub API – On-Premises Only
 
-To install the Peakboard Hub API, you need the Peakboard Hub Setup, which can be downloaded [here](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
+To install the Peakboard Hub API, you need the Peakboard Hub Setup, which can be downloaded [here](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
 
 #### Prerequisites
 
@@ -44,7 +44,7 @@ If a Peakboard Hub instance is installed on the same system, the API will automa
 #### Updating the API
 
 To update the API:
-- Download the latest setup version [here](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
+- Download the latest setup version [here](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
 - Select **Peakboard Hub API** (2) in the component selection.
 - Select **.NET Hosting Bundle** or install the latest [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer) manually.
 

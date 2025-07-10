@@ -1,7 +1,7 @@
 [{
   "version": "1.21.3.0",
   "date": "04.02.2025",
-  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.21.3.0/PeakboardHubSetup.exe",
+  "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/1.21.3.0/PeakboardHubSetup.exe",
   "tabs": [
 	{
       "name": "API Release",

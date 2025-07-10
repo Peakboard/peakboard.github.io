@@ -75,7 +75,7 @@ The prerequisite for updating your Peakboard Boxes is an up-to-date file with wh
 
 ![Peakboard Box Update](/assets/images/hub/en_hub_boxes-06.png)
 
-If this does not work correctly or there is no internet connection, you can also carry out the process manually. To do this, download [the latest version for the update](https://peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux) and store the file under the path specified in [Box update package folder] on your Peakboard Hub on premise server or adjust the path accordingly.
+If this does not work correctly or there is no internet connection, you can also carry out the process manually. To do this, download [the latest version for the update](https://downloads.peakboard.com/download/Peakboard/master/PeakboardRuntime.pbux) and store the file under the path specified in [Box update package folder] on your Peakboard Hub on premise server or adjust the path accordingly.
 
 #### Perform update
 

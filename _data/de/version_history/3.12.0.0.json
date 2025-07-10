@@ -1,0 +1,242 @@
+[
+  {
+    "version": "3.12.0.0",
+    "date": "07.04.2025",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/3.12.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+      {
+        "name": "Gesamtübersicht",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Allgemeine Übersicht"
+          },
+          {
+            "type": "headline",
+            "text": "Teams"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Spalte für Topic hinzugefügt.",
+              "HTML-Tags entfernt.",
+              "Nachrichten-ID als Rückgabe zu Skript und Building Blocks hinzugefügt.",
+              "Zeitraum für Nachrichten wie bei E-Mails definierbar.",
+              "Beim Drücken von 'Teams-Daten abrufen' werden die ausgewählten Werte nun beibehalten."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Mail O365"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "E-Mails als HTML oder reinen Text abrufbar.",
+              "Start- und Enddatum angeben ist nun möglich.",
+              "Building Block angelegt, um E-Mails als gelesen zu markieren und sie in einen anderen Ordner zu verschieben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Screenshot-Funktionalität erweitert, um nur die Peakboard Runtime, anstatt des gesamten Bildschirms, aufzunehmen.",
+              "Mehrfachstart der Peakboard Runtime verhindert.",
+              "Ein Problem behoben, bei dem der Management-Dienst manchmal nicht startete, wenn der Zeitserver nicht erreichbar war."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Zwei neue Themes für den Designer implementiert.",
+              "Hauptbenutzeroberfläche für eine optimiert.",
+              "Ermöglicht die gemeinsame Änderung der Eigenschaften mehrerer Controls.",
+              "Zoom-Funktionalität auf Touchpad-Geräten mit der 'Zoom'-Geste verbessert.",
+              "Name von SharePoint in SharePoint Library geändert.",
+              "Temporäre Dateien nach dem Schließen der Vorschau werden nun zuverlässig entfernt.",
+              "Eingabevalidierung für Controls-Namen hinzugefügt.",
+              "Fehler in der Vorlagen-Sektion auf dem Startbildschirm behoben.",
+              "Fehler behoben, bei dem Fenster an zwei Seiten vergrößert wurden.",
+              "Problem mit dem Farbwähler behoben, bei dem die Bildschirmhintergrundfarbe beim Wechseln von Themes nicht wechselte."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Runtime"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Snippet erstellt, um die Peakboard Runtime in den Vordergrund zu bringen.",
+              "Größenänderung des Fensters für BYOD Geräte erlaubt.",
+              "Öffnen einer pbmx-Datei in der Peakboard Runtime durch Doppelklick ermöglicht.",
+              "Verhalten verbessert, indem auf das Standardprojekt zurückgestellt wird, wenn ein Projekt defekt ist.",
+              "Ein Problem gelöst, bei dem die Peakboard Runtime falsch dargestellt wurde, wenn sich die Bildschirmauflösung änderte, während die Box lief."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Snippets / Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Skript/Block hinzugefügt, um den Dateinamen anzuzeigen.",
+              "Konsistente Benennung für E-Mail-Snippets sichergestellt.",
+              "Problem behoben, bei dem die Funktion runtime.stopwaitingui() nicht mehr funktionierte.",
+              "Problem gelöst, bei dem das Sortieren von Variablenlisten für aufsteigende/absteigende Snippets nicht mehr funktionierte."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "WebServer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Problem behoben, der durch eine defekte Webserver-Konfigurationsdatei verursacht wurde und den Webserver stoppte."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Erweiterungen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem gelöst, bei dem 'isenabled' in Building Blocks nicht verwendet werden konnte."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "SharePoint Library"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Verbesserte Funktionalität zum Abrufen von Benutzerspalten.",
+              "Problem behoben, bei dem der SharePoint-Pfad einer Datei mit dem neuen Office 365-Überarbeitung nicht geändert werden konnte.",
+              "Fehler korrigiert, bei dem Listen einer älteren Seite im Dropdown-Menü verblieben, wenn die SharePoint-Website eine Liste geändert wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Ressourcen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Erlaubt, den OneDrive-Pfad wie den SharePoint-Pfad zu ändern.",
+              "Excel aus dem Dialogfeld 'Datenquelle auswählen' entfernt.",
+              "SharePoint als Standard-Datenquelle ausgewählt.",
+              "Ein kritischer Fehler behoben, der bei der Bearbeitung einer O365-Verbindung auftrat, die in älteren Projekten erstellt wurde.",
+              "Die Office-Resource-Sektion verbessert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Verbindungen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Leistung durch Hinzufügen von Caching für Leseverbindungen verbessert, was zu einem massiven Leistungsschub im Skripteditor führt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Microsoft Graph"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Radiobuttons durch Dropdown-Menüs ersetzt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Textbox"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Verwendung von ',' als Dezimaltrennzeichen für Textboxen, die an eine Zahlenvariable gebunden sind, ermöglicht.",
+              "Regex-Validierungsproblem gelöst, wenn der Wert an eine Variablenliste gebunden war."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Gauge"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Verläufe für Gauges erweitert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Explorer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Verhalten behoben, bei dem ein deaktivierter Dataflow nach dem Schließen des übergeordneten Dataflow-Dialogs wieder aktiviert wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Es wurde eine Fehlermeldung behoben, die beim Versuch auftrat, auf Peakboard Hub Listen zuzugreifen, ohne dass ein Peakboard Hub verbunden ist."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Allgemein"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem behoben, bei dem das Padding eines Controls ebenso das Padding in duplizierten Controls änderte."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Website / Web"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Snippet hinzugefügt, um die Websteuerung zu aktualisieren."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Einrichtung"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Unnötige Checkboxen wurden aus dem Installationsprogramm entfernt."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

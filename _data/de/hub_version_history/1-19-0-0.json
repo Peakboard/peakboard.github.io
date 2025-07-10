@@ -1,7 +1,7 @@
 [{
   "version": "1.19.0.0",
   "date": "07.02.2024",
-  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.19.0.0/PeakboardHubSetup.exe",
+  "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/1.19.0.0/PeakboardHubSetup.exe",
   "tabs": [
     {
       "name": "Web Access",

@@ -21,7 +21,7 @@ Es kann aber auch ein bereits vorhandener SQL Server ab Version 2017 verwendet w
 
 ### Installation
 
-Für die initiale Installation auf einem Windows Server benötigst du nur die Installationsdatei des Peakboard Hub on premise, die du [hier](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) herunterladen kannst.
+Für die initiale Installation auf einem Windows Server benötigst du nur die Installationsdatei des Peakboard Hub on premise, die du [hier](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) herunterladen kannst.
 In der ersten Installation empfehlen wir alle Haken gesetzt zu lassen, somit werden alle notwendigen Bestandteile mitinstalliert und die Konfiguration im IIS besonders komfortabel gesetzt.
 Falls ein bereits vorhandener SQL Server genutzt werden soll, ist es möglich auf die Installation des SQL Servers zu verzichten.
 
@@ -42,6 +42,6 @@ Hier siehst du, wo du die Berechtigungen setzen musst:
 
 ### Updates
 
-Um ein Update durchzuführen lädst du dir die aktuellste [Installationsdatei des Peakboard Hub on premise](https://peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) herunter.
+Um ein Update durchzuführen lädst du dir die aktuellste [Installationsdatei des Peakboard Hub on premise](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) herunter.
 Im Setup-Prozess setzt du im Gegensatz zur initialen Installation nur den Haken bei [Peakboard Hub].
 Das Update kann einfach über das bereits existierende Setup installiert werden.

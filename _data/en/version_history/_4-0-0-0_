@@ -1,0 +1,148 @@
+[
+  {
+    "version": "4.0.0.0",
+    "date": "08.07.2025",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.0.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+	  {
+	    "name": "Peakboard Hub Flows",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-0-0-0-Flows_en.gif",
+			"description": "Use the full Power of the Peakboard Designer to create Workflows running in the Peakboard Hub. Send alerts, historize data or create a central broker for your PLCs."
+			}
+		]
+	  },
+	  {
+	    "name": "Peakboard Hub resources",
+	    "content": [
+			{
+			"type": "image",
+			"image": "Hub-Resource_en.gif",
+			"description": "Store your files in the new Peakboard Hub file manager."
+			}
+		]
+	  },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Dataflow"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added update column to the menu in both Dataflow and Data source menus for consistency.",
+              "Improved the Dataflow column selection by allowing easy reference to current columns directly in the Filter UI.",
+              "Enhanced data type correspondence in filters to match the type of the selected column, supporting string comparisons.",
+              "Introduced sorting and max rows in SharePoint list integration.",
+              "Added support for reordering elements in the template explorer via drag/drop for Dataflows and other elements.",
+              "Fixed the context menu in Dataflow cells to work properly for columns added by \"Add column\" or a join step.",
+              "Fixed an issue where the Dataflow context menu's Include/Exclude filter wasn't working properly.",
+              "Fixed an issue where renaming a variable in a filter didn't update the name within the Dataflow filter.",
+              "Fixed problems when using more than four OR conditions in filters.",
+			  "Screens can now be rearranged by dragging."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added a right-click option to copy and match the style of Controls for easier customisation.",
+              "In styled lists, elements can now be moved forwards or backwards, just like in the main designer.",
+              "Fixes for the window for multiple monitors with different scaling.",
+              "New formatting options for date and time added.",
+              "Enhanced error handling by allowing users to jump directly to the location of the error, such as in Scripts or Flows.",
+              "A default data source for date is added in new projects.",
+              "Template files being blurry within the Designer are sharp now.",
+              "Fixed an issue where toggle buttons in the script editor were broken.",
+              "Fixed issues with scaling behaviour of table columns when dealing with long text entries.",
+              "Fixed multi-editor for Button controls."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implemented Peakboard Hub as a new resource type.",
+              "Introduced the ability to add Hub flow lists as a Peakboard Hub List data source.",
+              "Enabled storage and opening of pbmx files directly in the Peakboard Hub.",
+              "Added central user management in the Peakboard Hub for the Peakboard devices.",
+              "Fixed the Hub dialog position to prevent buttons from being hidden upon opening."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Removed time sync from management service.",
+              "Enabled copy/paste functionality for MAC and IP Addresses in the Box dialog.",
+              "Resolution can be changed in the box management dialogue. Full HD is set by default.",
+              "Implemented lazy loading for Box Manage dialog to reduce load and improve performance with many boxes.",
+			  "Pages for the logs of the boxes implemented."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Office 365"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "All threads including replies from a channel in the Teams data source can now be read together.",
+              "Improved error messages and default values for Teams data source operations.",
+              "Provided a better time format for the 'Date' column in Teams data source to ease sorting and formatting.",
+              "Fixed a timestamp offset issue in Teams/Outlook data sources where the timestamp was displayed with a 2-hour offset.",
+              "Fixed the issue where adding a resource via SharePoint only displayed a limited number of items.",
+              "Included the option to send a subject (header) with Teams Snippet/Building Blocks, in addition to the body."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Snippets / Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added a building block to fill a string with characters."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Script Editor"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Info is displayed if a document search returns no results."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Checkbox"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Improved scaling of checkboxes and radio buttons."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

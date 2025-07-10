@@ -19,7 +19,7 @@ Falls du das nicht selber machen kannst, bitte einen Kollegen aus deiner SAP-Bas
 
 ![Function Builder Tables](/assets/images/data-sources/sap/report-custom-function-03.png)
 
-Den Quellcode kopierst du per Strg+C und Strg+V aus dieser [Textdatei](https://peakboard.com/download/dokumente/Z_XTRACT_IS_REMOTE_REPORT.txt). in den Code-Editor (Reiter Source Code). Sichere den Baustein und aktiviere ihn. Nun ist er für die Benutzung bereit.
+Den Quellcode kopierst du per Strg+C und Strg+V aus dieser [Textdatei](https://downloads.peakboard.com/download/dokumente/Z_XTRACT_IS_REMOTE_REPORT.txt). in den Code-Editor (Reiter Source Code). Sichere den Baustein und aktiviere ihn. Nun ist er für die Benutzung bereit.
 Im Code sind die einzelnen Schritte (Programmausführung, Spoolabruf, Job-Überwachung, usw.) entsprechend dokumentiert. So kannst du bei Interesse leicht herausfinden, wie der ABAP Code funktioniert.
 
 ## SAP Standard Datentyp TAB512

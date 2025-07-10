@@ -1,7 +1,7 @@
 [{
   "version": "1.20.1.0",
   "date": "10.06.2024",
-  "download_url": "https://peakboard.com/download/PeakboardHub/archive/1.20.1.0/PeakboardHubSetup.exe",
+  "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/1.20.1.0/PeakboardHubSetup.exe",
   "tabs": [
     {
       "name": "UI updates",
