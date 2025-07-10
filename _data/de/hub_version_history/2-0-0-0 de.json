@@ -1,0 +1,173 @@
+[
+  {
+    "version": "2.0.0.0",
+    "date": "09.07.2025",
+    "download_url": "https://peakboard.com/download/PeakboardHub/archive/2.0.0.0/PeakboardHubSetup.exe",
+    "tabs": [
+      {
+        "name": "General overview",
+        "content": [
+			{
+				"type": "headline",
+				"text": "Peakboard Hub Listen"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Aktualisierung der Funktionalität 'Liste leeren' um eine weiterhin aufsteigene ID zu gewährleisten und die Funktionalität über alle Plattformen hinweg zu vereinheitlichen.",
+					"Warnmeldungen wurden hinzugefügt, um das versehentliche Umbenennen oder Löschen von Spalten zu verhindern.",
+					"SQL-Joins in Peakboard Hub Datenquellen hinzugefügt, um erweiterte Datenmanipulationsmöglichkeiten zu bieten.",
+					"SQL-Count Probleme mit verschiedenen Datentypen behoben.",
+					"Andere Benutzer, welche mit der gleichen Hub Liste arbeiten, werden jetzt angezeit, um die Zusammenarbeit zu verbessern.",
+					"Echtzeit-Änderungen in Listen mit mehreren Benutzern hinzugefügt, sodass Aktualisierungen sofort übernommen werden..",
+					"Das Löschen von Listen wurde verbessert. Die Liste und alle Verweise werden nun in einer einzelnen Transaktion gelöscht.",
+					"Problem behoben, bei welchem Listen mit einer Spalte namens „Order“ Fehler im Peakboard Designer verursachten.",
+					"Die Verwendung des '.'-Symbols in Spaltennamen wurde verboten, um die Datenintegrität sicherzustellen.",
+					"Ein Problem beim manuellen Eingeben von Zahlenwerten und beim Klicken auf „Enter“ zum Speichern wurde behoben.",
+					"Problem mit der Benutzeroberfläche behoben, bei dem die Spalten mit den Listenwerten nicht mit den Spaltenüberschriften übereinstimmten.",
+					"Problem behoben, bei dem unbrauchbare Schaltflächen in der Benutzeroberfläche angezeigt wurden.",
+					"Das Hinzufügen einer neuen Liste gibt nun immer die richtige ID zurück.",
+					"Fehler behoben, bei dem die Eingabe von Zahlenwerten außerhalb der Einschränkungen zu einer fehlerhaften Ansicht führte.",
+					"Negative Zahlen können nicht mehr für die Tick-Größe in Zahlenbeschränkungen verwendet werden.",
+					"Fehler behoben, durch den manchmal die falsche Zeile gelöscht wurde.",
+					"Das Verschieben von Spalten bleibt nun als Nutzeransicht erhalten.",
+					"Verschiedene UI Verbesserungen implementiert."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Benutzerverwaltung"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Erhöhte E-Mail-Sicherheit durch Hinzufügen von Organisations- und Gruppennamen zu den Passwort-Reset-E-Mails.",
+					"Es ist nun möglich, Boxen-Gruppen ohne die Zugriffsvoraussetzung 'Benutzer' einzurichten.",
+					"Verbesserte Suchfunktionalität für Benutzer in Gruppen, um genaue Ergebnisse zu gewährleisten.",
+					"Problem beim Ändern der Hub-Listen-Spaltenberechtigungen in der Benutzergruppenliste behoben.",
+					"Es wurde die Möglichkeit hinzugefügt, einen neuen Gruppenschlüssel für eine Benutzergruppe zu erstellen."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Verbindungen"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"UI-Überarbeitung abgeschlossen, um das Benutzererlebnis zu verbessern und die Navigation zu vereinfachen.",
+					"Problem mit Zugriffsrechten für Verbindungen behoben."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Allgemein"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Position des Kollapssymbols geändert, um die Konsistenz in Benutzeroberflächen zu erhöhen.",
+					"Adresse im Impressum aktualisiert, um die neue Adresse widerzuspiegeln.",
+					"Symbole beim Hover hervorgehoben und beschreibenden Text hinzugefügt, um die Klarheit zu verbessern.",
+					"Nicht genutzte Pakete entfernt, um Sicherheit, Systemleistung und Effizienz zu optimieren.",
+					"Ein neuer Endpunkt hinzugefügt, um die aktuelle Peakboard Hub Version abzurufen.",
+					"Der Dialog zur abgelaufenen Lizenz wurde erweitert, um Benutzern die Möglichkeit zu geben, eine neue Lizenz hinzuzufügen.",
+					"Browser daran gehindert, Einträge in Passwortfelder einzufügen, wenn Boxen in Benutzergruppen bearbeitet werden.",
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Box-Verwaltung"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Funktion hinzugefügt, um Peakboard Boxen über die Hub-Authentifizierung zu verwalten, um die Sicherheit zu verbessern.",
+					"Maximale Dateigröße für das Hochladen von Anwendungen auf Boxen auf 20 MB erhöht.",
+					„Problem behoben, bei dem neben den verfügbaren globalen Funktionen 'Keine globalen Funktionen' angezeigt wurde.“
+					"Aktualisieren-Button wird nicht mehr angezeigt, falls die Boxen bereits auf der eingestellten Version sind.",
+					"Problem beim Bearbeiten von Benutzern & Rollen auf Boxen behoben.",
+					"Problem beim Hinzufügen einer Box zum Hub gelöst, wenn keine Boxen-ID gesetzt ist.",
+					"Problem behoben, bei welchem die Aktualisierung der IP Adresse über den Hostnamen teils nicht richtig funktioniert hat.",
+					"Problem mit globalen Funktionen und Zahlenparametern behoben.",
+					"Einstellung zum Erzwingen von Hostnamen hinzugefügt.",
+					"Einstellung zum Verbieten von unverschlüsselter Kommunikation über Port 40404 hinzugefügt.",
+					"Probleme beim Exportieren von Peakboard Box Logs behoben."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "API"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Der Scope 'box:write' ist ab sofort für die Ausführung globaler Funktionen auf einer Peakboard Box erforderlich.",
+					"Direkte Hub <-> API Kommunikation hinzugefügt.",
+					"Rechtschreibfehler im JSON korrigiert und Anzeige des JWT-Ablaufdatums verbessert.",
+					"Der Endpunkt 'POST /v1/lists/list' erwartet nun korrektes JSON als Inhalt."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "UI"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Stil des Impressums und der Datenschutzrichtlinie aktualisiert.",
+					"Popup-Dialoge für kleine Bildschirme verbessert.",
+					"Fehlende Abstände zwischen Buttons für konsistente Layouts behoben.",
+					"Neben dem Zeitserver einer Peakboard Box wird nun auch die aktuelle Systemzeit angezeigt.",
+					"Sichtbarkeitsproblem der Dropdownliste behoben, wenn sich die Box in der letzten Gruppe befindet.",
+					"Unter der Lizenz wird nun der notwendige Hostname angezeigt.",
+					"Seitenleiste überarbeitet.",
+					"Nuter Seite überarbeitet."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Dateiverwaltung"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Erste Iteration der Peakboard Hub-Dateiverwaltung implementiert.",
+					"Funktion zum Hochladen von .pbmx Dateien auf Peakboard Boxen zugefügt."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Warnungen"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Funktion zum Erstellen von Push-Benachrichtigungen für Warnmeldungen über mehrere Browser und mobile Geräte hinweg implementiert."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Variablen"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Problem behoben, bei dem Listenzellen Bindungen aus anderen Benutzergruppen anzeigten."
+				]
+			},
+			{
+				"type": "headline",
+				"text": "Hub Flows"
+			},
+			{
+				"type": "list",
+				"list_items": [
+					"Erste Iteration der Peakboard Hub Flows implementiert, um headless Anwendungen auf dem Hub zu unterstützen."
+				]
+			}
+        ]
+      }
+    ]
+  }
+]
