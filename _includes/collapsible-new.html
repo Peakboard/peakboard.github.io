@@ -218,7 +218,7 @@
                     if(downloadLinkHub) downloadLinkHub.setAttribute('data-target', targetElement.getAttribute('data-download-link-hub'));
 
                     var versionSplit = version.split('.');
-                    if(parseInt(versionSplit[0]) >= 3 && parseInt(versionSplit[1]) >= 5 && downloadLinkBYOD) {
+                    if((parseInt(versionSplit[0]) === 3 && parseInt(versionSplit[1]) >= 5) || parseInt(versionSplit[0]) >= 4) {
 
                         downloadLinkBYOD.setAttribute('data-target', targetElement.getAttribute('data-download-link-byod'));
 
