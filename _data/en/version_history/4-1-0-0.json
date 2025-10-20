@@ -1,7 +1,7 @@
 [
   {
     "version": "4.1.0.0",
-    "date": "19.10.2025",
+    "date": "20.10.2025",
     "download_url": "https://peakboard.rocks/download-version-history",
     "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardRuntime.pbux",
     "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardSetup.exe",
@@ -61,10 +61,11 @@
           {
             "type": "list",
             "list_items": [
+              "Possibility to make phone calls in the Peakboard application based on SIP.",
               "Adjusted device ID check when setting a new license key, enhancing the validation process for device IDs.",
               "Allowed setting of default sound devices in the Box management dialog.",
-              "Enhanced Box Management with rearranged properties in the general tab and added subheads for better organization.",
-              "Fixed the issue where hostname checks work differently on runtime compared to Designer."
+              "Enhanced Box Management with rearranged properties in the general tab.",
+              "A problem has been fixed when checking hostnames at runtime."
             ]
           },
           {
@@ -74,8 +75,8 @@
           {
             "type": "list",
             "list_items": [
-              "Optimized Swagger example calls for improved communication.",
-              "Added a checkbox to prefer Hub communication over LAN communication in communication settings.",
+              "Optimized Swagger UI with examples and descriptions.",
+              "A checkbox has been added in the communication settings to prefer cloud communication.",
               "Fixed the error where it was previously not possible to change the timeserver/timezone for a box connected via the cloud.",
               "Resolved the issue where the Peakboard Box logs were not translated, and the header was cut in German."
             ]
@@ -87,10 +88,9 @@
           {
             "type": "list",
             "list_items": [
-              "Reimplemented Extensions with Pipes to facilitate the upgrade to .NET 8.",
-              "Updated to allow specific values for number/string parameters to be displayed as a dropdown instead of a textbox.",
+              "Number/string parameters can be displayed as a dropdown instead of a text field",
               "Included version details in the extension dialog and restricted updates to cases where the current version is lower than the online version.",
-              "Added a warning message if an extension is not installed when opening a project that requires it."
+              "A warning message has been added if an extension is not installed."
             ]
           },
           {
@@ -100,8 +100,9 @@
           {
             "type": "list",
             "list_items": [
-              "Variables now copy their constraints from the Hub, ensuring consistent data management.",
-              "Updated the Variable List Dialog to accommodate constraints and default values.",
+              "Variables now copy their constraints from the hub.",
+              "The dialog for the variable list has been updated",
+			  "Restrictions and default values have been added to variable lists."
             ]
           },
           {
@@ -111,11 +112,10 @@
           {
             "type": "list",
             "list_items": [
-              "Continued improvement on Hub Flows with several enhancements, including removing old scripts and setting data source and Dataflow states to manual by default.",
-              "Allowed the listing of Load triggers with MQTT and OPC UA options.",
+			  "Various further developments in the UI",
               "Enhanced Upload with a prompt for a name if no file name is given.",
               "Fixed issue with merging the box Peakboard Hub snippets and removed unnecessary connection Hub functions.",
-              "Improved the error message when uploading a Hub Flow to the Hub online, clarifying license needs."
+              "Improved the error message when uploading a Hub Flow to the Hub online."
             ]
           },
           {
@@ -126,8 +126,7 @@
             "type": "list",
             "list_items": [
               "Replaced sources dialog in Dataflows with a simple text display for trigger sources.",
-              "Implemented validation for column names in the Rename Column Step of Dataflow, aligning with variable lists.",
-              "Fixed a bug where group aggregation on a column named 'Parent' failed in DevMaster but worked in Release."
+              "Implementation of a validation for column names in the column rename step"
             ]
           },
           {
@@ -137,11 +136,9 @@
           {
             "type": "list",
             "list_items": [
-              "Improved the user interface for SharePoint Lists.",
               "Implemented info boxes in various dialogs for user guidance.",
               "Implemented drag-and-drop functionality improvements in the Explorer.",
-              "Enhanced multi-line usage for cut titles to improve readability.",
-              "Resolved issues where the update feature and scrolling bars were malfunctioning.",
+              "Titles are now multiline instead of cut.",
               "Addressed multiple bugs relating to link clicking, script renaming, and other UI behaviors."
             ]
           },
@@ -152,9 +149,9 @@
           {
             "type": "list",
             "list_items": [
-              "Added properties for Conditional Formatting in Styled Lists/Tiles, including options to hide, change background color, width, and height.",
-              "Enabled CF connection to data outside the list bound to the Styled Lists/Tiles.",
-              "Fixed various bugs in Conditional Formatting, including the CF triggering and hotkey issues."
+              "Added properties for conditional formatting in styled lists/tiles: Options to hide, change background color",
+              "Conditional formatting for data outside the styled lists/tiles",
+              "Various bugs in conditional formatting have been fixed, including the trigger and hotkey issues."
             ]
           },
           {
@@ -165,10 +162,11 @@
             "type": "list",
             "list_items": [
               "Introduced the capability to save status code and error text in local variables for the HTTP block.",
-              "Added multiple features to Building Blocks: new comment blocks, return types, and enhanced regex support.",
-              "Ensure that the QuickWrap and QuickAdd buttons display correctly.",
-              "Incorporated various new actions and functions within the Snippets: Get Proxy LUA functions, error handling, and input refresh enhancements.",
-              "Addressed a variety of bugs related to snippet operations and Building Block functionality."
+              "Added multiple features to Building Blocks: new comment blocks, return types, and regex support.",
+              "Bugs fixed so that the QuickWrap and QuickAdd buttons are displayed correctly",
+              "Various new actions and functions have been integrated into the snippets: Get proxy settings and error handling.",
+              "Addressed a variety of bugs related to snippet operations and Building Block functionality.",
+              "Added a clear input snippet for clearing current inputs in the text input control."
             ]
           },
           {
@@ -178,9 +176,9 @@
           {
             "type": "list",
             "list_items": [
-              "Implemented a new AI integration for enhanced scripting within Building Blocks.",
+              "Implemented a new AI integration for scripting within Building Blocks.",
               "Revamped contexts, updating icons and buttons to improve usability.",
-              "Expanded debugging panel functionalities in the runtime, offering better visibility and control.",
+              "Expanded debugging panel functionalities in the runtime.",
               "Resolved bugs related to QuickWrap and local variable search functions"
             ]
           },
@@ -191,8 +189,7 @@
           {
             "type": "list",
             "list_items": [
-              "Implemented a new Hub Files Data source, enabling users to access file names and paths within a selected folder.",
-              "Improved license verification upon Hub connection changes, ensuring optimal flow project functionality."
+              "Implemented a new Hub Files Data source, enabling users to access file names and paths within a selected folder."
             ]
           },
           {
@@ -202,8 +199,9 @@
           {
             "type": "list",
             "list_items": [
-              "Enhanced support for non-generic lists in SharePoint, broadening data flexibility.",
-              "Resolved issues with adding rows to SharePoint Lists through Snippets, addressing challenges with empty lists or columns."
+              "Improved the user interface for SharePoint Lists.",
+              "Improved support for non-generic lists in SharePoint to access meta information of SharePoint files.",
+              "Resolved issues with adding rows to SharePoint Lists through Snippets."
             ]
           },
           {
@@ -213,8 +211,8 @@
           {
             "type": "list",
             "list_items": [
-              "Fixed the drag-and-drop issues within subfolders under Resources for seamless file management.",
-              "Resolved an error where certain links and buttons were not responding as intended."
+              "Fixed the drag-and-drop issues within subfolders under Resources.",
+              "A bug has been fixed where links led to an error message."
             ]
           },
           {
@@ -224,19 +222,8 @@
           {
             "type": "list",
             "list_items": [
-              "Add extended data source capabilities, including the addition of channel message reply counts.",
-              "Rectified errors occurring when retrieving messages from application bots instead of users."
-            ]
-          },
-          {
-            "type": "headline",
-            "text": "SharePoint Hub"
-          },
-          {
-            "type": "list",
-            "list_items": [
-              "Implemented Hub Files Data source for navigating name and paths of files in a folder within Hub Files.",
-              "Enabled license re-checks upon Hub connection updates, ensuring smooth Hub Flows."
+              "The number of replies in a thread is displayed.",
+              "Bugs have been fixed when retrieving messages from bots instead of users."
             ]
           },
           {
@@ -246,21 +233,18 @@
           {
             "type": "list",
             "list_items": [
-              "Implemented a debug panel in the Peakboard Runtime to improve data source management and script execution during debugging.",
+              "Implementation of a debug panel in the Peakboard Runtime, for the management of data sources and the execution of scripts during debugging.",
               "Resolved various bugs and enhanced script management functions for improved usability."
             ]
           },
           {
             "type": "headline",
-            "text": "Utilities"
+            "text": "Office Calendar"
           },
           {
             "type": "list",
             "list_items": [
-              "Added a clear input snippet for clearing current inputs in the text input control.",
-              "Introduced a return type function within Building Blocks to enhance clarity.",
-              "Enabled additional scripting functions within shared calendars, offering greater contextual support.",
-              "Enabled new script selection dialogues for improved user engagement."
+              "It is now possible to read shared calendars."
             ]
           }
         ]

@@ -1,0 +1,253 @@
+[
+  {
+    "version": "4.1.0.0",
+    "date": "20.10.2025",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+	  {
+	    "name": "Building Block KI Bot",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-AI_DE.gif",
+			"description": "Erstelle deine Anwendungslogik mit Hilfe des AI-gesteuerten Peakbots."
+			}
+		]
+	  },
+	  {
+	    "name": "Drawing area",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-Drawing.gif",
+			"description": "Zeichne direkt in deine Peakboard-Anwendungen."
+			}
+		]
+	  },
+	  {
+	    "name": "BACnet Datenquelle",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-BACnet_DE.gif",
+			"description": "Neue Datenquelle für BACnet-Geräte."
+			}
+		]
+	  },
+	  {
+	    "name": "Debug Panel",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-Debug.gif",
+			"description": "Neue Möglichkeiten zur Analyse und Fehlersuche in Anwendungen."
+			}
+		]
+	  },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "General"
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Möglichkeit Telefonanrufe in der Peakboard Anwendung durchzuführen auf Basis von SIP.",
+              "Die Überprüfung der Geräte-ID beim Einrichten eines neuen Lizenzschlüssels wurde angepasst, wodurch der Validierungsprozess für Geräte-IDs verbessert wurde.",
+              "Erlaube Einstellung von Standard-Soundgeräten in der Boxverwaltung.",
+              "Verbesserte Box-Verwaltung mit neu angeordneten Eigenschaften im Allgemein-Tab.",
+              "Es wurde ein Problem behoben, bei der Überprüfung von Hostnamen zur Laufzeit."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Box Communication"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Optimierte Swagger UI mit Beispielen und Beschreibungen.",
+              "In den Kommunikationseinstellungen wurde eine Checkbox hinzugefügt, um die Cloud-Kommunikation bevorzugen.",
+              "Es wurde der Fehler behoben, dass es bisher nicht möglich war, den Zeitserver/die Zeitzone für eine über die Cloud verbundene Box zu ändern.",
+              "Es wurde ein Problem behoben, bei dem die Peakboard Box Logs nicht übersetzt wurden und die Kopfzeile auf Deutsch abgeschnitten wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Extensions"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Zahlen-/String-Parameter können als Dropdown statt als Textfeld angezeigt werden",
+              "Versionsangaben in den in den Extensions hinzugefügt.",
+              "Es wurde eine Warnmeldung hinzugefügt, wenn eine Extension nicht installiert ist."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Variable"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Variablen kopieren nun ihre Einschränkungen aus dem Hub.",
+              "Der Dialog für die Variablenliste wurde aktualisiert",
+			  "Einschränkungen und Standardwerte wurden Variablenlisten zugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Verschiedene Weiterentwicklungen in der UI",
+              "Verbesserter Upload mit Aufforderung zur Eingabe eines Namens, wenn kein Dateiname angegeben wird",
+              "Die Fehlermeldung beim Hochladen eines Hub-Flows in den Hub online wurde verbessert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dataflow"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Der Quellen-Dialog in Dataflows wurde durch eine einfache Textanzeige für Triggerquellen ersetzt.",
+              "Implementierung einer Validierung für Spaltennamen im Spalten-Umbennen-Schritt"
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implementierung von Infoboxen in verschiedenen Dialogen zur Benutzerführung",
+              "Verbesserungen der Drag-and-Drop-Funktionalität im Explorer implementiert.",
+              "Titel werden nun mehrzeilig statt abgeschnitten.",
+              "Mehrere Fehler im Zusammenhang mit dem Anklicken von Links, dem Umbenennen von Skripten und anderen UI-Verhaltensweisen wurden behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Conditional Formatting"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Eigenschaften für bedingte Formatierung in styled Listen/Kacheln hinzugefügt: Optionen zum Ausblenden, Ändern der Hintergrundfarbe",
+              "Bedingte Formattierung zu Daten außerhalb der an die Styled Lists/Tiles",
+              "Verschiedene Fehler in der bedingten Formatierung wurden behoben, darunter die Trigger und Hotkey-Probleme."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Snippets / Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Es wurde die Möglichkeit eingeführt, den Statuscode und den Fehlertext in lokalen Variablen für den HTTP-Block zu speichern.",
+              "Mehrere Funktionen wurden zu Building Blocks hinzugefügt: neue Kommentarblöcke, Rückgabetypen und Regex-Unterstützung.",
+              "Bugs gefixt, dass die Schaltflächen QuickWrap und QuickAdd korrekt angezeigt werden",
+              "Verschiedene neue Aktionen und Funktionen wurden in die Snippets integriert: Get Proxy-Einstellungen und Fehlerbehandlung.",
+              "Behebung einer Reihe von Fehlern im Zusammenhang mit Snippet-Operationen und Building-Block-Funktionen.",
+              "Es wurde ein Snippet zum Löschen der aktuellen Eingaben im Texteingabefeld hinzugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Script Editor"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implemented a new AI integration for scripting within Building Blocks.",
+              "Revamped contexts, updating icons and buttons to improve usability.",
+              "Added debugging panel functionalities in the runtime.",
+              "Resolved bugs related to QuickWrap and local variable search functions"
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Es wurde eine neue Datenquelle für Hub-Dateien implementiert, die es den Benutzern ermöglicht, auf Dateinamen und Pfade innerhalb eines ausgewählten Ordners zuzugreifen"
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "SharePoint List"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Benutzeroberfläche für SharePoint-Listen wurde verbessert.",
+              "Verbesserte Unterstützung für nicht-generische Listen in SharePoint, um auf Metainformationen von SharePoint Dateien zuzugreifen.",
+              "Es wurden Probleme beim Hinzufügen von Zeilen zu SharePoint-Listen über Snippets behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Resources"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Probleme beim Ziehen und Ablegen in Unterordnern unter Ressourcen wurden behoben",
+              "Es wurde ein Fehler behoben, bei dem Links zu einer Fehlermeldung führten."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Teams"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Es wird die Anzahl an Antworten in einem Thread ausgegeben.",
+              "Es wurden Fehler behoben, beim Abrufen von Nachrichten von Bots anstelle von Benutzern."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Script Editor / Debug Panel"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implementierung eines Debug-Panels in der Peakboard Runtime, dür die Verwaltung der Datenquellen und die Ausführung von Skripten während des Debuggens.",
+              "Verschiedene Fehler wurden behoben und die Skriptverwaltungsfunktionen für eine bessere Benutzerfreundlichkeit verbessert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Office Kalender"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Es ist nun möglich gesharede Kalender auszulesen."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
