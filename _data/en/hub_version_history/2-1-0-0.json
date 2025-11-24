@@ -1,0 +1,149 @@
+[
+  {
+    "version": "2.1.0.0",
+    "date": "24.11.2025",
+    "download_url": "https://peakboard.com/download/PeakboardHub/archive/2.1.0.0/PeakboardHubSetup.exe",
+    "tabs": [
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Peakboard Boxes"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added a users tag to box log filters.",
+              "Added the ability to set upload-defined variables when deploying a Peakboard application to a box.",
+              "Added functionality to display changes in the box overview without reloading the page.",
+              "Added information about the currently logged-in user to box function calls.",
+			  "Added user settings to Hub Flow output lists.",
+              "Updated the UI for configuring the time server on a box.",
+              "Updated the password policy for box passwords.",
+              "Updated the password-change process to align with Peakboard Runtime changes.",
+              "Improved the UI for empty states to better guide users.",
+              "Improved performance when loading boxes in the box overview.",
+              "Improved box loading behavior when encountering boxes with broken certificates.",
+              "Improved usability in the box overview by remembering the state of box groups.",
+              "Added a hint indicating when no Peakboard Runtime update file is available during a box update attempt.",
+              "Fixed an issue where the restart button was missing in the box overview.",
+              "Fixed an issue when deleting rows in variable lists on a box.",
+              "Fixed an issue that prevented calling box functions when parameters with regex constraints were used.",
+              "Fixed incorrect data types when calling functions with parameters.",
+              "Fixed various UI issues on the box details page."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Lists"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added a flag that allows empty values for string value constraints.",
+              "Added functionality to automatically apply the column constraint to variables created via the binding dialog.",
+              "Updated the UI to improve usability when working with lists.",
+              "Improved file structure when downloading list data as CSV.",
+              "Improved performance when loading lists on the lists page.",
+              "Fixed an issue that prevented appending data when importing list data.",
+              "Fixed several minor issues related to list handling.",
+              "Fixed an issue where hidden list columns reappeared after reloading the page.",
+              "Fixed issues where lists could fail to load due to invalid user settings created in older Hub versions.",
+              "Fixed an issue where loading list data via plain SQL could fail.",
+              "Fixed an issue where empty strings always passed regex constraint validation.",
+              "Fixed an issue where the permission to delete rows did not work correctly.",
+              "Fixed an issue where multiple quotation marks were merged into a single one when importing list data."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Variables"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added a flag that allows empty values for string value constraints.",
+              "Added the ability to change a variable's data type and constraint.",
+              "Added functionality to display changes in the variable overview without reloading the page.",
+              "Added enforcement of constraints on remote data updates, including error messages for invalid values.",
+              "Improved the UI to better align with the Peakboard design.",
+              "Fixed an issue when updating values of string variables bound to a list."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "File Manager"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added functionality to show differences for .pbmx files in the file manager version overview.",
+              "Improved icons for a better look and feel.",
+              "Fixed an issue where the file manager was unusable in some cases.",
+              "Fixed an issue when overwriting existing files that were not visible to the current user."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed an issue with aggregation steps in Hub Flows.",
+              "Fixed an issue with RSS feeds in Hub Flows."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Users"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added a button to manually delete user invitations.",
+              "Updated the UI for a better look and feel.",
+              "Fixed an issue where user groups could not be deleted in certain cases.",
+              "Removed the Screenshot Only access right to simplify user group configuration."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Settings"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added the possibility to manually upload a Peakboard Runtime update file from the user’s system.",
+              "Added a setting to automatically deactivate boxes that return an unauthorized error when contacted.",
+              "Improved the UI for adding a new license key."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "General"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Improved encryption of secure data stored in the Hub database.",
+              "Improved message box positioning for better usability.",
+              "Improved the expired-license dialog."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "API"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added CSV as an output format for list data."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
