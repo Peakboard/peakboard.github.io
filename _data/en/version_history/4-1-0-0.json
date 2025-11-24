@@ -1,0 +1,254 @@
+[
+  {
+    "version": "4.1.0.0",
+    "date": "20.10.2025",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.1.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+	  {
+	    "name": "Building Block AI Bot",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-AI_EN.gif",
+			"description": "Create your application logic with the help of our AI driven Peakbot."
+			}
+		]
+	  },
+	  {
+	    "name": "Drawing area",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-Drawing.gif",
+			"description": "Draw directly into your Peakboard applications."
+			}
+		]
+	  },
+	  {
+	    "name": "BACnet datasource",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-BACnet_EN.gif",
+			"description": "New datasource to connect BACnet devices."
+			}
+		]
+	  },
+	  {
+	    "name": "Debug Panel",
+	    "content": [
+			{
+			"type": "image",
+			"image": "4-1-0-0-Debug.gif",
+			"description": "New possibility to analyse and debug applications."
+			}
+		]
+	  },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "General"
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Possibility to make phone calls in the Peakboard application based on SIP.",
+              "Adjusted device ID check when setting a new license key, enhancing the validation process for device IDs.",
+              "Allowed setting of default sound devices in the Box management dialog.",
+              "Enhanced Box Management with rearranged properties in the general tab.",
+              "A problem has been fixed when checking hostnames at runtime."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Box Communication"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Optimized Swagger UI with examples and descriptions.",
+              "A checkbox has been added in the communication settings to prefer cloud communication.",
+              "Fixed the error where it was previously not possible to change the timeserver/timezone for a box connected via the cloud.",
+              "Resolved the issue where the Peakboard Box logs were not translated, and the header was cut in German."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Extensions"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Number/string parameters can be displayed as a dropdown instead of a text field",
+              "Included version details in the extension dialog and restricted updates to cases where the current version is lower than the online version.",
+              "A warning message has been added if an extension is not installed."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Variable"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Variables now copy their constraints from the hub.",
+              "The dialog for the variable list has been updated",
+			  "Restrictions and default values have been added to variable lists."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+			  "Various further developments in the UI",
+              "Enhanced Upload with a prompt for a name if no file name is given.",
+              "Fixed issue with merging the box Peakboard Hub snippets and removed unnecessary connection Hub functions.",
+              "Improved the error message when uploading a Hub Flow to the Hub online."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dataflow"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Replaced sources dialog in Dataflows with a simple text display for trigger sources.",
+              "Implementation of a validation for column names in the column rename step"
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implemented info boxes in various dialogs for user guidance.",
+              "Implemented drag-and-drop functionality improvements in the Explorer.",
+              "Titles are now multiline instead of cut.",
+              "Addressed multiple bugs relating to link clicking, script renaming, and other UI behaviors."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Conditional Formatting"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added properties for conditional formatting in styled lists/tiles: Options to hide, change background color",
+              "Conditional formatting for data outside the styled lists/tiles",
+              "Various bugs in conditional formatting have been fixed, including the trigger and hotkey issues."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Snippets / Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Introduced the capability to save status code and error text in local variables for the HTTP block.",
+              "Added multiple features to Building Blocks: new comment blocks, return types, and regex support.",
+              "Bugs fixed so that the QuickWrap and QuickAdd buttons are displayed correctly",
+              "Various new actions and functions have been integrated into the snippets: Get proxy settings and error handling.",
+              "Addressed a variety of bugs related to snippet operations and Building Block functionality.",
+              "Added a clear input snippet for clearing current inputs in the text input control."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Script Editor"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implemented a new AI integration for scripting within Building Blocks.",
+              "Revamped contexts, updating icons and buttons to improve usability.",
+              "Expanded debugging panel functionalities in the runtime.",
+              "Resolved bugs related to QuickWrap and local variable search functions"
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implemented a new Hub Files Data source, enabling users to access file names and paths within a selected folder."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "SharePoint List"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Improved the user interface for SharePoint Lists.",
+              "Improved support for non-generic lists in SharePoint to access meta information of SharePoint files.",
+              "Resolved issues with adding rows to SharePoint Lists through Snippets."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Resources"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed the drag-and-drop issues within subfolders under Resources.",
+              "A bug has been fixed where links led to an error message."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Teams"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "The number of replies in a thread is displayed.",
+              "Bugs have been fixed when retrieving messages from bots instead of users."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Script Editor / Debug Panel"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Implementation of a debug panel in the Peakboard Runtime, for the management of data sources and the execution of scripts during debugging.",
+              "Resolved various bugs and enhanced script management functions for improved usability."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Office Calendar"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "It is now possible to read shared calendars."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

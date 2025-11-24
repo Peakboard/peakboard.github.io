@@ -8,7 +8,7 @@ weight: 1300
 ref: dat-1300
 redirect_from:
 ---
-Bei Modbus handelt es sich um ein offenes Kommuniktationsprotokoll.
+Bei Modbus handelt es sich um ein offenes Kommunikationsprotokoll.
 Mit Modbus können ein Client wie zum Beispiel Peakboard und mehrere Server verbunden werden.
 Der Peakboard Designer nutzt zur Datenübertragung die Betriebsart Modbus/TCP.
 Viele weitere Informationen zu Modbus findest du unter [Modbus.org](https://modbus.org)
