@@ -16,6 +16,7 @@ To check in a script whether the toggle switch is activated or not, the respecti
 This is 'true' if the toggle switch is activated and 'false' if it is deactivated. 
 You can also specify the text above the toggle switch and the text for the positions 'activated' and 'deactivated'. 
 This can be set in the properties of the respective control.
+...
 
 Further information on how to create scripts or how the [Script-Editor](/scripting/en-script-editor.html) works can be found in the Scripting section.
 
