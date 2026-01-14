@@ -17,42 +17,48 @@ Du findest den Kippschalter im Peakboard Designer in der Gruppe Interaktiv (1). 
 ## Konfiguration und Eigenschaften
 Sobald du den Kippschalter doppelt anklickst, erscheint der Konfigurationsdialog. 
 
-__1__ __Allgemein__ __und__ __Datenbindung__
+### 1 Allgemein und Datenbindung
 In diesem Bereich definierst du die Identität des Schalters:
 
-•	__Datenquelle__: Hier nimmst du die Datenverknüpfung vor (1). Du kannst den Schalter direkt an eine Datenquelle binden (z. B. eine Variable vom Typ Boolean). Wenn sich der Zustand des Schalters ändert, wird der Wert sofort in die Variable zurückgeschrieben.
+•	**Datenquelle**: Hier nimmst du die Datenverknüpfung vor (1). Du kannst den Schalter direkt an eine Datenquelle binden (z. B. eine Variable vom Typ Boolean). Wenn sich der Zustand des Schalters ändert, wird der Wert sofort in die Variable zurückgeschrieben.
 
 ![image_2](/assets/images/Controls/Toggle-Switch/de-toggleswitch02.png)
 
 Du kannst die Datenquelle auch über die Eigenschaften auf der rechten Seite unter "Daten" mit dem Kippschalter-Control anbinden und verknüpfen.
 
-__2__ __Aussehen__ __und__ __Beschriftung__
+### 2 Aussehen und Beschriftung
+
 In den Eigenschaften auf der rechten Seite bearbeitest du die visuelle Gestaltung:
 
-•	__Label__: Hier kannst du dem Kippschalter eine Bezeichnung vergeben
+•	**Label**: Hier kannst du dem Kippschalter eine Bezeichnung vergeben
 
-•	__Aussehen__: Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber.
+•	**Aussehen**: Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber.
 
 Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen soll
 
 ## Scripting
-Um das Control in einem Building-Block-Script zu verwenden, ist es vorerst wichtig, dass der Kippschalter mit einer fixen booleschen Variable verknüpft ist(1) und die Funktion __"__ __In__ __Skripten__ __verwendet__ __"__(2) aktiv ist.
+Um das Control in einem Building-Block-Script zu verwenden, ist es vorerst wichtig, dass der Kippschalter mit einer fixen booleschen Variable verknüpft ist(1). 
+Es kann dazu hilfreich sein, die Funktion "**In Skripten verwendet**" (2) zu aktivieren.
 Achte ebenfalls darauf, dass der Initialwert der booleschen Variable mit dem Status des Kippschalters übereinstimmt.
 
 ![image_3](/assets/images/Controls/Toggle-Switch/de-toggleswitch03_scripting_voreinstellung.png)
 
-**Beispiel**: Überprüfen, ob der Kippschalter aktiviert ist
-Öffne dazu im Designer den Script-Editor auf der rechten unteren Seite unter __Logik__ und " __Umgeschaltet__ ". Wähle unter der Blockkategorie __Basics__ und __Logik__  den Blockcode " __Wenn-Dann-Anweisung__ " mit einem Doppelklick aus oder ziehe ihn auf die Editor-Oberfläche.
-Wähle den Blockcode " **Variable__abrufen** " unter der Kategorie __Variablen__ und setze Sie in das erste freie Feld im __Wenn-Dann-Block__(1). Überprüfe, ob die korrekte Variable aktiv ist.
-Scrolle runter zu __Logik__ und wähle __Boolean__. Ziehe diesen auf das Nachbarfeld im __Wenn-Dann-Block__(2). Sollte die Variable nicht aktiviert und der Schalter inaktiv sein, wähle " __False__ ".
-Wähle unter der Kategorie __Funktionen__ und __Peakboard__Box__ den Blockcode " __Ins__Log__schreiben__ " und setzte diesen in die nächste Zeile im __Wenn-Dann-Block__(3). Trage " __Kippschalter_Aktiv__ " oder etwas ähnliches in 
-Nun kannst Du den letzten Schritt wiederholen und den Blockcode noch einmal auswählen, oder Du klickst mit der rechten Maustaste auf den Code " __schreibe__ins__Log " und wählst __Duplizieren__.
-Setze diesen Blockcode auf die Höhe bei " __sonst__" und bearbeite den Inhalt dieses Blockcodes auf " __Kippschalter__nicht__aktiv__ " (4).
-Speichere das Skript unter " __Speichern__und_Schließen__" (5) ab.
+#### Beispiel: Überprüfen, ob der Kippschalter aktiviert ist
+Öffne dazu im Designer den Script-Editor auf der rechten unteren Seite unter **Logik** und "**Umgeschaltet**". 
+Wähle unter der Blockkategorie **Basics** und **Logik** den Blockcode "**Wenn-Dann-Anweisung**" mit einem Doppelklick aus oder ziehe ihn auf die Editor-Oberfläche.
+
+Wähle den Blockcode " **Variable abrufen** " unter der Kategorie **Variablen** und setze Sie in das erste freie Feld im **Wenn-Dann-Block** (1). Überprüfe, ob die korrekte Variable aktiv ist.
+Scrolle runter zu **Logik** und wähle **Boolean**. Ziehe diesen auf das Nachbarfeld im **Wenn-Dann-Block** (2). Für den Fall, dass  die Variable nicht aktiviert und der Schalter inaktiv sein sollte, wähle "**False**".
+
+Wähle unter der Kategorie **Funktionen** und **Peakboard Box** den Blockcode "**Ins Log schreiben**" und setzte diesen in die nächste Zeile im **Wenn-Dann-Block** (3). Trage " **Kippschalter Aktiv**" oder etwas ähnliches in das grüne Textfeld ein.
+Nun kannst Du den letzten Schritt wiederholen und den Blockcode noch einmal auswählen, oder Du klickst mit der rechten Maustaste auf den Code "**schreibe ins Log**" und wählst **Duplizieren**.
+Setze diesen Blockcode auf die Höhe bei "**sonst**" und bearbeite den Inhalt dieses Blockcodes auf "**Kippschalter nicht aktiv**" (4).
+
+Speichere das Skript unter "**Speichern und Schließen**" (5) ab.
 
 ![image_4](/assets/images/Controls/Toggle-Switch/de-toggleswitch04-scripting.png)
 
-Starte die Vorschau und überprüfe im __Log__ (1), ob der Rückgabewert je nach Status des Kippschalters korrekt zurückgegeben wird. Klicke zum interagieren auf den Schalter:
+Starte die Vorschau und überprüfe im **Log** (1), ob der Rückgabewert je nach Status des Kippschalters korrekt zurückgegeben wird. Klicke zum interagieren auf den Schalter:
 ![image_5](/assets/images/Controls/Toggle-Switch/de-toggleswitch05-previewtest.png)
 
 **In diesem Video** wird nochmal verdeutlicht, wie das Skript für dieses Beispiel aufgebaut und auf erfolgreiche Funktion geprüft wird:
