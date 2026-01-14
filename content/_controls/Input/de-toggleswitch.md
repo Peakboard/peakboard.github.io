@@ -14,7 +14,7 @@ Du findest den Kippschalter im Peakboard Designer in der Gruppe Interaktiv (1). 
 
 ![image_1](/assets/images/Controls/Toggle-Switch/de-toggleswitch01.png)
 
-##Konfiguration und Eigenschaften
+## Konfiguration und Eigenschaften
 Sobald du den Kippschalter doppelt anklickst, erscheint der Konfigurationsdialog. 
 __(1)__ __Allgemein__ __und__ __Datenbindung__
 In diesem Bereich definierst du die Identität des Schalters:
@@ -28,7 +28,7 @@ In den Eigenschaften auf der rechten Seite bearbeitest du die visuelle Gestaltun
 •	__Aussehen__: Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber.
 Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen soll
 
-##Scripting
+## Scripting
 Um das Control in einem Building-Block-Script zu verwenden, ist es vorerst wichtig, dass der Kippschalter mit einer fixen booleschen Variable verknüpft ist(1) und die Funktion __"__ __In__ __Skripten__ __verwendet__ __"__(2) aktiv ist.
 Achte ebenfalls darauf, dass der Initialwert der booleschen Variable mit dem Status des Kippschalters übereinstimmt.
 ![image_3](/assets/images/Controls/Toggle-Switch/de-toggleswitch03_scripting_voreinstellung.png)
