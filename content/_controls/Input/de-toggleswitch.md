@@ -27,11 +27,11 @@ In diesem Bereich definierst du die Identität des Schalters:
 
 In den Eigenschaften auf der rechten Seite bearbeitest du die visuelle Gestaltung:
 
-•	**Label**: Hier kannst du dem Kippschalter eine Bezeichnung vergeben
+•	**Label**: Hier kannst du dem Kippschalter eine Bezeichnung vergeben.
 
 •	**Aussehen**: Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber.
 
-Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen soll
+Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen soll.
 
 ## Scripting
 Um das Control in einem Building-Block-Script zu verwenden, ist es vorerst wichtig, dass der Kippschalter mit einer fixen booleschen Variable verknüpft ist (1). 
