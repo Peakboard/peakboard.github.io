@@ -58,5 +58,6 @@ Save the script using "Save and Close" (5).
 Start the preview and check the log (1) to verify that the return value is correctly displayed depending on the toggle switch state. Click the switch to interact with it.
 ![image_5](/assets/images/Controls/Toggle-Switch/toggleswitch05.png)
 
+
 This video demonstrates how the script for this example is structured and verified for correct functionality:
 ![image-gif_6](/assets/images/Controls/Toggle-Switch/toggleswitch06-mp4.gif)

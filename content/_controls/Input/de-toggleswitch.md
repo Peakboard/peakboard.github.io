@@ -44,7 +44,7 @@ Es kann dazu hilfreich sein, die Funktion "**In Skripten verwendet**" (2) zu akt
 Wähle unter der Blockkategorie **Basics** und **Logik** den Blockcode "**Wenn-Dann-Anweisung**" mit einem Doppelklick aus oder ziehe ihn auf die Editor-Oberfläche.
 
 Wähle den Blockcode " **Variable abrufen** " unter der Kategorie **Variablen** und setze Sie in das erste freie Feld im **Wenn-Dann-Block** (1). Überprüfe, ob die korrekte Variable aktiv ist.
-Scrolle runter zu **Logik** und wähle **Boolean**. Ziehe diesen auf das Nachbarfeld im **Wenn-Dann-Block** (2). Für den Fall, dass  die Variable nicht aktiviert und der Schalter inaktiv sein sollte, wähle "**False**".
+Scrolle runter zu **Logik** und wähle **Boolean**. Ziehe diesen auf das Nachbarfeld im **Wenn-Dann-Block** (2). Für den Fall, dass die Variable nicht aktiviert und der Schalter inaktiv sein sollte, wähle "**False**".
 
 Wähle unter der Kategorie **Funktionen** und **Peakboard Box** den Blockcode "**Ins Log schreiben**" und setzte diesen in die nächste Zeile im **Wenn-Dann-Block** (3). Trage " **Kippschalter Aktiv**" oder etwas ähnliches in das grüne Textfeld ein.
 Nun kannst Du den letzten Schritt wiederholen und den Blockcode noch einmal auswählen, oder Du klickst mit der rechten Maustaste auf den Code "**schreibe ins Log**" und wählst **Duplizieren**.
