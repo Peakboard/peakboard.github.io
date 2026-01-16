@@ -26,24 +26,19 @@ In this section, you define the basic functionality:
 ### 2 Appearance and Labeling
 Once you have selected the checkbox in the Designer, you can make all specific settings in the properties on the right side. Among other things, you can design the visual look here:
 
-•	**Initial State** (Data): You can determine whether the checkbox should be activated or deactivated by default when the visualization starts. Here, you link the checkbox to a variable (1).
-
-•	**Label** (Data): Here you can store the text that should be displayed next to the checkbox (e.g., "I accept the terms and conditions") (2).
-
-•	**Font & Color** (Appearance): Customize the font and color of the label, as well as the color of the checkmark and the frame, to match your dashboard design (3).
-
-•	**Use in scripts** (Logic): Give the control a unique name (4) so that you can easily identify it later in scripting (5).
+1. **Initial State** (Data): You can determine whether the checkbox should be activated or deactivated by default when the visualization starts. Here, you link the checkbox to a variable (1).
+2. **Label** (Data): Here you can store the text that should be displayed next to the checkbox (e.g., "I accept the terms and conditions") (2).
+3. **Font & Color** (Appearance): Customize the font and color of the label, as well as the color of the checkmark and the frame, to match your dashboard design (3).
+4. **Use in scripts** (Logic): Give the control a unique name (4) so that you can easily identify it later in scripting (5).
 
 ![image3](/assets/images/Controls/Check-Box/checkbox03.png)
 
 ## Scripting
 The checkbox gives you the ability to react directly to state changes with logic. In the properties under the Logic tab, you will find three specific events:
 
-•	**Checked Event**: This script is executed as soon as the box is checked.
-
-•	**Unchecked Event**: This script is executed when the checkmark is removed.
-
-•	**Toggled**: This script is executed as soon as the state of the box changes.
+1. **Checked Event**: This script is executed as soon as the box is checked.
+2. **Unchecked Event**: This script is executed when the checkmark is removed.
+3. **Toggled**: This script is executed as soon as the state of the box changes.
 
 ### Example: Check output status in the log
 If you want to check whether an input has been made, you can solve this in scripting using Building Blocks. To do this, link the checkbox (1b) with the fixed Boolean variable (1a).

@@ -25,13 +25,10 @@ In diesem Bereich definierst du die grundlegende Funktionsweise:
 ### 2 Aussehen und Beschriftung
 Sobald du die Checkbox im Designer ausgewählt hast, kannst du in den Eigenschaften auf der rechten Seite alle spezifischen Einstellungen vornehmen. Unter anderem kannst Du hier den visuellen Look gestalten:
 
-•	Initialer Zustand (Daten): Du kannst festlegen, ob die Checkbox beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll. Hier verknüpfst Du die Checkbox mit einer Variablen (1).
-
-•	Label (Daten): Hier kannst du den Text hinterlegen, der neben der Checkbox angezeigt werden soll (z. B. „Ich akzeptiere die Bedingungen“) (2).
-
-•	Schriftart & Farbe (Aussehen): Passe die Schriftart und die Farbe des Labels sowie die Farbe des Hakens und des Rahmens an dein Dashboard-Design an (3).
-
-•	In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen (4), um es später im Scripting einfach identifizieren zu können (5). 
+1. Initialer Zustand (Daten): Du kannst festlegen, ob die Checkbox beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll. Hier verknüpfst Du die Checkbox mit einer Variablen (1).
+2. Label (Daten): Hier kannst du den Text hinterlegen, der neben der Checkbox angezeigt werden soll (z. B. „Ich akzeptiere die Bedingungen“) (2).
+3. Schriftart & Farbe (Aussehen): Passe die Schriftart und die Farbe des Labels sowie die Farbe des Hakens und des Rahmens an dein Dashboard-Design an (3).
+4. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen (4), um es später im Scripting einfach identifizieren zu können (5). 
  
  ![image3](/assets/images/Controls/Check-Box/checkbox03.png)
  
