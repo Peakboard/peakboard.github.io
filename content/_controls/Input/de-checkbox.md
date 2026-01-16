@@ -31,7 +31,7 @@ Sobald du die Checkbox im Designer ausgewählt hast, kannst du in den Eigenschaf
  
  ![image3](/assets/images/Controls/Check-Box/checkbox03.png)
  
-Scripting
+## Scripting
 Die Checkbox bietet dir die Möglichkeit, auf Zustandsänderungen direkt mit Logik zu reagieren. In den Eigenschaften findest du unter dem Reiter Logik drei spezifische Events:
 1.	Checked Event: Dieses Skript wird ausgeführt, sobald der Haken gesetzt wird.
 2.	Unchecked Event: Dieses Skript wird ausgeführt, wenn der Haken entfernt wird.
