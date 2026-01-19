@@ -30,10 +30,11 @@ In den Eigenschaften auf der rechten Seite bearbeitest du die visuelle Gestaltun
 1. Initialer Zustand (Daten): Du kannst festlegen, ob der Kippschalter beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll (1)
 2. Label (Daten): Hier kannst du dem Kippschalter eine Bezeichnung vergeben. (2)
 3. Schriftart & Farbe (Aussehen): Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber. (3)
+Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen soll.
 
 ![image_3](/assets/images/Controls/Toggle-Switch/toggleswitch03.png)
 
-Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen soll.
+
 
 ## Scripting
 Um das Control in einem Building-Block-Script zu verwenden, ist es vorerst wichtig, dass der Kippschalter mit einer fixen booleschen Variable verknüpft ist (1). 

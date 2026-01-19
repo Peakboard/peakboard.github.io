@@ -29,7 +29,7 @@ In the properties panel on the right, you can adjust the visual design:
 
 1. Initial State (Data): You can determine whether the checkbox should be activated or deactivated by default when the visualization starts.
 2. Label (Data): Here you can assign a label to the toggle switch.
-3. Font & Color (Appearance): Define the font, size, and position of the text, as well as the colors for the background and the slider.
+3. Font & Color (Appearance): **Font & Color** (Appearance): Customize the font and color of the label, as well as the color of the checkmark and the frame, to match your dashboard design. Under "Border", you can determine how rounded or angular the switch should appear.
 
 ![image_3](/assets/images/Controls/Toggle-Switch/toggleswitch03.png)
 
