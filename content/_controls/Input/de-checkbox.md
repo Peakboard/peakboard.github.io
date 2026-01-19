@@ -18,14 +18,14 @@ Du findest die Checkbox im Peakboard Designer in der Gruppe Interaktiv (1). Zieh
 ## Konfiguration und Eigenschaften
 ### 1 Allgemein und Datenbindung
 In diesem Bereich definierst du die grundlegende Funktionsweise:
-•	Datenquelle: Hier nimmst du die Datenverknüpfung vor (1). Du kannst die Checkbox direkt an eine Variable vom Typ Boolean binden. Wenn ein Nutzer die Checkbox aktiviert oder deaktiviert, wird der Status (true oder false) sofort in die verknüpfte Variable zurückgeschrieben.
+* Datenquelle: Hier nimmst du die Datenverknüpfung vor (1). Du kannst die Checkbox direkt an eine Variable vom Typ Boolean binden. Wenn ein Nutzer die Checkbox aktiviert oder deaktiviert, wird der Status (true oder false) sofort in die verknüpfte Variable zurückgeschrieben.
  
 ![image2](/assets/images/Controls/Check-Box/checkbox02.png)
  
 ### 2 Aussehen und Beschriftung
 Sobald du die Checkbox im Designer ausgewählt hast, kannst du in den Eigenschaften auf der rechten Seite alle spezifischen Einstellungen vornehmen. Unter anderem kannst Du hier den visuellen Look gestalten:
 
-1. **Initialer Zustand** (Daten): Du kannst festlegen, ob die Checkbox beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll. Hier verknüpfst Du die Checkbox mit einer Variablen (1).
+1. **Initialer Zustand** (Daten): Du kannst festlegen, ob die Checkbox beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll(1).
 2. **Label** (Daten): Hier kannst du den Text hinterlegen, der neben der Checkbox angezeigt werden soll (z. B. „Ich akzeptiere die Bedingungen“) (2).
 3. **Schriftart & Farbe** (Aussehen): Passe die Schriftart und die Farbe des Labels sowie die Farbe des Hakens und des Rahmens an dein Dashboard-Design an (3).
 4. **In Skripten verwenden** (Logik): Gib dem Control einen eindeutigen Namen (4), um es später im Scripting einfach identifizieren zu können (5). 

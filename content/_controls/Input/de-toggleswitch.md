@@ -19,7 +19,7 @@ Sobald du den Kippschalter doppelt anklickst, erscheint der Konfigurationsdialog
 ### 1 Allgemein und Datenbindung
 In diesem Bereich definierst du die Identität des Schalters:
 
-•	**Datenquelle**: Hier nimmst du die Datenverknüpfung vor (1). Du kannst den Schalter direkt an eine Datenquelle binden (z. B. eine Variable vom Typ Boolean). Wenn sich der Zustand des Schalters ändert, wird der Wert sofort in die Variable zurückgeschrieben.
+* Datenquelle: Hier nimmst du die Datenverknüpfung vor (1). Du kannst den Schalter direkt an eine Datenquelle binden (z. B. eine Variable vom Typ Boolean). Wenn sich der Zustand des Schalters ändert, wird der Wert sofort in die Variable zurückgeschrieben.
 
 ![image_2](/assets/images/Controls/Toggle-Switch/toggleswitch02.png)
 
@@ -27,9 +27,11 @@ In diesem Bereich definierst du die Identität des Schalters:
 
 In den Eigenschaften auf der rechten Seite bearbeitest du die visuelle Gestaltung:
 
-•	**Label**: Hier kannst du dem Kippschalter eine Bezeichnung vergeben.
+1. Initialer Zustand (Daten): Du kannst festlegen, ob die Checkbox beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll 
+2. Label (Daten): Hier kannst du dem Kippschalter eine Bezeichnung vergeben.
+3. Schriftart & Farbe (Aussehen): Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber.
 
-•	**Aussehen**: Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber.
+![image_3](/assets/images/Controls/Toggle-Switch/toggleswitch03.png)
 
 Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen soll.
 
@@ -37,7 +39,7 @@ Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen so
 Um das Control in einem Building-Block-Script zu verwenden, ist es vorerst wichtig, dass der Kippschalter mit einer fixen booleschen Variable verknüpft ist (1). 
 Es kann dazu hilfreich sein, die Funktion "**In Skripten verwendet**" (2) zu aktivieren.
 
-![image_3](/assets/images/Controls/Toggle-Switch/toggleswitch03.png)
+![image_4](/assets/images/Controls/Toggle-Switch/toggleswitch04.png)
 
 #### Beispiel: Überprüfen, ob der Kippschalter aktiviert ist
 Öffne dazu im Designer den Script-Editor auf der rechten unteren Seite unter **Logik** und "**Umgeschaltet**". 
@@ -52,11 +54,11 @@ Setze diesen Blockcode auf die Höhe bei "**sonst**" und bearbeite den Inhalt di
 
 Speichere das Skript unter "**Speichern und Schließen**" (5) ab.
 
-![image_4](/assets/images/Controls/Toggle-Switch/toggleswitch04.png)
-
-Starte die Vorschau und überprüfe im **Log** (1), ob der Rückgabewert je nach Status des Kippschalters korrekt zurückgegeben wird. Klicke zum interagieren auf den Schalter:
 ![image_5](/assets/images/Controls/Toggle-Switch/toggleswitch05.png)
 
+Starte die Vorschau und überprüfe im **Log** (1), ob der Rückgabewert je nach Status des Kippschalters korrekt zurückgegeben wird. Klicke zum interagieren auf den Schalter:
+![image_6](/assets/images/Controls/Toggle-Switch/toggleswitch06.png)
+
 **In diesem Video** wird nochmal verdeutlicht, wie das Skript für dieses Beispiel aufgebaut und auf erfolgreiche Funktion geprüft wird:
-![image-gif_6](/assets/images/Controls/Toggle-Switch/toggleswitch06-mp4.gif)
+![image-gif_7](/assets/images/Controls/Toggle-Switch/toggleswitch07-mp4.gif)
 
