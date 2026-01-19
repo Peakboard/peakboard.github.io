@@ -38,7 +38,7 @@ Die Dropdown-Liste reagiert primär auf eine Änderung der Auswahl. Hast Du dem 
 
 ![image5](/assets/images/Controls/Dropdown/dropdown05.png)
 
-## Einfaches Scripting
+## Scripting
 ### Beispiel: Gewählten Wert im Log ausgeben
 Oft möchte man den gewählten Wert nutzen, um andere Datenquellen zu filtern. In diesem Beispiel schreiben wir den gewählten Namen in das Log.
 Schritte im Script-Editor:

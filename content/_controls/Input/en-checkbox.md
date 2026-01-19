@@ -19,7 +19,7 @@ Simply drag and drop the icon onto your workspace.
 ### 1 General and Data Binding
 In this section, you define the basic functionality:
 
-•	**Data Source**: This is where you perform the data linking (1). You can bind the checkbox directly to a variable of type Boolean. When a user activates or deactivates the checkbox, the status (true or false) is immediately written back to the linked variable.
+* Data Source: This is where you perform the data linking (1). You can bind the checkbox directly to a variable of type Boolean. When a user activates or deactivates the checkbox, the status (true or false) is immediately written back to the linked variable.
 
 ![image2](/assets/images/Controls/Check-Box/checkbox02.png)
 
