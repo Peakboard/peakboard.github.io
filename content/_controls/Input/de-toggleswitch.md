@@ -34,8 +34,6 @@ Unter Kontur kannst Du bestimmen, wie rund oder eckig der Schalter erscheinen so
 
 ![image_3](/assets/images/Controls/Toggle-Switch/toggleswitch03.png)
 
-
-
 ## Scripting
 Um das Control in einem Building-Block-Script zu verwenden, ist es vorerst wichtig, dass der Kippschalter mit einer fixen booleschen Variable verknüpft ist (1). 
 Es kann dazu hilfreich sein, die Funktion "**In Skripten verwendet**" (2) zu aktivieren.
