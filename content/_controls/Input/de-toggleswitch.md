@@ -27,9 +27,9 @@ In diesem Bereich definierst du die Identität des Schalters:
 
 In den Eigenschaften auf der rechten Seite bearbeitest du die visuelle Gestaltung:
 
-1. Initialer Zustand (Daten): Du kannst festlegen, ob die Checkbox beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll 
-2. Label (Daten): Hier kannst du dem Kippschalter eine Bezeichnung vergeben.
-3. Schriftart & Farbe (Aussehen): Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber.
+1. Initialer Zustand (Daten): Du kannst festlegen, ob der Kippschalter beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll (1)
+2. Label (Daten): Hier kannst du dem Kippschalter eine Bezeichnung vergeben. (2)
+3. Schriftart & Farbe (Aussehen): Definiere die Schriftart, Größe und Position des Textes, Farben für den Hintergrund und den Schieber. (3)
 
 ![image_3](/assets/images/Controls/Toggle-Switch/toggleswitch03.png)
 
