@@ -35,7 +35,7 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und Design ve
 2. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (2)
 3. Selection Changed: Dieses Skript wird immer dann ausgeführt, wenn der Nutzer einen neuen Eintrag auswählt (3).
 
-Die Dropdown-Liste reagiert primär auf eine Änderung der Auswahl. Hast Du dem Control einen eindeutigen Namen zur Verwendung in Skripten gegeben, so kannst Du es im Skript-Editor nutzen. In den Eigenschaften findest du unter Logik das Event:
+Die Dropdown-Liste reagiert primär auf eine Änderung der Auswahl. Hast Du dem Control einen eindeutigen Namen zur Verwendung in Skripten gegeben, so kannst Du es im Skript-Editor nutzen. In den Eigenschaften findest du unter Logik das "Selection-Changed" Event.
 
 ![image5](/assets/images/Controls/Dropdown/dropdown05.png)
 
@@ -51,7 +51,7 @@ Schritte im Script-Editor:
 
 ![image6](/assets/images/Controls/Dropdown/dropdown06.png) 
  
-Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach ausgewähltem Inhalt des Dropdowns korrekt zurückgegeben wird. Wähle verschiedene Inhalte aus, um den das Log zu erweitern.
+Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach ausgewähltem Inhalt des Dropdowns korrekt zurückgegeben wird. Wähle verschiedene Inhalte aus, um das Log zu erweitern.
 
 ![image7](/assets/images/Controls/Dropdown/dropdown07.png)
 
