@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Slider
+title: Schieberegler
 menu_title: Schieberegler
-description: Information über Peakboard Designer Slider Control.
+description: Information über Peakboard Designer Schieberegler Control.
 lang: de
 weight: 780
 ref: con-780
