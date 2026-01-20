@@ -59,7 +59,7 @@ Als Erweiterung kann man in die Anzeigefläche ein Textfeld einfügen, um den We
 
 ![image_6](/assets/images/Controls/Slider/slider06.png)
 
-Gehe nun in das Skript der Textfeld unter „Tapped“:
+Gehe nun in das Skript des Textfelds unter „Tapped“:
 1.	Ziehe „Wert setzen“ unter „Wert“ des Schiebereglers Controls in den Skript-Editor (1a), (1b)
 2.	Wähle die Variable, die mit der Textfeld verknüpft ist (2) und verbinde die beiden Blöcke.
 3.	Wähle unter Funktionen den Block „Ins Log schreiben“ (3) und erneut die Textfeld-Variable und verknüpfe die beiden Blöcke sowie mit dem vorherigen Block (4).
