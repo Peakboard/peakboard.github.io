@@ -48,9 +48,9 @@ Oft soll ein Schwellenwert überwacht werden. In diesem Beispiel schreiben wir d
 4.	Kombiniere beide Blöcke, um den Wert live in der Vorschau zu sehen (3).
 5.	Speichere das Skript unter “Speichern und Schließen” ab.
 
-![image_4](/assets/images/Controls/Slider/slider04.png)
-
 Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach ausgewähltem Wert des Schiebereglers korrekt zurückgegeben wird. Wähle verschiedene Inhalte aus, um das Log zu erweitern.
+
+![image_4](/assets/images/Controls/Slider/slider04.png)
 
 ![image_5](/assets/images/Controls/Slider/slider05.png)
 
@@ -70,5 +70,5 @@ Starte die Vorschau und überprüfe den Regler sowie im Log (1), ob der Rückgab
 
 In diesem Video wird nochmal verdeutlicht, wie das Skript für das erste Beispiel aufgebaut und auf erfolgreiche Funktion geprüft wird:
 
-![image_gif8](/assets/images/Controls/Slider/slider08-mp4.gif)
+![image_gif8](/assets/images/Controls/Slider/slider09-mp4.gif)
 

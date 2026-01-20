@@ -48,9 +48,9 @@ Steps in the Script Editor:
 4.	Combine both blocks to see the value live in the preview (3).
 5.	Save the script by clicking "Save and Close".
 
-![image_4](/assets/images/Controls/Slider/slider04.png)
-
 Start the preview and check the Log (1) to see if the return value is correctly displayed based on the selected slider value. Select different values to expand the log.
+
+![image_4](/assets/images/Controls/Slider/slider04.png)
 
 ![image_5](/assets/images/Controls/Slider/slider05.png)
 
@@ -70,4 +70,4 @@ Start the preview and check the slider and the Log (1) to see if the value is co
 
 In this video, it is once again illustrated how the script for the first example is built and tested for successful functionality.
 
-![image_gif8](/assets/images/Controls/Slider/slider08-mp4.gif)
+![image_gif8](/assets/images/Controls/Slider/slider09-mp4.gif)
