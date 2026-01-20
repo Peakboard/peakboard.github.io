@@ -31,10 +31,11 @@ In der gewählten Beispieldatei wird nun die erste Zeile der gewählten Spalte d
 
 ### 2 Aussehen und Interaktion
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und Design verfeinern:
-* Text, Hintergrund & Kontur (Aussehen): Passe das Design des Inhalts und der Dropdown-Box an (1)
-* In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (2)
+1. Text, Hintergrund & Kontur (Aussehen): Passe das Design des Inhalts und der Dropdown-Box an (1)
+2. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (2)
+
 Die Dropdown-Liste reagiert primär auf eine Änderung der Auswahl. Hast Du dem Control einen eindeutigen Namen zur Verwendung in Skripten gegeben, so kannst Du es im Skript-Editor nutzen. In den Eigenschaften findest du unter Logik das Event:
-* Selection Changed: Dieses Skript wird immer dann ausgeführt, wenn der Nutzer einen neuen Eintrag auswählt (3).
+3. Selection Changed: Dieses Skript wird immer dann ausgeführt, wenn der Nutzer einen neuen Eintrag auswählt (3).
 
 ![image5](/assets/images/Controls/Dropdown/dropdown05.png)
 
