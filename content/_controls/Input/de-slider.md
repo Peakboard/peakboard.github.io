@@ -56,8 +56,8 @@ Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach aus
 
 ### Zweites Beispiel: Wert über Textfeld anpassen
 Als Erweiterung kann man in die Anzeigefläche ein Textfeld einfügen, um den Wert des Schiebereglers über dieses Textfeld anzupassen. Füge dazu ein Textfeld an einer beliebigen Stelle in deinem Designer ein, verknüpfe dieses mit einer numerischen Variable (1).
-Gehe nun in das Skript der _Textfeld_ unter „Tapped“:
-1.	Ziehe „Wert setzen“ unter „Wert“ des _Schiebereglers_ Controls in den Skript-Editor (1a), (1b)
+Gehe nun in das Skript der Textfeld unter „Tapped“:
+1.	Ziehe „Wert setzen“ unter „Wert“ des Schiebereglers Controls in den Skript-Editor (1a), (1b)
 2.	Wähle die Variable, die mit der Textfeld verknüpft ist (2) und verbinde die beiden Blöcke.
 3.	Wähle unter Funktionen den Block „Ins Log schreiben“ (3) und erneut die Textfeld-Variable und verknüpfe die beiden Blöcke sowie mit dem vorherigen Block (4).
 4.	Speichere das Skript unter “Speichern und Schließen” ab
