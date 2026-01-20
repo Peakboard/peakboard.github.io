@@ -56,18 +56,21 @@ Start the preview and check the Log (1) to see if the return value is correctly 
 
 ### Example 2: Adjust value via text box
 As an extension, you can insert a text box into the display area to adjust the slider's value via this text box. Insert a text box anywhere in your designer and link it to a numerical variable (1).
+
+![image_6](/assets/images/Controls/Slider/slider06.png)
+
 Now, go to the script of the Text Box under "Tapped":
 1.	Drag "Set value" from the Value section of the Slider control into the script editor (1a), (1b).
 2.	Select the variable linked to the text box (2) and connect the two blocks.
 3.	Under Functions, select the "Write to log" block (3) and again the text box variable, then link these blocks to each other and to the previous block (4).
 4.	Save the script by clicking "Save and Close".
 
-![image_7](/assets/images/Controls/Slider/slider06.png)
+![image_7](/assets/images/Controls/Slider/slider07.png)
 
 Start the preview and check the slider and the Log (1) to see if the value is correctly displayed and returned based on the input in the text box. Enter different values to expand the log.
 
-![image_7](/assets/images/Controls/Slider/slider07.png)
+![image_8](/assets/images/Controls/Slider/slider08.png)
 
 In this video, it is once again illustrated how the script for the first example is built and tested for successful functionality.
 
-![image_gif8](/assets/images/Controls/Slider/slider09-mp4.gif)
+![image_gif9](/assets/images/Controls/Slider/slider09-mp4.gif)
