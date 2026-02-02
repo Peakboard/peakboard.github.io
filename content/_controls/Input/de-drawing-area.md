@@ -64,4 +64,4 @@ Die Zeichenfläche bietet verschiedene Eigenschaften und Funktionen für das Scr
 5. Löschen-Button anzeigen (Show clear button): Steuere die Sichtbarkeit des Löschen-Buttons in der Toolbar (5).
 6. Stärke (Thickness): Lese oder setze die aktuelle Pinselstärke (6).
 7. Farbe (Color): Lese oder setze die aktuelle Pinselfarbe (7).
-* Leeren (Clear): Lösche alle Zeichnungen von der Fläche. Diese Funktion ist besonders nützlich nach dem Speichern einer Unterschrift, um die Fläche für die nächste Eingabe vorzubereiten.
+8. Leeren (Clear): Lösche alle Zeichnungen von der Fläche. Diese Funktion ist besonders nützlich nach dem Speichern einer Unterschrift, um die Fläche für die nächste Eingabe vorzubereiten.

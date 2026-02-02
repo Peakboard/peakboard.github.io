@@ -64,4 +64,4 @@ The Drawing Area offers various properties and functions for scripting:
 5. Show clear button: Control the visibility of the clear button in the toolbar (5).
 6. Thickness: Read or set the current brush thickness (6).
 7. Color: Read or set the current brush color (7).
-* Clear: Delete all drawings from the surface. This function is particularly useful after saving a signature to prepare the area for the next input.
+8. Clear: Delete all drawings from the surface. This function is particularly useful after saving a signature to prepare the area for the next input.
