@@ -40,333 +40,335 @@
 			{
 				"type": "headline",
 				"text": "Allgemeine Übersicht"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Aktualisierte Standardnamen für geteilte Verbindungen, um den Namen der Datenquelle widerzuspiegeln."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Designer"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Neustrukturierung des Eigenschaftenbereichs mit hinzugefügten Bildschirmwechseloptionen: Manuell, Periodisch, Nach Zeitplan.",
-					"Verbesserte Leistung beim Erweitern von Bildschirmen mit zahlreichen Elementen.",
-					"Verbesserte Suchperformance für Datenquellen im Binding Drop-Down.",
-					"Ordner in Skripten im Paket-Explorer und Script Editor hinzugefügt.",
-					"Fix für Performanceprobleme beim Ziehen von Dateien in den Explorer.",
-					"Fix für Anzeigeprobleme für auswahlsfähige Werte in benutzerdefinierten Listeneigenschaften.",
-					"Fix für Problem, bei dem die Auswahl 'Alles auswählen' beim Scrollen überlagert wurde.",
-					"Fix für Problem, bei dem Quellen, die im IconView-Control verwendet wurden, nicht im Dialog 'Referenzen' angezeigt wurden.",
-					"Neue Funktion zum Kopieren/Einfügen von Stilen mit der Funktion 'Als Standard speichern'."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Skripting"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Verfeinerter Zeitplandialog mit kleinerem Fußabdruck und neuem Tag-Muster.",
-					"Erweitertes Erlebnis beim Öffnen von Skript-Zeitplänen.",
-					"Fix für Lange Startzeiten im Skript-Editor, wenn Peakbot nicht erreichbar ist.",
-					"Adressierte Runtime-Abstürze beim Klicken in ein Textfeld im Webbrowser.",
-					"Umbenennung direkt im Timer-Skript-Dialog ermöglicht."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Peakboard Hub"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fix für Problem, bei dem die pbmx-Datei im Peakboard Hub Escape-Zeichen enthielt.",
-					"Fehlermeldungsprobleme beim Hinzufügen einer Box zum Peakboard Hub mit ungültigen Daten behoben."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Video"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Kameraanbindung im Video Control implementiert."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Peakboard Box"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fix bei Zertifikatsproblem die zu Protokollüberläufen führen.",
-					"Zeit-Synchronisationsprobleme auf der Peakboard Box behoben, wenn die Windows-Zeit zu stark von der Zeit des Servers abweicht."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Gruppe"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Erstellung eines Gruppen-Screenshots als Base64 ermöglicht.",
-					"Gruppen-Screenshots verwenden jetzt den korrekten Hintergrund bei Farbverläufen."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Extensions"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Erlaubt die Ausführung von Extensions ohne Neustart von Peakboard Designer.",
-					"Direkte Bearbeitung von Eigenschaften im Dialog für Extensions ermöglicht.",
-					"Problem mit leerer Extensiongalerie behoben."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Gestylte Kachel / Liste / Sammlung"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Styled Lists und Styled Tile Collections innerhalb anderer Styled Lists oder Styled Tile Collections hinzugefügt.",
-					"Fix für Problem, bei dem das Kopieren einer Styled List fälschlicherweise Zeilenreferenzen beibehielt.",
-					"Dialog zum Kopieren von Vorlagen für Styled Tiles überarbeitet."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Variable"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Probleme mit Zahleneinschränkungen während des Uploads behoben.",
-					"Fehler beim Hinzufügen neuer Variablenlisten mit booleschen Spalten behoben.",
-					"Exportfunktionen für die Inhalte von Variablen-Listen im Designer implementiert.",
-					"Regex-Validierung für String-Variablen hinzugefügt."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Runtime"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Durchschnittliche und letzte Ladezeiten werden nun im Debug-Modus protokolliert.",
-					"Bildschirm-Klick-Ereignis wird jetzt auch für Controls mit Tap-Event und im Web-Control ausgelöst."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Sicherheit"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Peakboard Box Basic Auth auf ein Token-basiertes Konzept umgestellt.",
-					"SMB-Verschlüsselung für erhöhte Sicherheit aktiviert.",
-					"TLS-Version aktualisiert.",
-					"Strengere Benutzerpasswortrichtlinie implementiert.",
-					"Global anwendbare Konfigurationsverschlüsselungsschlüssel hinzugefügt.",
-					"Webbrowser kann das lokale Verzeichnis nicht mehr aufrufen.",
-					"Fehlende Cookie-Flags zum Schutz der Sitzung hinzugefügt.",
-					"Schutz gegen Brute-Force-Angriffe auf der Peakboard Box implementiert.",
-					"Passwort-Hashes werden nicht mehr von der Box abgerufen.",
-					"Fehlende HTTP-Sicherheitsheader implementiert.",
-					"Funktionalität von os.execute auf den Debug-Modus beschränkt."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Snippets / Bausteine"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Laufzeitfunktionen zum Minimieren, Umschalten auf Vollbild- und Fenstermodus hinzugefügt.",
-					"'Zuletzt verwendeten Bildschirm anzeigen'-Funktionalität für die Screenwechsel Building Block implementiert.",
-					"Doppelte Snippet-Generierung im Script-Editor behoben."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Datenfluss"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fix für Problem, bei dem Dataflows und Datenquellen-Warteschlangen überliefen.",
-					"Unterstützung für Parameter in Dataflows."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Zeitleiste"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fehler behoben, wenn mehrere Timeline Grid-Farben bearbeitet werden."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "PDF"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fehler behoben, wenn Bildschirme schnell gewechselt wurden, die ein PDF enthalten.",
-					"PDF-Viewer setzt die Seitennummer automatisch auf 1 zurück, wenn sich die PDF-Quelle ändert.",
-					"Fataler Fehler im PDF-Viewer behoben."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Explorer"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"'Alle Controls anzeigen' und 'Alle Controls entsperren' Optionen im Bildschirm-Kontextmenü hinzugefügt.",
-					"Fix für Problem, bei dem Controls im Explorer nicht korrekt ausgewählt wurden."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "OPC UA"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Unterstützung für das Lesen von tabellarischen Werten von OPC UA.",
-					"Baustein zum Aufrufen von OPC UA-Funktionen hinzugefügt."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Datenquellen"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Die Anzahl der Preview Daten kann nun verändert werden."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "PowerBI"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fehlermeldung behoben, wenn die Tastenkombination Strg+C auf dem PowerBI Control verwendet wird."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Microsoft Graph"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Baustein hinzugefügt, um einen Screenshot oder einen Gruppen-Screenshot an OneDrive und SharePoint-Bibliothek zu senden."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Ressourcen"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Ressourcenbindung von Bild-, Video-, PDF- und RTF-Control in Ressource und Dateiname, um die Ressource zu dynamisieren."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Globale Funktionen, Hub Flows"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"API-URL aus Funktionen für Datenprojekte entfernt."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Variable"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Hinzufügen von Einschränkungen und Standardwerten für den Variablen-Listen implementiert."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Diagramm"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Problem behoben, bei dem Änderungen für ein Label andere Serien-Labels beeinflussen."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Debug-Panel"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Verbesserungen im Debug-Panel zum Kopieren/Einfügen von Werten und einem Zeilenzähler."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Bedingte Formatierung"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fix für Animationen die nicht mehr stoppten."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Signalblock"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Datenquellenname und Typicon im Regeldialog hinzugefügt und Operatoren basierend auf Datentyp angepasst.",
-					"Datentypauswahl entfernt, diese wird nun direkt vom verbundenen Wert erhalten."
-				]
-			},
-			{
-				"type": "headline",
-				"text": "Combobox"
-			},
-			{
-				"type": "list",
-				"list_items": [
-					"Fix wenn die Dropdown-Daten mit einer leeren Liste verbunden waren."
-				]
+				"content": [
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Aktualisierte Standardnamen für geteilte Verbindungen, um den Namen der Datenquelle widerzuspiegeln."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Designer"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Neustrukturierung des Eigenschaftenbereichs mit hinzugefügten Bildschirmwechseloptionen: Manuell, Periodisch, Nach Zeitplan.",
+						"Verbesserte Leistung beim Erweitern von Bildschirmen mit zahlreichen Elementen.",
+						"Verbesserte Suchperformance für Datenquellen im Binding Drop-Down.",
+						"Ordner in Skripten im Paket-Explorer und Script Editor hinzugefügt.",
+						"Fix für Performanceprobleme beim Ziehen von Dateien in den Explorer.",
+						"Fix für Anzeigeprobleme für auswahlsfähige Werte in benutzerdefinierten Listeneigenschaften.",
+						"Fix für Problem, bei dem die Auswahl 'Alles auswählen' beim Scrollen überlagert wurde.",
+						"Fix für Problem, bei dem Quellen, die im IconView-Control verwendet wurden, nicht im Dialog 'Referenzen' angezeigt wurden.",
+						"Neue Funktion zum Kopieren/Einfügen von Stilen mit der Funktion 'Als Standard speichern'."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Skripting"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Verfeinerter Zeitplandialog mit kleinerem Fußabdruck und neuem Tag-Muster.",
+						"Erweitertes Erlebnis beim Öffnen von Skript-Zeitplänen.",
+						"Fix für Lange Startzeiten im Skript-Editor, wenn Peakbot nicht erreichbar ist.",
+						"Adressierte Runtime-Abstürze beim Klicken in ein Textfeld im Webbrowser.",
+						"Umbenennung direkt im Timer-Skript-Dialog ermöglicht."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Peakboard Hub"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fix für Problem, bei dem die pbmx-Datei im Peakboard Hub Escape-Zeichen enthielt.",
+						"Fehlermeldungsprobleme beim Hinzufügen einer Box zum Peakboard Hub mit ungültigen Daten behoben."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Video"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Kameraanbindung im Video Control implementiert."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Peakboard Box"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fix bei Zertifikatsproblem die zu Protokollüberläufen führen.",
+						"Zeit-Synchronisationsprobleme auf der Peakboard Box behoben, wenn die Windows-Zeit zu stark von der Zeit des Servers abweicht."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Gruppe"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Erstellung eines Gruppen-Screenshots als Base64 ermöglicht.",
+						"Gruppen-Screenshots verwenden jetzt den korrekten Hintergrund bei Farbverläufen."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Extensions"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Erlaubt die Ausführung von Extensions ohne Neustart von Peakboard Designer.",
+						"Direkte Bearbeitung von Eigenschaften im Dialog für Extensions ermöglicht.",
+						"Problem mit leerer Extensiongalerie behoben."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Gestylte Kachel / Liste / Sammlung"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Styled Lists und Styled Tile Collections innerhalb anderer Styled Lists oder Styled Tile Collections hinzugefügt.",
+						"Fix für Problem, bei dem das Kopieren einer Styled List fälschlicherweise Zeilenreferenzen beibehielt.",
+						"Dialog zum Kopieren von Vorlagen für Styled Tiles überarbeitet."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Variable"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Probleme mit Zahleneinschränkungen während des Uploads behoben.",
+						"Fehler beim Hinzufügen neuer Variablenlisten mit booleschen Spalten behoben.",
+						"Exportfunktionen für die Inhalte von Variablen-Listen im Designer implementiert.",
+						"Regex-Validierung für String-Variablen hinzugefügt."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Runtime"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Durchschnittliche und letzte Ladezeiten werden nun im Debug-Modus protokolliert.",
+						"Bildschirm-Klick-Ereignis wird jetzt auch für Controls mit Tap-Event und im Web-Control ausgelöst."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Sicherheit"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Peakboard Box Basic Auth auf ein Token-basiertes Konzept umgestellt.",
+						"SMB-Verschlüsselung für erhöhte Sicherheit aktiviert.",
+						"TLS-Version aktualisiert.",
+						"Strengere Benutzerpasswortrichtlinie implementiert.",
+						"Global anwendbare Konfigurationsverschlüsselungsschlüssel hinzugefügt.",
+						"Webbrowser kann das lokale Verzeichnis nicht mehr aufrufen.",
+						"Fehlende Cookie-Flags zum Schutz der Sitzung hinzugefügt.",
+						"Schutz gegen Brute-Force-Angriffe auf der Peakboard Box implementiert.",
+						"Passwort-Hashes werden nicht mehr von der Box abgerufen.",
+						"Fehlende HTTP-Sicherheitsheader implementiert.",
+						"Funktionalität von os.execute auf den Debug-Modus beschränkt."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Snippets / Bausteine"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Laufzeitfunktionen zum Minimieren, Umschalten auf Vollbild- und Fenstermodus hinzugefügt.",
+						"'Zuletzt verwendeten Bildschirm anzeigen'-Funktionalität für die Screenwechsel Building Block implementiert.",
+						"Doppelte Snippet-Generierung im Script-Editor behoben."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Datenfluss"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fix für Problem, bei dem Dataflows und Datenquellen-Warteschlangen überliefen.",
+						"Unterstützung für Parameter in Dataflows."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Zeitleiste"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fehler behoben, wenn mehrere Timeline Grid-Farben bearbeitet werden."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "PDF"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fehler behoben, wenn Bildschirme schnell gewechselt wurden, die ein PDF enthalten.",
+						"PDF-Viewer setzt die Seitennummer automatisch auf 1 zurück, wenn sich die PDF-Quelle ändert.",
+						"Fataler Fehler im PDF-Viewer behoben."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Explorer"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"'Alle Controls anzeigen' und 'Alle Controls entsperren' Optionen im Bildschirm-Kontextmenü hinzugefügt.",
+						"Fix für Problem, bei dem Controls im Explorer nicht korrekt ausgewählt wurden."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "OPC UA"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Unterstützung für das Lesen von tabellarischen Werten von OPC UA.",
+						"Baustein zum Aufrufen von OPC UA-Funktionen hinzugefügt."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Datenquellen"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Die Anzahl der Preview Daten kann nun verändert werden."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "PowerBI"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fehlermeldung behoben, wenn die Tastenkombination Strg+C auf dem PowerBI Control verwendet wird."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Microsoft Graph"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Baustein hinzugefügt, um einen Screenshot oder einen Gruppen-Screenshot an OneDrive und SharePoint-Bibliothek zu senden."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Ressourcen"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Ressourcenbindung von Bild-, Video-, PDF- und RTF-Control in Ressource und Dateiname, um die Ressource zu dynamisieren."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Globale Funktionen, Hub Flows"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"API-URL aus Funktionen für Datenprojekte entfernt."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Variable"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Hinzufügen von Einschränkungen und Standardwerten für den Variablen-Listen implementiert."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Diagramm"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Problem behoben, bei dem Änderungen für ein Label andere Serien-Labels beeinflussen."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Debug-Panel"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Verbesserungen im Debug-Panel zum Kopieren/Einfügen von Werten und einem Zeilenzähler."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Bedingte Formatierung"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fix für Animationen die nicht mehr stoppten."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Signalblock"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Datenquellenname und Typicon im Regeldialog hinzugefügt und Operatoren basierend auf Datentyp angepasst.",
+						"Datentypauswahl entfernt, diese wird nun direkt vom verbundenen Wert erhalten."
+					]
+				},
+				{
+					"type": "headline",
+					"text": "Combobox"
+				},
+				{
+					"type": "list",
+					"list_items": [
+						"Fix wenn die Dropdown-Daten mit einer leeren Liste verbunden waren."
+					]
+				}
 			}
 		]
 	}
