@@ -17,11 +17,13 @@ The Drawing Area is an interactive control that allows users to draw directly on
 * **Audit applications** for documenting inspections with a signature
 * **Sketches and notes** for spontaneous annotations on the dashboard
 
-You can find the Drawing Area in the Peakboard Designer in the Interactive group (1). Simply drag and drop the control into the designer or place it on your workspace with a double-click.
-
 ![image_1](/assets/images/Controls/Drawing-Area/Drawing-Area-Menu.png)
 
+You can find the Drawing Area in the Peakboard Designer in the Interactive group (1). Simply drag and drop the control into the designer or place it on your workspace with a double-click.
+
 ## Configuration and Properties
+
+![image_2](/assets/images/Controls/Drawing-Area/Drawing-Area-Properties.png)
 
 ### 1 Appearance
 
@@ -38,8 +40,6 @@ In the properties on the right side, you can customize the appearance of the dra
 * Background: Choose the background color of the drawing area. A white or transparent background is suitable for signatures.
 * Shadow: Set a shadow value for the control to visually separate it from the rest of the interface.
 
-![image_2](/assets/images/Controls/Drawing-Area/Drawing-Area-Properties.png)
-
 ## Saving and Processing Drawings
 
 The Drawing Area can be combined with Building Blocks to save and process drawings or signatures. Typical destinations include:
@@ -53,6 +53,8 @@ Use the screenshot functions of the Building Blocks in combination with a group 
 
 ## Scripting
 
+![image_3](/assets/images/Controls/Drawing-Area/Drawing-Area-Snippets.png)
+
 The Drawing Area offers various properties and functions for scripting:
 
 1. Active: Read or set the activation status of the drawing area (1). This allows you to enable drawing via script, e.g., after a user has pressed a button.
@@ -63,5 +65,3 @@ The Drawing Area offers various properties and functions for scripting:
 6. Thickness: Read or set the current brush thickness (6).
 7. Color: Read or set the current brush color (7).
 * Clear: Delete all drawings from the surface. This function is particularly useful after saving a signature to prepare the area for the next input.
-
-![image_3](/assets/images/Controls/Drawing-Area/Drawing-Area-Snippets.png)

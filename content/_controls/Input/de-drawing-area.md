@@ -17,11 +17,13 @@ Die Zeichenfläche (Drawing Area) ist ein interaktives Control, das es dem Nutze
 * **Audit-Anwendungen** zur Dokumentation von Kontrollen mit Unterschrift
 * **Skizzen und Notizen** für spontane Anmerkungen auf dem Dashboard
 
-Du findest die Zeichenfläche im Peakboard Designer in der Gruppe Interaktiv (1). Ziehe das Control einfach per Drag-and-drop in den Designer oder setze es mit einem Doppelklick auf deine Arbeitsfläche.
-
 ![image_1](/assets/images/Controls/Drawing-Area/Drawing-Area-Menu.png)
 
+Du findest die Zeichenfläche im Peakboard Designer in der Gruppe Interaktiv (1). Ziehe das Control einfach per Drag-and-drop in den Designer oder setze es mit einem Doppelklick auf deine Arbeitsfläche.
+
 ## Konfiguration und Eigenschaften
+
+![image_2](/assets/images/Controls/Drawing-Area/Drawing-Area-Properties.png)
 
 ### 1 Aussehen
 
@@ -38,8 +40,6 @@ In den Eigenschaften auf der rechten Seite kannst du das Aussehen der Zeichenfl�
 * Hintergrund (Background): Wähle die Hintergrundfarbe der Zeichenfläche. Für Unterschriften eignet sich ein weißer oder transparenter Hintergrund.
 * Schatten (Shadow): Lege einen Schattenwert für das Control fest, um es optisch vom Rest der Oberfläche abzuheben.
 
-![image_2](/assets/images/Controls/Drawing-Area/Drawing-Area-Properties.png)
-
 ## Zeichnungen speichern und weiterverarbeiten
 
 Die Zeichenfläche lässt sich mit den Building Blocks kombinieren, um Zeichnungen oder Unterschriften zu speichern und weiterzuverarbeiten. Typische Ziele sind:
@@ -53,6 +53,8 @@ Nutze dazu die Screenshot-Funktionen der Building Blocks in Kombination mit eine
 
 ## Scripting
 
+![image_3](/assets/images/Controls/Drawing-Area/Drawing-Area-Snippets.png)
+
 Die Zeichenfläche bietet verschiedene Eigenschaften und Funktionen für das Scripting:
 
 1. Aktiv (Active): Lese oder setze den Aktivierungsstatus der Zeichenfläche (1). Damit kannst du das Zeichnen per Skript aktivieren, z.B. nachdem ein Nutzer einen Button gedrückt hat.
@@ -63,5 +65,3 @@ Die Zeichenfläche bietet verschiedene Eigenschaften und Funktionen für das Scr
 6. Stärke (Thickness): Lese oder setze die aktuelle Pinselstärke (6).
 7. Farbe (Color): Lese oder setze die aktuelle Pinselfarbe (7).
 * Leeren (Clear): Lösche alle Zeichnungen von der Fläche. Diese Funktion ist besonders nützlich nach dem Speichern einer Unterschrift, um die Fläche für die nächste Eingabe vorzubereiten.
-
-![image_3](/assets/images/Controls/Drawing-Area/Drawing-Area-Snippets.png)
