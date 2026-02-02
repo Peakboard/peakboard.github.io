@@ -23,18 +23,11 @@ In the properties on the right side, you can customize the appearance of the dra
 
 1. Color: Select the default color of the brush (1).
 2. Thickness: Set the default thickness of the brush (2).
-3. Toolbar: Use the four icons to define which options are available to the user in the toolbar (3):
-   * Show color selection
-   * Show thickness selection
-   * Show activation button
-   * Show clear button
-
-### 2 Settings
-
+3. Toolbar: Use the four icons to define which options are available to the user in the toolbar: color selection, thickness selection, activation button and clear button (3).
 4. Active: When enabled, the user can draw on the surface. When disabled, touches pass through to underlying elements such as buttons (4).
 5. Save on device: The drawing is persistently saved on the Peakboard Box and restored when the visualization is started again (5).
 
-### 3 Background
+### 2 Background
 
 * Background: Choose the background color of the drawing area.
 * Shadow: Set a shadow value for the control.

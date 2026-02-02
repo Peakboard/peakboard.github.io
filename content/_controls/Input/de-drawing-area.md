@@ -23,18 +23,11 @@ In den Eigenschaften auf der rechten Seite kannst du das Aussehen der Zeichenfl�
 
 1. Farbe (Color): Wähle die Standardfarbe des Pinsels aus (1).
 2. Stärke (Thickness): Lege die Standardstärke des Pinsels fest (2).
-3. Toolbar: Über die vier Icons kannst du festlegen, welche Optionen dem Nutzer in der Toolbar zur Verfügung stehen (3):
-   * Farbauswahl anzeigen
-   * Stärkeauswahl anzeigen
-   * Aktivierungsbutton anzeigen
-   * Löschen-Button anzeigen
-
-### 2 Einstellungen
-
+3. Toolbar: Über die vier Icons kannst du festlegen, welche Optionen dem Nutzer in der Toolbar zur Verfügung stehen: Farbauswahl, Stärkeauswahl, Aktivierungsbutton und Löschen-Button (3).
 4. Aktiv (Active): Wenn aktiviert, kann der Nutzer auf der Fläche zeichnen. Wenn deaktiviert, werden Berührungen an darunterliegende Elemente wie Buttons durchgereicht (4).
 5. Auf Gerät speichern (Save on device): Die Zeichnung wird persistent auf der Peakboard Box gespeichert und beim nächsten Start der Visualisierung wiederhergestellt (5).
 
-### 3 Hintergrund
+### 2 Hintergrund
 
 * Hintergrund (Background): Wähle die Hintergrundfarbe der Zeichenfläche.
 * Schatten (Shadow): Lege einen Schattenwert für das Control fest.
