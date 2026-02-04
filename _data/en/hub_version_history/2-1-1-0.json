@@ -92,7 +92,8 @@
             "type": "list",
             "list_items": [
               "Fixed an issue with aggregation steps in Hub Flows.",
-              "Fixed an issue with RSS feeds in Hub Flows."
+              "Fixed an issue with RSS feeds in Hub Flows.",
+			  "Updated the Hub Flow runtime to version 4.2."
             ]
           },
           {
@@ -129,7 +130,8 @@
             "list_items": [
               "Improved encryption of secure data stored in the Hub database.",
               "Improved message box positioning for better usability.",
-              "Improved the expired-license dialog."
+              "Improved the expired-license dialog.",
+			  "Fixed issue with the download URL for the Peakboard Runtime update file."
             ]
           },
           {

@@ -92,7 +92,8 @@
             "type": "list",
             "list_items": [
               "Ein Problem mit Aggregationsschritten in Hub Flows wurde behoben.",
-              "Ein Problem mit RSS-Feeds in Hub Flows wurde behoben."
+              "Ein Problem mit RSS-Feeds in Hub Flows wurde behoben.",
+			  "Die Hub Flow Runtime wurde auf Version 4.2 erneuert."
             ]
           },
           {
@@ -129,7 +130,8 @@
             "list_items": [
               "Die Verschlüsselung sensibler Daten in der Hub-Datenbank wurde verbessert.",
               "Die Positionierung von Meldungsdialogen wurde für bessere Benutzerfreundlichkeit optimiert.",
-              "Der Dialog für abgelaufene Lizenzen wurde verbessert."
+              "Der Dialog für abgelaufene Lizenzen wurde verbessert.",
+			  "Die Download URL für Peakboard Runtime Updates wurde angepasst."
             ]
           },
           {
