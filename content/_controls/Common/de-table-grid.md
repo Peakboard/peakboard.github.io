@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Table Grid   
-menu_title: Table Grid
+title: Tabelle  
+menu_title: Tabelle
 description: Information über Peakboard Designer Table Grid Control.
 lang: de
 weight: 210
@@ -11,51 +11,54 @@ redirect_from:
   - /controls/de-table-grid.html
 ---
 
-Das Control Table Grid ist dazu gedacht, Daten tabellarisch darzustellen. Es ist neben dem einfachen Textblock das am häufigsten genutzte Control. 
-Bitte beachten Sie zunächst folgende allgemeine Infos und wiederkehrende Bedienpatterns für Steuerelemente:
+Das Tabellen-Control ist ein interaktives Element, das es ermöglicht, strukturierte Daten in einer klassischen Spalten- und Zeilenansicht darzustellen. Es ist das ideale Werkzeug für die Anzeige von Inventarlisten, Produktionsplänen oder Kennzahlen aus Datenbanken (SQL, SAP, Excel), bei denen Übersichtlichkeit und Vergleichbarkeit im Vordergrund stehen.
+Du findest das Tabellen-Control im Peakboard Designer in der Gruppe Lists & Tiles (1).
 
-[Allgemeine Eigenschaften](/controls/01-de-allgemeine-eigenschaften.html)
+[!image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
 
-[Verwalten von Schriftarten mit dem Font-Manager](/misc/04-de-fonts.html)
+# Konfiguration und Eigenschaften
+## 1 Verknüpfung und Spaltenmanagement1 Verknüpfung und Spaltenmanagement
+### 1.1 Datenquelle
+Die Tabelle benötigt eine Datenquelle, um ihre Optionen und Inhalte anzuzeigen. Füge dazu eine Datenquelle im Designer Explorer auf der linken Seite ein, hier zum Beispiel eine Excelliste mit Namen.
 
-[Formatieren von Werten](/misc/03-de-formatieren-von-Werten.html)
+[!image_2](/assets/images/Controls/Table-Grid/tablegrid_02.png)
 
-Nachdem ein Table Grid per Drag and Drop aus der Toolbox rechts oben auf den Screen gezogen wurde, wird es mit Hilfe der Eigenschaft Data Source mit einer tabellarischen Datenquelle verbunden. 
-Dadurch entstehen im Tabellen-Steuerelement gleich automatisch Spalten, die der Originaldatenquelle entsprechen und dann einfach abgeändert werden können. 
+Die Tabelle wird fast immer dynamisch gespeist. Ziehe das Icon per Drag-and-drop auf deine Arbeitsfläche, oder klicke zweimal auf das Icon, um die Datenquelle, die du bereits in den Designer unter „Daten“ eingefügt hast, mit dem Control zu verknüpfen (1).
 
+[!image_3](/assets/images/Controls/Table-Grid/tablegrid_03.png)
 
-Ein Doppelklick auf das Control öffnet den Spalten-Dialog. Hier können die einzelnen Spalten konfiguriert werden.  
-Dafür stehen folgende Eigenschaften zur Verfügung:
+### 1.2	Spalten-Manager
+Unter „Daten“ in den Eigenschaften auf der rechten Seite kannst du festlegen, welche Spalten deiner Datenquelle angezeigt werden sollen (1). Du kannst Spalten umbenennen, ausblenden oder ihre Reihenfolge ändern.
+*   Tabellenspalten bearbeiten: Innerhalb der Tabelle kannst du die Spalten-Überschrift, die Spaltenbreite, -ausrichtung, das Inhaltsformat und die Schriftart definieren, um Informationen visuell aufzubereiten. Die Reihenfolge der Spalten kannst Du per Drag-and-drop verändern (2). 
 
-* Position: Die Position der Spalten kann per Drag-and-Drop angepasst werden. Eine Verschiebung von Oben nach Unten entspricht dabei einer Verschiebung von Links nach Rechts.
-* Spaltenüberschrift: Die Spaltenüberschrift kann über *Caption* angepasst werden.
-* Breite: Die Breite kann in drei verschiedenen optionen eingestellt werden:
-	* Fill definiert die Breite automatisch so, dass sie immer die maximale Breite annimmt. 
-	* Cut versucht das Gegenteil und minimiert die Breite so weit wie möglich.
-	* Pixel legt eine feste Breite für die jeweilige Spalte fest.
-* Position des Inhalts: Der Inhalt der Spalten kann über *Alignment* bestimmt werden.
-* Format: Soll der Inhalt in einem bestimmten Format (z.B. als Prozentzahl) dargestellt werden, lässt sich dies für die gesamte Spalte einstellen. In [diesem Artikel](https://help.peakboard.com/misc/de-formatieren-von-Werten.html) wird erklärt, wie ein Format angepasst werden kann.
-* Schriftart: Jede einzelne Spalte kann eine Schriftart zugeordnet werden. Diese muss dafür unter *Specific Font* ausgewählt werden.
+[!image_4](/assets/images/Controls/Table-Grid/tablegrid_04.png)
 
-![image_1](/assets/images/Controls/Table-Grid/ControlsTableGrid01.png)
+## 2 Eigenschaften und Bedingte Formatierung
+In den Attributen auf der rechten Seite steuerst du das visuelle Verhalten:
+*  Allgemeines: Definiere die Maße der Tabelle. Hier kannst du ihr ebenfalls ein Titel bzw. eine Überschrift vergeben.
+### Aussehen
+1. Hintergrund, Schatten & Eckenradius (Aussehen): Gestalte die Hintergrundfarbe der Tabelle, stelle die Schattenstärke ein, die die Tabelle auf das Design wirft, und passe die Ecken der Tabelle an (1).
+2. Kontur (Aussehen): Passe die optische Darstellung der Striche in der Tabelle an, indem Du die Rand-, horizontalen und vertikalen Linien aktivierst sowie die Linienfarbe und Linienstärke bestimmst (2).
+3. Tabellenkopfzeile (Aussehen)(: Lege fest, ob die Spaltenüberschriften zu sehen sein sollen und stelle die Hintergrundfarbe und Schriftart der Kopfzeile ein (3).
+4. Tabellenkörper (Aussehen): Lege fest, welche Farbe und Schriftart die Zeilen bzw. die Zelle beinhalten soll und bestimme die Zahl an maximal angezeigten Zeilen (4).
+### Logik
+5. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (5).
+6. Bedingte Formatierung (Logik): Erstelle Regeln, um Zellen oder ganze Zeilen basierend auf Werten einzufärben (z. B. Hintergrundfarbe „Rot“, wenn ein Wert einen Schwellenwert unterschreitet) (6).
 
+[!image_5](/assets/images/Controls/Table-Grid/tablegrid_05.png)
 
-Wenn die Daten in der Tabelle manipuliert werden sollen lohnt es sich vor dem anlegen des Table Grid Controls einen [Dataflow](https://help.peakboard.com/dataflows/de-erste-schritte.html) anzulegen.
+## Scripting
+Die Tabelle ermöglicht es, auf Nutzerinteraktionen wie das Auswählen einer Zeile zu reagieren.
+### Beispiel: Zeilendaten bei Klick auslesen
+Häufig soll beim Klick auf eine Zeile ein Detailwert in eine Variable geschrieben oder ein Log-Eintrag erstellt werden. Hier lassen wir durch einen Klick auf einen Zeileninhalt die ausgewählte Zeilennummer in das Log schreiben.
+Schritte im Script-Editor:
+1.	Öffne den Script-Editor unter Logik -> Cell Clicked oder Selection Changed.
+2.	Nutze den Block „Ins Log schreiben“ (1).
+3.	Greife auf den „get row“-Block zu (2).
+4.	Kombiniere dies mit dem Block „Ins Log schreiben“ (3).
+5.	Speichere das Skript unter “Speichern und Schließen” ab (4).
+[!image_6](/assets/images/Controls/Table-Grid/tablegrid_06.png)
 
+Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach ausgewählter Zeile der Tabelle korrekt zurückgegeben wird. Wähle verschiedene Zeilen aus, um das Log zu erweitern.
 
-Abschließend sind im Folgenden sind alle Eigenschaften aufgelistet, die spezifisch für das Table Grid Controll sind und daher nicht unter dem Link von oben aufgelistet wurden.
-
-{% include styled_table.html %}
-| Properties  |	Description |
-|-------------|---------------|
-| Active Cell |	 definiert die Farbe, mit der eine markierte Zelle dargestellt wird, falls die Tabelle auf einem Touchscreen benutzt wird.|
-| Active Row  |	definiert die Farbe, mit der eine markierte Zeile dargestellt wird, falls die Tabelle auf einem Touchscreen benutzt wird.|
-| Scrollable  |	 definiert, ob die Tabelle eine Scrollbar bekommen soll, falls der Inhalt größer als die Tabelle ist. Die Funktion macht natürlich nur auf einem Touchscreen Sinn.|
-| Border Color |	Farbe des Randes |
-| Border Size |		Dicke des Randes in Pixeln |
-| Dynamic Height |	Definiert, ob die Tabelle so dargestellt werden sollte, als würde sie keine definierte Größe besitzen. Diese Option wird häufig dann verwendet, wenn man eine Tabelle mit an den Inhalt angepasster Höhe haben möchte, die so aussieht, als wäre sie genauso hoch, wie der Inhalt selbst. |
-| Show Header |	definiert, ob die Spaltenüberschriften angezeigt werden sollen.|
-| Show Row Grid Lines |	definiert, ob eine Linie zwischen den Zeilen angezeigt werden soll. |
-
-
-Es kommt in der Praxis sehr häufig vor, dass Zellen oder Zeilen  in Abhängigkeit des Dateninhalts formatiert werden sollen. Für diese Anforderung gibt es einen eigenen Artikel, den Sie [hier](/scripting/05-de-formatieren.html) finden.
+[!image_7](/assets/images/Controls/Table-Grid/tablegrid_07.png)

@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Drop Down
-menu_title: Drop Down
+title: Dropdown list
+menu_title: Dropdown list
 description: Information about Peakboard Designer Drop Down Control.
 lang: en
 weight: 770
@@ -10,7 +10,7 @@ redirect_from:
   - /controls/en-dropdown.html
 ---
 
-The Dropdown List is an interactive control that allows the user to select a single value from a list of options. It is particularly well-suited for long lists (e.g., location selection, machine numbers, names, or time periods) that would take up too much space with other controls.
+The Dropdown list is an interactive control that allows the user to select a single value from a list of options. It is particularly well-suited for long lists (e.g., location selection, machine numbers, names, or time periods) that would take up too much space with other controls.
 You can find the Dropdown List in the Peakboard Designer in the Interactive group (1). Simply drag and drop the control onto your workspace or double-click the icon.
 ![image1](/assets/images/Controls/Dropdown/dropdown01.png)
 

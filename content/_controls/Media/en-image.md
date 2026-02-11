@@ -29,8 +29,8 @@ In the properties on the right side, you define how the image is displayed:
 2. Title & Subtitle (General): Enter a heading or a description for the inserted image within the frame (2).
 3. Opacity (Appearance): Adjust the transparency of the image (0 to 100%) (3).
 4. Stretch (Appearance) (4):
-* Inactive: The image maintains its aspect ratio and is fitted into the frame.
-* Active: The image is stretched to fill the area exactly.
+	* Inactive: The image maintains its aspect ratio and is fitted into the frame.
+	* Active: The image is stretched to fill the area exactly.
 5. Used in scripting (Logic): Give the control a unique name to use the image source in scripts, e.g., to change the image via script at runtime (5).
 
 ![image_3](/assets/images/Controls/Picture/picture03.png)
