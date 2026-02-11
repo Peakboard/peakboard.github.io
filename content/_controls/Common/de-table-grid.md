@@ -14,24 +14,24 @@ redirect_from:
 Das Tabellen-Control ist ein interaktives Element, das es ermöglicht, strukturierte Daten in einer klassischen Spalten- und Zeilenansicht darzustellen. Es ist das ideale Werkzeug für die Anzeige von Inventarlisten, Produktionsplänen oder Kennzahlen aus Datenbanken (SQL, SAP, Excel), bei denen Übersichtlichkeit und Vergleichbarkeit im Vordergrund stehen.
 Du findest das Tabellen-Control im Peakboard Designer in der Gruppe Lists & Tiles (1).
 
-[!image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
+![image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
 
 # Konfiguration und Eigenschaften
 ## 1 Verknüpfung und Spaltenmanagement1 Verknüpfung und Spaltenmanagement
 ### 1.1 Datenquelle
 Die Tabelle benötigt eine Datenquelle, um ihre Optionen und Inhalte anzuzeigen. Füge dazu eine Datenquelle im Designer Explorer auf der linken Seite ein, hier zum Beispiel eine Excelliste mit Namen.
 
-[!image_2](/assets/images/Controls/Table-Grid/tablegrid_02.png)
+![image_2](/assets/images/Controls/Table-Grid/tablegrid_02.png)
 
 Die Tabelle wird fast immer dynamisch gespeist. Ziehe das Icon per Drag-and-drop auf deine Arbeitsfläche, oder klicke zweimal auf das Icon, um die Datenquelle, die du bereits in den Designer unter „Daten“ eingefügt hast, mit dem Control zu verknüpfen (1).
 
-[!image_3](/assets/images/Controls/Table-Grid/tablegrid_03.png)
+![image_3](/assets/images/Controls/Table-Grid/tablegrid_03.png)
 
 ### 1.2	Spalten-Manager
 Unter „Daten“ in den Eigenschaften auf der rechten Seite kannst du festlegen, welche Spalten deiner Datenquelle angezeigt werden sollen (1). Du kannst Spalten umbenennen, ausblenden oder ihre Reihenfolge ändern.
 *   Tabellenspalten bearbeiten: Innerhalb der Tabelle kannst du die Spalten-Überschrift, die Spaltenbreite, -ausrichtung, das Inhaltsformat und die Schriftart definieren, um Informationen visuell aufzubereiten. Die Reihenfolge der Spalten kannst Du per Drag-and-drop verändern (2). 
 
-[!image_4](/assets/images/Controls/Table-Grid/tablegrid_04.png)
+![image_4](/assets/images/Controls/Table-Grid/tablegrid_04.png)
 
 ## 2 Eigenschaften und Bedingte Formatierung
 In den Attributen auf der rechten Seite steuerst du das visuelle Verhalten:
@@ -45,7 +45,7 @@ In den Attributen auf der rechten Seite steuerst du das visuelle Verhalten:
 5. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (5).
 6. Bedingte Formatierung (Logik): Erstelle Regeln, um Zellen oder ganze Zeilen basierend auf Werten einzufärben (z. B. Hintergrundfarbe „Rot“, wenn ein Wert einen Schwellenwert unterschreitet) (6).
 
-[!image_5](/assets/images/Controls/Table-Grid/tablegrid_05.png)
+![image_5](/assets/images/Controls/Table-Grid/tablegrid_05.png)
 
 ## Scripting
 Die Tabelle ermöglicht es, auf Nutzerinteraktionen wie das Auswählen einer Zeile zu reagieren.
@@ -57,8 +57,8 @@ Schritte im Script-Editor:
 3.	Greife auf den „get row“-Block zu (2).
 4.	Kombiniere dies mit dem Block „Ins Log schreiben“ (3).
 5.	Speichere das Skript unter “Speichern und Schließen” ab (4).
-[!image_6](/assets/images/Controls/Table-Grid/tablegrid_06.png)
+![image_6](/assets/images/Controls/Table-Grid/tablegrid_06.png)
 
 Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach ausgewählter Zeile der Tabelle korrekt zurückgegeben wird. Wähle verschiedene Zeilen aus, um das Log zu erweitern.
 
-[!image_7](/assets/images/Controls/Table-Grid/tablegrid_07.png)
+![image_7](/assets/images/Controls/Table-Grid/tablegrid_07.png)

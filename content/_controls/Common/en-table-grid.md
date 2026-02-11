@@ -14,24 +14,24 @@ redirect_from:
 The Table control is an interactive element that allows you to present structured data in a classic column and row view. It is the ideal tool for displaying inventory lists, production plans, or key figures from databases (SQL, SAP, Excel), where clarity and comparability are the main focus.
 You can find the Table control in the Peakboard Designer in the Lists & Tiles group (1).
 
-[!image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
+![image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
 
 # Configuration and Properties
 ## 1 Connection and Column Management
 ### 1.1 Data Source
 The table requires a data source to display its options and content. To do this, add a data source in the Designer Explorer on the left side—for example, an Excel list with names.
 
-[!image_2](/assets/images/Controls/Table-Grid/tablegrid_02.png)
+![image_2](/assets/images/Controls/Table-Grid/tablegrid_02.png)
 
 The table is almost always fed dynamically. Drag and drop the icon onto your workspace, or double-click the icon to link the data source you have already added to the Designer under "Data" with the control (1).
 
-[!image_3](/assets/images/Controls/Table-Grid/tablegrid_03.png)
+![image_3](/assets/images/Controls/Table-Grid/tablegrid_03.png)
 
 ### 1.2 Column Manager
 Under Data in the properties on the right side, you can determine which columns of your data source should be displayed (1). You can rename, hide, or change the order of columns.
 Edit table columns: Within the table, you can define the column header, column width, alignment, content format, and font to prepare information visually. You can change the order of the columns using drag-and-drop (2).
 
-[!image_4](/assets/images/Controls/Table-Grid/tablegrid_04.png)
+![image_4](/assets/images/Controls/Table-Grid/tablegrid_04.png)
 
 ## 2 Properties and Conditional Formatting
 In the attributes on the right side, you control the visual behavior:
@@ -45,7 +45,7 @@ In the attributes on the right side, you control the visual behavior:
 5. Use in scripts (Logic): Give the control a unique name so that you can easily identify it later in scripting (5).
 6. Conditional Formatting (Logic): Create rules to color cells or entire rows based on values (e.g., background color "Red" if a value falls below a threshold) (6).
 
-[!image_5](/assets/images/Controls/Table-Grid/tablegrid_05.png)
+![image_5](/assets/images/Controls/Table-Grid/tablegrid_05.png)
 
 ## Scripting
 The table allows you to react to user interactions, such as selecting a row.
@@ -59,8 +59,8 @@ Steps in the Script Editor:
 4. Combine this with the "Write to log" block (3).
 5. Save the script by clicking "Save and Close" (4).
 
-[!image_6](/assets/images/Controls/Table-Grid/tablegrid_06.png)
+![image_6](/assets/images/Controls/Table-Grid/tablegrid_06.png)
 
 Start the preview and check the Log (1) to see if the return value is correctly displayed depending on the selected row of the table. Select different rows to expand the log.
 
-[!image_7](/assets/images/Controls/Table-Grid/tablegrid_07.png)
+![image_7](/assets/images/Controls/Table-Grid/tablegrid_07.png)
