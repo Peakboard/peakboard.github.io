@@ -17,7 +17,7 @@ Du findest das Tabellen-Control im Peakboard Designer in der Gruppe Lists & Tile
 ![image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
 
 # Konfiguration und Eigenschaften
-## 1 Verknüpfung und Spaltenmanagement1 Verknüpfung und Spaltenmanagement
+## 1 Verknüpfung und Spaltenmanagement
 ### 1.1 Datenquelle
 Die Tabelle benötigt eine Datenquelle, um ihre Optionen und Inhalte anzuzeigen. Füge dazu eine Datenquelle im Designer Explorer auf der linken Seite ein, hier zum Beispiel eine Excelliste mit Namen.
 
@@ -37,11 +37,13 @@ Unter „Daten“ in den Eigenschaften auf der rechten Seite kannst du festlegen
 In den Attributen auf der rechten Seite steuerst du das visuelle Verhalten:
 *  Allgemeines: Definiere die Maße der Tabelle. Hier kannst du ihr ebenfalls ein Titel bzw. eine Überschrift vergeben.
 ### Aussehen
+
 1. Hintergrund, Schatten & Eckenradius (Aussehen): Gestalte die Hintergrundfarbe der Tabelle, stelle die Schattenstärke ein, die die Tabelle auf das Design wirft, und passe die Ecken der Tabelle an (1).
 2. Kontur (Aussehen): Passe die optische Darstellung der Striche in der Tabelle an, indem Du die Rand-, horizontalen und vertikalen Linien aktivierst sowie die Linienfarbe und Linienstärke bestimmst (2).
 3. Tabellenkopfzeile (Aussehen)(: Lege fest, ob die Spaltenüberschriften zu sehen sein sollen und stelle die Hintergrundfarbe und Schriftart der Kopfzeile ein (3).
 4. Tabellenkörper (Aussehen): Lege fest, welche Farbe und Schriftart die Zeilen bzw. die Zelle beinhalten soll und bestimme die Zahl an maximal angezeigten Zeilen (4).
 ### Logik
+
 5. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (5).
 6. Bedingte Formatierung (Logik): Erstelle Regeln, um Zellen oder ganze Zeilen basierend auf Werten einzufärben (z. B. Hintergrundfarbe „Rot“, wenn ein Wert einen Schwellenwert unterschreitet) (6).
 
@@ -57,6 +59,7 @@ Schritte im Script-Editor:
 3.	Greife auf den „get row“-Block zu (2).
 4.	Kombiniere dies mit dem Block „Ins Log schreiben“ (3).
 5.	Speichere das Skript unter “Speichern und Schließen” ab (4).
+
 ![image_6](/assets/images/Controls/Table-Grid/tablegrid_06.png)
 
 Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach ausgewählter Zeile der Tabelle korrekt zurückgegeben wird. Wähle verschiedene Zeilen aus, um das Log zu erweitern.
