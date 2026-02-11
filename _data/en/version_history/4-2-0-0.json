@@ -1,0 +1,369 @@
+[
+	{
+		"version": "4.2.1.2",
+		"date": "02.02.2026",
+		"download_url": "https://peakboard.rocks/download-version-history",
+		"box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.2.1.2.0/PeakboardRuntime.pbux",
+		"designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.2.1.2.0/PeakboardSetup.exe",
+		"byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.2.1.2.0/PeakboardRuntimeSetupUI.exe",
+		"tabs": [
+			{
+				"name": "Camera",
+				"content": [
+					{
+						"type": "image",
+						"image": "4-2-0-0-Camera_EN.gif",
+						"description": "Cameras can be integrated into Peakboard applications and used to capture images."
+					}
+				]
+			},
+			{
+				"name": "Dynamic Images",
+				"content": [
+					{
+						"type": "image",
+						"image": "4-2-0-0-0-Image-EN.gif",
+						"description": "Images can now be dynamically linked via the file name."
+					}
+				]
+			},
+			{
+				"name": "Dataflow Parameters",
+				"content": [
+					{
+						"type": "image",
+						"image": "4-2-0-0-Parameter_EN.gif",
+						"description": "Dataflows can be configured with parameters and used by controls."
+					}
+				]
+			},
+			{
+				"name": "General overview",
+				"content": [
+					{
+						"type": "headline",
+						"text": "General"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Updated default names for shared connections to reflect the data source name."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Designer"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Restructured the properties panel with added screen switch options: Manual, Periodic, By Schedule.",
+							"Improved performance when expanding screens with numerous elements.",
+							"Improved search performance for data sources in the binding drop-down.",
+							"Added folders for scripts in the Package Explorer and Script Editor.",
+							"Fixed performance issues when dragging files into the Explorer.",
+							"Fixed display issues for selectable values in custom list properties.",
+							"Fixed issue where the 'Select All' selection was overlapped when scrolling.",
+							"Fixed issue where sources used in the IconView control were not displayed in the 'References' dialog.",
+							"New function to copy/paste styles with the 'Save as Default' feature."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Scripting"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Refined schedule dialog with smaller footprint and new day pattern.",
+							"Enhanced experience when opening script schedules.",
+							"Fixed long startup times in the Script Editor when Peakbot is not reachable.",
+							"Addressed runtime crashes when clicking in a text field in the web browser.",
+							"Renaming directly in the timer script dialog enabled."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Peakboard Hub"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed issue where the pbmx file in Peakboard Hub contained escape characters.",
+							"Fixed error message issues when adding a box to Peakboard Hub with invalid data."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Video"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Implemented camera integration in the Video control."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Peakboard Box"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed certificate issues that led to log overflows.",
+							"Fixed time synchronization issues on the Peakboard Box when the Windows time deviates too much from the server time."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Group"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Enabled creation of a group screenshot as Base64.",
+							"Group screenshots now use the correct background for gradients."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Extensions"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Allowed execution of extensions without restarting Peakboard Designer.",
+							"Enabled direct editing of properties in the extensions dialog.",
+							"Fixed issue with empty extension gallery."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Styled Tile / List / Collection"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Added Styled Lists and Styled Tile Collections within other Styled Lists or Styled Tile Collections.",
+							"Fixed issue where copying a Styled List incorrectly retained row references.",
+							"Revised dialog for copying templates for Styled Tiles."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Variable"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed issues with number restrictions during upload.",
+							"Fixed error when adding new variable lists with boolean columns.",
+							"Implemented export functions for the contents of variable lists in the Designer.",
+							"Added regex validation for string variables.",
+							"Implemented adding restrictions and default values for variable lists."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Runtime"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Average and last load times are now logged in debug mode.",
+							"Screen click event is now also triggered for controls with tap event and in the web control."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Security"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Switched Peakboard Box Basic Auth to a token-based concept.",
+							"Enabled SMB encryption for increased security.",
+							"Updated TLS version.",
+							"Implemented stricter user password policy.",
+							"Added globally applicable configuration encryption keys.",
+							"Web browser can no longer access the local directory.",
+							"Added missing cookie flags to protect the session.",
+							"Implemented protection against brute-force attacks on the Peakboard Box.",
+							"Password hashes are no longer retrieved from the box.",
+							"Implemented missing HTTP security headers.",
+							"Restricted os.execute functionality to debug mode."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Snippets / Building Blocks"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Added runtime functions to minimize, switch to fullscreen and windowed mode.",
+							"Implemented 'Show last used screen' functionality for the screen switch Building Block.",
+							"Fixed duplicate snippet generation in the Script Editor."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Dataflow"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed issue where Dataflows and data source queues overflowed.",
+							"Support for parameters in Dataflows."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Timeline"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed error when editing multiple Timeline Grid colors."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "PDF"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed error when screens containing a PDF were switched quickly.",
+							"PDF viewer automatically resets the page number to 1 when the PDF source changes.",
+							"Fixed fatal error in PDF viewer."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Explorer"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Added 'Show all controls' and 'Unlock all controls' options in the screen context menu.",
+							"Fixed issue where controls were not correctly selected in the Explorer."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "OPC UA"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Support for reading tabular values from OPC UA.",
+							"Added Building Block for calling OPC UA functions."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Data Sources"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"The number of preview data can now be changed."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "PowerBI"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed error message when using the keyboard shortcut Ctrl+C on the PowerBI control."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Microsoft Graph"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Added Building Block to send a screenshot or group screenshot to OneDrive and SharePoint library."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Resources"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Resource binding of image, video, PDF, and RTF control to resource and file name to make the resource dynamic."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Global Functions, Hub Flows"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Removed API URL from functions for data projects."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Chart"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed issue where changes to a label affected other series labels."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Debug Panel"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Improvements in the debug panel for copying/pasting values and a line counter."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Conditional Formatting"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed animations that would not stop."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Signal Block"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Added data source name and type icon in the rule dialog and adjusted operators based on data type.",
+							"Removed data type selection, this is now obtained directly from the connected value."
+						]
+					},
+					{
+						"type": "headline",
+						"text": "Combobox"
+					},
+					{
+						"type": "list",
+						"list_items": [
+							"Fixed issue when the dropdown data was connected to an empty list."
+						]
+					}
+				]
+			}
+		]
+	}
+]
