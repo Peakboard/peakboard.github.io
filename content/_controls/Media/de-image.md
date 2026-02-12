@@ -29,8 +29,8 @@ In den Eigenschaften auf der rechten Seite definierst du, wie das Bild dargestel
 2. Titel & Untertitel (Allgemeines): Trage eine Überschrift oder eine Beschreibung für das eingefügte Bild in den Rahmen ein (2).
 3. Deckkraft (Aussehen): Regle die Transparenz des Bildes (0 bis 100 %) (3).
 4. Strecken (Aussehen) (4): 
-	* inaktiv: Das Bild behält sein Seitenverhältnis bei und wird eingepasst
-	* 	aktiv: Das Bild wird verzerrt, um die Fläche exakt auszufüllen.
+4.1 inaktiv: Das Bild behält sein Seitenverhältnis bei und wird eingepasst
+4.2 aktiv: Das Bild wird verzerrt, um die Fläche exakt auszufüllen.
 5.	In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um die Bildquelle in Skripten zu verwenden, z. B., um das Bild per Skript zur Laufzeit zu ändern (5).
 
 ![image_3](/assets/images/Controls/Picture/picture03.png)

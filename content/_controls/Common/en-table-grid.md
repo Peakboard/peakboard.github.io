@@ -36,15 +36,14 @@ Edit table columns: Within the table, you can define the column header, column w
 ## 2 Properties and Conditional Formatting
 In the attributes on the right side, you control the visual behavior:
 *   General: Define the dimensions of the table. Here you can also assign a title or a heading to it.
-### Appearance
 
+### Appearance
 1. Background, Shadow & Corner Radius (Appearance): Style the background color of the table, set the shadow intensity the table casts on the design, and adjust the corners of the table (1).
 2. Outline (Appearance): Customize the visual representation of the lines in the table by activating the border, horizontal, and vertical lines, and determining the line color and thickness (2).
 3. Table Header (Appearance): Specify whether the column headers should be visible and set the background color and font of the header (3).
 4. Table Body (Appearance): Set the color and font for the rows or cells and determine the maximum number of displayed rows (4).
 
 ### Logic
-
 5. Use in scripts (Logic): Give the control a unique name so that you can easily identify it later in scripting (5).
 6. Conditional Formatting (Logic): Create rules to color cells or entire rows based on values (e.g., background color "Red" if a value falls below a threshold) (6).
 
