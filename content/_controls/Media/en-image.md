@@ -37,7 +37,7 @@ In the properties on the right side, you define how the image is displayed:
 
 ![image_3](/assets/images/Controls/Picture/picture03.png)
 
-## Scripting
+# Scripting
 ## Example: Change image source via script, verify in the log
 In this example, we change the image when a user clicks a button and have the successful change recorded in the log. To do this, add another image to the designer using one of the various connection modes (web URL, local, etc.). Ensure that the positioning frame remains a sufficient size for each image.
 Steps in the Script Editor:
