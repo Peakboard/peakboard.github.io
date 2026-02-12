@@ -15,8 +15,8 @@ You can find the Video control in the Peakboard Designer in the **Media & Docume
 
 ![image_1](/assets/images/Controls/Video/video_01.png)
 
-## Configuration and Properties
-### 1 Data Source and Video Selection
+# Configuration and Properties
+## 1 Data Source and Video Selection
 A Video control can be filled with content in various ways. Double-click the control to open the configuration dialog:
 
 1. Static Resource:Select a video from your local resources that is permanently stored in the application (e.g., an assembly manual). This can be a local file or a stream (1a, 1b).
@@ -24,7 +24,7 @@ A Video control can be filled with content in various ways. Double-click the con
 
 ![image_2](/assets/images/Controls/Video/video_02.png)
 
-### 2 Appearance and Control
+## 2 Appearance and Control
 In the properties on the right side, you can precisely control the behavior and representation of the video:
 
 1. Control Positioning (General): Define the alignment of the element on the workspace. Use the first eight symbols to quickly place the control at corners or side centers, while the ninth symbol fills the entire available area. The last icon centers the element, where the size can be pre-defined via the manual input fields. (1)
@@ -37,9 +37,9 @@ In the properties on the right side, you can precisely control the behavior and 
 
 ![image_3](/assets/images/Controls/Video/video_03.png)
 
-## Scripting
+# Scripting
 The Video control offers specific commands to dynamically influence playback.
-### Example: Start and stop video via button
+## Example: Start and stop video via button
 In this example, we use two buttons to manually control a video. Choose two buttons or icons for starting and pausing the video. To edit the video with the buttons in the script editor, give the Video control a name under "Use in scripts."
 
 Steps in the Script Editor:

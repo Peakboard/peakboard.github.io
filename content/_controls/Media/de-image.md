@@ -15,15 +15,15 @@ Du findest das Bild-Control im Peakboard Designer in der Gruppe Medien & Dokumen
 
 ![image_1](/assets/images/Controls/Picture/picture01.png)
 
-## Konfiguration und Eigenschaften
-### 1 Datenquelle und Bildauswahl
+# Konfiguration und Eigenschaften
+## 1 Datenquelle und Bildauswahl
 Ein Bild-Control kann auf unterschiedliche Weise mit Inhalten gefüllt werden. Klicke das Control doppelt an, um den Konfigurationsdialog zu öffnen:
 * Statische Ressource: Wähle ein Bild aus deinen lokalen Ressourcen aus, das fest in der Anwendung gespeichert ist (z. B. ein Firmenlogo) (1).
 * Dynamische Verknüpfung (Datenbindung): Verknüpfe das Control mit einer Datenquelle oder einer Variablen, die einen Pfad oder eine URL enthält. Das Bild wird dann zur Laufzeit automatisch aktualisiert (2a), (2b).
 
 ![image_2](/assets/images/Controls/Picture/picture02.png)
 
-### 2 Aussehen und Skalierung
+## 2 Aussehen und Skalierung
 In den Eigenschaften auf der rechten Seite definierst du, wie das Bild dargestellt wird:
 1. Abstand (Allgemeines): Hier definierst du einen inneren Abstand für das Bild innerhalb seines Positionierungsrahmens. Über die Felder Links, Oben, Rechts und Unten kannst du das Bild präzise positionieren oder Einrückungen festlegen, um einen festen Abstand zum Rahmen des Controls zu wahren (1).
 2. Titel & Untertitel (Allgemeines): Trage eine Überschrift oder eine Beschreibung für das eingefügte Bild in den Rahmen ein (2).
@@ -37,8 +37,8 @@ In den Eigenschaften auf der rechten Seite definierst du, wie das Bild dargestel
 
 ![image_3](/assets/images/Controls/Picture/picture03.png)
 
-## Scripting
-### Beispiel: Bildquelle per Skript ändern, im Log überprüfen
+# Scripting
+## Beispiel: Bildquelle per Skript ändern, im Log überprüfen
 In diesem Beispiel ändern wir das Bild, wenn ein Nutzer auf einen Button klickt und lassen uns die erfolgreiche Änderung im Log eintragen. Füge dazu ein weiteres Bild aus den mehreren Verknüpfungsmodi (Web-URL, Lokal, …) in den Designer ein. Achte darauf, dass der Positionierungsrahmen eine ausreichende Größe für jedes Bild behält.
 Schritte im Script-Editor:
 1.	Öffne den Script-Editor des auslösenden Elements unter Tapped.

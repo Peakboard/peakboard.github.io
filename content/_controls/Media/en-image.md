@@ -15,8 +15,8 @@ You can find the Image control in the Peakboard Designer in the Media & Document
 
 ![image_1](/assets/images/Controls/Picture/picture01.png)
 
-## Configuration and Properties
-### 1 Data Source and Image Selection
+# Configuration and Properties
+## 1 Data Source and Image Selection
 An Image control can be filled with content in different ways. Double-click the control to open the configuration dialog:
 * Static Resource: Select an image from your local resources that is permanently stored in the application (e.g., a company logo) (1).
 * Dynamic Connection (Data Binding): Link the control to a data source or a variable that contains a path or a URL. The image will then be updated automatically at runtime (2a), (2b).
@@ -38,7 +38,7 @@ In the properties on the right side, you define how the image is displayed:
 ![image_3](/assets/images/Controls/Picture/picture03.png)
 
 ## Scripting
-### Example: Change image source via script, verify in the log
+## Example: Change image source via script, verify in the log
 In this example, we change the image when a user clicks a button and have the successful change recorded in the log. To do this, add another image to the designer using one of the various connection modes (web URL, local, etc.). Ensure that the positioning frame remains a sufficient size for each image.
 Steps in the Script Editor:
 1. Open the script editor of the triggering element under Tapped.
