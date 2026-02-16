@@ -19,7 +19,7 @@ You can find the PDF Viewer in the Peakboard Designer in the Media & Documents g
 ## 1 Data Source and PDF Selection
 A PDF Viewer can be filled with content in various ways. Double-click the control to open the configuration dialog:
 * Add Resource: Select a PDF file from your local resources or other storage locations that is permanently stored in the application (1).
-* Dynamic Linking (Data Binding): Link the control to a data source or a variable that contains a path or a URL to the PDF. The document will then be loaded automatically at runtime.
+* Dynamic Linking (Data Binding): Link the control to a data source or a variable that contains a path or a URL to the PDF. The document will then be loaded automatically at runtime (2).
 
 ![image_2](/assets/images/Controls/PDF/PDF_02.png)
 
@@ -60,7 +60,7 @@ Simply select the "set page of" building block under the "Page" category of your
 Start the preview and check if the pages switch correctly and if the selected interval is accurate.
 
 ## Example Two: Switch PDF Pages via Buttons
-### ! Important: Use either a timer script or a button script; a button script cannot be controlled smoothly while a timer script is active. The "Screen activated" script can be retained.
+### ! Important: Use either a timer script or a button scrip, a button script cannot be controlled smoothly while a timer script is active. The "On Screen Activation" script can be retained.
 In this example, we use two buttons ("Next" and "Back") to manually flip through a PDF manual.
 
 ### Steps in the Script Editor:
