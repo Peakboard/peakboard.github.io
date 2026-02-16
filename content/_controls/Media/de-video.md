@@ -35,7 +35,7 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darst
 
 ![image_3](/assets/images/Controls/Video/video_03.png)
 
-#Scripting
+# Scripting
 Das Video-Control bietet spezifische Befehle, um die Wiedergabe dynamisch zu beeinflussen.
 ## Beispiel: Video per Button starten und stoppen
 In diesem Beispiel nutzen wir zwei Buttons, um ein Video manuell zu steuern. Wähle dazu zwei Buttons bzw. Icons, mit denen Du das Video beispielsweise startest und pausierst.
