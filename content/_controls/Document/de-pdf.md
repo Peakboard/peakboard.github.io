@@ -35,7 +35,7 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darst
 
 # Scripting
 Der PDF Viewer bietet spezifische Befehle, um durch die Seiten eines Dokuments zu blättern.
-### Beispiel Eins: PDF-Seiten automatisch wechseln
+## Beispiel Eins: PDF-Seiten automatisch wechseln
 In diesem ersten Beispiel nutzen wir ein Timer-Skript, um in der Vorschau bzw. in der Runtime einen automatischen Seitenwechsel zu erzeugen. Vergib deinem PDF-Control dazu vorerst eine „In Skripten verwenden“-Bezeichnung. Füge dann der Visualisierung ein neues Timer-Skript hinzu, dass Du auf der linken Seite im Designer findest (1).
  
 ![image_4](/assets/images/Controls/PDF/PDF_04.png)
@@ -59,9 +59,10 @@ Dazu einfach den Building Block „Wert setzen“ (set page of) unter der „Sei
 
 Starte die Vorschau und überprüfe, ob die Seiten korrekt gewechselt werden und ob das gewählte Intervall in etwa stimmt.
 
-### Beispiel Zwei: PDF-Seiten per Buttons wechseln
-(! Wichtig: Entweder ein Timerskript, oder ein Buttonskript, mit einem aktiven Timerskript lässt sich das Buttonskript nicht problemlos steuern. Das "Bildschirmaktivierung"-Skript kann beibehalten werden.)
+## Beispiel Zwei: PDF-Seiten per Buttons wechseln
+### ! Wichtig: Entweder ein Timerskript, oder ein Buttonskript, mit einem aktiven Timerskript lässt sich das Buttonskript nicht problemlos steuern. Das "Bildschirmaktivierung"-Skript kann beibehalten werden.)
 In diesem Beispiel nutzen wir zwei Buttons („Vor“ und „Zurück“), um manuell durch ein PDF-Handbuch zu blättern.
+
 ### Schritte im Script-Editor:
 1.	Setze zwei Button-Controls unter „Interaktiv“ oder zwei Icons aus „Basics“ auf die Arbeitsfläche im Designer.
 2.	Aktiviere „In Skripten verwenden“ für das PDF-Control.
