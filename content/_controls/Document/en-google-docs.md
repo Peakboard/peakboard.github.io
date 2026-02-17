@@ -11,33 +11,31 @@ redirect_from:
   - /controls/en-google-docs.html
 ---
 
-This article describes the integration of Google Docs documents into a Peakboard-Panel. All three types of documents are supported: Docs (normal documents as known from MS Word), slides (as from MS PowerPoint) and spreadsheets (as from MS Excel). Of course, many other documents can still be stored in Google Drive, but the Google Docs Control only supports these three main types, which are grouped together under the term “Google Docs”.
+The Google Docs control allows you to integrate Google Docs documents into your visualization. All three types of documents are supported: Docs (standard documents as known from MS Word), Slides (as in MS PowerPoint), and Spreadsheets (as in MS Excel).
+You find the Google Docs control in the Peakboard Designer in the Media & Documents group (1). Drag and drop the icon into your designer or place it with a double-click on your workspace.
 
-We want to include the following example document. There’s no need to release it in any way. They allow Peakboard to readily access Google Drive. This ensures authentication.
+![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDoc_01.png)
 
-![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs01.png)
+# Configuration and Properties
+## 1 Data Source and Account Linking
+We want to integrate the following sample document; it is not necessary to share it in any form. Simply allow Peakboard to have read access to Google Drive. This ensures authentication.
+Click the "Authorize" button (1) to open the authorization dialog, where you must enter your Google credentials. Note! This is a Google website. You are not providing your username and password to Peakboard; instead, you are merely authenticating with Google and granting access. Google then returns only an authorization token (a cryptic character string) to Peakboard. You can revoke this authorization in your Google account at any time. It works on exactly the same principle as granting access to other third-party apps.
+Using the "Document" input field (2) opens a selection dialog that reflects the folder structure of your Google Drive account. This allows you to select the desired document and transfer it to the main dialog.
 
-Drag the Google Docs Control from the Toolbox to a Peakboard panel, resize it, and double-click the Control to open the editor.
+![image_2](/assets/images/Controls/Google-Docs/ControlsGoogleDocs_02.png)
 
-![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs02.png)
+## 2 Appearance and Control
+In the properties on the right side, you can precisely control the behavior and representation:
+1. Control Positioning (General): Define the alignment of the element on the workspace. With the first eight symbols, the control can be quickly placed at corners or side centers, while the ninth symbol fills the entire available area. The last icon centers the element (1).
+2. General: Use the Width, Height, Left, and Top fields to precisely define the size of the PDF via the manual input fields. Below that, you define an internal spacing (padding) for the document within its frame, and a title can also be assigned that appears above the control (2).
+3. Use in scripts (Logic): Give the control a unique name to control it later via script.
+4. Conditional Formatting (Logic): Use conditional formatting to control the visibility of the control based on certain events, for example.
 
-You must now allow Peakboard to access your Google Drive. To do so, click on the button with the three dots to open the authorization dialog where you need to enter your Google credentials. Attention! This is a Google website. You don’t give your user name and password to Peakboard, but you only authenticate yourself at Google and allow access. Google then only returns an authorization token (a cryptic string) to Peakboard. You can revoke this authorization at any time in your Google Account. It works exactly the same way as when you allow other third-party apps to access it.
+The preview button retrieves the document from Google and displays it in the lower part of the dialog.
+And this is exactly how it should look when it runs in the preview at runtime or directly on the Peakboard Box.
 
-![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs03.png)
-
-![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs04.png)
-
-With the button “Select Document…” opens a selection dialog that shows the folder structure of the Google Drive account. In this way, the desired document can be selected and transferred to the main dialog.
-
-![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs05.png)
-
-Nothing more can be done. The Preview button retrieves the document from Google and displays it at the bottom of the dialog.
-
-![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs06.png)
-
-And it should look exactly the same if it runs at runtime in the preview or directly on the Peakboard-Box.
-
-![image_1](/assets/images/Controls/Google-Docs/ControlsGoogleDocs07.png)
+![image_3](/assets/images/Controls/Google-Docs/ControlsGoogleDocs_03.png)
 
 ## Remarks
-If you use slides from Google, these slides are adapted to the size of the Peakboard-Control. This is not the case with docs and spreadsheets. Here, the pixel-accurate size is fitted into the Peakboard-Control. If the Control is not large enough, parts of the content are not visible.
+
+If you use Google Slides, these slides will be adapted to the size of the Peakboard control. This is not the case for Docs and Spreadsheets. Here, the pixel-perfect size is fitted into the Peakboard control. If the control is not large enough, parts of the content will not be visible.
