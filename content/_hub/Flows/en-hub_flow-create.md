@@ -8,6 +8,7 @@ lang: en
 weight: 1110
 ref: hub-1110
 redirect_from:
+ - /hub/en-hub_flow-create.html
 ---
 
 In this article you will learn how to create and upload a new flow in Peakboard Hub.

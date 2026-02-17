@@ -8,6 +8,7 @@ lang: en
 weight: 1100
 ref: hub-1100
 redirect_from:
+ - /hub/en-hub_flows-overview.html
 ---
 
 This section provides a central overview and control of your data projects within Peakboard Hub.

@@ -8,6 +8,7 @@ lang: de
 weight: 930
 ref: hub-930
 redirect_from:
+ - /hub/de-hub_alert-send.html
 ---
 
 In diesem Artikel erfährst du, wie du Alerts von einer Peakboard Box an eine mit dem Peakboard Hub verbundene Gruppe sendest.

@@ -8,6 +8,7 @@ lang: en
 weight: 920
 ref: hub-920
 redirect_from:
+ - /hub/en-hub_alert-email.html
 ---
 
 In this article you will learn how to activate email alerts in Peakboard Hub.

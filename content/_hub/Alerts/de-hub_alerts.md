@@ -8,6 +8,7 @@ lang: de
 weight: 900
 ref: hub-900
 redirect_from:
+ - /hub/de-hub_alerts.html
 ---
 
 Peakboard Hub Alerts sind ein Instrument für die Echtzeitüberwachung und -reaktion in deiner Betriebsumgebung.

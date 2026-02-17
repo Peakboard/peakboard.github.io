@@ -8,6 +8,7 @@ lang: en
 weight: 910
 ref: hub-910
 redirect_from:
+ - /hub/en-hub_alert-push.html
 ---
 
 In this article you will learn how to receive alerts from Peakboard Hub as browser push notifications.

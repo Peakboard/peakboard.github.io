@@ -163,6 +163,12 @@ collections:
       Lists:
         en: "Lists"
         de: "Lists"
+      Alerts:
+        en: "Alerts"
+        de: "Alerts"
+      Flows:
+        en: "Flows"
+        de: "Flows"
 
   edge:
     output: true

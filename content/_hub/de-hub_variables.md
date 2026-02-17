@@ -9,7 +9,7 @@ lang: de
 weight: 700
 ref: hub-700
 redirect_from:
-
+ - /hub/de-hub_variable-delete.html
 ---
 
 Die Variablen im Peakboard Hub dienen zum Austausch einzelner Werte zwischen dem Peakboard Hub und Peakboard Boxen.
@@ -36,6 +36,14 @@ Im Gegensatz zu den [Peakboard Hub Listen](/hub/Listen/de-hub_new-list.html) kö
 2. **Änderungen bestätigen:** Bestätige die Änderungen mit dem Haken-Symbol oder verwirf sie mit dem X-Symbol.
 
 Erfolgreich erstellte Variablen ermöglichen den Datenaustausch zwischen mehreren Peakboard Boxen. Werte werden automatisch über alle verbundenen Systeme synchronisiert.
+
+### Variable löschen
+
+![Variable löschen](/assets/images/hub/de_hub_variable-delete.gif)
+
+1. **Variablen-Seite öffnen:** Navigiere zum Bereich [Variables] in der linken Seitenleiste.
+2. **Kontextmenü öffnen:** Klicke auf die drei Punkte rechts neben der Variablenkarte, die du löschen möchtest.
+3. **Löschen auswählen:** Wähle [Delete] aus dem Dropdown-Menü. Die Variable wird sofort gelöscht und eine grüne Bestätigungsmeldung erscheint kurz am unteren Bildschirmrand.
 
 ### Verknüpfung mit Listenwerten
 

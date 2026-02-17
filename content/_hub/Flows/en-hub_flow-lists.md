@@ -8,6 +8,7 @@ lang: en
 weight: 1120
 ref: hub-1120
 redirect_from:
+ - /hub/en-hub_flow-lists.html
 ---
 
 In the Peakboard Hub lists section, you can conveniently browse automatically generated flow lists and link individual values to variables.
