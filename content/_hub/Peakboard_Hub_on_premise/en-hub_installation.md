@@ -19,6 +19,17 @@ The Windows Domain Controller (Active Directoy) is used for authentication, so j
 Data storage of the Peakboard Hub on premise takes place in an included SQL Server Express 2019.
 However, an already existing SQL Server from version 2017 can also be used.
 
+### System requirements
+
+The server running Peakboard Hub on premise must meet at least the following requirements:
+
+{% include styled_table.html %}
+{: .w-full }
+| Processor | 4 cores |
+| Memory | 32 GB RAM |
+| Storage | 128 GB SSD |
+| Operating system | Windows Server 2016 or higher |
+
 ### Installation
 
 For the initial installation on a Windows server, you only need the installation file of the Peakboard Hub on premise, which is provided [here](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
