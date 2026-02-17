@@ -6,7 +6,12 @@
       "Bash(git push)",
       "Bash(git commit:*)",
       "WebFetch(domain:help.peakboard.com)",
-      "WebFetch(domain:how-to-dismantle-a-peakboard-box.com)"
+      "WebFetch(domain:how-to-dismantle-a-peakboard-box.com)",
+      "WebFetch(domain:docs.happysupport.ai)",
+      "Bash(curl:*)",
+      "Bash(find:*)",
+      "Bash(ls -la \"C:\\\\Source\\\\PeakboardHelp\\\\content\\\\_hub\\\\Alerts\"\" && echo \"---\" && ls -la \"C:SourcePeakboardHelpcontent_hubFlows\"\")",
+      "Bash(git checkout:*)"
     ]
   }
 }
