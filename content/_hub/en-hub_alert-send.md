@@ -22,18 +22,15 @@ You will create a button in your visualization that sends an alert message when 
 
 ### Create and configure alert button
 
-3. Drag a [Button] from the [Interactive] section onto the visualization.
-4. Double-click the button to open the Script Editor.
-5. Search for the Alert block in the Script Editor.
-6. Drag the [Send alert] script from the right panel into the Script Editor.
-7. Select an alert type from the dropdown:
-   - **Info:** General information messages.
-   - **Warning:** Warning notifications.
-   - **Problem:** Error or critical state messages.
-8. Enter the alert text in the text field.
-9. Click [Save & close] to save the script.
+1. Drag a [Button] from the [Interactive] section onto the visualization.
+2. Double-click the button to open the Script Editor.
+3. Search for the Alert block in the Script Editor.
+4. Drag the [Send alert] script from the right panel into the Script Editor.
+5. Select an alert type from the dropdown: **Info** (general information messages), **Warning** (warning notifications) or **Problem** (error or critical state messages).
+6. Enter the alert text in the text field.
+7. Click [Save & close] to save the script.
 
 ### Test the visualization
 
-10. Upload the visualization to the Peakboard Box or use the preview function.
-11. Click the alert button to send the alert to the connected group.
+1. Upload the visualization to the Peakboard Box or use the preview function.
+2. Click the alert button to send the alert to the connected group.

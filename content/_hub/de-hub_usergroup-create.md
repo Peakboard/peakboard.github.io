@@ -22,7 +22,7 @@ In diesem Artikel erfährst du, wie du eine neue Nutzergruppe im Peakboard Hub e
 
 ### Gruppeneinstellungen konfigurieren
 
-4. **Gruppe auswählen:** Die neu erstellte Gruppe erscheint in der Liste in der linken Seitenleiste. Klicke auf die Gruppe, um sie auszuwählen.
-5. **Zugriffsrechte festlegen:** Im Bereich [Access] konfigurierst du die gewünschten Berechtigungen. Über Schalter aktivierst oder deaktivierst du den Zugriff auf die verschiedenen Bereiche.
+1. **Gruppe auswählen:** Die neu erstellte Gruppe erscheint in der Liste in der linken Seitenleiste. Klicke auf die Gruppe, um sie auszuwählen.
+2. **Zugriffsrechte festlegen:** Im Bereich [Access] konfigurierst du die gewünschten Berechtigungen. Über Schalter aktivierst oder deaktivierst du den Zugriff auf die verschiedenen Bereiche.
 
 Die neue Nutzergruppe ist nun angelegt und konfiguriert. Du kannst jederzeit weitere Anpassungen an den Gruppeneinstellungen vornehmen oder Benutzer zur Gruppe hinzufügen.

@@ -22,8 +22,8 @@ In this article you will learn how to create and upload a new flow in Peakboard 
 
 ### Edit and upload flow
 
-4. **Create flow:** Begin creating your flow. After completion, upload the flow using the [Upload] button.
-5. **Name flow:** Assign a descriptive name for your flow and click [OK].
-6. **View flow in Hub:** After successful upload, find your flow in Peakboard Hub under [Flows] in the flow list.
+1. **Create flow:** Begin creating your flow. After completion, upload the flow using the [Upload] button.
+2. **Name flow:** Assign a descriptive name for your flow and click [OK].
+3. **View flow in Hub:** After successful upload, find your flow in Peakboard Hub under [Flows] in the flow list.
 
 Your new flow is now created and uploaded. The flow is available in Peakboard Hub for editing and use.

@@ -22,8 +22,8 @@ In diesem Artikel erfährst du, wie du einen neuen Flow im Peakboard Hub erstell
 
 ### Flow bearbeiten und hochladen
 
-4. **Flow erstellen:** Beginne mit der Erstellung deines Flows. Nach der Fertigstellung lädst du den Flow über den [Upload] Button hoch.
-5. **Flow benennen:** Vergib einen aussagekräftigen Namen für deinen Flow und klicke auf [OK].
-6. **Flow im Hub anzeigen:** Nach dem erfolgreichen Upload findest du deinen Flow im Peakboard Hub unter [Flows] in der Flow-Liste.
+1. **Flow erstellen:** Beginne mit der Erstellung deines Flows. Nach der Fertigstellung lädst du den Flow über den [Upload] Button hoch.
+2. **Flow benennen:** Vergib einen aussagekräftigen Namen für deinen Flow und klicke auf [OK].
+3. **Flow im Hub anzeigen:** Nach dem erfolgreichen Upload findest du deinen Flow im Peakboard Hub unter [Flows] in der Flow-Liste.
 
 Dein neuer Flow ist nun erstellt und hochgeladen. Der Flow steht im Peakboard Hub zur Bearbeitung und Nutzung bereit.

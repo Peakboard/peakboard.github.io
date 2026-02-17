@@ -22,18 +22,15 @@ Du erstellst dazu einen Button in deiner Visualisierung, der beim Klick eine Ale
 
 ### Alert-Button erstellen und konfigurieren
 
-3. Ziehe einen [Button] aus dem Bereich [Interactive] auf die Visualisierung.
-4. Doppelklicke auf den Button, um den Skript-Editor zu öffnen.
-5. Suche im Skript-Editor nach dem Alert-Block.
-6. Ziehe das Skript [Send alert] aus dem rechten Bereich in den Skript-Editor.
-7. Wähle einen Alert-Typ aus dem Dropdown aus:
-   - **Info:** Allgemeine Informationsnachrichten.
-   - **Warning:** Warnmeldungen.
-   - **Problem:** Fehler- oder kritische Zustandsmeldungen.
-8. Gib den Alert-Text im Textfeld ein.
-9. Klicke auf [Save & close], um das Skript zu speichern.
+1. Ziehe einen [Button] aus dem Bereich [Interactive] auf die Visualisierung.
+2. Doppelklicke auf den Button, um den Skript-Editor zu öffnen.
+3. Suche im Skript-Editor nach dem Alert-Block.
+4. Ziehe das Skript [Send alert] aus dem rechten Bereich in den Skript-Editor.
+5. Wähle einen Alert-Typ aus dem Dropdown aus: **Info** (allgemeine Informationsnachrichten), **Warning** (Warnmeldungen) oder **Problem** (Fehler- oder kritische Zustandsmeldungen).
+6. Gib den Alert-Text im Textfeld ein.
+7. Klicke auf [Save & close], um das Skript zu speichern.
 
 ### Visualisierung testen
 
-10. Lade die Visualisierung auf die Peakboard Box oder nutze die Vorschau-Funktion.
-11. Klicke auf den Alert-Button, um den Alert an die verbundene Gruppe zu senden.
+1. Lade die Visualisierung auf die Peakboard Box oder nutze die Vorschau-Funktion.
+2. Klicke auf den Alert-Button, um den Alert an die verbundene Gruppe zu senden.

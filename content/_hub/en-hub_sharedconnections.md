@@ -18,14 +18,7 @@ In the Connections menu item you can create connections to different data source
 
 1. **Add new connection:** Click the [Add connection] button in the upper right of the Peakboard Hub interface.
 2. **Enter connection details:** In the [Create New Connection] dialog, enter a name and select the connection type.
-3. **Select connection type:** The following types are available:
-   - **Mail** (email connections)
-   - **ODBC** (database connections)
-   - **Oracle Server** (Oracle databases)
-   - **SQL Server** (Microsoft SQL Server)
-   - **SAP** (SAP systems)
-   - **Url Resource** (web-based resources)
-   - **Domain User** (domain authentication)
+3. **Select connection type:** The following types are available: **Mail** (email connections), **ODBC** (database connections), **Oracle Server** (Oracle databases), **SQL Server** (Microsoft SQL Server), **SAP** (SAP systems), **Url Resource** (web-based resources) and **Domain User** (domain authentication).
 4. **Configure settings:** Adjust the settings based on your resource type.
 5. **Save connection:** Click [Save] to create the connection.
 
@@ -33,11 +26,11 @@ In the Connections menu item you can create connections to different data source
 
 ### Use connections in Peakboard Designer
 
-6. **Open project settings:** Access the project settings via the gear icon in the toolbar.
-7. **Access connections section:** Select [Connections] from the dropdown menu.
-8. **Open connection management:** Click the [Import] button in the connection management area.
-9. **Refresh Hub connections:** Select [Refresh Peakboard Hub connections] from the context menu to load the current connections.
-10. **Select your connection:** Your newly created connection appears in the [Peakboard Hub connections] list.
-11. **Confirm selection:** Click [OK] to integrate the connection into your application.
+1. **Open project settings:** Access the project settings via the gear icon in the toolbar.
+2. **Access connections section:** Select [Connections] from the dropdown menu.
+3. **Open connection management:** Click the [Import] button in the connection management area.
+4. **Refresh Hub connections:** Select [Refresh Peakboard Hub connections] from the context menu to load the current connections.
+5. **Select your connection:** Your newly created connection appears in the [Peakboard Hub connections] list.
+6. **Confirm selection:** Click [OK] to integrate the connection into your application.
 
 The connection is now available for use across applications and centrally managed via Peakboard Hub.

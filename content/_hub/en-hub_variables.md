@@ -23,21 +23,15 @@ Changes are immediately distributed via MQTT without relying on a loading interv
 
 ### Configure variable
 
-3. **Set identifier:** Enter a name in the [Identifier] field (e.g. "ShiftDuration").
-4. **Select data type:** Choose one of the three available data types:
-   - **string:** Text values
-   - **number:** Numeric values
-   - **bool:** Boolean values (true/false)
-5. **Add constraints (optional):** For numeric variables you can activate the [Add constraints] option and define the following values:
-   - **Min value:** Minimum allowed value
-   - **Max value:** Maximum allowed value
-   - **Tick size:** Step size for changes
-6. **Save variable:** Click the [Add] button to create the variable.
+1. **Set identifier:** Enter a name in the [Identifier] field (e.g. "ShiftDuration").
+2. **Select data type:** Choose one of the three available data types: **string** (text values), **number** (numeric values) or **bool** (boolean values).
+3. **Add constraints (optional):** For numeric variables you can activate the [Add constraints] option and define the following values: **Min value** (minimum allowed value), **Max value** (maximum allowed value) and **Tick size** (step size for changes).
+4. **Save variable:** Click the [Add] button to create the variable.
 
 ### Edit variable
 
-7. **Adjust value:** The variable appears after creation in the [Shared variables] section. Click on the value field to change the current value.
-8. **Confirm changes:** Confirm changes with the checkmark symbol or discard them with the X symbol.
+1. **Adjust value:** The variable appears after creation in the [Shared variables] section. Click on the value field to change the current value.
+2. **Confirm changes:** Confirm changes with the checkmark symbol or discard them with the X symbol.
 
 Successfully created variables enable data exchange between multiple Peakboard Boxes. Values are automatically synchronized across all connected systems.
 

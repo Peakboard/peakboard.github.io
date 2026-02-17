@@ -24,19 +24,16 @@ These lists offer you the possibility to change and store data centrally for all
 
 ### Configure columns
 
-4. **Enter column name:** Enter the desired column name in the [Column Name] field.
-5. **Select data type:** Choose the column type from the [Column Type] dropdown:
-   - **String:** Text entries such as names or descriptions.
-   - **Boolean:** Yes/No or True/False values.
-   - **Number:** Numeric values such as quantities or prices.
-6. **Set default value (optional):** Enter a value in the [Default Value] field.
-7. **Define constraints (optional):** Click the Constraints icon to set value restrictions (available for String and Number columns).
-8. **Add more columns:** Click [Add Column] for additional columns.
-9. **Save:** Click [Ok] to create the list.
+1. **Enter column name:** Enter the desired column name in the [Column Name] field.
+2. **Select data type:** Choose the column type from the [Column Type] dropdown: **String** (text entries such as names or descriptions), **Boolean** (Yes/No or True/False values) or **Number** (numeric values such as quantities or prices).
+3. **Set default value (optional):** Enter a value in the [Default Value] field.
+4. **Define constraints (optional):** Click the Constraints icon to set value restrictions (available for String and Number columns).
+5. **Add more columns:** Click [Add Column] for additional columns.
+6. **Save:** Click [Ok] to create the list.
 
 ### Enter data
 
-10. Click [+ Add row] to insert the first data entry.
-11. Enter the data in the corresponding fields matching the defined columns.
+1. Click [+ Add row] to insert the first data entry.
+2. Enter the data in the corresponding fields matching the defined columns.
 
 The list is now created and available to all connected Peakboard Boxes for use in Peakboard Designer.

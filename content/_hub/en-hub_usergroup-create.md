@@ -22,7 +22,7 @@ In this article you will learn how to create and configure a new user group in P
 
 ### Configure group settings
 
-4. **Select group:** The newly created group appears in the list in the left sidebar. Click on the group to select it.
-5. **Set access rights:** In the [Access] section, configure the desired permissions. Use toggle switches to enable or disable access for different areas.
+1. **Select group:** The newly created group appears in the list in the left sidebar. Click on the group to select it.
+2. **Set access rights:** In the [Access] section, configure the desired permissions. Use toggle switches to enable or disable access for different areas.
 
 The new user group is now created and configured. You can make further adjustments to the group settings or add users to the group at any time.
