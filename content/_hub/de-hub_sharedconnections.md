@@ -10,39 +10,34 @@ ref: hub-500
 redirect_from:
 ---
 
-Im Menüpunkt Verbindungen kannst du Verbindungen zu unterschiedlichen Datenquellen erstellen und diese später [im Peakboard Designer verwenden](/misc/de-shared-connection.html).
+Im Menüpunkt Verbindungen kannst du Verbindungen zu unterschiedlichen Datenquellen erstellen und diese später im Peakboard Designer verwenden.
 
-Wenn der [Peakboard Designer mit dem Peakboard Hub verbunden ist](/hub/de-hub_connectpbdesigner.html), kann eine hier angelegte Verbindung im Peakboard Designer geladen und anschließend in Datenquellen genutzt werden ohne die Zugangsdaten erneut eingeben zu müssen.
+![Verbindung anlegen](/assets/images/hub/de_hub_connections.gif)
 
-<div class="box-tip" markdown="1">**Hinweis**
+### Verbindung im Peakboard Hub anlegen
 
-Das bedeutet auch, dass beispielsweise ein Administrator einzelnen Nutzern Zugang zu sensiblen Datensystem gewähren kann ohne die Zugangsdaten herausgeben zu müssen.
-</div>
+1. **Neue Verbindung hinzufügen:** Klicke auf den Button [Add connection] oben rechts in der Peakboard Hub Oberfläche.
+2. **Verbindungsdetails eingeben:** Gib im Dialog [Create New Connection] einen Namen ein und wähle den Verbindungstyp.
+3. **Verbindungstyp auswählen:** Folgende Typen stehen zur Verfügung:
+   - **Mail** (E-Mail-Verbindungen)
+   - **ODBC** (Datenbankverbindungen)
+   - **Oracle Server** (Oracle-Datenbanken)
+   - **SQL Server** (Microsoft SQL Server)
+   - **SAP** (SAP-Systeme)
+   - **Url Resource** (Webbasierte Ressourcen)
+   - **Domain User** (Domänenauthentifizierung)
+4. **Einstellungen konfigurieren:** Passe die Einstellungen basierend auf deinem Ressourcentyp an.
+5. **Verbindung speichern:** Klicke auf [Save], um die Verbindung zu erstellen.
 
-Eine neue Verbindung legst du durch einen Klick auf den Button [Add Connection] (1) im Peakboard Hub an.
+![Verbindungstypen](/assets/images/hub/de_hub_connections-step.png)
 
-![Verbindung hinzufügen](/assets/images/hub/de_hub_connections-01.png)
+### Verbindungen im Peakboard Designer verwenden
 
-Gib hier der Verbindung einen Namen (1) und wähle die gewünschte Datenquelle für die du eine Verbindung anlegen möchtest. Jede Datenquelle benötigt individuelle Anmeldedaten. Diese kannst du in der Maske auf der rechten Seite (3) eingeben.
+6. **Projekteinstellungen öffnen:** Öffne die Projekteinstellungen über das Zahnrad-Symbol in der Werkzeugleiste.
+7. **Verbindungen-Bereich aufrufen:** Wähle [Verbindungen] aus dem Dropdown-Menü.
+8. **Verbindungsverwaltung öffnen:** Klicke auf den [Import] Button im Verbindungsverwaltungsbereich.
+9. **Hub-Verbindungen aktualisieren:** Wähle [Peakboard Hub-Verbindungen aktualisieren] aus dem Kontextmenü, um die aktuellen Verbindungen zu laden.
+10. **Verbindung auswählen:** Deine neu erstellte Verbindung erscheint in der Liste [Peakboard Hub connections].
+11. **Auswahl bestätigen:** Klicke auf [OK], um die Verbindung in deine Anwendung zu integrieren.
 
-![Verbindung hinzufügen](/assets/images/hub/de_hub_connections-02.png)
-
-In der [Nutzerverwaltung](/hub/de-hub_usermanagement.html) kannst du die angelegte Verbindung einer Nutzergruppe zuordnen (1).
-
-![Nutzergruppen](/assets/images/hub/de_hub_connections-03.png)
-
-Um die angelegten Verbindungen im Peakboard Designer zu nutzen, musst du mit dem Gruppenschlüssel der entsprechenden Nutzergruppe mit dem Peakboard Hub verbunden sein.
-Öffne dann im Peakboard Designer den Dialog in der Menüleiste unter [Verbindungen] (1).
-
-![Verbindungen](/assets/images/hub/de_hub_connections-04.png)
-
-Anschließend kann über den Button […] und [Peakboard Hub-Verbindungen aktualisieren] (1) alle Verbindungen aus dem Peakboard Hub geladen werden.
-
-![Verbindungen aktualisieren](/assets/images/hub/de_hub_connections-05.png)
-
-Wählst du eine der Verbindungen aus (1), werden dir rechts die hinterlegten Daten der Verbindung angezeigt (2).
-Wenn du bereits Datenquellen angelegt hast, siehst du hier auch, welche der Datenquellen die Verbindung derzeit nutzen (3).
-
-![Verbindungen anzeigen](/assets/images/hub/de_hub_connections-06.png)
-
-Nun kannst du beim Erstellen einer Datenquelle diese Verbindung nutzen wie es [hier beschrieben ist](/misc/de-shared-connection.html).
+Die Verbindung steht nun für die Nutzung in Anwendungen zur Verfügung und wird zentral über den Peakboard Hub verwaltet.

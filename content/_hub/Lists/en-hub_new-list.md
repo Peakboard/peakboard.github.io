@@ -3,7 +3,7 @@ layout: article
 product: hub
 title: Add lists
 menu_title: Add lists
-description: Peakboard Hub - Add lists 
+description: Peakboard Hub - Add lists
 lang: en
 weight: 600
 ref: hub-600
@@ -12,33 +12,31 @@ redirect_from:
 ---
 
 In the Peakboard Hub, you can create lists that you can use in the Peakboard Designer.
-These lists offer you the possibility to change data centrally for all Peakboard Boxes that use them.
-In addition, these lists also offer you the possibility to store data quickly and easily in a central location via Peakboard.
-For example, you can save the machine status for machines, regardless of their age or configuration, in order to generate a long-term evaluation.
+These lists offer you the possibility to change and store data centrally for all Peakboard Boxes.
 
-### Creating a new list
+![Create list](/assets/images/hub/de_hub_list-create.gif)
 
-To create a new list, click on the [Add] button (1) in the [Lists] area.
-With the [Import] button you can load lists into the Peakboard Hub that have been saved as JSON strings in a text file.
-How the creation works you can read in the section [Export Lists] below.
+### Create list
 
-![Add list](/assets/images/hub/en_hub_list-01.png)
+1. **Open list section:** Navigate to the [Lists] section in the left sidebar.
+2. **Add new list:** Click the [+ add] button to create a new list.
+3. **Enter list name:** Enter a descriptive name (e.g. "Workpieces").
 
-Give the list a name (1). Then create a data structure and define the columns of your list. To add a column, click on [Add Column] (2), give the column the desired name (3) and select the column type (4). You can create columns of the types, string, number or boolean.
-To change the order of the columns, you can drag and drop them. When you have added all columns, save the list with [Save] (5).
+### Configure columns
 
-![Create list](/assets/images/hub/en_hub_list-02.png)
+4. **Enter column name:** Enter the desired column name in the [Column Name] field.
+5. **Select data type:** Choose the column type from the [Column Type] dropdown:
+   - **String:** Text entries such as names or descriptions.
+   - **Boolean:** Yes/No or True/False values.
+   - **Number:** Numeric values such as quantities or prices.
+6. **Set default value (optional):** Enter a value in the [Default Value] field.
+7. **Define constraints (optional):** Click the Constraints icon to set value restrictions (available for String and Number columns).
+8. **Add more columns:** Click [Add Column] for additional columns.
+9. **Save:** Click [Ok] to create the list.
 
-In the next area you have the possibility to enter data for this list.
-You can add rows with [Add] (1), you can enter values in the rows (2), delete rows (3) and save the changes with [Save] (4).
+### Enter data
 
-With a click on [Edit Properties] (5) you can change the column types and names afterwards.
-With the option [Clear All] (6) you delete all entries from the list.
+10. Click [+ Add row] to insert the first data entry.
+11. Enter the data in the corresponding fields matching the defined columns.
 
-![Enter data](/assets/images/hub/en_hub_list-03.png)
-
-### Permissions
-
-To prevent anyone from accessing your data at will, you can specify [in the Peakboard Hub user management](/hub/en-hub_usermanagement.html) which user group has access to the list with their respective group key. The [article about user management](/hub/en-hub_usermanagement.html) also describes how you can assign user group permissions for individual lists in even more detail.
-
-In the next article you will read [how to use the lists in the Peakboard Designer](/hub/Lists/en-hub_use-list.html).
+The list is now created and available to all connected Peakboard Boxes for use in Peakboard Designer.

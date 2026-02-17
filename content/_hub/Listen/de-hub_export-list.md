@@ -10,18 +10,29 @@ ref: hub-620
 redirect_from:
 ---
 
-Im vorigen Artikel hast du gelesen, [wie man eine Liste im Peakboard Designer nutzt](/hub//Listen/de-hub_use-list.html).
+In diesem Artikel erfährst du, wie du eine Peakboard Hub Liste exportierst und anschließend wieder importierst.
 
-### Export von Listen
+![Liste exportieren/importieren](/assets/images/hub/de_hub_list-export.gif)
 
-Du kannst deine angelegten Listen im Peakboard Hub auch exportieren. Hierfür stehen zwei verschiedene Möglichkeiten zur Verfügung.
+### Peakboard Hub Liste exportieren
 
-In der Detailansicht deiner Liste kannst du mit [Duplicate Structure] (1) die Struktur, das heißt die Spalten und Spaltentypen deiner Liste für eine neue Liste übernehmen. Du gelangst in den Erstellungsdialog für eine neue Liste, die bereits die identischen Spalten enthält und musst dieser nur einen neuen Namen geben.
-Alternativ kannst du mit [Export Structure] (2) eine Textdatei herunterladen, die die Struktur der Liste als JSON-String enthält.
-Dateien dieser Form kannst du mit dem [Import] Button (3) in den Peakboard Hub laden, um eine neue Liste mit der identischen Struktur zu erstellen.
+1. **Peakboard Hub Liste auswählen:** Klicke auf die gewünschte Liste unter [Peakboard Hub Lists] in der linken Seitenleiste.
+2. **Exportmenü öffnen:** Klicke auf die drei Punkte neben dem Listennamen, um das Kontextmenü zu öffnen.
+3. **Exportoption wählen:** Zwei Exportoptionen stehen zur Verfügung:
+   - **Export Structure:** Exportiert nur die Struktur der Liste ohne Inhalte. Geeignet, wenn du nur das Format als Vorlage benötigst.
+   - **Download:** Exportiert die komplette Liste inklusive Struktur und allen Inhalten. Geeignet für vollständige Backups oder Datentransfers.
+4. **Download starten:** Nach der Auswahl der gewünschten Option wird automatisch eine CSV-Datei heruntergeladen.
 
-Um die Inhalte deiner Liste mit dem aktuellen Stand zu exportieren, klickst du auf [Download Data] (4).
-Deine Daten werden dabei im Dateiformat CSV zum Download bereitgestellt.
-Es ist nicht möglich, diese Daten zu einem späteren Zeitpunkt wieder in Peakboard Hub zu importieren.
+### Peakboard Hub Liste importieren
 
-![Listen exportieren](/assets/images/hub/de_hub_list-05.png)
+1. **Import-Dialog öffnen:** Klicke auf den Abwärtspfeil neben dem [Add] Button und wähle [Import].
+2. **Import-Einstellungen konfigurieren:** Fülle die erforderlichen Informationen im Import-Dialog aus:
+   - **Name:** Gib einen Namen für die neue Liste ein.
+   - **Modus auswählen:**
+     - **Create:** Erstellt eine komplett neue Liste.
+     - **Append:** Fügt Daten zu einer bestehenden Liste hinzu.
+     - **Override:** Überschreibt eine bestehende Liste vollständig.
+3. **CSV-Datei auswählen:** Klicke auf [Browse] und wähle die zuvor exportierte CSV-Datei von deinem Computer.
+4. **Import ausführen:** Klicke auf [Import], um den Vorgang zu starten. Eine grüne Erfolgsmeldung bestätigt den erfolgreichen Import.
+
+Die neue Liste erscheint in der Seitenleiste und ist sofort nutzbar.

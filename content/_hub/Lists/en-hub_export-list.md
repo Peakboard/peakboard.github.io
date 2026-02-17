@@ -1,27 +1,38 @@
 ---
 layout: article
 product: hub
-title: Export lists
-menu_title: Export lists
-description: Peakboard Hub - Export lists
+title: Export and import lists
+menu_title: Export and import lists
+description: Peakboard Hub - Export and import lists
 lang: en
 weight: 620
 ref: hub-620
 redirect_from:
 ---
 
-In the previous article you read [how to use a list in the Peakboard Designer](/hub/Lists/en-hub_use-list.html).
+In this article you will learn how to export a Peakboard Hub list and subsequently import it back.
 
-### Exporting lists
+![Export/import list](/assets/images/hub/de_hub_list-export.gif)
 
-You can also export the lists you have created in Peakboard Hub. There are two different ways to do this.
+### Export Peakboard Hub list
 
-In the detailed view of your list, you can use [Duplicate Structure] (1) to copy the structure, i.e. the columns and column types of your list for a new list. You get to the creation dialog for a new list that already contains the identical columns and you only have to give it a new name.
-Alternatively, you can use [Export Structure] (2) to download a text file that contains the structure of the list as a JSON string.
-You can load files of this type into the Peakboard Hub with the [Import] button (3) to create a new list with the identical structure.
+1. **Select Peakboard Hub list:** Click on the desired list under [Peakboard Hub Lists] in the left sidebar.
+2. **Open export menu:** Click the three dots next to the list name to open the context menu.
+3. **Choose export option:** Two export options are available:
+   - **Export Structure:** Exports only the structure of the list without contents. Suitable when you only need the format as a template.
+   - **Download:** Exports the complete list including structure and all contents. Suitable for full backups or data transfers.
+4. **Start download:** After selecting the desired option, a CSV file is automatically downloaded.
 
-To export the contents of your list in its current state, click on [Download Data] (4).
-Your data will be made available for download in CSV file format.
-It is not possible to import this data back into Peakboard Hub at a later time.
+### Import Peakboard Hub list
 
-![Export lists](/assets/images/hub/en_hub_list-05.png)
+1. **Open import dialog:** Click the downward arrow next to the [Add] button and select [Import].
+2. **Configure import settings:** Fill in the required information in the import dialog:
+   - **Name:** Enter a name for the new list.
+   - **Select mode:**
+     - **Create:** Creates a completely new list.
+     - **Append:** Adds data to an existing list.
+     - **Override:** Completely replaces an existing list.
+3. **Select CSV file:** Click [Browse] and select the previously exported CSV file from your computer.
+4. **Execute import:** Click [Import] to start the process. A green success message confirms the successful import.
+
+The new list appears in the sidebar and is immediately usable.

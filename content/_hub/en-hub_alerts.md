@@ -11,58 +11,63 @@ redirect_from:
 ---
 
 Peakboard Hub alerts are a tool for real-time monitoring and response in your operating environment.
-They help you to further improve efficiency and response times in your company.
+In the alerts view you manage system-wide warnings, their notifications, and the recipients for email and push notifications.
 
-## Peakboard alerts in the Peakboard Hub
+### New and Solved Alerts
 
-You will find the Peakboard Hub alerts section in the [Alerts] menu item (1). The window is divided into three sections.
+The central view displays two areas: new alerts and solved alerts. Each message shows timing, device details, a description, and the alert type (Info, Warning, or Error).
 
-![Peakboard Alerts](/assets/images/hub/en_hub_alerts-01.png)
+At the top of the [New Alerts] list you will find the following controls:
+- **Refresh icon:** Reload the list.
+- **Select all checkbox:** Mark multiple alerts as solved at once.
+- **[Delete all]:** Remove all entries.
 
-### New alerts (2)
+![Alert entries](/assets/images/hub/de_hub_alerts-overview-01.png)
 
-Alerts that have been received but not yet processed are displayed here.
-An alert always consists of the type of alert, the date and time of the alert, the device name and the message contained in the alert.
-You can reload the list of alerts received (a), mark all alerts as solved (b) or delete all alerts (c).
-You can also mark individual alerts as solved (d) or delete them (e)
+Each individual alert includes three action buttons:
+- **Globe icon:** Opens web access for the affected box directly.
+- **Blue checkmark:** Marks the alert as solved and moves it to the [Solved Alerts] list.
+- **Trash icon:** Removes the alert from the current list.
 
-### Solved alerts (3)
+### Solved Alerts
 
-As soon as you have processed an alert and marked it as solved, it will be listed here.
-You can delete all alerts by clicking on the trash can icon (f) or delete individual alerts.
+![Solved alerts](/assets/images/hub/de_hub_alerts-overview-02.png)
 
-### Alert settings (4)
+In this section you can completely remove confirmed and detected warnings.
+Use the pagination at the bottom to control page navigation and adjust how many entries are displayed per page.
 
-Here you can add an email address to be notified when an alert is triggered.
-Click on the [+ Add] button (g) to add a new recipient e-mail address.
-You can deactivate or activate addresses that have already been created using the checkbox (h) in front of the respective address.
-You can delete the entries by clicking on the trash can symbol (i).
+### Alert Settings
 
-## Send an alert
+![Alert settings](/assets/images/hub/de_hub_alerts-overview-03.png)
 
-You can send the various alerts from your application. Simply use the ready-made building block [Send alert] (1) from the [Peakboard Hub] area under [Publish to external systems] in the main [FUNCTIONS] area.
+In the right panel you manage email notification recipients:
+- **Recipient list:** Displays all email addresses that receive notifications for new alerts.
+- **Add button (+):** Opens an input field for new addresses. Confirm with [Save]. Existing addresses can be removed directly.
 
-Select the alert type (2) you want to send and add the message to be sent (3). This can be as complex as you like and can also contain variables or similar. In the example screenshot, the input of a text field named [Info_Text] is used as the message.
+### Push Notifications
 
-![Send alert](/assets/images/hub/en_hub_alerts-02.png)
+![Push notifications](/assets/images/hub/de_hub_alerts-overview-04.png)
 
-This way you can send alerts manually via text field and button control or send automated alerts when certain conditions occur.
+Below the email settings you control push notification delivery:
+- **Subscribe to Alerts:** Activate browser or mobile push notifications.
+- **Permission:** Confirm the browser notification permission in the dialog by clicking [Allow].
+- **Unsubscribe from Alerts:** Disable push notifications at any time.
 
-## The different alert types
+### The different alert types
 
 There are three different alert types that are intended for different purposes.
 
-### Info Alerts
+**Info Alerts**
 
 `peakboardhub.sendinfo('This is an information message')`
 Information messages are used, for example, to send general status updates or non-critical information.
 
-### Warning Alerts
+**Warning Alerts**
 
 `peakboardhub.sendwarning('Warning: temperature exceeds recommended level')`
-Warning alerts are used to indicate potential problems or conditions that may require your attention or further investigation.
+Warning alerts are used to indicate potential problems or conditions that may require your attention.
 
-### Problem Alerts
+**Problem Alerts**
 
 `peakboardhub.sendproblem('Critical error: application crashed')`
-Problem alerts are used to indicate critical issues or errors that require your immediate attention or a fix.
+Problem alerts are used to indicate critical issues or errors that require your immediate attention.

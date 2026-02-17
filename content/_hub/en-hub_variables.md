@@ -1,55 +1,48 @@
 ---
-
-layout: article  
-product: hub  
-title: Variables  
-menu_title: Variables  
-description: Peakboard Hub - Variables  
-lang: en  
-weight: 700  
-ref: hub-700  
-redirect_from:  
-
+layout: article
+product: hub
+title: Variables
+menu_title: Variables
+description: Peakboard Hub - Variables
+lang: en
+weight: 700
+ref: hub-700
+redirect_from:
 ---
 
-Peakboard Hub variables are used to exchange individual values between the Peakboard Hub and Peakboard Boxes. Unlike [Peakboard Hub Lists](/hub/Listen/en-hub_new-list.html), only single values can be transferred, but using variables is even easier than integrating [Peakboard Hub Lists](/hub/Listen/en-hub_new-list.html), and changes are immediately distributed via MQTT without relying on a loading interval.
+Peakboard Hub variables are used to exchange individual values between the Peakboard Hub and Peakboard Boxes.
+Unlike [Peakboard Hub lists](/hub/Lists/en-hub_new-list.html), only single values can be transferred, but using variables is particularly easy.
+Changes are immediately distributed via MQTT without relying on a loading interval.
 
-## Peakboard Variables in Peakboard Hub
+![Create variable](/assets/images/hub/de_hub_variable-create.gif)
 
-You can find the section for Peakboard Hub variables under the **[Variables]** menu item. This window provides an overview of all variables for the current user group.
+### Create variable
 
-![Peakboard Variables](/assets/images/hub/en_hub_variables-01.png)
+1. **Open variables section:** Navigate to the [Variables] menu item in the left sidebar. If no variables exist yet, an [Add Variable] button appears.
+2. **Add new variable:** Click the [Add Variable] button to open the creation dialog.
 
-In this view, you can also work with the variables. New variables can be created via the **"Add Variable"** button, requiring a data type and an identifier. Additionally, a search bar allows filtering of variables by their identifier, which can be particularly helpful when managing a large number of variables.
+### Configure variable
 
-### Variable Overview
+3. **Set identifier:** Enter a name in the [Identifier] field (e.g. "ShiftDuration").
+4. **Select data type:** Choose one of the three available data types:
+   - **string:** Text values
+   - **number:** Numeric values
+   - **bool:** Boolean values (true/false)
+5. **Add constraints (optional):** For numeric variables you can activate the [Add constraints] option and define the following values:
+   - **Min value:** Minimum allowed value
+   - **Max value:** Maximum allowed value
+   - **Tick size:** Step size for changes
+6. **Save variable:** Click the [Add] button to create the variable.
 
-![Peakboard Variable Card](/assets/images/hub/en_hub_variables-02.png)
+### Edit variable
 
-All variables created by a user in the current group are displayed in individual cards, each comprising three lines.
+7. **Adjust value:** The variable appears after creation in the [Shared variables] section. Click on the value field to change the current value.
+8. **Confirm changes:** Confirm changes with the checkmark symbol or discard them with the X symbol.
 
-- **First Line:** Shows the symbol for the data type (e.g., for 'String'), the identifier of the variable, and a three-dot menu at the end. This menu allows variables to be deleted or connections to be removed.
-- **Second Line:** Displays the current value of the variable. Clicking on the value enables editing.
-- **Third Line:** Shows the time of the last value change.
+Successfully created variables enable data exchange between multiple Peakboard Boxes. Values are automatically synchronized across all connected systems.
 
-## Variables in Peakboard Designer
+### Linking with list values
 
-To use Peakboard Hub variables in the Peakboard Designer and later in the Peakboard Runtime, a variable must be created within an application.
-
-![Variables in Designer](/assets/images/hub/en_hub_variables-03.png)
-
-The dialog shown in the screenshot above can be accessed via the **Peakboard Hub Tab** in the variable dialog. Here, a Peakboard Designer variable can be linked to a Hub variable. In the dropdown menu in the middle of the dialog, you can select a Peakboard Hub variable. All variables belonging to the user group and the Peakboard Hub instance currently connected to the Designer are displayed, provided the data type is compatible.
-
-**Note:** To ensure smooth operation, the [Hub connected to the Peakboard Designer](/hub/en-hub_connectpbdesigner.html) and the user group should match those of the application.
-
-Additionally, the dialog allows you to dissolve a connection with the 'trash' button or add a new variable to the Peakboard Hub via the 'plus' button.
-
-## Linking with List Values
-
-Peakboard Hub variables can be linked with values of individual cells in Peakboard Hub Lists. This means that changes to the variable or the cell value also update the linked instance.
-
-![Variables in Designer](/assets/images/hub/en_hub_variables-04.png)
-
-To link a variable, open a list and select a cell. Use the **"Bind to variable"** button in the menu above the list to establish a connection. If the cell is already linked, a chain icon appears, and the **"Unbind"** button allows you to remove the link.
-
-A variable can be linked with exactly one cell, and a cell with exactly one variable.
+Peakboard Hub variables can be linked with values of individual cells in Peakboard Hub lists.
+Changes to the variable or the cell value affect the respective linked instance.
+For more information, see the article [Link list cell to variable](/hub/Lists/en-hub_list-bind-variable.html).
