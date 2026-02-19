@@ -22,7 +22,7 @@ Wir wollen das folgende Beispieldokument einbinden, dazu ist nicht nötig, es in
 
 ![image_2](/assets/images/Controls/Google-Docs/ControlsGoogleDocs01.png)
 
-Klicke auf den Button "Autorisieren"(1), um den Autorisierungsdialog zu öffnen, auf dem Sie ihre Google-Zugangsdaten eingeben müssen. Achtung! Es handelt sich hierbei um eine Google-Website. Du gibst also nicht deinen User-Namen und dein Passwort an Peakboard, sondern Du authentifizierst dich lediglich bei Google und erlaubst den Zugriff. Google gibt dann an Peakboard nur einen Autorisierungstoken zurück (eine kryptische Zeichenfolge). Du kannst diese Autorisierung jederzeit in deinem Google-Konto widerrufen. Es funktioniert genau nach demselben Prinzip, wie wenn Du anderen Drittanbieter-Apps den Zugriff erlaubst.
+Klicke auf den Button "Autorisieren" (1), um den Autorisierungsdialog zu öffnen, auf dem Sie ihre Google-Zugangsdaten eingeben müssen. Achtung! Es handelt sich hierbei um eine Google-Website. Du gibst also nicht deinen User-Namen und dein Passwort an Peakboard, sondern Du authentifizierst dich lediglich bei Google und erlaubst den Zugriff. Google gibt dann an Peakboard nur einen Autorisierungstoken zurück (eine kryptische Zeichenfolge). Du kannst diese Autorisierung jederzeit in deinem Google-Konto widerrufen. Es funktioniert genau nach demselben Prinzip, wie wenn Du anderen Drittanbieter-Apps den Zugriff erlaubst.
 Mit Hilfe des Eingabefeld "Dokument" (2) öffnet sich ein Auswahl-Dialog, der die Ordnerstruktur des Google Drive Kontos wiedergibt. So lässt sich das gewünschte Dokument selektieren und in den Hauptdialog übernehmen.
 
 ![image_3](/assets/images/Controls/Google-Docs/ControlsGoogleDocs_02.png)
@@ -30,7 +30,7 @@ Mit Hilfe des Eingabefeld "Dokument" (2) öffnet sich ein Auswahl-Dialog, der di
 ## 2 Aussehen und Steuerung
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darstellung präzise steuern:
 1. Control-Positionierung (Allgemeines): Lege die Ausrichtung des Elements auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control schnell an Ecken oder Seitenmitten platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig (1).
-2. Allgemeines: Über die Felder Breite, Höhe, Links und Oben kannst du die Größe der PDF über die manuellen Eingabefelder präzise definieren. Darunter definierst du einen inneren Abstand (Padding) für das Dokument innerhalb seines Rahmens und es kann ebenfalls ein Titel vergeben werden, der über dem Control erscheint (2).
+2. Allgemeines: Über die Felder Breite, Höhe, Links und Oben kannst du die Größe des Controls über die manuellen Eingabefelder präzise definieren. Darunter definierst du einen inneren Abstand (Padding) für das Dokument innerhalb seines Rahmens und es kann ebenfalls ein Titel vergeben werden, der über dem Control erscheint (2).
 3. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später per Skript zu steuern.
 4. Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Sichtbarkeit des Controls basierend auf bestimmten Ereignissen zu steuern.
 

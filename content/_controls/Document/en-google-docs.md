@@ -27,7 +27,7 @@ Using the "Document" input field (2) opens a selection dialog that reflects the 
 ## 2 Appearance and Control
 In the properties on the right side, you can precisely control the behavior and representation:
 1. Control Positioning (General): Define the alignment of the element on the workspace. With the first eight symbols, the control can be quickly placed at corners or side centers, while the ninth symbol fills the entire available area. The last icon centers the element (1).
-2. General: Use the Width, Height, Left, and Top fields to precisely define the size of the PDF via the manual input fields. Below that, you define an internal spacing (padding) for the document within its frame, and a title can also be assigned that appears above the control (2).
+2. General: Use the Width, Height, Left, and Top fields to precisely define the size of the Control via the manual input fields. Below that, you define an internal spacing (padding) for the document within its frame, and a title can also be assigned that appears above the control (2).
 3. Use in scripts (Logic): Give the control a unique name to control it later via script.
 4. Conditional Formatting (Logic): Use conditional formatting to control the visibility of the control based on certain events, for example.
 
