@@ -22,7 +22,7 @@ A QR Code Control can be populated with content in different ways. Double-click 
 * Dynamic Linking (Data Binding): Link the control to a data source or a variable containing a path or a URL. The code will be updated automatically at runtime (2).
 * nstead of using the configuration dialog, you can also use the "value"-input field under Data in the properties panel to link a URL, a data source, or a variable to the control (3).
 
-![image_2](/assets/images/Controls/Google-Docs/qrcode_02.png)
+![image_2](/assets/images/Controls/QR-Code/qrcode_02.png)
 
 ## 2 Appearance and Control
 In the properties panel on the right side, you can precisely manage the behavior and appearance:
@@ -32,7 +32,7 @@ In the properties panel on the right side, you can precisely manage the behavior
 4. Use in Scripts (Logic): Give the control a unique name to control it later via script (4).
 5. Conditional Formatting (Logic): Use conditional formatting to, for example, control the visibility of the control based on specific events (5).
 
-![image_3](/assets/images/Controls/Google-Docs/qrcode_03.png
+![image_3](/assets/images/Controls/QR-Code/qrcode_03.png
 
 ## Note
 If the displayed QR code needs to be changed via script during an active visualization, the QR Code Control must first be given a name so it can be addressed in the script.

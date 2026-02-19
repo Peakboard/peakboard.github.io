@@ -22,7 +22,7 @@ Ein QR-Code Control kann auf unterschiedliche Weise mit Inhalten gefüllt werden
 * Dynamische Verknüpfung (Datenbindung): Verknüpfe das Control mit einer Datenquelle oder einer Variablen, die einen Pfad oder eine URL enthält. Der Code wird zur Laufzeit automatisch aktualisiert (2).
 * Anstelle des Konfigurationsdialogs kann auch das Eingabefeld bei Daten unter den Eigenschaften genutzt werden, um eine URL, eine Datenquelle oder eine Variable mit dem Control zu verknüpfen (3).
 
-![image_2](/assets/images/Controls/Google-Docs/qrcode_02.png)
+![image_2](/assets/images/Controls/QR-Code/qrcode_02.png)
 
 ## 2 Aussehen und Steuerung
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darstellung präzise steuern:
@@ -32,7 +32,7 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darst
 4. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später per Skript zu steuern (4).
 4. Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Sichtbarkeit des Controls basierend auf bestimmten Ereignissen zu steuern (5).
 
-![image_3](/assets/images/Controls/Google-Docs/qrcode_03.png)
+![image_3](/assets/images/Controls/QR-Code/qrcode_03.png)
 
 ## Hinweis
 Soll der angezeigte QR Code in einer aktiven Visuaisierung mittels Skript geändert werden, dann muss das QR Code Control zunächst einen Namen bekommen um es in einem Skript ansprechen zu können. 
