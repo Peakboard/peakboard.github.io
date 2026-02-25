@@ -14,7 +14,7 @@ redirect_from:
 Das Webpage-Control ermöglicht ein frei positionierbareren Browser innerhalb deiner Visualisierung. Hiermit können externe Webseiten oder webbasierte Benutzeroberflächen nahtlos integriert werden.
 Du findest das Webpage-Control im Peakboard Designer in der Gruppe "Andere" (1). Ziehe das Icon per Drag-and-drop in deinen Designer oder platziere es mit einem Doppelklick auf deine Arbeitsfläche.
 
-![image_1](/assets/images/Controls/Webpage/webpage_01)
+![image_1](/assets/images/Controls/Webpage/webpage_01.png)
 
 # Konfiguration und Eigenschaften
 ## 1 Datenquelle und Auswahl
@@ -22,7 +22,7 @@ Um eine Webseite anzuzeigen, gebe die URL bzw. Quelle unter "Daten" in den Eigen
 * Ansichtsart (Daten): Lege fest, ob die Webseite in der Desktop- oder mobilen Ansicht angezeigt werden soll (2).
 * Aktualisierungsintervall (Daten): Lege fest, nach wie vielen Sekunden die Webseite automatisch neu geladen werden soll. Dies ist besonders nützlich für Live-Dashboards oder News-Ticker (3).
 
-![image_2](/assets/images/Controls/Webpage/webpage_02)
+![image_2](/assets/images/Controls/Webpage/webpage_02.png)
 
 ## 2 Aussehen und Steuerung
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darstellung präzise steuern:
@@ -31,7 +31,7 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darst
 * Scrollen und Zoomen (Aussehen): Stelle die Erstansicht der Webseite während der Laufzeit mit dem horizontalen Scroll, dem vertikalen Scroll und der Zoomstärke ein. Eine Standard-Desktop-Ansicht hat die Zoomgröße 100 (3).
 * Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Sichtbarkeit des Browsers basierend auf bestimmten Ereignissen zu steuern (4).
 
-![image_3](/assets/images/Controls/Webpage/webpage_03)
+![image_3](/assets/images/Controls/Webpage/webpage_03.png)
 
 ## 3 Erweiterte Einstellungen
 * Autorisieren (Erweitert): Peakboard unterstützt auch Webseiten, die einen passwortgeschützten Zugang erfordern (1).
@@ -39,8 +39,8 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darst
 * User Agent: Diese Einstellung legt fest, wie sich das Peakboard-Control gegenüber der Zielwebseite identifiziert (sein „Personalausweis“). Durch das Ändern des Standard-Werts kannst du das Verhalten der Webseite beeinflussen.
 * Plattformübergreifende Nutzung erlauben (Erweitert): Diese Einstellung gewährleistet eine einheitliche Darstellung der Web-Inhalte auf verschiedenen Plattformen und Endgeräten. Sie hilft dabei, plattformspezifische Restriktionen zu umgehen, damit komplexe Webseiten oder Dashboards überall korrekt angezeigt werden.
 
-![image_4](/assets/images/Controls/Webpage/webpage_04)
+![image_4](/assets/images/Controls/Webpage/webpage_04.png)
 
 Starte die Vorschau, um zu überprüfen, ob die Webseite korrekt dargestellt wird.
 
-![image_5](/assets/images/Controls/Webpage/webpage_05)
+![image_5](/assets/images/Controls/Webpage/webpage_05.png)

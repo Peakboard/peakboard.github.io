@@ -14,7 +14,7 @@ redirect_from:
 The Webpage control allows for a freely positionable browser within your visualization. With this, external websites or web-based user interfaces can be seamlessly integrated.
 You can find the Webpage control in the Peakboard Designer in the Others group (1). Drag and drop the icon into your designer or place it with a double-click on your workspace.
 
-![image_1](/assets/images/Controls/Webpage/webpage_01)
+![image_1](/assets/images/Controls/Webpage/webpage_01.png)
 
 # Configuration and Properties
 ## 1 Data Source and Selection
@@ -22,7 +22,7 @@ To display a website, enter the URL or source under Data in the properties on th
 * View Mode (Data): Determine whether the website should be displayed in desktop or mobile view (2).
 * Refresh interval (Data): Specify the number of seconds after which the website should automatically reload. This is particularly useful for live dashboards or news tickers (3).
 
-![image_2](/assets/images/Controls/Webpage/webpage_02)
+![image_2](/assets/images/Controls/Webpage/webpage_02.png)
 
 ## 2 Appearance and Control
 In the properties on the right side, you can precisely control the behavior and representation:
@@ -31,7 +31,7 @@ In the properties on the right side, you can precisely control the behavior and 
 3. Scrolling and Zooming (Appearance): Adjust the initial view of the website during runtime using horizontal scroll, vertical scroll, and zoom intensity. A standard desktop view has a zoom size of 100 (3).
 4. Conditional Formatting (Logic): Use conditional formatting to control the visibility of the browser based on certain events, for example (5).
 
-![image_3](/assets/images/Controls/Webpage/webpage_03)
+![image_3](/assets/images/Controls/Webpage/webpage_03.png)
 
 ## 3 Advanced Settings
 In the Advanced section of the properties, you can fine-tune the browser's behavior:
@@ -40,8 +40,8 @@ In the Advanced section of the properties, you can fine-tune the browser's behav
 * User Agent: This setting defines how the Peakboard control identifies itself to the target website (its "ID card"). By changing the default value, you can influence the behavior of the website (3).
 * Allow cross-platform usage (Advanced): This setting ensures a uniform display of web content across different platforms and devices. It helps bypass platform-specific restrictions so that complex websites or dashboards are displayed correctly everywhere.
 
-![image_4](/assets/images/Controls/Webpage/webpage_04)
+![image_4](/assets/images/Controls/Webpage/webpage_04.png)
 
 Start the preview to check if the website is displayed correctly.
 
-![image_5](/assets/images/Controls/Webpage/webpage_05)
+![image_5](/assets/images/Controls/Webpage/webpage_05.png)
