@@ -42,17 +42,14 @@ Die Checkbox bietet dir die Möglichkeit, auf Zustandsänderungen direkt mit Log
 Möchtest du prüfen, ob eine Eingabe erfolgt ist, kannst du dies im Scripting über die Building Blocks lösen. Verknüpfe hierzu die Checkbox (1b) mit der fixen booleschen Variable (1a). 
 ![image4](/assets/images/Controls/Check-Box/checkbox04.png)
  
-Öffne im Designer den Script-Editor auf der rechten unteren Seite unter **Logik** und "**Umgeschaltet**". 
+1. Öffne im Designer den Script-Editor auf der rechten unteren Seite unter **Logik** und "**Umgeschaltet**". 
 Wähle unter der Blockkategorie **Basics** und **Logik** den Blockcode "**Wenn-Dann-Anweisung**" mit einem Doppelklick aus oder ziehe ihn auf die Editor-Oberfläche.
-
-Wähle den Blockcode " **Variable abrufen** " unter der Kategorie **Variablen** und setze Sie in das erste freie Feld im **Wenn-Dann-Block** (1). Überprüfe, ob die korrekte Variable aktiv ist.
+2. Wähle den Blockcode " **Variable abrufen** " unter der Kategorie **Variablen** und setze Sie in das erste freie Feld im **Wenn-Dann-Block** (1). Überprüfe, ob die korrekte Variable aktiv ist.
 Scrolle runter zu **Logik** und wähle **Boolean**. Ziehe diesen auf das Nachbarfeld im **Wenn-Dann-Block** (2). Für den Fall, dass die Variable nicht aktiviert und der Schalter inaktiv sein sollte, wähle "**False**".
-
-Wähle unter der Kategorie **Funktionen** und **Peakboard Box** den Blockcode "**Ins Log schreiben**" und setzte diesen in die nächste Zeile im **Wenn-Dann-Block** (3). Trage " **Checkbox aktiviert**" oder etwas ähnliches in das grüne Textfeld ein.
-Nun kannst Du den letzten Schritt wiederholen und den Blockcode noch einmal auswählen, oder klicke mit der rechten Maustaste auf den Code "**schreibe ins Log**" und wähle **Duplizieren**.
+3. Wähle unter der Kategorie **Funktionen** und **Peakboard Box** den Blockcode "**Ins Log schreiben**" und setzte diesen in die nächste Zeile im **Wenn-Dann-Block** (3). Trage " **Checkbox aktiviert**" oder etwas ähnliches in das grüne Textfeld ein.
+4. Nun kannst Du den letzten Schritt wiederholen und den Blockcode noch einmal auswählen, oder klicke mit der rechten Maustaste auf den Code "**schreibe ins Log**" und wähle **Duplizieren**.
 Setze diesen Blockcode auf die Höhe bei "**sonst**" und bearbeite den Inhalt dieses Blockcodes auf "**Checkbox nicht aktiviert**" (4).
-
-Speichere das Skript unter "**Speichern und Schließen**" (5) ab.
+5. Speichere das Skript unter "**Speichern und Schließen**" (5) ab.
 
 ![image5](/assets/images/Controls/Check-Box/checkbox05.png)
 

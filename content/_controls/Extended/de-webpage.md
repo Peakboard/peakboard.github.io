@@ -11,14 +11,31 @@ redirect_from:
   - /controls/de-webpage.html
 ---
 
-Das Webpage-Control hat die einfache Aufgabe, Webseiten anzuzeigen. Es ist praktisch ein frei positionierbarer Browser. Die wichtigste Eigenschaft ist Source. Sie enthält die anzuzeigende URL beginnend mit http oder https. Neben der reinen Seite werden alle anderen enthaltenen Elemente wie CSS-Dateien, Bilder usw. entsprechend nachgeladen. Die Eigenschaft Refresh Time ist die Zeitspanne in Sekunden nach der das Control die Seite auffrischt. Es sei an dieser Stelle erwähnt, dass für das Rendern der Seite die Rendering-Engine von Microsoft Edge verwendet wird, also dem Browser, der mit Windows 10 eingeführt wurde. Je nach Komplexität der Seite muss das beim Design des HTML-Codes beachtet werden.
+Das Webpage-Control ermöglicht ein frei positionierbareren Browser innerhalb deiner Visualisierung. Hiermit können externe Webseiten oder webbasierte Benutzeroberflächen nahtlos integriert werden.
+Du findest das Webpage-Control im Peakboard Designer in der Gruppe "Andere" (1). Ziehe das Icon per Drag-and-drop in deinen Designer oder platziere es mit einem Doppelklick auf deine Arbeitsfläche.
 
-![Webpage In Peakboard Designer](/assets/images/Controls/Webpage/Screenshot-3.png)
+![image_1](/assets/images/Controls/Webpage/webpage_01.png)
 
-Der folgende Screenshot führt das Panel von oben aus und zeigt wenig überraschend die gewünschte Webseite.
+# Konfiguration und Eigenschaften
+## 1 Datenquelle und Auswahl
+Um eine Webseite anzuzeigen, gebe die URL bzw. Quelle unter "Daten" in den Eigenschaften auf der rechten Seite ein (1).
+- Ansichtsart (Daten): Lege fest, ob die Webseite in der Desktop- oder mobilen Ansicht angezeigt werden soll (2).
+- Aktualisierungsintervall (Daten): Lege fest, nach wie vielen Sekunden die Webseite automatisch neu geladen werden soll. Dies ist besonders nützlich für Live-Dashboards oder News-Ticker (3).
 
-![Webpage on Peakboard](/assets/images/Controls/Webpage/Screenshot-2.png)
+![image_2](/assets/images/Controls/Webpage/webpage_02.png)
 
-Peakboard unterstützt außerdem eine Vielzahl von Webseiten die einen Login benötigen. Dafür befüllen sie im WebBrowser Control die Felder User Name und Password mit Ihren Login Daten. Außerdem müssen Sie die ID’s des Login- und Passwortfeldes sowie die ID des Loginbuttons angeben. Diese finden Sie im Quellcode der Webseite. In aktuellen Versionen von Google Chrome, Internet Explorer, Edge und Firefox können Sie auf die Elemente mit der rechten Maustaste klicken und anschließend Element untersuchen bzw. bei Safari Element Informationen anklicken. Hier sollte sich das Attribut ID befinden, deren Werte Sie im WebPage-Control eingeben müssen.
+## 2 Aussehen und Steuerung
+In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darstellung präzise steuern:
+* Control-Positionierung (Allgemeines): Lege die Ausrichtung des Elements auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control an Ecken oder Seitenmitten der Arbeitsfläche platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig, wobei die Größe vorab über die manuellen Eingabefelder definiert werden kann. (1)
+* Abstand (Allgemeines): Über die Felder Breite, Höhe, Links und Oben kannst du das Webpage-Fenster präzise positionieren. Darunter definierst du einen inneren Abstand für den Inhalt innerhalb seines Rahmens. In diesem Bereich kann ebenfalls ein Titel vergeben werden, der über dem Control erscheint. (2)
+* Scrollen und Zoomen (Aussehen): Stelle die Erstansicht der Webseite während der Laufzeit mit dem horizontalen Scroll, dem vertikalen Scroll und der Zoomstärke ein. Eine Standard-Desktop-Ansicht hat die Zoomgröße 100 (3).
+* In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später per Skript zu steuern (z. B. um die URL dynamisch zu wechseln) (4).
+* Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Sichtbarkeit des Browsers basierend auf bestimmten Ereignissen zu steuern (5).
 
-![Developer Tools Chrome ](/assets/images/Controls/Webpage/WebView2.png)
+## 3 Erweiterte Einstellungen
+- Autorisieren (Erweitert): Peakboard unterstützt auch Webseiten, die einen passwortgeschützten Zugang erfordern (1).
+- JavaScript Injektion (Erweitert): 
+- User Agent: Diese Einstellung legt fest, wie sich das Peakboard-Control gegenüber der Zielwebseite identifiziert (sein „Personalausweis“). Durch das Ändern des Standard-Werts kannst du das Verhalten der Webseite beeinflussen.
+- JavaScript Injektion (Erweitert): Über dieses Feld wird ein eigener JavaScript-Code injiziert, der nach dem Laden der Webseite automatisch ausgeführt wird. Dies optimiert die Darstellung durch das Ausblenden störender Elemente oder ermöglicht automatisierte Interaktionen für eine angepasste Ansicht.
+
+Starte die Vorschau, um zu überprüfen, ob die Webseite korrekt dargestellt wird.

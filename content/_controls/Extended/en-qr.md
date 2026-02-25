@@ -20,7 +20,7 @@ You can find the QR Code Control in the Peakboard Designer within the Others gro
 A QR Code Control can be populated with content in different ways. Double-click the control to open the configuration dialog:
 * Static Resource: Paste a URL link from your browser (e.g., "https://www.google.com/search?q=https://www.peakboard.com") (1).
 * Dynamic Linking (Data Binding): Link the control to a data source or a variable containing a path or a URL. The code will be updated automatically at runtime (2).
-* nstead of using the configuration dialog, you can also use the "value"-input field under Data in the properties panel to link a URL, a data source, or a variable to the control (3).
+* Instead of using the configuration dialog, you can also use the "value"-input field under Data in the properties panel to link a URL, a data source, or a variable to the control (3).
 
 ![image_2](/assets/images/Controls/QR-Code/qrcode_02.png)
 
