@@ -26,10 +26,10 @@ Um eine Webseite anzuzeigen, gebe die URL bzw. Quelle unter "Daten" in den Eigen
 
 ## 2 Aussehen und Steuerung
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darstellung präzise steuern:
-* Control-Positionierung (Allgemeines): Lege die Ausrichtung des Elements auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control an Ecken oder Seitenmitten der Arbeitsfläche platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig, wobei die Größe vorab über die manuellen Eingabefelder definiert werden kann. (1)
-* Abstand (Allgemeines): Über die Felder Breite, Höhe, Links und Oben kannst du das Webpage-Fenster präzise positionieren. Darunter definierst du einen inneren Abstand für den Inhalt innerhalb seines Rahmens. In diesem Bereich kann ebenfalls ein Titel vergeben werden, der über dem Control erscheint. (2)
-* Scrollen und Zoomen (Aussehen): Stelle die Erstansicht der Webseite während der Laufzeit mit dem horizontalen Scroll, dem vertikalen Scroll und der Zoomstärke ein. Eine Standard-Desktop-Ansicht hat die Zoomgröße 100 (3).
-* Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Sichtbarkeit des Browsers basierend auf bestimmten Ereignissen zu steuern (4).
+1. Control-Positionierung (Allgemeines): Lege die Ausrichtung des Elements auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control an Ecken oder Seitenmitten der Arbeitsfläche platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig, wobei die Größe vorab über die manuellen Eingabefelder definiert werden kann. (1)
+2. Abstand (Allgemeines): Über die Felder Breite, Höhe, Links und Oben kannst du das Webpage-Fenster präzise positionieren. Darunter definierst du einen inneren Abstand für den Inhalt innerhalb seines Rahmens. In diesem Bereich kann ebenfalls ein Titel vergeben werden, der über dem Control erscheint. (2)
+3. Scrollen und Zoomen (Aussehen): Stelle die Erstansicht der Webseite während der Laufzeit mit dem horizontalen Scroll, dem vertikalen Scroll und der Zoomstärke ein. Eine Standard-Desktop-Ansicht hat die Zoomgröße 100 (3).
+4. Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Sichtbarkeit des Browsers basierend auf bestimmten Ereignissen zu steuern (4).
 
 ![image_3](/assets/images/Controls/Webpage/webpage_03.png)
 
