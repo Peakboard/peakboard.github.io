@@ -17,7 +17,7 @@ You can find the Text-Ticker in the Peakboard Designer in the Others group (1). 
 ![image_1](/assets/images/Controls/Text-Ticker/textticker_01.png)
 
 # Configuration and Properties
-## 1 Data Source and Selection
+## 1 Content and Data Source
 The Text-Ticker can be linked to both static text and dynamic data sources. Double-click the control to open the configuration dialog:
 * Text (Specify value): This property defines the content to be displayed. You can enter a fixed, static text here (1).
 * Data Binding (Data source): The content can also be linked to a data source (2a). If you use a table as a source, specify the column and row to be displayed or select "use all rows" to display all rows of the selected column. Depending on the setting, the first row will be read or every row will be displayed consecutively (2b).

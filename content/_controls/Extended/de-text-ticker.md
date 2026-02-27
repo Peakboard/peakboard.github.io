@@ -17,7 +17,7 @@ Du findest den Text-Ticker im Peakboard Designer in der Gruppe "Andere" (1). Zie
 ![image_1](/assets/images/Controls/Text-Ticker/textticker_01.png)
 
 # Konfiguration und Eigenschaften
-## 1 Datenquelle und Auswahl
+## 1 Textinhalt und Datenanbindung
 Der Text-Ticker kann sowohl mit statischen Texten als auch mit dynamischen Datenquellen verknüpft werden. Klicke das Control doppelt an, um den Konfigurationsdialog zu öffnen:
 * Text (Wert angeben): Über diese Eigenschaft wird der anzuzeigende Inhalt festgelegt. Du kannst hier einen festen, statischen Text eingeben (1).
 * Datenanbindung (Datenquelle): Der Inhalt kann auch an eine Datenquelle angebunden werden (2a). Falls du eine Tabelle als Quelle nutzt, gebe die anzuzeigende Spalte und Zeile an oder wähle "use all rows", um alle Zeilen der gewählten Spalte anzuzeigen. Je nachdem wird die erste Zeile ausgelesen oder jede Zeile fortlaufend aneinandergereiht angezeigt (2b).
