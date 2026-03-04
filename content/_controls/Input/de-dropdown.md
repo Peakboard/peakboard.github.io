@@ -43,7 +43,7 @@ Die Dropdown-Liste reagiert primär auf eine Änderung der Auswahl. Hast Du dem 
 ### Beispiel: Gewählten Wert im Log ausgeben
 Oft möchte man den gewählten Wert nutzen, um andere Datenquellen zu filtern. In diesem Beispiel schreiben wir den gewählten Namen in das Log.
 Schritte im Script-Editor:
-1.	Öffne den Script-Editor unter Selection Changed “<|>“
+1.	Öffne den Script-Editor unter Selection Changed “< >“
 2.	Wähle unter „Funktionen“ und „Peakboard Box“ den Block "Ins Log schreiben". (1)
 3.	Um den aktuell gewählten Wert abzugreifen, wähle unter „Controls“ und dem Screen, in der das Control verwendet wird, den Namen, den Du dem Dropdown-Control vergeben hast und unter „Selektierter Wert“ den Block „Wert abrufen“. (2a)
 4.	Kombiniere den Block "Ins Log schreiben" mit dem Block aus den Controls (2b)
