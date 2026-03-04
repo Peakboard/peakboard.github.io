@@ -11,17 +11,13 @@ ref: admin-850
 If the update of the Peakboard Box does not work correctly the usual way, a new manual installation of the Peakboard Runtime on the Peakboard Box will help.
 To do this, use a PowerShell script and the latest version of the software for the Peakboard Box [PeakboardRuntime.pbux]. [You can download this in the version history](/misc/en-version-history.html). This way you can reinstall the software with Windows on-board resources.
 
-<div class="box-warning" markdown="1">**Warning**
-
-This bypasses the verification process of the Peakboard software. This could be used to install malicious software on the Peakboard Box and should therefore be used with caution! Make sure that the selected .pbux file contains trusted binaries.
-</div>
 
 ## Perform the installation via PowerShell script
 
-After downloading the latest version of the software, start PowerShell first.
+After downloading the latest version of the software, first start PowerShell *as administrator*.
 
 Navigate to the folder containing the script:
-`<Peakboard-Installationsordner>\Designer\RemoteInstall`
+`(Der Peakboard-Installationsordner)\Designer\RemoteInstall`
 
 Execute the script:
 `.\RemoteInstallScript.ps1`
