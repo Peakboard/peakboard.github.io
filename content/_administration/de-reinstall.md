@@ -16,7 +16,7 @@ Hierfür nutzt du ein PowerShell Skript und die aktuellste Version der Software 
 Nachdem du die aktuellste Version der Software heruntergeladen hast, startest du zuerst PowerShell *als Administrator*.
 
 Navigiere dann zu dem Ordner, der das Skript enthält:
-`(Der Peakboard-Installationsordner)\Designer\RemoteInstall`
+`cd (Der Peakboard-Installationsordner)\Designer\RemoteInstall`
 
 Führe das Skript aus:
 `.\RemoteInstallScript.ps1`

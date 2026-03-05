@@ -17,7 +17,7 @@ To do this, use a PowerShell script and the latest version of the software for t
 After downloading the latest version of the software, first start PowerShell *as administrator*.
 
 Navigate to the folder containing the script:
-`(Der Peakboard-Installationsordner)\Designer\RemoteInstall`
+`cd (The Peakboard-Installationfolder)\Designer\RemoteInstall`
 
 Execute the script:
 `.\RemoteInstallScript.ps1`
