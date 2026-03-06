@@ -20,7 +20,7 @@ Du findest das Webpage-Control im Peakboard Designer in der Gruppe "Andere" (1).
 ## 1 Datenquelle und Auswahl
 Um eine Webseite anzuzeigen, gebe die URL bzw. Quelle unter "Daten" in den Eigenschaften auf der rechten Seite ein (1).
 * Ansichtsart (Daten): Lege fest, ob die Webseite in der Desktop- oder mobilen Ansicht angezeigt werden soll (2).
-* Aktualisierungsintervall (Daten): Lege fest, nach wie vielen Sekunden die Webseite automatisch neu geladen werden soll. Dies ist besonders nützlich für Live-Dashboards oder News-Ticker (3).
+* Nachladeintervall (Daten): Lege fest, nach wie vielen Sekunden die Webseite automatisch neu geladen werden soll. Dies ist besonders nützlich für Live-Dashboards oder News-Ticker (3).
 
 ![image_2](/assets/images/Controls/Webpage/webpage_02.png)
 
