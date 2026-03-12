@@ -9,7 +9,7 @@ ref: con-754
 redirect_from:
 ---
 
-Das Date Picker-Control ist ein interaktives Eingabeelement, das ermöglicht, ein Datum bequem über einen Kalender-Dialog auszuwählen. Dies ist besonders nützlich für Anwendungen, bei denen Daten gefiltert werden müssen (z. B. Schichtberichte oder Logistikdaten) oder bei denen Zeitstempel für manuelle Buchungen gesetzt werden sollen.
+Das Date Picker-Control ist ein interaktives Eingabeelement, das es ermöglicht, ein Datum bequem über einen Kalender-Dialog auszuwählen. Dies ist besonders nützlich für Anwendungen, bei denen Daten gefiltert werden müssen (z. B. Schichtberichte oder Logistikdaten) oder bei denen Zeitstempel für manuelle Buchungen gesetzt werden sollen.
 Du findest den Date Picker im Peakboard Designer in der Gruppe Interaktiv (1). Ziehe das Icon per Drag-and-drop in deinen Designer oder platziere es mit einem Doppelklick auf deine Arbeitsfläche.
 
 ![image_1](/assets/images/Controls/Datepicker/datepicker_01.png)
@@ -19,7 +19,7 @@ Du findest den Date Picker im Peakboard Designer in der Gruppe Interaktiv (1). Z
 Ein Date Picker benötigt in der Regel einen vordefinierten Startwert und kann optional in seinem wählbaren Bereich eingeschränkt werden. Klicke das Control doppelt an, um den Konfigurationsdialog zu öffnen:
 * Daten/Wert eingeben: Lege fest, welches Datum beim Start der Visualisierung standardmäßig angezeigt werden soll. Du kannst hier ein festes Datum wählen (z. B. das aktuelle Tagesdatum) oder den Wert dynamisch  an eine Datenquelle anbinden (1).
 * Minimales/Maximales Datum: Begrenze den Zeitraum, den der Anwender auswählen kann, um Fehleingaben zu vermeiden (z. B. nur Daten in der Vergangenheit oder nur im aktuellen Jahr). Gebe dazu das Mindest-, also das früheste, und das Maximaldatum, also das späteste Datum an (2).
-* Datenformat/Anzeigenformat: Bestimme, in welchem Format das Datum im Eingabefeld dargestellt wird (z. B.ddMMyyyy für Deutschland oder MMddyyyy für den internationalen Gebrauch) (3).
+* Datenformat/Anzeigenformat: Bestimme, in welchem Format das Datum im Eingabefeld dargestellt wird (z. B. ddMMyyyy für Deutschland oder MMddyyyy für den internationalen Gebrauch) (3).
 * Diese Angabe kann ebenfalls in den Eigenschaften des Controls auf der rechten Seite angegeben werden (4).
 
 ![image_2](/assets/images/Controls/Datepicker/datepicker_02.png)
@@ -37,7 +37,7 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die optis
 # Scripting
 Das Date Picker-Control bietet Zugriff auf das ausgewählte Datum, um dieses für Berechnungen oder Änderungen zu nutzen.
 
-## Beispiel: Ausgewähltes Datum in einer Variable speichern
+## Beispiel: Ausgewähltes Datum im Log speichern
 In diesem Beispiel nutzen wir das "Textänderung"-Tapped Event des Date Pickers, um bei jeder neuen Auswahl ein Label oder eine Datenquelle zu aktualisieren.
 ### Schritte im Script-Editor:
 1. Öffne im Designer den Script-Editor auf der rechten unteren Seite unter "Logik" und "Textänderung". 
