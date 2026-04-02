@@ -15,8 +15,8 @@ You can find the Slider in the Peakboard Designer in the Interactive group (1). 
 
 ![image_1](/assets/images/Controls/Slider/slider01.png)
 
-## Configuration and Properties
-### 1 General and Data Binding
+# Configuration and Properties
+## 1 General and Data Binding
 For the slider to function correctly, you must define its working range. Click on the control to configure the following:
 * Data Source / Variable: Link the slider to a variable of type Number. Every movement of the slider immediately writes the current value back to this variable (1).
 * Initial Value: Determine the position of the handle when the visualization starts. Ideally, you should set this value within the linked variable (2).
@@ -24,7 +24,7 @@ For the slider to function correctly, you must define its working range. Click o
 
 ![image_2](/assets/images/Controls/Slider/slider02.png)
 
-### 2 Appearance and Labeling
+## 2 Appearance and Labeling
 In the properties on the right side, you can refine the design and feel of the slider:
 1. Label (Data): Assign an individual label to your slider (1).
 2. Font & Orientation (Appearance): Choose the font for the label and select between a horizontal or vertical alignment of the slider (2).
@@ -35,13 +35,13 @@ In the properties on the right side, you can refine the design and feel of the s
 
 ![image_3](/assets/images/Controls/Slider/slider03.png)
 
-## Scripting
+# Scripting
 The slider offers a specific event to react to changes in real-time:
 * ValueChanged: This script is executed every time the handle is moved and the numerical value changes.
 
-### Example 1: Output value in the log
+## Example 1: Output value in the log
 Often, a threshold value needs to be monitored. In this example, we write the current value of the slider to the log.
-Steps in the Script Editor:
+## Steps in the Script Editor:
 1.	Open the script editor under Logic and "ValueChanged".
 2.	Under Functions, select the "Write to log" block (1).
 3.	Delete the default content, access your slider via the Controls category, and select the "Get value" block (2).
@@ -54,7 +54,7 @@ Start the preview and check the Log (1) to see if the return value is correctly 
 
 ![image_5](/assets/images/Controls/Slider/slider05.png)
 
-### Example 2: Adjust value via text box
+## Example 2: Adjust value via text box
 As an extension, you can insert a text box into the display area to adjust the slider's value via this text box. Insert a text box anywhere in your designer and link it to a numerical variable (1).
 
 ![image_6](/assets/images/Controls/Slider/slider06.png)

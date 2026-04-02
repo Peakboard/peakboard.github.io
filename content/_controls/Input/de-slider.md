@@ -15,8 +15,8 @@ Du findest den Slider im Peakboard Designer in der Gruppe Interaktiv (1). Ziehe 
 
 ![image_1](/assets/images/Controls/Slider/slider01.png)
 
-## Konfiguration und Eigenschaften
-### 1 Allgemein und Datenbindung
+# Konfiguration und Eigenschaften
+## 1 Allgemein und Datenbindung
 Damit der Slider korrekt funktioniert, musst du seinen Arbeitsbereich festlegen. Klicke dazu auf das Control:
 * Datenquelle / Variable: Verknüpfe den Slider mit einer Variablen vom Typ Zahl (Number). Jede Bewegung des Reglers schreibt den aktuellen Wert sofort in diese Variable zurück (1)
 * Initialer Wert: Lege fest, auf welcher Position der Regler beim Start der Visualisierung stehen soll. Diesen Wert stellst Du idealerweise in der verknüpften Variable ein (2)
@@ -24,7 +24,7 @@ Damit der Slider korrekt funktioniert, musst du seinen Arbeitsbereich festlegen.
 
 ![image_2](/assets/images/Controls/Slider/slider02.png)
 
-### 2 Aussehen und Beschriftung
+## 2 Aussehen und Beschriftung
 In den Eigenschaften auf der rechten Seite kannst du das Design und die Haptik des Sliders verfeinern:
 1. Label (Daten): Vergebe deinem Schieberegler eine individuelle Bezeichnung (1)
 2. Schriftart & Orientierung (Aussehen): Wähle die Schriftart der Bezeichnung und zwischen einer horizontalen oder vertikalen Ausrichtung des Reglers (2).
@@ -35,13 +35,13 @@ In den Eigenschaften auf der rechten Seite kannst du das Design und die Haptik d
 
 ![image_3](/assets/images/Controls/Slider/slider03.png)
 
-## Scripting
+# Scripting
 Der Slider bietet ein spezifisches Event, um auf Änderungen in Echtzeit zu reagieren:
 * Wertänderung: Dieses Skript wird jedes Mal ausgeführt, wenn der Schieber bewegt wird und sich der numerische Wert ändert.
 
-### Beispiel: Wert im Log ausgeben
+## Beispiel: Wert im Log ausgeben
 Oft soll ein Schwellenwert überwacht werden. In diesem Beispiel schreiben wir den aktuellen Wert des Sliders in das Log.
-#### Schritte im Script-Editor:
+## Schritte im Script-Editor:
 1.	Öffne den Script-Editor unter Logik und "Wertänderung".
 2.	Wähle unter Funktionen den Block „Ins Log schreiben“ (1).
 3.	Lösche den voreingestellten Inhalt, greife über die Kategorie Controls auf deinen Slider zu und wähle den Block „Wert abrufen“ (2).
@@ -54,7 +54,7 @@ Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach aus
 
 ![image_5](/assets/images/Controls/Slider/slider05.png)
 
-### Zweites Beispiel: Wert über Textfeld anpassen
+## Zweites Beispiel: Wert über Textfeld anpassen
 Als Erweiterung kann man in die Anzeigefläche ein Textfeld einfügen, um den Wert des Schiebereglers über dieses Textfeld anzupassen. Füge dazu ein Textfeld an einer beliebigen Stelle in deinem Designer ein, verknüpfe dieses mit einer numerischen Variable (1).
 
 ![image_6](/assets/images/Controls/Slider/slider06.png)
