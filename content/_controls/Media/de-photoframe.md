@@ -27,7 +27,7 @@ Eine Diashow benötigt eine Quelle, aus der er die Bilddaten beziehen kann. Klic
 ## 2 Aussehen und Steuerung
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten der Diashow und die optische Darstellung präzise steuern:
 1. Control-Positionierung (Allgemeines): Lege die Ausrichtung des Controls auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control schnell an Ecken oder Seitenmitten platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig, wobei die Größe vorab über die manuellen Eingabefelder definiert werden kann. (1)
-2. Abstand (Allgemeines): Über die Felder Breite, Höhe, Links und Oben kannst du den Bilderrahmen präzise positionieren. Darunter definierst du einen inneren Abstand (Padding) und einen Titel für die Bilder innerhalb des Rahmens. (2)
+2. Abstand (Allgemeines): Über die Felder Breite, Höhe, Links und Oben kannst du die Diashow präzise positionieren. Darunter definierst du einen inneren Abstand (Padding) und einen Titel für die Bilder innerhalb des Rahmens. (2)
 3. Nachladeintervall (Daten): Bestimme, nach wie vielen Sekunden das nächste Bild angezeigt werden soll (3).
 4. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting (anderer Controls) einfach identifizieren zu können (4).
 

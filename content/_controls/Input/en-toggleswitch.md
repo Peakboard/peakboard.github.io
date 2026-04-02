@@ -15,9 +15,9 @@ You can find the toggle switch in the Peakboard Designer under the Interactive g
 
 ![image_1](/assets/images/Controls/Toggle-Switch/toggleswitch01.png)
 
-## Configuration and Properties
+# Configuration and Properties
 Once you double-click the toggle switch, the configuration dialog will appear.
-### 1 General and Data Binding
+## 1 General and Data Binding
 In this section, you define the identity of the switch:
 
 * Data Source: Here you set up the data connection (1). You can bind the switch directly to a data source (e.g., a Boolean variable). When the state of the switch changes, the value is immediately written back to the variable.
@@ -33,23 +33,20 @@ In the properties panel on the right, you can adjust the visual design:
 
 ![image_3](/assets/images/Controls/Toggle-Switch/toggleswitch03.png)
 
-## Scripting
+# Scripting
 To use the control in a Building Block script, it is important that the toggle switch is initially linked to a fixed Boolean variable (1).
 It can be helpful to enable the "Used in Scripting" function (2).
 
 ![image_4](/assets/images/Controls/Toggle-Switch/toggleswitch04.png)
 
-### Example: Checking if the Toggle Switch is Activated
-Open the script editor in the Designer at the bottom right under "Logic" and "Toggled".
-
-Under the block category "Basics" and "Logic", select the "If-Else"-Statement block by double-clicking it or drag it onto the editor workspace.
-Select the "Get Variable" block under the "Variables" category and place it in the first empty field of the If-Else block (1). Make sure the correct variable is active.
-Scroll down to "Logic" and select "Boolean". Drag it into the empty field in the If-Else block (2). If the variable is not active and the switch is inactive, select False.
-
-Under "Functions" and "Peakboard Box", select the "Write to Log" block and place it in the next row of the If-Else block (3). Enter “Toggle Switch Active” or something similar in the green text field.
+## Example: Checking if the Toggle Switch is Activated
+1. Open the script editor in the Designer at the bottom right under "Logic" and "Toggled".
+2. Under the block category "Basics" and "Logic", select the "If-Else"-Statement block by double-clicking it or drag it onto the editor workspace.
+3. Select the "Get Variable" block under the "Variables" category and place it in the first empty field of the If-Else block (1). Make sure the correct variable is active.
+4. Scroll down to "Logic" and select "Boolean". Drag it into the empty field in the If-Else block (2). If the variable is not active and the switch is inactive, select False.
+5. Under "Functions" and "Peakboard Box", select the "Write to Log" block and place it in the next row of the If-Else block (3). Enter “Toggle Switch Active” or something similar in the green text field.
 Repeat the last step and select the "Write to Log" block again, or right-click the block and choose "Duplicate". Place this block at the Else section and change its content to “Toggle Switch Not Active” (4).
-
-Save the script using "Save and Close" (5).
+4. Save the script using "Save and Close" (5).
 
 ![image_5](/assets/images/Controls/Toggle-Switch/toggleswitch05.png)
 
