@@ -14,8 +14,8 @@ Die Dropdown-Liste ist ein interaktives Control, dass es dem Nutzer ermöglicht,
 Du findest die Dropdown-Liste im Peakboard Designer in der Gruppe Interaktiv (1). Ziehe das Control per Drag-and-drop auf deine Arbeitsfläche, oder klicke zweimal auf das Icon.
 ![image1](/assets/images/Controls/Dropdown/dropdown01.png)
 
-## Konfiguration und Eigenschaften
-### 1 Allgemein und Datenbindung
+# Konfiguration und Eigenschaften
+## 1 Allgemein und Datenbindung
 Die Dropdown-Liste benötigt eine Datenquelle, um ihre Optionen anzuzeigen. Füge dazu eine Datenquelle im Designer Explorer auf der linken Seite ein, hier zum Beispiel eine Excelliste mit Namen.
 ![image2](/assets/images/Controls/Dropdown/dropdown02.png)
 
@@ -29,7 +29,7 @@ In der gewählten Beispieldatei wird nun die erste Zeile der gewählten Spalte d
 
 ![image4](/assets/images/Controls/Dropdown/dropdown04.png)
 
-### 2 Aussehen und Interaktion
+## 2 Aussehen und Interaktion
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und Design verfeinern:
 1. Text, Hintergrund & Kontur (Aussehen): Passe das Design des Inhalts und der Dropdown-Box an (1)
 2. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (2)
@@ -39,8 +39,8 @@ Die Dropdown-Liste reagiert primär auf eine Änderung der Auswahl. Hast Du dem 
 
 ![image5](/assets/images/Controls/Dropdown/dropdown05.png)
 
-## Scripting
-### Beispiel: Gewählten Wert im Log ausgeben
+# Scripting
+## Beispiel: Gewählten Wert im Log ausgeben
 Oft möchte man den gewählten Wert nutzen, um andere Datenquellen zu filtern. In diesem Beispiel schreiben wir den gewählten Namen in das Log.
 Schritte im Script-Editor:
 1.	Öffne den Script-Editor unter Selection Changed “< >“

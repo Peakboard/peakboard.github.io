@@ -14,15 +14,15 @@ The Dropdown list is an interactive control that allows the user to select a sin
 You can find the Dropdown List in the Peakboard Designer in the Interactive group (1). Simply drag and drop the control onto your workspace or double-click the icon.
 ![image1](/assets/images/Controls/Dropdown/dropdown01.png)
 
-## Configuration and Properties
-### 1 General and Data Binding
+# Configuration and Properties
+## 1 General and Data Binding
 The Dropdown List requires a data source to display its options. To do this, add a data source in the Designer Explorer on the left side—for example, an Excel list with names.
 
 ![image2](/assets/images/Controls/Dropdown/dropdown02.png)
 
 You can link this either by double-clicking the control, which opens a window displaying the same content on the left side (1) as in the properties on the right side (2).
-•	Data Source (3): Link the list or table containing all the selection options here (e.g., an Excel table, a SQL query, or a static list). Select the column to be displayed from the file.
-•	Data / Value (4): Select the row whose text the user should see in the list.
+* Data Source (3): Link the list or table containing all the selection options here (e.g., an Excel table, a SQL query, or a static list). Select the column to be displayed from the file.
+* Data / Value (4): Select the row whose text the user should see in the list.
 
 ![image3](/assets/images/Controls/Dropdown/dropdown03.png)
 
@@ -30,17 +30,17 @@ In the chosen example file, the first row of the selected column is now displaye
 
 ![image4](/assets/images/Controls/Dropdown/dropdown04.png)
 
-### 2 Appearance and Interaction
+## 2 Appearance and Interaction
 In the properties on the right side, you can refine the behavior and design:
-•	Text, Background & Outline (Appearance): Customize the design of the content and the dropdown box (1).
-•	Use in scripts (Logic): Give the control a unique name to easily identify it later in scripting (2).
-The Dropdown List primarily reacts to a change in selection. Once you have given the control a unique name for use in scripts, you can utilize it in the script editor. Under the Logic tab in the properties, you will find the event:
-•	Selection Changed: This script is executed whenever the user selects a new entry (3).
+1. Text, Background & Outline (Appearance): Customize the design of the content and the dropdown box (1).
+2. Use in scripts (Logic): Give the control a unique name to easily identify it later in scripting (2).
+3. Selection Changed: This script is executed whenever the user selects a new entry (3).
 
+The Dropdown List primarily reacts to a change in selection. Once you have given the control a unique name for use in scripts, you can utilize it in the script editor. Under the Logic tab in the properties, you will find the event:
 ![image5](/assets/images/Controls/Dropdown/dropdown05.png)
 
-## Simple Scripting
-### Example: Output selected value in the log
+# Scripting
+## Example: Output selected value in the log
 Often, you want to use the selected value to filter other data sources. In this example, we will write the selected name to the log.
 Steps in the Script Editor:
 1.	Open the script editor under Selection Changed "<|>".
