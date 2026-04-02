@@ -46,7 +46,9 @@ It can be helpful to enable the "Used in Scripting" function (2).
 4. Scroll down to "Logic" and select "Boolean". Drag it into the empty field in the If-Else block (2). If the variable is not active and the switch is inactive, select False.
 5. Under "Functions" and "Peakboard Box", select the "Write to Log" block and place it in the next row of the If-Else block (3). Enter “Toggle Switch Active” or something similar in the green text field.
 Repeat the last step and select the "Write to Log" block again, or right-click the block and choose "Duplicate". Place this block at the Else section and change its content to “Toggle Switch Not Active” (4).
-4. Save the script using "Save and Close" (5).
+6. Save the script using "Save and Close" (5).
+
+
 
 ![image_5](/assets/images/Controls/Toggle-Switch/toggleswitch05.png)
 
