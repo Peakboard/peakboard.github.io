@@ -15,14 +15,14 @@ Du findest die Checkbox im Peakboard Designer in der Gruppe Interaktiv (1). Zieh
  
 ![image1](/assets/images/Controls/Check-Box/checkbox01.png)
  
-## Konfiguration und Eigenschaften
-### 1 Allgemein und Datenbindung
+# Konfiguration und Eigenschaften
+## 1 Allgemein und Datenbindung
 In diesem Bereich definierst du die grundlegende Funktionsweise:
 * Datenquelle: Hier nimmst du die Datenverknüpfung vor (1). Du kannst die Checkbox direkt an eine Variable vom Typ Boolean binden. Wenn ein Nutzer die Checkbox aktiviert oder deaktiviert, wird der Status (true oder false) sofort in die verknüpfte Variable zurückgeschrieben.
  
 ![image2](/assets/images/Controls/Check-Box/checkbox02.png)
  
-### 2 Aussehen und Beschriftung
+## 2 Aussehen und Beschriftung
 Sobald du die Checkbox im Designer ausgewählt hast, kannst du in den Eigenschaften auf der rechten Seite alle spezifischen Einstellungen vornehmen. Unter anderem kannst Du hier den visuellen Look gestalten:
 
 1. **Initialer Zustand** (Daten): Du kannst festlegen, ob die Checkbox beim Start der Visualisierung standardmäßig aktiviert oder deaktiviert sein soll(1).
@@ -32,13 +32,13 @@ Sobald du die Checkbox im Designer ausgewählt hast, kannst du in den Eigenschaf
  
  ![image3](/assets/images/Controls/Check-Box/checkbox03.png)
  
-## Scripting
+# Scripting
 Die Checkbox bietet dir die Möglichkeit, auf Zustandsänderungen direkt mit Logik zu reagieren. In den Eigenschaften findest du unter dem Reiter Logik drei spezifische Events:
 1.	Checked Event: Dieses Skript wird ausgeführt, sobald der Haken gesetzt wird.
 2.	Unchecked Event: Dieses Skript wird ausgeführt, wenn der Haken entfernt wird.
 3.	Umgeschaltet: Dieses Skript wird ausgeführt, sobald sich der Zustand der Box verändert.
 
-#### Beispiel: Status im Log ausgeben
+## Beispiel: Status im Log ausgeben
 Möchtest du prüfen, ob eine Eingabe erfolgt ist, kannst du dies im Scripting über die Building Blocks lösen. Verknüpfe hierzu die Checkbox (1b) mit der fixen booleschen Variable (1a). 
 ![image4](/assets/images/Controls/Check-Box/checkbox04.png)
  
