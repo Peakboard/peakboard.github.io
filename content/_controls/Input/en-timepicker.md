@@ -12,7 +12,7 @@ redirect_from:
 The Time Picker control is an interactive control that allows for a time to be conveniently set via a selection dialog. This is particularly useful for applications where time periods need to be defined (e.g., shift start times, booking timestamps, or alarm settings). Important distinction: While the DateTime data source only represents the current system time as a read-only value, the Time Picker serves for active user input and is thus changeable at runtime.
 You can find the Time Picker in the Peakboard Designer in the Interactive group (1). Drag and drop the icon into your designer or place it on your workspace with a double-click.
 
-![image_1](/assets/images/Controls/Datepicker/timepicker_01.png)
+![image_1](/assets/images/Controls/Timepicker/timepicker_01.png)
 
 # Configuration and Properties
 ## 1 Data Source and Selection
@@ -21,7 +21,7 @@ A Time Picker is usually initialized with a start time and can react dynamically
 * Data Format/Display Format: Determine the format in which the time is displayed in the input field (e.g., HH:mm for hours and minutes or HH:mm:ss if seconds are also relevant) (2).
 * This specification can also be adjusted in the control's properties on the right side under Data (3).
 
-![image_2](/assets/images/Controls/Datepicker/timepicker_02.png)
+![image_2](/assets/images/Controls/Timepicker/timepicker_02.png)
 
 ## 2 Appearance and Control
 In the properties on the right side, you can precisely control the behavior and visual representation:
@@ -31,7 +31,7 @@ In the properties on the right side, you can precisely control the behavior and 
 4. Use in scripts (Logic): Give the control a unique name (e.g., TimePicker_Control) to retrieve the selected time later via script (4, 4b).
 5. Conditional Formatting (Logic): Use conditional formatting to, for example, change the background color of the control when a certain time is reached or exceeded (5).
 
-![image_3](/assets/images/Controls/Datepicker/timepicker_03.png)
+![image_3](/assets/images/Controls/Timepicker/timepicker_03.png)
 
 # Scripting
 The Time Picker control provides access to the selected time to use it for logic operations or data updates.
@@ -46,8 +46,8 @@ In this example, we use the "TextChanged" event of the Time Picker to generate a
 
 Start the preview and check in the Log (1) to see if the return value is correctly returned depending on the content of the control.
 
-![image_4](/assets/images/Controls/Datepicker/timepicker_04.png)
+![image_4](/assets/images/Controls/Timepicker/timepicker_04.png)
 
 In this video, it is once again illustrated how the script for this example is built and tested for successful functionality:
 
-![image_5_gif](/assets/images/Controls/Datepicker/timepicker_05_gif.gif)
+![image_5_gif](/assets/images/Controls/Timepicker/timepicker_05_gif.gif)

@@ -12,7 +12,7 @@ redirect_from:
 Das Time Picker-Control ist ein interaktives Control, das es ermöglicht, eine Uhrzeit bequem über einen Auswahl-Dialog festzulegen. Dies ist besonders nützlich für Anwendungen, bei denen Zeiträume definiert werden müssen (z. B. Startzeit einer Schicht, Buchungszeitpunkte oder Alarm-Einstellungen). Wichtig zur Unterscheidung: Während die DateTime-Datenquelle lediglich die aktuelle Systemzeit als schreibgeschützten Wert darstellt, dient der Time Picker der aktiven Benutzereingabe und ist somit zur Laufzeit veränderbar.
 Du findest den Time Picker im Peakboard Designer in der Gruppe Interaktiv (1). Ziehe das Icon per Drag-and-drop in deinen Designer oder platziere es mit einem Doppelklick auf deine Arbeitsfläche.
 
-![image_1](/assets/images/Controls/Datepicker/timepicker_01.png)
+![image_1](/assets/images/Controls/Timepicker/timepicker_01.png)
 
 # Konfiguration und Eigenschaften
 ## 1 Datenquelle und Auswahl
@@ -21,7 +21,7 @@ Ein Time Picker wird in der Regel mit einer Startzeit initialisiert und kann dyn
 * Datenformat/Anzeigenformat: Bestimme, in welchem Format die Zeit im Eingabefeld dargestellt wird (z. B. HH:mm für Stunden und Minuten oder HH:mm:ss, wenn Sekunden ebenfalls relevant sind) (2).
 * Diese Angabe kann ebenfalls in den Eigenschaften des Controls auf der rechten Seite unter „Daten“ angepasst werden (3).
 
-![image_2](/assets/images/Controls/Datepicker/timepicker_02.png)
+![image_2](/assets/images/Controls/Timepicker/timepicker_02.png)
 
 ## 2 Aussehen und Steuerung
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die optische Darstellung präzise steuern:
@@ -31,7 +31,7 @@ In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die optis
 4. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen (z. B. TimePicker_Control), um die ausgewählte Zeit später per Skript abzurufen (4, 4b).
 5. Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Hintergrundfarbe des Controls zu ändern, wenn eine bestimmte Uhrzeit erreicht oder überschritten wurde (5).
 
-![image_3](/assets/images/Controls/Datepicker/timepicker_03.png)
+![image_3](/assets/images/Controls/Timepicker/timepicker_03.png)
 
 # Scripting
 Das Time Picker-Control bietet Zugriff auf die ausgewählte Zeit, um diese für Logik-Operationen oder Datenaktualisierungen zu nutzen.
@@ -46,7 +46,7 @@ In diesem Beispiel nutzen wir das "TextChanged" Event des Time Pickers, um bei j
 
 Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach Inhalt des Controls korrekt zurückgegeben wird.
 
-![image_4](/assets/images/Controls/Datepicker/timepicker_04.png)
+![image_4](/assets/images/Controls/Timepicker/timepicker_04.png)
 
 In diesem Video wird nochmal verdeutlicht, wie das Skript für dieses Beispiel aufgebaut und auf erfolgreiche Funktion geprüft wird:
-![image_5_gif](/assets/images/Controls/Datepicker/timepicker_05_gif.gif)
+![image_5_gif](/assets/images/Controls/Timepicker/timepicker_05_gif.gif)
