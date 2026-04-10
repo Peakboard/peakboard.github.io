@@ -22,7 +22,7 @@ Falls noch nicht geschehen, empfehlen wir dir für die Einführung in den Peakbo
 
 Im Artikel [Peakboard BYOD](/get_started/de-peakboard-byod.html) kannst du nachlesen wie du vorgehen musst um deine eigene Hardware anstelle einer Peakboard Box zu verwenden.
 
-Um deine Peakboard Box zu starten muss ein Monitor angeschlossen werden. Der Monitor wird mit einem HDMI-Kabel angesteuert und solange das WLAN noch nicht konfiguriert ist, benötigst du für die Peakboard Box ein LAN-Kabel (RJ45, Ethernet). Versorge deine Peakboard Box über das beiliegende Netzteil mit USB-C-Kabel mit Strom, um sie in Betrieb zu nehmen.
+Um deine Peakboard Box zu starten muss ein Monitor angeschlossen werden. Der Monitor wird mit einem HDMI-Kabel angesteuert. Die Peakboard Box unterstützt Full HD (1920x1080) Auflösung. Solange das WLAN noch nicht konfiguriert ist, benötigst du für die Peakboard Box ein LAN-Kabel (RJ45, Ethernet). Versorge deine Peakboard Box über das beiliegende Netzteil mit USB-C-Kabel mit Strom, um sie in Betrieb zu nehmen.
 
 Sobald sie mit Strom versorgt wird, bootet das [Windows 10 IoT Enterprise](https://docs.microsoft.com/de-de/windows/iot-core/windows-iot-enterprise) Betriebssystem auf der Peakboard Box und das Peakboard Logo wird für einige Sekunden auf dem Monitor angezeigt.
 Nach einigen weiteren Sekunden ist die Peakboard Box bereits betriebsbereit.
