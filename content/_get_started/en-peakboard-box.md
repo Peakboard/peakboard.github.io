@@ -22,7 +22,7 @@ If you haven't already, we recommend reading through the article [The Peakboard 
 
 In the article [Peakboard BYOD](/get_started/en-peakboard-byod.html) you can read how you have to proceed to use your own hardware instead of a Peakboard Box.
 
-To start your Peakboard Box, a monitor must be connected. The monitor is connected with an HDMI cable and as long as the Wi-Fi is not configured yet, you need a LAN cable (RJ45, Ethernet) for the Peakboard Box. Power your Peakboard Box via the included power adapter with USB-C cable to get it up and running.
+To start your Peakboard Box, a monitor must be connected. The monitor is connected with an HDMI cable. The Peakboard Box supports Full HD (1920x1080) resolution. As long as the Wi-Fi is not configured yet, you need a LAN cable (RJ45, Ethernet) for the Peakboard Box. Power your Peakboard Box via the included power adapter with USB-C cable to get it up and running.
 
 Once powered, the [Windows 10 IoT Enterprise](https://docs.microsoft.com/de-de/windows/iot-core/windows-iot-enterprise) operating system will boot on the Peakboard Box and the Peakboard logo will be displayed on the monitor for a few seconds.
 After a few more seconds, the Peakboard Box is ready to use.
