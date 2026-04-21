@@ -16,7 +16,7 @@ You can find the Button control in the Peakboard Designer in the Input group (1)
 [image_1](/assets/images/Controls/Button/button_01.png)
 
 # Configuration and Properties
-## 1 Data and Interaction
+## 1 General and Data Binding
 A button requires a label and a defined behavior upon interaction.
 * Data/Text (Data): This is where the control receives its label. This text can be static or set dynamically via a data source or variable (1).
 * Icon (Icon): Optionally, you can add an icon to the button to visually clarify its function (e.g., a save symbol or an arrow for navigation) (2).
@@ -29,10 +29,11 @@ Once you have selected the button in the Designer, you can adjust all specific s
 2. Padding (General): Use the Width, Height, Left, and Top fields for pixel-precise placement. Padding defines the internal distance of the text or icon from the button edge (2).
 3. Use in scripts (Logic): Give the button a unique name (e.g., Btn_Submit) to address it in scripts or query its status (3).
 4. Conditional Formatting (Logic): Change the color of the button from gray to green as soon as all required input fields have been correctly filled out, for example (4).
-5. Tapped Event (Logic): The button is the most versatile tool in the Peakboard Designer. Countless processes can be realized with it: You can switch between different screens with one click, force data sources to refresh manually, write values to variables, flip through the pages of a PDF control, send HTTP requests to external APIs, toggle the visibility of warning messages, start or stop timers, and perform complex calculations based on user input (5).
-The Tapped Event or the script editor opens with a double-click on the control.
+5. Tapped Event (Logic): The button is the most versatile control in the Peakboard Designer. Countless processes can be realized with it: You can switch between different screens with one click, force data sources to refresh manually, write values to variables, flip through the pages of a PDF control, send HTTP requests to external APIs, toggle the visibility of warning messages, start or stop timers, and perform complex calculations based on user input (5).
 
 [image_3](/assets/images/Controls/Button/button_03.png)
+
+The Tapped Event or the script editor opens with a double-click on the control.
 
 # Scripting
 The true strength of the button lies in the script, which is executed as soon as the user touches or clicks the button or the icon.

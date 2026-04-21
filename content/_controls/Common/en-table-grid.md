@@ -17,7 +17,7 @@ You can find the Table control in the Peakboard Designer in the Lists & Tiles gr
 ![image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
 
 # Configuration and Properties
-## 1 Connection and Column Management
+## 1 General, Data Binding and Column Management
 ### 1.1 Data Source
 The table requires a data source to display its options and content. To do this, add a data source in the Designer Explorer on the left side—for example, an Excel list with names.
 

@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Tile-Control
-menu_title: Tile-Control
-description: Tile-Control
+title: Styled Tile
+menu_title: Styled Tile
+description: Styled Tile
 lang: de
 weight: 250
 ref: con-250
@@ -11,37 +11,32 @@ redirect_from:
   - /controls/de-tilecontrol.html
 ---
 
-Das Tile-Control ist eine einfache Möglichkeit, zeilenbasierte Daten einer Tabelle auf repetitive Weise darzustellen.
-Beim Betrachten der nachfolgenden Tabelle wird deutlich, dass jeder Produktionslinie eine Zeile zugewiesen ist.
+Das Styled Tile dient dazu, einen spezifischen Datensatz (eine Zeile) aus einer Datenquelle visuell aufzubereiten. Hierzu verbindest du das Control mit einer Datenquelle sowie einer Zeilennummer (Index) und erstellst anschließend ein individuelles Template. Die Inhalte dieser Zeile können so gezielt angezeigt oder verarbeitet werden. Im Gegensatz zur [Styled Tile Collection](/controls/11-de-tile-view.html) wird jeweils nur eine Zeile der Datenquelle angezeigt. Das Styled Tile eignet sich besonders dazu, dasselbe Template mit verschiedenen Zeilen zu verknüpfen, um überall ein identisches Erscheinungsbild sicherzustellen.
+Du findest das Styled Tile im Peakboard Designer in der Gruppe Lists & Tiles (1).
 
-![Tabelle Produktionslinie](/assets/images/Controls/Tile/table.png)
+![image_1](/assets/images/Controls/Tile/tile_01.png)
 
-Jede dieser Produktionslinien soll mit Hilfe des Tile-Controls eine eigene Kachel in einem Dashboard bekommen. Zunächst wurde die Tabelle als Excel Datenquelle, wie [hier](/data_sources/13-de-excel.html) beschrieben, hinzugefügt.
-Daraufhin wird, wie im Screenshot dargestellt, das Tile-Control per Drag&Drop auf die Oberfläche gezogen (1). 
-Damit das Tile identifizierbar ist wird zunächst ein Name, beispielsweise Tile1 vergeben (2) und anschließend wird über die drei Punkte bei Datenquelle die Excel Datenquelle verknüpft (3).
-Unter Layout können die Abmessungen pixelgenau angegeben werden (4). 
-Über die Eigenschaft Datenquellenindex kann definiert werden, mit welcher Zeile der Datenquelle das Tile verknüpft werden soll.
-Die erste Zeile wird dabei mit dem Index 0 referenziert.
-Über die drei Punkte neben Datenvorlage wird der Vorlagen-Editor erreicht (5). 
+# Konfiguration und Eigenschaften
+## 1 Allgemein und Datenanbindung
+Das Styled Tile Control benötigt eine Datenquelle, einen Dataflow, oder eine Variablenliste, um ihre Inhalte anzuzeigen. Füge dazu eine Datenquelle im Designer Explorer auf der linken Seite ein, hier zum Beispiel eine Excelliste mit Namen.
 
-![tile image1](/assets/images/Controls/Tile/tile1.png)
+![image_2](/assets/images/Controls/Table-Grid/tablegrid_02.png)
 
-Dieser ähnelt dem Aufbau des Designers und beschränkt die Zeichenoberfläche auf die unter (4) eingestellte Größe.
-Wie aus dem Designer bekannt werden Controls wie Text oder Linear Gauge per Drag&Drop auf die Oberfläche gezogen und über die drei bekannten Punkte mit der jeweiligen Spalte der verknüpften Excel-Datenquelle verbunden.
-Da das Control fest mit einer Datenquelle verkettet ist und jedes Tile genau eine Datenzeile widerspiegelt, kann beim Verknüpfen der Daten mit einem Control nur noch die Spalte der verketteten Datenquelle gewählt werden.
+Ziehe das Control per Drag-and-drop oder platziere es mit einem Doppelklick auf deine Arbeitsfläche. Anschließend kann die Datenquelle, die du bereits in den Designer Explorer unter „Daten“ eingefügt hast, mit dem Control verknüpft werden(1).
 
+![image_3](/assets/images/Controls/Tile/tile_02.png)
 
-![tile image2](/assets/images/Controls/Tile/tile2.png)
+* Unter "Daten" in den Eigenschaften auf der rechten Seite kann neben der separaten Datenanbindung (1a) die anzuzeigende Zeile über den Datenquellenindex gewählt werden (1b).
+* Über das Template kann die Ansicht der jeweiligen Zeile der Datenquelle bearbeitet werden (2).
 
-Über Ok wird der Vorlagen-Editor verlassen und das entsprechende Template angelegt. 
-Anschließend kann es für jede der 5 Produktionslinien kopiert werden und der Datenquellindex auf die entsprechende Zeile (ausgehend von 0) gesetzt werden. 
-Wie nachfolgendem Screenshot entnommen werden kann, wurden zusätzlich zu den vorangegangenen Schritten weitere Änderungen, wie zusätzliche Diagramme, Rahmen und Schatten dem initialen Tile-Control hinzugefügt.
-Diese können über das mittlere Symbol mit dem + Zeichen auf die zuvor kopierten Tile-Controls übertragen werden.
-In dem entsprechenden Dialog werden alle Tile-Controls selektiert auf die die Änderungen übertragen werden sollen.
+![image_4](/assets/images/Controls/Tile/tile_03.png)
 
-![tile image3](/assets/images/Controls/Tile/tile3.png)
+Der Editor für das Template ähnelt den Funktionen auf der Hauptseite, beschränkt sich dabei aber auf die Arbeitsfläche des Controls. Wie aus den Funktionen der Hauptseite bekannt, kannst du jetzt aus der oberen Menüleiste verschiedene Controls zum Template hinzufügen und diese mit den Spalten der gewählten Datenquelle verknüpfen. Bestätige dann die Erstellung des Templates mit "Ok" (1).
 
-Mit OK wird der Dialog beendet und der Kopierprozess ausgeführt. 
-Die Änderungen werden automatisch auf die anderen Tile-Controls übertragen sowie die Zeilen- und Datenverknüpfungen entsprechend aktualisiert.
+![image_6](/assets/images/Controls/Tile/tile_05.png)
 
-![tile image4](/assets/images/Controls/Tile/tile4.png)
+## Bedingte Templates
+Mit dem Styled Tile Control ist es möglich, analog zur bedingten Formatierung, anhand von definierten Regeln separate Templates zur Darstellung der Zeilen zu nutzen. Klicke auf das […]-Symbol (1) im Abschnitt "Bedingte Templates", um den Dialog für die bedingten Templates zu öffnen.
+Hier kannst du neue Templates hinzufügen (2). Diese übernehmen automatisch das Standard Template. Du kannst die hinzugefügten Templates umbenennen (3), bearbeiten (4), deren Reihenfolge ändern (5), Regeln für die Anzeige definieren (6) oder die Templates wieder löschen (7).
+
+![image_7](/assets/images/Controls/Tile/tile_06_2.png)

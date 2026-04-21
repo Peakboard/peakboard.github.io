@@ -10,37 +10,33 @@ redirect_from:
   - /controls/14-en-tilecontrol.html
   - /controls/en-tilecontrol.html
 ---
-The tile control is an easy way to display row-based data of a table in a repetitive way.
-When looking at the table below, it becomes clear that each production line is assigned one row.
 
-![Production Line Table](/assets/images/Controls/Tile/table.png)
+The Styled Tile is used to visually prepare a specific record (one row) from a data source. To do this, you connect the control to a data source and a row number (index) and then create an individual template. The contents of this row can thus be specifically displayed or processed. In contrast to the Styled Tile Collection, only one row of the data source is displayed at a time. The Styled Tile is particularly suitable for linking the same template to different rows to ensure an identical appearance everywhere.
+You can find the Styled Tile in the Peakboard Designer in the Lists & Tiles group (1).
 
-Each of these production lines should get its own tile in a dashboard with the help of the tile control. First the tile was added as an Excel data source, as [here](/data_sources/13-en-excel.html) described.
-Then, as shown in the screenshot, the tile control is dragged and dropped onto the interface (1). 
-In order to identify the tile, a name, for example Tile1, is first assigned (2) and then the Excel data source is linked via the three dots at Data Source (3).
-Under Layout the dimensions can be specified with pixel accuracy (4). 
-The property Data Source Index can be used to define to which row of the data source the tile should be linked.
-The first row is referenced with the index 0.
-Via the three dots next to Data Template the template editor can be reached (5). 
+![image_1](/assets/images/Controls/Tile/tile_01.png)
 
-![tile image1](/assets/images/Controls/Tile/tile1.png)
+# Configuration and Properties
+## 1 General and Data Binding
+The Styled Tile control requires a data source, a dataflow, or a variable list to display its content. To do this, add a data source in the Designer Explorer on the left side—for example, an Excel list with names.
 
-This is similar to the structure of the Designer and limits the drawing surface to the size set in (4).
-As known from the Designer, controls such as Text or Linear Gauge are dragged and dropped onto the surface and connected to the respective column of the linked Excel data source via the three known points.
-Since the control is permanently linked to a data source and each tile reflects exactly one data row, only the column of the linked data source can be selected when linking the data to a control.
+![image_2](/assets/images/Controls/Table-Grid/tablegrid_02.png)
 
+Drag and drop the control or place it on your workspace with a double-click. Afterward, the data source that you have already added to the Designer Explorer under "Data" can be linked to the control (1).
 
-![tile image2](/assets/images/Controls/Tile/tile2.png)
+![image_3](/assets/images/Controls/Tile/tile_02.png)
 
-Click Ok to exit the template editor and create the corresponding template. 
-It can then be copied for each of the 5 production lines and the data source index can be set to the corresponding line (starting from 0). 
-As can be seen in the following screenshot, in addition to the previous steps, further changes such as additional diagrams, frames and shadows have been added to the initial tile control.
-These can be transferred to the previously copied tile controls using the middle symbol with the + sign.
-In the corresponding dialog, all tile controls to which the changes are to be transferred are selected.
+* Under "Data" in the properties on the right side, in addition to the separate data binding (1a), the row to be displayed can be selected via the Data source index (1b).
+* The view of the respective row of the data source can be edited via the Template (2).
 
-![tile image3](/assets/images/Controls/Tile/tile3.png)
+![image_4](/assets/images/Controls/Tile/tile_03.png)
 
-With OK the dialog is closed and the copy process is executed. 
-The changes are automatically transferred to the other tile controls and the line and data links are updated accordingly.
+The editor for the template is similar to the functions on the main page, but is limited to the workspace of the control. As you know from the functions on the main page, you can now add various controls to the template from the top menu bar and link them to the columns of the selected data source. Then confirm the creation of the template with OK (1).
 
-![tile image4](/assets/images/Controls/Tile/tile4.png)
+![image_6](/assets/images/Controls/Tile/tile_05.png)
+
+## Conditional Templates
+With the Styled Tile control, it is possible—analogous to conditional formatting—to use separate templates for displaying rows based on defined rules. Click on the [...] icon (1) in the Conditional Templates section to open the dialog for conditional templates.
+Here you can add new templates (2). These automatically adopt the standard template. You can rename (3), edit (4), change their order (5), define rules for display (6), or delete the templates (7).
+
+![image_7](/assets/images/Controls/Tile/tile_06_2.png)

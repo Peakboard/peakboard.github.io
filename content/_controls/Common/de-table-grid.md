@@ -17,7 +17,7 @@ Du findest das Tabellen-Control im Peakboard Designer in der Gruppe Lists & Tile
 ![image_1](/assets/images/Controls/Table-Grid/tablegrid_01.png)
 
 # Konfiguration und Eigenschaften
-## 1 Verknüpfung und Spaltenmanagement
+## 1 Allgemein, Datenanbindung und Spaltenmanagement
 ### 1.1 Datenquelle
 Die Tabelle benötigt eine Datenquelle, um ihre Optionen und Inhalte anzuzeigen. Füge dazu eine Datenquelle im Designer Explorer auf der linken Seite ein, hier zum Beispiel eine Excelliste mit Namen.
 
@@ -54,7 +54,7 @@ Die Tabelle ermöglicht es, auf Nutzerinteraktionen wie das Auswählen einer Zei
 ### Beispiel: Zeilendaten bei Klick auslesen
 Häufig soll beim Klick auf eine Zeile ein Detailwert in eine Variable geschrieben oder ein Log-Eintrag erstellt werden. Hier lassen wir durch einen Klick auf einen Zeileninhalt die ausgewählte Zeilennummer in das Log schreiben.
 Schritte im Script-Editor:
-1.	Öffne den Script-Editor unter Logik -> Cell Clicked oder Selection Changed.
+1.	Öffne den Script-Editor unter "Logik" und "Cell Tapped".
 2.	Nutze den Block „Ins Log schreiben“ (1).
 3.	Greife auf den „get row“-Block zu (2).
 4.	Kombiniere dies mit dem Block „Ins Log schreiben“ (3).
@@ -65,3 +65,5 @@ Schritte im Script-Editor:
 Starte die Vorschau und überprüfe im Log (1), ob der Rückgabewert je nach ausgewählter Zeile der Tabelle korrekt zurückgegeben wird. Wähle verschiedene Zeilen aus, um das Log zu erweitern.
 
 ![image_7](/assets/images/Controls/Table-Grid/tablegrid_07.png)
+
+In diesem Video wird nochmal verdeutlicht, wie das Skript für dieses Beispiel aufgebaut und auf erfolgreiche Funktion geprüft wird:
