@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Styled Tile
-menu_title: Styled Tile
-description: Styled Tile
+title: Styled Tile Collection
+menu_title: Styled Tile Collection
+description: Styled Tile Collection
 lang: de
 weight: 260
 ref: con-260
