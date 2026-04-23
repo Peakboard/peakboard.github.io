@@ -11,7 +11,7 @@ redirect_from:
   - /controls/de-tile-view.html
 ---
 
-Das Styled Tile Collection Control dient dazu, Datensätze aus einer Datenquelle visuell als Kacheln aufzubereiten. Hierzu verbindest du das Control mit einer Datenquelle und erstellst anschließend ein individuelles Template, das mit den bereitgestellten Daten automatisch erweitert wird. Im Gegensatz zum Styled Tile wird nicht nur eine einzelne Zeile, sondern eine Auswahl an Datensätzen visualisiert. Das Styled Tile Collection eignet sich besonders für Dashboards, auf denen Informationen wie bestimmte Statuswerte, Namen oder Kennzahlen aus einer Excelliste in einem individuell gestalteten Layout dargestellt werden sollen.
+Das Styled Tile Collection Control dient dazu, Datensätze aus einer Datenquelle visuell als Kacheln aufzubereiten. Hierzu verbindest du das Control mit einer Datenquelle und erstellst anschließend ein individuelles Template, das mit den bereitgestellten Daten automatisch erweitert wird. Im Gegensatz zum [Styled Tile Control](/controls/14-de-tilecontrol.html) Styled Tile wird nicht nur eine einzelne Zeile, sondern eine Auswahl an Datensätzen visualisiert. Das Collection Control eignet sich besonders für Dashboards, auf denen Informationen wie bestimmte Statuswerte, Namen oder Kennzahlen aus einer Excelliste in einem individuell gestalteten Layout dargestellt werden sollen.
 Du findest das Styled Tile Collection ind der Controls-Menüleiste des Peakboard Designer in der Gruppe Lists & Tiles (1).
 
 ![image_1](/assets/images/Controls/TileView/tileview_01.png)

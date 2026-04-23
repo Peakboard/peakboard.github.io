@@ -11,7 +11,7 @@ redirect_from:
   - /controls/en-tilecontrol.html
 ---
 
-The Styled Tile is used to visually prepare a specific record (one row) from a data source. To do this, you connect the control to a data source and a row number (index) and then create an individual template. The contents of this row can thus be specifically displayed or processed. In contrast to the Styled Tile Collection, only one row of the data source is displayed at a time. The Styled Tile is particularly suitable for linking the same template to different rows to ensure an identical appearance everywhere.
+The Styled Tile is used to visually prepare a specific record (one row) from a data source. To do this, you connect the control to a data source and a row number (index) and then create an individual template. The contents of this row can thus be specifically displayed or processed. In contrast to the [Styled Tile Collection](/controls/11-en-tile-view.html), only one row of the data source is displayed at a time. The Styled Tile is particularly suitable for linking the same template to different rows to ensure an identical appearance everywhere.
 You can find the Styled Tile in the Peakboard Designer in the Lists & Tiles group (1).
 
 ![image_1](/assets/images/Controls/Tile/tile_01.png)

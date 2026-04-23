@@ -13,7 +13,7 @@ redirect_from:
 Mit dem Bild-Control kannst du Grafiken, Logos oder Fotos in deine Visualisierung integrieren. Neben der einfachen Anzeige von statischen Bildern ermöglicht Peakboard auch das dynamische Laden von Bilddaten aus verschiedenen Quellen wie Web-URLs, lokalen Netzwerkpfaden oder direkt aus einer Datenbank.
 Du findest das Bild-Control im Peakboard Designer in der Gruppe Medien & Dokumente (1). Ziehe das Icon per Drag-and-drop auf in deinen Designer oder versetze es mit einem Doppelklick auf deine Arbeitsfläche.
 
-![image_1](/assets/images/Controls/Picture/picture01.png)
+![image_1](/assets/images/Controls/Image/image_01.png)
 
 # Konfiguration und Eigenschaften
 ## 1 Datenquelle und Bildauswahl
@@ -21,21 +21,16 @@ Ein Bild-Control kann auf unterschiedliche Weise mit Inhalten gefüllt werden. K
 * Statische Ressource: Wähle ein Bild aus deinen lokalen Ressourcen aus, das fest in der Anwendung gespeichert ist (z. B. ein Firmenlogo) (1).
 * Dynamische Verknüpfung (Datenbindung): Verknüpfe das Control mit einer Datenquelle oder einer Variablen, die einen Pfad oder eine URL enthält. Das Bild wird dann zur Laufzeit automatisch aktualisiert (2a), (2b).
 
-![image_2](/assets/images/Controls/Picture/picture02.png)
+![image_2](/assets/images/Controls/Image/image_02.png)
 
 ## 2 Aussehen und Skalierung
 In den Eigenschaften auf der rechten Seite definierst du, wie das Bild dargestellt wird:
-1. Abstand (Allgemeines): Hier definierst du einen inneren Abstand für das Bild innerhalb seines Positionierungsrahmens. Über die Felder Links, Oben, Rechts und Unten kannst du das Bild präzise positionieren oder Einrückungen festlegen, um einen festen Abstand zum Rahmen des Controls zu wahren (1).
-2. Titel & Untertitel (Allgemeines): Trage eine Überschrift oder eine Beschreibung für das eingefügte Bild in den Rahmen ein (2).
-3. Deckkraft (Aussehen): Regle die Transparenz des Bildes (0 bis 100 %) (3).
-4. Strecken (Aussehen) (4): 
+1. Deckkraft (Aussehen): Regle die Transparenz des Bildes (0 bis 100 %) (1).
+2. Strecken (Aussehen) (2): 
+	2.1 inaktiv: Das Bild behält sein Seitenverhältnis bei und wird eingepasst
+	2.2 aktiv: Das Bild wird verzerrt, um die Fläche exakt auszufüllen.
 
-4.1 inaktiv: Das Bild behält sein Seitenverhältnis bei und wird eingepasst
-4.2 aktiv: Das Bild wird verzerrt, um die Fläche exakt auszufüllen.
-
-5.	In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um die Bildquelle in Skripten zu verwenden, z. B., um das Bild per Skript zur Laufzeit zu ändern (5).
-
-![image_3](/assets/images/Controls/Picture/picture03.png)
+![image_3](/assets/images/Controls/Image/image_03.png)
 
 # Scripting
 ## Beispiel: Bildquelle per Skript ändern, im Log überprüfen
@@ -49,4 +44,4 @@ Schritte im Script-Editor:
 
 Starte die Vorschau und überprüfe im Log (zweites Icon von links), ob der Rückgabewert nach dem Auslösen korrekt zurückgegeben wird.
 
-![image_4](/assets/images/Controls/Picture/picture04.png)
+![image_4](/assets/images/Controls/Image/image_04.png)

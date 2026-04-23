@@ -11,7 +11,7 @@ redirect_from:
   - /controls/en-tile-view.html
 ---
 
-The Styled Tile Collection control is used to visually process records from a data source as tiles. To do this, you connect the control to a data source and create a custom template that is automatically extended with the provided data. Unlike the Styled Tile, it visualizes a selection of records rather than just a single row. The Styled Tile Collection is particularly suitable for dashboards where information such as specific status values, names, or key figures from an Excel list should be displayed in a custom-designed layout.
+The Styled Tile Collection control is used to visually process records from a data source as tiles. To do this, you connect the control to a data source and create a custom template that is automatically extended with the provided data. Unlike the [Styled Tile Control](/controls/14-en-tilecontrol.html), it visualizes a selection of records rather than just a single row. The Collection Control is particularly suitable for dashboards where information such as specific status values, names, or key figures from an Excel list should be displayed in a custom-designed layout.
 You can find the Styled Tile Collection in the control menu bar of the Peakboard Designer in the Lists & Tiles group (1).
 
 ![image_1](/assets/images/Controls/TileView/tileview_01.png)
