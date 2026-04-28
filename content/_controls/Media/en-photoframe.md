@@ -26,9 +26,6 @@ A Slideshow requires a source from which it can retrieve image data. Double-clic
 
 ## 2 Appearance and Control
 In the properties on the right side, you can precisely control the behavior of the slideshow and its visual presentation:
-1. Control Positioning (General): Set the alignment of the control on the workspace. The first eight icons allow you to quickly place the control in corners or at the center of a side, while the ninth icon fills the entire available area. The last icon centers the element, with the size pre-defined via the manual input fields. (1)
-2. Spacing (General): You can precisely position the Slideshow using the Width, Height, Left, and Top fields. Below these, you can define internal spacing (padding) and a title for the images within the frame. (2)
-3. Reload Interval (Data): Determine after how many seconds the next image should be displayed (3).
-4. Use in Scripts (Logic): Give the control a unique name to easily identify it later in scripting (of other controls) (4).
+1. Reload Interval (Data): Determine after how many seconds the next image should be displayed (3).
 
 ![Image_3](/assets/images/Controls/photoframe/photoframe_03.png)

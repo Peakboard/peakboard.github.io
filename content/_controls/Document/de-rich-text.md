@@ -23,12 +23,3 @@ Ein Rich-Text-Control kann flexibel mit Inhalten gefüllt werden. Ist das Contro
 * Nachladeintervall (Daten): Lege fest, nach wie vielen Sekunden die Webseite automatisch neu geladen werden soll. Dies ist besonders nützlich für Live-Dashboards oder News-Ticker (3).
 
 ![image_2](/assets/images/Controls/Rich-Text/richtext_02.png)
-
-## 2 Aussehen und Steuerung
-In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darstellung präzise steuern:
-1. Control-Positionierung (Allgemeines): Lege die Ausrichtung des Elements auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control schnell an Ecken oder Seitenmitten platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig, wobei die Größe vorab über die manuellen Eingabefelder definiert werden kann. (1)
-2. Abstand (Allgemeines): Über die Felder Breite, Höhe, Links und Oben kannst du das Rich-Text-Feld präzise positionieren. Darunter definierst du einen inneren Abstand (Padding) für den Text innerhalb seines Rahmens. In diesem Bereich kann ebenfalls ein Titel vergeben werden, der über dem Control erscheint (2).
-3. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um den Inhalt später per Skript dynamisch zu überschreiben (3).
-4. Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Hintergrundfarbe des gesamten Controls bei bestimmten Statusänderungen zu wechseln (4).
-
-![image_3](/assets/images/Controls/Rich-Text/richtext_03.png)

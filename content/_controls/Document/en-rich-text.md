@@ -23,12 +23,3 @@ A Rich-Text control can be filled with content flexibly. Once the control is pla
 * Reload interval (Data): Specify the number of seconds after which the document should automatically reload. This is particularly useful for live dashboards or news tickers (3).
 
 ![image_2](/assets/images/Controls/Rich-Text/richtext_02.png)
-
-## 2 Appearance and Control
-In the properties on the right side, you can precisely control the behavior and representation:
-1. Control Positioning (General): Define the alignment of the element on the workspace. Use the first eight symbols to quickly place the control at corners or side centers, while the ninth symbol fills the entire available area. The last icon centers the element, where the size can be pre-defined via the manual input fields. (1)
-2. Padding (General): Use the Width, Height, Left, and Top fields to precisely position the Rich-Text field. Below that, you define an internal spacing (padding) for the text within its frame. In this area, a title can also be assigned that appears above the control (2).
-3. Use in scripts (Logic): Give the control a unique name to dynamically overwrite the content later via script (3).
-4. Conditional Formatting (Logic): Use conditional formatting to change the background color of the entire control during specific status changes, for example (4).
-
-![image_3](/assets/images/Controls/Rich-Text/richtext_03.png)
