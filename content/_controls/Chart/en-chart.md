@@ -23,13 +23,13 @@ In the charts section you will find different types of charts that you can use f
 
 To add a chart, drag and drop the control (1) onto the workspace. You can determine the positioning by dragging the corners and sides (2). Then double-click on the control to access the selection menu for the various diagram types. Alternatively, click on the [Edit chart] button (3) in the attributes to access the dialog.
 
-![Add chart control](/assets/images/Controls/Diagram/en-diagramm_01.png)
+![Add chart control](/assets/images/Controls/Diagramm/en-diagramm_01.png)
 
 ## Select a diagram type
 
 In the selection window of the chart control, select the first chart type you want to add.
 
-![Select chart type](/assets/images/Controls/Diagram/en-diagramm_02.png)
+![Select chart type](/assets/images/Controls/Diagramm/en-diagramm_02.png)
 
 You can [overlay several identical or different chart types](#series) in a control and align them on a common axis. The data you want to use for the chart must match the selected chart type. If necessary, you can [prepare your data with a dataflow](/dataflows/en-first-steps.html).
 
@@ -78,7 +78,7 @@ In the [Labels] tab, you can use the checkboxes to select whether [Labels] (1) a
 If a checkbox is activated, the other setting options are displayed.
 In the [Label] area, you can make settings for the text (3), such as the font used and the format. Various standard formats are available here, such as currency or percentages. You can define the position of the labels (4) and add outlines (5) and connecting lines (6). In the [Markers] area, you can define how the markers for values should look in the chart.
 
-![Labels and markers](/assets/images/Controls/Diagram/en-diagramm_06.png)
+![Labels and markers](/assets/images/Controls/Diagramm/en-diagramm_06.png)
 
 ### Advanced - Animate the chart {#advanced}
 

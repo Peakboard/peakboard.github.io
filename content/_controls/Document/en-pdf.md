@@ -25,7 +25,7 @@ A PDF Viewer can be filled with content in various ways. Double-click the contro
 
 ## 2 Appearance and Control
 In the properties on the right side, you can precisely control the behavior and representation:
-1. Page (Data): Here you can specify which page of the document should be displayed by default when the visualization starts (3).
+1. Page (Data): Here you can specify which page of the document should be displayed by default when the visualization starts (1).
 
 ![image_3](/assets/images/Controls/PDF/PDF_03.png)
 
