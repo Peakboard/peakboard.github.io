@@ -25,11 +25,7 @@ A PDF Viewer can be filled with content in various ways. Double-click the contro
 
 ## 2 Appearance and Control
 In the properties on the right side, you can precisely control the behavior and representation:
-1. Control Positioning (General): Define the alignment of the element on the workspace. Use the first eight symbols to quickly place the control at corners or side centers, while the ninth symbol fills the entire available area. The last icon centers the element. (1)
-2. General: Use the Width, Height, Left, and Top fields to precisely define the size of the PDF via the manual input fields. Below that, you define an internal padding for the document within its frame, and a title can also be assigned to appear above the control. (2)
-3. Page (Data): Here you can specify which page of the document should be displayed by default when the visualization starts (3).
-4. Use in scripts (Logic): Give the control a unique name to control it later via script (e.g., for changing pages) (4).
-5. Conditional Formatting (Logic): Use conditional formatting to control the visibility of the control based on specific events.
+1. Page (Data): Here you can specify which page of the document should be displayed by default when the visualization starts (3).
 
 ![image_3](/assets/images/Controls/PDF/PDF_03.png)
 
@@ -60,7 +56,7 @@ Simply select the "set page of" building block under the "Page" category of your
 Start the preview and check if the pages switch correctly and if the selected interval is accurate.
 
 ## Example Two: Switch PDF Pages via Buttons
-### ! Important: Use either a timer script or a button scrip, a button script cannot be controlled smoothly while a timer script is active. The "On Screen Activation" script can be retained.
+! Important: Use either a timer script or a button scrip, a button script cannot be controlled smoothly while a timer script is active. The "On Screen Activation" script can be retained.
 In this example, we use two buttons ("Next" and "Back") to manually flip through a PDF manual.
 
 ### Steps in the Script Editor:

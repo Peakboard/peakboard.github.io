@@ -25,11 +25,7 @@ Ein PDF Viewer kann auf unterschiedliche Weise mit Inhalten gefüllt werden. Kli
 
 ## 2 Aussehen und Steuerung
 In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die Darstellung präzise steuern:
-1. Control-Positionierung (Allgemeines): Lege die Ausrichtung des Elements auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control schnell an Ecken oder Seitenmitten platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig (1).
-2. Allgemeines: Über die Felder Breite, Höhe, Links und Oben kannst du die Größe der PDF über die manuellen Eingabefelder präzise definieren. Darunter definierst du einen inneren Abstand (Padding) für das Dokument innerhalb seines Rahmens und es kann ebenfalls ein Titel vergeben werden, der über dem Control erscheint (2).
-3. Seite (Daten): Hier kannst du festlegen, welche Seite des Dokuments beim Start der Visualisierung standardmäßig angezeigt werden soll (3).
-4. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später per Skript zu steuern (z. B. für den Seitenwechsel) (4).
-5. Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Sichtbarkeit des Controls basierend auf bestimmten Ereignissen zu steuern.
+1. Seite (Daten): Hier kannst du festlegen, welche Seite des Dokuments beim Start der Visualisierung standardmäßig angezeigt werden soll (1).
 
 ![image_3](/assets/images/Controls/PDF/PDF_03.png)
 
@@ -60,7 +56,7 @@ Dazu einfach den Building Block „Wert setzen“ (set page of) unter der „Sei
 Starte die Vorschau und überprüfe, ob die Seiten korrekt gewechselt werden und ob das gewählte Intervall in etwa stimmt.
 
 ## Beispiel Zwei: PDF-Seiten per Buttons wechseln
-### ! Wichtig: Entweder ein Timerskript, oder ein Buttonskript, mit einem aktiven Timerskript lässt sich das Buttonskript nicht problemlos steuern. Das "Bildschirmaktivierung"-Skript kann beibehalten werden.
+! Wichtig: Entweder ein Timerskript, oder ein Buttonskript, mit einem aktiven Timerskript lässt sich das Buttonskript nicht problemlos steuern. Das "Bildschirmaktivierung"-Skript kann beibehalten werden.
 In diesem Beispiel nutzen wir zwei Buttons („Vor“ und „Zurück“), um manuell durch ein PDF-Handbuch zu blättern.
 
 ### Schritte im Script-Editor:
