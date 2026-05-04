@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Advanced Chart
-menu_title: Advanced Chart
-description: Information about Advanced Chart.
+title: Diagram
+menu_title: Diagram
+description: Information about Diagram.
 lang: en
 weight: 600
 ref: con-600
@@ -12,7 +12,7 @@ redirect_from:
 
 In the charts section you will find different types of charts that you can use for your applications.
 
-* **Chart** - A selection of different chart types described in this article.
+* **Diagram** - A selection of different chart types described in this article.
 * **[Linear gauge](/controls/Chart/en-linear-gauge.html)** - A chart that you can use for example to display progress in linear form
 * **[Circular gauge](/controls/Chart/en-circular-gauge.html)** - A chart with which you can for example display utilization in circular form
 * **[Signal lamp](/controls/Chart/en-signal-block.html)** - A signal that can be controlled using simple signal rules
@@ -21,11 +21,11 @@ In the charts section you will find different types of charts that you can use f
 
 ## Add a chart control to your application
 
-To add a chart, drag and drop the control (1) onto the workspace. You can determine the positioning by dragging the corners and sides (2). Then double-click on the control to access the selection menu for the various diagram types. Alternatively, click on the [Edit chart] button (3) in the attributes to access the dialog.
+To add a diagram, drag and drop the control (1) onto the workspace. You can determine the positioning by dragging the corners and sides (2). Then double-click on the control to access the selection menu for the various diagram types. Alternatively, click on the [Edit chart] button (3) in the attributes to access the dialog.
 
 ![Add chart control](/assets/images/Controls/Diagramm/en-diagramm_01.png)
 
-## Select a diagram type
+## Select a chart type
 
 In the selection window of the chart control, select the first chart type you want to add.
 
