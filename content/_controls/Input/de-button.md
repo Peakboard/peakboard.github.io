@@ -25,7 +25,7 @@ Ein Button benötigt eine Beschriftung und ein definiertes Verhalten bei Interak
 
 ## 2 Aussehen und Steuerung
 Sobald du den Button im Designer ausgewählt hast, kannst du in den Eigenschaften auf der rechten Seite alle spezifischen Einstellungen vornehmen. Unter anderem kannst Du hier den visuellen Look des Controls auf der Arbeitsfläche gestalten:
-* Tapped (Logik): Der Button ist das vielseitigste Control im Peakboard-Designer. Hiermit lassen sich unzählige Abläufe realisieren: Du kannst mit einem Klick zwischen verschiedenen Bildschirmen (Screens) wechseln, Datenquellen manuell zur Aktualisierung zwingen, Werte in Variablen schreiben, durch die Seiten eines PDF-Controls blättern, HTTP-Requests an externe APIs senden, die Sichtbarkeit von Warnmeldungen umschalten, Timer starten oder stoppen sowie komplexe Berechnungen auf Basis von Benutzereingaben ausführen (5).
+1. Tapped (Logik): Der Button ist das vielseitigste Control im Peakboard-Designer. Hiermit lassen sich unzählige Abläufe realisieren: Du kannst mit einem Klick zwischen verschiedenen Bildschirmen (Screens) wechseln, Datenquellen manuell zur Aktualisierung zwingen, Werte in Variablen schreiben, durch die Seiten eines PDF-Controls blättern, HTTP-Requests an externe APIs senden, die Sichtbarkeit von Warnmeldungen umschalten, Timer starten oder stoppen sowie komplexe Berechnungen auf Basis von Benutzereingaben ausführen (1).
 
 ![image_3](/assets/images/Controls/Button/button_03.png)
 

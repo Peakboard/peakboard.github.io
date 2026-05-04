@@ -25,7 +25,7 @@ A button requires a label and a defined behavior upon interaction. Drag and drop
 
 ## 2 Appearance and Control
 Once you have selected the button in the Designer, you can make all specific settings in the properties on the right side. Among other things, you can design the visual look of the control on the workspace here:
-* Tapped (Logic): The button is the most versatile control in the Peakboard Designer. Countless processes can be implemented with it: With one click, you can switch between different screens, force data sources to refresh manually, write values into variables, flip through the pages of a PDF control, send HTTP requests to external APIs, toggle the visibility of warning messages, start or stop timers, and perform complex calculations based on user input (5).
+1. Tapped (Logic): The button is the most versatile control in the Peakboard Designer. Countless processes can be implemented with it: With one click, you can switch between different screens, force data sources to refresh manually, write values into variables, flip through the pages of a PDF control, send HTTP requests to external APIs, toggle the visibility of warning messages, start or stop timers, and perform complex calculations based on user input (1).
 
 ![image_3](/assets/images/Controls/Button/button_03.png)
 
