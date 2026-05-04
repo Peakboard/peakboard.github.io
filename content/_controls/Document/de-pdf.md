@@ -56,7 +56,12 @@ Dazu einfach den Building Block „Wert setzen“ (set page of) unter der „Sei
 Starte die Vorschau und überprüfe, ob die Seiten korrekt gewechselt werden und ob das gewählte Intervall in etwa stimmt.
 
 ## Beispiel Zwei: PDF-Seiten per Buttons wechseln
-! Wichtig: Entweder ein Timerskript, oder ein Buttonskript, mit einem aktiven Timerskript lässt sich das Buttonskript nicht problemlos steuern. Das "Bildschirmaktivierung"-Skript kann beibehalten werden.
+<div class="box-tip" markdown="1">
+**! Wichtig:** 
+
+Entweder ein Timerskript, oder ein Buttonskript, mit einem aktiven Timerskript lässt sich das Buttonskript nicht problemlos steuern. Das "Bildschirmaktivierung"-Skript kann beibehalten werden.
+</div>
+
 In diesem Beispiel nutzen wir zwei Buttons („Vor“ und „Zurück“), um manuell durch ein PDF-Handbuch zu blättern.
 
 ### Schritte im Script-Editor:

@@ -56,7 +56,11 @@ Simply select the "set page of" building block under the "Page" category of your
 Start the preview and check if the pages switch correctly and if the selected interval is accurate.
 
 ## Example Two: Switch PDF Pages via Buttons
-! Important: Use either a timer script or a button scrip, a button script cannot be controlled smoothly while a timer script is active. The "On Screen Activation" script can be retained.
+<div class="box-tip" markdown="1">
+**Important:** 
+
+Use either a timer script or a button scrip, a button script cannot be controlled smoothly while a timer script is active. The "On Screen Activation" script can be retained.
+</div>
 In this example, we use two buttons ("Next" and "Back") to manually flip through a PDF manual.
 
 ### Steps in the Script Editor:
