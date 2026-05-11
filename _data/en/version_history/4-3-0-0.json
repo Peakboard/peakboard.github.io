@@ -1,0 +1,500 @@
+﻿[
+  {
+    "version": "4.3.0.0",
+    "date": "07.05.2026",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.3.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.3.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.3.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+      {
+        "name": "AI Generator",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-3-0-0-AI_EN.gif",
+            "description": "The AI Generator lets you create Peakboard projects via prompting."
+          }
+        ]
+      },
+      {
+        "name": "Components",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-3-0-0-Components_EN.gif",
+            "description": "Multiple controls can be combined into a single reusable component."
+          }
+        ]
+      },
+      {
+        "name": "Calendar Control",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-3-0-0-Calendar_EN.gif",
+            "description": "The new Calendar Control allows you to display a calendar directly inside your project."
+          }
+        ]
+      },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added Reload button when a package was changed externally.",
+              "Added function to generate Peakboard XML from Peakboard JSON.",
+              "The loading indicator has been improved and the loading window no longer opens multiple times.",
+              "Improved menu expander to make it easier to reach with the cursor.",
+              "Big dialogs (template editor, script editor) now open on the screen the Peakboard Designer is currently on.",
+              "Sub-dialogs of the same size as their master dialog now open with a horizontal offset.",
+              "Spacing lines now ignore clicks.",
+              "Fixed UI bug during minimize.",
+              "Fixed warning messages appearing behind the splash screen when opening a pbmx file.",
+              "Fixed error when renaming a control from lower to upper case letters."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Setup"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Reworked the Setup.",
+              "Added branch information to the Setup with option to update from the corresponding branch or return to master.",
+              "Added health check at the end of the Setup with automatic backup on failure.",
+              "Added silent update parameter for designer.exe.",
+              "Fixed Peakboard BYOD uninstallation to remove all components and binaries.",
+              "Fixed duplicate Peakboard.ExtensionKit.Process64.exe in Peakboard BYOD installation.",
+              "Fixed uninstallation to correctly report failure and detect running instances.",
+              "Fixed silent uninstall to remove uninstall.exe."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added validation warning if a dataflow or output step is based on an unloaded data source.",
+              "Added support for Peakboard Extensions in Hub flows.",
+              "Changed default for steps in Hub flow projects from 'on data change' to 'always'.",
+              "Hub flow projects now check the Peakboard Hub license on each upload instead of only at Peakboard Designer start.",
+              "Fixed flow sorting to update alphabetically immediately after creating or renaming a flow.",
+              "Fixed function execute trigger to properly await the source function.",
+              "Fixed unexpected exception when tagging a flow in a data project.",
+              "Fixed OPC UA support with the reload step in flows when the 'variables' configuration is used."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added ability to create Peakboard Hub Lists from the Peakboard Designer based on a variable list, data source or dataflow, and to convert variable lists into Peakboard Hub Lists.",
+              "Fixed Peakboard Hub dialog bug to show the project hub when the user hub is empty and use 'Connect' instead of 'Ok' on enter.",
+              "Fixed missing error message when saving a screenshot to the Peakboard Hub file manager fails.",
+              "Fixed base-64 error when adding a box to the Peakboard Hub for access rights.",
+              "Fixed addtohublist Lua command to log an error when the update fails."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub list"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Filters are now preserved when switching Peakboard Hub Lists if the new list contains the same columns.",
+              "Fixed Replace Peakboard Hub List function to work when the ID column is included.",
+              "Fixed unexpected error when selecting a list for the first time on a new Peakboard Hub List data source."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dataflow"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Preview data of cascaded dataflows now reloads automatically when a table structure changes.",
+              "Referenced dataflows now update the controls automatically when preview data of a data source changes.",
+              "Separated settings from the data and steps section in dataflows.",
+              "Fixed missing column display in dataflows with a join step after adding a new column to the base data source.",
+              "Fixed preview data not updating when adding a sort step to a dataflow based on a variable list."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Reload flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed dataflows in flows getting stuck when executed before all necessary data is loaded."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Data sources"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Improved performance when opening the data source dialog.",
+              "Fixed scroll wheel inside the Lists selection of the Peakboard Hub List data source.",
+              "Fixed scrollbar in the Time data source's add time table by repositioning the info box."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Resources"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added support for compressed URL resources and data sources.",
+              "Resources now allow changing files without reauthentication.",
+              "Fixed images from Sharepoint and OneDrive with multiple dots in the filename.",
+              "Fixed resources being placed at incorrect locations when using drag and drop.",
+              "Fixed 'Navigate-to-source' button when the source is not visible on the current screen.",
+              "Fixed Office 365 resources losing their authentication when opened."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Google Spreadsheets / Microsoft Graph"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Reworked Google Drive and Google Spreadsheets with a new resource, file picker and data source.",
+              "MicrosoftGraphConnection and GoogleDriveConnection now allow navigating to the resource instead of just the list element."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Variable"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Improved validation when adding a variable.",
+              "Added 'allow empty value' checkbox for variable, variable list and function constraints.",
+              "Fixed tagging and description for variable lists and screens."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Global functions"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Replaced the value constraint table with the tag pattern for single variables and global function parameters.",
+              "Fixed parameter constraint errors when saving a global function."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Explorer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed problem when renaming of data sources, dataflows, variable lists and variables to different text casing."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Snippets / Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added 'create [variable]' option to the Loop Building Block context menu.",
+              "Building Blocks now retain the selected column when changing the list, if a column with the same name exists.",
+              "Fixed multiline strings starting with '[' generating incorrect delimiters.",
+              "Fixes have been made to the 'Set Value' building block so that columns are no longer swapped.",
+              "Fixed boolean handling in Item Building Blocks for dataflows based on a variable list.",
+              "Fixed bug in JSON array parsing in Building Blocks.",
+              "Improved the pre-selection of the top-level building block in a variable's updated script so that the selected variable is used.",
+              "Fixed NullReferenceException after closing the Box dialog."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Scripting"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added ability to open multiple scripts in tabs.",
+              "Fixed Script Tester error for HTTP requests.",
+              "Removed unwanted whitespace in multi-line blocks inside loops.",
+              "Issue with script suggestions following the switch from Building Blocks to Script has been resolved.",
+              "Fixed exception when opening the script editor from the menu bar."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Conditional Formatting"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added 'Use row index' checkbox for data bindings in Conditional Formatting within styled lists and styled tile collections.",
+              "Added ability to duplicate a statement in Conditional Formatting."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Styled tile / list / collection"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Removed Balloon and Cloud Control from the Template Editor.",
+              "Fixed row number in databinding being lost when clicking 'OK' without first closing the popup.",
+              "Fixed issue in databinding and 'This styled list' Building Blocks for listviews with parameters."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Button"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added horizontal alignment for button text.",
+              "Replaced the Button progress bar with a centered animated icon."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Image"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Image control now supports Base64-encoded images.",
+              "Image control now updates the 'File name' property of all bound controls when the image in a cloud or Peakboard Hub resource changes."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Textbox"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed issue in Textbox padding property.",
+              "Fixed scripting access for Textboxes with input type set to Numeric."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dropdown"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed Dropdown selection with transparent background."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Video"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added dropdown to select the streaming resolution for the Video control.",
+              "Camera screenshots are now saved as JPG instead of PNG.",
+              "Video control now creates the local cache folder if it does not exist.",
+              "Fixed camera image upload to the Peakboard Hub.",
+              "Fixed webcam upload to Sharepoint.",
+              "Fixed entering a fixed value in the Default camera index."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "PDF"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed memory leak in the PDF control.",
+              "Fixed NullReferenceException in the PDF control.",
+              "Fixed PDFs not loading in the Web control."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Website / Web"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "The configuration dialogue for the Webpage Control now opens when you double-click."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Calendar Control"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added Calendar Control."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Group"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added components that connect Controls."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Property Grid"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added button in the property grid to jump directly to the bound data source for all data bindings."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Format"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed 'c' within text in date format being shown as the calendar week number."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Box communication"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Improved performance when selecting a box if the connected Peakboard Hub is unreachable.",
+              "Fixed cloud connection when the 'prefer hostname' property is active.",
+              "Fixed error message when adding an unreachable Peakboard Box.",
+              "Fixed error after closing the box management dialog.",
+              "Fixed critical issue when reading screenshots due to a closed stream."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed IP display when the hostname is long."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Runtime"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed memory leak in the Log and Debug Panel.",
+              "Fixed screenshots from Peakboard Boxes ignoring DPI / Windows zoom."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "WebServer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed WebServer to restart after exiting because of a missing certificate."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Debug Panel"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Increased default column width in Debug Panel tables."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Extensions"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed the delete button in Extensions being cut off."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "BACnet"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed Callback Port changes in BACnet not being saved."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Oracle"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Oracle client updated to work for all databases."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "PowerBI"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed Power BI refresh token expiration."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "E-Mail"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added support for sending E-Mail attachments based on a Base64 string."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
