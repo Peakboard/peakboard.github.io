@@ -16,14 +16,14 @@ redirect_from:
 Flows (früher *Reload Flows*) legen fest, wann und in welcher Reihenfolge Datenquellen und Dataflows nachgeladen werden.
 Das ist immer dann hilfreich, wenn eine Datenquelle oder ein Dataflow erst nach einer anderen Datenquelle geladen werden soll, oder wenn das Nachladen zeitgesteuert ablaufen muss.
 
-Flows können für alle Pull-Datenquellen genutzt werden, für die ein Reload-Intervall festgelegt werden kann. Push-basierte Datenquellen wie MQTT oder OPC UA können nicht in einem Flow nachgeladen werden, da sie ihren Aktualisierungs­zeitpunkt selbst bestimmen.
+Flows können für alle Pull-Datenquellen genutzt werden, für die ein Reload-Intervall festgelegt werden kann. Event-basierte Datenquellen wie MQTT oder OPC UA können nicht über einen **Reload**-Step nachgeladen werden, da sie ihren Aktualisierungs­zeitpunkt selbst bestimmen. Sie lassen sich aber als **Trigger** verwenden: Über den Trigger **After data reload** startet ein eingehendes MQTT-Event bzw. eine OPC-UA-Wertänderung den Flow.
 
 ### Ein Flow besteht aus folgenden Bausteinen
 
 {% include styled_table.html %}
 {: .w-full }
 | Trigger     | Bestimmt, wann der Flow ausgeführt wird. Aktuell stehen drei Trigger zur Verfügung: **Periodic (sec)** für ein festes Sekunden­intervall, **Schedule** für eine Zeitplanung mit Wochentagen und Uhrzeiten und **After data reload**, der einen Flow startet, sobald eine bestimmte Datenquelle neu geladen wurde. |
-| Step        | Ein Arbeitsschritt, der vom Flow ausgeführt wird. Über den Step **Reload** lassen sich beliebige Datenquellen oder Dataflows nachladen. Steps werden in der gewählten Reihenfolge nacheinander abgearbeitet. |
+| Step        | Ein Arbeitsschritt, der vom Flow ausgeführt wird. Der Step **Reload** lädt beliebige Datenquellen oder Dataflows nach. Mit dem Step **Function** legst du eine eigene Lua-Funktion an und führst sie direkt im Flow aus – z.B. um Werte zu berechnen, Daten aufzubereiten oder Folgeaktionen anzustoßen. Steps werden in der gewählten Reihenfolge nacheinander abgearbeitet. |
 | Failure function | Eine optionale Lua-Funktion, die ausgeführt wird, wenn ein Step im Flow fehlschlägt. So lassen sich z.B. Logmeldungen oder Benachrichtigungen umsetzen. |
 
 <div class="box-tip" markdown="1">**Hinweis**
@@ -62,14 +62,9 @@ Wird kein Trigger gesetzt, läuft der Flow nur manuell – etwa wenn er aus eine
 
 ### Datenquellen für Flows vorbereiten
 
-Damit eine Datenquelle von einem Flow nachgeladen werden kann, muss in den Datenquellen-Einstellungen das Nachladen aktiviert sein. Der Bereich **Reload** im Konfigurations­dialog jeder Pull-Datenquelle bietet drei Optionen:
+Damit eine Datenquelle von einem Flow nachgeladen werden kann, muss im Bereich **Reload** des Konfigurations­dialogs lediglich die Checkbox [Enabled] (1) aktiviert sein. Mehr ist nicht nötig: Sobald die Datenquelle in einem **Reload**-Step verwendet wird, bestimmt der **Trigger des Flows**, wann sie nachgeladen wird.
 
-- Über die Checkbox [Enabled] (1) aktivierst du das Nachladen für diese Datenquelle.
-- Im Drop-Down [Reload state] (2) legst du die Strategie fest:
-  - **Periodic** – die Datenquelle aktualisiert sich selbst in dem unter (3) eingetragenen Sekunden­intervall. Zusätzlich kann sie als Step in einem Flow aufgerufen werden.
-  - **Manual** – die Datenquelle aktualisiert sich nicht selbstständig, sondern nur, wenn sie aus einem Flow oder per Lua-Skript explizit nachgeladen wird.
-  - **Subscription** – die Datenquelle wird über einen Push-Mechanismus aktualisiert (z.B. BACnet COV-Notifications) und nicht zeitgesteuert.
-- Das Feld [Interval (in s)] (3) gibt den Abstand zwischen automatischen Reloads in Sekunden an. Es ist nur sichtbar, wenn **Periodic** ausgewählt ist.
+Der unter [Reload state] (2) gewählte Modus und das Feld [Interval (in s)] (3) steuern nur das *eigenständige* Nachladen der Datenquelle. Wird sie über einen Flow nachgeladen, übersteuert der Flow-Trigger dieses Intervall – eine hier eingestellte Periodik ist dann wirkungslos. In der Praxis genügt es daher, [Reload state] auf **Manual** zu stellen und das Timing vollständig dem Flow zu überlassen.
 
 ![Reload-Optionen einer Datenquelle](/assets/images/data-sources/reload-flows/reloadflows-04-datasource-reload-section.png)
 

@@ -16,14 +16,14 @@ redirect_from:
 Flows (formerly *Reload Flows*) define when and in which order data sources and dataflows are reloaded.
 They are useful whenever a data source or dataflow has to be loaded after another one finishes, or when reloading needs to follow a schedule.
 
-Flows can be used with any pull data source that supports a reload interval. Push-based sources such as MQTT or OPC UA cannot be included as a flow step because they decide on their own when to update.
+Flows can be used with any pull data source that supports a reload interval. Event-based sources such as MQTT or OPC UA cannot be reloaded by a **Reload** step, because they decide on their own when to update. They can, however, be used as a **trigger**: with the **After data reload** trigger, an incoming MQTT message or OPC UA value change starts the flow.
 
 ### A flow is built from these elements
 
 {% include styled_table.html %}
 {: .w-full }
 | Trigger     | Decides *when* the flow runs. Three triggers are available today: **Periodic (sec)** for a fixed interval in seconds, **Schedule** for a weekday/time schedule, and **After data reload**, which fires the flow as soon as a specific data source has finished reloading. |
-| Step        | A unit of work executed by the flow. The **Reload** step reloads any data source or dataflow. Steps run sequentially in the order shown. |
+| Step        | A unit of work executed by the flow. The **Reload** step reloads any data source or dataflow. The **Function** step lets you create your own Lua function and run it directly inside the flow — for example to compute values, prepare data, or trigger follow-up actions. Steps run sequentially in the order shown. |
 | Failure function | An optional Lua function that runs when a step fails. Useful for logging, alerting, or running compensating actions. |
 
 <div class="box-tip" markdown="1">**Note**
@@ -62,14 +62,9 @@ Click [OK] to save the flow, or [Cancel] to discard the changes.
 
 ### Preparing data sources for flows
 
-Before a flow can reload a data source, reloading must be enabled in the data source settings. The **Reload** section in every pull-based data source configuration dialog offers three options:
+Before a flow can reload a data source, only the [Enabled] checkbox (1) in the **Reload** section of the configuration dialog needs to be turned on. That is all that is required: as soon as the data source is used in a **Reload** step, the **flow's trigger** decides when it is reloaded.
 
-- The [Enabled] checkbox (1) turns reloading on or off for this data source.
-- The [Reload state] dropdown (2) chooses the reload strategy:
-  - **Periodic** – the data source updates itself at the interval shown in (3). It can additionally be called as a step from a flow.
-  - **Manual** – the data source never updates on its own; it only reloads when triggered from a flow or from a Lua script.
-  - **Subscription** – the data source updates via push notifications (e.g. BACnet COV) and ignores any interval setting.
-- The [Interval (in s)] field (3) sets the time between automatic reloads. It is only visible when **Periodic** is selected.
+The mode selected under [Reload state] (2) and the [Interval (in s)] field (3) only control the data source's *own* independent reloading. When it is reloaded by a flow, the flow trigger overrides that interval — a periodic schedule set here has no effect. In practice it is therefore enough to set [Reload state] to **Manual** and leave all timing to the flow.
 
 ![Reload options of a data source](/assets/images/data-sources/reload-flows/reloadflows-04-datasource-reload-section.png)
 
