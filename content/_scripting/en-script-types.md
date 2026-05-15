@@ -28,7 +28,26 @@ A timer script has a name (1), a mode (2) and an interval in milliseconds (3). T
 
 ## Functions
 
-Here you define reusable Lua functions that can be called from any other script. Each script runs in its own isolated scope, so a function defined inside one script cannot be called from another – shared functions are the mechanism for sharing logic across timers, events and activation scripts, and for avoiding duplicated code.
+Here you define **reusable Lua functions**. Every script (timer, event, activation script …) runs in its own isolated scope, so a function written inside one script cannot be called from another. A function defined under [Functions] is the mechanism to share logic across all scripts and to avoid duplicated code – you write it once and call it everywhere with `MyFunction()`.
+
+When you add a function under [Functions], the [Edit function script settings] dialog opens first:
+
+![The function settings: name (1), return type (2), parameters (3) and the shared-function/API option (4)](/assets/images/scripting/types/script-types-05-functions.png)
+
+* **Function name (1)** – the name under which the function is called from Lua, e.g. `FormatTemperature()`.
+* **Return type (2)** – what the function returns: **None**, **String**, **Number** or **Boolean**.
+* **Parameters (3)** – add any number of parameters via the [+] button. Each parameter has a name and a data type (String, Number, Boolean) and is available as a local variable inside the function body. Optionally, a parameter can be restricted with a constraint.
+* **Shared function (4)** – exposes the function as a REST endpoint at `https://[Peakboard Box IP]:40405/api/functions/<name>`, so it can be triggered from outside the application. [Allow untyped] additionally relaxes the parameter typing for that API call.
+
+Confirm with [OK] to open the script editor and write the Lua body. Parameters are available as local variables; use `return` to hand back the result. The function is then called from any other script:
+
+```lua
+-- no parameters
+UpdateDashboard()
+
+-- with parameters and a return value
+local label = FormatTemperature(21.5)
+```
 
 ## Global events
 

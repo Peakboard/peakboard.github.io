@@ -28,7 +28,26 @@ Ein Timer-Skript hat einen Namen (1), einen Modus (2) und ein Intervall in Milli
 
 ## Funktionen
 
-Hier definierst du wiederverwendbare Lua-Funktionen, die aus jedem anderen Skript heraus aufgerufen werden können. Jedes Skript läuft in einem eigenen, isolierten Gültigkeitsbereich – eine in einem Skript definierte Funktion kann also nicht aus einem anderen Skript aufgerufen werden. Gemeinsame Funktionen sind der Mechanismus, um Logik über Timer, Events und Aktivierungsskripte hinweg zu teilen und doppelten Code zu vermeiden.
+Hier definierst du **wiederverwendbare Lua-Funktionen**. Jedes Skript (Timer, Event, Aktivierungsskript …) läuft in einem eigenen, isolierten Gültigkeitsbereich – eine in einem Skript geschriebene Funktion kann also nicht aus einem anderen Skript aufgerufen werden. Eine unter [Functions] definierte Funktion ist der Mechanismus, um Logik über alle Skripte hinweg zu teilen und doppelten Code zu vermeiden: einmal schreiben, überall mit `MeineFunktion()` aufrufen.
+
+Wenn du unter [Functions] eine Funktion hinzufügst, öffnet sich zuerst der Dialog [Edit function script settings]:
+
+![Die Funktionseinstellungen: Name (1), Rückgabetyp (2), Parameter (3) und die Shared-Function-/API-Option (4)](/assets/images/scripting/types/script-types-05-functions.png)
+
+* **Function name (1)** – der Name, unter dem die Funktion aus Lua aufgerufen wird, z.B. `FormatTemperature()`.
+* **Return type (2)** – was die Funktion zurückgibt: **None**, **String**, **Number** oder **Boolean**.
+* **Parameters (3)** – über den [+]-Button fügst du beliebig viele Parameter hinzu. Jeder Parameter hat einen Namen und einen Datentyp (String, Number, Boolean) und steht im Funktionskörper als lokale Variable zur Verfügung. Optional lässt sich ein Parameter über einen Constraint einschränken.
+* **Shared function (4)** – stellt die Funktion als REST-Endpunkt unter `https://[Peakboard Box IP]:40405/api/functions/<name>` bereit, sodass sie von außerhalb der Anwendung aufgerufen werden kann. [Allow untyped] lockert zusätzlich die Parametertypisierung für diesen API-Aufruf.
+
+Bestätige mit [OK], um den Skript-Editor zu öffnen und den Lua-Körper zu schreiben. Die Parameter stehen als lokale Variablen zur Verfügung; mit `return` gibst du das Ergebnis zurück. Anschließend rufst du die Funktion aus jedem anderen Skript auf:
+
+```lua
+-- ohne Parameter
+UpdateDashboard()
+
+-- mit Parametern und Rückgabewert
+local label = FormatTemperature(21.5)
+```
 
 ## Globale Events
 
