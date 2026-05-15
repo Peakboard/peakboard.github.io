@@ -400,3 +400,7 @@ exclude:
   - .idea
   - .idea/*
   - vendor
+
+include:
+  - llms.txt
+  - llms-full.txt
