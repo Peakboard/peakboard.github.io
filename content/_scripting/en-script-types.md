@@ -2,86 +2,85 @@
 layout: article
 title: Script Types
 menu_title: Script Types
-description: Informatinon about the Peakboard Script Types
+description: Information about the script types available in the Peakboard Designer
 lang: en
 weight: 901
 ref: scr-901
 redirect_from:
 ---
 
-The following overview describes the types of scripts available with Peakboard.
+Peakboard uses Lua as its scripting language. Scripts are always attached to one of the following script types, which determine *when* a script runs. They appear as folders under [Scripts] in the explorer.
 
 ## Timer
-Timer scripts are always used when an action is to be performed in a constant rhythm or once.
 
-## Golbal Functions
-Here you can define functions that are to be called several times by different methods.
+A timer script runs on a schedule – either repeatedly in a constant rhythm or once. Every timer has an interval (in milliseconds) and a mode:
 
-## Global Events
-Like the global functions, global events can be called at any time using different methods.
+* **Endless** – repeats indefinitely at the specified interval.
+* **Once** – fires once after the interval, then stops.
+* **Manual** – does not fire automatically; it is started from a Lua script. When started, it fires once after the configured interval as a delay.
+* **On schedule** – fires according to a day-of-week and time-of-day schedule.
 
-This includes classic inputs via external input devices such as touch screen monitors, keyboards, mice or [Presenter](/misc/en-presenter.html).
+## Functions
 
-#### Swiping
-The input is usually made via a touch screen monitor. Alternatively, the wipe effect can also be generated using a mouse.
+Here you define reusable Lua functions that can be called from any other script. Each script runs in its own isolated scope, so a function defined inside one script cannot be called from another – shared functions are the mechanism for sharing logic across timers, events and activation scripts, and for avoiding duplicated code.
 
-#### Key Pressed
-This script is executed whenever a key is pressed on an input device. Our [example for changing screens using a standard presenter](/misc/en-presenter.html) clearly illustrates how this type of script is used.
+## Global events
 
-#### Key Input
+Global events apply to the whole application and react to input or system conditions. The `e` object inside the script carries the event-specific context.
 
-#### Script Error
+#### Swiped (Up / Down / Left / Right)
+Fires when the user swipes on the touchscreen in the respective direction. A swipe can alternatively be produced with the mouse. These events carry no context data.
+
+#### Key pressed
+Fires on every single keystroke. `e.key` is the virtual key code, `e.modifier` the modifier key; set `e.handled = true` to suppress further processing. Useful for input from a [Presenter](/misc/en-presenter.html), keyboard or similar device.
+
+#### Key input
+Accumulates all typed characters until Enter/Return is pressed, then fires once with the full text in `e.text`. Ideal for barcode scanners and RFID readers, which send characters followed by Enter. Use `peakboard.clearinput()` to clear the buffer before a scan.
+
+#### Script error
+Fires when a Lua script error occurs, so you can react to it centrally.
 
 #### Data source update failed
+Fires when a data source refresh fails. `e.datasourcename` and `e.errormessage` describe what went wrong.
 
-## On Screen Activation
-As the name suggests, a script defined here will always be executed when the corresponding screen is loaded for the first time.
+#### Call incoming / Call started / Call ended / VoIP signal received
+VoIP/SIP telephony events. They provide the remote endpoint, caller and – for `VoIP signal received` – the received DTMF signal digit.
 
-## On Data Refresh
-This script is executed whenever new data has been loaded for the data source. 
+## On screen activation
 
-Such a script can be created by adding an update script either under Scripts - When updating data by clicking Add for the corresponding data source or by right-clicking on the data source.
+A script defined here runs every time the corresponding screen is activated, i.e. loaded and shown. It is the right place for one-time setup of a screen.
+
+## After data reload
+
+This script runs after a data source has completed a refresh cycle (the data element's `Refreshed` event). Create it under [Scripts] – [After data reload] via [Add] for the corresponding data source, or by right-clicking the data source.
 
 ## For controls
 
-Here you can find all scripts that were created using the Events function of a control.
+Here you find all scripts created via the [Events] function of a control. An event is a specific action that a control can trigger. The following list shows every control event and the controls that support it:
 
-These events are certain actions that can be triggered with the help of a control.
+#### Tapped (Button, Text, Text field, Rectangle, Image, Icon)
+Fires when the control is activated via touch, mouse or similar input.
 
-The following list contains all events possible with Peakboard as well as the corresponding controls.
+#### TextChanged (Text field, Date picker)
+Fires when the text input of the control changes.
 
-#### Tapped (Text, Image, Rectangle, Excel Diagram, Text Field, Button, Repeat Button)
-This event is executed when the corresponding control is activated via touch, mouse or similar input.
+#### SelectionChanged (Dropdown list)
+Fires when a new item is selected in the dropdown list.
 
-#### DataRowLoaded (table grid)
-This event is always executed when a new row of a table is loaded.
+#### Checked / Unchecked (Toggle button, Checkbox, Radio button)
+`Checked` fires when the control's state changes from False to True, `Unchecked` when it changes from True to False.
 
-#### CellTapped (table grid)
-This event is executed when a cell within the table is activated via touch, mouse or similar input.
-
-#### TileChanged (Live Tile Box)
-This event is executed when the tile of a Live Tile Box is changed.
-
-#### RightTapped (image)
-This event is executed when a right-click is performed on an image control via touch, mouse or similar input.
-
-#### DoubleTapped (image)
-This event is executed when a double-click is made on an image control via touch, mouse or similar input.
-
-#### TextChanged (text field)
-This event is triggered when the text input in a text field changes.
-
-#### Checked (Toggle Button, Check Box, Radio Button)
-This event is triggered when the state of the control changes from False to True.
-
-#### Unchecked (Toggle Button, Check Box, Radio Button)
-This event is triggered when the state of the control changes from True to False.
-
-#### Toggled
-This event is triggered when the state of the control changes from False to True or from True to False.
-
-#### SelectionChanged (dropdown list)
-This event is triggered when a new item is selected from the drop-down list.
+#### Toggled (Toggle button, Checkbox)
+Fires when the control's state changes in either direction (False → True or True → False).
 
 #### ValueChanged (Slider)
-This event is executed when the value of the slider control changes.
+Fires when the value of the slider changes.
+
+#### DataRowLoaded / CellTapped (Table)
+`DataRowLoaded` fires whenever a new table row is loaded; `CellTapped` fires when a cell within the table is activated via touch, mouse or similar input.
+
+#### ElementDropped (List view, Tile view)
+Fires when an element is dropped within the list or tile view (drag-and-drop reordering).
+
+#### AppointmentTapped / EmptySpaceTapped (Scheduler)
+`AppointmentTapped` fires when an appointment is activated; `EmptySpaceTapped` fires when an empty area of the scheduler is activated.
