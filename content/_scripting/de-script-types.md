@@ -11,6 +11,8 @@ redirect_from:
 
 Peakboard verwendet Lua als Skriptsprache. Jedes Skript ist einem der folgenden Skript-Typen zugeordnet, der bestimmt, *wann* das Skript ausgeführt wird. Im Explorer erscheinen sie als Ordner unter [Scripts].
 
+![Die Skript-Typen unter [Scripts] im Explorer](/assets/images/scripting/types/script-types-01-scripts-tree.png)
+
 ## Timer
 
 Ein Timer-Skript läuft zeitgesteuert – entweder wiederholt in einem gleichbleibenden Rhythmus oder einmalig. Jeder Timer hat ein Intervall (in Millisekunden) und einen Modus:
@@ -20,13 +22,17 @@ Ein Timer-Skript läuft zeitgesteuert – entweder wiederholt in einem gleichble
 * **Manual** – feuert nicht automatisch, sondern wird aus einem Lua-Skript gestartet. Nach dem Start feuert er einmalig nach dem konfigurierten Intervall als Verzögerung.
 * **On schedule** – feuert gemäß einem Zeitplan aus Wochentag und Uhrzeit.
 
+![Ein Timer-Skript mit Modus und Intervall](/assets/images/scripting/types/script-types-02-timer.png)
+
 ## Funktionen
 
 Hier definierst du wiederverwendbare Lua-Funktionen, die aus jedem anderen Skript heraus aufgerufen werden können. Jedes Skript läuft in einem eigenen, isolierten Gültigkeitsbereich – eine in einem Skript definierte Funktion kann also nicht aus einem anderen Skript aufgerufen werden. Gemeinsame Funktionen sind der Mechanismus, um Logik über Timer, Events und Aktivierungsskripte hinweg zu teilen und doppelten Code zu vermeiden.
 
 ## Globale Events
 
-Globale Events gelten für die gesamte Anwendung und reagieren auf Eingaben oder Systemzustände. Das `e`-Objekt im Skript enthält den ereignisspezifischen Kontext.
+Globale Events gelten für die gesamte Anwendung und reagieren auf Eingaben oder Systemzustände. Das `e`-Objekt im Skript enthält den ereignisspezifischen Kontext. Beim Hinzufügen eines globalen Events wählst du dessen Typ aus der folgenden Liste:
+
+![Ein globales Event hinzufügen](/assets/images/scripting/types/script-types-03-global-events.png)
 
 #### Swiped (Up / Down / Left / Right)
 Wird ausgelöst, wenn der Benutzer auf dem Touchscreen in die jeweilige Richtung wischt. Der Wisch-Effekt kann alternativ auch mit der Maus erzeugt werden. Diese Events tragen keine Kontextdaten.
@@ -56,7 +62,11 @@ Dieses Skript wird ausgeführt, nachdem eine Datenquelle einen Aktualisierungszy
 
 ## Für Controls
 
-Hier findest du alle Skripte, die über die [Events]-Funktion eines Controls erstellt wurden. Ein Event ist eine bestimmte Aktion, die ein Control auslösen kann. Die folgende Liste zeigt jedes Control-Event und die Controls, die es unterstützen:
+Hier findest du alle Skripte, die über die [Events]-Funktion eines Controls erstellt wurden. Ein Event ist eine bestimmte Aktion, die ein Control auslösen kann. Ein ausgewähltes Control zeigt seine Events im Eigenschaftenbereich (z.B. [Cell tapped] und [DataRow loaded] einer Tabelle):
+
+![Die Events eines ausgewählten Controls im Eigenschaftenbereich](/assets/images/scripting/types/script-types-04-for-controls.png)
+
+Die folgende Liste zeigt jedes Control-Event und die Controls, die es unterstützen:
 
 #### Tapped (Button, Text, Textfeld, Rechteck, Bild, Icon)
 Wird ausgelöst, wenn das Control über Touch, Maus oder ähnliche Eingabe aktiviert wird.

@@ -11,6 +11,8 @@ redirect_from:
 
 Peakboard uses Lua as its scripting language. Scripts are always attached to one of the following script types, which determine *when* a script runs. They appear as folders under [Scripts] in the explorer.
 
+![The script types under [Scripts] in the explorer](/assets/images/scripting/types/script-types-01-scripts-tree.png)
+
 ## Timer
 
 A timer script runs on a schedule – either repeatedly in a constant rhythm or once. Every timer has an interval (in milliseconds) and a mode:
@@ -20,13 +22,17 @@ A timer script runs on a schedule – either repeatedly in a constant rhythm or 
 * **Manual** – does not fire automatically; it is started from a Lua script. When started, it fires once after the configured interval as a delay.
 * **On schedule** – fires according to a day-of-week and time-of-day schedule.
 
+![A timer script with its mode and interval](/assets/images/scripting/types/script-types-02-timer.png)
+
 ## Functions
 
 Here you define reusable Lua functions that can be called from any other script. Each script runs in its own isolated scope, so a function defined inside one script cannot be called from another – shared functions are the mechanism for sharing logic across timers, events and activation scripts, and for avoiding duplicated code.
 
 ## Global events
 
-Global events apply to the whole application and react to input or system conditions. The `e` object inside the script carries the event-specific context.
+Global events apply to the whole application and react to input or system conditions. The `e` object inside the script carries the event-specific context. When you add a global event you choose its type from the following list:
+
+![Adding a global event](/assets/images/scripting/types/script-types-03-global-events.png)
 
 #### Swiped (Up / Down / Left / Right)
 Fires when the user swipes on the touchscreen in the respective direction. A swipe can alternatively be produced with the mouse. These events carry no context data.
@@ -56,7 +62,11 @@ This script runs after a data source has completed a refresh cycle (the data ele
 
 ## For controls
 
-Here you find all scripts created via the [Events] function of a control. An event is a specific action that a control can trigger. The following list shows every control event and the controls that support it:
+Here you find all scripts created via the [Events] function of a control. An event is a specific action that a control can trigger. A selected control exposes its events in the properties panel (e.g. a table's [Cell tapped] and [DataRow loaded]):
+
+![The events of a selected control in the properties panel](/assets/images/scripting/types/script-types-04-for-controls.png)
+
+The following list shows every control event and the controls that support it:
 
 #### Tapped (Button, Text, Text field, Rectangle, Image, Icon)
 Fires when the control is activated via touch, mouse or similar input.
