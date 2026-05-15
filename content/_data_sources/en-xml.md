@@ -48,5 +48,3 @@ Back in the main dialog, the resolved path is shown in the [Path] field (1) (`./
 ![Load the XML preview](/assets/images/data-sources/xml/xml-05-preview.png)
 
 Click [OK] to create the data source. It then appears in the explorer under [Data] and can be bound to controls (table, chart, list, …) just like any other data source.
-
-![XML data source in the explorer](/assets/images/data-sources/xml/xml-06-explorer.png)

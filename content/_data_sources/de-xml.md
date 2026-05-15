@@ -48,5 +48,3 @@ Zurück in der Hauptmaske steht der ermittelte Pfad im Feld [Pfad] (1) (im Beisp
 ![XML-Vorschau laden](/assets/images/data-sources/xml/xml-05-preview.png)
 
 Mit einem Klick auf [OK] legst du die Datenquelle an. Sie erscheint anschließend im Explorer unter [Daten] und lässt sich wie jede andere Datenquelle mit Controls (Tabelle, Chart, Liste …) verknüpfen.
-
-![XML-Datenquelle im Explorer](/assets/images/data-sources/xml/xml-06-explorer.png)
