@@ -13,16 +13,18 @@ Peakboard uses Lua as its scripting language. Scripts are always attached to one
 
 ![The script types under [Scripts] in the explorer](/assets/images/scripting/types/script-types-01-scripts-tree.png)
 
+From top to bottom these are [Timer] (1), [Functions] (2), [Global events] (3), [On screen activation] (4), [After data reload] (5) and [For controls] (6) – each is described below.
+
 ## Timer
 
-A timer script runs on a schedule – either repeatedly in a constant rhythm or once. Every timer has an interval (in milliseconds) and a mode:
+A timer script has a name (1), a mode (2) and an interval in milliseconds (3). The mode determines how it fires:
 
 * **Endless** – repeats indefinitely at the specified interval.
 * **Once** – fires once after the interval, then stops.
 * **Manual** – does not fire automatically; it is started from a Lua script. When started, it fires once after the configured interval as a delay.
 * **On schedule** – fires according to a day-of-week and time-of-day schedule.
 
-![A timer script with its mode and interval](/assets/images/scripting/types/script-types-02-timer.png)
+![A timer script with its name (1), mode (2) and interval (3)](/assets/images/scripting/types/script-types-02-timer.png)
 
 ## Functions
 
@@ -30,27 +32,26 @@ Here you define reusable Lua functions that can be called from any other script.
 
 ## Global events
 
-Global events apply to the whole application and react to input or system conditions. The `e` object inside the script carries the event-specific context. When you add a global event you choose its type from the following list:
+Global events apply to the whole application and react to input or system conditions. The `e` object inside the script carries the event-specific context. When you add a global event you choose its type from the list, which is grouped into five blocks:
 
 ![Adding a global event](/assets/images/scripting/types/script-types-03-global-events.png)
 
-#### Swiped (Up / Down / Left / Right)
-Fires when the user swipes on the touchscreen in the respective direction. A swipe can alternatively be produced with the mouse. These events carry no context data.
+#### Swipe (1)
+Fires when the user swipes on the touchscreen up, down, left or right. A swipe can alternatively be produced with the mouse. These events carry no context data.
 
-#### Key pressed
-Fires on every single keystroke. `e.key` is the virtual key code, `e.modifier` the modifier key; set `e.handled = true` to suppress further processing. Useful for input from a [Presenter](/misc/en-presenter.html), keyboard or similar device.
+#### Keyboard & screen input (2)
+* **Key pressed** – fires on every single keystroke. `e.key` is the virtual key code, `e.modifier` the modifier key; set `e.handled = true` to suppress further processing. Useful for input from a [Presenter](/misc/en-presenter.html), keyboard or similar device.
+* **Text input** – accumulates all typed characters until Enter/Return is pressed, then fires once with the full text in `e.text`. Ideal for barcode scanners and RFID readers, which send characters followed by Enter. Use `peakboard.clearinput()` to clear the buffer before a scan.
+* **Screen clicked** – fires when the screen itself is clicked or tapped outside any control.
 
-#### Key input
-Accumulates all typed characters until Enter/Return is pressed, then fires once with the full text in `e.text`. Ideal for barcode scanners and RFID readers, which send characters followed by Enter. Use `peakboard.clearinput()` to clear the buffer before a scan.
-
-#### Script error
+#### Script error (3)
 Fires when a Lua script error occurs, so you can react to it centrally.
 
-#### Data source update failed
+#### Reload of data source failed (4)
 Fires when a data source refresh fails. `e.datasourcename` and `e.errormessage` describe what went wrong.
 
-#### Call incoming / Call started / Call ended / VoIP signal received
-VoIP/SIP telephony events. They provide the remote endpoint, caller and – for `VoIP signal received` – the received DTMF signal digit.
+#### Call incoming / started / ended / Dial signal received (5)
+VoIP/SIP telephony events. They provide the remote endpoint, caller and – for the dial signal – the received DTMF signal digit.
 
 ## On screen activation
 
@@ -62,9 +63,9 @@ This script runs after a data source has completed a refresh cycle (the data ele
 
 ## For controls
 
-Here you find all scripts created via the [Events] function of a control. An event is a specific action that a control can trigger. A selected control exposes its events in the properties panel (e.g. a table's [Cell tapped] and [DataRow loaded]):
+Here you find all scripts created via the [Events] function of a control. An event is a specific action that a control can trigger. A selected control (1) exposes its events in the properties panel – e.g. a button's [Tapped] event (2). The [</>] button (3) opens the script editor for that event.
 
-![The events of a selected control in the properties panel](/assets/images/scripting/types/script-types-04-for-controls.png)
+![A selected control (1), its [Tapped] event (2) and the script button (3)](/assets/images/scripting/types/script-types-04-for-controls.png)
 
 The following list shows every control event and the controls that support it:
 

@@ -13,16 +13,18 @@ Peakboard verwendet Lua als Skriptsprache. Jedes Skript ist einem der folgenden 
 
 ![Die Skript-Typen unter [Scripts] im Explorer](/assets/images/scripting/types/script-types-01-scripts-tree.png)
 
+Von oben nach unten sind das [Timer] (1), [Functions] (2), [Global events] (3), [On screen activation] (4), [After data reload] (5) und [For controls] (6) – jeder wird im Folgenden beschrieben.
+
 ## Timer
 
-Ein Timer-Skript läuft zeitgesteuert – entweder wiederholt in einem gleichbleibenden Rhythmus oder einmalig. Jeder Timer hat ein Intervall (in Millisekunden) und einen Modus:
+Ein Timer-Skript hat einen Namen (1), einen Modus (2) und ein Intervall in Millisekunden (3). Der Modus bestimmt, wie es feuert:
 
 * **Endless** – wiederholt sich unbegrenzt im angegebenen Intervall.
 * **Once** – feuert einmal nach Ablauf des Intervalls und stoppt dann.
 * **Manual** – feuert nicht automatisch, sondern wird aus einem Lua-Skript gestartet. Nach dem Start feuert er einmalig nach dem konfigurierten Intervall als Verzögerung.
 * **On schedule** – feuert gemäß einem Zeitplan aus Wochentag und Uhrzeit.
 
-![Ein Timer-Skript mit Modus und Intervall](/assets/images/scripting/types/script-types-02-timer.png)
+![Ein Timer-Skript mit Name (1), Modus (2) und Intervall (3)](/assets/images/scripting/types/script-types-02-timer.png)
 
 ## Funktionen
 
@@ -30,27 +32,26 @@ Hier definierst du wiederverwendbare Lua-Funktionen, die aus jedem anderen Skrip
 
 ## Globale Events
 
-Globale Events gelten für die gesamte Anwendung und reagieren auf Eingaben oder Systemzustände. Das `e`-Objekt im Skript enthält den ereignisspezifischen Kontext. Beim Hinzufügen eines globalen Events wählst du dessen Typ aus der folgenden Liste:
+Globale Events gelten für die gesamte Anwendung und reagieren auf Eingaben oder Systemzustände. Das `e`-Objekt im Skript enthält den ereignisspezifischen Kontext. Beim Hinzufügen eines globalen Events wählst du dessen Typ aus der Liste, die in fünf Blöcke gegliedert ist:
 
 ![Ein globales Event hinzufügen](/assets/images/scripting/types/script-types-03-global-events.png)
 
-#### Swiped (Up / Down / Left / Right)
-Wird ausgelöst, wenn der Benutzer auf dem Touchscreen in die jeweilige Richtung wischt. Der Wisch-Effekt kann alternativ auch mit der Maus erzeugt werden. Diese Events tragen keine Kontextdaten.
+#### Swipe (1)
+Wird ausgelöst, wenn der Benutzer auf dem Touchscreen nach oben, unten, links oder rechts wischt. Der Wisch-Effekt kann alternativ auch mit der Maus erzeugt werden. Diese Events tragen keine Kontextdaten.
 
-#### Key pressed
-Wird bei jedem einzelnen Tastendruck ausgelöst. `e.key` ist der virtuelle Tastencode, `e.modifier` die Modifier-Taste; mit `e.handled = true` unterbindest du die weitere Verarbeitung. Nützlich für Eingaben über einen [Presenter](/misc/de-presenter.html), eine Tastatur oder ein ähnliches Gerät.
+#### Tastatur- & Bildschirmeingabe (2)
+* **Key pressed** – wird bei jedem einzelnen Tastendruck ausgelöst. `e.key` ist der virtuelle Tastencode, `e.modifier` die Modifier-Taste; mit `e.handled = true` unterbindest du die weitere Verarbeitung. Nützlich für Eingaben über einen [Presenter](/misc/de-presenter.html), eine Tastatur oder ein ähnliches Gerät.
+* **Text input** – sammelt alle eingegebenen Zeichen, bis Enter/Return gedrückt wird, und feuert dann einmalig mit dem vollständigen Text in `e.text`. Ideal für Barcode-Scanner und RFID-Leser, die Zeichen gefolgt von Enter senden. Mit `peakboard.clearinput()` leerst du den Puffer vor einem Scan.
+* **Screen clicked** – wird ausgelöst, wenn der Screen selbst außerhalb eines Controls geklickt oder getippt wird.
 
-#### Key input
-Sammelt alle eingegebenen Zeichen, bis Enter/Return gedrückt wird, und feuert dann einmalig mit dem vollständigen Text in `e.text`. Ideal für Barcode-Scanner und RFID-Leser, die Zeichen gefolgt von Enter senden. Mit `peakboard.clearinput()` leerst du den Puffer vor einem Scan.
-
-#### Script error
+#### Script error (3)
 Wird ausgelöst, wenn ein Lua-Skriptfehler auftritt, sodass du zentral darauf reagieren kannst.
 
-#### Data source update failed
+#### Reload of data source failed (4)
 Wird ausgelöst, wenn die Aktualisierung einer Datenquelle fehlschlägt. `e.datasourcename` und `e.errormessage` beschreiben den Fehler.
 
-#### Call incoming / Call started / Call ended / VoIP signal received
-VoIP/SIP-Telefonie-Events. Sie liefern den Remote-Endpunkt, den Anrufer und – bei `VoIP signal received` – das empfangene DTMF-Signal.
+#### Call incoming / started / ended / Dial signal received (5)
+VoIP/SIP-Telefonie-Events. Sie liefern den Remote-Endpunkt, den Anrufer und – beim Dial-Signal – das empfangene DTMF-Signal.
 
 ## Bei Bildschirmaktivierung
 
@@ -62,9 +63,9 @@ Dieses Skript wird ausgeführt, nachdem eine Datenquelle einen Aktualisierungszy
 
 ## Für Controls
 
-Hier findest du alle Skripte, die über die [Events]-Funktion eines Controls erstellt wurden. Ein Event ist eine bestimmte Aktion, die ein Control auslösen kann. Ein ausgewähltes Control zeigt seine Events im Eigenschaftenbereich (z.B. [Cell tapped] und [DataRow loaded] einer Tabelle):
+Hier findest du alle Skripte, die über die [Events]-Funktion eines Controls erstellt wurden. Ein Event ist eine bestimmte Aktion, die ein Control auslösen kann. Ein ausgewähltes Control (1) zeigt seine Events im Eigenschaftenbereich – z.B. das [Tapped]-Event (2) eines Buttons. Über den [</>]-Button (3) öffnest du den Skript-Editor für dieses Event.
 
-![Die Events eines ausgewählten Controls im Eigenschaftenbereich](/assets/images/scripting/types/script-types-04-for-controls.png)
+![Ein ausgewähltes Control (1), sein [Tapped]-Event (2) und der Skript-Button (3)](/assets/images/scripting/types/script-types-04-for-controls.png)
 
 Die folgende Liste zeigt jedes Control-Event und die Controls, die es unterstützen:
 
