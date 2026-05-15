@@ -22,8 +22,8 @@ Flows can be used with any pull data source that supports a reload interval. Eve
 
 {% include styled_table.html %}
 {: .w-full }
-| Trigger     | Decides *when* the flow runs. Three triggers are available today: **Periodic (sec)** for a fixed interval in seconds, **Schedule** for a weekday/time schedule, and **After data reload**, which fires the flow as soon as a specific data source has finished reloading. |
-| Step        | A unit of work executed by the flow. The **Reload** step reloads any data source or dataflow. The **Function** step lets you create your own Lua function and run it directly inside the flow — for example to compute values, prepare data, or trigger follow-up actions. Steps run sequentially in the order shown. |
+| Trigger     | Decides *when* the flow runs. Four triggers are available today: **Periodic (sec)** for a fixed interval in seconds, **Schedule** for a weekday/time schedule, **After data reload**, which fires the flow as soon as a specific data source has finished reloading, and **After function execute**, which fires the flow as soon as a specific function has run. |
+| Step        | A unit of work executed by the flow. The **Reload** step reloads any data source or dataflow. The **Run function** step executes a Lua function you created beforehand in the package explorer — for example to compute values, prepare data, or trigger follow-up actions. Steps run sequentially in the order shown. |
 | Failure function | An optional Lua function that runs when a step fails. Useful for logging, alerting, or running compensating actions. |
 
 <div class="box-tip" markdown="1">**Note**
@@ -67,6 +67,16 @@ Before a flow can reload a data source, only the [Enabled] checkbox (1) in the *
 The mode selected under [Reload state] (2) and the [Interval (in s)] field (3) only control the data source's *own* independent reloading. When it is reloaded by a flow, the flow trigger overrides that interval — a periodic schedule set here has no effect. In practice it is therefore enough to set [Reload state] to **Manual** and leave all timing to the flow.
 
 ![Reload options of a data source](/assets/images/data-sources/reload-flows/reloadflows-04-datasource-reload-section.png)
+
+### Running functions in a flow
+
+Besides data sources, a flow can also execute your own **functions**. The function has to be created first in the package explorer under [Scripts] › [Functions] (1) — only then is it available in the flow.
+
+![Create a function in the package explorer](/assets/images/data-sources/reload-flows/reloadflows-05-function-in-explorer.png)
+
+Then, in the flow editor, drag the **Run function** step (2) from the right-hand step picker into the **Steps** section and pick the function from the dropdown (1). In addition, the **After function execute** trigger (3) is available to start a flow as soon as a specific function has run.
+
+![Run function step in the flow](/assets/images/data-sources/reload-flows/reloadflows-06-run-function-step.png)
 
 ### Editing or deleting existing flows
 

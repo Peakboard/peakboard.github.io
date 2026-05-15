@@ -22,8 +22,8 @@ Flows können für alle Pull-Datenquellen genutzt werden, für die ein Reload-In
 
 {% include styled_table.html %}
 {: .w-full }
-| Trigger     | Bestimmt, wann der Flow ausgeführt wird. Aktuell stehen drei Trigger zur Verfügung: **Periodic (sec)** für ein festes Sekunden­intervall, **Schedule** für eine Zeitplanung mit Wochentagen und Uhrzeiten und **After data reload**, der einen Flow startet, sobald eine bestimmte Datenquelle neu geladen wurde. |
-| Step        | Ein Arbeitsschritt, der vom Flow ausgeführt wird. Der Step **Reload** lädt beliebige Datenquellen oder Dataflows nach. Mit dem Step **Function** legst du eine eigene Lua-Funktion an und führst sie direkt im Flow aus – z.B. um Werte zu berechnen, Daten aufzubereiten oder Folgeaktionen anzustoßen. Steps werden in der gewählten Reihenfolge nacheinander abgearbeitet. |
+| Trigger     | Bestimmt, wann der Flow ausgeführt wird. Aktuell stehen vier Trigger zur Verfügung: **Periodic (sec)** für ein festes Sekunden­intervall, **Schedule** für eine Zeitplanung mit Wochentagen und Uhrzeiten, **After data reload**, der einen Flow startet, sobald eine bestimmte Datenquelle neu geladen wurde, und **After function execute**, der den Flow startet, sobald eine bestimmte Funktion ausgeführt wurde. |
+| Step        | Ein Arbeitsschritt, der vom Flow ausgeführt wird. Der Step **Reload** lädt beliebige Datenquellen oder Dataflows nach. Der Step **Run function** führt eine zuvor im Paketexplorer angelegte Lua-Funktion aus – z.B. um Werte zu berechnen, Daten aufzubereiten oder Folgeaktionen anzustoßen. Steps werden in der gewählten Reihenfolge nacheinander abgearbeitet. |
 | Failure function | Eine optionale Lua-Funktion, die ausgeführt wird, wenn ein Step im Flow fehlschlägt. So lassen sich z.B. Logmeldungen oder Benachrichtigungen umsetzen. |
 
 <div class="box-tip" markdown="1">**Hinweis**
@@ -67,6 +67,16 @@ Damit eine Datenquelle von einem Flow nachgeladen werden kann, muss im Bereich *
 Der unter [Reload state] (2) gewählte Modus und das Feld [Interval (in s)] (3) steuern nur das *eigenständige* Nachladen der Datenquelle. Wird sie über einen Flow nachgeladen, übersteuert der Flow-Trigger dieses Intervall – eine hier eingestellte Periodik ist dann wirkungslos. In der Praxis genügt es daher, [Reload state] auf **Manual** zu stellen und das Timing vollständig dem Flow zu überlassen.
 
 ![Reload-Optionen einer Datenquelle](/assets/images/data-sources/reload-flows/reloadflows-04-datasource-reload-section.png)
+
+### Funktionen im Flow ausführen
+
+Neben Datenquellen kann ein Flow auch eigene **Funktionen** ausführen. Die Funktion muss dafür zuerst im Paketexplorer unter [Scripts] › [Functions] angelegt werden (1) – erst dann steht sie im Flow zur Verfügung.
+
+![Funktion im Paketexplorer anlegen](/assets/images/data-sources/reload-flows/reloadflows-05-function-in-explorer.png)
+
+Anschließend ziehst du im Flow-Editor den Step **Run function** (2) aus dem rechten Step-Picker in den Bereich **Steps** und wählst im Drop-Down die gewünschte Funktion aus (1). Zusätzlich steht der Trigger **After function execute** (3) zur Verfügung, mit dem du einen Flow startest, sobald eine bestimmte Funktion ausgeführt wurde.
+
+![Run-function-Step im Flow](/assets/images/data-sources/reload-flows/reloadflows-06-run-function-step.png)
 
 ### Bestehende Flows bearbeiten oder löschen
 
