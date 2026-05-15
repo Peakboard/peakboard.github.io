@@ -2,7 +2,7 @@
 layout: article
 title: Shared Connections
 menu_title: Shared Connections
-description: How to set up shared connections.
+description: How to set up, manage and exchange shared connections in the Peakboard Designer.
 lang: en
 weight: 20
 ref: dat-20
@@ -11,53 +11,61 @@ redirect_from:
  - /misc/en-shared-connection.html
 ---
 
-If several data sources of a visualization refer to the same source system, it can be useful to enter the access data for them only once.
-Peakboard offers this option for a variety of source systems, including SAP or Excel.  
+If several data sources of a visualization refer to the same source system, it makes sense to store the access data only once.
+Peakboard offers this option for a variety of source systems, including SAP, SQL Server or Excel.
 
 An example: In a visualization, SAP inventory data from a table and open transport requests from a function module are displayed.
-Both data originate from the same SAP system. With shared connections, access data such as user name, password or SAP server are only stored once and not individually for each data source.  
+Both originate from the same SAP system. With a shared connection, access data such as user, password or SAP server is stored only once instead of being entered again for every data source.
 
-### SPLIT CONNECTIONS
+## Sharing connections
 
-Create the first connection of your visualization project as usual.
-For the second connection with the same connection details, click on [Reuse existing connection] in the lower part of the dialog.
-A dropdown opens that shows the potential existing connections. You can now copy the connection details directly into the dialog.
+Create the first data source of your project as usual and enter the connection data.
+Then create the second data source of the same type.
+Instead of entering the connection data again, click [Reuse existing connection] (3) in the lower left of the dialog.
+A list of the existing connections of this type opens.
+Pick the connection you need – the connection data (2) is copied directly into the dialog, and you only have to name the data source (1) and define the query.
 
-![shared-connection-01](/assets/images/misc/shared-connection/shared-connection-01.png)
+![Reuse an existing connection in a data source](/assets/images/misc/shared-connection/shared-connection-01.png)
 
-### MANAGE SHARED CONNECTIONS  
+## Managing shared connections
 
-Via [Settings] and [Connection Manager] you get to a dialog that contains an overview of all shared connections.
-When you start this dialog for the first time, enter a password to protect your private shared connections.
-On the left you see a list of all shared connections.
-Clicking on it, all details of the connection will appear in the right pane, as well as a list of data sources linked to this shared connection in the current project.
+Open the Connection Manager via the [Project settings] button in the toolbar and the [Connections] entry.
+It gives you an overview of all connections and groups them into three areas:
+
+- **Used in current application** (1): all connections that are used by data sources in the current project.
+- **Personal connections** (2): connections stored locally on your computer and available in all projects.
+- **Peakboard Hub connections** (3): connections stored centrally in the Peakboard Hub and therefore available to the whole team.
+
+Use the [Import] button and the […] menu (4) to import and export connections.
+
+![Connection Manager with the three connection areas](/assets/images/misc/shared-connection/shared-connection-02.png)
+
+## Viewing connection details
+
+Click a connection in the list on the left (1) and all details appear on the right under [Connection options] (2).
+Below that, [Data sources using this connection] (3) lists all data sources of the current project that use this connection, and [Resources using this connection] (4) shows the related resources.
 We recommend giving each connection a descriptive name.
 
-![shared-connection-02](/assets/images/misc/shared-connection/shared-connection-02.png)
+![Details of a selected connection](/assets/images/misc/shared-connection/shared-connection-03.png)
 
-### PRIVATE SHARED CONNECTIONS  
+### Personal connections
 
-With the private shared connections you store access data beyond the current visualization on the local computer, so that you do not have to enter them again for new projects.
-To turn a regular shared connection into a private shared connection, click [Save to personal connections].
-
-![shared-connection-03](/assets/images/misc/shared-connection/shared-connection-03.png)
-
-The connection is then available for all new projects.
-It can be retrieved in the respective data source dialogs via [Reuse existing connection].  
+With personal connections (the **Personal connections** area) you store access data beyond the current project on the local computer, so that you do not have to enter it again for new projects.
+A personal connection is available in all new projects and can be retrieved in the respective data source dialogs via [Reuse existing connection].
 
 <div class="box-warning" markdown="1">
 **Attention!**
 
-Protect your private shared connections with a password when storing them on the local computer.
-To prevent misuse, this password must be entered every time you start the Peakboard Designer.  
+As soon as personal connections are stored on the local computer, they are encrypted with a password.
+To prevent misuse, this password has to be entered every time you start the Peakboard Designer.
 </div>
 
-### EXPORT AND IMPORT SHARED CONNECTIONS  
+## Exporting and importing connections
 
-Both types of shared connections can be exported to a file to be re-imported to a target environment, such as a work colleague's computer.
-To export connections, click on [...] under [Connection manager] and then on [Export connections].
-A dialog opens where you can select the destination file, the connections to export and a password to encrypt the data.
-A click on [Export] creates the file.
-Arrived in the target environment, you import the split connections with a click on [Import].  
+Connections can be exported to a file in order to import them again in a target environment, such as a colleague's computer.
+In the Connection Manager, click the […] menu and then [Export connections…].
+In the following dialog you select the destination file (1), set a password to encrypt the data (2) and tick the connections you want to export (3).
+A click on [Export] (4) creates the file.
+In the target environment you then import the connections with a click on [Import].
 
-![shared-connection-04](/assets/images/misc/shared-connection/shared-connection-04.png)
+![Export connections to a file](/assets/images/misc/shared-connection/shared-connection-04.png)
