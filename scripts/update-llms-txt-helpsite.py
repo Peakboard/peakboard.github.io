@@ -32,7 +32,7 @@ SITE_BASE = "https://help.peakboard.com"
 MARKER_START = "<!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->"
 MARKER_END = "<!-- AUTOGEN:END -->"
 
-# Paths that are NOT documentation pages and should be skipped.
+# Paths/path-substrings that are NOT documentation pages and should be skipped.
 # Add patterns here if the sitemap contains login pages, search results, etc.
 SKIP_PATTERNS = (
     "/sitemap",
@@ -44,6 +44,15 @@ SKIP_PATTERNS = (
     "/impressum",
     "/datenschutz",
     "/cookie",
+    "/claude.html",  # internal/test page, not part of public documentation
+)
+
+# Substrings in the filename that indicate index/landing pages, not real
+# documentation. These get filtered separately because they're never useful
+# to link to directly — users should reach those via the navigation, not
+# via a flat URL inventory.
+SKIP_FILENAME_SUFFIXES = (
+    "-index.html",  # e.g. /administration/en-index.html
 )
 
 
@@ -70,17 +79,37 @@ def parse_urls(xml_text: str):
         if loc_elem is None or loc_elem.text is None:
             continue
         url = loc_elem.text.strip()
+        # Normalize http→https so we always emit https URLs even if the
+        # sitemap is still on http (legacy configuration).
+        if url.startswith("http://"):
+            url = "https://" + url[len("http://"):]
         if not url.startswith(SITE_BASE):
             continue
         path = url[len(SITE_BASE):]
-        # Skip meta pages
+        # Skip meta pages and section index pages (privacy, search, sitemap,
+        # bare folder listings like /administration/, the homepage, etc.)
         lower_path = path.lower()
         if any(p in lower_path for p in SKIP_PATTERNS):
             continue
-        # English pages live under /en/
-        if path.startswith("/en/"):
+        if not path.endswith(".html"):
+            continue
+        # Skip section index / landing pages
+        if any(path.lower().endswith(s) for s in SKIP_FILENAME_SUFFIXES):
+            continue
+        # English vs German: determined primarily by the FILENAME prefix
+        # ("en-", "en_", "de-", "de_"), not the folder — both languages live
+        # in the same folders. As a secondary signal, anything in /en/ is
+        # treated as English.
+        fname = path.rsplit("/", 1)[-1].lower()
+        if fname.startswith("en-") or fname.startswith("en_"):
+            english.append((path, url))
+        elif fname.startswith("de-") or fname.startswith("de_"):
+            german.append((path, url))
+        elif path.startswith("/en/"):
             english.append((path, url))
         else:
+            # Pages without any language indicator (e.g. /designer.html) —
+            # bucket as German default, since German is the primary language.
             german.append((path, url))
 
     german.sort(key=lambda p: p[0])
