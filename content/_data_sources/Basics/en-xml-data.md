@@ -68,10 +68,12 @@ To turn the table into a finished dashboard, use [Edit table columns] (2) to ref
 
 Click [Edit table columns] to open the column dialog. Every column of the data source is listed there:
 
-* **Caption** – give the columns better, readable names, e.g. "Album" instead of `TITLE`.
-* **Width** – "Fill" stretches a column; switch most columns to "Cut" so they only take up as much space as their widest value needs.
-* **Alignment** – set the horizontal alignment, e.g. "Center" for short values.
+* **Caption (1)** – give the columns better, readable names, e.g. "Album" instead of `TITLE`.
+* **Width (2)** – "Fill" stretches a column; switch most columns to "Cut" so they only take up as much space as their widest value needs.
+* **Alignment (3)** – set the horizontal alignment, e.g. "Center" for short values.
 
 You can also adjust [Format] and [Specific font] per column, and reorder columns via drag and drop. Confirm with [OK].
+
+![The Edit table columns dialog](/assets/images/data-sources/xml-data/xml-data-07-edit-columns.png)
 
 Back on the workspace you can fine-tune the look of the table in the [Appearance] section (header and body font, background color, border, cell padding, …). When everything fits, click [Preview] to run the application: the table is filled dynamically and refreshed automatically according to the reload interval of the data source.

@@ -68,10 +68,12 @@ Um aus der Tabelle ein fertiges Dashboard zu machen, verfeinerst du die Spalten 
 
 Klicke auf [Edit table columns], um den Spalten-Dialog zu öffnen. Dort sind alle Spalten der Datenquelle gelistet:
 
-* **Caption** – vergib bessere, sprechende Namen für die Spalten, z.B. „Album" statt `TITLE`.
-* **Width** – „Fill" streckt eine Spalte; stelle die meisten Spalten auf „Cut", damit sie nur so breit werden wie ihr breitester Wert.
-* **Alignment** – lege die horizontale Ausrichtung fest, z.B. „Center" für kurze Werte.
+* **Caption (1)** – vergib bessere, sprechende Namen für die Spalten, z.B. „Album" statt `TITLE`.
+* **Width (2)** – „Fill" streckt eine Spalte; stelle die meisten Spalten auf „Cut", damit sie nur so breit werden wie ihr breitester Wert.
+* **Alignment (3)** – lege die horizontale Ausrichtung fest, z.B. „Center" für kurze Werte.
 
 Zusätzlich kannst du je Spalte [Format] und [Specific font] anpassen sowie die Reihenfolge per Drag-and-drop ändern. Bestätige mit [OK].
+
+![Der Dialog „Edit table columns"](/assets/images/data-sources/xml-data/xml-data-07-edit-columns.png)
 
 Zurück auf der Arbeitsfläche kannst du das Aussehen der Tabelle im Bereich [Appearance] feinjustieren (Schriftart für Header und Body, Hintergrundfarbe, Rahmen, Zellenabstand …). Wenn alles passt, klickst du auf [Preview], um die Anwendung zu starten: Die Tabelle wird dynamisch gefüllt und gemäß dem Reload-Intervall der Datenquelle automatisch aktualisiert.
