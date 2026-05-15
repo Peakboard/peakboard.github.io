@@ -2,14 +2,14 @@
 layout: article
 title: Calendar
 menu_title: Calendar
-description: Informationen zum Calendar-Control (Scheduler) im Peakboard Designer
+description: Informationen zum Calendar-Control im Peakboard Designer
 lang: de
 weight: 805
 ref: con-805
 redirect_from:
 ---
 
-Das Calendar-Control (intern auch *Scheduler* genannt) zeigt Termine und Ereignisse in einer klassischen Kalender-Ansicht an. Es eignet sich für Schichtpläne, Meetingübersichten, Wartungstermine oder jede Art von zeitlich verorteten Datensätzen mit Anfangs- und Endzeitpunkt. Du kannst zwischen Tages-, Wochen-, Arbeitswochen- und Monatsansicht wechseln.
+Das Calendar-Control zeigt Termine und Ereignisse in einer klassischen Kalender-Ansicht an. Es eignet sich für Schichtpläne, Meetingübersichten, Wartungstermine oder jede Art von zeitlich verorteten Datensätzen mit Anfangs- und Endzeitpunkt. Du kannst zwischen Tages-, Wochen-, Arbeitswochen- und Monatsansicht wechseln.
 
 ## Calendar hinzufügen
 

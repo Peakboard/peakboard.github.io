@@ -2,14 +2,14 @@
 layout: article
 title: Calendar
 menu_title: Calendar
-description: Information about the Calendar (Scheduler) control in Peakboard Designer
+description: Information about the Calendar control in Peakboard Designer
 lang: en
 weight: 805
 ref: con-805
 redirect_from:
 ---
 
-The Calendar control (also referred to internally as *Scheduler*) displays appointments and events in a classic calendar layout. It is well-suited for shift plans, meeting overviews, maintenance schedules, or any time-anchored data set with a start and end time. You can switch between day, week, working-week, and month views.
+The Calendar control displays appointments and events in a classic calendar layout. It is well-suited for shift plans, meeting overviews, maintenance schedules, or any time-anchored data set with a start and end time. You can switch between day, week, working-week, and month views.
 
 ## Add the Calendar
 
