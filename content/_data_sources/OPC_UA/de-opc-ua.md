@@ -2,7 +2,7 @@
 layout: article
 title: OPC UA
 menu_title: OPC UA
-description: Information über OPC UA Daten in Peakboard
+description: Peakboard mit einem OPC UA Server verbinden, Client-Zertifikate verwalten und Knoten abonnieren
 lang: de
 weight: 1900
 ref: dat-1900
@@ -12,99 +12,95 @@ redirect_from:
  - /data_sources/OPCUA/de-opc-ua.html
 ---
 
-![image_1](/assets/images/data-sources/opc-ua/data-source-opc-ua-01.png)
+OPC UA (Open Platform Communications Unified Architecture) ist das Standardprotokoll für die Maschine-zu-Maschine-Kommunikation in der industriellen Automatisierung und wird von der [OPC Foundation](https://opcfoundation.org) gepflegt. Mit der OPC UA Datenquelle verbindest du Peakboard mit einem OPC UA Server, sicherst die Verbindung über Zertifikate und abonnierst die Knoten, die du visualisieren möchtest.
 
-Wie jede andere Peakboard-Datenquelle benötigt auch die OPC UA-Datenquelle einen Namen (1).
+## Datenquelle hinzufügen
 
-Ein [Client-Zertifikat] (2) ist erforderlich. Dieses Zertifikat wird als Ganzes (öffentlicher + privater Schlüssel) auf der Client-Seite gespeichert. Anschließend muss der Teil mit dem öffentlichen Schlüssel an den Server übertragen und als vertrauenswürdiges Zertifikat gespeichert werden (einzige Ausnahme: der Endpunkt "none:none:?" wird verwendet).
+Wähle im Explorer den Knoten [Data] aus und klicke auf [Add data source]. Wähle im Dialog **OPC UA** (1).
 
-![image_2](/assets/images/data-sources/opc-ua/data-source-opc-ua-02.png)
+![Dialog Datenquelle hinzufügen mit ausgewähltem OPC UA](/assets/images/data-sources/opc-ua/opc-ua-01-add-data-source.png)
 
-* (1 blau): Wählen Sie einen Zertifikatspeicher. Für ein Client-Zertifikat muss der Speicher [Mein] verwendet werden. Dieser sollte beim Öffnen des Client-Zertifikatsdialogs als Standard eingestellt sein.
-* (2 blau): [Importieren] Sie ein Zertifikat (sollte eine .pfx, .p12, .p7b Datei sein) oder erstellen Sie ein neues Zertifikat (siehe 2. b.)
-* (3 blau): Exportieren Sie das Zertifikat mit der Aktion [exportieren] als .crt-Datei (öffnen Sie das Menü mit dem kleinen Dreieck). Zur Ansicht des Zertifikats oder für spezielle Aktionen öffnen Sie das Zertifikat im Windows-Zertifikatsbetrachter mit der Aktion [öffnen].
-* (4 blau): [Wählen] Sie das Zertifikat aus oder [Abbrechen], wenn Sie Ihre Auswahl verwerfen möchten (hinzugefügte Zertifikate werden durch Klicken auf [Abbrechen] nicht gelöscht)
+## Verbindung konfigurieren
 
-![image_3](/assets/images/data-sources/opc-ua/data-source-opc-ua-03.png)
+Im Dialog [Add OPC UA data] gibst du alles ein, was für den Zugriff auf den Server nötig ist.
 
-### Neues Zertifikat erstellen
+![OPC UA Konfigurationsdialog](/assets/images/data-sources/opc-ua/opc-ua-02-configuration.png)
 
-* Fügen Sie alle erforderlichen Informationen in den oberen Eingabeblock ein. Ändern Sie notwendige Informationen im unteren Eingabeblock. Meistens müssen hier keine Änderungen vorgenommen werden.
+* **Data source name** (1): Wie jede andere Datenquelle benötigt auch die OPC UA Datenquelle einen Namen. Über diesen Namen wird in der Peakboard-Anwendung auf die Daten zugegriffen.
+* **Load client certificate** (2): Ein Client-Zertifikat ist erforderlich (einzige Ausnahme: der *none / none* Endpunkt). Das Zertifikat wird als Ganzes (öffentlicher + privater Schlüssel) auf der Client-Seite gespeichert. Der öffentliche Teil muss anschließend auf den Server übertragen und dort als vertrauenswürdiges Zertifikat hinterlegt werden.
+* **Server URL** (3): Die Adresse des OPC UA Servers in der Form `opc.tcp://<host>.<domain>:<port>[/<path>]`. Über das Papierkorb-Symbol leerst du das Feld, über das `{ }`-Symbol kann die URL per Skript gesetzt werden. Eine per Skript gesetzte URL wird nur einmal ausgewertet, nämlich beim Verbindungsaufbau zum Server beim Start.
+* **Endpoint** (4): Über das Aktualisieren-Symbol lädst du die vom Server angebotenen Endpunkte. Wird ein Zertifikats-Popup angezeigt, akzeptiere das Server-Zertifikat. Die Endpunkte unterscheiden sich durch ihre Verschlüsselungs- und Signierstufen und Algorithmen. Aktiviere vorab die Checkbox [Trust All], um die Server-Zertifikatsabfragen zu überspringen.
+* **Authentication** (5): Optional authentifizierst du den OPC UA Benutzer gegenüber dem Server (Anonymous, UserName oder Certificate). Diese Benutzerauthentifizierung ist unabhängig von den Client-/Server-Zertifikaten, die Client und Server gegeneinander authentifizieren.
+* **Connect** (6): Teste die Verbindung. Funktioniert sie, sind alle eingegebenen Informationen gültig. Ist bereits eine Verbindung an anderer Stelle hinterlegt (Personal / Peakboard Hub / Anwendung), kann sie über [Reuse existing connection] wiederverwendet werden — Zertifikate müssen trotzdem erstellt und akzeptiert werden.
+* **Communication type** (7): siehe [Kommunikationsart wählen](#kommunikationsart-wählen) weiter unten.
 
-Fügen Sie die URL zum OPC UA Server ein (3). Sollte wie folgt aussehen ( *opc.tcp://<host>.<domain>:<port>[/<path>]* )
-Die Server-URL kann über die Schaltfläche [{ }] in einem Skript eingegeben werden.
+## Client-Zertifikat verwalten
 
-<div class="box-tip" markdown="1">
-Note:
+Ein Klick auf [Load client certificate] öffnet den Dialog [Manage Certificates].
 
-Dieses Skript wird nur einmal ausgeführt, nämlich beim Verbindungsaufbau zum Server beim Start!
-</div>
+![Dialog Zertifikate verwalten](/assets/images/data-sources/opc-ua/opc-ua-03-manage-certificates.png)
 
-Laden Sie die Endpunkte des Servers über die Schaltfläche [Aktualisieren] rechts neben der Endpunktauswahl (4).
-Wenn ein Zertifikats-Popup angezeigt wird, akzeptieren Sie das Server-Zertifikat.
-Wählen Sie anschließend den Endpunkt Ihrer Wahl.
-Die Endpunkte unterscheiden sich durch ihre Verschlüsselungs- und Signierstufen und Algorithmen.
+* **Certificate usage** (1): Wähle den Verwendungsbereich. Für ein OPC UA Client-Zertifikat wählst du **OPC UA**.
+* **Zertifikatspeicher** (2): Wechsle zwischen [My certificates], [Root], [Trusted people] und [Untrusted]. Ein Client-Zertifikat muss im Speicher [My certificates] liegen.
+* **Import / Create** (3): Mit [Import] importierst du ein vorhandenes Zertifikat (`.pfx`-, `.p12`- oder `.p7b`-Datei), mit [Create] erstellst du ein neues (siehe unten). Zum Exportieren oder Ansehen verwendest du die Aktionen am Zertifikatseintrag — [export] schreibt eine `.crt`-Datei, [open] öffnet es im Windows-Zertifikatsbetrachter.
+* **Select / Cancel** (4): Mit [Select] übernimmst du das markierte Zertifikat, mit [Cancel] verwirfst du die Auswahl. Hinzugefügte Zertifikate werden durch [Cancel] nicht gelöscht. Mit [Esc] hebst du die aktuelle Auswahl auf.
 
-Falls gewünscht, verwenden Sie eine Authentifizierungsmethode (Benutzername, Zertifikat) (5).
-Die OPC-UA-Authentifizierung wird verwendet, um den OPC-UA-Benutzer gegenüber dem Server zu authentifizieren.
+## Neues Zertifikat erstellen
 
-<div class="box-tip" markdown="1">
-Hinweis:
+[Create] öffnet den Dialog [New OPC UA client certificate].
 
-Client- und Server-Zertifikat werden verwendet, um den Client und den Server gegeneinander zu authentifizieren und unterscheiden sich somit von der Benutzerauthentifizierung.
-</div>
+![Dialog Neues OPC UA Client-Zertifikat](/assets/images/data-sources/opc-ua/opc-ua-04-new-certificate.png)
 
-[Verbinden] mit dem Server (6). Wenn die Verbindung funktioniert, sind alle eingegebenen Informationen gültig.
+* Fülle die Zertifikatsangaben aus (1). Der obere Block (Common name, Organization, …) beschreibt den Zertifikatsinhaber; Gültigkeit, RSA-Schlüsselstärke und Signaturalgorithmus sind mit sinnvollen Standardwerten vorbelegt und müssen meist nicht geändert werden. Optional ergänzt du IP-Adressen und Domainnamen, für die das Zertifikat gültig sein soll.
+* Klicke auf [Create] (2), um das Zertifikat zu erzeugen. Es steht danach im Speicher [My certificates] zur Auswahl bereit.
 
-Ist bereits eine OPC UA Verbindung hinterlegt (Personal/Hub/Visualisierung), kann diese mit dieser Schaltfläche verwendet werden.
+## Mit dem Server verbinden
 
-<div class="box-tip" markdown="1">
-Note:
+Trage die [Server URL] ein (3 im Konfigurationsdialog), aktiviere die Checkbox [Trust All], falls du die Server-Zertifikatsabfragen nicht manuell behandeln möchtest, und lade über das Aktualisieren-Symbol (4) die Endpunkte. Wähle den gewünschten Endpunkt, lege bei Bedarf eine [Authentication]-Methode (5) fest und klicke auf [Connect] (6). Eine Bestätigungsmeldung zeigt eine erfolgreiche Verbindung an.
 
-Zertifikate müssen noch erstellt und akzeptiert werden (um das Serverzertifikat zu akzeptieren, laden Sie es neu und wechseln Sie den Endpunkt).
-</div>
+## Kommunikationsart wählen und Abonnements verwalten
 
-### OPC UA Data Handling
+Sobald die Verbindung steht, ersetzt der Button **Disconnect** (1) den Button [Connect]. Die Optionen zur Datenverarbeitung findest du in den Bereichen **Specify details** und **Subscriptions**.
 
-![image_4](/assets/images/data-sources/opc-ua/data-source-opc-ua-04.png)
+![OPC UA Datenverarbeitung nach dem Verbinden](/assets/images/data-sources/opc-ua/opc-ua-05-data-handling.png)
 
-### Wähle die Kommunikationsart der Datenquelle
+* **Communication type** (2):
+  * **Subscription**: Der von OPC UA definierte Abonnementmechanismus. Das ist die empfohlene Option, sofern der Server sie unterstützt. Über [Edit settings] passt du abonnementspezifische Optionen an — ändere diese nur, wenn du weißt, was du tust.
+  * **Variables**: Knotenwerte werden nach einem festen [Reload Interval] abgerufen. Es können nur variable Knoten verwendet werden; Objekte und ihre Ereignisse stehen nicht zur Verfügung.
+* **Message type** (3): Bestimmt, wie Wertaktualisierungen gespeichert werden. *Simple* behält die letzte Nachricht pro Abonnement, *Advanced* die letzten Wertaktualisierungen bis zur konfigurierten Warteschlangengröße.
+* **Subscriptions** (4): Die Liste der abonnierten Knoten. Der **Title** eines abonnierten Knotens wird verwendet, um in der Peakboard-Anwendung auf ihn zuzugreifen.
+* **Manage subscriptions** (5): Ein Klick darauf (oder [Browse] aus dem zugehörigen Menü) öffnet den Knoten-Browser, der den Baum der auf dem verbundenen Server gespeicherten Knoten zeigt — eine Verbindung ist erforderlich. Durch Auswählen eines Knotens wird ein Abonnement hinzugefügt, durch Abwählen wird das entsprechende Abonnement entfernt. Mit [Add manually] kann ein Knoten anhand seiner Knoten-ID und seines Namensraums ohne Verbindung (offline) hinzugefügt werden.
+* **Enable listener** (6): siehe [Daten überprüfen](#daten-überprüfen) weiter unten.
 
-* **Subscriptions**: Die von OPC UA definierten Abonnements. Dies sollte der richtige Weg sein, sofern auf dem Server verfügbar.
-* **Variables**: Ziehen Sie Knotenwerte nach einer vordefinierten Zeitspanne (Reload Interval). Es können nur variable Knoten verwendet werden, Objekte und ihre Ereignisse sind nicht verfügbar.
-
-[Abonnementspezifische Einstellungen bearbeiten] (2). Sollte nur durchgeführt werden, wenn Sie wissen, was Sie tun. 
-
-Wähle einen Nachrichtentyp (3):
-
-* Simple: Speichern Sie die letzte Nachricht für jedes Abonnement.
-* Advanced: Speichern Sie die letzten Wertaktualisierungen (Betrag = Warteschlangengröße).
-
-Verwalten Sie Ihre Abonnements (4).
-
-* Durch direktes Anklicken oder Öffnen des Menüs und Auswahl von [Durchsuchen] wird der Knoten-Browser geöffnet, der alle Knoten auf dem Server sucht (eine Verbindung ist erforderlich) (siehe 4. a.).
-* Mit [Manuell hinzufügen] können Knoten anhand ihrer Knoten-ID und ihres Namensraums hinzugefügt werden, ohne den Browser zu verwenden (kann offline durchgeführt werden) (siehe 4. b.).
-
-<div class="box-tip" markdown="1">
-Note:
-
-Der "Titel" eines abonnierten Knotens wird verwendet, um auf diesen Knoten innerhalb der Peakboard-Visualisierung zuzugreifen.
-</div>
-
-![image_5](/assets/images/data-sources/opc-ua/data-source-opc-ua-05.png)
-
-Der Durchsuchen-Dialog zeigt den Baum der Knoten, die auf dem angeschlossenen OPC UA Server gespeichert sind. Durch Auswählen eines Knotens wird ein neues Abonnement hinzugefügt, durch Abwählen wird das entsprechende Abonnement entfernt.
-
-![image_6](/assets/images/data-sources/opc-ua/data-source-opc-ua-06.png)
-
-Der Titel, der Namensraum und der Bezeichner eines Knotens können bearbeitet werden.
-Namespace und Identifier können mit einem Skript versehen werden. Dieses Skript wird nur einmal ausgeführt, wenn der OPC UA Server beim Start abonniert wird.
-
-Wenn eine Verbindung zum Server möglich ist, kann die Schaltfläche [Knoteninfo holen] verwendet werden, um zusätzliche Knoteninformationen (Knotenklasse, Datentyp, ...) vom Server zu lesen.
-
-Node Klassen:
+Für jeden abonnierten Knoten kannst du **Title**, **Namespace** und **Identifier** bearbeiten. Namespace und Identifier können per Skript gesetzt werden; dieses Skript wird nur einmal ausgeführt, wenn das Abonnement beim Start eingerichtet wird. Bei bestehender Verbindung liest [Fetch Node Info] zusätzliche Informationen (Knotenklasse, Datentyp, …) vom Server:
 
 * **Variable**: Hat einen Wert, der vom Server gelesen wird.
-* **Object**: Verfügt über Ereignisse, die im Dialogfeld [OPC UA Abonnementelement bearbeiten] abonniert werden können. Das Abonnieren von Ereignissen kann über die Schaltfläche [Hinzufügen] unter der Tabelle [Ereignisfilter] erfolgen (eine Serververbindung ist erforderlich).
+* **Object**: Hat Ereignisse, die im Dialog [Edit OPC UA Subscription Item] über den [Add]-Button unter der Tabelle [Event Filter] abonniert werden können (eine Serververbindung ist erforderlich).
 
-Aktivieren Sie den Listener, um zu prüfen, ob alle Abonnements richtig definiert sind. Der Listener funktioniert genauso wie die Datenquelle in der späteren Visualisierung.
+## Knoten durchsuchen und auswählen
+
+[Browse] aus dem Menü von [Manage subscriptions] öffnet den Knoten-Browser.
+
+![OPC UA Knoten-Browser-Dialog](/assets/images/data-sources/opc-ua/opc-ua-06-browse-nodes.png)
+
+* **Knotenbaum** (1): Der Adressraum des verbundenen Servers. Klappe einen Zweig auf, um bis zu seinen variablen Knoten vorzudringen.
+* **Knoten abonnieren** (2): Aktiviere die Checkbox neben einem Knoten, um ein Abonnement hinzuzufügen; deaktiviere sie, um das Abonnement wieder zu entfernen.
+* **Attributes** (3): Die OPC UA Attribute des ausgewählten Knotens (NodeId, NodeClass, DataType, aktueller Value, AccessLevel, …) — hilfreich, um zu bestätigen, dass du den richtigen Knoten gewählt hast.
+* **Aktualisieren** (4): Liest den Adressraum des Servers neu ein.
+* **Select / Cancel** (5): [Select] übernimmt die markierten Knoten und kehrt zum Konfigurationsdialog zurück; [Cancel] verwirft die Änderungen.
+
+## Daten überprüfen
+
+Klicke im Bereich **Preview** auf [Enable listener] (6), um zu prüfen, ob alle Abonnements korrekt definiert sind. Der Listener verhält sich genauso wie die Datenquelle in der laufenden Peakboard-Anwendung. Wenn alles passt, bestätigst du den Dialog mit [OK].
+
+## Mit Building Blocks auf den Server schreiben
+
+Neben dem Lesen von Daten kann die OPC UA Datenquelle aus einem Skript heraus auch auf den Server zurückschreiben. Im Building-Blocks-Editor liegen die OPC UA Blöcke unter **FUNCTIONS → Publish to external systems → OPC UA** (1).
+
+![OPC UA Building Blocks](/assets/images/data-sources/opc-ua/opc-ua-07-building-blocks.png)
+
+* **Set variable** (2): Schreibt einen Wert in einen beschreibbaren variablen OPC UA Knoten. Das ist der aktualisierte Block, mit dem du einen Wert aus der Peakboard-Anwendung zurück an den Server schreibst.
+* **Call method** (3): Ruft eine vom Server über einen Objektknoten bereitgestellte OPC UA Methode auf — ohne Rückgabewert.
+* **Call method with return value** (4): Ruft eine OPC UA Methode auf und speichert deren Ergebnis, sodass der Rückgabewert im weiteren Skript verwendet werden kann.
+
+Jeder Block läuft im Kontext der OPC UA Verbindung; wähle innerhalb des Blocks die Verbindung und die Zielvariable bzw. die Methode (Objekt) aus.
