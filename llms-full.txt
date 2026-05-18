@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-05-15)
+## Complete URL inventory (as of 2026-05-18)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
@@ -54,7 +54,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (234)
+### German documentation pages (233)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
@@ -105,13 +105,13 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /controls/Document/de-google-docs.html: https://help.peakboard.com/controls/Document/de-google-docs.html
 - /controls/Document/de-pdf.html: https://help.peakboard.com/controls/Document/de-pdf.html
 - /controls/Document/de-rich-text.html: https://help.peakboard.com/controls/Document/de-rich-text.html
-- /controls/Extended/de-calendar.html: https://help.peakboard.com/controls/Extended/de-calendar.html
 - /controls/Extended/de-html-code.html: https://help.peakboard.com/controls/Extended/de-html-code.html
 - /controls/Extended/de-power-bi.html: https://help.peakboard.com/controls/Extended/de-power-bi.html
 - /controls/Extended/de-qr.html: https://help.peakboard.com/controls/Extended/de-qr.html
 - /controls/Extended/de-text-ticker.html: https://help.peakboard.com/controls/Extended/de-text-ticker.html
 - /controls/Extended/de-webpage.html: https://help.peakboard.com/controls/Extended/de-webpage.html
 - /controls/Input/de-button.html: https://help.peakboard.com/controls/Input/de-button.html
+- /controls/Input/de-calendar.html: https://help.peakboard.com/controls/Input/de-calendar.html
 - /controls/Input/de-checkbox.html: https://help.peakboard.com/controls/Input/de-checkbox.html
 - /controls/Input/de-datepicker.html: https://help.peakboard.com/controls/Input/de-datepicker.html
 - /controls/Input/de-drawing-area.html: https://help.peakboard.com/controls/Input/de-drawing-area.html
@@ -140,7 +140,6 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/Extension/de-MsGraphAPI-teams.html: https://help.peakboard.com/data_sources/Extension/de-MsGraphAPI-teams.html
 - /data_sources/Extension/de-MsGraphAPI.html: https://help.peakboard.com/data_sources/Extension/de-MsGraphAPI.html
 - /data_sources/Extension/de-Tableau.html: https://help.peakboard.com/data_sources/Extension/de-Tableau.html
-- /data_sources/OPC_UA/de-Array-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/de-Array-OPCUA.html
 - /data_sources/OPC_UA/de-Client-Write-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/de-Client-Write-OPCUA.html
 - /data_sources/OPC_UA/de-opc-ua.html: https://help.peakboard.com/data_sources/OPC_UA/de-opc-ua.html
 - /data_sources/SAP/de-sap-error.html: https://help.peakboard.com/data_sources/SAP/de-sap-error.html
@@ -291,7 +290,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (233)
+### English documentation pages (232)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
@@ -341,13 +340,13 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /controls/Document/en-google-docs.html: https://help.peakboard.com/controls/Document/en-google-docs.html
 - /controls/Document/en-pdf.html: https://help.peakboard.com/controls/Document/en-pdf.html
 - /controls/Document/en-rich-text.html: https://help.peakboard.com/controls/Document/en-rich-text.html
-- /controls/Extended/en-calendar.html: https://help.peakboard.com/controls/Extended/en-calendar.html
 - /controls/Extended/en-html-code.html: https://help.peakboard.com/controls/Extended/en-html-code.html
 - /controls/Extended/en-power-bi.html: https://help.peakboard.com/controls/Extended/en-power-bi.html
 - /controls/Extended/en-qr.html: https://help.peakboard.com/controls/Extended/en-qr.html
 - /controls/Extended/en-text-ticker.html: https://help.peakboard.com/controls/Extended/en-text-ticker.html
 - /controls/Extended/en-webpage.html: https://help.peakboard.com/controls/Extended/en-webpage.html
 - /controls/Input/en-button.html: https://help.peakboard.com/controls/Input/en-button.html
+- /controls/Input/en-calendar.html: https://help.peakboard.com/controls/Input/en-calendar.html
 - /controls/Input/en-checkbox.html: https://help.peakboard.com/controls/Input/en-checkbox.html
 - /controls/Input/en-datepicker.html: https://help.peakboard.com/controls/Input/en-datepicker.html
 - /controls/Input/en-drawing-area.html: https://help.peakboard.com/controls/Input/en-drawing-area.html
@@ -376,7 +375,6 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/Extension/en-MsGraphAPI-teams.html: https://help.peakboard.com/data_sources/Extension/en-MsGraphAPI-teams.html
 - /data_sources/Extension/en-MsGraphAPI.html: https://help.peakboard.com/data_sources/Extension/en-MsGraphAPI.html
 - /data_sources/Extension/en-Tableau.html: https://help.peakboard.com/data_sources/Extension/en-Tableau.html
-- /data_sources/OPC_UA/en-Array-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/en-Array-OPCUA.html
 - /data_sources/OPC_UA/en-Client-Write-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/en-Client-Write-OPCUA.html
 - /data_sources/OPC_UA/en-opc-ua.html: https://help.peakboard.com/data_sources/OPC_UA/en-opc-ua.html
 - /data_sources/SAP/en-sap-error.html: https://help.peakboard.com/data_sources/SAP/en-sap-error.html
