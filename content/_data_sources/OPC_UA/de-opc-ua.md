@@ -95,15 +95,3 @@ Für jeden abonnierten Knoten kannst du **Title**, **Namespace** und **Identifie
 ## Daten überprüfen
 
 Klicke im Bereich **Preview** auf [Enable listener] (6), um zu prüfen, ob alle Abonnements korrekt definiert sind. Der Listener verhält sich genauso wie die Datenquelle in der laufenden Peakboard-Anwendung. Wenn alles passt, bestätigst du den Dialog mit [OK].
-
-## Mit Building Blocks auf den Server schreiben
-
-Neben dem Lesen von Daten kann die OPC UA Datenquelle aus einem Skript heraus auch auf den Server zurückschreiben. Im Building-Blocks-Editor liegen die OPC UA Blöcke unter **FUNCTIONS → Publish to external systems → OPC UA** (1).
-
-![OPC UA Building Blocks](/assets/images/data-sources/opc-ua/opc-ua-07-building-blocks.png)
-
-* **Set variable** (2): Schreibt einen Wert in einen beschreibbaren variablen OPC UA Knoten. Das ist der aktualisierte Block, mit dem du einen Wert aus der Peakboard-Anwendung zurück an den Server schreibst.
-* **Call method** (3): Ruft eine vom Server über einen Objektknoten bereitgestellte OPC UA Methode auf — ohne Rückgabewert.
-* **Call method with return value** (4): Ruft eine OPC UA Methode auf und speichert deren Ergebnis, sodass der Rückgabewert im weiteren Skript verwendet werden kann.
-
-Jeder Block läuft im Kontext der OPC UA Verbindung; wähle innerhalb des Blocks die Verbindung und die Zielvariable bzw. die Methode (Objekt) aus.

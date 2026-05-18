@@ -95,15 +95,3 @@ For each subscribed node you can edit the **Title**, **Namespace** and **Identif
 ## Verify the data
 
 In the **Preview** pane, click [Enable listener] (6) to check that all subscriptions are defined correctly. The listener behaves exactly like the data source in the running Peakboard application. When everything looks right, confirm the dialog with [OK].
-
-## Write to the server with Building Blocks
-
-Besides reading data, the OPC UA data source can write back to the server from a script. In the Building Blocks editor the OPC UA blocks live under **FUNCTIONS → Publish to external systems → OPC UA** (1).
-
-![OPC UA Building Blocks](/assets/images/data-sources/opc-ua/opc-ua-07-building-blocks.png)
-
-* **Set variable** (2): writes a value to a writable OPC UA variable node. This is the updated block you use to push a value from the Peakboard application back to the server.
-* **Call method** (3): calls an OPC UA method exposed by an object node on the server, without using a return value.
-* **Call method with return value** (4): calls an OPC UA method and stores its result, so the returned value can be used in the rest of your script.
-
-Each block runs in the context of the OPC UA connection; select the connection and the target variable or method (object) inside the block.
