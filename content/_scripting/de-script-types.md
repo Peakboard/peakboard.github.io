@@ -2,85 +2,115 @@
 layout: article
 title: Skript-Typen
 menu_title: Skript-Typen
-description: Informatinon über die Peakboard-Skript-Typen
+description: Informationen über die im Peakboard Designer verfügbaren Skript-Typen
 lang: de
 weight: 901
 ref: scr-901
 redirect_from:
 ---
 
-Nachfolgende Übersicht beschreibt die mit Peakboard verfügbaren Arten von Skripten.
+Peakboard verwendet Lua als Skriptsprache. Jedes Skript ist einem der folgenden Skript-Typen zugeordnet, der bestimmt, *wann* das Skript ausgeführt wird. Im Explorer erscheinen sie als Ordner unter [Scripts].
+
+![Die Skript-Typen unter [Scripts] im Explorer](/assets/images/scripting/types/script-types-01-scripts-tree.png)
+
+Von oben nach unten sind das [Timer] (1), [Functions] (2), [Global events] (3), [On screen activation] (4), [After data reload] (5) und [For controls] (6) – jeder wird im Folgenden beschrieben.
 
 ## Timer
-Timer-Skripte kommen immer dann zum Einsatz, wenn eine Aktion in einem gleichbleibenden Rhythmus oder einmalig durchgeführt werden soll.
 
-## Globale Funktion
-Hier lassen sich Funktionen definieren, welche durch unterschiedliche Methoden mehrfach aufgerufen werden sollen.
+Ein Timer-Skript hat einen Namen (1), einen Modus (2) und ein Intervall in Millisekunden (3). Der Modus bestimmt, wie es feuert:
+
+* **Endless** – wiederholt sich unbegrenzt im angegebenen Intervall.
+* **Once** – feuert einmal nach Ablauf des Intervalls und stoppt dann.
+* **Manual** – feuert nicht automatisch, sondern wird aus einem Lua-Skript gestartet. Nach dem Start feuert er einmalig nach dem konfigurierten Intervall als Verzögerung.
+* **On schedule** – feuert gemäß einem Zeitplan aus Wochentag und Uhrzeit.
+
+![Ein Timer-Skript mit Name (1), Modus (2) und Intervall (3)](/assets/images/scripting/types/script-types-02-timer.png)
+
+## Funktionen
+
+Hier definierst du **wiederverwendbare Lua-Funktionen**. Jedes Skript (Timer, Event, Aktivierungsskript …) läuft in einem eigenen, isolierten Gültigkeitsbereich – eine in einem Skript geschriebene Funktion kann also nicht aus einem anderen Skript aufgerufen werden. Eine unter [Functions] definierte Funktion ist der Mechanismus, um Logik über alle Skripte hinweg zu teilen und doppelten Code zu vermeiden: einmal schreiben, überall mit `MeineFunktion()` aufrufen.
+
+Wenn du unter [Functions] eine Funktion hinzufügst, öffnet sich zuerst der Dialog [Edit function script settings]:
+
+![Die Funktionseinstellungen: Name (1), Rückgabetyp (2), Parameter (3) und die Shared-Function-/API-Option (4)](/assets/images/scripting/types/script-types-05-functions.png)
+
+* **Function name (1)** – der Name, unter dem die Funktion aus Lua aufgerufen wird, z.B. `FormatTemperature()`.
+* **Return type (2)** – was die Funktion zurückgibt: **None**, **String**, **Number** oder **Boolean**.
+* **Parameters (3)** – über den [+]-Button fügst du beliebig viele Parameter hinzu. Jeder Parameter hat einen Namen und einen Datentyp (String, Number, Boolean) und steht im Funktionskörper als lokale Variable zur Verfügung. Optional lässt sich ein Parameter über einen Constraint einschränken.
+* **Shared function (4)** – stellt die Funktion als REST-Endpunkt unter `https://[Peakboard Box IP]:40405/api/functions/<name>` bereit, sodass sie von außerhalb der Anwendung aufgerufen werden kann. [Allow untyped] lockert zusätzlich die Parametertypisierung für diesen API-Aufruf.
+
+Bestätige mit [OK], um den Skript-Editor zu öffnen und den Lua-Körper zu schreiben. Die Parameter stehen als lokale Variablen zur Verfügung; mit `return` gibst du das Ergebnis zurück. Anschließend rufst du die Funktion aus jedem anderen Skript auf:
+
+```lua
+-- ohne Parameter
+UpdateDashboard()
+
+-- mit Parametern und Rückgabewert
+local label = FormatTemperature(21.5)
+```
 
 ## Globale Events
-Wie auch die globalen Funktionen können globale Events jederzeit durch unterschiedliche Methoden aufgerufen werden.
 
-Hierunter fallen klassische Eingaben über externe Eingabegeräte wie beispielsweise Touchscreen-Monitor, Tastatur, Maus oder [Presenter](/misc/de-presenter.html).
+Globale Events gelten für die gesamte Anwendung und reagieren auf Eingaben oder Systemzustände. Das `e`-Objekt im Skript enthält den ereignisspezifischen Kontext. Beim Hinzufügen eines globalen Events wählst du dessen Typ aus der Liste, die in fünf Blöcke gegliedert ist:
 
-#### Swipen
-Die Eingabe erfolgt hierbei in der Regel über einen Touchscreen-Monitor. Alternativ kann der Wisch-Effekt auch über eine Maus erzeugt werden.
+![Ein globales Event hinzufügen](/assets/images/scripting/types/script-types-03-global-events.png)
 
-#### Taste gedrückt
-Dieses Skript wird immer dann ausgeführt, wenn eine Taste an einem Eingabegerät gedrückt wird. Unser [Beispiel zum Wechseln von Screens mit Hilfe eines handelsüblichen Presenters](/misc/de-presenter.html) illustriert sehr deutlich, wie diese Art Skript angewendet wird.
+#### Swipe (1)
+Wird ausgelöst, wenn der Benutzer auf dem Touchscreen nach oben, unten, links oder rechts wischt. Der Wisch-Effekt kann alternativ auch mit der Maus erzeugt werden. Diese Events tragen keine Kontextdaten.
 
-#### Tasteneingabe 
+#### Tastatur- & Bildschirmeingabe (2)
+* **Key pressed** – wird bei jedem einzelnen Tastendruck ausgelöst. `e.key` ist der virtuelle Tastencode, `e.modifier` die Modifier-Taste; mit `e.handled = true` unterbindest du die weitere Verarbeitung. Nützlich für Eingaben über einen [Presenter](/misc/de-presenter.html), eine Tastatur oder ein ähnliches Gerät.
+* **Text input** – sammelt alle eingegebenen Zeichen, bis Enter/Return gedrückt wird, und feuert dann einmalig mit dem vollständigen Text in `e.text`. Ideal für Barcode-Scanner und RFID-Leser, die Zeichen gefolgt von Enter senden. Mit `peakboard.clearinput()` leerst du den Puffer vor einem Scan.
+* **Screen clicked** – wird ausgelöst, wenn der Screen selbst außerhalb eines Controls geklickt oder getippt wird.
 
-#### Skriptfehler 
+#### Script error (3)
+Wird ausgelöst, wenn ein Lua-Skriptfehler auftritt, sodass du zentral darauf reagieren kannst.
 
-#### Aktualisierung der Datenquelle fehlgeschlagen
+#### Reload of data source failed (4)
+Wird ausgelöst, wenn die Aktualisierung einer Datenquelle fehlschlägt. `e.datasourcename` und `e.errormessage` beschreiben den Fehler.
+
+#### Call incoming / started / ended / Dial signal received (5)
+VoIP/SIP-Telefonie-Events. Sie liefern den Remote-Endpunkt, den Anrufer und – beim Dial-Signal – das empfangene DTMF-Signal.
 
 ## Bei Bildschirmaktivierung
-Wie der Name schon vermuten lässt wird ein hier definiertes Skript immer genau dann ausgeführt, wenn der entsprechende Bildschirm das erste Mal geladen wird.
+
+Ein hier definiertes Skript wird jedes Mal ausgeführt, wenn der entsprechende Screen aktiviert, also geladen und angezeigt wird. Das ist der richtige Ort für die einmalige Einrichtung eines Screens.
 
 ## Bei Datenaktualisierung
-Dieses Skript wird immer dann ausgeführt, wenn für die Datenquelle neue Daten geladen wurden. 
 
-Ein solches Skript lässt sich anlegen, indem entweder unter Skripte - Bei Datenaktualisierung über Hinzufügen für die entsprechende Datenquelle oder über Rechtsklick auf die Datenquelle ein Aktualisierungsskript hinzugefügt wird.
+Dieses Skript wird ausgeführt, nachdem eine Datenquelle einen Aktualisierungszyklus abgeschlossen hat (das `Refreshed`-Event des Datenelements). Lege es unter [Scripts] – [After data reload] über [Add] für die entsprechende Datenquelle an oder per Rechtsklick auf die Datenquelle.
 
 ## Für Controls
-Hier finden sich alle Skripte, welche über die Events-Funktion eines Controls erstellt wurden.
 
-Diese Events sind bestimmte Aktionen, die mit Hilfe eines Controls ausgelöst werden können.
+Hier findest du alle Skripte, die über die [Events]-Funktion eines Controls erstellt wurden. Ein Event ist eine bestimmte Aktion, die ein Control auslösen kann. Ein ausgewähltes Control (1) zeigt seine Events im Eigenschaftenbereich – z.B. das [Tapped]-Event (2) eines Buttons. Über den [</>]-Button (3) öffnest du den Skript-Editor für dieses Event.
 
-Nachfolgende Liste enthält alle mit Peakboard möglichen Events sowie die dazugehörigen Controls.
+![Ein ausgewähltes Control (1), sein [Tapped]-Event (2) und der Skript-Button (3)](/assets/images/scripting/types/script-types-04-for-controls.png)
 
-#### Tapped (Text, Bild, Rechteck, Excel-Diagramm, Textfeld, Button, Repeat-Button)
-Dieses Event wird ausgeführt, wenn das entsprechende Control über Touch, Maus oder ähnliche Eingabe aktiviert wird.
+Die folgende Liste zeigt jedes Control-Event und die Controls, die es unterstützen:
 
-#### DataRowLoaded (Tabellenraster)
-Dieses Event wird immer dann ausgeführt, wenn eine neue Zeile einer Tabelle geladen wird.
+#### Tapped (Button, Text, Textfeld, Rechteck, Bild, Icon)
+Wird ausgelöst, wenn das Control über Touch, Maus oder ähnliche Eingabe aktiviert wird.
 
-#### CellTapped (Tabellenraster)
-Dieses Event wird dann ausgeführt, wenn innerhalb der Tabelle eine Zelle über Touch, Maus oder ähnliche Eingabe aktiviert wird.
-
-#### TileChanged (Live Tile Box)
-Dieses Event wird dann ausgeführt, wenn das Tile einer Live Tile Box geändert wird.
-
-#### RightTapped (Bild)
-Dieses Event wird dann ausgeführt, wenn ein Rechtsklick über Touch, Maus oder ähnliche Eingabe auf ein Bild-Control ausgeführt wird.
-
-#### DoubleTapped (Bild)
-Dieses Event wird dann ausgeführt, wenn ein Doppelklick über Touch, Maus oder ähnliche Eingabe auf ein Bild-Control ausgeführt wird.
-
-#### TextChanged (Textfeld)
-Dieses Event wird ausgelöst, wenn sich die Texteingabe in einem Textfeld ändert.
-
-#### Checked (Toggle Button, Check Box, Radio Button)
-Dieses Event wird ausgelöst, wenn sich der Zustand des Controls von False nach True ändert.
-
-#### Unchecked (Toggle Button, Check Box, Radio Button)
-Dieses Event wird ausgelöst, wenn sich der Zustand des Controls von True nach False ändert.
-
-#### Toggled (Kippschalter)
-Dieses Event wird ausgelöst, wenn sich der Zustand des Controls von False nach True bzw. von True nach False ändert.
+#### TextChanged (Textfeld, Date Picker)
+Wird ausgelöst, wenn sich die Texteingabe des Controls ändert.
 
 #### SelectionChanged (Dropdown-Liste)
-Dieses Event wird ausgelöst, wenn ein neues Element in der Dropdown-Liste ausgewählt wird.
+Wird ausgelöst, wenn ein neues Element in der Dropdown-Liste ausgewählt wird.
+
+#### Checked / Unchecked (Toggle Button, Checkbox, Radio Button)
+`Checked` wird ausgelöst, wenn der Zustand des Controls von False nach True wechselt, `Unchecked`, wenn er von True nach False wechselt.
+
+#### Toggled (Toggle Button, Checkbox)
+Wird ausgelöst, wenn der Zustand des Controls in beide Richtungen wechselt (False → True oder True → False).
 
 #### ValueChanged (Slider)
-Dieses Event wird ausgeführt, wenn sich der Wert des Slider-Controls ändert.
+Wird ausgelöst, wenn sich der Wert des Sliders ändert.
+
+#### DataRowLoaded / CellTapped (Tabelle)
+`DataRowLoaded` wird ausgelöst, sobald eine neue Tabellenzeile geladen wird; `CellTapped`, wenn eine Zelle innerhalb der Tabelle über Touch, Maus oder ähnliche Eingabe aktiviert wird.
+
+#### ElementDropped (List View, Tile View)
+Wird ausgelöst, wenn ein Element innerhalb der List View oder Tile View fallen gelassen wird (Neuanordnung per Drag-and-drop).
+
+#### AppointmentTapped / EmptySpaceTapped (Scheduler)
+`AppointmentTapped` wird ausgelöst, wenn ein Termin aktiviert wird; `EmptySpaceTapped`, wenn ein leerer Bereich des Schedulers aktiviert wird.

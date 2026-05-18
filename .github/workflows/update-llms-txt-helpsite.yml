@@ -1,0 +1,64 @@
+name: Update llms-full.txt from sitemap
+
+# Triggers:
+#   - weekly schedule (every Monday at 04:00 UTC) — catches new pages even
+#     if the push trigger is missed for some reason
+#   - manually from the Actions tab
+#   - on every push to main that touches documentation content
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      # Adjust these paths to match where documentation source files live
+      # in the help.peakboard.com repository. Common Jekyll layouts use
+      # _pages/, _docs/, or content folders by section.
+      - '_pages/**'
+      - '_docs/**'
+      - 'get_started/**'
+      - 'data_sources/**'
+      - 'controls/**'
+      - 'scripting/**'
+      - 'dataflows/**'
+      - 'administration/**'
+      - 'resources/**'
+      - 'hub/**'
+      - 'edge/**'
+      - 'apexboard/**'
+      - 'misc/**'
+      - 'scripts/update-llms-txt-helpsite.py'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run update script
+        run: |
+          python scripts/update-llms-txt-helpsite.py \
+            --llms llms-full.txt \
+            --sitemap https://help.peakboard.com/sitemap.xml
+
+      - name: Commit changes (if any)
+        run: |
+          if git diff --quiet llms-full.txt; then
+            echo "No changes to llms-full.txt — sitemap and snapshot are in sync."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add llms-full.txt
+          git commit -m "chore(llms-full.txt): regenerate from sitemap"
+          git push

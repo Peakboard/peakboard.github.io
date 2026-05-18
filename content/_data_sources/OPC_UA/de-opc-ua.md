@@ -10,6 +10,9 @@ redirect_from:
  - /data_sources/de-opc-ua.html
  - /data_sources/22-de-opc-ua.html
  - /data_sources/OPCUA/de-opc-ua.html
+ - /data_sources/OPC_UA/de-Array-OPCUA.html
+ - /misc/de-Array-OPCUA.html
+ - /data_sources/OPCUA/de-Array-OPCUA.html
 ---
 
 OPC UA (Open Platform Communications Unified Architecture) ist das Standardprotokoll für die Maschine-zu-Maschine-Kommunikation in der industriellen Automatisierung und wird von der [OPC Foundation](https://opcfoundation.org) gepflegt. Mit der OPC UA Datenquelle verbindest du Peakboard mit einem OPC UA Server, sicherst die Verbindung über Zertifikate und abonnierst die Knoten, die du visualisieren möchtest.

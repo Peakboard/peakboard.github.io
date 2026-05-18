@@ -2,7 +2,7 @@
 layout: article
 title: Geteilte Verbindungen
 menu_title: Geteilte Verbindungen
-description: Wie können geteilte Verbindungen eingerichtet werden.
+description: Wie geteilte Verbindungen im Peakboard Designer eingerichtet, verwaltet und ausgetauscht werden.
 lang: de
 weight: 20
 ref: dat-20
@@ -11,53 +11,61 @@ redirect_from:
  - /misc/de-shared-connection.html
 ---
 
-Wenn mehrere Datenquellen einer Visualisierung auf dasselbe Quellsystem verweisen, kann es sinnvoll sein die Zugangsdaten dazu nur einmal einzugeben.
-Peakboard bietet diese Möglichkeit für eine Vielzahl an Quellsystemen, u. a. SAP oder Excel.
+Wenn mehrere Datenquellen einer Visualisierung auf dasselbe Quellsystem verweisen, ist es sinnvoll, die Zugangsdaten dazu nur einmal zu hinterlegen.
+Peakboard bietet diese Möglichkeit für eine Vielzahl an Quellsystemen, u. a. SAP, SQL Server oder Excel.
 
 Ein Beispiel: In einer Visualisierung werden SAP-Bestandsdaten aus einer Tabelle und offene Transportaufträge aus einem Funktionsbaustein angezeigt.
-Beide Daten stammen aus demselben SAP-System. Mit den geteilten Verbindungen werden Zugangsdaten wie Username, Passwort oder SAP-Server nur einmal und nicht bei jeder Datenquelle individuell hinterlegt.
+Beide Daten stammen aus demselben SAP-System. Mit einer geteilten Verbindung werden Zugangsdaten wie Benutzer, Passwort oder SAP-Server nur einmal und nicht bei jeder Datenquelle erneut hinterlegt.
 
-### VERBINDUNGEN TEILEN
+## Verbindungen teilen
 
-Lege die erste Verbindung deines Visualisierungsprojekt wie gewohnt an. Bei der zweiten Verbindung mit denselben Verbindungsdetails klickst du im unteren Bereich des Dialogs auf [Reuse existing connection /Vorhandene Verbindung nutzen].
-Es öffnet sich ein Dropdown, das die potenziellen bestehenden Verbindungen zeigt.
-Du kannst nun die Verbindungsdetails direkt in den Dialog übernehmen.
+Lege die erste Datenquelle deines Projekts wie gewohnt an und trage die Verbindungsdaten ein.
+Lege anschließend die zweite Datenquelle desselben Typs an.
+Statt die Verbindungsdaten erneut einzutragen, klicke unten links im Dialog auf [Reuse existing connection] (3).
+Es öffnet sich eine Liste der bereits vorhandenen Verbindungen dieses Typs.
+Wähle die passende Verbindung aus – die Verbindungsdaten (2) werden direkt in den Dialog übernommen, und du musst nur noch die Datenquelle benennen (1) und die Abfrage definieren.
 
-![shared-connection-01](/assets/images/misc/shared-connection/shared-connection-01.png)
+![Datenquelle mit vorhandener Verbindung wiederverwenden](/assets/images/misc/shared-connection/shared-connection-01.png)
 
-### GETEILTE VERBINDUNGEN VERWALTEN
+## Geteilte Verbindungen verwalten
 
-Über [Settings / Einstellungen] und [Connection Manager / Verbindungen verwalten] gelangst du in einen Dialog, der eine Übersicht aller geteilten Verbindungen enthält.
-Vergib beim ersten Start dieses Dialogs ein Passwort zum Schutz deiner privaten, geteilten Verbindungen.
-Links siehst du eine Liste aller geteilten Verbindungen.
-Mit einem Klick darauf, erscheinen im rechten Bereich alle Details der Verbindung sowie eine Liste der Datenquellen, die im aktuellen Projekt mit dieser geteilten Verbindung verknüpft sind.
-Wir empfehlen jeder Verbindung einen sprechenden Namen zu geben.
+Über den [Project settings]-Button in der Symbolleiste und den Eintrag [Connections] öffnest du den Connection Manager.
+Er gibt dir einen Überblick über alle Verbindungen und gliedert sie in drei Bereiche:
 
-![shared-connection-02](/assets/images/misc/shared-connection/shared-connection-02.png)
+- **Used in current application** (1): alle Verbindungen, die von Datenquellen im aktuellen Projekt verwendet werden.
+- **Personal connections** (2): Verbindungen, die lokal auf deinem Rechner gespeichert sind und in allen Projekten zur Verfügung stehen.
+- **Peakboard Hub connections** (3): Verbindungen, die zentral im Peakboard Hub gespeichert und damit im ganzen Team verfügbar sind.
 
-#### PRIVATE GETEILTE VERBINDUNGEN
+Über den [Import]-Button und das Menü […] (4) kannst du Verbindungen importieren und exportieren.
 
-Mit den privaten geteilten Verbindungen legst du Zugangsdaten über die aktuelle Visualisierung hinaus auf dem lokalen Rechner ab, so dass du sie bei neuen Projekten nicht mehr eingeben musst.
-Um aus einer regulären, geteilten Verbindung eine private, geteilte Verbindung zu machen, klicke in der Verbindung auf [Save to personal connections / Als persönliche Verbindung speichern].
+![Connection Manager mit den drei Verbindungsbereichen](/assets/images/misc/shared-connection/shared-connection-02.png)
 
-![shared-connection-03](/assets/images/misc/shared-connection/shared-connection-03.png)
+## Verbindungsdetails ansehen
 
-Die Verbindung steht dann bei allen neuen Projekten zur Verfügung.
-Sie kann in den jeweiligen Datenquellendialogen über [Reuse existing connection / Vorhandene Verbindung nutzen] abgerufen werden.
+Mit einem Klick auf eine Verbindung in der linken Liste (1) erscheinen rechts unter [Connection options] (2) alle Details der Verbindung.
+Darunter zeigt [Data sources using this connection] (3) alle Datenquellen des aktuellen Projekts, die diese Verbindung verwenden, und [Resources using this connection] (4) die zugehörigen Ressourcen.
+Wir empfehlen, jeder Verbindung einen sprechenden Namen zu geben.
+
+![Details einer ausgewählten Verbindung](/assets/images/misc/shared-connection/shared-connection-03.png)
+
+### Persönliche Verbindungen
+
+Mit den persönlichen Verbindungen (Bereich **Personal connections**) legst du Zugangsdaten über das aktuelle Projekt hinaus auf dem lokalen Rechner ab, sodass du sie in neuen Projekten nicht erneut eingeben musst.
+Eine persönliche Verbindung steht in allen neuen Projekten zur Verfügung und kann in den jeweiligen Datenquellendialogen über [Reuse existing connection] abgerufen werden.
 
 <div class="box-warning" markdown="1">
 **Achtung!**
 
-In dem Moment, in dem private Verbindungen auf dem lokalen Rechner abgelegt werden, müssen diese durch ein Passwort verschlüsselt werden.
-Um Missbrauch zu vermeiden, ist dieses Passwort bei jedem Designerstart einzugeben.
+Sobald persönliche Verbindungen auf dem lokalen Rechner abgelegt werden, werden sie durch ein Passwort verschlüsselt.
+Um Missbrauch zu vermeiden, ist dieses Passwort bei jedem Start des Peakboard Designers einzugeben.
 </div>
 
-### GETEILTE VERBINDUNGEN EXPORTIEREN UND IMPORTIEREN
+## Verbindungen exportieren und importieren
 
-Beide Arten der geteilten Verbindungen können in einer Datei exportiert werden, um sie in einer Zielumgebung, wie dem Rechner eines Arbeitskollegen, wieder zu importieren.
-Um Verbindungen zu exportieren, klicke unter [Connection manager / Verbindungen verwalten] auf […] und dann auf [Export connections / Verbindungen exportieren].
-Es öffnet sich ein Dialog, in dem du die Zieldatei, die zu exportierenden Verbindungen und ein Passwort zur Verschlüsselung der Daten wählen kannst.
-Ein Klick auf [Export] erzeugt die Datei.
-In der Zielumgebung angekommen, importierst du die geteilten Verbindungen mit einem Klick auf [Import / Importieren].
+Verbindungen können in eine Datei exportiert werden, um sie in einer Zielumgebung – etwa auf dem Rechner einer Kollegin oder eines Kollegen – wieder zu importieren.
+Klicke im Connection Manager auf das Menü […] und dann auf [Export connections…].
+Im folgenden Dialog wählst du die Zieldatei (1), vergibst ein Passwort zur Verschlüsselung der Daten (2) und markierst die zu exportierenden Verbindungen (3).
+Ein Klick auf [Export] (4) erzeugt die Datei.
+In der Zielumgebung importierst du die Verbindungen anschließend mit einem Klick auf [Import].
 
-![shared-connection-04](/assets/images/misc/shared-connection/shared-connection-04.png)
+![Verbindungen in eine Datei exportieren](/assets/images/misc/shared-connection/shared-connection-04.png)
