@@ -11,7 +11,7 @@ redirect_from:
  - /data_sources/OPCUA/de-Client-Write-OPCUA.html
 ---
 
-Neben dem Lesen kann die [OPC UA Datenquelle](/data_sources/OPC_UA/de-opc-ua.html) auch Werte zurück auf den Server schreiben. Der empfohlene Weg ist der Building Block **Variable setzen**: Du wählst aus, welche Variable du ändern möchtest, und der Block baut sich dynamisch passend zu dieser Variablen neu auf – inklusive einer Werteingabe, die bereits den richtigen Datentyp hat. Eine manuelle Datentyp-Konvertierung ist damit nicht mehr nötig.
+Neben dem Lesen kann die [OPC UA Datenquelle](/data_sources/OPC_UA/de-opc-ua.html) auch Werte zurück auf den Server schreiben. Der empfohlene Weg ist der Building Block **Variable setzen**: Du wählst aus, welche Variable du ändern möchtest, und der Block baut sich dynamisch passend zu dieser Variablen neu auf – inklusive einer Werteingabe, die bereits den richtigen Datentyp hat.
 
 <div class="box-warning" markdown="1">
 **Achtung**
@@ -27,7 +27,7 @@ Hierzu muss mindestens eine zuvor angelegte [OPC UA Datenquelle](/data_sources/O
 
 * **Set variable** (3): schreibt einen Wert in eine beschreibbare OPC UA Variable. Dies ist der Block, um einen Wert aus der Peakboard-Anwendung zurück auf den Server zu schreiben.
 * **Call method** (4): ruft eine OPC UA Methode eines Objektknotens auf dem Server auf, ohne einen Rückgabewert zu verwenden.
-* **Call method with return value** (5): ruft eine OPC UA Methode auf und speichert ihr Ergebnis, sodass der Rückgabewert im weiteren Skript verwendet werden kann.
+* **Call method with return value** (5): ruft eine OPC UA Methode auf und gibt ihr Ergebnis zurück, sodass du den Rückgabewert weiterverwenden kannst – zum Beispiel, um ihn in einer Variablen zu speichern.
 
 ## Den Block Set variable hinzufügen
 
@@ -56,8 +56,8 @@ Sobald eine Variable ausgewählt ist, baut sich der Block **Set variable** neu a
 
 * **for connection** (1): die OPC UA Verbindung, über die geschrieben wird.
 * **write to variable** (2): der gewählte Knoten, dargestellt mit NodeID und Browse-Pfad. Über das Dropdown kannst du zu einer anderen beschreibbaren Variablen derselben Verbindung wechseln.
-* **value** (3): der zu schreibende Wert. Da der Block den Datentyp des gewählten Knotens kennt, ist diese Eingabe bereits korrekt typisiert (ein Number-Knoten erwartet eine Zahl, ein Boolean-Knoten einen Wahrheitswert usw.). Stecke einen Wert, einen [Get value]-Block oder einen passenden Ausdruck in diesen Anschluss.
-* **Erzeugter Code** (4): der Block erzeugt automatisch den passenden `writevalue`-Aufruf, zum Beispiel `connections.getfromid('…').writevalue('ns=2;s=TemplatesData1_Temperature', 0)`. Du musst den Wert nicht mehr von Hand konvertieren – der Block übergibt ihn bereits im korrekten OPC UA Datentyp.
+* **value** (3): der zu schreibende Wert. Da der Block den Datentyp des gewählten Knotens kennt, ist diese Eingabe bereits korrekt typisiert (ein Number-Knoten erwartet eine Zahl, ein Boolean-Knoten einen Wahrheitswert usw.). An diesen Anschluss kannst du einen festen Wert, einen [Get value]-Block oder einen passenden Ausdruck anschließen.
+* **Erzeugter Code** (4): der Block erzeugt automatisch den passenden `writevalue`-Aufruf, zum Beispiel `connections.getfromid('…').writevalue('ns=2;s=TemplatesData1_Temperature', 0)`. Der Block übergibt den Wert bereits im korrekten OPC UA Datentyp.
 
 ## Schreiben aus dem Skript
 

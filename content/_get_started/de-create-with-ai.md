@@ -36,10 +36,10 @@ Nachdem du Prompt, Theme und die gewünschte Auflösung festgelegt hast, klickst
 
 ## Ein bestehendes Projekt mit der KI bearbeiten
 
-Auch ein bereits geöffnetes Projekt kannst du von Peakbot weiter anpassen lassen. Dafür gibt es in der oberen Werkzeugleiste des Editors – direkt neben [Preview] und [Upload] – das KI-Symbol [Edit with AI] (1).
+Auch ein bereits geöffnetes Projekt kannst du von Peakbot weiter anpassen lassen. Dafür gibt es in der oberen Menüleiste des Editors – direkt neben [Preview] und [Upload] – das KI-Symbol [Edit with AI] (1).
 
-![Das Symbol „Edit with AI" in der Werkzeugleiste des Editors](/assets/images/get_started/create-with-ai-03-edit-with-ai.png)
+![Das Symbol „Edit with AI" in der Menüleiste des Editors](/assets/images/get_started/create-with-ai-03-edit-with-ai.png)
 
 Klicke auf das Symbol (1) und beschreibe in eigenen Worten, was geändert werden soll – zum Beispiel *„Füge unter dem Diagramm eine Tabelle mit den offenen Aufträgen hinzu"* oder *„Ändere die Hintergrundfarbe des Screens auf Dunkelblau"*. Peakbot übernimmt die Änderung direkt im aktuellen Projekt. Anschließend kannst du das Ergebnis wie jedes andere Projekt manuell weiterbearbeiten.
 
-> **Hinweis:** Die KI-Funktionen benötigen eine Internetverbindung und ein gültiges Peakboard-Konto. Prüfe das von der KI erzeugte Ergebnis immer und passe es bei Bedarf manuell an – Peakbot liefert einen schnellen ersten Entwurf, die finale Feinabstimmung machst du im Peakboard Designer.
+> **Hinweis:** Die KI-Funktionen benötigen eine Internetverbindung. Prüfe das von der KI erzeugte Ergebnis immer und passe es bei Bedarf manuell an – Peakbot liefert einen schnellen ersten Entwurf, die finale Feinabstimmung machst du im Peakboard Designer.

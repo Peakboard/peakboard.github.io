@@ -11,7 +11,7 @@ redirect_from:
  - /data_sources/OPCUA/en-Client-Write-OPCUA.html
 ---
 
-Besides reading data, the [OPC UA data source](/data_sources/OPC_UA/en-opc-ua.html) can also write values back to the server. The recommended way is the **Set variable** Building Block: you pick the variable you want to change and the block dynamically rebuilds itself to match that variable — including a value input that is already typed correctly, so no manual data-type conversion is needed.
+Besides reading data, the [OPC UA data source](/data_sources/OPC_UA/en-opc-ua.html) can also write values back to the server. The recommended way is the **Set variable** Building Block: you pick the variable you want to change and the block dynamically rebuilds itself to match that variable — including a value input that is already typed correctly.
 
 <div class="box-warning" markdown="1">
 **Attention**
@@ -27,7 +27,7 @@ Open the Building Blocks editor for any script (for example a [Button] click, a 
 
 * **Set variable** (3): writes a value to a writable OPC UA variable node. This is the block used to push a value from the Peakboard application back to the server.
 * **Call method** (4): calls an OPC UA method exposed by an object node on the server, without using a return value.
-* **Call method with return value** (5): calls an OPC UA method and stores its result so the returned value can be used in the rest of your script.
+* **Call method with return value** (5): calls an OPC UA method and returns its result, so you can reuse the returned value — for example to store it in a variable.
 
 ## Add the Set variable block
 
@@ -57,7 +57,7 @@ Once a variable is selected, the **Set variable** block rebuilds itself: it now 
 * **for connection** (1): the OPC UA connection used for the write.
 * **write to variable** (2): the node that was picked, shown with its NodeID and browse path. Use the dropdown to switch to another writable variable of the same connection.
 * **value** (3): the value to write. Because the block knows the data type of the chosen node, this input is already typed correctly (a Number node expects a number, a Boolean node a boolean, and so on). Plug a value, a [Get value] block or any matching expression into this socket.
-* **Generated code** (4): the block produces the matching `writevalue` call automatically, for example `connections.getfromid('…').writevalue('ns=2;s=TemplatesData1_Temperature', 0)`. You no longer have to convert the value by hand — the block already passes it in the correct OPC UA data type.
+* **Generated code** (4): the block produces the matching `writevalue` call automatically, for example `connections.getfromid('…').writevalue('ns=2;s=TemplatesData1_Temperature', 0)`. The block already passes the value in the correct OPC UA data type.
 
 ## Writing from a script
 
