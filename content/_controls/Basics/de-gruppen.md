@@ -14,7 +14,7 @@ Eine **Gruppe** fasst mehrere Controls auf einer Screen zu einer gemeinsamen Ein
 
 ## Gruppe erstellen
 
-Wähle alle Controls aus, die du gruppieren möchtest (z. B. per Lasso, mit `Strg + A` oder durch Klicks bei gedrückter `Strg`-Taste). Öffne mit einem Rechtsklick auf der Zeichenfläche das Kontextmenü und wähle [Group]. Alternativ funktioniert das Tastaturkürzel `Strg + G`.
+Wähle alle Controls aus, die du gruppieren möchtest (z. B. per Lasso, mit `Strg + A` oder durch Klicks bei gedrückter `Shift`-Taste). Öffne mit einem Rechtsklick auf der Zeichenfläche das Kontextmenü und wähle [Group]. Alternativ funktioniert das Tastaturkürzel `Strg + G`.
 
 ![Kontextmenü mit Group, Ungroup, Create component](/assets/images/Controls/Basics/groups/groups-01-contextmenu.png)
 
@@ -26,7 +26,7 @@ Die ausgewählten Controls werden im Explorer unter dem Screen-Knoten in einem n
 
 ![Gruppe im Explorer mit gemeinsamem Auswahlrahmen](/assets/images/Controls/Basics/groups/groups-02-overview.png)
 
-Wenn du die Gruppe als Ganzes auswählst, zeigt der Eigenschaftenbereich rechts oben den Reiter [Multiple selection] mit dem Abschnitt [Control layout]. Über diese Symbole richtest du die Mitglieder bündig aus (links, mittig, rechts, oben, Mitte, unten), verteilst sie mit gleichem Abstand oder entfernst alle Zwischenräume. Im Abschnitt [Logic] taucht zusätzlich der Eintrag [Conditional formatting (Group1)] auf – eine einzige Regel kann damit alle Mitglieder gleichzeitig betreffen (z. B. die komplette Gruppe ausblenden, wenn eine Variable einen bestimmten Wert annimmt).
+Wenn du die Gruppe als Ganzes auswählst, zeigt der Eigenschaftenbereich rechts oben den Reiter [Multiple selection] mit dem Abschnitt [Control layout]. Über diese Symbole richtest du die Mitglieder bündig aus (links, mittig, rechts, oben, Mitte, unten), verteilst sie mit gleichem Abstand oder entfernst alle Zwischenräume. Im Abschnitt [Logic] taucht zusätzlich der Eintrag [Conditional formatting (Group1)] auf. Damit lässt sich die komplette Gruppe gemeinsam ausblenden, sobald eine Variable einen bestimmten Wert annimmt – das ist der eigentliche Zweck der bedingten Formatierung auf Gruppenebene.
 
 Einzelne Controls innerhalb der Gruppe bleiben weiterhin frei editierbar. Du klickst sie einfach im Explorer oder durch erneutes Klicken auf der Zeichenfläche an und änderst Text, Farbe oder Größe wie gewohnt.
 
@@ -36,19 +36,8 @@ Gruppen können verschachtelt werden: Markierst du eine bestehende Gruppe zusamm
 
 Beim Auflösen einer Gruppe gehen die einzelnen Controls nicht verloren – sie wandern lediglich wieder direkt unter den Screen-Knoten im Explorer. Eine eventuell am Gruppen-Ordner hinterlegte bedingte Formatierung wird mit der Gruppe entfernt.
 
-## Gruppe oder Komponente?
-
-| Kriterium | Gruppe (`Strg + G`) | [Komponente](/controls/de-komponenten.html) (`Strg + Q`) |
-|---|---|---|
-| Mehrfach verwendbar | Nein – existiert nur auf einer Screen | Ja – Master in [Components] mit beliebig vielen Instanzen |
-| Synchronisiert sich | – | Ja – Änderungen am Master schlagen in allen Instanzen durch |
-| Geeignet für | Lokales Ausrichten, gemeinsame bedingte Formatierung, gemeinsames Ein-/Ausblenden | Header-Leisten, Navigationsleisten, Footer, wiederkehrende KPI-Blöcke |
-| Auflösen | [Ungroup] (`Strg + Shift + G`) | [Detach from component] auf der Instanz |
-
-Faustregel: **Wenn du das Gebilde nur auf einer Screen brauchst, ist eine Gruppe völlig ausreichend. Sobald dasselbe Layout auf einer zweiten Screen erscheinen soll, lohnt sich der Wechsel auf eine Komponente.**
-
 ## Typische Anwendungsfälle
 
+* **Dialoge ein- und ausblenden:** Der Klassiker für Gruppen. Du baust einen Dialog (z. B. eine Bestätigungs-Box, ein Login-Formular oder eine Detailansicht) aus mehreren Controls auf einer Screen zusammen, gruppierst sie und steuerst die Sichtbarkeit der gesamten Gruppe per bedingter Formatierung. Sobald eine Variable den passenden Wert hat, erscheint oder verschwindet der ganze Dialog auf einen Schlag.
 * **Layout-Block ausrichten:** Mehrere Texte, Icons und Hintergrundformen, die zusammen einen Kachel-Block bilden, gemeinsam an die richtige Position schieben oder skalieren.
-* **Gemeinsame Sichtbarkeit:** Über eine Gruppen-bezogene bedingte Formatierung wird ein ganzer Bereich auf einer Screen ein- oder ausgeblendet, sobald sich eine Variable ändert (z. B. ein Wartungs-Hinweis-Block).
 * **Übersicht im Explorer:** Bei vielen Controls auf einer Screen helfen Gruppen, den Explorer-Baum aufgeräumt zu halten – ähnlich wie Ordner in einem Dateisystem.

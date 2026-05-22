@@ -10,11 +10,11 @@ redirect_from:
   - /controls/de-komponenten.html
 ---
 
-Eine **Komponente** fasst mehrere Controls zu einer wiederverwendbaren Einheit zusammen. Sobald du eine Komponente erstellt hast, taucht sie wie ein neues Control im Control-Bereich auf und lässt sich beliebig oft auf einer beliebigen Screen ablegen. Eine Änderung an der Komponente selbst (dem **Master**) gilt automatisch für jede einzelne **Instanz**. Komponenten eignen sich daher überall dort, wo dasselbe Layout mehrfach erscheint – typische Beispiele sind Header-Leisten, Navigationsleisten, Footer, KPI-Kacheln oder Status-Panele.
+Eine **Komponente** fasst mehrere Controls zu einer wiederverwendbaren Einheit zusammen. Sobald du eine Komponente erstellt hast, taucht sie wie ein neues Control im Control-Bereich auf und lässt sich beliebig oft auf einer oder mehreren Screens ablegen. Eine Änderung an der Komponente selbst (dem **Master**) gilt automatisch für jede einzelne **Instanz**. Komponenten eignen sich daher überall dort, wo dasselbe Layout mehrfach erscheint – typische Beispiele sind Header-Leisten, Navigationsleisten, Footer, KPI-Kacheln oder Status-Panele.
 
 ## Komponente erstellen
 
-Lege zunächst die Controls auf der Zeichenfläche an, die deine Komponente bilden sollen, und richte sie wie gewünscht aus. Markiere anschließend alle Controls (z. B. per Lasso, mit `Strg + A` oder durch Klicks mit gehaltener `Strg`-Taste) und öffne mit einem Rechtsklick auf der Zeichenfläche das Kontextmenü. Dort findest du den Eintrag [Create component] – alternativ funktioniert das Tastaturkürzel `Strg + Q`.
+Lege zunächst die Controls auf der Zeichenfläche an, die deine Komponente bilden sollen, und richte sie wie gewünscht aus. Markiere anschließend alle Controls (z. B. per Lasso, mit `Strg + A` oder durch Klicks mit gehaltener `Shift`-Taste) und öffne mit einem Rechtsklick auf der Zeichenfläche das Kontextmenü. Dort findest du den Eintrag [Create component] – alternativ funktioniert das Tastaturkürzel `Strg + Q`.
 
 ![Kontextmenü mit Create component](/assets/images/Controls/Basics/components/components-01-contextmenu.png)
 
@@ -26,43 +26,43 @@ Im folgenden Dialog vergibst du der Komponente einen sprechenden Namen (z. B. `H
 
 Nach dem Bestätigen passieren mehrere Dinge gleichzeitig:
 
-* Die markierten Controls werden in eine Gruppe verpackt – das ist die erste **Instanz** der Komponente auf dieser Screen.
-* Im Explorer erscheint ein neuer Bereich [Components] mit dem **Master** deiner Komponente (im Beispiel `HeaderBar`).
-* Im Control-Bereich gibt es zusätzlich eine neue Kategorie [Components], aus der du die Komponente per Drag-and-Drop wie jedes andere Control auf eine beliebige Screen ziehen kannst. Jede so erzeugte Gruppe ist eine weitere Instanz und bleibt mit dem Master verbunden.
+* Die markierten Controls bleiben als **Master** auf der Screen liegen – sie sind ab jetzt die Vorlage für jede weitere Verwendung.
+* Im Explorer erscheint ein neuer Bereich [Components] mit dem Eintrag deiner Komponente (im Beispiel `HeaderBar`).
+* Im Control-Bereich erscheint die Kategorie [Components], aus der du die Komponente per Drag-and-Drop wie jedes andere Control auf eine beliebige Screen ziehen kannst. Jedes so erzeugte Exemplar ist eine **Slave-Instanz**, die mit dem Master verbunden bleibt.
 
 ![Komponente im Explorer und im Control-Bereich](/assets/images/Controls/Basics/components/components-03-overview.png)
 
-Der **Master** ist die Vorlage; **Instanzen** sind die Kopien, die auf den Screens liegen. Änderst du den Master, schlagen die Änderungen sofort in allen Instanzen durch. Änderst du eine Instanz lokal, weicht nur diese eine Instanz vom Master ab – der Master und die übrigen Instanzen bleiben unberührt.
+Es gibt also genau **einen Master** pro Komponente und beliebig viele **Slave-Instanzen**. Der Master ist ein normales Exemplar auf einer Screen – nur eben das, was als Vorlage gilt. Änderungen am Master werden automatisch in jede Slave-Instanz übernommen. Änderst du dagegen eine Slave-Instanz lokal, weicht nur diese eine Instanz vom Master ab; Master und übrige Slaves bleiben unberührt.
 
 ## Komponente bearbeiten
 
 ### Master umbenennen oder Farbe ändern
 
-Mit einem Rechtsklick auf den Master im Explorer-Bereich [Components] öffnest du das Kontextmenü der Komponente.
+Mit einem Rechtsklick auf den Eintrag im Explorer-Bereich [Components] öffnest du das Kontextmenü der Komponente.
 
 ![Master-Kontextmenü](/assets/images/Controls/Basics/components/components-04-master-contextmenu.png)
 
-* [Edit component] öffnet den bekannten Dialog mit Name und Farbe.
-* [Delete component] entfernt den Master. Bestehende Instanzen verlieren dadurch ihre Verknüpfung.
+* [Edit component] öffnet den Dialog mit Name und Farbe.
+* [Delete component] entfernt die Komponente. Bestehende Slave-Instanzen verlieren dadurch ihre Verknüpfung.
 * [Show instances] hebt im Explorer und auf den Screens alle Stellen hervor, an denen die Komponente verwendet wird – sehr nützlich, wenn du in großen Projekten den Überblick behalten willst.
 
 ### Inhalt des Masters ändern
 
-Den eigentlichen Inhalt (also welche Controls die Komponente enthält und wie sie aussehen) änderst du, indem du eine beliebige Instanz auf der Zeichenfläche aufklappst und die enthaltenen Controls bearbeitest. Damit die Änderung auch in den anderen Instanzen ankommt, klickst du anschließend mit der rechten Maustaste auf die geänderte Instanz im Explorer und wählst [Set as master]. Der aktuelle Stand der Instanz wird zur neuen Vorlage – alle anderen Instanzen übernehmen die Änderungen automatisch.
+Den Inhalt der Komponente änderst du direkt am Master auf der Zeichenfläche: Klappst du den Master im Explorer auf, kannst du die enthaltenen Controls wie gewohnt bearbeiten – Text ändern, Farbe anpassen, Controls hinzufügen oder löschen. Alle Slave-Instanzen übernehmen die Änderungen automatisch, sobald sie gespeichert sind. Es ist kein zusätzlicher Schritt nötig.
 
-![Instanz-Kontextmenü](/assets/images/Controls/Basics/components/components-05-instance-contextmenu.png)
+### Lokale Änderungen an einer Slave-Instanz
 
-### Lokale Änderungen an einer Instanz
-
-Solange du eine Änderung nicht über [Set as master] in den Master schreibst, gilt sie nur für die betroffene Instanz. So lässt sich z. B. auf einer einzelnen Screen der Titel der Header-Leiste anpassen, ohne das globale Layout zu verändern.
+Du kannst auch eine einzelne Slave-Instanz lokal abweichen lassen, ohne dadurch den Master oder andere Instanzen zu beeinflussen – z. B. den Titeltext der Header-Leiste auf einer bestimmten Screen anders setzen. Dafür änderst du einfach die Controls innerhalb der Slave-Instanz direkt auf der Screen. Die übrigen Slaves und der Master bleiben dabei unverändert.
 
 ### Mit dem Master synchronisieren
 
-Möchtest du eine lokal abgeänderte Instanz wieder an den Master angleichen, wählst du im Kontextmenü der Instanz [Reset to master]. Alle individuellen Anpassungen werden verworfen und die Instanz entspricht wieder exakt der Vorlage.
+Im Kontextmenü einer Slave-Instanz findest du drei Aktionen, die das Verhältnis zum Master steuern.
 
-### Verbindung zum Master lösen
+![Slave-Kontextmenü](/assets/images/Controls/Basics/components/components-05-instance-contextmenu.png)
 
-Soll eine Instanz dauerhaft ein eigenes Leben führen, klickst du auf [Detach from component]. Die Instanz wird in eine normale Gruppe umgewandelt und ist ab diesem Moment unabhängig vom Master.
+* [Reset to master] verwirft alle lokalen Anpassungen der Slave-Instanz – die Instanz entspricht wieder exakt dem Master.
+* [Detach from component] löst die Verbindung zum Master ganz auf. Die Instanz wird in eine normale [Gruppe](/controls/de-gruppen.html) umgewandelt und lebt ab diesem Moment unabhängig weiter.
+* [Set as master] befördert eine Slave-Instanz zum neuen Master. Der bisherige Master wird damit selbst zu einer Slave-Instanz. Praktisch, wenn du an einer einzelnen Stelle bessere Vorgaben gebaut hast und diese ab jetzt für alle anderen Instanzen gelten sollen.
 
 ## Typische Anwendungsfälle
 
@@ -71,4 +71,4 @@ Soll eine Instanz dauerhaft ein eigenes Leben führen, klickst du auf [Detach fr
 * **Wiederkehrende KPI-Kacheln** oder **Status-Panele**, deren Aussehen einheitlich bleiben soll.
 * **Branding-Elemente** wie Logos in Kombination mit der Uhrzeit, die du in jeder Anwendung wiederverwenden willst.
 
-Wenn du nur einmalig mehrere Controls gemeinsam verschieben oder ausrichten möchtest, ohne die Wiederverwendbarkeit eines Masters zu brauchen, ist die Funktion [Group] (`Strg + G`) aus demselben Kontextmenü die einfachere Wahl.
+Wenn du nur einmalig mehrere Controls gemeinsam verschieben oder ausrichten möchtest, ohne die Wiederverwendbarkeit eines Masters zu brauchen, ist die Funktion [Group](/controls/de-gruppen.html) (`Strg + G`) aus demselben Kontextmenü die einfachere Wahl.
