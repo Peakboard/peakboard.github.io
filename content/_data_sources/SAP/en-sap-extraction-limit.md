@@ -43,3 +43,13 @@ You can find the ABAP code in the file Z_XTRACT_IS_TABLE.txt which can be downlo
 Save and activate the module.
 
 Alternatively, you can install the function module using the transport request thtrans.zip, which is delivered with the system. This is located in the ABAP subfolder of the installation folder.
+
+### Step 6 - Using the module in Peakboard Designer
+
+Once the module is active in SAP, you tell Peakboard to use it instead of the default `RFC_READ_TABLE` directly in the XQL statement. Append the clause `WITH-OPTIONS(CUSTOMFUNCTIONNAME = '...')` to your `SELECT` and specify the name of your module:
+
+```sql
+SELECT * FROM MARA WITH-OPTIONS(CUSTOMFUNCTIONNAME = 'Z_XTRACT_IS_TABLE')
+```
+
+The clause works with any table and can be combined with the usual XQL elements such as `TOP`, a column list, or a `WHERE` condition. Once the module is installed in your SAP system, it can be referenced from any number of data sources.

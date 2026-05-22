@@ -43,3 +43,13 @@ Den ABAP-Code finden Sie in der Datei Z_XTRACT_IS_TABLE.txt welche [hier](https:
 Speichern und Aktivieren Sie den Baustein.
 
 Alternativ können Sie den Funktionsbaustein mit Hilfe des mitgelieferten Transportauftrags thtrans.zip installieren, den Sie im Unterordner ABAP des Installationsordners finden.
+
+### Schritt 6 – Verwendung im Peakboard Designer
+
+Sobald der Baustein in SAP aktiv ist, weisen Sie Peakboard direkt im XQL-Statement an, ihn anstelle des Standard-`RFC_READ_TABLE` zu verwenden. Dafür hängen Sie an die `SELECT`-Anweisung die Klausel `WITH-OPTIONS(CUSTOMFUNCTIONNAME = '...')` an und geben dort den Namen Ihres Bausteins an:
+
+```sql
+SELECT * FROM MARA WITH-OPTIONS(CUSTOMFUNCTIONNAME = 'Z_XTRACT_IS_TABLE')
+```
+
+Die Klausel funktioniert mit jeder Tabelle und lässt sich mit den üblichen XQL-Elementen wie `TOP`, einer Spaltenliste oder einer `WHERE`-Bedingung kombinieren. Sobald der Baustein einmal in Ihrem SAP-System installiert ist, können Sie ihn in beliebig vielen Datenquellen referenzieren.
