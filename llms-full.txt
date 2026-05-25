@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-05-18)
+## Complete URL inventory (as of 2026-05-25)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
@@ -54,7 +54,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (233)
+### German documentation pages (237)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
@@ -89,6 +89,8 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /controls/Basics/de-cf.html: https://help.peakboard.com/controls/Basics/de-cf.html
 - /controls/Basics/de-fonts.html: https://help.peakboard.com/controls/Basics/de-fonts.html
 - /controls/Basics/de-formatieren-von-Werten.html: https://help.peakboard.com/controls/Basics/de-formatieren-von-Werten.html
+- /controls/Basics/de-gruppen.html: https://help.peakboard.com/controls/Basics/de-gruppen.html
+- /controls/Basics/de-komponenten.html: https://help.peakboard.com/controls/Basics/de-komponenten.html
 - /controls/Chart/de-chart.html: https://help.peakboard.com/controls/Chart/de-chart.html
 - /controls/Chart/de-excel-viewer.html: https://help.peakboard.com/controls/Chart/de-excel-viewer.html
 - /controls/Chart/de-gauge.html: https://help.peakboard.com/controls/Chart/de-gauge.html
@@ -140,6 +142,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/Extension/de-MsGraphAPI-teams.html: https://help.peakboard.com/data_sources/Extension/de-MsGraphAPI-teams.html
 - /data_sources/Extension/de-MsGraphAPI.html: https://help.peakboard.com/data_sources/Extension/de-MsGraphAPI.html
 - /data_sources/Extension/de-Tableau.html: https://help.peakboard.com/data_sources/Extension/de-Tableau.html
+- /data_sources/OPC_UA/de-Client-CallMethod-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/de-Client-CallMethod-OPCUA.html
 - /data_sources/OPC_UA/de-Client-Write-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/de-Client-Write-OPCUA.html
 - /data_sources/OPC_UA/de-opc-ua.html: https://help.peakboard.com/data_sources/OPC_UA/de-opc-ua.html
 - /data_sources/SAP/de-sap-error.html: https://help.peakboard.com/data_sources/SAP/de-sap-error.html
@@ -188,6 +191,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /edge/de-ManageEdge.html: https://help.peakboard.com/edge/de-ManageEdge.html
 - /edge/de-PeakboardEdge.html: https://help.peakboard.com/edge/de-PeakboardEdge.html
 - /edge/de-UseEdgeDatasource.html: https://help.peakboard.com/edge/de-UseEdgeDatasource.html
+- /get_started/de-create-with-ai.html: https://help.peakboard.com/get_started/de-create-with-ai.html
 - /get_started/de-peakboard-box.html: https://help.peakboard.com/get_started/de-peakboard-box.html
 - /get_started/de-peakboard-byod.html: https://help.peakboard.com/get_started/de-peakboard-byod.html
 - /get_started/de-peakboard-designer.html: https://help.peakboard.com/get_started/de-peakboard-designer.html
@@ -290,7 +294,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (232)
+### English documentation pages (236)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
@@ -322,9 +326,11 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /apexboard/en-apexboard-peakboard-hub.html: https://help.peakboard.com/apexboard/en-apexboard-peakboard-hub.html
 - /apexboard/en-apexboard-settings.html: https://help.peakboard.com/apexboard/en-apexboard-settings.html
 - /controls/Basics/en-cf.html: https://help.peakboard.com/controls/Basics/en-cf.html
+- /controls/Basics/en-components.html: https://help.peakboard.com/controls/Basics/en-components.html
 - /controls/Basics/en-fonts.html: https://help.peakboard.com/controls/Basics/en-fonts.html
 - /controls/Basics/en-formating-values.html: https://help.peakboard.com/controls/Basics/en-formating-values.html
 - /controls/Basics/en-general-properties.html: https://help.peakboard.com/controls/Basics/en-general-properties.html
+- /controls/Basics/en-groups.html: https://help.peakboard.com/controls/Basics/en-groups.html
 - /controls/Chart/en-chart.html: https://help.peakboard.com/controls/Chart/en-chart.html
 - /controls/Chart/en-excel-viewer.html: https://help.peakboard.com/controls/Chart/en-excel-viewer.html
 - /controls/Chart/en-gauge.html: https://help.peakboard.com/controls/Chart/en-gauge.html
@@ -375,6 +381,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/Extension/en-MsGraphAPI-teams.html: https://help.peakboard.com/data_sources/Extension/en-MsGraphAPI-teams.html
 - /data_sources/Extension/en-MsGraphAPI.html: https://help.peakboard.com/data_sources/Extension/en-MsGraphAPI.html
 - /data_sources/Extension/en-Tableau.html: https://help.peakboard.com/data_sources/Extension/en-Tableau.html
+- /data_sources/OPC_UA/en-Client-CallMethod-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/en-Client-CallMethod-OPCUA.html
 - /data_sources/OPC_UA/en-Client-Write-OPCUA.html: https://help.peakboard.com/data_sources/OPC_UA/en-Client-Write-OPCUA.html
 - /data_sources/OPC_UA/en-opc-ua.html: https://help.peakboard.com/data_sources/OPC_UA/en-opc-ua.html
 - /data_sources/SAP/en-sap-error.html: https://help.peakboard.com/data_sources/SAP/en-sap-error.html
@@ -423,6 +430,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /edge/en-PeakboardEdge.html: https://help.peakboard.com/edge/en-PeakboardEdge.html
 - /edge/en-UseEdgeDatasource.html: https://help.peakboard.com/edge/en-UseEdgeDatasource.html
 - /en/designer.html: https://help.peakboard.com/en/designer.html
+- /get_started/en-create-with-ai.html: https://help.peakboard.com/get_started/en-create-with-ai.html
 - /get_started/en-peakboard-box.html: https://help.peakboard.com/get_started/en-peakboard-box.html
 - /get_started/en-peakboard-byod.html: https://help.peakboard.com/get_started/en-peakboard-byod.html
 - /get_started/en-peakboard-designer.html: https://help.peakboard.com/get_started/en-peakboard-designer.html
