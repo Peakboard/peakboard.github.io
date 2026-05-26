@@ -23,22 +23,12 @@ Ein Time Picker wird in der Regel mit einer Startzeit initialisiert und kann dyn
 
 ![image_2](/assets/images/Controls/Timepicker/timepicker_02.png)
 
-## 2 Aussehen und Steuerung
-In den Eigenschaften auf der rechten Seite kannst du das Verhalten und die optische Darstellung präzise steuern:
-1. Control-Positionierung (Allgemeines): Lege die Ausrichtung des Elements auf der Arbeitsfläche fest. Mit den ersten acht Symbolen kann das Control schnell an Ecken oder Seitenmitten platziert werden, während das neunte Symbol die gesamte verfügbare Fläche füllt. Das letzte Icon zentriert das Element mittig, wobei die Größe vorab über die manuellen Eingabefelder definiert werden kann. (1)
-2. Abstand (Allgemeines): Über die Felder Breite, Höhe, Links und Oben kannst du das Eingabefeld präzise positionieren. Darunter definierst du einen inneren Abstand (Padding) für den Text innerhalb des Rahmens. (2)
-3. Schriftart (Aussehen): Passe die Schriftgröße, Schriftart und Farbe der Zeitanzeige an, um eine optimale Lesbarkeit auf dem Display zu gewährleisten (3).
-4. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen (z. B. TimePicker_Control), um die ausgewählte Zeit später per Skript abzurufen (4, 4b).
-5. Bedingte Formatierung (Logik): Nutze die bedingte Formatierung, um beispielsweise die Hintergrundfarbe des Controls zu ändern, wenn eine bestimmte Uhrzeit erreicht oder überschritten wurde (5).
-
-![image_3](/assets/images/Controls/Timepicker/timepicker_03.png)
-
 # Scripting
 Das Time Picker-Control bietet Zugriff auf die ausgewählte Zeit, um diese für Logik-Operationen oder Datenaktualisierungen zu nutzen.
 
 ## Beispiel: Ausgewählte Zeit im Log ausgeben
 In diesem Beispiel nutzen wir das "TextChanged" Event des Time Pickers, um bei jeder Änderung der Zeit eine Meldung im Log zu erzeugen.
-### Schritte im Script-Editor:
+## Schritte im Script-Editor:
 1. Öffne im Designer den Script-Editor auf der rechten unteren Seite unter Logik und dem Ereignis "TextChanged".
 2. Wähle den Building Block „Wert abrufen“ (value) im Bereich deines Screens unter der Bezeichnung des Controls (z. B. TimePicker_Control) und ziehe ihn in den Editor.
 3. Verknüpfe diesen Wert mit dem Block „Ins Log schreiben“ aus der Kategorie Peakboard Box.

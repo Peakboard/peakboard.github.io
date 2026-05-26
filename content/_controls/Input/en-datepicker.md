@@ -24,22 +24,12 @@ A Date Picker usually requires a predefined start value and can optionally be re
 
 ![image_2](/assets/images/Controls/Datepicker/datepicker_02.png)
 
-## 2 Appearance and Control
-In the properties on the right side, you can precisely control the behavior and visual representation:
-1. Control Positioning (General): Define the alignment of the element on the workspace. Use the first eight symbols to quickly place the control at corners or side centers, while the ninth symbol fills the entire available area. The last icon centers the element, where the size can be pre-defined via the manual input fields. (1)
-2. Padding (General): You can precisely position the input field using the Width, Height, Left, and Top fields. Below that, you define an internal spacing (padding) for the text within the frame. (2)
-3. Font (Appearance): Adjust the font size and color of the date to ensure optimal readability on the display (3).
-4. Use in scripts (Logic): Give the control a unique name (e.g., DatePicker_Control) to retrieve the selected date later via script (4, 4b).
-5. Conditional Formatting (Logic): Use conditional formatting to change the background color of the control, for example, if a critical date has been exceeded (5).
-
-![image_3](/assets/images/Controls/Datepicker/datepicker_03.png)
-
 # Scripting
 The Date Picker control provides access to the selected date for use in calculations or changes.
 
 ## Example: Save selected date in a variable
 In this example, we use the "TextChanged" event of the Date Picker to update a label or a data source with every new selection.
-### Steps in the Script Editor:
+## Steps in the Script Editor:
 1. In the Designer, open the script editor on the bottom right under Logic and TextChanged.
 2. Select the "get value" block in the Screen section under the name you assigned to the control (here "DatePicker_Control") and place it on the script editor area.
 3. Link this value to another control (e.g., a text field) or write it to the log. To do this, select the "Write to log" block from the Peakboard Box category, drag it onto the workspace, delete the default content, and link the two blocks.

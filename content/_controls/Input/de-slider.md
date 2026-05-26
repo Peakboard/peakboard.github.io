@@ -21,19 +21,8 @@ Damit der Slider korrekt funktioniert, musst du seinen Arbeitsbereich festlegen.
 * Datenquelle / Variable: Verknüpfe den Slider mit einer Variablen vom Typ Zahl (Number). Jede Bewegung des Reglers schreibt den aktuellen Wert sofort in diese Variable zurück (1)
 * Initialer Wert: Lege fest, auf welcher Position der Regler beim Start der Visualisierung stehen soll. Diesen Wert stellst Du idealerweise in der verknüpften Variable ein (2)
 * Minimum / Maximum (Daten): Definiere den Start- und Endpunkt der Skala. z. B. 0 bis 10 (3).
-
+* Label (Daten): Vergebe deinem Schieberegler eine individuelle Bezeichnung.
 ![image_2](/assets/images/Controls/Slider/slider02.png)
-
-## 2 Aussehen und Beschriftung
-In den Eigenschaften auf der rechten Seite kannst du das Design und die Haptik des Sliders verfeinern:
-1. Label (Daten): Vergebe deinem Schieberegler eine individuelle Bezeichnung (1)
-2. Schriftart & Orientierung (Aussehen): Wähle die Schriftart der Bezeichnung und zwischen einer horizontalen oder vertikalen Ausrichtung des Reglers (2).
-3. Wert-Position & Wert-Schriftart (Wert): Verdeutliche den eingestellten Wert des Reglers in deiner Anzeige und bearbeite die Schriftart des angegebenen Wertes (3).
-4. Schieber & Balken (Aussehen): Passe die Farben und Größe des Regler-Knopfes und der Schiene an dein Dashboard-Design an (4).
-5. Skalendarstellung (Skala): Wähle, ob und in welcher Farbe und Häufigkeit eine gestrichelte Skala an dem Regler dargestellt werden soll (5).
-6. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting identifizieren zu können (6).
-
-![image_3](/assets/images/Controls/Slider/slider03.png)
 
 # Scripting
 Der Slider bietet ein spezifisches Event, um auf Änderungen in Echtzeit zu reagieren:

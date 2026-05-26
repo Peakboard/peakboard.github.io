@@ -21,19 +21,8 @@ For the slider to function correctly, you must define its working range. Click o
 * Data Source / Variable: Link the slider to a variable of type Number. Every movement of the slider immediately writes the current value back to this variable (1).
 * Initial Value: Determine the position of the handle when the visualization starts. Ideally, you should set this value within the linked variable (2).
 * Minimum / Maximum (Data): Define the start and end points of the scale (e.g., 0 to 10) (3).
-
+* Label (Data): Assign an individual label to your slider.
 ![image_2](/assets/images/Controls/Slider/slider02.png)
-
-## 2 Appearance and Labeling
-In the properties on the right side, you can refine the design and feel of the slider:
-1. Label (Data): Assign an individual label to your slider (1).
-2. Font & Orientation (Appearance): Choose the font for the label and select between a horizontal or vertical alignment of the slider (2).
-3. Value Position & Value Font (Value): Display the current value of the slider in your visualization and edit the font of the displayed value (3).
-4. Slider & Bar (Appearance): Adjust the colors and size of the slider handle (thumb) and the track to match your dashboard design (4).
-5. Scale Representation (Scale): Choose whether—and in what color and frequency—a dashed scale should be displayed on the slider (5).
-6. Use in Scripts (Logic): Give the control a unique name to easily identify it later in scripting (6).
-
-![image_3](/assets/images/Controls/Slider/slider03.png)
 
 # Scripting
 The slider offers a specific event to react to changes in real-time:

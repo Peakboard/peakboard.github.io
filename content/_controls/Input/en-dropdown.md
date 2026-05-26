@@ -30,14 +30,7 @@ In the chosen example file, the first row of the selected column is now displaye
 
 ![image4](/assets/images/Controls/Dropdown/dropdown04.png)
 
-## 2 Appearance and Interaction
-In the properties on the right side, you can refine the behavior and design:
-1. Text, Background & Outline (Appearance): Customize the design of the content and the dropdown box (1).
-2. Use in scripts (Logic): Give the control a unique name to easily identify it later in scripting (2).
-3. Selection Changed: This script is executed whenever the user selects a new entry (3).
-
 The Dropdown List primarily reacts to a change in selection. Once you have given the control a unique name for use in scripts, you can utilize it in the script editor. Under the Logic tab in the properties, you will find the event:
-![image5](/assets/images/Controls/Dropdown/dropdown05.png)
 
 # Scripting
 ## Example: Output selected value in the log
