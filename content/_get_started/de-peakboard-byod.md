@@ -26,7 +26,7 @@ Wenn du dir unsicher bist [kontaktiere den Peakboard Support](mailto:support@pea
 
 ### Betriebssystem-Mindestanforderungen
 
-* Windows 10 (ab Version 1607), beliebige Edition, x64 (x86/ARM nicht unterstützt)
+* Windows 10 (ab Version 20H1), beliebige Edition, x64 (x86/ARM nicht unterstützt)
 * Windows 11, beliebige Edition, x64 (x86/ARM nicht unterstützt)
 
 <div class="box-warning" markdown="1">

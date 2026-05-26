@@ -26,7 +26,7 @@ If you are unsure [contact Peakboard Support](mailto:support@peakboard.com) for 
 
 ### Minimum operating system requirements
 
-* Windows 10 (from version 1607), any edition, x64 (x86/ARM is not supported)
+* Windows 10 (from version 20H1), any edition, x64 (x86/ARM is not supported)
 * Windows 11, any edition, x64 (x86/ARM is not supported)
 
 <div class="box-warning" markdown="1">
