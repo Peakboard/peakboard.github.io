@@ -10,59 +10,72 @@ redirect_from:
  - /misc/en-OAuth%20.html
 ---
 
-Learn how to use OAuth authentication for your apps with Peakboard.
+Learn how to use OAuth authentication for your apps with Peakboard. OAuth is used by many web APIs (e.g. Spotify, Slack, Google) to authorize access to protected data without storing a username and password directly.
 
-### 1. On the side of the application to be added
+### 1. On the side of the application to be connected
 
-1. Open API management of the service to be connected.
+1. Open the API management of the service to be connected.
 2. If necessary, create a new project/application/clientID.
-3. Add the Callback URL (Redirect URL) "https://www.peakboard.com/oauth2-callback/" to the created project.
-(The stored callback URL must match the one from Peakboard Designer in every character)
+3. Add the Callback URL (Redirect URL) `https://www.peakboard.com/oauth2-callback/` to the created project (the stored callback URL must match the one from Peakboard Designer in every character).
 
-### 2. In Peakboard Designer, add the application
+### 2. Add the data source in Peakboard Designer
 
-1. create new resource with appropriate data format (the format in which the application to be addressed returns data, usually json).
-2. select "OAuth" as authorization
-3. Use the "Request New Token" button to open the authorization window.
+Create a new data source with the data format in which the application to be addressed returns data – usually JSON. Open [Add data source] and select the appropriate data source (here: [JSON]).
 
-<div class="box-tip" markdown="1">
-If a preset is used, step 2.1 can be skipped and proceed directly to step 2.2.
-</div>
+![Add JSON data source](/assets/images/data-sources/oauth/oauth-01-add-data-source.png)
 
-### 2.1 Not using a preset
+### 3. Select OAuth as the authentication type
 
-1. Select "Custom" for Preset
-2. select the grant type of the service to be connected as the grant type
+In the data source configuration dialog, open the [Authentication Type] dropdown and select [OAuth].
 
-    - OAuth2 - Authorization Code Flow: Most used grant type for OAuth2
-    - OAuth2 - Password Code Flow: Should only be used for security reasons if the application to be connected does not offer an alternative.
-    - OAuth1: Used for applications that only support OAuth1 and not yet OAuth2.
-3. Depending on the grant type selected, look up the Request URL, Authorization URL and Access Token URL with the application provider and enter them.
+![Select authentication type](/assets/images/data-sources/oauth/oauth-02-authentication-type.png)
 
-    - Request URL (OAuth1 only, URL to request the initial Request Token)
-    - Authorization URL (OAuth1+OAuth2, URL of the authorization server)
-    - Access Token URL (OAuth1+OAuth2, URL to request/renew the access token).
+As soon as [OAuth] is selected (1), the [Request new token] button (2) appears next to it. This button opens the OAuth configuration window.
 
-### 2.2 Using a preset
+![OAuth selected](/assets/images/data-sources/oauth/oauth-03-oauth-selected.png)
 
-- Select Preset (the Grant Type, Request URL, Authorization URL and Access Token URL will be filled in automatically).
+### 4. Configure OAuth without a preset
 
-### 3. Enter user-specific data about the application
+If you do not use a preset, configure the connection manually in the [OAuth configuration] window.
 
-1. Enter the ClientID obtained in step 1
-2. Enter the ClientSecret received in step 1.
-3. Certain requests require certain scopes. Enter all required scopes for the scheduled request. Multiple scopes are separated by a space.
-4. Case needs to specify the Access Type. This is usually not required (except Google Cloud Platform). It may be filled in directly with the presets if the corresponding service supports an AccessType, but can also be removed if desired.
+![OAuth configuration without preset](/assets/images/data-sources/oauth/oauth-04-oauth-configuration.png)
 
-### 4. Authorize peakboard against the application
+1. For [Presets] (1), select [Custom].
+2. For [Grant type] (2), select the grant type used by the service to be connected:
 
-1. Press the "Request Token" button. A browser window will open automatically.
-2. In the newly opened browser window, perform the application login process.
-3. If the login was successful, the browser window will close and the "Request New Token" button will be labeled "Authorized - Update Token".
+    - **OAuth2 - Authorization Code Flow**: the most commonly used grant type for OAuth2
+    - **OAuth2 - Password Grant**: should only be used for security reasons if the application does not offer an alternative
+    - **OAuth1**: used for applications that only support OAuth1 and not yet OAuth2
+
+3. The [Callback URL] (3) is already prefilled and must exactly match the redirect URL stored in step 1.
+4. Depending on the selected grant type, look up the [Access token URL] (4) and [Authorisation URL] (5) with the application provider and enter them:
+
+    - **Access token URL** (OAuth1+OAuth2, URL to request/renew the access token)
+    - **Authorisation URL** (OAuth1+OAuth2, URL of the authorization server)
+
+5. Enter the [Client ID] (6) and [Client secret] (7) obtained in step 1.
+6. If the planned request requires certain scopes, enter all required scopes in the [Scope] field. Multiple scopes are separated by a space.
+7. If required, specify the [Access type]. This is usually not needed (exception: Google Cloud Platform).
+
+### 5. Configure OAuth with a preset
+
+A preset is available for many well-known services. Open the [Presets] dropdown and select the matching service.
+
+![Select preset](/assets/images/data-sources/oauth/oauth-05-presets.png)
+
+After selecting a preset (1), the grant type, [Access token URL] (2) and [Authorisation URL] (3) are filled in automatically. You only need to add the [Client ID] and [Client secret] of the service.
+
+![Preset filled in](/assets/images/data-sources/oauth/oauth-06-preset-filled.png)
+
+### 6. Authorize Peakboard against the application
+
+1. Press the [Request token] button (8). A browser window will open automatically.
+2. In the newly opened browser window, perform the application's login process.
+3. If the login was successful, the browser window closes and the [Request new token] button is now labeled [Authorized - Update Token].
 4. This completes the authorization process.
 
-### 5. General information about further procedures
+### 7. General information about further procedures
 
-1. The URL of the new web resource is now executed with authorization. Now requests to the API can be made here. The exact Url must be determined thereby with the appropriate application. Currently only Http-GET requests are possible.
-2. Via the "Authorized - Update Token" button the existing authorization can be adjusted.
+1. The URL of the new data source is now executed with authorization. Requests to the API can be made here. The exact URL must be determined with the respective application. Currently only HTTP-GET requests are possible.
+2. Via the [Authorized - Update Token] button, the existing authorization can be adjusted.
 3. If desired, the authorization for Peakboard can be removed via the API management of the application (if not specified otherwise by the application).

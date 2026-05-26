@@ -2,7 +2,7 @@
 layout: article
 title: External dynamic data sources illustrated by an XML data source example
 menu_title: External dynamic data sources
-description: External dynamic data sources illustrated by an XML data source example
+description: Learn how Peakboard turns an external XML source into a live, data-bound table – from adding the data source to styling the columns.
 lang: en
 weight: 0
 ref: dat-0
@@ -14,56 +14,66 @@ redirect_from:
 ---
 Basically, Peakboard distinguishes between two main concepts of how dynamic content is embedded:
 
-1. The data comes fully prepared from the external source and only needs to be integrated into a panel. This is the case, for example, if you integrate an external website in part or in entirety. Or even if you use a BI tool such as Power BI, QlikView, Tableau or similar and leave the preparation of the data to the BI tool. Peakboard then acts as a kind of display program and the respective pre-system takes care of the visual preparation.
+1. The data comes fully prepared from the external source and only needs to be integrated into a panel. This is the case, for example, if you embed an external website in part or in full. Or if you use a BI tool such as Power BI, Tableau or similar and leave the preparation of the data to that tool. Peakboard then acts as a kind of display program while the respective pre-system takes care of the visual preparation.
 
-2. The data comes in as raw data from an external source. Such sources can be, for example, XML, JSon, a database or a social media feed. Here, only the pure data is transported and the visualization then takes place directly in Peakboard. For this purpose, visual controls are available to display the data nicely, e.g. charts, tables, etc.
+2. The data comes in as raw data from an external source. Such sources can be, for example, XML, JSON, a database or a social media feed. Here only the pure data is transported and the visualization happens directly in Peakboard. For this purpose visual controls are available to display the data nicely, e.g. charts, tables, etc.
 
-This guide deals exclusively with the second option. The basis will be an XML data source. Take a look at the following XML file. It contains all current departures from Stuttgart main station in real time and is provided by Deutsche Bahn:
+This guide deals exclusively with the second option. The basis is an XML data source. As a public example we use a small CD catalog provided by W3Schools – feel free to open it in your browser to see its structure:
 
-[https://open-api.bahn.de/bin/rest.exe/departureBoard?authKey=DBhackFrankfurt0316&lang=de&id=008000096](https://open-api.bahn.de/bin/rest.exe/departureBoard?authKey=DBhackFrankfurt0316&lang=de&id=008000096)
+[https://www.w3schools.com/xml/cd_catalog.xml](https://www.w3schools.com/xml/cd_catalog.xml)
 
-Open the Peakboard Designer and select the data source [XML] under [Add Data Source] (1).
+## Add the XML data source
 
-![Add XML data source](/assets/images/Tutorial/XML/XML_add_en.png)
+Open the Peakboard Designer. In the explorer, click the [...] button next to [Data] (or right-click [Data] and choose [Add data source]). In the [Add data source] dialog, type "XML" into the search field (1) so the list is filtered down to the XML tile (2). Open it with a double click.
 
-In the XML data source configuration dialog, you must first assign a unique name for the data source (e.g., Departure) (2) and then copy and paste the URL from above into the [Base Url] field (3). Peakboard will automatically split the URL (4). By clicking on the three dots in the [Specify] area (5), you can select the desired elements of the XML file. 
+![Add the XML data source](/assets/images/data-sources/xml-data/xml-data-01-add-datasource.png)
 
-![Configure XML data source](/assets/images/Tutorial/XML/XML_config-01_en.png)
+## Configure the connection
 
-Certain elements are not needed. You can remove the marker here (6), so that they do not appear in the further process. Especially with very complex XML files, it is advisable to discard all elements for which you have no use early on.
+The configuration dialog opens. On the left you define where the data comes from, on the right you get a live preview.
 
-![Configure XML data source](/assets/images/Tutorial/XML/XML_config-02_en.png)
+![The empty XML data source configuration dialog](/assets/images/data-sources/xml-data/xml-data-02-config.png)
 
-Clicking OK transfers all values to the data source dialog. You can check the correct configuration by clicking on [Load Data]. In the Preview area (7), you can also briefly check the plausibility of the data again.
+Fill in the fields:
 
-![Configure XML data source](/assets/images/Tutorial/XML/XML_config-03_en.png)
+* **Data source name (1)** – assign a unique, descriptive name (e.g. `Departure`).
+* **Source type (2)** – where the XML source is located: via **URL**, in a **network share**, as a local **file**, in **Microsoft 365** or in the **Peakboard Hub**. For this example, leave it on **URL**.
+* **Base URL (3)** – paste the CD catalog address from above. Peakboard automatically splits it into the base URL and the URL path. If the source is protected you can additionally set an **Authentication Type**.
 
-Next, you create the visualization. The data should simply be displayed in a table. To do this, drag a table grid control from the toolbox to the workspace and select the data source created in the previous steps (8).
+![The XML data source with name and URL](/assets/images/data-sources/xml-data/xml-data-03-config-filled.png)
 
-![Add control](/assets/images/Tutorial/XML/XML_add-control-01_en.png)
+## Select the XML element
 
-Confirm by clicking [OK] and adjust the size of the table element by clicking and dragging its edges to fill almost the entire area (9).
+Because a Peakboard data source is always tabular, you have to define which part of the XML tree forms the table. Click the [...] button in the [Specify details] area. Peakboard downloads the source and analyzes its structure.
 
-![Add control](/assets/images/Tutorial/XML/XML_add-control-02_en.png)
+In the [Elements] tree (1) pick the element that repeats and therefore forms the table rows – in the example the `CD` node below `CATALOG`. The resulting [Columns] (2) appear below. Tick only the columns you actually need; especially with very complex XML files it is good practice to leave out unused elements right from the start. Confirm with [OK].
 
-The table element already shows all columns of the data source on the panel. However, it is not very pretty yet. Open the following configuration dialog by clicking on the three dots in the [General] - [Columns] area. All columns of the data source are listed there. 
+![Select the repeating XML element](/assets/images/data-sources/xml-data/xml-data-04-select-element.png)
 
-In the column [Caption] (10) give the columns better names, e.g. "Train type" instead of "type" or "Departure" instead of "time" and so on. The column [Width] (11) contains "Fill" by default. Change all columns except the travel direction to "Cut". This means that the column will be rendered as wide as the widest data element, i.e. to an optimal width. You can also change the [Alignment] (12) to "Center" everywhere except for the travel dircetion. Then click OK.
+## Load the preview
 
-![Configure control](/assets/images/Tutorial/XML/XML_control-config-01_en.png)
+Back in the configuration dialog, click [Load data]. The reload icon (1) refreshes the preview at any time. In the [Preview] area (2) you can check the plausibility of the data and the detected data types. Click [OK] to create the data source. It now appears in the explorer under [Data] and can be bound to any control.
 
-Back in the main screen, change the following values in the [Appearance] (13) section of the table, for example:
+![The loaded preview of the XML data](/assets/images/data-sources/xml-data/xml-data-05-preview.png)
 
-- Header Font: header2, change font size to 45 and bold.
-- Body Font: default, change font size to 30
-- Header Background: #FFFFAA00
-- Border size: 0
-- Cell Padding: 30,15,30,15
+## Visualize the data in a table
 
-Now click on [Preview] (14).
+Next you create the visualization. The data should simply be shown in a table. Drag the data source from the explorer onto the workspace and choose [Table] from the menu that appears. The table is created and is already bound to the data source (1) – it immediately shows all columns with live data.
 
-![Configure control](/assets/images/Tutorial/XML/XML_control-config-02_en.png)
+To turn the table into a finished dashboard, use [Edit table columns] (2) to refine the columns and the [Control positioning] icons (3) to place and size the control. The fastest way to fill the screen is the **Fill screen** icon.
 
-The result should now look something like the screenshot below. The table is filled dynamically and refreshed every 90 seconds according to the information in the data source.
+![The data-bound table on the workspace](/assets/images/data-sources/xml-data/xml-data-06-table-canvas.png)
 
-![Result](/assets/images/Tutorial/XML/XML_result_en.png)
+## Customize the columns
+
+Click [Edit table columns] to open the column dialog. Every column of the data source is listed there:
+
+* **Caption (1)** – give the columns better, readable names, e.g. "Album" instead of `TITLE`.
+* **Width (2)** – "Fill" stretches a column; switch most columns to "Cut" so they only take up as much space as their widest value needs.
+* **Alignment (3)** – set the horizontal alignment, e.g. "Center" for short values.
+
+You can also adjust [Format] and [Specific font] per column, and reorder columns via drag and drop. Confirm with [OK].
+
+![The Edit table columns dialog](/assets/images/data-sources/xml-data/xml-data-07-edit-columns.png)
+
+Back on the workspace you can fine-tune the look of the table in the [Appearance] section (header and body font, background color, border, cell padding, …). When everything fits, click [Preview] to run the application: the table is filled dynamically and refreshed automatically according to the reload interval of the data source.

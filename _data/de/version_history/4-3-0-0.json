@@ -1,0 +1,500 @@
+﻿[
+  {
+    "version": "4.3.0.0",
+    "date": "07.05.2026",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.3.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.3.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.3.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+      {
+        "name": "AI Generator",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-3-0-0-AI_DE.gif",
+            "description": "Mit dem AI Generator lassen sich Peakboard Projekte per Prompting erstellen."
+          }
+        ]
+      },
+      {
+        "name": "Komponenten",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-3-0-0-Components_DE.gif",
+            "description": "Mehrere Controls können zu einer wiederverwendbaren Komponente verbunden werden."
+          }
+        ]
+      },
+      {
+        "name": "Kalender Control",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-3-0-0-Calendar_DE.gif",
+            "description": "Mit dem neuen Kalender Control lässt sich ein Kalender direkt im Projekt anzeigen."
+          }
+        ]
+      },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Reload-Button hinzugefügt, wenn ein Paket extern geändert wurde.",
+              "Ladeanzeige verbessert und das mehrfache Öffnen des Ladefensters unterbunden.",
+              "Menü-Expander verbessert, sodass er leichter mit dem Cursor erreichbar ist.",
+              "Verbesserte Menügrenzen, damit sie mit dem Cursor leichter zu erreichen ist.",
+              "Große Dialoge (Template Editor, Skript-Editor) öffnen sich nun auf dem Bildschirm, auf dem sich der Peakboard Designer aktuell befindet.",
+              "Unterdialoge mit der gleichen Größe wie ihr Hauptdialog öffnen sich nun mit horizontalem Versatz.",
+              "Abstandslinien ignorieren nun Klicks.",
+              "Fehler in der Oberfläche beim Minimieren behoben.",
+              "Behoben, dass Warnmeldungen hinter dem Splash-Screen erschienen, wenn eine pbmx-Datei geöffnet wurde.",
+              "Fehler beim Umbenennen eines Controls von Klein- in Großschreibung behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Setup"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Setup überarbeitet.",
+              "Branch-Information im Setup hinzugefügt mit der Option, vom entsprechenden Branch zu aktualisieren oder zum Master zurückzukehren.",
+              "Health-Check am Ende des Setups hinzugefügt mit automatischem Backup bei Fehlern.",
+              "Silent-Update-Parameter für die designer.exe hinzugefügt.",
+              "Behoben, dass bei der Deinstallation von Peakboard BYOD nicht alle Komponenten und Binaries entfernt wurden.",
+              "Doppelte Peakboard.ExtensionKit.Process64.exe in der Peakboard-BYOD-Installation behoben.",
+              "Deinstallation behoben, sodass Fehler korrekt gemeldet und laufende Instanzen erkannt werden.",
+              "Silent-Deinstallation behoben, sodass die uninstall.exe entfernt wird."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Validierungswarnung hinzugefügt, wenn ein Dataflow- oder Output-Schritt auf einer nicht geladenen Datenquelle basiert.",
+              "Unterstützung für Peakboard Extensions in Hub Flows hinzugefügt.",
+              "Standard für Schritte in Hub-Flow-Projekten von 'bei Änderung' auf 'Immer' geändert.",
+              "Hub-Flow-Projekte prüfen die Peakboard-Hub-Lizenz nun bei jedem Upload anstatt nur beim Start des Peakboard Designers.",
+              "Sortierung der Flows behoben, sodass sie sich nach dem Erstellen oder Umbenennen eines Flows sofort alphabetisch aktualisiert.",
+              "Trigger 'Function Execute' behoben, sodass die Quellfunktion korrekt abgewartet wird.",
+              "Unerwartete Exception beim Taggen eines Flows in einem Datenprojekt behoben.",
+              "OPC-UA-Unterstützung mit dem Reload-Schritt in Flows behoben, wenn die 'variables'-Konfiguration verwendet wird."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Möglichkeit hinzugefügt, Peakboard Hub Listen direkt aus dem Peakboard Designer auf Basis einer Variablenliste, Datenquelle oder eines Dataflows zu erstellen sowie Variablenlisten in Peakboard Hub Listen umzuwandeln.",
+              "Peakboard-Hub-Dialog Fix, sodass der Projekt-Hub angezeigt wird, wenn der User-Hub leer ist, und 'Verbinden' anstelle von 'Ok' beim Drücken von Enter verwendet wird.",
+              "Fehlende Fehlermeldung behoben, wenn das Speichern eines Screenshots im Peakboard-Hub-Dateimanager fehlschlägt.",
+              "Base-64-Fehler beim Hinzufügen einer Peakboard Box zum Peakboard Hub für Zugriffsrechte behoben.",
+              "Lua-Befehl 'addtohublist' behoben, sodass er bei einem fehlgeschlagenen Update einen Fehler loggt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Liste"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Filter bleiben nun beim Wechsel zwischen Peakboard Hub Listen erhalten, wenn die neue Liste die gleichen Spalten enthält.",
+              "Funktion 'Peakboard Hub Liste ersetzen' behoben, sodass sie auch funktioniert, wenn die ID-Spalte enthalten ist.",
+              "Unerwarteten Fehler beim erstmaligen Auswählen einer Liste in einer neuen Peakboard-Hub-Listen-Datenquelle behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dataflow"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Vorschaudaten kaskadierter Dataflows werden nun automatisch neu geladen, wenn sich eine Tabellenstruktur ändert.",
+              "Referenzierte Dataflows werden nun automatisch in Controls upgedated, wenn sich die Vorschaudaten einer Datenquelle ändern.",
+              "Einstellungen vom Daten- und Schritte-Bereich in Dataflows getrennt.",
+              "Fehlende Spaltenanzeige in Dataflows mit einem Join-Schritt nach dem Hinzufügen einer neuen Spalte zur Basis-Datenquelle behoben.",
+              "Behoben, dass die Vorschaudaten nicht aktualisiert wurden, wenn ein Sortier-Schritt zu einem Dataflow auf Basis einer Variablenliste hinzugefügt wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Reload Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Behoben, dass Dataflows in Flows hängen blieben, wenn sie ausgeführt wurden, bevor alle notwendigen Daten geladen waren."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Datenquellen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Performance beim Öffnen des Datenquellen-Dialogs verbessert.",
+              "Mausrad-Funktion innerhalb der Listenauswahl der Peakboard-Hub-Listen-Datenquelle behoben.",
+              "Scrollbar in der Zeittabelle der Zeit-Datenquelle durch Neupositionierung der Infobox behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Ressourcen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Unterstützung für komprimierte URL-Ressourcen und Datenquellen hinzugefügt.",
+              "Ressourcen ermöglichen nun das Ändern von Dateien ohne erneute Authentifizierung.",
+              "Bilder aus Sharepoint und OneDrive mit mehreren Punkten im Dateinamen behoben.",
+              "Behoben, dass Ressourcen beim Drag-and-Drop an falschen Positionen abgelegt wurden.",
+              "Button 'Zur Quelle navigieren' behoben, wenn die Quelle auf dem aktuellen Bildschirm nicht sichtbar ist.",
+              "Behoben, dass Office-365-Ressourcen ihre Authentifizierung beim Öffnen verloren."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Google Spreadsheets / Microsoft Graph"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Google Drive und Google Spreadsheets mit neuer Ressource, Datei-Picker und Datenquelle überarbeitet.",
+              "MicrosoftGraphConnection und GoogleDriveConnection erlauben nun das Navigieren zur Ressource statt nur zum Listenelement."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Variable"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Validierung beim Hinzufügen einer Variablen verbessert.",
+              "Checkbox 'Leeren Wert erlauben' für Variablen-, Variablenlisten- und Funktions-Constraints hinzugefügt.",
+              "Problem beim Tagging und Beschreibung für Variablenlisten und Screens behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Globale Funktionen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Wertebeschränkungs-Tabelle durch das Tag-Pattern für einzelne Variablen und Parameter globaler Funktionen ersetzt.",
+              "Fehler bei Parameter-Constraints beim Speichern einer globalen Funktion behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Explorer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem beim Umbenennen von Datenquellen, Dataflows, Variablenlisten und Variablen in eine andere Groß-/Kleinschreibung behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Snippets / Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Option 'Variable erstellen' im Kontextmenü des Loop Building Blocks hinzugefügt.",
+              "Building Blocks behalten nun die ausgewählte Spalte beim Wechsel der Liste, sofern eine Spalte mit demselben Namen existiert.",
+              "Behoben, dass mehrzeilige Strings, die mit '[' beginnen, falsche Trennzeichen erzeugten.",
+              "Aktualisierungen des 'Set Value' Building Blocks behoben, sodass keine Spalten mehr vertauscht werden.",
+              "Boolean-Handling in Item Building Blocks für Dataflows auf Basis einer Variablenliste behoben.",
+              "Problem im JSON-Array-Parsing in Building Blocks behoben.",
+              "Vorauswahl des obersten Building Blocks im aktualisierten Skript einer Variable verbessert, sodass die gewählte Variable verwendet wird.",
+              "NullReferenceException nach dem Schließen des Box-Dialogs behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Skripting"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Möglichkeit hinzugefügt, mehrere Skripte in Tabs zu öffnen.",
+              "Fehler im Script Tester bei HTTP-Anfragen behoben.",
+              "Unerwünschte Leerzeichen in mehrzeiligen Blöcken innerhalb von Schleifen entfernt.",
+              "Problem bei Script Vorschlägen nach dem Wechsel von Building Blocks zu Skript behoben.",
+              "Exception beim Öffnen des Skript-Editors aus der Menüleiste behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Bedingte Formatierung"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Checkbox 'Zeilenindex verwenden' für Datenbindungen in der bedingten Formatierung innerhalb von Styled Lists und Styled Tile Collections hinzugefügt.",
+              "Möglichkeit hinzugefügt, eine Anweisung in der bedingten Formatierung zu duplizieren."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Styled Tile / List / Collection"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Balloon- und Cloud-Control aus dem Template Editor entfernt.",
+              "Behoben, dass die Zeilennummer in der Datenbindung verloren ging, wenn 'OK' geklickt wurde, ohne das Popup zuvor zu schließen.",
+              "Problem in Datenbindung und 'This styled list' Building Blocks für Listviews mit Parametern behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Button"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Horizontale Ausrichtung für den Button-Text hinzugefügt.",
+              "Fortschrittsbalken des Buttons durch ein zentriertes, animiertes Icon ersetzt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Bild"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Bild-Control unterstützt nun Base64-codierte Bilder.",
+              "Bild-Control aktualisiert nun die Eigenschaft 'Dateiname' aller gebundenen Controls, wenn sich das Bild in einer Cloud- oder Peakboard-Hub-Ressource ändert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Textbox"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fix für Padding-Eigenschaft der Textbox.",
+              "Skripting-Zugriff für Textboxen mit dem Eingabetyp 'Numerisch' behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dropdown"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Dropdown-Auswahl mit transparentem Hintergrund behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Video"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Dropdown zur Auswahl der Streaming-Auflösung für das Video-Control hinzugefügt.",
+              "Kamera-Screenshots werden nun als JPG statt als PNG gespeichert.",
+              "Video-Control erstellt nun den lokalen Cache-Ordner, falls er nicht existiert.",
+              "Upload des Kamerabilds zum Peakboard Hub behoben.",
+              "Webcam-Upload zu Sharepoint behoben.",
+              "Eingabe eines festen Wertes im Standard-Kameraindex behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "PDF"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Memory-Leak im PDF-Control behoben.",
+              "NullReferenceException im PDF-Control behoben.",
+              "Behoben, dass PDFs nicht mehr im Web-Control geladen wurden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Website / Web"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Konfigurationsdialog für das Webpage-Control öffnet sich nun per Doppelklick."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Calendar Control"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Kalendar Control hinzugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Gruppe"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Komponenten hinzugefügt, die Controls miteinander verbinden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Eigenschaftenbereich"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Button im Eigenschaftenbereich hinzugefügt, um bei allen Datenbindungen direkt zur gebundenen Datenquelle zu springen."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Format"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Behoben, dass 'c' innerhalb eines Textes im Datumsformat als Kalenderwoche angezeigt wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Box-Kommunikation"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Performance beim Auswählen einer Peakboard Box verbessert, wenn der verbundene Peakboard Hub nicht erreichbar ist.",
+              "Problem in Cloud-Verbindung behoben, wenn die Eigenschaft 'prefer hostname' aktiv ist.",
+              "Fehlermeldung beim Hinzufügen einer nicht erreichbaren Peakboard Box behoben.",
+              "Fehler nach dem Schließen des Box-Verwaltungsdialogs behoben.",
+              "Kritisches Problem beim Lesen von Screenshots aufgrund eines geschlossenen Streams behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem in IP-Anzeige bei langem Hostnamen behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Runtime"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Memory-Leak im Log- und Debug-Panel behoben.",
+              "Behoben, dass Screenshots von Peakboard Boxen die DPI-/Windows-Zoom-Einstellung ignorierten."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "WebServer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem in WebServer behoben, sodass er nach einem Beenden aufgrund eines fehlenden Zertifikats neu startet."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Debug-Panel"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Standard-Spaltenbreite in Debug-Panel-Tabellen erhöht."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Extensions"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Behoben, dass der Löschen-Button in den Extensions abgeschnitten wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "BACnet"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Behoben, dass Änderungen am Callback-Port in BACnet nicht gespeichert wurden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Oracle"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Oracle-Client upgedated, sodass er für alle Datenbanken funktioniert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "PowerBI"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem für den Ablauf des Power-BI-Refresh-Tokens behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "E-Mail"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Option für das Versenden von E-Mail-Anhängen auf Basis eines Base64-Strings hinzugefügt."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

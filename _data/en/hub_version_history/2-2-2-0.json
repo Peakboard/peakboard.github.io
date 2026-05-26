@@ -1,0 +1,178 @@
+[
+  {
+    "version": "2.2.2.0",
+    "date": "20.05.2026",
+    "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/2.2.2.0/PeakboardHubSetup.exe",
+    "tabs": [
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Peakboard Boxes"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "The initial setup process for new boxes has been added:",
+              "Added the ability to define a Peakboard application for a box group and automatically keep the group's boxes up to date.",
+              "Updated the box details page to fit the current UI.",
+              "Added a message window indicating that a box update has been started.",
+              "The memory graph in the box details will now show the devices max memory as max value.",
+              "Added an 'Ungroup' button to the set-group dialog.",
+              "Added a button to show the WLAN password.",
+              "Added box group names to the Designer box-sync response.",
+              "Changed the Hub-to-box communication to token-based authentication instead of basic authentication.",
+              "Removed the 5 MB upload limit for the on-premise Hub.",
+              "Removed the non-functional selection checkboxes from the box overview list view.",
+              "Improved the box overview list view so columns have a consistent width across box groups.",
+              "Fixed an issue where the magnifier icon appeared across multiple groups, when hovering over a box in the box overview.",
+              "Fixed an issue where empty-state texts were shown even when content was available.",
+              "Fixed an issue where zero was used as the default value for box function parameters with a minimum value greater than zero.",
+              "Fixed an issue where unusable functionalities were shown in the box overview for user groups with restricted access rights.",
+              "Fixed an issue that prevented opening the box details page for boxes with an encrypted connection.",
+              "Fixed an issue where existing box groups were not shown correctly in the grouping dialog.",
+              "Fixed an issue that allowed creating box groups with a name that already existed within the same user group."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Lists"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added list management endpoints (add/update/delete) for the Designer.",
+              "Added the ability to add a description to lists, shown via an info icon in the list settings.",
+              "Added the ability to group user lists for a better overview.",
+              "Added a scrollbar to the list explorer.",
+              "Added the list name to the delete-list confirmation dialog.",
+              "Updated the list import file filter to show text files (*.txt, *.csv) instead of all files.",
+              "Improved the list filter dropdown so its options are sorted like the list columns.",
+              "Improved handling for large lists. The header row and horizontal scrollbar always stay visible.",
+              "Fixed an issue where adding a row did not work and no error was shown when unsaved data could not be committed.",
+              "Fixed an issue where the message box was incorrect when switching lists with invalid unsaved changes.",
+              "Fixed an issue where the list selection was lost after saving changes in the list settings.",
+              "Fixed an issue where inserting integer values into number columns of Hub lists from the runtime did not work.",
+              "Fixed an issue where the default value did not work after changing a list column type from number to string.",
+              "Fixed an issue where clicking outside the create-list dialog discarded all entries without confirmation.",
+              "Fixed an issue where Hub lists allowed column names containing spaces."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Variables"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added the ability to rename a variable, including a warning that this may break connections.",
+              "Removed the accept/decline buttons for boolean variables. Changes are now saved directly."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "File Manager"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Renamed the file manager root folder in the UI to 'Hub File Root'.",
+              "Added the user who saved a version to the file version list.",
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added extensions to the hub flows.",
+              "Added global function triggers with parameters.",
+              "Added live updates for the step states and logs.",
+              "Added BacNet as usable datasource.",
+              "Added a confirm dialog, which includes a warning about the output lists, when deleting a flow project.",
+              "Improved Hub Flow output lists, including plain SQL calls and the ability to download flow lists.",
+              "Improved visibility of stopped or crashed flow projects.",
+              "Fixed an issue where flow step names did not fit in the UI.",
+              "Fixed issues with Modbus and OPC UA.",
+              "Fixed an issue where writing a ' character to the hub flow output lists was not possible.",
+              "Fixed an issue where the order of flows differed from the Peakboard Designer."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Users"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added single sign-on (SSO) support using the Kerberos protocol.",
+              "Added the ability to generate a new Hub user group key.",
+              "Removed the group key button and dialog from the users page.",
+              "Fixed an issue where user management data could not be loaded on fresh installations with a new database."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Logs"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added the server time to the logs page.",
+              "Added a functionality to group identical log entries.",
+              "Cleaned up unnecessary log entries and moved noisy entries to lower categories.",
+              "Fixed the sorting of Hub log entries so they are ordered by time, newest first."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Alerts"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added the ability to configure a custom SMTP server for email notifications in the settings.",
+              "Fixed an issue where alert times were shown in UTC instead of the user's local time."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "General"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Updated the frontend to Angular 21.",
+              "Added the ability to define a test system and synchronize the production database to a test database.",
+              "Users are now redirected to the login page when their session expires.",
+              "Reworked the Hub Flow, list, and file icons for clearer communication between features.",
+              "Cleaned up inconsistent red colors used throughout the Hub.",
+              "Removed the unnecessary bottom line in popup dialogs.",
+              "Removed a database optimization from update 1.23 that caused issues on some SQL servers.",
+              "Fixed an issue where minimizing the left sidebar enlarged the top section.",
+              "Fixed an issue where the login button stayed in a loading state after entering invalid credentials.",
+              "Fixed an issue where the version was not displayed correctly on the login screen.",
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "API"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added an MCP server to the Hub API. Lets AI clients access the Hub API calls via the Model Context Protocol.",
+              "Added file management endpoints (read, upload, delete) to the API.",
+              "Added an API endpoint to retrieve a screenshot from a box.",
+              "We fixed an issue where, if there were multiple hubs on a system, API calls could be routed to the wrong hub.",
+              "Fixed an issue where the API returned 'Default' as the group for all boxes."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

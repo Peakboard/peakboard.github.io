@@ -1,0 +1,178 @@
+[
+  {
+    "version": "2.2.2.0",
+    "date": "20.05.2026",
+    "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/2.2.2.0/PeakboardHubSetup.exe",
+    "tabs": [
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Peakboard Boxen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Der Setup-Prozess für die Erstinbetriebnahme neuer Boxen wurde hinzugefügt.",
+              "Es wurde die Möglichkeit hinzugefügt, eine Peakboard-Anwendung für eine Box-Gruppe zu definieren.",
+              "Die Box-Detailseite wurde an die aktuelle UI angepasst.",
+              "Ein Meldungsfenster wurde hinzugefügt, das anzeigt, wenn ein Box-Update gestartet wurde.",
+              "Das Arbeitsspeicher-Diagramm in den Box-Details zeigt nun den maximalen Arbeitsspeicher des Geräts als Maximalwert an.",
+              "Ein „Gruppierung aufheben“-Button wurde zum Gruppen-Dialog hinzugefügt.",
+              "Ein Button zum Anzeigen des WLAN-Passworts wurde hinzugefügt.",
+              "Die Box-Gruppennamen wurden der Designer-Box-Synchronisierung hinzugefügt.",
+              "Die Hub-zu-Box-Kommunikation wurde auf eine tokenbasierte Authentifizierung anstelle der Basic-Authentifizierung umgestellt.",
+              "Das 5 MB Upload-Limit für den Hub on-prem wurde entfernt.",
+              "Die nicht funktionalen Auswahl-Checkboxen wurden aus der Listenansicht der Box-Übersicht entfernt.",
+              "Die Listenansicht der Box-Übersicht wurde verbessert, sodass Spalten über Box-Gruppen hinweg eine einheitliche Breite haben.",
+              "Ein Problem wurde behoben, bei dem die Lupe beim Hovern über einer Box in der Box-Übersicht in mehreren Gruppen angezeigt wurde.",
+              "Ein Problem wurde behoben, bei dem Empty-State-Texte angezeigt wurden, obwohl Inhalte vorhanden waren.",
+              "Ein Problem wurde behoben, bei dem Null als Standardwert für Box-Funktionsparameter mit einem Mindestwert größer als Null verwendet wurde.",
+              "Ein Problem wurde behoben, bei dem in der Box-Übersicht nicht nutzbare Funktionalitäten für Benutzergruppen mit eingeschränkten Zugriffsrechten angezeigt wurden.",
+              "Ein Problem wurde behoben, durch das die Box-Detailseite für Boxen mit verschlüsselter Verbindung nicht geöffnet werden konnte.",
+              "Ein Problem wurde behoben, bei dem bereits existierende Box-Gruppen im Gruppierungs-Dialog nicht korrekt angezeigt wurden.",
+              "Ein Problem wurde behoben, durch das Box-Gruppen mit einem bereits innerhalb derselben Benutzergruppe vorhandenen Namen erstellt werden konnten."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Listen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Listen-Verwaltungs-Endpunkte (Hinzufügen/Aktualisieren/Löschen) für den Designer wurden hinzugefügt.",
+              "Die Möglichkeit wurde hinzugefügt, eine Beschreibung zu Listen hinzuzufügen, die über ein Info-Icon in den Listeneinstellungen angezeigt wird.",
+              "Die Möglichkeit wurde hinzugefügt, Benutzerlisten für eine bessere Übersicht zu gruppieren.",
+              "Eine Scrollleiste wurde zum Listen-Explorer hinzugefügt.",
+              "Der Listenname wurde zum Bestätigungsdialog für das Löschen einer Liste hinzugefügt.",
+              "Der Dateifilter beim Listenimport wurde aktualisiert, sodass Textdateien (*.txt, *.csv) anstatt aller Dateien angezeigt werden.",
+              "Das Dropdown des Listenfilters wurde verbessert, sodass die Optionen identisch zu den Listenspalten sortiert sind.",
+              "Der Umgang mit großen Listen wurde verbessert. Die Kopfzeile und die horizontale Scrollleiste bleiben stets sichtbar.",
+              "Ein Problem wurde behoben, bei dem das Hinzufügen einer Zeile nicht funktionierte und keine Fehlermeldung angezeigt wurde, wenn ungespeicherte Daten nicht übernommen werden konnten.",
+              "Ein Problem wurde behoben, bei welchem die Meldung beim Wechseln von Listen mit ungültigen, ungespeicherten Änderungen falsch war.",
+              "Ein Problem wurde behoben, bei dem die Listenauswahl nach dem Speichern von Änderungen in den Listeneinstellungen verloren ging.",
+              "Ein Problem wurde behoben, durch welches das Einfügen von Ganzzahl-Werten in Zahlenspalten von Hub-Listen aus der Runtime nicht funktionierte.",
+              "Ein Problem wurde behoben, bei dem der Standardwert nach dem Ändern eines Listenspalten-Typs von Number zu String nicht funktionierte.",
+              "Ein Problem wurde behoben, durch welches ein Klick außerhalb des Dialogs zum Erstellen einer Liste, alle Eingaben ohne Rückfrage verwarf.",
+              "Ein Problem wurde behoben, durch das Hub-Listen Spaltennamen mit Leerzeichen zuließen."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Variablen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Möglichkeit wurde hinzugefügt, eine Variable umzubenennen, inklusive eines Warnhinweises, dass dadurch Verbindungen beschädigt werden können.",
+              "Die Akzeptieren/Ablehnen-Buttons für boolesche Variablen wurden entfernt. Änderungen werden nun direkt gespeichert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dateimanager"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Der Stammordner des Dateimanagers wurde in der Nutzeroberfläche zu „Hub File Root“ umbenannt.",
+              "Der Benutzer, der eine Version gespeichert hat, wurde zur Liste der Dateiversionen hinzugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Erweiterungen (Extensions) wurden zu den Hub Flows hinzugefügt.",
+              "Globale Funktions-Trigger mit Parametern wurden hinzugefügt.",
+              "Live-Aktualisierungen für die Schrittzustände und Logs wurden hinzugefügt.",
+              "BacNet wurde als nutzbare Datenquelle hinzugefügt.",
+              "Ein Bestätigungsdialog mit einem Warnhinweis zu den Ausgabelisten wurde beim Löschen eines Flow-Projekts hinzugefügt.",
+              "Die Hub-Flow-Ausgabelisten wurden verbessert, einschließlich Plain-SQL-Aufrufen und der Möglichkeit, Flow-Listen herunterzuladen.",
+              "Die Sichtbarkeit gestoppter oder abgestürzter Flow-Projekte wurde verbessert.",
+              "Ein Problem wurde behoben, bei dem die Namen von Flow-Schritten nicht in die UI passten.",
+              "Probleme mit Modbus und OPC UA wurden behoben.",
+              "Ein Problem wurde behoben, bei dem das Schreiben eines ' Zeichens in die Hub-Flow-Ausgabelisten nicht möglich war.",
+              "Ein Problem wurde behoben, bei dem die Reihenfolge der Flows von der im Peakboard Designer abwich."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Users"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Single Sign-on (SSO) über das Kerberos-Protokoll wurde hinzugefügt.",
+              "Die Möglichkeit wurde hinzugefügt, einen neuen Gruppenschlüssel zu generieren.",
+              "Der Gruppenschlüssel-Button und der zugehörige Dialog wurden von der Benutzerseite entfernt.",
+              "Ein Problem wurde behoben, durch das die Benutzerverwaltungsdaten bei Neuinstallationen mit einer neuen Datenbank nicht geladen werden konnten."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Protokolle"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Serverzeit wurde zur Protokollseite hinzugefügt.",
+              "Eine Funktion zum Gruppieren identischer Protokolleinträge wurde hinzugefügt.",
+              "Unnötige Protokolleinträge wurden bereinigt und übermäßig häufige Einträge in niedrigere Kategorien verschoben.",
+              "Die Sortierung der Hub-Protokolleinträge wurde korrigiert, sodass sie nach Zeit sortiert sind, neueste zuerst."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Benachrichtigungen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Möglichkeit wurde hinzugefügt, in den Einstellungen einen eigenen SMTP-Server für E-Mail-Benachrichtigungen zu konfigurieren.",
+              "Ein Problem wurde behoben, bei dem Alarmzeiten in UTC statt in der lokalen Zeit des Benutzers angezeigt wurden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "General"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Das Frontend wurde auf Angular 21 aktualisiert.",
+              "Die Möglichkeit wurde hinzugefügt, ein Testsystem zu definieren und die Produktionsdatenbank mit einer Testdatenbank zu synchronisieren.",
+              "Benutzer werden nun zur Anmeldeseite weitergeleitet, wenn ihre Sitzung abläuft.",
+              "Die Hub-Flow-, Listen- und Datei-Icons wurden überarbeitet, um Funktionen klarer zu kommunizieren.",
+              "Die uneinheitlichen Rottöne im gesamten Hub wurden bereinigt.",
+              "Die unnötige untere Linie in Popup-Dialogen wurde entfernt.",
+              "Eine Datenbankoptimierung aus Update 1.23, die auf einigen SQL-Servern Probleme verursachte, wurde entfernt.",
+              "Ein Problem wurde behoben, bei dem das Minimieren der linken Seitenleiste den oberen Bereich vergrößerte.",
+              "Ein Problem wurde behoben, bei dem der Anmelde-Button nach Eingabe ungültiger Anmeldedaten in einem Ladezustand hängen blieb.",
+              "Ein Problem wurde behoben, bei dem die Version auf dem Anmeldebildschirm nicht korrekt angezeigt wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "API"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "MCP Server zur Hub API hinzugefügt. Lässt KI-Client über das Model Context Protokoll auf die Hub API Aufrufe zugreifen.",
+              "Dateiverwaltungs-Endpunkte (Lesen, Hochladen, Löschen) wurden zur API hinzugefügt.",
+              "Ein API-Endpunkt zum Abrufen eines Screenshots von einer Box wurde hinzugefügt.",
+              "Ein Problem wurde behoben, durch das bei mehreren Hubs auf einem System, API-Aufrufe an den falschen Hub weitergeleitet werden konnten.",
+              "Ein Problem wurde behoben, bei dem die API für alle Boxen „Default“ als Gruppe zurückgab."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

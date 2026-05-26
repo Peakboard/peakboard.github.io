@@ -1,93 +1,88 @@
 ---
 layout: article
-title: Reload flows
-menu_title: Reload flows
-description: How reload flows work.
+title: Flows
+menu_title: Flows
+description: Flows control when and in what order data sources and dataflows are reloaded.
 lang: en
 weight: 10
 ref: dat-10
 redirect_from:
  - /misc/en-reloadflows.html
+ - /data_sources/basics/en-reloadflows.html
 ---
 
 ### Function
 
-Reload flows are used to create an order in which data sources and dataflows are loaded.
+Flows (formerly *Reload Flows*) define when and in which order data sources and dataflows are reloaded.
+They are useful whenever a data source or dataflow has to be loaded after another one finishes, or when reloading needs to follow a schedule.
 
-This is useful when data sources or dataflows need information from another data source or dataflow to be loaded.
-You can create reload flows for all pull data sources for which a reload interval can be defined.
-For example, you cannot load MQTT or OPC UA data sources in a reload flow.
+Flows can be used with any pull data source that supports a reload interval. Event-based sources such as MQTT or OPC UA cannot be reloaded by a **Reload** step, because they decide on their own when to update. They can, however, be used as a **trigger**: with the **After data reload** trigger, an incoming MQTT message or OPC UA value change starts the flow.
 
-### A reload flow consists of the following elements
+### A flow is built from these elements
 
 {% include styled_table.html %}
 {: .w-full }
-| Reload flow element | An element that is used in the reload flow. This can be a data source or a dataflow. |
-| Reload flow source | The data source or dataflow that triggers the reload flow. It can not be loaded from the reload flow it triggers. |
-| Reload flow target | A reload flow element that is loaded by the reload flow. Any data sources that are reloaded at a specified time interval can be included here, as well as any dataflows. A reload flow target can also be a reload flow source if it is followed by other elements. |
+| Trigger     | Decides *when* the flow runs. Four triggers are available today: **Periodic (sec)** for a fixed interval in seconds, **Schedule** for a weekday/time schedule, **After data reload**, which fires the flow as soon as a specific data source has finished reloading, and **After function execute**, which fires the flow as soon as a specific function has run. |
+| Step        | A unit of work executed by the flow. The **Reload** step reloads any data source or dataflow. The **Run function** step executes a Lua function you created beforehand in the package explorer — for example to compute values, prepare data, or trigger follow-up actions. Steps run sequentially in the order shown. |
+| Failure function | An optional Lua function that runs when a step fails. Useful for logging, alerting, or running compensating actions. |
 
 <div class="box-tip" markdown="1">**Note**
 
-Elements are not limited to use in a single reload flow.
-You can use a data source or dataflow in multiple reload flows.
-Please be careful not to create accidental continuous loops when using data sources or dataflows multiple times.
+The same data source or dataflow may be used in multiple flows.
+Be careful not to create endless loops — for example by using an **After data reload** trigger that reloads the very data source it listens to.
 </div>
 
-### Creating and editing a reload flow
+### Creating a flow
 
-To create a reload flow, click on the [Project] drop-down menu in the [Home] tab of the Peakboard Designer and then on [Reload Flows] (1).
+To create a new flow, click the [Project] menu in the [Home] tab of the Peakboard Designer (1) and then click [Flows] (2).
 
-![Create reload flow](/assets/images/misc/Reload_Flows/en_reloadflow-add.png)
+![Open Flows from the Project menu](/assets/images/data-sources/reload-flows/reloadflows-01-project-menu.png)
 
-Alternatively, set the reload state to [On Reload Flow] (2) during the configuration of a data source to get to the creation dialog as well.
+As long as no flows exist, the **Manage flows** dialog shows an empty state with two entry points: the [+] icon in the left column (1) and the central [Add flow] button (2). Either one opens the editor for a new flow.
 
-![Create reload flow from data source](/assets/images/misc/Reload_Flows/en_reloadflow-add02.png)
+![Manage flows – empty state](/assets/images/data-sources/reload-flows/reloadflows-02-manage-flows-empty.png)
 
-In this dialog, you can now edit existing reload flows or create new reload flows.
+### Configuring the flow
 
-#### Creating a reload flow
+In the editor, first give the flow a name (1). Then drag the building blocks from the [Select triggers and steps] panel on the right into the highlighted drop zones in the middle area:
 
-To create a new reload flow, click on the plus in the upper left corner of the dialog (3).
-You can then give the reload flow a name (4) and add the reload flow elements (5) via the data sources on the right side by dragging and dropping them in the center area.
-In the center area you can specify the order in which the reload flow elements are loaded in this reload flow (6).
+- A **trigger** from the right-hand trigger picker (4) onto the yellow drop band in the **Triggers** section (2). In the example, **Periodic (sec)** is set to fire every 60 seconds. A flow can have one or more triggers.
+- A **step** from the right-hand step picker (5) onto the drop band in the **Steps** section (3). The **Reload** step then shows a dropdown where you pick the data source or dataflow to reload — *test* in the example.
 
-![Configure reload flows](/assets/images/misc/Reload_Flows/en_reloadflow-config.png)
+The order of the steps defines the execution order — you can rearrange them at any time by dragging. To remove a trigger or step, use the trash-can icon at the right end of the row.
 
-#### Editing a reload flow
-
-To edit an existing reload flow, select it in the left area of the reload flows dialog (7).
-You can then edit the name and the individual reload flow elements.
-To change the order of the reload flow elements in a reload flow, you can drag and drop the individual reload flow elements.
-To delete a reload flow element from a reload flow, move the mouse over the reload flow element and click on the trash can next to the reload flow element (8).
-
-![Edit reload flows](/assets/images/misc/Reload_Flows/en_reloadflow-config02.png)
-
-If you want to delete a reload flow completely, move the mouse over the reload flow and click on the trash can (9).
-
-You can save all changes within the dialog by clicking [OK] or discard them by clicking [Cancel].
-
-![Edit reload flows](/assets/images/misc/Reload_Flows/en_reloadflow-config03.png)
-
-#### Functions within the reload flow
-
-Within the reload flow there are two functions.
-The first reload flow element serves as a reload flow source, so it cannot be loaded after the reload flow.
-In the settings of this data source, you can define if the reload flow should only be triggered if data has changed or if it should be triggered in any case when the reload flow source is reloaded. (10)
-If the reload flow is then triggered, all further reload flow targets will be reloaded.
-
-![Configure data source](/assets/images/misc/Reload_Flows/en_reloadflow-datasource01.png)
-
-If a reload flow element is already included in a reload flow, [On Reload Flow] is directly selected in the reload state when editing this data source.
-Via the reload flows button (11) you can open the dialog to edit the reload flows.
-If the reload flow element is not yet included in a reload flow, selecting this option will directly open the reload flows dialog.
-Here you can either insert the reload flow element into an existing reload flow or create a new reload flow and add the element to it.
-
-![Configure data source](/assets/images/misc/Reload_Flows/en_reloadflow-datasource02.png)
+![Configure a flow](/assets/images/data-sources/reload-flows/reloadflows-03-flow-editor.png)
 
 <div class="box-tip" markdown="1">**Note**
 
-As mentioned above, a reload flow target can also be a reload flow source if other elements follow.
-Additionaly, reload flow elements are not limited to use in a single reload flow.
-This can result in a hybrid of the two options shown.
-In this case, both the [Trigger Reload Flows with data change] (10) selection and the reload flows button (11) are shown in the data source settings.
+A flow without any trigger only runs when it is called manually, for example from a Lua script (`flows("MyFlow"):run()`).
+</div>
+
+Click [OK] to save the flow, or [Cancel] to discard the changes.
+
+### Preparing data sources for flows
+
+Before a flow can reload a data source, only the [Enabled] checkbox (1) in the **Reload** section of the configuration dialog needs to be turned on. That is all that is required: as soon as the data source is used in a **Reload** step, the **flow's trigger** decides when it is reloaded.
+
+The mode selected under [Reload state] (2) and the [Interval (in s)] field (3) only control the data source's *own* independent reloading. When it is reloaded by a flow, the flow trigger overrides that interval — a periodic schedule set here has no effect. In practice it is therefore enough to set [Reload state] to **Manual** and leave all timing to the flow.
+
+![Reload options of a data source](/assets/images/data-sources/reload-flows/reloadflows-04-datasource-reload-section.png)
+
+### Running functions in a flow
+
+Besides data sources, a flow can also execute your own **functions**. The function has to be created first in the package explorer under [Scripts] › [Functions] (1) — only then is it available in the flow.
+
+![Create a function in the package explorer](/assets/images/data-sources/reload-flows/reloadflows-05-function-in-explorer.png)
+
+Then, in the flow editor, drag the **Run function** step (2) from the right-hand step picker into the **Steps** section and pick the function from the dropdown (1). In addition, the **After function execute** trigger (3) is available to start a flow as soon as a specific function has run.
+
+![Run function step in the flow](/assets/images/data-sources/reload-flows/reloadflows-06-run-function-step.png)
+
+### Editing or deleting existing flows
+
+In the **Manage flows** dialog, pick the flow you want to change from the list on the left. The three-dot menu next to the flow name lets you rename or delete the flow. Triggers and steps can be removed by hovering over the entry and clicking the trash-can icon that appears.
+
+<div class="box-tip" markdown="1">**Tip**
+
+The optional **Failure function** lets you attach a Lua function that runs whenever a step in the flow fails. This is a clean way to write failed reloads to a log data source or fire an alerting push notification.
 </div>

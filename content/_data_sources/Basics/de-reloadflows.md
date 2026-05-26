@@ -1,93 +1,88 @@
 ---
 layout: article
-title: Reload Flows
-menu_title: Reload Flows
-description: Wie funktionieren Reload Flows.
+title: Flows
+menu_title: Flows
+description: Flows steuern, wann und in welcher Reihenfolge Datenquellen und Dataflows neu geladen werden.
 lang: de
 weight: 10
 ref: dat-10
 redirect_from:
  - /misc/de-reloadflows.html
+ - /data_sources/basics/de-reloadflows.html
 ---
 
 ### Funktion
 
-Reload Flows dienen dazu eine Reihenfolge anzulegen in der Datenquellen und Dataflows geladen werden.
+Flows (früher *Reload Flows*) legen fest, wann und in welcher Reihenfolge Datenquellen und Dataflows nachgeladen werden.
+Das ist immer dann hilfreich, wenn eine Datenquelle oder ein Dataflow erst nach einer anderen Datenquelle geladen werden soll, oder wenn das Nachladen zeitgesteuert ablaufen muss.
 
-Das bietet sich an, wenn Datenquellen oder Dataflows Informationen einer anderen Datenquelle oder eines Dataflows benötigen, um geladen zu werden.
-Reload Flows können für alle Pull Datenquellen angelegt werden, für die ein Reload Intervall bestimmt werden kann.
-MQTT oder OPC UA Datenquellen können zum Beispiel nicht in einem Reload Flow geladen werden.
+Flows können für alle Pull-Datenquellen genutzt werden, für die ein Reload-Intervall festgelegt werden kann. Event-basierte Datenquellen wie MQTT oder OPC UA können nicht über einen **Reload**-Step nachgeladen werden, da sie ihren Aktualisierungs­zeitpunkt selbst bestimmen. Sie lassen sich aber als **Trigger** verwenden: Über den Trigger **After data reload** startet ein eingehendes MQTT-Event bzw. eine OPC-UA-Wertänderung den Flow.
 
-### Ein Reload Flow besteht aus folgenden Elementen
+### Ein Flow besteht aus folgenden Bausteinen
 
 {% include styled_table.html %}
 {: .w-full }
-| Reload Flow Element      | Ein Element, das im Reload Flow genutzt wird. Dies kann eine Datenquelle oder ein Dataflow sein. |
-| Reload Flow Source       | Die Datenquelle oder der Dataflow der den Reload Flow auslöst. Diese kann nicht über den Reload Flow geladen werden welchen sie auslöst. |
-| Reload Flow Target       | Ein Reload Flow Element, welches von dem Reload Flow geladen wird. Hier können alle Datenquellen eingebunden werden, die in einem bestimmten Zeitintervall neu geladen werden, sowie jegliche Dataflows. Ein Reload Flow Target kann auch gleichzeitig eine Reload Flow Source sein, wenn darauf weitere Elemente folgen. |
+| Trigger     | Bestimmt, wann der Flow ausgeführt wird. Aktuell stehen vier Trigger zur Verfügung: **Periodic (sec)** für ein festes Sekunden­intervall, **Schedule** für eine Zeitplanung mit Wochentagen und Uhrzeiten, **After data reload**, der einen Flow startet, sobald eine bestimmte Datenquelle neu geladen wurde, und **After function execute**, der den Flow startet, sobald eine bestimmte Funktion ausgeführt wurde. |
+| Step        | Ein Arbeitsschritt, der vom Flow ausgeführt wird. Der Step **Reload** lädt beliebige Datenquellen oder Dataflows nach. Der Step **Run function** führt eine zuvor im Paketexplorer angelegte Lua-Funktion aus – z.B. um Werte zu berechnen, Daten aufzubereiten oder Folgeaktionen anzustoßen. Steps werden in der gewählten Reihenfolge nacheinander abgearbeitet. |
+| Failure function | Eine optionale Lua-Funktion, die ausgeführt wird, wenn ein Step im Flow fehlschlägt. So lassen sich z.B. Logmeldungen oder Benachrichtigungen umsetzen. |
 
 <div class="box-tip" markdown="1">**Hinweis**
 
-Die Elemente sind nicht auf die Nutzung in einem einzigen Reload Flow beschränkt.
-Eine Datenquelle oder ein Dataflow kann in mehreren Reload Flows verwendet werden.
-Bitte achte darauf, bei mehrfacher Verwendung von Datenquellen oder Dataflows keine versehentlichen Dauerschleifen zu erzeugen.
+Eine Datenquelle oder ein Dataflow kann in mehreren Flows verwendet werden.
+Achte darauf, durch mehrfache Nutzung keine versehentlichen Dauerschleifen zu erzeugen (z.B. wenn ein **After data reload** Trigger eine Datenquelle nachlädt, die wiederum den Trigger selbst auslöst).
 </div>
 
-### Erstellen und Bearbeiten eines Reload Flows
+### Einen Flow erstellen
 
-Um einen Reload Flow zu erstellen, klickst du im Reiter [Start] des Peakboard Designers auf das Drop-Down-Menü [Projekt] und dort auf [Reload Flows] (1)
+Um einen neuen Flow anzulegen, klickst du im Reiter [Start] des Peakboard Designers auf das Menü [Project] (1) und dort auf [Flows] (2).
 
-![Reload Flow anlegen](/assets/images/misc/Reload_Flows/de_reloadflow-add.png)
+![Flows im Project-Menü öffnen](/assets/images/data-sources/reload-flows/reloadflows-01-project-menu.png)
 
-Alternativ stellst du während der Konfiguration einer Datenquelle die Nachlade Art auf [Von Reload Flow] (2), um ebenfalls in den Erstellungsdialog zu gelangen.
+Solange noch keine Flows angelegt sind, zeigt der Dialog **Manage flows** einen leeren Zustand mit zwei Einstiegspunkten: dem [+] Icon in der linken Spalte (1) und der zentralen Schaltfläche [Add flow] (2). Beide öffnen den Editor für einen neuen Flow.
 
-![Reload Flow aus Datenquelle anlegen](/assets/images/misc/Reload_Flows/de_reloadflow-add02.png)
+![Manage flows – leerer Zustand](/assets/images/data-sources/reload-flows/reloadflows-02-manage-flows-empty.png)
 
-In diesem Dialog kannst du nun bestehende Reload Flows bearbeiten oder neue Reload Flows erstellen.
+### Den Flow konfigurieren
 
-#### Reload Flow erstellen
+Im Editor vergibst du zunächst einen Namen für den Flow (1). Anschließend ziehst du per Drag-and-Drop aus dem rechten Bereich [Select triggers and steps] die gewünschten Bausteine in die jeweiligen Drop-Zonen im mittleren Bereich:
 
-Um einen neuen Reload Flow zu erstellen, klickst du auf das Plus in der oberen linken Ecke des Dialogs (3).
-Dann kannst du dem Reload Flow einen Namen geben (4) und über die Datasources auf der rechten Seite die Reload Flow Elemente (5) per Drag-and-Drop im mittleren Bereich hinzufügen.
-Dort kannst du dann die Reihenfolge in der die Reload Flow Elemente in diesem Reload Flow geladen werden bestimmen (6).
+- Einen **Trigger** aus dem rechten Trigger-Picker (4) auf das gelb hervorgehobene Drop-Feld im Bereich **Triggers** (2). Im Beispiel wurde **Periodic (sec)** mit einem Intervall von 60 Sekunden konfiguriert. Ein Flow kann einen oder mehrere Trigger besitzen.
+- Einen **Step** aus dem rechten Step-Picker (5) auf das Drop-Feld im Bereich **Steps** (3). Der Step **Reload** zeigt anschließend ein Drop-Down, in dem du die zu aktualisierende Datenquelle oder den Dataflow auswählst – im Beispiel die Datenquelle *test*.
 
-![Reload Flows konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-config.png)
+Die Reihenfolge der Steps bestimmt die Ausführungs­reihenfolge – sie kannst du jederzeit per Drag-and-Drop ändern. Einen Trigger oder Step entfernst du über das Mülleimer-Symbol am rechten Ende des jeweiligen Eintrags.
 
-#### Reload Flow bearbeiten
-
-Um einen bestehenden Reload Flow zu bearbeiten, wählst du diesen im linken Bereich des Reload Flows Dialogs aus (7).
-Daraufhin kannst du den Namen und die einzelnen Reload Flow Elemente bearbeiten.
-Um die Reihenfolge der Reload Flow Elemente in einem Reload Flow zu ändern, kannst du per Drag-and-Drop die einzelnen Reload Flow Elemente verschieben.
-Um ein Reload Flow Element aus einem Reload Flow zu löschen, bewegst du die Maus über das Reload Flow Element und klickst auf die Mülltonne neben dem Reload Flow Element (8).
-
-![Reload Flows bearbeiten](/assets/images/misc/Reload_Flows/de_reloadflow-config02.png)
-
-Möchtest du einen Reload Flow vollständig löschen, bewegst du die Maus über den Reload Flow und klickst dann auf die Mülltonne (9).
-
-Alle Änderungen innerhalb des Dialogs kannst du entweder über [OK] speichern oder über [Abbrechen] verwerfen.
-
-![Reload Flows bearbeiten](/assets/images/misc/Reload_Flows/de_reloadflow-config03.png)
-
-#### Funktionen innerhalb des Reload Flows
-
-Innerhalb des Reload Flows gibt es zwei Funktionen.
-Das erste Reload Flow Element dient dabei als Reload Flow Source, diese kann also nicht nach dem Reload Flow geladen werden.
-In den Einstellungen dieser Datenquelle kannst du festlegen, ob der Reload Flow nur ausgelöst werden soll, wenn sich Daten geändert haben oder ob er in jedem Fall beim Neuladen der Reload Flow Source ausgelöst werden soll. (10)
-Wird der Reload Flow dann ausgelöst, werden alle weiteren Reload Flow Targets neu geladen.
-
-![Datenquelle konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-datasource01.png)
-
-Ist ein Reload Flow Element bereits in einem Reload Flow eingebunden, ist beim Bearbeiten dieser Datenquelle direkt [Von Reload Flow] in der Nachlade Art ausgewählt.
-Über den Reload Flows Button (11) kannst du den Dialog zum Bearbeiten der Reload Flows öffnen.
-Ist das Reload Flow Element noch nicht in einem Reload Flow enthalten, öffnet sich beim Auswählen dieser Option direkt der Reload Flows Dialog.
-Hier kannst du das Reload Flow Element entweder in einen bestehenden Reload Flow einfügen oder einen neuen Reload Flow erstellen und es diesem hinzufügen.
-
-![Datenquelle konfigurieren](/assets/images/misc/Reload_Flows/de_reloadflow-datasource02.png)
+![Flow konfigurieren](/assets/images/data-sources/reload-flows/reloadflows-03-flow-editor.png)
 
 <div class="box-tip" markdown="1">**Hinweis**
 
-Wie oben bereits erwähnt kann ein Reload Flow Target gleichzeitig eine Reload Flow Source sein, wenn weitere Elemente folgen.
-Zudem sind Reload Flow Elemente nicht auf die Nutzung in einem einzigen Reload Flow beschränkt.
-Daraus kann sich eine Mischform der beiden dargestellten Optionen ergeben.
-In dieser wird in den Einstellungen der Datenquelle sowohl die Auswahl [Reload Flows bei Datenänderung laden] (10), als auch der Reload Flows Button (11) angezeigt.
+Wird kein Trigger gesetzt, läuft der Flow nur manuell – etwa wenn er aus einem Lua-Skript heraus aufgerufen wird (`flows("MeinFlow"):run()`).
+</div>
+
+Über [OK] werden alle Änderungen am Flow gespeichert, [Cancel] verwirft sie.
+
+### Datenquellen für Flows vorbereiten
+
+Damit eine Datenquelle von einem Flow nachgeladen werden kann, muss im Bereich **Reload** des Konfigurations­dialogs lediglich die Checkbox [Enabled] (1) aktiviert sein. Mehr ist nicht nötig: Sobald die Datenquelle in einem **Reload**-Step verwendet wird, bestimmt der **Trigger des Flows**, wann sie nachgeladen wird.
+
+Der unter [Reload state] (2) gewählte Modus und das Feld [Interval (in s)] (3) steuern nur das *eigenständige* Nachladen der Datenquelle. Wird sie über einen Flow nachgeladen, übersteuert der Flow-Trigger dieses Intervall – eine hier eingestellte Periodik ist dann wirkungslos. In der Praxis genügt es daher, [Reload state] auf **Manual** zu stellen und das Timing vollständig dem Flow zu überlassen.
+
+![Reload-Optionen einer Datenquelle](/assets/images/data-sources/reload-flows/reloadflows-04-datasource-reload-section.png)
+
+### Funktionen im Flow ausführen
+
+Neben Datenquellen kann ein Flow auch eigene **Funktionen** ausführen. Die Funktion muss dafür zuerst im Paketexplorer unter [Scripts] › [Functions] angelegt werden (1) – erst dann steht sie im Flow zur Verfügung.
+
+![Funktion im Paketexplorer anlegen](/assets/images/data-sources/reload-flows/reloadflows-05-function-in-explorer.png)
+
+Anschließend ziehst du im Flow-Editor den Step **Run function** (2) aus dem rechten Step-Picker in den Bereich **Steps** und wählst im Drop-Down die gewünschte Funktion aus (1). Zusätzlich steht der Trigger **After function execute** (3) zur Verfügung, mit dem du einen Flow startest, sobald eine bestimmte Funktion ausgeführt wurde.
+
+![Run-function-Step im Flow](/assets/images/data-sources/reload-flows/reloadflows-06-run-function-step.png)
+
+### Bestehende Flows bearbeiten oder löschen
+
+Im Dialog **Manage flows** wählst du in der linken Spalte den zu bearbeitenden Flow aus. Über das Drei-Punkte-Menü neben dem Flow-Namen kannst du den Flow umbenennen oder vollständig löschen. Trigger und Steps lassen sich entfernen, indem du mit der Maus über den jeweiligen Eintrag fährst und auf das Mülleimer-Symbol klickst, das dann sichtbar wird.
+
+<div class="box-tip" markdown="1">**Tipp**
+
+Mit der optionalen **Failure function** kannst du eine Lua-Funktion hinterlegen, die bei einem Fehler in einem Step ausgeführt wird. Das eignet sich z.B. dafür, fehlgeschlagene Reloads in eine Protokoll-Datenquelle zu schreiben oder eine Push-Nachricht zu senden.
 </div>
