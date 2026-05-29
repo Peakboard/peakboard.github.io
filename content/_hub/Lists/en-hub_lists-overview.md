@@ -14,20 +14,20 @@ The list view in Peakboard Hub provides a central interface for managing, editin
 
 ### Sidebar: Navigation and List Overview
 
-In the left sidebar, all created lists are displayed under the menu item [Lists].
-Each list has a three-dot menu on the right side, offering additional actions such as deleting, downloading, structure export, or duplicating.
+In the left sidebar, all created lists are displayed under the menu item [Lists]. Use the [Add] button (1) to create new lists or import existing ones. Clicking a list (2) opens its contents in the main area.
 
-![Lists sidebar](/assets/images/hub/de_hub_lists-overview-01.png)
+Each list has a three-dot menu (3) that offers additional actions: [Delete], [Download], [Duplicate structure], [Export structure] and [Move to group].
+
+![Lists sidebar](/assets/images/hub/lists-overview/lists-overview-01-sidebar.png)
 
 ### Main Area: List Contents and Central Control
 
 The main window displays the contents of the selected list.
 
-![Lists main area](/assets/images/hub/de_hub_lists-overview-02.png)
+![Lists main area](/assets/images/hub/lists-overview/lists-overview-02-main.png)
 
-The toolbar above the list offers the following functions:
+The menu bar above the list offers the following functions:
 
-- **Add:** Creates new lists or imports existing ones via the dropdown menu.
 - **Add row:** Inserts new rows into the current list.
 - **List settings:** Opens the editor for list names and columns (including type, default values, and constraints). Changes immediately affect connected scripts when the list is used in Peakboard Designer.
 - **Filter:** Defines filtering by column entries using operations like equality, inequality, starts/ends with, and contains. Multiple values separated by semicolons create OR conditions.
@@ -35,4 +35,4 @@ The toolbar above the list offers the following functions:
 - **Reload:** Refreshes the list content.
 - **Enlarge:** Magnifies the table display.
 
-The context menu on the right side provides the [Clear all data] option for bulk deletion of all list entries.
+The list's three-dot menu also provides the [Clear all data] option for bulk deletion of all list entries.

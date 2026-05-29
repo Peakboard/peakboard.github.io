@@ -12,20 +12,27 @@ redirect_from:
 
 In diesem Artikel erfährst du, wie du eine Peakboard Hub Liste exportierst und anschließend wieder importierst.
 
-![Liste exportieren/importieren](/assets/images/hub/de_hub_list-export.gif)
-
 ### Peakboard Hub Liste exportieren
 
-1. **Peakboard Hub Liste auswählen:** Klicke auf die gewünschte Liste unter [Peakboard Hub Lists] in der linken Seitenleiste.
-2. **Exportmenü öffnen:** Klicke auf die drei Punkte neben dem Listennamen, um das Kontextmenü zu öffnen.
-3. **Exportoption wählen:** Zwei Exportoptionen stehen zur Verfügung: **Export Structure** (exportiert nur die Struktur der Liste ohne Inhalte, geeignet wenn du nur das Format als Vorlage benötigst) und **Download** (exportiert die komplette Liste inklusive Struktur und allen Inhalten, geeignet für vollständige Backups oder Datentransfers).
-4. **Download starten:** Nach der Auswahl der gewünschten Option wird automatisch eine CSV-Datei heruntergeladen.
+Klicke auf die drei Punkte neben dem Listennamen in der linken Seitenleiste, um das Kontextmenü zu öffnen. Dort stehen zwei Exportoptionen zur Verfügung:
+
+![Liste exportieren](/assets/images/hub/export-list/export-list-01-menu.png)
+
+1. **Download (1):** Exportiert die komplette Liste inklusive Struktur und allen Inhalten als CSV-Datei – geeignet für vollständige Backups oder Datentransfers.
+2. **Export structure (2):** Exportiert nur die Struktur der Liste ohne Inhalte – geeignet, wenn du nur das Format als Vorlage benötigst.
+
+Nach der Auswahl wird die CSV-Datei automatisch heruntergeladen.
 
 ### Peakboard Hub Liste importieren
 
-1. **Import-Dialog öffnen:** Klicke auf den Abwärtspfeil neben dem [Add] Button und wähle [Import].
-2. **Import-Einstellungen konfigurieren:** Fülle die erforderlichen Informationen im Import-Dialog aus: Gib einen **Namen** für die neue Liste ein und wähle den **Modus**: **Create** (erstellt eine komplett neue Liste), **Append** (fügt Daten zu einer bestehenden Liste hinzu) oder **Override** (überschreibt eine bestehende Liste vollständig).
-3. **CSV-Datei auswählen:** Klicke auf [Browse] und wähle die zuvor exportierte CSV-Datei von deinem Computer.
-4. **Import ausführen:** Klicke auf [Import], um den Vorgang zu starten. Eine grüne Erfolgsmeldung bestätigt den erfolgreichen Import.
+Klicke auf den Abwärtspfeil neben dem [Add] Button und wähle [Import]. Im Import-Dialog konfigurierst du den Import:
 
-Die neue Liste erscheint in der Seitenleiste und ist sofort nutzbar.
+![Liste importieren](/assets/images/hub/export-list/export-list-02-import.png)
+
+1. **Name (1):** Gib einen Namen für die neue Liste ein.
+2. **Mode (2):** Wähle den Modus – **Create** (erstellt eine komplett neue Liste), **Append** (fügt Daten zu einer bestehenden Liste hinzu) oder **Overwrite** (überschreibt eine bestehende Liste vollständig).
+3. **Delimiter (3):** Lege das Trennzeichen der CSV-Datei fest.
+4. **Datei auswählen (4):** Klicke auf [Browse] und wähle die zuvor exportierte CSV-Datei von deinem Computer.
+5. **Import ausführen (5):** Klicke auf [Import], um den Vorgang zu starten. Eine grüne Erfolgsmeldung bestätigt den erfolgreichen Import.
+
+Die neue Liste erscheint anschließend in der Seitenleiste und ist sofort nutzbar.

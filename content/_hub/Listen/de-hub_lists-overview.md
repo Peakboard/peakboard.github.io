@@ -14,20 +14,20 @@ Die Listenansicht im Peakboard Hub bietet dir eine zentrale Oberfläche zum Verw
 
 ### Seitenleiste: Navigation und Listenübersicht
 
-In der linken Seitenleiste werden unter dem Menüpunkt [Listen] alle angelegten Listen angezeigt.
-Jede Liste verfügt über ein Dreipunktmenü auf der rechten Seite, das weitere Aktionen wie Löschen, Herunterladen, Strukturexport oder Duplizieren bietet.
+In der linken Seitenleiste werden unter dem Menüpunkt [Lists] alle angelegten Listen angezeigt. Über den [Add] Button (1) legst du neue Listen an oder importierst bestehende. Klickst du eine Liste (2) an, öffnet sich ihr Inhalt im Hauptbereich.
 
-![Listen Seitenleiste](/assets/images/hub/de_hub_lists-overview-01.png)
+Jede Liste verfügt über ein Dreipunktmenü (3), das weitere Aktionen bietet: [Delete] (Löschen), [Download] (Herunterladen), [Duplicate structure] (Struktur duplizieren), [Export structure] (Strukturexport) und [Move to group] (in eine Gruppe verschieben).
+
+![Listen Seitenleiste](/assets/images/hub/lists-overview/lists-overview-01-sidebar.png)
 
 ### Hauptbereich: Listeninhalte und zentrale Steuerung
 
 Im Hauptfenster werden die Inhalte der ausgewählten Liste angezeigt.
 
-![Listen Hauptbereich](/assets/images/hub/de_hub_lists-overview-02.png)
+![Listen Hauptbereich](/assets/images/hub/lists-overview/lists-overview-02-main.png)
 
-Die Werkzeugleiste oberhalb der Liste bietet folgende Funktionen:
+Die Menüleiste oberhalb der Liste bietet folgende Funktionen:
 
-- **Add:** Erstellt neue Listen oder importiert vorhandene über das Dropdown-Menü.
 - **Add row:** Fügt neue Zeilen in die aktuelle Liste ein.
 - **List settings:** Öffnet den Editor für Listennamen und Spalten (einschließlich Typ, Standardwerte und Beschränkungen). Änderungen wirken sich sofort auf verbundene Skripte aus, wenn die Liste im Peakboard Designer verwendet wird.
 - **Filter:** Definiert eine Filterung nach Spalteneinträgen mithilfe von Operationen wie Gleichheit, Ungleichheit, beginnt/endet mit und enthält. Mehrere durch Semikolon getrennte Werte erzeugen ODER-Bedingungen.
@@ -35,4 +35,4 @@ Die Werkzeugleiste oberhalb der Liste bietet folgende Funktionen:
 - **Reload:** Aktualisiert den Listeninhalt.
 - **Enlarge:** Vergrößert die Tabellenanzeige.
 
-Über das Kontextmenü auf der rechten Seite steht die Option [Clear all data] zur Verfügung, um alle Listeneinträge auf einmal zu löschen.
+Über das Dreipunktmenü der Liste steht außerdem die Option [Clear all data] zur Verfügung, um alle Listeneinträge auf einmal zu löschen.
