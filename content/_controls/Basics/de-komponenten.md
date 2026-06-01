@@ -54,6 +54,8 @@ Den Inhalt der Komponente änderst du direkt am Master auf der Zeichenfläche: K
 
 Du kannst auch eine einzelne Slave-Instanz lokal abweichen lassen, ohne dadurch den Master oder andere Instanzen zu beeinflussen – z. B. den Titeltext der Header-Leiste auf einer bestimmten Screen anders setzen. Dafür änderst du einfach die Controls innerhalb der Slave-Instanz direkt auf der Screen. Die übrigen Slaves und der Master bleiben dabei unverändert.
 
+Eine lokal geänderte Eigenschaft wird anschließend nicht mehr vom Master überschrieben: Auch wenn du denselben Wert später am Master anpasst, bleibt die lokale Anpassung der Slave-Instanz erhalten. Alle übrigen, nicht lokal geänderten Eigenschaften der Instanz werden weiterhin automatisch vom Master synchronisiert.
+
 ### Mit dem Master synchronisieren
 
 Im Kontextmenü einer Slave-Instanz findest du drei Aktionen, die das Verhältnis zum Master steuern.

@@ -54,6 +54,8 @@ The content of the component is edited directly on the master on the canvas: exp
 
 You can also let a single slave instance deviate locally without affecting the master or any other instance – for example, set a different title on the header bar of one specific screen. Simply edit the controls inside that slave instance on the screen. The other slaves and the master stay unchanged.
 
+A property that you have changed locally is no longer overwritten by the master afterwards: even if you later adjust the same value on the master, the local override on the slave instance is preserved. All other properties that you have not changed locally continue to sync from the master automatically.
+
 ### Sync with the master
 
 The context menu of a slave instance offers three actions that govern its relationship with the master.
