@@ -95,7 +95,16 @@ Der Assistent zeigt nun den Fortschritt an und führt nacheinander folgende Aufg
 
 ![Installationsfortschritt](/assets/images/hub/installer/hub-installer-07-installing.png)
 
-Sobald der Vorgang abgeschlossen ist, kannst du den Assistenten schließen und den Peakboard Hub on premise über deinen Browser aufrufen. Du findest ihn auch in deiner IIS-Verwaltung unter den Seiten und kannst ihn dort wie gewohnt weiter konfigurieren, zum Beispiel eine sichere Kommunikation mit Zertifikaten deines Unternehmens hinterlegen.
+#### Schritt 7 — Fertig
+
+Wenn alle Aufgaben erfolgreich abgeschlossen sind, wechselt der Assistent zum Schritt **Installation finished**.
+
+* **Zusammenfassung** (1) — Eine Übersicht über das, was eingerichtet wurde: der Installationsordner, der Datenbankname samt SQL Server Instanz und der Port der IIS-Seite. Darunter findest du den Pfad zur Setup-Logdatei, in der jeder Schritt im Detail nachvollziehbar ist.
+* **Finish** (2) — Schließt den Assistenten. Der Peakboard Hub on premise ist anschließend über den angezeigten Port in deinem Browser erreichbar und taucht in der IIS-Verwaltung als eigene Seite auf.
+
+![Erfolgreich abgeschlossene Installation](/assets/images/hub/installer/hub-installer-08-finished.png)
+
+Du findest den Peakboard Hub on premise nun in deiner IIS-Verwaltung unter den Seiten und kannst ihn dort wie gewohnt weiter konfigurieren, zum Beispiel eine sichere Kommunikation mit Zertifikaten deines Unternehmens hinterlegen.
 
 Nach der ersten Anmeldung eines Benutzers im Peakboard Hub on premise wird dieser Benutzer automatisch zum Administrator. Zukünftig kannst du weitere Benutzer in der Benutzerverwaltung des Peakboard Hub on premise zu Admins ernennen.
 
@@ -112,7 +121,7 @@ Hier siehst du, wo du die Berechtigungen setzen musst:
 
 Tritt während der Installation ein Fehler auf, zeigt der Assistent den Schritt **Installation failed** mit einer Fehlermeldung und dem Pfad zur Setup-Logdatei an. Die Logdatei findest du unter `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Häufige Ursachen sind eine nicht erreichbare SQL Server Instanz, fehlende Schreibrechte auf den Installationsordner oder eine fehlende ASP.NET Core Runtime. Behebe die Ursache und starte den Installer anschließend erneut.
 
-![Fehlgeschlagene Installation](/assets/images/hub/installer/hub-installer-08-failed.png)
+![Fehlgeschlagene Installation](/assets/images/hub/installer/hub-installer-09-failed.png)
 
 ### Updates
 

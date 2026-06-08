@@ -95,7 +95,16 @@ The wizard now shows the progress and performs the following tasks one after the
 
 ![Installation progress](/assets/images/hub/installer/hub-installer-07-installing.png)
 
-Once the wizard finishes, you can close it and open the Peakboard Hub on premise in your browser. The new site is also visible in the IIS Manager under your sites, where you can configure it like any other IIS site — for example by binding certificates from your company for secure communication.
+#### Step 7 — Done
+
+Once every task has finished successfully, the wizard switches to the **Installation finished** step.
+
+* **Summary** (1) — A short recap of what has been set up: the installation folder, the database name and SQL Server instance, and the port the IIS site is bound to. Right below you find the path to the setup log, where every step is recorded in detail for later reference.
+* **Finish** (2) — Closes the wizard. The Peakboard Hub on premise is now reachable in your browser at the shown port and appears in the IIS Manager as its own site.
+
+![Successfully finished installation](/assets/images/hub/installer/hub-installer-08-finished.png)
+
+The new site is also visible in the IIS Manager under your sites, where you can configure it like any other IIS site — for example by binding certificates from your company for secure communication.
 
 After the first user signs in to the Peakboard Hub on premise, this user automatically becomes an administrator. You can promote additional users to administrators later from the user management of the Peakboard Hub on premise.
 
@@ -112,7 +121,7 @@ Here you can see where to set the permissions:
 
 If something goes wrong during the install, the wizard switches to the **Installation failed** step and shows the error message together with the path to the setup log file. The log files live under `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Common causes are an unreachable SQL Server instance, missing write permissions on the installation folder or a missing ASP.NET Core Hosting Bundle. Fix the cause and run the installer again.
 
-![Failed installation](/assets/images/hub/installer/hub-installer-08-failed.png)
+![Failed installation](/assets/images/hub/installer/hub-installer-09-failed.png)
 
 ### Updates
 
