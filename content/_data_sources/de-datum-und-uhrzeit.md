@@ -10,45 +10,35 @@ redirect_from:
   - /data_sources/02-de-datum-und-uhrzeit.html
 ---
 
-Im Peakboard Designer hast du die Möglichkeit, Datum und Uhrzeit als Datenquelle einzubinden.
-Diese Datenquelle ist nicht tabellarisch, sondern nur ein skalarer Einzelwert.
+Im Peakboard Designer steht dir Datum und Uhrzeit als eigene Datenquelle zur Verfügung. Die Datenquelle ist nicht tabellarisch, sondern ein skalarer Einzelwert, dessen Format und Zeitzone du selbst festlegen kannst.
 
-Über die Format-Angabe wird definiert, wie die Zeit bzw. das Datum oder eine Kombination daraus dargestellt werden soll.
-Die einzelnen Formatkomponenten kannst du der Tabelle unten entnehmen.
-Für den Fall, dass du eine andere Zeitzone als CET zur Zeitberechnung nutzen möchtest, steht die entsprechende Combo-Box zur Verfügung.
+## Standard-Datenquelle DateTime
 
-Die Zeitdatenquelle bietet neben der Anzeige von Datum und Uhrzeit auch die Möglichkeit, Daten anhand eines aktuellen Zeitstempels anzuzeigen.
+Jedes neue Peakboard Projekt enthält bereits eine Datenquelle [DateTime] (1) unter dem Knoten [Data] im Explorer. Du musst also keine eigene Datenquelle anlegen, wenn du nur die aktuelle Uhrzeit oder das aktuelle Datum anzeigen möchtest – du kannst diese Datenquelle direkt per Drag-and-drop auf den Screen ziehen oder im Skript verwenden.
 
-## Zeitserver Peakboard Box (Zeitserver für die Peakboard Box)
+![Standard-Datenquelle DateTime im Explorer](/assets/images/data-sources/date-and-time/datetime-01-default-explorer.png)
 
-Beim erstmaligen Hinzufügen einer Peakboard Box zum Peakboard Designer, wirst du aufgefordert einen Zeitserver zu hinterlegen. Dieser Zeitserver ist unter anderem für den Validierungsprozess der Zertifikate auf der Peakboard Box zuständig.
+Bei Bedarf kannst du zusätzliche Zeitdatenquellen anlegen – etwa um parallel ein anderes Format, eine andere Zeitzone oder einen Zeitversatz (zum Beispiel "vor 8 Stunden") zu verwenden. In den meisten Anwendungsfällen reicht aber die vorhandene Standard-Datenquelle aus.
 
-Den Zeitserver kannst du in den Peakboard Box-Einstellungen ändern.
-Im Reiter [Peakboard Box Prüfung] (1) deiner Peakboard Box findest du im Bereich System den Eintrag [Zeitserver].
-Durch einen Klick auf das Zahnrad-Symbol (2) öffnest du den Dialog zur Auswahl von Zeitserver und Zeitzone.
+## Weitere Zeitdatenquelle hinzufügen
 
-![Zeitserver](/assets/images/data-sources/date-and-time/de_timeserver.png)
+Möchtest du eine zusätzliche Zeitdatenquelle anlegen, klickst du mit der rechten Maustaste auf [Data] und wählst [Add data source]. Im folgenden Dialog wählst du die Datenquelle [Time] (1) aus.
 
-Die Zeitdatenquelle lässt sich wie jede andere Datenquelle über [Datenquelle hinzufügen] und anschließend [Zeit] (3) anlegen.
+![Time Datenquelle hinzufügen](/assets/images/data-sources/date-and-time/datetime-02-add.png)
 
-![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_01.png)
+## Datenquelle konfigurieren
 
-Zeitsprünge (Addition oder Subtraktion) können direkt in der Zeitdatenquelle ausgeführt werden (4). Dies ist beispielsweise dann hilfreich, wenn immer die Daten der letzten 8 Stunden angezeigt werden sollen.
+Im Dialog [Add time data] vergibst du der Datenquelle einen Namen (1). Über das Feld [Format] (2) legst du fest, wie Datum und Uhrzeit dargestellt werden sollen – du kannst aus den vordefinierten Formaten wählen oder ein eigenes Format eingeben. Im Feld [Timezone] (3) wählst du die gewünschte Zeitzone aus, sofern du eine andere als die Standard-Zeitzone des Systems verwenden möchtest.
 
-![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_02.png)
+Mit der Checkbox [Add or subtract time] (4) aktivierst du den Zeitversatz. Im Raster darunter trägst du je Spalte Jahre, Monate, Tage, Stunden, Minuten oder Sekunden ein. Negative Werte verschieben den Zeitwert in die Vergangenheit – `Hours = -8` liefert beispielsweise immer den Zeitpunkt vor 8 Stunden.
 
-Die folgende Animation zeigt, wie die Zeit per Drag and Drop auf dem Screen verwendet werden kann.
+![Time Datenquelle konfigurieren](/assets/images/data-sources/date-and-time/datetime-03-config.png)
 
-![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_03.gif)
+## Format wählen
 
-Alternativ lässt sich die Datenquelle, wie jede andere Datenquelle auch, an Controls binden oder per Skript nutzen.
-Im Control-Editor kann über Format das Anzeigeformat für ein deutsch- oder englischsprachiges Layout angepasst oder ein eigenes Format (5) angelegt werden.
+Die Combo-Box [Format] enthält die gängigen Datums- und Uhrzeitformate (1). Über die Schreibweise im Feld kannst du auch ein eigenes Format eingeben, das aus den unten aufgeführten Platzhaltern zusammengesetzt ist.
 
-![Zeitdatenquelle](/assets/images/data-sources/date-and-time/de_timedatasource_04.png)
-
-In der Preview werden jetzt das aktuelle Datum und die Uhrzeit angezeigt.
-
-![Zeitdatenquelle](/assets/images/data-sources/date-and-time/timedatasource_05.png)
+![Format-Auswahl der Time Datenquelle](/assets/images/data-sources/date-and-time/datetime-04-format.png)
 
 Platzhalter für den Format-String:
 
@@ -65,10 +55,20 @@ yyyy: vierstelliges Jahr z.B. 1989
 tt: AM/PM Kennzeichner
 ```
 
+Mit einem Klick auf [OK] legst du die zusätzliche Zeitdatenquelle an. Sie erscheint anschließend wie die Standard-Datenquelle im Explorer unter [Data] und kann wie jede andere Datenquelle per Drag-and-drop auf Controls gezogen oder per Skript verwendet werden.
+
+## Zeitserver Peakboard Box
+
+Beim erstmaligen Hinzufügen einer Peakboard Box zum Peakboard Designer wirst du aufgefordert, einen Zeitserver zu hinterlegen. Dieser Zeitserver ist unter anderem für den Validierungsprozess der Zertifikate auf der Peakboard Box zuständig.
+
+Den Zeitserver kannst du in den Peakboard Box Einstellungen ändern. Im Reiter [Peakboard Box Prüfung] (1) deiner Peakboard Box findest du im Bereich System den Eintrag [Zeitserver]. Durch einen Klick auf das Zahnrad-Symbol (2) öffnest du den Dialog zur Auswahl von Zeitserver und Zeitzone.
+
+![Zeitserver](/assets/images/data-sources/date-and-time/de_timeserver.png)
+
 ### Fix für Zeit-Synchronisationsfehler
 
 Manchmal kann es vorkommen, dass sich die Zeit nicht korrekt synchronisieren lässt. Um dieses Problem zu beheben, musst du die Art der Kommunikation zwischen Windows und dem NTP (Network Time Protocol) in den Client-Mode umstellen.
 
-Um diese Änderung vorzunehmen, musst du beim einrichten in den Peakboard Box Einstellungen hinter der URL oder IP des Zeitservers den folgenden Parameter hinzufügen: `,0x8`
+Um diese Änderung vorzunehmen, musst du beim Einrichten in den Peakboard Box Einstellungen hinter der URL oder IP des Zeitservers den folgenden Parameter hinzufügen: `,0x8`
 
 ![Client-Mode Parameter](/assets/images/data-sources/date-and-time/de_timedatasource_06.png)
