@@ -31,6 +31,8 @@ Stelle die Eigenschaft [Source type] auf den entsprechend gewünschten Zugriffst
 
 [Skip rows] (4) erlaubt es, am Anfang der Datei eine bestimmte Zahl von Zeilen zu überspringen (zum Beispiel weil die Datei einen zu ignorierenden Header mitbringt). [Max rows] (5) limitiert die Zahl der gelesenen Zeilen.
 
-Abschließend klickst du auf [Load data] im rechten Bereich, um eine Vorschau aufzurufen und die Metadaten anzuzeigen. Falls gewünscht, kann der Datentyp jeder einzelnen Spalte gleich noch angepasst werden (zum Beispiel von String auf Number bei numerischen Werten).
+Abschließend klickst du auf [Load data] im rechten Bereich, um eine Vorschau aufzurufen und die Metadaten anzuzeigen.
+
+Den Datentyp einer Spalte kannst du im CSV-Dialog nicht ändern – CSV-Daten werden zunächst immer als Zeichenfolge eingelesen. Falls du eine Spalte zum Beispiel in einen numerischen Typ umwandeln möchtest, legst du dafür einen [Dataflow](/dataflows/de-spalten-bearbeiten.html) an und nutzt dort den Schritt [Spaltentyp ändern].
 
 ![CSV Datenquelle konfigurieren](/assets/images/data-sources/csv/csv-02-config.png)

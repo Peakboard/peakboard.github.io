@@ -30,6 +30,8 @@ Normally, columns in CSV are separated by a comma. If a different separator is r
 
 [Skip rows] (4) lets you skip a certain number of rows at the beginning of the file (for example because the file has a header to be ignored). [Max rows] (5) limits the number of rows that are read.
 
-Finally, click on [Load data] on the right to call up a preview and display the metadata. If desired, the data type of each column can be changed (e.g. from String to Number for numeric values).
+Finally, click on [Load data] on the right to call up a preview and display the metadata.
+
+You cannot change the data type of a column inside the CSV dialog – CSV data is always read in as a string first. If you want to convert a column to a numeric type, for example, create a [Dataflow](/dataflows/en-edit-columns.html) and use the [Change column data type] step there.
 
 ![Configure the CSV data source](/assets/images/data-sources/csv/csv-02-config.png)
