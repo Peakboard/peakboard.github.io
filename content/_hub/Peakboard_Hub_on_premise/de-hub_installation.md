@@ -52,10 +52,12 @@ Klicke anschließend auf [Next].
 
 #### Schritt 3 — User Authentication
 
-Lege fest, wie sich deine Nutzer am Peakboard Hub anmelden sollen:
+In diesem Schritt legst du fest, gegen welches Backend der Peakboard Hub on premise die Logins prüft. Die Wahl beeinflusst, wie deine Nutzer ihre Zugangsdaten erhalten und ob du sie zusätzlich im Peakboard Hub pflegst oder direkt aus deinem bestehenden Verzeichnis übernimmst.
 
-* **Local Users** (1) — Lokale Nutzerverwaltung direkt im Peakboard Hub. Geeignet, wenn du keine Active-Directory-Anbindung verwenden möchtest.
-* **AD Users** (2) — Anmeldung über deinen Windows Domain Controller (Active Directory). Beim Login gibst du den *Windows Nutzernamen ohne Domäne* sowie das *Windows Passwort* an. Der erste Nutzer, der sich anmeldet, wird automatisch zum Administrator des Peakboard Hub on premise.
+* **Local Users** (1) — Nutzer und Passwörter werden ausschließlich im Peakboard Hub gepflegt. Es gibt keine Abhängigkeit zu einem Active Directory, dafür legst du jedes Konto in der [Nutzerverwaltung](/hub/de-hub_usermanagement.html) des Peakboard Hub manuell an und vergibst dort auch das initiale Passwort. Empfehlenswert für eigenständige Server, Evaluierungs- und Testumgebungen sowie kleine Teams ohne eigene Domäne.
+* **AD Users** (2) — Anmeldung über den Windows Domain Controller deiner Umgebung (Active Directory). Vorausgesetzt, der Server, auf dem der Peakboard Hub on premise installiert wird, ist Mitglied derselben Domäne. Beim Login gibst du den *Windows Nutzernamen ohne Domänenpräfix* sowie das *Windows Passwort* ein, sodass deine Anwender mit ihren gewohnten Unternehmenszugangsdaten arbeiten. Berechtigungen und Gruppen verwaltest du danach gewohnt in der Nutzerverwaltung des Peakboard Hub on premise — die Identität selbst stammt aber aus dem Active Directory, du musst also keine separaten Passwörter pflegen.
+
+Unabhängig von der gewählten Variante gilt: Der erste Nutzer, der sich erfolgreich anmeldet, wird automatisch zum Administrator des Peakboard Hub on premise. Weitere Administratoren ernennst du anschließend in der Nutzerverwaltung.
 
 Wähle die passende Option und klicke auf [Next].
 

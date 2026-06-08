@@ -52,10 +52,12 @@ Click [Next] to continue.
 
 #### Step 3 — User Authentication
 
-Decide how your users should sign in to the Peakboard Hub:
+In this step you decide which backend the Peakboard Hub on premise checks logins against. The choice drives how your users get their credentials, and whether you maintain them inside the Peakboard Hub itself or rely on an existing directory.
 
-* **Local Users** (1) — Local user management directly inside the Peakboard Hub. Use this option if you do not want to rely on Active Directory.
-* **AD Users** (2) — Sign-in via your Windows Domain Controller (Active Directory). At the login screen, enter the *Windows user name without the domain* together with the *Windows password*. The first user that signs in automatically becomes the administrator of the Peakboard Hub on premise.
+* **Local Users** (1) — Users and passwords live exclusively inside the Peakboard Hub. There is no dependency on an Active Directory; instead you create every account manually in the [user management](/hub/en-hub_usermanagement.html) of the Peakboard Hub and assign the initial password there. A good fit for standalone servers, evaluation or test environments and smaller teams without their own domain.
+* **AD Users** (2) — Authentication through your Windows Domain Controller (Active Directory). The server that hosts the Peakboard Hub on premise must be a member of the same domain. At the login screen users enter their *Windows user name without the domain prefix* together with their *Windows password*, so they sign in with the corporate credentials they already use. Roles and groups are still managed in the user management of the Peakboard Hub on premise — but the identity itself comes from Active Directory, so there is no second set of passwords to maintain.
+
+Regardless of the option you pick: the first user that signs in successfully automatically becomes the administrator of the Peakboard Hub on premise. You can promote additional administrators from the user management afterwards.
 
 Pick the option that fits your environment and click [Next].
 
