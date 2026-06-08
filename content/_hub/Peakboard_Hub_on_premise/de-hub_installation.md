@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 
-Der Peakboard Hub on premise wird lokal auf deinem Server gehostet und benötigt IIS sowie Windows Server ab mindestens Version 2016. Außerdem muss die [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer) vorab installiert sein.
+Der Peakboard Hub on premise wird lokal auf deinem Server gehostet und benötigt Windows Server ab mindestens Version 2016. IIS, die ASP.NET Core Runtime und das passende Hosting Bundle musst du nicht vorab installieren — das Setup richtet alles automatisch ein, was der Peakboard Hub on premise zum Laufen braucht.
 Es wird zu keinem Zeitpunkt eine Kommunikation nach außen hergestellt, sondern ausschließlich zwischen dem Nutzer, den Peakboard Boxen und dem Peakboard Hub on premise.
 Für die Authentifizierung kann der Windows Domain Controller (Active Directory) oder eine lokale Nutzerverwaltung genutzt werden.
 Die Datenhaltung des Peakboard Hub on premise findet in einem mitgelieferten SQL Server Express statt. Es kann aber auch ein bereits vorhandener SQL Server ab Version 2017 verwendet werden.
@@ -119,7 +119,7 @@ Hier siehst du, wo du die Berechtigungen setzen musst:
 
 ### Wenn die Installation fehlschlägt
 
-Tritt während der Installation ein Fehler auf, zeigt der Assistent den Schritt **Installation failed** mit einer Fehlermeldung und dem Pfad zur Setup-Logdatei an. Die Logdatei findest du unter `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Häufige Ursachen sind eine nicht erreichbare SQL Server Instanz, fehlende Schreibrechte auf den Installationsordner oder eine fehlende ASP.NET Core Runtime. Behebe die Ursache und starte den Installer anschließend erneut.
+Tritt während der Installation ein Fehler auf, zeigt der Assistent den Schritt **Installation failed** mit einer Fehlermeldung und dem Pfad zur Setup-Logdatei an. Die Logdatei findest du unter `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Häufige Ursachen sind eine nicht erreichbare SQL Server Instanz oder fehlende Schreibrechte auf den Installationsordner. Behebe die Ursache und starte den Installer anschließend erneut.
 
 ![Fehlgeschlagene Installation](/assets/images/hub/installer/hub-installer-09-failed.png)
 

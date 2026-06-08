@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 
-Peakboard Hub on premise is hosted locally on your server and requires IIS as well as Windows Server from at least version 2016. In addition, the [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer) must be installed in advance.
+Peakboard Hub on premise is hosted locally on your server and requires Windows Server from at least version 2016. You do not need to install IIS, the ASP.NET Core Runtime or the matching Hosting Bundle beforehand — the setup takes care of every prerequisite that the Peakboard Hub on premise needs to run.
 There is no external communication at any time, only between the user, the Peakboard Boxes and Peakboard Hub on premise.
 Authentication can be handled either via your Windows Domain Controller (Active Directory) or via local users managed inside the Peakboard Hub itself.
 The Peakboard Hub on premise stores its data in an included SQL Server Express. An already existing SQL Server from version 2017 can also be used instead.
@@ -119,7 +119,7 @@ Here you can see where to set the permissions:
 
 ### If the installation fails
 
-If something goes wrong during the install, the wizard switches to the **Installation failed** step and shows the error message together with the path to the setup log file. The log files live under `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Common causes are an unreachable SQL Server instance, missing write permissions on the installation folder or a missing ASP.NET Core Hosting Bundle. Fix the cause and run the installer again.
+If something goes wrong during the install, the wizard switches to the **Installation failed** step and shows the error message together with the path to the setup log file. The log files live under `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Common causes are an unreachable SQL Server instance or missing write permissions on the installation folder. Fix the cause and run the installer again.
 
 ![Failed installation](/assets/images/hub/installer/hub-installer-09-failed.png)
 
