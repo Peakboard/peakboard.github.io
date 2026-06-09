@@ -52,12 +52,12 @@ Click [Next] to continue.
 
 #### Step 3 — User Authentication
 
-In this step you decide which backend the Peakboard Hub on premise checks logins against. The choice drives how your users get their credentials, and whether you maintain them inside the Peakboard Hub itself or rely on an existing directory.
+In this step you decide which backend the Peakboard Hub on premise checks logins against. The choice decides where the identities of your users come from — the local Windows of the server, or the Active Directory of your domain.
 
-* **Local Users** (1) — Users and passwords live exclusively inside the Peakboard Hub. There is no dependency on an Active Directory; instead you create every account manually in the [user management](/hub/en-hub_usermanagement.html) of the Peakboard Hub and assign the initial password there. A good fit for standalone servers, evaluation or test environments and smaller teams without their own domain.
-* **AD Users** (2) — Authentication through your Windows Domain Controller (Active Directory). The server that hosts the Peakboard Hub on premise must be a member of the same domain. At the login screen users enter their *Windows user name without the domain prefix* together with their *Windows password*, so they sign in with the corporate credentials they already use. Roles and groups are still managed in the user management of the Peakboard Hub on premise — but the identity itself comes from Active Directory, so there is no second set of passwords to maintain.
+* **Local Users** (1) — Authentication goes against the *local Windows user accounts* of the server that hosts the Peakboard Hub on premise. Those accounts and their passwords are managed inside Windows (for example via the Windows Computer Management console), not inside the Peakboard Hub. There is no dependency on an Active Directory and the server does not need to be a domain member. At the login screen users enter their *Windows user name* together with the matching *Windows password*. A good fit for standalone servers, evaluation or test environments and smaller teams without their own domain.
+* **AD Users** (2) — Authentication through your Windows Domain Controller (Active Directory). The server that hosts the Peakboard Hub on premise must be a member of the same domain. At the login screen users enter their *Windows user name without the domain prefix* together with their *Windows password*, so they sign in with the corporate credentials they already use.
 
-Regardless of the option you pick: the first user that signs in successfully automatically becomes the administrator of the Peakboard Hub on premise. You can promote additional administrators from the user management afterwards.
+For both options the same rule applies: the Peakboard Hub on premise does not store any passwords itself, and you do not pre-create user accounts with an initial password in the [user management](/hub/en-hub_usermanagement.html). The Hub account is created automatically on the first successful login. The first user that signs in becomes the administrator. In the Hub user management you only maintain groups and permissions afterwards — the actual credentials stay with Windows respectively the Active Directory.
 
 Pick the option that fits your environment and click [Next].
 
