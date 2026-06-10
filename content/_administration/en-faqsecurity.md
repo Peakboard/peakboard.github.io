@@ -55,7 +55,7 @@ We guarantee full protection.
 
 ## Encrypting Peakboard files
 
-A Peakboard file (`.peakboard`) can be password-protected directly in the Peakboard Designer. Once protected, the entire file content – including all credentials for data sources, scripts, variables and resources – is encrypted and can only be opened again by entering the password.
+A Peakboard file (`.pbmx`) can be password-protected directly in the Peakboard Designer. Once protected, the entire file content – including all credentials for data sources, scripts, variables and resources – is encrypted and can only be opened again by entering the password.
 
 In the Peakboard Designer, open the project settings in the menu bar and select [Project info]. In the [Edit project] dialog you will find the [File protection] section.
 
@@ -69,19 +69,19 @@ Activate the checkbox [Protect file with password] (1) and set a strong password
 Keep the password in a safe place. Without the password, an encrypted Peakboard file can neither be opened nor recovered.
 </div>
 
-## Encrypted communication with the Peakboard Box (Port 40405)
+## Encrypted communication with the Peakboard Box (Port 40404/40405)
 
-The Peakboard Designer and the Peakboard Hub communicate with the Peakboard Box over two ports:
+The Peakboard Designer and the Peakboard Hub communicate with the Peakboard Box over either an unencrypted or an encrypted channel. Which one is used is configured per Peakboard Box in the [Peakboard Box Settings] (Box management). The setting does not apply per request, but to the **entire** communication with that Peakboard Box:
 
-* **Port 40404 – unencrypted (HTTP).** Used exclusively for credential-free status queries such as the time-server check. Credentials and access tokens are never sent over this port.
-* **Port 40405 – encrypted (HTTPS with TLS 1.2/1.3).** As soon as credentials, access tokens or application packages are transferred, the connection always runs over this encrypted port.
+* **Port 40404 – unencrypted (HTTP).** If the encrypted connection is not enabled, the entire communication with the Peakboard Box runs over this port – not only status queries such as the time-server check, but also the transfer of applications, credentials and access tokens.
+* **Port 40405 – encrypted (HTTPS with TLS 1.2/1.3).** If the encrypted connection is enabled, the entire communication runs over this encrypted port.
 
-For this connection the Peakboard Box presents its own certificate, which is issued by the Peakboard root certification authority and contains the hostnames or IP addresses of the Peakboard Box. The Peakboard Designer validates that certificate against the Peakboard root certification authority that is added to the Windows certificate store when the Peakboard Designer is installed. This makes sure the connection really is with the correct Peakboard Box and cannot be eavesdropped on or tampered with.
+When the encrypted connection is enabled, the Peakboard Box presents its own certificate, which is issued by the Peakboard root certification authority and contains the hostnames or IP addresses of the Peakboard Box. The Peakboard Designer validates that certificate against the Peakboard root certification authority that is added to the Windows certificate store when the Peakboard Designer is installed. This makes sure the connection really is with the correct Peakboard Box and cannot be eavesdropped on or tampered with.
 
 <div class="box-tip" markdown="1">
 **Tip:**
 
-If you disable the unencrypted channel in the Peakboard Box settings, communication is restricted to port 40405 only.
+Enable the encrypted connection if credentials, access tokens and applications should be transferred exclusively over the encrypted port 40405.
 </div>
 
 ## Authentication with data sources

@@ -57,7 +57,7 @@ Wir gewährleisten den vollumfänglichen Schutz.
 
 ## Peakboard Dateien verschlüsseln
 
-Eine Peakboard Datei (`.peakboard`) kannst du direkt im Peakboard Designer mit einem Passwort schützen. Damit ist der Inhalt der Datei – inklusive aller Anmeldedaten zu Datenquellen, Skripte, Variablen und Ressourcen – verschlüsselt und nur nach Eingabe des Passworts wieder zu öffnen.
+Eine Peakboard Datei (`.pbmx`) kannst du direkt im Peakboard Designer mit einem Passwort schützen. Damit ist der Inhalt der Datei – inklusive aller Anmeldedaten zu Datenquellen, Skripte, Variablen und Ressourcen – verschlüsselt und nur nach Eingabe des Passworts wieder zu öffnen.
 
 Öffne dazu im Peakboard Designer in der Menüleiste die Projekteinstellungen und wähle den Menüpunkt [Project info]. Im Dialog [Edit project] findest du den Abschnitt [File protection].
 
@@ -71,19 +71,19 @@ Aktiviere die Checkbox [Protect file with password] (1) und vergib im Feld [New 
 Bewahre das Passwort sicher auf. Eine verschlüsselte Peakboard Datei kann ohne das gesetzte Passwort weder geöffnet noch wiederhergestellt werden.
 </div>
 
-## Verschlüsselte Kommunikation mit der Peakboard Box (Port 40405)
+## Verschlüsselte Kommunikation mit der Peakboard Box (Port 40404/40405)
 
-Der Peakboard Designer und der Peakboard Hub kommunizieren mit der Peakboard Box über zwei Ports:
+Der Peakboard Designer und der Peakboard Hub kommunizieren mit der Peakboard Box wahlweise über einen unverschlüsselten oder einen verschlüsselten Kanal. Welcher der beiden verwendet wird, legst du pro Peakboard Box in den [Peakboard Box Settings] (Box Management) fest. Die Einstellung gilt nicht pro Anfrage, sondern für die **gesamte** Kommunikation mit der jeweiligen Peakboard Box:
 
-* **Port 40404 – unverschlüsselt (HTTP).** Wird ausschließlich für anmeldungsfreie Statusabfragen genutzt, zum Beispiel den Zeitserver-Check. Über diesen Port werden niemals Anmeldedaten oder Zugriffstokens übertragen.
-* **Port 40405 – verschlüsselt (HTTPS mit TLS 1.2/1.3).** Sobald Anmeldedaten, Zugriffstokens oder Anwendungspakete übertragen werden, läuft die Verbindung immer über diesen verschlüsselten Port.
+* **Port 40404 – unverschlüsselt (HTTP).** Ist die verschlüsselte Verbindung nicht aktiviert, läuft die gesamte Kommunikation mit der Peakboard Box über diesen Port – also nicht nur Statusabfragen wie der Zeitserver-Check, sondern auch das Übertragen von Anwendungen, Anmeldedaten und Zugriffstokens.
+* **Port 40405 – verschlüsselt (HTTPS mit TLS 1.2/1.3).** Ist die verschlüsselte Verbindung aktiviert, läuft die gesamte Kommunikation über diesen verschlüsselten Port.
 
-Die Peakboard Box weist sich dabei mit einem eigenen Zertifikat aus, das auf die Peakboard-Stammzertifizierungsstelle zurückgeht und die Hostnamen bzw. IP-Adressen der Peakboard Box enthält. Der Peakboard Designer prüft dieses Zertifikat gegen die Peakboard-Stammzertifizierungsstelle, die bei der Installation des Peakboard Designers im Windows-Zertifikatspeicher hinterlegt wird. So ist sichergestellt, dass die Verbindung tatsächlich mit der richtigen Peakboard Box besteht und weder abgehört noch manipuliert werden kann.
+Bei aktivierter verschlüsselter Verbindung weist sich die Peakboard Box mit einem eigenen Zertifikat aus, das auf die Peakboard-Stammzertifizierungsstelle zurückgeht und die Hostnamen bzw. IP-Adressen der Peakboard Box enthält. Der Peakboard Designer prüft dieses Zertifikat gegen die Peakboard-Stammzertifizierungsstelle, die bei der Installation des Peakboard Designers im Windows-Zertifikatspeicher hinterlegt wird. So ist sichergestellt, dass die Verbindung tatsächlich mit der richtigen Peakboard Box besteht und weder abgehört noch manipuliert werden kann.
 
 <div class="box-tip" markdown="1">
 **Tipp:**
 
-Wenn du in den Peakboard Box Einstellungen den unverschlüsselten Kanal deaktivierst, ist ausschließlich die Kommunikation über Port 40405 möglich.
+Aktiviere die verschlüsselte Verbindung, wenn Anmeldedaten, Zugriffstokens und Anwendungen ausschließlich über den verschlüsselten Port 40405 übertragen werden sollen.
 </div>
 
 ## Authentifizierung an Datenquellen
