@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Microsoft Calendar
-menu_title: Microsoft Calendar
+title: Office 365 Calendar
+menu_title: Office 365 Calendar
 description: Connect a Microsoft 365 calendar as a data source in the Peakboard Designer, including single-/multi-tenant authorization.
 lang: en
 weight: 1150
