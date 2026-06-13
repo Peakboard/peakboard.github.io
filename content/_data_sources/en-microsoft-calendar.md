@@ -2,7 +2,7 @@
 layout: article
 title: Microsoft Calendar
 menu_title: Microsoft Calendar
-description: Microsoft Calendar Integration in Peakboard
+description: Connect a Microsoft 365 calendar as a data source in the Peakboard Designer, including single-/multi-tenant authorization.
 lang: en
 weight: 1150
 ref: cal-1150
@@ -10,27 +10,38 @@ redirect_from:
   - /data_sources/24-en-microsoft-calendar.html
 ---
 
-The Microsoft Calendar data source allows you to access a calendar that is hosted on Office 365. Currently, only Microsoft calendars hosted on Office 365 or on Office.com are supported. SharePoint calendars or local Exchange calendars are not supported.
+The Microsoft Calendar data source lets you access a calendar that is hosted on Microsoft 365. Only calendars hosted on Microsoft 365 / Outlook.com are supported – SharePoint calendars or local Exchange calendars are not. Sign-in uses modern Microsoft authentication (Microsoft Entra ID, OAuth) with a choice between a **multi-tenant** and a **single-tenant** application.
 
 ## Setting up the data source
 
-To add the data source right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [Microsoft Calendar] (1).
+Right-click [Data] or click the [...] button and choose [Add data source]. Switch to the [Office 365] category (1) and select the [Calendar] data source (2).
 
-![Add data source](/assets/images/data-sources/mscal/en_mscal-01.png)
+![Add Microsoft Calendar data source](/assets/images/data-sources/microsoft-calendar/microsoft-calendar-01-add.png)
 
-Give the data source a name (1) and define the desired time period (2) for which calendar entries should be displayed in the given format and select the correct time zone.
+## Configure the connection
 
-![Data Sources Dialog](/assets/images/data-sources/mscal/en_mscal-02.png)
+In the [General] section, first give the data source a name. In the [Connection] section, use the dropdown to pick the authorization method (1) and then sign in via the [Authorize] button (2). Once authorized, the button shows [Is authorized]. Because sign-in happens through the regular Microsoft login window, multi-factor authentication (MFA) is supported – only an access token is stored in your project, never your user name and password. You can revoke that token at any time through the Microsoft 365 portal.
 
-Now you need to authorize Peakboard to access the calendar. Click on the [Authorize] button (1) and follow the prompts for account access. Please note that username and password will never be stored in your project, only a token whose validity you can reset via the Office 365 portal.
+* **Use multi-tenant Application** – Peakboard uses a ready-made application that Peakboard has already registered in Microsoft Entra ID. You don't need to register your own app; a single [Authorize] is enough.
+* **Use single-tenant Application** – you use your own app registration in your own Microsoft Entra ID directory (tenant) by entering its [Application (client) ID] and [Directory (tenant) ID]. Authentication then stays entirely within your organization.
 
-![Authorization](/assets/images/data-sources/mscal/en_mscal-03.png)
+If you already authorized an Office 365 connection in the same project (for example for SharePoint Lists), click [Reuse existing connection] at the bottom and pick it – no second sign-in is required.
 
-The Date format (1) field contains the pattern that will be used to format the date and time in the later table. In case you want to process the main part of the calendar entry (the so-called body) as HTML formatting instead of plain text, click the corresponding checkbox [Content as HTML] (2).
-Click on [Load data] (3) to display the preview.
-The result is a list containing one line per calendar entry.
+![Configure the Microsoft Calendar connection and details](/assets/images/data-sources/microsoft-calendar/microsoft-calendar-02-config.png)
 
-![Preview](/assets/images/data-sources/mscal/en_mscal-04.png)
+## Specify details
+
+By default the data source reads the signed-in user's default calendar. Enable [Specific Calendar] (3) to instead choose a particular calendar of the account. Enable [Select timeframe] (4) to restrict the entries to a date range; otherwise a default range around the current date is used. With [Timezone] you set the time zone the start and end times are converted to.
+
+The [Date format] field (5) contains the pattern used to format the date and time of each entry in the resulting table (default `HH:mm:ss dd.MM.yyyy`). If you want to process the main part of a calendar entry (the so-called body) as HTML formatting instead of plain text, enable the [Content as HTML] checkbox.
+
+## Load data
+
+Click [Load data] to display the preview. The result is a list containing one line per calendar entry, with the columns [Subject], [Start], [End] and [Body] (the subjects are blanked out in this screenshot).
+
+![Microsoft Calendar preview](/assets/images/data-sources/microsoft-calendar/microsoft-calendar-03-preview.png)
+
+Click [OK] to create the data source. It then appears in the Explorer under [Data] and can be linked to controls like any other data source.
 
 Under the following link you can find additional information in the form of a YouTube video:
 
