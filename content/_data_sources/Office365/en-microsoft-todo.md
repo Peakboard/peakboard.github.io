@@ -6,6 +6,7 @@ description: Read the tasks of a Microsoft To Do task list as a data source in t
 lang: en
 weight: 1190
 ref: dat-1190
+permalink: /data_sources/en-microsoft-todo.html
 redirect_from:
 ---
 
@@ -19,12 +20,7 @@ Right-click [Data] or click the [...] button and choose [Add data source]. Switc
 
 ## Configure the connection
 
-In the [General] section, first give the data source a name. In the [Connection] section, use the dropdown to pick the authorization method and then sign in via the [Authorize] button. Once authorized, the button shows [Is authorized]. Because sign-in happens through the regular Microsoft login window, multi-factor authentication (MFA) is supported – only an access token is stored in your project, never your user name and password. You can revoke that token at any time through the Microsoft 365 portal.
-
-* **Use multi-tenant Application** – Peakboard uses a ready-made application that Peakboard has already registered in Microsoft Entra ID. You don't need to register your own app; a single [Authorize] is enough.
-* **Use single-tenant Application** – you use your own app registration in your own Microsoft Entra ID directory (tenant) by entering its [Application (client) ID] and [Directory (tenant) ID]. Authentication then stays entirely within your organization.
-
-If you already authorized an Office 365 connection in the same project (for example for SharePoint Lists, the Office 365 Calendar, Outlook or Teams), click [Reuse existing connection] at the bottom and pick it – no second sign-in is required.
+Give the data source a name, then set up the [Connection]. Picking the authorization method, signing in with [Authorize] and reusing an existing connection work the same for all Office 365 data sources and are described once here: [Office 365 connection](/data_sources/en-office365-connection.html).
 
 ## Specify details
 

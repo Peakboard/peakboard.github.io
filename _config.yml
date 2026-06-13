@@ -42,6 +42,9 @@ collections:
       en: "Data Sources"
       de: "Datenquellen"
     sublevel:
+      Office365:
+        en: "Office 365"
+        de: "Office 365"
       Basics:
         en: "Basics"
         de: "Basics"

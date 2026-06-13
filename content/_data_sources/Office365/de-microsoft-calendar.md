@@ -6,6 +6,7 @@ description: Microsoft 365 Kalender als Datenquelle im Peakboard Designer anbind
 lang: de
 weight: 1150
 ref: cal-1150
+permalink: /data_sources/de-microsoft-calendar.html
 redirect_from:
   - /data_sources/24-de-microsoft-calendar.html
 ---
@@ -20,14 +21,7 @@ Mache einen Rechtsklick auf [Daten] oder klicke auf den [...]-Button und wähle 
 
 ## Verbindung konfigurieren
 
-Vergib im Bereich [General] zunächst einen Namen für die Datenquelle. Im Bereich [Connection] wählst du über das Auswahlfeld die Autorisierungsmethode (1) und meldest dich anschließend über den Button [Authorize] (2) an. Nach erfolgreicher Anmeldung zeigt der Button [Is authorized]. Da die Anmeldung über das normale Microsoft-Anmeldefenster erfolgt, wird auch die Zwei-Faktor-Authentifizierung (MFA) unterstützt – in deinem Projekt wird niemals Username und Passwort gespeichert, sondern nur ein Token, dessen Gültigkeit du über das Microsoft-365-Portal jederzeit zurücksetzen kannst.
-
-* **Use multi-tenant Application** – Peakboard nutzt eine bereits von Peakboard bereitgestellte, mandantenübergreifende Anwendung in Microsoft Entra ID. Du musst keine eigene App registrieren; ein Klick auf [Authorize] genügt.
-* **Use single-tenant Application** – du verwendest eine eigene App-Registrierung in deinem eigenen Microsoft Entra ID-Verzeichnis (Tenant), indem du dessen [Application (client) ID] und [Directory (tenant) ID] einträgst. Die Anmeldung bleibt damit vollständig innerhalb deiner Organisation.
-
-Hast du im selben Projekt bereits eine Office-365-Verbindung autorisiert (zum Beispiel für SharePoint Lists), klicke unten auf [Reuse existing connection] und wähle sie aus – eine erneute Anmeldung ist dann nicht nötig.
-
-![Microsoft Kalender Verbindung und Details konfigurieren](/assets/images/data-sources/microsoft-calendar/microsoft-calendar-02-config.png)
+Vergib der Datenquelle einen Namen und richte anschließend die [Connection] ein. Die Wahl der Autorisierungsmethode, die Anmeldung über [Authorize] und das Wiederverwenden einer bestehenden Verbindung funktionieren für alle Office 365 Datenquellen gleich und werden hier einmal beschrieben: [Office 365 Verbindung](/data_sources/de-office365-connection.html).
 
 ## Details angeben
 
