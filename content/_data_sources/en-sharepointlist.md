@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Sharepoint List
-menu_title: Sharepoint List
+title: Office 365 Sharepoint List
+menu_title: Office 365 Sharepoint List
 description: Connect a SharePoint Lists data source (Microsoft 365) in the Peakboard Designer, including multi-tenant and single-tenant authorization.
 lang: en
 weight: 2500
