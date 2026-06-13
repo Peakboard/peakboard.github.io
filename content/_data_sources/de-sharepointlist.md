@@ -4,7 +4,7 @@ title: Office 365 SharePoint-Liste
 menu_title: Office 365 SharePoint-Liste
 description: Anbindung einer SharePoint Lists Datenquelle (Microsoft 365) im Peakboard Designer inkl. Multi-Tenant- und Single-Tenant-Autorisierung.
 lang: de
-weight: 2500
+weight: 1180
 ref: dat-2500
 redirect_from:
 ---
