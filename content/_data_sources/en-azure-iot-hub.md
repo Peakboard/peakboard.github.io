@@ -2,45 +2,70 @@
 layout: article
 title: Azure IoT Hub
 menu_title: Azure IoT Hub
-description: Information about Azure IoT Hub Data in Peakboard
+description: Azure IoT Hub as a data source in Peakboard – connect Peakboard as a device, receive messages and direct methods, and send messages to the cloud.
 lang: en
 weight: 200
 ref: dat-200
 redirect_from:
   - /data_sources/20-en-azure-iot-hub.html
 ---
-This article shows how to use the Azure IoT hub data source in Peakboard. Please first make the difference between the data sources IoT Hub and Event Hub clear. The latter is explained [here](/data_sources/19-en-azure-event-hub.html). The event hub source is about receiving messages only. This is therefore only intended for asynchronous reaction to events. In the IoT hub source, the Peakboard acts as a device within the Azure IoT hub. It must be created there as a device. For this to work, you need the connection string from the Azure portal, which is directly associated with the device.
 
-![image_1](/assets/images/data-sources/azure-iot-hub/datenquellen-iot-hub-01.png)
+This article describes the [Azure IoT Hub] data source in Peakboard and sets it apart from the [Azure Event Hub](/data_sources/en-azure-event-hub.html) data source.
 
-![image_1](/assets/images/data-sources/azure-iot-hub/datenquellen-iot-hub-02.png)
+While the event hub data source is used purely to **receive** events – ideal for reacting to events asynchronously – Peakboard takes an active role with the IoT hub data source: **Peakboard acts as its own device within the Azure IoT Hub.** Communication is therefore bidirectional. Peakboard can receive messages, answer direct methods and send messages to Azure itself.
 
+For this to work, Peakboard must be registered as a device in the Azure IoT Hub. To learn how to create a device, see the Microsoft documentation:
 
-In order for the Peakboard to be able to do its job as a “device”, there are several communication channels which are explained below: Receive messages asynchronously, receive methods with return value synchronously and return a value, send messages from the Peakboard.
+[https://learn.microsoft.com/azure/iot-hub/iot-hub-create-through-portal](https://learn.microsoft.com/azure/iot-hub/iot-hub-create-through-portal)
 
-# Receiving messages
+The connection uses the **device connection string**, which is stored directly with the device in the Azure portal:
 
-Incoming messages are stored in the data source in a table-like object with the three columns Timestamp, Topic and Text as you know it from a data source. The size of this queue can be set using a parameter. If you don’t value the content of the queue, you can also react to it with the help of a script. The script is simply called with every incoming message. The following example shows a script that simply writes the content of the message into a text field:
+![Device connection string in the Azure portal](/assets/images/data-sources/azure-iot-hub/azure-iot-hub-02-device-connection.png)
 
-![image_1](/assets/images/data-sources/azure-iot-hub/datenquellen-iot-hub-03.png)
+## Add the data source
 
+Right-click [Data] or click the [...] button and choose [Add data source]. You will find the Azure IoT Hub in the [Generic] category – or simply type "IoT" into the search box. Then double-click the [Azure IoT Hub] tile (1).
 
-To send a test message, it is best to use the Azure test mode:
+![Add the Azure IoT Hub data source](/assets/images/data-sources/azure-iot-hub/azure-iot-hub-01-add.png)
 
+## Configure the connection
 
+In the following dialog you set up the connection and the processing:
 
-![image_1](/assets/images/data-sources/azure-iot-hub/datenquellen-iot-hub-04.png)
+* **Data source name** (1) – the name under which the data source appears in the Explorer.
+* **Connection string** (2) – the device connection string from the Azure portal (see above).
+* **Queue size** (3) – the maximum number of the most recent messages kept in the queue table.
+* **Script** (4) – an optional script that is called for every incoming message (see below).
+* **Direct methods** (5) – the list of methods the device answers. Use [New] to add a new method.
 
-# Receive and respond to methods
+![Connection details for the Azure IoT Hub](/assets/images/data-sources/azure-iot-hub/azure-iot-hub-03-config.png)
 
-The second way of exchanging messages are methods. They differ from messages in that they have a return value. The device can therefore react to the message and return a kind of acknowledgement. An entry must be created in the method table for each method. The example shows the “PostAlert” method, which receives the message, evaluates it and returns the name of the Peakboard as JSON. Let’s assume that the method sends a JSON message with the type of alarm. The following screenshot shows how to create the request in the Azure method test dialog. You reach it like the test mode for messages (see above). The script code also shows how the JSON is parsed and processed correctly. The pure string can be reached via json.DataAsJson. The json.parse (…) function creates a dynamic object. The AlertType property is then accessed very easily.
+> The connection string contains a secret key. In the screenshot the `SharedAccessKey` value is masked – enter your real value from the Azure portal here.
 
-![image_1](/assets/images/data-sources/azure-iot-hub/datenquellen-iot-hub-05.png)
+## Receiving messages
 
-![image_1](/assets/images/data-sources/azure-iot-hub/datenquellen-iot-hub-06.png)
+Incoming messages are stored automatically in a table-like structure – just like any other Peakboard data source. The table has three columns: `Timestamp` (when the message was received), `Topic` (the message source) and `Text` (the content). Use [Queue size] to define how many of the most recent messages are kept.
 
-# Sending messages from Peakboard to IoT Hub
+Alternatively, or in addition, you can react to each incoming message directly with a script, without evaluating the queue. The script is triggered automatically for every message. In the Building Blocks editor, the [This Event] group (1) gives you the blocks [Get message timestamp], [Get message topic] and [Get message text] (2) to access the current message.
 
-The third and last aspect for using Peakboard as an IoT device is sending messages to the cloud. This can be done easily via a script. The following example is behind the tapped event of a button. The end user can thus send a message by pressing a button. Here too, a JSON string is typically sent again. You can see on the script how the JSON is formed from a dynamic object. The attributes are simply filled with values and created implicitly.
+![Accessing the incoming message in the script](/assets/images/data-sources/azure-iot-hub/azure-iot-hub-04-receive-script.png)
 
-![image_1](/assets/images/data-sources/azure-iot-hub/datenquellen-iot-hub-07.png)
+To test incoming messages, use the **message test mode in the Azure portal**:
+
+![Send a test message from the Azure portal](/assets/images/data-sources/azure-iot-hub/azure-iot-hub-05-message-test.png)
+
+## Receiving and answering direct methods
+
+Besides messages, the Azure IoT Hub supports so-called **direct methods**. They differ from messages in that they are called synchronously and expect a return value. Peakboard can therefore not only react, but also return an answer (for example an acknowledgement) to the calling system.
+
+For each method you add an entry to the [Direct methods] table via [New] in the connection dialog (in the example the method `PostAlert`). In the method script you access the supplied JSON payload through the [Get payload data as JSON] block (2) in the [This Event] group (1), evaluate it, and return a value as the answer.
+
+![Accessing the payload of a direct method in the script](/assets/images/data-sources/azure-iot-hub/azure-iot-hub-06-method-script.png)
+
+The matching method call can be triggered directly in the Azure portal through the method test dialog – just like the message test. Peakboard's answer is then shown under [Result]:
+
+![Invoke a direct method from the Azure portal](/assets/images/data-sources/azure-iot-hub/azure-iot-hub-07-method-test.png)
+
+## Sending messages from Peakboard to the IoT Hub
+
+The third communication channel is actively sending messages from Peakboard to the cloud. This is done with a script bound, for example, to a button's [Tapped] event – so an end user can send a message at the push of a button. In the script you typically build a JSON object and pass it to the send function of the IoT hub data source. This lets you integrate Peakboard seamlessly as a sending device in your IoT architecture.
