@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Office 365 Verbindung
-menu_title: Office 365 Verbindung
+menu_title: Verbindung
 description: Wie sich die Office 365 Datenquellen authentifizieren – Multi-Tenant vs. Single-Tenant – und wie du eine bestehende Verbindung wiederverwendest.
 lang: de
 weight: 1145
@@ -28,6 +28,15 @@ Die Anmeldung läuft über die moderne Microsoft-Authentifizierung (Microsoft En
 Hast du [Use single-tenant Application] gewählt (1), trägst du zusätzlich die Werte deiner eigenen App-Registrierung ein: die [Application (client) ID] (2) und die [Directory (tenant) ID] (3). Anschließend startest du die Anmeldung über [Authorize] (4).
 
 ![Office 365 Verbindung – Single-Tenant](/assets/images/data-sources/office365-connection/office365-connection-03-singletenant.png)
+
+### App-Registrierung in Microsoft Entra ID einrichten
+
+Für die Single-Tenant-Variante legst du die Anwendung einmalig selbst in Microsoft Entra ID an:
+
+1. Öffne im [Azure-Portal](https://portal.azure.com) den Bereich **Microsoft Entra ID** und wähle **App-Registrierungen** → **Neue Registrierung**. Vergib einen Namen und übernimm ansonsten die Standardwerte.
+2. Öffne **API-Berechtigungen** und füge unter **Microsoft Graph** die delegierten Berechtigungen hinzu, die deine Datenquelle benötigt (z. B. `Tasks.ReadWrite` für To Do oder `Calendars.Read` für den Kalender). Erteile anschließend – falls deine Organisation das verlangt – die Administratorzustimmung.
+3. Aktiviere unter **Authentifizierung** die Option **Öffentliche Clientflows zulassen** (Allow public client flows). Das ist für Desktop-Anwendungen wie den Peakboard Designer zwingend erforderlich.
+4. Auf der Seite **Übersicht** der App findest du schließlich die [Application (client) ID] und die [Directory (tenant) ID], die du in die entsprechenden Felder der Datenquelle einträgst.
 
 Kurz zusammengefasst:
 

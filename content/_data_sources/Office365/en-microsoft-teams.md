@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Office 365 Teams
-menu_title: Office 365 Teams
+menu_title: Teams
 description: Read the messages of a Microsoft Teams channel as a data source in the Peakboard Designer, including single-/multi-tenant authorization.
 lang: en
 weight: 1185

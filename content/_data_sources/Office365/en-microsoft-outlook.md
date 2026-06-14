@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Office 365 Outlook
-menu_title: Office 365 Outlook
+menu_title: Outlook
 description: Read e-mails from a Microsoft 365 Outlook mailbox as a data source in the Peakboard Designer, including single-/multi-tenant authorization.
 lang: en
 weight: 1175

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Office 365 Outlook
-menu_title: Office 365 Outlook
+menu_title: Outlook
 description: E-Mails aus einem Microsoft 365 Outlook-Postfach als Datenquelle im Peakboard Designer lesen – inkl. Single-Tenant- und Multi-Tenant-Autorisierung.
 lang: de
 weight: 1175

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Office 365 To Do
-menu_title: Office 365 To Do
+menu_title: To Do
 description: Read the tasks of a Microsoft To Do task list as a data source in the Peakboard Designer, including single-/multi-tenant authorization.
 lang: en
 weight: 1190

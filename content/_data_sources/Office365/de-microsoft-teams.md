@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Office 365 Teams
-menu_title: Office 365 Teams
+menu_title: Teams
 description: Die Nachrichten eines Microsoft Teams Kanals als Datenquelle im Peakboard Designer lesen – inkl. Single-Tenant- und Multi-Tenant-Autorisierung.
 lang: de
 weight: 1185

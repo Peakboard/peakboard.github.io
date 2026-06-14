@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Office 365 Kalender
-menu_title: Office 365 Kalender
+menu_title: Kalender
 description: Microsoft 365 Kalender als Datenquelle im Peakboard Designer anbinden – inkl. Single-Tenant- und Multi-Tenant-Autorisierung.
 lang: de
 weight: 1150
