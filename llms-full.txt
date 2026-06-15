@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-06-08)
+## Complete URL inventory (as of 2026-06-15)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
@@ -54,7 +54,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (237)
+### German documentation pages (245)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
@@ -163,12 +163,16 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/de-json.html: https://help.peakboard.com/data_sources/de-json.html
 - /data_sources/de-mail.html: https://help.peakboard.com/data_sources/de-mail.html
 - /data_sources/de-microsoft-calendar.html: https://help.peakboard.com/data_sources/de-microsoft-calendar.html
+- /data_sources/de-microsoft-outlook.html: https://help.peakboard.com/data_sources/de-microsoft-outlook.html
+- /data_sources/de-microsoft-teams.html: https://help.peakboard.com/data_sources/de-microsoft-teams.html
+- /data_sources/de-microsoft-todo.html: https://help.peakboard.com/data_sources/de-microsoft-todo.html
 - /data_sources/de-mitsubishi.html: https://help.peakboard.com/data_sources/de-mitsubishi.html
 - /data_sources/de-modbus.html: https://help.peakboard.com/data_sources/de-modbus.html
 - /data_sources/de-mqtt.html: https://help.peakboard.com/data_sources/de-mqtt.html
 - /data_sources/de-ms-sql-server.html: https://help.peakboard.com/data_sources/de-ms-sql-server.html
 - /data_sources/de-odata.html: https://help.peakboard.com/data_sources/de-odata.html
 - /data_sources/de-odbc.html: https://help.peakboard.com/data_sources/de-odbc.html
+- /data_sources/de-office365-connection.html: https://help.peakboard.com/data_sources/de-office365-connection.html
 - /data_sources/de-oracle.html: https://help.peakboard.com/data_sources/de-oracle.html
 - /data_sources/de-peakboard-data-source.html: https://help.peakboard.com/data_sources/de-peakboard-data-source.html
 - /data_sources/de-peakboard-hub-list.html: https://help.peakboard.com/data_sources/de-peakboard-hub-list.html
@@ -204,6 +208,8 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Alerts/de-hub_alerts.html: https://help.peakboard.com/hub/Alerts/de-hub_alerts.html
 - /hub/Flows/de-hub_flow-create.html: https://help.peakboard.com/hub/Flows/de-hub_flow-create.html
 - /hub/Flows/de-hub_flow-lists.html: https://help.peakboard.com/hub/Flows/de-hub_flow-lists.html
+- /hub/Flows/de-hub_flow-use-cases.html: https://help.peakboard.com/hub/Flows/de-hub_flow-use-cases.html
+- /hub/Flows/de-hub_flows-introduction.html: https://help.peakboard.com/hub/Flows/de-hub_flows-introduction.html
 - /hub/Flows/de-hub_flows-overview.html: https://help.peakboard.com/hub/Flows/de-hub_flows-overview.html
 - /hub/Listen/de-hub_delete-list.html: https://help.peakboard.com/hub/Listen/de-hub_delete-list.html
 - /hub/Listen/de-hub_export-list.html: https://help.peakboard.com/hub/Listen/de-hub_export-list.html
@@ -215,6 +221,8 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html
 - /hub/Peakboard_Hub_on_premise/de-hub_installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_installation.html
 - /hub/Peakboard_Hub_on_premise/de-hub_mqtt.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_mqtt.html
+- /hub/Peakboard_Hub_on_premise/de-hub_silent-installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_silent-installation.html
+- /hub/Peakboard_Hub_on_premise/de-hub_uninstallation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_uninstallation.html
 - /hub/Peakboard_Hub_on_premise/de-hub_usermanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_usermanagement.html
 - /hub/Peakboard_Hub_on_premise/de-hub_version-history.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_version-history.html
 - /hub/Peakboard_Hub_online/de-get-started-online.html: https://help.peakboard.com/hub/Peakboard_Hub_online/de-get-started-online.html
@@ -294,7 +302,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (236)
+### English documentation pages (244)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
@@ -402,12 +410,16 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/en-json.html: https://help.peakboard.com/data_sources/en-json.html
 - /data_sources/en-mail.html: https://help.peakboard.com/data_sources/en-mail.html
 - /data_sources/en-microsoft-calendar.html: https://help.peakboard.com/data_sources/en-microsoft-calendar.html
+- /data_sources/en-microsoft-outlook.html: https://help.peakboard.com/data_sources/en-microsoft-outlook.html
+- /data_sources/en-microsoft-teams.html: https://help.peakboard.com/data_sources/en-microsoft-teams.html
+- /data_sources/en-microsoft-todo.html: https://help.peakboard.com/data_sources/en-microsoft-todo.html
 - /data_sources/en-mitsubishi.html: https://help.peakboard.com/data_sources/en-mitsubishi.html
 - /data_sources/en-modbus.html: https://help.peakboard.com/data_sources/en-modbus.html
 - /data_sources/en-mqtt.html: https://help.peakboard.com/data_sources/en-mqtt.html
 - /data_sources/en-ms-sql-server.html: https://help.peakboard.com/data_sources/en-ms-sql-server.html
 - /data_sources/en-odata.html: https://help.peakboard.com/data_sources/en-odata.html
 - /data_sources/en-odbc.html: https://help.peakboard.com/data_sources/en-odbc.html
+- /data_sources/en-office365-connection.html: https://help.peakboard.com/data_sources/en-office365-connection.html
 - /data_sources/en-oracle.html: https://help.peakboard.com/data_sources/en-oracle.html
 - /data_sources/en-peakboard-data-source.html: https://help.peakboard.com/data_sources/en-peakboard-data-source.html
 - /data_sources/en-peakboard-hub-list.html: https://help.peakboard.com/data_sources/en-peakboard-hub-list.html
@@ -443,6 +455,8 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Alerts/en-hub_alerts.html: https://help.peakboard.com/hub/Alerts/en-hub_alerts.html
 - /hub/Flows/en-hub_flow-create.html: https://help.peakboard.com/hub/Flows/en-hub_flow-create.html
 - /hub/Flows/en-hub_flow-lists.html: https://help.peakboard.com/hub/Flows/en-hub_flow-lists.html
+- /hub/Flows/en-hub_flow-use-cases.html: https://help.peakboard.com/hub/Flows/en-hub_flow-use-cases.html
+- /hub/Flows/en-hub_flows-introduction.html: https://help.peakboard.com/hub/Flows/en-hub_flows-introduction.html
 - /hub/Flows/en-hub_flows-overview.html: https://help.peakboard.com/hub/Flows/en-hub_flows-overview.html
 - /hub/Lists/en-hub_delete-list.html: https://help.peakboard.com/hub/Lists/en-hub_delete-list.html
 - /hub/Lists/en-hub_export-list.html: https://help.peakboard.com/hub/Lists/en-hub_export-list.html
@@ -454,6 +468,8 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html
 - /hub/Peakboard_Hub_on_premise/en-hub_installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_installation.html
 - /hub/Peakboard_Hub_on_premise/en-hub_mqtt.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_mqtt.html
+- /hub/Peakboard_Hub_on_premise/en-hub_silent-installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_silent-installation.html
+- /hub/Peakboard_Hub_on_premise/en-hub_uninstallation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_uninstallation.html
 - /hub/Peakboard_Hub_on_premise/en-hub_usermanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_usermanagement.html
 - /hub/Peakboard_Hub_on_premise/en-hub_version-history.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_version-history.html
 - /hub/Peakboard_Hub_online/en-get-started-online.html: https://help.peakboard.com/hub/Peakboard_Hub_online/en-get-started-online.html
