@@ -49,9 +49,3 @@ Im Bereich [Specify details] steuerst du, welche Nachrichten und welche Inhalte 
 Mit einem Klick auf [Load data] erzeugst du eine Vorschau (5). Pro E-Mail erhältst du eine Zeile mit den Spalten Timestamp, From, Subject und Body, sodass du direkt prüfen kannst, ob die Verbindung funktioniert.
 
 ![E-Mail Details festlegen und Vorschau laden](/assets/images/data-sources/mail/mail-03-details.png)
-
-## Datenquelle anlegen
-
-Mit einem Klick auf [OK] legst du die Datenquelle an. Sie erscheint anschließend im Explorer unter [Daten] (1) und kann wie jede andere Datenquelle mit Controls verknüpft werden.
-
-![E-Mail Datenquelle im Explorer](/assets/images/data-sources/mail/mail-04-explorer.png)
