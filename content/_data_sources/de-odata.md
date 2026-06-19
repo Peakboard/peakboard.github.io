@@ -2,7 +2,7 @@
 layout: article
 title: OData
 menu_title: OData
-description: Information über OData in Peakboard
+description: Peakboard mit einem OData-Service verbinden und dessen Entitäten als Datenquelle einlesen
 lang: de
 weight: 1700
 ref: dat-1700
@@ -10,24 +10,26 @@ redirect_from:
   - /data_sources/07-de-odata.html
 ---
 
-Diese Seite erklärt dir die einzelnen Features beim Zugriff auf OData-Datenquellen von Peakboard aus. Unter dem folgenden Link findest du ein Tutorial, wie du generell externe Datenquellen konfigurierst und an Peakboard-Elemente koppelst:
+OData ist ein standardisiertes, REST-basiertes Protokoll zum Austausch von Daten. Mit der OData Datenquelle verbindest du Peakboard mit einem beliebigen OData-Service und liest eine seiner Entitäten als Tabelle ein. Eine allgemeine Einführung, wie du externe Datenquellen konfigurierst und an Controls koppelst, findest du im folgenden Tutorial:
 
 [Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
 
-Füge eine neue OData Datenquelle hinzu über einen Rechtsklick auf [Daten], dann [Datenquelle hinzufügen] und [OData] (1).
+## Datenquelle hinzufügen
 
-![OData hinzufügen](/assets/images/data-sources/odata/de_odata-01.png)
+Füge eine neue OData Datenquelle über einen Rechtsklick auf [Daten] und dann [Datenquelle hinzufügen] hinzu. Wähle die Kachel [OData] (1) aus – du findest sie in der Kategorie [Generic] oder über das Suchfeld.
 
-Falls du keine URL zu einer OData-Datenquelle zur Hand hast, sondern die Sache einfach nur einmal ausprobieren willst, verwende bitte die folgende Beispiel-URL. Sie zeigt auf die AdventureWorks-Datenbank. Das ist eine Beispieldatenbank von Microsoft. Es sind verschiedene Entitätensets enthalten, z.B. ein Produktkatalog oder Verkaufszahlen.
+![OData hinzufügen](/assets/images/data-sources/odata/odata-01-add.png)
 
-[http://services.odata.org/AdventureWorksV3/AdventureWorks.svc](http://services.odata.org/AdventureWorksV3/AdventureWorks.svc)
+Falls du keine eigene OData-URL zur Hand hast, sondern die Sache einfach nur einmal ausprobieren willst, kannst du den öffentlichen TripPin-Beispielservice von Microsoft verwenden. Er stellt mehrere Entitäten bereit, z.B. `People`, `Airports` und `Airlines`:
 
-![OData Dialog](/assets/images/data-sources/odata/de_odata-02.png)
+[https://services.odata.org/TripPinRESTierService/](https://services.odata.org/TripPinRESTierService/)
 
-OData ist ein standardisiertes Datenaustauschformat. Die Beispiel-URL verweist auf eine kleine Datenbank, deren Entitätensets du in die Combobox (1) laden kannst, indem du auf [Laden] (2) klickst, nachdem du die URL (3) eingeben hast. Für den Fall, dass die OData-Anfrage eine Authentifizierung erfordert, kannst du diese mit dem entsprechenden Drop-down (4) auswählen und eingeben. Gib der Datenquelle einen passenden Namen.
+## Verbindung und Entität konfigurieren
 
-Wenn du dich für ein Entitätenset entschieden hast, werden automatisch die verfügbaren Entitätseigenschaften (5) zur Auswahl angezeigt. Für den Fall, dass du nicht alle Daten der Quelle abrufen möchtest, kannst du im entsprechenden Textfeld (6) einen OData-Filter hinterlegen. Falls du nicht genau weißt, wie ein OData-Filter funktioniert, findest du [auf odata.org](https://www.odata.org/getting-started/basic-tutorial/#queryData) eine gute Einführung.
+Vergib der Datenquelle zunächst einen Namen (1). Im Bereich [Connection] trägst du die Service-Adresse in [Base URL] (2) ein. Peakboard trennt den Service-Pfad dabei automatisch in das Feld [URL path] (3) im Bereich [Request] ab. Falls der Service eine Authentifizierung erfordert, wählst du die Methode unter [Authentication Type] (4) – für den öffentlichen Beispielservice bleibt sie auf [None].
 
-Mit einem Klick auf [Daten laden] (7) wird eine Testanfrage an den Server gesendet und die Daten entsprechend den Angaben aufbereitet.
+Mit einem Klick auf [Load] (5) liest du die verfügbaren Entitätensets aus dem Service ein und wählst anschließend unter [Entity sets] (6) das gewünschte aus – in diesem Beispiel [Airlines]. Über das Drop-down [Entity properties] (7) legst du fest, welche Spalten abgerufen werden; hier liefert die Entität `AirlineCode` und `Name`. Wenn du nicht alle Zeilen abrufen möchtest, kannst du im Feld [Filter string] (8) einen OData-Filter hinterlegen. Falls du nicht genau weißt, wie ein OData-Filter funktioniert, findest du [auf odata.org](https://www.odata.org/getting-started/basic-tutorial/#queryData) eine gute Einführung.
 
-![OData Vorschau](/assets/images/data-sources/odata/de_odata-03.png)
+Mit einem Klick auf [Load data] wird eine Testanfrage an den Server gesendet und rechts eine Vorschau angezeigt – hier die vom Service gelieferten Airlines mit ihrem `AirlineCode` und `Name`. Bestätige mit [OK], um die Datenquelle anzulegen; sie erscheint danach im Explorer unter [Daten] und kann wie jede andere Datenquelle mit Controls verknüpft werden.
+
+![OData-Verbindung konfigurieren und Vorschau laden](/assets/images/data-sources/odata/odata-02-configure.png)
