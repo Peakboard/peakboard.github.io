@@ -49,9 +49,3 @@ In the [Specify details] section, you control which messages and which content a
 Click [Load data] to generate a preview (5). For each email you get one row with the columns Timestamp, From, Subject and Body, so you can immediately check whether the connection works.
 
 ![Specify email details and load the preview](/assets/images/data-sources/mail/mail-03-details.png)
-
-## Create the data source
-
-Click [OK] to create the data source. It then appears in the Explorer under [Data] (1) and can be linked to controls like any other data source.
-
-![Email data source in the Explorer](/assets/images/data-sources/mail/mail-04-explorer.png)
