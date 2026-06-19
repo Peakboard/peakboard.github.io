@@ -2,45 +2,56 @@
 layout: article
 title: E-Mail
 menu_title: E-Mail
-description: Information about E-Mail data sources in Peakboard
+description: Anbindung einer E-Mail Datenquelle (IMAP/SMTP) im Peakboard Designer
 lang: de
 weight: 500
 ref: dat-500
 redirect_from:
 ---
 
-Diese Seite erklärt die einzelnen Features beim Zugriff auf die E-Mail Datenquelle.
-Unter dem folgenden Link findest du ein Tutorial, wie generell externe Datenquellen konfiguriert und an Peakboard-Elemente gekoppelt werden:
+Die E-Mail Datenquelle erlaubt dir den Zugriff auf ein E-Mail-Postfach per IMAP sowie den Versand von E-Mails per SMTP. Üblicherweise nutzt du sie, um auf einfache Weise Nachrichten an oder von einer Peakboard Box zu senden bzw. zu empfangen. Grundsätzlich gibt es zwei Arten, wie du die Datenquelle einsetzen kannst:
 
-[Erste Schritte mit externen Datenquellen am Beispiel einer XML-Datenquelle](/tutorials/03-de-xml-daten.html)
-
-Die E-Mail Datenquelle erlaubt dir den Zugriff auf ein E-Mail-Postfach per IMAP sowie den Versand von E-Mails per SMTP.
-Üblicherweise nutzt du sie, um über einen sehr einfachen Weg Nachrichten an oder von einer Peakboard Box zu senden.
-Generell gibt es zwei Arten, wie du die Datenquelle einsetzen kannst:
-
-- Der Inhalt des Postfaches wird einfach als tabellarische Datenquelle dargestellt. Jede Zeile entspricht einer E-Mail.
+- Der Inhalt des Postfachs wird als tabellarische Datenquelle dargestellt. Jede Zeile entspricht einer E-Mail.
 - Jede eingehende E-Mail löst ein Event aus, in das sich Lua-Skript-Code integrieren lässt.
 
-Welche Strategie die bessere ist, kommt auf den Einzelfall an und hängt auch von deinen Programmierfähigkeiten ab.
+Welche Strategie die bessere ist, hängt vom Einzelfall und von deinen Programmierkenntnissen ab. Eine allgemeine Einführung, wie du externe Datenquellen konfigurierst und an Controls koppelst, findest du im [Tutorial zu externen Datenquellen](/tutorials/03-de-xml-daten.html).
 
-Um die Datenquelle hinzuzufügen mache einen Rechtsklick auf [Daten] oder klicke alternativ auf den [...]-Button und wähle dann [Datenquelle hinzufügen] und [E-Mail] (1).
+## Datenquelle hinzufügen
 
-![E-Mail Datenquelle hinzufügen](/assets/images/data-sources/mail/de_email-01.png)
+Um die E-Mail Datenquelle anzubinden, machst du einen Rechtsklick auf [Daten] und wählst [Datenquelle hinzufügen]. Im folgenden Dialog suchst du nach [Email] und wählst die Datenquelle aus (1).
 
-Gib der Datenquelle einen Namen (1) und befülle diese mit den Login-Informationen des E-Mail-Accounts, den du benutzen möchtest (2).
+![E-Mail Datenquelle hinzufügen](/assets/images/data-sources/mail/mail-01-add.png)
 
-Im Bereich **Verbindung**:
+## Verbindung konfigurieren
 
-- **IMAP** und **Port** ist die Netzwerkadresse und der Port des Mail-Servers zum Empfangen von E-Mails
-- **SMTP** und **Port** ist die Netzwerkadresse und der Port des Mail-Servers zum Versenden von E-Mails
-- Im Textfeld **Benutzername** gibst du die E-Mail Adresse ein, im Textfeld **Passwort** das zugehörige Passwort
+Im Bereich [General] vergibst du zunächst einen Namen für die Datenquelle (1).
 
-Im Bereich **Details angeben**:
+Im Bereich [Reload] (2) legst du fest, ob und in welchem Intervall (in Sekunden) das Postfach automatisch neu eingelesen werden soll.
 
-- **Ordner** ist der zu lesende Unterordner des Postfachs, normalerweise INBOX
-- **Gesamte Nachricht** definiert, ob die komplette Nachricht heruntergeladen werden soll oder nur der Betreff
-- **Inhaltstyp** definiert, ob der Mail-Inhalt in unformatiertem Text oder HTML formatiert geliefert werden soll
+Im Bereich [Connection] trägst du die Verbindungsdaten deines E-Mail-Kontos ein:
 
-![E-Mail Datenquelle konfigurieren](/assets/images/data-sources/mail/de_email-02.png)
+* **Server (IMAP)** und **Port** (3): Netzwerkadresse und Port des Servers zum Empfangen von E-Mails (Standard-Port `993`).
+* **Server (SMTP)** und **Port** (4): Netzwerkadresse und Port des Servers zum Versenden von E-Mails (Standard-Port `587`).
+* **Secure Socket Option** (5): die Verschlüsselungsmethode der Verbindung. Mit `Auto` wählt Peakboard die passende Variante automatisch anhand des Ports; alternativ stehen `StartTls`, `SslOnConnect` und `None` zur Verfügung.
+* **Username** und **Password** (6): die E-Mail-Adresse und das zugehörige Passwort des Kontos.
 
-Für den Fall, dass du per Scripting auf eingehende Mails reagieren willst, nutze die **Message Handle Script**-Routine.
+![E-Mail Verbindung konfigurieren](/assets/images/data-sources/mail/mail-02-connection.png)
+
+## Details festlegen
+
+Im Bereich [Specify details] steuerst du, welche Nachrichten und welche Inhalte gelesen werden:
+
+* **Folder** (1): der Unterordner des Postfachs, der gelesen werden soll – üblicherweise `INBOX`.
+* **All** / **Max. rows** (2): Standardmäßig werden alle Nachrichten geladen. Deaktivierst du [All], kannst du über [Max. rows] die Anzahl der gelesenen E-Mails begrenzen.
+* **Entire message** (3): Ist die Option aktiviert, wird die komplette Nachricht inklusive Inhalt heruntergeladen. Andernfalls werden nur die Kopfdaten wie Betreff und Absender geladen.
+* **Content type** (4): bestimmt, ob der Nachrichteninhalt als unformatierter Text oder als HTML geliefert wird. Diese Auswahl ist erst verfügbar, wenn [Entire message] aktiviert ist.
+
+Mit einem Klick auf [Load data] erzeugst du eine Vorschau (5). Pro E-Mail erhältst du eine Zeile mit den Spalten Timestamp, From, Subject und Body, sodass du direkt prüfen kannst, ob die Verbindung funktioniert.
+
+![E-Mail Details festlegen und Vorschau laden](/assets/images/data-sources/mail/mail-03-details.png)
+
+## Datenquelle anlegen
+
+Mit einem Klick auf [OK] legst du die Datenquelle an. Sie erscheint anschließend im Explorer unter [Daten] (1) und kann wie jede andere Datenquelle mit Controls verknüpft werden.
+
+![E-Mail Datenquelle im Explorer](/assets/images/data-sources/mail/mail-04-explorer.png)

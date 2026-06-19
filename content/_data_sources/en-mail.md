@@ -1,46 +1,57 @@
 ---
 layout: article
-title: E-Mail 
+title: E-Mail
 menu_title: E-Mail
-description: Information about E-Mail data sources in Peakboard
+description: Connecting an email data source (IMAP/SMTP) in the Peakboard Designer
 lang: en
 weight: 500
 ref: dat-500
 redirect_from:
 ---
 
-This page explains the individual features when accessing the email data source.
-Under the following link you will find a tutorial on how to generally configure external data sources and link them to Peakboard elements:
+The email data source lets you access an email mailbox via IMAP and send emails via SMTP. Typically, you use it to send or receive messages to or from a Peakboard Box in a very simple way. There are generally two ways to use the data source:
 
-[Getting started with external data sources using an XML data source as an example](/tutorials/03-en-xml-data.html).
+- The content of the mailbox is represented as a tabular data source. Each row corresponds to one email.
+- Each incoming email triggers an event into which you can integrate Lua script code.
 
-The email data source allows you to access an email box via IMAP as well as send emails via SMTP.
-Typically, you use it to send messages to or from a Peakboard box via a very simple way.
-Generally, there are two ways you can use the data source:
+Which strategy works best depends on your use case and your programming skills. For a general introduction on how to configure external data sources and bind them to controls, see the [tutorial on external data sources](/tutorials/03-en-xml-data.html).
 
-- The content of the mailbox is simply represented as a tabular data source. Each row corresponds to an email.
-- Each incoming email triggers an event, into which Lua script code can be integrated.
+## Add the data source
 
-Which strategy is better depends on the individual case and also depends on your programming skills.
+To connect the email data source, right-click [Data] and choose [Add data source]. In the following dialog, search for [Email] and select the data source (1).
 
-To add the data source right click on [Data] or alternatively click on the [...] button and then select [Add data source] and [Email] (1).
+![Add email data source](/assets/images/data-sources/mail/mail-01-add.png)
 
-![Add email data source](/assets/images/data-sources/mail/en_email-01.png)
+## Configure the connection
 
-Give the data source a name (1) and fill it with the login information of the email account you want to use (2).
+In the [General] section, first give the data source a name (1).
 
-In the **Connection** section:
+In the [Reload] section (2), you define whether and at which interval (in seconds) the mailbox is read again automatically.
 
-- **IMAP** and **Port** is the network address and the port of the mail server to receive e-mails
-- **SMTP** and **Port** is the network address and the port of the mail server for sending e-mails
-- In the text field **User name** you enter the e-mail address, in the text field **Password** the corresponding password
+In the [Connection] section, enter the connection details of your email account:
 
-In the **Specify details** area: **Folder**:
+* **Server (IMAP)** and **Port** (3): network address and port of the server for receiving emails (default port `993`).
+* **Server (SMTP)** and **Port** (4): network address and port of the server for sending emails (default port `587`).
+* **Secure Socket Option** (5): the encryption method of the connection. With `Auto`, Peakboard picks the matching option automatically based on the port; `StartTls`, `SslOnConnect` and `None` are also available.
+* **Username** and **Password** (6): the email address and the matching password of the account.
 
-- **Folder** is the subfolder of the mailbox to read, usually INBOX.
-- **Total Message** defines if the complete message should be downloaded or only the subject
-- **Content type** defines if the mail content should be delivered in unformatted text or formatted HTML
+![Configure email connection](/assets/images/data-sources/mail/mail-02-connection.png)
 
-![configure email data source](/assets/images/data-sources/mail/de_email-02.png)
+## Specify the details
 
-In case you want to respond to incoming mails via scripting, use the **Message Handle Script** routine.
+In the [Specify details] section, you control which messages and which content are read:
+
+* **Folder** (1): the subfolder of the mailbox to read – usually `INBOX`.
+* **All** / **Max. rows** (2): by default, all messages are loaded. If you clear [All], you can use [Max. rows] to limit the number of emails that are read.
+* **Entire message** (3): when enabled, the complete message including its content is downloaded. Otherwise, only the header data such as subject and sender is loaded.
+* **Content type** (4): defines whether the message content is delivered as plain text or as HTML. This option only becomes available once [Entire message] is enabled.
+
+Click [Load data] to generate a preview (5). For each email you get one row with the columns Timestamp, From, Subject and Body, so you can immediately check whether the connection works.
+
+![Specify email details and load the preview](/assets/images/data-sources/mail/mail-03-details.png)
+
+## Create the data source
+
+Click [OK] to create the data source. It then appears in the Explorer under [Data] (1) and can be linked to controls like any other data source.
+
+![Email data source in the Explorer](/assets/images/data-sources/mail/mail-04-explorer.png)
