@@ -2,7 +2,7 @@
 layout: article
 title: Peakboard Data Source
 menu_title: Peakboard Data Source
-description: How to use Peakboard as a data source
+description: Exchange data between several Peakboard Boxes using the Peakboard data source
 lang: en
 weight: 2100
 ref: dat-2100
@@ -10,91 +10,89 @@ redirect_from:
   - /data_sources/en-peakboard-data-soure.html
 ---
 
-The Peakboard data source provides an easy way to share data between mutliple Peakboard Boxes. It enables the user to read and write the native variables and lists of a box from other Peakboards within the network. The possibility to expose variables and lists of Peakboard visualizations with settings the tick in the edit dialogs. With the Peakboard data source there is now a simple and straight forward way to consume and manipulate this data.
+The Peakboard data source provides an easy way to share data between several Peakboard Boxes. It lets you read and write the native variables and lists of one box from other Peakboard Boxes within the same network – without any custom scripting. One box exposes its data through the built-in API (the provider), and another box consumes it through the Peakboard data source (the consumer).
 
-### Reading from other boxes
+## Reading from another box
 
-In this scenario the visualization running on the "Consumer" box is accessing the data on the "Provider" box for reading. It is important to understand the role of the two boxes.
+In this scenario the visualization running on the consumer box accesses the data on the provider box for reading. It is important to understand the role of the two boxes.
 
-#### Provider side
+### Provider box: expose the data via the API
 
-Since the Peakboard data source architecture is meant to provide direct communication between two Peakboard boxes, only native Peakboard variables and lists can be accessed by the Peakboard data source. The data is exposed by checking the "Can push data via API" checkbox in the respective edit dialogs.
+Since the Peakboard data source is meant for direct communication between two Peakboard Boxes, it can only access native Peakboard variables and lists. To expose a variable, open it in the explorer, switch to the [Advanced] section and set the [Accessible via API] option (1) in the [API] area:
 
-![Activate Variable](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider1.png)
+* **Not Accessible** – the variable cannot be reached through the API.
+* **Read Only** – other boxes may only read the value.
+* **Read and Write** – other boxes may read and write the value.
 
-![Activate List](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider2.png)
+[Read Only] is enough for the reading scenario; for the writing scenario described below, choose [Read and Write].
 
-#### Consumer side
+![Expose a variable via the API](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-01-provider-api.png)
 
-The Peakboard data source is a wrapper around this consumer side API and makes the process of reading and potentially writing the data as easy as possible, while not cutting any features.
-To create a Peakboard data source click on the "..." - button of the "Data" section and select "Add Data Source".
-Then select "Peakboard" to open the Peakboard data dialog.
-The data source will supply the data always in form of a table.
-It does not matter if there are hundreds of rows in a list, which is consumed or if the data source does only query one variable from the remote Peakboard box.
+Native lists are exposed the same way: open the list, switch to its [Advanced] section and set the API access level there.
 
-#### Data source configuration
+### Consumer box: add the Peakboard data source
 
-First supply the obligatory name for the data source.
-On the next line, select the Peakboard box, which is to be queried.
-The list of Peakboards is taken from the management dialog.
-If your box does not show up in the drop down menu, please make sure, the device was added in the management dialog.
-After selecting the Peakboard, the available data sources are queried automatically.
-The user can then select, whether to query a list from the device or an arbitrary amount of scalar variables but at least one.
-A Peakboard data source configuration can either return one Peakboard list or an arbitrary amount of scalar variables, which will be presented in a table with one row.
+On the consumer side, the Peakboard data source is a wrapper around this API that makes reading – and potentially writing – the data as easy as possible. To create a Peakboard data source, click [Add Data Source] in the [Data] section of the explorer. Select the [Peakboard] category (1) and then the [Peakboard Box] data source (2).
 
-The next drop down menu lets you select the list or variables, which you want to request with the data source.
+![Select the Peakboard Box data source](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-02-add-datasource.png)
 
-Click on "Load Data" to send a request for the current configuration to see the current state of the data sources data.
+### Configure the data source
 
-After saving by pressing the "Ok" button, the data source and its data can be used normally.
+In the [Add Peakboard Data] dialog you set up the connection:
 
-![Activate List](/assets/images/data-sources/peakbaord-datasource/pb-datasource-consumer.png)
+* Enter a unique name for the data source in the [Data source name] field (1).
+* Under [Peakboard Box] (2), select the box you want to query. The list of boxes is taken from the management dialog ([Manage]). If your box does not show up in the drop-down, make sure it was added there.
+* Use [Data Source Type] (3) to define whether you query a list or scalar variables.
+* Under [Data sources] (4), pick the actual list or the variables you want to request.
+* Click [Load data] (5) to send a request for the current configuration and see a preview of the data.
 
-### Writing to other boxes
+![Configure the Peakboard data source](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-03-configure.png)
 
-To write data to a Peakboard the [lua scripting engine](https://help.peakboard.com/scripting/en-script-engine.html) is used.
-The Peakboard data source provides a way to execute instructions on the lists and variables, which are defined in the data source.
-These instructions also provide a certain level of safety for the data over the network.
+A Peakboard data source always delivers its data as a table – no matter whether a list with hundreds of rows is consumed or only a single variable is queried. The [Data Source Type] (1) decides between the two variants:
 
-Imagine the following scenario:
+* **Variables** – an arbitrary number of scalar variables (at least one), presented in a table with a single row.
+* **List** – exactly one native Peakboard list.
 
-In a production hall, there a three productions lines.
-Each of which is connected to a Peakboard displaying the current number of pieces manufactured this shift/day.
-A fourth master Peakboard should gather these information and have a the possibility to reset the count.
-Implementing this in Peakboard was quite tedious before, since it required a lot of scripting, building the requests to set the data on the Peakboards.
+![Query a list or variables](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-04-datasource-type.png)
 
-Say the Peakboard variables showing the piece number on the lines are called line1qnty, line2qnty and line3qnty.
-The master Peakboard will have a data source for each of the Peakboards. They are built like described above.
+Optionally you can define an automatic refresh interval in the [Reload] area, and use [Simulate Box] to simulate a box when no real one is available yet. After saving with [OK], the data source and its data can be used like any other.
 
-The master Peakboard board will now query the values automatically and make them available in the visualization as a normal data source.
+## Writing to another box
 
-The data sources are exposing various functions via the scripting API. Thus resetting the values can be done by calling `data.datasource.value.set(0)` on the value in the respective datasource.
+To write data to another Peakboard Box, the [Lua scripting engine](https://help.peakboard.com/scripting/en-script-engine.html) is used. The Peakboard data source provides functions that let you run instructions on the lists and variables defined in the data source. These instructions also provide a certain level of safety for the data travelling over the network.
 
-A list based Peakboard data source will expose the following functions:
+Imagine the following scenario: In a production hall there are three production lines. Each of them is connected to a Peakboard Box that shows the current number of pieces manufactured during the running shift. A fourth master box should gather this information and be able to reset the counts. Implementing this used to be quite tedious, because it required a lot of scripting to build the requests that set the data on the individual boxes.
 
-* append(item)
-* remove(index)
-* insert(index, item)
-* set(index, item)
-* clear()
+Say the variables holding the piece count are called line1qnty, line2qnty and line3qnty. The master box gets its own Peakboard data source for each of these boxes, built as described above. It queries the values automatically and makes them available in the visualization like any other data source.
 
-A scalar based Peakboard data source will expose the following functions:
-set(value)
+The data sources expose various functions through the scripting API. Resetting a value, for example, is done by calling:
 
-Depending on the type, these functions are supported:
+`data.datasource.value.set(0)`
+
+A list-based Peakboard data source exposes the following functions:
+
+* `append(item)`
+* `remove(index)`
+* `insert(index, item)`
+* `set(index, item)`
+* `clear()`
+
+A scalar-based Peakboard data source exposes the following function:
+
+* `set(value)`
+
+Depending on the data type, these additional functions are supported:
 
 For numbers:
 
-* add(value)
-* subtract(value)
-* multiply(value)
-* divide(value)
-* power(value)
+* `add(value)`
+* `subtract(value)`
+* `multiply(value)`
+* `divide(value)`
+* `power(value)`
 
 For strings:
 
-* append(string)
+* `append(string)`
 
-Note that mixing operations may have unforeseeable effects, when executed from multiple Peakboards.
-For example, if the operation add(2) and multiply(2) arrive at the same time the visualization cannot know, which one should be executed first.
-In contrast subtractions and additions, for example, can be executed in arbitrary order.
+Note that mixing operations may have unforeseeable effects when they are executed from several boxes at the same time. If, for example, the operations add(2) and multiply(2) arrive at the same time, the visualization cannot know which one should be executed first. Subtractions and additions, in contrast, can be executed in any order.

@@ -2,7 +2,7 @@
 layout: article
 title: Peakboard Data Source
 menu_title: Peakboard Data Source
-description: Verwenden eines Peakboards als Datenquelle
+description: Daten zwischen mehreren Peakboard Boxen über die Peakboard-Datenquelle austauschen
 lang: de
 weight: 2100
 ref: dat-2100
@@ -10,87 +10,89 @@ redirect_from:
   - /data_sources/de-peakboard-data-soure.html
 ---
 
-Die Peakboard-Datenquelle bietet eine einfache Möglichkeit, Daten zwischen mehreren Peakboard Boxen auszutauschen. Sie ermöglicht es dem Benutzer, die nativen Variablen und Listen einer Box von anderen Peakboards innerhalb des Netzwerks zu lesen und zu schreiben. Die Möglichkeit, Variablen und Listen von Peakboard-Visualisierungen mit den Einstellungen des Hakens in den Bearbeitungsdialogen anzuzeigen. Mit der Peakboard-Datenquelle gibt es jetzt eine einfache und unkomplizierte Möglichkeit, diese Daten zu konsumieren und zu manipulieren.
+Die Peakboard-Datenquelle bietet eine einfache Möglichkeit, Daten zwischen mehreren Peakboard Boxen auszutauschen. Damit kannst du die nativen Variablen und Listen einer Box von anderen Peakboard Boxen im selben Netzwerk lesen und schreiben – ganz ohne eigenes Scripting. Eine Box stellt ihre Daten über die integrierte API bereit (Anbieter), eine andere Box konsumiert sie über die Peakboard-Datenquelle (Verbraucher).
 
-### Lesen aus anderen Boxen
+## Aus einer anderen Box lesen
 
-In diesem Szenario greift die Visualisierung, die auf dem Feld "Verbraucher" läuft, zum Lesen auf die Daten auf dem Feld "Anbieter" zu. Es ist wichtig, die Rolle der beiden Kästchen zu verstehen.
+In diesem Szenario greift die Visualisierung auf der Verbraucher-Box lesend auf die Daten der Anbieter-Box zu. Dabei ist es wichtig, die Rollen der beiden Boxen zu verstehen.
 
-#### Anbieter-Seite
+### Anbieter-Box: Daten über die API freigeben
 
-Da die Architektur der Peakboard-Datenquelle für die direkte Kommunikation zwischen zwei Peakboard Boxen gedacht ist, kann die Peakboard-Datenquelle nur auf native Peakboard-Variablen und -Listen zugreifen. Die Daten werden durch Aktivieren des Kontrollkästchens "Can push data via API" in den jeweiligen Bearbeitungsdialogen angezeigt.
+Da die Peakboard-Datenquelle für die direkte Kommunikation zwischen zwei Peakboard Boxen gedacht ist, kann sie nur auf native Peakboard-Variablen und -Listen zugreifen. Eine Variable gibst du frei, indem du sie im Explorer öffnest, in den Bereich [Advanced] wechselst und unter [API] die Option [Accessible via API] (1) setzt:
 
-![Variable aktivieren](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider1.png)
+* **Not Accessible** – die Variable ist nicht über die API erreichbar.
+* **Read Only** – andere Boxen dürfen den Wert nur lesen.
+* **Read and Write** – andere Boxen dürfen den Wert lesen und schreiben.
 
-![Liste aktivieren](/assets/images/data-sources/peakbaord-datasource/pb-datasource-provider2.png)
+Für das reine Lesen genügt [Read Only]; für das weiter unten beschriebene Schreiben wählst du [Read and Write].
 
-#### Verbraucherseite
+![Variable über die API freigeben](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-01-provider-api.png)
 
-Die Peakboard-Datenquelle ist ein Wrapper um diese API auf der Verbraucherseite und macht den Prozess des Lesens und potentiellen Schreibens der Daten so einfach wie möglich, ohne dabei irgendwelche Funktionen einzuschränken.
-Um eine Peakboard-Datenquelle zu erstellen, klicken Sie auf die Schaltfläche "..." - im Abschnitt "Daten" und wählen Sie "Datenquelle hinzufügen".
-Wählen Sie dann "Peakboard", um das Dialogfeld "Peakboard-Daten" zu öffnen.
-Die Datenquelle wird die Daten immer in Form einer Tabelle liefern.
-Es spielt keine Rolle, ob es Hunderte von Zeilen in einer Liste gibt, die verbraucht wird, oder ob die Datenquelle nur eine Variable aus dem entfernten Peakboard-Feld abfragt.
+Native Listen gibst du auf demselben Weg frei: Öffne die Liste, wechsle in ihren Bereich [Advanced] und setze dort die API-Zugriffsstufe.
 
-#### Konfiguration der Datenquelle
+### Verbraucher-Box: Peakboard-Datenquelle hinzufügen
 
-Geben Sie zunächst den obligatorischen Namen für die Datenquelle an.
-Markieren Sie in der nächsten Zeile das Feld Peakboard, das abgefragt werden soll.
-Die Liste der Peakboards wird aus dem Verwaltungsdialog übernommen.
-Falls Ihr Kästchen nicht im Dropdown-Menü erscheint, vergewissern Sie sich bitte, dass das Gerät im Verwaltungsdialog hinzugefügt wurde.
-Nach Auswahl des Peakboards werden die verfügbaren Datenquellen automatisch abgefragt.
-Der Benutzer kann dann wählen, ob eine Liste vom Gerät oder eine beliebige Anzahl von skalaren Variablen, mindestens aber eine, abgefragt werden soll.
-Eine Peakboard-Datenquellenkonfiguration kann entweder eine Peakboard-Liste oder eine beliebige Anzahl von skalaren Variablen zurückgeben, die dann in einer Tabelle mit einer Zeile dargestellt werden.
+Auf der Verbraucher-Seite ist die Peakboard-Datenquelle ein Wrapper um diese API und macht das Lesen – und bei Bedarf das Schreiben – der Daten so einfach wie möglich. Um eine Peakboard-Datenquelle anzulegen, klickst du im Explorer im Bereich [Data] auf [Datenquelle hinzufügen]. Wähle dort die Kategorie [Peakboard] (1) und anschließend die Datenquelle [Peakboard Box] (2).
 
-Im nächsten Dropdown-Menü können Sie die Liste oder die Variablen auswählen, die Sie mit der Datenquelle anfordern möchten.
+![Peakboard Box als Datenquelle wählen](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-02-add-datasource.png)
 
-Klicken Sie auf "Daten laden", um eine Anforderung für die aktuelle Konfiguration zu senden, um den aktuellen Zustand der Daten der Datenquellen zu sehen.
+### Die Datenquelle konfigurieren
 
-Nach dem Speichern durch Drücken der Schaltfläche "Ok" können die Datenquelle und ihre Daten normal verwendet werden.
+Im folgenden Dialog [Add Peakboard Data] richtest du die Verbindung ein:
 
-![Liste aktivieren](/assets/images/data-sources/peakbaord-datasource/pb-datasource-consumer.png)
+* Vergib im Feld [Data source name] (1) einen eindeutigen Namen für die Datenquelle.
+* Wähle unter [Peakboard Box] (2) die Box aus, die abgefragt werden soll. Die Liste der Boxen stammt aus dem Verwaltungsdialog ([Manage]). Falls deine Box nicht im Dropdown erscheint, stelle sicher, dass sie dort hinzugefügt wurde.
+* Lege über [Data Source Type] (3) fest, ob du eine Liste oder skalare Variablen abfragst.
+* Wähle unter [Data sources] (4) die konkrete Liste bzw. die Variablen aus, die du beziehen möchtest.
+* Mit [Load data] (5) sendest du eine Anfrage für die aktuelle Konfiguration und erhältst eine Vorschau der Daten.
 
-### Schreiben in andere Boxen
+![Die Peakboard-Datenquelle konfigurieren](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-03-configure.png)
 
-Zum Schreiben von Daten auf ein Peakboard wird die [lua-Scripting-Engine](https://help.peakboard.com/scripting/de-script-engine.html) verwendet.
-Die Peakboard-Datenquelle bietet eine Möglichkeit, Anweisungen auf den Listen und Variablen, die in der Datenquelle definiert sind, auszuführen.
-Diese Anweisungen bieten auch ein bestimmtes Maß an Sicherheit für die Daten über das Netzwerk.
+Eine Peakboard-Datenquelle liefert ihre Daten immer als Tabelle – unabhängig davon, ob eine Liste mit hunderten Zeilen oder nur eine einzelne Variable abgefragt wird. Über [Data Source Type] (1) entscheidest du zwischen beiden Varianten:
 
-Stellen Sie sich das folgende Szenario vor:
+* **Variables** – eine beliebige Anzahl skalarer Variablen (mindestens eine), die in einer Tabelle mit einer Zeile dargestellt werden.
+* **List** – genau eine native Peakboard-Liste.
 
-In einer Produktionshalle gibt es drei Produktionslinien. Jede davon ist mit einem Peakboard verbunden, auf dem die aktuelle Anzahl der in dieser Schicht/Tag produzierten Stücke angezeigt wird.
-Ein viertes Master-Peakboard sollte diese Informationen erfassen und die Möglichkeit haben, die Zählung zurückzusetzen. Dies in Peakboard zu implementieren war zuvor recht mühsam, da es eine Menge Skripting erforderte, um die Anfragen zur Einstellung der Daten auf den Peakboards zu erstellen.
+![Liste oder Variablen abfragen](/assets/images/data-sources/peakboard-data-source/peakboard-data-source-04-datasource-type.png)
 
-Angenommen, die Peakboard-Variablen, die die Stückzahl auf den Zeilen anzeigen, heißen line1qnty, line2qnty und line3qnty. Das Master-Peakboard verfügt über eine Datenquelle für jedes der Peakboards. Sie werden wie oben beschrieben aufgebaut.
+Optional kannst du im Bereich [Reload] ein automatisches Aktualisierungsintervall festlegen und mit [Simulate Box] eine Box simulieren, falls noch keine reale Box verfügbar ist. Nach dem Speichern mit [OK] steht die Datenquelle wie jede andere zur Verfügung.
 
-Das Master-Peakboard wird nun die Werte automatisch abfragen und sie in der Visualisierung als normale Datenquelle zur Verfügung stellen.
+## In eine andere Box schreiben
 
-Die Datenquellen stellen verschiedene Funktionen über die Skripting-API zur Verfügung.
-So kann das Zurücksetzen der Werte durch den Aufruf `data.datasource.value.set(0)` auf den Wert in der jeweiligen Datenquelle.
+Zum Schreiben von Daten auf eine andere Peakboard Box nutzt du die [Lua-Scripting-Engine](https://help.peakboard.com/scripting/de-script-engine.html). Die Peakboard-Datenquelle stellt dafür Funktionen bereit, mit denen du Anweisungen auf den in der Datenquelle definierten Listen und Variablen ausführst. Diese Anweisungen bieten zudem ein gewisses Maß an Sicherheit für die Daten im Netzwerk.
 
-Eine listenbasierte Peakboard-Datenquelle stellt die folgenden Funktionen zur Verfügung:
+Stell dir folgendes Szenario vor: In einer Produktionshalle gibt es drei Produktionslinien. Jede ist mit einer Peakboard Box verbunden, die die aktuelle Stückzahl der laufenden Schicht anzeigt. Eine vierte Master-Box soll diese Informationen sammeln und die Zähler zurücksetzen können. Bisher war das recht aufwendig, weil viel Scripting nötig war, um die Anfragen an die einzelnen Boxen zu bauen.
 
-* anhängen(item)
-* entfernen(index)
-* einfügen (Index, Element)
-* Satz (Index, Element)
-* clear()
+Angenommen, die Variablen mit der Stückzahl heißen line1qnty, line2qnty und line3qnty. Die Master-Box erhält für jede dieser Boxen eine eigene Peakboard-Datenquelle, die wie oben beschrieben aufgebaut wird. Sie fragt die Werte automatisch ab und stellt sie in der Visualisierung wie eine normale Datenquelle bereit.
 
-Eine skalarbasierte Peakboard-Datenquelle stellt die folgenden Funktionen zur Verfügung:
-set(Wert)
+Über die Scripting-API stellen die Datenquellen verschiedene Funktionen bereit. Das Zurücksetzen eines Werts erfolgt zum Beispiel mit:
 
-Je nach Typ werden diese Funktionen unterstützt:
+`data.datasource.value.set(0)`
+
+Eine listenbasierte Peakboard-Datenquelle stellt folgende Funktionen bereit:
+
+* `append(item)`
+* `remove(index)`
+* `insert(index, item)`
+* `set(index, item)`
+* `clear()`
+
+Eine skalarbasierte Peakboard-Datenquelle stellt folgende Funktion bereit:
+
+* `set(value)`
+
+Je nach Datentyp werden zusätzlich diese Funktionen unterstützt:
 
 Für Zahlen:
 
-* addieren (Wert)
-* subtrahieren(Wert)
-* multiplizieren (Wert)
-* dividieren(Wert)
-* Leistung (Wert)
+* `add(value)`
+* `subtract(value)`
+* `multiply(value)`
+* `divide(value)`
+* `power(value)`
 
-Für Streicher:
+Für Zeichenketten:
 
-* anhängen(Zeichenkette)
+* `append(string)`
 
-Beachten Sie, dass Mischvorgänge unvorhersehbare Auswirkungen haben können, wenn sie von mehreren Peakboards aus ausgeführt werden. Wenn zum Beispiel die Operation addieren(2) und multiplizieren(2) zur gleichen Zeit eintreffen, kann die Visualisierung nicht wissen, welche zuerst ausgeführt werden soll. Im Gegensatz dazu können z.B. Subtraktionen und Additionen in beliebiger Reihenfolge ausgeführt werden.
+Beachte: Werden Operationen von mehreren Boxen gleichzeitig ausgeführt, kann das Ergebnis unvorhersehbar sein. Treffen zum Beispiel add(2) und multiply(2) gleichzeitig ein, kann die Visualisierung nicht wissen, welche Operation zuerst ausgeführt werden soll. Subtraktionen und Additionen hingegen lassen sich in beliebiger Reihenfolge ausführen.
