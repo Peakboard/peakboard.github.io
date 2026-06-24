@@ -12,40 +12,38 @@ redirect_from:
   - /dataflows/70-en-union-joins.html
   - /dataflows/en-union-joins.html
 ---
+
+The category **Unite tables** in the dataflow step selection holds the steps that combine your table with another one: add columns from another table with a join, or append rows with a union. To learn how to create a dataflow and add steps in general, see the [first steps with dataflows](/dataflows/en-getting-started.html).
+
 ## Join
 
-With this step you add columns from another table to the table, provided that they have at least one overlapping column.
+With this step you add columns from another table to the table, provided that they have at least one overlapping column. In the [Join data source] field (1) pick the table to add and in the [Join type] field (2) choose the matching join type. Under [Join columns] (3) you define which columns the two tables are linked by. Optionally you can use [Select columns from joined data source] (4) to pick individual columns of the added table.
 
-![Join](/assets/images/dataflows/dataflows_join.gif)
+![Join](/assets/images/dataflows/unite-tables/unite-tables-01-join.png)
 
 Different join types are available for different use cases.
-You can also optionally select whether you want to use only individual columns for the step.
 
 ### Inner join
 
-The result of an inner join contains exactly those rows that have a counterpart in both tables.
-If there are rows in the left or right table that have no equivalent in the other table, these rows will be lost.
+The result of an inner join contains exactly those rows that have a counterpart in both tables. If there are rows in the left or right table that have no equivalent in the other table, these rows will be lost.
 
 ![Inner join](/assets/images/dataflows/dataflows_inner-join.png)
 
 ### Full join
 
-No rows are lost during the full join.
-If there are rows without a counterpart in the left or right table, these rows will be empty in the result.
+No rows are lost during the full join. If there are rows without a counterpart in the left or right table, these rows will be empty in the result.
 
 ![Full join](/assets/images/dataflows/dataflows_full-join.png)
 
 ### Left join
 
-When using the left join, the rows of the left table remain completely intact.
-The rows of the right table only find their way into the result if they have a counterpart on the left.
+When using the left join, the rows of the left table remain completely intact. The rows of the right table only find their way into the result if they have a counterpart on the left.
 
 ![Left join](/assets/images/dataflows/dataflows_left-join.png)
 
 ### Right join
 
-When using the right join, the rows of the right table remain completely intact.
-The rows of the left table only find their way into the result if they have a counterpart on the right side.
+When using the right join, the rows of the right table remain completely intact. The rows of the left table only find their way into the result if they have a counterpart on the right side.
 
 ![Right join](/assets/images/dataflows/dataflows_right-join.png)
 
@@ -57,8 +55,8 @@ Not only can you connect data sources in this way, but you can also connect othe
 
 ## Union
 
-With this step you append rows from another table to the table, provided that it has the same number of columns with the same column name and data type.
+With this step you append rows from another table to the table, provided that it has the same number of columns with the same column name and data type. In the [Other list] field (1) pick the table to append.
 
-Unlike the join step, the data is attached rather than linked. You just have to select the table to attach, then all columns of the table to be attached, where the name and the data type match, will be attached to the corresponding column of the original table. If there is no match of the column name or the data type does not match, the column will be ignored. In case the column names or data types do not match, you need to rename or reformat them first to make them match.
+Unlike the join step, the data is attached rather than linked. All columns of the table to be attached, where the name and the data type match, will be appended to the corresponding column of the original table. If there is no match of the column name or the data type does not match, the column will be ignored. In case the column names or data types do not match, you need to rename or reformat them first to make them match.
 
-![Union](/assets/images/dataflows/dataflows_union.gif)
+![Union](/assets/images/dataflows/unite-tables/unite-tables-02-union.png)
