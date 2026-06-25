@@ -2,7 +2,7 @@
 layout: article
 title: Silent Installation
 menu_title: Silent Installation
-description: Silent Installation
+description: Unattended installation of the Peakboard Runtime and the Peakboard Designer via the command line
 lang: en
 weight: 150
 ref: admin-150
@@ -10,41 +10,78 @@ redirect_from:
 
 ---
 
-The installation of the Peakboard Designer can be done via the command line. The command line must be executed as an administrator.
+Both the Peakboard Runtime and the Peakboard Designer can be installed unattended (silently) from the command line – ideal for automated rollout via software distribution, scripts or deployment pipelines. The command line must be run **as an administrator**.
+
 If the following window appears, confirm that you trust the software provider by clicking [Yes].
 
-![Windows User Account Control Window](/assets/images/admin/install-silent/usercontrol.png)
+![Windows User Account Control](/assets/images/admin/install-silent/usercontrol.png)
 
-### Silent Installation of the Peakboard Designer
+## Silent Installation of the Peakboard Runtime
 
-Here, only the Peakboard Designer and the Peakboard Runtime necessary for the preview function are installed.
-The *PeakboardSetup.exe* can be called from any directory.
-The following command line entry illustrates how the installation works in silent mode from the directory [C:\Temp]:
+To roll out the *Peakboard Runtime* unattended onto Peakboard Boxes or BYOD devices, use the *Peakboard Runtime Setup.exe*. This setup runs as a console application and is **always silent** – no graphical wizard is shown. The following example installs the Peakboard Runtime to [D:\Peakboard], adds it to the autostart and blocks the unencrypted port 40404:
 
-````markdown
-    ```
-       "C:\Temp\PeakboardSetup.exe" -Silent True -InstallPath <installation path>
-    ```
-````
+```bat
+"Peakboard Runtime Setup.exe" Silent=True InstallPath="D:\Peakboard" AddToStartup=True BlockUnencryptedConnection=True
+```
 
-### Silent Uninstallation
+### Argument format and boolean values
 
-Similar to the installation, the uninstallation of the software can also be done in silent mode.
-To do this, adapt the command to the path of the *uninst.exe*.
-By default, the Peakboard Designer is installed under [C:\Program Files\Peakboard], where you will also find the *uninst.exe*.
+Arguments are passed in the format `key=value` (e.g. `InstallPath="D:\Peakboard"`). Wrap values that contain spaces in quotes. Keys are **not** case-sensitive, and unknown arguments are ignored.
 
-`````markdown
-    ```
-       "C:\Program Files\Peakboard\uninst.exe" -Silent True
-    ```
-````
+Only **`True`**, **`Yes`** and **`1`** count as the boolean value `True` (case-insensitive). Any other value (including `False`, empty or missing) is treated as `False`.
 
-### Block Port 40404
+### Parameters
 
-The BlockUnencryptedConnection parameter can be used to define that the box completely blocks the unencrypted port 40404:
+{% include styled_table.html %}
+{: .w-full }
+| Parameter | Values | Default | Description |
+|---|---|---|---|
+| `InstallPath` | path | `C:\Program Files\Peakboard` | Target folder of the installation. |
+| `AddToStartup` | `True/False` | `False` | Adds a shortcut to the Windows autostart so the Peakboard Runtime launches automatically after logon. |
+| `BlockUnencryptedConnection` | `True/False` | `False` | Disables the unencrypted connection channel (port 40404), allowing encrypted connections only. |
+| `CreateStartMenuShortcuts` | `True/False` | `True` | Creates a shortcut in the Start menu. |
+| `RunOnPeakboardBox` | `True/False` | `True` | Enables the Peakboard Box-specific installation steps. Default `True` for installation on a Peakboard Box; set it to `False` on a BYOD device. |
+| `Silent` | `True/False` | – | Accepted but ignored: the console setup always runs silently anyway. |
 
-````markdown
-    ```
-       "C:\Temp\PeakboardSetup.exe" -Silent True -InstallPath <installation path> -BlockUnencryptedConnection True
-    ```
-````
+<div class="box-warning" markdown="1"> The installation requires **Windows 10 (version 20H1, build 19041) or newer**. On older systems the setup aborts with exit code <code>-1</code>.
+</div>
+
+### Exit codes
+
+{% include styled_table.html %}
+{: .w-full }
+| Exit code | Meaning |
+|---|---|
+| `0` | Installation successful |
+| `-1` | Error or abort (an existing installation is automatically restored from backup if needed) |
+
+## Silent Installation of the Peakboard Designer
+
+For development machines the *Peakboard Designer* is installed via the *Peakboard Designer Setup.exe*. This installs the Peakboard Designer together with the Peakboard Runtime required for the preview function. Unlike the Runtime, this setup starts the graphical wizard by default – for an unattended installation you must set `Silent=True`:
+
+```bat
+"Peakboard Designer Setup.exe" Silent=True InstallPath="C:\Program Files\Peakboard"
+```
+
+The Designer is always installed into a [\Designer] subfolder of the specified path.
+
+### Parameters
+
+{% include styled_table.html %}
+{: .w-full }
+| Parameter | Values | Default | Description |
+|---|---|---|---|
+| `Silent` | `True/False` | `False` | Enables the unattended installation (no wizard). |
+| `InstallPath` | path | `C:\Program Files\Peakboard` | Target folder. The Designer is installed into the `\Designer` subfolder. |
+| `CreateStartMenuShortcuts` | `True/False` | `True` | Creates a shortcut in the Start menu. |
+| `Update` | `True/False` | `False` | Updates an existing installation at the detected path. |
+
+## Silent Uninstallation
+
+The installation places a dedicated uninstaller in the [Uninstall] subfolder of the installation directory. Like the installation, the uninstallation can be run in silent mode via the `--silent` argument (alias `-s`):
+
+```bat
+"D:\Peakboard\Uninstall\Peakboard Uninstall.exe" --silent
+```
+
+Without `--silent` the graphical uninstaller starts. This too must be run from a command line with administrator rights. The uninstaller returns exit code `0` on success and `-1` if it could not be executed.
