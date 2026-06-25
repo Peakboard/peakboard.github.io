@@ -71,3 +71,25 @@ protected override CustomListCollection GetCustomListsOverride()
     ];
 }
 ```
+
+## Extension icon (optional)
+
+Optionally you can give the extension an icon that the Peakboard Designer displays in its menu. The image must be **embedded into the assembly as a resource**, and the `[ExtensionIcon]` attribute on the main class references it by its **fully qualified manifest resource name** – the project's default namespace followed by the file path, separated by dots:
+
+```csharp
+[ExtensionIcon("HubSpot.icon.png")]
+public class HubSpotExtension : ExtensionBase
+{
+    // ... constructors and overrides
+}
+```
+
+For this to work, include the image as an embedded resource in your `.csproj`:
+
+```xml
+<ItemGroup>
+  <EmbeddedResource Include="icon.png" />
+</ItemGroup>
+```
+
+In this example the default namespace is `HubSpot` and `icon.png` lies in the project root, so the resource name is `HubSpot.icon.png`. If the image is placed in a sub-folder (e.g. `Resources/icon.png`), the folder becomes part of the resource name (`HubSpot.Resources.icon.png`).
