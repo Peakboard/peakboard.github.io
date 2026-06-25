@@ -52,7 +52,7 @@ protected override ExtensionDefinition GetDefinitionOverride()
         Name = "HubSpot API Extension",
         Description = "Interface with the HubSpot API to get all tickets",
         Version = "1.0",
-        Author = "Makhsum",
+        Author = "Peakboard GmbH",
         Company = "Peakboard"
     };
 }
