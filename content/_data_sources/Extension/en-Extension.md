@@ -2,7 +2,7 @@
 layout: article
 title: Extension Basics
 menu_title: Extension Basics
-description: Basic information about the Peakboard Extension Kit
+description: Basic information about the Peakboard Extension Kit and building extensions on .NET 8
 lang: en
 weight: 700
 ref: dat-700
@@ -11,31 +11,108 @@ redirect_from:
 
 ## The idea behind the Extension Kit
 
-Peakboard offers extensive possibilities to connect to all possible data sources. However, it could still be that in one case or another the connection to the desired source is not possible or only possible with an unpleasantly large scripting effort. For this reason Peakboard offers the so-called Extension-Kit. This is a possibility to develop own data sources. This can be used either by the end customer directly, or by manufacturers of proprietary software solutions, who in turn want to give their customers an easy way to access their systems, although the native Peakboard designer does not support this data source.
+Peakboard offers extensive possibilities to connect to all kinds of data sources. Still, in one case or another a connection to the desired source might not be possible out of the box, or only with an unpleasantly large scripting effort. For exactly this reason Peakboard offers the so-called Extension Kit – a way to develop your own data sources. Extensions can be used either by the end customer directly, or by manufacturers of proprietary software solutions who want to give their customers an easy way to access their systems, even though the native Peakboard Designer does not support that data source.
 
 ## Architecture
 
-The basis for an extension is always a C# .NET project that generates a classic .NET Dll. All interfaces to be implemented are located in the Dll Peakboard.ExtensionKit.Dll. The easiest way for referencing is by downloading the corresponding NuGet package in Visual Studio, or [here](https://www.nuget.org/packages/Peakboard.ExtensionKit/)
-The project type in Visual Studio should be "Classic Library" with .NET Framework 4.6.2 or higher.
+An extension is always a **C# class library** that produces a `.dll`. All interfaces and base classes you implement live in the `Peakboard.ExtensionKit` package. The easiest way to reference it is the NuGet package [Peakboard.ExtensionKit](https://www.nuget.org/packages/Peakboard.ExtensionKit/).
+
+<div class="box-warning" markdown="1">
+**Important – .NET 8 only**
+
+As of Peakboard version 4.0.0.0, the Peakboard Designer and the Peakboard Runtime run on **.NET 8**. The classic **.NET Framework is no longer supported**. Build your extension as a class library targeting `net8.0` and reference `Peakboard.ExtensionKit` version `4.0.0` or higher.
+</div>
 
 <div class="box-tip" markdown="1">
 **Note!**
 
-It is recommended at this point to rather use one of the examples as a template and modify it according to your own wishes than to build a Project from Scratch.
+It is recommended to use one of the examples from our [GitHub repository](https://github.com/Peakboard/PeakboardExtensions) as a template and modify it to your needs, rather than building a project from scratch.
 </div>
 
-To actually use the extension you have to create a zip-file. This zip-file will be given to the user of the extension and must contain the following files:
+## Project file (.csproj)
 
-- compiled Dll, which contains the extension code
-- All referenced dependencies. This also applies to Win32 dlls if they are used in the project
-- The Peakboard.ExtensionKit.dll must NOT be in the zip file
-- All additional resources such as images etc.
-- The extension.xml file that describes the extension
+The following snippet is the minimum required configuration for the project file so that the Peakboard Designer can load the compiled assembly dynamically:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Extension.xml" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Peakboard.ExtensionKit" Version="4.0.0">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
+```
+
+| Property / Item | Purpose |
+|---|---|
+| `<TargetFramework>net8.0</TargetFramework>` | Targets .NET 8. Must match the framework supported by the Peakboard Designer and Peakboard Box. |
+| `<Platforms>x64</Platforms>` / `<PlatformTarget>x64</PlatformTarget>` | Peakboard runs as a 64-bit application. |
+| `<EnableDynamicLoading>true</EnableDynamicLoading>` | Crucial so Peakboard can load the compiled `.dll` dynamically. |
+| `Content Include="Extension.xml"` | Ensures the required manifest is placed next to the output DLL. |
+| `Peakboard.ExtensionKit` package | Provides the base classes (`ExtensionBase`, `CustomListBase`, …). `<Private>false</Private>` and `<ExcludeAssets>runtime</ExcludeAssets>` keep the kit's DLLs out of your build output – they already exist in the Peakboard environment. Only your own extension DLL is deployed. |
+
+## The Extension.xml manifest
+
+`Extension.xml` is the mandatory manifest that the Peakboard Designer reads to locate and load the extension. It must end up in the project's output directory (handled by the `Content` entry above):
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<ExtensionCatalog xmlns="http://schemas.peakboard.com/pbmx/2020/extensions">
+  <Extensions>
+    <Extension
+        ID="HubSpot"
+        Version="1.0"
+        Path="HubSpot.dll"
+        Class="HubSpot.HubSpotExtension"
+        Parameters="" />
+  </Extensions>
+</ExtensionCatalog>
+```
+
+| Attribute | Description | Example |
+|---|---|---|
+| `ID` | A unique identifier for the extension (a meaningful name without special characters). | `HubSpot` |
+| `Version` | The version number of the extension. | `1.0` |
+| `Path` | The filename of the compiled assembly. | `HubSpot.dll` |
+| `Class` | **Critical:** the fully qualified name of the main extension class, `Namespace.ClassName`. | `HubSpot.HubSpotExtension` |
 
 ## Class architecture
 
-To build an extension, at least two classes must be implemented. One that inherits from ExtensionBase and one that inherits from CustomListBase. The ExtensionBase class must then also reappear in the Extension.xml as an entry point.
+To build an extension, at least two classes must be implemented:
 
-## The Extension.xml file
+- one that inherits from [`ExtensionBase`](/data_sources/Extension/en-Classes.html) – the entry point referenced in `Extension.xml`,
+- one or more that inherit from [`CustomListBase`](/data_sources/Extension/en-DatasourceNoUI.html) – each representing one data source.
 
-It describes the metadata of the extension. The unique ID of the extension is important (simply meaningful name without special characters), the path is the name of the extension dll, and the extension class in the project with preceding namespace. Please copy an Extension.xml file from the examples and modify them accordingly. It makes no sense to write the xml by hand.
+## Build and deployment
+
+Build the project in **Release** configuration. The output is placed in `bin/Release/net8.0/`.
+
+To deploy the extension, compress the relevant contents of that output folder into a **ZIP file**, which is what the Peakboard Designer imports. The ZIP must contain:
+
+- your compiled assembly (e.g. `HubSpot.dll`),
+- the `Extension.xml` manifest,
+- any third-party dependencies that are **not** part of the Extension Kit (e.g. `Newtonsoft.Json.dll`).
+
+The `Peakboard.ExtensionKit.dll` itself must **not** be included in the ZIP. After every change and successful build, create a new archive to deploy the updated version. How to import the ZIP into the Designer is described under [Manage extensions](/data_sources/Extension/en-ManageExtension.html).
+
+<div class="box-warning" markdown="1">
+**Caution!**
+
+It is not necessary to modify the Peakboard Box in any way. The extension is automatically deployed onto the Peakboard Box together with the dashboard.
+</div>

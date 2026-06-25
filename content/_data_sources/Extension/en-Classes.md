@@ -2,48 +2,72 @@
 layout: article
 title: Main class ExtensionBase
 menu_title: Main class ExtensionBase
-description: Information about the main class ExtensionBase
+description: Information about the main extension class ExtensionBase
 lang: en
 weight: 720
 ref: dat-720
 redirect_from:
 ---
 
-The following explanations refer to an example that can be downloaded [here](https://github.com/Peakboard/PeakboardExtensions/tree/master/Samples/AirportConditions).
+Within an extension, the main class inherits from `Peakboard.ExtensionKit.ExtensionBase`. It represents the extension itself – above all its metadata – and registers the data sources it offers. This is the class that is referenced in the `Class` attribute of the [Extension.xml](/data_sources/Extension/en-Extension.html).
 
-Within the extension, the main class inherits from the parent class ExtensionBase and represents the extension itself, especially the metadata.
-The method GetDefinitionOverride to be overwritten returns the metadata:
+## Required constructors
 
-``cs
-        protected override ExtensionDefinition GetDefinitionOverride()
-        {
-            // Create the extension definition
-            return new ExtensionDefinition
-            {
-                ID = "AirportCondition", // Must be unqiue over all extensions, so may use a namespace notation
-                Name = "Airport Weather Condition",
-                Description = "This is a sample implementation for using UI in a Peakboard Extension
-                Version = "1.0",
-                Author = "Gustavo Fring"
-                Company = "Los Pollos Hermanos, Inc."
-                Copyright = "Copyright © Los Pollos Hermanos, Inc."
-            };
-        }
+For the extension to be loaded correctly by the Peakboard Designer, the main class must provide the following two public constructors that call the corresponding base constructors:
+
+```csharp
+using Peakboard.ExtensionKit;
+
+namespace HubSpot;
+
+// This class name is referenced in the Extension.xml 'Class' attribute
+public class HubSpotExtension : ExtensionBase
+{
+    // 1. Parameterless constructor
+    public HubSpotExtension()
+        : base()
+    {
+    }
+
+    // 2. Constructor with IExtensionHost
+    public HubSpotExtension(IExtensionHost host)
+        : base(host)
+    {
+    }
+
+    // ... overrides (see below)
+}
 ```
 
-The GetCustomListsOverride method returns references to all individual data sources of the extension. In most cases, this is exactly one, but there could also be multiple data sources per extension:
-``cs
-        protected override CustomListCollection GetCustomListsOverride()
-        {
-            return new CustomListCollection
-            {
-                new AirportConditionCustomList(),
-            };
-        }
+## Metadata: GetDefinitionOverride
+
+The overridden `GetDefinitionOverride` method returns the metadata of the extension as an `ExtensionDefinition`:
+
+```csharp
+protected override ExtensionDefinition GetDefinitionOverride()
+{
+    return new ExtensionDefinition
+    {
+        ID = "HubSpot",   // must be unique across all extensions
+        Name = "HubSpot API Extension",
+        Description = "Interface with the HubSpot API to get all tickets",
+        Version = "1.0",
+        Author = "Makhsum",
+        Company = "Peakboard"
+    };
+}
 ```
 
-If desired, an attribute can be used to specify the reference to an image file that is used as an icon in the Designer menu:
-``cs
-    [ExtensionIcon("PeakboardExtensionAirportConditions.airplane.png")]
-    public class AirportConditionExtension : ExtensionBase
+## Registering data sources: GetCustomListsOverride
+
+The `GetCustomListsOverride` method returns references to all individual data sources ([Custom Lists](/data_sources/Extension/en-DatasourceNoUI.html)) of the extension. In most cases this is exactly one, but an extension can also provide several data sources:
+
+```csharp
+protected override CustomListCollection GetCustomListsOverride()
+{
+    return
+    [
+        new HubSpotCustomList(),
+    ];
+}
 ```

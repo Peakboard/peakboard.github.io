@@ -2,51 +2,72 @@
 layout: article
 title: Hauptklasse ExtensionBase
 menu_title: Hauptklasse ExtensionBase
-description: Informationen über die Hauptklasse ExtensionBase
+description: Informationen zur Hauptklasse ExtensionBase einer Extension
 lang: de
 weight: 720
 ref: dat-720
 redirect_from:
 ---
 
-Die folgenden Erklärungen beziehen sich auf ein Beispiel, dass [hier](https://github.com/Peakboard/PeakboardExtensions/tree/master/Samples/AirportConditions) heruntergeladen werden kann.
+Innerhalb einer Extension erbt die Hauptklasse von `Peakboard.ExtensionKit.ExtensionBase`. Sie repräsentiert die Extension selbst – vor allem deren Metadaten – und registriert die angebotenen Datenquellen. Genau diese Klasse wird im Attribut `Class` der [Extension.xml](/data_sources/Extension/de-Extension.html) referenziert.
 
-Innerhalb der Extension erbt die Hauptklasse von der Vaterklasse ExtensionBase und repräsentiert die Extension selbst, inbesondere die Metadaten.
-Die zu überschreibende Methode GetDefinitionOverride liefert die Metadaten zurück:
+## Erforderliche Konstruktoren
 
-```cs
-        protected override ExtensionDefinition GetDefinitionOverride()
-        {
-            // Create the extension definition
-            return new ExtensionDefinition
-            {
-                ID = "AirportCondition", // Must be unqiue over all extensions, so may use a namespace notation
-                Name = "Airport Weather Condition",
-                Description = "This is a sample implementation for using UI in a Peakboard Extension",
-                Version = "1.0",
-                Author = "Gustavo Fring",
-                Company = "Los Pollos Hermanos, Inc.",
-                Copyright = "Copyright © Los Pollos Hermanos, Inc",
-            };
-        }
+Damit die Extension vom Peakboard Designer korrekt geladen wird, muss die Hauptklasse die folgenden beiden öffentlichen Konstruktoren bereitstellen, die jeweils den passenden Basiskonstruktor aufrufen:
+
+```csharp
+using Peakboard.ExtensionKit;
+
+namespace HubSpot;
+
+// Dieser Klassenname wird im Attribut 'Class' der Extension.xml referenziert
+public class HubSpotExtension : ExtensionBase
+{
+    // 1. Parameterloser Konstruktor
+    public HubSpotExtension()
+        : base()
+    {
+    }
+
+    // 2. Konstruktor mit IExtensionHost
+    public HubSpotExtension(IExtensionHost host)
+        : base(host)
+    {
+    }
+
+    // ... Overrides (siehe unten)
+}
 ```
 
-Die Methode GetCustomListsOverride liefert Referenzen auf alle einzelnen Datenquellen der Extension. In den meisten Fällen ist das genau Eine, es könnte aber auch mehrere Datenquellen pro Extension geben:
-```cs
-        protected override CustomListCollection GetCustomListsOverride()
-        {
-            return new CustomListCollection
-            {
-                new AirportConditionCustomList(),
-            };
-        }
+## Metadaten: GetDefinitionOverride
+
+Die überschriebene Methode `GetDefinitionOverride` liefert die Metadaten der Extension als `ExtensionDefinition` zurück:
+
+```csharp
+protected override ExtensionDefinition GetDefinitionOverride()
+{
+    return new ExtensionDefinition
+    {
+        ID = "HubSpot",   // muss über alle Extensions hinweg eindeutig sein
+        Name = "HubSpot API Extension",
+        Description = "Interface with the HubSpot API to get all tickets",
+        Version = "1.0",
+        Author = "Makhsum",
+        Company = "Peakboard"
+    };
+}
 ```
 
-Falls gewünscht kann über ein Attribut der Verweis auf eine Bild-Datei angeben werden, die im Designer-Menü als Icon genutzt wird:
-```cs
-    [ExtensionIcon("PeakboardExtensionAirportConditions.airplane.png")]
-    public class AirportConditionExtension : ExtensionBase
+## Datenquellen registrieren: GetCustomListsOverride
+
+Die Methode `GetCustomListsOverride` liefert Referenzen auf alle einzelnen Datenquellen ([Custom Lists](/data_sources/Extension/de-DatasourceNoUI.html)) der Extension zurück. In den meisten Fällen ist das genau eine, eine Extension kann aber auch mehrere Datenquellen bereitstellen:
+
+```csharp
+protected override CustomListCollection GetCustomListsOverride()
+{
+    return
+    [
+        new HubSpotCustomList(),
+    ];
+}
 ```
-
-
-
