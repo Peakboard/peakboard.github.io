@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-06-22)
+## Complete URL inventory (as of 2026-06-29)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
@@ -54,12 +54,13 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (245)
+### German documentation pages (247)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
 - /administration/de-faqsecurity.html: https://help.peakboard.com/administration/de-faqsecurity.html
 - /administration/de-hinzufuegen.html: https://help.peakboard.com/administration/de-hinzufuegen.html
+- /administration/de-install-runtime.html: https://help.peakboard.com/administration/de-install-runtime.html
 - /administration/de-install-silent.html: https://help.peakboard.com/administration/de-install-silent.html
 - /administration/de-ipadress-pbedge-with-powershell.html: https://help.peakboard.com/administration/de-ipadress-pbedge-with-powershell.html
 - /administration/de-ipadress.html: https://help.peakboard.com/administration/de-ipadress.html
@@ -135,9 +136,10 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/Excel/de-ODBC-Excel.html: https://help.peakboard.com/data_sources/Excel/de-ODBC-Excel.html
 - /data_sources/Excel/de-excel.html: https://help.peakboard.com/data_sources/Excel/de-excel.html
 - /data_sources/Extension/de-Classes.html: https://help.peakboard.com/data_sources/Extension/de-Classes.html
+- /data_sources/Extension/de-DataPush.html: https://help.peakboard.com/data_sources/Extension/de-DataPush.html
 - /data_sources/Extension/de-DatasourceNoUI.html: https://help.peakboard.com/data_sources/Extension/de-DatasourceNoUI.html
-- /data_sources/Extension/de-DatasourceWithUI.html: https://help.peakboard.com/data_sources/Extension/de-DatasourceWithUI.html
 - /data_sources/Extension/de-Extension.html: https://help.peakboard.com/data_sources/Extension/de-Extension.html
+- /data_sources/Extension/de-Functions.html: https://help.peakboard.com/data_sources/Extension/de-Functions.html
 - /data_sources/Extension/de-ManageExtension.html: https://help.peakboard.com/data_sources/Extension/de-ManageExtension.html
 - /data_sources/Extension/de-MsGraphAPI-teams.html: https://help.peakboard.com/data_sources/Extension/de-MsGraphAPI-teams.html
 - /data_sources/Extension/de-MsGraphAPI.html: https://help.peakboard.com/data_sources/Extension/de-MsGraphAPI.html
@@ -302,13 +304,14 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (244)
+### English documentation pages (246)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
 - /administration/en-change-application.html: https://help.peakboard.com/administration/en-change-application.html
 - /administration/en-change-license.html: https://help.peakboard.com/administration/en-change-license.html
 - /administration/en-faqsecurity.html: https://help.peakboard.com/administration/en-faqsecurity.html
+- /administration/en-install-runtime.html: https://help.peakboard.com/administration/en-install-runtime.html
 - /administration/en-install-silent.html: https://help.peakboard.com/administration/en-install-silent.html
 - /administration/en-ipadress-pbedge-with-powershell.html: https://help.peakboard.com/administration/en-ipadress-pbedge-with-powershell.html
 - /administration/en-ipadress.html: https://help.peakboard.com/administration/en-ipadress.html
@@ -382,9 +385,10 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/Excel/en-ODBC-Excel.html: https://help.peakboard.com/data_sources/Excel/en-ODBC-Excel.html
 - /data_sources/Excel/en-excel.html: https://help.peakboard.com/data_sources/Excel/en-excel.html
 - /data_sources/Extension/en-Classes.html: https://help.peakboard.com/data_sources/Extension/en-Classes.html
+- /data_sources/Extension/en-DataPush.html: https://help.peakboard.com/data_sources/Extension/en-DataPush.html
 - /data_sources/Extension/en-DatasourceNoUI.html: https://help.peakboard.com/data_sources/Extension/en-DatasourceNoUI.html
-- /data_sources/Extension/en-DatasourceWithUI.html: https://help.peakboard.com/data_sources/Extension/en-DatasourceWithUI.html
 - /data_sources/Extension/en-Extension.html: https://help.peakboard.com/data_sources/Extension/en-Extension.html
+- /data_sources/Extension/en-Functions.html: https://help.peakboard.com/data_sources/Extension/en-Functions.html
 - /data_sources/Extension/en-ManageExtension.html: https://help.peakboard.com/data_sources/Extension/en-ManageExtension.html
 - /data_sources/Extension/en-MsGraphAPI-teams.html: https://help.peakboard.com/data_sources/Extension/en-MsGraphAPI-teams.html
 - /data_sources/Extension/en-MsGraphAPI.html: https://help.peakboard.com/data_sources/Extension/en-MsGraphAPI.html
