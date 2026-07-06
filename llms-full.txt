@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-06-29)
+## Complete URL inventory (as of 2026-07-06)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
