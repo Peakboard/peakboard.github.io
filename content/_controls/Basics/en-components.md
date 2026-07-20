@@ -30,7 +30,7 @@ Confirming the dialog triggers several things at once:
 * A new [Components] section appears in the Explorer, holding your component (`HeaderBar` in this example).
 * A [Components] category appears in the control area. From there the component can be dragged onto any screen, just like any other control. Each placement created this way is a **slave instance** that stays linked to the master.
 
-![Component in the Explorer and the control area](/assets/images/Controls/Basics/components/components-03-overview.png)
+![The [Components] category in the control area, here with a `ValueTile` component](/assets/images/Controls/Basics/components/components-03-control-area.png)
 
 Every component has exactly **one master** and any number of **slave instances**. The master is just an ordinary placement on a screen – only that this one acts as the template. Changes to the master are picked up automatically by every slave instance. Changes made directly to a slave instance only affect that single slave; the master and the other slaves stay untouched.
 
@@ -65,6 +65,26 @@ The context menu of a slave instance offers three actions that govern its relati
 * [Reset to master] discards all local modifications of the slave instance – the instance matches the master exactly again.
 * [Detach from component] breaks the link to the master completely. The instance is converted into a regular [group](/controls/en-groups.html) and lives independently from then on.
 * [Set as master] promotes a slave instance to become the new master. The previous master is demoted to a slave. Useful when one specific placement has the better setup and should become the template for everything else.
+
+## Practical examples
+
+### KPI tiles with per-instance values
+
+A classic case for a component is a recurring KPI tile. Build the tile once from its parts – an [Icon], a caption, the value, a unit, and a background rectangle – and turn it into a component (here `ValueTile`). From then on you drop the component onto the screen as often as you need instead of copying the controls by hand.
+
+Every instance keeps the same layout, but you can override individual properties locally: a different icon and color for *External Temp*, *Built-in Temp*, *Humidity*, and *Battery*, plus a different bound value per tile. Everything you don't touch – spacing, fonts, the card background – keeps syncing from the master, so a later design change reaches all tiles at once.
+
+![Several instances of a KPI tile component with per-instance overrides](/assets/images/Controls/Basics/components/components-06-value-tile-instances.png)
+
+### A shared header menu
+
+A header or navigation menu is a perfect component, because it should look identical on every screen. Design the menu once on your overview screen – logo, title, and the navigation buttons – and convert the whole layout into a component (here `HeaderMenu`).
+
+![Header menu master component on the overview screen](/assets/images/Controls/Basics/components/components-07-header-menu-master.png)
+
+Now place the same component on every other screen. Layout, fonts, and the base colors all sync from the master. The only thing that differs per screen is the active-page indicator: on the *Orders* screen, for example, you override the background color of the [Orders] button to orange so users can see where they are. Because that color is a local override, a later change to the master leaves it untouched.
+
+![Header menu instance with the Orders button highlighted](/assets/images/Controls/Basics/components/components-08-header-menu-instance.png)
 
 ## Typical use cases
 

@@ -30,7 +30,7 @@ Nach dem Bestätigen passieren mehrere Dinge gleichzeitig:
 * Im Explorer erscheint ein neuer Bereich [Components] mit dem Eintrag deiner Komponente (im Beispiel `HeaderBar`).
 * Im Control-Bereich erscheint die Kategorie [Components], aus der du die Komponente per Drag-and-Drop wie jedes andere Control auf eine beliebige Screen ziehen kannst. Jedes so erzeugte Exemplar ist eine **Slave-Instanz**, die mit dem Master verbunden bleibt.
 
-![Komponente im Explorer und im Control-Bereich](/assets/images/Controls/Basics/components/components-03-overview.png)
+![Die Kategorie [Components] im Control-Bereich, hier mit einer `ValueTile`-Komponente](/assets/images/Controls/Basics/components/components-03-control-area.png)
 
 Es gibt also genau **einen Master** pro Komponente und beliebig viele **Slave-Instanzen**. Der Master ist ein normales Exemplar auf einer Screen – nur eben das, was als Vorlage gilt. Änderungen am Master werden automatisch in jede Slave-Instanz übernommen. Änderst du dagegen eine Slave-Instanz lokal, weicht nur diese eine Instanz vom Master ab; Master und übrige Slaves bleiben unberührt.
 
@@ -65,6 +65,26 @@ Im Kontextmenü einer Slave-Instanz findest du drei Aktionen, die das Verhältni
 * [Reset to master] verwirft alle lokalen Anpassungen der Slave-Instanz – die Instanz entspricht wieder exakt dem Master.
 * [Detach from component] löst die Verbindung zum Master ganz auf. Die Instanz wird in eine normale [Gruppe](/controls/de-gruppen.html) umgewandelt und lebt ab diesem Moment unabhängig weiter.
 * [Set as master] befördert eine Slave-Instanz zum neuen Master. Der bisherige Master wird damit selbst zu einer Slave-Instanz. Praktisch, wenn du an einer einzelnen Stelle bessere Vorgaben gebaut hast und diese ab jetzt für alle anderen Instanzen gelten sollen.
+
+## Praktische Beispiele
+
+### KPI-Kacheln mit Werten pro Instanz
+
+Ein klassischer Anwendungsfall für eine Komponente ist eine wiederkehrende KPI-Kachel. Baue die Kachel einmal aus ihren Bestandteilen auf – einem [Icon], einer Überschrift, dem Wert, einer Einheit und einem Hintergrund-Rechteck – und wandle sie in eine Komponente um (hier `ValueTile`). Ab dann legst du die Komponente so oft auf der Screen ab, wie du sie brauchst, statt die Controls von Hand zu kopieren.
+
+Jede Instanz behält dasselbe Layout, einzelne Eigenschaften kannst du aber lokal überschreiben: ein anderes Icon und eine andere Farbe für *External Temp*, *Built-in Temp*, *Humidity* und *Battery* sowie einen anderen gebundenen Wert pro Kachel. Alles, was du nicht anfasst – Abstände, Schriften, der Karten-Hintergrund –, wird weiterhin vom Master synchronisiert, sodass eine spätere Designänderung alle Kacheln auf einmal erreicht.
+
+![Mehrere Instanzen einer KPI-Kachel-Komponente mit Überschreibungen pro Instanz](/assets/images/Controls/Basics/components/components-06-value-tile-instances.png)
+
+### Ein gemeinsames Header-Menü
+
+Ein Header- bzw. Navigationsmenü ist eine ideale Komponente, weil es auf jeder Screen identisch aussehen soll. Gestalte das Menü einmal auf deiner Übersichts-Screen – Logo, Titel und die Navigations-Buttons – und wandle das gesamte Layout in eine Komponente um (hier `HeaderMenu`).
+
+![Master-Komponente des Header-Menüs auf der Übersichts-Screen](/assets/images/Controls/Basics/components/components-07-header-menu-master.png)
+
+Platziere dieselbe Komponente nun auf jeder weiteren Screen. Layout, Schriften und die Grundfarben werden vom Master synchronisiert. Lediglich die Markierung der aktiven Seite unterscheidet sich pro Screen: Auf der *Orders*-Screen überschreibst du z. B. die Hintergrundfarbe des [Orders]-Buttons mit Orange, damit Nutzer sehen, wo sie sich gerade befinden. Da diese Farbe eine lokale Überschreibung ist, bleibt sie auch bei einer späteren Änderung am Master erhalten.
+
+![Header-Menü-Instanz mit hervorgehobenem Orders-Button](/assets/images/Controls/Basics/components/components-08-header-menu-instance.png)
 
 ## Typische Anwendungsfälle
 
