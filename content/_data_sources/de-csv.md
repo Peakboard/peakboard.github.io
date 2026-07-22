@@ -59,3 +59,17 @@ Mit einem Klick auf [OK] legst du die Datenquelle an. Sie erscheint anschließen
 Ab jetzt kannst du die Datenquelle wie jede andere mit Controls (zum Beispiel einer Tabelle, einem Chart oder einer Styled List) verknüpfen und die Lieferdaten auf einem Dashboard darstellen.
 
 ![CSV Datenquelle im Explorer](/assets/images/data-sources/csv/csv-04-explorer.png)
+
+## Daten auf einem Dashboard anzeigen
+
+Eine CSV-Datenquelle wird erst nützlich, wenn du ihre Daten anzeigst. Verknüpfe sie mit einem Control – hier eine [Table] – und die Lieferzeilen erscheinen auf deinem Dashboard.
+
+Im folgenden Beispiel ist die Datenquelle [Shipments] (1) an ein Table-Control (2) gebunden. Sobald die Bindung gesetzt ist, zeigt die Table die importierten Zeilen direkt auf der Arbeitsfläche an (3).
+
+![CSV-Datenquelle an eine Table im Peakboard Designer gebunden](/assets/images/data-sources/csv/csv-05-dashboard-designer.png)
+
+Klicke auf [Preview], um das Projekt in der Peakboard Runtime abzuspielen. Die Table zeigt die CSV-Daten nun genau so an, wie sie später auf einer Peakboard Box oder einem BYOD Gerät erscheinen.
+
+![Das Beispiel-Dashboard in der Peakboard Runtime](/assets/images/data-sources/csv/csv-06-dashboard-runtime.png)
+
+Du kannst das fertige Beispiel herunterladen und im Peakboard Designer öffnen, um die CSV-Datenquelle, die Table-Bindung und das Dashboard-Layout zu erkunden: [Warehouse-Lieferungen-Dashboard (.pbmx)](/assets/files/examples/csv-shipments-dashboard.pbmx).

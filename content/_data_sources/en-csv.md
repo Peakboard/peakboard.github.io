@@ -58,3 +58,17 @@ Click on [OK] to create the data source. It then appears in the Explorer under [
 From now on you can link the data source to Controls (for example a table, a chart or a Styled List) just like any other and display the shipment data on a dashboard.
 
 ![CSV data source in the Explorer](/assets/images/data-sources/csv/csv-04-explorer.png)
+
+## Display the data on a dashboard
+
+A CSV data source only becomes useful once you show its data. Link it to a Control – here a [Table] – and the shipment rows appear on your dashboard.
+
+In the example below the [Shipments] data source (1) is bound to a Table Control (2). As soon as the binding is set, the Table shows the imported rows directly on the canvas (3).
+
+![CSV data source bound to a Table in the Peakboard Designer](/assets/images/data-sources/csv/csv-05-dashboard-designer.png)
+
+Click [Preview] to run the project in the Peakboard Runtime. The Table now displays the CSV data exactly as it will later appear on a Peakboard Box or a BYOD device.
+
+![The example dashboard running in the Peakboard Runtime](/assets/images/data-sources/csv/csv-06-dashboard-runtime.png)
+
+You can download the finished example and open it in the Peakboard Designer to explore the CSV data source, the Table binding and the dashboard layout: [Warehouse shipments dashboard (.pbmx)](/assets/files/examples/csv-shipments-dashboard.pbmx).
