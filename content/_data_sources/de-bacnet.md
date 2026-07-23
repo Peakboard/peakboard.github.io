@@ -56,9 +56,9 @@ Mit einem Klick auf [OK] legst du die Datenquelle an. Sie erscheint anschließen
 
 ## Daten auf einem Dashboard anzeigen
 
-Verknüpfe die Datenquelle mit einem Control, um die Werte anzuzeigen. Am schnellsten ziehst du die Datenquelle [RoomController] (1) aus dem Explorer auf die Arbeitsfläche und wählst als Control eine [Table] (2). Die Table zeigt daraufhin alle abonnierten Objekte mit ihren Live-Werten direkt auf dem Dashboard (3).
+Verknüpfe die Datenquelle mit Controls, um die Werte anzuzeigen. Jedes Control bindest du dazu an die Datenquelle [RoomController] (1). Im Beispiel zeigen mehrere Kacheln oben die wichtigsten Werte an – Innen- und Außentemperatur, Sollwert, Betriebsmodus und Lüfterstufe (2) –, und eine [Table] listet darunter alle abonnierten Objekte mit Name, Wert, Einheit und Beschreibung auf (3). Alle Controls aktualisieren sich im eingestellten Reload-Intervall automatisch.
 
-![BACnet-Datenquelle an eine Table gebunden](/assets/images/data-sources/bacnet/bacnet-06-dashboard-designer.png)
+![BACnet-Room-Controller-Dashboard im Peakboard Designer](/assets/images/data-sources/bacnet/bacnet-06-dashboard-designer.png)
 
 Klicke auf [Preview], um das Projekt in der Peakboard Runtime abzuspielen. Die Werte werden nun im eingestellten Intervall aktualisiert und genau so dargestellt, wie sie später auf einer Peakboard Box oder einem BYOD Gerät erscheinen.
 

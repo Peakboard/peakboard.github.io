@@ -56,9 +56,9 @@ Click [OK] to create the data source. It then appears in the Explorer under [Dat
 
 ## Display the data on a dashboard
 
-Link the data source to a control to show its values. The fastest way is to drag the [RoomController] data source (1) from the Explorer onto the canvas and choose a [Table] (2) as the control. The Table then shows all subscribed objects with their live values directly on the dashboard (3).
+Link the data source to controls to show its values. Each control is bound to the [RoomController] data source (1). In the example, a row of stat tiles at the top shows the key readings – indoor and outdoor temperature, setpoint, running mode and ventilation level (2) – and a [Table] below lists all subscribed objects with their name, value, unit and description (3). All controls refresh automatically at the configured reload interval.
 
-![BACnet data source bound to a Table](/assets/images/data-sources/bacnet/bacnet-06-dashboard-designer.png)
+![BACnet room controller dashboard in the Peakboard Designer](/assets/images/data-sources/bacnet/bacnet-06-dashboard-designer.png)
 
 Click [Preview] to run the project in the Peakboard Runtime. The values are now refreshed at the configured interval and displayed exactly as they will later appear on a Peakboard Box or a BYOD device.
 
