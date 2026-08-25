@@ -1,0 +1,547 @@
+﻿[
+  {
+    "version": "4.4.0.0",
+    "date": "25.08.2026",
+    "download_url": "https://peakboard.rocks/download-version-history",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.0.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.0.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.0.0/PeakboardRuntimeSetupUI.exe",
+    "tabs": [
+      {
+        "name": "Projekte als Tabs",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-4-0-0-Tabs_DE.gif",
+            "description": "Mehrere Peakboard Projekte lassen sich jetzt als Tabs in einem einzigen Peakboard Designer-Fenster öffnen."
+          }
+        ]
+      },
+      {
+        "name": "Step Control",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-4-0-0-Step.gif",
+            "description": "Das neue Step Control zeigt 3D-CAD-Modelle direkt im Peakboard Projekt an."
+          }
+        ]
+      },
+      {
+        "name": "Data Debugger",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-4-0-0-DataDebugger_DE.gif",
+            "description": "Der Data Debugger im Box Management-Dialog ermöglicht das Remote-Debugging der Daten einer Peakboard Box."
+          }
+        ]
+      },
+      {
+        "name": "Datepicker",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-4-0-0-Datepicker_DE.gif",
+            "description": "Datepicker und Timepicker wurden überarbeitet – mit Icon-Farbe und Ausgabesprache in der bedingten Formatierung sowie einem angepassten Popup."
+          }
+        ]
+      },
+      {
+        "name": "Z-Index Slider",
+        "content": [
+          {
+            "type": "image",
+            "image": "4-4-0-0-ZIndex.gif",
+            "description": "Mit gedrückter Alt-Taste lässt sich ein Control oder eine Gruppe per Slider im Z-Index verschieben."
+          }
+        ]
+      },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Peakboard Designer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Neue Option zugefügt, um verwandte Controls über das Kontextmenü ineinander umzuwandeln (z. B. linear Gauge in circular Gauge).",
+              "Neue Möglichkeit zugefügt, die Deckkraft für Farbverläufe einzustellen.",
+              "Drag-&-Drop-Vorschau zugefügt, die beim Hinzufügen von Controls auf die Zeichenfläche ein echtes Control statt nur eines Cursors anzeigt.",
+              "Slider zugefügt, um ein Control oder eine Gruppe bei gedrückter Alt-Taste im Z-Index zu verschieben.",
+              "Neue Möglichkeit zugefügt, mehrere Peakboard-Projekte als Tabs statt in mehreren Peakboard Designer-Fenstern zu öffnen.",
+              "Fortschrittsbalken für den Download im Dialog 'Updating designer' zugefügt.",
+              "Deutsche Template-Beschreibungen zugefügt, wenn die Sprache des Peakboard Designers auf Deutsch eingestellt ist.",
+              "Das Schließen des Ladefensters beendet jetzt das Laden des Peakboard Designers.",
+              "Problem beim Zugriff auf die Zwischenablage behoben.",
+              "Problem im Color Picker behoben: Wird nach 'transparent' eine Farbe gewählt, wird sie jetzt mit vollem Alpha-Wert übernommen.",
+              "Problem mit fehlendem Hintergrund bei einigen Textboxen und Dropdowns behoben.",
+              "Problem mit der fehlenden BACnet-Datenquelle in der Suche behoben.",
+              "Problem behoben, das beim zweiten Ändern der Einstellung 'used in scripting' zu einem Absturz führte.",
+              "Problem im Drag-&-Drop-Menü für Charts behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Box-Kommunikation"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Data Debugger für das Remote-Debugging im Box Management-Dialog zugefügt.",
+              "Beschreibung für die neue Passwort-Richtlinie zugefügt.",
+              "Automatischer Neuaufbau der Cloud-Verbindung zugefügt, wenn der Service Bus einen 404-Fehler zurückgibt.",
+              "Problem mit Fehlermeldungen beim Hochladen eines großen Projekts über die Cloud behoben.",
+              "Problem beim Zugriff des Peakboard Designers auf eine Peakboard Box behoben, wenn sich deren IP geändert hat und ein veralteter DNS-Eintrag gespeichert ist.",
+              "Problem behoben, bei dem der Mehrfachauswahl-Modus nach dem Löschen aller Peakboard Boxen aktiv blieb."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Peakboard Hub-Boxgruppe wird in den Box Management-Dialog synchronisiert.",
+              "Formulierungen im Verbindungsdialog des Peakboard Hubs überarbeitet."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Neue Möglichkeit zugefügt, ein Flow-Projekt als neue Instanz zu speichern."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Listen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Textfeld zur Namensvalidierung zugefügt, passend zu den Datenquellen-Dialogen."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Globale Funktionen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Feld für den Hub-Benutzer beim Aufruf globaler Funktionen zugefügt, sodass die E-Mail-Adresse des aufrufenden Benutzers in Skripten und Building Blocks verfügbar ist."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Ressourcen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Entpackte Projektdateien werden jetzt im Peakboard-Ordner statt im globalen Temp-Ordner abgelegt.",
+              "Neue Möglichkeit zugefügt, Dateien auf Basis eines Base64-Strings in einem Netzwerkordner zu speichern.",
+              "Ressourcen im Web-Access werden jetzt alphabetisch sortiert.",
+              "Problem im Datenbindungs-Dialog behoben, wenn eine Peakboard Hub-Ressource mit dem gleichen Namen wie eine lokale Ressource hinzugefügt wird.",
+              "Problem mit einer unklaren Fehlermeldung behoben, wenn für eine SharePoint-Ressource ein Ordner statt einer Datei ausgewählt wird.",
+              "Problem beim Laden von Videos aus SharePoint-Ressourcen behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Chart"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Der Einstellungs-Tab bleibt jetzt beim Wechsel zwischen Chart-Serien ausgewählt.",
+              "Problem bei der Auswahl der X- und Y-Spalte behoben, wenn die Quelle eines Charts geändert wird.",
+              "Problem behoben, bei dem die Abstands-Eigenschaft des Balkendiagramms beim Öffnen des Chart-Dialogs auf 'Default' zurückgesetzt wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Gauge"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem mit Dezimalwerten in Gauges und Charts behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Info-Panel"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Dropdown zur Auswahl der aktiven Anwendung im Debug-Screen zugefügt.",
+              "Aktueller Lizenztyp im Info-Panel zugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Gruppe"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem beim Umbenennen von Komponenten-Instanzen behoben.",
+              "Problem mit doppelten Control-Namen behoben, wenn eine Komponenten-Instanz über die Toolbar hinzugefügt wird."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Button"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Farbverläufe für die Hintergrund-Einstellung des Buttons zugefügt.",
+              "Problem behoben, bei dem die Icon-Position 'oben' nicht gespeichert wurde.",
+              "Problem behoben, bei dem Buttons im Hover-Zustand hängen blieben.",
+              "Problem im Editor für Padding und Dicke bei Button, Checkbox und Radio Button behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Styled Tile / Styled List / Collection"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Eckenradius je Element des Styled Tile- und Styled List-Templates zugefügt.",
+              "Editor der Styled List verbessert: Ebenen lassen sich per Drag & Drop umsortieren und gruppieren, dazu weitere Verbesserungen im Editor.",
+              "Problem behoben, dass Abstände verloren gingen.",
+              "Problem mit verrutschten Kacheln behoben, wenn die Breite einer Styled Tile Collection geändert wird."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Text"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Unterstützung für Zeilenumbrüche in Texten mittels \\n zugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Website / Web"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Performance des Webbrowsers verbessert.",
+              "Performance von Webbrowser- und PDF-Controls auf aktuell nicht angezeigten Screens verbessert.",
+              "Problem beim Sichtbarmachen eines unsichtbaren Webseiten-Controls behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Eigenschaftenbereich"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Buttons zum Kopieren und Einfügen von Datenbindungen im Bindungs-Popup zugefügt.",
+              "Durchsuchbares Dropdown für die Schriftartauswahl zugefügt.",
+              "Icons für Eckenradius und Rahmen im Multi-Editor zugefügt.",
+              "Problem im Color Picker behoben, sodass die Farbe beim Drücken der Enter-Taste übernommen wird."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Datepicker / Timepicker"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Eigenschaft für die Icon-Farbe in der bedingten Formatierung zugefügt.",
+              "Format für die Ausgabesprache in der bedingten Formatierung zugefügt.",
+              "Eckenradius des Popups angeglichen und 5px Abstand zwischen Picker und Popup zugefügt.",
+              "Problem mit transparenten Hintergrund- und Rahmenfarben behoben.",
+              "Problem beim Weiterspringen mit der Tab-Taste zum nächsten Element behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Variable"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Tabelle der Variablenlisten mit einem neuen Control überarbeitet – inklusive Umsortieren per Drag & Drop, Tastaturnavigation, Leerzustand und aufgefrischtem Design.",
+              "Variablentyp in der Antwort von ApiGetVariables zugefügt.",
+              "Problem behoben, das beim Hinzufügen einer leeren Zeile zu einer Variablenliste mit Zahlenspalte einen Fehler verursachte.",
+              "Problem behoben, das beim Hinzufügen einer String-Spalte mit Werte-Einschränkung eine Exception verursachte."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dataflow"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Neuer Schritt zugefügt, um die Zeitdifferenz von der aktuellen zur vorherigen Zeile zu berechnen.",
+              "Filter für einen Spaltenwert im Akkumulieren-Schritt zugefügt.",
+              "Bestätigungsdialog beim Löschen eines Dataflow-Schritts zugefügt.",
+              "'Uhrzeit ignorieren' ist jetzt eine eigene Einstellung für jeden Datums-/Zeitfilter.",
+              "Problem beim Löschen eines Dataflows behoben, der eine Skriptreferenz auf sich selbst hat.",
+              "Problem mit einer fehlenden Fehlermeldung im Dataflow-Dialog behoben, wenn in einem Dataflow-Skript ein nicht existierender Index referenziert wird."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Tabelle"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Bei scrollbaren Tabellen scrollen jetzt nur noch die Zeilen, der Header bleibt stehen.",
+              "Problem behoben, bei dem die Tabelle unten abgeschnitten wurde, wenn 'Max rows' kleiner als die Datenmenge ist."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Building Blocks"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Dialog zur Ordnerauswahl für den Building Block 'Upload to Peakboard Hub' zugefügt, inklusive Anlegen neuer Ordner.",
+              "Neue Möglichkeit zugefügt, eine Base64-Datei in den Peakboard Hub, nach SharePoint und OneDrive hochzuladen.",
+              "Mehrere Suchparameter und eine Prüfung des Spaltentyps in den Such-Building-Blocks zugefügt (index of, last index of, contains).",
+              "Der Building Block 'Add list' überträgt keine Daten mehr, wenn die Spalten-Datentypen nicht zusammenpassen, und schreibt stattdessen einen Log-Eintrag.",
+              "Problem im Building Block 'Add list' behoben, wenn die Zeilen der Liste den Wert 'Max rows' des verbundenen Tabellen-Controls überschreiten.",
+              "Problem behoben, bei dem die Dropdown-Auswahl zurückgesetzt wurde, wenn ein Building Block mit der Backspace-Taste gelöscht wird.",
+              "Problem beim Schreiben in eine SharePoint-Liste behoben, sodass ein leeres Zahlenfeld den bestehenden Wert beibehält."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Extensions"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Beim Öffnen eines Pakets wird gefragt, ob eine fehlende, online verfügbare Extension installiert werden soll.",
+              "Es wird jetzt gefragt, ob fehlende Extensions installiert werden sollen, die im Paket enthalten sind.",
+              "Problem mit fehlenden abgerundeten Ecken in den Datenquellen-Dialogen von Extensions behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Datenquellen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Eine neue Datenquelle für Netzwerkdateien wurde hinzugefügt.",
+              "Problem beim Event 'Reload of data source failed' behoben.",
+              "Problem behoben, bei dem das Projekt als geändert markiert wurde, wenn ein Variablen-, Datenquellen- oder Dataflow-Dialog abgebrochen wird."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Microsoft Graph"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Spalten der Ordnerstruktur (FileRef, FileDirRef, IsFolder) zur Datenquelle für SharePoint-Bibliotheken zugefügt.",
+              "Problem in der Office 365-Kalender-Datenquelle behoben, die maximal 50 Termine und beim Filtern nach Zeitraum eine falsche Teilmenge zurückgab."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Excel"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem mit Apostrophen in Excel-Spaltennamen behoben, diese werden jetzt beim Laden der Daten ersetzt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Scripting"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Skript-Editor mit einer neuen, modularen Architektur und komplett aufgefrischter Benutzeroberfläche überarbeitet.",
+              "Problem in der Lua-Grammatik behoben, die mehrzeilige Strings beginnend mit [=[[ als ungültig markierte.",
+              "Problem bei der Erkennung von Escape-Zeichen behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Icon"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Such-Tags für die Icons Diskette, Löschen und Papierkorb optimiert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Explorer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem mit fehlenden Tags und Beschreibungen bei einigen Datenquellen behoben.",
+              "Problem beim Verschieben mehrerer ausgewählter Controls in einen Ordner per Drag & Drop behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Signalblock"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Lange Spaltennamen werden im Regel-Dialog der Signallampe jetzt beim Hover vollständig angezeigt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dropdown"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Es ist jetzt möglich, nichts auszuwählen, wenn der gebundene Wert nicht Teil der gebundenen Liste ist."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Bedingte Formatierung"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Bedingte Formatierungen lassen sich jetzt zwischen unterschiedlichen Control-Typen kopieren, sofern die Eigenschaften zusammenpassen."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Zeichenfläche"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Farbverläufe als Hintergrund für die Zeichenfläche entfernt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Schriftart"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Neue Möglichkeit zugefügt, Schriftarten umzubenennen."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "CAD"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Step-Control (3D-CAD) zugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Rich Text"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem mit einer Exception beim automatischen Speichern behoben, wenn ein Rich-Text-Control keine Ressource hat."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "PDF"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem behoben, das beim schnellen Wechseln eines PDFs zu einem Absturz führte."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "PowerBI"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem beim Laden des Power BI-Controls in der Peakboard Runtime behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Slider"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem bei der Skalierung des Sliders für unterschiedliche Auflösungen behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Runtime"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem mit verschwindenden Logs beim Abdocken des Log-Bereichs behoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Box"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fenstermodus und Minimieren stehen nicht mehr zur Verfügung, wenn die Runtime auf einer Peakboard Box läuft."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Edge"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Das Peakboard Edge-Icon wurde von der oberen Leiste auf den Home Screen verschoben."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Code-Bereinigung"
+          }
+        ]
+      }
+    ]
+  }
+]
