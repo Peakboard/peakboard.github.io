@@ -29,7 +29,7 @@ Mit diesem Schritt sortierst du die Tabelle anhand einer oder mehrerer Spalten. 
 
 ## Filter nach Datums-/Zeitspalten
 
-Mit diesem Schritt filterst du die Tabelle nach Datums- oder Zeitwerten. Wähle die [Date/time column] (1), die gefiltert werden soll, und gib im [Input format] (2) an, in welchem Format die Werte als Zeichenfolge vorliegen, damit sie korrekt interpretiert werden. Lege anschließend den Operator (3) und den Vergleichswert (4) fest – dieser kann eine andere Spalte oder ein fixer Wert sein. Mit der Option [Ignore time] (5) berücksichtigst du nur den Datums- und nicht den Zeitanteil. Voraussetzung für diesen Schritt ist der Spaltentyp String.
+Mit diesem Schritt filterst du die Tabelle nach Datums- oder Zeitwerten. Wähle die [Date/time column] (1), die gefiltert werden soll, und gib im [Input format] (2) an, in welchem Format die Werte als Zeichenfolge vorliegen, damit sie korrekt interpretiert werden. Lege anschließend den Operator (3) und den Vergleichswert (4) fest – dieser kann eine andere Spalte oder ein fixer Wert sein. Mit der Option [Ignore time] (5) berücksichtigst du nur den Datums- und nicht den Zeitanteil. Diese Option gehört zur einzelnen Regel – in einem Schritt mit mehreren Regeln kannst du also in der einen die Zeit ignorieren und in der nächsten auf die genaue Uhrzeit vergleichen. Voraussetzung für diesen Schritt ist der Spaltentyp String.
 
 ![Filter nach Datums-/Zeitspalten](/assets/images/dataflows/filter-and-sort/filter-and-sort-03-filter-date-time.png)
 

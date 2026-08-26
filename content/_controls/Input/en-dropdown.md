@@ -30,6 +30,8 @@ In the chosen example file, the first row of the selected column is now displaye
 
 ![image4](/assets/images/Controls/Dropdown/dropdown04.png)
 
+If the bound value is not part of the bound list, the Dropdown List shows no selection at all. Previously the first entry was selected in that situation, which could silently suggest a value the data never contained — for example when a status arrives that is missing from the list of options.
+
 The Dropdown List primarily reacts to a change in selection. Once you have given the control a unique name for use in scripts, you can utilize it in the script editor. Under the Logic tab in the properties, you will find the event:
 
 # Scripting

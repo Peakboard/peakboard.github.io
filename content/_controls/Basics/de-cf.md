@@ -48,3 +48,13 @@ Die bedingte Formatierung wird erst in der Vorschau oder auf der Peakboard Box a
 Auf der Arbeitsfläche erfolgt keine Veränderung!
 
 ![Vorschau](/assets/images/Controls/ConditionalFormatting/de_cf-05.gif)
+
+### Regeln auf ein anderes Control übertragen
+
+Du kannst die bedingte Formatierung eines Controls kopieren und auf einem anderen einfügen – auch auf einem Control **eines anderen Typs**. Klicke das Control mit der rechten Maustaste an, um seine Regeln zu kopieren, und füge sie auf dem Ziel-Control ein.
+
+Die Regeln werden dabei den Eigenschaften des Ziel-Controls zugeordnet. Formatierungsaktionen, die das Ziel nicht unterstützt, werden übersprungen, und der Peakboard Designer sagt dir, wie viele weggefallen sind:
+
+> 3 formatting action(s) were skipped because this control does not support them.
+
+Alles, was das Ziel unterstützt, wird übernommen – inklusive der IF-Bedingungen. Das erspart dir das Nachbauen von Hand, wenn dieselben Statusfarben auf einem Rechteck, einer Kachel und einem Text gelten sollen.

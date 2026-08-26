@@ -35,3 +35,18 @@ The following mathematical functions are possible:
 With this step you add a new column to the table with the accumulated (running total) values of a previously selected column. In the [Columns] field (1) pick the column to accumulate and enter a name for the result column under [New column name] (2). A requirement for this step are columns with the data type number.
 
 ![Accumulate](/assets/images/dataflows/calculations/calculations-02-accumulate.png)
+
+With the [Reference column] option you can accumulate separately for each group of rows that share the same value in that column — a running total per machine, for example. Without it, one running total is calculated across the whole table.
+
+## Duration
+
+This step calculates how long each row lasted — the time from its own timestamp to the timestamp of the following row. It is the usual way to turn a log of status changes into a table of durations, for example to find out how long a machine stood still.
+
+Select the column holding the timestamps under [Timestamp column] and, if the values are not recognised automatically, specify how they are written under [Input format]. Under [New column name] you give the calculated column a name.
+
+Two options refine the calculation:
+
+* **Reference column:** measures the duration separately within each group of rows that share the same value in this column — for example per machine. Without it, the whole table is treated as one sequence.
+* **Open duration up to now:** the last row of a group has no successor, so its duration would stay empty. Enable this option and pick a time data source, and the duration of that row is measured up to the current time instead. That is what keeps a still-running state visible on a dashboard.
+
+The duration is always measured from one row to the next, so the rows have to be sorted by timestamp. If they are not, the Peakboard Designer warns you and suggests adding a sort step before this one.

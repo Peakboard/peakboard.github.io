@@ -48,3 +48,13 @@ The conditional formatting is only executed in the preview or on the Peakboard B
 There is no change on the workspace!
 
 ![Preview](/assets/images/Controls/ConditionalFormatting/en_cf-05.gif)
+
+### Copying rules to another control
+
+You can copy conditional formatting from one control and paste it onto another — including onto a **different type** of control. Right-click the control to copy its rules and paste them onto the target control.
+
+The rules are matched to the properties of the target control. Formatting actions the target does not support are skipped, and the Peakboard Designer tells you how many were left out:
+
+> 3 formatting action(s) were skipped because this control does not support them.
+
+Everything the target does support is taken over, including the IF conditions. This saves rebuilding a rule set by hand when you want the same status colours on a rectangle, a tile and a text.

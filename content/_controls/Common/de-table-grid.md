@@ -43,6 +43,8 @@ In den Attributen auf der rechten Seite steuerst du das visuelle Verhalten:
 3. Tabellenkopfzeile (Aussehen)(: Lege fest, ob die Spaltenüberschriften zu sehen sein sollen und stelle die Hintergrundfarbe und Schriftart der Kopfzeile ein (3).
 4. Tabellenkörper (Aussehen): Lege fest, welche Farbe und Schriftart die Zeilen bzw. die Zelle beinhalten soll und bestimme die Zahl an maximal angezeigten Zeilen (4).
 
+Ist die Tabelle als scrollbar eingestellt, scrollen nur die Zeilen – die Spaltenüberschriften bleiben stehen. So bleibt auch beim Scrollen durch lange Listen erkennbar, welche Spalte man gerade vor sich hat.
+
 ### Logik
 5. In Skripten verwenden (Logik): Gib dem Control einen eindeutigen Namen, um es später im Scripting einfach identifizieren zu können (5).
 6. Bedingte Formatierung (Logik): Erstelle Regeln, um Zellen oder ganze Zeilen basierend auf Werten einzufärben (z. B. Hintergrundfarbe „Rot“, wenn ein Wert einen Schwellenwert unterschreitet) (6).

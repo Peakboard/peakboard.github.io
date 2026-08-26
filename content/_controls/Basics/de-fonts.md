@@ -43,6 +43,8 @@ Unterhalb der Vorschau nimmst du deine Einstellungen vor. Du kannst die Schriftf
 
 ![Schriftarten bearbeiten](/assets/images/Controls/fonts/de_fonts-04.png)
 
+Du kannst eine Schriftart auch nachträglich umbenennen. Fahre in der Liste über die Schriftart, klicke auf das Umbenennen-Symbol und gib den neuen Namen ein. Jedes Control, das die Schriftart verwendet, behält sie – der Verweis wird zusammen mit dem Namen aktualisiert, du musst also nichts neu zuweisen.
+
 ### Eine neue Schriftfamilie hinzufügen
 
 Standardmäßig unterstützt der Peakboard Designer eine ganze Reihe von Schriftfamilien.

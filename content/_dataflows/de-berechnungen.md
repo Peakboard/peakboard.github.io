@@ -35,3 +35,18 @@ Folgende mathematische Funktionen sind möglich:
 Mit diesem Schritt fügst du der Tabelle eine neue Spalte mit den kumulierten (fortlaufend aufsummierten) Werten einer zuvor gewählten Spalte hinzu. Wähle im Feld [Columns] (1) die zu kumulierende Spalte und vergib unter [New column name] (2) einen Namen für die Ergebnisspalte. Voraussetzung für diesen Schritt sind Spalten mit dem Datentyp Number.
 
 ![Akkumulieren](/assets/images/dataflows/calculations/calculations-02-accumulate.png)
+
+Mit der Option [Referenzspalte] wird pro Gruppe von Zeilen mit demselben Wert in dieser Spalte separat aufsummiert – zum Beispiel eine laufende Summe je Maschine. Ohne sie wird eine einzige laufende Summe über die gesamte Tabelle gebildet.
+
+## Dauer
+
+Dieser Schritt berechnet, wie lange jede Zeile gedauert hat – also die Zeit vom eigenen Zeitstempel bis zum Zeitstempel der folgenden Zeile. Das ist der übliche Weg, um aus einem Protokoll von Statuswechseln eine Tabelle mit Dauern zu machen, etwa um herauszufinden, wie lange eine Maschine stillstand.
+
+Wähle unter [Zeitstempelspalte] die Spalte mit den Zeitstempeln und gib unter [Eingabeformat] an, wie die Werte geschrieben sind, falls sie nicht automatisch erkannt werden. Unter [Neuer Spaltenname] benennst du die berechnete Spalte.
+
+Zwei Optionen verfeinern die Berechnung:
+
+* **Referenzspalte:** Die Dauer wird separat je Gruppe von Zeilen mit demselben Wert in dieser Spalte gemessen – zum Beispiel je Maschine. Ohne sie wird die gesamte Tabelle als eine einzige Folge behandelt.
+* **Offene Dauer bis jetzt:** Die letzte Zeile einer Gruppe hat keinen Nachfolger, ihre Dauer bliebe also leer. Aktivierst du diese Option und wählst eine Zeitdatenquelle, wird die Dauer dieser Zeile stattdessen bis zur aktuellen Zeit gemessen. Genau das hält einen noch laufenden Zustand auf einem Dashboard sichtbar.
+
+Die Dauer wird immer von Zeile zu Zeile gemessen, die Zeilen müssen also nach Zeitstempel sortiert sein. Ist das nicht der Fall, warnt der Peakboard Designer und schlägt vor, davor einen Sortierschritt einzufügen.

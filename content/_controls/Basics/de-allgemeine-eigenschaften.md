@@ -48,6 +48,24 @@ Wird die Shift-Taste gehalten, wird automatisch ein Abstand rundherum hinzugefü
 
 [zum Seitenanfang](#anfang)
 
+### Control umwandeln {#umwandeln}
+
+Verwandte Controls lassen sich ineinander umwandeln, ohne sie neu aufzubauen. Klicke das Control mit der rechten Maustaste an und wähle den entsprechenden Eintrag im Kontextmenü. Die Datenbindung und die Eigenschaften, die beide Controls gemeinsam haben, werden übernommen.
+
+{% include styled_table.html %}
+| **Control** | **Umwandelbar in** | **Hinweise** |
+|-----------------|------------------|------------------|
+| Gauge-Diagramm Linear | Gauge-Diagramm Rund | Bedingte Formatierung bleibt erhalten, die Größe nicht |
+| Gauge-Diagramm Rund | Gauge-Diagramm Linear | Bedingte Formatierung bleibt erhalten, die Größe nicht |
+| Styled List | Styled Tile Kollektion | Größe bleibt erhalten, nur auf einem Bildschirm verfügbar |
+| Styled Tile Kollektion | Styled List | Größe bleibt erhalten, nur auf einem Bildschirm verfügbar |
+| Checkbox | Schalter | Größe bleibt erhalten, bedingte Formatierung wird nicht übernommen |
+| Schalter | Checkbox | Größe bleibt erhalten, bedingte Formatierung wird nicht übernommen |
+
+Die Umwandlung zwischen Styled List und Styled Tile Kollektion wird innerhalb eines Styled-List- oder Kachel-Templates nicht angeboten – nur für ein Control, das direkt auf einem Bildschirm liegt.
+
+[zum Seitenanfang](#anfang)
+
 ### Stapelreihenfolge (Z-Index) {#z-index}
 
 Überlappen sich Controls, entscheidet der Z-Index, welches oben gezeichnet wird. Neben den Hotkeys, mit denen sich ein Control schrittweise nach vorn oder hinten schieben lässt, gibt es dafür einen Slider.
@@ -112,6 +130,10 @@ Dieser Bereich ist nicht bei allen Controls verfügbar und unterscheidet sich st
 ### Aussehen {#aussehen}
 
 In diesem Bereich kannst du mit verschiedenen Eigenschaften das Aussehen des Controls beeinflussen. Die zur Verfügung stehenden Eigenschaften unterscheiden sich je nach gewähltem Control. Häufig lassen sich Hintergrundfarben, Konturen, Schatten, Schriftarten und viele weitere Eigenschaften anpassen.
+
+**Farbverläufe:** Überall dort, wo sich eine Hintergrundfarbe einstellen lässt, kannst du statt einer einfarbigen Fläche auch einen Farbverlauf wählen – auch beim Button-Control. Jeder Farbpunkt eines Verlaufs hat eine eigene Deckkraft, sodass ein Control zu einer Kante hin ausblenden kann, statt hart abzubrechen.
+
+Die Zeichenfläche ist die Ausnahme: Ihr Hintergrund ist immer eine einfarbige Fläche.
 
 [zum Seitenanfang](#anfang)
 

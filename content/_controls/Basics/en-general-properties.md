@@ -48,6 +48,24 @@ If the Shift key is held down, a margin is automatically added on all sides.
 
 [back to top](#top)
 
+### Converting a control {#convert}
+
+Related controls can be turned into each other without rebuilding them. Right-click the control and choose the corresponding entry from the context menu. The data binding and the properties that both controls share are carried over.
+
+{% include styled_table.html %}
+| **Control** | **Can be converted into** | **Notes** |
+|-----------------|------------------|------------------|
+| Linear gauge | Circular gauge | Conditional formatting is kept, the size is not |
+| Circular gauge | Linear gauge | Conditional formatting is kept, the size is not |
+| Styled list | Styled tile collection | Size is kept, only available on a screen |
+| Styled tile collection | Styled list | Size is kept, only available on a screen |
+| Checkbox | Toggle switch | Size is kept, conditional formatting is not carried over |
+| Toggle switch | Checkbox | Size is kept, conditional formatting is not carried over |
+
+The conversion between styled list and styled tile collection is not offered inside a styled list or tile template — only for a control placed directly on a screen.
+
+[back to top](#top)
+
 ### Stacking order (Z-index) {#z-index}
 
 When controls overlap, the Z-index decides which one is drawn on top. Besides the hotkeys for moving a control forward or backward one step at a time, there is a slider for it.
@@ -112,6 +130,10 @@ This area is not available for all controls and can vary significantly between t
 ### Appearance {#appearance}
 
 In this area, you can use various properties to influence the appearance of the control. The available properties differ depending on the selected control. Background colors, outlines, shadows, fonts and many other properties can often be adjusted.
+
+**Gradients:** wherever a background color can be set, you can also choose a gradient instead of a solid color — including for the Button control. Each colour stop of a gradient has its own opacity, so you can let a control fade out towards one edge instead of ending abruptly.
+
+The Drawing area is the exception: its background is always a solid color.
 
 [back to top](#top)
 

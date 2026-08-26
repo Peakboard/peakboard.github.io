@@ -48,3 +48,21 @@ Verschiedene Schriftarten oder Farben kannst du im [Font-Manager](/misc/04-de-fo
 
    Klicke im Abschnitt "Aussehen" auf die Ausrichtungs-Icons für die horizontale und vertikale Textausrichtung nach links und Mitte, um den Text entsprechend zu formatieren. Diese Anpassungen optimieren die Lesbarkeit und das Layout.
 
+
+
+### Zeilenumbrüche
+
+Du kannst einen Text über mehrere Zeilen verteilen, ohne das Eingabefeld zu verlassen. Schreibe `\n` an die Stelle, an der umgebrochen werden soll:
+
+```
+Schicht 1\nFrüh
+```
+
+wird angezeigt als
+
+```
+Schicht 1
+Früh
+```
+
+`\r\n` und `\r` funktionieren genauso. Der Umbruch greift sowohl auf der Arbeitsfläche als auch in der laufenden Anwendung und ebenso, wenn der Text aus einer Datenquelle oder einer Variablen stammt.

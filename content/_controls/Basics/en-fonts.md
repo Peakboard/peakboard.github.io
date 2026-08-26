@@ -43,6 +43,8 @@ Make your settings below the preview. You can select the font family (3) and spe
 
 ![Edit fonts](/assets/images/Controls/fonts/en_fonts-04.png)
 
+You can also rename a font afterwards. Hover over the font in the list and click the rename icon, then enter the new name. Every control that uses the font keeps it — the reference is updated along with the name, so you do not have to reassign anything.
+
 ### Add a new font family
 
 By default, the Peakboard Designer supports a whole range of font families.

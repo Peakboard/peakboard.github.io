@@ -29,7 +29,7 @@ With this step you sort the table by one or more columns. In the [Columns] list 
 
 ## Filter by date/time columns
 
-With this step you filter the table by date or time values. Pick the [Date/time column] (1) you want to filter and specify in the [Input format] (2) the format the values are stored in as a string, so they are interpreted correctly. Then set the operator (3) and the comparison value (4) – this can be another column or a fixed value. With the [Ignore time] option (5) only the date part is considered, not the time. A requirement for this step is the column type string.
+With this step you filter the table by date or time values. Pick the [Date/time column] (1) you want to filter and specify in the [Input format] (2) the format the values are stored in as a string, so they are interpreted correctly. Then set the operator (3) and the comparison value (4) – this can be another column or a fixed value. With the [Ignore time] option (5) only the date part is considered, not the time. This option belongs to the individual rule, so in a step with several rules you can ignore the time in one of them and compare to the exact time in the next. A requirement for this step is the column type string.
 
 ![Filter by date/time columns](/assets/images/dataflows/filter-and-sort/filter-and-sort-03-filter-date-time.png)
 

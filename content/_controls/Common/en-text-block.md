@@ -49,3 +49,20 @@ You can use the [Font Manager](/misc/04-en-fonts.html) for fonts and colors.
 7. **Adjusting Text Alignment**
 
    In the "Appearance" section, click on the alignment icons for horizontal and vertical text alignment to the left and center to format the text accordingly. These adjustments optimize readability and layout.
+
+### Line breaks
+
+You can split a text over several lines without leaving the input field. Type `\n` where the break should go:
+
+```
+Shift 1\nMorning
+```
+
+is displayed as
+
+```
+Shift 1
+Morning
+```
+
+`\r\n` and `\r` work the same way. The break is applied both on the workspace and in the running application, and it also works when the text comes from a data source or a variable.

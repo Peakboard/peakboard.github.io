@@ -43,6 +43,8 @@ In the attributes on the right side, you control the visual behavior:
 3. Table Header (Appearance): Specify whether the column headers should be visible and set the background color and font of the header (3).
 4. Table Body (Appearance): Set the color and font for the rows or cells and determine the maximum number of displayed rows (4).
 
+When the table is set to scrollable, only the rows scroll — the column headers stay in place, so you can still tell which column you are looking at while scrolling through long lists.
+
 ### Logic
 5. Use in scripts (Logic): Give the control a unique name so that you can easily identify it later in scripting (5).
 6. Conditional Formatting (Logic): Create rules to color cells or entire rows based on values (e.g., background color "Red" if a value falls below a threshold) (6).

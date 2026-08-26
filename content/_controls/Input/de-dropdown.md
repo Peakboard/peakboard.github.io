@@ -29,6 +29,8 @@ In der gewählten Beispieldatei wird nun die erste Zeile der gewählten Spalte d
 
 ![image4](/assets/images/Controls/Dropdown/dropdown04.png)
 
+Ist der gebundene Wert nicht Teil der gebundenen Liste, zeigt die Dropdown-Liste gar keine Auswahl an. Zuvor wurde in diesem Fall der erste Eintrag ausgewählt, was stillschweigend einen Wert vortäuschen konnte, den die Daten nie enthielten – etwa wenn ein Status ankommt, der in der Optionsliste fehlt.
+
 Die Dropdown-Liste reagiert primär auf eine Änderung der Auswahl. Hast Du dem Control einen eindeutigen Namen zur Verwendung in Skripten gegeben, so kannst Du es im Skript-Editor nutzen. In den Eigenschaften findest du unter Logik das “Selection-Changed” Event.
 
 # Scripting
