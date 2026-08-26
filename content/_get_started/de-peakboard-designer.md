@@ -37,6 +37,7 @@ Um die Anzeigesprache zu wechseln klickst du auf die Landesflagge links unten (5
 Nun bist du richtig im Peakboard Designer angekommen.
 Der Peakboard Designer ist in fünf Hauptbereiche aufgeteilt.
 Ganz oben ist die Menüleiste (1), direkt darunter findest du die verschiedenen Controls (2), links den Explorer (3), der Arbeitsbereich ist in der Mitte (4) und auf der rechten Seite die Attribute (5).
+Oberhalb der Menüleiste liegt die Tab-Leiste, in der alle gerade geöffneten Projekte liegen – siehe [Projekte als Tabs](#projekte-als-tabs).
 
 ![Peakboard Designer Übersicht](/assets/images/get_started/de_designer-02.png)
 
@@ -96,6 +97,19 @@ Klicke nun auf einen der Bildschirme und lege in den Attributen unter [Allgemein
 Diese Anzeigedauer definiert, wie lange der jeweilige Bildschirm sichtbar bleibt, bevor der darauffolgende angezeigt wird.
 
 ![Peakboard Designer – Attribute](/assets/images/get_started/de_designer-06.png)
+
+### 2.5 Projekte als Tabs {#projekte-als-tabs}
+
+Du kannst mehrere Projekte gleichzeitig geöffnet haben. Jedes bekommt einen eigenen Tab in der Tab-Leiste ganz oben im Fenster – ein zweites Peakboard Designer-Fenster brauchst du dafür nicht mehr.
+
+* Klicke auf das Plus-Symbol am rechten Ende der Tab-Leiste, um ein weiteres Projekt zu öffnen. Es erscheint als neuer Tab neben den bestehenden.
+* Klicke auf einen Tab, um zu diesem Projekt zu wechseln. Explorer, Arbeitsbereich und Attribute zeigen immer das Projekt des aktiven Tabs.
+* Ziehe einen Tab innerhalb der Tab-Leiste, um die Reihenfolge deiner geöffneten Projekte zu ändern.
+* Klicke auf das kleine x auf einem Tab, um nur dieses Projekt zu schließen. Gibt es noch ungespeicherte Änderungen, fragt der Peakboard Designer vorher nach, ob du sie speichern möchtest.
+
+Ein Projekt bleibt immer geöffnet: Das x des letzten verbleibenden Tabs schließt ihn nicht. Nutze den Schließen-Button des Fensters, um den Peakboard Designer zu beenden.
+
+![Zwei Projekte als Tabs im Peakboard Designer](/assets/images/get_started/en_designer-tabs.png)
 
 ## 3. Nächste Schritte
 

@@ -37,6 +37,7 @@ To change the display language, click on the country flag at the bottom left (5)
 Now you've really arrived at the Peakboard Designer.
 The Peakboard Designer is divided into five main areas.
 At the top is the menu bar (1), directly below it you will find the various controls (2), on the left you'll find the explorer (3), the workspace is in the middle (4) and on the right you'll find the attributes (5).
+Above the menu bar sits the tab bar, which holds every project you currently have open — see [Projects as tabs](#projects-as-tabs).
 
 ![Peakboard Designer overview](/assets/images/get_started/en_designer-02.png)
 
@@ -95,6 +96,19 @@ Now click on one of the screens and set the [Display duration] in the attributes
 This display duration defines how long the respective screen remains visible before the next one is displayed.
 
 ![Peakboard Designer attributes](/assets/images/get_started/en_designer-06.png)
+
+### 2.5 Projects as tabs {#projects-as-tabs}
+
+You can have several projects open at the same time. Each one gets its own tab in the tab bar at the very top of the window, so you no longer need a second Peakboard Designer window to work with more than one project.
+
+* Click the plus symbol at the right-hand end of the tab bar to open another project. It appears as a new tab next to the existing ones.
+* Click a tab to switch to that project. The explorer, the workspace and the attributes always show the project of the active tab.
+* Drag a tab along the tab bar to change the order of your open projects.
+* Click the small x on a tab to close just that project. If it still has unsaved changes, the Peakboard Designer asks whether you want to save them first.
+
+One project always stays open: the x of the last remaining tab does not close it. Use the window's close button to leave the Peakboard Designer.
+
+![Two projects open as tabs in the Peakboard Designer](/assets/images/get_started/en_designer-tabs.png)
 
 ## 3. Next steps
 
