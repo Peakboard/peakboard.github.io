@@ -92,3 +92,15 @@ Finally confirm your program run with [Save & Close].
 Open the [Preview] to test your program flow. Wait until your visualization has loaded and enter a recipient, the subject and the content of your email. Then click on the [Send email] button. If everything worked, you should now see the notification and the text boxes should contain the specified placeholder text again. The recipient should have received the email as well. If you open the log in the preview by clicking on the triangular exclamation mark icon, you should only see the message [Mail successfully sent].
 
 ![Open preview](/assets/images/scripting/buildingblocks/en_example-09.gif)
+
+### Working with files and lists
+
+A few Building Blocks are worth pointing out because they save a lot of manual work.
+
+**Uploading files to the Peakboard Hub.** The [Upload to Peakboard Hub] Building Block has a folder selection, the same one you know from the OneDrive and SharePoint blocks. You pick the target folder in a dialog instead of typing a path, and you can create a new folder right there.
+
+**Uploading a file from Base64.** Files do not have to exist on disk to be uploaded. Peakboard Hub, SharePoint and OneDrive all accept a Base64 string plus a file name. That is the way to store something your script produced itself — a generated report, a signature captured on a [Drawing area](/controls/Input/en-drawing-area.html), a photo taken at the station — without writing it to the file system first. The same applies to sending mail: [Send email with attachment] takes the attachment as Base64 together with a file name.
+
+**Searching within a list.** The find Building Blocks — [index of], [last index of] and [contains] — accept several search parameters, so you can look for a row that matches more than one column at once instead of chaining conditions by hand. They also check the column type and tell you when it does not fit the value you are searching for.
+
+**Adding one list to another.** The [Add list] Building Block compares the columns of source and target by name. If a column exists in both but with a different data type, that column is skipped — the target keeps its default value — and a warning naming both data types is written to the log. The remaining columns are still transferred, so a single mismatched column no longer costs you the whole import, but it is worth checking the log after the first run.

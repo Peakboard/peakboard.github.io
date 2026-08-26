@@ -271,6 +271,21 @@ Body
 }
 ```
 
+### List all variables
+
+If you do not know the names of the variables on a Peakboard Box, you can have them listed:
+
+```
+HTTP GET (Port 40405)
+https://[Box IP or hostname]:40405/api/variable
+
+With Basic Authorization
+```
+
+With the optional `type` parameter you restrict the result: `type=variable` returns only the scalar variables (string, boolean, number), `type=list` only the lists. Without the parameter you get both.
+
+Besides the name and the current value, each scalar variable carries the flag `SetValueOnUpload`. It tells you whether the variable is set when the application is uploaded rather than being an ordinary variable — useful if you want to write values back and need to know which variables are managed by the upload.
+
 ### Overview of all interfaces
 In addition to the calls described here, many others can be called and tested. 
 For this purpose, Peakboard offers an interface that displays a list of all interfaces. 

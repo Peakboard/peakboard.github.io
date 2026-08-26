@@ -115,3 +115,18 @@ Die X-Achse ist dabei jeweils das Datum. Die restliche Konfiguration ist selbste
 Wenn alles geklappt hat sieht das Ergebnis beispielsweise so aus
 
 ![Ergebnis](/assets/images/data-sources/extension/msgraph/de_chart-03.png)
+
+## Dokumentbibliotheken: die Ordnerstruktur
+
+Eine SharePoint-Dokumentbibliothek kommt als flache Liste von Einträgen an – die Ordner sind darin von sich aus nicht erkennbar. Damit sich die Hierarchie trotzdem nachbilden lässt, werden für Dokumentbibliotheken vier zusätzliche Spalten geliefert:
+
+| Spalte | Inhalt |
+|---|---|
+| `FileRef` | der serverrelative Pfad des Eintrags, z. B. `/sites/Share/TechnicalDrawings/Current/p01.pdf` |
+| `FileDirRef` | der übergeordnete Ordner des Eintrags |
+| `FileLeafRef` | der Blattname, also der Datei- oder Ordnername ohne Pfad |
+| `IsFolder` | ob es sich bei der Zeile um einen Ordner statt um eine Datei handelt |
+
+Damit kannst du eine Bibliothek zum Beispiel per Dataflow auf einen einzelnen Ordner einschränken (`FileDirRef` gleich dem gewünschten Ordner) oder die Ordnerzeilen ausblenden (`IsFolder` ist falsch), sodass nur Dokumente übrig bleiben.
+
+Diese Spalten werden nur für Dokumentbibliotheken ergänzt, nicht für gewöhnliche SharePoint-Listen.

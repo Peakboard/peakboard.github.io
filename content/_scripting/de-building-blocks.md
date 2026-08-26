@@ -92,3 +92,15 @@ Bestätige deinen Programm-Ablauf zuletzt mit [Speichern & Schließen].
 Öffne die [Vorschau], um deinen Programm-Ablauf zu testen. Warte bis deine Visualisierung geladen hat und gib einen Empfänger, den Betreff und den Inhalt deiner E-Mail ein. Klicke dann auf den [E-Mail senden] Button. Wenn alles geklappt hat, sollte dir nun die Benachrichtigung angezeigt werden und die Textfelder sollten wieder den festgelegten Platzhaltertext enthalten. Beim Empfänger sollte die E-Mail ebenfalls angekommen sein. Wenn du in der Vorschau durch einen Klick auf das dreieckige Ausrufezeichen-Symbol das Log öffnest, sollte dort nur die Meldung [Mail successfully sent] erscheinen.
 
 ![Vorschau öffnen](/assets/images/scripting/buildingblocks/de_example-09.gif)
+
+### Mit Dateien und Listen arbeiten
+
+Ein paar Building Blocks lohnen eine gesonderte Erwähnung, weil sie viel Handarbeit ersparen.
+
+**Dateien in den Peakboard Hub hochladen.** Der Building Block [Upload to Peakboard Hub] hat eine Ordnerauswahl – dieselbe, die du von den OneDrive- und SharePoint-Blöcken kennst. Du wählst den Zielordner in einem Dialog aus, statt einen Pfad zu tippen, und kannst dort direkt einen neuen Ordner anlegen.
+
+**Eine Datei aus Base64 hochladen.** Dateien müssen nicht auf der Festplatte liegen, um hochgeladen zu werden. Peakboard Hub, SharePoint und OneDrive nehmen alle einen Base64-String zusammen mit einem Dateinamen entgegen. Das ist der Weg, um etwas abzulegen, das dein Skript selbst erzeugt hat – einen generierten Bericht, eine auf einer [Zeichenfläche](/controls/Input/de-drawing-area.html) erfasste Unterschrift, ein am Arbeitsplatz aufgenommenes Foto – ohne es vorher ins Dateisystem zu schreiben. Dasselbe gilt für den Mailversand: [Send email with attachment] nimmt den Anhang als Base64 samt Dateinamen entgegen.
+
+**In einer Liste suchen.** Die Such-Building-Blocks – [index of], [last index of] und [contains] – akzeptieren mehrere Suchparameter. Du kannst also eine Zeile suchen, die in mehreren Spalten gleichzeitig passt, statt Bedingungen von Hand aneinanderzureihen. Zusätzlich prüfen sie den Spaltentyp und weisen dich darauf hin, wenn er nicht zum gesuchten Wert passt.
+
+**Eine Liste an eine andere anhängen.** Der Building Block [Add list] vergleicht die Spalten von Quelle und Ziel über den Namen. Existiert eine Spalte in beiden, aber mit unterschiedlichem Datentyp, wird genau diese Spalte übersprungen – das Ziel behält seinen Standardwert – und eine Warnung mit beiden Datentypen landet im Log. Die übrigen Spalten werden weiterhin übertragen, eine einzelne unpassende Spalte kostet dich also nicht mehr den gesamten Import. Ein Blick ins Log nach dem ersten Durchlauf lohnt sich trotzdem.

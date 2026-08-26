@@ -114,3 +114,18 @@ The x-axis is always the date. The rest of the configuration is self-explanatory
 If everything worked, the result should look something like this
 
 ![Result](/assets/images/data-sources/extension/msgraph/en_chart-03.png)
+
+## Document libraries: the folder structure
+
+A SharePoint document library arrives as a flat list of items — the folders are not visible in it by themselves. To let you rebuild the hierarchy anyway, four extra columns are supplied for document libraries:
+
+| Column | Content |
+|---|---|
+| `FileRef` | the server-relative path of the item, e.g. `/sites/Share/TechnicalDrawings/Current/p01.pdf` |
+| `FileDirRef` | the parent folder of the item |
+| `FileLeafRef` | the leaf name, i.e. the file or folder name without the path |
+| `IsFolder` | whether the row is a folder rather than a file |
+
+With them you can, for example, filter a library down to a single folder in a dataflow (`FileDirRef` equals the folder you want) or hide the folder rows (`IsFolder` is false) so only documents remain.
+
+These columns are only added for document libraries, not for ordinary SharePoint lists.

@@ -271,6 +271,21 @@ Body
 }
 ```
 
+### Alle Variablen auflisten
+
+Wenn du die Namen der Variablen auf einer Peakboard Box nicht kennst, kannst du sie dir auflisten lassen:
+
+```
+HTTP GET (Port 40405)
+https://[Box IP oder Hostname]:40405/api/variable
+
+Mit Basic Authorization
+```
+
+Mit dem optionalen Parameter `type` schränkst du das Ergebnis ein: `type=variable` liefert nur die skalaren Variablen (String, Boolean, Number), `type=list` nur die Listen. Ohne den Parameter bekommst du beides.
+
+Neben Name und aktuellem Wert trägt jede skalare Variable das Kennzeichen `SetValueOnUpload`. Es sagt dir, ob die Variable beim Hochladen der Anwendung gesetzt wird, statt eine gewöhnliche Variable zu sein – hilfreich, wenn du Werte zurückschreiben willst und wissen musst, welche Variablen vom Upload verwaltet werden.
+
 ### Übersicht über alle Schnittstellen
 Außer den hier beschriebenen Aufrufen können viele weitere aufgerufen und getestet werden. 
 Dazu bietet Peakboard eine Oberfläche, die eine Auflistung aller Schnittstellen darstellt. 

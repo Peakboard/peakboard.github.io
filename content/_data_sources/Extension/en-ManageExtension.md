@@ -34,6 +34,14 @@ It is not necessary to modify the Peakboard Box in any way.
 The extension is automatically loaded onto the Peakboard Box by the deployment process of a dashboard.
 </div>
 
+### Opening a project that needs an extension
+
+A project can only use an extension that is installed. When you open a project whose extensions are missing, the Peakboard Designer no longer just fails — it lists what is missing and offers to install it:
+
+> The following extensions are required by this project but are not installed:
+
+Confirm and the extensions are installed, then the project opens normally. This works in two ways: extensions that are available online are downloaded, and extensions that were packaged into the project file itself are taken straight from it — so a colleague can send you a project including its extensions and you do not have to hunt them down.
+
 ### Write extensions yourself
 
 If you want to adapt the extensions or write your own extension, you can also find the existing extensions in our [GitHub repository](https://github.com/Peakboard/PeakboardExtensions) and helpful articles e.g. [here](https://help.peakboard.com/data_sources/Extension/de-DatasourceNoUI.html) in the Peakboard help.

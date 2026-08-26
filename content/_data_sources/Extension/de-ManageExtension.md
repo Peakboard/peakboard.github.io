@@ -34,6 +34,14 @@ Es ist nicht nötig, die Peakboard Box in irgendeiner Form zu modifizieren.
 Die Extension wird durch den Deployment-Vorgang eines Dashboards automatisch auf die Peakboard Box geladen.
 </div>
 
+### Ein Projekt öffnen, das eine Extension benötigt
+
+Ein Projekt kann eine Extension nur nutzen, wenn sie installiert ist. Öffnest du ein Projekt, dessen Extensions fehlen, scheitert der Peakboard Designer nicht mehr einfach – er listet auf, was fehlt, und bietet die Installation an:
+
+> Die folgenden Extensions werden von diesem Projekt benötigt, sind aber nicht installiert:
+
+Bestätigst du, werden die Extensions installiert und das Projekt öffnet sich anschließend normal. Das funktioniert auf zwei Wegen: Online verfügbare Extensions werden heruntergeladen, und Extensions, die in die Projektdatei selbst gepackt wurden, werden direkt daraus übernommen – ein Kollege kann dir also ein Projekt samt seiner Extensions schicken, ohne dass du sie zusammensuchen musst.
+
 ### Extensions selbst schreiben
 
 Möchtest du die Extensions anpassen oder eine eigene Extension schreiben, dann findest du in unserem [GitHub-Repository](https://github.com/Peakboard/PeakboardExtensions) ebenfalls die bestehenden Extensions und hilfreiche Artikel z.B. [hier](https://help.peakboard.com/data_sources/Extension/de-DatasourceNoUI.html) in der Peakboard help.
