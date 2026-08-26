@@ -23,6 +23,12 @@ Ein Time Picker wird in der Regel mit einer Startzeit initialisiert und kann dyn
 
 ![image_2](/assets/images/Controls/Timepicker/timepicker_02.png)
 
+## 2 Ausgabesprache und Icon-Farbe
+Zwei weitere Eigenschaften sind wichtig zu kennen, denn beide lassen sich auch über die [bedingte Formatierung](/controls/Basics/de-cf.html) steuern und können damit auf deine Daten reagieren:
+
+* **Ausgabesprache** (Bereich Daten): die Sprache, in der die Uhrzeit ausgeschrieben wird. Sichtbar wird das, sobald dein Anzeigeformat einen Textbestandteil enthält – mit dem Format `hh:mm tt` liest sich dieselbe Uhrzeit als *02:30 nachm.* auf Deutsch und *02:30 PM* auf Englisch. Voreingestellt ist Englisch.
+* **Icon color** (Bereich Aussehen): die Farbe des Uhrensymbols im Eingabefeld. Standardmäßig übernimmt es die Hintergrundfarbe des Controls. Über die bedingte Formatierung kannst du das Symbol zum Beispiel rot einfärben, sobald die gewählte Uhrzeit außerhalb der Schicht liegt.
+
 # Scripting
 Das Time Picker-Control bietet Zugriff auf die ausgewählte Zeit, um diese für Logik-Operationen oder Datenaktualisierungen zu nutzen.
 

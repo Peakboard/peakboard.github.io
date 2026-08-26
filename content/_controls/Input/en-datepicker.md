@@ -24,6 +24,12 @@ A Date Picker usually requires a predefined start value and can optionally be re
 
 ![image_2](/assets/images/Controls/Datepicker/datepicker_02.png)
 
+## 2 Output language and icon color
+Two further properties are worth knowing, because both of them can also be driven by [conditional formatting](/controls/Basics/en-cf.html) and can therefore react to your data:
+
+* **Output language** (Data section): the language the date is written out in. This becomes visible as soon as your display format contains month or weekday names — with the format `dd. MMMM yyyy` the same date reads *1. October 2026* in English, *1. Oktober 2026* in German and *1. octobre 2026* in French. The default is English.
+* **Icon color** (Appearance section): the color of the calendar icon inside the input field. By default it takes on the background color of the control. Via conditional formatting you can, for example, color the icon red as soon as the selected date lies in the past.
+
 # Scripting
 The Date Picker control provides access to the selected date for use in calculations or changes.
 

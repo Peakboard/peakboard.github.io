@@ -23,6 +23,12 @@ A Time Picker is usually initialized with a start time and can react dynamically
 
 ![image_2](/assets/images/Controls/Timepicker/timepicker_02.png)
 
+## 2 Output language and icon color
+Two further properties are worth knowing, because both of them can also be driven by [conditional formatting](/controls/Basics/en-cf.html) and can therefore react to your data:
+
+* **Output language** (Data section): the language the time is written out in. This becomes visible as soon as your display format contains a text component — with the format `hh:mm tt` the same time reads *02:30 PM* in English and *02:30 nachm.* in German. The default is English.
+* **Icon color** (Appearance section): the color of the clock icon inside the input field. By default it takes on the background color of the control. Via conditional formatting you can, for example, color the icon red as soon as the selected time lies outside of the shift.
+
 # Scripting
 The Time Picker control provides access to the selected time to use it for logic operations or data updates.
 

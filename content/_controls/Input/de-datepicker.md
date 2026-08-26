@@ -24,6 +24,12 @@ Ein Date Picker benötigt in der Regel einen vordefinierten Startwert und kann o
 
 ![image_2](/assets/images/Controls/Datepicker/datepicker_02.png)
 
+## 2 Ausgabesprache und Icon-Farbe
+Zwei weitere Eigenschaften sind wichtig zu kennen, denn beide lassen sich auch über die [bedingte Formatierung](/controls/Basics/de-cf.html) steuern und können damit auf deine Daten reagieren:
+
+* **Ausgabesprache** (Bereich Daten): die Sprache, in der das Datum ausgeschrieben wird. Sichtbar wird das, sobald dein Anzeigeformat Monats- oder Wochentagsnamen enthält – mit dem Format `dd. MMMM yyyy` liest sich dasselbe Datum als *1. Oktober 2026* auf Deutsch, *1. October 2026* auf Englisch und *1. octobre 2026* auf Französisch. Voreingestellt ist Englisch.
+* **Icon color** (Bereich Aussehen): die Farbe des Kalendersymbols im Eingabefeld. Standardmäßig übernimmt es die Hintergrundfarbe des Controls. Über die bedingte Formatierung kannst du das Symbol zum Beispiel rot einfärben, sobald das gewählte Datum in der Vergangenheit liegt.
+
 # Scripting
 Das Date Picker-Control bietet Zugriff auf das ausgewählte Datum, um dieses für Berechnungen oder Änderungen zu nutzen.
 
