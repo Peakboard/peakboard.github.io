@@ -61,6 +61,12 @@ Die folgenden Berechtigungen stehen zur Auswahl.
 ### Konfigurieren der Benutzer
 
 Hast du die Rollen konfiguriert, kannst du alle benötigten Benutzer anlegen und ihnen jeweils die passende Rolle zuweisen.
+Passwörter müssen einer Richtlinie genügen, die auch im Dialog selbst angezeigt wird:
+
+> Dein Passwort muss mindestens 12 Zeichen lang sein und mindestens einen Kleinbuchstaben, einen Großbuchstaben, eine Zahl sowie ein Sonderzeichen enthalten.
+
+Dieselbe Richtlinie gilt, wenn du das Passwort einer Peakboard Box setzt.
+
 Um einen neuen Benutzer hinzuzufügen, klickst du auf das [+] (1). Für den neuen Benutzer wird automatisch ein sicheres Passwort generiert (2). Mit einem Klick auf das Auge-Symbol (3) kannst du dieses in Klarschrift anzeigen. Du kannst das Passwort bei Bedarf auch manuell anpassen. Gib dem neuen Benutzer in der Spalte [Benutzername] (4) einen Namen. In der Spalte [Rolle] (5) wählst du die gewünschte Rolle für den Benutzer aus dem Drop-down Menü aus.
 
 ![Benutzer hinzufügen und konfigurieren](/assets/images/admin/usermanagement/de_usermanagement-06.png)

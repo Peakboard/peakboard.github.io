@@ -22,7 +22,7 @@ Um die aktuelle Anwendung deiner Peakboard Box zu ändern öffnest du mit einem 
 
 ![Peakboard Box Einstellungen öffnen](/assets/images/admin/management/de_change-application-01.png)
 
-Wähle im linken Bereich die gewünschte Peakboard Box aus (1).
+Wähle im linken Bereich die gewünschte Peakboard Box aus (1). Sind deine Peakboard Boxen im Peakboard Hub in Gruppen organisiert, wird diese Gruppierung auch hier verwendet – ebenso im Upload-Menü der Menüleiste. Du findest eine Peakboard Box also in derselben Struktur, die du aus dem Hub kennst. Gruppen werden alphabetisch sortiert, die Peakboard Boxen innerhalb einer Gruppe nach Namen.
 Im Tab [Allgemeines] kannst du die angezeigte Anwendung ändern.
 Über den Button [Visualisierung hochladen] (2) lädst du die aktuell geöffnete Anwendung auf die ausgewählte Peakboard Box.
 

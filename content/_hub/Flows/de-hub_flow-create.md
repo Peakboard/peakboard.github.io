@@ -64,3 +64,11 @@ Klicke nun auf [Upload] in der oberen Menüleiste. Der Flow wird in den Peakboar
 ![Flow im Peakboard Hub](/assets/images/hub/de_hub_flows-03.png)
 
 Dein Flow ist nun erstellt und läuft im Peakboard Hub. Wie du den laufenden Flow im Hub steuerst, beschreibt [Flows Übersicht](/hub/Flows/de-hub_flows-overview.html). Eine Übersicht typischer Einsatzszenarien findest du unter [Flows – Anwendungsfälle](/hub/Flows/de-hub_flow-use-cases.html).
+
+### Einen Flow als neue Instanz weiterverwenden
+
+Willst du aus einem bestehenden Flow einen zweiten, ähnlichen bauen, kopiere die Datei nicht im Windows Explorer. Ein Flow-Projekt trägt eine ID, und der Peakboard Hub identifiziert einen Flow genau über diese ID – der Upload einer einfachen Kopie würde den ursprünglichen Flow überschreiben, statt einen zweiten anzulegen.
+
+Nutze stattdessen [Als neue Instanz speichern]. Der Peakboard Designer speichert das Projekt unter einem neuen Namen, vergibt eine neue ID und löst die Verknüpfung zum Hub-Speicherort des Originals. Das Ergebnis ist ein eigenständiger Flow, den du neben dem Original hochladen kannst.
+
+Genau so lässt sich dieselbe Logik für mehrere Werke, Maschinen oder Schichten betreiben: einmal bauen, je Fall als neue Instanz speichern und nur die abweichenden Parameter anpassen.

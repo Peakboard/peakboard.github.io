@@ -47,3 +47,14 @@ Hier kannst du neue Templates hinzufügen (2). Diese übernehmen automatisch das
 ![image_7](/assets/images/Controls/Tile/tile_06_2.png)
 
 Sollten die Daten nicht als umbrechende Kacheln, sondern strikt zeilenweise untereinander dargestellt werden, verwende stattdessen das "Styled List" - Control.
+
+
+## Die Ecken jeder Kachel abrunden
+
+Das Template hat einen eigenen Eckenradius, der für jedes Element gilt, das die Kollektion darstellt – du rundest also die Kacheln selbst ab, nicht den Rahmen darum. Eingestellt wird er am Template, wie die übrigen Aussehen-Eigenschaften.
+
+Der Eckenradius lässt sich auch über die [bedingte Formatierung](/controls/Basics/de-cf.html) steuern. Damit kann eine Kachel ihre Form abhängig von ihren Daten ändern – etwa eine eckige Kachel für einen Alarmzustand zwischen abgerundeten.
+
+## Der Template-Editor
+
+Der Editor für das Template wurde überarbeitet. Ebenen lassen sich per Drag-and-drop umsortieren und Elemente gruppieren, was ein Template mit vielen überlappenden Elementen deutlich übersichtlicher hält. Auch ganze Gruppen lassen sich ziehen, inklusive Gruppen innerhalb von Gruppen.

@@ -106,6 +106,8 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 
 #### In the preview or an active visualization on the Peakboard Boxes
 
+The info panel shows the state of the running application: which license type is in use, and, on the debug screen, a dropdown to choose which of the running applications you want to look at.
+
 {% include styled_table.html %}
 | **Hotkeys**                           | **Effect**                                                    |
 |---------------------------------------|---------------------------------------------------------------|

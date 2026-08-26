@@ -49,6 +49,20 @@ Der Fehler deutet darauf hin, dass das Ziel-Laufwerk, zu welchem du eine Verbind
 
 Ein weiterer möglicher Grund für diesen Fehler könnte in den Einstellungen der eingehenden Regeln der Windows Defender Firewall deines Computers oder deiner Domäne liegen. In diesem Fall ist es notwendig, dass du oder ein zuständiger Administrator die erforderlichen Verbindungen für die Peakboard Runtime für alle Profile freigibst.
 
+### Eine Datei in den Netzwerkordner schreiben
+
+Eine Netzwerk-Ressource ist nicht schreibgeschützt. Du kannst per Skript eine Datei in den Ordner schreiben – so kommt zurück auf die Dateifreigabe, was die Anwendung erzeugt hat: eine auf einer [Zeichenfläche](/controls/Input/de-drawing-area.html) erfasste Unterschrift, ein generierter Bericht, ein am Arbeitsplatz aufgenommenes Foto.
+
+Nutze dafür den Building Block [Write Base64 to network share] oder die entsprechende Skriptfunktion:
+
+```lua
+file.writebase64('<Netzwerk-Ressource>', '<Dateiname>', '<Base64-String>')
+```
+
+Der Base64-String wird als Bytes in die angegebene Datei geschrieben. Da der Inhalt als Base64 übergeben wird, muss die Datei nie zuerst lokal existieren – was dein Skript im Speicher hat, geht direkt auf die Freigabe.
+
+Beachte, dass die Peakboard Box Schreibrechte auf der Freigabe braucht, nicht nur Leserechte.
+
 ### Nützliches
 
 Um Datenquellen und Ressourcen dynamisch zum Peakboard Designer hinzuzufügen, empfiehlt sich die [Network Files Extension](https://templates.peakboard.com/extensions/Network-Files/).

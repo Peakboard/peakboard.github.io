@@ -123,6 +123,10 @@ In this section you will find properties that most controls share.
 
 ### Data {#data}
 
+The binding popup has buttons to copy a data binding and paste it onto another property. That saves clicking through the data source, the column and the row again when several properties of a board should read from the same place. Copy is only available once a data source is actually selected.
+
+The font selection is a searchable dropdown: start typing and the list filters down, which is considerably faster than scrolling once a project has a lot of fonts defined.
+
 This area is not available for all controls and can vary significantly between the different controls. In most cases, values can be manually entered here or data sources can be linked to the control.
 
 [back to top](#top)

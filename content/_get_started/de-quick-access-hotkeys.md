@@ -106,6 +106,8 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 
 #### In der Vorschau oder einer aktiven Visualisierung auf der Peakboard Box
 
+Das Info-Panel zeigt den Zustand der laufenden Anwendung: welcher Lizenztyp verwendet wird und – im Debug-Screen – ein Dropdown, über das du auswählst, welche der laufenden Anwendungen du betrachten möchtest.
+
 {% include styled_table.html %}
 | **Hotkeys**                           | **Effekt**                                                    |
 |---------------------------------------|---------------------------------------------------------------|

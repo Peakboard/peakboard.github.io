@@ -11,9 +11,9 @@ redirect_from:
   - /data_sources/PeakboardEdge/en-ManageEdge.html
 ---
 
-To add a new Peakboard Edge or to manage your existing Peakboard Edge click on the Peakboard Edgde icon (1) in the menu bar to open the Peakboard Edge settings.
+To add a new Peakboard Edge or to manage your existing Peakboard Edge, open the home screen with the house icon in the menu bar and click [Peakboard Edge] (1) to open the Peakboard Edge settings.
 
-![Open Peakboard Edge Settings](/assets/images/data-sources/peakboard-edge/en_edge-manage_01.png)
+![Open Peakboard Edge Settings](/assets/images/edge/en_edge-home-entry.png)
 
 The Peakboard Edge settings are very similar to the Peakboard Box settings.
 

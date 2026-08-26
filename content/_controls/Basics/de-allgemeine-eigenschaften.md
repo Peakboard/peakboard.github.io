@@ -125,6 +125,10 @@ In diesem Bereich findest du Eigenschaften, die sich die meisten Controls teilen
 
 Dieser Bereich ist nicht bei allen Controls verfügbar und unterscheidet sich stark zwischen den unterschiedlichen Controls. Meist können hier Werte händisch eingegeben oder Datenquellen mit dem Control verknüpft werden.
 
+Im Bindungs-Popup gibt es Buttons, um eine Datenbindung zu kopieren und auf einer anderen Eigenschaft einzufügen. Das erspart dir, Datenquelle, Spalte und Zeile erneut durchzuklicken, wenn mehrere Eigenschaften eines Boards aus derselben Quelle lesen sollen. Kopieren ist erst verfügbar, sobald tatsächlich eine Datenquelle ausgewählt ist.
+
+Die Schriftauswahl ist ein durchsuchbares Dropdown: Tippe los, und die Liste filtert sich – deutlich schneller als Scrollen, sobald ein Projekt viele Schriftarten definiert hat.
+
 [zum Seitenanfang](#anfang)
 
 ### Aussehen {#aussehen}

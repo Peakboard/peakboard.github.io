@@ -27,6 +27,13 @@ Unlike scalar variables with a single value, lists consist of columns, each with
 
 ![Lists](/assets/images/scripting/variables/en_lists.png)
 
+The table you edit the list in has been reworked. Two things are worth knowing:
+
+* **Reordering rows:** drag a row to move it. The order in the list is the order your controls will show, so this saves retyping values just to get the sequence right.
+* **Keyboard navigation:** you can move through the cells and edit them with the keyboard instead of clicking every field, which makes entering a longer list noticeably quicker.
+
+An empty list now says so instead of showing a bare table, so it is obvious whether a list is genuinely empty or simply has not loaded yet.
+
 ### Export list as CSV
 
 You can export the data collected in a list (1) as a CSV file for archiving purposes, for example.

@@ -49,6 +49,20 @@ The error indicates that the target drive you are trying to connect to is alread
 
 Another possible reason for this error could be the settings of the inbound rules of the Windows Defender Firewall of your computer or domain. In this case, it is necessary for you or a responsible administrator to enable the required connections for the Peakboard Runtime for all profiles.
 
+### Writing a file into the network folder
+
+A network resource is not read-only. You can write a file into the folder from a script, which is the way to get something the application produced back onto a file share — a signature captured on a [Drawing area](/controls/Input/en-drawing-area.html), a generated report, a photo taken at the station.
+
+Use the Building Block [Write Base64 to network share], or the corresponding script function:
+
+```lua
+file.writebase64('<network resource>', '<file name>', '<base64 string>')
+```
+
+The Base64 string is written to the given file name as bytes. Since the content is passed as Base64, the file never has to exist locally first — whatever your script has in memory can go straight to the share.
+
+Keep in mind that the Peakboard Box needs write permission on the share, not just read permission.
+
 ### Useful information
 
 To dynamically add data sources and resources to the Peakboard Designer, the [Network Files Extension](https://templates.peakboard.com/extensions/Network-Files/en) is recommended.

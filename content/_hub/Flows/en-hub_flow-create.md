@@ -64,3 +64,11 @@ Now click [Upload] in the top menu bar. The flow is transferred to Peakboard Hub
 ![Flow in Peakboard Hub](/assets/images/hub/de_hub_flows-03.png)
 
 Your flow is now created and runs in Peakboard Hub. For how to control the running flow in the Hub, see [Flows Overview](/hub/Flows/en-hub_flows-overview.html). For an overview of typical use cases, see [Flows – Use cases](/hub/Flows/en-hub_flow-use-cases.html).
+
+### Reusing a flow as a new instance
+
+If you want to build a second, similar flow from an existing one, do not copy the file in Windows Explorer. A flow project carries an ID, and Peakboard Hub identifies a flow by exactly that ID — uploading a plain copy would overwrite the original flow instead of creating a second one.
+
+Use [Save as new instance] instead. The Peakboard Designer saves the project under a new name, gives it a new ID and releases the link to the Hub location of the original. The result is an independent flow that you can upload alongside the original.
+
+This is the way to run the same logic for several plants, machines or shifts: build it once, save it as a new instance per case and adjust only the parameters that differ.

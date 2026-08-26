@@ -61,6 +61,12 @@ The following permissions are available for selection.
 ### Configure the users
 
 Once you have configured the roles, you can create all the required users and assign them the appropriate role.
+Passwords have to satisfy a policy, which is also shown in the dialog itself:
+
+> Your password must be at least 12 characters long and include at least one lowercase letter, one uppercase letter, one number, and one special character.
+
+The same policy applies when you set the password of a Peakboard Box.
+
 To add a new user, click on the [+] (1). A secure password is automatically generated for the new user (2). Click on the eye symbol (3) to display it in plain text. You can also change the password manually if required. Give the new user a name in the [User name] column (4). In the [Role] column (5), select the desired role for the user from the drop-down menu.
 
 ![Add and configure user](/assets/images/admin/usermanagement/en_usermanagement-06.png)

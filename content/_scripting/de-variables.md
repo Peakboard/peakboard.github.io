@@ -27,6 +27,13 @@ Im Unterschied zu den skalaren Variablen mit einem einzelnen Wert bestehen Liste
 
 ![Listen](/assets/images/scripting/variables/de_lists.png)
 
+Die Tabelle, in der du die Liste bearbeitest, wurde überarbeitet. Zwei Dinge sind dabei wichtig:
+
+* **Zeilen umsortieren:** Ziehe eine Zeile, um sie zu verschieben. Die Reihenfolge in der Liste ist die Reihenfolge, in der deine Controls sie anzeigen – das erspart dir, Werte nur wegen der Sortierung neu einzutippen.
+* **Tastaturnavigation:** Du kannst dich mit der Tastatur durch die Zellen bewegen und sie bearbeiten, statt jedes Feld anzuklicken. Das Erfassen einer längeren Liste geht dadurch spürbar schneller.
+
+Eine leere Liste sagt das jetzt auch, statt nur eine nackte Tabelle zu zeigen. So ist auf einen Blick klar, ob eine Liste wirklich leer ist oder einfach noch nicht geladen hat.
+
 ### Liste als CSV exportieren
 
 Du kannst die in einer Liste (1) erfassten Daten beispielsweise zu Archivierungszwecken als CSV-Datei exportieren.

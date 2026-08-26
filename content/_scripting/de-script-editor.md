@@ -9,37 +9,37 @@ ref: scr-110
 redirect_from:
 ---
 
-Für komplexe Lua-Skripte liefert der Peakboard Designer einen eigenen Skript-Editor.
-In der nachfolgenden Abbildung siehst du am Beispiel eines Timer-Skripts, wie der Skript-Editor aussieht, allerdings ist der Aufbau für alle Peakboard Skript-Typen nahezu identisch.
+Für komplexe Lua-Skripte liefert der Peakboard Designer einen eigenen Skript-Editor. Die folgende Abbildung zeigt ihn am Beispiel eines Timer-Skripts, der Aufbau ist aber bei jedem Peakboard-Skripttyp derselbe.
 
-![Skript-Editor](/assets/images/scripting/editor/de_script-editor-01.png)
+![Skript-Editor](/assets/images/scripting/editor/en_script-editor-2026.png)
 
-Wenn du den Skript-Editor öffnest, kannst du dich entscheiden, ob du im [Building Block Mode](/scripting/de-building-blocks.html) arbeiten willst, oder in den klassischen textbasierten Editor wechseln willst (1).
+**Alle Skripte des Projekts (1).** Die Leiste links listet die Skripttypen des aktuellen Projekts auf – [Timer], [Functions], [Global events], [On screen activation], [After data reload] und [For controls]. Hier wechselst du zwischen deinen Skripten, ohne den Editor zu verlassen. Skripte, die zu Dataflows gehören, sind dort nicht aufgeführt.
 
-Oberhalb der Arbeitsfläche (2) findest du jeweils einen Button zum [auskommentieren] (3) sowie einen zum [entkommentieren] (4).
+**Mehrere Skripte gleichzeitig (2).** Skripte öffnen sich als Tabs, du kannst also mehrere gleichzeitig offen haben und zwischen ihnen springen. Ein Sternchen hinter dem Namen bedeutet, dass es ungespeicherte Änderungen gibt; das x schließt den Tab.
 
-Über den Lupen-Button (5) oder über die Tastenkombination [Strg+F] gelangst du zu [Suchen] und [Ersetzen].
+**Die Einstellungen des Skripts (3).** Über der Arbeitsfläche stehen die Eigenschaften des gerade geöffneten Skripts. Welche das sind, hängt vom Skripttyp ab – ein Timer wie in der Abbildung hat einen Namen, einen Modus, ein Intervall in Millisekunden und eine Checkbox dafür, ob er überhaupt aktiv ist.
+
+**Die Arbeitsfläche (4).** Hier wird das Skript geschrieben. Die Lua-Syntax wird hervorgehoben, und Fehler werden direkt unterhalb der Arbeitsfläche mit Zeilenangabe gemeldet – ein Skript, das sich nicht parsen lässt, sagt dir das also, bevor du es überhaupt ausführst.
+
+**Kommentieren und suchen (5).** [Comment Lines] und [Uncomment Lines] wirken auf die markierten Zeilen. Die Lupe oder [Strg+F] öffnet Suchen und Ersetzen.
+
+**Zwei Arten zu schreiben (6).** Mit dem Umschalter wechselst du zwischen [Script] – dem hier gezeigten textbasierten Editor – und [Blocks], dem visuellen [Building Blocks](/scripting/de-building-blocks.html)-Editor. Dasselbe Skript lässt sich in beiden Ansichten betrachten.
+
+**Alles, was du einfügen kannst (7).** Der Bereich rechts enthält, was dein Skript ansprechen kann: die Datenquellen, Dataflows und Variablen des Projekts unter [DATA], die Controls deiner Bildschirme unter [CONTROLS], fertige Funktionen unter [FUNCTIONS] – darunter alle Verbindungen des Projekts unter [Publish to external system] – und die Sprachgrundlagen unter [BASICS], von [Logic & Loops] über [Math], [Text], [Date] und [JSON] bis [Error handling]. Ein Doppelklick fügt ein Element an der Cursorposition ein. Statt zu scrollen, kannst du den Bereich mit [Strg+B] durchsuchen.
+
+Ist das Skript geschrieben, führt [Test script] es gegen die Vorschaudaten aus. Was du mit `peakboard.log('...')` protokollierst, erscheint dort ebenso wie weitere Rückgabewerte.
 
 <div class="box-tip" markdown="1">
-**Tipp:**
+**Hinweis:**
 
 Weitere hilfreiche Tastenkombinationen findest du am Ende dieses Artikels.
 </div>
-
-![Skript-Editor](/assets/images/scripting/editor/de_script-editor-02.png)
-
-Der Skript-Baum (6) soll das Arbeiten mit Skripten erleichtern. Hierzu findest du dort bereits vordefinierte Funktionen und Beispiele, die du einfach per Doppelklick an der Stelle des Cursors einsetzen kannst. Er enthält neben den zuvor von dir im Peakboard Designer angelegten Elementen des Explorers wie zum Beispiel [Daten], [Dataflows], [Variablen], [Reload Flows], [Ressources] und [Controls]/[Screens] auch [Timer Skripte], [Logik & Schleifen], [Mathematik] und viele weitere Funktionen, sowie unter anderem alle Verbindungen aus deinem aktuellen Projekt unter [In externem System veröffentlichen].
-
-Mithilfe der Ordner auf der linken Seite des Skript-Editors (7) navigierst du durch deine bisher angelegten Skripte im aktuellen Projekt, ohne den Editor dabei verlassen zu müssen. Skripte aus Dataflows sind dort nicht aufgeführt. In der Fehlerliste (8) werden fehlende oder falsche Elemente aufgeführt.
-
-Nachdem du ein Skript in der Arbeitsfläche des Skript-Editors eingegeben hast, kannst du über den Button [Skript testen] mithilfe der Vorschaudaten prüfen, ob es korrekt ist. Verwendest du `peakboard.log('...')`, um Inhalte zu loggen, werden dir diese ebenfalls angezeigt, wie auch weitere Rückgabewerte.
-
-![Skript testen](/assets/images/scripting/editor/de_script-editor-03.gif)
 
 ### Hilfreiche Tastenkombinationen
 
 {% include styled_table.html %}
 {: .w-full }
+| STRG + B						| Durchsucht den Elementbereich				|
 | STRG + F						| Öffnet das Suchdialogfenster				|
 | STRG + Leertaste				| Öffnet die Intellisense					|
 | STRG + Pfeiltasten			| Springt durch den Text					|

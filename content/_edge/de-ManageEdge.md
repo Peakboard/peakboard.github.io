@@ -11,9 +11,9 @@ redirect_from:
   - /data_sources/PeakboardEdge/de-ManageEdge.html
 ---
 
-Um eine neue Peakboard Edge hinzuzufügen oder deine bestehenden Peakboard Edge zu verwalten, klickst du auf das Peakboard Edgde-Symbol (1) in der Menüleiste, um die Peakboard Edge Einstellungen zu öffnen.
+Um eine neue Peakboard Edge hinzuzufügen oder deine bestehenden Peakboard Edge zu verwalten, öffnest du über das Haus-Symbol in der Menüleiste den Home Screen und klickst dort auf [Peakboard Edge] (1), um die Peakboard Edge Einstellungen zu öffnen.
 
-![Peakboard Edge Einstellungen öffnen](/assets/images/data-sources/peakboard-edge/de_edge-manage_01.png)
+![Peakboard Edge Einstellungen öffnen](/assets/images/edge/en_edge-home-entry.png)
 
 Die Peakboard Edge Einstellungen sind sehr ähnlich aufgebaut wie die Peakboard Box Einstellungen.
 

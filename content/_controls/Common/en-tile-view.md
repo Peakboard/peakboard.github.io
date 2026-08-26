@@ -47,3 +47,13 @@ Here you can add new templates (2). These automatically adopt the design of the 
 ![image_7](/assets/images/Controls/Tile/tile_06_2.png)
 
 If the data should not be displayed as wrapping tiles but strictly row by row, use the Styled List control instead.
+
+## Rounding the corners of each tile
+
+The template has its own corner radius, and it applies to every item the collection renders — so you round the tiles themselves, not the frame around them. You set it on the template, like the other appearance properties.
+
+The corner radius can also be driven by [conditional formatting](/controls/Basics/en-cf.html), which lets a tile change its shape based on its data — a sharp-cornered tile for an alarm state among rounded ones, for example.
+
+## The template editor
+
+The editor for the template has been reworked. Layers can be rearranged by drag & drop, and elements can be grouped, which makes a template with many overlapping elements considerably easier to keep in order. Whole groups can be dragged as well, including groups inside groups.

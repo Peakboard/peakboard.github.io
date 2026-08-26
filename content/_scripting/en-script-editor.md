@@ -9,16 +9,25 @@ ref: scr-110
 redirect_from:
 ---
 
-For complex Lua scripts, the Peakboard Designer provides its own script editor.
-In the following figure, you can see how the script editor looks like, using a timer script as an example. However, the structure is almost identical for all Peakboard script types.
+For complex Lua scripts, the Peakboard Designer provides its own script editor. The figure below shows it with a timer script, but the layout is the same for every Peakboard script type.
 
-![Script editor](/assets/images/scripting/editor/en_script-editor-01.png)
+![Script editor](/assets/images/scripting/editor/en_script-editor-2026.png)
 
-When you open the script editor, you can decide whether you want to work in the [building block mode](/scripting/en-building-blocks.html), or switch to the classic text-based editor (1).
+**All scripts of the project (1).** The bar on the left lists the script types of the current project — [Timer], [Functions], [Global events], [On screen activation], [After data reload] and [For controls]. You switch between your scripts here without leaving the editor. Scripts belonging to dataflows are not listed.
 
-Above the workspace (2) you will find a button to [comment out] (3) and a button to [uncomment] (4).
+**Several scripts at once (2).** Scripts open as tabs, so you can have more than one in front of you and jump between them. An asterisk after the name means the script has unsaved changes; the x closes the tab.
 
-The magnifying glass button (5) or the key combination [Ctrl+F] will take you to [Search] and [Replace].
+**The settings of the script (3).** Above the workspace you find the properties of the script currently open. Which ones these are depends on the script type — a timer, as in the figure, has a name, a mode, an interval in milliseconds and a checkbox for whether it is enabled at all.
+
+**The workspace (4).** This is where the script is written. Lua syntax is highlighted, and errors are reported directly underneath the workspace, naming the line — a script that does not parse tells you so before you ever run it.
+
+**Comment and search (5).** [Comment Lines] and [Uncomment Lines] apply to the selected lines. The magnifying glass, or [Ctrl+F], opens search and replace.
+
+**Two ways to write (6).** Use the toggle to switch between [Script] — the text-based editor shown here — and [Blocks], the visual [Building Blocks](/scripting/en-building-blocks.html) editor. The same script can be viewed either way.
+
+**Everything you can insert (7).** The panel on the right holds what your script can address: the data sources, dataflows and variables of the project under [DATA], the controls of your screens under [CONTROLS], ready-made functions under [FUNCTIONS] — including all connections of the project under [Publish to external system] — and the language basics under [BASICS], from [Logic & Loops] through [Math], [Text], [Date] and [JSON] to [Error handling]. A double-click inserts an element at the cursor position. Instead of scrolling, you can search the panel with [Ctrl+B].
+
+Once your script is written, [Test script] runs it against the preview data. Anything you log with `peakboard.log('...')` appears there, along with other return values.
 
 <div class="box-tip" markdown="1">
 **Hint:**
@@ -26,20 +35,11 @@ The magnifying glass button (5) or the key combination [Ctrl+F] will take you to
 For more helpful keyboard shortcuts, see the end of this article.
 </div>
 
-![Skript-Editor](/assets/images/scripting/editor/en_script-editor-02.png)
-
-The script tree (6) is intended to make working with scripts easier. It contains predefined functions and examples, which you can insert at the cursor position by simply double-clicking. In addition to the elements of the explorer you previously created in the Peakboard Designer, such as [Data], [Dataflows], [Variables], [Reload flows], [Resources] and [Controls]/[Screens], it also contains [Timer scripts], [Logic & loops], [Math] and many other functions, as well as, among other things, all connections from your current project under [Publish in external system].
-
-Using the folders on the left side of the script editor (7) you can navigate through your previously created scripts in the current project without having to leave the editor. Scripts from dataflows are not listed there. Missing or wrong elements are listed in the error list (8).
-
-After you have entered a script in the script editor workspace, you can use the [Test script] button to check whether it is correct using the preview data. If you use `peakboard.log('...')` to log content, this will also be displayed, as well as other return values.
-
-![Test script](/assets/images/scripting/editor/en_script-editor-03.gif)
-
 ### Helpful keyboard shortcuts
 
 {% include styled_table.html %}
 {: .w-full }
+| CTRL + B                  | Searches the element panel                |
 | CTRL + F                  | Opens the search dialog window            |
 | CTRL + space              | Opens the Intellisense                    |
 | CTRL + arrow keys         | Jumps through the text                    |
