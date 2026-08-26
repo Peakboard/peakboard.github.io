@@ -84,6 +84,7 @@ Die folgenden Hotkeys findest du derzeit in den verschiedenen Bereichen des Peak
 | Alt + Strg + F                        | Bringt das Control eine Ebene nach vorne                                      |
 | Alt + Strg + B                        | Bringt das Control eine Ebene nach hinten                                     |
 | Alt + Shift + B                       | Bringt das Control in den Hintergrund                                         |
+| Alt gedrückt halten                   | Zeigt einen Slider, um das Control im [Z-Index](/controls/de-allgemeine-eigenschaften.html#z-index) zu verschieben |
 | Strg + F                              | Öffnet den Dialog der bedingten Formatierung                                  |
 | Shift + Pfeiltasten                   | Bewegt das Control um 10 px in die gewählte Richtung                          |
 | Esc                                   | Wählt das aktuell aktive Control ab                                           |

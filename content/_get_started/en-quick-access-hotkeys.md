@@ -84,6 +84,7 @@ You can currently find the following hotkeys in the various areas of the Peakboa
 | Alt + Ctrl + F                        | Moves the control one level forward                                       |
 | Alt + Ctrl + B                        | Moves the control back one level                                          |
 | Alt + Shift + B                       | Moves the control to the back                                             |
+| Hold down Alt                         | Shows a slider to move the control through the [Z-index](/controls/en-general-properties.html#z-index) |
 | Ctrl + F                              | Opens the conditional formatting dialog                                   |
 | Shift + arrow keys                    | Moves the control 10 px in the selected direction                         |
 | Esc                                   | Deselects the currently active control                                    |

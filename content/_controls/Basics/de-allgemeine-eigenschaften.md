@@ -48,6 +48,23 @@ Wird die Shift-Taste gehalten, wird automatisch ein Abstand rundherum hinzugefü
 
 [zum Seitenanfang](#anfang)
 
+### Stapelreihenfolge (Z-Index) {#z-index}
+
+Überlappen sich Controls, entscheidet der Z-Index, welches oben gezeichnet wird. Neben den Hotkeys, mit denen sich ein Control schrittweise nach vorn oder hinten schieben lässt, gibt es dafür einen Slider.
+
+Wähle ein einzelnes Control oder eine einzelne Gruppe aus und **halte die Alt-Taste gedrückt**. Über dem ausgewählten Element erscheint mittig ein senkrechter Slider. Ziehe den Griff, um das Element durch die Stapelreihenfolge zu bewegen, und lass die Maustaste los, um die neue Position zu übernehmen. Lässt du die Alt-Taste los, verschwindet der Slider wieder.
+
+![Z-Index-Slider auf der Arbeitsfläche](/assets/images/Controls/Basics/zorder-slider.png)
+
+Zwei Dinge sind dabei wichtig:
+
+* Der Slider sortiert ausschließlich innerhalb der **übergeordneten Gruppe** um. Ein Control innerhalb einer Gruppe kann also nie vor oder hinter ein Element außerhalb dieser Gruppe geschoben werden.
+* Der gesamte Ziehvorgang zählt als **ein einziger Schritt** für die Rückgängig-Funktion – unabhängig davon, über wie viele Positionen du das Element bewegst.
+
+Der Slider erscheint nur, wenn es überhaupt etwas umzusortieren gibt, die übergeordnete Gruppe also mehr als ein Element enthält.
+
+[zum Seitenanfang](#anfang)
+
 ### Control-Ausrichtung {#ausrichtung}
 
 Werden mehrere Controls gleichzeitig markiert, erscheinen die Ausrichtungsoptionen für die gewählten Controls. Die anderen Eigenschaften können nicht Control-übergreifend festgelegt werden und sind daher ausgeblendet.

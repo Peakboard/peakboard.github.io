@@ -48,6 +48,23 @@ If the Shift key is held down, a margin is automatically added on all sides.
 
 [back to top](#top)
 
+### Stacking order (Z-index) {#z-index}
+
+When controls overlap, the Z-index decides which one is drawn on top. Besides the hotkeys for moving a control forward or backward one step at a time, there is a slider for it.
+
+Select a single control or a single group and **hold down the Alt key**. A vertical slider appears centered over the selected element. Drag the handle to move the element through the stacking order and release the mouse button to apply the new position. Releasing the Alt key hides the slider again.
+
+![Z-index slider on the workspace](/assets/images/Controls/Basics/zorder-slider.png)
+
+Two things are worth knowing:
+
+* The slider only reorders within the **parent group**. A control inside a group can therefore never be pushed in front of or behind an element outside of that group.
+* The whole drag counts as a **single step** for the undo function, no matter how many positions you move the element.
+
+The slider only appears when there is actually something to reorder — that is, when the parent group contains more than one element.
+
+[back to top](#top)
+
 ### Control layout {#layout}
 
 If several controls are selected at the same time, the alignment options for the selected controls appear. The other properties cannot be defined across all controls and are therefore hidden.
