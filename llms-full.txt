@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-08-24)
+## Complete URL inventory (as of 2026-08-27)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
@@ -54,10 +54,11 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (247)
+### German documentation pages (250)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
+- /administration/de-data-debugger.html: https://help.peakboard.com/administration/de-data-debugger.html
 - /administration/de-faqsecurity.html: https://help.peakboard.com/administration/de-faqsecurity.html
 - /administration/de-hinzufuegen.html: https://help.peakboard.com/administration/de-hinzufuegen.html
 - /administration/de-install-runtime.html: https://help.peakboard.com/administration/de-install-runtime.html
@@ -111,6 +112,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /controls/Extended/de-html-code.html: https://help.peakboard.com/controls/Extended/de-html-code.html
 - /controls/Extended/de-power-bi.html: https://help.peakboard.com/controls/Extended/de-power-bi.html
 - /controls/Extended/de-qr.html: https://help.peakboard.com/controls/Extended/de-qr.html
+- /controls/Extended/de-step-viewer.html: https://help.peakboard.com/controls/Extended/de-step-viewer.html
 - /controls/Extended/de-text-ticker.html: https://help.peakboard.com/controls/Extended/de-text-ticker.html
 - /controls/Extended/de-webpage.html: https://help.peakboard.com/controls/Extended/de-webpage.html
 - /controls/Input/de-button.html: https://help.peakboard.com/controls/Input/de-button.html
@@ -172,6 +174,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/de-modbus.html: https://help.peakboard.com/data_sources/de-modbus.html
 - /data_sources/de-mqtt.html: https://help.peakboard.com/data_sources/de-mqtt.html
 - /data_sources/de-ms-sql-server.html: https://help.peakboard.com/data_sources/de-ms-sql-server.html
+- /data_sources/de-network-share-files.html: https://help.peakboard.com/data_sources/de-network-share-files.html
 - /data_sources/de-odata.html: https://help.peakboard.com/data_sources/de-odata.html
 - /data_sources/de-odbc.html: https://help.peakboard.com/data_sources/de-odbc.html
 - /data_sources/de-office365-connection.html: https://help.peakboard.com/data_sources/de-office365-connection.html
@@ -304,12 +307,13 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (246)
+### English documentation pages (249)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
 - /administration/en-change-application.html: https://help.peakboard.com/administration/en-change-application.html
 - /administration/en-change-license.html: https://help.peakboard.com/administration/en-change-license.html
+- /administration/en-data-debugger.html: https://help.peakboard.com/administration/en-data-debugger.html
 - /administration/en-faqsecurity.html: https://help.peakboard.com/administration/en-faqsecurity.html
 - /administration/en-install-runtime.html: https://help.peakboard.com/administration/en-install-runtime.html
 - /administration/en-install-silent.html: https://help.peakboard.com/administration/en-install-silent.html
@@ -360,6 +364,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /controls/Extended/en-html-code.html: https://help.peakboard.com/controls/Extended/en-html-code.html
 - /controls/Extended/en-power-bi.html: https://help.peakboard.com/controls/Extended/en-power-bi.html
 - /controls/Extended/en-qr.html: https://help.peakboard.com/controls/Extended/en-qr.html
+- /controls/Extended/en-step-viewer.html: https://help.peakboard.com/controls/Extended/en-step-viewer.html
 - /controls/Extended/en-text-ticker.html: https://help.peakboard.com/controls/Extended/en-text-ticker.html
 - /controls/Extended/en-webpage.html: https://help.peakboard.com/controls/Extended/en-webpage.html
 - /controls/Input/en-button.html: https://help.peakboard.com/controls/Input/en-button.html
@@ -421,6 +426,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /data_sources/en-modbus.html: https://help.peakboard.com/data_sources/en-modbus.html
 - /data_sources/en-mqtt.html: https://help.peakboard.com/data_sources/en-mqtt.html
 - /data_sources/en-ms-sql-server.html: https://help.peakboard.com/data_sources/en-ms-sql-server.html
+- /data_sources/en-network-share-files.html: https://help.peakboard.com/data_sources/en-network-share-files.html
 - /data_sources/en-odata.html: https://help.peakboard.com/data_sources/en-odata.html
 - /data_sources/en-odbc.html: https://help.peakboard.com/data_sources/en-odbc.html
 - /data_sources/en-office365-connection.html: https://help.peakboard.com/data_sources/en-office365-connection.html
