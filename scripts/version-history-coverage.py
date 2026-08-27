@@ -37,6 +37,7 @@ FIX_PATTERNS = [
     r'^fix(ed|es)?\b', r'^fix for\b', r'^hotfix\b', r'^bugfix\b', r'^corrected\b',
     r'^resolved\b', r'\bhas been (fixed|resolved)\b', r'\bis (fixed|resolved)\b',
     r'\bbug (was|has been) (fixed|resolved)\b', r'^solved\b',
+    r'^bugs?\s+(fixed|resolved|corrected)\b',
 ]
 
 # words that carry no discriminating meaning inside a changelog line
