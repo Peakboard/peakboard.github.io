@@ -47,3 +47,37 @@ Schritte im Script-Editor:
 In diesem Video wird nochmal verdeutlicht, wie das Skript für dieses Beispiel aufgebaut und auf erfolgreiche Funktion geprüft wird:
 
 ![image_4](/assets/images/Controls/Video/video_04_gif.gif)
+
+# Kamera
+
+Das Video-Control spielt nicht nur Dateien und Streams ab - mit dem Quellentyp **[Aufnahmegerät]** zeigt es das Live-Bild einer am Gerät angeschlossenen Kamera. Damit wird eine Peakboard-Anwendung zur Arbeitsplatzkamera: Der Bediener sieht, was die Kamera sieht, kann ein Standbild daraus aufnehmen und weiterschicken.
+
+## Kamera konfigurieren
+
+Klicke das Control doppelt an und setze **[Typ]** auf **[Aufnahmegerät]**. Danach greifen die kameraspezifischen Eigenschaften:
+
+1. **[Standard-Kamera-Index]** - welche Kamera gezeigt wird, wenn mehrere angeschlossen sind. `0` ist die erste Kamera. Der Index lässt sich auch an Daten binden, sodass ein Screen entscheiden kann, welche Kamera er zeigt.
+2. **[Kameraauflösung]** - die Auflösung, in der die Kamera streamen soll, von `160 x 120 (QQVGA)` bis `3840 x 2160 (4K)`. Eine kleinere Auflösung kostet weniger Bandbreite und weniger CPU; bietet die Kamera die gewünschte Auflösung nicht an, wird die nächstgelegene verfügbare verwendet.
+3. **[Kameraeinstellungen anzeigen]** - blendet zur Laufzeit eine kleine Leiste über dem Live-Bild ein. Dort wählt der Bediener die Kamera aus; bei genau zwei angeschlossenen Kameras gibt es zusätzlich eine Schaltfläche zum Umschalten zwischen Front- und Rückkamera.
+
+## Ein Bild aus der Kamera aufnehmen
+
+Das aktuelle Kamerabild lässt sich per Skript aufnehmen und direkt weitergeben - typischerweise aus dem Ereignis [Tapped] eines Buttons neben dem Live-Bild. Das aufgenommene Standbild wird als JPG abgelegt.
+
+Vergib dem Video-Control unter [In Skripten verwenden] einen Namen und nutze eine dieser Funktionen, zum Beispiel im Skript eines Buttons:
+
+```lua
+-- das aktuelle Kamerabild per Mail verschicken
+screens['Screen1'].Camera1.sendasmail('john@doe.com', 'Schadensmeldung', 'siehe Anhang', 0, 0)
+
+-- es in den Dateimanager des Peakboard Hub legen
+screens['Screen1'].Camera1.storeinhub('/schaeden', 'station-4.jpg', 0, 0)
+```
+
+`sendasmailinbody` verschickt das Bild im Mailtext statt als Anhang. Die beiden letzten Argumente sind Breite und Höhe des aufgenommenen Bildes; `0, 0` behält die Größe des Live-Bildes bei.
+
+<div class="box-tip" markdown="1">
+**Tipp:**
+
+Ein Kamerabild dokumentiert einen Zustand zu einem Zeitpunkt - eine beschädigte Palette, einen vollen Behälter, ein falsches Etikett. Kombiniere die Aufnahme mit einer Variablen, die die Auftrags- oder Stationsnummer trägt, und benenne die Datei danach. So lässt sich das Bild auch später noch zuordnen.
+</div>
