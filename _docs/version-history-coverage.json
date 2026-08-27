@@ -1,5 +1,5 @@
 {
- "articles_scanned": 255,
+ "articles_scanned": 257,
  "entries": [
   {
    "version": "2.10.0.0",
@@ -110,7 +110,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-forcam.md",
-   "score": 0.51,
+   "score": 0.54,
    "matched": [
     "swagger"
    ]
@@ -135,10 +135,14 @@
    "section": "General overview",
    "entry": "Implemented alphabetical sorting in Peakboard Designer explorer",
    "source": "json",
-   "verdict": "undocumented",
-   "article": null,
-   "score": 0.4,
-   "matched": []
+   "verdict": "review",
+   "article": "content/_data_sources/en-peakboard-hub-list.md",
+   "score": 0.41,
+   "matched": [
+    "peakboard designer",
+    "sorting",
+    "explorer"
+   ]
   },
   {
    "version": "2.10.0.0",
@@ -394,7 +398,7 @@
    "entry": "[Extension](/data_sources/Extension/en-Extension.html) - Data type handling adjusted",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/Basics/en-OAuth.md",
+   "article": "content/_controls/Basics/en-general-properties.md",
    "score": 0.47,
    "matched": [
     "data sources",
@@ -459,7 +463,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Extended/en-webpage.md",
-   "score": 0.72,
+   "score": 0.71,
    "matched": [
     "control",
     "controls",
@@ -532,7 +536,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Common/en-list-view.md",
-   "score": 0.68,
+   "score": 0.69,
    "matched": [
     "listview",
     "controls",
@@ -569,7 +573,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Common/en-list-view.md",
-   "score": 0.7,
+   "score": 0.72,
    "matched": [
     "tileview",
     "controls",
@@ -820,7 +824,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.69,
+   "score": 0.67,
    "matched": [
     "connection",
     "implemented"
@@ -927,7 +931,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.74,
+   "score": 0.73,
    "matched": [
     "manual",
     "implemented"
@@ -996,7 +1000,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.2,
+   "score": 0.21,
    "matched": []
   },
   {
@@ -1018,7 +1022,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_administration/en-certificates.md",
-   "score": 0.77,
+   "score": 0.79,
    "matched": [
     "peakboard designer",
     "certificate",
@@ -1158,12 +1162,13 @@
    "entry": "[Web Access] - Access to created global script functions implemented",
    "source": "json",
    "verdict": "review",
-   "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.61,
+   "article": "content/_data_sources/Extension/en-Tableau.md",
+   "score": 0.62,
    "matched": [
+    "access",
     "created",
-    "script",
-    "implemented"
+    "global",
+    "script"
    ]
   },
   {
@@ -1318,17 +1323,10 @@
    "section": "Controls",
    "entry": "[Table Grid](/controls/Common/en-table-grid.html) - Fix for a bug where the reordering of columns was not saved with [OK].",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_scripting/en-variables.md",
-   "score": 0.68,
-   "matched": [
-    "table",
-    "controls",
-    "html",
-    "reordering",
-    "columns",
-    "saved"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.12.2.0",
@@ -1336,17 +1334,10 @@
    "section": "Controls",
    "entry": "[Drop Down](/controls/Input/en-dropdown.html) - fix for a bug where the Visible/Invisible property led to a critical error",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Input/en-button.md",
-   "score": 0.45,
-   "matched": [
-    "drop",
-    "controls",
-    "input",
-    "dropdown",
-    "html",
-    "property"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.12.2.0",
@@ -1354,17 +1345,10 @@
    "section": "Controls",
    "entry": "[Text](/controls/Common/en-text-block.html) - fix for a bug where formatting for background was lost",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/SAP/en-xql.md",
-   "score": 0.78,
-   "matched": [
-    "text",
-    "common",
-    "block",
-    "html",
-    "background",
-    "lost"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.12.2.0",
@@ -1372,16 +1356,10 @@
    "section": "Data sources",
    "entry": "[Extension](/data_sources/Extension/en-Extension.html) - Fix for a bug where a created extension connection could no longer be edited or copied",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Basics/en-fonts.md",
-   "score": 0.88,
-   "matched": [
-    "extension",
-    "html",
-    "created",
-    "edited",
-    "copied"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.12.2.0",
@@ -1389,16 +1367,10 @@
    "section": "Data sources",
    "entry": "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a problem where only correct URIs could be used for the namespace",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/OPC_UA/en-opc-ua.md",
-   "score": 0.62,
-   "matched": [
-    "data sources",
-    "opc ua",
-    "opcua",
-    "html",
-    "namespace"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.12.2.0",
@@ -1406,15 +1378,10 @@
    "section": "Data sources",
    "entry": "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for several errors",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_administration/en-certificates.md",
-   "score": 1.0,
-   "matched": [
-    "data sources",
-    "opc ua",
-    "opcua",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.12.2.0",
@@ -1471,16 +1438,10 @@
    "section": "Data sources",
    "entry": "[CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Extended/en-step-viewer.md",
-   "score": 0.95,
-   "matched": [
-    "data source",
-    "data sources",
-    "created",
-    "loading",
-    "data"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.12.2.0",
@@ -1757,7 +1718,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.36,
+   "score": 0.35,
    "matched": []
   },
   {
@@ -1768,7 +1729,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_administration/en-user-administration.md",
-   "score": 0.5,
+   "score": 0.51,
    "matched": [
     "manage",
     "upload",
@@ -2047,7 +2008,7 @@
    "entry": "[ODBC](/data_sources/en-odbc.html) - data structure reworked",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_data_sources/en-odbc.md",
+   "article": "content/_data_sources/Excel/en-ODBC-Excel.md",
    "score": 0.72,
    "matched": [
     "data sources",
@@ -2207,18 +2168,10 @@
    "section": "Data sources",
    "entry": "[Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive ",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Excel/en-excel.md",
-   "score": 0.47,
-   "matched": [
-    "data sources",
-    "excel",
-    "html",
-    "dialog",
-    "file",
-    "network",
-    "drive"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.14.1.0",
@@ -2320,7 +2273,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-peakboard-data-source.md",
-   "score": 0.47,
+   "score": 0.49,
    "matched": [
     "peakboard box",
     "direct",
@@ -2368,7 +2321,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Basics/en-OAuth.md",
-   "score": 0.51,
+   "score": 0.52,
    "matched": [
     "misc",
     "html",
@@ -2479,7 +2432,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-building-blocks.md",
-   "score": 0.68,
+   "score": 0.7,
    "matched": [
     "conditional formatting",
     "controls",
@@ -2496,7 +2449,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-azure-iot-hub.md",
-   "score": 0.58,
+   "score": 0.59,
    "matched": [
     "html",
     "right",
@@ -2560,15 +2513,15 @@
    "entry": "[Icon](/controls/Common/en-icon.html) - option for a dark background implemented",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.73,
+   "article": "content/_controls/Input/en-button.md",
+   "score": 0.84,
    "matched": [
     "icon",
     "controls",
-    "common",
     "html",
     "dark",
-    "background"
+    "background",
+    "implemented"
    ]
   },
   {
@@ -2711,7 +2664,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_data_sources/Basics/en-reloadflows.md",
-   "score": 0.74,
+   "score": 0.76,
    "matched": [
     "reload",
     "flows",
@@ -2759,7 +2712,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.68,
+   "score": 0.67,
    "matched": [
     "data sources",
     "html",
@@ -2882,7 +2835,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_get_started/en-quick-access-hotkeys.md",
-   "score": 0.46,
+   "score": 0.47,
    "matched": [
     "peakboard box",
     "hotkey",
@@ -2907,11 +2860,11 @@
    "entry": "Check for unused certificates implemented",
    "source": "json",
    "verdict": "review",
-   "article": "content/_controls/Input/en-button.md",
-   "score": 0.44,
+   "article": "content/_data_sources/Basics/en-xml-data.md",
+   "score": 0.45,
    "matched": [
     "check",
-    "implemented"
+    "unused"
    ]
   },
   {
@@ -3008,7 +2961,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.38,
+   "score": 0.4,
    "matched": []
   },
   {
@@ -3150,7 +3103,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-debug-panel.md",
-   "score": 0.67,
+   "score": 0.69,
    "matched": [
     "peakboard designer",
     "peakboard runtime",
@@ -3256,7 +3209,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_data_sources/en-mqtt.md",
-   "score": 0.87,
+   "score": 0.88,
    "matched": [
     "data sources",
     "mqtt",
@@ -3471,15 +3424,15 @@
    "entry": "[Drop down](/controls/Input/en-dropdown.html) - naming of properties window adjusted",
    "source": "json",
    "verdict": "review",
-   "article": "content/_scripting/en-building-blocks.md",
-   "score": 0.57,
+   "article": "content/_controls/Basics/en-general-properties.md",
+   "score": 0.6,
    "matched": [
-    "drop",
     "controls",
     "input",
+    "dropdown",
     "html",
-    "naming",
-    "properties"
+    "properties",
+    "adjusted"
    ]
   },
   {
@@ -3533,16 +3486,15 @@
    "entry": "[Building Blocks](/scripting/en-building-blocks.html) - [Get row number] block added to list/tile view templates",
    "source": "json",
    "verdict": "review",
-   "article": "content/_controls/Common/en-table-grid.md",
+   "article": "content/_controls/Common/en-tilecontrol.md",
    "score": 0.68,
    "matched": [
-    "scripting",
     "html",
     "number",
-    "block",
     "list",
     "tile",
-    "view"
+    "view",
+    "templates"
    ]
   },
   {
@@ -3797,8 +3749,8 @@
    "entry": "New data source [Modbus](/data_sources/en-modbus.html) is now available.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_scripting/en-publish-external.md",
-   "score": 0.85,
+   "article": "content/_scripting/Script Templates/en_modbus.md",
+   "score": 0.84,
    "matched": [
     "data source",
     "data sources",
@@ -3869,9 +3821,9 @@
    "section": "General",
    "entry": "[Peakboard Designer] - New feature implemented: When a screen is dragged and dropped onto the workspace, a button is automatically created with which the screen can be displayed.",
    "source": "json",
-   "verdict": "review",
+   "verdict": "documented",
    "article": "content/_controls/Basics/en-components.md",
-   "score": 0.73,
+   "score": 0.74,
    "matched": [
     "peakboard designer",
     "screen",
@@ -3902,7 +3854,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.85,
+   "score": 0.84,
    "matched": [
     "peakboard designer",
     "data sources",
@@ -4046,7 +3998,7 @@
    "entry": "New data source [Rockwell](/data_sources/en-rockwell.html)",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_scripting/en-publish-external.md",
+   "article": "content/_scripting/Script Templates/en_rockwell.md",
    "score": 1.0,
    "matched": [
     "data source",
@@ -4062,7 +4014,7 @@
    "entry": "New data source [Modbus](/data_sources/en-modbus.html)",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_scripting/en-publish-external.md",
+   "article": "content/_scripting/Script Templates/en_modbus.md",
    "score": 1.0,
    "matched": [
     "data source",
@@ -4096,7 +4048,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Excel/en-excel.md",
-   "score": 0.65,
+   "score": 0.67,
    "matched": [
     "data sources",
     "excel",
@@ -4110,15 +4062,10 @@
    "section": "Data sources",
    "entry": "[Excel](/data_sources/Excel/en-excel.html) - Fix for a bug with existing Excel data sources",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Chart/en-chart.md",
-   "score": 1.0,
-   "matched": [
-    "data sources",
-    "excel",
-    "html",
-    "existing"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4126,16 +4073,10 @@
    "section": "Data sources",
    "entry": "[JSON](/data_sources/en-json.html) - fix for a bug where JSon nodes containing a dot do not show their value in the editor",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-mqtt.md",
-   "score": 0.61,
-   "matched": [
-    "data sources",
-    "json",
-    "html",
-    "nodes",
-    "value"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4143,16 +4084,10 @@
    "section": "Data sources",
    "entry": "[MQTT](/data_sources/en-mqtt-broker.html) - fix for a bug where adding a new MQTT subscription caused a crash",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-mqtt.md",
-   "score": 0.49,
-   "matched": [
-    "data sources",
-    "mqtt",
-    "broker",
-    "html",
-    "subscription"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4171,18 +4106,10 @@
    "section": "Data sources",
    "entry": "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for an error where all columns were always loaded as [ number ] type",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_administration/en-certificates.md",
-   "score": 0.8,
-   "matched": [
-    "data sources",
-    "opc ua",
-    "opcua",
-    "html",
-    "columns",
-    "loaded",
-    "type"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4190,16 +4117,10 @@
    "section": "Data sources",
    "entry": "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for a bug where script validation did not work properly",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md",
-   "score": 0.51,
-   "matched": [
-    "data sources",
-    "opc ua",
-    "opcua",
-    "html",
-    "script"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4209,7 +4130,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Common/en-tile-view.md",
-   "score": 0.46,
+   "score": 0.45,
    "matched": [
     "data sources",
     "html",
@@ -4222,18 +4143,10 @@
    "section": "Data sources",
    "entry": "[Reload Flows](/misc/en-reloadflows.html) - Fix for several errors that occurred when making changes to a data source contained in a reload flow",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Basics/en-reloadflows.md",
-   "score": 0.52,
-   "matched": [
-    "data source",
-    "reload",
-    "flows",
-    "misc",
-    "reloadflows",
-    "html",
-    "flow"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4243,7 +4156,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_hub/Flows/en-hub_flow-use-cases.md",
-   "score": 0.52,
+   "score": 0.53,
    "matched": [
     "data sources",
     "siemens",
@@ -4259,18 +4172,10 @@
    "section": "Data sources",
    "entry": "[Siemens S7](/data_sources/en-siemens-s7.html) - Fix for an error that occurred when reading certain string data types",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-peakboard-data-source.md",
-   "score": 0.52,
-   "matched": [
-    "data sources",
-    "html",
-    "reading",
-    "certain",
-    "string",
-    "data",
-    "types"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4278,9 +4183,9 @@
    "section": "Data sources",
    "entry": "[Siemens S7](/data_sources/de-siemens-s7.html) - Fix for an error that occurred when reading negative values",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.36,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -4408,16 +4313,10 @@
    "section": "Controls",
    "entry": "[Conditional Formatting](/controls/en-cf.html) - fix for a bug where conditional formatting did not work if the column name contained a [:] or [-]",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Input/en-dropdown.md",
-   "score": 0.73,
-   "matched": [
-    "controls",
-    "html",
-    "column",
-    "name",
-    "contained"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4461,17 +4360,10 @@
    "section": "Controls",
    "entry": "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - fix for a bug where the wrong bar height was displayed if you changed the alignment",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.69,
-   "matched": [
-    "linear",
-    "gauge",
-    "controls",
-    "html",
-    "height",
-    "alignment"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4479,18 +4371,10 @@
    "section": "Controls",
    "entry": "[PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where PDFs used in multiple PDF viewers and added via script were not displayed",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Document/en-pdf.md",
-   "score": 0.87,
-   "matched": [
-    "viewer",
-    "controls",
-    "document",
-    "html",
-    "pdfs",
-    "viewers",
-    "script"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4498,15 +4382,10 @@
    "section": "Controls",
    "entry": "[PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where a background change had no effect",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Document/en-pdf.md",
-   "score": 0.57,
-   "matched": [
-    "viewer",
-    "controls",
-    "document",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4534,7 +4413,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.81,
+   "score": 0.8,
    "matched": [
     "building blocks",
     "viewer",
@@ -4552,7 +4431,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Document/en-pdf.md",
-   "score": 0.47,
+   "score": 0.48,
    "matched": [
     "controls",
     "html",
@@ -4568,17 +4447,10 @@
    "section": "Controls",
    "entry": "[Table Grid](/controls/Common/en-table-grid.html) - fix for a bug in the column dialog",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-formating-table-grid.md",
-   "score": 0.91,
-   "matched": [
-    "table",
-    "grid",
-    "controls",
-    "common",
-    "html",
-    "column"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4607,7 +4479,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Common/en-tilecontrol.md",
-   "score": 0.54,
+   "score": 0.55,
    "matched": [
     "tile",
     "control",
@@ -4645,7 +4517,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Common/en-list-view.md",
-   "score": 0.72,
+   "score": 0.73,
    "matched": [
     "tileview",
     "controls",
@@ -4685,7 +4557,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Basics/en-groups.md",
-   "score": 0.62,
+   "score": 0.63,
    "matched": [
     "controls",
     "common",
@@ -4702,19 +4574,10 @@
    "section": "Controls",
    "entry": "[TileView](/controls/Common/de-tile-view.html) - fix for a bug where it was not possible to copy and paste an icon control inside a tile control",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.66,
-   "matched": [
-    "controls",
-    "common",
-    "tile",
-    "html",
-    "copy",
-    "paste",
-    "control",
-    "inside"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4863,15 +4726,10 @@
    "section": "Scripting",
    "entry": "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where [Set variable] stopped working",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_administration/en-faqsecurity.md",
-   "score": 0.87,
-   "matched": [
-    "building blocks",
-    "html",
-    "variable",
-    "stopped"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4879,18 +4737,10 @@
    "section": "Scripting",
    "entry": "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where the preview for a block continued to be displayed even when the cursor was released outside the workspace",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_scripting/en-script-editor.md",
-   "score": 0.45,
-   "matched": [
-    "building blocks",
-    "scripting",
-    "html",
-    "preview",
-    "block",
-    "cursor",
-    "workspace"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4898,17 +4748,10 @@
    "section": "Scripting",
    "entry": "[Building Blocks](/scripting/en-building-blocks.html) - fix for an error that occurred with special characters in column names",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.58,
-   "matched": [
-    "scripting",
-    "html",
-    "special",
-    "characters",
-    "column",
-    "names"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.16.0.0",
@@ -4916,9 +4759,9 @@
    "section": "Scripting",
    "entry": "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where a block became incorrect after the script was closed and reopened",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.39,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -4945,7 +4788,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_resources/en-resources-tipp-sharepoint.md",
-   "score": 0.68,
+   "score": 0.7,
    "matched": [
     "building blocks",
     "scripting",
@@ -5020,12 +4863,13 @@
    "section": "Scripting",
    "entry": "Implemented new functions for data sources, dataflows and lists",
    "source": "json",
-   "verdict": "review",
+   "verdict": "documented",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.61,
+   "score": 0.72,
    "matched": [
     "data sources",
-    "implemented"
+    "implemented",
+    "lists"
    ]
   },
   {
@@ -5053,7 +4897,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.65,
+   "score": 0.63,
    "matched": [
     "building blocks",
     "implemented"
@@ -5109,9 +4953,9 @@
    "section": "Peakboard Hub",
    "entry": "[Lists](/hub/en-hub_variableslist.html) - fix for an error that occurred when only a single line was added",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.39,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -5143,10 +4987,10 @@
    "entry": "Implemented new global function for image sources",
    "source": "json",
    "verdict": "review",
-   "article": "content/_controls/Input/en-button.md",
-   "score": 0.54,
+   "article": "content/_get_started/en-quick-access-hotkeys.md",
+   "score": 0.56,
    "matched": [
-    "implemented",
+    "global function",
     "image",
     "sources"
    ]
@@ -5159,7 +5003,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_scripting/en-building-blocks.md",
-   "score": 0.82,
+   "score": 0.83,
    "matched": [
     "notification",
     "successfully",
@@ -5289,16 +5133,10 @@
    "section": "General",
    "entry": "[Fonts](/misc/en-custom-fonts.html) - Fix for a bug where saving a font resulted in a fatal error",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Extended/en-text-ticker.md",
-   "score": 0.46,
-   "matched": [
-    "fonts",
-    "misc",
-    "html",
-    "saving",
-    "font"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5408,7 +5246,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.47,
+   "score": 0.46,
    "matched": [
     "peakboard designer",
     "implemented",
@@ -5421,11 +5259,13 @@
    "section": "General",
    "entry": "[Peakboard Designer] - Project colors management implemented, see highlights",
    "source": "json",
-   "verdict": "review",
+   "verdict": "documented",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.58,
+   "score": 0.83,
    "matched": [
     "peakboard designer",
+    "project",
+    "colors",
     "implemented",
     "highlights"
    ]
@@ -5598,16 +5438,10 @@
    "section": "Data sources",
    "entry": "[Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where custom UIs stopped working",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Extension/en-Classes.md",
-   "score": 0.67,
-   "matched": [
-    "data sources",
-    "extensions",
-    "extension",
-    "html",
-    "custom"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5615,17 +5449,10 @@
    "section": "Data sources",
    "entry": "[Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where extension custom functions were not displayed in the script editor and building blocks",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/Extension/en-MsGraphAPI-teams.md",
-   "score": 0.86,
-   "matched": [
-    "data sources",
-    "script editor",
-    "extensions",
-    "extension",
-    "html",
-    "custom"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5633,16 +5460,10 @@
    "section": "Data sources",
    "entry": "[Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the filter operator (like == or >=) was not visible when editing a filtered hub list",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_hub/Lists/en-hub_lists-overview.md",
-   "score": 0.49,
-   "matched": [
-    "peakboard hub list",
-    "list",
-    "filter",
-    "like",
-    "editing"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5650,18 +5471,10 @@
    "section": "Data sources",
    "entry": "[Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to create a hub list data source with SQL statement",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/en-peakboard-hub-list.md",
-   "score": 1.0,
-   "matched": [
-    "peakboard hub list",
-    "data source",
-    "data sources",
-    "list",
-    "html",
-    "create",
-    "statement"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5669,18 +5482,10 @@
    "section": "Data sources",
    "entry": "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for several bugs regarding the handling of namespaces and certificates",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/OPC_UA/en-opc-ua.md",
-   "score": 0.8,
-   "matched": [
-    "data sources",
-    "opc ua",
-    "opcua",
-    "html",
-    "handling",
-    "namespaces",
-    "certificates"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5688,18 +5493,10 @@
    "section": "Data sources",
    "entry": "[OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a bug where the correct number types were not supplied in the visualization",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/OPC_UA/en-Client-Write-OPCUA.md",
-   "score": 0.68,
-   "matched": [
-    "data sources",
-    "opc ua",
-    "opcua",
-    "html",
-    "correct",
-    "number",
-    "types"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5724,16 +5521,10 @@
    "section": "Data sources",
    "entry": "[SharePoint](/data_sources/en-sharepointlist.html) - Fix for an error where subpages could not be loaded",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Office365/en-sharepointlist.md",
-   "score": 0.65,
-   "matched": [
-    "data sources",
-    "sharepoint",
-    "sharepointlist",
-    "html",
-    "loaded"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5743,7 +5534,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.33,
+   "score": 0.32,
    "matched": []
   },
   {
@@ -5752,18 +5543,10 @@
    "section": "Controls",
    "entry": "[Circular gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the font did not change when adjusted via conditional formatting.",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.87,
-   "matched": [
-    "conditional formatting",
-    "circular",
-    "gauge",
-    "controls",
-    "html",
-    "font",
-    "adjusted"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5921,7 +5704,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-google-spreadsheets.md",
-   "score": 0.53,
+   "score": 0.54,
    "matched": [
     "copy",
     "paste",
@@ -5934,17 +5717,10 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - Fix for a bug where Peakboard Box properties were no longer retrievable in scripts",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Input/en-checkbox.md",
-   "score": 0.55,
-   "matched": [
-    "peakboard box",
-    "script editor",
-    "scripting",
-    "html",
-    "properties",
-    "scripts"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5952,18 +5728,10 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - Fix for a bug where Intellisense did not work after switching from block to script mode",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-script-editor.md",
-   "score": 0.77,
-   "matched": [
-    "script editor",
-    "scripting",
-    "html",
-    "intellisense",
-    "block",
-    "script",
-    "mode"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -5972,13 +5740,15 @@
    "entry": "[Script editor](/scripting/en-script-editor.html) - [get row number] moved from styled list and styled tile collection",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_controls/Common/en-tile-view.md",
+   "article": "content/_controls/Basics/en-general-properties.md",
    "score": 0.8,
    "matched": [
+    "script editor",
     "styled list",
     "styled tile",
+    "scripting",
     "html",
-    "moved",
+    "number",
     "collection"
    ]
   },
@@ -6005,16 +5775,10 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - Fixed display errors of some sample texts",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Input/en-textbox.md",
-   "score": 1.0,
-   "matched": [
-    "script editor",
-    "scripting",
-    "html",
-    "sample",
-    "texts"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "2.17.0.2",
@@ -6024,7 +5788,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-publish-external.md",
-   "score": 0.66,
+   "score": 0.68,
    "matched": [
     "building blocks",
     "send",
@@ -6313,7 +6077,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Extended/en-step-viewer.md",
-   "score": 0.8,
+   "score": 0.79,
    "matched": [
     "performance",
     "controls"
@@ -6371,7 +6135,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.65,
+   "score": 0.63,
    "matched": [
     "peakboard box",
     "implemented",
@@ -6830,17 +6594,10 @@
    "section": "Datasources",
    "entry": "[XML](/data_sources/en-xml.html) - Fix for a bug where the column selection made was not retained when the path dialog was reopened",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Document/en-pdf.md",
-   "score": 0.59,
-   "matched": [
-    "data sources",
-    "html",
-    "selection",
-    "retained",
-    "path",
-    "dialog"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.1.0.3",
@@ -6848,17 +6605,10 @@
    "section": "Datasources",
    "entry": "[Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - fix for a bug where not all columns were automatically selected and were correspondingly unavailable in the filter",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_hub/Flows/en-hub_flow-lists.md",
-   "score": 0.45,
-   "matched": [
-    "peakboard hub list",
-    "html",
-    "columns",
-    "automatically",
-    "selected",
-    "filter"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.1.0.3",
@@ -6996,16 +6746,10 @@
    "section": "Controls",
    "entry": "[Conditional formatting](/controls/en-cf.html) - Fix for a bug where copy+paste didn't work in the template editor",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-cf.md",
-   "score": 0.49,
-   "matched": [
-    "conditional formatting",
-    "controls",
-    "html",
-    "copy",
-    "paste"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.1.0.3",
@@ -7013,16 +6757,10 @@
    "section": "Controls",
    "entry": "[Conditional formatting](/controls/en-cf.html) - Fix for a bug where conditional formatting stopped working when a resource was replaced in Explorer",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_get_started/en-visualization.md",
-   "score": 0.55,
-   "matched": [
-    "controls",
-    "html",
-    "resource",
-    "replaced",
-    "explorer"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.1.0.3",
@@ -7030,16 +6768,10 @@
    "section": "Controls",
    "entry": "[Webpage](/controls/Extended/en-webpage.html) - Fix for a bug where some webpages were not displayed correctly.",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Extended/en-html-code.md",
-   "score": 0.86,
-   "matched": [
-    "webpage",
-    "controls",
-    "extended",
-    "html",
-    "webpages"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.1.0.3",
@@ -7366,7 +7098,7 @@
    "entry": "[Peakboard Designer] - References to data sources are automatically renamed when the data source is renamed",
    "source": "json",
    "verdict": "review",
-   "article": "content/_dataflows/en-calculations.md",
+   "article": "content/_data_sources/Extension/en-Extension.md",
    "score": 0.5,
    "matched": [
     "peakboard designer",
@@ -7521,7 +7253,7 @@
    "entry": "[Peakboard Box settings] - Display of Peakboard Box version adjusted",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md",
    "score": 1.0,
    "matched": [
     "peakboard box",
@@ -7672,7 +7404,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-MsGraphAPI-teams.md",
-   "score": 0.43,
+   "score": 0.42,
    "matched": [
     "communication",
     "endpoints"
@@ -7701,7 +7433,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.35,
+   "score": 0.39,
    "matched": []
   },
   {
@@ -7767,7 +7499,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md",
-   "score": 0.42,
+   "score": 0.43,
    "matched": [
     "internally",
     "automatically",
@@ -7783,7 +7515,7 @@
    "entry": "[Rockwell] - Updating the library to the latest version",
    "source": "json",
    "verdict": "review",
-   "article": "content/_hub/en-hub_api.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md",
    "score": 0.54,
    "matched": [
     "updating",
@@ -7799,7 +7531,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.38,
+   "score": 0.37,
    "matched": []
   },
   {
@@ -7841,7 +7573,7 @@
    "entry": "[ODBC] - Connection string showable",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-odbc.md",
+   "article": "content/_data_sources/Excel/en-ODBC-Excel.md",
    "score": 0.54,
    "matched": [
     "odbc",
@@ -8316,7 +8048,7 @@
    "entry": "The extensions dialog has been updated. You can now see at a glance which extensions you already have installed and can install or uninstall these or other extensions directly from the dialog.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md",
    "score": 0.69,
    "matched": [
     "dialog",
@@ -8723,7 +8455,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-MsGraphAPI.md",
-   "score": 0.65,
+   "score": 0.66,
    "matched": [
     "extensive",
     "dataflow",
@@ -8899,7 +8631,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.7,
+   "score": 0.69,
    "matched": [
     "multi",
     "input",
@@ -8983,7 +8715,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.37,
+   "score": 0.36,
    "matched": []
   },
   {
@@ -9154,18 +8886,10 @@
    "section": "General",
    "entry": "[Resources](/misc/en-ressources.html) - fix for a bug where a resource was not displayed correctly in the corresponding control",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_resources/en-resources-intro.md",
-   "score": 0.86,
-   "matched": [
-    "resources",
-    "misc",
-    "ressources",
-    "html",
-    "resource",
-    "corresponding",
-    "control"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9194,16 +8918,10 @@
    "section": "Datasources",
    "entry": "[Hotfix 3.4.0.3] - [Rockwell](/data_sources/en-rockwell.html) - fix for a bug where it was not possible to load data in the Peakboard Designer",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-rockwell.md",
-   "score": 0.55,
-   "matched": [
-    "peakboard designer",
-    "data sources",
-    "rockwell",
-    "load",
-    "data"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9211,14 +8929,10 @@
    "section": "Datasources",
    "entry": "[Modbus](/data_sources/en-modbus.html) - fix for a bug where only an unexpected error was displayed instead of a useful error message",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_scripting/en-publish-external.md",
-   "score": 0.43,
-   "matched": [
-    "data sources",
-    "modbus",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9244,18 +8958,10 @@
    "section": "Datasources",
    "entry": "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - fix for a bug where column types were not taken into account, resulting in unusable filters",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Extension/en-Tableau.md",
-   "score": 0.46,
-   "matched": [
-    "data sources",
-    "html",
-    "column",
-    "types",
-    "taken",
-    "account",
-    "filters"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9263,18 +8969,10 @@
    "section": "Datasources",
    "entry": "[SAP](/data_sources/SAP/en-sap.html) - fix for a bug where column names with special characters were not read correctly",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.82,
-   "matched": [
-    "data sources",
-    "html",
-    "column",
-    "names",
-    "special",
-    "characters",
-    "read"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9315,18 +9013,10 @@
    "section": "Datasources",
    "entry": "[Email](/data_sources/en-mail.html) - fix for a bug where an internet connection was required even though a local smtp server was defined",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-mail.md",
-   "score": 0.5,
-   "matched": [
-    "data sources",
-    "email",
-    "mail",
-    "html",
-    "connection",
-    "smtp",
-    "server"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9334,17 +9024,10 @@
    "section": "Datasources",
    "entry": "[JSON](/data_sources/en-json.html) - fix for a bug where data was lost if the column name contained a dot",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_administration/en-faqsecurity.md",
-   "score": 0.62,
-   "matched": [
-    "data sources",
-    "json",
-    "html",
-    "data",
-    "lost",
-    "name"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9352,16 +9035,10 @@
    "section": "Datasources",
    "entry": "[Google Spreadsheets](/data_sources/en-google-spreadsheets.html) - fix for a bug where the access token expired after 1-12 hours",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-google-spreadsheets.md",
-   "score": 0.56,
-   "matched": [
-    "data sources",
-    "google spreadsheets",
-    "html",
-    "access",
-    "token"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9385,20 +9062,10 @@
    "section": "Dataflows",
    "entry": "[Reload flows](/misc/en-reloadflows.html) - fix for a bug where a dataflow could be used multiple times in a reload flow",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/Basics/en-reloadflows.md",
-   "score": 1.0,
-   "matched": [
-    "reload",
-    "flows",
-    "misc",
-    "reloadflows",
-    "html",
-    "dataflow",
-    "multiple",
-    "times",
-    "flow"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9484,16 +9151,10 @@
    "section": "Controls",
    "entry": "[Power BI](/controls/Extended/en-power-bi.html) - Fix for a bug where a Power BI tile would not load properly after 12 hours",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Basics/en-xml-data.md",
-   "score": 0.46,
-   "matched": [
-    "power bi",
-    "controls",
-    "html",
-    "tile",
-    "load"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9501,17 +9162,10 @@
    "section": "Scripting",
    "entry": "[Building blocks](/scripting/en-building-blocks.html) - fix for a bug that occurred in custom function blocks when the source was changed with dynamic and non-dynamic functions",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Document/en-pdf.md",
-   "score": 0.51,
-   "matched": [
-    "building blocks",
-    "scripting",
-    "html",
-    "blocks",
-    "source",
-    "dynamic"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9553,18 +9207,10 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - fix for a bug where the dataflow was displayed in the wrong place in the script tree",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-script-types.md",
-   "score": 0.87,
-   "matched": [
-    "script editor",
-    "scripting",
-    "html",
-    "wrong",
-    "place",
-    "script",
-    "tree"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.4.0.3",
@@ -9859,17 +9505,10 @@
    "section": "General",
    "entry": "[Resources](/misc/en-ressources.html) - fix for a bug where network resources referenced the wrong file when multiple network resources were connected",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_resources/en-resources-intro.md",
-   "score": 0.52,
-   "matched": [
-    "resources",
-    "misc",
-    "ressources",
-    "html",
-    "network",
-    "file"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -9877,16 +9516,10 @@
    "section": "General",
    "entry": "[Resources](/misc/en-ressources.html) - fix for a bug where adding a dynamic URL did not work properly",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_resources/en-resources-intro.md",
-   "score": 0.67,
-   "matched": [
-    "resources",
-    "misc",
-    "ressources",
-    "html",
-    "dynamic"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -9894,18 +9527,10 @@
    "section": "General",
    "entry": "[Resources](/misc/en-ressources.html) - fix for a bug where the connection type was accidentally reset when overwriting a local file",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_resources/en-resources-intro.md",
-   "score": 0.47,
-   "matched": [
-    "resources",
-    "misc",
-    "ressources",
-    "html",
-    "type",
-    "local",
-    "file"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -9964,16 +9589,10 @@
    "section": "General",
    "entry": "[Web Access](/administration/en-web-access.html) - fix for a critical bug triggered by a logo file when opening Web Access",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_hub/Peakboard_Hub_on_premise/en-get-started.md",
-   "score": 0.47,
-   "matched": [
-    "access",
-    "html",
-    "critical",
-    "triggered",
-    "file"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -9981,16 +9600,10 @@
    "section": "General",
    "entry": "[Shared Connections](/misc/en-shared-connection.html) - fix for a bug where shared connections did not work properly after copy&paste.",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-forcam.md",
-   "score": 0.47,
-   "matched": [
-    "connections",
-    "connection",
-    "html",
-    "copy",
-    "paste"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10039,17 +9652,10 @@
    "section": "Datasources",
    "entry": "[Extensions](/data_sources/Extension/en-Extension.html) - fix for a bug that occurred when previewing a visualization of a project that contained extensions but did not have them installed",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Extension/en-ManageExtension.md",
-   "score": 0.41,
-   "matched": [
-    "data sources",
-    "extensions",
-    "extension",
-    "html",
-    "project",
-    "installed"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10086,16 +9692,10 @@
    "section": "Datasources",
    "entry": "[JSON](/data_sources/en-json.html) - fix for a bug where syntax caused problems when autocompleting column names",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_edge/en-UseEdgeDatasource.md",
-   "score": 0.4,
-   "matched": [
-    "data sources",
-    "html",
-    "caused",
-    "column",
-    "names"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10103,17 +9703,10 @@
    "section": "Datasources",
    "entry": "[Excel](/data_sources/Excel/en-excel.html) - fix for a bug that occurred when URL was selected as the source type and the path was left blank",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_administration/en-data-debugger.md",
-   "score": 0.57,
-   "matched": [
-    "data sources",
-    "occurred",
-    "selected",
-    "source",
-    "path",
-    "left"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10121,9 +9714,9 @@
    "section": "Datasources",
    "entry": "[Excel](/data_sources/Excel/en-excel.html) - fix for a bug where the data source tried to access the file each time a key was pressed, generating an error each time",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.37,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -10132,17 +9725,10 @@
    "section": "Datasources",
    "entry": "[Modbus](/data_sources/en-modbus.html) - fix for a bug where only one data source could be loaded even though multiple data sources were added with a split connection",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-forcam.md",
-   "score": 0.43,
-   "matched": [
-    "data source",
-    "data sources",
-    "html",
-    "multiple",
-    "split",
-    "connection"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10150,14 +9736,10 @@
    "section": "Datasources",
    "entry": "[Modbus](/data_sources/en-modbus.html) - fix for a bug where there were problems reconnecting to a Modbus device if the connection was previously lost",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_administration/en-ipadress-pbedge-with-powershell.md",
-   "score": 0.49,
-   "matched": [
-    "reconnecting",
-    "connection",
-    "lost"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10204,18 +9786,10 @@
    "section": "Datasources",
    "entry": "[Reload Flows](/misc/en-reloadflows.html) - fix for a bug that was triggered when the name of a reload flow started with a number",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/Basics/en-reloadflows.md",
-   "score": 0.73,
-   "matched": [
-    "reload",
-    "flows",
-    "misc",
-    "reloadflows",
-    "html",
-    "name",
-    "flow"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10294,7 +9868,7 @@
    "entry": "Dataflow steps can be renamed as needed",
    "source": "json",
    "verdict": "review",
-   "article": "content/_dataflows/en-parse-table.md",
+   "article": "content/_data_sources/Extension/en-MsGraphAPI.md",
    "score": 0.51,
    "matched": [
     "dataflow",
@@ -10474,7 +10048,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-gauge.md",
-   "score": 0.53,
+   "score": 0.52,
    "matched": [
     "chart",
     "spacing"
@@ -10488,7 +10062,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.59,
+   "score": 0.58,
    "matched": [
     "chart",
     "column",
@@ -10574,7 +10148,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.51,
+   "score": 0.5,
    "matched": [
     "chart",
     "axes"
@@ -10588,7 +10162,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.42,
+   "score": 0.41,
    "matched": [
     "chart",
     "axis"
@@ -10602,7 +10176,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.75,
+   "score": 0.74,
    "matched": [
     "chart",
     "numbers",
@@ -10632,7 +10206,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.33,
+   "score": 0.32,
    "matched": []
   },
   {
@@ -10658,7 +10232,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.69,
+   "score": 0.68,
    "matched": [
     "chart",
     "series"
@@ -10672,7 +10246,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.58,
+   "score": 0.59,
    "matched": [
     "chart",
     "values",
@@ -10704,18 +10278,10 @@
    "section": "Controls",
    "entry": "[Table](/controls/Common/en-table-grid.html) - fix for a bug where the displayed values for the inner spacing were not applied when changes were made",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.68,
-   "matched": [
-    "table",
-    "controls",
-    "common",
-    "html",
-    "values",
-    "inner",
-    "spacing"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10723,16 +10289,10 @@
    "section": "Controls",
    "entry": "[Table](/controls/Common/de-table-grid.html) - fix for a bug where the data source could be accidentally changed",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_scripting/en-formating-table-grid.md",
-   "score": 0.56,
-   "matched": [
-    "table",
-    "controls",
-    "common",
-    "grid",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10804,9 +10364,9 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - fix for a bug where a malformed global function caused dataflows to stop being created",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.37,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -10815,16 +10375,10 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - fix for a bug where resources did not have the full path",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Document/en-pdf.md",
-   "score": 0.77,
-   "matched": [
-    "script editor",
-    "scripting",
-    "html",
-    "resources",
-    "path"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10832,9 +10386,9 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - fix for a bug where groups could not be accessed when preceding screens were disabled",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.36,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -10843,17 +10397,10 @@
    "section": "Scripting",
    "entry": "[Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where SQL inserts did not work when variables were used as input",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-publish-external.md",
-   "score": 1.0,
-   "matched": [
-    "building blocks",
-    "scripting",
-    "html",
-    "inserts",
-    "variables",
-    "input"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -10880,7 +10427,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-publish-external.md",
-   "score": 0.51,
+   "score": 0.5,
    "matched": [
     "building blocks",
     "scripting",
@@ -10958,18 +10505,10 @@
    "section": "Scripting",
    "entry": "[Variables](/scripting/en-variables.html) - fix for a bug where lists could be created that did not contain columns",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_resources/en-resources-tipp-sharepoint.md",
-   "score": 1.0,
-   "matched": [
-    "variables",
-    "scripting",
-    "html",
-    "lists",
-    "created",
-    "contain",
-    "columns"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.5.0.0",
@@ -11136,7 +10675,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.61,
+   "score": 0.6,
    "matched": [
     "peakboard designer",
     "check",
@@ -11187,7 +10726,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-debug-panel.md",
-   "score": 0.69,
+   "score": 0.71,
    "matched": [
     "peakboard designer",
     "loading",
@@ -11203,7 +10742,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.49,
+   "score": 0.48,
    "matched": [
     "implemented",
     "automatic",
@@ -11350,20 +10889,10 @@
    "section": "Datasources",
    "entry": "[Reload flows](/data_sources/Basics/en-reloadflows.html) - Fix for a bug where multiple reload flows could not be triggered from the same element",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/Basics/en-reloadflows.md",
-   "score": 0.86,
-   "matched": [
-    "data sources",
-    "reload",
-    "flows",
-    "basics",
-    "reloadflows",
-    "html",
-    "multiple",
-    "same",
-    "element"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11373,7 +10902,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-odata.md",
-   "score": 0.52,
+   "score": 0.53,
    "matched": [
     "data sources",
     "odata",
@@ -11387,15 +10916,10 @@
    "section": "Datasources",
    "entry": "[JSON](/data_sources/en-json.html) - Fix for a bug where JSON was not working properly for data sources with arrays",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-json.md",
-   "score": 0.64,
-   "matched": [
-    "data sources",
-    "json",
-    "html",
-    "arrays"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11403,18 +10927,10 @@
    "section": "Datasources",
    "entry": "[Peakboard hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where when adding a boolean value in the filter, the initial value was null instead of false",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Input/en-checkbox.md",
-   "score": 0.57,
-   "matched": [
-    "data sources",
-    "html",
-    "boolean",
-    "value",
-    "filter",
-    "initial",
-    "false"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11422,16 +10938,10 @@
    "section": "Datasources",
    "entry": "[Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where some extensions had an incorrect ID, which led to further errors",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/Extension/en-MsGraphAPI.md",
-   "score": 0.63,
-   "matched": [
-    "data sources",
-    "extensions",
-    "extension",
-    "html",
-    "further"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11497,18 +11007,10 @@
    "section": "Controls",
    "entry": "[Excel Chart](/controls/Chart/en-excel-viewer.html) - Fix for a bug that occurred when an empty file was used for the Excel chart",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-excel-viewer.md",
-   "score": 0.73,
-   "matched": [
-    "excel",
-    "chart",
-    "controls",
-    "viewer",
-    "html",
-    "empty",
-    "file"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11516,18 +11018,10 @@
    "section": "Controls",
    "entry": "[Conditional formatting](/controls/Basics/en-cf.html) - Fix for a bug where all elements of an OR statement were deleted when the first element was removed",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-building-blocks.md",
-   "score": 0.72,
-   "matched": [
-    "conditional formatting",
-    "controls",
-    "html",
-    "elements",
-    "deleted",
-    "first",
-    "element"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11551,19 +11045,10 @@
    "section": "Controls",
    "entry": "[Dropdown list](/controls/Input/en-dropdown.html) - Fix for a bug where the left spacing was determined by the size of the control",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Common/en-text-block.md",
-   "score": 0.76,
-   "matched": [
-    "dropdown",
-    "controls",
-    "input",
-    "html",
-    "left",
-    "determined",
-    "size",
-    "control"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11571,18 +11056,10 @@
    "section": "Controls",
    "entry": "[Icon](/controls/Common/en-icon.html) - Fix for a bug where changing the project color had no effect on the colors of the conditional formatting of an icon",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_get_started/en-quick-access-hotkeys.md",
-   "score": 0.67,
-   "matched": [
-    "conditional formatting",
-    "controls",
-    "html",
-    "project",
-    "color",
-    "effect",
-    "colors"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11590,15 +11067,10 @@
    "section": "Controls",
    "entry": "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where the title was no longer displayed in the preview/visualization",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.7,
-   "matched": [
-    "styled list",
-    "styled tile",
-    "tile collection",
-    "title"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11606,16 +11078,10 @@
    "section": "Controls",
    "entry": "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where no new controls could be added when the dialog was opened and closed again",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Common/en-tile-view.md",
-   "score": 0.86,
-   "matched": [
-    "styled list",
-    "styled tile",
-    "tile collection",
-    "controls",
-    "dialog"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11623,15 +11089,10 @@
    "section": "Controls",
    "entry": "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where copying and pasting controls no longer worked",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.45,
-   "matched": [
-    "styled list",
-    "styled tile",
-    "tile collection",
-    "controls"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11639,17 +11100,10 @@
    "section": "Controls",
    "entry": "[Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where closing the conditional formatting dialog also closed the template dialog",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Common/en-tile-view.md",
-   "score": 0.72,
-   "matched": [
-    "conditional formatting",
-    "styled list",
-    "styled tile",
-    "tile collection",
-    "dialog",
-    "template"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11753,9 +11207,9 @@
    "section": "Controls",
    "entry": "[Gauges] - implemented option to set the number format for value labels",
    "source": "json",
-   "verdict": "review",
+   "verdict": "documented",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.72,
+   "score": 0.74,
    "matched": [
     "gauges",
     "number",
@@ -11800,19 +11254,10 @@
    "section": "Controls",
    "entry": "[Circular Gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the value was displayed even though it was not activated in the attributes",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.78,
-   "matched": [
-    "circular",
-    "gauge",
-    "controls",
-    "chart",
-    "html",
-    "value",
-    "activated",
-    "attributes"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11820,18 +11265,10 @@
    "section": "Controls",
    "entry": "[Linear Gauge](/controls/Chart/en-linear-gauge.html) - Fix for a bug where the labeling/arrangement of linear gauges did not work in vertical state",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.56,
-   "matched": [
-    "linear",
-    "gauge",
-    "controls",
-    "chart",
-    "html",
-    "gauges",
-    "state"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11839,16 +11276,10 @@
    "section": "Controls",
    "entry": "[Linear Gauge](/controls/Chart/de-linear-gauge.html) - Fix for a bug where rounding was only applied at one end",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.62,
-   "matched": [
-    "linear",
-    "gauge",
-    "controls",
-    "chart",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11856,16 +11287,10 @@
    "section": "Controls",
    "entry": "[Textbox](/controls/Input/en-textbox.html) - Fix for a bug where validation did not work if the textbox was bound to a variable",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Input/en-textbox.md",
-   "score": 0.73,
-   "matched": [
-    "textbox",
-    "controls",
-    "input",
-    "html",
-    "validation"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11873,15 +11298,10 @@
    "section": "Controls",
    "entry": "[Textbox](/controls/Input/en-textbox.html) - Fix for incorrect/unnecessary warning messages",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Input/en-datepicker.md",
-   "score": 0.43,
-   "matched": [
-    "controls",
-    "input",
-    "html",
-    "incorrect"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11906,20 +11326,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that occurred when a project file contained a timeline grid of the data type duration",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-timeline-grid.md",
-   "score": 0.63,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "project",
-    "data",
-    "type",
-    "duration"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11927,24 +11337,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was always in the default color when the duration input type was selected",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Chart/en-timeline-grid.md",
-   "score": 0.92,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "last",
-    "section",
-    "default",
-    "color",
-    "duration",
-    "input",
-    "type",
-    "selected"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11952,21 +11348,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where it was not possible to link a variable of data type number for the timeline grid constraint",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Chart/en-timeline-grid.md",
-   "score": 0.81,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "link",
-    "variable",
-    "data",
-    "type",
-    "number"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11974,20 +11359,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the first displayed section had an incorrect color if timestamps were added that were outside the constraint",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-timeline-grid.md",
-   "score": 0.59,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "first",
-    "section",
-    "color",
-    "timestamps"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -11995,20 +11370,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was displayed in empty color when timeline grid constraints were removed",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Chart/en-timeline-grid.md",
-   "score": 0.83,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "last",
-    "section",
-    "empty",
-    "color"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -12016,18 +11381,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that was triggered by dynamically adding new values to a list that was linked to a timeline grid",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.64,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "values",
-    "linked"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -12035,18 +11392,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where changing the project colors did not cause the timeline grid colors to be adjusted",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-timeline-grid.md",
-   "score": 0.59,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "project",
-    "colors"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -12145,15 +11494,10 @@
    "section": "Resources",
    "entry": "[Network resources](/resources/en-resources-network.html) - Fix for minor network resource bugs",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_administration/en-user-administration.md",
-   "score": 0.53,
-   "matched": [
-    "network",
-    "resources",
-    "html",
-    "resource"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.6.3.0",
@@ -12174,7 +11518,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_misc/en-API.md",
-   "score": 0.59,
+   "score": 0.58,
    "matched": [
     "peakboard box",
     "global functions",
@@ -12451,7 +11795,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-date-and-time.md",
-   "score": 0.56,
+   "score": 0.55,
    "matched": [
     "peakboard designer",
     "timeserver",
@@ -12466,7 +11810,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_get_started/en-peakboard-byod.md",
-   "score": 0.62,
+   "score": 0.64,
    "matched": [
     "peakboard designer",
     "peakboard runtime",
@@ -12555,7 +11899,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_administration/en-ports-and-network-traffic.md",
-   "score": 0.57,
+   "score": 0.56,
    "matched": [
     "peakboard hub",
     "peakboard box",
@@ -12668,7 +12012,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_administration/en-certificates.md",
-   "score": 0.43,
+   "score": 0.44,
    "matched": [
     "format",
     "dialog",
@@ -12707,17 +12051,10 @@
    "section": "Data sources",
    "entry": "[Date and Time](/data_sources/en-date-and-time.html) - Fix for a bug where the time could not be edited if the default time zone was not selected",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_data_sources/en-date-and-time.md",
-   "score": 0.64,
-   "matched": [
-    "data sources",
-    "date",
-    "time",
-    "html",
-    "default",
-    "zone"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -12774,7 +12111,7 @@
    "entry": "[JSON](/data_sources/en-json.html) - Path selection field revised and made dynamic/scriptable",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-mqtt.md",
+   "article": "content/_data_sources/Basics/en-xml-data.md",
    "score": 0.41,
    "matched": [
     "data sources",
@@ -12821,9 +12158,9 @@
    "section": "Data sources",
    "entry": "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the comparison operator disappeared when the dialog was closed and reopened",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.39,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -12832,17 +12169,10 @@
    "section": "Data sources",
    "entry": "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to load Peakboard Hub data",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/en-peakboard-hub-list.md",
-   "score": 1.0,
-   "matched": [
-    "peakboard hub list",
-    "peakboard hub",
-    "data sources",
-    "html",
-    "load",
-    "data"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -12867,7 +12197,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Input/en-checkbox.md",
-   "score": 0.59,
+   "score": 0.6,
    "matched": [
     "data sources",
     "html",
@@ -12886,7 +12216,7 @@
    "entry": "[Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Revised comparison operators",
    "source": "json",
    "verdict": "review",
-   "article": "content/_dataflows/en-filter-and-sort.md",
+   "article": "content/_data_sources/SAP/en-xql.md",
    "score": 0.49,
    "matched": [
     "data sources",
@@ -12917,17 +12247,10 @@
    "section": "Data sources",
    "entry": "[Reload Flows](/data_sources/Basics/en-reloadflows.html) - Fix for UI error",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/Basics/en-reloadflows.md",
-   "score": 1.0,
-   "matched": [
-    "data sources",
-    "reload",
-    "flows",
-    "basics",
-    "reloadflows",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -12935,15 +12258,10 @@
    "section": "Data sources",
    "entry": "[Rockwell](/data_sources/en-rockwell.html) - Fix for a bug in the data source",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-publish-external.md",
-   "score": 1.0,
-   "matched": [
-    "data source",
-    "data sources",
-    "rockwell",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -12951,16 +12269,10 @@
    "section": "Data sources",
    "entry": "[SAP](/data_sources/SAP/en-sap.html) - Fix for a bug where parameters could be used multiple times",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_data_sources/SAP/en-xql.md",
-   "score": 1.0,
-   "matched": [
-    "data sources",
-    "html",
-    "parameters",
-    "multiple",
-    "times"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -13073,7 +12385,7 @@
    "entry": "Reload state [Manual] added",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_data_sources/en-bacnet.md",
+   "article": "content/_data_sources/Basics/en-reloadflows.md",
    "score": 1.0,
    "matched": [
     "reload",
@@ -13420,7 +12732,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.54,
+   "score": 0.55,
    "matched": [
     "charts",
     "time",
@@ -13504,16 +12816,10 @@
    "section": "Controls",
    "entry": "[Styled tile/Styled tile collection/Styled list] - Fix for a bug that occurred with scripted copied lists",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.56,
-   "matched": [
-    "styled list",
-    "styled tile",
-    "tile collection",
-    "styled",
-    "lists"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -13521,17 +12827,10 @@
    "section": "Controls",
    "entry": "[Styled tile/Styled tile collection/Styled list] - Fix for a bug where the connection of a data source was aborted when it was renamed",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Common/en-tile-view.md",
-   "score": 0.59,
-   "matched": [
-    "data source",
-    "styled list",
-    "styled tile",
-    "tile collection",
-    "styled",
-    "connection"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -13539,16 +12838,10 @@
    "section": "Controls",
    "entry": "[Styled tile/Styled tile collection/Styled list] - Fix for a bug where scripts were not executed correctly",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.78,
-   "matched": [
-    "styled list",
-    "styled tile",
-    "tile collection",
-    "styled",
-    "scripts"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -13657,18 +12950,10 @@
    "section": "Controls",
    "entry": "[Timeline grid](/controls/Chart/en-timeline.html) - Fix for an error that occurred with incorrectly sorted data",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.59,
-   "matched": [
-    "timeline",
-    "grid",
-    "controls",
-    "chart",
-    "html",
-    "sorted",
-    "data"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -13724,15 +13009,10 @@
    "section": "Scripting",
    "entry": "[Building blocks](/scripting/en-building-blocks.html) - Fix for a bug that occurred when trying to connect two building blocks",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_resources/en-resources-network.md",
-   "score": 0.55,
-   "matched": [
-    "building blocks",
-    "html",
-    "trying",
-    "connect"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.7.0.4",
@@ -13841,7 +13121,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_scripting/en-publish-external.md",
-   "score": 0.85,
+   "score": 0.84,
    "matched": [
     "building blocks",
     "scripting",
@@ -13962,9 +13242,9 @@
    "section": "Resources",
    "entry": "[Network resources](/resources/en-resources-network.html) - Fix for a bug regarding invalid UNC paths",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.4,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -13986,12 +13266,12 @@
    "section": "Resources",
    "entry": "Names can no longer be assigned twice to avoid errors",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Input/en-datepicker.md",
-   "score": 0.55,
+   "verdict": "documented",
+   "article": "content/_controls/Basics/en-general-properties.md",
+   "score": 0.77,
    "matched": [
     "names",
-    "assigned",
+    "twice",
     "avoid"
    ]
   },
@@ -14111,7 +13391,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_administration/en-install-silent.md",
-   "score": 0.71,
+   "score": 0.73,
    "matched": [
     "peakboard",
     "byod",
@@ -14270,17 +13550,10 @@
    "section": "General",
    "entry": "[Web Access](/administration/en-web-access.html) - Fix for a bug where projects could not be deleted from Peakboard Boxes",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_administration/en-user-administration.md",
-   "score": 0.84,
-   "matched": [
-    "access",
-    "administration",
-    "html",
-    "deleted",
-    "peakboard",
-    "boxes"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14349,14 +13622,10 @@
    "section": "Data sources",
    "entry": "[SAP](/data_sources/SAP/en-sap.html) - Fix for a bug in the SAP connection",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_administration/en-faqsecurity.md",
-   "score": 1.0,
-   "matched": [
-    "data sources",
-    "html",
-    "connection"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14364,14 +13633,16 @@
    "section": "Data sources",
    "entry": "[SAP](/data_sources/SAP/en-sap.html) - Instance number converted to input field",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_controls/Basics/en-components.md",
-   "score": 0.69,
+   "verdict": "documented",
+   "article": "content/_controls/Basics/en-general-properties.md",
+   "score": 0.73,
    "matched": [
+    "data sources",
     "html",
-    "instance",
     "number",
-    "converted"
+    "converted",
+    "input",
+    "field"
    ]
   },
   {
@@ -14425,12 +13696,12 @@
    "entry": "[SAP](/data_sources/SAP/en-sap.html) - Support of CHANGING parameters in functions implemented",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.71,
+   "article": "content/_scripting/Script Templates/en_modbus.md",
+   "score": 0.77,
    "matched": [
     "data sources",
     "html",
-    "parameters",
+    "changing",
     "implemented"
    ]
   },
@@ -14440,16 +13711,10 @@
    "section": "Data sources",
    "entry": "[SQL-Server](/data_sources/en-ms-sql-server.html) - Fix for a bug where null values crashed the debug mode",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_scripting/en-debug-panel.md",
-   "score": 0.42,
-   "matched": [
-    "data sources",
-    "html",
-    "values",
-    "debug",
-    "mode"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14507,7 +13772,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_data_sources/Extension/en-Functions.md",
-   "score": 0.75,
+   "score": 0.74,
    "matched": [
     "type",
     "tooltip"
@@ -14546,7 +13811,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Input/en-datepicker.md",
-   "score": 0.72,
+   "score": 0.71,
    "matched": [
     "date",
     "picker",
@@ -14600,18 +13865,10 @@
    "section": "Controls",
    "entry": "[PDF](/controls/Document/en-pdf.html) - Fix for a bug that occurred in the Peakboard Designer and the preview when PDF files were to be retrieved from certain locations",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_resources/en-resources-tipp-sharepoint.md",
-   "score": 0.52,
-   "matched": [
-    "peakboard designer",
-    "controls",
-    "document",
-    "html",
-    "preview",
-    "files",
-    "retrieved"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14621,7 +13878,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.81,
+   "score": 0.82,
    "matched": [
     "styled list",
     "styled tile",
@@ -14636,9 +13893,9 @@
    "section": "Controls",
    "entry": "[Table](/controls/Common/en-table-grid.html) - Fix for a bug where tables were unintentionally reset completely when the data source was renamed",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.38,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -14658,19 +13915,10 @@
    "section": "Scripting",
    "entry": "[Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where it was not possible to export data of type SAP or SQL Server to a list or the Peakboard Hub",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-variables.md",
-   "score": 0.85,
-   "matched": [
-    "peakboard hub",
-    "building blocks",
-    "scripting",
-    "html",
-    "export",
-    "data",
-    "type",
-    "list"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14678,16 +13926,10 @@
    "section": "Scripting",
    "entry": "[Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where some properties could not be changed via script",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Document/en-pdf.md",
-   "score": 1.0,
-   "matched": [
-    "building blocks",
-    "scripting",
-    "html",
-    "properties",
-    "script"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14697,7 +13939,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.67,
+   "score": 0.66,
    "matched": [
     "scripting",
     "html",
@@ -14715,7 +13957,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-building-blocks.md",
-   "score": 0.64,
+   "score": 0.65,
    "matched": [
     "building block",
     "building blocks",
@@ -14749,15 +13991,10 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - Fix for a bug that was triggered by syntax",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_scripting/en-script-editor.md",
-   "score": 0.72,
-   "matched": [
-    "script editor",
-    "scripting",
-    "html",
-    "syntax"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14765,14 +14002,10 @@
    "section": "Scripting",
    "entry": "[Script editor](/scripting/en-script-editor.html) - Fix for a bug where an old UI was used",
    "source": "json",
-   "verdict": "documented",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 1.0,
-   "matched": [
-    "script editor",
-    "scripting",
-    "html"
-   ]
+   "verdict": "fix",
+   "article": null,
+   "score": 0.0,
+   "matched": []
   },
   {
    "version": "3.8.0.0",
@@ -14818,7 +14051,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.92,
+   "score": 0.91,
    "matched": [
     "timer",
     "script",
@@ -14833,7 +14066,7 @@
    "entry": "Resources that are linked to controls are automatically reloaded when they are replaced",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 0.55,
    "matched": [
     "resources",
@@ -14960,7 +14193,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.29,
+   "score": 0.27,
    "matched": []
   },
   {
@@ -15060,7 +14293,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_edge/en-ManageEdge.md",
-   "score": 0.52,
+   "score": 0.53,
    "matched": [
     "peakboard box",
     "peakboard designer",
@@ -15205,7 +14438,7 @@
    "entry": "[Explorer] - Tag function (colored markers) and associated filter function added for elements in Explorer",
    "source": "json",
    "verdict": "review",
-   "article": "content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md",
    "score": 0.41,
    "matched": [
     "colored",
@@ -15708,7 +14941,7 @@
    "entry": "[Building blocks] - Script tree simplified",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-bacnet.md",
+   "article": "content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md",
    "score": 0.49,
    "matched": [
     "building blocks",
@@ -15841,10 +15074,14 @@
    "section": "Button icons",
    "entry": "The buttons now allow you to access our icon gallery.",
    "source": "json",
-   "verdict": "undocumented",
-   "article": null,
-   "score": 0.35,
-   "matched": []
+   "verdict": "documented",
+   "article": "content/_controls/Input/en-button.md",
+   "score": 0.87,
+   "matched": [
+    "buttons",
+    "icon",
+    "gallery"
+   ]
   },
   {
    "version": "3.10.0.1",
@@ -15895,7 +15132,7 @@
    "entry": "[Video] The video player now allows YouTube videos.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-forcam.md",
+   "article": "content/_data_sources/Office365/en-microsoft-calendar.md",
    "score": 0.65,
    "matched": [
     "video",
@@ -15999,10 +15236,14 @@
    "section": "General",
    "entry": "[Button] Added the option to choose from the icon gallery.",
    "source": "json",
-   "verdict": "undocumented",
-   "article": null,
-   "score": 0.37,
-   "matched": []
+   "verdict": "documented",
+   "article": "content/_controls/Input/en-button.md",
+   "score": 0.83,
+   "matched": [
+    "button",
+    "icon",
+    "gallery"
+   ]
   },
   {
    "version": "3.10.0.1",
@@ -16305,7 +15546,7 @@
    "entry": "[Group] Allowed sending a screenshot of a group via email.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_scripting/en-building-blocks.md",
+   "article": "content/_scripting/Script Templates/en-email.md",
    "score": 0.85,
    "matched": [
     "sending",
@@ -16321,7 +15562,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/Basics/en-lua-regex.md",
-   "score": 0.45,
+   "score": 0.46,
    "matched": [
     "group",
     "print",
@@ -16397,7 +15638,7 @@
    "source": "json",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.27,
+   "score": 0.26,
    "matched": []
   },
   {
@@ -16455,10 +15696,17 @@
    "section": "General",
    "entry": "[Property Grid] Implemented basic numerical operations (+ - x /) in input fields for width/height/x/y.",
    "source": "json",
-   "verdict": "undocumented",
-   "article": null,
-   "score": 0.32,
-   "matched": []
+   "verdict": "review",
+   "article": "content/_controls/Basics/en-general-properties.md",
+   "score": 0.49,
+   "matched": [
+    "basic",
+    "operations",
+    "input",
+    "fields",
+    "width",
+    "height"
+   ]
   },
   {
    "version": "3.10.0.1",
@@ -16584,7 +15832,7 @@
    "entry": "[Scripting] Allowed the use of '.' in text input events.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_controls/Input/en-button.md",
+   "article": "content/_controls/Basics/en-general-properties.md",
    "score": 1.0,
    "matched": [
     "scripting",
@@ -16798,7 +16046,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Input/en-textbox.md",
-   "score": 0.64,
+   "score": 0.65,
    "matched": [
     "textbox",
     "regex",
@@ -17142,7 +16390,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Common/en-tile-view.md",
-   "score": 0.71,
+   "score": 0.72,
    "matched": [
     "connections",
     "grouped",
@@ -17257,11 +16505,12 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.41,
+   "score": 0.51,
    "matched": [
     "background",
     "image",
     "opacity",
+    "previous",
     "scale"
    ]
   },
@@ -17389,7 +16638,7 @@
    "entry": "Data/value data binding is now possible with number variables/columns when the data source of the dropdown is a number column.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_controls/Input/en-dropdown.md",
+   "article": "content/_controls/Basics/en-general-properties.md",
    "score": 0.89,
    "matched": [
     "data source",
@@ -17434,7 +16683,7 @@
    "entry": "All errors in extensions are now shown in the runtime log.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_data_sources/en-odbc.md",
+   "article": "content/_data_sources/Extension/en-Extension.md",
    "score": 1.0,
    "matched": [
     "extensions",
@@ -17519,8 +16768,8 @@
    "entry": "Searching for hub lists by entering text is now possible.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_scripting/en-building-blocks.md",
-   "score": 0.67,
+   "article": "content/_controls/Input/en-button.md",
+   "score": 0.66,
    "matched": [
     "searching",
     "lists",
@@ -17534,7 +16783,7 @@
    "entry": "Cookies headers can now be defined.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_scripting/en-quick-tipp-api-http-post.md",
+   "article": "content/_scripting/Script Templates/en-call-http-request.md",
    "score": 0.45,
    "matched": [
     "headers",
@@ -17866,7 +17115,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-feed.md",
-   "score": 0.61,
+   "score": 0.6,
    "matched": [
     "data source",
     "columns",
@@ -18016,7 +17265,7 @@
    "entry": "Added coulumn topic.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-azure-iot-hub.md",
+   "article": "content/_data_sources/Extension/en-MsGraphAPI-teams.md",
    "score": 0.4,
    "matched": [
     "topic"
@@ -18106,7 +17355,7 @@
    "entry": "Allows specifying a start and end date.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 0.71,
    "matched": [
     "specifying",
@@ -18176,7 +17425,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Chart/en-timeline-grid.md",
-   "score": 0.53,
+   "score": 0.55,
    "matched": [
     "themes",
     "designer"
@@ -18306,7 +17555,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-runtime-window.md",
-   "score": 0.66,
+   "score": 0.65,
    "matched": [
     "bring",
     "runtime",
@@ -18487,7 +17736,7 @@
    "entry": "Allow to change the OneDrive path just like the SharePoint path.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_data_sources/en-xml.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 1.0,
    "matched": [
     "onedrive",
@@ -18547,7 +17796,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_resources/en-resources-tipp-sharepoint.md",
-   "score": 0.82,
+   "score": 0.81,
    "matched": [
     "office",
     "resource"
@@ -18722,7 +17971,7 @@
    "entry": "Added update column to the menu in both Dataflow and Data source menus for consistency.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_dataflows/en-getting-started.md",
+   "article": "content/_data_sources/Basics/en-reloadflows.md",
    "score": 0.5,
    "matched": [
     "data source",
@@ -18992,12 +18241,12 @@
    "section": "Peakboard Hub",
    "entry": "Implemented Peakboard Hub as a new resource type.",
    "source": "json",
-   "verdict": "review",
-   "article": "content/_scripting/Script Templates/en-error-handling.md",
-   "score": 0.59,
+   "verdict": "documented",
+   "article": "content/_controls/Input/en-button.md",
+   "score": 0.72,
    "matched": [
     "implemented",
-    "type"
+    "resource"
    ]
   },
   {
@@ -19040,7 +18289,7 @@
    "entry": "Added central user management in the Peakboard Hub for the Peakboard devices.",
    "source": "json",
    "verdict": "documented",
-   "article": "content/_hub/Peakboard_Hub_online/en-get-started-online.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-get-started.md",
    "score": 1.0,
    "matched": [
     "peakboard hub",
@@ -19122,7 +18371,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.81,
+   "score": 0.8,
    "matched": [
     "pages",
     "logs",
@@ -19304,7 +18553,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_data_sources/en-bacnet.md",
-   "score": 0.72,
+   "score": 0.71,
    "matched": [
     "connect",
     "bacnet",
@@ -19349,7 +18598,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md",
-   "score": 0.43,
+   "score": 0.44,
    "matched": [
     "adjusted",
     "check",
@@ -19642,7 +18891,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_get_started/en-quick-access-hotkeys.md",
-   "score": 0.48,
+   "score": 0.49,
    "matched": [
     "info",
     "boxes",
@@ -19793,9 +19042,9 @@
    "section": "Snippets / Building Blocks",
    "entry": "Bugs fixed so that the QuickWrap and QuickAdd buttons are displayed correctly",
    "source": "json",
-   "verdict": "undocumented",
+   "verdict": "fix",
    "article": null,
-   "score": 0.21,
+   "score": 0.0,
    "matched": []
   },
   {
@@ -19820,12 +19069,12 @@
    "entry": "Addressed a variety of bugs related to snippet operations and Building Block functionality.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_hub/Lists/en-hub_use-list.md",
-   "score": 0.41,
+   "article": "content/_controls/Basics/en-general-properties.md",
+   "score": 0.46,
    "matched": [
-    "building block",
+    "addressed",
     "related",
-    "snippet"
+    "operations"
    ]
   },
   {
@@ -19854,7 +19103,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.65,
+   "score": 0.64,
    "matched": [
     "building blocks",
     "implemented",
@@ -19907,7 +19156,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.66,
+   "score": 0.65,
    "matched": [
     "data source",
     "implemented",
@@ -19941,7 +19190,7 @@
    "entry": "Improved support for non-generic lists in SharePoint to access meta information of SharePoint files.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 0.68,
    "matched": [
     "generic",
@@ -20343,7 +19592,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Media/en-video.md",
-   "score": 0.56,
+   "score": 0.57,
    "matched": [
     "video control",
     "camera"
@@ -20424,7 +19673,7 @@
    "entry": "Enabled direct editing of properties in the extensions dialog.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 0.48,
    "matched": [
     "enabled",
@@ -20516,7 +19765,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.49,
+   "score": 0.48,
    "matched": [
     "implemented",
     "contents",
@@ -20547,7 +19796,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_get_started/en-peakboard-byod.md",
-   "score": 0.54,
+   "score": 0.55,
    "matched": [
     "adding",
     "restrictions",
@@ -20644,7 +19893,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_administration/en-faqsecurity.md",
-   "score": 0.43,
+   "score": 0.44,
    "matched": [
     "user",
     "password",
@@ -20690,7 +19939,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md",
-   "score": 0.5,
+   "score": 0.49,
    "matched": [
     "missing",
     "flags",
@@ -20705,7 +19954,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_administration/en-faqsecurity.md",
-   "score": 0.85,
+   "score": 0.86,
    "matched": [
     "peakboard box",
     "protection",
@@ -20737,7 +19986,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_administration/en-faqsecurity.md",
-   "score": 0.49,
+   "score": 0.51,
    "matched": [
     "http",
     "security",
@@ -20752,7 +20001,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_get_started/en-quick-access-hotkeys.md",
-   "score": 0.52,
+   "score": 0.51,
    "matched": [
     "execute",
     "debug",
@@ -20784,7 +20033,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_scripting/Script Templates/en-change-pdf-page.md",
-   "score": 0.78,
+   "score": 0.77,
    "matched": [
     "building block",
     "implemented",
@@ -21198,7 +20447,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_scripting/en-script-tree.md",
-   "score": 0.44,
+   "score": 0.43,
    "matched": [
     "menu",
     "reach",
@@ -21213,7 +20462,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_get_started/en-peakboard-designer.md",
-   "score": 0.58,
+   "score": 0.59,
    "matched": [
     "peakboard designer",
     "script editor",
@@ -21424,7 +20673,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_data_sources/en-csv.md",
-   "score": 0.67,
+   "score": 0.66,
    "matched": [
     "default",
     "steps",
@@ -21606,7 +20855,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_get_started/en-peakboard-designer.md",
-   "score": 0.52,
+   "score": 0.53,
    "matched": [
     "preview",
     "data",
@@ -21693,7 +20942,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_controls/Extended/en-step-viewer.md",
-   "score": 0.56,
+   "score": 0.55,
    "matched": [
     "data source",
     "performance"
@@ -21743,7 +20992,7 @@
    "source": "json",
    "verdict": "review",
    "article": "content/_administration/en-web-access.md",
-   "score": 0.53,
+   "score": 0.52,
    "matched": [
     "resources",
     "changing",
@@ -21816,10 +21065,15 @@
    "section": "Google Spreadsheets / Microsoft Graph",
    "entry": "MicrosoftGraphConnection and GoogleDriveConnection now allow navigating to the resource instead of just the list element.",
    "source": "json",
-   "verdict": "undocumented",
-   "article": null,
-   "score": 0.3,
-   "matched": []
+   "verdict": "review",
+   "article": "content/_controls/Input/en-button.md",
+   "score": 0.45,
+   "matched": [
+    "navigating",
+    "resource",
+    "list",
+    "element"
+   ]
   },
   {
    "version": "4.3.0.0",
@@ -21829,7 +21083,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_data_sources/en-date-and-time.md",
-   "score": 0.84,
+   "score": 0.83,
    "matched": [
     "validation",
     "adding"
@@ -22989,7 +22243,7 @@
    "entry": "Updated the wording in the Peakboard Hub connection dialog.",
    "source": "json",
    "verdict": "review",
-   "article": "content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md",
    "score": 0.52,
    "matched": [
     "peakboard hub",
@@ -23580,7 +22834,7 @@
    "source": "json",
    "verdict": "documented",
    "article": "content/_scripting/Script Templates/en-working-with-date.md",
-   "score": 0.71,
+   "score": 0.72,
    "matched": [
     "calculate",
     "time",
@@ -23964,10 +23218,16 @@
    "section": "Icon",
    "entry": "Optimised the search tags for the floppy disk, delete and garbage can icons.",
    "source": "json",
-   "verdict": "undocumented",
-   "article": null,
-   "score": 0.32,
-   "matched": []
+   "verdict": "review",
+   "article": "content/_controls/Input/en-button.md",
+   "score": 0.55,
+   "matched": [
+    "search",
+    "tags",
+    "floppy",
+    "disk",
+    "icons"
+   ]
   },
   {
    "version": "4.4.0.2",
@@ -24267,7 +23527,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_resources/en-resources-web.md",
-   "score": 0.66,
+   "score": 0.67,
    "matched": [
     "bearer",
     "token",
@@ -24525,7 +23785,7 @@
    "entry": "Added ability to publish via shared MQTT data source",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_scripting/en-publish-external.md",
+   "article": "content/_scripting/Script Templates/en-mqtt.md",
    "score": 1.0,
    "matched": [
     "data source",
@@ -24558,10 +23818,12 @@
    "entry": "Variables/Lists now allow the use of Unicode characters",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-odbc.md",
+   "article": "content/_administration/en-user-administration.md",
    "score": 0.5,
    "matched": [
-    "unicode"
+    "variables",
+    "lists",
+    "characters"
    ]
   },
   {
@@ -24835,7 +24097,7 @@
    "source": "archive",
    "verdict": "documented",
    "article": "content/_data_sources/SAP/en-xql.md",
-   "score": 0.77,
+   "score": 0.76,
    "matched": [
     "variables",
     "comparison",
@@ -24849,7 +24111,7 @@
    "entry": "Reworked Empty States for all elements",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_dataflows/en-calculations.md",
+   "article": "content/_data_sources/Basics/en-reloadflows.md",
    "score": 1.0,
    "matched": [
     "empty",
@@ -25496,7 +24758,7 @@
    "entry": "Feed data source revised",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-feed.md",
+   "article": "content/_data_sources/Basics/en-xml-data.md",
    "score": 0.48,
    "matched": [
     "data source",
@@ -25963,7 +25225,7 @@
    "source": "archive",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.36,
+   "score": 0.37,
    "matched": []
   },
   {
@@ -25988,7 +25250,7 @@
    "entry": "Feed data sources dialog revised",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-feed.md",
+   "article": "content/_data_sources/Basics/en-xml-data.md",
    "score": 0.52,
    "matched": [
     "data sources",
@@ -26025,7 +25287,7 @@
    "entry": "SharePoint data sources dialog revised",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 0.44,
    "matched": [
     "data sources",
@@ -26667,9 +25929,9 @@
    "section": "Archive",
    "entry": "Data connection via the local network for CSV, XML and JSON data sources implemented",
    "source": "archive",
-   "verdict": "documented",
+   "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.71,
+   "score": 0.7,
    "matched": [
     "data sources",
     "data",
@@ -26737,7 +25999,7 @@
    "source": "archive",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.36,
+   "score": 0.35,
    "matched": []
   },
   {
@@ -26748,7 +26010,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_edge/en-PeakboardEdge.md",
-   "score": 0.48,
+   "score": 0.49,
    "matched": [
     "wlan",
     "peakboard",
@@ -27012,7 +26274,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.63,
+   "score": 0.62,
    "matched": [
     "data sources",
     "peakboard",
@@ -27059,7 +26321,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md",
-   "score": 0.62,
+   "score": 0.63,
    "matched": [
     "peakboard designer",
     "start",
@@ -27177,7 +26439,7 @@
    "source": "archive",
    "verdict": "documented",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.78,
+   "score": 0.77,
    "matched": [
     "data source",
     "excel",
@@ -27236,7 +26498,7 @@
    "source": "archive",
    "verdict": "documented",
    "article": "content/_controls/Basics/en-fonts.md",
-   "score": 0.71,
+   "score": 0.72,
    "matched": [
     "icons",
     "manage",
@@ -27501,7 +26763,7 @@
    "entry": "Added SharePoint OneDrive as a new data source",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 1.0,
    "matched": [
     "data source",
@@ -27622,10 +26884,11 @@
    "entry": "Script editor - function runtime.currentscreenname implemented to control screens by name",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_controls/Input/en-button.md",
-   "score": 0.43,
+   "article": "content/_controls/Document/en-pdf.md",
+   "score": 0.42,
    "matched": [
-    "implemented",
+    "script editor",
+    "runtime",
     "control",
     "screens",
     "name"
@@ -27688,7 +26951,7 @@
    "source": "archive",
    "verdict": "documented",
    "article": "content/_controls/Common/en-tile-view.md",
-   "score": 0.78,
+   "score": 0.77,
    "matched": [
     "format",
     "controls",
@@ -27704,7 +26967,7 @@
    "entry": "Direct access to domain files",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 1.0,
    "matched": [
     "direct",
@@ -28041,7 +27304,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_administration/en-install-silent.md",
-   "score": 0.43,
+   "score": 0.44,
    "matched": [
     "version",
     "peakboard",
@@ -28055,7 +27318,7 @@
    "entry": "Dataflows can now be created by right-clicking on a data source.",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_dataflows/en-getting-started.md",
+   "article": "content/_data_sources/Basics/en-reloadflows.md",
    "score": 1.0,
    "matched": [
     "data source",
@@ -28091,7 +27354,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_data_sources/Basics/en-OAuth.md",
-   "score": 0.64,
+   "score": 0.66,
    "matched": [
     "oauth2",
     "authentication"
@@ -28104,7 +27367,7 @@
    "entry": "Windows Explorer button added.",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-odbc.md",
+   "article": "content/_data_sources/OPC_UA/en-opc-ua.md",
    "score": 1.0,
    "matched": [
     "windows",
@@ -28210,7 +27473,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_administration/en-data-debugger.md",
-   "score": 0.57,
+   "score": 0.59,
    "matched": [
     "script",
     "debugger",
@@ -28437,7 +27700,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_administration/en-data-debugger.md",
-   "score": 0.57,
+   "score": 0.59,
    "matched": [
     "debugger",
     "scripts"
@@ -28503,7 +27766,7 @@
    "entry": "Error message for screenshots adjusted",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md",
    "score": 1.0,
    "matched": [
     "screenshots",
@@ -28616,7 +27879,7 @@
    "entry": "New data source: SharePoint Lists",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 1.0,
    "matched": [
     "data source",
@@ -28686,7 +27949,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_administration/en-pb2USB.md",
-   "score": 0.52,
+   "score": 0.51,
    "matched": [
     "reset",
     "performed"
@@ -28700,7 +27963,7 @@
    "source": "archive",
    "verdict": "documented",
    "article": "content/_controls/Extended/en-step-viewer.md",
-   "score": 0.8,
+   "score": 0.79,
    "matched": [
     "selected",
     "controls",
@@ -28820,7 +28083,7 @@
    "entry": "The installer is now multilingual",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_hub/en-hub_api.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-hub_installation.md",
    "score": 0.43,
    "matched": [
     "installer"
@@ -29314,7 +28577,7 @@
    "entry": "Added search/replace functionality for scripts in script editor",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_dataflows/en-manipulate-column-data.md",
+   "article": "content/_data_sources/Extension/en-MsGraphAPI-teams.md",
    "score": 0.71,
    "matched": [
     "script editor",
@@ -29450,7 +28713,7 @@
    "entry": "CSV data source: it is now possible to skip several rows",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-csv.md",
+   "article": "content/_data_sources/SAP/en-xql.md",
    "score": 1.0,
    "matched": [
     "data source",
@@ -29498,7 +28761,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_scripting/en-script-tree.md",
-   "score": 0.66,
+   "score": 0.68,
    "matched": [
     "script editor",
     "script",
@@ -29770,8 +29033,8 @@
    "entry": "Lua script editor: Search and replace function implemented",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_dataflows/en-manipulate-column-data.md",
-   "score": 0.62,
+   "article": "content/_data_sources/Extension/en-MsGraphAPI-teams.md",
+   "score": 0.65,
    "matched": [
     "script editor",
     "search",
@@ -29802,7 +29065,7 @@
    "source": "archive",
    "verdict": "documented",
    "article": "content/_scripting/en-building-blocks.md",
-   "score": 0.86,
+   "score": 0.85,
    "matched": [
     "variable",
     "deleted",
@@ -29898,7 +29161,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.66,
+   "score": 0.65,
    "matched": [
     "designer",
     "version",
@@ -30096,7 +29359,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_data_sources/Extension/en-Extension.md",
-   "score": 0.69,
+   "score": 0.68,
    "matched": [
     "version",
     "runtime",
@@ -30425,7 +29688,7 @@
    "entry": "Reworked StartUp dialog",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-bacnet.md",
+   "article": "content/_data_sources/Excel/en-excel.md",
    "score": 1.0,
    "matched": [
     "startup",
@@ -31201,7 +30464,7 @@
    "entry": "JSON Datasource reworked and added Networksharefiles",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-json.md",
+   "article": "content/_data_sources/Basics/en-xml-data.md",
    "score": 0.5,
    "matched": [
     "json",
@@ -31229,7 +30492,7 @@
    "entry": "Dataflows can be putted to Folders",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-network-share-files.md",
+   "article": "content/_data_sources/Extension/en-MsGraphAPI.md",
    "score": 0.42,
    "matched": [
     "dataflows",
@@ -31400,7 +30663,7 @@
    "entry": "The dialog for managing the Boxes in the network has been revised so that all actions that can be performed with a Peakboard Box are in one dialog.",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_hub/Peakboard_Hub_online/en-get-started-online.md",
+   "article": "content/_hub/Peakboard_Hub_on_premise/en-get-started.md",
    "score": 0.4,
    "matched": [
     "peakboard box",
@@ -31781,7 +31044,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md",
-   "score": 0.44,
+   "score": 0.45,
    "matched": [
     "global",
     "event"
@@ -32380,10 +31643,10 @@
    "entry": "Lua shownextscreen function is called showscreen now",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_scripting/en-presenter.md",
-   "score": 0.4,
+   "article": "content/_scripting/Script Templates/en-screenchanging.md",
+   "score": 0.41,
    "matched": [
-    "shownextscreen"
+    "showscreen"
    ]
   },
   {
@@ -32407,7 +31670,7 @@
    "entry": "Time datasource can be formated directly to Lua date",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-siemens-s7.md",
+   "article": "content/_data_sources/Basics/en-xml-data.md",
    "score": 0.41,
    "matched": [
     "time",
@@ -32679,7 +31942,7 @@
    "entry": "Designer supports now 64bit architectures",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-odbc.md",
+   "article": "content/_data_sources/Extension/en-Extension.md",
    "score": 0.43,
    "matched": [
     "designer",
@@ -32732,7 +31995,7 @@
    "source": "archive",
    "verdict": "documented",
    "article": "content/_controls/Chart/en-chart.md",
-   "score": 0.79,
+   "score": 0.78,
    "matched": [
     "advanced",
     "chart",
@@ -32842,7 +32105,7 @@
    "entry": "Reworked datasource dialogs",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-oracle.md",
+   "article": "content/_data_sources/Basics/en-reloadflows.md",
    "score": 1.0,
    "matched": [
     "datasource",
@@ -33055,7 +32318,7 @@
    "entry": "Json datasource supports hierarchies",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-json.md",
+   "article": "content/_data_sources/Basics/en-xml-data.md",
    "score": 0.5,
    "matched": [
     "json",
@@ -33109,7 +32372,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_controls/Chart/en-excel-viewer.md",
-   "score": 0.48,
+   "score": 0.49,
    "matched": [
     "gauge",
     "defaults"
@@ -33374,7 +32637,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_controls/Input/en-button.md",
-   "score": 0.52,
+   "score": 0.5,
    "matched": [
     "implemented",
     "variable",
@@ -33432,7 +32695,7 @@
    "entry": "Added screen animations",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_scripting/en-examples.md",
+   "article": "content/_scripting/Script Templates/en-script-animations.md",
    "score": 1.0,
    "matched": [
     "screen",
@@ -33813,7 +33076,7 @@
    "entry": "Internal changes without effects",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_dataflows/en-getting-started.md",
+   "article": "content/_data_sources/Basics/en-reloadflows.md",
    "score": 0.53,
    "matched": [
     "effects"
@@ -33938,7 +33201,7 @@
    "entry": "First version of Peakboard IO Portals",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_data_sources/en-azure-event-hub.md",
+   "article": "content/_data_sources/Office365/en-office365-connection.md",
    "score": 0.57,
    "matched": [
     "peakboard",
@@ -34022,7 +33285,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_data_sources/en-forcam.md",
-   "score": 0.44,
+   "score": 0.45,
    "matched": [
     "bridge"
    ]
@@ -34442,7 +33705,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_edge/en-ManageEdge.md",
-   "score": 0.53,
+   "score": 0.52,
    "matched": [
     "menu",
     "strip"
@@ -34556,7 +33819,7 @@
    "entry": "Lua objects and functions can now be called in lower case",
    "source": "archive",
    "verdict": "review",
-   "article": "content/_scripting/en-building-blocks.md",
+   "article": "content/_controls/Basics/en-general-properties.md",
    "score": 0.67,
    "matched": [
     "called",
@@ -34585,7 +33848,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_hub/Alerts/en-hub_alert-email.md",
-   "score": 0.66,
+   "score": 0.67,
    "matched": [
     "peakboard box",
     "addresses",
@@ -34929,7 +34192,7 @@
    "source": "archive",
    "verdict": "undocumented",
    "article": null,
-   "score": 0.19,
+   "score": 0.2,
    "matched": []
   },
   {
@@ -34940,7 +34203,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_data_sources/en-bacnet.md",
-   "score": 0.67,
+   "score": 0.66,
    "matched": [
     "peakboard",
     "data",
@@ -35086,9 +34349,10 @@
    "entry": "Variables are now called “Variables” and no longer “General Data”.",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.77,
+   "article": "content/_controls/Input/en-button.md",
+   "score": 1.0,
    "matched": [
+    "variables",
     "called",
     "general",
     "data"
@@ -35428,7 +34692,7 @@
    "entry": "You can now call a pop-up dialog via Lua Script",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_data_sources/en-azure-event-hub.md",
+   "article": "content/_data_sources/Basics/en-reloadflows.md",
    "score": 1.0,
    "matched": [
     "call",
@@ -35461,7 +34725,7 @@
    "source": "archive",
    "verdict": "review",
    "article": "content/_controls/Basics/en-general-properties.md",
-   "score": 0.52,
+   "score": 0.53,
    "matched": [
     "element",
     "defined",

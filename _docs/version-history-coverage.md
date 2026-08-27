@@ -23,13 +23,13 @@ and write the article where there really is none.
 
 | verdict | entries |
 |---|---:|
-| undocumented | 197 |
-| review | 717 |
-| documented | 662 |
-| fix | 1021 |
+| undocumented | 181 |
+| review | 646 |
+| documented | 627 |
+| fix | 1143 |
 | **total** | **2597** |
 
-255 English articles scanned.
+257 English articles scanned.
 
 ## 4.4.0.2 (25.08.2026)
 
@@ -40,7 +40,6 @@ and write the article where there really is none.
 | Website / Web | Improved performance of webbrowser and PDF controls on screens that are not currently shown. | `undocumented` |  |
 | Datepicker / Timepicker | Aligned the popup corner radius and added a 5px spacing between picker and popup. | `undocumented` |  |
 | Scripting | Reworked the script editor with a new modular architecture and a completely refreshed user interface. | `undocumented` |  |
-| Icon | Optimised the search tags for the floppy disk, delete and garbage can icons. | `undocumented` |  |
 | Datepicker | Datepicker and Timepicker have been revised – including icon color and output language in conditional formatting as well as an adjusted popup. | `review` | `content/_controls/Input/en-timepicker.md` (51%) |
 | Z-Index Slider | Hold the Alt key to move a control or a group along the Z-index using a slider. | `review` | `content/_controls/Basics/en-general-properties.md` (78%) |
 | Peakboard Designer | Added a drag & drop preview that shows a real control instead of a plain cursor when adding controls to the canvas. | `review` | `content/_data_sources/Basics/en-xml-data.md` (52%) |
@@ -48,13 +47,14 @@ and write the article where there really is none.
 | Peakboard Designer | Closing the loading window now stops loading the Peakboard Designer. | `review` | `content/_controls/Media/en-video.md` (50%) |
 | Box communication | Added the data debugger to the Box Management dialog for remote debugging. | `review` | `content/_administration/en-data-debugger.md` (66%) |
 | Box communication | Added automatic reconnection of the cloud connection when the service bus returns a 404 error. | `review` | `content/_data_sources/Basics/en-OAuth.md` (49%) |
-| Peakboard Hub | Updated the wording in the Peakboard Hub connection dialog. | `review` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (52%) |
+| Peakboard Hub | Updated the wording in the Peakboard Hub connection dialog. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (52%) |
 | Chart | The settings tab now stays selected when switching between chart series. | `review` | `content/_controls/Chart/en-chart.md` (55%) |
 | Styled tile / list / collection | Improved the styled list editor with layer rearranging via drag & drop, grouping and several editor refinements. | `review` | `content/_controls/Common/en-tile-view.md` (46%) |
 | Website / Web | Improved webbrowser performance. | `review` | `content/_controls/Extended/en-step-viewer.md` (47%) |
 | Variable | Reworked the variable list table with a new control, including drag & drop reordering, keyboard navigation, empty state and a refreshed design. | `review` | `content/_scripting/en-script-types.md` (63%) |
 | Variable | Added the variable type to the response of ApiGetVariables. | `review` | `content/_administration/en-faqsecurity.md` (50%) |
 | Extensions | You are now asked whether any missing extensions included in the package should be installed. | `review` | `content/_data_sources/Extension/en-ManageExtension.md` (59%) |
+| Icon | Optimised the search tags for the floppy disk, delete and garbage can icons. | `review` | `content/_controls/Input/en-button.md` (55%) |
 | Signal block | Long column names are now shown in full on hover in the signal lamp rules dialog. | `review` | `content/_controls/Chart/en-chart.md` (59%) |
 | Peakboard Box | Window mode and minimising are no longer available when the runtime is running on a Peakboard Box. | `review` | `content/_scripting/en-debug-panel.md` (64%) |
 | Peakboard Edge | Moved the Peakboard Edge icon from the top bar to the home screen. | `review` | `content/_edge/en-ManageEdge.md` (71%) |
@@ -82,7 +82,7 @@ and write the article where there really is none.
 | Property Grid | Icons for corner radius and borders have been added to the Multi-Editor. | `documented` | `content/_controls/Common/en-table-grid.md` (81%) |
 | Datepicker / Timepicker | Added a property for the icon colour in conditional formatting. | `documented` | `content/_controls/Basics/en-cf.md` (100%) |
 | Datepicker / Timepicker | Added a format for the output language in conditional formatting. | `documented` | `content/_controls/Input/en-datepicker.md` (100%) |
-| Dataflow | Added a new step to calculate the time difference from the current row to the previous one. | `documented` | `content/_scripting/Script Templates/en-working-with-date.md` (71%) |
+| Dataflow | Added a new step to calculate the time difference from the current row to the previous one. | `documented` | `content/_scripting/Script Templates/en-working-with-date.md` (72%) |
 | Dataflow | Added a filter for a column value to the accumulate step. | `documented` | `content/_dataflows/en-calculations.md` (79%) |
 | Dataflow | Added a confirmation dialog when deleting a dataflow step. | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (71%) |
 | Dataflow | 'Ignore time' is now an individual setting for each date/time filter. | `documented` | `content/_dataflows/en-filter-and-sort.md` (100%) |
@@ -153,26 +153,26 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | Hub flows | Added validation warning if a dataflow or output step is based on an unloaded data source. | `undocumented` |  |
-| Google Spreadsheets / Microsoft Graph | MicrosoftGraphConnection and GoogleDriveConnection now allow navigating to the resource instead of just the list element. | `undocumented` |  |
 | Scripting | Removed unwanted whitespace in multi-line blocks inside loops. | `undocumented` |  |
 | Button | Replaced the Button progress bar with a centered animated icon. | `undocumented` |  |
 | Box communication | Improved performance when selecting a box if the connected Peakboard Hub is unreachable. | `undocumented` |  |
 | Calendar Control | The new Calendar Control allows you to display a calendar directly inside your project. | `review` | `content/_controls/Input/en-calendar.md` (62%) |
 | Designer | Added Reload button when a package was changed externally. | `review` | `content/_data_sources/Extension/en-DataPush.md` (61%) |
 | Designer | The loading indicator has been improved and the loading window no longer opens multiple times. | `review` | `content/_edge/en-ManageEdge.md` (58%) |
-| Designer | Improved menu expander to make it easier to reach with the cursor. | `review` | `content/_scripting/en-script-tree.md` (44%) |
-| Designer | Big dialogs (template editor, script editor) now open on the screen the Peakboard Designer is currently on. | `review` | `content/_get_started/en-peakboard-designer.md` (58%) |
+| Designer | Improved menu expander to make it easier to reach with the cursor. | `review` | `content/_scripting/en-script-tree.md` (43%) |
+| Designer | Big dialogs (template editor, script editor) now open on the screen the Peakboard Designer is currently on. | `review` | `content/_get_started/en-peakboard-designer.md` (59%) |
 | Designer | Sub-dialogs of the same size as their master dialog now open with a horizontal offset. | `review` | `content/_controls/Basics/en-groups.md` (54%) |
 | Designer | Spacing lines now ignore clicks. | `review` | `content/_data_sources/en-csv.md` (63%) |
 | Setup | Added branch information to the Setup with option to update from the corresponding branch or return to master. | `review` | `content/_data_sources/OPC_UA/en-opc-ua.md` (54%) |
 | Setup | Added health check at the end of the Setup with automatic backup on failure. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (50%) |
 | Hub flows | Added support for Peakboard Extensions in Hub flows. | `review` | `content/_hub/Flows/en-hub_flow-create.md` (55%) |
-| Hub flows | Changed default for steps in Hub flow projects from 'on data change' to 'always'. | `review` | `content/_data_sources/en-csv.md` (67%) |
+| Hub flows | Changed default for steps in Hub flow projects from 'on data change' to 'always'. | `review` | `content/_data_sources/en-csv.md` (66%) |
 | Hub list | Filters are now preserved when switching Peakboard Hub Lists if the new list contains the same columns. | `review` | `content/_edge/en-ManageEdge.md` (50%) |
-| Dataflow | Preview data of cascaded dataflows now reloads automatically when a table structure changes. | `review` | `content/_get_started/en-peakboard-designer.md` (52%) |
-| Data sources | Improved performance when opening the data source dialog. | `review` | `content/_controls/Extended/en-step-viewer.md` (56%) |
-| Resources | Resources now allow changing files without reauthentication. | `review` | `content/_administration/en-web-access.md` (53%) |
+| Dataflow | Preview data of cascaded dataflows now reloads automatically when a table structure changes. | `review` | `content/_get_started/en-peakboard-designer.md` (53%) |
+| Data sources | Improved performance when opening the data source dialog. | `review` | `content/_controls/Extended/en-step-viewer.md` (55%) |
+| Resources | Resources now allow changing files without reauthentication. | `review` | `content/_administration/en-web-access.md` (52%) |
 | Google Spreadsheets / Microsoft Graph | Reworked Google Drive and Google Spreadsheets with a new resource, file picker and data source. | `review` | `content/_data_sources/en-google-spreadsheets.md` (66%) |
+| Google Spreadsheets / Microsoft Graph | MicrosoftGraphConnection and GoogleDriveConnection now allow navigating to the resource instead of just the list element. | `review` | `content/_controls/Input/en-button.md` (45%) |
 | Global functions | Replaced the value constraint table with the tag pattern for single variables and global function parameters. | `review` | `content/_misc/en-API.md` (51%) |
 | Snippets / Building Blocks | Added 'create [variable]' option to the Loop Building Block context menu. | `review` | `content/_scripting/en-script-editor.md` (68%) |
 | Snippets / Building Blocks | Building Blocks now retain the selected column when changing the list, if a column with the same name exists. | `review` | `content/_data_sources/Basics/en-reloadflows.md` (58%) |
@@ -196,7 +196,7 @@ and write the article where there really is none.
 | Dataflow | Referenced dataflows now update the controls automatically when preview data of a data source changes. | `documented` | `content/_data_sources/Extension/en-Tableau.md` (83%) |
 | Dataflow | Separated settings from the data and steps section in dataflows. | `documented` | `content/_data_sources/en-csv.md` (100%) |
 | Resources | Added support for compressed URL resources and data sources. | `documented` | `content/_dataflows/en-calculations.md` (73%) |
-| Variable | Improved validation when adding a variable. | `documented` | `content/_data_sources/en-date-and-time.md` (84%) |
+| Variable | Improved validation when adding a variable. | `documented` | `content/_data_sources/en-date-and-time.md` (83%) |
 | Variable | Added 'allow empty value' checkbox for variable, variable list and function constraints. | `documented` | `content/_scripting/en-script-types.md` (74%) |
 | Scripting | Added ability to open multiple scripts in tabs. | `documented` | `content/_administration/en-web-access.md` (100%) |
 | Conditional Formatting | Added 'Use row index' checkbox for data bindings in Conditional Formatting within styled lists and styled tile collections. | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
@@ -280,21 +280,21 @@ and write the article where there really is none.
 | Scripting | Enhanced experience when opening script schedules. | `review` | `content/_controls/Input/en-calendar.md` (45%) |
 | Scripting | Addressed runtime crashes when clicking in a text field in the web browser. | `review` | `content/_controls/Extended/en-qr.md` (55%) |
 | Scripting | Renaming directly in the timer script dialog enabled. | `review` | `content/_scripting/en-script-editor.md` (59%) |
-| Video | Implemented camera integration in the Video control. | `review` | `content/_controls/Media/en-video.md` (56%) |
+| Video | Implemented camera integration in the Video control. | `review` | `content/_controls/Media/en-video.md` (57%) |
 | Group | Group screenshots now use the correct background for gradients. | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (65%) |
 | Extensions | Allowed execution of extensions without restarting Peakboard Designer. | `review` | `content/_administration/en-data-debugger.md` (43%) |
-| Extensions | Enabled direct editing of properties in the extensions dialog. | `review` | `content/_data_sources/en-csv.md` (48%) |
+| Extensions | Enabled direct editing of properties in the extensions dialog. | `review` | `content/_data_sources/Excel/en-excel.md` (48%) |
 | Styled Tile / List / Collection | Revised dialog for copying templates for Styled Tiles. | `review` | `content/_controls/Basics/en-components.md` (55%) |
-| Variable | Implemented export functions for the contents of variable lists in the Designer. | `review` | `content/_controls/Input/en-button.md` (49%) |
-| Variable | Implemented adding restrictions and default values for variable lists. | `review` | `content/_get_started/en-peakboard-byod.md` (54%) |
+| Variable | Implemented export functions for the contents of variable lists in the Designer. | `review` | `content/_controls/Input/en-button.md` (48%) |
+| Variable | Implemented adding restrictions and default values for variable lists. | `review` | `content/_get_started/en-peakboard-byod.md` (55%) |
 | Security | Switched Peakboard Box Basic Auth to a token-based concept. | `review` | `content/_data_sources/Extension/en-Tableau.md` (45%) |
 | Security | Enabled SMB encryption for increased security. | `review` | `content/_administration/en-faqsecurity.md` (67%) |
-| Security | Implemented stricter user password policy. | `review` | `content/_administration/en-faqsecurity.md` (43%) |
+| Security | Implemented stricter user password policy. | `review` | `content/_administration/en-faqsecurity.md` (44%) |
 | Security | Added globally applicable configuration encryption keys. | `review` | `content/_data_sources/OPC_UA/en-opc-ua.md` (44%) |
-| Security | Added missing cookie flags to protect the session. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (50%) |
+| Security | Added missing cookie flags to protect the session. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (49%) |
 | Security | Password hashes are no longer retrieved from the box. | `review` | `content/_data_sources/Basics/en-shared-connection.md` (52%) |
-| Security | Implemented missing HTTP security headers. | `review` | `content/_administration/en-faqsecurity.md` (49%) |
-| Security | Restricted os.execute functionality to debug mode. | `review` | `content/_get_started/en-quick-access-hotkeys.md` (52%) |
+| Security | Implemented missing HTTP security headers. | `review` | `content/_administration/en-faqsecurity.md` (51%) |
+| Security | Restricted os.execute functionality to debug mode. | `review` | `content/_get_started/en-quick-access-hotkeys.md` (51%) |
 | Snippets / Building Blocks | Added runtime functions to minimize, switch to fullscreen and windowed mode. | `review` | `content/_scripting/en-runtime-window.md` (72%) |
 | PDF | PDF viewer automatically resets the page number to 1 when the PDF source changes. | `review` | `content/_scripting/Script Templates/en-auto-scroll.md` (70%) |
 | OPC UA | Support for reading tabular values from OPC UA. | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (70%) |
@@ -312,8 +312,8 @@ and write the article where there really is none.
 | Runtime | Screen click event is now also triggered for controls with tap event and in the web control. | `documented` | `content/_resources/en-resources-tipp-sharepoint.md` (100%) |
 | Security | Updated TLS version. | `documented` | `content/_data_sources/Extension/en-Extension.md` (100%) |
 | Security | Web browser can no longer access the local directory. | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-hub_installation.md` (100%) |
-| Security | Implemented protection against brute-force attacks on the Peakboard Box. | `documented` | `content/_administration/en-faqsecurity.md` (85%) |
-| Snippets / Building Blocks | Implemented 'Show last used screen' functionality for the screen switch Building Block. | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (78%) |
+| Security | Implemented protection against brute-force attacks on the Peakboard Box. | `documented` | `content/_administration/en-faqsecurity.md` (86%) |
+| Snippets / Building Blocks | Implemented 'Show last used screen' functionality for the screen switch Building Block. | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (77%) |
 | Dataflow | Support for parameters in Dataflows. | `documented` | `content/_administration/en-data-debugger.md` (100%) |
 | Explorer | Added 'Show all controls' and 'Unlock all controls' options in the screen context menu. | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | OPC UA | Added Building Block for calling OPC UA functions. | `documented` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (100%) |
@@ -349,11 +349,10 @@ and write the article where there really is none.
 
 | section | entry | verdict | article |
 |---|---|---|---|
-| Snippets / Building Blocks | Bugs fixed so that the QuickWrap and QuickAdd buttons are displayed correctly | `undocumented` |  |
 | Script Editor | Expanded debugging panel functionalities in the runtime. | `undocumented` |  |
 | Building Block AI Bot | Create your application logic with the help of our AI driven Peakbot. | `review` | `content/_get_started/en-peakboard-designer.md` (60%) |
 | Peakboard Box | Possibility to make phone calls in the Peakboard application based on SIP. | `review` | `content/_administration/en-web-access.md` (66%) |
-| Peakboard Box | Adjusted device ID check when setting a new license key, enhancing the validation process for device IDs. | `review` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (43%) |
+| Peakboard Box | Adjusted device ID check when setting a new license key, enhancing the validation process for device IDs. | `review` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (44%) |
 | Peakboard Box | Enhanced Box Management with rearranged properties in the general tab. | `review` | `content/_controls/Common/en-text-block.md` (53%) |
 | Box Communication | Optimized Swagger UI with examples and descriptions. | `review` | `content/_data_sources/en-siemens-s7.md` (57%) |
 | Box Communication | A checkbox has been added in the communication settings to prefer cloud communication. | `review` | `content/_administration/en-user-administration.md` (64%) |
@@ -364,21 +363,21 @@ and write the article where there really is none.
 | Hub Flows | Enhanced Upload with a prompt for a name if no file name is given. | `review` | `content/_get_started/en-create-with-ai.md` (52%) |
 | Dataflow | Replaced sources dialog in Dataflows with a simple text display for trigger sources. | `review` | `content/_data_sources/en-csv.md` (70%) |
 | Dataflow | Implementation of a validation for column names in the column rename step | `review` | `content/_controls/Common/en-table-grid.md` (43%) |
-| Designer | Implemented info boxes in various dialogs for user guidance. | `review` | `content/_get_started/en-quick-access-hotkeys.md` (48%) |
+| Designer | Implemented info boxes in various dialogs for user guidance. | `review` | `content/_get_started/en-quick-access-hotkeys.md` (49%) |
 | Designer | Addressed multiple bugs relating to link clicking, script renaming, and other UI behaviors. | `review` | `content/_controls/Extended/en-qr.md` (40%) |
 | Snippets / Building Blocks | Introduced the capability to save status code and error text in local variables for the HTTP block. | `review` | `content/_controls/Input/en-checkbox.md` (42%) |
 | Snippets / Building Blocks | Various new actions and functions have been integrated into the snippets: Get proxy settings and error handling. | `review` | `content/_data_sources/Extension/en-Tableau.md` (41%) |
-| Snippets / Building Blocks | Addressed a variety of bugs related to snippet operations and Building Block functionality. | `review` | `content/_hub/Lists/en-hub_use-list.md` (41%) |
+| Snippets / Building Blocks | Addressed a variety of bugs related to snippet operations and Building Block functionality. | `review` | `content/_controls/Basics/en-general-properties.md` (46%) |
 | Snippets / Building Blocks | Added a clear input snippet for clearing current inputs in the text input control. | `review` | `content/_controls/Input/en-drawing-area.md` (67%) |
-| Script Editor | Implemented a new AI integration for scripting within Building Blocks. | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (65%) |
+| Script Editor | Implemented a new AI integration for scripting within Building Blocks. | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (64%) |
 | Script Editor | Revamped contexts, updating icons and buttons to improve usability. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (42%) |
-| Peakboard Hub | Implemented a new Hub Files Data source, enabling users to access file names and paths within a selected folder. | `review` | `content/_data_sources/Extension/en-Extension.md` (66%) |
-| SharePoint List | Improved support for non-generic lists in SharePoint to access meta information of SharePoint files. | `review` | `content/_data_sources/en-csv.md` (68%) |
+| Peakboard Hub | Implemented a new Hub Files Data source, enabling users to access file names and paths within a selected folder. | `review` | `content/_data_sources/Extension/en-Extension.md` (65%) |
+| SharePoint List | Improved support for non-generic lists in SharePoint to access meta information of SharePoint files. | `review` | `content/_data_sources/Excel/en-excel.md` (68%) |
 | Teams | The number of replies in a thread is displayed. | `review` | `content/_scripting/Basics/en-lua-values-types-indexing.md` (57%) |
 | Teams | Bugs have been fixed when retrieving messages from bots instead of users. | `review` | `content/_data_sources/Extension/en-DatasourceNoUI.md` (49%) |
 | Script Editor / Debug Panel | Implementation of a debug panel in the Peakboard Runtime, for the management of data sources and the execution of scripts during debugging. | `review` | `content/_administration/en-join-domain.md` (50%) |
 | Drawing area | Draw directly into your Peakboard applications. | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
-| BACnet datasource | New datasource to connect BACnet devices. | `documented` | `content/_data_sources/en-bacnet.md` (72%) |
+| BACnet datasource | New datasource to connect BACnet devices. | `documented` | `content/_data_sources/en-bacnet.md` (71%) |
 | Debug Panel | New possibility to analyse and debug applications. | `documented` | `content/_scripting/en-debug-panel.md` (100%) |
 | Peakboard Box | Allowed setting of default sound devices in the Box management dialog. | `documented` | `content/_edge/en-ManageEdge.md` (86%) |
 | Extensions | Number/string parameters can be displayed as a dropdown instead of a text field | `documented` | `content/_scripting/en-script-types.md` (100%) |
@@ -397,6 +396,7 @@ and write the article where there really is none.
 | Box Communication | Fixed the error where it was previously not possible to change the timeserver/timezone for a box connected via the cloud. | `fix` |  |
 | Box Communication | Resolved the issue where the Peakboard Box logs were not translated, and the header was cut in German. | `fix` |  |
 | Hub Flows | Fixed issue with merging the box Peakboard Hub snippets and removed unnecessary connection Hub functions. | `fix` |  |
+| Snippets / Building Blocks | Bugs fixed so that the QuickWrap and QuickAdd buttons are displayed correctly | `fix` |  |
 | Script Editor | Resolved bugs related to QuickWrap and local variable search functions | `fix` |  |
 | SharePoint List | Resolved issues with adding rows to SharePoint Lists through Snippets. | `fix` |  |
 | Resources | Fixed the drag-and-drop issues within subfolders under Resources. | `fix` |  |
@@ -413,13 +413,12 @@ and write the article where there really is none.
 | Peakboard Box | Resolution can be changed in the box management dialogue. Full HD is set by default. | `undocumented` |  |
 | Peakboard Box | Implemented lazy loading for Box Manage dialog to reduce load and improve performance with many boxes. | `undocumented` |  |
 | Peakboard Hub Flows | Use the full Power of the Peakboard Designer to create Workflows running in the Peakboard Hub. Send alerts, historize data or create a central broker for your PLCs. | `review` | `content/_hub/Flows/en-hub_flow-use-cases.md` (53%) |
-| Dataflow | Added update column to the menu in both Dataflow and Data source menus for consistency. | `review` | `content/_dataflows/en-getting-started.md` (50%) |
+| Dataflow | Added update column to the menu in both Dataflow and Data source menus for consistency. | `review` | `content/_data_sources/Basics/en-reloadflows.md` (50%) |
 | Dataflow | Improved the Dataflow column selection by allowing easy reference to current columns directly in the Filter UI. | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (61%) |
 | Dataflow | Screens can now be rearranged by dragging. | `review` | `content/_scripting/en-building-blocks.md` (52%) |
 | Designer | Added a right-click option to copy and match the style of Controls for easier customisation. | `review` | `content/_controls/Basics/en-cf.md` (57%) |
 | Designer | In styled lists, elements can now be moved forwards or backwards, just like in the main designer. | `review` | `content/_controls/Basics/en-general-properties.md` (64%) |
 | Designer | Template files being blurry within the Designer are sharp now. | `review` | `content/_controls/Common/en-tile-view.md` (52%) |
-| Peakboard Hub | Implemented Peakboard Hub as a new resource type. | `review` | `content/_scripting/Script Templates/en-error-handling.md` (59%) |
 | Peakboard Hub | Introduced the ability to add Hub flow lists as a Peakboard Hub List data source. | `review` | `content/_hub/Flows/en-hub_flow-use-cases.md` (58%) |
 | Peakboard Hub | Enabled storage and opening of pbmx files directly in the Peakboard Hub. | `review` | `content/_administration/en-faqsecurity.md` (59%) |
 | Peakboard Box | Removed time sync from management service. | `review` | `content/_administration/en-faqsecurity.md` (56%) |
@@ -433,8 +432,9 @@ and write the article where there really is none.
 | Dataflow | Added support for reordering elements in the template explorer via drag/drop for Dataflows and other elements. | `documented` | `content/_scripting/en-script-types.md` (71%) |
 | Designer | New formatting options for date and time added. | `documented` | `content/_controls/Basics/en-formating-values.md` (100%) |
 | Designer | A default data source for date is added in new projects. | `documented` | `content/_controls/Chart/en-timeline-grid.md` (100%) |
-| Peakboard Hub | Added central user management in the Peakboard Hub for the Peakboard devices. | `documented` | `content/_hub/Peakboard_Hub_online/en-get-started-online.md` (100%) |
-| Peakboard Box | Pages for the logs of the boxes implemented. | `documented` | `content/_controls/Input/en-button.md` (81%) |
+| Peakboard Hub | Implemented Peakboard Hub as a new resource type. | `documented` | `content/_controls/Input/en-button.md` (72%) |
+| Peakboard Hub | Added central user management in the Peakboard Hub for the Peakboard devices. | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-get-started.md` (100%) |
+| Peakboard Box | Pages for the logs of the boxes implemented. | `documented` | `content/_controls/Input/en-button.md` (80%) |
 | Office 365 | Improved error messages and default values for Teams data source operations. | `documented` | `content/_data_sources/Office365/en-microsoft-teams.md` (91%) |
 | Snippets / Building Blocks | Added a building block to fill a string with characters. | `documented` | `content/_controls/Document/en-google-docs.md` (77%) |
 | Dataflow | Fixed the context menu in Dataflow cells to work properly for columns added by "Add column" or a join step. | `fix` |  |
@@ -459,13 +459,13 @@ and write the article where there really is none.
 | Snippets / Building Blocks | Ensured consistent naming for email snippets. | `undocumented` |  |
 | Connections | Improved performance by adding caching for reading connections resulting in a massive boost in the script editor. | `undocumented` |  |
 | Setup | Removed unnecessary checkboxes from the installer. | `undocumented` |  |
-| Teams | Added coulumn topic. | `review` | `content/_data_sources/en-azure-iot-hub.md` (40%) |
+| Teams | Added coulumn topic. | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (40%) |
 | Teams | When pressing 'Retrieve teams data' the selected values are kept now. | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (54%) |
 | Mail O365 | Allow to retreive emails as HTML or plain text. | `review` | `content/_administration/en-user-administration.md` (58%) |
 | Mail O365 | Added Bulding Block to mark emails as read and move them to a different folder. | `review` | `content/_scripting/en-building-blocks.md` (59%) |
 | Peakboard Box | Prevented the multiple instances of Peakboard Runtime from starting. | `review` | `content/_data_sources/SAP/en-xql.md` (49%) |
-| Designer | Implemented two new Themes for the Designer. | `review` | `content/_controls/Chart/en-timeline-grid.md` (53%) |
-| Runtime | Created a snippet to bring the Runtime to the foreground. | `review` | `content/_scripting/en-runtime-window.md` (66%) |
+| Designer | Implemented two new Themes for the Designer. | `review` | `content/_controls/Chart/en-timeline-grid.md` (55%) |
+| Runtime | Created a snippet to bring the Runtime to the foreground. | `review` | `content/_scripting/en-runtime-window.md` (65%) |
 | Runtime | Allowed resizing of the window for BYOD devices. | `review` | `content/_administration/en-install-runtime.md` (54%) |
 | Runtime | Enabled opening of a pbmx file in the Runtime with a double-click. | `review` | `content/_controls/Extended/en-step-viewer.md` (76%) |
 | Runtime | Improved behavior by setting back to the default project if a project is broken. | `review` | `content/_controls/Document/en-pdf.md` (52%) |
@@ -476,16 +476,16 @@ and write the article where there really is none.
 | Teams | Removed HTML tags. | `documented` | `content/_apexboard/en-apexboard-capture.md` (100%) |
 | Teams | Added message ID return to the script and Building Block. | `documented` | `content/_controls/Document/en-pdf.md` (100%) |
 | Teams | Allow to set timeframe for messages like for mails. | `documented` | `content/_data_sources/Office365/en-microsoft-outlook.md` (100%) |
-| Mail O365 | Allows specifying a start and end date. | `documented` | `content/_data_sources/en-csv.md` (71%) |
+| Mail O365 | Allows specifying a start and end date. | `documented` | `content/_data_sources/Excel/en-excel.md` (71%) |
 | Designer | Changed the main UI for a more intuitive experience. | `documented` | `content/_get_started/en-quick-access-hotkeys.md` (78%) |
 | Designer | Allow to change properties of multiple controls together. | `documented` | `content/_controls/Basics/en-components.md` (100%) |
 | Designer | Changed the name of SharePoint to SharePoint Library. | `documented` | `content/_data_sources/Extension/en-MsGraphAPI.md` (100%) |
 | Designer | Input validation for control names added. | `documented` | `content/_controls/Input/en-textbox.md` (100%) |
 | Snippets / Building Blocks | Added a script/block to show the file name. | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
-| Resources | Allow to change the OneDrive path just like the SharePoint path. | `documented` | `content/_data_sources/en-xml.md` (100%) |
+| Resources | Allow to change the OneDrive path just like the SharePoint path. | `documented` | `content/_data_sources/Excel/en-excel.md` (100%) |
 | Resources | Removed Excel from the select data source dialog. | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
 | Resources | Selected SharePoint as the default data source. | `documented` | `content/_scripting/en-building-blocks.md` (100%) |
-| Resources | Improved the Office Resource section. | `documented` | `content/_resources/en-resources-tipp-sharepoint.md` (82%) |
+| Resources | Improved the Office Resource section. | `documented` | `content/_resources/en-resources-tipp-sharepoint.md` (81%) |
 | Microsoft Graph | Changed radio buttons to dropdown menus. | `documented` | `content/_scripting/en-script-types.md` (100%) |
 | Peakboard Box | Fixed an issue where the Management Service sometimes did not start if the time server was not reachable. | `fix` |  |
 | Designer | Fixes in the templates section on the home screen. | `fix` |  |
@@ -524,30 +524,30 @@ and write the article where there really is none.
 | Conditional Formatting | Operators have been matched to the data type of the column and "Contains," "StartWith," and "EndWith" added for string columns. | `review` | `content/_controls/Basics/en-cf.md` (50%) |
 | Conditional Formatting | Pressing the enter key while the data source selection popup is open will now select the highlighted data source instead of closing the entire dialog. | `review` | `content/_controls/Basics/en-general-properties.md` (43%) |
 | Data sources | Data grid for Headers now saves them when clicking into whitespace. | `review` | `content/_controls/Common/en-table-grid.md` (61%) |
-| Designer | Background image opacity is now adjustable in percentages (0-100) rather than the previous scale (0.1 - 1). | `review` | `content/_controls/Basics/en-general-properties.md` (41%) |
+| Designer | Background image opacity is now adjustable in percentages (0-100) rather than the previous scale (0.1 - 1). | `review` | `content/_controls/Basics/en-general-properties.md` (51%) |
 | Designer | Removed unnecessary property from the screen. | `review` | `content/_hub/Flows/en-hub_flow-use-cases.md` (52%) |
 | Designer | Switching the designer language now updates the YouTube videos on the home screen. | `review` | `content/_edge/en-ManageEdge.md` (52%) |
 | Designer | The splash screen now displays loading step texts instead of separate dialogs when a user opens a pbmx file directly. | `review` | `content/_data_sources/en-csv.md` (56%) |
 | Designer | The version warning popup now opens in front of the splash screen instead of behind it. | `review` | `content/_controls/Basics/en-general-properties.md` (55%) |
 | Dropdown | Changing the data source of a dropdown no longer causes the data/value databinding to be lost. | `review` | `content/_data_sources/SAP/en-xql.md` (61%) |
 | Global functions | Renaming a global function will now rename it on every place. | `review` | `content/_administration/en-user-administration.md` (49%) |
-| Hub list | Searching for hub lists by entering text is now possible. | `review` | `content/_scripting/en-building-blocks.md` (67%) |
-| JSON, CSV, XML | Cookies headers can now be defined. | `review` | `content/_scripting/en-quick-tipp-api-http-post.md` (45%) |
+| Hub list | Searching for hub lists by entering text is now possible. | `review` | `content/_controls/Input/en-button.md` (66%) |
+| JSON, CSV, XML | Cookies headers can now be defined. | `review` | `content/_scripting/Script Templates/en-call-http-request.md` (45%) |
 | Mail O365 | Initial implementation. | `review` | `content/_data_sources/Extension/en-DatasourceNoUI.md` (55%) |
 | Peakboard Box | Prevent updates to Peakboard Boxes smaller than PB7000. | `review` | `content/_administration/en-pb2USB.md` (44%) |
 | Rectangle | Ellipse and Line now allow the definition of a gradient. | `review` | `content/_controls/Shape/en-shapes.md` (45%) |
 | Scripting | Reworked runtime logging. | `review` | `content/_administration/en-proxy.md` (65%) |
-| Table | Columns are now bound to the name of the data source instead of the technical name. | `review` | `content/_data_sources/en-feed.md` (61%) |
+| Table | Columns are now bound to the name of the data source instead of the technical name. | `review` | `content/_data_sources/en-feed.md` (60%) |
 | ToDo | Initial implementation. | `review` | `content/_data_sources/Extension/en-DatasourceNoUI.md` (55%) |
 | Variable | Increased the window height. | `review` | `content/_scripting/Script Templates/en-auto-scroll.md` (67%) |
 | Calendar | Single tenant authentication is now allowed. | `documented` | `content/_controls/Extended/en-power-bi.md` (100%) |
-| Connection manager | Shared connections are now grouped by type and name after creation. | `documented` | `content/_controls/Common/en-tile-view.md` (71%) |
+| Connection manager | Shared connections are now grouped by type and name after creation. | `documented` | `content/_controls/Common/en-tile-view.md` (72%) |
 | Dataflow | The time filter with a time data source no longer requires an input format. | `documented` | `content/_controls/Input/en-datepicker.md` (100%) |
 | Designer | Added an option to choose a gradient for a screen background. | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | Designer | Additional options have been added to the recent files section. | `documented` | `content/_data_sources/en-mqtt.md` (85%) |
-| Dropdown | Data/value data binding is now possible with number variables/columns when the data source of the dropdown is a number column. | `documented` | `content/_controls/Input/en-dropdown.md` (89%) |
+| Dropdown | Data/value data binding is now possible with number variables/columns when the data source of the dropdown is a number column. | `documented` | `content/_controls/Basics/en-general-properties.md` (89%) |
 | Dropdown | Users can now differentiate between the display value and data value. | `documented` | `content/_hub/en-hub_files.md` (84%) |
-| Extensions | All errors in extensions are now shown in the runtime log. | `documented` | `content/_data_sources/en-odbc.md` (100%) |
+| Extensions | All errors in extensions are now shown in the runtime log. | `documented` | `content/_data_sources/Extension/en-Extension.md` (100%) |
 | Global functions | Functions can now be duplicated. | `documented` | `content/_scripting/en-script-types.md` (100%) |
 | Peakboard Box | Reworked the logging section in the box management dialog. | `documented` | `content/_administration/en-proxy.md` (89%) |
 | Reload flows | Full rework. | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
@@ -596,14 +596,11 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | Script Templates | The script templates have been fundamentally revised. | `undocumented` |  |
-| Button icons | The buttons now allow you to access our icon gallery. | `undocumented` |  |
-| General | [Button] Added the option to choose from the icon gallery. | `undocumented` |  |
 | General | [Peakbot] Removed due to providing unhelpful responses. | `undocumented` |  |
-| General | [Property Grid] Implemented basic numerical operations (+ - x /) in input fields for width/height/x/y. | `undocumented` |  |
 | General | [Snippets / Building Block] Organized Hub Connection Snippets/Building Block into a subfolder labeled "Connection". | `undocumented` |  |
 | Video Streams | The video control now enables access to video streams and YouTube videos. | `review` | `content/_controls/Media/en-video.md` (68%) |
 | General | [Video] The video player now allows live streams. | `review` | `content/_controls/Media/en-video.md` (64%) |
-| General | [Video] The video player now allows YouTube videos. | `review` | `content/_data_sources/en-forcam.md` (65%) |
+| General | [Video] The video player now allows YouTube videos. | `review` | `content/_data_sources/Office365/en-microsoft-calendar.md` (65%) |
 | General | [Oracle] Added a publish feature to the Oracle DB Building Block. | `review` | `content/_data_sources/en-oracle.md` (51%) |
 | General | [Designer] Added a global event for touchscreen taps. | `review` | `content/_scripting/en-script-types.md` (68%) |
 | General | [Designer] Enabled timer scripts to be enabled/disabled in the context menu, with disabled items appearing grey. | `review` | `content/_controls/Common/en-tile-view.md` (43%) |
@@ -611,23 +608,26 @@ and write the article where there really is none.
 | General | [Dropdown] Updated icons. | `review` | `content/_administration/en-web-access.md` (64%) |
 | General | [Explorer] Updated the "Text input" event to have the same name and icon in the explorer as it does in the context menu. | `review` | `content/_scripting/en-script-types.md` (71%) |
 | General | [Format] Improved the ability to convert negative timespans. | `review` | `content/_apexboard/en-apexboard-peakboard-hub.md` (43%) |
-| General | [Group] Enabled the ability to print a group on the default printer. | `review` | `content/_scripting/Basics/en-lua-regex.md` (45%) |
+| General | [Group] Enabled the ability to print a group on the default printer. | `review` | `content/_scripting/Basics/en-lua-regex.md` (46%) |
 | General | [Image] Added appearance options to the image control: Opacity, Stretch, Corner Radius. | `review` | `content/_controls/Media/en-image.md` (67%) |
 | General | [PowerBI] Enabled the ability to set filters and make report settings scriptable. | `review` | `content/_controls/Extended/en-power-bi.md` (43%) |
 | General | [PowerBI] Reworked dialog style. | `review` | `content/_controls/Extended/en-power-bi.md` (61%) |
+| General | [Property Grid] Implemented basic numerical operations (+ - x /) in input fields for width/height/x/y. | `review` | `content/_controls/Basics/en-general-properties.md` (49%) |
 | General | [Script editor] Updated functionality so that pressing the "Save and close" button does not show the "Do you want to save your changes?" dialog. | `review` | `content/_controls/Media/en-video.md` (66%) |
 | General | [Snippets / Building Block] Added an "Insert Row" Building Block for Variable Lists. | `review` | `content/_scripting/en-publish-external.md` (65%) |
 | General | [Snippets / Building Block] Created a snippet to print the current screenshot on the default printer. | `review` | `content/_controls/Input/en-drawing-area.md` (57%) |
 | General | [Snippets / Building Block] Enabled the option to check modifiers (Shift, Control, etc.) for the key pressed event. | `review` | `content/_scripting/Script Templates/en-keyboard-input.md` (64%) |
 | General | [Snippets / Building Block] Provided default sounds alongside custom resource files for play sound functionality. | `review` | `content/_controls/Media/en-video.md` (54%) |
 | General | [Table] Improved performance when dragging a datasource with many columns to only take the first 30 columns. | `review` | `content/_controls/Extended/en-step-viewer.md` (60%) |
-| General | [Textbox] Updated Regex validation so that invalid border color disappears as soon as the entered value is valid, not just after clicking outside/entering. | `review` | `content/_controls/Input/en-textbox.md` (64%) |
+| General | [Textbox] Updated Regex validation so that invalid border color disappears as soon as the entered value is valid, not just after clicking outside/entering. | `review` | `content/_controls/Input/en-textbox.md` (65%) |
 | General | [Tile / TileView / ListView] Improved scrolling performance for Styled Lists. | `review` | `content/_controls/Common/en-tile-view.md` (59%) |
 | General | [Variable] Prompted the user to add columns as well or just the data in the existing structure. | `review` | `content/_resources/en-resources-tipp-sharepoint.md` (49%) |
+| Button icons | The buttons now allow you to access our icon gallery. | `documented` | `content/_controls/Input/en-button.md` (87%) |
 | General | [Box communication] Allowed updates with warnings even if the version is not newer. | `documented` | `content/_administration/en-install-runtime.md` (80%) |
 | General | [Button] Added the ability to change the size and alignment of icons in buttons. | `documented` | `content/_controls/Document/en-google-docs.md` (100%) |
-| General | [Group] Allowed sending a screenshot of a group via email. | `documented` | `content/_scripting/en-building-blocks.md` (85%) |
-| General | [Scripting] Allowed the use of '.' in text input events. | `documented` | `content/_controls/Input/en-button.md` (100%) |
+| General | [Button] Added the option to choose from the icon gallery. | `documented` | `content/_controls/Input/en-button.md` (83%) |
+| General | [Group] Allowed sending a screenshot of a group via email. | `documented` | `content/_scripting/Script Templates/en-email.md` (85%) |
+| General | [Scripting] Allowed the use of '.' in text input events. | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | Hotfix 3.10.1.0 | Fix for an error message for the box connection that occurred irregularly. | `fix` |  |
 | General | [Box communication] Fixed a bug that prevented exporting Box settings if the box was not available. | `fix` |  |
 | General | [Box communication] Fixed a bug where downloading a PBMX from a cloud-connected box failed. | `fix` |  |
@@ -692,13 +692,13 @@ and write the article where there really is none.
 | Script tester | Use the script tester to see at a glance whether your script is working correctly. By using logs, you can also display the output. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (52%) |
 | Data sources dialog | Our new data source dialog makes it even easier and clearer to find the right data source for your application. | `review` | `content/_get_started/en-quick-access-hotkeys.md` (53%) |
 | General | [Peakboard Box] - Revision of the initial Peakboard Box screen | `review` | `content/_get_started/en-peakboard-box.md` (50%) |
-| General | [Peakboard Box settings] - Added option to cancel if Peakboard Designer and Peakboard Box have a different version number | `review` | `content/_edge/en-ManageEdge.md` (52%) |
+| General | [Peakboard Box settings] - Added option to cancel if Peakboard Designer and Peakboard Box have a different version number | `review` | `content/_edge/en-ManageEdge.md` (53%) |
 | General | [Peakboard Box settings] - Dialog behaviour optimized when using relevant user names of the user administration | `review` | `content/_data_sources/en-siemens-s7.md` (52%) |
 | General | [Explorer] - UX improvement that allows selected controls in Explorer to be moved on the workspace using the arrow keys | `review` | `content/_controls/Common/en-tile-view.md` (68%) |
 | General | [Explorer] - Data source type is now only displayed as a tooltip to improve the overview | `review` | `content/_data_sources/Extension/en-Functions.md` (65%) |
 | General | [Explorer] - Opened and closed folders are displayed in the same way when the program is restarted | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (50%) |
 | General | [Explorer] - UX improvement of the cursor behavior | `review` | `content/_scripting/en-script-tree.md` (65%) |
-| General | [Explorer] - Tag function (colored markers) and associated filter function added for elements in Explorer | `review` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (41%) |
+| General | [Explorer] - Tag function (colored markers) and associated filter function added for elements in Explorer | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (41%) |
 | General | [Fonts] - Default name is assigned when copying a font based on the name of the copied font | `review` | `content/_controls/Basics/en-fonts.md` (55%) |
 | Data sources | [CSV]/[JSON]/[XML] - Fix for a bug where loaded data is no longer displayed after reopening the data source dialog | `review` | `content/_data_sources/Basics/en-xml-data.md` (54%) |
 | Data sources | [MQTT] / [OPC UA] - Fix for a bug where triggering a reload flow without a data change did not work | `review` | `content/_data_sources/Basics/en-reloadflows.md` (71%) |
@@ -708,7 +708,7 @@ and write the article where there really is none.
 | Controls | [Styled tile] / [Styled tile collection] / [Styled list] - Simplified script tree access to correct data | `review` | `content/_controls/Basics/en-general-properties.md` (61%) |
 | Controls | [Styled tile] / [Styled tile collektion] / [Styled list] - Drag and drop functionality between controls added | `review` | `content/_controls/Common/en-tile-view.md` (66%) |
 | Scripting | [Conditional formatting] - Enabled setting of text formats via conditional formatting | `review` | `content/_controls/Basics/en-groups.md` (68%) |
-| Scripting | [Building blocks] - Script tree simplified | `review` | `content/_data_sources/en-bacnet.md` (49%) |
+| Scripting | [Building blocks] - Script tree simplified | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (49%) |
 | Scripting | [Script editor] - Added warning before deleting used elements | `review` | `content/_dataflows/en-edit-columns.md` (62%) |
 | Scripting | [Script editor] - Event section for refreshed scripts with data of the source to which the script belongs | `review` | `content/_data_sources/en-peakboard-hub-list.md` (71%) |
 | Scripting | [Script editor] - Naming adjustments SQL Server | `review` | `content/_scripting/en-building-blocks.md` (68%) |
@@ -766,90 +766,87 @@ and write the article where there really is none.
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - Definition of nested tables for function modules implemented in XQL | `undocumented` |  |
 | Dataflows | UX improvements for the UI | `undocumented` |  |
 | Controls | [Webpage](/controls/Extended/en-webpage.html) - Cookies, cache and deletion option added | `undocumented` |  |
-| Controls | [Table](/controls/Common/en-table-grid.html) - Fix for a bug where tables were unintentionally reset completely when the data source was renamed | `undocumented` |  |
 | Beckhoff TwinCAT 3 | The new Beckhoff TwinCAT 3 data source enables you to connect TwinCAT PLCs with Peakboard. | `review` | `content/_scripting/en-publish-external.md` (68%) |
 | General | [Peakboard Designer] - Added filter and autocomplete to drop-down menus | `review` | `content/_scripting/en-script-editor.md` (61%) |
 | General | [Peakboard Box] - File upload can be canceled | `review` | `content/_controls/Input/en-drawing-area.md` (48%) |
-| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Instance number converted to input field | `review` | `content/_controls/Basics/en-components.md` (69%) |
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - truncation of XQL RETVAL columns | `review` | `content/_data_sources/SAP/en-xql.md` (56%) |
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - Improving the handling of exceptions in XQL functions when calling the execute method | `review` | `content/_scripting/Script Templates/en-call-sap-function-module.md` (55%) |
-| Data sources | [SQL-Server](/data_sources/en-ms-sql-server.html) - Fix for a bug where null values crashed the debug mode | `review` | `content/_scripting/en-debug-panel.md` (42%) |
 | Controls | [Drop-down](/controls/Input/en-dropdown.html) - standard height increased | `review` | `content/_controls/Document/en-google-docs.md` (58%) |
-| Controls | [PDF](/controls/Document/en-pdf.html) - Fix for a bug that occurred in the Peakboard Designer and the preview when PDF files were to be retrieved from certain locations | `review` | `content/_resources/en-resources-tipp-sharepoint.md` (52%) |
-| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Try Catch blocks implemented - more information in the highlights | `review` | `content/_controls/Input/en-button.md` (67%) |
-| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Building block that reloads and waits for data implemented | `review` | `content/_scripting/en-building-blocks.md` (64%) |
+| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Try Catch blocks implemented - more information in the highlights | `review` | `content/_controls/Input/en-button.md` (66%) |
+| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Building block that reloads and waits for data implemented | `review` | `content/_scripting/en-building-blocks.md` (65%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Placeholder for default values integrated | `review` | `content/_scripting/en-building-blocks.md` (70%) |
-| Resources | Resources that are linked to controls are automatically reloaded when they are replaced | `review` | `content/_data_sources/en-csv.md` (55%) |
+| Resources | Resources that are linked to controls are automatically reloaded when they are replaced | `review` | `content/_data_sources/Excel/en-excel.md` (55%) |
 | Dataflows in the data source dialog | You can now create dataflows directly from the data source dialog to process the raw data from your data sources even faster. | `documented` | `content/_get_started/en-quick-access-hotkeys.md` (73%) |
 | Try catch building blocks | You can now create try catch building blocks to handle errors. | `documented` | `content/_scripting/Script Templates/en-error-handling.md` (74%) |
 | General | [Attributes] - UI improvements for corner radii | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
-| General | [Peakboard BYOD setup] - Uninstaller implemented | `documented` | `content/_administration/en-install-silent.md` (71%) |
+| General | [Peakboard BYOD setup] - Uninstaller implemented | `documented` | `content/_administration/en-install-silent.md` (73%) |
 | General | [Peakboard Designer] - UX improvements for scroll and zoom function | `documented` | `content/_controls/Extended/en-webpage.md` (100%) |
 | General | [Peakboard Designer] - Added conditional formatting for groups | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | General | [Peakboard Box] - Improvements for error messages | `documented` | `content/_administration/en-adding.md` (100%) |
 | General | [Peakboard Runtime] - Default background color for filled areas changed to black | `documented` | `content/_get_started/en-peakboard-byod.md` (77%) |
-| General | [Web Access](/administration/en-web-access.html) - Fix for a bug where projects could not be deleted from Peakboard Boxes | `documented` | `content/_administration/en-user-administration.md` (84%) |
 | Data sources | New data source: Beckhoff TwinCAT 3 - more information in the highlights | `documented` | `content/_scripting/en-publish-external.md` (74%) |
 | Data sources | [CSV](/data_sources/en-csv.html) & [JSON](/data_sources/en-json.html) - Fix for a bug where changes to data sources were not saved correctly | `documented` | `content/_administration/en-faqsecurity.md` (74%) |
 | Data sources | [Excel](/data_sources/Excel/en-excel.html) - Available worksheets are loaded automatically | `documented` | `content/_data_sources/Excel/en-excel.md` (82%) |
-| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Fix for a bug in the SAP connection | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
-| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Support of CHANGING parameters in functions implemented | `documented` | `content/_data_sources/Extension/en-Extension.md` (71%) |
+| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Instance number converted to input field | `documented` | `content/_controls/Basics/en-general-properties.md` (73%) |
+| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Support of CHANGING parameters in functions implemented | `documented` | `content/_scripting/Script Templates/en_modbus.md` (77%) |
 | Dataflows | UX improvements for context menus in data sources | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
-| Dataflows | Dataflow type is displayed as a tooltip | `documented` | `content/_data_sources/Extension/en-Functions.md` (75%) |
+| Dataflows | Dataflow type is displayed as a tooltip | `documented` | `content/_data_sources/Extension/en-Functions.md` (74%) |
 | Dataflows | Improvements in the filter area | `documented` | `content/_administration/en-certificates.md` (100%) |
-| Controls | [Date picker](/controls/Input/en-datepicker.html) & [Time picker](/controls/Input/en-timepicker.html) - Range selection enabled | `documented` | `content/_controls/Input/en-datepicker.md` (72%) |
+| Controls | [Date picker](/controls/Input/en-datepicker.html) & [Time picker](/controls/Input/en-timepicker.html) - Range selection enabled | `documented` | `content/_controls/Input/en-datepicker.md` (71%) |
 | Controls | [Chart](/controls/Chart/en-chart.html) - Color palettes removed | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
-| Controls | [Styled tile/Styled tile collection/Styled list] - QR codes implemented | `documented` | `content/_controls/Basics/en-general-properties.md` (81%) |
-| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where it was not possible to export data of type SAP or SQL Server to a list or the Peakboard Hub | `documented` | `content/_scripting/en-variables.md` (85%) |
-| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where some properties could not be changed via script | `documented` | `content/_controls/Document/en-pdf.md` (100%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug that was triggered by syntax | `documented` | `content/_scripting/en-script-editor.md` (72%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug where an old UI was used | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
+| Controls | [Styled tile/Styled tile collection/Styled list] - QR codes implemented | `documented` | `content/_controls/Basics/en-general-properties.md` (82%) |
 | Scripting | [Script editor](/scripting/en-script-editor.html) - Improvements for Intellisense for large scripts | `documented` | `content/_scripting/en-script-editor.md` (74%) |
 | Scripting | [Script editor](/scripting/en-script-editor.html) - Script editor is started in full screen mode | `documented` | `content/_scripting/en-script-types.md` (100%) |
-| Scripting | New timer script type [manual] implemented | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (92%) |
+| Scripting | New timer script type [manual] implemented | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (91%) |
 | General | [Management service] - Fix for a bug where the management service would not start | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where some projects could not be opened if the language of the Peakboard Designer was set to [Chinese] | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug that occurred during upload and preview | `fix` |  |
 | General | [Peakboard Designer] - Fix for incorrect behavior of controls that were inserted into templates | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where hotkeys did not work correctly | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where grouped objects were positioned incorrectly | `fix` |  |
+| General | [Web Access](/administration/en-web-access.html) - Fix for a bug where projects could not be deleted from Peakboard Boxes | `fix` |  |
 | Data sources | Fix for a bug where problems occurred when column names contained the character [/] | `fix` |  |
+| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Fix for a bug in the SAP connection | `fix` |  |
+| Data sources | [SQL-Server](/data_sources/en-ms-sql-server.html) - Fix for a bug where null values crashed the debug mode | `fix` |  |
 | Dataflows | Fix for a bug where the [Filter by date/time columns] step did not work correctly | `fix` |  |
 | Dataflows | Fix for a bug where the [Switch rows/columns] step did not work correctly | `fix` |  |
+| Controls | [PDF](/controls/Document/en-pdf.html) - Fix for a bug that occurred in the Peakboard Designer and the preview when PDF files were to be retrieved from certain locations | `fix` |  |
+| Controls | [Table](/controls/Common/en-table-grid.html) - Fix for a bug where tables were unintentionally reset completely when the data source was renamed | `fix` |  |
 | Scripting | Fix for a bug where validation stopped working when parameters were used and referenced | `fix` |  |
+| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where it was not possible to export data of type SAP or SQL Server to a list or the Peakboard Hub | `fix` |  |
+| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Fix for a bug where some properties could not be changed via script | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug that was triggered by syntax | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug where an old UI was used | `fix` |  |
 
 ## 3.7.0.4 (05.02.2024)
 
 | section | entry | verdict | article |
 |---|---|---|---|
 | Data sources | [Microsoft Graph](/data_sources/Extension/en-MsGraphAPI.html) - Implemented automatic token renewal for expired tokens | `undocumented` |  |
-| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the comparison operator disappeared when the dialog was closed and reopened | `undocumented` |  |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Stringbuilder revised | `undocumented` |  |
-| Resources | [Network resources](/resources/en-resources-network.html) - Fix for a bug regarding invalid UNC paths | `undocumented` |  |
 | Resources | Improvement of the localization | `undocumented` |  |
-| Building block global functions | Global functions can be shared. This allows you to call them from outside. To make it even easier to call them from another Peakboard Box, you now have the option of accessing the existing global functions of another Peakboard Box directly via a building block. | `review` | `content/_misc/en-API.md` (59%) |
+| Building block global functions | Global functions can be shared. This allows you to call them from outside. To make it even easier to call them from another Peakboard Box, you now have the option of accessing the existing global functions of another Peakboard Box directly via a building block. | `review` | `content/_misc/en-API.md` (58%) |
 | Building block add/replace Peakboard Hub list | Peakboard Hub lists offer the most elegant way to store data for Peakboard. With the new building block, it is now even easier to convert a data source or a variable list into a Peakboard Hub List. | `review` | `content/_scripting/en-publish-external.md` (57%) |
 | JSON Parser | JSON is the most common data structure in modern IT systems. In order to be able to work easily with JSON data, there is now a building block in which you can enter a JSON path and obtain the value from it. | `review` | `content/_scripting/en-building-blocks.md` (43%) |
 | General | [Peakboard Designer Setup] - UI/UX improvement of the start animation | `review` | `content/_controls/Chart/en-chart.md` (50%) |
 | General | [Peakboard Designer] - Added update hint when opening projects from older Peakboard Designer versions | `review` | `content/_administration/en-install-silent.md` (52%) |
 | General | [Peakboard Designer] - Improved integration of YouTube videos in the start dialog | `review` | `content/_data_sources/Office365/en-microsoft-calendar.md` (65%) |
-| General | [Peakboard Designer] - Timeserver is automatically removed from older projects as it is no longer used | `review` | `content/_data_sources/en-date-and-time.md` (56%) |
-| General | [Peakboard Designer] - Implemented different taskbar program icons for Peakboard Runtime and Peakboard Designer | `review` | `content/_get_started/en-peakboard-byod.md` (62%) |
+| General | [Peakboard Designer] - Timeserver is automatically removed from older projects as it is no longer used | `review` | `content/_data_sources/en-date-and-time.md` (55%) |
+| General | [Peakboard Designer] - Implemented different taskbar program icons for Peakboard Runtime and Peakboard Designer | `review` | `content/_get_started/en-peakboard-byod.md` (64%) |
 | General | [Peakboard Box settings] - When resetting a Peakboard Box, it is completely removed from the Peakboard Box settings, as it must be added again and the password must be reset | `review` | `content/_data_sources/en-peakboard-data-source.md` (65%) |
 | General | [Peakboard Box settings] - UX improvement of the error behavior of the screenshot display | `review` | `content/_controls/Document/en-google-docs.md` (66%) |
-| General | [Peakboard Box] - Optimization of the error messages of the communication between Peakboard Box and Peakboard Hub online | `review` | `content/_administration/en-ports-and-network-traffic.md` (57%) |
+| General | [Peakboard Box] - Optimization of the error messages of the communication between Peakboard Box and Peakboard Hub online | `review` | `content/_administration/en-ports-and-network-traffic.md` (56%) |
 | General | [Peakboard Box] - Displaying the system time in the debug panel enabled | `review` | `content/_scripting/en-debug-panel.md` (48%) |
 | General | [Peakboard Box] - Memory usage of Peakboard processes is displayed in the debug panel | `review` | `content/_data_sources/Extension/en-Tableau.md` (47%) |
 | General | [Peakboard BYOD] - Updated information on access data | `review` | `content/_administration/en-ports-and-network-traffic.md` (64%) |
-| General | Format dialog added localization option for formats | `review` | `content/_administration/en-certificates.md` (43%) |
+| General | Format dialog added localization option for formats | `review` | `content/_administration/en-certificates.md` (44%) |
 | Data sources | [Azure IoT Hub](/data_sources/en-azure-iot-hub.html) - Azure IoT Hub Tester removed | `review` | `content/_data_sources/en-mqtt.md` (63%) |
-| Data sources | [Date and Time](/data_sources/en-date-and-time.html) - Fix for a bug where the time could not be edited if the default time zone was not selected | `review` | `content/_data_sources/en-date-and-time.md` (64%) |
 | Data sources | [Extensions](/data_sources/Extension/en-Extension.html) - Behavior of error messages improved | `review` | `content/_controls/Input/en-slider.md` (68%) |
-| Data sources | [JSON](/data_sources/en-json.html) - Path selection field revised and made dynamic/scriptable | `review` | `content/_data_sources/en-mqtt.md` (41%) |
+| Data sources | [JSON](/data_sources/en-json.html) - Path selection field revised and made dynamic/scriptable | `review` | `content/_data_sources/Basics/en-xml-data.md` (41%) |
 | Data sources | [MQTT](/data_sources/en-mqtt.html) - Added minimum width and scrollbar for columns in the preview of the data source | `review` | `content/_get_started/en-visualization.md` (57%) |
 | Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - UX improvements in conditional formatting | `review` | `content/_data_sources/en-peakboard-hub-list.md` (60%) |
-| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Implemented checkbox instead of input field for values of type Boolean | `review` | `content/_controls/Input/en-checkbox.md` (59%) |
-| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Revised comparison operators | `review` | `content/_dataflows/en-filter-and-sort.md` (49%) |
+| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Implemented checkbox instead of input field for values of type Boolean | `review` | `content/_controls/Input/en-checkbox.md` (60%) |
+| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Revised comparison operators | `review` | `content/_data_sources/SAP/en-xql.md` (49%) |
 | Data sources | [Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - Empty lists are displayed as an empty table instead of triggering an error message | `review` | `content/_controls/Document/en-pdf.md` (58%) |
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - Extension of functionality to load table data from variable lists into functions | `review` | `content/_data_sources/en-peakboard-hub-list.md` (55%) |
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - Added support for writing table-like parameters to variable lists | `review` | `content/_misc/en-API.md` (71%) |
@@ -858,21 +855,16 @@ and write the article where there really is none.
 | Dataflows | Added validation input field in filter step | `review` | `content/_controls/Input/en-textbox.md` (68%) |
 | Dataflows | Dataflow name converted to mandatory field | `review` | `content/_dataflows/en-edit-columns.md` (65%) |
 | Controls | [Combobox] - Revision of the loading behavior of the selection changed event | `review` | `content/_controls/Media/en-video.md` (46%) |
-| Controls | [Charts] - Creation of a time axis implemented | `review` | `content/_controls/Chart/en-chart.md` (54%) |
+| Controls | [Charts] - Creation of a time axis implemented | `review` | `content/_controls/Chart/en-chart.md` (55%) |
 | Controls | [Charts] - Extensive UI revision | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (54%) |
-| Controls | [Styled tile/Styled tile collection/Styled list] - Fix for a bug that occurred with scripted copied lists | `review` | `content/_controls/Basics/en-general-properties.md` (56%) |
-| Controls | [Styled tile/Styled tile collection/Styled list] - Fix for a bug where the connection of a data source was aborted when it was renamed | `review` | `content/_controls/Common/en-tile-view.md` (59%) |
 | Controls | [Styled tile/Styled tile collection/Styled list] - Conditional templates dialog revised | `review` | `content/_controls/Common/en-tile-view.md` (78%) |
 | Controls | [Webpage] - Enabled access to currently displayed URL of the browser via script | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_installation.md` (64%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline.html) - Fix for an error that occurred with incorrectly sorted data | `review` | `content/_controls/Chart/en-chart.md` (59%) |
 | Controls | Corner radii can be set individually for single corners | `review` | `content/_controls/Chart/en-chart.md` (63%) |
-| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Fix for a bug that occurred when trying to connect two building blocks | `review` | `content/_resources/en-resources-network.md` (55%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - New building block for copying the data of a variable list into a [Peakboard hub list](/data_sources/en-peakboard-hub-list.html) | `review` | `content/_data_sources/en-peakboard-hub-list.md` (75%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Functionality of the [Copy list] building block extended | `review` | `content/_controls/Input/en-checkbox.md` (59%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Added new building block for emptying Peakboard hub lists | `review` | `content/_data_sources/en-peakboard-hub-list.md` (57%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Added support for number type inputs to the text merge block | `review` | `content/_scripting/en-building-blocks.md` (63%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - New JSON path block via which a JSON path can be entered and the value of the JSON is returned | `review` | `content/_scripting/en-building-blocks.md` (66%) |
-| Resources | Names can no longer be assigned twice to avoid errors | `review` | `content/_controls/Input/en-datepicker.md` (55%) |
 | General | [Peakboard Designer] - Preview time extended to 30 min | `documented` | `content/_data_sources/Extension/en-Tableau.md` (100%) |
 | General | [Peakboard Designer] - UI/UX improvements in the attributes | `documented` | `content/_controls/Basics/en-cf.md` (100%) |
 | General | [Peakboard Designer] - General improvements to the Quick Access Bar | `documented` | `content/_get_started/en-peakboard-designer.md` (100%) |
@@ -880,13 +872,9 @@ and write the article where there really is none.
 | General | [Peakboard Box]/[Peakboard BYOD] - Peakboard Box ID and license can still be changed after adding a Peakboard Box | `documented` | `content/_administration/en-user-administration.md` (100%) |
 | Data sources | [Extensions](/data_sources/Extension/en-Extension.html) - Error messages improved | `documented` | `content/_controls/Input/en-slider.md` (100%) |
 | Data sources | [JSON](/data_sources/en-json.html) - HTTP PATCH request added | `documented` | `content/_scripting/Script Templates/en-call-http-request.md` (92%) |
-| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to load Peakboard Hub data | `documented` | `content/_data_sources/en-peakboard-hub-list.md` (100%) |
-| Data sources | [Reload Flows](/data_sources/Basics/en-reloadflows.html) - Fix for UI error | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
-| Data sources | [Rockwell](/data_sources/en-rockwell.html) - Fix for a bug in the data source | `documented` | `content/_scripting/en-publish-external.md` (100%) |
-| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Fix for a bug where parameters could be used multiple times | `documented` | `content/_data_sources/SAP/en-xql.md` (100%) |
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - execution of XQL statements with multiple return values enabled | `documented` | `content/_data_sources/en-ms-sql-server.md` (81%) |
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - Error messages improved | `documented` | `content/_administration/en-certificates.md` (100%) |
-| Data sources | Reload state [Manual] added | `documented` | `content/_data_sources/en-bacnet.md` (100%) |
+| Data sources | Reload state [Manual] added | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
 | Data sources | Added support for creating dataflows directly from the preview of data sources | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
 | Data sources | Dialog is automatically closed when a dataflow is added via the context menu in the preview | `documented` | `content/_get_started/en-quick-access-hotkeys.md` (100%) |
 | Dataflows | General performance improvements | `documented` | `content/_controls/Extended/en-step-viewer.md` (77%) |
@@ -894,14 +882,14 @@ and write the article where there really is none.
 | Controls | [Date Picker] - Connection of time data sources as minimum and maximum date enabled | `documented` | `content/_controls/Input/en-datepicker.md` (79%) |
 | Controls | [Charts] - New attribute [label width] added | `documented` | `content/_controls/Chart/en-chart.md` (73%) |
 | Controls | [Drop down] - UI improvements | `documented` | `content/_administration/en-certificates.md` (100%) |
-| Controls | [Styled tile/Styled tile collection/Styled list] - Fix for a bug where scripts were not executed correctly | `documented` | `content/_controls/Basics/en-general-properties.md` (78%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Added formatting options for the time data source | `documented` | `content/_controls/Input/en-timepicker.md` (100%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - UI improvements | `documented` | `content/_controls/Document/en-pdf.md` (100%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Added building block to execute a global function from another Peakboard Box | `documented` | `content/_scripting/Script Templates/en-global-function.md` (72%) |
-| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Added PATCH as HTTP request method | `documented` | `content/_scripting/en-publish-external.md` (85%) |
+| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Added PATCH as HTTP request method | `documented` | `content/_scripting/en-publish-external.md` (84%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Added new block to change the date format of a string | `documented` | `content/_scripting/en-script-tree.md` (100%) |
 | Scripting | [Script editor](/scripting/en-script-editor.html) - Building block mode set as default | `documented` | `content/_scripting/en-building-blocks.md` (100%) |
 | Resources | General performance improvements | `documented` | `content/_controls/Extended/en-step-viewer.md` (77%) |
+| Resources | Names can no longer be assigned twice to avoid errors | `documented` | `content/_controls/Basics/en-general-properties.md` (77%) |
 | Hotfix 3.7.0.4 | [Peakboard Box] - Fix for a bug where licenses disappeared when an update for the Peakboard Box was installed | `fix` |  |
 | Hotfix 3.7.0.3 | [Resources] - Fix for a bug that occurred with resources containing special characters | `fix` |  |
 | Hotfix 3.7.0.2 | [Resources] - Fix for a bug that occurred when using Excel cloud resources | `fix` |  |
@@ -920,6 +908,12 @@ and write the article where there really is none.
 | General | [Peakboard BYOD] - Fix for a bug where leaving the password field blank resulted in an error instead of opening the dialog to enter a new password | `fix` |  |
 | General | [Peakboard BYOD] - Fix for a bug where users who were not a local windows admin could not set the license and Peakboard Box ID | `fix` |  |
 | Data sources | Fix for a bug where not all special characters were allowed in the password field of data sources | `fix` |  |
+| Data sources | [Date and Time](/data_sources/en-date-and-time.html) - Fix for a bug where the time could not be edited if the default time zone was not selected | `fix` |  |
+| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the comparison operator disappeared when the dialog was closed and reopened | `fix` |  |
+| Data sources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to load Peakboard Hub data | `fix` |  |
+| Data sources | [Reload Flows](/data_sources/Basics/en-reloadflows.html) - Fix for UI error | `fix` |  |
+| Data sources | [Rockwell](/data_sources/en-rockwell.html) - Fix for a bug in the data source | `fix` |  |
+| Data sources | [SAP](/data_sources/SAP/en-sap.html) - Fix for a bug where parameters could be used multiple times | `fix` |  |
 | Dataflows | Fix for a bug where the Parse JSON step was not working properly | `fix` |  |
 | Dataflows | Fix for a bug that occurred when the [Add column] step was called via the quick add area | `fix` |  |
 | Dataflows | Fix for a bug where dataflows could be activated by script but not deactivated | `fix` |  |
@@ -941,16 +935,22 @@ and write the article where there really is none.
 | Controls | [Excel chart] - Fix for a bug where it was not possible to select a worksheet or chart | `fix` |  |
 | Controls |  [Linear gauge] - Fix for a bug where the chart was not displayed correctly when transparent was selected as the blank color | `fix` |  |
 | Controls | [PDF] - Fix for a bug where scaling did not work correctly in the application | `fix` |  |
+| Controls | [Styled tile/Styled tile collection/Styled list] - Fix for a bug that occurred with scripted copied lists | `fix` |  |
+| Controls | [Styled tile/Styled tile collection/Styled list] - Fix for a bug where the connection of a data source was aborted when it was renamed | `fix` |  |
+| Controls | [Styled tile/Styled tile collection/Styled list] - Fix for a bug where scripts were not executed correctly | `fix` |  |
 | Controls | [Table] - Fix for a bug where cell spacing behavior was not working properly | `fix` |  |
 | Controls | [Table] - Fix for a bug that occurred when trying to edit the columns even though no data source was connected | `fix` |  |
 | Controls | [Table] - Fix for a bug that destroyed the layout of a connected table when a list was renamed | `fix` |  |
 | Controls | [Text box] - Fix for a bug where validation did not work for a connected data source | `fix` |  |
 | Controls | [Video] - Fix for a bug that occurred when adding a new video control  | `fix` |  |
 | Controls | [Webpage] - Fix for a bug that occurred when the redirect occurred before the page was fully loaded | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline.html) - Fix for an error that occurred with incorrectly sorted data | `fix` |  |
 | Scripting | Fix for a bug where error messages were logged without the event location of the error | `fix` |  |
 | Scripting | Fix for a bug with chache keys of list elements | `fix` |  |
 | Scripting | Fix for a bug where tapped event scripts were unintentionally duplicated and saved | `fix` |  |
+| Scripting | [Building blocks](/scripting/en-building-blocks.html) - Fix for a bug that occurred when trying to connect two building blocks | `fix` |  |
 | Scripting | [Global functions] - Fix for a bug where the parameters of global functions with the boolean data type could not be copied and pasted | `fix` |  |
+| Resources | [Network resources](/resources/en-resources-network.html) - Fix for a bug regarding invalid UNC paths | `fix` |  |
 
 ## 3.6.3.0 (21.11.2023)
 
@@ -959,54 +959,29 @@ and write the article where there really is none.
 | Datasources | [Excel](/data_sources/Excel/en-excel.html) - Error messages for incorrect loading revised | `undocumented` |  |
 | Scripting | [Global Functions] - UI of the settings dialog extensively revised | `undocumented` |  |
 | Resources | General minor improvements | `undocumented` |  |
-| General | [Peakboard Designer] - Check for reflected elements implemented | `review` | `content/_controls/Input/en-button.md` (61%) |
+| General | [Peakboard Designer] - Check for reflected elements implemented | `review` | `content/_controls/Input/en-button.md` (60%) |
 | General | [Peakboard Designer] - Peakboard Hub link points to the respective page of the Peakboard Boxes in the Peakboard Hub | `review` | `content/_hub/en-hub_variables.md` (73%) |
-| General | [Peakboard Designer] - Loading bar implemented when opening projects | `review` | `content/_scripting/en-debug-panel.md` (69%) |
-| General | [Peakboard Designer] - Implemented automatic maximizing at the edge of the screen | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (49%) |
-| Datasources | [Odata](/data_sources/en-odata.html) - Dynamic filtering implemented | `review` | `content/_data_sources/en-odata.md` (52%) |
-| Datasources | [JSON](/data_sources/en-json.html) - Fix for a bug where JSON was not working properly for data sources with arrays | `review` | `content/_data_sources/en-json.md` (64%) |
-| Datasources | [Peakboard hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where when adding a boolean value in the filter, the initial value was null instead of false | `review` | `content/_controls/Input/en-checkbox.md` (57%) |
-| Datasources | [Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where some extensions had an incorrect ID, which led to further errors | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (63%) |
+| General | [Peakboard Designer] - Loading bar implemented when opening projects | `review` | `content/_scripting/en-debug-panel.md` (71%) |
+| General | [Peakboard Designer] - Implemented automatic maximizing at the edge of the screen | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (48%) |
+| Datasources | [Odata](/data_sources/en-odata.html) - Dynamic filtering implemented | `review` | `content/_data_sources/en-odata.md` (53%) |
 | Controls | [Format](/controls/Basics/en-formating-values.html) - Added the possibility to use a plus sign as a prefix for positive values | `review` | `content/_controls/Basics/en-formating-values.md` (51%) |
-| Controls | [Excel Chart](/controls/Chart/en-excel-viewer.html) - Fix for a bug that occurred when an empty file was used for the Excel chart | `review` | `content/_controls/Chart/en-excel-viewer.md` (73%) |
-| Controls | [Icon](/controls/Common/en-icon.html) - Fix for a bug where changing the project color had no effect on the colors of the conditional formatting of an icon | `review` | `content/_get_started/en-quick-access-hotkeys.md` (67%) |
-| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where copying and pasting controls no longer worked | `review` | `content/_controls/Basics/en-general-properties.md` (45%) |
-| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where closing the conditional formatting dialog also closed the template dialog | `review` | `content/_controls/Common/en-tile-view.md` (72%) |
 | Controls | [Gauges] - UX revision of the attributes | `review` | `content/_controls/Chart/en-chart.md` (51%) |
-| Controls | [Gauges] - implemented option to set the number format for value labels | `review` | `content/_controls/Chart/en-chart.md` (72%) |
 | Controls | [Gauges] - Added options for borders and corner radiuses | `review` | `content/_controls/Chart/en-chart.md` (42%) |
-| Controls | [Circular Gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the value was displayed even though it was not activated in the attributes | `review` | `content/_controls/Chart/en-chart.md` (78%) |
-| Controls | [Linear Gauge](/controls/Chart/en-linear-gauge.html) - Fix for a bug where the labeling/arrangement of linear gauges did not work in vertical state | `review` | `content/_controls/Chart/en-chart.md` (56%) |
-| Controls | [Linear Gauge](/controls/Chart/de-linear-gauge.html) - Fix for a bug where rounding was only applied at one end | `review` | `content/_controls/Chart/en-chart.md` (62%) |
-| Controls | [Textbox](/controls/Input/en-textbox.html) - Fix for incorrect/unnecessary warning messages | `review` | `content/_controls/Input/en-datepicker.md` (43%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that occurred when a project file contained a timeline grid of the data type duration | `review` | `content/_controls/Chart/en-timeline-grid.md` (63%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the first displayed section had an incorrect color if timestamps were added that were outside the constraint | `review` | `content/_controls/Chart/en-timeline-grid.md` (59%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that was triggered by dynamically adding new values to a list that was linked to a timeline grid | `review` | `content/_controls/Chart/en-chart.md` (64%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where changing the project colors did not cause the timeline grid colors to be adjusted | `review` | `content/_controls/Chart/en-timeline-grid.md` (59%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - ODBC and Oracle script access updated | `review` | `content/_hub/en-hub_sharedconnections.md` (58%) |
 | Scripting | [Global Functions] - Description and API availability added | `review` | `content/_hub/Peakboard_Hub_on_premise/en-get-started.md` (53%) |
-| Resources | [Network resources](/resources/en-resources-network.html) - Fix for minor network resource bugs | `review` | `content/_administration/en-user-administration.md` (53%) |
 | General | [Peakboard Designer] - Logs of the Management Server and the Web Server improved | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
 | General | [Peakboard Boxes] - Error display improved | `documented` | `content/_administration/en-adding.md` (100%) |
 | General | [Peakboard Boxes] - Improved error message when the time server is not available | `documented` | `content/_hub/Flows/en-hub_flows-introduction.md` (100%) |
 | General | [Peakboard Boxes] - Improved log entries | `documented` | `content/_data_sources/SAP/en-sap-error.md` (100%) |
-| Datasources | [Reload flows](/data_sources/Basics/en-reloadflows.html) - Fix for a bug where multiple reload flows could not be triggered from the same element | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (86%) |
 | Dataflows | Extensive rework of the dataflow step filter | `documented` | `content/_data_sources/Extension/en-MsGraphAPI.md` (100%) |
 | Dataflows | UX and design improvements | `documented` | `content/_controls/Basics/en-components.md` (100%) |
-| Controls | [Conditional formatting](/controls/Basics/en-cf.html) - Fix for a bug where all elements of an OR statement were deleted when the first element was removed | `documented` | `content/_scripting/en-building-blocks.md` (72%) |
 | Controls | [Conditional formatting](/controls/Basics/en-cf.html) - UX improvements | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
-| Controls | [Dropdown list](/controls/Input/en-dropdown.html) - Fix for a bug where the left spacing was determined by the size of the control | `documented` | `content/_controls/Common/en-text-block.md` (76%) |
-| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where the title was no longer displayed in the preview/visualization | `documented` | `content/_controls/Basics/en-general-properties.md` (70%) |
-| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where no new controls could be added when the dialog was opened and closed again | `documented` | `content/_controls/Common/en-tile-view.md` (86%) |
 | Controls | [Live Tile / Styled Tile Collection / Styled List] - Reworked behavior of conditional templates | `documented` | `content/_controls/Basics/en-general-properties.md` (76%) |
 | Controls | [Styled Tile Collection / Styled List] - Horizontal scroll option added | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | Controls | [Charts] - Added gradient option for displaying some series | `documented` | `content/_controls/Chart/en-chart.md` (78%) |
+| Controls | [Gauges] - implemented option to set the number format for value labels | `documented` | `content/_controls/Chart/en-chart.md` (74%) |
 | Controls | [Gauges] - Minimum sizes defined | `documented` | `content/_controls/Chart/en-gauge.md` (100%) |
-| Controls | [Textbox](/controls/Input/en-textbox.html) - Fix for a bug where validation did not work if the textbox was bound to a variable | `documented` | `content/_controls/Input/en-textbox.md` (73%) |
 | Controls | [Textbox](/controls/Input/en-textbox.html) - UX improvements for regex | `documented` | `content/_controls/Input/en-textbox.md` (100%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was always in the default color when the duration input type was selected | `documented` | `content/_controls/Chart/en-timeline-grid.md` (92%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where it was not possible to link a variable of data type number for the timeline grid constraint | `documented` | `content/_controls/Chart/en-timeline-grid.md` (81%) |
-| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was displayed in empty color when timeline grid constraints were removed | `documented` | `content/_controls/Chart/en-timeline-grid.md` (83%) |
 | Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Labels are only displayed if there is enough space | `documented` | `content/_controls/Chart/en-chart.md` (70%) |
 | Hotfix 3.6.3.0 | Fix for a critical error in the WebServer | `fix` |  |
 | Hotfix 3.6.2.1 | [Styled tile collection / Styled list] - Fix for a bug where gauges in a styled tile collection or a styled list caused a memory leak | `fix` |  |
@@ -1028,13 +1003,38 @@ and write the article where there really is none.
 | General | [Explorer] - Fix for a bug where the tooltips of texts were not updated when the texts changed | `fix` |  |
 | General | [Attributes] - Fix for multiple truncated labels | `fix` |  |
 | General | [Web Server] - Fix for a memory leak | `fix` |  |
+| Datasources | [Reload flows](/data_sources/Basics/en-reloadflows.html) - Fix for a bug where multiple reload flows could not be triggered from the same element | `fix` |  |
+| Datasources | [JSON](/data_sources/en-json.html) - Fix for a bug where JSON was not working properly for data sources with arrays | `fix` |  |
+| Datasources | [Peakboard hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where when adding a boolean value in the filter, the initial value was null instead of false | `fix` |  |
+| Datasources | [Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where some extensions had an incorrect ID, which led to further errors | `fix` |  |
 | Dataflows | Fix for a bug where existing dataflows from projects created with an older version no longer worked | `fix` |  |
+| Controls | [Excel Chart](/controls/Chart/en-excel-viewer.html) - Fix for a bug that occurred when an empty file was used for the Excel chart | `fix` |  |
+| Controls | [Conditional formatting](/controls/Basics/en-cf.html) - Fix for a bug where all elements of an OR statement were deleted when the first element was removed | `fix` |  |
+| Controls | [Dropdown list](/controls/Input/en-dropdown.html) - Fix for a bug where the left spacing was determined by the size of the control | `fix` |  |
+| Controls | [Icon](/controls/Common/en-icon.html) - Fix for a bug where changing the project color had no effect on the colors of the conditional formatting of an icon | `fix` |  |
+| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where the title was no longer displayed in the preview/visualization | `fix` |  |
+| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where no new controls could be added when the dialog was opened and closed again | `fix` |  |
+| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where copying and pasting controls no longer worked | `fix` |  |
+| Controls | [Live Tile / Styled Tile Collection / Styled List] - Fix for a bug where closing the conditional formatting dialog also closed the template dialog | `fix` |  |
 | Controls | [Charts] - Fix for a bug in the symbol display of the editing dialog | `fix` |  |
 | Controls | [Gauges] - Fix for a bug where the positioning of the gauges was not correct if the value was not displayed | `fix` |  |
 | Controls | [Gauges] - Fix for a bug that occurred when the value and maximum were linked to a data source and the maximum was removed | `fix` |  |
+| Controls | [Circular Gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the value was displayed even though it was not activated in the attributes | `fix` |  |
+| Controls | [Linear Gauge](/controls/Chart/en-linear-gauge.html) - Fix for a bug where the labeling/arrangement of linear gauges did not work in vertical state | `fix` |  |
+| Controls | [Linear Gauge](/controls/Chart/de-linear-gauge.html) - Fix for a bug where rounding was only applied at one end | `fix` |  |
+| Controls | [Textbox](/controls/Input/en-textbox.html) - Fix for a bug where validation did not work if the textbox was bound to a variable | `fix` |  |
+| Controls | [Textbox](/controls/Input/en-textbox.html) - Fix for incorrect/unnecessary warning messages | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that occurred when a project file contained a timeline grid of the data type duration | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was always in the default color when the duration input type was selected | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where it was not possible to link a variable of data type number for the timeline grid constraint | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the first displayed section had an incorrect color if timestamps were added that were outside the constraint | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where the last displayed section was displayed in empty color when timeline grid constraints were removed | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug that was triggered by dynamically adding new values to a list that was linked to a timeline grid | `fix` |  |
+| Controls | [Timeline grid](/controls/Chart/en-timeline-grid.html) - Fix for a bug where changing the project colors did not cause the timeline grid colors to be adjusted | `fix` |  |
 | Scripting | Fix for a bug that was triggered by executing a function in a project that was created with an older version | `fix` |  |
 | Scripting | Fix for a bug where access to groups via script was not possible in existing projects | `fix` |  |
 | Scripting | Fix for a bug where scripts in global functions could not be validated | `fix` |  |
+| Resources | [Network resources](/resources/en-resources-network.html) - Fix for minor network resource bugs | `fix` |  |
 
 ## 3.5.0.0 (02.10.2023)
 
@@ -1042,52 +1042,36 @@ and write the article where there really is none.
 |---|---|---|---|
 | Autosave | Have you ever had a PC crash while working with Peakboard Designer? We are here for you! With the Autosave feature, you can restore your project after a crash so you don't lose your hard work. | `undocumented` |  |
 | Timeline grid | The timeline grid control has been fundamentally revised to make your work with it much easier. Among other things, you can now easily limit the timeline as desired and the time between two timestamps is automatically calculated and displayed. This makes it easy to implement downtimes during a certain shift or similar use cases. In addition, the interface has been refreshed and allows you new options for customization in the attributes. | `undocumented` |  |
-| Datasources | [Excel](/data_sources/Excel/en-excel.html) - fix for a bug where the data source tried to access the file each time a key was pressed, generating an error each time | `undocumented` |  |
 | Datasources | [OData](/data_sources/en-odata.html) - extensively revised | `undocumented` |  |
 | Datasources | [Twitter] - data source removed | `undocumented` |  |
 | Controls | [Timeline grid] - extensively revised | `undocumented` |  |
 | Controls | [Chart] - circle/ring chart revised | `undocumented` |  |
 | Controls | [Chart] - minor UX improvements | `undocumented` |  |
 | Scripting | Unified syntax for split connections in various places | `undocumented` |  |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where a malformed global function caused dataflows to stop being created | `undocumented` |  |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where groups could not be accessed when preceding screens were disabled | `undocumented` |  |
 | Charts | The charts have been extensively revised. Among the most important changes are: You can round the bars and columns in the corresponding charts. You can define the distance between the bars / columns in the corresponding charts. You can now assign formats for the axis labels and the chart labels and thus, for example, convert a date, add unit signs, abbreviate 1000 to 1k and the like. You can now recolor the axes or hide them completely. The tab menu has been fundamentally reworked: There are now icons that correspond to the type and color of their series. You can move, duplicate and rename series. Also, the thresholds for bar and column charts have been fundamentally reworked. You can now set dynamic thresholds for each bar / column. All changes can be found in the general overview. | `review` | `content/_controls/Chart/en-chart.md` (42%) |
 | General | [Peakboard Designer] - added quick access bar - more information in highlights | `review` | `content/_dataflows/en-getting-started.md` (58%) |
 | General | [Peakboard Designer] - autosave feature added - more information in the highlights | `review` | `content/_get_started/en-autosave.md` (53%) |
 | General | [Peakboard Box] - adjustments to permissions of encrypted connections | `review` | `content/_administration/en-faqsecurity.md` (70%) |
 | General | [Explorer] - display behavior for long names revised | `review` | `content/_controls/Common/en-table-grid.md` (58%) |
-| General | [Resources](/misc/en-ressources.html) - fix for a bug where network resources referenced the wrong file when multiple network resources were connected | `review` | `content/_resources/en-resources-intro.md` (52%) |
-| General | [Resources](/misc/en-ressources.html) - fix for a bug where adding a dynamic URL did not work properly | `review` | `content/_resources/en-resources-intro.md` (67%) |
-| General | [Resources](/misc/en-ressources.html) - fix for a bug where the connection type was accidentally reset when overwriting a local file | `review` | `content/_resources/en-resources-intro.md` (47%) |
 | General | [Resources](/misc/en-ressources.html) - adjusted behavior for missing resources in project file | `review` | `content/_resources/en-resources-intro.md` (56%) |
-| General | [Web Access](/administration/en-web-access.html) - fix for a critical bug triggered by a logo file when opening Web Access | `review` | `content/_hub/Peakboard_Hub_on_premise/en-get-started.md` (47%) |
-| General | [Shared Connections](/misc/en-shared-connection.html) - fix for a bug where shared connections did not work properly after copy&paste. | `review` | `content/_data_sources/en-forcam.md` (47%) |
 | Datasources | Revision of default headers of several data sources | `review` | `content/_administration/en-faqsecurity.md` (45%) |
-| Datasources | [Extensions](/data_sources/Extension/en-Extension.html) - fix for a bug that occurred when previewing a visualization of a project that contained extensions but did not have them installed | `review` | `content/_data_sources/Extension/en-ManageExtension.md` (41%) |
 | Datasources | [Extensions](/data_sources/Extension/en-Extension.html) - installed extensions are displayed in the menu for adding a data source along with the rest of the data sources | `review` | `content/_controls/Basics/en-fonts.md` (61%) |
-| Datasources | [JSON](/data_sources/en-json.html) - fix for a bug where syntax caused problems when autocompleting column names | `review` | `content/_edge/en-UseEdgeDatasource.md` (40%) |
-| Datasources | [Excel](/data_sources/Excel/en-excel.html) - fix for a bug that occurred when URL was selected as the source type and the path was left blank | `review` | `content/_administration/en-data-debugger.md` (57%) |
-| Datasources | [Modbus](/data_sources/en-modbus.html) - fix for a bug where only one data source could be loaded even though multiple data sources were added with a split connection | `review` | `content/_data_sources/en-forcam.md` (43%) |
-| Datasources | [Modbus](/data_sources/en-modbus.html) - fix for a bug where there were problems reconnecting to a Modbus device if the connection was previously lost | `review` | `content/_administration/en-ipadress-pbedge-with-powershell.md` (49%) |
-| Dataflows | Dataflow steps can be renamed as needed | `review` | `content/_dataflows/en-parse-table.md` (51%) |
+| Dataflows | Dataflow steps can be renamed as needed | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (51%) |
 | Dataflows | Dataflow steps can be subsequently reordered as needed | `review` | `content/_scripting/Script Templates/en-pdf-image-change.md` (45%) |
 | Controls | [Chart] - conditional formatting enabled | `review` | `content/_controls/Chart/en-gauge.md` (67%) |
-| Controls | [Chart] - spacing options revised | `review` | `content/_controls/Chart/en-gauge.md` (53%) |
-| Controls | [Chart] - bar and column chart with thresholds revised | `review` | `content/_controls/Chart/en-chart.md` (59%) |
+| Controls | [Chart] - spacing options revised | `review` | `content/_controls/Chart/en-gauge.md` (52%) |
+| Controls | [Chart] - bar and column chart with thresholds revised | `review` | `content/_controls/Chart/en-chart.md` (58%) |
 | Controls | [Chart] - line and spline charts contour properties revised | `review` | `content/_controls/Chart/en-signal-lamp.md` (40%) |
 | Controls | [Chart] - corner radius property added for bar and column charts | `review` | `content/_controls/Shape/en-shapes.md` (60%) |
-| Controls | [Chart] - enabled coloring of chart axes | `review` | `content/_controls/Chart/en-chart.md` (51%) |
-| Controls | [Chart] - X and Y axis now fully hideable | `review` | `content/_controls/Chart/en-chart.md` (42%) |
+| Controls | [Chart] - enabled coloring of chart axes | `review` | `content/_controls/Chart/en-chart.md` (50%) |
+| Controls | [Chart] - X and Y axis now fully hideable | `review` | `content/_controls/Chart/en-chart.md` (41%) |
 | Controls | [Chart] - series can be self-named | `review` | `content/_controls/Extended/en-step-viewer.md` (53%) |
-| Controls | [Chart] - series can be copied | `review` | `content/_controls/Chart/en-chart.md` (69%) |
-| Controls | [Chart] - zero values on stacked columns and bars can be hidden | `review` | `content/_controls/Chart/en-chart.md` (58%) |
+| Controls | [Chart] - series can be copied | `review` | `content/_controls/Chart/en-chart.md` (68%) |
+| Controls | [Chart] - zero values on stacked columns and bars can be hidden | `review` | `content/_controls/Chart/en-chart.md` (59%) |
 | Controls | [Text](/controls/Common/en-text-block.html) - orientation options revised | `review` | `content/_scripting/en-formating-table-grid.md` (57%) |
-| Controls | [Table](/controls/Common/en-table-grid.html) - fix for a bug where the displayed values for the inner spacing were not applied when changes were made | `review` | `content/_controls/Basics/en-general-properties.md` (68%) |
-| Controls | [Table](/controls/Common/de-table-grid.html) - fix for a bug where the data source could be accidentally changed | `review` | `content/_scripting/en-formating-table-grid.md` (56%) |
 | Controls | [Website] - enabled use of dynamic variables in HTML code | `review` | `content/_data_sources/Basics/en-xml-data.md` (53%) |
 | Scripting | Removed script snippet [source] for control timeline | `review` | `content/_controls/Extended/en-qr.md` (59%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where resources did not have the full path | `review` | `content/_controls/Document/en-pdf.md` (77%) |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - revised the connection setup of a SQL query block | `review` | `content/_scripting/en-publish-external.md` (51%) |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - revised the connection setup of a SQL query block | `review` | `content/_scripting/en-publish-external.md` (50%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - revised snippets for DataRow loaded event | `review` | `content/_scripting/Script Templates/en-table-interaction.md` (54%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - removed various non-functional Building Blocks and snippets in charts section | `review` | `content/_controls/Input/en-drawing-area.md` (50%) |
 | Quick access | The quick access allows you to open a quick access bar with the shortcut [Ctrl + K] with which you can search for various functions of the Peakboard Designer and execute them directly from the bar. | `documented` | `content/_get_started/en-quick-access-hotkeys.md` (93%) |
@@ -1097,17 +1081,14 @@ and write the article where there really is none.
 | General | [Resources](/misc/en-ressources.html) - added function to show all references for resources | `documented` | `content/_resources/en-resources-intro.md` (78%) |
 | Datasources | Added popup to change data source connection in attributes  | `documented` | `content/_controls/Input/en-calendar.md` (72%) |
 | Datasources | [SAP](/data_sources/SAP/en-sap.html) - individual dialog boxes are now mandatory. | `documented` | `content/_administration/en-ports-and-network-traffic.md` (90%) |
-| Datasources | [Reload Flows](/misc/en-reloadflows.html) - fix for a bug that was triggered when the name of a reload flow started with a number | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (73%) |
 | Dataflows | Added time-based aggregation | `documented` | `content/_dataflows/en-calculations.md` (100%) |
 | Dataflows | Dataflow steps can be enabled or disabled as needed | `documented` | `content/_controls/Input/en-drawing-area.md` (73%) |
 | Controls | [Chart] - trend lines removed | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
 | Controls | [Chart] - added custom format for labels | `documented` | `content/_controls/Chart/en-chart.md` (76%) |
-| Controls | [Chart] - numbers in axis labels can be formatted | `documented` | `content/_controls/Chart/en-chart.md` (75%) |
+| Controls | [Chart] - numbers in axis labels can be formatted | `documented` | `content/_controls/Chart/en-chart.md` (74%) |
 | Controls | [Chart] - series can be sorted by yourself | `documented` | `content/_controls/Chart/en-chart.md` (80%) |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where SQL inserts did not work when variables were used as input | `documented` | `content/_scripting/en-publish-external.md` (100%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - added two new functions to change a Peakboard Hub connection | `documented` | `content/_data_sources/en-peakboard-hub-list.md` (100%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - UI improvements for time picker | `documented` | `content/_controls/Input/en-timepicker.md` (100%) |
-| Scripting | [Variables](/scripting/en-variables.html) - fix for a bug where lists could be created that did not contain columns | `documented` | `content/_resources/en-resources-tipp-sharepoint.md` (100%) |
 | Scripting | [Snippets] - added all columns to modify hub list | `documented` | `content/_data_sources/Extension/en-Extension.md` (78%) |
 | General | [Setup] - fix for a bug where the software was not completely removed when uninstalling | `fix` |  |
 | General | [Peakboard Designer] - fix for a bug where deleting a project color resulted in an error | `fix` |  |
@@ -1116,8 +1097,20 @@ and write the article where there really is none.
 | General | [Peakboard Box] - fix for a bug where Peakboard Boxes were not renamed correctly | `fix` |  |
 | General | [Peakboard Box] - fix for a bug where the time server could only be edited while it was available | `fix` |  |
 | General | [Peakboard Box] - fix for a bug with Peakboard Box permissions | `fix` |  |
+| General | [Resources](/misc/en-ressources.html) - fix for a bug where network resources referenced the wrong file when multiple network resources were connected | `fix` |  |
+| General | [Resources](/misc/en-ressources.html) - fix for a bug where adding a dynamic URL did not work properly | `fix` |  |
+| General | [Resources](/misc/en-ressources.html) - fix for a bug where the connection type was accidentally reset when overwriting a local file | `fix` |  |
+| General | [Web Access](/administration/en-web-access.html) - fix for a critical bug triggered by a logo file when opening Web Access | `fix` |  |
+| General | [Shared Connections](/misc/en-shared-connection.html) - fix for a bug where shared connections did not work properly after copy&paste. | `fix` |  |
 | Datasources | Fix for a bug where the Refreshed script was executed when a data source was enabled or disabled without reloading | `fix` |  |
+| Datasources | [Extensions](/data_sources/Extension/en-Extension.html) - fix for a bug that occurred when previewing a visualization of a project that contained extensions but did not have them installed | `fix` |  |
 | Datasources | [Mitsubishi] - fix for a bug where data was not loaded correctly in the visualization | `fix` |  |
+| Datasources | [JSON](/data_sources/en-json.html) - fix for a bug where syntax caused problems when autocompleting column names | `fix` |  |
+| Datasources | [Excel](/data_sources/Excel/en-excel.html) - fix for a bug that occurred when URL was selected as the source type and the path was left blank | `fix` |  |
+| Datasources | [Excel](/data_sources/Excel/en-excel.html) - fix for a bug where the data source tried to access the file each time a key was pressed, generating an error each time | `fix` |  |
+| Datasources | [Modbus](/data_sources/en-modbus.html) - fix for a bug where only one data source could be loaded even though multiple data sources were added with a split connection | `fix` |  |
+| Datasources | [Modbus](/data_sources/en-modbus.html) - fix for a bug where there were problems reconnecting to a Modbus device if the connection was previously lost | `fix` |  |
+| Datasources | [Reload Flows](/misc/en-reloadflows.html) - fix for a bug that was triggered when the name of a reload flow started with a number | `fix` |  |
 | Dataflows | Fix for a bug that occurred when running two aggregations in a row | `fix` |  |
 | Dataflows | Fix for a bug where the help button had no function | `fix` |  |
 | Dataflows | Fix for a bug that occurred when columns were named the same twice | `fix` |  |
@@ -1133,9 +1126,16 @@ and write the article where there really is none.
 | Controls | [Chart] - fix for a bug where multiple series with multiple thresholds did not work at the same time | `fix` |  |
 | Controls | [Chart] - fix for a bug where changes to main values were not immediately previewed when changed | `fix` |  |
 | Controls | [Chart] - fix for a bug where values changed accidentally when scrolling through dialogs | `fix` |  |
+| Controls | [Table](/controls/Common/en-table-grid.html) - fix for a bug where the displayed values for the inner spacing were not applied when changes were made | `fix` |  |
+| Controls | [Table](/controls/Common/de-table-grid.html) - fix for a bug where the data source could be accidentally changed | `fix` |  |
 | Scripting | Fix for a bug where activation scripts were executed twice or without a trigger | `fix` |  |
 | Scripting | Fix for a bug where error messages were no longer automatically hidden | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where a malformed global function caused dataflows to stop being created | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where resources did not have the full path | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where groups could not be accessed when preceding screens were disabled | `fix` |  |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where SQL inserts did not work when variables were used as input | `fix` |  |
 | Scripting | [Timer] - fix for a bug where scheduled times of multiple timer scripts were not displayed correctly | `fix` |  |
+| Scripting | [Variables](/scripting/en-variables.html) - fix for a bug where lists could be created that did not contain columns | `fix` |  |
 
 ## 3.4.0.3 (17.07.2023)
 
@@ -1149,36 +1149,36 @@ and write the article where there really is none.
 | General | [Peakboard Box settings] - missing error messages added in case of failed update | `review` | `content/_administration/en-faqsecurity.md` (65%) |
 | General | [Resources](/misc/en-ressources.html) - resource referencing by ID | `review` | `content/_resources/en-resources-intro.md` (68%) |
 | General | Format dialog extensively revised - 3 types of formats: Number, Date and time, Time span. More information in the highlights | `review` | `content/_controls/Input/en-calendar.md` (47%) |
-| Datasources | [Hotfix 3.4.0.3] - [Rockwell](/data_sources/en-rockwell.html) - fix for a bug where it was not possible to load data in the Peakboard Designer | `review` | `content/_data_sources/en-rockwell.md` (55%) |
-| Datasources | [Modbus](/data_sources/en-modbus.html) - fix for a bug where only an unexpected error was displayed instead of a useful error message | `review` | `content/_scripting/en-publish-external.md` (43%) |
 | Datasources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - enabled access to variables via SQL statement | `review` | `content/_data_sources/SAP/en-xql.md` (74%) |
-| Datasources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - fix for a bug where column types were not taken into account, resulting in unusable filters | `review` | `content/_data_sources/Extension/en-Tableau.md` (46%) |
-| Datasources | [Email](/data_sources/en-mail.html) - fix for a bug where an internet connection was required even though a local smtp server was defined | `review` | `content/_data_sources/en-mail.md` (50%) |
-| Datasources | [JSON](/data_sources/en-json.html) - fix for a bug where data was lost if the column name contained a dot | `review` | `content/_administration/en-faqsecurity.md` (62%) |
-| Datasources | [Google Spreadsheets](/data_sources/en-google-spreadsheets.html) - fix for a bug where the access token expired after 1-12 hours | `review` | `content/_data_sources/en-google-spreadsheets.md` (56%) |
-| Controls | [Power BI](/controls/Extended/en-power-bi.html) - Fix for a bug where a Power BI tile would not load properly after 12 hours | `review` | `content/_data_sources/Basics/en-xml-data.md` (46%) |
-| Scripting | [Building blocks](/scripting/en-building-blocks.html) - fix for a bug that occurred in custom function blocks when the source was changed with dynamic and non-dynamic functions | `review` | `content/_controls/Document/en-pdf.md` (51%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - color picker integrated | `review` | `content/_controls/Input/en-timepicker.md` (70%) |
 | Peakboard Hub | Peakboard Hub online activated | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (63%) |
 | HTTP Request Building Blocks | You will now find two new Building Blocks in the script editor. With these, you can use an existing connection from, for example, a JSON data source to send various HTTP requests. | `documented` | `content/_administration/en-shutdown-WoL.md` (87%) |
 | General | [Peakboard Box] - adjustment in data structure | `documented` | `content/_data_sources/Extension/en-MsGraphAPI.md` (86%) |
 | General | [Peakboard Box] - pbadmin removed | `documented` | `content/_administration/en-join-domain.md` (100%) |
 | General | [Peakboard Box] - Added possibility to remove the Peakboard user | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
-| General | [Resources](/misc/en-ressources.html) - fix for a bug where a resource was not displayed correctly in the corresponding control | `documented` | `content/_resources/en-resources-intro.md` (86%) |
-| Datasources | [SAP](/data_sources/SAP/en-sap.html) - fix for a bug where column names with special characters were not read correctly | `documented` | `content/_controls/Basics/en-general-properties.md` (82%) |
 | Datasources | [Reload flows](/misc/en-reloadflows.html) - data sources that trigger a reload flow now show this in their data source dialog | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
 | Datasources | Empty state of scripted URLs in data sources improved | `documented` | `content/_controls/Document/en-pdf.md` (81%) |
-| Dataflows | [Reload flows](/misc/en-reloadflows.html) - fix for a bug where a dataflow could be used multiple times in a reload flow | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
 | Controls | [Icon](/controls/Common/en-icon.html) - extensive UX improvements | `documented` | `content/_scripting/en-building-blocks.md` (100%) |
 | Controls | [Text](/controls/Common/en-text-block.html) - alignment options added | `documented` | `content/_controls/Basics/en-general-properties.md` (86%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - HTTP requests reworked | `documented` | `content/_scripting/en-publish-external.md` (100%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where the dataflow was displayed in the wrong place in the script tree | `documented` | `content/_scripting/en-script-types.md` (87%) |
 | General | [Peakboard Box Settings] - fix for bug where role drop-down menu didn't work until dialog was reloaded | `fix` |  |
 | General | [Peakboard Box settings] - fix for a bug where connecting to a hidden SSID was not possible | `fix` |  |
 | General | [Peakboard Edge] - Fix for a bug where the connection status was displayed incorrectly in Peakboard Edge settings | `fix` |  |
+| General | [Resources](/misc/en-ressources.html) - fix for a bug where a resource was not displayed correctly in the corresponding control | `fix` |  |
+| Datasources | [Hotfix 3.4.0.3] - [Rockwell](/data_sources/en-rockwell.html) - fix for a bug where it was not possible to load data in the Peakboard Designer | `fix` |  |
+| Datasources | [Modbus](/data_sources/en-modbus.html) - fix for a bug where only an unexpected error was displayed instead of a useful error message | `fix` |  |
+| Datasources | [Peakboard Hub list](/data_sources/en-peakboard-hub-list.html) - fix for a bug where column types were not taken into account, resulting in unusable filters | `fix` |  |
+| Datasources | [SAP](/data_sources/SAP/en-sap.html) - fix for a bug where column names with special characters were not read correctly | `fix` |  |
+| Datasources | [Email](/data_sources/en-mail.html) - fix for a bug where an internet connection was required even though a local smtp server was defined | `fix` |  |
+| Datasources | [JSON](/data_sources/en-json.html) - fix for a bug where data was lost if the column name contained a dot | `fix` |  |
+| Datasources | [Google Spreadsheets](/data_sources/en-google-spreadsheets.html) - fix for a bug where the access token expired after 1-12 hours | `fix` |  |
+| Dataflows | [Reload flows](/misc/en-reloadflows.html) - fix for a bug where a dataflow could be used multiple times in a reload flow | `fix` |  |
 | Dataflows | Fix for a bug where validation did not work properly when renaming dataflows | `fix` |  |
 | Dataflows | Fix for a bug where the name change of an aggregation step was not applied | `fix` |  |
 | Dataflows | Fix for a bug where incorrect logic was used for data type eligibility for an aggregation | `fix` |  |
+| Controls | [Power BI](/controls/Extended/en-power-bi.html) - Fix for a bug where a Power BI tile would not load properly after 12 hours | `fix` |  |
+| Scripting | [Building blocks](/scripting/en-building-blocks.html) - fix for a bug that occurred in custom function blocks when the source was changed with dynamic and non-dynamic functions | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - fix for a bug where the dataflow was displayed in the wrong place in the script tree | `fix` |  |
 | Peakboard Hub | [Hotfix 3.4.0.3] - fix for a bug where no Peakboard Boxes could be added to the Peakboard Hub online | `fix` |  |
 | Peakboard Hub | Fix for a bug where clicking the help button caused a fatal error | `fix` |  |
 
@@ -1188,7 +1188,7 @@ and write the article where there really is none.
 |---|---|---|---|
 | Dataflows dialog | The Dataflow dialog has been extensively revised. You can now add new steps via a clearly structured dialog. The individual steps are explained using a graphic and a descriptive text, so that it is even easier for you to select the appropriate step. | `undocumented` |  |
 | Scripting | [Script editor] - UX improvements for unnamed controls | `undocumented` |  |
-| Extensions dialog | The extensions dialog has been updated. You can now see at a glance which extensions you already have installed and can install or uninstall these or other extensions directly from the dialog. | `review` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (69%) |
+| Extensions dialog | The extensions dialog has been updated. You can now see at a glance which extensions you already have installed and can install or uninstall these or other extensions directly from the dialog. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (69%) |
 | Show references | Display all references in which a selected data source or variable is used in the new dialog. A click on one of the references closes the dialog and marks the reference in the workspace on the corresponding screen or opens the corresponding dialog window. | `review` | `content/_scripting/en-building-blocks.md` (65%) |
 | Show unused | You can check if there are unused resources, data sources or variables in your project and delete them directly in the newly created dialog if you don't need them anymore. | `review` | `content/_resources/en-resources-intro.md` (69%) |
 | Input validation | You can check if there are unused resources, data sources or variables in your project and delete them directly in the newly created dialog if you don't need them anymore. | `review` | `content/_resources/en-resources-intro.md` (69%) |
@@ -1197,7 +1197,7 @@ and write the article where there really is none.
 | General | [Resources] - permissions for local resources extended | `review` | `content/_hub/en-hub_api.md` (60%) |
 | General | [Resources] - resources can be changed dynamically when referencing a path instead of just an ID. | `review` | `content/_controls/Document/en-pdf.md` (54%) |
 | Datasources | [Extensions] - extensive revision of the extensions dialog - more information in the highlights | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (47%) |
-| Dataflows | Extensive rework of the dataflow dialog - see highlights for more information | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (65%) |
+| Dataflows | Extensive rework of the dataflow dialog - see highlights for more information | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (66%) |
 | Controls | The control name field is hidden in the attributes if [Used in scripts] is not enabled | `review` | `content/_controls/Basics/en-general-properties.md` (60%) |
 | Controls | [Conditional formatting] - checkbox instead of drop-down field for boolean values in the [conditions] section. | `review` | `content/_controls/Input/en-checkbox.md` (81%) |
 | Controls | [Text Box] - added data validation via regex pattern - see highlights for more information | `review` | `content/_hub/en-hub_variable-constraints.md` (66%) |
@@ -1205,7 +1205,7 @@ and write the article where there really is none.
 | Controls | [QR code] - [color] attribute selectable | `review` | `content/_controls/Input/en-datepicker.md` (60%) |
 | Scripting | [Building blocks] - missing script for variable lists added | `review` | `content/_data_sources/en-peakboard-hub-list.md` (64%) |
 | Scripting | [Building blocks] - new building block for copying all data of a data source into a variable list | `review` | `content/_data_sources/en-peakboard-hub-list.md` (65%) |
-| Scripting | [Building blocks] - new building block for multi input calculations | `review` | `content/_controls/Input/en-button.md` (70%) |
+| Scripting | [Building blocks] - new building block for multi input calculations | `review` | `content/_controls/Input/en-button.md` (69%) |
 | General | [Peakboard Designer] - new phone number added | `documented` | `content/_administration/en-web-access.md` (83%) |
 | General | [Peakboard Designer] - added automatic naming of controls in the explorer that do not have a name | `documented` | `content/_resources/en-resources-network.md` (70%) |
 | General | [Peakboard Designer] - added reference dialog for data sources and variables - see Highlights for more information | `documented` | `content/_controls/Input/en-calendar.md` (76%) |
@@ -1249,15 +1249,15 @@ and write the article where there really is none.
 | General | [Peakboard Designer] - Automatic renaming of all references when a control name is changed | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (48%) |
 | General | [Peakboard Designer] - Swipe animation improved when switching screens in project | `review` | `content/_scripting/en-script-types.md` (41%) |
 | General | [Peakboard Designer] - Explorer context menus revised | `review` | `content/_controls/Basics/en-components.md` (44%) |
-| General | [Peakboard Designer] - References to data sources are automatically renamed when the data source is renamed | `review` | `content/_dataflows/en-calculations.md` (50%) |
+| General | [Peakboard Designer] - References to data sources are automatically renamed when the data source is renamed | `review` | `content/_data_sources/Extension/en-Extension.md` (50%) |
 | General | [Peakboard Designer] - Added hover labels for the menu bar | `review` | `content/_controls/Basics/en-fonts.md` (63%) |
 | General | [Peakboard Box settings] - Added check for update capability of the Peakboard Box before downloading the update file | `review` | `content/_administration/en-ports-and-network-traffic.md` (69%) |
-| General | [Cloud communication] - API / WebAccess endpoints added | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (43%) |
+| General | [Cloud communication] - API / WebAccess endpoints added | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (42%) |
 | Data sources | [OPC UA] - When reading an array, it is internally automatically set to JSON and the string data type is selected | `review` | `content/_data_sources/OPC_UA/en-Client-Write-OPCUA.md` (51%) |
-| Data sources | [Rockwell] - When reading an array, it is internally automatically set to JSON and the String data type is selected | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (42%) |
-| Data sources | [Rockwell] - Updating the library to the latest version | `review` | `content/_hub/en-hub_api.md` (54%) |
+| Data sources | [Rockwell] - When reading an array, it is internally automatically set to JSON and the String data type is selected | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (43%) |
+| Data sources | [Rockwell] - Updating the library to the latest version | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (54%) |
 | Data sources | [Excel] - Simplification of adding Excel data sources | `review` | `content/_resources/en-resources-local.md` (49%) |
-| Data sources | [ODBC] - Connection string showable | `review` | `content/_data_sources/en-odbc.md` (54%) |
+| Data sources | [ODBC] - Connection string showable | `review` | `content/_data_sources/Excel/en-ODBC-Excel.md` (54%) |
 | Controls | Control naming uniqueness check added | `review` | `content/_resources/en-resources-network.md` (52%) |
 | Controls | Controls are renamed when copying between different screens | `review` | `content/_controls/Basics/en-components.md` (59%) |
 | Controls | [Web page] - Chromium web browser updated | `review` | `content/_administration/en-web-access.md` (42%) |
@@ -1270,7 +1270,7 @@ and write the article where there really is none.
 | General | [Peakboard Designer] - Explorer: UX improvements | `documented` | `content/_administration/en-data-debugger.md` (100%) |
 | General | [Peakboard Designer] - Multiple fixes in attributes | `documented` | `content/_controls/Chart/en-chart.md` (89%) |
 | General | [Peakboard Box settings] - Peakboard Box check: A disabled MQTT server is no longer displayed as an error, only as a warning | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
-| General | [Peakboard Box settings] - Display of Peakboard Box version adjusted | `documented` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (100%) |
+| General | [Peakboard Box settings] - Display of Peakboard Box version adjusted | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (100%) |
 | General | [Peakboard Box settings] - User Roles - New Function [Allow cloud communication] | `documented` | `content/_administration/en-user-administration.md` (100%) |
 | General | [Peakboard Box settings] - Screenshot is updated when a Peakboard Box is selected in the Peakboard Box Settings | `documented` | `content/_administration/en-web-access.md` (100%) |
 | General | [Peakboard Box settings] - Added selection option for Azure Service Bus communication | `documented` | `content/_data_sources/Extension/en-MsGraphAPI.md` (91%) |
@@ -1334,12 +1334,8 @@ and write the article where there really is none.
 | General | [Peakboard Box] - Added prompt to change password when adding a Peakboard Box to the Peakboard Designer for the first time. | `review` | `content/_administration/en-join-domain.md` (64%) |
 | General | [Peakboard Box Settings] - Timeserver now editable directly in dialog | `review` | `content/_data_sources/en-date-and-time.md` (62%) |
 | Datasources | [SAP](/data_sources/SAP/en-sap.html) - Support for nested tables in XLQ statements | `review` | `content/_controls/Basics/en-groups.md` (53%) |
-| Datasources | [XML](/data_sources/en-xml.html) - Fix for a bug where the column selection made was not retained when the path dialog was reopened | `review` | `content/_controls/Document/en-pdf.md` (59%) |
-| Datasources | [Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - fix for a bug where not all columns were automatically selected and were correspondingly unavailable in the filter | `review` | `content/_hub/Flows/en-hub_flow-lists.md` (45%) |
 | Controls | Input controls can no longer be accidentally connected to a datasource | `review` | `content/_hub/Flows/en-hub_flow-create.md` (44%) |
 | Controls | [Conditional formatting](/controls/en-cf.html) - Comparison operators are preserved if the data type remains the same | `review` | `content/_data_sources/SAP/en-xql.md` (47%) |
-| Controls | [Conditional formatting](/controls/en-cf.html) - Fix for a bug where copy+paste didn't work in the template editor | `review` | `content/_controls/Basics/en-cf.md` (49%) |
-| Controls | [Conditional formatting](/controls/en-cf.html) - Fix for a bug where conditional formatting stopped working when a resource was replaced in Explorer | `review` | `content/_get_started/en-visualization.md` (55%) |
 | Scripting | Added function to calculate time spans | `review` | `content/_data_sources/SAP/en-xql.md` (62%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - non-functional components removed | `review` | `content/_controls/Input/en-timepicker.md` (54%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - blocks for datasources and Dataflows extended | `review` | `content/_data_sources/Basics/en-reloadflows.md` (62%) |
@@ -1356,7 +1352,6 @@ and write the article where there really is none.
 | Controls | Added row gap property to styled list | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | Controls | Added visual empty state for all tile controls | `documented` | `content/_controls/Common/en-tile-view.md` (80%) |
 | Controls | [Table] - Double-clicking on a table opens the column editor if a data source is already connected | `documented` | `content/_get_started/en-peakboard-designer.md` (89%) |
-| Controls | [Webpage](/controls/Extended/en-webpage.html) - Fix for a bug where some webpages were not displayed correctly. | `documented` | `content/_controls/Extended/en-html-code.md` (86%) |
 | Scripting | The Peakboard Hub MQTT topic field now allows scripts | `documented` | `content/_scripting/en-publish-external.md` (89%) |
 | Scripting | Lists can now be exported as .csv via script or building blocks to a UNC path | `documented` | `content/_scripting/en-variables.md` (79%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - category [date] added | `documented` | `content/_dataflows/en-manipulate-column-data.md` (84%) |
@@ -1370,9 +1365,14 @@ and write the article where there really is none.
 | General | [Peakboard Box] - Fix for a bug where databases stored on the Peakboard Box were not removed from the Peakboard Box when deleting the associated visualization | `fix` |  |
 | General | [Peakboard Box Settings] - Fix for a bug where the update was not selectable | `fix` |  |
 | General | [Peakboard Box Settings] - Fix for a bug where it was not possible to change the Peakboard Box password | `fix` |  |
+| Datasources | [XML](/data_sources/en-xml.html) - Fix for a bug where the column selection made was not retained when the path dialog was reopened | `fix` |  |
+| Datasources | [Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - fix for a bug where not all columns were automatically selected and were correspondingly unavailable in the filter | `fix` |  |
 | Dataflows | Fix for mixed up input fields during aggregation | `fix` |  |
 | Dataflows | Fix for bug where Dataflows associated with a disabled data source were not automatically reactivated when the datasource was reactivated | `fix` |  |
 | Dataflows | Fix for incorrect behavior when copying and changing the source of Dataflows | `fix` |  |
+| Controls | [Conditional formatting](/controls/en-cf.html) - Fix for a bug where copy+paste didn't work in the template editor | `fix` |  |
+| Controls | [Conditional formatting](/controls/en-cf.html) - Fix for a bug where conditional formatting stopped working when a resource was replaced in Explorer | `fix` |  |
+| Controls | [Webpage](/controls/Extended/en-webpage.html) - Fix for a bug where some webpages were not displayed correctly. | `fix` |  |
 | Controls | Fix for a bug where the animation of tiles did not work | `fix` |  |
 | Controls | Fix for a bug where the background color of tiles changed when updating a datasource | `fix` |  |
 | Controls | Fix for a bug where transparent backgrounds of styled list and styled tile collection were not displayed correctly in the workspace | `fix` |  |
@@ -1400,9 +1400,9 @@ and write the article where there really is none.
 | General | [Peakboard Designer] - Revised the design of the preview tab | `review` | `content/_controls/Basics/en-fonts.md` (44%) |
 | Data sources | [Drag&drop menu] - Incorrect and missing translations added | `review` | `content/_controls/Input/en-datepicker.md` (46%) |
 | Controls | Arrangement of used controls in Explorer adjusted (newest controls on top) | `review` | `content/_data_sources/en-network-share-files.md` (45%) |
-| Administration | Implemented ability to change the keyboard layout on the Peakboard Box in the Peakboard Box settings | `review` | `content/_data_sources/Extension/en-Extension.md` (65%) |
+| Administration | Implemented ability to change the keyboard layout on the Peakboard Box in the Peakboard Box settings | `review` | `content/_data_sources/Extension/en-Extension.md` (63%) |
 | General | [Peakboard Designer] - UX improvement in the Add Peakboard Box dialog | `documented` | `content/_administration/en-adding.md` (100%) |
-| Controls | General performance improvements for controls | `documented` | `content/_controls/Extended/en-step-viewer.md` (80%) |
+| Controls | General performance improvements for controls | `documented` | `content/_controls/Extended/en-step-viewer.md` (79%) |
 | General | [Peakboard Designer] - Fix for a bug where added controls were kept on an existing workspace when creating a new file | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where the frequency of WLAN networks in the Peakboard Box settings was displayed in kHz instead of GHz | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where some dialogs did not open optimally due to certain resolution settings | `fix` |  |
@@ -1424,44 +1424,33 @@ and write the article where there really is none.
 | Theme selection slider | To make it even easier for you to create visually appealing visualizations, you can now choose from several pre-made themes when you start your project. | `review` | `content/_controls/Chart/en-timeline-grid.md` (46%) |
 | Automatic theming | Build your visualization without having to think about the color scheme. All elements that you add to your visualization are automatically created in matching colors. | `review` | `content/_controls/Basics/en-cf.md` (55%) |
 | General | [Setup] - Improved positioning of the dialog window when starting the setup | `review` | `content/_administration/en-install-runtime.md` (64%) |
-| General | [Fonts](/misc/en-custom-fonts.html) - Fix for a bug where saving a font resulted in a fatal error | `review` | `content/_controls/Extended/en-text-ticker.md` (46%) |
-| General | [Peakboard Designer] - Extensive Theming options implemented, see highlights | `review` | `content/_controls/Input/en-button.md` (47%) |
-| General | [Peakboard Designer] - Project colors management implemented, see highlights | `review` | `content/_controls/Input/en-button.md` (58%) |
+| General | [Peakboard Designer] - Extensive Theming options implemented, see highlights | `review` | `content/_controls/Input/en-button.md` (46%) |
 | General | [Drag and drop menu] - submenu for charts added and general improvements | `review` | `content/_controls/Chart/en-chart.md` (56%) |
-| Data sources | [Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where custom UIs stopped working | `review` | `content/_data_sources/Extension/en-Classes.md` (67%) |
-| Data sources | [Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the filter operator (like == or >=) was not visible when editing a filtered hub list | `review` | `content/_hub/Lists/en-hub_lists-overview.md` (49%) |
-| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for several bugs regarding the handling of namespaces and certificates | `review` | `content/_data_sources/OPC_UA/en-opc-ua.md` (80%) |
-| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a bug where the correct number types were not supplied in the visualization | `review` | `content/_data_sources/OPC_UA/en-Client-Write-OPCUA.md` (68%) |
-| Data sources | [SharePoint](/data_sources/en-sharepointlist.html) - Fix for an error where subpages could not be loaded | `review` | `content/_data_sources/Office365/en-sharepointlist.md` (65%) |
 | Controls | [Table] - Cell spacing attribute improved | `review` | `content/_controls/Common/en-table-grid.md` (63%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Missing parameters of Peakboard Edge restored | `review` | `content/_administration/en-install-silent.md` (63%) |
 | Scripting | [Building blocks](/scripting/en-building-blocks.html) - Missing OPC UA/MQTT parameters restored | `review` | `content/_hub/Flows/en-hub_flows-introduction.md` (58%) |
 | Scripting | [Timer] - Simplified setting a scheduled timer | `review` | `content/_scripting/en-quick-tipp-restart.md` (54%) |
-| Scripting | [Variable list] - Copy and paste from Excel implemented | `review` | `content/_data_sources/en-google-spreadsheets.md` (53%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug where Peakboard Box properties were no longer retrievable in scripts | `review` | `content/_controls/Input/en-checkbox.md` (55%) |
+| Scripting | [Variable list] - Copy and paste from Excel implemented | `review` | `content/_data_sources/en-google-spreadsheets.md` (54%) |
 | Scripting | [Script editor](/scripting/en-script-editor.html) - Missing return data type indicators in the [Find value] area restored | `review` | `content/_administration/en-install-silent.md` (53%) |
-| Peakboard Hub | [Send alert] function implemented in script and building blocks | `review` | `content/_scripting/en-publish-external.md` (66%) |
+| Peakboard Hub | [Send alert] function implemented in script and building blocks | `review` | `content/_scripting/en-publish-external.md` (68%) |
 | Project colors | If you want to change the color of your finished visualization afterwards, you can now do so easily and centrally in one place with the project colors management. Here you can adjust the entire theme or individual color values with a few clicks. | `documented` | `content/_get_started/en-visualization.md` (80%) |
 | General | [Fonts](/misc/en-custom-fonts.html) - added validation of font names in input field | `documented` | `content/_controls/Input/en-textbox.md` (73%) |
 | General | [Attributes] - UX improvements in color selection | `documented` | `content/_controls/Basics/en-fonts.md` (100%) |
 | General | [Resources](/misc/en-ressources.html) - Dynamic network path for data sources and resources enabled | `documented` | `content/_resources/en-resources-intro.md` (77%) |
+| General | [Peakboard Designer] - Project colors management implemented, see highlights | `documented` | `content/_controls/Input/en-button.md` (83%) |
 | General | [Peakboard Box settings] - Screen resolution in Peakboard Box check area added | `documented` | `content/_get_started/en-peakboard-box.md` (88%) |
 | General | [Drag and drop menu] - Standard template for tiles added | `documented` | `content/_controls/Common/en-tile-view.md` (100%) |
 | General | [Drag and drop menu] - selection options extended | `documented` | `content/_controls/Common/en-tile-view.md` (100%) |
 | General | Improved certificate handling | `documented` | `content/_data_sources/OPC_UA/en-opc-ua.md` (100%) |
 | Data sources | [Excel](/data_sources/Excel/en-excel.html) - Example network path added to the data source options | `documented` | `content/_data_sources/Excel/en-excel.md` (100%) |
 | Data sources | [Extensions](/data_sources/Extension/en-Extension.html) - UX improvements for multiline properties | `documented` | `content/_data_sources/Extension/en-DatasourceNoUI.md` (97%) |
-| Data sources | [Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where extension custom functions were not displayed in the script editor and building blocks | `documented` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (86%) |
-| Data sources | [Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to create a hub list data source with SQL statement | `documented` | `content/_data_sources/en-peakboard-hub-list.md` (100%) |
 | Data sources | [SAP](/data_sources/SAP/en-sap.html) - Added additional templates for the XQL editor | `documented` | `content/_controls/Basics/en-cf.md` (100%) |
-| Controls | [Circular gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the font did not change when adjusted via conditional formatting. | `documented` | `content/_controls/Basics/en-general-properties.md` (87%) |
 | Controls | [Table] - Corner radius attribute added | `documented` | `content/_controls/Common/en-table-grid.md` (100%) |
 | Scripting | [Variables] - UX improvements when creating a new variable | `documented` | `content/_controls/Common/en-text-block.md` (100%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug where Intellisense did not work after switching from block to script mode | `documented` | `content/_scripting/en-script-editor.md` (77%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - [get row number] moved from styled list and styled tile collection | `documented` | `content/_controls/Common/en-tile-view.md` (80%) |
-| Scripting | [Script editor](/scripting/en-script-editor.html) - Fixed display errors of some sample texts | `documented` | `content/_controls/Input/en-textbox.md` (100%) |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - [get row number] moved from styled list and styled tile collection | `documented` | `content/_controls/Basics/en-general-properties.md` (80%) |
 | General | [Setup] - Fix for a bug where the uninstaller was placed in the wrong folder | `fix` |  |
 | General | [Templates] - Fix for a bug where some templates could not be opened | `fix` |  |
+| General | [Fonts](/misc/en-custom-fonts.html) - Fix for a bug where saving a font resulted in a fatal error | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where info icons could be accessed with the tab key | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where the Peakboard Designer splash screen did not display the full version | `fix` |  |
 | General | [Peakboard Designer] - Fix for a bug where it was not possible to drag elements from the explorer on top of other elements | `fix` |  |
@@ -1470,11 +1459,22 @@ and write the article where there really is none.
 | General | [Drag and drop menu] - Fix for a bug in the behavior of the text block in connection with a data source. | `fix` |  |
 | General | Fix for a bug that caused a memory leak | `fix` |  |
 | General | Fix for an error that showed licenses as invalid when a second ethernet connection was connected via a screen | `fix` |  |
+| Data sources | [Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where custom UIs stopped working | `fix` |  |
+| Data sources | [Extensions](/data_sources/Extension/en-Extension.html) - Fix for a bug where extension custom functions were not displayed in the script editor and building blocks | `fix` |  |
+| Data sources | [Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where the filter operator (like == or >=) was not visible when editing a filtered hub list | `fix` |  |
+| Data sources | [Hub list](/data_sources/en-peakboard-hub-list.html) - Fix for a bug where it was not possible to create a hub list data source with SQL statement | `fix` |  |
+| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for several bugs regarding the handling of namespaces and certificates | `fix` |  |
+| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a bug where the correct number types were not supplied in the visualization | `fix` |  |
+| Data sources | [SharePoint](/data_sources/en-sharepointlist.html) - Fix for an error where subpages could not be loaded | `fix` |  |
+| Controls | [Circular gauge](/controls/Chart/en-circular-gauge.html) - Fix for a bug where the font did not change when adjusted via conditional formatting. | `fix` |  |
 | Controls | [Styled list] - Fix for a bug where a fatal error occurred when updating a used image resource | `fix` |  |
 | Controls | [Table] - Fix for an error where copying a table reset various parameters to the default values | `fix` |  |
 | Scripting | [Timer] - Fix for a bug where scheduled timer scripts were not executed reliably | `fix` |  |
 | Scripting | [Tiles] - Fix for a bug where when changing the index of the data source, the elements within a tile were duplicated unintentionally | `fix` |  |
 | Scripting | [Variable list] - Fix for a bug where the properties [Accessible via API] and [Save changes on Peakboard box] were not applied when copying a list. | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug where Peakboard Box properties were no longer retrievable in scripts | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - Fix for a bug where Intellisense did not work after switching from block to script mode | `fix` |  |
+| Scripting | [Script editor](/scripting/en-script-editor.html) - Fixed display errors of some sample texts | `fix` |  |
 
 ## 2.16.0.0 (18.07.2022)
 
@@ -1483,92 +1483,92 @@ and write the article where there really is none.
 | Revised UI | The user interface has been comprehensively revised in terms of appearance and user-friendliness. | `undocumented` |  |
 | General | Naming of splash sceen window adjusted | `undocumented` |  |
 | Data sources | [MS SQL Server](/data_sources/en-ms-sql-server.html) - default timeout value increased from 30 seconds to 120 seconds | `undocumented` |  |
-| Data sources | [Siemens S7](/data_sources/de-siemens-s7.html) - Fix for an error that occurred when reading negative values | `undocumented` |  |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where a block became incorrect after the script was closed and reopened | `undocumented` |  |
-| Peakboard Hub | [Lists](/hub/en-hub_variableslist.html) - fix for an error that occurred when only a single line was added | `undocumented` |  |
 | Drag&drop menu | With the new drag&drop menu for data sources, you can now more easily create your desired controls and build your visualization even faster. | `review` | `content/_get_started/en-quick-access-hotkeys.md` (70%) |
-| General | [Peakboard Designer] - New feature implemented: When a screen is dragged and dropped onto the workspace, a button is automatically created with which the screen can be displayed. | `review` | `content/_controls/Basics/en-components.md` (73%) |
 | General | Error messages can be sent to Peakboard for analysis | `review` | `content/_apexboard/en-apexboard-menu-sqdcp.md` (56%) |
 | General | General adjustments to email server | `review` | `content/_data_sources/en-mail.md` (62%) |
 | General | Initial screen revised | `review` | `content/_get_started/en-peakboard-box.md` (45%) |
 | Data sources | [E-mail](/data_sources/en-mail.html) - Optimized sending e-mails | `review` | `content/_data_sources/en-mail.md` (65%) |
-| Data sources | [Excel](/data_sources/Excel/en-excel.html) - OneDrive support implemented | `review` | `content/_data_sources/Excel/en-excel.md` (65%) |
-| Data sources | [JSON](/data_sources/en-json.html) - fix for a bug where JSon nodes containing a dot do not show their value in the editor | `review` | `content/_data_sources/en-mqtt.md` (61%) |
-| Data sources | [MQTT](/data_sources/en-mqtt-broker.html) - fix for a bug where adding a new MQTT subscription caused a crash | `review` | `content/_data_sources/en-mqtt.md` (49%) |
-| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for a bug where script validation did not work properly | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (51%) |
-| Data sources | [Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - functionality extended | `review` | `content/_controls/Common/en-tile-view.md` (46%) |
-| Data sources | [Reload Flows](/misc/en-reloadflows.html) - Fix for several errors that occurred when making changes to a data source contained in a reload flow | `review` | `content/_data_sources/Basics/en-reloadflows.md` (52%) |
-| Data sources | [Siemens S7](/data_sources/en-siemens-s7.html) - User interface reworked and split connection implemented | `review` | `content/_hub/Flows/en-hub_flow-use-cases.md` (52%) |
-| Data sources | [Siemens S7](/data_sources/en-siemens-s7.html) - Fix for an error that occurred when reading certain string data types | `review` | `content/_data_sources/en-peakboard-data-source.md` (52%) |
+| Data sources | [Excel](/data_sources/Excel/en-excel.html) - OneDrive support implemented | `review` | `content/_data_sources/Excel/en-excel.md` (67%) |
+| Data sources | [Peakboard Hub List](/data_sources/en-peakboard-hub-list.html) - functionality extended | `review` | `content/_controls/Common/en-tile-view.md` (45%) |
+| Data sources | [Siemens S7](/data_sources/en-siemens-s7.html) - User interface reworked and split connection implemented | `review` | `content/_hub/Flows/en-hub_flow-use-cases.md` (53%) |
 | Data sources | Revision of data source [Microsoft Calendar](/data_sources/en-microsoft-calendar.html) | `review` | `content/_data_sources/Office365/en-microsoft-calendar.md` (57%) |
 | Data sources | Added ability to log in to cloud-based data sources with different user credentials. | `review` | `content/_hub/Peakboard_Hub_online/en-hub-online_powerautomate.md` (65%) |
 | Dataflows | Changed incorrect naming in context menu | `review` | `content/_controls/Input/en-datepicker.md` (44%) |
 | Dataflows | Naming and behavior adjustments in the aggregation section | `review` | `content/_dataflows/en-edit-columns.md` (50%) |
 | Controls | [Shapes](/controls/Shape/en-shapes.html) - Balloon and cloud removed | `review` | `content/_controls/Basics/en-groups.md` (53%) |
-| Controls | [Linear Gauge](/controls/Chart/de-linear-gauge.html) - fix for a bug where the wrong bar height was displayed if you changed the alignment | `review` | `content/_controls/Basics/en-general-properties.md` (69%) |
-| Controls | [PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where a background change had no effect | `review` | `content/_controls/Document/en-pdf.md` (57%) |
 | Controls | [PDF Viewer]( /controls/Document/en-pdf.html) - script functionality for browsing PDFs implemented | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (64%) |
-| Controls | [Power BI](/controls/Extended/en-power-bi.html) - page selection option for multi-page reports implemented | `review` | `content/_controls/Document/en-pdf.md` (47%) |
-| Controls | [Tile-Control](/controls/Common/en-tilecontrol.html) - datasource index function implemented | `review` | `content/_controls/Common/en-tilecontrol.md` (54%) |
+| Controls | [Power BI](/controls/Extended/en-power-bi.html) - page selection option for multi-page reports implemented | `review` | `content/_controls/Document/en-pdf.md` (48%) |
+| Controls | [Tile-Control](/controls/Common/en-tilecontrol.html) - datasource index function implemented | `review` | `content/_controls/Common/en-tilecontrol.md` (55%) |
 | Controls | [TileView](/controls/Common/en-tile-view.html) and [ListView](/controls/Common/en-list-view.html) - fix for a bug where the Boolean type in conditional formatting was not applied when copying | `review` | `content/_controls/Common/en-list-view.md` (57%) |
 | Controls | [TileView](/controls/Common/en-tile-view.html) and [ListView](/controls/Common/en-list-view.html) - Preset fields adjusted | `review` | `content/_controls/Common/en-list-view.md` (66%) |
-| Controls | [TileView](/controls/Common/en-tile-view.html) - Additional spacing settings implemented | `review` | `content/_controls/Basics/en-groups.md` (62%) |
-| Controls | [TileView](/controls/Common/de-tile-view.html) - fix for a bug where it was not possible to copy and paste an icon control inside a tile control | `review` | `content/_controls/Basics/en-general-properties.md` (66%) |
+| Controls | [TileView](/controls/Common/en-tile-view.html) - Additional spacing settings implemented | `review` | `content/_controls/Basics/en-groups.md` (63%) |
 | Controls | [Text-Ticker](/controls/Extended/en-text-ticker.html) - Replaced wrong icon in explorer | `review` | `content/_scripting/en-script-types.md` (44%) |
 | Controls | [Text-Ticker](/controls/Extended/en-text-ticker.html) - Adjusted behavior when linking to empty list | `review` | `content/_controls/Document/en-rich-text.md` (42%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - SQL stored procedure block extended | `review` | `content/_scripting/en-publish-external.md` (72%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - Current screenshots sendable by mail | `review` | `content/_scripting/en-building-blocks.md` (63%) |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where the preview for a block continued to be displayed even when the cursor was released outside the workspace | `review` | `content/_scripting/en-script-editor.md` (45%) |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for an error that occurred with special characters in column names | `review` | `content/_controls/Basics/en-general-properties.md` (58%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - Aggregation functions optimized | `review` | `content/_scripting/en-script-tree.md` (60%) |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - Quick access for AND/OR blocks implemented | `review` | `content/_resources/en-resources-tipp-sharepoint.md` (68%) |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - Quick access for AND/OR blocks implemented | `review` | `content/_resources/en-resources-tipp-sharepoint.md` (70%) |
 | Scripting | Adjusted naming in script tree | `review` | `content/_scripting/en-building-blocks.md` (68%) |
-| Scripting | Implemented new functions for data sources, dataflows and lists | `review` | `content/_controls/Input/en-button.md` (61%) |
 | Scripting | Translations in script editor, script tree and context menu improved | `review` | `content/_scripting/en-script-types.md` (58%) |
-| Scripting | Functions for Peakboard Hub implemented in script editor and building blocks | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (65%) |
+| Scripting | Functions for Peakboard Hub implemented in script editor and building blocks | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (63%) |
 | Scripting | Script tree contents for TileView and ListView adapted | `review` | `content/_controls/Common/en-list-view.md` (58%) |
-| Peakboard Web Access | Implemented new global function for image sources | `review` | `content/_controls/Input/en-button.md` (54%) |
+| Peakboard Web Access | Implemented new global function for image sources | `review` | `content/_get_started/en-quick-access-hotkeys.md` (56%) |
 | Rockwell | New data source [Rockwell](/data_sources/en-rockwell.html) is now available. | `documented` | `content/_data_sources/en-rockwell.md` (95%) |
-| Modbus | New data source [Modbus](/data_sources/en-modbus.html) is now available. | `documented` | `content/_scripting/en-publish-external.md` (85%) |
+| Modbus | New data source [Modbus](/data_sources/en-modbus.html) is now available. | `documented` | `content/_scripting/Script Templates/en_modbus.md` (84%) |
 | Peakboard Hub Alerts | Via scripting it is now possible to send alerts to Peakboard Hub. | `documented` | `content/_scripting/en-publish-external.md` (100%) |
-| General | [Peakboard Designer] - drag&drop menu for data sources, dataflows and variables implemented on the workspace | `documented` | `content/_controls/Input/en-button.md` (85%) |
+| General | [Peakboard Designer] - New feature implemented: When a screen is dragged and dropped onto the workspace, a button is automatically created with which the screen can be displayed. | `documented` | `content/_controls/Basics/en-components.md` (74%) |
+| General | [Peakboard Designer] - drag&drop menu for data sources, dataflows and variables implemented on the workspace | `documented` | `content/_controls/Input/en-button.md` (84%) |
 | General | Added Sharepoint as a selection option in resource selection dialog | `documented` | `content/_resources/en-resources-tipp-sharepoint.md` (100%) |
 | General | Added possibility to edit scripts in screens and controls via right click | `documented` | `content/_controls/Media/en-video.md` (100%) |
 | General | New icons for data sources implemented | `documented` | `content/_controls/Input/en-button.md` (100%) |
-| Data sources | New data source [Rockwell](/data_sources/en-rockwell.html) | `documented` | `content/_scripting/en-publish-external.md` (100%) |
-| Data sources | New data source [Modbus](/data_sources/en-modbus.html) | `documented` | `content/_scripting/en-publish-external.md` (100%) |
-| Data sources | [Excel](/data_sources/Excel/en-excel.html) - Fix for a bug with existing Excel data sources | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
-| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for an error where all columns were always loaded as [ number ] type | `documented` | `content/_administration/en-certificates.md` (80%) |
+| Data sources | New data source [Rockwell](/data_sources/en-rockwell.html) | `documented` | `content/_scripting/Script Templates/en_rockwell.md` (100%) |
+| Data sources | New data source [Modbus](/data_sources/en-modbus.html) | `documented` | `content/_scripting/Script Templates/en_modbus.md` (100%) |
 | Data sources | Removed [Microsoft Dynamics NAV] data source | `documented` | `content/_controls/Input/en-calendar.md` (100%) |
-| Controls | [Conditional Formatting](/controls/en-cf.html) - fix for a bug where conditional formatting did not work if the column name contained a [:] or [-] | `documented` | `content/_controls/Input/en-dropdown.md` (73%) |
 | Controls | [Linear Gauge](/controls/Chart/en-linear-gauge.html) - description text changed when data source was missing | `documented` | `content/_controls/Chart/en-chart.md` (80%) |
-| Controls | [PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where PDFs used in multiple PDF viewers and added via script were not displayed | `documented` | `content/_controls/Document/en-pdf.md` (87%) |
-| Controls | [PDF Viewer](/controls/Document/en-pdf.html) - new functionality implemented in [Building Blocks](/scripting/en-building-blocks.html) | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (81%) |
-| Controls | [Table Grid](/controls/Common/en-table-grid.html) - fix for a bug in the column dialog | `documented` | `content/_scripting/en-formating-table-grid.md` (91%) |
+| Controls | [PDF Viewer](/controls/Document/en-pdf.html) - new functionality implemented in [Building Blocks](/scripting/en-building-blocks.html) | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (80%) |
 | Controls | [Table Grid](/controls/Common/en-table-grid.html) - options for background colors adjusted | `documented` | `content/_controls/Basics/en-general-properties.md` (80%) |
-| Controls | [TileView](/controls/Common/en-tile-view.html) and [ListView](/controls/Common/en-list-view.html) - function to change visibility implemented | `documented` | `content/_controls/Common/en-list-view.md` (72%) |
+| Controls | [TileView](/controls/Common/en-tile-view.html) and [ListView](/controls/Common/en-list-view.html) - function to change visibility implemented | `documented` | `content/_controls/Common/en-list-view.md` (73%) |
 | Controls | Default value for charts without data adjusted from [72] to [0] | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (74%) |
 | Controls | Default formats changed | `documented` | `content/_administration/en-install-silent.md` (100%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - Texts in hub list blocks changed from index to ID | `documented` | `content/_scripting/en-building-blocks.md` (100%) |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where [Set variable] stopped working | `documented` | `content/_administration/en-faqsecurity.md` (87%) |
+| Scripting | Implemented new functions for data sources, dataflows and lists | `documented` | `content/_controls/Input/en-button.md` (72%) |
 | Scripting | Lua SQL module improved | `documented` | `content/_data_sources/Basics/en-shared-connection.md` (100%) |
 | Scripting | Timer can be activated and deactivated via script or building blocks | `documented` | `content/_controls/Input/en-checkbox.md` (79%) |
-| Peakboard Web Access | Added result display in notification for successfully executed function | `documented` | `content/_scripting/en-building-blocks.md` (82%) |
+| Peakboard Web Access | Added result display in notification for successfully executed function | `documented` | `content/_scripting/en-building-blocks.md` (83%) |
 | General | [Peakboard Runtime] - Fix for a bug where an error was issued instead of default values when data was converted incorrectly | `fix` |  |
 | General | [Peakboard Runtime] - Fix for a bug where data was displayed as unavailable if a reloadable list was accessed during reload | `fix` |  |
 | General | [Peakboard Designer] - Fixed incorrect naming in Explorer | `fix` |  |
 | General | Peakboard Box Settings - Fix for a bug where Peakboard Designer does not save a change when selecting the Ethernet option [Obtain IP address automatically] | `fix` |  |
 | General | Fix for an error that occurred when the screen was disconnected from the Peakboard Box | `fix` |  |
+| Data sources | [Excel](/data_sources/Excel/en-excel.html) - Fix for a bug with existing Excel data sources | `fix` |  |
+| Data sources | [JSON](/data_sources/en-json.html) - fix for a bug where JSon nodes containing a dot do not show their value in the editor | `fix` |  |
+| Data sources | [MQTT](/data_sources/en-mqtt-broker.html) - fix for a bug where adding a new MQTT subscription caused a crash | `fix` |  |
+| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for an error where all columns were always loaded as [ number ] type | `fix` |  |
+| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for a bug where script validation did not work properly | `fix` |  |
+| Data sources | [Reload Flows](/misc/en-reloadflows.html) - Fix for several errors that occurred when making changes to a data source contained in a reload flow | `fix` |  |
+| Data sources | [Siemens S7](/data_sources/en-siemens-s7.html) - Fix for an error that occurred when reading certain string data types | `fix` |  |
+| Data sources | [Siemens S7](/data_sources/de-siemens-s7.html) - Fix for an error that occurred when reading negative values | `fix` |  |
 | Dataflows | Fix for a bug where disabling a dataflow did not gray it out until the project was reloaded | `fix` |  |
 | Dataflows | Fix for a bug where the horizontal scrollbar was not displayed if the dataflow did not contain any rows | `fix` |  |
 | Dataflows | Fix for a bug where data sources could only be enabled/disabled in the context menu | `fix` |  |
 | Dataflows | Fixed bug in user interface | `fix` |  |
+| Controls | [Conditional Formatting](/controls/en-cf.html) - fix for a bug where conditional formatting did not work if the column name contained a [:] or [-] | `fix` |  |
+| Controls | [Linear Gauge](/controls/Chart/de-linear-gauge.html) - fix for a bug where the wrong bar height was displayed if you changed the alignment | `fix` |  |
+| Controls | [PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where PDFs used in multiple PDF viewers and added via script were not displayed | `fix` |  |
+| Controls | [PDF Viewer]( /controls/Document/en-pdf.html) - fix for a bug where a background change had no effect | `fix` |  |
+| Controls | [Table Grid](/controls/Common/en-table-grid.html) - fix for a bug in the column dialog | `fix` |  |
+| Controls | [TileView](/controls/Common/de-tile-view.html) - fix for a bug where it was not possible to copy and paste an icon control inside a tile control | `fix` |  |
 | Controls | Fix for a bug where creating a series from charts was not possible | `fix` |  |
 | Controls | Fix for a bug where Peakboard Runtime crashed on startup when using a [Checkbox](/controls/Input/en-checkbox.html) or a [Toggleswitch](/controls/Input/en-toggleswitch.html) inside a [TileView](/controls/Common/en-tile-view.html) or got stuck on startup when using them in a [ListView](/controls/Common/en-list-view.html) | `fix` |  |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where [Set variable] stopped working | `fix` |  |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where the preview for a block continued to be displayed even when the cursor was released outside the workspace | `fix` |  |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for an error that occurred with special characters in column names | `fix` |  |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - fix for a bug where a block became incorrect after the script was closed and reopened | `fix` |  |
 | Scripting | Fix for a bug where an incorrect default script was generated in global functions | `fix` |  |
 | Scripting | Fix for a bug where Intellisense stopped working for controls | `fix` |  |
 | Scripting | Fix for a bug where the [isvisible] property did not work in the runtime | `fix` |  |
 | Scripting | Fix for a bug where the script example [addendingcharacters] did not work | `fix` |  |
+| Peakboard Hub | [Lists](/hub/en-hub_variableslist.html) - fix for an error that occurred when only a single line was added | `fix` |  |
 | Peakboard Web Access | Fix for a bug where it was not possible to scroll through the existing visualizations if there were too many on a Peakboard Box | `fix` |  |
 | Peakboard Web Access | Fix for a bug where it was not possible to save changes made in a split list in the web interface | `fix` |  |
 
@@ -1581,20 +1581,20 @@ and write the article where there really is none.
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - removed unused and outdated blocks | `undocumented` |  |
 | Peakboard Hub | Example value for [setentry] changed to 1 | `undocumented` |  |
 | Date Picker | New interactive control [Date Picker](/controls/Input/en-datepicker.html) for date input is now available. Data format for data input and visual output can be defined individually. | `review` | `content/_controls/Input/en-datepicker.md` (67%) |
-| General | Loading screen for Peakboard Runtime and Peakboard Designer implemented | `review` | `content/_scripting/en-debug-panel.md` (67%) |
+| General | Loading screen for Peakboard Runtime and Peakboard Designer implemented | `review` | `content/_scripting/en-debug-panel.md` (69%) |
 | Data sources | [Reload Flows](/misc/en-reloadflows.html) - list of available data sources updated to alphabetical order | `review` | `content/_data_sources/Basics/en-reloadflows.md` (65%) |
 | Data sources | [Sharepoint](/data_sources/en-sharepointlist.html) - added new section [Shared with me] in the file selector to include files whose parent folder you don't have access to | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (48%) |
 | Controls | Buggy gauge controls reworked | `review` | `content/_controls/Basics/en-general-properties.md` (45%) |
 | Controls | Optical adjustments at [Dropdown-List](/controls/Input/en-dropdown.html) and [Text Box](/controls/Input/en-textbox.html) | `review` | `content/_controls/Common/en-text-block.md` (68%) |
-| Controls | [Drop down](/controls/Input/en-dropdown.html) - naming of properties window adjusted | `review` | `content/_scripting/en-building-blocks.md` (57%) |
-| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - [Get row number] block added to list/tile view templates | `review` | `content/_controls/Common/en-table-grid.md` (68%) |
+| Controls | [Drop down](/controls/Input/en-dropdown.html) - naming of properties window adjusted | `review` | `content/_controls/Basics/en-general-properties.md` (60%) |
+| Scripting | [Building Blocks](/scripting/en-building-blocks.html) - [Get row number] block added to list/tile view templates | `review` | `content/_controls/Common/en-tilecontrol.md` (68%) |
 | Scripting | [Script Editor](/scripting/en-script-editor.html) - debugger removed | `review` | `content/_scripting/en-debug-panel.md` (62%) |
 | Scripting | [Script Editor](/scripting/en-script-editor.html) - added save request if the window is closed without saving first or contains empty blocks | `review` | `content/_controls/Input/en-drawing-area.md` (64%) |
 | Scripting | New lines can now be inserted at any position in variable lists, instead of only at the end of the list as before | `review` | `content/_controls/Input/en-calendar.md` (52%) |
 | Administration | Optical adjustment of two text fields in the Peakboard Box settings | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (55%) |
 | Time Picker | New interactive control [Time Picker](/controls/Input/en-timepicker.html) for time input is now available. Data format for data input and visual output can be defined individually. | `documented` | `content/_controls/Input/en-timepicker.md` (73%) |
 | General | Peakboard Runtime log messages improved | `documented` | `content/_administration/en-install-runtime.md` (100%) |
-| Data sources | [MQTT](/data_sources/en-mqtt-broker.html) - dynamic subscription mode added | `documented` | `content/_data_sources/en-mqtt.md` (87%) |
+| Data sources | [MQTT](/data_sources/en-mqtt-broker.html) - dynamic subscription mode added | `documented` | `content/_data_sources/en-mqtt.md` (88%) |
 | Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - improvements | `documented` | `content/_administration/en-certificates.md` (100%) |
 | Data sources | [XQL](/data_sources/SAP/en-xql.html) - added option to export table parameters in [EXECUTE FUNCTION] | `documented` | `content/_data_sources/SAP/en-xql.md` (100%) |
 | Controls | New control [Date Picker](/controls/Input/en-datepicker.html) | `documented` | `content/_controls/Input/en-datepicker.md` (100%) |
@@ -1647,26 +1647,26 @@ and write the article where there really is none.
 | Reload Flows | Sometimes it is necessary to define a fixed order in which different data sources are loaded. Until now you had to write a script for this. With the new [Reloadflows]( /misc/de-reloadflows.html) you can simply drag and drop to define an order. | `review` | `content/_data_sources/Basics/en-reloadflows.md` (58%) |
 | Peakboard Box Infopanel | The new Infopanel allows you to retrieve debug information, status information or Peakboard Box specific functions while a visualization is running on the Peakboard Box. To do this, you have to connect a keyboard to the Peakboard Box and open the Infopanel with the shortcut [Ctrl + i]. | `review` | `content/_get_started/en-quick-access-hotkeys.md` (61%) |
 | General overview | Implementation of a new versioning, which allows for updates independent of an update of the Peakboard Box | `review` | `content/_scripting/en-publish-external.md` (48%) |
-| General | Function for direct upload of a visualization to a Peakboard Box implemented | `review` | `content/_data_sources/en-peakboard-data-source.md` (47%) |
+| General | Function for direct upload of a visualization to a Peakboard Box implemented | `review` | `content/_data_sources/en-peakboard-data-source.md` (49%) |
 | General | [Certificate Manager](/administration/en-certificates.html) - UI revised | `review` | `content/_data_sources/Extension/en-Tableau.md` (55%) |
-| General | [Resources](/misc/en-ressources.html) - function to renew access token implemented | `review` | `content/_data_sources/Basics/en-OAuth.md` (51%) |
+| General | [Resources](/misc/en-ressources.html) - function to renew access token implemented | `review` | `content/_data_sources/Basics/en-OAuth.md` (52%) |
 | General | Possibility to set proxy settings of a Peakboard box reactivated | `review` | `content/_administration/en-proxy.md` (48%) |
-| Controls | [Conditional formatting](/controls/en-cf.html) - Function to skip a screen implemented | `review` | `content/_scripting/en-building-blocks.md` (68%) |
-| Controls | [Conditional formatting](/controls/en-cf.html) - Right-click on a control to invoke [conditional formatting]. | `review` | `content/_data_sources/en-azure-iot-hub.md` (58%) |
+| Controls | [Conditional formatting](/controls/en-cf.html) - Function to skip a screen implemented | `review` | `content/_scripting/en-building-blocks.md` (70%) |
+| Controls | [Conditional formatting](/controls/en-cf.html) - Right-click on a control to invoke [conditional formatting]. | `review` | `content/_data_sources/en-azure-iot-hub.md` (59%) |
 | Controls | [Image control](/controls/Media/en-image.html) - removed irrelevant properties | `review` | `content/_controls/Media/en-image.md` (63%) |
 | Controls | [Animation] - Revised | `review` | `content/_controls/Chart/en-chart.md` (43%) |
 | Data sources | Data source and dataflow loading dependencies reworked. | `review` | `content/_scripting/en-debug-panel.md` (54%) |
-| Data sources | [CSV](/data_sources/en-csv.html), [XML](/data_sources/en-xml.html), [JSON](/data_sources/en-json.html) - SharePoint implemented as source type | `review` | `content/_data_sources/Extension/en-Extension.md` (68%) |
-| Peakboard Box | [Hotkey Ctrl + i] and Infopanel for the Peakboard Box implemented | `review` | `content/_get_started/en-quick-access-hotkeys.md` (46%) |
-| Peakboard Hub | Check for unused certificates implemented | `review` | `content/_controls/Input/en-button.md` (44%) |
+| Data sources | [CSV](/data_sources/en-csv.html), [XML](/data_sources/en-xml.html), [JSON](/data_sources/en-json.html) - SharePoint implemented as source type | `review` | `content/_data_sources/Extension/en-Extension.md` (67%) |
+| Peakboard Box | [Hotkey Ctrl + i] and Infopanel for the Peakboard Box implemented | `review` | `content/_get_started/en-quick-access-hotkeys.md` (47%) |
+| Peakboard Hub | Check for unused certificates implemented | `review` | `content/_data_sources/Basics/en-xml-data.md` (45%) |
 | Scripting | Removed the *runtime.screenscale()* method | `review` | `content/_controls/Extended/en-step-viewer.md` (42%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - redesigned script tree | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (55%) |
 | General | [Font Manager](/misc/en-fonts.html) - UI and UX improvement | `documented` | `content/_controls/Basics/en-fonts.md` (100%) |
 | General | [Resources](/misc/en-ressources.html) - added option to edit network drive path for network resources | `documented` | `content/_resources/en-resources-intro.md` (80%) |
 | Controls | [Web page control](/controls/Extended/en-webpage.html) - the control can now be linked to a variable | `documented` | `content/_controls/Extended/en-html-code.md` (77%) |
 | Controls | [Gauge-Diagram](/controls/Chart/en-circular-gauge.html) - improvements | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
-| Controls | [Icon](/controls/Common/en-icon.html) - option for a dark background implemented | `documented` | `content/_controls/Chart/en-chart.md` (73%) |
-| Data sources | [Reload Flows](/misc/de-reloadflows.html) implemented. | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (74%) |
+| Controls | [Icon](/controls/Common/en-icon.html) - option for a dark background implemented | `documented` | `content/_controls/Input/en-button.md` (84%) |
+| Data sources | [Reload Flows](/misc/de-reloadflows.html) implemented. | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (76%) |
 | Data sources | [Dataflows](/dataflows/en-getting-started.html) - removed unnecessary script editor | `documented` | `content/_hub/Flows/en-hub_flow-use-cases.md` (72%) |
 | Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Browse dialog reworked | `documented` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (100%) |
 | Scripting | The method *brushes.fromhex()* now allows all common hex code formats for color codes | `documented` | `content/_scripting/Script Templates/en-keyboard-input.md` (70%) |
@@ -1703,7 +1703,7 @@ and write the article where there really is none.
 
 | section | entry | verdict | article |
 |---|---|---|---|
-| Data sources | [Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive  | `review` | `content/_data_sources/Excel/en-excel.md` (47%) |
+| Data sources | [Excel](/data_sources/Excel/en-excel.html) - Hotfix for a bug that opened an incorrect dialog when an Excel file was connected to a network drive  | `fix` |  |
 
 ## 2.13.2.0 (23.11.2021)
 
@@ -1715,7 +1715,7 @@ and write the article where there really is none.
 | Controls | Animation - Preview and customizing revised | `undocumented` |  |
 | Peakboard Box Check | The Peakboard Box check has been implemented in the revised Peakboard Box settings. It provides you with detailed meta information about your Peakboard Box and allows you to identify possible problem sources. For easier support from our side there is also the possibility to export this information. | `review` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (42%) |
 | General | [Manage & Upload Dialog] - Revised | `review` | `content/_administration/en-user-administration.md` (50%) |
-| General | [Manage & Upload Dialog] - Shut-Down button for Peakboard Boxes implemented | `review` | `content/_administration/en-user-administration.md` (50%) |
+| General | [Manage & Upload Dialog] - Shut-Down button for Peakboard Boxes implemented | `review` | `content/_administration/en-user-administration.md` (51%) |
 | General | [Certificate Manager](/administration/en-certificates.html) - User handling improved | `review` | `content/_data_sources/OPC_UA/en-opc-ua.md` (67%) |
 | Controls | [PowerBI-Control](/controls/Extended/en-power-bi.html) - compatibility for reports added | `review` | `content/_controls/Extended/en-power-bi.md` (63%) |
 | Controls | [PowerBI-Control](/controls/Extended/en-power-bi.html) - Dialog revised | `review` | `content/_controls/Extended/en-power-bi.md` (52%) |
@@ -1730,7 +1730,7 @@ and write the article where there really is none.
 | Controls | For controls with data binding dialog, the dialog is opened automatically when the control is created | `documented` | `content/_controls/Extended/en-step-viewer.md` (89%) |
 | Data sources | Removed Peakboard Bridge from all data sources and resources. | `documented` | `content/_data_sources/en-forcam.md` (72%) |
 | Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Browse dialog improved | `documented` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (100%) |
-| Data sources | [ODBC](/data_sources/en-odbc.html) - data structure reworked | `documented` | `content/_data_sources/en-odbc.md` (72%) |
+| Data sources | [ODBC](/data_sources/en-odbc.html) - data structure reworked | `documented` | `content/_data_sources/Excel/en-ODBC-Excel.md` (72%) |
 | Peakboard Hub | Peakboard Boxes can be synchronized with the Peakboard Designer via Peakboard Hub | `documented` | `content/_hub/en-hub_variables.md` (93%) |
 | General | Fix for a bug that generated incorrect logs | `fix` |  |
 | General | Fix for a bug that caused all variables to be overwritten, when changing a variable via web access | `fix` |  |
@@ -1760,22 +1760,15 @@ and write the article where there really is none.
 | Data sources | [Peakboard Hub List] - error messages revised | `undocumented` |  |
 | Peakboard Edge | Minor bug fixes | `undocumented` |  |
 | Scripting | Error messages revised | `undocumented` |  |
-| General | [Web Access] - Access to created global script functions implemented | `review` | `content/_scripting/Script Templates/en-change-pdf-page.md` (61%) |
+| General | [Web Access] - Access to created global script functions implemented | `review` | `content/_data_sources/Extension/en-Tableau.md` (62%) |
 | General | [Dataflows] - Missing translations added | `review` | `content/_hub/Flows/en-hub_flows-introduction.md` (49%) |
 | General | Visual revision of all control icons | `review` | `content/_controls/Chart/en-timeline-grid.md` (46%) |
 | General | Visual revision of all icons | `review` | `content/_controls/Chart/en-timeline-grid.md` (41%) |
-| Controls | [Table Grid](/controls/Common/en-table-grid.html) - Fix for a bug where the reordering of columns was not saved with [OK]. | `review` | `content/_scripting/en-variables.md` (68%) |
-| Controls | [Drop Down](/controls/Input/en-dropdown.html) - fix for a bug where the Visible/Invisible property led to a critical error | `review` | `content/_controls/Input/en-button.md` (45%) |
-| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a problem where only correct URIs could be used for the namespace | `review` | `content/_data_sources/OPC_UA/en-opc-ua.md` (62%) |
 | Data sources | [Peakboard data source](/data_sources/en-peakboard-data-soure.html) - Error messages revised | `review` | `content/_data_sources/en-peakboard-data-source.md` (55%) |
 | Scripting | [Script Tree](/scripting/de-script-tree.html) revised | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (48%) |
 | Scripting | [Building Blocks](/scripting/en-building-blocks.html) - bugfixes and minor improvements like drag & drop and more new blocks | `review` | `content/_data_sources/en-peakboard-hub-list.md` (44%) |
 | General | [Dataflows] - [Remove duplicates] step added | `documented` | `content/_dataflows/en-filter-and-sort.md` (100%) |
-| Controls | [Text](/controls/Common/en-text-block.html) - fix for a bug where formatting for background was lost | `documented` | `content/_data_sources/SAP/en-xql.md` (78%) |
-| Data sources | [Extension](/data_sources/Extension/en-Extension.html) - Fix for a bug where a created extension connection could no longer be edited or copied | `documented` | `content/_controls/Basics/en-fonts.md` (88%) |
-| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for several errors | `documented` | `content/_administration/en-certificates.md` (100%) |
 | Data sources | [Date and Time](/data_sources/en-date-and-time.html) - Now shows a real date when linked to a [Text-Control](/controls/Common/en-text-block.html) | `documented` | `content/_data_sources/SAP/en-xql.md` (74%) |
-| Data sources | [CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data | `documented` | `content/_controls/Extended/en-step-viewer.md` (95%) |
 | Peakboard API | API call for reading and writing a single value of a list, added by passing the index. | `documented` | `content/_misc/en-API.md` (100%) |
 | Peakboard API | Added endpoints for Peakboard scripts | `documented` | `content/_administration/en-shutdown-WoL.md` (100%) |
 | General | Fix for several errors in [Certificate Manager](/administration/en-certificats.html) for [MQTT](/data_sources/en-mqtt-broker.html) and [OPC UA](/data_sources/OPCUA/en-opc-ua.html) | `fix` |  |
@@ -1786,6 +1779,13 @@ and write the article where there really is none.
 | General | Fix for a bug where [dataflows] were displayed as editable for non-editable dataflows | `fix` |  |
 | General | Fix for a bug where Google Drive could no longer be used | `fix` |  |
 | General | Fix for a bug where the range function in a [Dataflow] did not work correctly | `fix` |  |
+| Controls | [Table Grid](/controls/Common/en-table-grid.html) - Fix for a bug where the reordering of columns was not saved with [OK]. | `fix` |  |
+| Controls | [Drop Down](/controls/Input/en-dropdown.html) - fix for a bug where the Visible/Invisible property led to a critical error | `fix` |  |
+| Controls | [Text](/controls/Common/en-text-block.html) - fix for a bug where formatting for background was lost | `fix` |  |
+| Data sources | [Extension](/data_sources/Extension/en-Extension.html) - Fix for a bug where a created extension connection could no longer be edited or copied | `fix` |  |
+| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Fix for a problem where only correct URIs could be used for the namespace | `fix` |  |
+| Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - fix for several errors | `fix` |  |
+| Data sources | [CSV](/data_sources/en-csv.html) - fix for an error where the data source could be created without loading the data | `fix` |  |
 | Peakboard API | Fix for a bug where values could no longer be set via Web Access | `fix` |  |
 | Peakboard Box | Fix for a bug where logs were only removed from the view when deleted, but not from the Peakboard Box. | `fix` |  |
 | Peakboard Box | Fix for an error in the log caused by initial default visualization | `fix` |  |
@@ -1832,25 +1832,25 @@ and write the article where there really is none.
 | Scripting | [Script Editor](/scripting/en-script-editor.html) - The script editor keeps the last used scaling | `review` | `content/_controls/Media/en-image.md` (65%) |
 | Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Revised dialog | `review` | `content/_administration/en-certificates.md` (61%) |
 | Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Allows to create folders for OPC UA Subscription and provides the possibility to use them for full path naming of subscripting values | `review` | `content/_data_sources/OPC_UA/en-opc-ua.md` (55%) |
-| Data sources | [Extension](/data_sources/Extension/en-Extension.html) - Data type handling adjusted | `review` | `content/_data_sources/Basics/en-OAuth.md` (47%) |
+| Data sources | [Extension](/data_sources/Extension/en-Extension.html) - Data type handling adjusted | `review` | `content/_controls/Basics/en-general-properties.md` (47%) |
 | Data sources | [Extension](/data_sources/Extension/en-Extension.html) - error handling adapted | `review` | `content/_controls/Document/en-google-docs.md` (43%) |
 | Data sources | [XML](/data_sources/en-xml.html) - error handling revised | `review` | `content/_data_sources/OPC_UA/en-opc-ua.md` (44%) |
 | Controls | [Excel chart](/controls/Chart/en-excel-viewer.html) - Error handling adjusted | `review` | `content/_controls/Chart/en-chart.md` (59%) |
-| Controls | [ListView](/controls/Common/en-list-view.html) - right click options implemented | `review` | `content/_controls/Common/en-list-view.md` (68%) |
+| Controls | [ListView](/controls/Common/en-list-view.html) - right click options implemented | `review` | `content/_controls/Common/en-list-view.md` (69%) |
 | Controls | Tableau View - removed | `review` | `content/_data_sources/Basics/en-xml-data.md` (69%) |
 | General | Color scheme for color selection revised | `review` | `content/_controls/Basics/en-cf.md` (47%) |
 | General | [Certificate Manager](/administration/en-certificats.html) revised | `review` | `content/_administration/en-certificates.md` (55%) |
-| General | Dialog for connection to Peakboard Hub implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (69%) |
+| General | Dialog for connection to Peakboard Hub implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (67%) |
 | General | [Peakboard Variables](/scripting/en-variables.html) - dialog revised | `review` | `content/_controls/Document/en-pdf.md` (40%) |
 | Peakboard Edge | Error handling adjusted  | `review` | `content/_controls/Basics/en-formating-values.md` (50%) |
 | Scripting | [Peakboard Building Blocks](/scripting/en-building-blocks.html) implemented | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (95%) |
 | Data sources | [OPC UA](/data_sources/OPCUA/en-opc-ua.html) - Listener integrated | `documented` | `content/_data_sources/OPC_UA/en-opc-ua.md` (76%) |
 | Data sources | [MQTT](/data_sources/en-mqtt-broker.html) - certificate handling reworked | `documented` | `content/_administration/en-certificates.md` (75%) |
-| Controls | [Web page control](/controls/Extended/en-webpage.html) - added option for JavaScript Inject | `documented` | `content/_controls/Extended/en-webpage.md` (72%) |
+| Controls | [Web page control](/controls/Extended/en-webpage.html) - added option for JavaScript Inject | `documented` | `content/_controls/Extended/en-webpage.md` (71%) |
 | Controls | [Web page control](/controls/Extended/en-webpage.html) - The data field can now be changed via conditional formatting | `documented` | `content/_data_sources/SAP/en-sap-fiori.md` (77%) |
 | Controls | [ListView](/controls/Common/en-list-view.html) - Default template added | `documented` | `content/_controls/Common/en-list-view.md` (90%) |
 | Controls | [TileView](/controls/Common/en-tile-view.html) - default template added | `documented` | `content/_controls/Common/en-list-view.md` (91%) |
-| Controls | [TileView](/controls/Common/en-tile-view.html) - right click options implemented | `documented` | `content/_controls/Common/en-list-view.md` (70%) |
+| Controls | [TileView](/controls/Common/en-tile-view.html) - right click options implemented | `documented` | `content/_controls/Common/en-list-view.md` (72%) |
 | Controls | [Text](/controls/Common/en-text-block.html) - added update button on data source binding | `documented` | `content/_controls/Media/en-image.md` (80%) |
 | Controls | [Conditional Formatting](/controls/en-cf.html) - It is now possible to bind a variable as text in the conditional formatting for a button | `documented` | `content/_controls/Common/en-tilecontrol.md` (100%) |
 | Controls | [Conditional formatting](/controls/en-cf.html) - Use a drop down for boolean variables | `documented` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (84%) |
@@ -1859,8 +1859,8 @@ and write the article where there really is none.
 | General | [Peakboard Variables](/scripting/en-variables.html) - The initial value of a variable of the type Number is 0 | `documented` | `content/_controls/Input/en-slider.md` (100%) |
 | General | [Peakboard Variables/Lists](/scripting/en-variables.html) - Allows a variable to be connected to Peakboard Hub to share with other Peakboard Boxes. | `documented` | `content/_scripting/en-publish-external.md` (100%) |
 | General | [Peakboard API](/misc/en-API.html) - Allows reading and writing a single value of a list by passing the index. | `documented` | `content/_misc/en-API.md` (100%) |
-| General | Option for a manual update of the Peakboard Designer implemented | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (74%) |
-| Peakboard Box | [Certificate Management](/administration/en-certificats.html) implemented via Peakboard Designer | `documented` | `content/_administration/en-certificates.md` (77%) |
+| General | Option for a manual update of the Peakboard Designer implemented | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (73%) |
+| Peakboard Box | [Certificate Management](/administration/en-certificats.html) implemented via Peakboard Designer | `documented` | `content/_administration/en-certificates.md` (79%) |
 | Peakboard Box | Added new user roles | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
 | Peakboard Hub | Peakboard Hub - Token Authentication removed | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
 | Peakboard Hub | Peakboard Hub - Single Point Authentication added | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-hub_silent-installation.md` (78%) |
@@ -1885,14 +1885,14 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | General overview | Removed obsolete chart controls | `undocumented` |  |
-| General overview | Implemented alphabetical sorting in Peakboard Designer explorer | `undocumented` |  |
 | General overview | Peakboard data sources renamed | `undocumented` |  |
 | General overview | Visualizations loaded on the Peakboard Box now get a timestamp and are sorted chronologically | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (46%) |
 | General overview | User roles concept on the Peakboard Box extended | `review` | `content/_administration/en-faqsecurity.md` (41%) |
 | General overview | Bridge resources removed | `review` | `content/_data_sources/en-forcam.md` (69%) |
 | General overview | API function split into read and write | `review` | `content/_controls/Common/en-text-block.md` (58%) |
-| General overview | Swagger API implemented | `review` | `content/_data_sources/en-forcam.md` (51%) |
+| General overview | Swagger API implemented | `review` | `content/_data_sources/en-forcam.md` (54%) |
 | General overview | Internal communication structures revised | `review` | `content/_data_sources/en-siemens-s7.md` (43%) |
+| General overview | Implemented alphabetical sorting in Peakboard Designer explorer | `review` | `content/_data_sources/en-peakboard-hub-list.md` (41%) |
 | General overview | Added update of videos in the Peakboard Designer start screen | `documented` | `content/_controls/Input/en-datepicker.md` (100%) |
 | General overview | Added function to copy templates for List and TileView controls | `documented` | `content/_controls/Common/en-list-view.md` (78%) |
 | General overview | Fix for a bug where Excel data sources had used an unusually large amount of memory | `fix` |  |
@@ -1920,7 +1920,7 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | Archive | Scroll function for the chart control adapted for handling on touchscreens | `review` | `content/_scripting/en-script-editor.md` (42%) |
-| Archive | The bearer token for web authentication can now be customized via script | `review` | `content/_resources/en-resources-web.md` (66%) |
+| Archive | The bearer token for web authentication can now be customized via script | `review` | `content/_resources/en-resources-web.md` (67%) |
 | Archive | Rework for the web interface of the Peakboard Box. | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
 | Archive | Further rework for the advanced chart control | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
 | Archive | Initial Standard Template of the Peakboard Box reworked | `documented` | `content/_administration/en-ports-and-network-traffic.md` (72%) |
@@ -1957,11 +1957,11 @@ and write the article where there really is none.
 | Archive | Stability adjustment for Peakboard Management Service | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (44%) |
 | Archive | User-Agent for Web Widget-Control and Web Page-Control can be defined | `review` | `content/_data_sources/SAP/en-sap-fiori.md` (56%) |
 | Archive | OAuth2 authentication now allows an implicit grant type | `review` | `content/_data_sources/Basics/en-OAuth.md` (67%) |
-| Archive | Variables/Lists now allow the use of Unicode characters | `review` | `content/_data_sources/en-odbc.md` (50%) |
+| Archive | Variables/Lists now allow the use of Unicode characters | `review` | `content/_administration/en-user-administration.md` (50%) |
 | Archive | The PowerBi control can now use dashboards shared in SharePoint | `review` | `content/_controls/Extended/en-power-bi.md` (61%) |
 | Archive | Rework for the Advanced-Chart-Control | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
 | Archive | Added step in dataflow that allows to change multiple data types at once | `documented` | `content/_scripting/en-script-editor.md` (85%) |
-| Archive | Added ability to publish via shared MQTT data source | `documented` | `content/_scripting/en-publish-external.md` (100%) |
+| Archive | Added ability to publish via shared MQTT data source | `documented` | `content/_scripting/Script Templates/en-mqtt.md` (100%) |
 | Archive | Shared MQTT connections now use a single shared connection | `documented` | `content/_scripting/en-publish-external.md` (100%) |
 | Archive | Fix for a bug where it was possible to update an updated Peakboard Box endlessly | `fix` |  |
 | Archive | Fix for a bug where the scaling on the Peakboard Box was not done correctly with different screen resolutions | `fix` |  |
@@ -1988,8 +1988,8 @@ and write the article where there really is none.
 | Archive | Rework for [User Management] on Peakboard Box | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
 | Archive | Rework for the SharePointList data source | `documented` | `content/_data_sources/Office365/en-office365-connection.md` (100%) |
 | Archive | Publish function for MQTT data sources added to the Script Editor | `documented` | `content/_scripting/en-publish-external.md` (100%) |
-| Archive | Added variables as comparison operator for conditional formatting | `documented` | `content/_data_sources/SAP/en-xql.md` (77%) |
-| Archive | Reworked Empty States for all elements | `documented` | `content/_dataflows/en-calculations.md` (100%) |
+| Archive | Added variables as comparison operator for conditional formatting | `documented` | `content/_data_sources/SAP/en-xql.md` (76%) |
+| Archive | Reworked Empty States for all elements | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
 | Archive | Right-click options like copy, paste, delete,... added for conditional formatting | `documented` | `content/_controls/Basics/en-cf.md` (89%) |
 | Archive | QR Code Controls can be linked directly to a data source | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | Archive | [Remove Columns] dialog for dataflows reworked and functions for [Select All] and [Deselect All] added | `documented` | `content/_data_sources/Excel/en-excel.md` (100%) |
@@ -2070,7 +2070,7 @@ and write the article where there really is none.
 | Archive | Added automatic restart if the Peakboard 2 Box application crashes | `review` | `content/_administration/en-join-domain.md` (46%) |
 | Archive | SharePoint data source permissions reduced | `review` | `content/_administration/en-sharepoint-administration.md` (51%) |
 | Archive | Web page tables data source revised | `review` | `content/_controls/Basics/en-general-properties.md` (42%) |
-| Archive | Feed data source revised | `review` | `content/_data_sources/en-feed.md` (48%) |
+| Archive | Feed data source revised | `review` | `content/_data_sources/Basics/en-xml-data.md` (48%) |
 | Archive | Peakboard Edge, volume control for the sound output of the Peakboard Edge Box added in Peakboard Designer | `review` | `content/_edge/en-UseEdgeDatasource.md` (68%) |
 | Archive | Added alphabetical sorting for data source selection | `review` | `content/_controls/Chart/en-chart.md` (53%) |
 | Archive | Peakboard 1 preview, as well as update for Peakboard 1 Boxes removed | `documented` | `content/_get_started/en-peakboard-designer.md` (100%) |
@@ -2136,8 +2136,8 @@ and write the article where there really is none.
 | Archive | Lua script for "ExecutNonQuerey" function added for ODBC and Oracle data sources | `review` | `content/_hub/en-hub_sharedconnections.md` (59%) |
 | Archive | Oracle data source dialog revised | `review` | `content/_data_sources/en-oracle.md` (52%) |
 | Archive | ODBC data source dialog revised | `review` | `content/_data_sources/Excel/en-ODBC-Excel.md` (50%) |
-| Archive | Feed data sources dialog revised | `review` | `content/_data_sources/en-feed.md` (52%) |
-| Archive | SharePoint data sources dialog revised | `review` | `content/_data_sources/en-csv.md` (44%) |
+| Archive | Feed data sources dialog revised | `review` | `content/_data_sources/Basics/en-xml-data.md` (52%) |
+| Archive | SharePoint data sources dialog revised | `review` | `content/_data_sources/Excel/en-excel.md` (44%) |
 | Archive | Mail data sources dialog revised | `review` | `content/_controls/Media/en-video.md` (43%) |
 | Archive | Textticker-Control revised | `review` | `content/_controls/Extended/en-text-ticker.md` (51%) |
 | Archive | Icons in Box properties dialog revised | `review` | `content/_administration/en-user-administration.md` (40%) |
@@ -2223,15 +2223,15 @@ and write the article where there really is none.
 | Archive | XML data source revised | `undocumented` |  |
 | Archive | Icon Control revised and more icons added | `undocumented` |  |
 | Archive | Plug-in platform implemented to support specially developed data sources | `undocumented` |  |
+| Archive | Data connection via the local network for CSV, XML and JSON data sources implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (70%) |
 | Archive | Unicode character support extended for Excel data source | `review` | `content/_controls/Common/en-tile-view.md` (49%) |
 | Archive | Obsolete slack data source removed | `review` | `content/_data_sources/Basics/en-OAuth.md` (48%) |
-| Archive | WLAN dialog for Peakboard 2 Boxes revised | `review` | `content/_edge/en-PeakboardEdge.md` (48%) |
+| Archive | WLAN dialog for Peakboard 2 Boxes revised | `review` | `content/_edge/en-PeakboardEdge.md` (49%) |
 | Archive | Error message for obsolete visualizations adapted | `review` | `content/_controls/Document/en-google-docs.md` (49%) |
 | Archive | Added upgrade notification when updating Peakboard 1 Boxes | `review` | `content/_administration/en-pb2USB.md` (48%) |
 | Archive | Peakboard Edge added | `documented` | `content/_administration/en-ipadress-pbedge-with-powershell.md` (100%) |
 | Archive | Peakboard Edge added as data source | `documented` | `content/_administration/en-ports-and-network-traffic.md` (100%) |
 | Archive | Peakboard data source added | `documented` | `content/_administration/en-certificates.md` (100%) |
-| Archive | Data connection via the local network for CSV, XML and JSON data sources implemented | `documented` | `content/_data_sources/Extension/en-Extension.md` (71%) |
 | Archive | Fix for an error where the password of the Peakboard 2 Box could not be changed correctly | `fix` |  |
 | Archive | Fix for Tile and TileView control | `fix` |  |
 | Archive | Fix for multiple access to local resources | `fix` |  |
@@ -2277,9 +2277,9 @@ and write the article where there really is none.
 | Archive | XML data source revised | `undocumented` |  |
 | Archive | License model extended by Peakboard Basic and revised for Professional and Enterprise | `undocumented` |  |
 | Archive | Display text of several error messages revised | `undocumented` |  |
-| Archive | Peakboard Extension Kit for the development of own data sources implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (63%) |
+| Archive | Peakboard Extension Kit for the development of own data sources implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (62%) |
 | Archive | Start page dialog in Designer revised | `review` | `content/_administration/en-faqsecurity.md` (44%) |
-| Archive | Note in the start page dialog as well as in the canvas of the Peakboard Designer for the availability of a new Peakboard Designer version | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (62%) |
+| Archive | Note in the start page dialog as well as in the canvas of the Peakboard Designer for the availability of a new Peakboard Designer version | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (63%) |
 | Archive | Video section added to the home page dialog | `review` | `content/_controls/Document/en-pdf.md` (65%) |
 | Archive | Tile Controls: Right-click on the control to call the Template Selector and the conditional formatting | `review` | `content/_controls/Basics/en-general-properties.md` (73%) |
 | Archive | SharePoint data source documents of the main page are now available | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (61%) |
@@ -2288,9 +2288,9 @@ and write the article where there really is none.
 | Archive | The Peakboard 2 Preview is now used as the default preview | `documented` | `content/_administration/en-install-silent.md` (100%) |
 | Archive | News section added to the home page dialog | `documented` | `content/_hub/Flows/en-hub_flow-create.md` (77%) |
 | Archive | The Getting-Started visualization is now displayed by default if no other visualization is active | `documented` | `content/_scripting/en-building-blocks.md` (79%) |
-| Archive | Excel data source marker added for selecting the data type | `documented` | `content/_controls/Chart/en-chart.md` (78%) |
+| Archive | Excel data source marker added for selecting the data type | `documented` | `content/_controls/Chart/en-chart.md` (77%) |
 | Archive | Device portal for Peakboard 2 Boxes removed | `documented` | `content/_data_sources/en-azure-iot-hub.md` (78%) |
-| Archive | Icons in Manage&Upload dialog updated | `documented` | `content/_controls/Basics/en-fonts.md` (71%) |
+| Archive | Icons in Manage&Upload dialog updated | `documented` | `content/_controls/Basics/en-fonts.md` (72%) |
 | Archive | Icons for editing the steps of a dataflow updated | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (72%) |
 | Archive | Dataflows allow to transpose tabular data sources | `documented` | `content/_data_sources/Excel/en-excel.md` (72%) |
 | Archive | In conditional formatting, the frame can now also be changed to rules for controls with frames | `documented` | `content/_controls/Common/en-tile-view.md` (100%) |
@@ -2322,19 +2322,19 @@ and write the article where there really is none.
 | Archive | Script Editor - Extension of the script editor functions for controls created in a TileView or ListView | `review` | `content/_controls/Common/en-list-view.md` (62%) |
 | Archive | Additional interactive controls have been added to the ListView and TileView controls | `review` | `content/_controls/Common/en-list-view.md` (67%) |
 | Archive | The tile control now also has a template selector | `review` | `content/_controls/Basics/en-cf.md` (56%) |
-| Archive | Script editor - function runtime.currentscreenname implemented to control screens by name | `review` | `content/_controls/Input/en-button.md` (43%) |
+| Archive | Script editor - function runtime.currentscreenname implemented to control screens by name | `review` | `content/_controls/Document/en-pdf.md` (42%) |
 | Archive | Oracle data source for Peakboard 2 Boxes revised | `review` | `content/_data_sources/en-oracle.md` (41%) |
 | Archive | ODBC data source for Peakboard 2 Boxes revised | `review` | `content/_data_sources/en-odbc.md` (55%) |
 | Archive | Error message for incorrectly selected JSON objects adapted | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (49%) |
 | Archive | Customization of the icon for the font editor | `review` | `content/_controls/Common/en-table-grid.md` (48%) |
 | Archive | Error message for incorrectly selected JSON objects adapted | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (49%) |
-| Archive | Added SharePoint OneDrive as a new data source | `documented` | `content/_data_sources/en-csv.md` (100%) |
+| Archive | Added SharePoint OneDrive as a new data source | `documented` | `content/_data_sources/Excel/en-excel.md` (100%) |
 | Archive | Conditional formatting for elements within a ListView or TileView | `documented` | `content/_controls/Common/en-list-view.md` (81%) |
 | Archive | The data source index of a tile control can be changed by means of a script | `documented` | `content/_edge/en-UseEdgeDatasource.md` (77%) |
 | Archive | The ListView and TileView control are now scrollable | `documented` | `content/_controls/Common/en-list-view.md` (70%) |
 | Archive | Video Control - Added additional functions such as start, stop, restart and mute to control by script | `documented` | `content/_controls/Media/en-video.md` (76%) |
-| Archive | Format property for controls moved from Appearance to General | `documented` | `content/_controls/Common/en-tile-view.md` (78%) |
-| Archive | Direct access to domain files | `documented` | `content/_data_sources/en-csv.md` (100%) |
+| Archive | Format property for controls moved from Appearance to General | `documented` | `content/_controls/Common/en-tile-view.md` (77%) |
+| Archive | Direct access to domain files | `documented` | `content/_data_sources/Excel/en-excel.md` (100%) |
 | Archive | The password field was removed from the S7 data source | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
 | Archive | The JSON data source now supports scalar values | `documented` | `content/_data_sources/en-mqtt.md` (100%) |
 | Archive | Added footer notification for elements that require a Peakboard 2 Box | `documented` | `content/_controls/Basics/en-components.md` (71%) |
@@ -2363,17 +2363,17 @@ and write the article where there really is none.
 | Archive | Abolition of the Peakboard Bridge for Peakboard 2 Boxes | `undocumented` |  |
 | Archive | Renamed from NetworkFileShare to Peakboard Bridge | `undocumented` |  |
 | Archive | Renaming from NetworkFileShareDirecet to Local Area Network (only available for Peakboard 2 Boxes) | `undocumented` |  |
-| Archive | Version separation of Peakboard Boxes and Peakboard 2 Boxes | `review` | `content/_administration/en-install-silent.md` (43%) |
+| Archive | Version separation of Peakboard Boxes and Peakboard 2 Boxes | `review` | `content/_administration/en-install-silent.md` (44%) |
 | Archive | In a Dataflow, simple filters and sorting functions can be performed by right-clicking on the table displayed in the Dataflow. | `review` | `content/_data_sources/en-peakboard-hub-list.md` (64%) |
-| Archive | Support for OAuth2 authentication implemented. | `review` | `content/_data_sources/Basics/en-OAuth.md` (64%) |
+| Archive | Support for OAuth2 authentication implemented. | `review` | `content/_data_sources/Basics/en-OAuth.md` (66%) |
 | Archive | Resources stored in the Designer can be downloaded by right clicking. | `review` | `content/_administration/en-user-administration.md` (66%) |
-| Archive | Script debugger for preview implemented (only available for Peakboard 2 Boxes) | `review` | `content/_administration/en-data-debugger.md` (57%) |
+| Archive | Script debugger for preview implemented (only available for Peakboard 2 Boxes) | `review` | `content/_administration/en-data-debugger.md` (59%) |
 | Archive | Template dialog added to the initial loading screen of the Peakboard Designer. | `review` | `content/_controls/Media/en-video.md` (53%) |
 | Archive | Added tooltip icons in dialogs. | `review` | `content/_data_sources/Extension/en-Functions.md` (70%) |
 | Archive | Change of Peakboard Runtime (Preview) architecture from UWP to WPF | `documented` | `content/_data_sources/en-odbc.md` (100%) |
 | Archive | Support of the designer of Peakboard and Peakboard 2 Boxes | `documented` | `content/_administration/en-adding.md` (100%) |
-| Archive | Dataflows can now be created by right-clicking on a data source. | `documented` | `content/_dataflows/en-getting-started.md` (100%) |
-| Archive | Windows Explorer button added. | `documented` | `content/_data_sources/en-odbc.md` (100%) |
+| Archive | Dataflows can now be created by right-clicking on a data source. | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
+| Archive | Windows Explorer button added. | `documented` | `content/_data_sources/OPC_UA/en-opc-ua.md` (100%) |
 | Archive | Created data sources can also be used by script to write back. | `documented` | `content/_controls/Extended/en-step-viewer.md` (100%) |
 | Archive | It is now possible to activate and deactivate individual data sources via script. | `documented` | `content/_controls/Chart/en-chart.md` (91%) |
 | Archive | The width of the frame can be adjusted by script for elements with frames. | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
@@ -2434,11 +2434,11 @@ and write the article where there really is none.
 |---|---|---|---|
 | Archive | Significant improvement in performance when processing scripts (Multithreading) | `undocumented` |  |
 | Archive | The dialog of the Excel data source has been fundamentally revised. | `undocumented` |  |
-| Archive | Debugger for Lua scripts implemented | `review` | `content/_administration/en-data-debugger.md` (57%) |
+| Archive | Debugger for Lua scripts implemented | `review` | `content/_administration/en-data-debugger.md` (59%) |
 | Archive | Files added as a resource can be downloaded | `documented` | `content/_hub/en-hub_api.md` (80%) |
 | Archive | Added Save&Close button to scripts | `documented` | `content/_administration/en-shutdown-WoL.md` (100%) |
 | Archive | Error handling improved | `documented` | `content/_controls/Basics/en-formating-values.md` (100%) |
-| Archive | Error message for screenshots adjusted | `documented` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (100%) |
+| Archive | Error message for screenshots adjusted | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (100%) |
 | Archive | Fix for deleting scripts, deleted scripts are no longer displayed | `fix` |  |
 | Archive | Fix for the use of newly created fonts | `fix` |  |
 | Archive | Fix for adding an updated Excel list again | `fix` |  |
@@ -2465,13 +2465,13 @@ and write the article where there really is none.
 | Archive | Locked controls can now be selected via the Explorer | `undocumented` |  |
 | Archive | A relative time to the current time can now be defined directly in the time data source | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (69%) |
 | Archive | Web APIs now pass "Peakboard" as User-Agent | `review` | `content/_administration/en-faqsecurity.md` (58%) |
-| Archive | The reset in the Manage dialog will now be performed properly. | `review` | `content/_administration/en-pb2USB.md` (52%) |
+| Archive | The reset in the Manage dialog will now be performed properly. | `review` | `content/_administration/en-pb2USB.md` (51%) |
 | Archive | Icons in the property editor have been revised | `review` | `content/_controls/Basics/en-cf.md` (50%) |
 | Archive | Silent Installation has been optimized | `review` | `content/_administration/en-install-runtime.md` (58%) |
-| Archive | The installer is now multilingual | `review` | `content/_hub/en-hub_api.md` (43%) |
+| Archive | The installer is now multilingual | `review` | `content/_hub/Peakboard_Hub_on_premise/en-hub_installation.md` (43%) |
 | Archive | The Timeline Grid has been revised | `review` | `content/_controls/Chart/en-chart.md` (56%) |
-| Archive | New data source: SharePoint Lists | `documented` | `content/_data_sources/en-csv.md` (100%) |
-| Archive | Selected controls are marked in the Explorer. | `documented` | `content/_controls/Extended/en-step-viewer.md` (80%) |
+| Archive | New data source: SharePoint Lists | `documented` | `content/_data_sources/Excel/en-excel.md` (100%) |
+| Archive | Selected controls are marked in the Explorer. | `documented` | `content/_controls/Extended/en-step-viewer.md` (79%) |
 | Archive | MQTT Tester is available again | `documented` | `content/_data_sources/en-mqtt.md` (87%) |
 | Archive | Properties for Simple Charts have been re-sorted | `documented` | `content/_controls/Chart/en-chart.md` (84%) |
 | Archive | Added global function for Peakboard communication | `documented` | `content/_administration/en-user-administration.md` (100%) |
@@ -2560,7 +2560,7 @@ and write the article where there really is none.
 |---|---|---|---|
 | Archive | Added missing German translations for SAP data source query templates | `undocumented` |  |
 | Archive | Reworked the structure of the backstage in the Peakboard Designer | `undocumented` |  |
-| Archive | Added search/replace functionality for scripts in script editor | `review` | `content/_dataflows/en-manipulate-column-data.md` (71%) |
+| Archive | Added search/replace functionality for scripts in script editor | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (71%) |
 | Archive | The script editor now has a tree view to quickly navigate between scripts | `review` | `content/_get_started/en-quick-access-hotkeys.md` (64%) |
 | Archive | Fixed issue, which caused heavy memory usage for files resources | `fix` |  |
 | Archive | Fixed a bug, where the installer forced to install the Peakboard Designer with the Bridge | `fix` |  |
@@ -2595,10 +2595,10 @@ and write the article where there really is none.
 | Archive | WiFi Dialog revised - function is only supported on Boxes from version 1.4.0.0 onward | `undocumented` |  |
 | Archive | PDF viewer revised | `undocumented` |  |
 | Archive | CSV data source: Handling for double column captions added | `review` | `content/_data_sources/Basics/en-xml-data.md` (68%) |
-| Archive | Lua script editor: script tree implemented analogous to folder structure in script editor | `review` | `content/_scripting/en-script-tree.md` (66%) |
+| Archive | Lua script editor: script tree implemented analogous to folder structure in script editor | `review` | `content/_scripting/en-script-tree.md` (68%) |
 | Archive | Dataflows: Only the English number format (#,###.##) is supported for mathematical operations. Using the format option of a control, the result of the operation can be converted to the German number format (#.###,##) for display on the screen | `review` | `content/_controls/Input/en-timepicker.md` (58%) |
 | Archive | Update: Before the update is executed, the function checks whether the current visualization has been saved | `review` | `content/_scripting/en-building-blocks.md` (63%) |
-| Archive | CSV data source: it is now possible to skip several rows | `documented` | `content/_data_sources/en-csv.md` (100%) |
+| Archive | CSV data source: it is now possible to skip several rows | `documented` | `content/_data_sources/SAP/en-xql.md` (100%) |
 | Archive | Lua script editor: function .animate() for controls added | `documented` | `content/_scripting/Script Templates/en-script-animations.md` (100%) |
 | Archive | Lua script editor: custom global functions can be selected via ctrl+space key | `documented` | `content/_get_started/en-quick-access-hotkeys.md` (85%) |
 | Archive | Fix for copying invalid elements in Tile, Tile View, and List View | `fix` |  |
@@ -2624,15 +2624,15 @@ and write the article where there really is none.
 | Archive | Lua script editor: Added example for determining calendar weeks | `review` | `content/_controls/Input/en-calendar.md` (54%) |
 | Archive | Lua script editor: Revision of the validation function | `review` | `content/_controls/Input/en-textbox.md` (52%) |
 | Archive | Lua script editor: Added logic for local variables and global functions | `review` | `content/_get_started/en-quick-access-hotkeys.md` (68%) |
-| Archive | Lua script editor: Search and replace function implemented | `review` | `content/_dataflows/en-manipulate-column-data.md` (62%) |
+| Archive | Lua script editor: Search and replace function implemented | `review` | `content/_data_sources/Extension/en-MsGraphAPI-teams.md` (65%) |
 | Archive | Lua script editor: Marked elements can be replaced by code templates | `review` | `content/_controls/Basics/en-general-properties.md` (51%) |
 | Archive | Save button works analogous to "Save as", if the current visualization has not yet been saved. | `review` | `content/_controls/Input/en-drawing-area.md` (65%) |
 | Archive | Bridge function for NetworkShareFileDirect of Excel data source removed | `review` | `content/_data_sources/Excel/en-excel.md` (64%) |
-| Archive | Message for the adjustment of the designer and Box version implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (66%) |
+| Archive | Message for the adjustment of the designer and Box version implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (65%) |
 | Archive | OPC UA: table view for all variables of a subscription | `documented` | `content/_data_sources/OPC_UA/en-opc-ua.md` (82%) |
 | Archive | Padding for all controls added | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | Archive | Lua script editor: Dynamic timer added | `documented` | `content/_controls/Document/en-pdf.md` (100%) |
-| Archive | When a variable is deleted, the system also checks whether it is used in a script in addition to a control element. | `documented` | `content/_scripting/en-building-blocks.md` (86%) |
+| Archive | When a variable is deleted, the system also checks whether it is used in a script in addition to a control element. | `documented` | `content/_scripting/en-building-blocks.md` (85%) |
 | Archive | Refresh scripts are named after the data source they are based on | `documented` | `content/_data_sources/Extension/en-Tableau.md` (100%) |
 | Archive | Added web service icon to the Manage dialog | `documented` | `content/_hub/Peakboard_Hub_online/en-hub-online_boxmanagement.md` (100%) |
 | Archive | Added tapped event for text controls | `documented` | `content/_controls/Input/en-button.md` (100%) |
@@ -2662,7 +2662,7 @@ and write the article where there really is none.
 |---|---|---|---|
 | Archive | Revision of last opened files | `undocumented` |  |
 | Archive | Revised design of the ribbon bar | `undocumented` |  |
-| Archive | Version comparison of runtime and designer implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (69%) |
+| Archive | Version comparison of runtime and designer implemented | `review` | `content/_data_sources/Extension/en-Extension.md` (68%) |
 | Archive | Color selection compressed and last used colors added | `review` | `content/_dataflows/en-calculations.md` (68%) |
 | Archive | Revision of the color selection for Advanced Charts | `review` | `content/_controls/Chart/en-chart.md` (61%) |
 | Archive | Revision of the Microsoft calendar data source | `review` | `content/_controls/Input/en-calendar.md` (53%) |
@@ -2708,7 +2708,7 @@ and write the article where there really is none.
 | Archive | German translation for Dataflows added | `review` | `content/_get_started/en-peakboard-designer.md` (52%) |
 | Archive | OPC UA allows the deletion of server certificates | `review` | `content/_administration/en-faqsecurity.md` (66%) |
 | Archive | Display of the file name in the title bar | `documented` | `content/_administration/en-faqsecurity.md` (100%) |
-| Archive | Reworked StartUp dialog | `documented` | `content/_data_sources/en-bacnet.md` (100%) |
+| Archive | Reworked StartUp dialog | `documented` | `content/_data_sources/Excel/en-excel.md` (100%) |
 | Archive | Web GUI for pushing data to variables added | `documented` | `content/_data_sources/Extension/en-DataPush.md` (81%) |
 | Archive | List View reworked, controls and functions were added | `documented` | `content/_controls/Common/en-list-view.md` (100%) |
 | Archive | Tile View reworked, controls and functions were added | `documented` | `content/_controls/Basics/en-cf.md` (100%) |
@@ -2809,9 +2809,9 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | Archive | Added Wifi Manager | `review` | `content/_administration/en-wifi.md` (61%) |
-| Archive | JSON Datasource reworked and added Networksharefiles | `review` | `content/_data_sources/en-json.md` (50%) |
+| Archive | JSON Datasource reworked and added Networksharefiles | `review` | `content/_data_sources/Basics/en-xml-data.md` (50%) |
 | Archive | Added Shadow Frame to TextBox | `review` | `content/_controls/Basics/en-general-properties.md` (64%) |
-| Archive | Dataflows can be putted to Folders | `review` | `content/_data_sources/en-network-share-files.md` (42%) |
+| Archive | Dataflows can be putted to Folders | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (42%) |
 | Archive | Removed Google Anaylitcs control | `review` | `content/_controls/Document/en-google-docs.md` (43%) |
 | Archive | Added Signal Block Control | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
 | Archive | Updated Package Explorer Style | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (70%) |
@@ -2859,7 +2859,7 @@ and write the article where there really is none.
 
 | section | entry | verdict | article |
 |---|---|---|---|
-| Archive | The dialog for managing the Boxes in the network has been revised so that all actions that can be performed with a Peakboard Box are in one dialog. | `review` | `content/_hub/Peakboard_Hub_online/en-get-started-online.md` (40%) |
+| Archive | The dialog for managing the Boxes in the network has been revised so that all actions that can be performed with a Peakboard Box are in one dialog. | `review` | `content/_hub/Peakboard_Hub_on_premise/en-get-started.md` (40%) |
 | Archive | Minor changes to the dialog for editing fonts | `review` | `content/_controls/Basics/en-components.md` (54%) |
 | Archive | The fonts can now be adjusted in the Excel chart | `review` | `content/_controls/Chart/en-chart.md` (70%) |
 | Archive | Graphical elements can now be grouped | `review` | `content/_controls/Common/en-tile-view.md` (59%) |
@@ -2949,7 +2949,7 @@ and write the article where there really is none.
 | Archive | Webbrowser supports PDF files now | `undocumented` |  |
 | Archive | Optimizatizons and fixes for Dataflows | `undocumented` |  |
 | Archive | PDF Viewer can be used interactive now on a touchscreen | `review` | `content/_controls/Document/en-pdf.md` (60%) |
-| Archive | Added Voice Global Event | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (44%) |
+| Archive | Added Voice Global Event | `review` | `content/_data_sources/OPC_UA/en-Client-CallMethod-OPCUA.md` (45%) |
 | Archive | Optimized Title Spacing | `review` | `content/_data_sources/en-siemens-s7.md` (58%) |
 | Archive | Optimizatizons for OPC UA datasource | `review` | `content/_data_sources/Basics/en-reloadflows.md` (51%) |
 | Archive | Changed Bridge default Log Level | `review` | `content/_data_sources/en-forcam.md` (52%) |
@@ -3016,8 +3016,8 @@ and write the article where there really is none.
 | Archive | Speech Recognition | `review` | `content/_controls/Basics/en-formating-values.md` (47%) |
 | Archive | Sperated Dialog Single and Table Variables | `review` | `content/_controls/Common/en-tile-view.md` (48%) |
 | Archive | Canvas can be dragged by middle mouse button now | `review` | `content/_controls/Basics/en-components.md` (54%) |
-| Archive | Lua shownextscreen function is called showscreen now | `review` | `content/_scripting/en-presenter.md` (40%) |
-| Archive | Time datasource can be formated directly to Lua date | `review` | `content/_data_sources/en-siemens-s7.md` (41%) |
+| Archive | Lua shownextscreen function is called showscreen now | `review` | `content/_scripting/Script Templates/en-screenchanging.md` (41%) |
+| Archive | Time datasource can be formated directly to Lua date | `review` | `content/_data_sources/Basics/en-xml-data.md` (41%) |
 | Archive | Supports 64 Bit Boxes | `documented` | `content/_administration/en-adding.md` (100%) |
 | Archive | Added Video Control | `documented` | `content/_controls/Media/en-video.md` (100%) |
 | Archive | Reworked Rectangle Control | `documented` | `content/_controls/Basics/en-cf.md` (100%) |
@@ -3062,10 +3062,10 @@ and write the article where there really is none.
 | Archive | Screens can be copied and pasted now to other packages | `undocumented` |  |
 | Archive | Resources can be copied and pasted now to other packages | `undocumented` |  |
 | Archive | abas authetication | `undocumented` |  |
-| Archive | Designer supports now 64bit architectures | `review` | `content/_data_sources/en-odbc.md` (43%) |
+| Archive | Designer supports now 64bit architectures | `review` | `content/_data_sources/Extension/en-Extension.md` (43%) |
 | Archive | Peakboard Designer dialogs optimized | `documented` | `content/_data_sources/en-siemens-s7.md` (86%) |
 | Archive | New series to advanced chart control | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
-| Archive | New properties to advanced chart control | `documented` | `content/_controls/Chart/en-chart.md` (79%) |
+| Archive | New properties to advanced chart control | `documented` | `content/_controls/Chart/en-chart.md` (78%) |
 | Archive | Lua Sort functions | `documented` | `content/_administration/en-change-application.md` (100%) |
 | Archive | Lua Count distinct function | `documented` | `content/_dataflows/en-calculations.md` (100%) |
 | Archive | XQL Reports support UseBatch | `documented` | `content/_data_sources/SAP/en-xql.md` (100%) |
@@ -3078,7 +3078,7 @@ and write the article where there really is none.
 
 | section | entry | verdict | article |
 |---|---|---|---|
-| Archive | Reworked datasource dialogs | `documented` | `content/_data_sources/en-oracle.md` (100%) |
+| Archive | Reworked datasource dialogs | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
 | Archive | Updates for advanced chart control | `documented` | `content/_get_started/en-peakboard-designer.md` (100%) |
 | Archive | XtractQL Updates for Reports | `documented` | `content/_data_sources/SAP/en-xql.md` (79%) |
 | Archive | Changed default fonts | `documented` | `content/_controls/Basics/en-fonts.md` (100%) |
@@ -3107,9 +3107,9 @@ and write the article where there really is none.
 | Archive | Datenquellen Spaltennamen erlauben nun alle Unicode Zeichen | `undocumented` |  |
 | Archive | Added Slack datasource | `review` | `content/_data_sources/Basics/en-OAuth.md` (59%) |
 | Archive | Added Microsoft Calendar datasource | `review` | `content/_controls/Input/en-calendar.md` (65%) |
-| Archive | Json datasource supports hierarchies | `review` | `content/_data_sources/en-json.md` (50%) |
+| Archive | Json datasource supports hierarchies | `review` | `content/_data_sources/Basics/en-xml-data.md` (50%) |
 | Archive | Optimization of S7 performance | `review` | `content/_controls/Extended/en-step-viewer.md` (47%) |
-| Archive | Gauge defaults settings optimizied | `review` | `content/_controls/Chart/en-excel-viewer.md` (48%) |
+| Archive | Gauge defaults settings optimizied | `review` | `content/_controls/Chart/en-excel-viewer.md` (49%) |
 | Archive | XAML Code Control Supports Extended Charts | `review` | `content/_controls/Extended/en-html-code.md` (45%) |
 | Archive | Error Handling for datasource dialogs optimized | `review` | `content/_data_sources/en-siemens-s7.md` (64%) |
 | Archive | Added advanced chart control | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
@@ -3142,7 +3142,7 @@ and write the article where there really is none.
 | Archive | Peakbord IO Portal added possibility to pair Boxes with Peakboard IO Account | `undocumented` |  |
 | Archive | Support for all prmitive datatype on all PLCs | `undocumented` |  |
 | Archive | Increased connection stability | `review` | `content/_scripting/Script Templates/en-auto-scroll.md` (43%) |
-| Archive | implemented variable data validator for designer | `review` | `content/_controls/Input/en-button.md` (52%) |
+| Archive | implemented variable data validator for designer | `review` | `content/_controls/Input/en-button.md` (50%) |
 | Archive | can now organize variables in groups (structs) | `review` | `content/_hub/en-hub_files.md` (45%) |
 | Archive | Improved package encryption | `review` | `content/_administration/en-faqsecurity.md` (58%) |
 | Archive | Changed Bridge .NET Version from 4.5 to 4.6 | `review` | `content/_data_sources/en-forcam.md` (65%) |
@@ -3151,7 +3151,7 @@ and write the article where there really is none.
 | Archive | Siemens S7: | `documented` | `content/_administration/en-ports-and-network-traffic.md` (100%) |
 | Archive | Timer scripts are global now | `documented` | `content/_administration/en-shutdown-WoL.md` (100%) |
 | Archive | Added control animations | `documented` | `content/_controls/Chart/en-chart.md` (100%) |
-| Archive | Added screen animations | `documented` | `content/_scripting/en-examples.md` (100%) |
+| Archive | Added screen animations | `documented` | `content/_scripting/Script Templates/en-script-animations.md` (100%) |
 | Archive | Fix for adding Controls over existing ones | `fix` |  |
 | Archive | Fix for Webviews fatal error when missing c++ libs | `fix` |  |
 | Archive | Fix for modified on start | `fix` |  |
@@ -3221,7 +3221,7 @@ and write the article where there really is none.
 
 | section | entry | verdict | article |
 |---|---|---|---|
-| Archive | Internal changes without effects | `review` | `content/_dataflows/en-getting-started.md` (53%) |
+| Archive | Internal changes without effects | `review` | `content/_data_sources/Basics/en-reloadflows.md` (53%) |
 
 ## 1.0.12.0 (19.01.2018)
 
@@ -3246,10 +3246,10 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | Archive | IMAP Mail Datasource wurde hinzugefügt | `undocumented` |  |
-| Archive | First version of Peakboard IO Portals | `review` | `content/_data_sources/en-azure-event-hub.md` (57%) |
+| Archive | First version of Peakboard IO Portals | `review` | `content/_data_sources/Office365/en-office365-connection.md` (57%) |
 | Archive | CSV data source can now retrieve data via bridge | `review` | `content/_data_sources/en-forcam.md` (67%) |
 | Archive | CSV data source can now use definable delimiters | `review` | `content/_data_sources/en-csv.md` (46%) |
-| Archive | Bridge stability improved | `review` | `content/_data_sources/en-forcam.md` (44%) |
+| Archive | Bridge stability improved | `review` | `content/_data_sources/en-forcam.md` (45%) |
 | Archive | Control icons have been reworked | `documented` | `content/_administration/en-install-runtime.md` (100%) |
 | Archive | New text formatting for percentages | `documented` | `content/_controls/Basics/en-formating-values.md` (100%) |
 | Archive | Fixes for Lua Json Parsing | `fix` |  |
@@ -3330,7 +3330,7 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | Archive | Peakboard-Bridge Dataqullen can be downloaded via Lua | `undocumented` |  |
-| Archive | Insert category was added in the menu strip | `review` | `content/_edge/en-ManageEdge.md` (53%) |
+| Archive | Insert category was added in the menu strip | `review` | `content/_edge/en-ManageEdge.md` (52%) |
 | Archive | Insertion wizard for images | `review` | `content/_administration/en-install-runtime.md` (41%) |
 | Archive | Syntax editor has been reworked | `documented` | `content/_data_sources/SAP/en-xql.md` (100%) |
 | Archive | New code snippets have been added | `documented` | `content/_controls/Extended/en-qr.md` (100%) |
@@ -3341,9 +3341,9 @@ and write the article where there really is none.
 | section | entry | verdict | article |
 |---|---|---|---|
 | Archive | Revision of the error display in the preview | `undocumented` |  |
-| Archive | Lua objects and functions can now be called in lower case | `review` | `content/_scripting/en-building-blocks.md` (67%) |
+| Archive | Lua objects and functions can now be called in lower case | `review` | `content/_controls/Basics/en-general-properties.md` (67%) |
 | Archive | Script suggestions are now all lowercase | `review` | `content/_controls/Input/en-calendar.md` (56%) |
-| Archive | Changes of Peakboard-Box IP addresses are updated automatically | `review` | `content/_hub/Alerts/en-hub_alert-email.md` (66%) |
+| Archive | Changes of Peakboard-Box IP addresses are updated automatically | `review` | `content/_hub/Alerts/en-hub_alert-email.md` (67%) |
 | Archive | Pop-up notifications can be displayed | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
 | Archive | New templates have been added | `documented` | `content/_controls/Basics/en-cf.md` (100%) |
 | Archive | Fix for Excel with language-dependent decimal places | `fix` |  |
@@ -3398,7 +3398,7 @@ and write the article where there really is none.
 |---|---|---|---|
 | Archive | Peakboard can now record voice commands via microphone | `undocumented` |  |
 | Archive | Revision of some dialogs | `undocumented` |  |
-| Archive | Peakboard can now send data to an S7 controller | `review` | `content/_data_sources/en-bacnet.md` (67%) |
+| Archive | Peakboard can now send data to an S7 controller | `review` | `content/_data_sources/en-bacnet.md` (66%) |
 | Archive | New templates were added and the existing templates were revised | `review` | `content/_controls/Basics/en-components.md` (41%) |
 | Archive | Values of variables can now be stored on the Box for the long term | `review` | `content/_controls/Input/en-checkbox.md` (59%) |
 | Archive | Global properties for boards have been added | `review` | `content/_controls/Basics/en-cf.md` (63%) |
@@ -3409,7 +3409,7 @@ and write the article where there really is none.
 | Archive | Values of gauges can now be hidden | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
 | Archive | Numbers are now displayed independent of the language of the operating system | `documented` | `content/_administration/en-user-administration.md` (74%) |
 | Archive | Scripts can now be added directly to Resources using the right mouse button | `documented` | `content/_controls/Basics/en-general-properties.md` (77%) |
-| Archive | Variables are now called “Variables” and no longer “General Data”. | `documented` | `content/_controls/Basics/en-general-properties.md` (77%) |
+| Archive | Variables are now called “Variables” and no longer “General Data”. | `documented` | `content/_controls/Input/en-button.md` (100%) |
 
 ## 1.0.1.2 (21.08.2017)
 
@@ -3462,9 +3462,9 @@ and write the article where there really is none.
 
 | section | entry | verdict | article |
 |---|---|---|---|
-| Archive | With RemoveAt you can remove an element from a defined index with Lua. | `review` | `content/_controls/Basics/en-general-properties.md` (52%) |
+| Archive | With RemoveAt you can remove an element from a defined index with Lua. | `review` | `content/_controls/Basics/en-general-properties.md` (53%) |
 | Archive | New Interactive Controls (Date Picker, Time Picker) | `documented` | `content/_controls/Input/en-datepicker.md` (100%) |
-| Archive | You can now call a pop-up dialog via Lua Script | `documented` | `content/_data_sources/en-azure-event-hub.md` (100%) |
+| Archive | You can now call a pop-up dialog via Lua Script | `documented` | `content/_data_sources/Basics/en-reloadflows.md` (100%) |
 | Archive | After a http push, the data source now fires a refresh event | `documented` | `content/_scripting/en-script-types.md` (75%) |
 | Archive | Changes to the icons of some controls | `documented` | `content/_administration/en-install-runtime.md` (100%) |
 | Archive | Fixed size and position fixes when viewing windows in Peakboard-Designer | `fix` |  |
