@@ -54,7 +54,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (250)
+### German documentation pages (253)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
@@ -200,6 +200,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /edge/de-ManageEdge.html: https://help.peakboard.com/edge/de-ManageEdge.html
 - /edge/de-PeakboardEdge.html: https://help.peakboard.com/edge/de-PeakboardEdge.html
 - /edge/de-UseEdgeDatasource.html: https://help.peakboard.com/edge/de-UseEdgeDatasource.html
+- /get_started/de-autosave.html: https://help.peakboard.com/get_started/de-autosave.html
 - /get_started/de-create-with-ai.html: https://help.peakboard.com/get_started/de-create-with-ai.html
 - /get_started/de-peakboard-box.html: https://help.peakboard.com/get_started/de-peakboard-box.html
 - /get_started/de-peakboard-byod.html: https://help.peakboard.com/get_started/de-peakboard-byod.html
@@ -291,6 +292,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/Script%20Templates/de_rockwell.html: https://help.peakboard.com/scripting/Script%20Templates/de_rockwell.html
 - /scripting/de-box-variables.html: https://help.peakboard.com/scripting/de-box-variables.html
 - /scripting/de-building-blocks.html: https://help.peakboard.com/scripting/de-building-blocks.html
+- /scripting/de-debug-panel.html: https://help.peakboard.com/scripting/de-debug-panel.html
 - /scripting/de-eigenschaften-properties.html: https://help.peakboard.com/scripting/de-eigenschaften-properties.html
 - /scripting/de-examples.html: https://help.peakboard.com/scripting/de-examples.html
 - /scripting/de-formatieren.html: https://help.peakboard.com/scripting/de-formatieren.html
@@ -300,6 +302,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-quick-tipp-api-http-post.html: https://help.peakboard.com/scripting/de-quick-tipp-api-http-post.html
 - /scripting/de-quick-tipp-functions-bb.html: https://help.peakboard.com/scripting/de-quick-tipp-functions-bb.html
 - /scripting/de-quick-tipp-restart.html: https://help.peakboard.com/scripting/de-quick-tipp-restart.html
+- /scripting/de-runtime-window.html: https://help.peakboard.com/scripting/de-runtime-window.html
 - /scripting/de-script-editor.html: https://help.peakboard.com/scripting/de-script-editor.html
 - /scripting/de-script-engine.html: https://help.peakboard.com/scripting/de-script-engine.html
 - /scripting/de-script-tree.html: https://help.peakboard.com/scripting/de-script-tree.html
@@ -307,7 +310,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (249)
+### English documentation pages (252)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
@@ -452,6 +455,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /edge/en-PeakboardEdge.html: https://help.peakboard.com/edge/en-PeakboardEdge.html
 - /edge/en-UseEdgeDatasource.html: https://help.peakboard.com/edge/en-UseEdgeDatasource.html
 - /en/designer.html: https://help.peakboard.com/en/designer.html
+- /get_started/en-autosave.html: https://help.peakboard.com/get_started/en-autosave.html
 - /get_started/en-create-with-ai.html: https://help.peakboard.com/get_started/en-create-with-ai.html
 - /get_started/en-peakboard-box.html: https://help.peakboard.com/get_started/en-peakboard-box.html
 - /get_started/en-peakboard-byod.html: https://help.peakboard.com/get_started/en-peakboard-byod.html
@@ -543,6 +547,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/Script%20Templates/en_rockwell.html: https://help.peakboard.com/scripting/Script%20Templates/en_rockwell.html
 - /scripting/en-box-variables.html: https://help.peakboard.com/scripting/en-box-variables.html
 - /scripting/en-building-blocks.html: https://help.peakboard.com/scripting/en-building-blocks.html
+- /scripting/en-debug-panel.html: https://help.peakboard.com/scripting/en-debug-panel.html
 - /scripting/en-examples.html: https://help.peakboard.com/scripting/en-examples.html
 - /scripting/en-formating-table-grid.html: https://help.peakboard.com/scripting/en-formating-table-grid.html
 - /scripting/en-manipulating-table-data.html: https://help.peakboard.com/scripting/en-manipulating-table-data.html
@@ -551,6 +556,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/en-quick-tipp-api-http-post.html: https://help.peakboard.com/scripting/en-quick-tipp-api-http-post.html
 - /scripting/en-quick-tipp-functions-bb.html: https://help.peakboard.com/scripting/en-quick-tipp-functions-bb.html
 - /scripting/en-quick-tipp-restart.html: https://help.peakboard.com/scripting/en-quick-tipp-restart.html
+- /scripting/en-runtime-window.html: https://help.peakboard.com/scripting/en-runtime-window.html
 - /scripting/en-script-editor.html: https://help.peakboard.com/scripting/en-script-editor.html
 - /scripting/en-script-engine.html: https://help.peakboard.com/scripting/en-script-engine.html
 - /scripting/en-script-tree.html: https://help.peakboard.com/scripting/en-script-tree.html
