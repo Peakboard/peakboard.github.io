@@ -101,3 +101,16 @@ Die Peakboard Box hält Daten aus deinen Datenquellen ausschließlich im laufend
 ## Nutzerverwaltung
 
 Welche Anwender mit welchen Rechten auf die Peakboard Box zugreifen dürfen, konfigurierst du über die Nutzerverwaltung im Peakboard Designer. Eine vollständige Beschreibung der Benutzer und Rollen findest du im Artikel [Nutzerverwaltung](/administration/de-nutzerverwaltung.html).
+
+## Fehlgeschlagene Anmeldungen an der Peakboard Box
+
+Jede abgewiesene Anmeldung an der Weboberfläche und an der API der Peakboard Box wird im **Windows-Ereignisprotokoll** der Peakboard Box unter der Quelle `PeakboardWebServerAPI` festgehalten:
+
+* **Ereignis-ID 50001** (Warnung) – eine fehlgeschlagene Anmeldung, mit dem verwendeten Benutzernamen und der IP-Adresse, von der sie kam.
+* **Ereignis-ID 50002** (Information) – eine *erfolgreiche* Anmeldung von einer IP-Adresse, die vorher fehlgeschlagen war. Genau darauf lohnt sich der Blick: Eine Reihe von 50001, gefolgt von einer 50002 derselben Adresse, heißt, dass jemand so lange probiert hat, bis es geklappt hat.
+
+Damit die Peakboard Box diese Kombination erkennen kann, merkt sie sich eine fehlgeschlagene Adresse für 12 Stunden. So taucht der Versuch, ein Passwort zu erraten, im Protokoll des Geräts auf, statt unbemerkt zu bleiben, und das Ereignisprotokoll kann von deinem Monitoring wie jedes andere Windows-Ereignis eingesammelt werden.
+
+## HTTP-Sicherheitsheader
+
+Der Webserver der Peakboard Box setzt bei jeder Antwort die üblichen Schutz-Header: `X-Frame-Options: DENY` und eine Content-Security-Policy mit `frame-ancestors 'none'` (die Oberfläche lässt sich nicht in eine fremde Seite einbetten), `X-Content-Type-Options: nosniff`, `Referrer-Policy: no-referrer` und `X-XSS-Protection`. Über eine HTTPS-Verbindung kommt zusätzlich `Strict-Transport-Security` hinzu.

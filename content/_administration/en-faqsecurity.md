@@ -99,3 +99,16 @@ The Peakboard Box only keeps data from your data sources in memory while the app
 ## User administration
 
 You configure which users may access the Peakboard Box and with which permissions through the user administration in the Peakboard Designer. A complete description of users and roles is available in the [User administration](/administration/en-user-administration.html) article.
+
+## Failed sign-ins on the Peakboard Box
+
+Every rejected sign-in at the web interface and at the API of the Peakboard Box is recorded in the **Windows event log** of the Peakboard Box, under the source `PeakboardWebServerAPI`:
+
+* **Event ID 50001** (Warning) – a failed sign-in, with the user name that was used and the IP address it came from.
+* **Event ID 50002** (Information) – a *successful* sign-in from an IP address that had failed before. This is the entry to look for: a series of 50001 followed by a 50002 from the same address means someone kept trying until it worked.
+
+The Peakboard Box remembers a failing address for 12 hours in order to be able to recognise that combination. That way an attempt to guess a password shows up in the log of the device instead of passing unnoticed, and the event log can be collected by your monitoring like any other Windows event.
+
+## HTTP security headers
+
+The web server of the Peakboard Box sets the usual protective headers on every response: `X-Frame-Options: DENY` and a Content-Security-Policy with `frame-ancestors 'none'` (the interface cannot be embedded in a foreign page), `X-Content-Type-Options: nosniff`, `Referrer-Policy: no-referrer` and `X-XSS-Protection`. Over an HTTPS connection `Strict-Transport-Security` is added as well.
