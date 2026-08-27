@@ -122,7 +122,11 @@ def contains(haystack, term):
 def load_articles():
     """Every English help article: relative path, title, normalised full text."""
     articles = []
-    for path in glob.glob(os.path.join(ROOT, 'content', '**', 'en-*.md'), recursive=True):
+    # `en-<name>.md` is the rule, but the Script Templates use `en_<name>.md`.
+    # A missing article does not only hide itself - the entry then matches some
+    # unrelated article instead, and the report names that one as coverage.
+    pattern = os.path.join(ROOT, 'content', '**', 'en[-_]*.md')
+    for path in sorted(glob.glob(pattern, recursive=True)):
         # The version history (and its archive) is the changelog itself, not documentation.
         # Left in the corpus it matches every entry with itself and hides every gap.
         if re.search(r'en-version-history', os.path.basename(path)):
