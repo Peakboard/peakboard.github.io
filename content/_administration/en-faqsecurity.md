@@ -107,7 +107,7 @@ Every rejected sign-in at the web interface and at the API of the Peakboard Box 
 * **Event ID 50001** (Warning) – a failed sign-in, with the user name that was used and the IP address it came from.
 * **Event ID 50002** (Information) – a *successful* sign-in from an IP address that had failed before. This is the entry to look for: a series of 50001 followed by a 50002 from the same address means someone kept trying until it worked.
 
-The Peakboard Box remembers a failing address for 12 hours in order to be able to recognise that combination. That way an attempt to guess a password shows up in the log of the device instead of passing unnoticed, and the event log can be collected by your monitoring like any other Windows event.
+The Peakboard Box remembers a failing address for 12 hours in order to be able to recognise that combination. This is the protection against brute-force attacks: it does not lock an address out, it makes the attack visible. A brute-force attempt to guess a password shows up in the log of the device instead of passing unnoticed, and the event log can be collected by your monitoring like any other Windows event.
 
 ## HTTP security headers
 

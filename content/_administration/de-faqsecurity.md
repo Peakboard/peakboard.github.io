@@ -109,7 +109,7 @@ Jede abgewiesene Anmeldung an der Weboberfläche und an der API der Peakboard Bo
 * **Ereignis-ID 50001** (Warnung) – eine fehlgeschlagene Anmeldung, mit dem verwendeten Benutzernamen und der IP-Adresse, von der sie kam.
 * **Ereignis-ID 50002** (Information) – eine *erfolgreiche* Anmeldung von einer IP-Adresse, die vorher fehlgeschlagen war. Genau darauf lohnt sich der Blick: Eine Reihe von 50001, gefolgt von einer 50002 derselben Adresse, heißt, dass jemand so lange probiert hat, bis es geklappt hat.
 
-Damit die Peakboard Box diese Kombination erkennen kann, merkt sie sich eine fehlgeschlagene Adresse für 12 Stunden. So taucht der Versuch, ein Passwort zu erraten, im Protokoll des Geräts auf, statt unbemerkt zu bleiben, und das Ereignisprotokoll kann von deinem Monitoring wie jedes andere Windows-Ereignis eingesammelt werden.
+Damit die Peakboard Box diese Kombination erkennen kann, merkt sie sich eine fehlgeschlagene Adresse für 12 Stunden. Das ist der Schutz gegen Brute-Force-Angriffe: Er sperrt keine Adresse aus, er macht den Angriff sichtbar. So taucht ein Brute-Force-Versuch, ein Passwort zu erraten, im Protokoll des Geräts auf, statt unbemerkt zu bleiben, und das Ereignisprotokoll kann von deinem Monitoring wie jedes andere Windows-Ereignis eingesammelt werden.
 
 ## HTTP-Sicherheitsheader
 

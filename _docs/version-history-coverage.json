@@ -20703,10 +20703,17 @@
    "section": "Security",
    "entry": "Implemented protection against brute-force attacks on the Peakboard Box.",
    "source": "json",
-   "verdict": "undocumented",
-   "article": null,
-   "score": 0.3,
-   "matched": []
+   "verdict": "documented",
+   "article": "content/_administration/en-faqsecurity.md",
+   "score": 0.85,
+   "matched": [
+    "peakboard box",
+    "protection",
+    "against",
+    "brute",
+    "force",
+    "attacks"
+   ]
   },
   {
    "version": "4.2.1.2",

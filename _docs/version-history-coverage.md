@@ -23,9 +23,9 @@ and write the article where there really is none.
 
 | verdict | entries |
 |---|---:|
-| undocumented | 198 |
+| undocumented | 197 |
 | review | 717 |
-| documented | 661 |
+| documented | 662 |
 | fix | 1021 |
 | **total** | **2597** |
 
@@ -273,7 +273,6 @@ and write the article where there really is none.
 |---|---|---|---|
 | Designer | Improved performance when expanding screens with numerous elements. | `undocumented` |  |
 | Scripting | Refined schedule dialog with smaller footprint and new day pattern. | `undocumented` |  |
-| Security | Implemented protection against brute-force attacks on the Peakboard Box. | `undocumented` |  |
 | Debug Panel | Improvements in the debug panel for copying/pasting values and a line counter. | `undocumented` |  |
 | General | Updated default names for shared connections to reflect the data source name. | `review` | `content/_resources/en-resources-network.md` (69%) |
 | Designer | Restructured the properties panel with added screen switch options: Manual, Periodic, By Schedule. | `review` | `content/_scripting/en-script-types.md` (53%) |
@@ -313,6 +312,7 @@ and write the article where there really is none.
 | Runtime | Screen click event is now also triggered for controls with tap event and in the web control. | `documented` | `content/_resources/en-resources-tipp-sharepoint.md` (100%) |
 | Security | Updated TLS version. | `documented` | `content/_data_sources/Extension/en-Extension.md` (100%) |
 | Security | Web browser can no longer access the local directory. | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-hub_installation.md` (100%) |
+| Security | Implemented protection against brute-force attacks on the Peakboard Box. | `documented` | `content/_administration/en-faqsecurity.md` (85%) |
 | Snippets / Building Blocks | Implemented 'Show last used screen' functionality for the screen switch Building Block. | `documented` | `content/_scripting/Script Templates/en-change-pdf-page.md` (78%) |
 | Dataflow | Support for parameters in Dataflows. | `documented` | `content/_administration/en-data-debugger.md` (100%) |
 | Explorer | Added 'Show all controls' and 'Unlock all controls' options in the screen context menu. | `documented` | `content/_controls/Basics/en-general-properties.md` (100%) |
