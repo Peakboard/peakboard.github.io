@@ -23,6 +23,19 @@ A button requires a label and a defined behavior upon interaction. Drag and drop
 
 ![image_2](/assets/images/Controls/Button/button_02.png)
 
+### Choosing an icon from the gallery
+The **Icon** property offers two sources. The first button opens the icon gallery that ships with the Peakboard Designer, the second one takes an image from the project resources, and the bin next to them removes the icon again.
+
+![The icon gallery of the Peakboard Designer](/assets/images/Controls/Button/button_icon_gallery.png)
+
+* **Categories** on the left narrow the gallery down: arrows, business, charts and diagrams, devices and hardware, food and nature, household, industry, media and communication, medical and health, money, people and users, software and design, symbols and signs, time, tools and transportation and logistics, plus SCADA and the country flags.
+* **Search** looks at the tags and keywords of an icon, not only at its name. Searching for `save` therefore also finds the floppy disk, which is not called "save" anywhere.
+* The country flags are left out of the unfiltered **All** list — 270 of them would drown everything else. Open the **Flags** category to browse them, or search for the country by name from **All**.
+* **Color 1** and **Color 2** recolor the icon straight away; most icons are drawn from two colors. The flags bring their own colors and therefore show no color pickers.
+* **Simulate dark background** switches the preview area to a dark background so you can judge a light icon before placing it on a dark screen.
+
+Confirm with **OK**; the icon then appears next to the button label.
+
 ## 2 Appearance and Control
 Once you have selected the button in the Designer, you can make all specific settings in the properties on the right side. Among other things, you can design the visual look of the control on the workspace here:
 1. Tapped (Logic): The button is the most versatile control in the Peakboard Designer. Countless processes can be implemented with it: With one click, you can switch between different screens, force data sources to refresh manually, write values into variables, flip through the pages of a PDF control, send HTTP requests to external APIs, toggle the visibility of warning messages, start or stop timers, and perform complex calculations based on user input (1).

@@ -23,6 +23,19 @@ Ein Button benötigt eine Beschriftung und ein definiertes Verhalten bei Interak
 
 ![image_2](/assets/images/Controls/Button/button_02.png)
 
+### Ein Icon aus der Galerie wählen
+Die Eigenschaft **Icon** bietet zwei Quellen. Der erste Button öffnet die Icon-Galerie, die der Peakboard Designer mitbringt, der zweite holt ein Bild aus den Projekt-Ressourcen, und der Papierkorb daneben entfernt das Icon wieder.
+
+![Die Icon-Galerie des Peakboard Designers](/assets/images/Controls/Button/button_icon_gallery.png)
+
+* **Kategorien** links grenzen die Galerie ein: Pfeile, Business, Diagramme, Geräte und Hardware, Essen und Natur, Haushalt, Industrie, Medien und Kommunikation, Medizin und Gesundheit, Geld, Personen und Benutzer, Software und Design, Symbole und Zeichen, Zeit, Werkzeuge und Transport und Logistik, dazu SCADA und die Länderflaggen.
+* Die **Suche** durchsucht die Tags und Schlagwörter eines Icons, nicht nur seinen Namen. Die Suche nach `save` findet deshalb auch die Diskette, die nirgends „save" heißt.
+* Die Länderflaggen bleiben aus der ungefilterten Liste **Alle** heraus – 270 Stück würden alles andere darin ertränken. Öffne die Kategorie **Flaggen**, um sie zu durchstöbern, oder suche aus **Alle** heraus nach dem Ländernamen.
+* **Farbe 1** und **Farbe 2** färben das Icon sofort um; die meisten Icons sind aus zwei Farben gezeichnet. Die Flaggen bringen ihre eigenen Farben mit und zeigen deshalb keine Farbauswahl.
+* **Dunklen Hintergrund simulieren** schaltet die Vorschaufläche auf einen dunklen Hintergrund, damit du ein helles Icon beurteilen kannst, bevor es auf einem dunklen Screen landet.
+
+Bestätige mit **OK**; das Icon erscheint dann neben der Beschriftung des Buttons.
+
 ## 2 Aussehen und Steuerung
 Sobald du den Button im Designer ausgewählt hast, kannst du in den Eigenschaften auf der rechten Seite alle spezifischen Einstellungen vornehmen. Unter anderem kannst Du hier den visuellen Look des Controls auf der Arbeitsfläche gestalten:
 1. Tapped (Logik): Der Button ist das vielseitigste Control im Peakboard-Designer. Hiermit lassen sich unzählige Abläufe realisieren: Du kannst mit einem Klick zwischen verschiedenen Bildschirmen (Screens) wechseln, Datenquellen manuell zur Aktualisierung zwingen, Werte in Variablen schreiben, durch die Seiten eines PDF-Controls blättern, HTTP-Requests an externe APIs senden, die Sichtbarkeit von Warnmeldungen umschalten, Timer starten oder stoppen sowie komplexe Berechnungen auf Basis von Benutzereingaben ausführen (1).
