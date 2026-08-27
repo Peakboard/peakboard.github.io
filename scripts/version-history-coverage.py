@@ -96,11 +96,23 @@ def significant_terms(entry_text):
 
 def strip_area_prefix(entry_text):
     """`[Charts] - Fix for ...` and `TileView - Fix for ...` name the area first.
-    The verb that classifies the entry stands behind that prefix."""
+    The verb that classifies the entry stands behind that prefix.
+
+    The area is usually a link - `[Excel](/data_sources/en-excel.html) - Fix for ...` -
+    and it can be stacked - `[Hotfix 3.4.0.3] - [Modbus](...) - fix for ...`. Strip
+    until nothing changes; otherwise the verb never reaches the front and a bug fix
+    is measured against the articles, for a coverage it was never going to get.
+    """
     text = entry_text.strip()
-    text = re.sub(r'^\[[^\]]{1,40}\]\s*[-:]?\s*', '', text)
-    text = re.sub(r'^[A-Z][A-Za-z0-9 /]{0,25}\s+-\s+', '', text)
-    return text.strip()
+    for _ in range(4):
+        before = text
+        text = re.sub(r'^\[[^\]]{1,60}\]\([^)]*\)\s*[-:]?\s*', '', text)
+        text = re.sub(r'^\[[^\]]{1,60}\]\s*[-:]?\s*', '', text)
+        text = re.sub(r'^[A-Z][A-Za-z0-9 /]{0,25}\s+-\s+', '', text)
+        text = text.strip()
+        if text == before:
+            break
+    return text
 
 
 def is_fix(entry_text):
