@@ -9,7 +9,7 @@ ref: start-175
 redirect_from:
 ---
 
-Mit der integrierten KI **Peakbot** erstellst du im Peakboard Designer eine komplette Anwendung aus einer einfachen Textbeschreibung. Du beschreibst in eigenen Worten, was die Anwendung zeigen soll – Peakbot legt daraufhin Screen, Controls und passende Beispieldaten an. Genauso kannst du ein bereits geöffnetes Projekt von der KI weiter anpassen lassen. So kommst du in wenigen Minuten von einer Idee zu einem fertigen ersten Entwurf, den du anschließend wie gewohnt im Peakboard Designer verfeinerst.
+Mit der integrierten KI **Peakbot** - dem AI Generator des Peakboard Designers - erstellst du per Prompt eine komplette Anwendung aus einer einfachen Textbeschreibung. Du beschreibst in eigenen Worten, was die Anwendung zeigen soll – Peakbot legt daraufhin Screen, Controls und passende Beispieldaten an. Genauso kannst du ein bereits geöffnetes Projekt von der KI weiter anpassen lassen. So kommst du in wenigen Minuten von einer Idee zu einem fertigen ersten Entwurf, den du anschließend wie gewohnt im Peakboard Designer verfeinerst.
 
 ## Eine Anwendung mit der KI erstellen
 
@@ -18,11 +18,12 @@ Mit der integrierten KI **Peakbot** erstellst du im Peakboard Designer eine komp
 ![Der Bereich „Create with AI" auf dem Home-Bildschirm](/assets/images/get_started/create-with-ai-01-panel.png)
 
 1. **Prompt** – Beschreibe deine gewünschte Anwendung so genau wie möglich: welche Kennzahlen, welche Controls (z. B. Tabelle, Diagramm, Kachel) und welche Datenquelle. Je präziser die Beschreibung, desto besser das Ergebnis.
-2. **[Give me an example]** – Fügt einen Beispiel-Prompt in das Feld ein. Eine gute Vorlage, wenn du noch unsicher bist, wie ein Prompt formuliert sein sollte.
+2. **[Show examples]** – Öffnet den Dialog [Beispiel]. Er zeigt einen fertigen Prompt zusammen mit dem [Outcome], den er erzeugt hat, [Show next] blättert durch die Beispiele, [Copy prompt] übernimmt den Prompt in dein Feld, und [Open project] öffnet das fertige Beispielprojekt. Eine gute Vorlage, wenn du noch unsicher bist, wie ein Prompt formuliert sein sollte.
 3. **[Theme]** – Das visuelle Theme, mit dem die Anwendung gestaltet wird.
 4. **[Width]** – Die Breite der Anwendung in Pixeln (z. B. `1920`).
 5. **[Height]** – Die Höhe der Anwendung in Pixeln (z. B. `1080`).
 6. **[Generate]** – Startet die Erstellung. Peakbot erzeugt das Projekt und öffnet es anschließend direkt im Peakboard Designer.
+7. **[Attach file]** – Hängt eine Datei an den Prompt an, zum Beispiel einen Screenshot des Boards, das abgelöst werden soll, oder eine Skizze des gewünschten Layouts.
 
 > **Tipp für gute Prompts:** Nenne konkret die gewünschten Controls und Inhalte, z. B. *„Erstelle ein Produktions-Dashboard: eine große Kachel mit der aktuellen OEE in Prozent, ein Balkendiagramm mit der Ausbringung pro Schicht und eine Tabelle mit den letzten 10 Qualitätsmeldungen."* Erwähne auch das gewünschte Theme.
 
@@ -32,7 +33,13 @@ Mit der integrierten KI **Peakbot** erstellst du im Peakboard Designer eine komp
 
 ![Auswahl des Themes für die KI-Erstellung](/assets/images/get_started/create-with-ai-02-theme.png)
 
-Nachdem du Prompt, Theme und die gewünschte Auflösung festgelegt hast, klickst du auf [Generate]. Die Erstellung dauert einen Moment – danach wird das fertige Projekt automatisch geöffnet.
+Nachdem du Prompt, Theme und die gewünschte Auflösung festgelegt hast, klickst du auf [Generate]. Bevor gebaut wird, passieren drei Dinge:
+
+* Trägt das gerade geöffnete Projekt ungespeicherte Änderungen, wirst du gefragt, was damit geschehen soll – die Erstellung ersetzt es durch ein neues Projekt.
+* Du wirst gebeten zu bestätigen, dass für die Anfrage Daten aus deinem Projekt an Anthropic (Claude) übermittelt werden. [Ja, nicht mehr fragen] merkt sich die Antwort.
+* Der Peakboard Designer wechselt auf ein leeres Projekt mit dem gewählten Theme und der gewählten Größe und öffnet den Chat.
+
+Im Chat fragt Peakbot nach, was an deiner Beschreibung noch offen ist. Antworte in deinen eigenen Worten – solange du weiter chattest, wird noch nichts generiert. Erst wenn du mit **[Ja, erstellen]** bestätigst, startet die eigentliche Erstellung; **[Nein, weiter chatten]** bringt dich zurück ins Gespräch. Das Generieren eines Projekts kann bis zu 20 Minuten dauern – der Peakboard Designer sagt dir das vorher.
 
 ## Ein bestehendes Projekt mit der KI bearbeiten
 
