@@ -119,6 +119,32 @@ In diesem Bereich findest du Eigenschaften, die sich die meisten Controls teilen
 | Abstand | Definiert einen Innenabstand für den Rahmen des Controls in Pixeln. |
 | Titel und Untertitel | Fügt einen Titel und/oder Untertitel zum Control hinzu, ohne dass du dafür ein separates Textfeld nutzen musst. |
 
+#### Rechnen in den Größen- und Positionsfeldern
+
+**Breite**, **Höhe**, **Links** und **Oben** – und ebenso die vier Felder unter **Abstand** – nehmen statt einer reinen Zahl auch eine Rechnung entgegen. Tippe `160*2` in **Breite** und drücke Enter, dann steht dort `320`. Das erspart dir den Taschenrechner, wenn ein Control doppelt so breit, halb so hoch oder 40 Pixel weiter rechts sein soll.
+
+![Eine Rechnung im Feld Breite im Eigenschaftenbereich](/assets/images/Controls/Basics/property-arithmetic.png)
+
+{% include styled_table.html %}
+| **Eingabe** | **Ergebnis** | **Rechenart** |
+|-----------------|------------------|------------------|
+| `300+50` | 350 | Addition |
+| `350-100` | 250 | Subtraktion |
+| `160*2` | 320 | Multiplikation – mit dem Sternchen |
+| `500/4` | 125 | Division |
+| `(100+50)*2` | 300 | Klammern, mit der üblichen Punkt-vor-Strich-Regel |
+
+Gerechnet wird, sobald du Enter drückst oder das Feld verlässt, nie schon während des Tippens. Die Pfeiltasten erhöhen und verringern den Wert weiterhin um jeweils ein Pixel.
+
+<div class="box-tip" markdown="1">
+**Hinweis:**
+
+* Das Ergebnis wird immer auf ganze Pixel gerundet. Aus `125/2` wird also 62 und nicht 62,5.
+* Der Buchstabe **x** ist kein Malzeichen. Er wird aus der Eingabe entfernt, `250x2` ergibt daher nicht 500, sondern 2502 – nimm immer `*`.
+* Ein Ergebnis unter null wird zu 0. `100-300` im Feld **Links** ergibt 0 und nicht -200.
+* Lässt sich die Rechnung nicht auflösen – ein Rechenzeichen ohne zweite Zahl, etwa `320+` –, wird das Feld auf **0** gesetzt und der vorherige Wert ist weg. Rückgängig holt ihn nicht zurück; prüfe den Wert also nach einer Eingabe.
+</div>
+
 [zum Seitenanfang](#anfang)
 
 ### Daten {#daten}

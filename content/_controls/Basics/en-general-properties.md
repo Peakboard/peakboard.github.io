@@ -119,6 +119,32 @@ In this section you will find properties that most controls share.
 | Padding | Defines an inner spacing for the frame of the control in pixels. |
 | Title and subtitle | Adds a title and/or subtitle to the control without having to use a separate text field. |
 
+#### Calculating in the size and position fields
+
+**Width**, **Height**, **Left** and **Top** — and the four fields below **Padding** — accept a calculation instead of a plain number. Type `160*2` into **Width**, press Enter, and the field reads `320`. That saves reaching for a calculator whenever a control has to be twice as wide, half as high or 40 pixels further to the right.
+
+![A calculation in the Width field of the properties area](/assets/images/Controls/Basics/property-arithmetic.png)
+
+{% include styled_table.html %}
+| **Input** | **Result** | **Operation** |
+|-----------------|------------------|------------------|
+| `300+50` | 350 | Addition |
+| `350-100` | 250 | Subtraction |
+| `160*2` | 320 | Multiplication — with the asterisk |
+| `500/4` | 125 | Division |
+| `(100+50)*2` | 300 | Parentheses, with the usual precedence |
+
+The calculation is carried out when you press Enter or when you leave the field, never while you are still typing. The arrow keys still raise and lower the value by one pixel at a time.
+
+<div class="box-tip" markdown="1">
+**Note:**
+
+* The result is always rounded to a whole pixel. `125/2` therefore becomes 62, not 62.5.
+* The letter **x** is not a multiplication sign. It is dropped from the input, so `250x2` does not give 500 but 2502 — always use `*`.
+* A result below zero becomes 0. `100-300` in the **Left** field gives 0, not -200.
+* If the calculation cannot be resolved — an operator without a second number, such as `320+` — the field is set to **0** and the previous value is gone. Undo does not bring it back, so check the value after entering a calculation.
+</div>
+
 [back to top](#top)
 
 ### Data {#data}
