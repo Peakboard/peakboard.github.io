@@ -48,3 +48,26 @@ The site is only aware of translations for an article is there is another articl
 ### Nested categories and articles
 
 To create a subcategory of articles inside an existing category, simply create a new folder in the required category, and then place the articles inside the folder. The name of the subcategory is taken from the folder name, with underscores replaced by spaces and the words capitalised. For example, to create a subcategory called Third Level in the Data Sources category, just create the folder `third_level` in the `_data_sources` folder, and put the relevant articles in the new folder. Note that articles in subcategories still need a `ref` that is unique to all other articles in the entire category (except for its tanslations, of course).
+
+### Which article is still missing?
+
+The version history is the list of everything that shipped, so it is also the list of everything
+that might need an article. `scripts/version-history-coverage.py` answers, for each of its ~2600
+entries, whether the site covers it, and writes the answer to
+[version-history-coverage.md](version-history-coverage.md) (readable) and
+`version-history-coverage.json` (diffable against the next release).
+
+```
+python scripts/version-history-coverage.py
+```
+
+Run it after every release and work the `undocumented` rows top-down. Two things to keep in mind:
+
+* **The verdict is evidence, not a decision.** The match runs over words, so an article that
+  documents an entry under a different name reads as `undocumented`, and an entry whose words
+  happen to stand in some unrelated article reads as `documented`. Open the named article before
+  you write a second one, and spot-check a few `documented` rows — they are the ones nobody looks
+  at, and they are where a wrong match hides.
+* **A `fix` row gets no article.** An article describes behaviour, not a defect that no longer
+  exists. The same goes for "improved performance", "upgraded to .NET 8" and the like: the tool
+  leaves them as `undocumented`, and deciding "no article needed" is a human call.
