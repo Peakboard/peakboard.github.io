@@ -70,7 +70,6 @@ Entry point: `resources/js/app.js` imports:
 - `menu.js` - Top navigation dropdown
 - `sideMenu.js` - Left sidebar navigation (product/category/subcategory toggles)
 - `accordian.js` - Collapsible content sections
-- `review.js` - Article feedback form
 - `lighbox/` - Lity.js image lightbox
 
 ### Configuration
