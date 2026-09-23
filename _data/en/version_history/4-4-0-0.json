@@ -1,12 +1,50 @@
 ﻿[
   {
-    "version": "4.4.0.4",
+    "version": "4.4.0.5",
     "date": "25.08.2026",
     "download_url": "https://peakboard.rocks/download-version-history",
-    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.3.0/PeakboardRuntime.pbux",
-    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.3.0/PeakboardSetup.exe",
-    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.3.0/PeakboardRuntimeSetupUI.exe",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.5.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.5.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.5.0/PeakboardRuntimeSetupUI.exe",
     "tabs": [
+      {
+        "name": "Hotfix 4.4.0.5",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Datepicker / Timepicker"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed an issue where the Datepicker ignored a typed time when the output format contains a time.",
+              "Fixed an issue where the Timepicker ignored a typed date when the output format contains a date.",
+              "Fixed an issue where quoted literal text in the output format was mistakenly treated as a date or time component."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed an issue with synchronizing Peakboard Boxes from older Peakboard Hub versions that do not provide box groups yet. In this case, the local grouping of the boxes is kept."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Runtime"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed an issue with converting the settings in the RuntimeWPF.json file when the legacy entry is already empty.",
+              "Fixed an issue with converting objects to text in scripts, e.g. when outputting a color."
+            ]
+          }
+        ]
+      },
       {
         "name": "Projects as Tabs",
         "content": [

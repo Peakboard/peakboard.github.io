@@ -1,12 +1,50 @@
 ﻿[
   {
-    "version": "4.4.0.4",
+    "version": "4.4.0.5",
     "date": "25.08.2026",
     "download_url": "https://peakboard.rocks/download-version-history",
-    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.3.0/PeakboardRuntime.pbux",
-    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.3.0/PeakboardSetup.exe",
-    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.3.0/PeakboardRuntimeSetupUI.exe",
+    "box_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.5.0/PeakboardRuntime.pbux",
+    "designer_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.5.0/PeakboardSetup.exe",
+    "byod_download_url": "https://downloads.peakboard.com/download/Peakboard/archive/4.4.0.5.0/PeakboardRuntimeSetupUI.exe",
     "tabs": [
+      {
+        "name": "Hotfix 4.4.0.5",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Datepicker / Timepicker"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem behoben, bei dem im Datepicker eine eingetippte Uhrzeit ignoriert wurde, wenn das Ausgabeformat eine Uhrzeit enthält.",
+              "Problem behoben, bei dem im Timepicker ein eingetipptes Datum ignoriert wurde, wenn das Ausgabeformat ein Datum enthält.",
+              "Problem behoben, bei dem Text in Anführungszeichen im Ausgabeformat (z. B. 'Uhr') fälschlicherweise als Datums- oder Zeitbestandteil erkannt wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem beim Synchronisieren der Peakboard Boxen aus älteren Peakboard Hub-Versionen behoben, die noch keine Boxgruppen liefern. Die lokale Gruppierung der Boxen bleibt in diesem Fall erhalten."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Runtime"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Problem bei der Umwandlung der Einstellungen in der Datei RuntimeWPF.json behoben, wenn der alte Eintrag bereits leer ist.",
+              "Problem beim Umwandeln von Objekten in einen Text im Skript behoben, z. B. bei der Ausgabe einer Farbe."
+            ]
+          }
+        ]
+      },
       {
         "name": "Projekte als Tabs",
         "content": [
