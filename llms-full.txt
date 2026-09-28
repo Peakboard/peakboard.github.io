@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-09-21)
+## Complete URL inventory (as of 2026-09-28)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
@@ -54,7 +54,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (253)
+### German documentation pages (254)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
@@ -241,6 +241,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/de-hub_box-add.html: https://help.peakboard.com/hub/de-hub_box-add.html
 - /hub/de-hub_connectpbdesigner.html: https://help.peakboard.com/hub/de-hub_connectpbdesigner.html
 - /hub/de-hub_files.html: https://help.peakboard.com/hub/de-hub_files.html
+- /hub/de-hub_peakboard-link.html: https://help.peakboard.com/hub/de-hub_peakboard-link.html
 - /hub/de-hub_sharedconnections.html: https://help.peakboard.com/hub/de-hub_sharedconnections.html
 - /hub/de-hub_usergroup-create.html: https://help.peakboard.com/hub/de-hub_usergroup-create.html
 - /hub/de-hub_usergroup-delete.html: https://help.peakboard.com/hub/de-hub_usergroup-delete.html
@@ -310,7 +311,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (252)
+### English documentation pages (253)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
@@ -496,6 +497,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/en-hub_box-add.html: https://help.peakboard.com/hub/en-hub_box-add.html
 - /hub/en-hub_connectpbdesigner.html: https://help.peakboard.com/hub/en-hub_connectpbdesigner.html
 - /hub/en-hub_files.html: https://help.peakboard.com/hub/en-hub_files.html
+- /hub/en-hub_peakboard-link.html: https://help.peakboard.com/hub/en-hub_peakboard-link.html
 - /hub/en-hub_sharedconnections.html: https://help.peakboard.com/hub/en-hub_sharedconnections.html
 - /hub/en-hub_usergroup-create.html: https://help.peakboard.com/hub/en-hub_usergroup-create.html
 - /hub/en-hub_usergroup-delete.html: https://help.peakboard.com/hub/en-hub_usergroup-delete.html
