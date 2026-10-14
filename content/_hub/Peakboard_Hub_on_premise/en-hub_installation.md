@@ -76,6 +76,9 @@ Click [Next] to continue to the database user.
 
 ![Database configuration — SQL Server and database name](/assets/images/hub/installer/hub-installer-04-database.png)
 
+<div class="box-tip" markdown="1"> **Note**: The [guidelines for database administrators](/hub/Peakboard_Hub_on_premise/en-hub_dba-guidelines.html) describe which changes your database administrator may make on the Peakboard Hub database on their own, for example own indexes on list tables or Instant File Initialization.
+</div>
+
 #### Step 5 — Database user
 
 On the **Create Database user** page you define the SQL user that the Peakboard Hub uses to access its database.

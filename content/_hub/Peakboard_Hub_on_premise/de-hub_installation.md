@@ -76,6 +76,9 @@ Mit [Next] geht es weiter zum Datenbankbenutzer.
 
 ![Datenbankkonfiguration — SQL Server und Datenbankname](/assets/images/hub/installer/hub-installer-04-database.png)
 
+<div class="box-tip" markdown="1"> **Hinweis**: Welche Änderungen dein Datenbankadministrator an der Datenbank des Peakboard Hub vornehmen darf (zum Beispiel eigene Indizes auf Listentabellen oder Instant File Initialization), beschreibt der [Leitfaden für Datenbankadministratoren](/hub/Peakboard_Hub_on_premise/de-hub_dba-guidelines.html).
+</div>
+
 #### Schritt 5 — Datenbankbenutzer
 
 Im Schritt **Create Database user** legst du den SQL-Benutzer fest, mit dem der Peakboard Hub auf seine Datenbank zugreift.
