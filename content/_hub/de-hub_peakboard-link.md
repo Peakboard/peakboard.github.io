@@ -13,21 +13,21 @@ redirect_from:
 Mit Peakboard LINK betreibt der Peakboard Hub die Peakboard Runtime selbst. Du lädst eine Peakboard-Anwendung (`.pbmx`) in den Peakboard Hub, startest sie dort als Peakboard LINK, und jeder Bildschirm, der sie anzeigen soll, öffnet einfach einen Link im Browser. Auf dem Bildschirm musst du weder eine Peakboard Box noch ein BYOD Gerät einrichten: Ein Fernseher mit Browser, ein Tablet oder ein PC genügt. Datenquellen, Skripte und Building Blocks laufen im Peakboard Hub, der Bildschirm zeigt nur die Anwendung an und gibt die Eingaben des Anwenders weiter.
 
 <div class="box-warning" markdown="1"> **Beachte:**
-Peakboard LINK ist derzeit eine Beta-Funktion. Sie steht nur im Peakboard Hub on premise zur Verfügung (nicht im Peakboard Hub online), und deine Hub-Lizenz muss Peakboard LINK Lizenzen enthalten. Um Peakboard LINK zu nutzen, brauchst du das Recht **ManagePeakboardLinks** (*Can add and manage hosted Peakboard LINKs*) unter [Users] > Nutzergruppe > **Access**. Administratoren haben es immer.
+Peakboard LINK ist derzeit eine Beta-Funktion. Sie steht nur im Peakboard Hub on premise zur Verfügung (nicht im Peakboard Hub online), und deine Hub-Lizenz muss Peakboard LINK Lizenzen enthalten. Um Peakboard LINK zu nutzen, brauchst du das Zugriffsrecht **Peakboard LINKs** (*Can add and manage hosted Peakboard LINKs*) unter [Users] > Nutzergruppe > **Access**. Administratoren haben es immer.
 </div>
 
 Die wichtigsten Begriffe im Überblick:
 
 - **Peakboard LINK:** eine Peakboard-Anwendung (`.pbmx`-Datei aus [Files](/hub/de-hub_files.html)), die im Peakboard Hub betrieben wird.
 - **Instanz:** eine laufende Kopie eines Peakboard LINK. Jede Instanz hat ihre eigene Board-URL und eigene Werte für Upload-Defined-Variablen. Ein Peakboard LINK kann mehrere Instanzen haben, zum Beispiel eine pro Produktionslinie.
-- **Bildschirm:** ein Browser, der die Board-URL einer Instanz öffnet. Jeder Bildschirm braucht eine Lizenz.
+- **Bildschirm:** ein Browser, der die Board-URL einer Instanz öffnet. Jeder Bildschirm braucht eine Lizenz: entweder eine **Gerätelizenz** für den Bildschirm selbst, oder ein Hub-Nutzer mit **Nutzerlizenz** meldet sich darauf an.
 
 ### Eine Peakboard-Anwendung als Peakboard LINK starten
 
 ![Run as Peakboard LINK in Files](/assets/images/hub/peakboard-link/peakboard-link-01-run-as-link.png)
 
 1. **Anwendung hochladen:** Öffne [Files] in der Seitenleiste und lade deine `.pbmx`-Datei mit [Add file] hoch (siehe [Files](/hub/de-hub_files.html)).
-2. **Als Peakboard LINK starten:** Klicke mit der rechten Maustaste auf die Datei (1) und wähle unter **Upload application** den Eintrag [Run as Peakboard LINK] (2).
+2. **Als Peakboard LINK starten:** Klicke mit der rechten Maustaste auf die Datei (1) und wähle unter **Upload application** den Eintrag [Run as Peakboard LINK] (2). Alternativ markierst du die Datei und wählst im Menü des Buttons [Upload application] den Eintrag [Peakboard LINK].
 
 Der Peakboard Hub legt den Peakboard LINK an, erstellt seine erste Instanz und öffnet die Seite **Peakboard LINK**. Name und Vorschaubild stammen aus der Projektdatei. Eine Datei kann nur einmal betrieben werden. Läuft eine Datei bereits als Peakboard LINK, bietet das Kontextmenü stattdessen [Open Peakboard LINK] an.
 
@@ -35,17 +35,17 @@ Der Peakboard Hub legt den Peakboard LINK an, erstellt seine erste Instanz und �
 
 ![Übersicht Peakboard LINK](/assets/images/hub/peakboard-link/peakboard-link-02-overview.png)
 
-Öffne **Peakboard LINK** in der Seitenleiste (direkt unter **Peakboard Boxes**). Für jeden Peakboard LINK gibt es eine Kachel:
+Öffne **Peakboard LINK** in der Seitenleiste (unter **Applications**, direkt unter **Peakboard Boxes**). Für jeden Peakboard LINK gibt es eine Kachel:
 
-1. **Available licenses:** wie viele deiner Peakboard LINK Lizenzen noch frei sind, von allen Lizenzen. Ein Klick öffnet die Liste der Bildschirme (siehe unten). Die Zahl wird orange, sobald alle Lizenzen vergeben sind.
+1. **Available device licenses:** wie viele deiner Peakboard LINK Gerätelizenzen noch frei sind, von allen Gerätelizenzen. Ein Klick öffnet die Liste der Bildschirme (siehe unten). Die Zahl wird orange, sobald alle Gerätelizenzen vergeben sind.
 2. **[New Instance]:** fügt eine weitere Instanz derselben Anwendung hinzu. Sie bekommt ihre eigene Board-URL und startet sofort. Bestehende Instanzen und die Bildschirme, die sie anzeigen, bleiben unberührt.
 3. **Zahnrad des Peakboard LINK:** [Rename], [Show all variables] / [Hide all variables] (nur wenn die Anwendung Upload-Defined-Variablen hat) und [Delete]. Beim Löschen eines Peakboard LINK werden alle seine Instanzen gestoppt und entfernt.
 4. **Source file:** die `.pbmx`-Datei in Files. Lädst du eine neue Version dieser Datei hoch, ändern sich die laufenden Instanzen **nicht**. Stattdessen zeigt die Kachel **New version available.** mit dem Link [Update project]. Ein Klick darauf bringt den Peakboard LINK auf die aktuelle Dateiversion. Seine Instanzen werden dabei neu gestartet, die Bildschirme sind also kurz unterbrochen.
 5. **QR-Code:** die Board-URL dieser Instanz. Scanne ihn mit einem Tablet oder Smartphone, um das Board zu öffnen.
 6. **Board-URL:** die Adresse, die ein Bildschirm öffnen muss. Mit dem Kopieren-Icon legst du sie in die Zwischenablage. Das Info-Icon erklärt, woher die Adresse stammt (siehe [Externe Adresse](#externe-adresse)).
-7. **Verbundene Clients:** die Zahl der Bildschirme, die diese Instanz gerade anzeigen. Ein Klick öffnet den Dialog **Information** mit den Tabs **Clients** (Bildschirme, die gerade oder in den letzten 7 Tagen verbunden waren, sowie [Find clients], das 20 Sekunden lang auf jedem verbundenen Bildschirm den Namen von Instanz und Bildschirm einblendet) und **Resources** (CPU und Arbeitsspeicher der Instanz live).
+7. **Verbundene Clients:** die Zahl der Bildschirme, die diese Instanz gerade anzeigen. Ein Klick öffnet den Dialog **Information** mit den Tabs **Clients** (Bildschirme, die gerade oder in den letzten 7 Tagen verbunden waren, sowie [Find clients], das 20 Sekunden lang auf jedem verbundenen Bildschirm den Namen von Instanz und Bildschirm einblendet) , **Resources** (CPU und Arbeitsspeicher der Instanz live) und **Logs** (siehe [Logs einer Instanz](#logs-einer-instanz)).
 8. **Start / Stop:** startet oder stoppt die Instanz. Der Status neben dem Namen zeigt **Starting…**, **Running** oder **Stopped**.
-9. **Zahnrad der Instanz:** [Information], [Show screenshot] (ein Bild dessen, was die Instanz gerade anzeigt, nur solange sie läuft), [Rename], [Access control] und [Delete].
+9. **Zahnrad der Instanz:** [Information], [Show screenshot] (ein Bild dessen, was die Instanz gerade anzeigt, nur solange sie läuft), [Show logs], [Rename], [Access control] und [Delete].
 
 Verwendet die Anwendung Upload-Defined-Variablen, zeigt jede Instanz eine aufklappbare Tabelle **Upload defined Variables**. Dort gibst du jeder Instanz ihre eigenen Werte. Einen geänderten Wert übernimmst du mit dem Häkchen sofort in das laufende Board.
 
@@ -57,13 +57,13 @@ Verwendet die Anwendung Upload-Defined-Variablen, zeigt jede Instanz eine aufkla
 
 Die Seite zeigt einen **Screen code** (1), der diesen Bildschirm kennzeichnet. Sie bleibt offen und zeigt das Board von selbst an, sobald der Bildschirm eine Lizenz hat. Alternativ (2) kann sich auf dieser Seite ein Hub-Nutzer anmelden, der eine **Peakboard LINK user license** besitzt. Der Bildschirm braucht dann keine eigene Lizenz (siehe [Peakboard LINK Nutzerlizenzen](#peakboard-link-nutzerlizenzen)).
 
-So weist du dem Bildschirm eine Lizenz zu:
+So weist du dem Bildschirm eine Gerätelizenz zu:
 
-![Einem Bildschirm eine Peakboard LINK Lizenz zuweisen](/assets/images/hub/peakboard-link/peakboard-link-04-assign-license.png)
+![Einem Bildschirm eine Peakboard LINK Gerätelizenz zuweisen](/assets/images/hub/peakboard-link/peakboard-link-04-assign-license.png)
 
-1. Klicke auf der Seite **Peakboard LINK** auf die Kachel **Available licenses**. Der Dialog **Peakboard LINK devices** öffnet sich.
+1. Klicke auf der Seite **Peakboard LINK** auf die Kachel **Available device licenses**. Der Dialog **Peakboard LINK devices** öffnet sich.
 2. Suche unter **Active devices** den Bildschirm mit dem passenden **Code** (1). Die Liste enthält alle Bildschirme mit Lizenz und alle Bildschirme ohne Lizenz, die in den letzten 24 Stunden ein Board öffnen wollten. Mit dem Stift neben dem Gerätenamen gibst du dem Bildschirm einen sprechenden Namen, zum Beispiel *Halle 2 - Linie 1*.
-3. Schalte **License** (2) ein. Die Zahl der verfügbaren Lizenzen (3) sinkt um eins.
+3. Schalte **License** (2) ein. Die Zahl der verfügbaren Gerätelizenzen (3) sinkt um eins.
 
 Der Bildschirm zeigt jetzt die Anwendung an:
 
@@ -71,7 +71,7 @@ Der Bildschirm zeigt jetzt die Anwendung an:
 
 Die Anwendung läuft im Peakboard Hub und ist im Browser voll bedienbar. Buttons, Filter und Eingaben funktionieren wie auf einer Peakboard Box.
 
-Eine Lizenz gehört zu ihrem Bildschirm, und ein Bildschirm ist ein Browser auf einem Gerät. Sie bleibt beim Bildschirm, bis du sie in derselben Liste wieder ausschaltest. Nicht mehr genutzte Bildschirme ohne Lizenz verschwinden nach 7 Tagen aus der Liste. Sind alle Lizenzen vergeben, gib zuerst eine Lizenz auf einem anderen Bildschirm frei.
+Eine Gerätelizenz gehört zu ihrem Bildschirm, und ein Bildschirm ist ein Browser auf einem Gerät. Sie bleibt beim Bildschirm, bis du sie in derselben Liste wieder ausschaltest. Nicht mehr genutzte Bildschirme ohne Lizenz verschwinden nach 7 Tagen aus der Liste. Sind alle Gerätelizenzen vergeben, gib zuerst eine Lizenz auf einem anderen Bildschirm frei.
 
 ### Ein Board mit einem Zugangscode schützen
 
@@ -89,6 +89,16 @@ Standardmäßig kann jeder, der die Board-URL kennt, das Board auf einem lizenzi
 
 Ein Bildschirm, der das Board zum ersten Mal öffnet, zeigt jetzt **Access code required**. Nach Eingabe des richtigen Codes und Klick auf [Open board] öffnet sich das Board, und der Bildschirm merkt sich den Code. Ein Schloss-Icon neben dem Status der Instanz zeigt, dass ein Zugangscode nötig ist. Ein Klick darauf öffnet denselben Dialog.
 
+### Logs einer Instanz
+
+Jede Instanz schreibt ihr eigenes Runtime-Log. Um es zu lesen, klicke auf das Zahnrad der Instanz und wähle [Show logs], oder öffne den Dialog **Information** und wechsle zum Tab **Logs**:
+
+![Logs einer Instanz](/assets/images/hub/peakboard-link/peakboard-link-10-instance-logs.png)
+
+1. **Logs:** das Log dieser Instanz. Der Peakboard Hub liest es aus den Log-Dateien der Instanz, eine gestoppte Instanz zeigt also weiterhin, was sie zuletzt protokolliert hat.
+2. **Log-Level:** ein Klick auf ein Level blendet seine Einträge ein oder aus. Ein Klick auf einen Eintrag klappt ihn auf.
+3. **[Refresh]** lädt das Log neu. **[Export]** lädt alle Einträge herunter, oder mit [Export filtered] nur die Einträge der ausgewählten Level. **[Clear]** löscht alle Log-Einträge der Instanz.
+
 ### Externe Adresse
 
 Jede Board-URL und jeder QR-Code verwendet die Adresse, unter der die Bildschirme den Peakboard Hub erreichen. Das ist **nicht** die Adresse, die du gerade in deinem Browser verwendest. Sonst würde ein Link, der auf dem Hub-Server selbst geöffnet wird, *localhost* lauten und nirgendwo sonst funktionieren.
@@ -99,15 +109,19 @@ Jede Board-URL und jeder QR-Code verwendet die Adresse, unter der die Bildschirm
 
 ### Peakboard LINK Nutzerlizenzen
 
-Neben den Lizenzen für Bildschirme kann deine Hub-Lizenz **Peakboard LINK user licenses** enthalten. Ein Nutzer mit einer solchen Lizenz kann sich auf der Lizenzseite jedes Bildschirms anmelden und die Peakboard LINKs öffnen, die ihm zugeordnet sind. Der Bildschirm selbst braucht dann keine Lizenz.
+Neben den Gerätelizenzen für Bildschirme kann deine Hub-Lizenz **Peakboard LINK user licenses** enthalten. Ein Nutzer mit einer solchen Lizenz kann sich auf der Lizenzseite jedes Bildschirms anmelden und die Peakboard LINKs seiner Nutzergruppe öffnen. Der Bildschirm selbst braucht dann keine Lizenz.
 
-![Peakboard LINK users](/assets/images/hub/peakboard-link/peakboard-link-09-users.png)
+![Peakboard LINK Nutzerlizenzen](/assets/images/hub/peakboard-link/peakboard-link-09-users.png)
 
-Öffne in der Seitenleiste **Peakboard LINK** > **Users**:
+Öffne [Users] in der Seitenleiste:
 
-1. **Available user licenses:** freie Nutzerlizenzen, von allen Nutzerlizenzen deiner Hub-Lizenz.
-2. **User license:** schalte sie ein, um dem Nutzer eine Peakboard LINK Nutzerlizenz zu geben.
-3. **From user group:** solange diese Option aktiv ist, darf der Nutzer die Peakboard LINKs seiner Nutzergruppe öffnen. Schalte sie aus, um die Peakboard LINKs für diesen Nutzer stattdessen mit [Add] / [Edit] selbst auszuwählen.
-4. **Peakboard LINKs:** die Peakboard LINKs, die dieser Nutzer auf einem Bildschirm öffnen darf.
+1. **Licensing:** der Tab mit den Peakboard LINK Nutzerlizenzen, neben **User Groups**.
+2. **Available user licenses:** freie Nutzerlizenzen, von allen Nutzerlizenzen deiner Hub-Lizenz.
+3. **LINK license:** schalte sie ein, um dem Nutzer eine Peakboard LINK Nutzerlizenz zu geben. Schaltest du sie wieder aus, kehren die Bildschirme, auf denen der Nutzer angemeldet ist, zur Lizenzseite zurück.
+4. **Group:** die Nutzergruppe des Nutzers. Ein Klick öffnet die Nutzergruppe.
 
-Welche Peakboard LINKs eine Nutzergruppe verwalten darf, legst du unter [Users] > Nutzergruppe > Tab **Peakboard LINK** fest.
+Die Liste zeigt alle Nutzer. Über das Suchfeld findest du einen Nutzer, und ein Klick auf eine Spaltenüberschrift sortiert die Liste. **Last seen** zeigt die letzte Peakboard LINK Verbindung eines Nutzers, der eine Nutzerlizenz hat.
+
+Welche Peakboard LINKs die Nutzer einer Nutzergruppe öffnen dürfen und welche Peakboard LINKs die Nutzergruppe verwalten darf, legst du unter [Users] > Nutzergruppe > Tab **Peakboard LINK** fest.
+
+Eine Nutzerlizenz gilt immer nur für einen Bildschirm gleichzeitig. Meldet sich der Nutzer auf einem zweiten Bildschirm an, wird der erste Bildschirm abgemeldet und kehrt zur Lizenzseite zurück. Dort zeigt er an, dass sich der Nutzer auf einem anderen Bildschirm angemeldet hat.
