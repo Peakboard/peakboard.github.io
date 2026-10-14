@@ -18,35 +18,32 @@ To install the Peakboard Hub API, you need the Peakboard Hub Setup, which can be
 
 #### Prerequisites
 
-The Peakboard Hub On-Premises is hosted locally on your server and requires:
-- **IIS** and **Windows Server 2016 or newer**.
-- The [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer), which can also be installed during the Peakboard Hub Setup.
+The Peakboard Hub On-Premises is hosted locally on your server and requires **Windows Server 2016 or newer**. The API runs as its own Windows service — IIS is not needed. The required ASP.NET Core Runtime is installed by the setup if it is missing.
 
 > **Note:** A running Peakboard Hub instance is essential for full API functionality. The API does not need to reside on the same server but must have access to the same database.
 
 #### Installation
 
-![Peakboard Hub Setup components selection](/assets/images/hub/hub_api-installation-01.png)
+Download the setup and run it with administrator privileges. On the first **Choose Components** page select **Peakboard Hub Public API**. If you only want to install the API, uncheck **Peakboard Hub**. On the **Installation Folders** page choose the folder of the API; the default is `C:\Program Files\Peakboard\PeakboardHubApi`.
 
-Download the setup and run it with administrator privileges.
-In the **Component Selection** screen, select:
-   - **Peakboard Hub API** (2): Installs the API.
-   - **Configure API IIS Page** (3): Sets up an IIS page and app pool with default settings, which can be adjusted later if needed.
+![Components of the Public API](/assets/images/hub/hub_api-installation-01.png)
 
-> **Note:** If the IIS page setup is not selected, you must create the IIS page and app pool manually.
+The **Install Public API** page lists what the setup does for a new API: it copies the program files, sets up the database connection and creates the Windows service `PeakboardHubApi`. On the **Service Configuration** page you choose its HTTP port (default `20688`) and, optionally, HTTPS (default port `20689`).
 
-If a Peakboard Hub instance is installed on the same system, the API will automatically use its database connection. Otherwise, select **Configure Database** (1) to specify a custom database connection.
+The API shares the database of the Peakboard Hub. On the **API database connection** page the setup fills in the connection of a Peakboard Hub on the same server; otherwise enter the database server, database name, username and password yourself.
 
+![Database connection of the Public API](/assets/images/hub/hub_api-installation-03.png)
 
-> **Note:** If 'Configure Database' (1) is selected, the next screen will also ask for a Peakboard Hub installation path. If there is no Peakboard Hub you can ignore this, or if the Peakboard Hub should not be adjusted, just select an empty folder.
-
+All steps of the setup are described in the [Installation](/hub/Peakboard_Hub_on_premise/en-hub_installation.html) article.
 
 #### Updating the API
 
 To update the API:
 - Download the latest setup version [here](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe).
-- Select **Peakboard Hub API** (2) in the component selection.
-- Select **.NET Hosting Bundle** or install the latest [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer) manually.
+- Select **Peakboard Hub Public API** on the first page and the folder of the existing API on the **Installation Folders** page.
+- The API keeps its own database connection unless you choose to configure the database again.
+
+An API that still runs in IIS is migrated to a Windows service during the update, see [Migration from IIS to a Windows service](/hub/Peakboard_Hub_on_premise/en-hub_migration-iis-to-windows-service.html).
 
 ### Using the Peakboard Hub API
 

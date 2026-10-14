@@ -3,7 +3,7 @@ layout: article
 product: hub
 title: Installation
 menu_title: Installation
-description: Peakboard Hub on premise - step-by-step walkthrough of the new setup
+description: Peakboard Hub on premise - step-by-step walkthrough of the setup that installs the Hub as a Windows service
 lang: en
 weight: 100
 ref: hub-100
@@ -12,10 +12,13 @@ redirect_from:
 ---
 
 
-Peakboard Hub on premise is hosted locally on your server and requires Windows Server from at least version 2016. You do not need to install IIS, the ASP.NET Core Runtime or the matching .NET Hosting Bundle beforehand — the setup takes care of every prerequisite that the Peakboard Hub on premise needs to run.
+Peakboard Hub on premise is hosted locally on your server and requires Windows Server from at least version 2016. The Peakboard Hub runs as its own **Windows service** — IIS is not needed. You do not need to install the ASP.NET Core Runtime or the .NET Hosting Bundle beforehand either: the setup takes care of every prerequisite that the Peakboard Hub on premise needs to run.
 There is no external communication at any time, only between the user, the Peakboard Boxes and Peakboard Hub on premise.
 Authentication can be handled either via your Windows Domain Controller (Active Directory) or via local users.
 The Peakboard Hub on premise stores its data in an included SQL Server Express. An already existing SQL Server from version 2017 can also be used instead.
+
+<div class="box-tip" markdown="1"> **Note**: Earlier versions of the Peakboard Hub on premise ran as a site in IIS. If you are updating such an installation, read [Migration from IIS to a Windows service](/hub/Peakboard_Hub_on_premise/en-hub_migration-iis-to-windows-service.html) first.
+</div>
 
 ### System requirements
 
@@ -28,101 +31,168 @@ The server running Peakboard Hub on premise must meet at least the following req
 | Storage | 128 GB SSD |
 | Operating system | Windows Server 2016 or higher |
 
+### How the Peakboard Hub runs on your server
+
+{% include styled_table.html %}
+{: .w-full }
+| | Default |
+|---|---|
+| Program folder | `C:\Program Files\Peakboard\PeakboardHub` |
+| Data folder (uploaded files, Hub Flows, box update packages, hosted Web Runtimes) | `C:\ProgramData\Peakboard\PeakboardHub` |
+| Windows service | `PeakboardHub` (display name **Peakboard Hub**), runs as Local System, starts automatically (delayed) and restarts after a failure |
+| HTTP port | `20588` |
+| HTTPS port (optional) | `20589` |
+| Firewall | The setup opens the configured ports as inbound rules named `Peakboard Hub (TCP <port>)` |
+
+The ports and the optional HTTPS certificate are stored in the `appsettings.json` file in the program folder.
+
 ### Installation
 
-For the initial installation on a Windows server, you only need the installation file of the Peakboard Hub on premise, which is provided [here](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe). Run the file with administrator rights — the setup guides you through the installation.
+For the initial installation on a Windows server, you only need the installation file of the Peakboard Hub on premise, which is provided [here](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe). Run the file with administrator rights — the setup guides you through the installation. The steps on the left side of the window show where you are.
 
 #### Step 1 — Welcome
 
-When you start the setup, the welcome screen appears together with the current setup version. Click [Start] to open the wizard.
+When you start the setup, the welcome screen appears together with the current setup version. Click [Install Peakboard Hub] to open the wizard.
 
 ![Peakboard Hub Setup welcome screen](/assets/images/hub/installer/hub-installer-01-welcome.png)
 
-#### Step 2 — Choose components
+#### Step 2 — Choose the products
 
-On the **Choose Components** page you decide which parts of Peakboard Hub will be installed. For an initial installation you can simply keep the pre-selected components.
+On the **Choose Components** page you decide which products you want to set up:
 
 * **Peakboard Hub** (1) — The Peakboard Hub web application itself. Keep this option enabled for an initial installation.
-* **.NET Hosting Bundle** — The ASP.NET Core Runtime that IIS requires. Leave the option enabled unless the bundle is already present on the server.
-* **Configure IIS Page** — Sets up the IIS site for the Peakboard Hub automatically.
-* **Install Microsoft SQL Server Express** (2) — Enable this option if you do not have an SQL Server available yet. The setup then sets up a local SQL Server Express instance. If you want to reuse an existing SQL Server, leave the option unchecked.
-* **Configure Database** (3) — Creates the database and the database user for the Peakboard Hub. You provide the related details in steps 4 and 5.
-* **Peakboard Hub Api** (4) and **Configure API IIS Page** — Optional REST interface with its own IIS site that lets you talk to the Peakboard Hub from other systems. Unchecked by default.
+* **Peakboard Hub Public API** (2) — Optional REST interface that lets you talk to the Peakboard Hub from other systems. It is installed into its own folder and runs as its own Windows service. More about it in the [Peakboard Hub API](/hub/en-hub_api.html) article.
 
 Click [Next] to continue.
 
-![Component selection in the Peakboard Hub Setup](/assets/images/hub/installer/hub-installer-02-components.png)
+![Product selection in the Peakboard Hub Setup](/assets/images/hub/installer/hub-installer-02-products.png)
 
 #### Step 3 — Installation folder
 
-On the **Choose Install Path** page you choose where Peakboard Hub is installed. The default is `C:\inetpub\PeakboardHub` (1) — that folder is later added as a site in IIS. Use the folder button (2) to pick a different path if you need to.
+On the **Installation Folders** page you choose where each selected product is installed. The default for the Peakboard Hub is `C:\Program Files\Peakboard\PeakboardHub`. Use [Browse...] to pick a different folder.
+
+The folder also decides what the setup does: an empty folder gets a fresh installation, a folder that already contains a Peakboard Hub is updated (see [Updates](#updates)).
 
 Confirm your choice with [Next].
 
 ![Installation folder selection](/assets/images/hub/installer/hub-installer-03-install-path.png)
 
-<div class="box-tip" markdown="1"> **Note**: If you kept **Install Microsoft SQL Server Express** enabled in step 2, the setup installs SQL Server Express right after this step, before it continues to the database configuration. Its progress is shown on a progress bar.
+#### Step 4 — Components of the Peakboard Hub
+
+The **Install Peakboard Hub** page names the folder the new Peakboard Hub is installed into and lists its components. For a fresh installation the first three are always part of it:
+
+* **Install Hub program files** (1) — Copies the Peakboard Hub into the installation folder.
+* **Set up database** (2) — You choose on the following pages whether to create a new database or use an existing one.
+* **Configure Hub Windows service (ports & firewall)** (3) — Creates the Windows service of the Peakboard Hub, configures its port (and the optional HTTPS certificate) and opens the port in the Windows Firewall.
+* **Install Microsoft SQL Server Express** (4) — Enable this option if you do not have an SQL Server available yet. The setup then installs a local SQL Server Express instance. If you want to use an existing SQL Server, leave the option unchecked.
+
+Hover over a component to see a short explanation. Click [Next] to continue.
+
+![Components of the Peakboard Hub](/assets/images/hub/installer/hub-installer-04-components.png)
+
+#### Step 5 — Service configuration
+
+On the **Service Configuration** page you define how the Peakboard Hub is reachable:
+
+* **Windows service name** (1) — Name of the Windows service. Keep `PeakboardHub` unless you run several Peakboard Hubs on the same server.
+* **HTTP port** (2) — The port the Peakboard Hub listens on. The default is `20588`.
+* **Enable HTTPS** (3) — Additionally serves the Peakboard Hub over HTTPS.
+* **HTTPS port** (4) — The default is `20589`.
+* **Certificate from the Windows certificate store** (5) — Pick a certificate from the **Personal** store of the local computer. This is the recommended option, because no password has to be stored.
+* **Certificate file (.pfx)** (6) — Alternatively, select a `.pfx` file that contains the private key and enter its password.
+
+If you also selected the Public API in step 2, the same settings appear for the API (default HTTP port `20688`, HTTPS port `20689`). Click [Next] to continue.
+
+![Service configuration with HTTPS enabled](/assets/images/hub/installer/hub-installer-05-service.png)
+
+<div class="box-tip" markdown="1"> **Note**: If you want to use Windows single sign-on over HTTPS, nothing else has to be configured — the setup always sets the HTTPS endpoint to HTTP/1.1, which Windows authentication requires.
 </div>
 
-#### Step 4 — Database
+#### Step 6 — User authentication
 
-On the **Generate Peakboard Hub Database** page you connect the Peakboard Hub to its SQL database.
+On the **User Authentication** page you decide how users sign in to the Peakboard Hub:
 
-* **Create new database** (1) — Enable this option for an initial installation so the setup creates a fresh database for you. Leave it unchecked to reuse a database that already exists (for example during an update or a migration).
-* **MS SQL Server name** (2) — Address and instance name of your SQL Server. With the included SQL Server Express the default is `localhost\SQLEXPRESS`.
-* **MS SQL Database name** (3) — Name of the database. The default is `PeakboardHub`.
+* **Local Users** (1) — Users sign in with the local Windows accounts of the server.
+* **AD Users** (2) — Users sign in with their Active Directory (domain) accounts.
 
-Click [Next] to continue to the database user.
+**AD Users** is preselected. If the server is not a member of a domain, switch to **Local Users**. Click [Next] to continue.
 
-![Database configuration — SQL Server and database name](/assets/images/hub/installer/hub-installer-04-database.png)
+![User authentication](/assets/images/hub/installer/hub-installer-06-authentication.png)
+
+#### Step 7 — Database
+
+On the **Create Database** page you connect the Peakboard Hub to its SQL database.
+
+* **Create a new database** (1) — The setup creates a fresh database. Choose this option for an initial installation.
+* **Use an existing database** (2) — Reuses a database that already exists.
+* **SQL Server instance** (3) — Address and instance name of your SQL Server. With the included SQL Server Express the default is `localhost\SQLEXPRESS`.
+* **Database name** (4) — The default is `PeakboardHub`.
+* **Current Windows user (local server)** (5) — The setup signs in to the SQL Server with your Windows account. Use this option when the SQL Server runs on the same server.
+* **SQL Server login (remote / external server)** (6) — The setup signs in with an SQL Server login that has administrator rights (sysadmin). Use this option for a remote SQL Server. The login is only used during the setup and is not stored.
+
+Click [Next]. The setup checks the connection before it continues.
+
+![Database configuration](/assets/images/hub/installer/hub-installer-07-database.png)
 
 <div class="box-tip" markdown="1"> **Note**: The [guidelines for database administrators](/hub/Peakboard_Hub_on_premise/en-hub_dba-guidelines.html) describe which changes your database administrator may make on the Peakboard Hub database on their own, for example own indexes on list tables or Instant File Initialization.
 </div>
 
-#### Step 5 — Database user
+#### Step 8 — Database user
 
-On the **Create Database user** page you define the SQL user that the Peakboard Hub uses to access its database.
+On the **Database user** page you define the SQL login that the Peakboard Hub uses to access its database.
 
-* **Create new user** (1) — The setup creates a new SQL user. With **Add existing user** you can use a user that already exists instead.
-* **Username** (2) — Login name of the SQL user.
-* **Password** (3) and **Confirm Password** — Enter a strong password and repeat it for confirmation. The value is masked while you type.
+* **Create a new user** (1) — The setup creates a new SQL login. With **Use an existing user** you can use a login that already exists instead.
+* **Username** (2) — Name of the SQL login. A new login must start with a letter or an underscore and may only contain letters, digits and underscores.
+* **Password** (3) and **Confirm password** (4) — A new password must be at least 8 characters long, contain at least three of the four character types (upper case, lower case, digits, symbols) and must not contain the username.
 
-Click [Next] to start the actual installation.
+Click [Install] to start the installation.
 
-![Creating the database user](/assets/images/hub/installer/hub-installer-05-database-user.png)
+![Creating the database user](/assets/images/hub/installer/hub-installer-08-database-user.png)
 
-#### Step 6 — Installation
+#### Step 9 — Installation
 
-The setup now performs the selected steps one after the other: installing the prerequisites and the .NET Hosting Bundle, setting up SQL Server Express if selected, creating the database and the database user, copying the files into the installation folder and registering the IIS site. The currently running task is shown above the progress bar.
+The setup now performs the selected steps one after the other: installing the missing .NET runtimes, setting up SQL Server Express if selected, creating the database and the database user, copying the files, creating the Windows service, opening the firewall ports and finally starting the service. The currently running task is shown above the progress bar.
 
-![Installation progress](/assets/images/hub/installer/hub-installer-06-installing.png)
+![Installation progress](/assets/images/hub/installer/hub-installer-09-installing.png)
 
-#### Step 7 — Done
+#### Step 10 — Done
 
-Once every task has finished successfully, the wizard switches to the **Installation finished** step and greets you with a success message. Click [Close] (1) to close the setup.
+Once every task has finished successfully, the **Installation finished** page lists what was installed and where the setup log is stored. The setup opens the Peakboard Hub in your browser. Click [Finish] to close the setup.
 
-![Successfully finished installation](/assets/images/hub/installer/hub-installer-07-finished.png)
+![Successfully finished installation](/assets/images/hub/installer/hub-installer-10-finished.png)
 
-The Peakboard Hub on premise is now reachable in your browser — by default on port `20588`, for example `http://<your-server>:20588`. It also appears in the IIS Manager as its own site, where you can configure it like any other IIS site — for example by binding certificates from your company for secure communication.
+The Peakboard Hub on premise is now reachable in your browser — by default on port `20588`, for example `http://<your-server>:20588`.
 
 After the first user signs in to the Peakboard Hub on premise, this user automatically becomes an administrator. You can promote additional users to administrators later from the user management of the Peakboard Hub on premise.
 
-<div class="box-warning" markdown="1"> **Please note**:
-* If you want to update Peakboard Boxes via Peakboard Hub on premise, the IIS process must have permission to write into the installation folder (for example `C:\inetpub\PeakboardHub`).
-* If you want to use MQTT for communication between Peakboard Boxes, open the MQTT port (default 1883).
+<div class="box-warning" markdown="1"> **Please note**: If you want to use MQTT for communication between Peakboard Boxes, open the MQTT port (default 1883).
 </div>
 
-Here you can see where to set the permissions:
+### Changing the configuration later
 
-![Peakboard Hub permissions](/assets/images/hub/hub_permissions.png)
+The setup also installs the **Peakboard Hub Configurator**, which you find in the Windows Start menu. It changes the configuration of an existing installation without editing `appsettings.json` by hand and restarts the affected services for you:
+
+* **Services** — Start, stop or restart the Peakboard Hub and the Public API.
+* **Web endpoints** — Change the ports and the HTTPS certificate.
+* **Database** — Change the database connection.
+* **Authentication** — Switch between local users and Active Directory users.
+
+Like the setup, the Peakboard Hub Configurator needs administrator rights.
 
 ### If the installation fails
 
-If something goes wrong during the install, the setup stops the affected step and shows an error message. The setup log files live under `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Common causes are an unreachable SQL Server instance or missing write permissions on the installation folder. Fix the cause and run the setup again.
+If something goes wrong during the install, the setup stops the affected step and shows an error message. The setup log files live under `C:\ProgramData\Peakboard\LocalState\Logs\Setup\`. Common causes are an unreachable SQL Server instance or a port that another program already uses. Fix the cause and run the setup again.
 
 ### Updates
 
-To perform an update, download the latest [Peakboard Hub on premise installation file](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) and run the setup on the same server as your existing installation. On the **Choose Components** page you de-select the components that are already present (for example **Install Microsoft SQL Server Express**) and keep **Peakboard Hub** checked. On the **Generate Peakboard Hub Database** page you clear **Create new database** so your existing database is preserved. You step through the rest of the wizard like in a fresh install.
+To perform an update, download the latest [Peakboard Hub on premise installation file](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) and run the setup on the same server as your existing installation. On the **Installation Folders** page select the folder of your existing installation. The next page is then called **Update Peakboard Hub** and offers:
+
+* **Update Hub program files** — Replaces the program files with the new version. Your `appsettings.json` (ports, HTTPS, database connection, authentication, own changes) is kept.
+* **Create backup** — Backs up the Peakboard Hub database before the new program files are copied. On the next page you choose the backup folder; leave it empty to use the default backup folder of the SQL Server instance. The backup file is written by the SQL Server, so the folder must be on the database server.
+* **Set up database** — Only enable this option if you want to change the database connection.
+* **Configure Hub Windows service (ports & firewall)** — Uncheck it to keep the current service configuration. When you update an installation that still runs in IIS, this option is always enabled — see [Migration from IIS to a Windows service](/hub/Peakboard_Hub_on_premise/en-hub_migration-iis-to-windows-service.html).
+
+While the program files are replaced, the Windows service of the Peakboard Hub is stopped and set to **Disabled** so that nothing can start it in the middle of the update. Afterwards its original startup type is restored and the service is started again. If the update fails while the files are copied, the service stays disabled and the setup tells you to run it again — run the same setup again to complete the update.
 
 ### Uninstall
 

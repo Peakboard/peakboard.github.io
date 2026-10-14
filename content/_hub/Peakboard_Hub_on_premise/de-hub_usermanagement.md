@@ -56,9 +56,11 @@ Standardmäßig greift der Peakboard Hub on premise auf Active Directory (Domän
 
 ### Mit lokalen Windows-Nutzern anmelden
 
-Um dich mit deinem lokalen Windows-Nutzer anzumelden anstatt mit dem Active Directory (Domänen) Nutzer, musst du die Konfigurationsdatei `appsettings.json` manuell anpassen. Du findest die Datei standardmäßig unter `C:/inetpub/PeakboardHub`
+Um dich mit deinem lokalen Windows-Nutzer anzumelden anstatt mit dem Active Directory (Domänen) Nutzer, wählst du im [Setup](/hub/Peakboard_Hub_on_premise/de-hub_installation.html) auf der Seite **User Authentication** die Option **Local Users**.
 
-Öffne die Datei mit einem Editor und setze den Wert `SiteSettings.IsPrincipalContextTypeMachine` auf `true` und speichere die Datei.
+Um das bei einer bestehenden Installation zu ändern, öffnest du den **Peakboard Hub Configurator** aus dem Windows-Startmenü, wählst auf der Seite **Authentication** die Option **Local Windows accounts on this machine** und klickst auf **Apply changes** — der Configurator startet den Peakboard Hub für dich neu.
+
+Alternativ kannst du die Konfigurationsdatei `appsettings.json` manuell anpassen. Du findest die Datei im Installationsordner, standardmäßig `C:\Program Files\Peakboard\PeakboardHub` (bei einer Installation, die nie aus dem IIS-Ordner verschoben wurde: `C:\inetpub\PeakboardHub`). Öffne die Datei mit einem Editor, setze den Wert `SiteSettings.IsPrincipalContextTypeMachine` auf `true` und speichere die Datei.
 
 Falls der Wert nicht existiert, ergänze den folgenden Bereich:
 
@@ -69,5 +71,7 @@ Falls der Wert nicht existiert, ergänze den folgenden Bereich:
 ```
 
 ![Wert anpassen](/assets/images/hub/hub_appsettings-json.png)
+
+Starte anschließend den Windows-Dienst **Peakboard Hub** neu, damit die Änderung wirksam wird.
 
 Jetzt wird nicht mehr auf die Active Directory (Domänen) Nutzer zugegriffen, sondern auf die lokalen Windows Nutzer des Peakboard Hub on premise Servers. Nach der Anmeldung am Peakboard Hub on premise mit den lokalen Windows Nutzerdaten kann ein Administrator den neuen Nutzer freischalten.

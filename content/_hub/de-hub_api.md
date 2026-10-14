@@ -18,32 +18,32 @@ Für die Installation der Peakboard Hub API wird das Peakboard Hub Setup benöti
 
 #### Voraussetzungen
 
-Die Peakboard Hub On-Premises wird lokal auf Ihrem Server gehostet und benötigt:
-- **IIS** und **Windows Server 2016 oder neuer**.
-- Die [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer), welche auch während der Installation über das Setup installiert werden kann.
+Der Peakboard Hub On-Premises wird lokal auf Ihrem Server gehostet und benötigt **Windows Server 2016 oder neuer**. Die API läuft als eigener Windows-Dienst — IIS wird nicht benötigt. Die erforderliche ASP.NET Core Runtime installiert das Setup, falls sie fehlt.
 
 > **Hinweis:** Eine laufende Peakboard Hub-Instanz ist für die vollständige Funktionalität der API erforderlich. Die API muss nicht auf demselben Server installiert sein, benötigt jedoch Zugriff auf dieselbe Datenbank.
 
 #### Installation
 
-Laden Sie das Setup herunter und führen Sie es mit Administratorrechten aus.
-Wählen Sie im Bildschirm **Component Selection** folgende Optionen:
-   - **Peakboard Hub API** (2): Installiert die API.
-   - **Configure API IIS Page** (3): Erstellt eine IIS-Seite und einen App-Pool mit Standardeinstellungen, die später angepasst werden können.
+Laden Sie das Setup herunter und führen Sie es mit Administratorrechten aus. Wählen Sie auf der ersten Seite **Choose Components** die Option **Peakboard Hub Public API**. Wenn Sie nur die API installieren möchten, wählen Sie **Peakboard Hub** ab. Auf der Seite **Installation Folders** legen Sie den Ordner der API fest; Standard ist `C:\Program Files\Peakboard\PeakboardHubApi`.
 
-> **Hinweis:** Wenn die IIS-Einrichtung übersprungen wird, müssen die IIS-Seite und der App-Pool manuell erstellt werden.
+![Komponenten der Public API](/assets/images/hub/hub_api-installation-01.png)
 
-Wenn bereits eine Peakboard Hub-Instanz auf demselben System installiert ist, nutzt die API automatisch deren Datenbankverbindung. Ist dies nicht der Fall, wählen Sie die Komponente **Configure Database** (1), um eine benutzerdefinierte Datenbankverbindung anzugeben.
+Die Seite **Install Public API** zeigt, was das Setup für eine neue API erledigt: Es kopiert die Programmdateien, richtet die Datenbankverbindung ein und legt den Windows-Dienst `PeakboardHubApi` an. Auf der Seite **Service Configuration** wählen Sie den HTTP-Port (Standard `20688`) und optional HTTPS (Standard-Port `20689`).
 
+Die API nutzt die Datenbank des Peakboard Hub mit. Auf der Seite **API database connection** trägt das Setup die Verbindung eines Peakboard Hub auf demselben Server ein; andernfalls geben Sie Datenbankserver, Datenbankname, Nutzername und Passwort selbst ein.
 
-> **Hinweis:** Wenn 'Configure Database' (1) ausgewählt ist, frägt die nächste Seite nach dem Installationspfad des Peakboard Hubs. Falls auf dem System kein Peakboard Hub installiert ist, kann dies ignoriert werden. Andernfalls bitte einen leeren Ordner auswählen um die installierte Peakboard Hub Instanz nicht zu beeinflussen.
+![Datenbankverbindung der Public API](/assets/images/hub/hub_api-installation-03.png)
+
+Alle Schritte des Setups beschreibt der Artikel [Installation](/hub/Peakboard_Hub_on_premise/de-hub_installation.html).
 
 #### Aktualisierung der API
 
 Um die API zu aktualisieren:
-- Laden Sie die neueste Version des Setups herunter.
-- Wählen Sie die Komponente **Peakboard Hub API** (2) aus.
-- Aktualisieren Sie das [ASP.NET Core 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.6-windows-hosting-bundle-installer), falls erforderlich.
+- Laden Sie die neueste Version des Setups [hier](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) herunter.
+- Wählen Sie auf der ersten Seite **Peakboard Hub Public API** und auf der Seite **Installation Folders** den Ordner der vorhandenen API.
+- Die API behält ihre eigene Datenbankverbindung, sofern Sie die Datenbank nicht erneut konfigurieren.
+
+Eine API, die noch im IIS läuft, wird beim Update in einen Windows-Dienst migriert, siehe [Migration von IIS zu einem Windows-Dienst](/hub/Peakboard_Hub_on_premise/de-hub_migration-iis-to-windows-service.html).
 
 ### Nutzung der Peakboard Hub API
 

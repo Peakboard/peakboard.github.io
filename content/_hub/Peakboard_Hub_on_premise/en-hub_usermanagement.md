@@ -54,9 +54,11 @@ By default, Peakboard Hub on premise accesses Active Directory (domain) users. N
 
 ### Log in with local Windows users
 
-To log in with your local Windows user instead of the Active Directory (domain) user, you must manually customize the configuration file `appsettings.json`. You can find the file by default under `C:/inetpub/PeakboardHub`
+To log in with your local Windows user instead of the Active Directory (domain) user, choose **Local Users** on the **User Authentication** page of the [setup](/hub/Peakboard_Hub_on_premise/en-hub_installation.html).
 
-Open the file with an editor and set the value `SiteSettings.IsPrincipalContextTypeMachine` to `true` and save the file.
+To change this for an existing installation, open the **Peakboard Hub Configurator** from the Windows Start menu, select **Local Windows accounts on this machine** on the **Authentication** screen and click **Apply changes** — the Configurator restarts the Peakboard Hub for you.
+
+Alternatively you can customize the configuration file `appsettings.json` manually. You can find the file in the installation folder, by default `C:\Program Files\Peakboard\PeakboardHub` (for an installation that was never moved out of IIS: `C:\inetpub\PeakboardHub`). Open the file with an editor, set the value `SiteSettings.IsPrincipalContextTypeMachine` to `true` and save the file.
 
 If the value does not exist, add the following area:
 
@@ -67,5 +69,7 @@ If the value does not exist, add the following area:
 ```
 
 ![Customize value](/assets/images/hub/hub_appsettings-json.png)
+
+Then restart the Windows service **Peakboard Hub** so that the change takes effect.
 
 Now the Active Directory (domain) users are no longer accessed, but the local Windows users of the Peakboard Hub on premise server. After logging on to Peakboard Hub on premise with the local Windows user data, an administrator can activate the new user.

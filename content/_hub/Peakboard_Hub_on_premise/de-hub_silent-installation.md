@@ -11,41 +11,48 @@ redirect_from:
 ---
 
 
-Diese Anleitung beschreibt die kommandozeilengesteuerte, unbeaufsichtigte Installation und Deinstallation des Peakboard Hub on premise (inklusive Public API). Sie richtet sich an Administratoren und an die Automatisierung über Softwareverteilung, CI/CD oder eigene Skripte.
+Dieser Artikel beschreibt die unbeaufsichtigte, per Kommandozeile gesteuerte Installation und Deinstallation des Peakboard Hub on premise einschließlich der Public API. Er richtet sich an Administratoren und an Automatisierungsszenarien (Softwareverteilung, CI/CD-Pipelines, Skripte).
 
-<div class="box-warning" markdown="1"> **Wichtig**: Sowohl das Setup als auch die Deinstallation **müssen mit erhöhten Rechten (als Administrator)** ausgeführt werden. Sie konfigurieren IIS, die Windows-Registry, Zertifikate und – bei Bedarf – den SQL Server.
+Der Peakboard Hub und die Public API laufen als **Windows-Dienste** (`PeakboardHub` / `PeakboardHubApi`, Lokales System, verzögerter automatischer Start). IIS wird nicht benötigt. Wie eine Installation migriert wird, die noch im IIS läuft, beschreibt der Artikel [Migration von IIS zu einem Windows-Dienst](/hub/Peakboard_Hub_on_premise/de-hub_migration-iis-to-windows-service.html).
+
+<div class="box-warning" markdown="1"> **Wichtig**: Setup und Deinstallation **müssen mit erhöhten Rechten (Administrator) laufen**. Sie legen Windows-Dienste an, konfigurieren die Windows-Firewall und die Registry und installieren — falls gewünscht — den SQL Server. Ohne erhöhte Rechte gestartet, schlagen sie fehl.
 </div>
 
 ## Silent-Installation
 
 ### Aktivierung
 
-Die unbeaufsichtigte Installation wird über das Argument `-Silent True` aktiviert:
+Die unbeaufsichtigte Installation wird mit dem Argument `-Silent True` aktiviert:
 
 ```bat
-PeakboardHubSetup.exe -Silent True -InstallPath "C:\inetpub\PeakboardHub"
+PeakboardHubSetup.exe -Silent True -InstallPath "C:\Program Files\Peakboard\PeakboardHub"
 ```
 
 Ohne `-Silent True` startet der grafische Assistent.
 
+<div class="box-warning" markdown="1"> **Wichtig**: Ein Silent-Lauf installiert wirklich — einen Testmodus gibt es nicht. Probiere deine Kommandozeile zuerst auf einem Testserver aus.
+</div>
+
 ### Aufrufformate der Argumente
 
-Beide Schreibweisen werden akzeptiert und können gemischt werden:
+Beide Schreibweisen werden akzeptiert und dürfen gemischt werden:
 
 {% include styled_table.html %}
 {: .w-full }
 | Format | Beispiel |
 |---|---|
-| `-Schlüssel Wert` | `-InstallPath "C:\inetpub\PeakboardHub"` |
-| `Schlüssel=Wert` | `InstallPath=C:\inetpub\PeakboardHub` |
+| `-key value` | `-InstallPath "C:\Program Files\Peakboard\PeakboardHub"` |
+| `key=value` | `InstallPath="C:\Program Files\Peakboard\PeakboardHub"` |
 
-* Ein `-Schlüssel` **ohne** nachfolgenden Wert (oder gefolgt von einem weiteren `-Schlüssel`) wird als `True` interpretiert. `-Silent` entspricht also `-Silent True`.
-* **Unbekannte Argumente** werden ignoriert und nur in die Logdatei geschrieben (Vorwärtskompatibilität).
-* Schlüssel sind **nicht** case-sensitiv.
+* Ein `-key` **ohne** folgenden Wert (oder gefolgt von einem weiteren `-key`) wird als `True` interpretiert. `-Silent` ist also gleichbedeutend mit `-Silent True`.
+* Argumente, die einen Wert erwarten (Pfade, Namen, Ports, Passwörter), nehmen **immer** das nächste Token als Wert, auch wenn es mit `-` beginnt. Ein Passwort, das mit einem Bindestrich beginnt, ist also kein Problem.
+* Setze Werte mit Leerzeichen in Anführungszeichen.
+* **Unbekannte Argumente** werden ignoriert und nur in die Protokolldatei geschrieben.
+* Groß- und Kleinschreibung der Schlüssel spielt **keine** Rolle.
 
 ### Wahrheitswerte (Boolean)
 
-Als `True` gelten (case-insensitiv): **`True`**, **`Yes`**, **`1`**. **Alles andere** (inklusive `False`, `No`, `0`, leer) gilt als `False`.
+Als `True` gelten (ohne Beachtung der Groß-/Kleinschreibung): **`True`**, **`Yes`**, **`1`**. **Alles andere** (auch `False`, `No`, `0`, leer) ist `False`.
 
 ### Rückgabe- und Exit-Codes
 
@@ -56,7 +63,7 @@ Als `True` gelten (case-insensitiv): **`True`**, **`Yes`**, **`1`**. **Alles and
 | `0` | Installation erfolgreich |
 | `-1` | Fehler oder Abbruch |
 
-Der Fortschritt wird zusätzlich zeilenweise auf der Konsole ausgegeben (`[ 42%] <Schritt>`), die Detail-Logdatei liegt unter `C:\ProgramData\Peakboard\LocalState\Logs\Setup\PeakboardHubSetup_<Zeitstempel>.log`.
+Zusätzlich wird der Fortschritt in die Konsole geschrieben; das ausführliche Setup-Protokoll liegt unter `C:\ProgramData\Peakboard\LocalState\Logs\Setup\PeakboardHubSetup_<Zeitstempel>.log`. Bei einem Fehler zeigt die Konsole den Pfad der Protokolldatei.
 
 ### Argumentreferenz
 
@@ -66,48 +73,64 @@ Der Fortschritt wird zusätzlich zeilenweise auf der Konsole ausgegeben (`[ 42%]
 {: .w-full }
 | Argument | Werte | Standard | Beschreibung |
 |---|---|---|---|
-| `-Silent` | `True/False` | `False` | Aktiviert die unbeaufsichtigte Installation (kein UI). |
+| `-Silent` | `True/False` | `False` | Aktiviert die unbeaufsichtigte Installation (ohne Oberfläche). |
 
-#### Installationspfade (mindestens einer ist erforderlich)
-
-{% include styled_table.html %}
-{: .w-full }
-| Argument | Werte | Standard | Beschreibung |
-|---|---|---|---|
-| `-InstallPath` | Pfad | – | Zielordner des Peakboard Hub. Wird ein Pfad angegeben, **ohne** weitere Hub-Komponenten-Flags zu setzen, installiert das Setup automatisch **Hub + .NET-Runtime + IIS** (siehe [Verhalten und automatische Voreinstellungen](#verhalten-und-automatische-voreinstellungen)). |
-| `-ApiInstallPath` | Pfad | – | Zielordner der Public API. Wird gesetzt, **ohne** API-Flags, installiert das Setup automatisch **API + API-IIS**. |
-
-<div class="box-warning" markdown="1"> Es muss **mindestens** `-InstallPath` **oder** `-ApiInstallPath` angegeben werden, sonst bricht das Setup mit Exit-Code `-1` ab.
-</div>
-
-#### Komponenten
+#### Peakboard Hub
 
 {% include styled_table.html %}
 {: .w-full }
 | Argument | Werte | Standard | Beschreibung |
 |---|---|---|---|
-| `-InstallPeakboardHub` | `True/False` | abgeleitet | Hub installieren. |
-| `-InstallPeakboardHubApi` | `True/False` | abgeleitet | Public API installieren. |
-| `-InstallSqlServerExpress` | `True/False` | `False` | SQL Server Express lokal installieren (Instanz `SQLEXPRESS`). **Nur** angeben, wenn noch kein (funktionierender) SQL Server vorhanden ist. |
-| `-InstallNetHostingBundle` | `True/False` | abgeleitet | .NET Hosting Bundle / Desktop Runtime sicherstellen (wird nur installiert, wenn nicht vorhanden). |
-| `-ConfigureIisPage` | `True/False` | abgeleitet | IIS-Seite und App Pool für den Hub einrichten. |
-| `-ConfigureApiIisPage` | `True/False` | abgeleitet | IIS-Seite und App Pool für die API einrichten. |
+| `-InstallPath` | Pfad | – | Ordner des Peakboard Hub. Empfohlen ist `C:\Program Files\Peakboard\PeakboardHub`. Muss ein absoluter Pfad sein. Geschützte Orte (ein Laufwerksstamm, `C:\Windows`, `C:\Program Files` außerhalb von `C:\Program Files\Peakboard\`) werden abgelehnt. |
+| `-InstallPeakboardHub` | `True/False` | abgeleitet | Programmdateien des Peakboard Hub kopieren. |
+| `-InstallNetHostingBundle` | `True/False` | abgeleitet | Sicherstellen, dass die ASP.NET Core Runtime vorhanden ist (wird aus dem mitgelieferten Hosting Bundle nur installiert, wenn sie fehlt). Wird automatisch sichergestellt, sobald Hub oder API installiert werden. |
+| `-ConfigureHubService` | `True/False` | abgeleitet | Windows-Dienst des Peakboard Hub anlegen oder aktualisieren, seine(n) Port(s) in die `appsettings.json` schreiben und in der Windows-Firewall öffnen. *(`-ConfigureIisPage` wird weiterhin als Alias akzeptiert.)* |
+| `-HubServiceName` | Text | `PeakboardHub` | Name des Windows-Dienstes (der Anzeigename folgt ihm). Ohne dieses Argument behält ein vorhandener Dienst des Zielordners seinen Namen; ist `PeakboardHub` bereits von einer anderen Installation belegt, wird eine Nummer angehängt (`PeakboardHub_2`). Ein ausdrücklich angegebener Name wird unverändert verwendet — hat ihn bereits ein anderer Dienst, schlägt das Setup fehl. |
+| `-HubPort` | Zahl | `20588` | HTTP-Port. Bei einem Update bleibt der konfigurierte Port erhalten, sofern dieses Argument nicht angegeben ist. |
+| `-HubHttps` | `True/False` | `False` | HTTPS-Endpunkt aktivieren. Wird durch jedes `-HubCert*`- oder `-HubHttpsPort`-Argument impliziert. |
+| `-HubHttpsPort` | Zahl | `20589` | HTTPS-Port. |
+| `-HubCertSubject` | Text | – | Antragsteller (Subject) eines HTTPS-Zertifikats im Speicher **Eigene Zertifikate** des lokalen Computers (`LocalMachine\My`). Empfohlen, weil kein Passwort gespeichert wird. Passen mehrere Zertifikate, wird das am spätesten ablaufende verwendet. |
+| `-HubCertPath` | Pfad | – | HTTPS-Zertifikat als **Datei** (`.pfx`) mit privatem Schlüssel. |
+| `-HubCertPassword` | Text | – | Passwort der `.pfx`-Datei. Es wird in der `appsettings.json` gespeichert — nutze besser `-HubCertSubject`. |
+| `-InstallSqlServerExpress` | `True/False` | `False` | Lokale SQL Server Express Instanz installieren (Name `SQLEXPRESS`). **Nur** setzen, wenn noch kein funktionierender SQL Server vorhanden ist. |
+
+#### Public API
+
+{% include styled_table.html %}
+{: .w-full }
+| Argument | Werte | Standard | Beschreibung |
+|---|---|---|---|
+| `-ApiInstallPath` | Pfad | – | Ordner der Public API, empfohlen `C:\Program Files\Peakboard\PeakboardHubApi`. Muss sich vom Hub-Ordner unterscheiden. |
+| `-InstallPeakboardHubApi` | `True/False` | abgeleitet | Programmdateien der Public API kopieren. |
+| `-ConfigureApiService` | `True/False` | abgeleitet | Windows-Dienst der Public API anlegen oder aktualisieren, ihre(n) Port(s) schreiben und in der Windows-Firewall öffnen. *(`-ConfigureApiIisPage` wird weiterhin als Alias akzeptiert.)* |
+| `-ApiServiceName` | Text | `PeakboardHubApi` | Name des Windows-Dienstes der API. Gleiche Regeln wie bei `-HubServiceName`; muss sich vom Dienstnamen des Hub unterscheiden. |
+| `-ApiPort` | Zahl | `20688` | HTTP-Port der API. |
+| `-ApiHttps` | `True/False` | `False` | HTTPS-Endpunkt für die API aktivieren. |
+| `-ApiHttpsPort` | Zahl | `20689` | HTTPS-Port der API. |
+| `-ApiCertSubject` / `-ApiCertPath` / `-ApiCertPassword` | Text | – | Zertifikat der API — gleiche Bedeutung wie die `-HubCert*`-Argumente. |
+| `-ReconfigureApiDb` | `True/False` | `False` | **Nur beim Update der API:** die Verbindungszeichenfolge der API durch die des Peakboard Hub ersetzen. Ohne dieses Argument behält ein Update der API ihre eigene Verbindungszeichenfolge. Eine neue API übernimmt die Verbindungszeichenfolge des Hub automatisch. |
 
 #### Datenbank
 
+Die Datenbank wird nur mit `-ConfigureDatabase True` eingerichtet.
+
 {% include styled_table.html %}
 {: .w-full }
 | Argument | Werte | Standard | Beschreibung |
 |---|---|---|---|
-| `-ConfigureDatabase` | `True/False` | `False` | Datenbank einrichten oder verbinden. **Im Silent-Modus nicht automatisch aktiv** – muss explizit gesetzt werden, wenn das Setup die Datenbank konfigurieren soll. |
+| `-ConfigureDatabase` | `True/False` | `False` | Datenbank in diesem Lauf einrichten oder anbinden. **Im Silent-Modus nicht automatisch aktiv.** |
 | `-DatabaseServerName` | Text | `localhost\SQLEXPRESS` | SQL-Server-Instanz. |
-| `-DatabaseName` | Text | `PeakboardHub` | Name der Datenbank. |
-| `-DatabaseUsername` | Text | – | SQL-Login, das der Hub verwendet. |
+| `-DatabaseName` | Text | `PeakboardHub` | Name der Datenbank. Darf keine Anführungszeichen oder Klammern enthalten. |
+| `-CreateDatabase` | `True/False` | `False` | `True` = **neue** Datenbank anlegen (darf noch nicht existieren). `False` = **vorhandene** Datenbank nutzen (muss existieren). |
+| `-CreateLogin` | `True/False` | wie `-CreateDatabase` | `True` = neuen SQL-Login anlegen. `False` = vorhandenen Login nutzen. |
+| `-DatabaseUsername` | Text | – | SQL-Login, mit dem der Peakboard Hub arbeitet. |
 | `-DatabasePassword` | Text | – | Passwort des SQL-Logins. |
-| `-CreateDatabase` | `True/False` | `False` | `True` = Datenbank **und** Login werden neu angelegt. `False` = bestehende Datenbank und Login verwenden. |
-| `-BackupDatabase` | `True/False` | `True` | Vor einem **Update** (Datenbank existiert bereits) ein Backup erstellen. Schlägt das Backup fehl, wird der Silent-Lauf **abgebrochen** – mit `-BackupDatabase False` überspringen. |
+| `-AdminSqlAuth` | `True/False` | `False` | Wie sich das Setup am SQL Server anmeldet, um Datenbank und Login anzulegen. `False` = der aktuelle Windows-Nutzer (lokaler SQL Server). `True` = ein SQL-Server-Login mit sysadmin-Rechten — erforderlich für einen entfernten SQL Server. |
+| `-AdminUsername` / `-AdminPassword` | Text | – | Sysadmin-Login und Passwort. **Erforderlich** bei `-AdminSqlAuth True`. Wird nur während des Setups genutzt und nie gespeichert. |
+| `-BackupDatabase` | `True/False` | `True` | Vor einem **Update**, das die Programmdateien ersetzt, eine Sicherung der Datenbank anlegen (nur wenn die Datenbank bereits existiert). Schlägt die Sicherung fehl, wird der Silent-Lauf **abgebrochen** — mit `-BackupDatabase False` überspringst du die Sicherung. |
+| `-BackupFolder` | Pfad | Standard der Instanz | Ordner für die Sicherungsdatei. Die Datei schreibt der SQL Server, deshalb muss der Ordner auf dem Datenbankserver liegen und für das Dienstkonto des SQL Servers beschreibbar sein. |
 
-<div class="box-warning" markdown="1"> Bei `-ConfigureDatabase True` sind **alle vier** Werte erforderlich: `-DatabaseServerName`, `-DatabaseName`, `-DatabaseUsername`, `-DatabasePassword`. Bei `-CreateDatabase True` muss `-DatabaseUsername` ein **gültiger SQL-Bezeichner** sein (beginnt mit Buchstabe oder Unterstrich, danach nur Buchstaben, Ziffern oder Unterstriche).
+<div class="box-warning" markdown="1"> Bei `-ConfigureDatabase True` sind **alle vier** Werte erforderlich: `-DatabaseServerName`, `-DatabaseName`, `-DatabaseUsername`, `-DatabasePassword`. Ein neuer Login muss ein **gültiger SQL-Bezeichner** sein (beginnt mit einem Buchstaben oder Unterstrich, danach nur Buchstaben, Ziffern oder Unterstriche), und sein Passwort muss mindestens 8 Zeichen lang sein, drei der vier Zeichenarten (Großbuchstaben, Kleinbuchstaben, Ziffern, Sonderzeichen) enthalten und darf den Login-Namen nicht enthalten.
 </div>
 
 #### Benutzer-Authentifizierung
@@ -116,114 +139,153 @@ Der Fortschritt wird zusätzlich zeilenweise auf der Konsole ausgegeben (`[ 42%]
 {: .w-full }
 | Argument | Werte | Standard | Beschreibung |
 |---|---|---|---|
-| `-LocalUsers` | `True/False` | `False` | `True` = Hub-Benutzer gegen lokale Maschinenkonten authentifizieren. `False` (oder weglassen) = **Active Directory**. |
+| `-LocalUsers` | `True/False` | `False` | `True` = Hub-Nutzer gegen die lokalen Windows-Konten des Servers authentifizieren. `False` (oder weggelassen) = **Active Directory**. |
 
-#### Interne Argumente (nicht manuell verwenden)
+#### Firewall
 
 {% include styled_table.html %}
 {: .w-full }
-| Argument | Beschreibung |
-|---|---|
-| `-ContinueInstallation` | Wird ausschließlich vom RunOnce-Eintrag nach dem Neustart (IIS-Feature-Installation) gesetzt. |
-| `-InstallIisFeature` | Wird intern gesetzt, wenn dieser Lauf das IIS-Windows-Feature aktiviert hat. |
+| Argument | Werte | Standard | Beschreibung |
+|---|---|---|---|
+| `-ConfigureFirewall` | `True/False` | `True` | Die Ports von Hub und API als eingehende Regeln in der Windows-Firewall öffnen. Gilt nur für ein Produkt, dessen Dienst in diesem Lauf konfiguriert wird. Mit `False` verwaltest du die Firewall selbst. |
+
+#### Migration von IIS
+
+Diese Argumente spielen nur beim Update einer Installation eine Rolle, die noch im IIS läuft. Details findest du unter [Migration von IIS zu einem Windows-Dienst](/hub/Peakboard_Hub_on_premise/de-hub_migration-iis-to-windows-service.html).
+
+{% include styled_table.html %}
+{: .w-full }
+| Argument | Werte | Standard | Beschreibung |
+|---|---|---|---|
+| `-HubEndpointsFromIis` | `True/False` | `True` | `True` = **alle** wiederverwendbaren Bindungen der IIS-Seite übernehmen (HTTP und HTTPS samt Zertifikat). `False` = nichts aus dem IIS übernehmen; es gelten nur die Ports dieses Laufs (`-HubPort`, `-HubHttps*`, `-HubCert*`). Die IIS-Seite wird in beiden Fällen gelöscht. |
+| `-ApiEndpointsFromIis` | `True/False` | `True` | Dasselbe für die IIS-Seite der Public API. |
+| `-HubMigrateFrom` | Pfad | – | Die Installation aus der IIS-Zeit in diesem Ordner nach `-InstallPath` verschieben. Die Datenordner werden nach `C:\ProgramData\Peakboard\PeakboardHub` verschoben. Der Ordner muss auf demselben Laufwerk liegen wie `C:\ProgramData`. Dieselbe Kommandozeile kann gefahrlos erneut ausgeführt werden. |
+| `-ApiMigrateFrom` | Pfad | – | Dasselbe für die Public API. Nur zusammen mit `-HubMigrateFrom`. |
+| `-RemoveOldFolders` | `True/False` | `False` | Den bzw. die alten Ordner nach erfolgreichem Verschieben löschen — einschließlich manuell dort abgelegter Dateien. |
+
+<div class="box-tip" markdown="1"> **Hinweis**: Die Argumente `-ContinueInstallation` und `-InstallIisFeature` älterer Setups gibt es nicht mehr. Sie werden ignoriert und nur in die Protokolldatei geschrieben.
+</div>
 
 ### Verhalten und automatische Voreinstellungen
 
-* **Pfad impliziert Komponente:** Wird `-InstallPath` angegeben, ohne eine Hub-Komponente explizit zu setzen, aktiviert das Setup automatisch **Hub + .NET-Runtime + IIS**. Analog aktiviert `-ApiInstallPath` automatisch **API + API-IIS**.
-* **Datenbank ist im Silent-Modus NICHT automatisch aktiv.** Anders als im Assistenten wird `-ConfigureDatabase` im unbeaufsichtigten Modus nicht aus der Komponentenauswahl abgeleitet. Soll das Setup die Datenbank anlegen oder verbinden, muss `-ConfigureDatabase True` (plus die DB-Werte) gesetzt werden.
-* **SQL Server Express** wird nur installiert, wenn `-InstallSqlServerExpress True` angegeben ist.
-* **API ohne `-ConfigureDatabase`:** Die API teilt sich die Hub-Datenbank. Ist keine DB-Konfiguration angegeben, übernimmt das Setup den Connection-String einer bereits installierten Hub-Instanz; ist keiner vorhanden, wird ein erkennbarer **Platzhalter** in die `appsettings.json` der API geschrieben, der anschließend manuell ersetzt werden muss.
+* **Pfad impliziert Komponente:** Ist `-InstallPath` ohne weitere Hub-Argumente gesetzt, installiert das Setup den **Hub**, stellt die **.NET Runtime** sicher und **konfiguriert den Hub-Dienst**. Dasselbe gilt für `-ApiInstallPath`, das die **API** installiert und den **API-Dienst konfiguriert**.
+* **Sobald du ein weiteres Hub-Argument angibst** (zum Beispiel `-ConfigureDatabase` oder `-InstallSqlServerExpress`), entfällt diese Voreinstellung, und jede Komponente muss ausdrücklich genannt werden — ergänze `-InstallPeakboardHub True`.
+* **Ohne vorhandenen Dienst ist die Dienstkonfiguration Pflicht.** Bei einer neuen Installation oder beim Update einer Installation, die noch im IIS läuft, wird der Dienst immer konfiguriert, egal was die Argumente sagen. Nur beim Update einer bestehenden Dienst-Installation darf sie entfallen — der Dienst wird dann gestoppt, aktualisiert und mit seiner aktuellen Konfiguration wieder gestartet.
+* **Die Datenbank wird im Silent-Modus NICHT automatisch eingerichtet.** Setze `-ConfigureDatabase True` zusammen mit den Datenbankwerten, wenn das Setup die Datenbank anlegen oder anbinden soll.
+* **SQL Server Express** wird nur mit `-InstallSqlServerExpress True` installiert.
+* **API ohne `-ConfigureDatabase`:** Die API teilt sich die Datenbank mit dem Hub. Eine neue API übernimmt die Verbindungszeichenfolge eines vorhandenen Peakboard Hub; gibt es keinen, wird ein deutlich erkennbarer **Platzhalter** in die `appsettings.json` der API geschrieben, den du anschließend von Hand ersetzen musst.
+
+### Was ein Update an der appsettings.json ändert
+
+Ein Update — silent oder mit dem Assistenten — ändert an der `appsettings.json` einer Installation **nichts** außer dem, was du ausdrücklich angefordert hast:
+
+* **Ausdrückliche Änderungen** sind Kommandozeilenargumente wie `-HubPort`, `-HubHttpsPort`, `-HubHttps`, `-HubCert*`, `-LocalUsers`, `-ConfigureDatabase`, `-ReconfigureApiDb` und ihre Gegenstücke für die API — oder im Assistenten ein Wert, den du geändert hast.
+* **Alles andere bleibt, wie es ist**: Ports, die HTTPS-Einstellungen, die Verbindungszeichenfolge, die Art der Authentifizierung, aus dem IIS übernommene Endpunkte und deine eigenen Einträge.
+* **Neue Einstellungen**, die mit der neuen Version kommen, werden ergänzt. Vorhandene Einträge werden nie durch den mitgelieferten Standard ersetzt.
+* Während die Programmdateien ersetzt werden, wird die Datei als `appsettings.json.installerbak` gesichert und anschließend wiederhergestellt — auch wenn das Update fehlschlägt.
+
+### Dienste während eines Updates
+
+Während ein Update die Programmdateien ersetzt, wird der Windows-Dienst des Produkts auf **Deaktiviert** gesetzt, damit ihn mitten im Kopieren niemand starten kann. Sein ursprünglicher Starttyp wird wiederhergestellt, sobald die Dateien an ihrem Platz sind. Schlägt das Update beim Kopieren fehl oder wird es abgebrochen, bleibt der Dienst deaktiviert und die Konsole meldet `The program files in "<folder>" are incomplete. The service '<name>' is disabled. Run setup again.` Starte dasselbe Setup noch einmal, um das Update abzuschließen.
 
 ### Beispiele
 
-**Neuinstallation Hub + SQL Express + Datenbank (frische Maschine):**
+**Neuinstallation — Hub + SQL Express + Datenbank auf einem leeren Server:**
 
 ```bat
 PeakboardHubSetup.exe -Silent True ^
-  -InstallPath "C:\inetpub\PeakboardHub" ^
+  -InstallPath "C:\Program Files\Peakboard\PeakboardHub" -InstallPeakboardHub True ^
   -InstallSqlServerExpress True ^
   -ConfigureDatabase True -CreateDatabase True ^
   -DatabaseServerName "localhost\SQLEXPRESS" ^
   -DatabaseName "PeakboardHub" ^
-  -DatabaseUsername "pbhub" -DatabasePassword "S3hr$icher!" ^
+  -DatabaseUsername "pbhub" -DatabasePassword "V3rySecure!" ^
   -LocalUsers True
 ```
 
-**Hub gegen bestehende SQL-Server-Datenbank (kein SQL-Express-Setup):**
+**Hub mit einem entfernten SQL Server:**
 
 ```bat
 PeakboardHubSetup.exe -Silent True ^
-  -InstallPath "C:\inetpub\PeakboardHub" ^
+  -InstallPath "C:\Program Files\Peakboard\PeakboardHub" -InstallPeakboardHub True ^
   -ConfigureDatabase True -CreateDatabase True ^
   -DatabaseServerName "SQLSRV01\PROD" ^
   -DatabaseName "PeakboardHub" ^
-  -DatabaseUsername "pbhub" -DatabasePassword "S3hr$icher!"
+  -DatabaseUsername "pbhub" -DatabasePassword "V3rySecure!" ^
+  -AdminSqlAuth True -AdminUsername "sa" -AdminPassword "Adm1nSecret!"
 ```
 
-**Update einer bestehenden Installation ohne Datenbank-Backup:**
+**Hub auf eigenen Ports mit HTTPS aus dem Zertifikatspeicher:**
 
 ```bat
 PeakboardHubSetup.exe -Silent True ^
-  -InstallPath "C:\inetpub\PeakboardHub" ^
-  -ConfigureDatabase True -CreateDatabase False ^
-  -DatabaseServerName "localhost\SQLEXPRESS" ^
-  -DatabaseName "PeakboardHub" ^
-  -DatabaseUsername "pbhub" -DatabasePassword "S3hr$icher!" ^
+  -InstallPath "C:\Program Files\Peakboard\PeakboardHub" ^
+  -HubPort 8080 -HubHttps True -HubHttpsPort 8443 -HubCertSubject hub.example.com
+```
+
+**Bestehende Installation ohne Datenbanksicherung aktualisieren:**
+
+```bat
+PeakboardHubSetup.exe -Silent True ^
+  -InstallPath "C:\Program Files\Peakboard\PeakboardHub" ^
   -BackupDatabase False
 ```
 
-**Nur Public API installieren:**
+**Nur die Public API neben einem vorhandenen Hub installieren:**
 
 ```bat
-PeakboardHubSetup.exe -Silent True -ApiInstallPath "C:\inetpub\PeakboardHubApi"
+PeakboardHubSetup.exe -Silent True -ApiInstallPath "C:\Program Files\Peakboard\PeakboardHubApi"
 ```
 
 ## Silent-Deinstallation
 
-Bei der Installation wird für jede Hub-Instanz ein eigener Deinstaller mitgeliefert.
+Jede Hub-Installation bringt ihren eigenen Uninstaller mit.
 
 {% include styled_table.html %}
 {: .w-full }
-| Komponente | Deinstaller |
+| Komponente | Uninstaller |
 |---|---|
-| Hub (inklusive ggf. API) | `<InstallPath>\Uninstall\uninstall.exe` |
+| Hub (optional inklusive API) | `<InstallPath>\Uninstall\uninstall.exe` |
 | Eigenständige API | `<ApiInstallPath>\Uninstall\api_uninstall.exe` |
 
-Der Pfad steht auch im Registry-Wert `UninstallString` des jeweiligen Eintrags unter Apps & Features.
+Den Pfad findest du auch im Registry-Wert `UninstallString` des zugehörigen Eintrags unter Apps & Features.
 
 ### Aktivierung
 
 ```bat
-"C:\inetpub\PeakboardHub\Uninstall\uninstall.exe" --silent
+"C:\Program Files\Peakboard\PeakboardHub\Uninstall\uninstall.exe" --silent
 ```
 
-Ohne `--silent` startet die grafische Deinstallation.
+Ohne `--silent` startet der grafische Uninstaller. `-Silent True` wird ebenfalls akzeptiert.
 
 ### Argumentreferenz
 
 {% include styled_table.html %}
 {: .w-full }
-| Argument | Alias | Standard | Beschreibung |
-|---|---|---|---|
-| `--silent` | `-s` | – | Unbeaufsichtigte Deinstallation (kein UI). |
-| `--remove-database` | `-RemoveDatabase` | aus | Zusätzlich die **Datenbank und den Login löschen** sowie die zugehörigen Hub Flows und hochgeladenen Dateien entfernen. |
+| Argument | Alias | Beschreibung |
+|---|---|---|
+| `--silent` | `-s`, `-Silent` | Unbeaufsichtigte Deinstallation (ohne Oberfläche). |
+| `--remove-database` | `-RemoveDatabase` | Zusätzlich die **Datenbank löschen** und die zugehörigen Hub Flows und hochgeladenen Dateien entfernen. |
+| `--remove-data-folder` | `-RemoveDataFolder` | Zusätzlich den Datenordner unter `C:\ProgramData\Peakboard` löschen. |
+| `--remove-database-user` | `-RemoveDatabaseUser` | Den SQL-Login auch dann entfernen, wenn er schon vor der Installation existierte. |
+| `--keep-database-user` | `-KeepDatabaseUser` | Den SQL-Login behalten, auch wenn das Setup ihn angelegt hat. Hat Vorrang vor `--remove-database-user`. |
 
-### Standardverhalten (ohne `--remove-database`)
+### Standardverhalten
 
-Im Silent-Modus werden die **Standard- und Pflichtkomponenten** entfernt:
+Im Silent-Modus werden die **Standardkomponenten** entfernt:
 
-* Programmdateien des Peakboard Hub (Ordner wird nach Beendigung des Prozesses gelöscht),
-* IIS-Seite und App Pool **dieser** Installation,
-* Registry-Eintrag und Apps-&-Features-Eintrag **dieser** Installation.
+* die Programmdateien des Hub, sein Windows-Dienst und seine Firewall-Regeln,
+* der Registry-Eintrag und der Eintrag unter Apps & Features **dieser** Installation,
+* die Public API, wenn sie zusammen mit dem Hub installiert ist,
+* der SQL-Login, wenn das Setup ihn angelegt hat.
 
-Die Datenbank, die Hub Flows und die hochgeladenen Dateien bleiben **standardmäßig erhalten** (Daten werden bewusst geschützt). Sie werden **nur** mit `--remove-database` gelöscht.
+Die Datenbank, die Hub Flows, die hochgeladenen Dateien und der Datenordner **bleiben standardmäßig erhalten**. **Nie** im Silent-Modus entfernt werden: SQL Server Express und das .NET Hosting Bundle.
 
-**Nicht** automatisch entfernt werden (Opt-in-Komponenten, im Silent-Modus ausgelassen): SQL Server Express, .NET Hosting Bundle und das IIS-Windows-Feature.
+### Schutz bei mehreren Hub-Installationen
 
-### Schutz bei mehreren Hub-Instanzen und gemeinsamen Ressourcen
-
-* **Gemeinsame Datenbank:** Mit `--remove-database` wird die Datenbank **nur** gelöscht, wenn diese Installation nachweislich der **alleinige** Nutzer ist. Verweist eine andere (auch ältere) Hub- oder API-Installation auf dieselbe Datenbank, bleibt sie **erhalten** (Fail-Safe).
-* **Gemeinsame IIS-Seite und Zertifikate:** Werden nur entfernt, wenn es sich um die **letzte** Hub-Installation auf der Maschine handelt.
+* **Gemeinsame Datenbank:** Mit `--remove-database` wird die Datenbank **nur** gelöscht, wenn diese Installation nachweislich ihr **einziger** Nutzer ist. Zeigt noch eine andere Hub- oder API-Installation auf dieselbe Datenbank, bleibt sie **erhalten**.
+* **Datenordner:** Mit `--remove-data-folder` wird der Ordner nur gelöscht, wenn er unter `C:\ProgramData\Peakboard` liegt und kein anderer Peakboard Hub dieselbe Datenbank nutzt.
+* **Zertifikate:** Werden nur entfernt, wenn dies die **letzte** Hub-Installation auf dem Server ist.
 
 ### Rückgabe- und Exit-Codes
 
@@ -231,32 +293,33 @@ Die Datenbank, die Hub Flows und die hochgeladenen Dateien bleiben **standardmä
 {: .w-full }
 | Exit-Code | Bedeutung |
 |---|---|
-| `0` | Deinstallation durchgeführt |
-| `-1` | Konnte nicht ausgeführt werden (zum Beispiel `uninstall.json` fehlt oder ist defekt) |
+| `0` | Deinstallation abgeschlossen |
+| `-1` | Konnte nicht ausgeführt werden (zum Beispiel fehlt `uninstall.json` oder ist beschädigt) |
 
 ### Beispiele
 
 **Hub deinstallieren, Datenbank und Daten behalten:**
 
 ```bat
-"C:\inetpub\PeakboardHub\Uninstall\uninstall.exe" --silent
+"C:\Program Files\Peakboard\PeakboardHub\Uninstall\uninstall.exe" --silent
 ```
 
-**Hub vollständig deinstallieren – inklusive Datenbank, Login, Hub Flows und Dateien:**
+**Hub vollständig deinstallieren — inklusive Datenbank, Datenordner, Hub Flows und Dateien:**
 
 ```bat
-"C:\inetpub\PeakboardHub\Uninstall\uninstall.exe" --silent --remove-database
+"C:\Program Files\Peakboard\PeakboardHub\Uninstall\uninstall.exe" --silent --remove-database --remove-data-folder
 ```
 
 **Eigenständige Public API deinstallieren:**
 
 ```bat
-"C:\inetpub\PeakboardHubApi\Uninstall\api_uninstall.exe" --silent
+"C:\Program Files\Peakboard\PeakboardHubApi\Uninstall\api_uninstall.exe" --silent
 ```
 
 ## Hinweise
 
-* **SQL Server Express auf bereits vorhandenem SQL Server:** Ist bereits ein (gegebenenfalls defekter) SQL Server installiert, kann die Installation einer neuen SQL-Express-Instanz fehlschlagen (SQL-Setup-Fehler `0x84B40002` beziehungsweise `1722`). Im Assistenten warnt das Setup in diesem Fall; im Silent-Modus `-InstallSqlServerExpress` weglassen und stattdessen über `-ConfigureDatabase` und `-CreateDatabase False` eine vorhandene Instanz verwenden, oder den vorhandenen SQL Server zuvor vollständig entfernen.
-* **Logdateien:**
+* **SQL Server Express über einem vorhandenen SQL Server:** Ist bereits ein (möglicherweise defekter) SQL Server installiert, kann die Installation einer neuen SQL-Express-Instanz fehlschlagen (SQL-Setup-Fehler `0x84B40002` oder `1722`). Der Assistent warnt in diesem Fall; im Silent-Modus lässt du `-InstallSqlServerExpress` weg und nutzt entweder eine vorhandene Instanz über `-ConfigureDatabase` + `-CreateDatabase False` oder entfernst den vorhandenen SQL Server vorher vollständig.
+* **HTTPS und Windows Single Sign-on:** Das Setup legt den HTTPS-Endpunkt immer auf HTTP/1.1 fest, weil die Windows-Authentifizierung über HTTP/2 nicht funktioniert.
+* **Protokolldateien:**
   * Setup: `C:\ProgramData\Peakboard\LocalState\Logs\Setup\PeakboardHubSetup_<Zeitstempel>.log`
-  * SQL-Server-Setup (bei Express-Installation): `C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\Summary.txt`
+  * SQL-Server-Setup (bei Installation von Express): `C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\Summary.txt`
