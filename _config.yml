@@ -172,6 +172,9 @@ collections:
       Flows:
         en: "Flows"
         de: "Flows"
+      Peakboard_LINK:
+        en: "Peakboard LINK"
+        de: "Peakboard LINK"
 
   edge:
     output: true

@@ -10,19 +10,20 @@ ref: hub-560
 redirect_from:
   - /peakboard-link
   - /peakboard-link.html
+  - /hub/en-hub_peakboard-link.html
 ---
 
 With Peakboard LINK, the Peakboard Hub runs the Peakboard Runtime itself. You upload a Peakboard application (`.pbmx`) to the Peakboard Hub, start it there as a Peakboard LINK, and every screen that should show it just opens a link in its browser. There is no Peakboard Box and no BYOD device to set up on the screen: a TV with a browser, a tablet or a PC is enough. Data sources, scripts and Building Blocks run in the Peakboard Hub, and the screen only displays the application and passes on the user's input.
 
 <div class="box-warning" markdown="1"> **Note:**
-Peakboard LINK is currently a beta feature. It is available in the Peakboard Hub on premise only (not in Peakboard Hub online), and your Hub license has to include Peakboard LINK licenses. To use Peakboard LINK, you need the access right **Peakboard LINKs** (*Can add and manage hosted Peakboard LINKs*) under [Users] > user group > **Access**. Administrators always have it.
+Peakboard LINK is currently a beta feature. It is available in the Peakboard Hub on premise only (not in Peakboard Hub online), and your Hub license has to include Peakboard LINK licenses. To use Peakboard LINK, you need the access right **ManagePeakboardLinks** (*Can add and manage hosted Peakboard LINKs*) under [Users] > user group > **Access**. Administrators always have it.
 </div>
 
 The main terms at a glance:
 
 - **Peakboard LINK:** a Peakboard application (`.pbmx` file from [Files](/hub/en-hub_files.html)) that is hosted in the Peakboard Hub.
 - **Instance:** a running copy of a Peakboard LINK. Each instance has its own board URL and its own values for upload-defined variables. One Peakboard LINK can have several instances, for example one per production line.
-- **Screen:** a browser that opens the board URL of an instance. Every screen needs a license: either a **device license** for the screen itself, or a Hub user with a **user license** signs in on it.
+- **Screen:** a browser that opens the board URL of an instance. Every screen needs a license: either a **device license** for the screen itself, or a Hub user with a **user license** signs in on it (see [Peakboard LINK licensing](/hub/Peakboard_LINK/en-hub_peakboard-link-licensing.html)).
 
 ### Run a Peakboard application as Peakboard LINK
 
@@ -37,7 +38,7 @@ The Peakboard Hub creates the Peakboard LINK, adds its first instance and opens 
 
 ![Peakboard LINK overview](/assets/images/hub/peakboard-link/peakboard-link-02-overview.png)
 
-Open **Peakboard LINK** in the sidebar (under **Applications**, directly below **Peakboard Boxes**). There is one tile for every Peakboard LINK:
+Open **Peakboard LINK** in the sidebar (directly below **Peakboard Boxes**). There is one tile for every Peakboard LINK:
 
 1. **Available device licenses:** how many of your Peakboard LINK device licenses are still free, out of all device licenses. A click opens the list of screens (see below). The number turns orange when all device licenses are assigned.
 2. **[New Instance]:** adds another instance of the same application. It gets its own board URL and starts right away. Existing instances and the screens that show them are not affected.
@@ -57,7 +58,7 @@ Open the board URL of an instance in the browser of the screen, or scan the QR c
 
 ![This screen is not licensed](/assets/images/hub/peakboard-link/peakboard-link-03-screen-not-licensed.png)
 
-The page shows a **Screen code** (1) that identifies this screen. It stays open and shows the board by itself as soon as the screen has a license. Alternatively (2), a Hub user who holds a **Peakboard LINK user license** can sign in on this page. The screen then needs no license of its own (see [Peakboard LINK user licenses](#peakboard-link-user-licenses)).
+The page shows a **Screen code** (1) that identifies this screen. It stays open and shows the board by itself as soon as the screen has a license. Alternatively (2), a Hub user who holds a **Peakboard LINK user license** can sign in on this page. The screen then needs no license of its own (see [User licenses](/hub/Peakboard_LINK/en-hub_peakboard-link-licensing.html#user-licenses)).
 
 To assign a device license to the screen:
 
@@ -65,7 +66,7 @@ To assign a device license to the screen:
 
 1. On the **Peakboard LINK** page, click the **Available device licenses** tile. The dialog **Peakboard LINK devices** opens.
 2. Under **Active devices**, find the screen with the matching **Code** (1). The list contains all screens that hold a license, and all unlicensed screens that tried to open a board in the last 24 hours. Use the pencil next to a device name to give the screen a meaningful name, for example *Hall 2 - line 1*.
-3. Switch on **License** (2). The number of available device licenses (3) goes down by one.
+3. Select the **License** check box (2). The number of available device licenses (3) goes down by one.
 
 The screen now shows the application:
 
@@ -73,7 +74,7 @@ The screen now shows the application:
 
 The application runs in the Peakboard Hub and is fully interactive in the browser. Buttons, filters and inputs work as they do on a Peakboard Box.
 
-A device license belongs to its screen, and a screen is one browser on one device. It stays with the screen until you switch it off again in the same list. Unlicensed screens that are not used any more disappear from the list after 7 days. If all device licenses are assigned, free a license on another screen first.
+A device license belongs to its screen, and a screen is one browser on one device. It stays with the screen until you clear the check box again in the same list. If all device licenses are assigned, free a license on another screen first. All rules for device and user licenses are described in [Peakboard LINK licensing](/hub/Peakboard_LINK/en-hub_peakboard-link-licensing.html).
 
 ### Protect a board with an access code
 
@@ -85,7 +86,7 @@ By default, anyone who knows the board URL can view the board on a licensed scre
 
 ![Access control dialog](/assets/images/hub/peakboard-link/peakboard-link-07-access-control.png)
 
-2. Switch on **Require an access code** (1). The change applies immediately.
+2. Select **Require an access code** (1). The change applies immediately.
 3. The **Current code** (2) is a 5-digit code. Copy it with the copy icon and share it with the people who may view the board.
 4. [Regenerate code] (3) creates a new code. Screens that already use the old code have to enter the new one.
 
@@ -109,21 +110,6 @@ Every board URL and QR code uses the address under which the screens reach the P
 
 Open [Settings] and go to the **Hub Endpoints** tile. Enter the address the screens use in **External Address** (1), for example a DNS name such as `hub.contoso.com`, an IP address such as `10.0.0.7`, `10.0.0.7:5000` or `https://hub.contoso.com` (2). While the field is empty, the Peakboard Hub determines the address automatically. It uses the host of its own listen endpoint, then the server hostname, then the first external IP address of the server, and finally 127.0.0.1. The port always comes from the endpoint the Peakboard Hub really listens on. Set the address whenever screens reach the Peakboard Hub under a different name, for example a DNS alias or a reverse proxy.
 
-### Peakboard LINK user licenses
+### Licenses
 
-Besides the device licenses for screens, your Hub license can include **Peakboard LINK user licenses**. A user who holds one can sign in on the license page of any screen and open the Peakboard LINKs of their user group. The screen itself then needs no license.
-
-![Peakboard LINK user licenses](/assets/images/hub/peakboard-link/peakboard-link-09-users.png)
-
-Open [Users] in the sidebar:
-
-1. **Licensing:** the tab with the Peakboard LINK user licenses, next to **User Groups**.
-2. **Available user licenses:** free user licenses, out of all user licenses in your Hub license.
-3. **LINK license:** switch it on to give the user a Peakboard LINK user license. Switch it off to take the license away again. Screens the user is signed in on then fall back to the license page.
-4. **Group:** the user group of the user. A click opens the user group.
-
-The list shows all users. Use the search field to find a user, and click a column header to sort the list. **Last seen** shows the last Peakboard LINK connection of a user who holds a user license.
-
-Which Peakboard LINKs the users of a user group may open, and which Peakboard LINKs the user group may manage, is set in [Users] > user group > tab **Peakboard LINK**.
-
-A user license is good for one screen at a time. If the user signs in on a second screen, the first screen is signed out and returns to the license page. There it shows that the user signed in on another screen.
+Every screen that shows a Peakboard LINK needs a license. Your Hub license includes a number of **device licenses** for screens and a number of **user licenses** for Hub users. How to assign them, which one fits which screen and what happens when all licenses are used is described in [Peakboard LINK licensing](/hub/Peakboard_LINK/en-hub_peakboard-link-licensing.html).
