@@ -28,15 +28,12 @@ Der Peakboard Hub legt diese Tabellen selbst an und pflegt sie: Er fügt Spalten
 
 ## Indizes auf variablelist und flowlist anlegen
 
-<div class="box-tip" markdown="1"> **Erlaubt**: Du darfst auf den Tabellen der Schemas `variablelist` und `flowlist` eigene Indizes anlegen, ändern und löschen. Der Peakboard Hub benötigt außer den Primärschlüsseln der Tabellen keinen bestimmten Index, und er entfernt oder verändert keine Indizes, die du angelegt hast.
+<div class="box-tip" markdown="1"> **Erlaubt**: Du darfst auf den Tabellen der Schemas `variablelist` und `flowlist` eigene Indizes anlegen, ändern und löschen. Der Peakboard Hub benötigt außer den Primärschlüsseln der Tabellen keinen bestimmten Index und verändert keine Indizes, die du angelegt hast. Er entfernt sie aber, wenn ein Nutzer die zugehörige Spalte oder Liste löscht (siehe [Wenn ein Nutzer eine indizierte Spalte löscht](#wenn-ein-nutzer-eine-indizierte-spalte-löscht)).
 </div>
 
 ### Diese Tabellen können sehr schreiblastig sein
 
 Listentabellen sind keine Reporting-Tabellen, die überwiegend gelesen werden. Peakboard Boxen, der Peakboard Designer, Hub Flows und die Public API können laufend in sie schreiben. Ein häufiges Muster ist das **vollständige Überschreiben** einer Liste (die Tabelle wird in einer Transaktion geleert und neu befüllt). Je nach Nutzung können einzelne Listen sehr hohe Schreibvolumen haben.
-
-<div class="box-warning" markdown="1"> **Indizes verlangsamen Schreibvorgänge und können das Einfügen von Daten blockieren.** Lege Indizes daher bewusst an: nur dort, wo ein gemessener Bedarf besteht, so schmal wie möglich, und prüfe ihre Wirkung unter realistischer Schreiblast statt auf einem System im Leerlauf.
-</div>
 
 ### Indizes begrenzen, wie weit eine Textspalte wachsen kann
 

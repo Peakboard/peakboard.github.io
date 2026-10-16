@@ -28,15 +28,12 @@ The Peakboard Hub creates and maintains these tables itself — it adds and remo
 
 ## Creating indexes on variablelist and flowlist
 
-<div class="box-tip" markdown="1"> **Permitted**: You may create, alter and drop your own indexes on the tables in the `variablelist` and `flowlist` schemas. The Peakboard Hub does not require any specific index beyond the tables' primary keys, and it will not remove or modify indexes you have created.
+<div class="box-tip" markdown="1"> **Permitted**: You may create, alter and drop your own indexes on the tables in the `variablelist` and `flowlist` schemas. The Peakboard Hub does not require any specific index beyond the tables' primary keys, and it does not modify indexes you have created. It does, however, remove them when a user deletes the column or list they belong to (see [If a user deletes an indexed column](#if-a-user-deletes-an-indexed-column)).
 </div>
 
 ### These tables may be write-heavy
 
 List tables are not read-mostly reporting tables. Peakboard Boxes, the Peakboard Designer, Hub Flows and the Public API may write to them continuously, and a common pattern is a **full overwrite** of a list (the table is emptied and re-inserted in one transaction). Individual lists can receive very high write volumes, depending on how they are used.
-
-<div class="box-warning" markdown="1"> **Indexes slow down writes and can block data from being inserted.** Please add indexes deliberately: only where a measured need exists, keep them as narrow as possible, and validate the effect under realistic write load rather than on an idle system.
-</div>
 
 ### Indexes limit how far a text column can grow
 
