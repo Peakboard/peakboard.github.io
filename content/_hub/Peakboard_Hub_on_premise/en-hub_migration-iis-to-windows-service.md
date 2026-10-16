@@ -37,6 +37,14 @@ IIS itself is no longer needed. The setup does not uninstall the IIS Windows fea
 * **Check your HTTPS certificate.** The Windows service can only use certificates from the **Personal** store of the local computer. A binding whose certificate is stored in the IIS **Central Certificate Store**, or whose certificate is no longer in the store, cannot be taken over — the Peakboard Hub is then reachable via HTTP only until you add a certificate with the Peakboard Hub Configurator.
 * **Check for shared ports.** If the Peakboard Hub site shares a port with another IIS site (for example port 80 or 443 next to the **Default Web Site**), that port stays with IIS. The Windows service cannot use it.
 * **Back up your database.** The setup offers a database backup before the update (enabled by default). An own backup does no harm either.
+* **Back up your files.** The setup only backs up the database — the files of the Peakboard Hub are not part of it. Copy the folder of your installation, by default `C:\inetpub\PeakboardHub`, to a safe place, together with any data folder you redirected elsewhere. It contains, among others:
+  * the files uploaded to [Files](/hub/en-hub_files.html) (folder `HubFileStorage`)
+  * the **Hub Flows** (folder `PeakboardHubFlows`)
+  * the box update packages (folder `Update`) and the hosted Web Runtimes (folder `PeakboardHubWebRuntimes`)
+  * the `appsettings.json` with the database connection and all other settings
+
+  Without this copy, you cannot go back to the previous version completely if the migration fails, see [Going back to the previous version](#going-back-to-the-previous-version).
+* **Check whether Windows single sign-on is used.** In the IIS Manager, select the site of the Peakboard Hub and open **Authentication**. If **Windows Authentication** is enabled, your users are signed in to the Peakboard Hub with their Windows account. This IIS setting is **not** carried over — you turn single sign-on on again after the migration, see [Windows single sign-on](#windows-single-sign-on).
 * Run the setup **with administrator rights**.
 
 ### Migration with the setup wizard
@@ -128,6 +136,8 @@ When the migration has finished, the **Installation finished** page lists what w
 * All data folders. The setup also updates the corresponding settings in the database.
 * One entry in Windows **Apps & Features**.
 
+Not carried over is **Windows single sign-on**. In IIS it was a setting of the IIS site, which the migration deletes. After the migration it is turned off, see [Windows single sign-on](#windows-single-sign-on).
+
 ### After the migration
 
 The setup cannot reach anything outside the installation. After a move, update everything that refers to the old folder `C:\inetpub\PeakboardHub`:
@@ -138,6 +148,17 @@ The setup cannot reach anything outside the installation. After a move, update e
 * Own scripts, scheduled tasks and monitoring checks
 
 To change the ports or the HTTPS certificate later, use the **Peakboard Hub Configurator** from the Windows Start menu, see [Installation](/hub/Peakboard_Hub_on_premise/en-hub_installation.html#changing-the-configuration-later).
+
+#### Windows single sign-on
+
+If your users were signed in automatically with their Windows account before the migration (**Windows Authentication** of the IIS site), turn single sign-on on again in the Peakboard Hub Configurator:
+
+1. Open the **Peakboard Hub Configurator** from the Windows Start menu.
+2. Go to **Authentication**.
+3. Under **Windows single sign-on**, enable **Enable Windows SSO (Negotiate)**.
+4. Click [Apply changes]. The Peakboard Hub Configurator restarts the Peakboard Hub.
+
+Single sign-on does not work over HTTP/2 or behind a reverse proxy. For the HTTPS endpoint you don't have to do anything — the setup sets it to HTTP/1.1. The sign-in source (**Local Users** or **AD Users**) is carried over from `appsettings.json` and stays as it was.
 
 <div class="box-tip" markdown="1"> **Note**: A browser that opened the Peakboard Hub on a port the Windows service no longer uses can still show the sign-in page from its cache, while nothing answers on that port any more (for example a "Gateway Timeout" message after signing in). Clear the site data of that address in the browser.
 </div>
@@ -173,6 +194,7 @@ Do **not** run an older setup to undo a migration. It does not see the migrated 
 1. Uninstall the migrated Peakboard Hub with its [uninstaller](/hub/Peakboard_Hub_on_premise/en-hub_uninstallation.html) (keep the data).
 2. Install the previous version.
 3. Restore the database backup from before the update.
+4. Restore the file backup from before the update (uploaded files, Hub Flows, `appsettings.json` and the other data folders) into the folder of the previous installation.
 
 ### Troubleshooting
 
@@ -181,6 +203,7 @@ Do **not** run an older setup to undo a migration. It does not see the migrated 
 | Problem | Cause and solution |
 |---|---|
 | The Peakboard Hub is only reachable via HTTP after the migration | The certificate of the HTTPS binding was in the IIS Central Certificate Store or no longer in the certificate store. The setup log names the binding. Add the certificate to the **Personal** store of the local computer and select it in the Peakboard Hub Configurator. |
+| Users are no longer signed in automatically with their Windows account | Windows single sign-on was a setting of the IIS site and is not carried over. Enable it in the Peakboard Hub Configurator, see [Windows single sign-on](#windows-single-sign-on). |
 | A port of the IIS site was not taken over | Another IIS site uses the same port. The setup log names that site. Use a different port for the Peakboard Hub. |
 | The setup says the program files are incomplete and the service is disabled | The update failed while copying files. Run the same setup again to complete it. |
 

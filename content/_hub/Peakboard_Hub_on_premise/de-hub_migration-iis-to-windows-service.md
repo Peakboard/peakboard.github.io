@@ -37,6 +37,14 @@ IIS selbst wird nicht mehr benötigt. Das Setup deinstalliert das Windows-Featur
 * **Prüfe dein HTTPS-Zertifikat.** Der Windows-Dienst kann nur Zertifikate aus dem Zertifikatspeicher **Eigene Zertifikate** des lokalen Computers nutzen. Eine Bindung, deren Zertifikat im **zentralen Zertifikatspeicher** des IIS liegt oder nicht mehr im Zertifikatspeicher vorhanden ist, kann nicht übernommen werden — der Peakboard Hub ist dann nur über HTTP erreichbar, bis du mit dem Peakboard Hub Configurator ein Zertifikat hinzufügst.
 * **Prüfe auf gemeinsam genutzte Ports.** Teilt sich die Seite des Peakboard Hub einen Port mit einer anderen IIS-Seite (zum Beispiel Port 80 oder 443 neben der **Default Web Site**), bleibt dieser Port beim IIS. Der Windows-Dienst kann ihn nicht nutzen.
 * **Sichere deine Datenbank.** Das Setup bietet vor dem Update eine Sicherung der Datenbank an (standardmäßig aktiviert). Eine eigene Sicherung schadet trotzdem nicht.
+* **Sichere deine Dateien.** Das Setup sichert nur die Datenbank — die Dateien des Peakboard Hub gehören nicht dazu. Kopiere den Ordner deiner Installation, standardmäßig `C:\inetpub\PeakboardHub`, an einen sicheren Ort, zusammen mit allen Datenordnern, die du an einen anderen Ort umgeleitet hast. Er enthält unter anderem:
+  * die nach [Files](/hub/de-hub_files.html) hochgeladenen Dateien (Ordner `HubFileStorage`)
+  * die **Hub Flows** (Ordner `PeakboardHubFlows`)
+  * die Update-Pakete für Boxen (Ordner `Update`) und die gehosteten Web Runtimes (Ordner `PeakboardHubWebRuntimes`)
+  * die `appsettings.json` mit der Datenbankverbindung und allen weiteren Einstellungen
+
+  Ohne diese Kopie kannst du nicht vollständig zur vorherigen Version zurückkehren, falls die Migration fehlschlägt, siehe [Zur vorherigen Version zurückkehren](#zur-vorherigen-version-zurückkehren).
+* **Prüfe, ob Windows Single Sign-on genutzt wird.** Wähle im IIS-Manager die Seite des Peakboard Hub aus und öffne **Authentifizierung**. Ist **Windows-Authentifizierung** aktiviert, werden deine Benutzer mit ihrem Windows-Konto am Peakboard Hub angemeldet. Diese IIS-Einstellung wird **nicht** übernommen — du schaltest Single Sign-on nach der Migration wieder ein, siehe [Windows Single Sign-on](#windows-single-sign-on).
 * Starte das Setup **mit Administratorrechten**.
 
 ### Migration mit dem Setup-Assistenten
@@ -128,6 +136,8 @@ Nach Abschluss der Migration zeigt die Seite **Installation finished**, was inst
 * Alle Datenordner. Das Setup passt auch die zugehörigen Einstellungen in der Datenbank an.
 * Einen Eintrag unter Windows **Apps & Features**.
 
+Nicht übernommen wird **Windows Single Sign-on**. Im IIS war es eine Einstellung der IIS-Seite, die bei der Migration gelöscht wird. Nach der Migration ist es ausgeschaltet, siehe [Windows Single Sign-on](#windows-single-sign-on).
+
 ### Nach der Migration
 
 Was außerhalb der Installation liegt, kann das Setup nicht erreichen. Passe nach einem Verschieben alles an, was auf den alten Ordner `C:\inetpub\PeakboardHub` verweist:
@@ -138,6 +148,17 @@ Was außerhalb der Installation liegt, kann das Setup nicht erreichen. Passe nac
 * Eigene Skripte, geplante Aufgaben und Überwachungen
 
 Um die Ports oder das HTTPS-Zertifikat später zu ändern, nutzt du den **Peakboard Hub Configurator** aus dem Windows-Startmenü, siehe [Installation](/hub/Peakboard_Hub_on_premise/de-hub_installation.html#konfiguration-später-ändern).
+
+#### Windows Single Sign-on
+
+Wurden deine Benutzer vor der Migration automatisch mit ihrem Windows-Konto angemeldet (**Windows-Authentifizierung** der IIS-Seite), schalte Single Sign-on im Peakboard Hub Configurator wieder ein:
+
+1. Öffne den **Peakboard Hub Configurator** aus dem Windows-Startmenü.
+2. Wechsle zu **Authentication**.
+3. Aktiviere unter **Windows single sign-on** die Option **Enable Windows SSO (Negotiate)**.
+4. Klicke auf [Apply changes]. Der Peakboard Hub Configurator startet den Peakboard Hub neu.
+
+Single Sign-on funktioniert nicht über HTTP/2 und nicht hinter einem Reverse Proxy. Für den HTTPS-Endpunkt musst du nichts tun — das Setup legt ihn auf HTTP/1.1 fest. Die Anmeldequelle (**Local Users** oder **AD Users**) wird aus der `appsettings.json` übernommen und bleibt, wie sie war.
 
 <div class="box-tip" markdown="1"> **Hinweis**: Ein Browser, der den Peakboard Hub auf einem Port geöffnet hat, den der Windows-Dienst nicht mehr nutzt, kann die Anmeldeseite weiterhin aus seinem Cache anzeigen, obwohl auf diesem Port nichts mehr antwortet (zum Beispiel mit der Meldung „Gateway Timeout“ nach der Anmeldung). Lösche im Browser die Websitedaten dieser Adresse.
 </div>
@@ -173,6 +194,7 @@ Führe **kein** älteres Setup aus, um eine Migration rückgängig zu machen. Es
 1. Deinstalliere den migrierten Peakboard Hub mit seinem [Uninstaller](/hub/Peakboard_Hub_on_premise/de-hub_uninstallation.html) (Daten behalten).
 2. Installiere die vorherige Version.
 3. Stelle die Datenbanksicherung von vor dem Update wieder her.
+4. Stelle die Dateisicherung von vor dem Update (hochgeladene Dateien, Hub Flows, `appsettings.json` und die übrigen Datenordner) im Ordner der vorherigen Installation wieder her.
 
 ### Fehlerbehebung
 
@@ -181,6 +203,7 @@ Führe **kein** älteres Setup aus, um eine Migration rückgängig zu machen. Es
 | Problem | Ursache und Lösung |
 |---|---|
 | Der Peakboard Hub ist nach der Migration nur über HTTP erreichbar | Das Zertifikat der HTTPS-Bindung lag im zentralen Zertifikatspeicher des IIS oder war nicht mehr im Zertifikatspeicher vorhanden. Das Setup-Protokoll nennt die Bindung. Lege das Zertifikat im Speicher **Eigene Zertifikate** des lokalen Computers ab und wähle es im Peakboard Hub Configurator aus. |
+| Benutzer werden nicht mehr automatisch mit ihrem Windows-Konto angemeldet | Windows Single Sign-on war eine Einstellung der IIS-Seite und wird nicht übernommen. Aktiviere es im Peakboard Hub Configurator, siehe [Windows Single Sign-on](#windows-single-sign-on). |
 | Ein Port der IIS-Seite wurde nicht übernommen | Eine andere IIS-Seite nutzt denselben Port. Das Setup-Protokoll nennt diese Seite. Nutze für den Peakboard Hub einen anderen Port. |
 | Das Setup meldet unvollständige Programmdateien und einen deaktivierten Dienst | Das Update ist beim Kopieren der Dateien fehlgeschlagen. Starte dasselbe Setup noch einmal, um es abzuschließen. |
 
