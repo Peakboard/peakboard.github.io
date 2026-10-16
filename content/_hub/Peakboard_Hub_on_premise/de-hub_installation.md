@@ -44,7 +44,7 @@ Der Server, auf dem der Peakboard Hub on premise betrieben wird, muss mindestens
 | HTTPS-Port (optional) | `20589` |
 | Firewall | Das Setup öffnet die konfigurierten Ports als eingehende Regeln mit dem Namen `Peakboard Hub (TCP <Port>)` |
 
-Die Ports und das optionale HTTPS-Zertifikat stehen in der Datei `appsettings.json` im Programmordner.
+Die Ports und das optionale HTTPS-Zertifikat änderst du nach der Installation mit dem **Peakboard Hub Configurator** (siehe Abschnitt **Konfiguration später ändern** weiter unten).
 
 ### Installation
 
@@ -124,7 +124,7 @@ Auf der Seite **User Authentication** legst du fest, wie sich die Nutzer am Peak
 Auf der Seite **Create Database** verbindest du den Peakboard Hub mit seiner SQL-Datenbank.
 
 * **Create a new database** (1) — Das Setup legt eine neue Datenbank an. Wähle diese Option bei einer Erstinstallation.
-* **Use an existing database** (2) — Nutzt eine bereits vorhandene Datenbank.
+* **Use an existing database** (2) — Nutzt eine bereits vorhandene Datenbank, die du vorher selbst angelegt hast, zum Beispiel durch deinen Datenbankadministrator. Auch hier richtet das Setup die Datenbank neu ein und legt darin alle Tabellen des Peakboard Hub an. Die Datenbank muss deshalb **leer** sein. Enthält sie bereits andere Objekte oder Daten, fragt das Setup nach, ob es die Datenbank leeren darf — dabei wird ihr gesamter Inhalt unwiderruflich gelöscht. Ohne deine Bestätigung geht es nicht weiter. Eine vorhandene Datenbank eines Peakboard Hub wird nicht geleert, sondern weiterverwendet.
 * **SQL Server instance** (3) — Adresse und Instanzname deines SQL Servers. Beim mitgelieferten SQL Server Express ist das standardmäßig `localhost\SQLEXPRESS`.
 * **Database name** (4) — Standard ist `PeakboardHub`.
 * **Current Windows user (local server)** (5) — Das Setup meldet sich mit deinem Windows-Konto am SQL Server an. Wähle diese Option, wenn der SQL Server auf demselben Server läuft.
@@ -187,10 +187,12 @@ Geht während der Installation etwas schief, bricht das Setup den betroffenen Sc
 
 Für ein Update lädst du die aktuelle [Installationsdatei des Peakboard Hub on premise](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) herunter und startest das Setup auf demselben Server wie deine bestehende Installation. Auf der Seite **Installation Folders** wählst du den Ordner deiner bestehenden Installation. Die nächste Seite heißt dann **Update Peakboard Hub** und bietet:
 
-* **Update Hub program files** — Ersetzt die Programmdateien durch die neue Version. Deine `appsettings.json` (Ports, HTTPS, Datenbankverbindung, Authentifizierung, eigene Änderungen) bleibt erhalten.
-* **Create backup** — Sichert die Datenbank des Peakboard Hub, bevor die neuen Programmdateien kopiert werden. Auf der nächsten Seite wählst du den Ordner für die Sicherung; bleibt das Feld leer, wird der Standard-Sicherungsordner der SQL-Server-Instanz genutzt. Die Sicherungsdatei schreibt der SQL Server, deshalb muss der Ordner auf dem Datenbankserver liegen.
-* **Set up database** — Aktiviere diese Option nur, wenn du die Datenbankverbindung ändern möchtest.
-* **Configure Hub Windows service (ports & firewall)** — Wähle die Option ab, um die aktuelle Dienstkonfiguration zu behalten. Beim Update einer Installation, die noch im IIS läuft, ist die Option immer aktiviert — siehe [Migration von IIS zu einem Windows-Dienst](/hub/Peakboard_Hub_on_premise/de-hub_migration-iis-to-windows-service.html).
+![Update eines bestehenden Peakboard Hub](/assets/images/hub/installer/hub-installer-11-update.png)
+
+* **Update Hub program files** (1) — Ersetzt die Programmdateien durch die neue Version. Deine `appsettings.json` (Ports, HTTPS, Datenbankverbindung, Authentifizierung, eigene Änderungen) bleibt erhalten.
+* **Create backup** (2) — Sichert die Datenbank des Peakboard Hub, bevor die neuen Programmdateien kopiert werden. Auf der nächsten Seite wählst du den Ordner für die Sicherung; bleibt das Feld leer, wird der Standard-Sicherungsordner der SQL-Server-Instanz genutzt. Die Sicherungsdatei schreibt der SQL Server, deshalb muss der Ordner auf dem Datenbankserver liegen.
+* **Set up database** (3) — Aktiviere diese Option nur, wenn du die Datenbankverbindung ändern möchtest.
+* **Configure Hub Windows service (ports & firewall)** (4) — Wähle die Option ab, um die aktuelle Dienstkonfiguration zu behalten. Beim Update einer Installation, die noch im IIS läuft, ist die Option immer aktiviert — siehe [Migration von IIS zu einem Windows-Dienst](/hub/Peakboard_Hub_on_premise/de-hub_migration-iis-to-windows-service.html).
 
 Während die Programmdateien ersetzt werden, wird der Windows-Dienst des Peakboard Hub gestoppt und auf **Deaktiviert** gesetzt, damit ihn mitten im Update niemand starten kann. Danach wird sein ursprünglicher Starttyp wiederhergestellt und der Dienst wieder gestartet. Schlägt das Update beim Kopieren der Dateien fehl, bleibt der Dienst deaktiviert und das Setup fordert dich auf, es erneut auszuführen — starte dasselbe Setup noch einmal, um das Update abzuschließen.
 

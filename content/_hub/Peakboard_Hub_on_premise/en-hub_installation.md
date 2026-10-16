@@ -44,7 +44,7 @@ The server running Peakboard Hub on premise must meet at least the following req
 | HTTPS port (optional) | `20589` |
 | Firewall | The setup opens the configured ports as inbound rules named `Peakboard Hub (TCP <port>)` |
 
-The ports and the optional HTTPS certificate are stored in the `appsettings.json` file in the program folder.
+After the installation, you change the ports and the optional HTTPS certificate with the **Peakboard Hub Configurator** (see the section **Changing the configuration later** below).
 
 ### Installation
 
@@ -124,7 +124,7 @@ On the **User Authentication** page you decide how users sign in to the Peakboar
 On the **Create Database** page you connect the Peakboard Hub to its SQL database.
 
 * **Create a new database** (1) — The setup creates a fresh database. Choose this option for an initial installation.
-* **Use an existing database** (2) — Reuses a database that already exists.
+* **Use an existing database** (2) — Uses a database that you created beforehand, for example through your database administrator. In this case, too, the setup sets the database up from scratch and creates all Peakboard Hub tables in it. The database must therefore be **empty**. If it already contains other objects or data, the setup asks whether it may clear the database — this permanently deletes its entire content. Without your confirmation, the setup does not continue. An existing Peakboard Hub database is not cleared but reused.
 * **SQL Server instance** (3) — Address and instance name of your SQL Server. With the included SQL Server Express the default is `localhost\SQLEXPRESS`.
 * **Database name** (4) — The default is `PeakboardHub`.
 * **Current Windows user (local server)** (5) — The setup signs in to the SQL Server with your Windows account. Use this option when the SQL Server runs on the same server.
@@ -187,10 +187,12 @@ If something goes wrong during the install, the setup stops the affected step an
 
 To perform an update, download the latest [Peakboard Hub on premise installation file](https://downloads.peakboard.com/download/PeakboardHub/master/PeakboardHubSetup.exe) and run the setup on the same server as your existing installation. On the **Installation Folders** page select the folder of your existing installation. The next page is then called **Update Peakboard Hub** and offers:
 
-* **Update Hub program files** — Replaces the program files with the new version. Your `appsettings.json` (ports, HTTPS, database connection, authentication, own changes) is kept.
-* **Create backup** — Backs up the Peakboard Hub database before the new program files are copied. On the next page you choose the backup folder; leave it empty to use the default backup folder of the SQL Server instance. The backup file is written by the SQL Server, so the folder must be on the database server.
-* **Set up database** — Only enable this option if you want to change the database connection.
-* **Configure Hub Windows service (ports & firewall)** — Uncheck it to keep the current service configuration. When you update an installation that still runs in IIS, this option is always enabled — see [Migration from IIS to a Windows service](/hub/Peakboard_Hub_on_premise/en-hub_migration-iis-to-windows-service.html).
+![Updating an existing Peakboard Hub](/assets/images/hub/installer/hub-installer-11-update.png)
+
+* **Update Hub program files** (1) — Replaces the program files with the new version. Your `appsettings.json` (ports, HTTPS, database connection, authentication, own changes) is kept.
+* **Create backup** (2) — Backs up the Peakboard Hub database before the new program files are copied. On the next page you choose the backup folder; leave it empty to use the default backup folder of the SQL Server instance. The backup file is written by the SQL Server, so the folder must be on the database server.
+* **Set up database** (3) — Only enable this option if you want to change the database connection.
+* **Configure Hub Windows service (ports & firewall)** (4) — Uncheck it to keep the current service configuration. When you update an installation that still runs in IIS, this option is always enabled — see [Migration from IIS to a Windows service](/hub/Peakboard_Hub_on_premise/en-hub_migration-iis-to-windows-service.html).
 
 While the program files are replaced, the Windows service of the Peakboard Hub is stopped and set to **Disabled** so that nothing can start it in the middle of the update. Afterwards its original startup type is restored and the service is started again. If the update fails while the files are copied, the service stays disabled and the setup tells you to run it again — run the same setup again to complete the update.
 
