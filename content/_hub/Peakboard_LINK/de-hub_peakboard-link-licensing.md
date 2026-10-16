@@ -14,6 +14,10 @@ Jeder Bildschirm, der einen [Peakboard LINK](/hub/Peakboard_LINK/de-hub_peakboar
 - **Gerätelizenz:** gehört zu einem Bildschirm. Jeder, der auf diesem Bildschirm ein Board öffnet, sieht es, ganz ohne Anmeldung. Sie eignet sich für Bildschirme, die immer am selben Ort hängen, etwa einen Fernseher in der Fertigung.
 - **Nutzerlizenz:** gehört zu einem Hub-Nutzer. Der Nutzer meldet sich auf der Lizenzseite eines beliebigen Bildschirms an und öffnet dort die Peakboard LINKs seiner Nutzergruppe. Sie eignet sich für Personen, die zwischen Bildschirmen wechseln, zum Beispiel mit einem Tablet.
 
+<div class="box-warning" markdown="1"> **Wichtig:**
+Eine Gerätelizenz ist an einen Browser gebunden, nicht an den PC. Der Peakboard Hub speichert die Kennung des Bildschirms im Browser, und jeder Windows-Nutzer eines PCs hat sein eigenes Browserprofil. Melden sich mehrere Windows-Nutzer am selben PC an und öffnen dort einen Peakboard LINK, ist jeder von ihnen ein eigener Bildschirm und braucht eine eigene Gerätelizenz. Dasselbe gilt für einen zweiten Browser oder ein privates Fenster. Siehe [Gerätelizenzen](#gerätelizenzen).
+</div>
+
 <div class="box-warning" markdown="1"> **Beachte:**
 Peakboard LINK ist derzeit eine Beta-Funktion und steht nur im Peakboard Hub on premise zur Verfügung. Die Zahl der Gerätelizenzen und Nutzerlizenzen ist Teil deiner Hub-Lizenz. Brauchst du mehr, wende dich an [sales@peakboard.com](mailto:sales@peakboard.com).
 </div>

@@ -14,6 +14,10 @@ Every screen that shows a [Peakboard LINK](/hub/Peakboard_LINK/en-hub_peakboard-
 - **Device license:** belongs to one screen. Anybody who opens a board on this screen sees it, no sign-in needed. Use it for screens that always hang in the same place, such as a TV on the shop floor.
 - **User license:** belongs to one Hub user. The user signs in on the license page of any screen and opens the Peakboard LINKs of their user group there. Use it for people who move between screens, for example with a tablet.
 
+<div class="box-warning" markdown="1"> **Important:**
+A device license is bound to one browser, not to the PC. The Peakboard Hub stores the identifier of the screen in the browser, and every Windows user on a PC has their own browser profile. If several Windows users sign in on the same PC and open a Peakboard LINK there, each of them is a screen of their own and needs their own device license. The same goes for a second browser or a private window. See [Device licenses](#device-licenses).
+</div>
+
 <div class="box-warning" markdown="1"> **Note:**
 Peakboard LINK is currently a beta feature and available in the Peakboard Hub on premise only. The number of device licenses and user licenses is part of your Hub license. If you need more, contact [sales@peakboard.com](mailto:sales@peakboard.com).
 </div>
