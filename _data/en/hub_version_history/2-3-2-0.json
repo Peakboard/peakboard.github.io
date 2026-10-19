@@ -20,16 +20,6 @@
         ]
       },
       {
-        "name": "Box groups",
-        "content": [
-          {
-            "type": "image",
-            "image": "hub_2-3-0-0-BoxGroupTabs.png",
-            "description": "Box groups now have their own tabs for the overview, settings, updates, application, and scheduling, so a whole group can be managed in one place."
-          }
-        ]
-      },
-      {
         "name": "General overview",
         "content": [
           {

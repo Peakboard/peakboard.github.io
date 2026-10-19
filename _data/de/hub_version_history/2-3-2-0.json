@@ -20,16 +20,6 @@
         ]
       },
       {
-        "name": "Box-Gruppen",
-        "content": [
-          {
-            "type": "image",
-            "image": "hub_2-3-0-0-BoxGroupTabs.png",
-            "description": "Box-Gruppen haben nun eigene Tabs für Übersicht, Einstellungen, Updates, Anwendung und Zeitplanung, sodass eine ganze Gruppe an einer Stelle verwaltet werden kann."
-          }
-        ]
-      },
-      {
         "name": "General overview",
         "content": [
           {
