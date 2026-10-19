@@ -149,6 +149,9 @@ Was außerhalb der Installation liegt, kann das Setup nicht erreichen. Passe nac
 
 Um die Ports oder das HTTPS-Zertifikat später zu ändern, nutzt du den **Peakboard Hub Configurator** aus dem Windows-Startmenü, siehe [Installation](/hub/Peakboard_Hub_on_premise/de-hub_installation.html#konfiguration-später-ändern).
 
+<div class="box-tip" markdown="1"> **Hinweis**: Funktioniert der Peakboard Hub nach einem Update im Browser nicht richtig — bleiben zum Beispiel Seiten leer, reagieren Buttons nicht oder wird noch die alte Version angezeigt —, verwendet der Browser vermutlich noch Dateien der vorherigen Version aus seinem Cache. Lade die Seite ohne Cache neu: Drücke [Strg + F5] (macOS: [Cmd + Shift + R]). Hilft das nicht, lösche im Browser die gespeicherten Daten der Adresse des Peakboard Hub: Öffne über das Symbol links neben der Adressleiste die Website-Einstellungen, lösche die Websitedaten (Cookies und gespeicherte Daten) und lade die Seite neu. Dabei wirst du abgemeldet und musst dich anschließend neu anmelden.
+</div>
+
 #### Windows Single Sign-on
 
 Wurden deine Benutzer vor der Migration automatisch mit ihrem Windows-Konto angemeldet (**Windows-Authentifizierung** der IIS-Seite), schalte Single Sign-on im Peakboard Hub Configurator wieder ein:

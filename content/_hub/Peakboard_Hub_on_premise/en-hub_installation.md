@@ -196,6 +196,9 @@ To perform an update, download the latest [Peakboard Hub on premise installation
 
 While the program files are replaced, the Windows service of the Peakboard Hub is stopped and set to **Disabled** so that nothing can start it in the middle of the update. Afterwards its original startup type is restored and the service is started again. If the update fails while the files are copied, the service stays disabled and the setup tells you to run it again — run the same setup again to complete the update.
 
+<div class="box-tip" markdown="1"> **Note**: If the Peakboard Hub does not work correctly in the browser after an update — for example pages stay empty, buttons do nothing or the old version is still shown — the browser is probably still using files of the previous version from its cache. Reload the page without the cache: press [Ctrl + F5] (macOS: [Cmd + Shift + R]). If that does not help, delete the stored data of the Peakboard Hub address in the browser: open the site settings with the icon to the left of the address bar and delete the site data (cookies and stored data), then reload the page. Deleting the site data signs you out, so you have to sign in again afterwards.
+</div>
+
 ### Uninstall
 
 To remove the Peakboard Hub on premise from a server you use the bundled uninstaller. A step-by-step walkthrough is in the [Uninstall](/hub/Peakboard_Hub_on_premise/en-hub_uninstallation.html) article.

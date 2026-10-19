@@ -196,6 +196,9 @@ Für ein Update lädst du die aktuelle [Installationsdatei des Peakboard Hub on 
 
 Während die Programmdateien ersetzt werden, wird der Windows-Dienst des Peakboard Hub gestoppt und auf **Deaktiviert** gesetzt, damit ihn mitten im Update niemand starten kann. Danach wird sein ursprünglicher Starttyp wiederhergestellt und der Dienst wieder gestartet. Schlägt das Update beim Kopieren der Dateien fehl, bleibt der Dienst deaktiviert und das Setup fordert dich auf, es erneut auszuführen — starte dasselbe Setup noch einmal, um das Update abzuschließen.
 
+<div class="box-tip" markdown="1"> **Hinweis**: Funktioniert der Peakboard Hub nach einem Update im Browser nicht richtig — bleiben zum Beispiel Seiten leer, reagieren Buttons nicht oder wird noch die alte Version angezeigt —, verwendet der Browser vermutlich noch Dateien der vorherigen Version aus seinem Cache. Lade die Seite ohne Cache neu: Drücke [Strg + F5] (macOS: [Cmd + Shift + R]). Hilft das nicht, lösche im Browser die gespeicherten Daten der Adresse des Peakboard Hub: Öffne über das Symbol links neben der Adressleiste die Website-Einstellungen, lösche die Websitedaten (Cookies und gespeicherte Daten) und lade die Seite neu. Dabei wirst du abgemeldet und musst dich anschließend neu anmelden.
+</div>
+
 ### Deinstallation
 
 Zum Entfernen des Peakboard Hub on premise von einem Server nutzt du den mitgelieferten Uninstaller. Eine Schritt-für-Schritt-Anleitung findest du im Artikel [Deinstallation](/hub/Peakboard_Hub_on_premise/de-hub_uninstallation.html).
