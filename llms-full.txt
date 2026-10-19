@@ -46,7 +46,7 @@ The documentation is organised into several major sections. Each has its own URL
 - **Resources** (`/resources/`) — handling of images, fonts, PDFs and other files (local, network, web, cloud)
 - **Miscellaneous** (`/misc/`) — version history, Peakboard API, MS Teams notifications, screenshots via HTTP
 
-## Complete URL inventory (as of 2026-10-12)
+## Complete URL inventory (as of 2026-10-19)
 
 > **Note for LLMs and humans alike:** the list below is auto-regenerated from the sitemap. The authoritative, always-current source is https://help.peakboard.com/sitemap.xml — fall back to it if this snapshot looks incomplete or stale. The flat list below is intended as a quick lookup; for thematic grouping and overview, see the section above and the manually maintained `llms.txt`.
 
@@ -54,7 +54,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 
 <!-- AUTOGEN:START — content between the AUTOGEN markers is regenerated from sitemap.xml; do not edit by hand -->
 
-### German documentation pages (254)
+### German documentation pages (257)
 
 - /administration/de-Aktualisieren.html: https://help.peakboard.com/administration/de-Aktualisieren.html
 - /administration/de-change-application.html: https://help.peakboard.com/administration/de-change-application.html
@@ -225,7 +225,9 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Listen/de-hub_use-list.html: https://help.peakboard.com/hub/Listen/de-hub_use-list.html
 - /hub/Peakboard_Hub_on_premise/de-get-started.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-get-started.html
 - /hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_boxmanagement.html
+- /hub/Peakboard_Hub_on_premise/de-hub_dba-guidelines.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_dba-guidelines.html
 - /hub/Peakboard_Hub_on_premise/de-hub_installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_installation.html
+- /hub/Peakboard_Hub_on_premise/de-hub_migration-iis-to-windows-service.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_migration-iis-to-windows-service.html
 - /hub/Peakboard_Hub_on_premise/de-hub_mqtt.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_mqtt.html
 - /hub/Peakboard_Hub_on_premise/de-hub_silent-installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_silent-installation.html
 - /hub/Peakboard_Hub_on_premise/de-hub_uninstallation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/de-hub_uninstallation.html
@@ -237,11 +239,12 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Peakboard_Hub_online/de-hub-online_powerautomate.html: https://help.peakboard.com/hub/Peakboard_Hub_online/de-hub-online_powerautomate.html
 - /hub/Peakboard_Hub_online/de-hub-online_usermanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_online/de-hub-online_usermanagement.html
 - /hub/Peakboard_Hub_online/de-provisioning.html: https://help.peakboard.com/hub/Peakboard_Hub_online/de-provisioning.html
+- /hub/Peakboard_LINK/de-hub_peakboard-link-licensing.html: https://help.peakboard.com/hub/Peakboard_LINK/de-hub_peakboard-link-licensing.html
+- /hub/Peakboard_LINK/de-hub_peakboard-link.html: https://help.peakboard.com/hub/Peakboard_LINK/de-hub_peakboard-link.html
 - /hub/de-hub_api.html: https://help.peakboard.com/hub/de-hub_api.html
 - /hub/de-hub_box-add.html: https://help.peakboard.com/hub/de-hub_box-add.html
 - /hub/de-hub_connectpbdesigner.html: https://help.peakboard.com/hub/de-hub_connectpbdesigner.html
 - /hub/de-hub_files.html: https://help.peakboard.com/hub/de-hub_files.html
-- /hub/de-hub_peakboard-link.html: https://help.peakboard.com/hub/de-hub_peakboard-link.html
 - /hub/de-hub_sharedconnections.html: https://help.peakboard.com/hub/de-hub_sharedconnections.html
 - /hub/de-hub_usergroup-create.html: https://help.peakboard.com/hub/de-hub_usergroup-create.html
 - /hub/de-hub_usergroup-delete.html: https://help.peakboard.com/hub/de-hub_usergroup-delete.html
@@ -311,7 +314,7 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /scripting/de-tabellen-daten.html: https://help.peakboard.com/scripting/de-tabellen-daten.html
 - /scripting/de-variables.html: https://help.peakboard.com/scripting/de-variables.html
 
-### English documentation pages (253)
+### English documentation pages (256)
 
 - /administration/en-adding.html: https://help.peakboard.com/administration/en-adding.html
 - /administration/en-certificates.html: https://help.peakboard.com/administration/en-certificates.html
@@ -481,7 +484,9 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Lists/en-hub_use-list.html: https://help.peakboard.com/hub/Lists/en-hub_use-list.html
 - /hub/Peakboard_Hub_on_premise/en-get-started.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-get-started.html
 - /hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.html
+- /hub/Peakboard_Hub_on_premise/en-hub_dba-guidelines.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_dba-guidelines.html
 - /hub/Peakboard_Hub_on_premise/en-hub_installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_installation.html
+- /hub/Peakboard_Hub_on_premise/en-hub_migration-iis-to-windows-service.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_migration-iis-to-windows-service.html
 - /hub/Peakboard_Hub_on_premise/en-hub_mqtt.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_mqtt.html
 - /hub/Peakboard_Hub_on_premise/en-hub_silent-installation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_silent-installation.html
 - /hub/Peakboard_Hub_on_premise/en-hub_uninstallation.html: https://help.peakboard.com/hub/Peakboard_Hub_on_premise/en-hub_uninstallation.html
@@ -493,11 +498,12 @@ URLs are sorted alphabetically by path. Each URL leads to a single documentation
 - /hub/Peakboard_Hub_online/en-hub-online_powerautomate.html: https://help.peakboard.com/hub/Peakboard_Hub_online/en-hub-online_powerautomate.html
 - /hub/Peakboard_Hub_online/en-hub-online_usermanagement.html: https://help.peakboard.com/hub/Peakboard_Hub_online/en-hub-online_usermanagement.html
 - /hub/Peakboard_Hub_online/en-provisioning.html: https://help.peakboard.com/hub/Peakboard_Hub_online/en-provisioning.html
+- /hub/Peakboard_LINK/en-hub_peakboard-link-licensing.html: https://help.peakboard.com/hub/Peakboard_LINK/en-hub_peakboard-link-licensing.html
+- /hub/Peakboard_LINK/en-hub_peakboard-link.html: https://help.peakboard.com/hub/Peakboard_LINK/en-hub_peakboard-link.html
 - /hub/en-hub_api.html: https://help.peakboard.com/hub/en-hub_api.html
 - /hub/en-hub_box-add.html: https://help.peakboard.com/hub/en-hub_box-add.html
 - /hub/en-hub_connectpbdesigner.html: https://help.peakboard.com/hub/en-hub_connectpbdesigner.html
 - /hub/en-hub_files.html: https://help.peakboard.com/hub/en-hub_files.html
-- /hub/en-hub_peakboard-link.html: https://help.peakboard.com/hub/en-hub_peakboard-link.html
 - /hub/en-hub_sharedconnections.html: https://help.peakboard.com/hub/en-hub_sharedconnections.html
 - /hub/en-hub_usergroup-create.html: https://help.peakboard.com/hub/en-hub_usergroup-create.html
 - /hub/en-hub_usergroup-delete.html: https://help.peakboard.com/hub/en-hub_usergroup-delete.html
