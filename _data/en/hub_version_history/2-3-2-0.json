@@ -1,0 +1,224 @@
+[
+  {
+    "version": "2.3.2.0",
+    "date": "19.10.2026",
+    "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/2.3.2.0/PeakboardHubSetup.exe",
+    "tabs": [
+      {
+        "name": "Peakboard LINK",
+        "content": [
+          {
+            "type": "image",
+            "image": "hub_2-3-0-0-PeakboardLink_en.png",
+            "description": "With Peakboard LINK, Peakboard applications from the Hub file storage run directly in a web browser. Each instance has its own board link and QR code, and you can see at a glance how many clients are connected."
+          },
+          {
+            "type": "image",
+            "image": "hub_2-3-0-0-PeakboardLinkBoard_en.png",
+            "description": "Any licensed screen with a web browser can open the board link and shows the running application."
+          }
+        ]
+      },
+      {
+        "name": "Box groups",
+        "content": [
+          {
+            "type": "image",
+            "image": "hub_2-3-0-0-BoxGroupTabs.png",
+            "description": "Box groups now have their own tabs for the overview, settings, updates, application, and scheduling, so a whole group can be managed in one place."
+          }
+        ]
+      },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Peakboard LINK"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added Peakboard LINK. Run Peakboard applications from the Hub file storage directly in a web browser, without a Peakboard Box.",
+              "Added the ability to create several instances per Peakboard LINK, each with its own board link and QR code.",
+              "Added an optional 5-digit access code per instance to restrict who can open a board.",
+              "Added an overview of the connected clients, the resource usage, and the logs of each instance.",
+              "Added LINK device and user licenses, which can be assigned directly in the Hub.",
+              "Added a notification and an 'Update project' action when the source file of a Peakboard LINK has a newer version."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Installation and operation"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "The Peakboard Hub and the Peakboard Hub API now run as Windows services and no longer require IIS. When updating, the existing IIS configuration, including the HTTP port and the HTTPS certificate, is migrated automatically.",
+              "Added the Peakboard Hub Configurator. It lets you manage the services, ports, HTTPS certificate, database connection, and authentication settings without manually editing the appsettings.json file.",
+              "Reworked the setup with a clearer structure and a grouped component selection.",
+              "Added the ability to set up the database on a remote SQL Server using SQL authentication.",
+              "Added the ability to initialize an existing, empty database.",
+              "Added the option to create a database backup before an update, so a working database is still available if the update fails.",
+              "Added the option to create the necessary firewall rules for the configured ports.",
+              "The required .NET runtime is now detected automatically and installed if it is missing.",
+              "The SQL Server Express installation is now skipped if the same version is already installed.",
+              "Changed the default installation folder to C:\\Program Files\\Peakboard\\PeakboardHub and the default data folders (files, Hub Flows, box updates, Peakboard LINK) to C:\\ProgramData\\Peakboard\\PeakboardHub. When updating, you can choose whether to move existing folders.",
+              "The uninstaller now works correctly with multiple Hub installations on one machine.",
+              "The uninstaller now also removes files from previous Hub versions, as well as itself and the installation folder if it is empty.",
+              "Fixed an issue where the setup could be continued without creating or selecting a database user.",
+              "Fixed an issue where the setup seemed to be stuck while installing SQL Server Express. The progress bar now only takes the selected steps into account.",
+              "Fixed an issue where an error message was shown when setting up the Hub with a custom database."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Boxes"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added tabs (Overview, Settings, Updates, Application, Scheduling) to the box groups in the tile and list view of the box overview.",
+              "Added 'Reset' and 'Restart' buttons to the system tab of the box details page, including a confirmation warning.",
+              "Added a warning when uploading an application that requires an Enterprise license to a box with a Professional license. For uploads running in the background, the warning is written to the log.",
+              "Added the ability to disable an encrypted box connection.",
+              "Improved the runtime update so that only the relevant runtime versions are offered. The fourth digit of the runtime version, which is used for Designer-only hotfixes, is no longer considered.",
+              "Long box names are now shortened, so they no longer break the layout.",
+              "Boxes without a name are now shown as 'n/A' instead of breaking the box overview.",
+              "Orphaned boxes that are no longer assigned to any user group are now removed from the database.",
+              "Fixed an issue where users with screenshot-only access could see box information like the IP address, runtime version, and box user, as well as the Web Access and delete buttons. Live updates now also work for these users.",
+              "Fixed an issue where uploading a runtime update file failed because of the file size limit.",
+              "Fixed an issue where the application of a box group was not updated in the UI when switching to another group.",
+              "Fixed an issue where the dropdown selection was not updated after uploading a .pbmx file from the local file system.",
+              "Fixed an issue where the selection was not saved when uploading an application from the Hub files to a box. The upload button is now disabled until an application is selected.",
+              "Fixed an issue where the dialog for updating the credentials of a deactivated box gave no feedback and showed an incorrectly styled password input.",
+              "Fixed an issue where the box initialization dialog was cut off.",
+              "Fixed an incorrect tooltip of the button for encrypting the box connection."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Lists"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added the ability to use a Hub list as validation for the cells of a list column.",
+              "Added the ability to select multiple lists in the list explorer (with Ctrl and Shift) to group, delete, or export them together.",
+              "Added the ability to select multiple rows, or all visible rows, and delete them at once.",
+              "List imports now run in the background. The list shows an updating status until the import is completed, and you are notified once it is finished. While the import is running, the list cannot be changed.",
+              "Replaced the list grid with a new implementation.",
+              "The CSV import now validates column titles. Spaces are no longer allowed in list names and are replaced with '_' in column names.",
+              "When switching between lists, the data of the previous list is now removed before the next list is loaded.",
+              "Improved the performance of database access, especially for continuous list read and write operations.",
+              "Fixed an issue where the tick size of a number constraint was ignored when entering values.",
+              "Fixed an issue where editing a list was reset when the data was changed externally at the same time, e.g. by a Hub Flow.",
+              "Fixed an issue where an InternalServerError occurred when many Hub data sources were loaded at the same time."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Variables"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Reworked the variables page into a table view with filter and sorting options.",
+              "Added a confirmation dialog before deleting a variable."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "File Manager"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Reworked the file manager UI.",
+              "Added a 'Run Application' button to upload an application directly to a single box or a box group. The 'Upload' button has been renamed to 'Add File'.",
+              "Added a setting for the maximum number of versions stored per file. The default value is 10 (unlimited for updates). When the limit is reached, the oldest version is deleted.",
+              "Added a back button to leave the full screen view.",
+              "The image preview now keeps the aspect ratio of the image instead of always using a square format."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added a link from a flow step to its output list, and from a flow list to its Hub Flow.",
+              "Moved the download of a flow project to the context menu.",
+              "Fixed an issue where Hub Flows crashed when several flows were started at the same time.",
+              "Fixed an issue where writing to a Hub Flow output list failed with an 'Incorrect syntax' error.",
+              "Fixed an issue where the Hub Flows folder was not moved when it was changed in the settings.",
+              "Removed a false warning that was shown when a flow was started before its previous run was completed."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Test system"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Users and their user settings are now also copied to the test system.",
+              "Added the option to keep lists that only exist on the test system during the synchronization. Existing lists are updated, and missing lists are created.",
+              "Added a warning when enabling the test mode, since data may be lost depending on the settings of the main Hub."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Users"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed an issue where users who had subscribed to push notifications could not be deleted."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Logs"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "If the MQTT broker port is blocked, the error is now logged at startup and then only once per day instead of every 10 seconds."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Alerts"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Fixed an issue where solving an alert sent the email notification a second time.",
+              "Fixed the layout of the empty state of the email content tile in the alert settings."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "General"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Added notifications for long-running operations, such as list imports, which are shown once the operation is finished.",
+              "If the database cannot be reached when the Hub starts, the Hub now keeps running, shows an error page, and recovers automatically once the database is available again.",
+              "Old browsers that cannot display the Hub now show an error message instead of a blank page.",
+              "The login page now supports browser features like saving credentials.",
+              "Added a back button for smaller screens.",
+              "Replaced the remaining third-party UI components with Peakboard's own controls.",
+              "Unified the design of buttons, links, input fields, info boxes, and colors across the Hub.",
+              "Improved security by parameterizing all database queries.",
+              "Fixed the text alignment in confirmation dialogs."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "version": "2.3.2.0",
+    "date": "19.10.2026",
+    "download_url": "https://downloads.peakboard.com/download/PeakboardHub/archive/2.3.2.0/PeakboardHubSetup.exe",
+    "tabs": [
+      {
+        "name": "Peakboard LINK",
+        "content": [
+          {
+            "type": "image",
+            "image": "hub_2-3-0-0-PeakboardLink_de.png",
+            "description": "Mit Peakboard LINK laufen Peakboard-Anwendungen aus dem Hub-Dateispeicher direkt im Webbrowser. Jede Instanz hat einen eigenen Board-Link und QR-Code, und die Anzahl der verbundenen Clients ist auf einen Blick sichtbar."
+          },
+          {
+            "type": "image",
+            "image": "hub_2-3-0-0-PeakboardLinkBoard_de.png",
+            "description": "Jeder lizenzierte Bildschirm mit Webbrowser kann den Board-Link öffnen und zeigt die laufende Anwendung an."
+          }
+        ]
+      },
+      {
+        "name": "Box-Gruppen",
+        "content": [
+          {
+            "type": "image",
+            "image": "hub_2-3-0-0-BoxGroupTabs.png",
+            "description": "Box-Gruppen haben nun eigene Tabs für Übersicht, Einstellungen, Updates, Anwendung und Zeitplanung, sodass eine ganze Gruppe an einer Stelle verwaltet werden kann."
+          }
+        ]
+      },
+      {
+        "name": "General overview",
+        "content": [
+          {
+            "type": "headline",
+            "text": "Peakboard LINK"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Peakboard LINK wurde hinzugefügt. Peakboard-Anwendungen aus dem Hub-Dateispeicher können damit direkt im Webbrowser ausgeführt werden, ohne Peakboard Box.",
+              "Die Möglichkeit wurde hinzugefügt, mehrere Instanzen pro Peakboard LINK anzulegen, jeweils mit eigenem Board-Link und QR-Code.",
+              "Ein optionaler 5-stelliger Zugangscode pro Instanz wurde hinzugefügt, um einzuschränken, wer ein Board öffnen darf.",
+              "Eine Übersicht über die verbundenen Clients, die Ressourcennutzung und die Logs jeder Instanz wurde hinzugefügt.",
+              "LINK-Geräte- und Benutzerlizenzen wurden hinzugefügt, die direkt im Hub zugewiesen werden können.",
+              "Ein Hinweis und eine Aktion „Projekt aktualisieren“ wurden hinzugefügt, wenn die Quelldatei eines Peakboard LINK eine neuere Version hat."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Installation und Betrieb"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Der Peakboard Hub und die Peakboard Hub API laufen nun als Windows-Dienste und benötigen kein IIS mehr. Bei einem Update wird die bestehende IIS-Konfiguration, einschließlich HTTP-Port und HTTPS-Zertifikat, automatisch übernommen.",
+              "Der Peakboard Hub Configurator wurde hinzugefügt. Damit lassen sich Dienste, Ports, HTTPS-Zertifikat, Datenbankverbindung und Authentifizierungseinstellungen verwalten, ohne die Datei appsettings.json manuell bearbeiten zu müssen.",
+              "Das Setup wurde mit einer übersichtlicheren Struktur und einer gruppierten Komponentenauswahl überarbeitet.",
+              "Die Möglichkeit wurde hinzugefügt, die Datenbank auf einem entfernten SQL Server mit SQL-Authentifizierung einzurichten.",
+              "Die Möglichkeit wurde hinzugefügt, eine bereits existierende, leere Datenbank zu initialisieren.",
+              "Die Option wurde hinzugefügt, vor einem Update eine Datenbanksicherung zu erstellen, sodass bei einem fehlgeschlagenen Update weiterhin eine funktionierende Datenbank verfügbar ist.",
+              "Die Option wurde hinzugefügt, die notwendigen Firewall-Regeln für die konfigurierten Ports anzulegen.",
+              "Die benötigte .NET-Runtime wird nun automatisch erkannt und installiert, falls sie fehlt.",
+              "Die Installation von SQL Server Express wird nun übersprungen, wenn dieselbe Version bereits installiert ist.",
+              "Der Standard-Installationsordner wurde auf C:\\Program Files\\Peakboard\\PeakboardHub und die Standard-Datenordner (Dateien, Hub Flows, Box-Updates, Peakboard LINK) auf C:\\ProgramData\\Peakboard\\PeakboardHub geändert. Bei einem Update kann gewählt werden, ob bestehende Ordner verschoben werden sollen.",
+              "Der Uninstaller funktioniert nun korrekt mit mehreren Hub-Installationen auf einem Rechner.",
+              "Der Uninstaller entfernt nun auch Dateien aus früheren Hub-Versionen sowie sich selbst und den Installationsordner, falls dieser leer ist.",
+              "Ein Problem wurde behoben, durch das das Setup fortgesetzt werden konnte, ohne einen Datenbankbenutzer anzulegen oder auszuwählen.",
+              "Ein Problem wurde behoben, bei dem das Setup während der Installation von SQL Server Express hängen zu bleiben schien. Der Fortschrittsbalken berücksichtigt nun nur die ausgewählten Schritte.",
+              "Ein Problem wurde behoben, bei dem beim Einrichten des Hubs mit einer eigenen Datenbank eine Fehlermeldung angezeigt wurde."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Boxen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Tabs (Übersicht, Einstellungen, Updates, Anwendung, Zeitplanung) wurden zu den Box-Gruppen in der Kachel- und Listenansicht der Box-Übersicht hinzugefügt.",
+              "„Zurücksetzen“- und „Neustart“-Buttons wurden zum System-Tab der Box-Detailseite hinzugefügt, inklusive einer Warnung vor der Ausführung.",
+              "Eine Warnung wurde hinzugefügt, wenn eine Anwendung, die eine Enterprise-Lizenz benötigt, auf eine Box mit Professional-Lizenz hochgeladen wird. Bei Uploads im Hintergrund wird die Warnung ins Log geschrieben.",
+              "Die Möglichkeit wurde hinzugefügt, eine verschlüsselte Box-Verbindung wieder zu deaktivieren.",
+              "Das Runtime-Update wurde verbessert, sodass nur noch die relevanten Runtime-Versionen angeboten werden. Die vierte Stelle der Runtime-Version, die für reine Designer-Hotfixes verwendet wird, wird nicht mehr berücksichtigt.",
+              "Lange Box-Namen werden nun gekürzt, sodass sie das Layout nicht mehr sprengen.",
+              "Boxen ohne Namen werden nun als „n/A“ angezeigt, anstatt die Box-Übersicht unbrauchbar zu machen.",
+              "Verwaiste Boxen, die keiner Benutzergruppe mehr zugeordnet sind, werden nun aus der Datenbank entfernt.",
+              "Ein Problem wurde behoben, bei dem Benutzer mit reinem Screenshot-Zugriff Box-Informationen wie IP-Adresse, Runtime-Version und Box-Benutzer sowie die Web-Access- und Löschen-Buttons sehen konnten. Live-Aktualisierungen funktionieren nun auch für diese Benutzer.",
+              "Ein Problem wurde behoben, durch das das Hochladen einer Runtime-Update-Datei aufgrund der Dateigrößenbegrenzung fehlschlug.",
+              "Ein Problem wurde behoben, bei dem die Anwendung einer Box-Gruppe beim Wechsel zu einer anderen Gruppe in der UI nicht aktualisiert wurde.",
+              "Ein Problem wurde behoben, bei dem die Auswahl im Dropdown nach dem Hochladen einer .pbmx-Datei aus dem lokalen Dateisystem nicht aktualisiert wurde.",
+              "Ein Problem wurde behoben, bei dem die Auswahl beim Hochladen einer Anwendung aus den Hub-Dateien auf eine Box nicht gespeichert wurde. Der Upload-Button ist nun deaktiviert, bis eine Anwendung ausgewählt wurde.",
+              "Ein Problem wurde behoben, bei dem der Dialog zum Aktualisieren der Zugangsdaten einer deaktivierten Box keine Rückmeldung gab und ein fehlerhaft dargestelltes Passwortfeld zeigte.",
+              "Ein Problem wurde behoben, bei dem der Dialog zur Box-Initialisierung abgeschnitten wurde.",
+              "Ein fehlerhafter Tooltip des Buttons zum Verschlüsseln der Box-Verbindung wurde korrigiert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Listen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Möglichkeit wurde hinzugefügt, eine Hub-Liste als Validierung für die Zellen einer Listenspalte zu verwenden.",
+              "Die Möglichkeit wurde hinzugefügt, im Listen-Explorer mehrere Listen auszuwählen (mit Strg und Umschalt), um sie gemeinsam zu gruppieren, zu löschen oder zu exportieren.",
+              "Die Möglichkeit wurde hinzugefügt, mehrere oder alle sichtbaren Zeilen auszuwählen und auf einmal zu löschen.",
+              "Listenimporte laufen nun im Hintergrund. Die Liste zeigt bis zum Abschluss des Imports einen Aktualisierungsstatus an, und nach Abschluss erfolgt eine Benachrichtigung. Während des Imports kann die Liste nicht geändert werden.",
+              "Die Tabellenansicht der Listen wurde durch eine neue Implementierung ersetzt.",
+              "Der CSV-Import validiert nun die Spaltentitel. Leerzeichen sind in Listennamen nicht mehr erlaubt und werden in Spaltennamen durch „_“ ersetzt.",
+              "Beim Wechseln zwischen Listen werden die Daten der vorherigen Liste nun entfernt, bevor die nächste Liste geladen wird.",
+              "Die Performance der Datenbankzugriffe wurde verbessert, insbesondere bei fortlaufenden Lese- und Schreibvorgängen auf Listen.",
+              "Ein Problem wurde behoben, bei dem die Schrittweite einer Zahlen-Beschränkung bei der Eingabe von Werten ignoriert wurde.",
+              "Ein Problem wurde behoben, bei dem die Bearbeitung einer Liste zurückgesetzt wurde, wenn die Daten gleichzeitig extern geändert wurden, z. B. durch einen Hub Flow.",
+              "Ein Problem wurde behoben, bei dem ein InternalServerError auftrat, wenn viele Hub-Datenquellen gleichzeitig geladen wurden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Peakboard Hub Variablen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Variablenseite wurde zu einer Tabellenansicht mit Filter- und Sortiermöglichkeiten überarbeitet.",
+              "Ein Bestätigungsdialog vor dem Löschen einer Variable wurde hinzugefügt."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Dateimanager"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Die Oberfläche des Dateimanagers wurde überarbeitet.",
+              "Ein Button „Anwendung ausführen“ wurde hinzugefügt, um eine Anwendung direkt auf eine einzelne Box oder eine Box-Gruppe hochzuladen. Der Button „Hochladen“ wurde in „Datei hinzufügen“ umbenannt.",
+              "Eine Einstellung für die maximale Anzahl gespeicherter Versionen pro Datei wurde hinzugefügt. Der Standardwert ist 10 (unbegrenzt bei updates). Ist das Limit erreicht, wird die älteste Version gelöscht.",
+              "Ein Zurück-Button zum Verlassen der Vollbildansicht wurde hinzugefügt.",
+              "Die Bildvorschau behält nun das Seitenverhältnis des Bildes bei, anstatt immer ein quadratisches Format zu verwenden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Hub Flows"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Link von einem Flow-Schritt zu seiner Ausgabeliste und von einer Flow-Liste zu ihrem Hub Flow wurde hinzugefügt.",
+              "Der Download eines Flow-Projekts wurde in das Kontextmenü verschoben.",
+              "Ein Problem wurde behoben, bei dem Hub Flows abstürzten, wenn mehrere Flows gleichzeitig gestartet wurden.",
+              "Ein Problem wurde behoben, bei dem das Schreiben in eine Hub-Flow-Ausgabeliste mit dem Fehler „Incorrect syntax“ fehlschlug.",
+              "Ein Problem wurde behoben, bei dem der Hub-Flows-Ordner nicht verschoben wurde, wenn er in den Einstellungen geändert wurde.",
+              "Eine fälschliche Warnung wurde entfernt, die angezeigt wurde, wenn ein Flow gestartet wurde, bevor sein vorheriger Durchlauf abgeschlossen war."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Testsystem"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Benutzer und ihre Benutzereinstellungen werden nun ebenfalls auf das Testsystem kopiert.",
+              "Die Option wurde hinzugefügt, Listen, die nur auf dem Testsystem existieren, bei der Synchronisierung beizubehalten. Bestehende Listen werden aktualisiert und fehlende Listen angelegt.",
+              "Eine Warnung beim Aktivieren des Testmodus wurde hinzugefügt, da je nach Einstellungen des Haupt-Hubs Daten verloren gehen können."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Benutzer"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Problem wurde behoben, durch das Benutzer, die Push-Benachrichtigungen abonniert hatten, nicht gelöscht werden konnten."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Protokolle"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ist der Port des MQTT-Brokers blockiert, wird der Fehler nun beim Start und danach nur noch einmal pro Tag protokolliert, anstatt alle 10 Sekunden."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Benachrichtigungen"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Ein Problem wurde behoben, bei dem beim Lösen einer Benachrichtigung die E-Mail ein zweites Mal versendet wurde.",
+              "Die Darstellung des leeren Zustands der E-Mail-Inhaltskachel in den Benachrichtigungseinstellungen wurde korrigiert."
+            ]
+          },
+          {
+            "type": "headline",
+            "text": "Allgemein"
+          },
+          {
+            "type": "list",
+            "list_items": [
+              "Benachrichtigungen für länger laufende Vorgänge, wie z. B. Listenimporte, wurden hinzugefügt. Sie werden angezeigt, sobald der Vorgang abgeschlossen ist.",
+              "Ist die Datenbank beim Start des Hubs nicht erreichbar, läuft der Hub nun weiter, zeigt eine Fehlerseite an und startet automatisch, sobald die Datenbank wieder verfügbar ist.",
+              "Veraltete Browser, die den Hub nicht darstellen können, zeigen nun eine Fehlermeldung anstatt einer leeren Seite.",
+              "Die Login-Seite unterstützt nun Browser-Funktionen wie das Speichern von Zugangsdaten.",
+              "Ein Zurück-Button für kleinere Bildschirme wurde hinzugefügt.",
+              "Die verbliebenen UI-Komponenten von Drittanbietern wurden durch eigene Peakboard-Steuerelemente ersetzt.",
+              "Das Design von Buttons, Links, Eingabefeldern, Infoboxen und Farben wurde im gesamten Hub vereinheitlicht.",
+              "Die Sicherheit wurde durch die Parametrisierung aller Datenbankabfragen verbessert.",
+              "Die Textausrichtung in Bestätigungsdialogen wurde korrigiert."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
