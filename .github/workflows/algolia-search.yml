@@ -11,7 +11,7 @@ jobs:
     env:
       JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3' # Not needed with a `.ruby-version` or `.tool-versions`
@@ -20,4 +20,4 @@ jobs:
         uses: dieghernan/algolia-jekyll-action@main
         with:
           APIKEY: '${{ secrets.ALGOLIA_API_KEY }}'
-          ruby-version: '3.1'
+          ruby-version: '3.3'
