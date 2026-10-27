@@ -73,7 +73,7 @@ In both cases the installation keeps its service name, ports, certificates and d
 
 The data folder is normally `C:\ProgramData\Peakboard\PeakboardHub`. If that folder is already used by another installation, the setup adds a number, for example `PeakboardHub_2` (the screenshot was taken on a test server with several installations).
 
-<div class="box-tip" markdown="1"> **Note**: The move is only offered for the old default folder `C:\inetpub\PeakboardHub`. An installation in a custom folder is updated in that folder. From the command line you can move any IIS-era installation, see [Migration from the command line](#migration-from-the-command-line). The new folder must be on the same drive as `C:\ProgramData`.
+<div class="box-tip" markdown="1"> **Note**: The move is only offered for the old default folder `C:\inetpub\PeakboardHub`. An installation in a custom folder is updated in that folder. From the command line you can move any IIS-era installation, see [Migration from the command line](#migration-from-the-command-line), or move it by hand, see [Moving the installation manually](#moving-the-installation-manually). The new folder must be on the same drive as `C:\ProgramData`.
 </div>
 
 If you chose [Yes], the setup then asks **Remove the old folder?**:
@@ -189,6 +189,48 @@ PeakboardHubSetup.exe -Silent True ^
 
 <div class="box-warning" markdown="1"> **Important**: The command line and the wizard handle the IIS bindings differently. From the command line, **all** bindings of the IIS site that can be reused are taken over by default. Pass `-HubEndpointsFromIis False` (Public API: `-ApiEndpointsFromIis False`) to take nothing from IIS and only use the ports given on the command line.
 </div>
+
+### Moving the installation manually
+
+If the setup does not offer the move — for example when it does not recognize the installation as an IIS-era installation, or when the Peakboard Hub was already updated to a Windows service in its old folder and should only now be moved to the recommended folders — you can move the installation by hand.
+
+The steps use `C:\inetpub\PeakboardHub` as the old folder and the recommended folders as the new ones: `C:\Program Files\Peakboard\PeakboardHub` for the programs and `C:\ProgramData\Peakboard\PeakboardHub` for the data. Replace them with your own folders where they differ. Make the backups described in [Before you start](#before-you-start) first, and run all steps with administrator rights.
+
+1. **Look up the data folders.** Open the Peakboard Hub in the browser and go to **Settings**. Note the value of **Folder for storing files** (section **Files**) and of **Folder for storing active Hub Flow Applications** (section **Hub Flows**). A relative path refers to a folder inside the program folder.
+2. **Install the new version.** Run the latest setup and select the existing folder on the **Installation Folders** page. If the Peakboard Hub still runs in IIS, it is converted to a Windows service in its current folder. If it already runs as a Windows service in the new version, skip this step.
+3. **Check that the installation worked.** The **Installation finished** page shows no errors, the **Peakboard Hub** service is running in the Windows **Services** (`services.msc`), and you can sign in to the Peakboard Hub in the browser and see your boxes, files and Hub Flows. Continue only when everything works.
+4. **Move the data folders in the Hub settings.** On the **Settings** page of the Peakboard Hub, set:
+   * **Folder for storing files** to `C:\ProgramData\Peakboard\PeakboardHub\HubFileStorage\`
+   * **Folder for storing active Hub Flow Applications** to `C:\ProgramData\Peakboard\PeakboardHub\PeakboardHubFlows`
+
+   When you save a new folder, the Peakboard Hub moves the existing content there itself. Running Hub Flows are stopped for the move and started again afterwards. Wait until the move has finished — the old folders are empty or deleted — before you continue.
+5. **Stop the service.** Stop the **Peakboard Hub** service in the Windows **Services**, or from a command prompt:
+
+   ```bat
+   sc.exe stop PeakboardHub
+   ```
+
+   If you gave the service a different name during the installation, use that name here and in the following steps. You find it in the properties of the service under **Service name**.
+6. **Move the program folder.** Move the complete folder `C:\inetpub\PeakboardHub` with all its content, including the `appsettings.json`, to `C:\Program Files\Peakboard\PeakboardHub`.
+7. **Remove the service.** The service still points to the old folder. Delete it:
+
+   ```bat
+   sc.exe delete PeakboardHub
+   ```
+
+8. **Run the setup again in the new folder to create the service.** Run the setup and select **Peakboard Hub**. On the **Installation Folders** page enter the new folder `C:\Program Files\Peakboard\PeakboardHub`. On the **Update Peakboard Hub** page:
+   * clear **Update Hub program files** — the files are already up to date
+   * leave **Set up database** unchecked
+   * **Configure Hub Windows service (ports & firewall)** is selected and cannot be changed, because no service exists for this folder yet
+
+   On the **Service Configuration** page the setup shows the default ports and HTTP settings. Adjust them, as well as the service name the installation had before, to your needs. Click [Update]. The setup creates and starts the Windows service, opens the ports in the Windows Firewall and registers the installation in Windows **Apps & Features**.
+9. **Remove the old registry entries.** The setup records every installation in the registry. The entries of the old folder remain and show up as a second Peakboard Hub in **Apps & Features** and in the Peakboard Hub Configurator — and their uninstaller would act on the old folder. Open the Registry Editor (`regedit`) and export the keys before you delete them:
+   * Under `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard\Hub` find the subkey whose value `InstallPath` is the old folder `C:\inetpub\PeakboardHub`. Note its name (the installation ID) and delete the subkey. Do **not** delete the subkey whose `InstallPath` is the new folder.
+   * Delete `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\<installation ID>` with the noted name.
+   * If the keys of older setup versions `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard Hub` and `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Peakboard Hub` still exist and point to the old folder, delete them too.
+10. **Check the result.** Sign in to the Peakboard Hub again and check your boxes, files and Hub Flows. Then update everything that refers to the old folder, see [After the migration](#after-the-migration). You can delete the old folder once it is empty.
+
+The **Public API** is moved the same way with steps 5 to 9: the service is called `PeakboardHubApi`, the folders are `C:\inetpub\PeakboardHubApi` and `C:\Program Files\Peakboard\PeakboardHubApi`, the components are **Update API program files** and **Configure API Windows service (ports & firewall)**, and its registry entries are under `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard\Api` (older setup versions: `Peakboard Hub API`). The Public API has no data folders of its own.
 
 ### Going back to the previous version
 
