@@ -76,7 +76,7 @@ When the AI client connects for the first time, it opens the page **Authorizatio
 2. Paste your API key into the **API Key** field.
 3. Click **Authorize Access**.
 
-The browser returns to the AI client, and the connection is ready. If the key is wrong, expired or deleted, the page answers with `Invalid or expired API key`.
+The browser returns to the AI client, and the connection is ready. If the key is wrong, expired or deleted, the browser shows the error `Invalid or expired API key` instead. In this case, start the connection in the AI client again and enter a valid API key.
 
 The AI client receives an access token that is valid for one hour and is renewed automatically, so you do not have to authorize again every hour.
 

@@ -76,7 +76,7 @@ Wenn sich der KI-Client zum ersten Mal verbindet, öffnet er in Ihrem Browser di
 2. Fügen Sie Ihren API-Schlüssel in das Feld **API Key** ein.
 3. Klicken Sie auf **Authorize Access**.
 
-Der Browser kehrt zum KI-Client zurück, und die Verbindung ist eingerichtet. Ist der Schlüssel falsch, abgelaufen oder gelöscht, antwortet die Seite mit `Invalid or expired API key`.
+Der Browser kehrt zum KI-Client zurück, und die Verbindung ist eingerichtet. Ist der Schlüssel falsch, abgelaufen oder gelöscht, zeigt der Browser stattdessen den Fehler `Invalid or expired API key`. Starten Sie in diesem Fall die Verbindung im KI-Client erneut und geben Sie einen gültigen API-Schlüssel ein.
 
 Der KI-Client erhält ein Zugriffstoken, das eine Stunde gültig ist und automatisch erneuert wird. Sie müssen also nicht jede Stunde neu autorisieren.
 
