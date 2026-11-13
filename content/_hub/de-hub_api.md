@@ -87,3 +87,7 @@ Autorisieren Sie mit dem so erhaltenen Token alle nachfolgende Aufrufe, indem Si
    `'Authorization': 'Bearer <your-authorization-token>'`.
 
 > **Hinweis:** Autorisierungstokens sind nur temporär gültig und müssen nach Ablauf erneuert werden.
+
+### MCP Server
+
+Die API enthält außerdem einen MCP Server, über den KI-Clients wie Claude oder ChatGPT den Peakboard Hub nutzen können. Siehe [Peakboard Hub MCP Server](/hub/de-hub_mcp.html).

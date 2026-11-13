@@ -87,3 +87,7 @@ Use the token in subsequent calls by including the header:
    `'Authorization': 'Bearer <your-authorization-token>'`.
 
 > **Note:** Tokens are temporary and must be renewed once expired.
+
+### MCP Server
+
+The API also includes an MCP server that lets AI clients such as Claude or ChatGPT use the Peakboard Hub. See [Peakboard Hub MCP Server](/hub/en-hub_mcp.html).
