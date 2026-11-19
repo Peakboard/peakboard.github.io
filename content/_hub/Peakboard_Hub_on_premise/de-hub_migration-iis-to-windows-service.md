@@ -159,7 +159,7 @@ Wurden deine Benutzer vor der Migration automatisch mit ihrem Windows-Konto ange
 1. Öffne den **Peakboard Hub Configurator** aus dem Windows-Startmenü.
 2. Wechsle zu **Authentication**.
 3. Aktiviere unter **Windows single sign-on** die Option **Enable Windows SSO (Negotiate)**.
-4. Klicke auf [Apply changes]. Der Peakboard Hub Configurator startet den Peakboard Hub neu.
+4. Klicke auf [Apply changes] und bestätige den Dialog **Apply configuration changes** mit [Apply and restart]. Der Peakboard Hub Configurator startet den Peakboard Hub neu.
 
 Single Sign-on funktioniert nicht über HTTP/2 und nicht hinter einem Reverse Proxy. Für den HTTPS-Endpunkt musst du nichts tun — das Setup legt ihn auf HTTP/1.1 fest. Die Anmeldequelle (**Local Users** oder **AD Users**) wird aus der `appsettings.json` übernommen und bleibt, wie sie war.
 

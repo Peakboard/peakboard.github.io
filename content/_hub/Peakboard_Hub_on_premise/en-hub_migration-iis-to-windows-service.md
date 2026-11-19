@@ -159,7 +159,7 @@ If your users were signed in automatically with their Windows account before the
 1. Open the **Peakboard Hub Configurator** from the Windows Start menu.
 2. Go to **Authentication**.
 3. Under **Windows single sign-on**, enable **Enable Windows SSO (Negotiate)**.
-4. Click [Apply changes]. The Peakboard Hub Configurator restarts the Peakboard Hub.
+4. Click [Apply changes] and confirm the **Apply configuration changes** dialog with [Apply and restart]. The Peakboard Hub Configurator restarts the Peakboard Hub.
 
 Single sign-on does not work over HTTP/2 or behind a reverse proxy. For the HTTPS endpoint you don't have to do anything — the setup sets it to HTTP/1.1. The sign-in source (**Local Users** or **AD Users**) is carried over from `appsettings.json` and stays as it was.
 
