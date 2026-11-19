@@ -8264,7 +8264,7 @@
    "entry": "[Resources] - permissions for local resources extended",
    "source": "json",
    "verdict": "review",
-   "article": "content/_hub/en-hub_api.md",
+   "article": "content/_hub/API/en-hub_api.md",
    "score": 0.6,
    "matched": [
     "resources",
@@ -27724,7 +27724,7 @@
    "entry": "Files added as a resource can be downloaded",
    "source": "archive",
    "verdict": "documented",
-   "article": "content/_hub/en-hub_api.md",
+   "article": "content/_hub/API/en-hub_api.md",
    "score": 0.8,
    "matched": [
     "resource",

@@ -1194,7 +1194,7 @@ and write the article where there really is none.
 | Input validation | You can check if there are unused resources, data sources or variables in your project and delete them directly in the newly created dialog if you don't need them anymore. | `review` | `content/_resources/en-resources-intro.md` (69%) |
 | General | [Peakboard Designer installation] - added option to cancel closing Peakboard Designer | `review` | `content/_get_started/en-autosave.md` (46%) |
 | General | [Peakboard Box settings] - added cancel button for version warning when uploading a visualization | `review` | `content/_scripting/en-building-blocks.md` (70%) |
-| General | [Resources] - permissions for local resources extended | `review` | `content/_hub/en-hub_api.md` (60%) |
+| General | [Resources] - permissions for local resources extended | `review` | `content/_hub/API/en-hub_api.md` (60%) |
 | General | [Resources] - resources can be changed dynamically when referencing a path instead of just an ID. | `review` | `content/_controls/Document/en-pdf.md` (54%) |
 | Datasources | [Extensions] - extensive revision of the extensions dialog - more information in the highlights | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (47%) |
 | Dataflows | Extensive rework of the dataflow dialog - see highlights for more information | `review` | `content/_data_sources/Extension/en-MsGraphAPI.md` (66%) |
@@ -2435,7 +2435,7 @@ and write the article where there really is none.
 | Archive | Significant improvement in performance when processing scripts (Multithreading) | `undocumented` |  |
 | Archive | The dialog of the Excel data source has been fundamentally revised. | `undocumented` |  |
 | Archive | Debugger for Lua scripts implemented | `review` | `content/_administration/en-data-debugger.md` (59%) |
-| Archive | Files added as a resource can be downloaded | `documented` | `content/_hub/en-hub_api.md` (80%) |
+| Archive | Files added as a resource can be downloaded | `documented` | `content/_hub/API/en-hub_api.md` (80%) |
 | Archive | Added Save&Close button to scripts | `documented` | `content/_administration/en-shutdown-WoL.md` (100%) |
 | Archive | Error handling improved | `documented` | `content/_controls/Basics/en-formating-values.md` (100%) |
 | Archive | Error message for screenshots adjusted | `documented` | `content/_hub/Peakboard_Hub_on_premise/en-hub_boxmanagement.md` (100%) |

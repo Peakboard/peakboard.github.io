@@ -8,6 +8,7 @@ lang: de
 weight: 1000
 ref: hub-1000
 redirect_from:
+  - /hub/de-hub_api.html
 ---
 
 Die **Peakboard Hub API** ermöglicht die Integration von Peakboard-Anwendungen in individuelle Umgebungen. Für die Nutzung der API ist eine Peakboard Hub Online- oder On-Premises-Lizenz erforderlich.
@@ -90,4 +91,4 @@ Autorisieren Sie mit dem so erhaltenen Token alle nachfolgende Aufrufe, indem Si
 
 ### MCP Server
 
-Die API enthält außerdem einen MCP Server, über den KI-Clients wie Claude oder ChatGPT den Peakboard Hub nutzen können. Siehe [Peakboard Hub MCP Server](/hub/de-hub_mcp.html).
+Die API enthält außerdem einen MCP Server, über den KI-Clients wie Claude oder ChatGPT den Peakboard Hub nutzen können. Siehe [Peakboard Hub MCP Server](/hub/API/de-hub_mcp.html).

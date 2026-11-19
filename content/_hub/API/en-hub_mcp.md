@@ -8,15 +8,16 @@ lang: en
 weight: 1010
 ref: hub-1010
 redirect_from:
+  - /hub/en-hub_mcp.html
 ---
 
 The **Peakboard Hub API** includes an **MCP server**. MCP (Model Context Protocol) is an open standard that lets AI clients such as Claude, ChatGPT or Visual Studio Code use external tools. Once connected, the AI client can, for example, read and edit your Peakboard Hub Lists, send alerts, take a screenshot of a Peakboard Box or start a Hub Flow — simply by being asked in a chat.
 
-The MCP server is part of the [Peakboard Hub API](/hub/en-hub_api.html). It is available in Peakboard Hub Online and in Peakboard Hub On-Premises from version 2.2.5.0.
+The MCP server is part of the [Peakboard Hub API](/hub/API/en-hub_api.html). It is available in Peakboard Hub Online and in Peakboard Hub On-Premises from version 2.2.5.0.
 
 ### Requirements
 
-- A Peakboard Hub Online account or a Peakboard Hub On-Premises installation with the **Peakboard Hub Public API** installed (see [Peakboard Hub API](/hub/en-hub_api.html)).
+- A Peakboard Hub Online account or a Peakboard Hub On-Premises installation with the **Peakboard Hub Public API** installed (see [Peakboard Hub API](/hub/API/en-hub_api.html)).
 - An **API key** of the user group whose data the AI client may access.
 - An AI client that supports remote MCP servers over HTTP with OAuth authorization.
 

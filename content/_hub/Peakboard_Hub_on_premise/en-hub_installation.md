@@ -61,7 +61,7 @@ When you start the setup, the welcome screen appears together with the current s
 On the **Choose Components** page you decide which products you want to set up:
 
 * **Peakboard Hub** (1) — The Peakboard Hub web application itself. Keep this option enabled for an initial installation.
-* **Peakboard Hub Public API** (2) — Optional REST interface that lets you talk to the Peakboard Hub from other systems. It is installed into its own folder and runs as its own Windows service. More about it in the [Peakboard Hub API](/hub/en-hub_api.html) article.
+* **Peakboard Hub Public API** (2) — Optional REST interface that lets you talk to the Peakboard Hub from other systems. It is installed into its own folder and runs as its own Windows service. More about it in the [Peakboard Hub API](/hub/API/en-hub_api.html) article.
 
 Click [Next] to continue.
 

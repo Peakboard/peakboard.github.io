@@ -175,6 +175,9 @@ collections:
       Peakboard_LINK:
         en: "Peakboard LINK"
         de: "Peakboard LINK"
+      API:
+        en: "API"
+        de: "API"
 
   edge:
     output: true

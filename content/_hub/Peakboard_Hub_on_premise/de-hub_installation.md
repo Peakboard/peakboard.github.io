@@ -61,7 +61,7 @@ Nach dem Start erscheint der Begrüßungsbildschirm mit der aktuellen Setup-Vers
 Auf der Seite **Choose Components** legst du fest, welche Produkte du einrichten möchtest:
 
 * **Peakboard Hub** (1) — Die Webanwendung des Peakboard Hub selbst. Bei einer Erstinstallation immer aktiviert lassen.
-* **Peakboard Hub Public API** (2) — Optionale REST-Schnittstelle, mit der du den Peakboard Hub aus anderen Systemen heraus ansprechen kannst. Sie wird in einen eigenen Ordner installiert und läuft als eigener Windows-Dienst. Mehr dazu im Artikel [Peakboard Hub API](/hub/de-hub_api.html).
+* **Peakboard Hub Public API** (2) — Optionale REST-Schnittstelle, mit der du den Peakboard Hub aus anderen Systemen heraus ansprechen kannst. Sie wird in einen eigenen Ordner installiert und läuft als eigener Windows-Dienst. Mehr dazu im Artikel [Peakboard Hub API](/hub/API/de-hub_api.html).
 
 Klicke anschließend auf [Next].
 
