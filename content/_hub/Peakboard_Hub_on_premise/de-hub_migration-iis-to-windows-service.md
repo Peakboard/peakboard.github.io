@@ -192,45 +192,74 @@ PeakboardHubSetup.exe -Silent True ^
 
 ### Installation manuell verschieben
 
-Sollte das Setup das Verschieben nicht anbieten — zum Beispiel, wenn es die Installation nicht als Installation aus der IIS-Zeit erkennt, oder wenn der Peakboard Hub bereits in seinem alten Ordner zum Windows-Dienst aktualisiert wurde und erst jetzt in die empfohlenen Ordner verschoben werden soll —, kannst du die Installation dann von Hand verschieben.
+Verschiebe die Installation nur dann von Hand, wenn das Setup das Verschieben nicht anbietet — zum Beispiel, wenn es die Installation nicht als Installation aus der IIS-Zeit erkennt, oder wenn der Peakboard Hub bereits als Windows-Dienst in seinem alten Ordner läuft.
 
-Die Schritte verwenden `C:\inetpub\PeakboardHub` als alten Ordner und die empfohlenen Ordner als neue: `C:\Program Files\Peakboard\PeakboardHub` für die Programme und `C:\ProgramData\Peakboard\PeakboardHub` für die Daten. Ersetze sie durch deine eigenen Ordner, wo sie abweichen. Lege zuerst die unter [Bevor du beginnst](#bevor-du-beginnst) beschriebenen Sicherungen an und führe alle Schritte mit Administratorrechten aus.
+Die Schritte verwenden die folgenden Ordner. Ersetze sie durch deine eigenen Ordner, wo sie abweichen.
 
-1. **Datenordner nachschlagen.** Öffne den Peakboard Hub im Browser und wechsle zu **Settings**. Notiere dir den Wert von **Folder for storing files** (Bereich **Files**) und von **Folder for storing active Hub Flow Applications** (Bereich **Hub Flows**). Ein relativer Pfad verweist auf einen Ordner im Programmordner.
-2. **Neue Version installieren.** Starte das aktuelle Setup und wähle auf der Seite **Installation Folders** den bestehenden Ordner. Läuft der Peakboard Hub noch im IIS, wird er in seinem aktuellen Ordner in einen Windows-Dienst umgewandelt. Läuft er bereits in der neuen Version als Windows-Dienst, überspringe diesen Schritt.
-3. **Prüfen, ob die Installation funktioniert hat.** Die Seite **Installation finished** zeigt keine Fehler, der Dienst **Peakboard Hub** läuft in den Windows-**Diensten** (`services.msc`), und du kannst dich im Browser am Peakboard Hub anmelden und siehst deine Boxen, Dateien und Hub Flows. Fahre erst fort, wenn alles funktioniert.
-4. **Datenordner in den Hub-Einstellungen verschieben.** Setze auf der Seite **Settings** des Peakboard Hub:
-   * **Folder for storing files** auf `C:\ProgramData\Peakboard\PeakboardHub\HubFileStorage\`
-   * **Folder for storing active Hub Flow Applications** auf `C:\ProgramData\Peakboard\PeakboardHub\PeakboardHubFlows`
+| Ordner | Pfad |
+|---|---|
+| Alter Ordner | `C:\inetpub\PeakboardHub` |
+| Neuer Programmordner | `C:\Program Files\Peakboard\PeakboardHub` |
+| Neuer Datenordner | `C:\ProgramData\Peakboard\PeakboardHub` |
 
-   Wenn du einen neuen Ordner speicherst, verschiebt der Peakboard Hub den vorhandenen Inhalt selbst dorthin. Laufende Hub Flows werden für das Verschieben angehalten und danach wieder gestartet. Warte, bis das Verschieben abgeschlossen ist — die alten Ordner sind leer oder gelöscht —, bevor du fortfährst.
-5. **Dienst stoppen.** Stoppe den Dienst **Peakboard Hub** in den Windows-**Diensten** oder in einer Eingabeaufforderung:
+Lege zuerst die unter [Bevor du beginnst](#bevor-du-beginnst) beschriebenen Sicherungen an und führe alle Schritte mit Administratorrechten aus.
 
-   ```bat
-   sc.exe stop PeakboardHub
-   ```
+#### Teil 1 — Im alten Ordner aktualisieren
 
-   Hast du dem Dienst bei der Installation einen anderen Namen gegeben, verwende diesen hier und in den folgenden Schritten. Du findest ihn in den Eigenschaften des Dienstes unter **Dienstname**.
-6. **Programmordner verschieben.** Verschiebe den kompletten Ordner `C:\inetpub\PeakboardHub` mit seinem gesamten Inhalt, einschließlich der `appsettings.json`, nach `C:\Program Files\Peakboard\PeakboardHub`.
-7. **Dienst entfernen.** Der Dienst verweist noch auf den alten Ordner. Lösche ihn:
+Überspringe diesen Teil, wenn der Peakboard Hub bereits in der aktuellen Version als Windows-Dienst läuft.
 
-   ```bat
-   sc.exe delete PeakboardHub
-   ```
+1. Starte das aktuelle Setup und wähle auf der Seite **Installation Folders** den bestehenden Ordner. Das Setup wandelt den Peakboard Hub in diesem Ordner in einen Windows-Dienst um.
+2. Prüfe, ob das Update funktioniert hat: Die Seite **Installation finished** zeigt keine Fehler, der Dienst **Peakboard Hub** läuft (`services.msc`), und du kannst dich anmelden und siehst deine Boxen, Dateien und Hub Flows.
 
-8. **Setup im neuen Ordner erneut ausführen, um den Dienst anzulegen.** Starte das Setup und wähle **Peakboard Hub**. Gib auf der Seite **Installation Folders** den neuen Ordner `C:\Program Files\Peakboard\PeakboardHub` ein. Auf der Seite **Update Peakboard Hub**:
-   * wähle **Update Hub program files** ab — die Dateien sind bereits aktuell
-   * lass **Set up database** abgewählt
-   * **Configure Hub Windows service (ports & firewall)** ist ausgewählt und lässt sich nicht ändern, weil für diesen Ordner noch kein Dienst existiert
+Fahre erst fort, wenn alles funktioniert.
 
-   Auf der Seite **Service Configuration** zeigt das Setup die Standardports und HTTP-Einstellungen an. Passe diese, sowie den bisherigen Dienstnamen der Installation, passend deinen Wünschen an. Klicke auf [Update]. Das Setup legt den Windows-Dienst an und startet ihn, öffnet die Ports in der Windows-Firewall und trägt die Installation unter Windows **Apps & Features** ein.
-9. **Alte Registry-Einträge entfernen.** Das Setup legt für jede Installation Einträge in der Registry an. Die Einträge des alten Ordners bleiben erhalten und erscheinen als zweiter Peakboard Hub unter **Apps & Features** und im Peakboard Hub Configurator — und ihr Uninstaller würde auf den alten Ordner zugreifen. Öffne den Registrierungs-Editor (`regedit`) und exportiere die Schlüssel, bevor du sie löschst:
-   * Suche unter `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard\Hub` den Unterschlüssel, dessen Wert `InstallPath` der alte Ordner `C:\inetpub\PeakboardHub` ist. Notiere dir seinen Namen (die Installations-ID) und lösche den Unterschlüssel. Lösche **nicht** den Unterschlüssel, dessen `InstallPath` der neue Ordner ist.
-   * Lösche `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\<Installations-ID>` mit dem notierten Namen.
-   * Existieren die Schlüssel älterer Setup-Versionen `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard Hub` und `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Peakboard Hub` noch und verweisen auf den alten Ordner, lösche sie ebenfalls.
-10. **Ergebnis prüfen.** Melde dich erneut am Peakboard Hub an und prüfe deine Boxen, Dateien und Hub Flows. Passe anschließend alles an, was auf den alten Ordner verweist, siehe [Nach der Migration](#nach-der-migration). Den alten Ordner kannst du löschen, sobald er leer ist.
+#### Teil 2 — Datenordner verschieben
 
-Die **Public API** verschiebst du genauso mit den Schritten 5 bis 9: Der Dienst heißt `PeakboardHubApi`, die Ordner sind `C:\inetpub\PeakboardHubApi` und `C:\Program Files\Peakboard\PeakboardHubApi`, die Komponenten heißen **Update API program files** und **Configure API Windows service (ports & firewall)**, und ihre Registry-Einträge liegen unter `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard\Api` (ältere Setup-Versionen: `Peakboard Hub API`). Die Public API hat keine eigenen Datenordner.
+1. Öffne den Peakboard Hub im Browser und wechsle zu **Settings**.
+2. Setze im Bereich **Files** den **Folder for storing files** auf `C:\ProgramData\Peakboard\PeakboardHub\HubFileStorage\`.
+3. Setze im Bereich **Hub Flows** den **Folder for storing active Hub Flow Applications** auf `C:\ProgramData\Peakboard\PeakboardHub\PeakboardHubFlows`.
+4. Speichere. Der Peakboard Hub verschiebt den vorhandenen Inhalt selbst in die neuen Ordner. Laufende Hub Flows werden für das Verschieben angehalten und danach wieder gestartet.
+5. Warte, bis die alten Ordner leer oder gelöscht sind.
+
+#### Teil 3 — Programmordner verschieben
+
+1. Stoppe den Dienst: `sc.exe stop PeakboardHub`
+2. Verschiebe den kompletten Ordner `C:\inetpub\PeakboardHub` einschließlich der `appsettings.json` nach `C:\Program Files\Peakboard\PeakboardHub`.
+3. Lösche den Dienst, denn er verweist noch auf den alten Ordner: `sc.exe delete PeakboardHub`
+
+Hast du dem Dienst bei der Installation einen anderen Namen gegeben, verwende diesen statt `PeakboardHub`. Du findest ihn in den Eigenschaften des Dienstes unter **Dienstname**.
+
+#### Teil 4 — Dienst im neuen Ordner anlegen
+
+1. Starte das Setup und wähle **Peakboard Hub**.
+2. Gib auf der Seite **Installation Folders** den neuen Ordner `C:\Program Files\Peakboard\PeakboardHub` ein.
+3. Wähle auf der Seite **Update Peakboard Hub** die Option **Update Hub program files** ab (die Dateien sind bereits aktuell) und lass **Set up database** abgewählt. **Configure Hub Windows service (ports & firewall)** bleibt ausgewählt.
+4. Lege auf der Seite **Service Configuration** die Ports, die HTTP-Einstellungen und den bisherigen Dienstnamen fest.
+5. Klicke auf **Update**. Das Setup legt den Windows-Dienst an und startet ihn, öffnet die Ports in der Windows-Firewall und trägt die Installation unter Windows **Apps & Features** ein.
+
+#### Teil 5 — Alte Registry-Einträge entfernen
+
+Die Registry-Einträge des alten Ordners bleiben erhalten. Sie erscheinen als zweiter Peakboard Hub unter **Apps & Features** und im Peakboard Hub Configurator, und ihr Uninstaller würde auf den alten Ordner zugreifen. Öffne den Registrierungs-Editor (`regedit`) und exportiere jeden Schlüssel, bevor du ihn löschst.
+
+1. Suche unter `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard\Hub` den Unterschlüssel, dessen Wert `InstallPath` der alte Ordner ist. Notiere dir seinen Namen (die Installations-ID) und lösche den Unterschlüssel. Lösche **nicht** den Unterschlüssel des neuen Ordners.
+2. Lösche `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\<Installations-ID>`.
+3. Existieren die Schlüssel älterer Setup-Versionen noch und verweisen auf den alten Ordner, lösche sie ebenfalls: `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard Hub` und `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Peakboard Hub`.
+
+#### Teil 6 — Ergebnis prüfen
+
+Melde dich am Peakboard Hub an und prüfe deine Boxen, Dateien und Hub Flows. Passe anschließend alles an, was auf den alten Ordner verweist, siehe [Nach der Migration](#nach-der-migration). Den alten Ordner kannst du löschen, sobald er leer ist.
+
+#### Public API verschieben
+
+Die Public API verschiebst du mit den Teilen 3 bis 5. Sie hat keine eigenen Datenordner. Verwende diese Werte:
+
+| | Peakboard Hub | Public API |
+|---|---|---|
+| Dienst | `PeakboardHub` | `PeakboardHubApi` |
+| Alter Ordner | `C:\inetpub\PeakboardHub` | `C:\inetpub\PeakboardHubApi` |
+| Neuer Ordner | `C:\Program Files\Peakboard\PeakboardHub` | `C:\Program Files\Peakboard\PeakboardHubApi` |
+| Komponenten | **Update Hub program files**, **Configure Hub Windows service (ports & firewall)** | **Update API program files**, **Configure API Windows service (ports & firewall)** |
+| Registry | `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard\Hub` (ältere Setup-Versionen: `Peakboard Hub`) | `HKEY_LOCAL_MACHINE\SOFTWARE\Peakboard\Api` (ältere Setup-Versionen: `Peakboard Hub API`) |
 
 ### Zur vorherigen Version zurückkehren
 
