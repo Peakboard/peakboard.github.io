@@ -196,6 +196,7 @@ Verschiebe die Installation nur dann von Hand, wenn das Setup das Verschieben ni
 
 Die Schritte verwenden die folgenden Ordner. Ersetze sie durch deine eigenen Ordner, wo sie abweichen.
 
+{: .w-full }
 | Ordner | Pfad |
 |---|---|
 | Alter Ordner | `C:\inetpub\PeakboardHub` |
@@ -235,7 +236,7 @@ Hast du dem Dienst bei der Installation einen anderen Namen gegeben, verwende di
 2. Gib auf der Seite **Installation Folders** den neuen Ordner `C:\Program Files\Peakboard\PeakboardHub` ein.
 3. Wähle auf der Seite **Update Peakboard Hub** die Option **Update Hub program files** ab (die Dateien sind bereits aktuell) und lass **Set up database** abgewählt. **Configure Hub Windows service (ports & firewall)** bleibt ausgewählt.
 4. Lege auf der Seite **Service Configuration** die Ports, die HTTP-Einstellungen und den bisherigen Dienstnamen fest.
-5. Klicke auf **Update**. Das Setup legt den Windows-Dienst an und startet ihn, öffnet die Ports in der Windows-Firewall und trägt die Installation unter Windows **Apps & Features** ein.
+5. Klicke auf [Update]. Das Setup legt den Windows-Dienst an und startet ihn, öffnet die Ports in der Windows-Firewall und trägt die Installation unter Windows **Apps & Features** ein.
 
 #### Teil 5 — Alte Registry-Einträge entfernen
 
@@ -253,6 +254,7 @@ Melde dich am Peakboard Hub an und prüfe deine Boxen, Dateien und Hub Flows. Pa
 
 Die Public API verschiebst du mit den Teilen 3 bis 5. Sie hat keine eigenen Datenordner. Verwende diese Werte:
 
+{: .w-full }
 | | Peakboard Hub | Public API |
 |---|---|---|
 | Dienst | `PeakboardHub` | `PeakboardHubApi` |

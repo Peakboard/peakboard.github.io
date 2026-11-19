@@ -196,6 +196,7 @@ Move the installation by hand only if the setup does not offer the move — for 
 
 The steps use the following folders. Replace them with your own where they differ.
 
+{: .w-full }
 | Folder | Path |
 |---|---|
 | Old folder | `C:\inetpub\PeakboardHub` |
@@ -235,7 +236,7 @@ If you gave the service a different name during the installation, use that name 
 2. On the **Installation Folders** page, enter the new folder `C:\Program Files\Peakboard\PeakboardHub`.
 3. On the **Update Peakboard Hub** page, clear **Update Hub program files** (the files are already up to date) and leave **Set up database** cleared. **Configure Hub Windows service (ports & firewall)** stays selected.
 4. On the **Service Configuration** page, set the ports, the HTTP settings and the previous service name.
-5. Click **Update**. The setup creates and starts the Windows service, opens the ports in the Windows Firewall and adds the installation to Windows **Apps & Features**.
+5. Click [Update]. The setup creates and starts the Windows service, opens the ports in the Windows Firewall and adds the installation to Windows **Apps & Features**.
 
 #### Part 5 — Remove the old registry entries
 
@@ -253,6 +254,7 @@ Sign in to the Peakboard Hub and check your boxes, files and Hub Flows. Then upd
 
 Move the Public API with parts 3 to 5. It has no data folders of its own. Use these values instead:
 
+{: .w-full }
 | | Peakboard Hub | Public API |
 |---|---|---|
 | Service | `PeakboardHub` | `PeakboardHubApi` |
