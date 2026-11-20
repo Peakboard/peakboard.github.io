@@ -32,6 +32,8 @@ For Peakboard Hub On-Premises, use the host name of the server the API is instal
 
 > **Note:** The AI client must be able to reach this address. Desktop clients (for example Claude Desktop or Visual Studio Code) running in your network can use the address of your local server. AI clients that run in the cloud (for example ChatGPT or Claude in the browser) can only connect to a Peakboard Hub On-Premises that is reachable from the internet via HTTPS.
 
+> **Important for ChatGPT:** ChatGPT only connects to MCP servers via **HTTPS** on port **443**. An address with `http://` or with another port (for example `https://<your-api-server>:20689/mcp`) does not work. Peakboard Hub Online (`https://api.peakboard.com/mcp`) already meets this requirement. For Peakboard Hub On-Premises, make the API reachable from the internet via HTTPS on port 443 (for example with a reverse proxy, or by choosing port 443 as the HTTPS port of the API) and enter the address without a port: `https://<your-api-server>/mcp`.
+
 ### Step 1: Create an API key
 
 The MCP server signs you in with an API key of the Peakboard Hub. The scopes of this key decide what the AI client is allowed to do.
@@ -66,6 +68,8 @@ Examples:
   ```
 
 For Peakboard Hub On-Premises, replace the address with the address of your own API server.
+
+In **ChatGPT**, enter an `https://` address on port 443 — see [Address of the MCP server](#address-of-the-mcp-server).
 
 ### Step 3: Authorize the AI client
 
