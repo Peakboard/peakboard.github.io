@@ -16,7 +16,7 @@ Die Listenansicht im Peakboard Hub bietet dir eine zentrale Oberfläche zum Verw
 
 In der linken Seitenleiste werden unter dem Menüpunkt [Lists] alle angelegten Listen angezeigt. Über den [Add] Button (1) legst du neue Listen an oder importierst bestehende. Klickst du eine Liste (2) an, öffnet sich ihr Inhalt im Hauptbereich.
 
-Jede Liste verfügt über ein Dreipunktmenü (3), das weitere Aktionen bietet: [Delete] (Löschen), [Download] (Herunterladen), [Duplicate structure] (Struktur duplizieren), [Export structure] (Strukturexport) und [Move to group] (in eine Gruppe verschieben).
+Jede Liste verfügt über ein Dreipunktmenü (3), das weitere Aktionen bietet: [Select] (Auswählen), [Delete] (Löschen), [Download] (Herunterladen), [Duplicate structure] (Struktur duplizieren), [Export structure] (Strukturexport) und [Move inside folder] (in einen Ordner verschieben). Befindet sich die Liste bereits in einem Ordner, heißt diese Option stattdessen [Change folder] (Ordner wechseln).
 
 ![Listen Seitenleiste](/assets/images/hub/lists-overview/lists-overview-01-sidebar.png)
 

@@ -16,7 +16,7 @@ The list view in Peakboard Hub provides a central interface for managing, editin
 
 In the left sidebar, all created lists are displayed under the menu item [Lists]. Use the [Add] button (1) to create new lists or import existing ones. Clicking a list (2) opens its contents in the main area.
 
-Each list has a three-dot menu (3) that offers additional actions: [Delete], [Download], [Duplicate structure], [Export structure] and [Move to group].
+Each list has a three-dot menu (3) that offers additional actions: [Select], [Delete], [Download], [Duplicate structure], [Export structure] and [Move inside folder]. If the list is already in a folder, this option is called [Change folder] instead.
 
 ![Lists sidebar](/assets/images/hub/lists-overview/lists-overview-01-sidebar.png)
 
